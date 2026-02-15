@@ -32,14 +32,14 @@ description: "Master Reverse Kesa-Gatame Top in BJJ. Complete guide covering con
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura from Side Control",
-      "text": "From this position, attempt Kimura from Side Control. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Kimura",
+      "text": "From this position, attempt Kimura. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Americana from Side Control",
-      "text": "From this position, attempt Americana from Side Control. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Americana",
+      "text": "From this position, attempt Americana. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
@@ -50,8 +50,8 @@ description: "Master Reverse Kesa-Gatame Top in BJJ. Complete guide covering con
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take Generic",
-      "text": "From this position, attempt Back Take Generic. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Back Take",
+      "text": "From this position, attempt Back Take. This technique is attempted in 15% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,13 +210,13 @@ Reverse Kesa-Gatame Top is a dominant pinning position where the top practitione
 
 ### [[Side Control to North-South]] (18% of attempts)
 
-### [[Kimura from Side Control]] (18% of attempts)
+### [[Kimura]] (18% of attempts)
 
-### [[Americana from Side Control]] (15% of attempts)
+### [[Americana]] (15% of attempts)
 
 ### [[Arm Triangle]] (12% of attempts)
 
-### [[Back Take Generic]] (15% of attempts)
+### [[Back Take]] (15% of attempts)
 
 
 
@@ -227,8 +227,8 @@ Reverse Kesa-Gatame Top is a dominant pinning position where the top practitione
 ## Decision Making from This Position
 
 **If opponent remains flat and defensive with minimal movement:**
-- Execute **[[Kimura from Side Control]]** → [[Kimura Trap]] (Probability: 60%)
-- Execute **[[Americana from Side Control]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 60%)
+- Execute **[[Americana]]** → [[Side Control]] (Probability: 55%)
 - Execute **[[Arm Triangle]]** → [[Side Control]] (Probability: 50%)
 
 
@@ -238,12 +238,12 @@ Reverse Kesa-Gatame Top is a dominant pinning position where the top practitione
 
 
 **If opponent shrimps away attempting elbow escape:**
-- Execute **[[Knee Slide to Knee on Belly]]** → [[Knee on Belly]] (Probability: 65%)
+- Execute **[[Knee on Belly]]** → [[Knee on Belly]] (Probability: 65%)
 - Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 60%)
 
 
 **If opponent turns into you exposing their back:**
-- Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 75%)
+- Execute **[[Back Take]]** → [[Back Control]] (Probability: 75%)
 - Execute **[[Side Control to North-South]]** → [[Crucifix]] (Probability: 55%)
 
 

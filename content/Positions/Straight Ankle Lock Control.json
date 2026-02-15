@@ -173,7 +173,7 @@
         "condition": "If attacker commits heavily to submission attempt sacrificing upper body positioning",
         "actions": [
           {
-            "technique": "Pass to Top Control",
+            "technique": "Pass to Side Control",
             "target": "Side Control",
             "probability": 55
           },
@@ -306,35 +306,31 @@
     "transitions": [
       {
         "transition": "Ashi Garami Escape",
-        "attempt_probability": 12
+        "attempt_probability": 25
       },
       {
         "transition": "Counter Entry to Opponent's Leg",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Standing Escape",
-        "attempt_probability": 10
+        "attempt_probability": 15
       },
       {
         "transition": "Hip Rotation Defense",
-        "attempt_probability": 10
+        "attempt_probability": 15
       },
       {
         "transition": "Knee Extraction",
-        "attempt_probability": 10
+        "attempt_probability": 15
       },
       {
         "transition": "Frame and Distance Creation",
-        "attempt_probability": 10
+        "attempt_probability": 12
       },
       {
-        "transition": "Pass to Top Control",
+        "transition": "Pass to Side Control",
         "attempt_probability": 8
       },
       {
-        "transition": "Straight Ankle Lock",
-        "attempt_probability": 30
+        "transition": "Counter-entangle to 50-50 Guard",
+        "attempt_probability": 10
       }
     ]
   },
@@ -449,13 +445,13 @@
         "condition": "If defender straightens leg completely attempting to pull foot out of grip",
         "actions": [
           {
-            "technique": "Straight Ankle Lock",
-            "target": "game-over",
+            "technique": "Ankle Lock Finish",
+            "target": "Game Over",
             "probability": 70
           },
           {
             "technique": "Kneebar Finish",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 55
           }
         ]
@@ -485,7 +481,7 @@
           },
           {
             "technique": "Race to finish ankle lock before defender secures their control",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 45
           }
         ]
@@ -596,40 +592,44 @@
     },
     "transitions": [
       {
-        "transition": "Straight Ankle Lock",
-        "attempt_probability": 11
+        "transition": "Ankle Lock Finish",
+        "attempt_probability": 31
       },
       {
         "transition": "Inside Ashi Entry",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Outside Ashi Entry",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "X-Guard to Ashi Transition",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "50-50 Entry from Standing",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Single Leg X Entry",
         "attempt_probability": 13
       },
       {
-        "transition": "Straight Footlock",
+        "transition": "Outside Ashi Entry",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "X-Guard to Ashi Transition",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "50-50 Entry from Standing",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Single Leg X Entry",
         "attempt_probability": 10
       },
       {
         "transition": "Kneebar Finish",
-        "attempt_probability": 9
+        "attempt_probability": 8
       },
       {
         "transition": "Ankle Pick Sweep",
-        "attempt_probability": 10
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Straight Footlock",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Ankle Lock Escape to Standing",
+        "attempt_probability": 2
       }
     ]
   }

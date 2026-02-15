@@ -1,0 +1,13 @@
+{
+  "name": "Escape Seat Belt Control",
+  "description": "",
+  "tags": [],
+  "from_position": "Seat Belt Control Back/Bottom",
+  "outcomes": [
+    {
+      "to": "Turtle/Bottom",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

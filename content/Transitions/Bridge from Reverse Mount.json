@@ -1,0 +1,13 @@
+{
+  "name": "Bridge from Reverse Mount",
+  "description": "",
+  "tags": [],
+  "from_position": "Reverse Mount/Bottom",
+  "outcomes": [
+    {
+      "to": "Turtle/Bottom",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

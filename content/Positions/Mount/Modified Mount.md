@@ -89,15 +89,15 @@ Modified Mount represents a strategic adaptation of the traditional mount positi
 ### Available Transitions
 
 
-- **[[Hip Escape]]** (18% of attempts)
+- **[[Hip Escape to Guard]]** (20% of attempts)
 
-- **[[Elbow Escape]]** (16% of attempts)
+- **[[Elbow Escape to Guard]]** (16% of attempts)
 
-- **[[Frame and Shrimp]]** (14% of attempts)
+- **[[Frame and Shrimp to Guard]]** (14% of attempts)
 
 - **[[Bridge and Roll]]** (10% of attempts)
 
-- **[[Upa Escape]]** (12% of attempts)
+- **[[Upa Escape]]** (10% of attempts)
 
 - **[[Deep Half Entry]]** (10% of attempts)
 
@@ -164,7 +164,7 @@ Modified Mount represents a strategic adaptation of the traditional mount positi
 ### Available Transitions
 
 
-- **[[Armbar from Mount]]** (15% of attempts)
+- **[[Mount to Armbar]]** (15% of attempts)
 
 - **[[S-Mount Transition]]** (12% of attempts)
 
@@ -172,11 +172,11 @@ Modified Mount represents a strategic adaptation of the traditional mount positi
 
 - **[[High Mount Transition]]** (13% of attempts)
 
-- **[[Americana from Mount]]** (10% of attempts)
+- **[[Americana]]** (10% of attempts)
 
 - **[[Cross Collar Choke]]** (10% of attempts)
 
-- **[[Kimura from Mount]]** (8% of attempts)
+- **[[Kimura]]** (8% of attempts)
 
 - **[[Gift Wrap Transition]]** (12% of attempts)
 

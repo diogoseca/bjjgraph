@@ -21,37 +21,37 @@ description: "Master Deep Half Guard Bottom with powerful sweeps, back takes, an
     {
       "@type": "HowToStep",
       "name": "Execute Waiter Sweep",
-      "text": "From this position, attempt Waiter Sweep. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Waiter Sweep. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Old School Sweep",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 41% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Rolling Back Take",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Electric Chair Submission",
+      "text": "From this position, attempt Electric Chair Submission. This technique is attempted in 6% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Electric Chair Submission",
-      "text": "From this position, attempt Electric Chair Submission. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Underhook Sweep from Half",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute X-Guard Sweep",
+      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,19 +210,27 @@ Deep Half Guard Bottom requires excellent hip mobility, core strength, and timin
 
 ## Available Escapes
 
-### [[Waiter Sweep]] (15% of attempts)
+### [[Waiter Sweep]] (14% of attempts)
 
-### [[Deep Half Entry]] (14% of attempts)
+### [[Old School Sweep]] (41% of attempts)
 
-### [[Old School Sweep]] (17% of attempts)
+### [[Rolling Back Take]] (11% of attempts)
 
-### [[Rolling Back Take]] (14% of attempts)
+### [[Electric Chair Submission]] (6% of attempts)
 
-### [[Electric Chair Submission]] (11% of attempts)
+### [[Underhook Sweep from Half]] (9% of attempts)
 
-### [[Underhook Sweep from Half]] (15% of attempts)
+### [[X-Guard Sweep]] (10% of attempts)
 
-### [[X-Guard Sweep]] (14% of attempts)
+### [[Single Leg X Entry]] (6% of attempts)
+
+### [[Deep Half Sweep]] (2% of attempts)
+
+### [[Deep Half to X-Guard]] (0% of attempts)
+
+### [[Electric Chair Entry from Deep Half]] (0% of attempts)
+
+### [[Homer Simpson Sweep]] (1% of attempts)
 
 
 

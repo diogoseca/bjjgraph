@@ -21,37 +21,37 @@ description: "Master Lockdown Top defense in BJJ. Strategic guide to countering 
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard Pass",
-      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 6% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice from Half",
-      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Pass",
-      "text": "From this position, attempt Underhook Pass. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crossface Pass",
-      "text": "From this position, attempt Crossface Pass. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Crossface Pass. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Extraction to Combat Base",
-      "text": "From this position, attempt Leg Extraction to Combat Base. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Leg Extraction to Combat Base. This technique is attempted in 37% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -206,17 +206,27 @@ Lockdown Top represents the defensive perspective against 10th Planet's signatur
 
 ## Available Attacks
 
-### [[Half Guard Pass]] (16% of attempts)
+### [[Half Guard Pass]] (6% of attempts)
 
-### [[Knee Slice from Half]] (17% of attempts)
+### [[Knee Slice from Half]] (9% of attempts)
 
-### [[Smash Pass]] (14% of attempts)
+### [[Smash Pass]] (8% of attempts)
 
-### [[Underhook Pass]] (16% of attempts)
+### [[Underhook Pass]] (8% of attempts)
 
-### [[Crossface Pass]] (17% of attempts)
+### [[Crossface Pass]] (9% of attempts)
 
-### [[Leg Extraction to Combat Base]] (20% of attempts)
+### [[Leg Extraction to Combat Base]] (37% of attempts)
+
+### [[Transition to Z-Lock Half Guard]] (8% of attempts)
+
+### [[Lockdown Break and Pass]] (10% of attempts)
+
+### [[Darce from Lockdown Counter]] (3% of attempts)
+
+### [[Lockdown Whizzer Pass]] (1% of attempts)
+
+### [[Lockdown to Z-Lock Half Guard]] (1% of attempts)
 
 
 
@@ -294,28 +304,28 @@ Lockdown Top represents the defensive perspective against 10th Planet's signatur
 
 ### Lockdown Escape Drill
 
-Starting trapped in lockdown, practice leg extraction sequences using various methods (circular motion, hip pressure, angle changes). Partner maintains lockdown with moderate resistance. Focus on maintaining posture and base throughout extraction. Duration: 3-5 minutes per round, switching roles.
+Starting trapped in lockdown, practice leg extraction sequences using various methods (circular motion, hip pressure, angle changes). Partner maintains lockdown with moderate resistance. Focus on maintaining posture and base throughout extraction.
 
 **Duration**: 3-5 minutes
 
 
 ### Crossface Control Maintenance Drill
 
-From lockdown top position, establish and maintain crossface control while partner attempts to recover underhook and execute sweeps. Focus on heavy shoulder pressure and preventing bottom player from creating space. Partner provides progressive resistance. Duration: 3-5 minutes per round.
+From lockdown top position, establish and maintain crossface control while partner attempts to recover underhook and execute sweeps. Focus on heavy shoulder pressure and preventing bottom player from creating space. Partner provides progressive resistance.
 
 **Duration**: 3-5 minutes
 
 
 ### Pass After Extraction Flow Drill
 
-Starting in lockdown, extract trapped leg using proper technique, then immediately transition to passing sequence (knee slice, smash, or underhook pass). Reset to lockdown after each sequence. Develop smooth flow from defense to offense. Duration: 5-7 minutes per round.
+Starting in lockdown, extract trapped leg using proper technique, then immediately transition to passing sequence (knee slice, smash, or underhook pass). Reset to lockdown after each sequence. Develop smooth flow from defense to offense.
 
 **Duration**: 5-7 minutes
 
 
 ### Lockdown Defense Positional Sparring
 
-Top player starts trapped in lockdown, bottom player works for sweeps and submissions while top player defends and works to pass. Top player scores for passes, bottom player scores for sweeps and submissions. Resets after each score. Duration: 5-10 minute rounds.
+Top player starts trapped in lockdown, bottom player works for sweeps and submissions while top player defends and works to pass. Top player scores for passes, bottom player scores for sweeps and submissions. Resets after each score.
 
 **Duration**: 5-10 minutes
 

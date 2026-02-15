@@ -99,25 +99,33 @@ The position demands active hip movement and constant angle adjustment to remain
 ### Available Transitions
 
 
-- **[[Pendulum Sweep]]** (11% of attempts)
+- **[[Pendulum Sweep]]** (9% of attempts)
 
-- **[[Flower Sweep]]** (10% of attempts)
+- **[[Flower Sweep]]** (6% of attempts)
 
-- **[[Triangle Setup]]** (9% of attempts)
+- **[[Triangle Setup]]** (49% of attempts)
 
-- **[[Omoplata Sweep]]** (9% of attempts)
+- **[[Omoplata Sweep]]** (6% of attempts)
 
-- **[[Hip Bump Sweep]]** (10% of attempts)
+- **[[Scissor Sweep]]** (7% of attempts)
 
-- **[[Scissor Sweep]]** (12% of attempts)
+- **[[Arm Drag to Back]]** (4% of attempts)
 
-- **[[Arm Drag to Back]]** (9% of attempts)
+- **[[Standing up in Base]]** (1% of attempts)
 
-- **[[Technical Stand Up]]** (9% of attempts)
+- **[[Lapel to Lasso Transition]]** (4% of attempts)
 
-- **[[Lasso Guard Variations]]** (10% of attempts)
+- **[[Lapel to Spider Transition]]** (3% of attempts)
 
-- **[[Spider Guard Variations]]** (11% of attempts)
+- **[[Collar Drag]]** (5% of attempts)
+
+- **[[Hip Bump Sweep]]** (5% of attempts)
+
+- **[[Collar Sleeve Sweep]]** (0% of attempts)
+
+- **[[Collar Sleeve to De La Riva]]** (0% of attempts)
+
+- **[[Collar Sleeve to Spider Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -178,21 +186,29 @@ The position demands active hip movement and constant angle adjustment to remain
 ### Available Transitions
 
 
-- **[[Toreando Pass]]** (12% of attempts)
+- **[[Toreando Pass]]** (8% of attempts)
 
-- **[[Knee Cut Pass]]** (13% of attempts)
+- **[[Knee Cut Pass]]** (10% of attempts)
 
-- **[[Stack Pass]]** (11% of attempts)
+- **[[Stack Pass]]** (8% of attempts)
 
-- **[[Double Under Pass]]** (12% of attempts)
+- **[[Double Under Pass]]** (3% of attempts)
 
-- **[[Leg Drag Pass]]** (11% of attempts)
+- **[[Leg Drag Pass]]** (8% of attempts)
 
-- **[[Knee Slice Pass]]** (13% of attempts)
+- **[[Pressure Pass]]** (7% of attempts)
 
-- **[[Pressure Pass]]** (12% of attempts)
+- **[[Headquarters Pass]]** (30% of attempts)
 
-- **[[Headquarters Pass]]** (16% of attempts)
+- **[[Grip Break]]** (12% of attempts)
+
+- **[[Long Step Pass]]** (4% of attempts)
+
+- **[[X Pass]]** (8% of attempts)
+
+- **[[Bull Pass from Collar Sleeve]]** (1% of attempts)
+
+- **[[Pass Collar Sleeve Guard]]** (1% of attempts)
 
 
 ### Common Mistakes

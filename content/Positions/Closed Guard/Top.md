@@ -21,38 +21,32 @@ description: "Master closed guard top position with defensive strategies, guard 
     {
       "@type": "HowToStep",
       "name": "Execute Guard Opening Sequence",
-      "text": "From this position, attempt Guard Opening Sequence. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Guard Opening Sequence. This technique is attempted in 28% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Toreando Pass",
-      "text": "From this position, attempt Toreando Pass. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Stack Pass",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Standing up in Base",
+      "text": "From this position, attempt Standing up in Base. This technique is attempted in 25% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Stack Pass",
-      "text": "From this position, attempt Stack Pass. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Posture Recovery",
+      "text": "From this position, attempt Posture Recovery. This technique is attempted in 30% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Over-Under Pass",
-      "text": "From this position, attempt Over-Under Pass. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Can Opener",
+      "text": "From this position, attempt Can Opener. This technique is attempted in 5% of exchanges from this position.",
       "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Long Step Pass",
-      "text": "From this position, attempt Long Step Pass. This technique is attempted in 10% of exchanges from this position.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -210,23 +204,15 @@ The closed guard top position exemplifies the strategic complexity of Brazilian 
 
 ## Available Attacks
 
-### [[Guard Opening Sequence]] (13% of attempts)
+### [[Guard Opening Sequence]] (28% of attempts)
 
-### [[Toreando Pass]] (11% of attempts)
+### [[Stack Pass]] (12% of attempts)
 
-### [[Knee Slice Pass]] (12% of attempts)
+### [[Standing up in Base]] (25% of attempts)
 
-### [[Stack Pass]] (10% of attempts)
+### [[Posture Recovery]] (30% of attempts)
 
-### [[Over-Under Pass]] (11% of attempts)
-
-### [[Long Step Pass]] (10% of attempts)
-
-### [[Pressure Pass]] (9% of attempts)
-
-### [[Double Under Pass]] (10% of attempts)
-
-### [[Standing up in Base]] (14% of attempts)
+### [[Can Opener]] (5% of attempts)
 
 
 

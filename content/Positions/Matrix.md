@@ -101,21 +101,25 @@ The position's learning curve is steep, requiring months of dedicated drilling t
 ### Available Transitions
 
 
-- **[[Matrix Back Take]]** (13% of attempts)
+- **[[Matrix Back Take]]** (44% of attempts)
 
-- **[[Rolling Back Take]]** (12% of attempts)
+- **[[Rolling Back Take]]** (8% of attempts)
 
-- **[[Arm Drag to Back]]** (13% of attempts)
+- **[[Arm Drag to Back]]** (8% of attempts)
 
-- **[[Chair Sit to Back]]** (12% of attempts)
+- **[[Chair Sit to Back]]** (6% of attempts)
 
-- **[[Granby Roll]]** (14% of attempts)
+- **[[Granby Roll to Guard]]** (14% of attempts)
 
-- **[[Rolling to Guard]]** (12% of attempts)
+- **[[Rolling to Guard]]** (8% of attempts)
 
-- **[[Berimbolo Entry]]** (11% of attempts)
+- **[[Berimbolo Entry]]** (2% of attempts)
 
-- **[[Turtle to Back Take]]** (13% of attempts)
+- **[[Turtle to Guard]]** (8% of attempts)
+
+- **[[Counter Roll from Matrix]]** (1% of attempts)
+
+- **[[Escape Matrix Position]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -176,21 +180,27 @@ The position's learning curve is steep, requiring months of dedicated drilling t
 ### Available Transitions
 
 
-- **[[Sprawl Defense]]** (15% of attempts)
+- **[[Sprawl Defense]]** (11% of attempts)
 
-- **[[Crossface Pass]]** (13% of attempts)
+- **[[Crossface Pass]]** (10% of attempts)
 
-- **[[Back Step]]** (12% of attempts)
+- **[[Back Step]]** (8% of attempts)
 
-- **[[Knee Slice Pass]]** (14% of attempts)
+- **[[Knee Slice Pass]]** (8% of attempts)
 
-- **[[Turtle to Back Take]]** (13% of attempts)
+- **[[Back Take from Top]]** (26% of attempts)
 
-- **[[Darce from Turtle]]** (11% of attempts)
+- **[[Darce from Turtle]]** (8% of attempts)
 
-- **[[Guillotine from Turtle]]** (12% of attempts)
+- **[[Guillotine from Turtle]]** (8% of attempts)
 
-- **[[Anaconda from Turtle]]** (10% of attempts)
+- **[[Anaconda from Turtle]]** (6% of attempts)
+
+- **[[Turtle Flatten to Side Control]]** (10% of attempts)
+
+- **[[Matrix to Back Control]]** (3% of attempts)
+
+- **[[Matrix to Side Control]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -233,8 +243,6 @@ The position's learning curve is steep, requiring months of dedicated drilling t
 
 - **[[Back Control]]** - Target destination position for successful Matrix completion
 
-- **[[Scramble Position]]** - Dynamic environment where Matrix opportunities frequently arise
-
 - **[[Crab Ride]]** - Alternative back attack approach with similar timing windows
 
 - **[[Deep Half Guard]]** - Shares rotational mechanics and can transition to Matrix
@@ -244,6 +252,8 @@ The position's learning curve is steep, requiring months of dedicated drilling t
 - **[[Seat Belt Control Back]]** - Grip configuration achieved during successful Matrix completion
 
 - **[[Gift Wrap]]** - Alternative control when Matrix brings arm across body
+
+- **[[Front Headlock]]** - Alternative attacking position when Matrix is countered from top
 
 
 </section>

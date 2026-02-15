@@ -1,0 +1,134 @@
+{
+  "name": "Kimura from Crab Ride",
+  "description": "TODO: Write 150-160 character SEO description for Kimura from Crab Ride.",
+  "tags": [
+    "bjj",
+    "transition",
+    "TODO"
+  ],
+  "from_position": "Crab Ride/Top",
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Crab Ride/Top",
+      "probability": 45,
+      "result": "failure"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "TODO: Write overview for Kimura from Crab Ride.",
+  "conditions": [
+    "TODO"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "TODO",
+      "description": "TODO",
+      "when_to_use": "TODO"
+    }
+  ],
+  "position_integration": "TODO: Write position integration for Kimura from Crab Ride.",
+  "related_content": [
+    {
+      "name": "TODO",
+      "relationship": "TODO"
+    }
+  ],
+  "attacker": {
+    "name": "Kimura from Crab Ride Attacker",
+    "description": "TODO: Write attacker description for Kimura from Crab Ride.",
+    "overview": "TODO: Write attacker overview for Kimura from Crab Ride.",
+    "key_principles": [
+      "TODO"
+    ],
+    "setup_requirements": [
+      "TODO"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "TODO",
+        "description": "TODO"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "TODO",
+        "effectiveness": "Medium",
+        "your_response": "TODO",
+        "targets_outcome": "Crab Ride/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "TODO",
+        "description": "TODO"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "TODO",
+        "answer": "TODO"
+      }
+    ],
+    "safety_considerations": "TODO: Write safety considerations for Kimura from Crab Ride."
+  },
+  "defender": {
+    "name": "Kimura from Crab Ride Defender",
+    "description": "TODO: Write defender description for Kimura from Crab Ride.",
+    "overview": "TODO: Write defender overview for Kimura from Crab Ride.",
+    "key_principles": [
+      "TODO"
+    ],
+    "recognition_cues": [
+      "TODO"
+    ],
+    "defensive_options": [
+      {
+        "action": "TODO",
+        "when_to_use": "TODO",
+        "targets_outcome": "Crab Ride/Top",
+        "if_successful": "TODO",
+        "risk": "TODO"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "game-over",
+        "how": "TODO"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "TODO",
+        "answer": "TODO"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "TODO",
+        "description": "TODO"
+      }
+    ]
+  }
+}

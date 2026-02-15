@@ -297,7 +297,7 @@
       "relationship": "Entry pathway to leg entanglement positions"
     },
     {
-      "name": "Technical Standup",
+      "name": "Technical Stand-up",
       "content_type": "Transition",
       "relationship": "Alternative attack when opponent attempts to disengage"
     },
@@ -330,11 +330,6 @@
       "name": "Creating Reactions",
       "content_type": "Principle",
       "relationship": "Strategic principle for dilemma-based attack selection"
-    },
-    {
-      "name": "Hip Movement",
-      "content_type": "Principle",
-      "relationship": "Mobility principle enabling transitions between variations"
     },
     {
       "name": "Position Chains",

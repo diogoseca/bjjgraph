@@ -1,0 +1,270 @@
+{
+  "name": "Transition to Game Over",
+  "description": "TODO: Add description for Transition to Game Over - must be 140-180 characters for SEO meta description validation requirements here.",
+  "tags": [
+    "bjj",
+    "technique",
+    "TODO"
+  ],
+  "from_position": "Standing Position/Top",
+  "outcomes": [
+    {
+      "to": "Game Over/Top",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Standing Position/Top",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "TODO",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 50,
+  "overview": "TODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODO",
+  "related_content": [
+    {
+      "name": "TODO",
+      "relationship": "TODO"
+    },
+    {
+      "name": "TODO",
+      "relationship": "TODO"
+    },
+    {
+      "name": "TODO",
+      "relationship": "TODO"
+    }
+  ],
+  "attacker": {
+    "name": "Transition to Game Over Attacker",
+    "description": "How to execute Transition to Game Over in BJJ.",
+    "overview": "TODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODO",
+    "key_principles": [
+      "TODO",
+      "TODO",
+      "TODO",
+      "TODO",
+      "TODO"
+    ],
+    "setup_requirements": [
+      "TODO",
+      "TODO",
+      "TODO",
+      "TODO"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "TODO",
+        "description": "TODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODO"
+      },
+      {
+        "step_number": 2,
+        "action": "TODO",
+        "description": "TODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODO"
+      },
+      {
+        "step_number": 3,
+        "action": "TODO",
+        "description": "TODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODO"
+      },
+      {
+        "step_number": 4,
+        "action": "TODO",
+        "description": "TODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODO"
+      },
+      {
+        "step_number": 5,
+        "action": "TODO",
+        "description": "TODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODO"
+      },
+      {
+        "step_number": 6,
+        "action": "TODO",
+        "description": "TODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODO"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "TODO",
+        "effectiveness": "Medium",
+        "targets_outcome": "TODO"
+      },
+      {
+        "counter": "TODO",
+        "effectiveness": "Medium",
+        "targets_outcome": "TODO"
+      },
+      {
+        "counter": "TODO",
+        "effectiveness": "Medium",
+        "targets_outcome": "TODO"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      },
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      },
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      },
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      },
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "TODO",
+        "focus": "TODO",
+        "description": "TODO"
+      },
+      {
+        "phase": "TODO",
+        "focus": "TODO",
+        "description": "TODO"
+      },
+      {
+        "phase": "TODO",
+        "focus": "TODO",
+        "description": "TODO"
+      },
+      {
+        "phase": "TODO",
+        "focus": "TODO",
+        "description": "TODO"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "TODO?",
+        "answer": "TODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODO"
+      },
+      {
+        "question": "TODO?",
+        "answer": "TODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODO"
+      },
+      {
+        "question": "TODO?",
+        "answer": "TODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODO"
+      },
+      {
+        "question": "TODO?",
+        "answer": "TODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODO"
+      },
+      {
+        "question": "TODO?",
+        "answer": "TODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODO"
+      }
+    ],
+    "safety_considerations": "TODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODO"
+  },
+  "defender": {
+    "name": "Transition to Game Over Defender",
+    "description": "How to defend against Transition to Game Over in BJJ.",
+    "overview": "TODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODO",
+    "key_principles": [
+      "TODO",
+      "TODO",
+      "TODO",
+      "TODO",
+      "TODO"
+    ],
+    "recognition_cues": [
+      "TODO",
+      "TODO",
+      "TODO"
+    ],
+    "defensive_options": [
+      {
+        "action": "TODO",
+        "when_to_use": "TODO",
+        "targets_outcome": "TODO"
+      },
+      {
+        "action": "TODO",
+        "when_to_use": "TODO",
+        "targets_outcome": "TODO"
+      },
+      {
+        "action": "TODO",
+        "when_to_use": "TODO",
+        "targets_outcome": "TODO"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "TODO",
+        "how": "TODO"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      },
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      },
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "TODO?",
+        "answer": "TODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODO"
+      },
+      {
+        "question": "TODO?",
+        "answer": "TODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODO"
+      },
+      {
+        "question": "TODO?",
+        "answer": "TODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODO"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "TODO",
+        "focus": "TODO",
+        "description": "TODO"
+      },
+      {
+        "phase": "TODO",
+        "focus": "TODO",
+        "description": "TODO"
+      },
+      {
+        "phase": "TODO",
+        "focus": "TODO",
+        "description": "TODO"
+      }
+    ]
+  }
+}

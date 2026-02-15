@@ -31,10 +31,6 @@
       "relationship": "Symmetrical leg entanglement position offering mutual toe hold and ankle lock opportunities for both practitioners"
     },
     {
-      "name": "Straight Ankle Lock Control",
-      "relationship": "Related ankle attack position with similar leg entanglement but different mechanical submission application"
-    },
-    {
       "name": "Kneebar Control",
       "relationship": "Alternative leg lock target when opponent extends leg straight during escape attempts from toe hold"
     },
@@ -101,7 +97,7 @@
         "actions": [
           {
             "technique": "Toe Hold",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 75
           },
           {
@@ -130,13 +126,13 @@
         "condition": "If opponent extends leg and pushes away with straight leg",
         "actions": [
           {
-            "technique": "Kneebar from Top",
+            "technique": "Kneebar Finish",
             "target": "Kneebar Control",
             "probability": 65
           },
           {
-            "technique": "Straight Ankle Lock",
-            "target": "Straight Ankle Lock Control",
+            "technique": "Ankle Lock Finish",
+            "target": "Ashi Garami",
             "probability": 60
           }
         ]
@@ -151,7 +147,7 @@
           },
           {
             "technique": "Toe Hold",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 55
           }
         ]
@@ -233,27 +229,30 @@
         "relationship": "Advanced transition when opponent sits up or attempts leg extraction"
       },
       {
-        "name": "Straight Ankle Lock Control",
-        "relationship": "Alternative submission control position with similar leg entanglement"
-      },
-      {
         "name": "Kneebar Control",
         "relationship": "Transition target when opponent straightens leg during defense"
       },
       {
         "name": "Leg Entanglement",
         "relationship": "Fundamental concept governing all ashi-based positions and controls"
+      },
+      {
+        "name": "Ashi Garami",
+        "relationship": "Parent positional category governing entry and control mechanics"
       }
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 68
+        "value": 68,
+        "description": "Moderate retention reflecting the transitional nature of toe hold control and frequent defensive reactions forcing position changes"
       },
       "advancement_probability": {
-        "value": 62
+        "value": 62,
+        "description": "High advancement reflecting multiple transition options to saddle, outside ashi, and other dominant leg entanglements"
       },
       "submission_probability": {
-        "value": 58
+        "value": 58,
+        "description": "Strong finish rate when control is properly established before rotation, though lower than heel hook finishes from similar positions"
       },
       "average_time": "20-45 seconds"
     },
@@ -292,7 +291,7 @@
       }
     ],
     "name": "Toe Hold Control Top",
-    "description": "Master Toe Hold Control Top position in BJJ. Complete guide covering ankle isolation, submission setup, and defensive counters. Advanced leg lock position with high finish rates.",
+    "description": "Master Toe Hold Control Top position in BJJ. Complete guide covering ankle isolation, figure-four grip mechanics, and leg lock chain attacks from dominant top entanglement.",
     "tags": [
       "bjj",
       "position",
@@ -305,27 +304,35 @@
     "transitions": [
       {
         "transition": "Toe Hold",
-        "attempt_probability": 17
+        "attempt_probability": 14
       },
       {
         "transition": "Outside Ashi Entry",
-        "attempt_probability": 19
+        "attempt_probability": 24
       },
       {
         "transition": "Inside Ashi Entry",
-        "attempt_probability": 17
+        "attempt_probability": 14
       },
       {
         "transition": "Saddle Entry from Top",
-        "attempt_probability": 16
+        "attempt_probability": 13
       },
       {
-        "transition": "Straight Ankle Lock",
-        "attempt_probability": 17
-      },
-      {
-        "transition": "Kneebar from Top",
+        "transition": "Ankle Lock Finish",
         "attempt_probability": 14
+      },
+      {
+        "transition": "Kneebar Finish",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Toe Hold to Ashi Garami",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Toe Hold to Straight Ankle Lock",
+        "attempt_probability": 3
       }
     ]
   },
@@ -367,7 +374,7 @@
         "actions": [
           {
             "technique": "Tap Out",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 95
           },
           {
@@ -401,7 +408,7 @@
             "probability": 50
           },
           {
-            "technique": "Guard Replacement",
+            "technique": "Guard Recovery",
             "target": "Open Guard",
             "probability": 40
           },
@@ -532,13 +539,16 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 60
+        "value": 60,
+        "description": "Moderate retention reflecting ability to maintain defensive posture while working escapes, though position is inherently unstable"
       },
       "advancement_probability": {
-        "value": 45
+        "value": 45,
+        "description": "Moderate advancement reflecting difficulty of escaping established toe hold control, with success dependent on grip fighting ability"
       },
       "submission_probability": {
-        "value": 12
+        "value": 12,
+        "description": "Very low submission probability from defensive position, limited to rare counter-entanglement opportunities during scrambles"
       },
       "average_time": "10-30 seconds"
     },
@@ -577,7 +587,7 @@
       }
     ],
     "name": "Toe Hold Control Bottom",
-    "description": "Master Toe Hold Control Bottom position in BJJ. Defensive guide covering escape mechanics, counter-attacks, and safety protocols.",
+    "description": "Master Toe Hold Control Bottom defense in BJJ. Systematic guide covering grip breaking, ankle protection, escape mechanics, and safe recovery protocols.",
     "tags": [
       "bjj",
       "position",
@@ -591,27 +601,35 @@
     "transitions": [
       {
         "transition": "Saddle Defense",
-        "attempt_probability": 20
+        "attempt_probability": 25
       },
       {
         "transition": "Ashi Garami Escape",
-        "attempt_probability": 18
-      },
-      {
-        "transition": "Inside Ashi Entry",
-        "attempt_probability": 17
-      },
-      {
-        "transition": "X-Guard to Ashi Transition",
         "attempt_probability": 15
       },
       {
-        "transition": "Guard Replacement",
-        "attempt_probability": 16
+        "transition": "Inside Ashi Entry",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "X-Guard to Ashi Transition",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Guard Recovery",
+        "attempt_probability": 13
       },
       {
         "transition": "Deep Half Entry",
-        "attempt_probability": 14
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Boot Defense from Toe Hold",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Counter Rotation from Toe Hold",
+        "attempt_probability": 3
       }
     ]
   }

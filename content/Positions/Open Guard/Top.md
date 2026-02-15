@@ -4,7 +4,7 @@
 
 ---
 title: "Open Guard Top | BJJ Position Guide | BJJ Graph"
-description: "Master Open Guard Top in BJJ. Complete guide covering passing strategies, pressure control, and transitions. Success rate progression: 30-70% across skill levels."
+description: "Master Open Guard Top in BJJ. Complete guide covering passing strategies, pressure control, and transitions against dynamic open guard systems."
 ---
 
 
@@ -115,7 +115,7 @@ description: "Master Open Guard Top in BJJ. Complete guide covering passing stra
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Open Guard Top",
-  "description": "Master Open Guard Top in BJJ. Complete guide covering passing strategies, pressure control, and transitions. Success rate progression: 30-70% across skill levels.",
+  "description": "Master Open Guard Top in BJJ. Complete guide covering passing strategies, pressure control, and transitions against dynamic open guard systems.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -384,7 +384,7 @@ Bottom player cycles through different guard types (Spider, De La Riva, Butterfl
 |--------|------|
 | Retention Rate | 60% |
 | Advancement Probability | 60% |
-| Submission Probability | 32% |
+| Submission Probability | 5% |
 
 **Average Time in Position**: 2-4 minutes per passing sequence
 

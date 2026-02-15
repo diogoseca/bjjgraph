@@ -1,0 +1,13 @@
+{
+  "name": "Frame and Posture from Anaconda",
+  "description": "",
+  "tags": [],
+  "from_position": "Anaconda Control/Bottom",
+  "outcomes": [
+    {
+      "to": "Front Headlock/Bottom",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

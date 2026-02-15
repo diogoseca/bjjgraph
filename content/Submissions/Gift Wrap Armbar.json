@@ -1,0 +1,151 @@
+{
+  "name": "Gift Wrap Armbar",
+  "description": "TODO: Write 150-160 character SEO description for Gift Wrap Armbar.",
+  "tags": [
+    "bjj",
+    "submission",
+    "TODO"
+  ],
+  "submission_category": "Joint Lock",
+  "submission_type": "Arm Lock",
+  "target_area": "Shoulder and elbow joint",
+  "starting_position": "Gift Wrap",
+  "from_position": "Gift Wrap/Top",
+  "from_positions": ["Gift Wrap", "Mount", "Back Control"],
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Gift Wrap/Top",
+      "probability": 45,
+      "result": "failure"
+    }
+  ],
+  "success_rate": 50,
+  "overview": "TODO: Write overview for Gift Wrap Armbar.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "TODO",
+        "severity": "Medium",
+        "recovery_time": "TODO"
+      }
+    ],
+    "application_speed": "SLOW and progressive. Never spike or jerk the submission.",
+    "tap_signals": [
+      "Verbal tap (saying 'tap' or any distress signal)",
+      "Physical hand tap on partner or mat",
+      "Physical foot tap with free leg",
+      "Any unusual screaming or distress vocalization"
+    ],
+    "release_protocol": [
+      "Release immediately upon any tap signal",
+      "If in doubt, release - position can be re-established"
+    ],
+    "training_restrictions": [
+      "TODO"
+    ]
+  },
+  "related_content": [
+    {
+      "name": "TODO",
+      "relationship": "TODO"
+    }
+  ],
+  "attacker": {
+    "name": "Gift Wrap Armbar Attacker",
+    "description": "TODO: Write attacker description for Gift Wrap Armbar.",
+    "overview": "TODO: Write attacker overview for Gift Wrap Armbar.",
+    "key_principles": [
+      "TODO"
+    ],
+    "setup_requirements": [
+      "TODO"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "TODO",
+        "description": "TODO"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "TODO",
+        "effectiveness": "Medium",
+        "your_response": "TODO",
+        "targets_outcome": "Gift Wrap/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "TODO",
+        "description": "TODO"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "TODO",
+        "answer": "TODO"
+      }
+    ],
+    "safety_considerations": "TODO: Write safety considerations for Gift Wrap Armbar."
+  },
+  "defender": {
+    "name": "Gift Wrap Armbar Defender",
+    "description": "TODO: Write defender description for Gift Wrap Armbar.",
+    "overview": "TODO: Write defender overview for Gift Wrap Armbar.",
+    "key_principles": [
+      "TODO"
+    ],
+    "recognition_cues": [
+      "TODO"
+    ],
+    "defensive_options": [
+      {
+        "action": "TODO",
+        "when_to_use": "TODO",
+        "targets_outcome": "Gift Wrap/Top",
+        "if_successful": "TODO",
+        "risk": "TODO"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Gift Wrap/Top",
+        "how": "TODO"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "TODO",
+        "answer": "TODO"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "TODO",
+        "description": "TODO"
+      }
+    ]
+  }
+}

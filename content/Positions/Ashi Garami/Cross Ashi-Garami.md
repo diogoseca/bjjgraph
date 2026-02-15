@@ -95,17 +95,29 @@ The strategic importance of Cross Ashi-Garami in contemporary BJJ cannot be over
 ### Available Transitions
 
 
-- **[[Ashi Garami Escape]]** (20% of attempts)
+- **[[Ashi Garami Escape]]** (8% of attempts)
 
-- **[[Inside Ashi Entry]]** (17% of attempts)
+- **[[Inside Ashi Entry]]** (8% of attempts)
 
-- **[[X-Guard to Ashi Transition]]** (16% of attempts)
+- **[[X-Guard to Ashi Transition]]** (5% of attempts)
 
-- **[[Saddle Defense]]** (17% of attempts)
+- **[[Saddle Defense]]** (38% of attempts)
 
-- **[[Outside Ashi Entry]]** (16% of attempts)
+- **[[Outside Ashi Entry]]** (8% of attempts)
 
-- **[[Technical Standup]]** (14% of attempts)
+- **[[Standing Escape]]** (3% of attempts)
+
+- **[[Counter-entangle to 50-50 Guard]]** (6% of attempts)
+
+- **[[Transition to Backside 50-50]]** (8% of attempts)
+
+- **[[Counter heel hook]]** (6% of attempts)
+
+- **[[Leg Extraction]]** (8% of attempts)
+
+- **[[Counter Entangle from Cross Ashi]]** (1% of attempts)
+
+- **[[Leg Extraction from Cross Ashi]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -166,21 +178,27 @@ The strategic importance of Cross Ashi-Garami in contemporary BJJ cannot be over
 ### Available Transitions
 
 
-- **[[Heel Hook]]** (14% of attempts)
+- **[[Outside Heel Hook]]** (39% of attempts)
 
-- **[[Outside Heel Hook]]** (12% of attempts)
+- **[[Straight Ankle Lock Entry]]** (3% of attempts)
 
-- **[[Straight Ankle Lock]]** (13% of attempts)
+- **[[Toe Hold]]** (8% of attempts)
 
-- **[[Toe Hold]]** (11% of attempts)
+- **[[Saddle Entry from Top]]** (18% of attempts)
 
-- **[[Saddle Entry from Top]]** (13% of attempts)
+- **[[Inside Ashi Entry]]** (8% of attempts)
 
-- **[[Inside Ashi Entry]]** (13% of attempts)
+- **[[Kneebar entry]]** (8% of attempts)
 
-- **[[Kneebar from Top]]** (12% of attempts)
+- **[[Transition to Backside 50-50]]** (3% of attempts)
 
-- **[[X-Guard to Ashi Transition]]** (12% of attempts)
+- **[[Heel Hook]]** (8% of attempts)
+
+- **[[Cross Ashi Transition]]** (3% of attempts)
+
+- **[[Cross Ashi to 50-50]]** (1% of attempts)
+
+- **[[Outside Heel Hook from Cross Ashi]]** (1% of attempts)
 
 
 ### Common Mistakes

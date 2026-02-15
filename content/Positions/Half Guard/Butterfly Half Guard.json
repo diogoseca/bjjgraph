@@ -210,8 +210,8 @@
         "relationship": "Base management concept essential for preventing sweeps"
       },
       {
-        "name": "Pressure Passing",
-        "relationship": "Fundamental passing principle applicable to this position"
+        "name": "Pressure Pass",
+        "relationship": "Fundamental passing technique applicable to this position"
       }
     ],
     "position_metrics": {
@@ -229,27 +229,43 @@
     "transitions": [
       {
         "transition": "Half Guard Pass",
-        "attempt_probability": 17
+        "attempt_probability": 10
       },
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 16
+        "attempt_probability": 10
       },
       {
         "transition": "Smash Pass",
-        "attempt_probability": 19
+        "attempt_probability": 23
       },
       {
         "transition": "Underhook Pass",
-        "attempt_probability": 17
+        "attempt_probability": 11
       },
       {
         "transition": "Long Step Pass",
-        "attempt_probability": 16
+        "attempt_probability": 10
       },
       {
         "transition": "Pressure Pass",
-        "attempt_probability": 15
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Back Step Pass",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Transition to Flattened Half Guard",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Knee Slice from Butterfly Half",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Smash from Butterfly Half",
+        "attempt_probability": 2
       }
     ],
     "knowledge_assessment": [
@@ -356,7 +372,7 @@
             "probability": 75
           },
           {
-            "technique": "Lockdown Sweeps",
+            "technique": "Lockdown Recovery",
             "target": "Lockdown",
             "probability": 60
           }
@@ -519,12 +535,12 @@
         "relationship": "Essential principle for maintaining active butterfly hook under pressure"
       },
       {
-        "name": "Underhook Defense",
-        "relationship": "Critical concept for establishing and maintaining upper body control"
+        "name": "Underhook Sweep from Half",
+        "relationship": "Related sweep technique sharing underhook mechanics from half guard"
       },
       {
-        "name": "Sweep Mechanics",
-        "relationship": "Fundamental principle for executing sweeps through leverage rather than strength"
+        "name": "Waiter Sweep",
+        "relationship": "Alternative sweep option when opponent establishes strong shoulder pressure"
       }
     ],
     "position_metrics": {
@@ -542,43 +558,59 @@
     "transitions": [
       {
         "transition": "100% Sweep",
-        "attempt_probability": 11
+        "attempt_probability": 33
       },
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 13
+        "attempt_probability": 10
       },
       {
         "transition": "Butterfly Sweep",
-        "attempt_probability": 10
+        "attempt_probability": 6
       },
       {
         "transition": "Deep Half Entry",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Waiter Sweep",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Underhook Sweep from Half",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Knee Tap",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Half Guard to Back Take",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Butterfly Guard to X-Guard",
         "attempt_probability": 8
       },
       {
-        "transition": "Lockdown Sweeps",
-        "attempt_probability": 9
+        "transition": "Waiter Sweep",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Underhook Sweep from Half",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Knee Tap",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Half Guard to Back Take",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Butterfly Guard to X-Guard",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Lockdown Recovery",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Kimura Sweep",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Electric Chair Transition",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Butterfly Half Guard Sweep",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Reguard from Butterfly Half Guard",
+        "attempt_probability": 1
       }
     ],
     "knowledge_assessment": [

@@ -4,7 +4,7 @@
 
 ---
 title: "Estima Lock Top | BJJ Position Guide | BJJ Graph"
-description: "Master Estima Lock Top Position in BJJ. Control opponent's foot and ankle from top position. Advanced leg lock setup with 50% submission rate for advanced practitioners."
+description: "Master Estima Lock Top Position in BJJ. Control opponent's foot and ankle from top position. Advanced leg lock setup with inverted grip mechanics and chain attack options."
 ---
 
 
@@ -21,37 +21,37 @@ description: "Master Estima Lock Top Position in BJJ. Control opponent's foot an
     {
       "@type": "HowToStep",
       "name": "Execute Estima Lock",
-      "text": "From this position, attempt Estima Lock. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Estima Lock. This technique is attempted in 37% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toe Hold",
-      "text": "From this position, attempt Toe Hold. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Toe Hold. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Straight Ankle Lock",
-      "text": "From this position, attempt Straight Ankle Lock. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Estima Lock to Saddle",
+      "text": "From this position, attempt Estima Lock to Saddle. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Estima Lock to Saddle",
-      "text": "From this position, attempt Estima Lock to Saddle. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Kneebar",
+      "text": "From this position, attempt Kneebar. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kneebar",
-      "text": "From this position, attempt Kneebar. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Estima Lock to Ashi Garami",
+      "text": "From this position, attempt Estima Lock to Ashi Garami. This technique is attempted in 18% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Estima Lock to Ashi Garami",
-      "text": "From this position, attempt Estima Lock to Ashi Garami. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Kneebar from Estima Lock",
+      "text": "From this position, attempt Kneebar from Estima Lock. This technique is attempted in 4% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -115,7 +115,7 @@ description: "Master Estima Lock Top Position in BJJ. Control opponent's foot an
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Estima Lock Top",
-  "description": "Master Estima Lock Top Position in BJJ. Control opponent's foot and ankle from top position. Advanced leg lock setup with 50% submission rate for advanced practitioners.",
+  "description": "Master Estima Lock Top Position in BJJ. Control opponent's foot and ankle from top position. Advanced leg lock setup with inverted grip mechanics and chain attack options.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -209,17 +209,19 @@ Success from the top position requires precise technical execution including pro
 
 ## Available Attacks
 
-### [[Estima Lock]] (25% of attempts)
+### [[Estima Lock]] (37% of attempts)
 
-### [[Toe Hold]] (20% of attempts)
+### [[Toe Hold]] (18% of attempts)
 
-### [[Straight Ankle Lock]] (15% of attempts)
+### [[Estima Lock to Saddle]] (13% of attempts)
 
-### [[Estima Lock to Saddle]] (15% of attempts)
+### [[Kneebar]] (8% of attempts)
 
-### [[Kneebar]] (10% of attempts)
+### [[Estima Lock to Ashi Garami]] (18% of attempts)
 
-### [[Estima Lock to Ashi Garami]] (15% of attempts)
+### [[Kneebar from Estima Lock]] (4% of attempts)
+
+### [[Toe Hold from Estima Lock]] (2% of attempts)
 
 
 
@@ -230,23 +232,23 @@ Success from the top position requires precise technical execution including pro
 ## Decision Making from This Position
 
 **If opponent's foot is fully isolated and they are flat on their back:**
-- Execute **[[Estima Lock]]** → [[game-over]] (Probability: 50%)
-- Execute **[[Toe Hold]]** → [[Toe Hold Control]] (Probability: 50%)
+- Execute **[[Estima Lock]]** → [[Game Over]] (Probability: 50%)
+- Execute **[[Toe Hold]]** → [[Game Over]] (Probability: 50%)
 
 
 **If opponent begins sitting up or establishing frames with their free leg:**
 - Execute **[[Estima Lock to Ashi Garami]]** → [[Ashi Garami]] (Probability: 55%)
-- Execute **[[Backstep to Saddle]]** → [[Saddle]] (Probability: 45%)
+- Execute **[[Estima Lock to Saddle]]** → [[Saddle]] (Probability: 45%)
 
 
 **If opponent successfully extracts their foot or creates significant space:**
 - Execute **[[Leg Drag Pass]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Standing Pass]]** → [[Standing Position]] (Probability: 45%)
+- Execute **[[Standing Escape]]** → [[Open Guard]] (Probability: 45%)
 
 
 **If opponent attempts to counter with their own leg attack:**
-- Execute **[[Clear the Leg]]** → [[Half Guard]] (Probability: 50%)
-- Execute **[[Transition to 50-50]]** → [[50-50 Guard]] (Probability: 50%)
+- Execute **[[Counter Leg Attack]]** → [[Half Guard]] (Probability: 50%)
+- Execute **[[50-50 Entry]]** → [[50-50 Guard]] (Probability: 50%)
 
 
 
@@ -285,7 +287,7 @@ Success from the top position requires precise technical execution including pro
 ### 6. Failing to adjust when opponent defends by turning their foot or changing angles
 
 - ❌ **Consequence**: Stalled position with no submission threat and wasted energy maintaining ineffective control
-- ✅ **Correction**: Be prepared to transition to alternative attacks like toe hold, straight ankle lock, or ashi garami when the opponent adjusts their defensive positioning
+- ✅ **Correction**: Be prepared to transition to alternative attacks like toe hold, ankle lock finish, or ashi garami when the opponent adjusts their defensive positioning
 
 
 
@@ -311,7 +313,7 @@ Start with Estima Lock control established. Partner attempts progressive escape 
 
 ### Submission Transition Chain
 
-Begin with Estima Lock setup. When partner defends specific ways, flow through alternative attacks: Toe Hold when they turn foot, Straight Ankle Lock when they pull back, Transition to Ashi Garami when they sit up. Build muscle memory for seamless transitions between leg attacks without losing control.
+Begin with Estima Lock setup. When partner defends specific ways, flow through alternative attacks: Toe Hold when they turn foot, Ankle Lock Finish when they pull back, Transition to Ashi Garami when they sit up. Build muscle memory for seamless transitions between leg attacks without losing control.
 
 **Duration**: 8 minutes per partner
 
@@ -347,13 +349,13 @@ Start from established Estima Lock Top Position. Bottom player works to escape u
 **Q5**: Your opponent turns their foot away from the lock angle—how do you capitalize on this defensive movement?
 **A**: When the opponent turns their foot away from the Estima Lock angle, their toes become exposed for a toe hold attack. This is a natural transition opportunity where you maintain control while adjusting your grip configuration to attack the now-available toe hold angle. The defensive movement that defeats one attack often opens another.
 
-**Q6**: How do you manage energy expenditure while maintaining Estima Lock control for extended periods?
-**A**: Energy management relies on using structural positioning rather than muscular effort. Keep your body weight working through the grip rather than squeezing, use your hip pressure against their calf rather than arm pulling, and maintain a stable base that requires minimal adjustment. If control requires constant muscular effort, the position is likely not properly established.
+**Q6**: How do you distribute your weight to maintain Estima Lock control without excessive muscular effort?
+**A**: Weight distribution relies on structural positioning rather than muscular effort. Keep your body weight working through the grip by letting gravity assist control rather than squeezing with arms. Use hip pressure against their calf as the primary anchoring mechanism, and maintain a stable base that requires minimal postural adjustment. If you are burning forearm energy to hold the grip, your hip placement needs correction.
 
 **Q7**: What signals indicate you should transition to an alternative attack rather than continuing the Estima Lock?
 **A**: Transition signals include: the opponent successfully creating hip space despite your pressure, their free leg establishing strong defensive frames you cannot neutralize, foot positioning changes that reduce rotational pressure effectiveness, or the opponent sitting up with good posture. These indicate the position is compromised and transitioning to toe hold, ashi garami, or saddle preserves offensive momentum.
 
-**Q8**: How do you recover position after the opponent partially extracts their foot but remains in range?
+**Q8**: Your opponent partially extracts their foot but remains within grip range—how do you recover control?
 **A**: When partial extraction occurs but they remain in range, immediately re-address the foot control by clearing any defensive frames with your legs, re-establishing the figure-four grip before they can complete extraction, and adjusting hip pressure to prevent further foot retraction. The key is recognizing the partial escape early and addressing it before full extraction occurs.
 
 
@@ -381,13 +383,13 @@ Start from established Estima Lock Top Position. Bottom player works to escape u
 ## Related Positions and Techniques
 
 - **[[Estima Lock]]** - Primary submission technique from this position
-- **[[Toe Hold Control]]** - Alternative leg attack position with natural transitions
+- **[[Toe Hold]]** - Alternative leg attack transition with natural grip changes
 - **[[Ashi Garami]]** - Common transition target offering expanded submission options
 - **[[Saddle]]** - Related leg entanglement position accessible through backstep
 - **[[50-50 Guard]]** - Common entry position for establishing Estima Lock control
 - **[[Single Leg X-Guard]]** - Common entry position offering direct foot control opportunities
 - **[[Leg Entanglement]]** - Core conceptual framework for understanding position in broader context
-- **[[Straight Ankle Lock Control]]** - Related footlock position with similar control principles
+- **[[Ankle Lock Finish]]** - Related footlock transition with similar finishing mechanics
 - **[[Inside Ashi-Garami]]** - Alternative leg entanglement with heel hook opportunities
 - **[[Outside Ashi-Garami]]** - Related ashi configuration with different attack angles
 

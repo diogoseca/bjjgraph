@@ -325,7 +325,6 @@ Berimbolo development requires progressive drilling starting with solo movement 
 - [[X-Guard Sweep]] (Transition) - Chained attack when opponent sits back to counter Berimbolo - creates offensive dilemma
 - [[Rolling Back Take]] (Transition) - Alternative back-taking method that shares similar rotational mechanics and timing principles
 - [[Crab Ride to Back]] (Transition) - Related back-taking technique from turtle that uses similar body lock transitional control
-- [[Hip Movement]] (Principle) - Fundamental movement principle enabling the rotational mechanics essential to Berimbolo execution
 - [[Timing and Rhythm]] (Principle) - Critical for reading opponent's weight commitment and initiating inversion at optimal moment
 - [[Angle Creation]] (Principle) - Core concept of using rotation to create angles for accessing opponent's back from bottom position
 - [[Off-Balancing]] (Principle) - Essential prerequisite for successful Berimbolo entries - opponent must be off-balanced before rotation

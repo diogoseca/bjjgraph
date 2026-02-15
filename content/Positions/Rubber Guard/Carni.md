@@ -95,21 +95,23 @@ From the attacking perspective (bottom), the Carni offers exceptional offensive 
 ### Available Transitions
 
 
-- **[[Inside Heel Hook]]** (13% of attempts)
+- **[[Heel Hook]]** (12% of attempts)
 
-- **[[Saddle Entry from Top]]** (15% of attempts)
+- **[[Saddle Entry from Top]]** (17% of attempts)
 
-- **[[Rolling Back Take]]** (12% of attempts)
+- **[[Rolling Back Take]]** (11% of attempts)
 
-- **[[Turtle to Truck]]** (13% of attempts)
+- **[[Roll to Truck]]** (12% of attempts)
 
-- **[[Calf Slicer from Truck]]** (12% of attempts)
+- **[[Calf Slicer]]** (11% of attempts)
 
-- **[[Outside Ashi Entry]]** (13% of attempts)
+- **[[Outside Ashi Entry]]** (12% of attempts)
 
-- **[[Kneebar Finish]]** (12% of attempts)
+- **[[Kneebar Finish]]** (11% of attempts)
 
-- **[[Side Control to North-South]]** (10% of attempts)
+- **[[Side Control to North-South]]** (9% of attempts)
+
+- **[[Carni to Gogoplata Setup]]** (5% of attempts)
 
 
 ### Common Mistakes
@@ -174,17 +176,21 @@ From the attacking perspective (bottom), the Carni offers exceptional offensive 
 ### Available Transitions
 
 
-- **[[Stack Defense]]** (19% of attempts)
+- **[[Stack Defense]]** (24% of attempts)
 
-- **[[Rolling Kimura Escape]]** (19% of attempts)
+- **[[Rolling Kimura Escape]]** (16% of attempts)
 
-- **[[Technical Standup]]** (17% of attempts)
+- **[[Technical Stand-up]]** (14% of attempts)
 
-- **[[Leg Drag Pass]]** (15% of attempts)
+- **[[Leg Drag Pass]]** (13% of attempts)
 
-- **[[Granby Roll]]** (17% of attempts)
+- **[[Granby Roll to Guard]]** (14% of attempts)
 
-- **[[Knee Slice Pass]]** (13% of attempts)
+- **[[Knee Slice Pass]]** (11% of attempts)
+
+- **[[Posture Recovery from Carni]]** (5% of attempts)
+
+- **[[Stack Pass from Carni]]** (3% of attempts)
 
 
 ### Common Mistakes

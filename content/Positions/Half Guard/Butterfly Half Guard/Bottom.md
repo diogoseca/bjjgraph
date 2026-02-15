@@ -21,37 +21,37 @@ description: "Master bottom butterfly half guard - hybrid position combining but
     {
       "@type": "HowToStep",
       "name": "Execute 100% Sweep",
-      "text": "From this position, attempt 100% Sweep. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt 100% Sweep. This technique is attempted in 33% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Sweep",
-      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 6% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Waiter Sweep",
-      "text": "From this position, attempt Waiter Sweep. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Waiter Sweep. This technique is attempted in 4% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,25 +213,33 @@ Success in butterfly half guard bottom requires mastering several key technical 
 
 ## Available Escapes
 
-### [[100% Sweep]] (11% of attempts)
+### [[100% Sweep]] (33% of attempts)
 
-### [[Old School Sweep]] (13% of attempts)
+### [[Old School Sweep]] (10% of attempts)
 
-### [[Butterfly Sweep]] (10% of attempts)
+### [[Butterfly Sweep]] (6% of attempts)
 
-### [[Deep Half Entry]] (12% of attempts)
+### [[Deep Half Entry]] (8% of attempts)
 
-### [[Waiter Sweep]] (9% of attempts)
+### [[Waiter Sweep]] (4% of attempts)
 
-### [[Underhook Sweep from Half]] (10% of attempts)
+### [[Underhook Sweep from Half]] (6% of attempts)
 
-### [[Knee Tap]] (9% of attempts)
+### [[Knee Tap]] (5% of attempts)
 
-### [[Half Guard to Back Take]] (9% of attempts)
+### [[Half Guard to Back Take]] (6% of attempts)
 
-### [[Butterfly Guard to X-Guard]] (8% of attempts)
+### [[Butterfly Guard to X-Guard]] (4% of attempts)
 
-### [[Lockdown Sweeps]] (9% of attempts)
+### [[Lockdown Recovery]] (4% of attempts)
+
+### [[Kimura Sweep]] (6% of attempts)
+
+### [[Electric Chair Transition]] (5% of attempts)
+
+### [[Butterfly Half Guard Sweep]] (2% of attempts)
+
+### [[Reguard from Butterfly Half Guard]] (1% of attempts)
 
 
 
@@ -248,7 +256,7 @@ Success in butterfly half guard bottom requires mastering several key technical 
 
 **If opponent drives forward with heavy pressure and establishes crossface control threatening to flatten:**
 - Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 75%)
-- Execute **[[Lockdown Sweeps]]** → [[Lockdown]] (Probability: 60%)
+- Execute **[[Lockdown Recovery]]** → [[Lockdown]] (Probability: 60%)
 
 
 **If opponent stands tall or attempts to step over the trapped leg creating vertical posture:**
@@ -420,8 +428,8 @@ Isolated drill focusing exclusively on hip angle adjustments to optimize sweep m
 - **[[Butterfly Sweep]]** - Primary offensive technique utilizing butterfly hook mechanics
 - **[[Old School Sweep]]** - High-percentage sweep when opponent posts hand to defend elevation
 - **[[Butterfly Hook Retention]]** - Essential principle for maintaining active butterfly hook under pressure
-- **[[Underhook Defense]]** - Critical concept for establishing and maintaining upper body control
-- **[[Sweep Mechanics]]** - Fundamental principle for executing sweeps through leverage rather than strength
+- **[[Underhook Sweep from Half]]** - Related sweep technique sharing underhook mechanics from half guard
+- **[[Waiter Sweep]]** - Alternative sweep option when opponent establishes strong shoulder pressure
 
 
 </section>

@@ -32,14 +32,14 @@ description: "Master Reverse Scarf Hold Top (Ushiro Kesa Gatame). Complete guide
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Americana from Side Control",
-      "text": "From this position, attempt Americana from Side Control. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Americana",
+      "text": "From this position, attempt Americana. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura from Side Control",
-      "text": "From this position, attempt Kimura from Side Control. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Kimura",
+      "text": "From this position, attempt Kimura. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
@@ -213,9 +213,9 @@ This position is particularly effective against opponents unfamiliar with the co
 
 ### [[Side Control to Mount]] (15% of attempts)
 
-### [[Americana from Side Control]] (13% of attempts)
+### [[Americana]] (13% of attempts)
 
-### [[Kimura from Side Control]] (14% of attempts)
+### [[Kimura]] (14% of attempts)
 
 ### [[Back Step]] (12% of attempts)
 
@@ -232,8 +232,8 @@ This position is particularly effective against opponents unfamiliar with the co
 ## Decision Making from This Position
 
 **If opponent remains flat and passive without bridging attempts:**
-- Execute **[[Americana from Side Control]]** → [[Armbar Control]] (Probability: 55%)
-- Execute **[[Kimura from Side Control]]** → [[Kimura Trap]] (Probability: 50%)
+- Execute **[[Americana]]** → [[Armbar Control]] (Probability: 55%)
+- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 50%)
 
 
 **If opponent bridges explosively toward their head attempting to roll you:**
@@ -247,7 +247,7 @@ This position is particularly effective against opponents unfamiliar with the co
 
 
 **If opponent creates frames with free arm and begins hip escape:**
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 60%)
+- Execute **[[Knee Slice Pass]]** → [[Side Control Consolidation]] (Probability: 60%)
 - Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 45%)
 
 
@@ -385,12 +385,12 @@ Partner A establishes reverse scarf hold and flows through americana, kimura, an
 - **[[Kesa Gatame]]** - Traditional scarf hold with opposite orientation - similar control mechanics but facing opponent's head
 - **[[Scarf Hold Position]]** - Standard variation - fundamental scarf hold position from which reverse version derives
 - **[[North-South]]** - Primary transition target - common advancement when opponent creates space or bridges
-- **[[Side Control]]** - Entry position - reverse scarf hold typically entered from side control when opponent turns in
+- **[[Side Control Consolidation]]** - Entry position - reverse scarf hold typically entered from side control when opponent turns in
 - **[[Mount]]** - Transition target - available when opponent bridges forward giving you opportunity to step over
 - **[[Modified Scarf Hold]]** - Variation - alternative scarf hold configuration with different pressure angles
 - **[[Kuzure Kesa-Gatame]]** - Judo variation - broken scarf hold position with modified arm control
-- **[[Americana from Side Control]]** - Primary submission - high-percentage finish from reverse scarf hold arm trap
-- **[[Kimura from Side Control]]** - Alternative submission - available when opponent extends trapped arm
+- **[[Americana]]** - Primary submission - high-percentage finish from reverse scarf hold arm trap
+- **[[Kimura]]** - Alternative submission - available when opponent extends trapped arm
 - **[[Back Control]]** - Transition target - accessible when opponent turns away attempting to escape
 
 

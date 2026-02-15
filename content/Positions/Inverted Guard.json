@@ -327,35 +327,51 @@
     "transitions": [
       {
         "transition": "Smash Pass",
-        "attempt_probability": 13
+        "attempt_probability": 8
       },
       {
         "transition": "Stack Pass",
-        "attempt_probability": 12
+        "attempt_probability": 6
       },
       {
         "transition": "Pressure Pass",
-        "attempt_probability": 13
+        "attempt_probability": 7
       },
       {
         "transition": "Leg Weave Pass",
-        "attempt_probability": 12
+        "attempt_probability": 4
       },
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 13
+        "attempt_probability": 6
       },
       {
         "transition": "Headquarters Pass",
-        "attempt_probability": 14
-      },
-      {
-        "transition": "Knee on Belly",
-        "attempt_probability": 12
+        "attempt_probability": 8
       },
       {
         "transition": "Toreando Pass",
         "attempt_probability": 11
+      },
+      {
+        "transition": "Back Step Pass",
+        "attempt_probability": 29
+      },
+      {
+        "transition": "Leg Drag Pass",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Stack Pass from Inversion",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Stack from Inverted",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Toreando from Inverted",
+        "attempt_probability": 1
       }
     ]
   },
@@ -442,7 +458,7 @@
         "condition": "If opponent attempts smash pass with forward pressure and weight driving into shoulders",
         "actions": [
           {
-            "technique": "Granby Roll",
+            "technique": "Granby Roll to Guard",
             "target": "Closed Guard",
             "probability": 60
           },
@@ -502,7 +518,7 @@
         "condition": "Else if opponent begins stack pass with hips elevated and pressure angled downward",
         "actions": [
           {
-            "technique": "Granby Roll",
+            "technique": "Granby Roll to Guard",
             "target": "Closed Guard",
             "probability": 65
           },
@@ -604,8 +620,8 @@
         "relationship": "Key transition to back control from inverted position using rotational mechanics"
       },
       {
-        "name": "Granby Roll",
-        "relationship": "Essential movement pattern for entering and exiting inverted guard safely"
+        "name": "Granby Roll to Guard",
+        "relationship": "Essential movement pattern for exiting inverted guard safely and recovering guard"
       },
       {
         "name": "Kiss of the Dragon",
@@ -626,56 +642,67 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 60
+        "value": 60,
+        "description": "Rate of maintaining inverted guard without being passed or forced to abandon position"
       },
       "advancement_probability": {
-        "value": 60
+        "value": 60,
+        "description": "Probability of transitioning to a more dominant position like back control or X-guard"
       },
       "submission_probability": {
-        "value": 40
+        "value": 40,
+        "description": "Probability of reaching a submission-threatening position from inverted guard"
       },
       "average_time": "5-15 seconds (transitional position)"
     },
     "transitions": [
       {
         "transition": "Berimbolo Entry",
-        "attempt_probability": 9
+        "attempt_probability": 15
       },
       {
         "transition": "Rolling Back Take",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Kiss of the Dragon",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Single Leg X Entry",
         "attempt_probability": 11
       },
       {
-        "transition": "X-Guard Sweep",
+        "transition": "Kiss of the Dragon",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Single Leg X Entry",
         "attempt_probability": 10
       },
       {
-        "transition": "Granby Roll",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Omoplata from Guard",
+        "transition": "X-Guard Sweep",
         "attempt_probability": 8
       },
       {
-        "transition": "Truck Entry",
-        "attempt_probability": 8
+        "transition": "Granby Roll to Guard",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Omoplata",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Roll to Truck",
+        "attempt_probability": 6
       },
       {
         "transition": "Reverse X-Guard Entry",
-        "attempt_probability": 10
+        "attempt_probability": 5
       },
       {
         "transition": "Technical Stand-up",
-        "attempt_probability": 13
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Bolo Sweep",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Reverse De La Riva Recovery",
+        "attempt_probability": 7
       }
     ]
   }

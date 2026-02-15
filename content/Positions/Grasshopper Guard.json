@@ -2,8 +2,8 @@
   "name": "Grasshopper Guard",
   "slug": "grasshopper-guard",
   "description": "Master grasshopper guard in BJJ. Strategic guide covering elevation mechanics, leg attacks, and sweep chains with complete offensive and defensive analysis.",
-  "variant_uniqueness": "Inverted posture for leg attacks and sweeps",
-  "overview": "Grasshopper Guard represents an unorthodox open guard position where the bottom practitioner inverts their body positioning, placing their shoulders near the mat while elevating their hips and legs toward the opponent. This inverted guard creates unique angles for leg attacks, especially kneebars and ankle locks, while simultaneously offering powerful sweeping mechanics through hip elevation and leg entanglement.\n\nThe position is characterized by the bottom player essentially \"hopping\" or transitioning between different leg configurations while maintaining an inverted posture. Unlike traditional open guards that rely on upright seated positioning, grasshopper guard leverages the practitioner's back and shoulders as base points, freeing the hips and legs for dynamic offensive actions.\n\nFrom a systematic perspective, grasshopper guard functions as both a transitional state and a submission hunting position. The inverted nature creates immediate leg entanglement opportunities, as the bottom player's legs can quickly shoot under and around the opponent's base. This makes it particularly effective against standing passers who attempt to disengage, as the guard player can follow with rolls and inversions while maintaining leg contact.\n\nThe position gained popularity in modern no-gi competition, where the absence of gi grips makes inverted guards more viable. Without collar and sleeve controls to worry about, practitioners can focus entirely on leg positioning and hip movement. The grasshopper configuration particularly shines when opponents attempt to back step or circle away from leg attacks, as the inverted player can chase and adjust angles more freely than from traditional seated guards.\n\nStrategically, grasshopper guard creates what systematic describes as \"asymmetric engagement\" - the bottom player invests heavily in leg control while sacrificing upper body connection. This trade-off works when the practitioner has superior leg entanglement skills and can transition faster than the opponent can establish passing pressure. The guard becomes dangerous when the bottom player can seamlessly flow between inversion angles, preventing the top player from settling into stable passing positions.\n\nThe energy dynamics of grasshopper guard differ significantly from traditional guards. Maintaining inverted positioning requires considerable core strength and flexibility, making it unsustainable for extended periods. Successful grasshopper guard players treat it as a transitional hunting ground rather than a resting position, constantly looking to convert the inversion into submission attempts or sweeps before fatigue sets in.\n\nDefensively, grasshopper guard can serve as an emergency response when traditional guard retention fails. If an opponent passes around one side, the guard player can invert underneath and use grasshopper mechanics to recover leg contact and reset the engagement. This makes it a valuable skill for modern guard retention systems, where multiple layers of defense are essential against skilled passers.",
+  "variant_uniqueness": "Inverted posture trades stability for leg access",
+  "overview": "Grasshopper Guard represents an unorthodox open guard position where the bottom practitioner inverts their body positioning, placing their shoulders near the mat while elevating their hips and legs toward the opponent. This inverted guard creates unique angles for leg attacks, especially kneebars and ankle locks, while simultaneously offering powerful sweeping mechanics through hip elevation and leg entanglement.\n\nThe position is characterized by the bottom player essentially \"hopping\" or transitioning between different leg configurations while maintaining an inverted posture. Unlike traditional open guards that rely on upright seated positioning, grasshopper guard leverages the practitioner's back and shoulders as base points, freeing the hips and legs for dynamic offensive actions.\n\nFrom a systematic perspective, grasshopper guard functions as both a transitional state and a submission hunting position. The inverted nature creates immediate leg entanglement opportunities, as the bottom player's legs can quickly shoot under and around the opponent's base. This makes it particularly effective against standing passers who attempt to disengage, as the guard player can follow with rolls and inversions while maintaining leg contact.\n\nThe position gained popularity in modern no-gi competition, where the absence of gi grips makes inverted guards more viable. Without collar and sleeve controls to worry about, practitioners can focus entirely on leg positioning and hip movement. The grasshopper configuration particularly shines when opponents attempt to back step or circle away from leg attacks, as the inverted player can chase and adjust angles more freely than from traditional seated guards.\n\nStrategically, grasshopper guard creates asymmetric engagement - the bottom player invests heavily in leg control while sacrificing upper body connection. This trade-off works when the practitioner has superior leg entanglement skills and can transition faster than the opponent can establish passing pressure. The guard becomes dangerous when the bottom player can seamlessly flow between inversion angles, preventing the top player from settling into stable passing positions.\n\nThe energy dynamics of grasshopper guard differ significantly from traditional guards. Maintaining inverted positioning requires considerable core strength and flexibility, making it unsustainable for extended periods. Successful grasshopper guard players treat it as a transitional hunting ground rather than a resting position, constantly looking to convert the inversion into submission attempts or sweeps before fatigue sets in.\n\nDefensively, grasshopper guard can serve as an emergency response when traditional guard retention fails. If an opponent passes around one side, the guard player can invert underneath and use grasshopper mechanics to recover leg contact and reset the engagement. This makes it a valuable skill for modern guard retention systems, where multiple layers of defense are essential against skilled passers.",
   "key_principles": [
     "Inversion is temporary - always transition toward submission or sweep within seconds",
     "Hip elevation creates leverage for both sweeps and leg attacks",
@@ -220,7 +220,7 @@
     "training_drills": [
       {
         "name": "Grasshopper Guard Pass Progression",
-        "description": "Partner establishes grasshopper position with 50% resistance level. Practice passing sequence: recognize inversion → establish base → wait for hip drop or transition → execute back step or leg drag pass. Reset and repeat, gradually increasing partner's resistance to 75% over multiple rounds.",
+        "description": "Partner establishes grasshopper position with 50% resistance level. Practice passing sequence: recognize inversion, establish base, wait for hip drop or transition, execute back step or leg drag pass. Reset and repeat, gradually increasing partner's resistance to 75% over multiple rounds.",
         "duration": "5 minutes"
       },
       {
@@ -251,10 +251,6 @@
       {
         "name": "Inverted Guard",
         "relationship": "Parent category - understanding general inverted guard defense applies here"
-      },
-      {
-        "name": "Standing Position",
-        "relationship": "Safe disengagement option when passing becomes too risky"
       },
       {
         "name": "Side Control",
@@ -288,7 +284,7 @@
     "transitions": [
       {
         "transition": "Back Step Pass",
-        "attempt_probability": 11
+        "attempt_probability": 15
       },
       {
         "transition": "Leg Drag Pass",
@@ -300,11 +296,11 @@
       },
       {
         "transition": "Step Over to Mount",
-        "attempt_probability": 10
+        "attempt_probability": 5
       },
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 12
+        "attempt_probability": 8
       },
       {
         "transition": "Sprawl and Disengage",
@@ -312,15 +308,23 @@
       },
       {
         "transition": "Toreando Pass",
-        "attempt_probability": 11
+        "attempt_probability": 12
       },
       {
         "transition": "Cartwheel Pass",
-        "attempt_probability": 10
+        "attempt_probability": 3
       },
       {
         "transition": "Pressure Pass through Center",
-        "attempt_probability": 10
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Counter Ashi Entry",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Double Under Pass",
+        "attempt_probability": 8
       }
     ]
   },
@@ -386,7 +390,7 @@
       },
       {
         "question": "Your opponent is standing tall with a wide base - how do you attack from this position?",
-        "answer": "Their tall posture with wide base is defensive and hard to sweep directly. Options include: technical standup to standing guard position using their distance against them, following with rolling ankle lock entries as they attempt to disengage, or waiting for them to narrow their base or step forward before attacking. Patience is key - their defensive posture cannot threaten you."
+        "answer": "Their tall posture with wide base is defensive and hard to sweep directly. Options include using a technical standup from inversion to reach standing position, following with rolling ankle lock entries as they attempt to disengage, or waiting for them to narrow their base or step forward before attacking. Patience is key - their defensive posture cannot threaten you."
       },
       {
         "question": "How do you manage energy expenditure to avoid position collapse from exhaustion?",
@@ -406,8 +410,8 @@
         "condition": "Opponent stands tall with wide base, attempting to disengage",
         "actions": [
           {
-            "technique": "Technical Standup",
-            "target": "Standing Guard",
+            "technique": "Technical Standup from Inversion",
+            "target": "Standing Position",
             "probability": 65
           },
           {
@@ -566,51 +570,59 @@
     "transitions": [
       {
         "transition": "Kneebar from Grasshopper",
-        "attempt_probability": 8
-      },
-      {
-        "transition": "Straight Ankle Lock Entry",
-        "attempt_probability": 8
-      },
-      {
-        "transition": "Single Leg X Transition",
         "attempt_probability": 9
       },
       {
-        "transition": "X-Guard Sweep",
+        "transition": "Straight Ankle Lock Entry",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Single Leg X Transition",
         "attempt_probability": 8
       },
       {
         "transition": "Inside Ashi Entry",
-        "attempt_probability": 8
+        "attempt_probability": 9
       },
       {
         "transition": "Rolling Kneebar",
-        "attempt_probability": 7
+        "attempt_probability": 5
       },
       {
         "transition": "Grasshopper Sweep",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
-        "transition": "Technical Standup",
-        "attempt_probability": 12
+        "transition": "Granby to Closed Guard",
+        "attempt_probability": 13
       },
       {
         "transition": "50-50 Entry",
-        "attempt_probability": 8
+        "attempt_probability": 4
       },
       {
         "transition": "Reverse De La Riva Recovery",
-        "attempt_probability": 8
+        "attempt_probability": 6
       },
       {
         "transition": "Technical Standup from Inversion",
-        "attempt_probability": 8
+        "attempt_probability": 5
       },
       {
         "transition": "X-Guard Elevation Sweep",
-        "attempt_probability": 8
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Heel Hook",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Outside Ashi Entry",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Transition to K-Guard",
+        "attempt_probability": 5
       }
     ]
   }

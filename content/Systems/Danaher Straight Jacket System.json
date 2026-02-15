@@ -1,7 +1,16 @@
 {
   "name": "Danaher Straight Jacket System",
   "description": "Master systematic back control progression from seat belt to straight jacket configuration. Comprehensive framework for upper body immobilization and submission chains.",
-  "tags": ["bjj", "system", "back-control", "john-danaher", "submission-chain", "control-system", "advanced", "systematic-approach"],
+  "tags": [
+    "bjj",
+    "system",
+    "back-control",
+    "john-danaher",
+    "submission-chain",
+    "control-system",
+    "advanced",
+    "systematic-approach"
+  ],
   "system_type": "Attack System",
   "difficulty_level": "Advanced",
   "overview": "The Danaher Straight Jacket System represents one of the most comprehensive and systematically developed back control frameworks in modern Brazilian Jiu-Jitsu. Developed by renowned coach John Danaher, this system transforms the traditional back mount position into a multi-layered control hierarchy that progressively eliminates opponent defensive options while creating high-percentage submission opportunities. Unlike conventional back attack approaches that focus primarily on the rear naked choke, the Straight Jacket System emphasizes upper body immobilization through strategic grip configurations that severely restrict opponent hand fighting capabilities.\n\nThe system's name derives from its primary control mechanism: a specific arrangement of grips and body positioning that mirrors the restrictive effect of a strait jacket, systematically removing the opponent's ability to defend their neck or create escape opportunities. This methodology integrates seamlessly with Danaher's broader back attack philosophy, which prioritizes positional dominance and control point hierarchy over opportunistic submission attempts. The framework includes detailed protocols for initial back take entries, progressive control consolidation, defensive hand neutralization, and systematic submission sequences that flow logically from the established control position.\n\nWhat distinguishes the Straight Jacket System from other back attack approaches is its emphasis on creating true dilemmas for opponents - every defensive action opens a specific offensive opportunity, and every escape attempt can be converted into submission leverage. The system has proven particularly effective in high-level competition, where opponents possess sophisticated back defense knowledge. By understanding and implementing the Straight Jacket principles, practitioners develop the ability to maintain back control against increasingly resistant opponents while creating finishing opportunities with remarkable consistency across different body types and resistance levels.",
@@ -265,7 +274,7 @@
       "relationship": "Lower body control variation that integrates with upper body straight jacket system for maximum position retention"
     },
     {
-      "name": "Back Take Generic",
+      "name": "Back Take",
       "content_type": "Transition",
       "relationship": "General category of techniques used to achieve initial back control position for system entry"
     },

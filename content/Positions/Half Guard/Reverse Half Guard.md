@@ -89,21 +89,23 @@ This position appears more frequently in advanced BJJ and no-gi grappling where 
 ### Available Transitions
 
 
-- **[[Old School Sweep]]** (14% of attempts)
+- **[[Old School Sweep]]** (10% of attempts)
 
-- **[[Half Guard to Back Take]]** (15% of attempts)
+- **[[Half Guard to Back Take]]** (34% of attempts)
 
-- **[[Rolling Back Take]]** (14% of attempts)
+- **[[Underhook Sweep from Half]]** (8% of attempts)
 
-- **[[Hip Bump Sweep]]** (12% of attempts)
+- **[[Deep Half Entry]]** (10% of attempts)
 
-- **[[Turtle to Truck]]** (13% of attempts)
+- **[[Half Guard Recovery]]** (14% of attempts)
 
-- **[[Butterfly Hook Recovery]]** (10% of attempts)
+- **[[Kimura Sweep]]** (10% of attempts)
 
-- **[[Underhook Sweep from Half]]** (10% of attempts)
+- **[[Guard Recovery]]** (8% of attempts)
 
-- **[[Deep Half Entry]]** (12% of attempts)
+- **[[Escape Reverse Half Guard]]** (4% of attempts)
+
+- **[[Invert from Reverse Half Guard]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -164,19 +166,23 @@ This position appears more frequently in advanced BJJ and no-gi grappling where 
 ### Available Transitions
 
 
-- **[[Aoki Lock to Back Control]]** (15% of attempts)
+- **[[Leg Drag Pass]]** (24% of attempts)
 
-- **[[Leg Drag Pass]]** (19% of attempts)
+- **[[Knee Slice from Half]]** (12% of attempts)
 
-- **[[Knee Slice from Half]]** (14% of attempts)
+- **[[Crossface Pass]]** (11% of attempts)
 
-- **[[Side Control to Mount]]** (13% of attempts)
+- **[[Smash Pass]]** (12% of attempts)
 
-- **[[Crossface Pass]]** (14% of attempts)
+- **[[Crab Ride to Back]]** (12% of attempts)
 
-- **[[Turtle to Truck]]** (12% of attempts)
+- **[[Back Step Pass]]** (11% of attempts)
 
-- **[[Smash Pass]]** (13% of attempts)
+- **[[Back Take from Top]]** (10% of attempts)
+
+- **[[Backstep from Reverse Half]]** (5% of attempts)
+
+- **[[Pass Reverse Half]]** (3% of attempts)
 
 
 ### Common Mistakes

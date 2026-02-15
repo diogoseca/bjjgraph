@@ -93,17 +93,19 @@ From the top attacking perspective, the position offers significant control adva
 ### Available Transitions
 
 
-- **[[Ashi Garami Escape]]** (25% of attempts)
+- **[[Ashi Garami Escape]]** (24% of attempts)
 
-- **[[Leg Extraction]]** (25% of attempts)
+- **[[Leg Extraction]]** (33% of attempts)
 
-- **[[Counter Sweep]]** (15% of attempts)
+- **[[Counter Sweep]]** (4% of attempts)
 
-- **[[Saddle Defense]]** (15% of attempts)
+- **[[Saddle Defense]]** (14% of attempts)
 
-- **[[Technical Standup]]** (10% of attempts)
+- **[[Standing Escape]]** (14% of attempts)
 
-- **[[Rolling Back Take]]** (10% of attempts)
+- **[[50-50 Entry]]** (9% of attempts)
+
+- **[[Estima Lock Counter Roll]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -164,17 +166,19 @@ From the top attacking perspective, the position offers significant control adva
 ### Available Transitions
 
 
-- **[[Estima Lock]]** (25% of attempts)
+- **[[Estima Lock]]** (37% of attempts)
 
-- **[[Toe Hold]]** (20% of attempts)
+- **[[Toe Hold]]** (18% of attempts)
 
-- **[[Straight Ankle Lock]]** (15% of attempts)
+- **[[Estima Lock to Saddle]]** (13% of attempts)
 
-- **[[Estima Lock to Saddle]]** (15% of attempts)
+- **[[Kneebar]]** (8% of attempts)
 
-- **[[Kneebar]]** (10% of attempts)
+- **[[Estima Lock to Ashi Garami]]** (18% of attempts)
 
-- **[[Estima Lock to Ashi Garami]]** (15% of attempts)
+- **[[Kneebar from Estima Lock]]** (4% of attempts)
+
+- **[[Toe Hold from Estima Lock]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -202,7 +206,7 @@ From the top attacking perspective, the position offers significant control adva
 
 - ❌ **Failing to adjust when opponent defends by turning their foot or changing angles**
   - Consequence: Stalled position with no submission threat and wasted energy maintaining ineffective control
-  - ✅ Correction: Be prepared to transition to alternative attacks like toe hold, straight ankle lock, or ashi garami when the opponent adjusts their defensive positioning
+  - ✅ Correction: Be prepared to transition to alternative attacks like toe hold, ankle lock finish, or ashi garami when the opponent adjusts their defensive positioning
 
 
 </section>
@@ -225,9 +229,7 @@ From the top attacking perspective, the position offers significant control adva
 
 - **[[Saddle]]** - Advanced leg entanglement target position accessible through Estima Lock transitions
 
-- **[[Straight Ankle Lock Control]]** - Related footlock position offering similar control but different pressure vectors
-
-- **[[Toe Hold Control]]** - Alternative foot attack position with natural transitions from Estima Lock grip changes
+- **[[Kneebar Control]]** - Related leg attack position with natural transitions from Estima Lock grip changes
 
 - **[[Leg Entanglement]]** - Broader positional category encompassing this specific entanglement variant
 

@@ -1,0 +1,13 @@
+{
+  "name": "Leg Extraction from Cross Ashi",
+  "description": "",
+  "tags": [],
+  "from_position": "Cross Ashi-Garami/Bottom",
+  "outcomes": [
+    {
+      "to": "Open Guard/Bottom",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

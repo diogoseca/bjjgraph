@@ -1,6 +1,6 @@
 {
   "name": "Closed Guard to Triangle",
-  "description": "Learn the Triangle setup from Closed Guard in BJJ. Complete execution sequence with grip control and angle creation. Success rates: Beginner 25%, Intermediate 40%, Advanced 60%.",
+  "description": "Learn the Triangle setup from Closed Guard in BJJ. Complete execution sequence with grip control, arm isolation, and angle creation for high-percentage finishes.",
   "tags": [
     "bjj",
     "technique",
@@ -10,141 +10,400 @@
     "submission-setup",
     "guard-attack"
   ],
-  "overview": "The transition from Closed Guard to Triangle represents one of the most fundamental and high-percentage attacks in Brazilian Jiu-Jitsu. This technique exploits the opponent's defensive posturing by converting arm positioning into a powerful strangulation threat. The beauty of this transition lies in its ability to capitalize on the opponent's natural defensive reactions—whether they maintain their base or attempt to posture, the guard player can manipulate limb placement to secure the triangle lock. The closed guard provides an ideal launching platform because it offers control of distance, hip mobility, and the ability to break posture repeatedly until the optimal angle presents itself. This transition teaches fundamental principles of angle creation, hip movement, and limb isolation that apply throughout guard-based submissions. Mastery of this sequence provides a reliable pathway to finish matches while simultaneously opening opportunities for sweeps and back takes when opponents defend the primary threat.",
-  "key_principles": [
-    "Control opponent's posture and sleeve before attempting triangle entry",
-    "Create angle with hip escape to properly position shoulder line",
-    "Isolate one arm across opponent's centerline while trapping the other",
-    "Use shin across back of neck to control posture and create choking angle",
-    "Lock legs in proper triangle configuration before attempting finish",
-    "Maintain constant adjustment of angle and depth throughout the sequence"
-  ],
-  "setup_requirements": [
-    "Closed guard established with ankles locked behind opponent's back",
-    "Opponent's posture broken forward with upper back control",
-    "Strong grip control on at least one sleeve or wrist",
-    "Opponent's arm positioned across their own centerline",
-    "Hip mobility to create angle and elevate hips during transition",
-    "Head control or collar grip to prevent opponent from posturing away"
-  ],
-  "execution_steps": [
+  "from_position": "Closed Guard/Bottom",
+  "outcomes": [
     {
-      "step_number": 1,
-      "action": "Break posture and control",
-      "description": "From closed guard, establish a deep collar grip with your left hand and secure the opponent's right sleeve with your right hand. Pull down forcefully on the collar to break their posture forward while maintaining tight guard closure with your legs."
+      "to": "Triangle Control/Bottom",
+      "probability": 50,
+      "result": "success"
     },
     {
-      "step_number": 2,
-      "action": "Isolate the arm",
-      "description": "Using your sleeve grip, pull the opponent's right arm across their centerline toward your left side while simultaneously using your collar grip to prevent them from basing out with their left arm. The goal is to create a situation where one arm is trapped inside your guard while the other is positioned outside."
+      "to": "Closed Guard/Bottom",
+      "probability": 35,
+      "result": "failure"
     },
     {
-      "step_number": 3,
-      "action": "Open guard and create angle",
-      "description": "Release your ankle lock and place your left foot on the opponent's right hip while keeping your right leg hooked behind their back. Simultaneously perform a slight hip escape to your right side, creating approximately 45 degrees of angle relative to your opponent's centerline. This angle is critical for proper triangle mechanics."
-    },
-    {
-      "step_number": 4,
-      "action": "Throw leg over shoulder",
-      "description": "Drive your left leg up and over the opponent's right shoulder, bringing your shin across the back of their neck. Your left knee should be positioned near your own centerline while your foot extends past their left shoulder. Maintain downward pressure on their head with your collar grip to prevent them from posturing up."
-    },
-    {
-      "step_number": 5,
-      "action": "Lock the triangle",
-      "description": "Pull your right leg out from behind the opponent's back and place your right ankle behind your left knee, forming the triangle lock. Your left leg should maintain pressure across the back of their neck while your right leg secures the lock. Ensure the opponent's trapped arm remains across their centerline and their head is pulled down toward your chest."
-    },
-    {
-      "step_number": 6,
-      "action": "Adjust angle and finish",
-      "description": "Grab your own shin (left leg) with both hands and pull it down toward your chest while simultaneously angling your hips further away from the trapped arm side. This adjustment tightens the triangle and positions the opponent's carotid arteries directly against your thigh and calf. Elevate your hips slightly to increase pressure and secure the submission."
+      "to": "Closed Guard/Top",
+      "probability": 15,
+      "result": "counter"
     }
   ],
-  "common_counters": [
+  "success_rate": 50,
+  "overview": "The transition from Closed Guard to Triangle represents one of the most fundamental and high-percentage attacks in Brazilian Jiu-Jitsu. This technique exploits the opponent's defensive posturing by converting arm positioning into a powerful strangulation threat. The beauty of this transition lies in its ability to capitalize on the opponent's natural defensive reactions—whether they maintain their base or attempt to posture, the guard player can manipulate limb placement to secure the triangle lock. The closed guard provides an ideal launching platform because it offers control of distance, hip mobility, and the ability to break posture repeatedly until the optimal angle presents itself.\n\nThis transition teaches fundamental principles of angle creation, hip movement, and limb isolation that apply throughout guard-based submissions. The mechanics require isolating one arm across the opponent's centerline, creating a perpendicular angle with the hips, and threading the leg over the shoulder to establish the triangle configuration. Each step builds upon the previous one, and failure at any point typically returns the practitioner to closed guard rather than resulting in a catastrophic positional loss.\n\nMastery of this sequence provides a reliable pathway to finish matches while simultaneously opening opportunities for sweeps and back takes when opponents defend the primary threat. The triangle from closed guard forms the centerpiece of the guard attack system, connecting directly to armbars, omoplatas, and sweep combinations that create compounding dilemmas for the defender.",
+  "conditions": [
+    "Closed guard must be fully established with ankles locked behind opponent's back",
+    "Opponent's posture must be broken or breakable through grip combinations",
+    "At least one sleeve or wrist grip must be achievable for arm isolation",
+    "Sufficient hip mobility to create approximately 45 degrees of angle off centerline",
+    "Opponent has at least one arm positioned inside the guard space"
+  ],
+  "related_content": [
     {
-      "counter": "Opponent stands up explosively to stack and create space",
-      "effectiveness": "High",
-      "your_response": "Follow their upward movement by maintaining triangle lock and transitioning to elevated position, or switch to armbar by extending the trapped arm"
+      "name": "Triangle Choke",
+      "relationship": "Direct submission finish from this transition's control position"
     },
     {
-      "counter": "Opponent postures hard and pulls their trapped arm back toward centerline",
-      "effectiveness": "Medium",
-      "your_response": "Release triangle and immediately transition to omoplata on the extended arm, or switch to armbar if the arm becomes available"
+      "name": "Triangle Control",
+      "relationship": "Target control position reached upon successful execution"
     },
     {
-      "counter": "Opponent drives forward and smashes into you before triangle is locked",
-      "effectiveness": "High",
-      "your_response": "Maintain leg over shoulder and transition to mounted triangle, or release and recover closed guard while maintaining control"
+      "name": "Armbar from Guard",
+      "relationship": "Primary follow-up when triangle is defended by arm extraction"
     },
     {
-      "counter": "Opponent circles away from your angle and prevents leg from crossing neck",
-      "effectiveness": "Medium",
-      "your_response": "Use the leg on hip to push and recreate angle, or switch to omoplata as they turn away from the triangle threat"
+      "name": "Triangle to Armbar",
+      "relationship": "Natural chain when opponent defends triangle by posturing"
+    },
+    {
+      "name": "Triangle to Omoplata",
+      "relationship": "Alternative transition when opponent turns away or stacks"
+    },
+    {
+      "name": "Omoplata from Guard",
+      "relationship": "Backup attack when triangle angle is lost during entry"
+    },
+    {
+      "name": "Triangle to Back",
+      "relationship": "Back take opportunity from opponent's stacking defense"
+    },
+    {
+      "name": "Hip Bump Sweep",
+      "relationship": "Alternative attack when opponent defends triangle by posturing high"
+    },
+    {
+      "name": "Pendulum Sweep",
+      "relationship": "Sweep option from similar angle creation position"
+    },
+    {
+      "name": "Kimura from Guard",
+      "relationship": "Alternative submission when arm isolation is achieved but triangle blocked"
+    },
+    {
+      "name": "Closed Guard to Omoplata",
+      "relationship": "Parallel attack sharing identical arm isolation and angle creation mechanics"
+    },
+    {
+      "name": "Posture Recovery",
+      "relationship": "Key defensive concept opponent uses to prevent this attack"
     }
   ],
-  "common_errors": [
-    {
-      "error": "Attempting triangle without first isolating opponent's arm across centerline",
-      "consequence": "Opponent easily pulls their arm free and escapes triangle, potentially passing guard",
-      "correction": "Always ensure one arm is deep inside your guard and across their centerline before throwing leg over shoulder"
-    },
-    {
-      "error": "Failing to create proper angle before attempting to lock triangle",
-      "consequence": "Triangle feels loose and ineffective, allowing opponent to posture up and escape",
-      "correction": "Hip escape to create 45-degree angle relative to opponent's shoulders before locking triangle"
-    },
-    {
-      "error": "Locking triangle with opponent's head positioned incorrectly outside the lock",
-      "consequence": "No choking pressure is created and opponent can easily defend or escape",
-      "correction": "Ensure opponent's head is pulled deep inside the triangle with their neck against your thigh before locking legs"
-    },
-    {
-      "error": "Releasing collar grip too early during the transition",
-      "consequence": "Opponent postures up and prevents leg from getting over shoulder",
-      "correction": "Maintain strong collar or head control until triangle is fully locked, then adjust grips"
-    },
-    {
-      "error": "Keeping hips flat on ground instead of elevating during finish",
-      "consequence": "Insufficient pressure on carotid arteries, allowing opponent to survive and defend",
-      "correction": "Elevate hips toward ceiling while pulling down on shin to maximize choking pressure"
-    },
-    {
-      "error": "Crossing legs in wrong configuration with ankle in front of knee",
-      "consequence": "Triangle lock is weak and easily broken by opponent's posture or movement",
-      "correction": "Always lock with ankle behind knee, creating a figure-four configuration that tightens with pressure"
-    }
-  ],
-  "training_progressions": [
-    {
-      "phase": "Week 1-2: Fundamental Mechanics",
-      "focus": "Arm isolation and angle creation",
-      "description": "Practice breaking posture, isolating the arm across centerline, and creating proper angles from closed guard. Partner remains stationary while you develop muscle memory for hip movement and arm control. Focus on consistent angle creation of approximately 45 degrees."
-    },
-    {
-      "phase": "Week 3-4: Entry Drilling",
-      "focus": "Complete transition sequence",
-      "description": "Drill the entire sequence from closed guard to locked triangle position. Partner provides light resistance by maintaining basic posture but allows technique to complete. Emphasize smooth transitions between steps and proper timing of guard opening, angle creation, and leg placement over shoulder."
-    },
-    {
-      "phase": "Week 5-6: Position Retention",
-      "focus": "Maintaining triangle against defensive movements",
-      "description": "Partner attempts basic escapes such as posturing up and pulling arm back. Practice maintaining triangle lock, adjusting angle, and following opponent's movement. Begin recognizing when to transition to alternative submissions like armbar or omoplata."
-    },
-    {
-      "phase": "Week 7-8: Counter Responses",
-      "focus": "Dealing with common defenses",
-      "description": "Partner employs realistic defensive tactics including standing to stack, circling away from angle, and driving forward pressure. Develop ability to maintain control and finish triangle despite resistance, or smoothly transition to backup attacks when primary finish is defended."
-    },
-    {
-      "phase": "Week 9-10: Live Application",
-      "focus": "Integration into positional sparring",
-      "description": "Apply triangle entries during positional sparring from closed guard with full resistance. Partner knows you're hunting for triangle but defends realistically. Focus on creating setups, recognizing optimal timing, and chaining together multiple attack attempts."
-    },
-    {
-      "phase": "Week 11+: Competition Refinement",
-      "focus": "High-percentage finishing under pressure",
-      "description": "Implement triangle attacks during full sparring sessions. Develop recognition of optimal moments to attack based on opponent's grip fighting, posture, and defensive patterns. Refine ability to finish quickly or transition to alternative attacks without losing advantageous position."
-    }
-  ],
+  "attacker": {
+    "name": "Closed Guard to Triangle Attacker",
+    "description": "How to execute Closed Guard to Triangle in BJJ. Attacking perspective with setup, execution steps, and counters.",
+    "overview": "The transition from Closed Guard to Triangle represents one of the most fundamental and high-percentage attacks in Brazilian Jiu-Jitsu. This technique exploits the opponent's defensive posturing by converting arm positioning into a powerful strangulation threat. The beauty of this transition lies in its ability to capitalize on the opponent's natural defensive reactions—whether they maintain their base or attempt to posture, the guard player can manipulate limb placement to secure the triangle lock. The closed guard provides an ideal launching platform because it offers control of distance, hip mobility, and the ability to break posture repeatedly until the optimal angle presents itself. This transition teaches fundamental principles of angle creation, hip movement, and limb isolation that apply throughout guard-based submissions. Mastery of this sequence provides a reliable pathway to finish matches while simultaneously opening opportunities for sweeps and back takes when opponents defend the primary threat.",
+    "key_principles": [
+      "Control opponent's posture and sleeve before attempting triangle entry—the attack begins with grips, not with opening the guard",
+      "Create angle with hip escape to properly position your shoulder line perpendicular to the opponent's centerline",
+      "Isolate one arm across opponent's centerline while trapping the other outside your legs to create the necessary asymmetry",
+      "Use shin across back of neck to control posture and create the choking angle before locking the triangle configuration",
+      "Lock legs in proper figure-four triangle configuration with ankle behind knee before attempting any finishing pressure",
+      "Maintain constant adjustment of angle and depth throughout the sequence—the triangle tightens through positioning, not squeezing"
+    ],
+    "setup_requirements": [
+      "Closed guard established with ankles locked behind opponent's back",
+      "Opponent's posture broken forward with upper back control through collar grip or head control",
+      "Strong grip control on at least one sleeve or wrist to facilitate arm isolation across centerline",
+      "Opponent's arm positioned across their own centerline or a clear path to force it there",
+      "Hip mobility to create approximately 45 degrees of angle and elevate hips during transition",
+      "Head control or collar grip to prevent opponent from posturing away during the leg throw"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Break posture and establish grips",
+        "description": "From closed guard, establish a deep collar grip with your left hand and secure the opponent's right sleeve with your right hand. Pull down forcefully on the collar to break their posture forward while maintaining tight guard closure with your legs. Your heels should drive into their lower back to assist the posture break."
+      },
+      {
+        "step_number": 2,
+        "action": "Isolate the arm across centerline",
+        "description": "Using your sleeve grip, pull the opponent's right arm across their centerline toward your left side while simultaneously using your collar grip to prevent them from basing out with their left arm. The goal is to create a situation where one arm is trapped inside your guard and across their neck while the other is positioned outside. This asymmetry is the structural foundation of the triangle."
+      },
+      {
+        "step_number": 3,
+        "action": "Open guard and create angle",
+        "description": "Release your ankle lock and place your left foot on the opponent's right hip while keeping your right leg hooked behind their back. Simultaneously perform a hip escape to your right side, creating approximately 45 degrees of angle relative to your opponent's centerline. This angle is critical for proper triangle mechanics—without it, the triangle will be loose and ineffective."
+      },
+      {
+        "step_number": 4,
+        "action": "Throw leg over shoulder",
+        "description": "Drive your left leg up and over the opponent's right shoulder, bringing your shin across the back of their neck. Your left knee should be positioned near your own centerline while your foot extends past their left shoulder. Maintain downward pressure on their head with your collar grip throughout this movement to prevent them from posturing up and blocking the leg entry."
+      },
+      {
+        "step_number": 5,
+        "action": "Lock the triangle",
+        "description": "Pull your right leg out from behind the opponent's back and place your right ankle behind your left knee, forming the figure-four triangle lock. Your left leg maintains pressure across the back of their neck while your right leg secures the configuration. Ensure the opponent's trapped arm remains across their centerline and their head is pulled down toward your chest. Squeeze your knees together to begin compressing the carotid arteries."
+      },
+      {
+        "step_number": 6,
+        "action": "Adjust angle and secure control position",
+        "description": "Grab your own shin (left leg) with both hands and pull it down toward your chest while simultaneously angling your hips further away from the trapped arm side. This adjustment tightens the triangle and positions the opponent's carotid arteries directly against your thigh and calf. Elevate your hips slightly to increase compression and establish dominant triangle control from which you can finish or chain to secondary attacks."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent stands up explosively to stack and create space above you",
+        "effectiveness": "High",
+        "your_response": "Follow their upward movement by maintaining triangle lock and transitioning to elevated position using shoulder walk, or switch to armbar by extending the trapped arm as their posture opens it",
+        "targets_outcome": "Closed Guard/Bottom"
+      },
+      {
+        "counter": "Opponent postures hard and pulls their trapped arm back toward centerline to relieve pressure",
+        "effectiveness": "Medium",
+        "your_response": "If the arm starts extracting, immediately transition to omoplata by releasing the top leg and swinging it over their back, or switch to armbar on the extending arm before it fully clears",
+        "targets_outcome": "Closed Guard/Bottom"
+      },
+      {
+        "counter": "Opponent drives forward and smashes into you with shoulder pressure before triangle is locked",
+        "effectiveness": "High",
+        "your_response": "Maintain leg over shoulder and use underhook to transition to mounted triangle position, or frame on their shoulder and recover closed guard while maintaining wrist control for a re-attack",
+        "targets_outcome": "Closed Guard/Bottom"
+      },
+      {
+        "counter": "Opponent circles away from your angle and prevents leg from crossing the back of their neck",
+        "effectiveness": "Medium",
+        "your_response": "Use the foot on hip to push and pivot your hips to recreate the angle, or switch to omoplata as their circling motion naturally rotates their shoulder into the omoplata entry position",
+        "targets_outcome": "Closed Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting triangle without first isolating opponent's arm across centerline",
+        "consequence": "Opponent easily pulls their arm free and escapes triangle, potentially using the opening to posture and begin passing the guard",
+        "correction": "Always ensure one arm is deep inside your guard and across their centerline before opening your guard and throwing the leg over their shoulder"
+      },
+      {
+        "error": "Failing to create proper angle before attempting to lock triangle",
+        "consequence": "Triangle feels loose and ineffective, allowing opponent to posture up, stack, or simply wait out the attack without urgency",
+        "correction": "Hip escape to create 45-degree angle relative to opponent's shoulders before locking triangle—the angle creates the compression geometry"
+      },
+      {
+        "error": "Locking triangle with opponent's head positioned too far outside the lock",
+        "consequence": "No choking pressure is created because the leg is across the forehead rather than behind the neck, and opponent can easily posture free",
+        "correction": "Ensure opponent's head is pulled deep inside the triangle with their neck pressed firmly against your thigh before locking legs"
+      },
+      {
+        "error": "Releasing collar grip too early during the leg throw transition",
+        "consequence": "Opponent postures up during the critical moment when your guard is open, preventing the leg from getting over their shoulder entirely",
+        "correction": "Maintain strong collar or head control until triangle is fully locked and your legs control their posture, then release the initial grips for finishing adjustments"
+      },
+      {
+        "error": "Keeping hips flat on ground instead of elevating during the control phase",
+        "consequence": "Insufficient pressure on carotid arteries allows opponent to survive, breathe freely, and methodically work escape sequences",
+        "correction": "Elevate hips toward ceiling using your shoulders and upper back as a base while pulling down on shin to maximize choking pressure vector"
+      },
+      {
+        "error": "Crossing legs in wrong configuration with ankle in front of knee rather than behind",
+        "consequence": "Triangle lock is structurally weak and easily broken by opponent's posture recovery or simple hand fighting against the lock",
+        "correction": "Always lock with ankle behind the knee pit, creating a figure-four configuration that becomes self-tightening under pressure"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2: Fundamental Mechanics",
+        "focus": "Arm isolation and angle creation",
+        "description": "Practice breaking posture, isolating the arm across centerline, and creating proper angles from closed guard. Partner remains stationary while you develop muscle memory for hip movement and arm control. Focus on consistent angle creation of approximately 45 degrees and smooth coordination between grip work and hip escape."
+      },
+      {
+        "phase": "Week 3-4: Entry Drilling",
+        "focus": "Complete transition sequence",
+        "description": "Drill the entire sequence from closed guard to locked triangle position. Partner provides light resistance by maintaining basic posture but allows technique to complete. Emphasize smooth transitions between steps and proper timing of guard opening, angle creation, and leg placement over shoulder."
+      },
+      {
+        "phase": "Week 5-6: Position Retention",
+        "focus": "Maintaining triangle against defensive movements",
+        "description": "Partner attempts basic escapes such as posturing up and pulling arm back. Practice maintaining triangle lock, adjusting angle, and following opponent's movement. Begin recognizing when to transition to alternative submissions like armbar or omoplata."
+      },
+      {
+        "phase": "Week 7-8: Counter Responses",
+        "focus": "Dealing with common defenses",
+        "description": "Partner employs realistic defensive tactics including standing to stack, circling away from angle, and driving forward pressure. Develop ability to maintain control and finish triangle despite resistance, or smoothly transition to backup attacks when primary finish is defended."
+      },
+      {
+        "phase": "Week 9-10: Live Application",
+        "focus": "Integration into positional sparring",
+        "description": "Apply triangle entries during positional sparring from closed guard with full resistance. Partner knows you're hunting for triangle but defends realistically. Focus on creating setups, recognizing optimal timing, and chaining together multiple attack attempts."
+      },
+      {
+        "phase": "Week 11+: Competition Refinement",
+        "focus": "High-percentage finishing under pressure",
+        "description": "Implement triangle attacks during full sparring sessions. Develop recognition of optimal moments to attack based on opponent's grip fighting, posture, and defensive patterns. Refine ability to finish quickly or transition to alternative attacks without losing advantageous position."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Why is creating an angle with your hips essential for a successful triangle from closed guard?",
+        "answer": "Creating an angle positions your thigh and calf bone perpendicular to the opponent's neck, allowing them to compress the carotid arteries effectively. Without this angle, the choke relies only on forward pressure which is easily defended by posturing. The angle also prevents the opponent from simply pulling straight back to escape, as your body position blocks their escape path and creates a tighter mechanical lock."
+      },
+      {
+        "question": "What is the optimal timing window for throwing your leg over the opponent's shoulder during the triangle entry?",
+        "answer": "The optimal timing window is immediately after you have confirmed arm isolation across the centerline and completed your hip escape to create the angle. The leg throw must happen while your collar or head grip is still actively pulling the opponent's posture down—if you wait too long, they may recover posture, and if you throw too early before the angle is established, the triangle will be loose. The moment the opponent's shoulder dips forward under your grip pressure is the highest-percentage window."
+      },
+      {
+        "question": "Your opponent posts their free hand on the mat as you begin opening your guard—how do you adjust your triangle entry?",
+        "answer": "When the opponent posts a hand on the mat, they create an additional base point that makes the arm isolation harder but also exposes that posting arm. Use your foot on their hip to bump them laterally toward the posting arm, collapsing their base. Alternatively, switch your target to the posting arm—push it across their centerline with your grip hand while using the foot on hip to create the angle. The posting hand is committed to the mat, making it easier to redirect across their body for the triangle entry."
+      },
+      {
+        "question": "What grip configurations from closed guard best facilitate the transition to triangle?",
+        "answer": "The most effective grip combinations include: collar and sleeve grip (controlling posture while isolating the arm), double sleeve grips (allowing manipulation of arm positioning across centerline), and overhook with wrist control (creating immediate arm isolation). The collar and sleeve combination is most versatile as it provides posture control while setting up the arm isolation necessary for triangle entry. In no-gi, a collar tie with wrist control provides similar mechanics."
+      },
+      {
+        "question": "What are the entry requirements that must exist before you commit to opening your guard for the triangle?",
+        "answer": "Before opening the guard, you must have confirmed: broken posture with the opponent's head and shoulders pulled forward, secure grip on at least one sleeve or wrist with that arm controllable across centerline, your hips are already beginning to shift for the angle rather than remaining square, and the opponent's free arm is not positioned to create an immediate base or counter. Opening the guard without these conditions typically results in the opponent recovering posture and either defending or passing."
+      },
+      {
+        "question": "How should you adjust your triangle if the opponent successfully stands up and begins to stack you?",
+        "answer": "When the opponent stands and stacks, maintain your triangle lock and use your hands to control their hips or belt to prevent them from driving forward. Shoulder walk backward to create more space and prevent compression on your neck. If their hips come forward, transition to omoplata by releasing the locking leg and swinging it over their back. If they keep their hips back while standing, extend the trapped arm for an armbar. The critical principle is to never release the triangle lock during their stand-up—their elevation actually assists your hip elevation for a tighter finish if you maintain the configuration."
+      },
+      {
+        "question": "What is the most critical hip movement failure point that prevents successful triangle completion?",
+        "answer": "The most critical failure point is attempting to lock the triangle while your hips remain square to the opponent rather than angled approximately 45 degrees. When hips stay square, the triangle geometry creates only frontal pressure on the trachea rather than lateral compression on the carotid arteries. The hip escape must generate enough angle that your choking leg's knee points toward the opponent's trapped shoulder. Without this angle, even a perfectly locked triangle produces minimal arterial compression and the opponent can defend indefinitely."
+      },
+      {
+        "question": "Your opponent defends the initial triangle attempt by keeping both elbows extremely tight to their body—what chain attacks become available?",
+        "answer": "When the opponent clamps both elbows tight, direct arm isolation becomes difficult, but several chain attacks open. First, climb to high guard by walking your legs up their back, then use both hands on their head to break posture deeply—from high guard, the leg throw over the shoulder bypasses elbow defense entirely. Second, threaten the hip bump sweep, which forces them to post a hand and breaks the tight elbow defense. Third, secure an overhook on one side, which bypasses the elbow clamp and allows you to enter the triangle from the overhook position. The tight elbow defense solves one problem but creates vulnerabilities to all three alternatives."
+      },
+      {
+        "question": "What direction of force should your legs generate during the triangle lock, and why does this differ from simple squeezing?",
+        "answer": "The legs should generate force in two simultaneous vectors: the choking leg pulls downward across the back of the neck while the locking leg pushes upward into the choking leg's hamstring, creating a scissoring action. This differs from simple squeezing because a pure bilateral squeeze compresses the trachea without efficiently targeting the carotid arteries. The scissoring vector, combined with the 45-degree hip angle, directs compression specifically against the lateral neck where the carotid arteries are most superficial. Pulling your shin downward with your hands amplifies this directional force."
+      },
+      {
+        "question": "What are the mechanical advantages of locking the triangle with ankle behind knee versus other leg configurations?",
+        "answer": "The ankle-behind-knee figure-four lock creates a self-tightening mechanism where pulling on the shin increases pressure exponentially through the entire kinetic chain. This configuration distributes force across a wider area of the opponent's neck, making it harder for them to create space. The locked position prevents the opponent from simply pushing your legs apart, as the structural integrity of the lock becomes stronger under pressure. Alternative configurations such as ankle-on-ankle or crossing at the shins lack this mechanical advantage and can be broken more easily through posturing or hand fighting."
+      }
+    ],
+    "safety_considerations": "When training triangle setups from closed guard, practitioners must be mindful of neck and spine safety for both participants. The person applying the triangle should never crank or jerk the opponent's head violently, as this can cause cervical spine injuries. Apply pressure gradually and release immediately upon tap signal. For the defender, avoid explosive stacking movements that could injure your training partner's neck or spine—controlled movement is essential. When practicing entries, beginners should focus on position rather than finishing pressure until proper mechanics are established. Partners should communicate clearly about pressure levels and tap early when learning the position. Instructors should emphasize that the triangle choke targets the carotid arteries, not the trachea, and should be applied with control rather than force. Never practice triangles on training partners with known neck injuries without explicit clearance from medical professionals."
+  },
+  "defender": {
+    "name": "Closed Guard to Triangle Defender",
+    "description": "How to defend against Closed Guard to Triangle in BJJ. Recognition cues, defensive options, and escape strategies.",
+    "overview": "Defending the triangle setup from closed guard requires the top player to understand the sequential nature of the attack and intervene at the earliest possible stage. The triangle is not a single-motion technique—it progresses through posture break, arm isolation, guard opening, leg throw, and lock completion. Each stage offers distinct defensive windows, and the earlier you recognize and respond, the higher your probability of successful defense. Once the triangle is fully locked with proper angle, escape becomes exponentially more difficult and energy-intensive.\n\nThe defender's primary strategic framework centers on posture maintenance and arm management. Keeping the spine vertical and elbows connected to the torso eliminates the two prerequisites the attacker needs: broken posture and arm isolation. When posture is compromised, the defender must prioritize recovery over all other concerns, as every subsequent defensive action depends on structural integrity. Understanding that the attacker needs your arm across their centerline provides a clear defensive principle—keep elbows tight, hands connected to your own body, and never allow one arm to drift across the opponent's chest without the other following.",
+    "key_principles": [
+      "Maintain strong upright posture with spine vertical and head over hips—posture is the primary barrier against triangle setup and must be defended continuously",
+      "Keep both elbows tight to your torso and never allow one arm to extend across the opponent's centerline without immediately recovering it",
+      "Recognize the attack sequence early—posture break, then arm isolation, then guard opening signals the triangle entry and each stage has a defensive response",
+      "When caught in a partial triangle, address posture and angle first before attempting to extract the trapped arm, as arm extraction without posture actually tightens the choke",
+      "Control the opponent's hips to prevent them from achieving the 45-degree angle that makes the triangle mechanically effective",
+      "Stack or stand as a last resort defense, but only with proper mechanics that prevent the attacker from following with omoplata or armbar transitions"
+    ],
+    "recognition_cues": [
+      "Opponent breaks your posture aggressively with collar grip while simultaneously controlling one of your sleeves or wrists—this combined grip pattern is the primary triangle setup indicator",
+      "Opponent's guard opens and one foot plants on your hip while the other leg stays hooked behind you—this asymmetric leg position signals imminent leg throw over your shoulder",
+      "You feel your arm being pulled across the opponent's body toward the far side while their hips begin shifting laterally away from you—the arm isolation and angle creation happening simultaneously means the triangle entry is in progress",
+      "Opponent's hip escapes to one side creating an angle while maintaining head control—this angular shift combined with persistent downward pull on your head indicates they are establishing the geometry for triangle lock",
+      "One of your arms is trapped between opponent's legs while the other is outside and their shin begins crossing behind your neck—the triangle is being locked and immediate defensive action is required"
+    ],
+    "defensive_options": [
+      {
+        "action": "Posture recovery and grip stripping—drive hips back, straighten spine, and use two-on-one grip break to strip the controlling collar grip before the guard opens",
+        "when_to_use": "Early stage defense when opponent has broken your posture and is establishing grips but has not yet opened their guard or begun the leg throw",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "Returns to neutral closed guard position with posture intact, forcing opponent to restart the entire setup sequence from the beginning",
+        "risk": "If grip strip fails, the delay may give opponent time to complete arm isolation and proceed with triangle entry"
+      },
+      {
+        "action": "Elbow retraction and stacking—pull the exposed arm back to your own hip while simultaneously driving forward with shoulder pressure to flatten the opponent and prevent hip escape angle",
+        "when_to_use": "Mid-stage defense when opponent has begun isolating your arm but the triangle is not yet locked—their guard is open and leg is moving toward your shoulder",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "Recovers arm position and collapses opponent's angle, returning to closed guard or creating opportunity to begin passing as their guard is already open",
+        "risk": "Driving forward without controlling the hip may allow opponent to complete the lock and transition to mounted triangle if your weight commits too far"
+      },
+      {
+        "action": "Standing posture break with wedge defense—stand up in base while tucking chin and inserting the trapped arm's hand into the crook of the choking leg's knee to create a wedge preventing full lock",
+        "when_to_use": "Late-stage defense when the triangle is partially locked but the opponent has not yet fully adjusted the angle or elevated their hips for maximum compression",
+        "targets_outcome": "Closed Guard/Top",
+        "if_successful": "Creates sufficient space to begin extracting head and arm from the triangle configuration, potentially leading to guard pass or return to open guard top position",
+        "risk": "Standing exposes you to omoplata transition if opponent releases the triangle and swings their leg over your back, and may expose to armbar if trapped arm extends during escape"
+      },
+      {
+        "action": "Square the hips and circle toward the trapped arm side—walk knees toward the side of the trapped arm to eliminate the perpendicular angle the attacker needs for effective arterial compression",
+        "when_to_use": "When triangle is locked but you still have some posture and mobility—the opponent has the configuration but the angle is not yet optimized for finishing",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "Reduces choking pressure by eliminating the critical 45-degree angle, buying time and space to work systematic escape by extracting head or transitioning to stack",
+        "risk": "Moving toward the trapped arm side without simultaneously addressing posture may allow opponent to adjust and re-angle their hips to maintain effective compression"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Closed Guard/Bottom",
+        "how": "Maintain posture throughout the opponent's setup attempt, strip their controlling grips using two-on-one breaks, and retract any arm that drifts across centerline. Successful early defense returns you to standard closed guard top position where you can resume your guard opening and passing progression."
+      },
+      {
+        "outcome": "Closed Guard/Top",
+        "how": "When caught in a late-stage triangle, stand in base and use stacking pressure combined with systematic arm extraction. Create a wedge with the trapped hand in the knee crook, square your hips to eliminate the angle, and work your head free by posting on the mat and walking backward. This defense may open into a passing opportunity as the opponent's guard is compromised."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting to yank the trapped arm free without first addressing posture and the opponent's angle",
+        "consequence": "Pulling the arm actually feeds the triangle tighter by driving your own shoulder deeper into the choke. The opponent's legs compress harder as you pull away, and the extraction attempt often exposes the arm for an armbar transition.",
+        "correction": "Address posture and angle first—straighten your spine, square your hips to the opponent, and only then begin working the trapped arm free by pushing the choking leg's knee away while extracting."
+      },
+      {
+        "error": "Allowing one arm to drift across the opponent's centerline while grip fighting without immediately recovering it",
+        "consequence": "Creates the exact arm isolation the attacker needs. Once one arm crosses centerline with the other remaining outside, the triangle geometry is structurally available and the attacker only needs to throw the leg.",
+        "correction": "Train the habit of keeping both arms operating on the same side—if one arm crosses centerline, the other must follow immediately. Never reach across the opponent's body with only one hand."
+      },
+      {
+        "error": "Panicking and driving forward explosively when the leg crosses over the shoulder",
+        "consequence": "Forward pressure without hip and angle control actually assists the triangle lock by driving your neck deeper into the compression and may allow the opponent to transition to mounted triangle from the forward momentum.",
+        "correction": "When you feel the leg crossing your shoulder, immediately posture up rather than driving forward. Tuck your chin, get your trapped hand to the knee crook as a wedge, and work to stand in base with controlled movement."
+      },
+      {
+        "error": "Keeping the head down and chin forward while caught in the triangle configuration",
+        "consequence": "Exposes the carotid arteries directly to the leg compression and eliminates the chin's protective role in reducing choking effectiveness, dramatically increasing the speed at which the choke becomes effective.",
+        "correction": "Tuck chin firmly to chest and turn head slightly toward the trapped arm side. This positions the chin as a barrier between the leg and your neck, reducing arterial compression and buying time for escape sequences."
+      },
+      {
+        "error": "Stacking without controlling the opponent's far hip to prevent them from re-angling",
+        "consequence": "The opponent simply pivots their hips during the stack to maintain or re-establish the choking angle, meaning your stacking effort is wasted while you expend significant energy.",
+        "correction": "When stacking, place your free hand on the opponent's far hip and pin it to the mat, preventing them from hip escaping to re-create the angle. This makes your stack effective by eliminating their primary counter-adjustment."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "At what stage of the triangle setup sequence is defense most effective, and what should your immediate response be?",
+        "answer": "Defense is most effective during the posture break and grip establishment phase—before the guard ever opens. Your immediate response when you feel the collar grip pulling you down combined with a sleeve grip controlling your arm is to drive your hips backward, straighten your spine, and use a two-on-one grip break on the collar grip. Addressing the attack at this stage requires minimal energy and has the highest success rate because the attacker has not yet created any structural advantages."
+      },
+      {
+        "question": "Why is extracting your trapped arm the wrong first priority when caught in a locked triangle?",
+        "answer": "Extracting the trapped arm first is counterproductive because the pulling motion drives your shoulder deeper into the choke and tightens the triangle configuration around your neck. The opponent's legs compress more effectively when your arm movement creates internal pressure against the lock. The correct priority sequence is: first square your hips to eliminate the finishing angle, then address posture by straightening your spine, and only then begin arm extraction once the triangle's mechanical advantage has been neutralized through position rather than strength."
+      },
+      {
+        "question": "Your opponent has just opened their guard and planted a foot on your hip—what are your defensive options in this critical two-second window?",
+        "answer": "This is the highest-value defensive window. First option: immediately retract the arm they are trying to isolate by pulling your elbow to your own hip and clamping it to your torso. Second option: drive your shoulder into them aggressively to flatten their hip escape angle before it develops, smashing through the foot on hip. Third option: stand up explosively before they can throw the leg over your shoulder, using the moment their guard is open to create distance. The key is that any response must happen within two seconds—once the leg crosses your shoulder, defensive difficulty increases dramatically."
+      },
+      {
+        "question": "How does squaring your hips reduce the effectiveness of a locked triangle, and what position should you move toward?",
+        "answer": "Squaring your hips eliminates the perpendicular angle the attacker needs to compress your carotid arteries against their thigh and calf. When your shoulders are parallel to the opponent's hips rather than perpendicular, the triangle becomes a frontal compression that primarily affects the trachea (which you can resist longer) rather than the carotid arteries (which cause unconsciousness in seconds). Walk your knees toward the trapped arm side while pushing the opponent's choking knee away from your neck to square the position and dramatically reduce finishing pressure."
+      },
+      {
+        "question": "What are the risks of standing up as a triangle defense, and how do you mitigate them?",
+        "answer": "Standing up creates three primary risks: the opponent can transition to omoplata by releasing the triangle and swinging the top leg over your back as you rise, they can extend the trapped arm for an armbar as the standing position opens elbow space, and they can transition to a mounted triangle by following your upward movement. Mitigate these by keeping the trapped arm's elbow absolutely tight to your body during the stand, controlling the opponent's far hip with your free hand to prevent re-angling, and tucking your chin throughout. Standing should only be attempted when other defenses have failed and you need to create maximum space."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2: Recognition and Early Prevention",
+        "focus": "Identifying triangle setup sequences and maintaining posture",
+        "description": "Partner attempts slow-motion triangle setups from closed guard while you practice recognizing each stage of the attack. Focus on maintaining posture under collar grip pressure and immediately recovering when one arm is pulled across centerline. Drill two-on-one grip breaks against collar grips and practice the elbow retraction reflex when sleeve grips are established."
+      },
+      {
+        "phase": "Week 3-4: Mid-Stage Defense Mechanics",
+        "focus": "Defending during guard opening and leg throw phases",
+        "description": "Partner opens guard and attempts triangle entry at 50% speed while you practice the defensive responses: arm retraction, forward smash to collapse angle, and emergency standing defense. Drill each response in isolation, then combine them. Build the habit of moving your hips and addressing angle rather than fighting with arms alone."
+      },
+      {
+        "phase": "Week 5-6: Escape from Locked Triangle",
+        "focus": "Systematic escape sequences when triangle is fully established",
+        "description": "Start in a locked triangle position and practice the full escape progression: chin tuck, square hips by walking toward trapped arm side, wedge hand in knee crook, posture recovery, and arm extraction. Partner maintains triangle at 60-70% resistance. Develop the ability to remain calm under choking pressure and execute the sequence methodically rather than panicking."
+      },
+      {
+        "phase": "Week 7-8: Live Defensive Sparring",
+        "focus": "Applying triangle defense under full resistance",
+        "description": "Positional sparring from closed guard where partner actively hunts for triangles while you practice the full defensive spectrum from early prevention through late-stage escape. Partner uses full resistance and chains attacks. Develop ability to recognize which stage you are in and select the appropriate defensive response in real time under pressure."
+      }
+    ]
+  },
   "variants_and_adaptations": [
     {
       "variant_name": "Overhook Triangle Entry",
@@ -162,101 +421,5 @@
       "when_to_use": "As a follow-up when armbar attempts from guard are defended by opponent extracting their arm"
     }
   ],
-  "knowledge_assessment": [
-    {
-      "question": "Why is creating an angle with your hips essential for a successful triangle from closed guard?",
-      "answer": "Creating an angle positions your thigh and calf bone perpendicular to the opponent's neck, allowing them to compress the carotid arteries effectively. Without this angle, the choke relies only on forward pressure which is easily defended by posturing. The angle also prevents the opponent from simply pulling straight back to escape, as your body position blocks their escape path."
-    },
-    {
-      "question": "What is the primary difference between trapping the arm across centerline versus allowing it to remain on the same side as the opponent's body?",
-      "answer": "Trapping the arm across centerline creates a structural weakness where the opponent cannot generate power to defend or posture because their arm is fighting against their own body mechanics. When the arm stays on the same side, they can use it as a post to create base and generate escape pressure. The crossed arm also creates the necessary space on one side of the neck for your leg to enter and establish the choking angle."
-    },
-    {
-      "question": "How should you adjust your triangle if the opponent successfully stands up and begins to stack you?",
-      "answer": "When the opponent stands and stacks, maintain your triangle lock and use your hands to control their hips or belt to prevent them from driving forward. Elevate your hips higher to maintain choking pressure and consider transitioning to an elevated position by climbing your back off the ground. Alternatively, if the stack pressure is too great, transition to armbar by extending the trapped arm or switch to omoplata by releasing the top leg and swinging it over their back."
-    },
-    {
-      "question": "What grip configurations from closed guard best facilitate the transition to triangle?",
-      "answer": "The most effective grip combinations include: collar and sleeve grip (controlling posture and isolating the arm), double sleeve grips (allowing you to manipulate arm positioning across centerline), or overhook and wrist control (creating immediate arm isolation). The collar and sleeve combination is most versatile as it provides posture control while setting up the arm isolation necessary for triangle entry."
-    },
-    {
-      "question": "Why is it important to maintain control of the opponent's posture until the triangle is fully locked?",
-      "answer": "Posture control prevents the opponent from creating space and seeing the triangle attack coming. If you release the collar or head control prematurely, the opponent can posture up with their spine straight, making it extremely difficult to get your leg over their shoulder. Maintaining downward pressure on their head keeps them bent forward, shortening the distance your leg needs to travel and preventing them from defending the shoulder. Once the triangle is locked, their posture is controlled by the leg across their neck, allowing you to release the initial grips and make final adjustments."
-    },
-    {
-      "question": "What are the mechanical advantages of locking the triangle with ankle behind knee versus other leg configurations?",
-      "answer": "The ankle-behind-knee figure-four lock creates a self-tightening mechanism where pulling on the shin increases pressure exponentially. This configuration also distributes force across a wider area of the opponent's neck, making it harder for them to create space. The locked position prevents the opponent from simply pushing your legs apart, as the structural integrity of the lock becomes stronger under pressure. Alternative configurations lack this mechanical advantage and can be broken more easily through posturing or hand fighting."
-    }
-  ],
-  "safety_considerations": "When training triangle setups from closed guard, practitioners must be mindful of neck and spine safety for both participants. The person applying the triangle should never crank or jerk the opponent's head violently, as this can cause cervical spine injuries. Apply pressure gradually and release immediately upon tap signal. For the defender, avoid explosive stacking movements that could injure your training partner's neck or spine—controlled movement is essential. When practicing entries, beginners should focus on position rather than finishing pressure until proper mechanics are established. Partners should communicate clearly about pressure levels and tap early when learning the position. Instructors should emphasize that the triangle choke targets the carotid arteries, not the trachea, and should be applied with control rather than force. Never practice triangles on training partners with known neck injuries without explicit clearance from medical professionals.",
-  "position_integration": "The closed guard to triangle transition represents a cornerstone attack in the guard player's offensive system. This technique integrates seamlessly with other closed guard attacks, creating a web of threats that compound pressure on the defending opponent. When the triangle is defended, immediate transitions to armbar, omoplata, or sweep attempts keep the initiative without surrendering position. The triangle setup also serves as an excellent entry point for back takes when opponents attempt to stack or circle defensively. Within the broader BJJ positional hierarchy, this transition teaches fundamental concepts of angle creation, limb isolation, and submission chaining that apply throughout guard play. The closed guard platform provides maximum control for learning these mechanics, making it the ideal position for developing triangle proficiency before attempting the same attack from more dynamic guard variations like spider guard, De La Riva, or open guard positions.",
-  "related_content": [
-    {
-      "name": "Triangle Choke",
-      "relationship": "Direct submission finish from this transition"
-    },
-    {
-      "name": "Triangle from Closed Guard",
-      "relationship": "Specific finishing mechanics for this entry"
-    },
-    {
-      "name": "Triangle Setup",
-      "relationship": "Alternative entry methods and setups"
-    },
-    {
-      "name": "Armbar from Guard",
-      "relationship": "Primary follow-up when triangle is defended"
-    },
-    {
-      "name": "Triangle to Armbar",
-      "relationship": "Natural chain when opponent defends triangle"
-    },
-    {
-      "name": "Triangle to Omoplata",
-      "relationship": "Alternative transition when opponent turns away"
-    },
-    {
-      "name": "Omoplata from Guard",
-      "relationship": "Backup attack when triangle angle is lost"
-    },
-    {
-      "name": "Triangle to Back",
-      "relationship": "Back take opportunity from stacking defense"
-    },
-    {
-      "name": "Hip Bump Sweep",
-      "relationship": "Alternative attack when opponent defends triangle by posturing"
-    },
-    {
-      "name": "Pendulum Sweep",
-      "relationship": "Sweep option from similar angle creation position"
-    },
-    {
-      "name": "Kimura from Guard",
-      "relationship": "Alternative submission when arm isolation is achieved"
-    },
-    {
-      "name": "Posture Recovery",
-      "relationship": "Key defensive concept opponent uses against this attack"
-    }
-  ],
-  "from_position": "Closed Guard/Bottom",
-  "outcomes": [
-    {
-      "to": "Triangle Control/Top",
-      "probability": 60,
-      "result": "success"
-    },
-    {
-      "to": "Closed Guard/Bottom",
-      "probability": 30,
-      "result": "failure"
-    },
-    {
-      "to": "Closed Guard/Top",
-      "probability": 10,
-      "result": "counter"
-    }
-  ],
-  "success_rate": 50
+  "position_integration": "The closed guard to triangle transition represents a cornerstone attack in the guard player's offensive system. This technique integrates seamlessly with other closed guard attacks, creating a web of threats that compound pressure on the defending opponent. When the triangle is defended, immediate transitions to armbar, omoplata, or sweep attempts keep the initiative without surrendering position. The triangle setup also serves as an excellent entry point for back takes when opponents attempt to stack or circle defensively. Within the broader BJJ positional hierarchy, this transition teaches fundamental concepts of angle creation, limb isolation, and submission chaining that apply throughout guard play. The closed guard platform provides maximum control for learning these mechanics, making it the ideal position for developing triangle proficiency before attempting the same attack from more dynamic guard variations like spider guard, De La Riva, or open guard positions."
 }

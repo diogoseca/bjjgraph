@@ -20,38 +20,38 @@ description: "Foundational leg entanglement for ankle locks and heel hooks. Entr
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Straight Ankle Lock",
-      "text": "From this position, attempt Straight Ankle Lock. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Straight Ankle Lock Entry",
+      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 43% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Inside Heel Hook",
-      "text": "From this position, attempt Inside Heel Hook. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Heel Hook",
+      "text": "From this position, attempt Heel Hook. This technique is attempted in 6% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toe Hold",
-      "text": "From this position, attempt Toe Hold. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Toe Hold. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar Finish",
-      "text": "From this position, attempt Kneebar Finish. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Kneebar Finish. This technique is attempted in 4% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Inside Ashi-Garami to Honey Hole",
-      "text": "From this position, attempt Inside Ashi-Garami to Honey Hole. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Inside Ashi-Garami to Honey Hole. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute 50-50 Guard to Outside Ashi",
-      "text": "From this position, attempt 50-50 Guard to Outside Ashi. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Back Take from Ashi",
+      "text": "From this position, attempt Back Take from Ashi. This technique is attempted in 2% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,23 +210,31 @@ The position excels in no-gi grappling where leg attacks are permitted, offering
 
 ## Available Attacks
 
-### [[Straight Ankle Lock]] (13% of attempts)
+### [[Straight Ankle Lock Entry]] (43% of attempts)
 
-### [[Inside Heel Hook]] (12% of attempts)
+### [[Heel Hook]] (6% of attempts)
 
-### [[Toe Hold]] (12% of attempts)
+### [[Toe Hold]] (9% of attempts)
 
-### [[Kneebar Finish]] (11% of attempts)
+### [[Kneebar Finish]] (4% of attempts)
 
-### [[Inside Ashi-Garami to Honey Hole]] (11% of attempts)
+### [[Inside Ashi-Garami to Honey Hole]] (9% of attempts)
 
-### [[50-50 Guard to Outside Ashi]] (13% of attempts)
+### [[Back Take from Ashi]] (2% of attempts)
 
-### [[Back Take from Ashi]] (8% of attempts)
+### [[Inside Ashi-Garami to Cross Ashi]] (5% of attempts)
 
-### [[Sweep to Top Position]] (10% of attempts)
+### [[Outside Ashi Entry]] (9% of attempts)
 
-### [[Inside Ashi-Garami to Cross Ashi]] (10% of attempts)
+### [[Saddle Entry from Top]] (9% of attempts)
+
+### [[50-50 Entry]] (3% of attempts)
+
+### [[Backside 50-50 Entry from Ashi]] (0% of attempts)
+
+### [[Inside Ashi to Outside Ashi]] (0% of attempts)
+
+### [[Inside Ashi-Garami to Ushiro Ashi]] (1% of attempts)
 
 
 
@@ -237,28 +245,28 @@ The position excels in no-gi grappling where leg attacks are permitted, offering
 ## Decision Making from This Position
 
 **If opponent remains stationary with leg trapped and shows little defensive movement or awareness:**
-- Execute **[[Straight Ankle Lock]]** → [[Straight Ankle Lock Control]] (Probability: 75%)
+- Execute **[[Straight Ankle Lock Entry]]** → [[Straight Ankle Lock Control]] (Probability: 75%)
 - Execute **[[Toe Hold]]** → [[Toe Hold Control]] (Probability: 65%)
 
 
 **If opponent turns knee inward to defend ankle lock and creates heel hook opportunity:**
-- Execute **[[Inside Heel Hook]]** → [[Saddle]] (Probability: 70%)
+- Execute **[[Heel Hook]]** → [[Saddle]] (Probability: 70%)
 - Execute **[[Inside Ashi-Garami to Honey Hole]]** → [[Honey Hole]] (Probability: 60%)
 
 
 **If opponent rotates hips away and attempts to clear inside leg from hip:**
-- Execute **[[Switch to Outside Ashi]]** → [[Outside Ashi-Garami]] (Probability: 65%)
-- Execute **[[Advance to Saddle]]** → [[Saddle]] (Probability: 55%)
+- Execute **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]] (Probability: 65%)
+- Execute **[[Saddle Entry from Top]]** → [[Saddle]] (Probability: 55%)
 
 
 **If opponent extends trapped leg forcefully to create distance and escape:**
 - Execute **[[Kneebar Finish]]** → [[Kneebar Control]] (Probability: 60%)
-- Execute **[[Maintain Control and Reset]]** → [[Inside Ashi-Garami]] (Probability: 50%)
+- Execute **[[Ankle Lock Finish]]** → [[Inside Ashi-Garami]] (Probability: 50%)
 
 
 **If opponent sits up aggressively and reaches for your legs or upper body:**
-- Execute **[[Back Take Transition]]** → [[Back Control]] (Probability: 55%)
-- Execute **[[Sweep to Top Position]]** → [[Standing Position]] (Probability: 45%)
+- Execute **[[Back Take from Ashi]]** → [[Back Control]] (Probability: 55%)
+- Execute **[[Position reversal sweep to top]]** → [[Standing Position]] (Probability: 45%)
 
 
 

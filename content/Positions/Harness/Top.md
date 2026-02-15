@@ -21,37 +21,37 @@ description: "Master Harness Top Position in BJJ - dominant back control with se
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke",
-      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 23% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar from Back with Legs",
-      "text": "From this position, attempt Armbar from Back with Legs. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Armbar from Back Transition",
+      "text": "From this position, attempt Armbar from Back Transition. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Control to Crucifix",
-      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle from Back",
-      "text": "From this position, attempt Triangle from Back. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Triangle from Back. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bow and Arrow Choke",
-      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar from Back",
-      "text": "From this position, attempt Armbar from Back. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Armbar Finish",
+      "text": "From this position, attempt Armbar Finish. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,21 +211,23 @@ Strategically, Harness Top Position is considered a premium scoring position (4 
 
 ## Available Attacks
 
-### [[Rear Naked Choke]] (15% of attempts)
+### [[Rear Naked Choke]] (23% of attempts)
 
-### [[Armbar from Back with Legs]] (12% of attempts)
+### [[Armbar from Back Transition]] (13% of attempts)
 
-### [[Back Control to Crucifix]] (12% of attempts)
+### [[Back Control to Crucifix]] (11% of attempts)
 
-### [[Triangle from Back]] (10% of attempts)
+### [[Triangle from Back]] (9% of attempts)
 
-### [[Bow and Arrow Choke]] (13% of attempts)
+### [[Bow and Arrow Choke]] (14% of attempts)
 
-### [[Armbar from Back]] (12% of attempts)
+### [[Armbar Finish]] (9% of attempts)
 
-### [[Choke from Crucifix]] (14% of attempts)
+### [[Short Choke]] (8% of attempts)
 
-### [[Rolling Back Take]] (12% of attempts)
+### [[Rolling Back Take]] (9% of attempts)
+
+### [[Transition to Body Lock]] (4% of attempts)
 
 
 
@@ -236,13 +238,13 @@ Strategically, Harness Top Position is considered a premium scoring position (4 
 ## Decision Making from This Position
 
 **If opponent is defending choke with both hands high, protecting neck:**
-- Execute **[[Armbar from Back with Legs]]** → [[Armbar Control]] (Probability: 70%)
+- Execute **[[Armbar from Back Transition]]** → [[Armbar Control]] (Probability: 70%)
 - Execute **[[Back Control to Crucifix]]** → [[Crucifix]] (Probability: 65%)
 
 
 **If opponent is working to remove hooks and turn into you:**
 - Execute **[[Rolling Back Take]]** → [[Body Triangle]] (Probability: 60%)
-- Execute **[[Rear Naked Choke]]** → [[game-over]] (Probability: 75%)
+- Execute **[[Rear Naked Choke]]** → [[Game Over]] (Probability: 75%)
 
 
 **If opponent strips top arm and begins to turn to guard:**
@@ -251,13 +253,13 @@ Strategically, Harness Top Position is considered a premium scoring position (4 
 
 
 **If opponent turtles and hides arms defensively:**
-- Execute **[[Bow and Arrow Choke]]** → [[game-over]] (Probability: 70%)
-- Execute **[[Rear Naked Choke]]** → [[game-over]] (Probability: 80%)
+- Execute **[[Bow and Arrow Choke]]** → [[Game Over]] (Probability: 70%)
+- Execute **[[Rear Naked Choke]]** → [[Game Over]] (Probability: 80%)
 
 
 **If opponent is flat on stomach trying to prevent hooks:**
 - Execute **[[Rolling Back Take]]** → [[Body Triangle]] (Probability: 65%)
-- Execute **[[Choke from Crucifix]]** → [[game-over]] (Probability: 60%)
+- Execute **[[Short Choke]]** → [[Game Over]] (Probability: 60%)
 
 
 

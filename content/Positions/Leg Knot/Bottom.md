@@ -20,39 +20,33 @@ description: "Master Leg Knot Bottom in BJJ. Defensive leg entanglement with sys
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute 50-50 Entry",
-      "text": "From this position, attempt 50-50 Entry. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Clear leg and transition to X-Guard",
+      "text": "From this position, attempt Clear leg and transition to X-Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Single Leg X Entry",
-      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Counter-entangle to 50-50 Guard",
+      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll Escape",
-      "text": "From this position, attempt Granby Roll Escape. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Extract leg and establish Single Leg X",
+      "text": "From this position, attempt Extract leg and establish Single Leg X. This technique is attempted in 20% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Reverse X-Guard Entry",
-      "text": "From this position, attempt Reverse X-Guard Entry. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Limp leg extraction to Half Guard",
+      "text": "From this position, attempt Limp leg extraction to Half Guard. This technique is attempted in 20% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute 50-50 Guard to Single Leg X-Guard",
-      "text": "From this position, attempt 50-50 Guard to Single Leg X-Guard. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Reverse the entanglement to Outside Ashi",
+      "text": "From this position, attempt Reverse the entanglement to Outside Ashi. This technique is attempted in 25% of exchanges from this position.",
       "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 11% of exchanges from this position.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -210,29 +204,15 @@ Success in Leg Knot Bottom requires understanding the hierarchical threat assess
 
 ## Available Escapes
 
-### [[50-50 Entry]] (8% of attempts)
+### [[Clear leg and transition to X-Guard]] (15% of attempts)
 
-### [[Single Leg X Entry]] (9% of attempts)
+### [[Counter-entangle to 50-50 Guard]] (20% of attempts)
 
-### [[Granby Roll Escape]] (7% of attempts)
+### [[Extract leg and establish Single Leg X]] (20% of attempts)
 
-### [[Reverse X-Guard Entry]] (8% of attempts)
+### [[Limp leg extraction to Half Guard]] (20% of attempts)
 
-### [[50-50 Guard to Single Leg X-Guard]] (9% of attempts)
-
-### [[Hip Escape to Guard]] (11% of attempts)
-
-### [[Clear leg and transition to X-Guard]] (8% of attempts)
-
-### [[Counter-entangle to 50-50 Guard]] (8% of attempts)
-
-### [[Extract leg and establish Single Leg X]] (8% of attempts)
-
-### [[Granby roll to reverse position]] (8% of attempts)
-
-### [[Limp leg extraction to Half Guard]] (8% of attempts)
-
-### [[Reverse the entanglement to Outside Ashi]] (8% of attempts)
+### [[Reverse the entanglement to Outside Ashi]] (25% of attempts)
 
 
 

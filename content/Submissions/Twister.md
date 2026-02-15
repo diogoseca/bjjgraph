@@ -4,160 +4,22 @@
 
 ---
 title: "Twister | BJJ Submission | BJJ Graph"
-description: "Master the Twister submission in BJJ. Complete guide with safety protocols, setup from Truck position, and spinal lock execution. Beginner 15%, Intermediate 30%, Advanced 50%."
+description: "Master the Twister spinal lock in BJJ. Complete guide covering Truck position setup, spine rotation mechanics, safety protocols, and defense strategies for advanced practitioners."
 ---
 
 
-<body data-content-type="submissions">
+<body data-content-type="submissions-hub">
 
-<!-- Schema Markup - Auto-generated from JSON -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Execute Twister in BJJ",
-  "description": "Step-by-step guide for Twister with safety protocols.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Secure Truck Position Foundation",
-      "text": "From back control or turtle position, transition to the Truck by controlling opponent's legs while they are belly-down. Establish a lockdown on their near leg by threading your inside leg through and hooking your feet together. Your opponent should be on their stomach with you perpendicular to their body, controlling their lower half completely.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Isolate the Far Arm",
-      "text": "Reach across opponent's back and control their far arm at the wrist or triceps. Pull this arm across their back and maintain control. This prevents them from posting or creating defensive frames. Your opponent should now be belly-down with one arm trapped behind them and their legs locked in your control.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Establish Head Control",
-      "text": "With your free hand, reach over opponent's far shoulder and cup under their chin or jaw (gable grip with your hands is ideal). Do not pull yet - simply establish the grip. Your body should be positioned perpendicular to their spine, with your chest near their ribs.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Create Initial Separation",
-      "text": "Begin extending your legs to push opponent's lower body away from you while simultaneously beginning to pull their upper body toward you with your head/shoulder control. This creates the fundamental twisting motion. Move SLOWLY and feel for their body's natural range of motion. Stop immediately if you feel resistance beyond normal flexibility.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Increase Opposing Vectors",
-      "text": "Gradually increase the separation between upper and lower body by extending your lockdown leg further while pulling the head and shoulder more toward you. Your opponent's spine should begin forming a gentle 'C' shape. The twisting motion should be smooth and progressive, never sudden. Maintain perpendicular alignment to maximize effectiveness.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Apply Final Twisting Pressure",
-      "text": "Continue the opposing motion until opponent taps. Their lower body is pushed away by your extended legs while their upper body is pulled toward you. The submission comes from the rotational stress on the spine, not from pulling their head back. Apply extremely slowly and be prepared to release instantly upon tap. Maximum pressure should never exceed 70% of your strength.",
-      "position": 6
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Immediate Release on Tap",
-      "text": "The moment you feel or hear a tap, immediately release the head control first, then allow opponent to straighten out naturally before releasing the leg entanglement. Do not pull or twist during the release. Check with your partner to ensure they are okay before continuing training.",
-      "position": 7
-    }
-  ],
-  "tool": ["BJJ Gi or No-Gi attire", "Training partner", "Mat space"],
-  "totalTime": "PT5M"
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the MINIMUM application time for the Twister in training, and why is this critical?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The minimum application time is 5-7 seconds of extremely slow, progressive pressure. This is critical because the Twister attacks the spine, which has no 'give' like joints do. Spinal injuries can be catastrophic and permanent. Slow application gives your partner time to recognize the danger, feel the pressure building, and tap before injury occurs. Fast or explosive application can cause serious injury before the partner can respond."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why is perpendicular alignment to the opponent's spine essential for the Twister to work effectively?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Perpendicular alignment creates maximum rotational torque on the spine by establishing opposing force vectors. When you are at 90 degrees to their spine, pushing their lower body one direction with your legs while pulling their upper body the opposite direction creates the most efficient twisting motion. If you are parallel to their body, you lose this mechanical advantage and the submission becomes ineffective."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the correct sequence of release when your partner taps to the Twister?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "First, immediately release all head and neck control completely. Second, release upper body grips and allow opponent to turn face-up naturally. Third, slowly unwind the leg entanglement without pulling or twisting. Fourth, check with your partner to ensure they are okay. Never pull or twist during the release process - let your partner move at their own pace."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the primary prerequisite position for entering the Twister, and what specific controls must be established?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The primary prerequisite is the Truck position, where opponent is belly-down with their legs controlled in a specific entanglement. You must establish a lockdown or body triangle on their near leg to anchor their lower body, control their far arm to prevent frames, and position yourself perpendicular to their spine. Without solid Truck position and lower body control, the Twister cannot be successfully applied."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "If your opponent is successfully tucking their chin and preventing head control, what is the proper adjustment?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Control their far shoulder instead of attempting to force head control. You can create the same twisting motion by controlling the shoulder girdle rather than the neck. This is actually safer and can be just as effective. Focus on pulling their shoulder toward you while pushing their lower body away to create the rotational stress on the spine."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why should the Twister never be practiced on beginners or unfamiliar training partners?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Beginners lack the experience to recognize when they are in serious danger from a spinal lock and may not tap early enough to prevent injury. The Twister requires partners who understand the mechanics, know when to tap preemptively, and can communicate if something feels wrong. Additionally, flexibility varies greatly between individuals, and you need experienced partners who know their own limits and will tap before reaching dangerous ranges of motion."
-      }
-    }
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Twister",
-  "description": "Master the Twister submission in BJJ. Complete guide with safety protocols, setup from Truck position, and spinal lock execution. Beginner 15%, Intermediate 30%, Advanced 50%.",
-  "url": "https://bjjgraph.org/Submissions/Twister",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.org"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
-    {"@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/"},
-    {"@type": "ListItem", "position": 3, "name": "Twister", "item": "https://bjjgraph.org/Submissions/Twister"}
-  ]
-}
-</script>
-
-> ⚠️ **SAFETY**: Twister targets the Cervical and thoracic spine, shoulder girdle. Risk: Cervical spine damage (neck injury). Release immediately upon tap.
+> **SAFETY**: Twister targets the Cervical and thoracic spine, shoulder girdle. Risk: Cervical spine damage (neck injury). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-The Twister is an advanced spinal lock submission popularized by 10th Planet's and the 10th Planet Jiu-Jitsu system. This technique creates a corkscrew-like torque on the opponent's spine by controlling their lower body with a lockdown or body triangle while simultaneously controlling their upper body in the opposite direction. The Twister is primarily entered from the Truck position, where you have your opponent's back while they are belly-down, with their legs controlled in a specific entanglement. The submission applies pressure to the entire spinal column, creating a twisting motion that forces the tap. Due to the complex mechanics and significant injury potential, the Twister is considered an advanced technique requiring extensive training under qualified instruction. In competition, it is illegal in many rulesets including IBJJF gi divisions, though it is legal in most no-gi competitions at brown and black belt levels. The Twister represents the culmination of the 10th Planet systematic approach to back attacks and is the signature submission of the 10th Planet system.
+The Twister is an advanced spinal lock submission popularized by 10th Planet Jiu-Jitsu. This technique creates a corkscrew-like torque on the opponent's spine by controlling their lower body with a lockdown or body triangle while simultaneously controlling their upper body in the opposite direction. The Twister is primarily entered from the Truck position, where you have your opponent's back while they are belly-down, with their legs controlled in a specific entanglement. The submission applies pressure to the entire spinal column, creating a twisting motion that forces the tap.
+
+Due to the complex mechanics and significant injury potential, the Twister is considered an advanced technique requiring extensive training under qualified instruction. In competition, it is illegal in many rulesets including IBJJF gi divisions, though it is legal in most no-gi competitions at brown and black belt levels. The Twister represents the culmination of the 10th Planet systematic approach to back attacks and is the signature submission of the system. The position creates a true dilemma: defending the spinal rotation exposes the legs to calf slicers and banana splits, while defending the lower body allows the twisting finish to be completed.
 
 **Category**: Joint Lock
 **Type**: Spinal Lock
@@ -211,96 +73,157 @@ The Twister is an advanced spinal lock submission popularized by 10th Planet's a
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="outcomes" class="content-section">
 
-## Key Principles
+## Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[game-over]] | 52% |
+| Failure | [[Twister Control]] | 28% |
+| Counter | [[Turtle]] | 20% |
+
+
+</section>
+
+<section class="content-section">
+
+## Attacker vs Defender
+
+| &nbsp; | Attacker | Defender |
+|--------|----------|----------|
+| **Focus** | Execute and finish | Escape and survive |
+| **Key Principles** | Establish dominant Truck position before attempting - lower ... | Recognize Twister setup early - defense becomes exponentiall... |
+| **Options** | 7 execution steps | 4 defensive options |
+
+</section>
+
+<section id="attacker-summary" class="content-section">
+
+## Playing as Attacker
+
+[[Twister/Attacker|→ Full Attacker Guide]]
+
+### Key Principles
+
+
 - Establish dominant Truck position before attempting - lower body must be completely controlled
+
 - Create opposing tension vectors - legs pull one direction while arms pull the opposite
+
 - Maintain perpendicular alignment between opponent's upper and lower body throughout
+
 - Apply pressure gradually and progressively - spine locks require slow, controlled application
+
 - Control the far shoulder and head to prevent opponent from turning into you
+
 - Use your entire body to create the twisting motion, not just arm strength
+
 - Listen to your partner and err on the side of caution - spinal integrity is paramount
 
 
-</section>
-
-<section id="setup-requirements" class="content-section">
-
-## Prerequisites
-- Secure Truck position with opponent belly-down and their legs controlled
-- Establish lockdown or body triangle on opponent's near leg to anchor lower body
-- Control opponent's far arm to prevent defensive frames
-- Position yourself perpendicular to opponent's spine
-- Ensure opponent cannot turn toward you or escape their hips
-- Have clear access to opponent's head and far shoulder
-- Confirm opponent is experienced enough to recognize the danger and tap appropriately
+### Execution Steps
 
 
-</section>
+- **Secure Truck Position Foundation**: From back control or turtle position, transition to the Truck by controlling opponent's legs while t...
 
-<section id="execution-steps" class="content-section">
+- **Isolate the Far Arm**: Reach across opponent's back and control their far arm at the wrist or triceps. Pull this arm across...
 
-## Execution Steps
-1. **Secure Truck Position Foundation**: From back control or turtle position, transition to the Truck by controlling opponent's legs while they are belly-down. Establish a lockdown on their near leg by threading your inside leg through and hooking your feet together. Your opponent should be on their stomach with you perpendicular to their body, controlling their lower half completely. (Timing: 3-5 seconds to establish solid base)
-2. **Isolate the Far Arm**: Reach across opponent's back and control their far arm at the wrist or triceps. Pull this arm across their back and maintain control. This prevents them from posting or creating defensive frames. Your opponent should now be belly-down with one arm trapped behind them and their legs locked in your control. (Timing: 2-3 seconds)
-3. **Establish Head Control**: With your free hand, reach over opponent's far shoulder and cup under their chin or jaw (gable grip with your hands is ideal). Do not pull yet - simply establish the grip. Your body should be positioned perpendicular to their spine, with your chest near their ribs. (Timing: 2-3 seconds to secure grip)
-4. **Create Initial Separation**: Begin extending your legs to push opponent's lower body away from you while simultaneously beginning to pull their upper body toward you with your head/shoulder control. This creates the fundamental twisting motion. Move SLOWLY and feel for their body's natural range of motion. Stop immediately if you feel resistance beyond normal flexibility. (Timing: 3-4 seconds gradual separation)
-5. **Increase Opposing Vectors**: Gradually increase the separation between upper and lower body by extending your lockdown leg further while pulling the head and shoulder more toward you. Your opponent's spine should begin forming a gentle 'C' shape. The twisting motion should be smooth and progressive, never sudden. Maintain perpendicular alignment to maximize effectiveness. (Timing: 4-5 seconds progressive increase)
-6. **Apply Final Twisting Pressure**: Continue the opposing motion until opponent taps. Their lower body is pushed away by your extended legs while their upper body is pulled toward you. The submission comes from the rotational stress on the spine, not from pulling their head back. Apply extremely slowly and be prepared to release instantly upon tap. Maximum pressure should never exceed 70% of your strength. (Timing: 3-5 seconds to finish)
-7. **Immediate Release on Tap**: The moment you feel or hear a tap, immediately release the head control first, then allow opponent to straighten out naturally before releasing the leg entanglement. Do not pull or twist during the release. Check with your partner to ensure they are okay before continuing training. (Timing: Immediate on tap signal)
+- **Establish Head Control**: With your free hand, reach over opponent's far shoulder and cup under their chin or jaw (gable grip ...
+
+- **Create Initial Separation**: Begin extending your legs to push opponent's lower body away from you while simultaneously beginning...
+
+- **Increase Opposing Vectors**: Gradually increase the separation between upper and lower body by extending your lockdown leg furthe...
+
+- **Apply Final Twisting Pressure**: Continue the opposing motion until opponent taps. Their lower body is pushed away by your extended l...
+
+- **Immediate Release on Tap**: The moment you feel or hear a tap, immediately release the head control first, then allow opponent t...
 
 
-</section>
+### Common Mistakes
 
-<section id="opponent-defense-patterns" class="content-section">
 
-## Opponent Defenses
-- **Turn into you to prevent perpendicular alignment** (Effectiveness: High) - Your Adjustment: Maintain lockdown pressure and use your free hand to post on their hip, preventing the turn. Re-establish perpendicular position before attempting the finish.
-- **Straighten the trapped leg to escape lockdown** (Effectiveness: High) - Your Adjustment: Switch to a body triangle if they begin escaping the lockdown. Maintain lower body control at all costs as it is essential for the submission.
-- **Tuck chin and hide neck to prevent head control** (Effectiveness: Medium) - Your Adjustment: Control the far shoulder instead of the head, or use a chin cup grip. Focus on shoulder control and create the twisting motion through the shoulder girdle rather than the neck.
-- **Roll backwards over their shoulder** (Effectiveness: Medium) - Your Adjustment: Use your weight to prevent the backwards roll. Post with your free hand and maintain perpendicular pressure. If they commit to the roll, follow through and transition to back control.
-- **Grab your gi or limbs to create frames** (Effectiveness: Low) - Your Adjustment: Strip their grips by pulling their arm behind their back more aggressively. In no-gi, maintain wrist control to prevent them from grabbing you.
+- **Pulling the head straight back instead of creating rotational torque**
+  - Consequence: Transforms into a neck crank rather than spinal lock, reduces effectiveness and increases danger
+  - Correction: Focus on perpendicular alignment and opposing vectors - push lower body one direction while pulling upper body the opposite direction, creating a twisting motion
+
+- **Applying the submission too quickly or explosively**
+  - Consequence: High risk of serious spinal injury to your partner
+  - Correction: Always apply extremely slowly over 5-7 seconds minimum. This is not a submission to 'crank' - it requires progressive, controlled pressure
+
+- **Losing lockdown control and attempting to finish anyway**
+  - Consequence: Opponent can escape or turn into you, negating the submission entirely
+  - Correction: Re-establish solid lower body control before attempting the finish. The Twister is impossible without anchoring their hips and legs.
 
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="defender-summary" class="content-section">
 
-## Common Mistakes
-- **Mistake**: Pulling the head straight back instead of creating rotational torque
-  - **Consequence**: Transforms into a neck crank rather than spinal lock, reduces effectiveness and increases danger
-  - **Correction**: Focus on perpendicular alignment and opposing vectors - push lower body one direction while pulling upper body the opposite direction, creating a twisting motion
-- **Mistake**: Applying the submission too quickly or explosively
-  - **Consequence**: High risk of serious spinal injury to your partner
-  - **Correction**: Always apply extremely slowly over 5-7 seconds minimum. This is not a submission to 'crank' - it requires progressive, controlled pressure
-- **Mistake**: Losing lockdown control and attempting to finish anyway
-  - **Consequence**: Opponent can escape or turn into you, negating the submission entirely
-  - **Correction**: Re-establish solid lower body control before attempting the finish. The Twister is impossible without anchoring their hips and legs.
-- **Mistake**: Not controlling the far arm adequately
-  - **Consequence**: Opponent creates defensive frames and escapes or reduces submission pressure
-  - **Correction**: Pull their far arm across their back and maintain tight wrist or triceps control throughout the sequence. Their arm should be trapped behind them.
-- **Mistake**: Poor perpendicular alignment with opponent's spine
-  - **Consequence**: Reduced twisting pressure and easier escape for opponent
-  - **Correction**: Position your body at 90 degrees to opponent's spine. Your chest should be near their ribs, not parallel to their body.
-- **Mistake**: Using only arm strength to pull the head
-  - **Consequence**: Exhaustion and inability to finish, plus increased injury risk from sudden pulls
-  - **Correction**: Use your entire body to create the twisting motion. Your legs push their lower body away while your torso rotation pulls their upper body.
-- **Mistake**: Not checking partner's flexibility or experience level
-  - **Consequence**: Potential injury to less flexible or inexperienced partners who don't recognize danger
-  - **Correction**: Only practice Twister with experienced training partners who understand the position and will tap early. Discuss the technique before attempting.
+## Playing as Defender
+
+[[Twister/Defender|→ Full Defender Guide]]
+
+### Key Principles
+
+
+- Recognize Twister setup early - defense becomes exponentially harder as the attacker progresses through each control point
+
+- Protect the far arm at all costs - once it is trapped behind your back, the attacker controls your ability to resist rotation
+
+- Work to free the trapped leg first, as the lockdown is the foundation of the entire submission
+
+- Turn toward the attacker rather than away, as turning away accelerates the spinal rotation they are creating
+
+- Tuck chin and protect neck immediately when you feel upper body control being established
+
+- Tap early and without ego - the spine gives no warning before catastrophic failure under rotational load
+
+- Use frames against the attacker's hips and shoulders to prevent them from achieving perpendicular alignment
+
+
+### Recognition Cues
+
+
+- Opponent secures Truck position with their legs entangled around your near leg, creating a lockdown-style figure-four on your lower body
+
+- You feel lateral pressure from the attacker's boot against your hip, preventing you from squaring up or turning to face them
+
+- Attacker reaches across your back toward your far arm while maintaining perpendicular body positioning to your spine
+
+- You feel the attacker's chest or shoulder pressing against your upper back while your lower body is locked in place
+
+- Attacker begins cupping under your chin or controlling your far shoulder after isolating your arm
+
+
+### Escape Paths
+
+
+- Turn into the attacker before full perpendicular alignment to recover turtle or half guard, preventing the opposing force vectors from being established
+
+- Extract the trapped leg by straightening, rotating outward, and shrimping to break the lockdown anchor, then recover to open guard or half guard
+
+- Granby roll toward the attacker during the transition phase when upper body control is incomplete, using momentum to break the control structure
+
+- Bridge explosively toward the attacker's chest while fighting the chin cup grip to prevent full rotation and create a scramble opportunity
 
 
 </section>
 
-<section id="variations-and-setups" class="content-section hide-minimal">
+
+<section id="variations" class="content-section hide-minimal">
 
 ## Variations
+
+
 **Electric Chair to Twister Transition**: From the Electric Chair leg lock position, if opponent defends by turning away and going belly-down, transition directly to Truck position and then Twister. (When to use: When opponent is defending the Electric Chair by turning away from you rather than toward you)
+
 
 **Calf Slicer to Twister Chain**: Set up the Calf Slicer from Truck position, and when opponent turns belly-down to defend, maintain lower body control and transition to the Twister finish on the upper body. (When to use: When opponent is defending leg attacks from Truck by flattening out)
 
+
 **Twister from Turtle/Quarter Guard**: Enter Truck position from opponent's turtle or quarter guard by establishing the lockdown first, then rolling them to their stomach to set up the Twister. (When to use: When opponent is in defensive turtle position or you have them in quarter guard)
+
 
 **Banana Split to Twister Combination**: Start with the Banana Split leg lock setup, then if opponent tries to escape by going belly-down, transition to Twister while maintaining the leg spread. (When to use: When working from bottom half guard or lockdown position and opponent is defensive)
 
@@ -308,48 +231,6 @@ The Twister is an advanced spinal lock submission popularized by 10th Planet's a
 
 </section>
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-**Q1**: What is the MINIMUM application time for the Twister in training, and why is this critical? **[SAFETY-CRITICAL]**
-**A**: The minimum application time is 5-7 seconds of extremely slow, progressive pressure. This is critical because the Twister attacks the spine, which has no 'give' like joints do. Spinal injuries can be catastrophic and permanent. Slow application gives your partner time to recognize the danger, feel the pressure building, and tap before injury occurs. Fast or explosive application can cause serious injury before the partner can respond.
-
-**Q2**: Why is perpendicular alignment to the opponent's spine essential for the Twister to work effectively?
-**A**: Perpendicular alignment creates maximum rotational torque on the spine by establishing opposing force vectors. When you are at 90 degrees to their spine, pushing their lower body one direction with your legs while pulling their upper body the opposite direction creates the most efficient twisting motion. If you are parallel to their body, you lose this mechanical advantage and the submission becomes ineffective.
-
-**Q3**: What is the correct sequence of release when your partner taps to the Twister? **[SAFETY-CRITICAL]**
-**A**: First, immediately release all head and neck control completely. Second, release upper body grips and allow opponent to turn face-up naturally. Third, slowly unwind the leg entanglement without pulling or twisting. Fourth, check with your partner to ensure they are okay. Never pull or twist during the release process - let your partner move at their own pace.
-
-**Q4**: What is the primary prerequisite position for entering the Twister, and what specific controls must be established?
-**A**: The primary prerequisite is the Truck position, where opponent is belly-down with their legs controlled in a specific entanglement. You must establish a lockdown or body triangle on their near leg to anchor their lower body, control their far arm to prevent frames, and position yourself perpendicular to their spine. Without solid Truck position and lower body control, the Twister cannot be successfully applied.
-
-**Q5**: If your opponent is successfully tucking their chin and preventing head control, what is the proper adjustment?
-**A**: Control their far shoulder instead of attempting to force head control. You can create the same twisting motion by controlling the shoulder girdle rather than the neck. This is actually safer and can be just as effective. Focus on pulling their shoulder toward you while pushing their lower body away to create the rotational stress on the spine.
-
-**Q6**: Why should the Twister never be practiced on beginners or unfamiliar training partners? **[SAFETY-CRITICAL]**
-**A**: Beginners lack the experience to recognize when they are in serious danger from a spinal lock and may not tap early enough to prevent injury. The Twister requires partners who understand the mechanics, know when to tap preemptively, and can communicate if something feels wrong. Additionally, flexibility varies greatly between individuals, and you need experienced partners who know their own limits and will tap before reaching dangerous ranges of motion.
-
-**Q7**: What common error transforms the Twister from a spinal lock into a dangerous neck crank? **[SAFETY-CRITICAL]**
-**A**: Pulling the head straight back toward you instead of creating rotational torque with opposing vectors. The Twister should create a twisting, corkscrew motion on the entire spine by pushing the lower body one direction while pulling the upper body the opposite direction. Simply pulling the head backward becomes a neck crank, which is more dangerous and less effective than the proper spinal lock mechanism.
-
-**Q8**: What anatomical structures does the Twister primarily attack, and what makes them vulnerable? **[SAFETY-CRITICAL]**
-**A**: The Twister primarily attacks the cervical spine (neck vertebrae), thoracic spine (upper back), and the surrounding musculature including the shoulder girdle. These structures are vulnerable because the spine has limited rotational capacity before injury occurs. Unlike joints that can hyperextend gradually, the spine under rotational load can suffer sudden catastrophic failure of intervertebral discs, facet joints, and spinal ligaments with very little warning.
-
-**Q9**: Your opponent begins to straighten their trapped leg while you have Twister control established - what finishing adjustment should you make?
-**A**: When the opponent straightens their trapped leg, you lose the lower body anchor that creates the opposing force vector. Immediately switch to a body triangle or hook configuration to regain lower body control before continuing. Alternatively, if they've created significant space, transition to the Calf Slicer on the extended leg as a counter-attack. Never attempt to finish the Twister without solid lower body control as the rotational pressure becomes unpredictable and potentially more dangerous.
-
-**Q10**: At what point during the Twister application is there 'no escape' for the defender, and how should this affect your finishing pressure? **[SAFETY-CRITICAL]**
-**A**: The point of no escape occurs when you have achieved full perpendicular alignment with deep lockdown control and have begun the rotational pressure with their far arm trapped. At this point, their only option is to tap. This should actually cause you to SLOW DOWN your application, not speed up. Once you recognize the position is locked, apply finishing pressure progressively over 3-5 seconds, giving your partner ample time to signal the tap. The danger zone is precisely when they cannot escape.
-
-**Q11**: How do you adjust your grip configuration when finishing the Twister in competition versus training? **[SAFETY-CRITICAL]**
-**A**: In training, maintain loose, adjustable grips that allow you to instantly release upon tap signal. Never gable grip the chin tightly - use a cupping or cradling grip instead. In competition, grips can be tighter but application speed should still be controlled. The key difference is training prioritizes partner safety with 50% speed maximum, while competition allows faster setup but the finish itself should still be progressive to allow referee intervention if needed.
-
-**Q12**: What are the indicators that your Twister pressure is creating the intended spinal rotation versus becoming a dangerous neck crank? **[SAFETY-CRITICAL]**
-**A**: Proper spinal rotation shows these indicators: opponent's entire torso rotates as a unit, pressure is distributed across the full spine, and the submission feels like tightening a corkscrew. A neck crank shows: isolated movement at the cervical spine only, opponent's body below the shoulders remains relatively stationary, and pressure concentrates at the base of the skull. If you notice crank indicators, immediately adjust by increasing leg extension to engage the lower body in the rotation.
-
-
-
-</section>
 
 <section id="from-positions" class="content-section">
 
@@ -377,7 +258,7 @@ The Twister is an advanced spinal lock submission popularized by 10th Planet's a
 - [[Electric Chair Submission]]
 - [[Rear Naked Choke]]
 - [[Bow and Arrow Choke]]
-- [[Crucifix Submissions]]
+- [[Choke from Crucifix]]
 - [[Guillotine Choke]]
 - [[Darce Choke]]
 - [[Kimura]]
@@ -406,20 +287,6 @@ The Twister is an advanced spinal lock submission popularized by 10th Planet's a
 
 
 </section>
-
-
-<section id="outcomes" class="content-section">
-
-## Outcomes
-
-| Result | Position | Probability |
-|--------|----------|------------|
-| Success | [[game-over]] | 52% |
-| Failure | [[Twister Control]] | 48% |
-
-
-</section>
-
 
 <section id="terminal-state" class="content-section">
 

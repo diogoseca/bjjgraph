@@ -1,7 +1,7 @@
 {
   "name": "Leg Weave",
   "slug": "leg-weave",
-  "description": "Master leg weave position in BJJ. Advanced guard passing control with leg threading mechanics. Strategic guide covering both bottom defense and top passing perspectives with complete technical analysis.",
+  "description": "Master leg weave position in BJJ. Advanced guard passing control with leg threading mechanics, covering both bottom defense and top passing perspectives.",
   "variant_uniqueness": "Threading leg trades mobility for passing power",
   "overview": "Leg Weave is a sophisticated guard passing position where one player threads their leg between the opponent's legs to establish control and disrupt defensive structures. This position represents a critical juncture in modern Brazilian Jiu-Jitsu where the passer creates a mechanical advantage through leg positioning while the bottom player must employ specific defensive strategies to prevent the pass or create counter-attacks.\n\nThe position is most commonly encountered during half guard passing sequences, where the top player weaves their knee-side leg through the guard structure to neutralize the bottom player's hooks and frames. This creates a unique control dynamic where the top player can distribute weight effectively while the bottom player faces limited mobility and must rely on precise framing and timing to escape or reverse.\n\nFrom the bottom perspective, leg weave represents a high-pressure defensive scenario requiring immediate frame establishment and hip movement to prevent complete flattening. The bottom player must understand specific escape pathways including knee shield recovery, deep half entries, and dogfight transitions. From the top perspective, the position offers multiple passing options based on opponent reactions, including knee slice, smash pass, and leg drag variations.\n\nMastery of both perspectives is essential for modern grapplers, as the leg weave has become increasingly prevalent in high-level competition where traditional guard retention methods are systematically dismantled. Understanding the mechanical principles, pressure points, and timing windows from both angles creates a complete picture of this transitional battleground.",
   "key_principles": [
@@ -52,7 +52,7 @@
   ],
   "top": {
     "name": "Leg Weave Top",
-    "description": "Master leg weave passing from top position. Advanced guard passing control with leg threading mechanics. Success rates: Beginner 35%, Intermediate 55%, Advanced 70% for pass completion.",
+    "description": "Master leg weave passing from top position. Advanced guard passing control with leg threading mechanics, pressure distribution, and chained passing sequences.",
     "tags": [
       "bjj",
       "position",
@@ -236,28 +236,31 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 70
+        "value": 70,
+        "description": "High retention due to leg threading creating structural control that is difficult to displace without specific counter-techniques"
       },
       "advancement_probability": {
-        "value": 62
+        "value": 62,
+        "description": "Strong advancement rate reflecting the multiple passing options available from established leg weave"
       },
       "submission_probability": {
-        "value": 12
+        "value": 12,
+        "description": "Low direct submission rate as position is primarily a passing platform rather than a submission control"
       },
       "average_time": "30-60 seconds for pass completion at advanced level"
     },
     "transitions": [
       {
         "transition": "Leg Weave Pass",
-        "attempt_probability": 14
+        "attempt_probability": 16
       },
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 17
+        "attempt_probability": 25
       },
       {
         "transition": "Leg Drag Pass",
-        "attempt_probability": 13
+        "attempt_probability": 11
       },
       {
         "transition": "Smash Pass",
@@ -265,19 +268,23 @@
       },
       {
         "transition": "Over-Under Pass",
-        "attempt_probability": 13
+        "attempt_probability": 11
       },
       {
         "transition": "Long Step Pass",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Side Control to Mount",
-        "attempt_probability": 10
+        "attempt_probability": 11
       },
       {
         "transition": "Back Step",
-        "attempt_probability": 9
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Backstep from Leg Weave",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Complete Leg Weave Pass",
+        "attempt_probability": 2
       }
     ],
     "knowledge_assessment": [
@@ -317,7 +324,7 @@
   },
   "bottom": {
     "name": "Leg Weave Bottom",
-    "description": "Master defensive strategies from leg weave bottom. High-pressure half guard position with frame-based escapes. Success rates: Beginner 25%, Intermediate 40%, Advanced 55% for guard recovery.",
+    "description": "Master defensive strategies from leg weave bottom. High-pressure half guard position requiring frame-based escapes, hip movement, and counter-attack timing.",
     "tags": [
       "bjj",
       "position",
@@ -363,7 +370,7 @@
         "condition": "If top player establishes strong crossface and drives chest pressure to flatten you",
         "actions": [
           {
-            "technique": "Frame and Shrimp",
+            "technique": "Frame and Shrimp to Guard",
             "target": "Knee Shield Half Guard",
             "probability": 40
           },
@@ -408,7 +415,7 @@
             "probability": 50
           },
           {
-            "technique": "Lockdown Sweeps",
+            "technique": "Lockdown Recovery",
             "target": "Lockdown",
             "probability": 30
           },
@@ -423,7 +430,7 @@
         "condition": "If top player attempts to free their leg from your hook while controlling upper body",
         "actions": [
           {
-            "technique": "Frame and Shrimp",
+            "technique": "Frame and Shrimp to Guard",
             "target": "Knee Shield Half Guard",
             "probability": 45
           },
@@ -511,8 +518,8 @@
         "relationship": "Alternative defensive strategy - trapping weaving leg to counter pressure"
       },
       {
-        "name": "Frame and Shrimp",
-        "relationship": "Primary escape technique - fundamental movement for creating space"
+        "name": "Frame and Shrimp to Guard",
+        "relationship": "Primary escape technique - fundamental movement for creating space and recovering guard"
       },
       {
         "name": "Underhook Sweep from Half",
@@ -525,24 +532,27 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 42
+        "value": 42,
+        "description": "Low retention reflecting the inherently unstable and disadvantageous nature of being caught in leg weave from bottom"
       },
       "advancement_probability": {
-        "value": 38
+        "value": 38,
+        "description": "Moderate advancement reflecting available escape routes through frames, deep half, and dogfight transitions"
       },
       "submission_probability": {
-        "value": 15
+        "value": 15,
+        "description": "Limited submission opportunities exist primarily through kimura threats during scrambles and deep half transitions"
       },
       "average_time": "30-90 seconds before pass or escape"
     },
     "transitions": [
       {
-        "transition": "Frame and Shrimp",
+        "transition": "Frame and Shrimp to Guard",
         "attempt_probability": 16
       },
       {
         "transition": "Underhook Sweep from Half",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "Deep Half Entry",
@@ -550,19 +560,23 @@
       },
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 12
+        "attempt_probability": 9
       },
       {
         "transition": "Dogfight Position",
-        "attempt_probability": 18
+        "attempt_probability": 22
       },
       {
-        "transition": "Rolling to Guard",
-        "attempt_probability": 14
+        "transition": "Lockdown Recovery",
+        "attempt_probability": 16
       },
       {
-        "transition": "Lockdown Sweeps",
-        "attempt_probability": 13
+        "transition": "Half Guard Recovery",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Leg Weave Escape to Half Guard",
+        "attempt_probability": 4
       }
     ],
     "knowledge_assessment": [

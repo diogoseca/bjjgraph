@@ -20,14 +20,14 @@ description: "Dominate with mounted crucifix top position in BJJ. Complete guide
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar from Crucifix",
-      "text": "From this position, attempt Armbar from Crucifix. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Armbar Finish",
+      "text": "From this position, attempt Armbar Finish. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Choke from Crucifix",
-      "text": "From this position, attempt Choke from Crucifix. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Rear Naked Choke",
+      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
@@ -38,8 +38,8 @@ description: "Dominate with mounted crucifix top position in BJJ. Complete guide
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rear Naked Choke",
-      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Armbar on Free Arm",
+      "text": "From this position, attempt Armbar on Free Arm. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
@@ -50,8 +50,8 @@ description: "Dominate with mounted crucifix top position in BJJ. Complete guide
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Straight Armbar",
-      "text": "From this position, attempt Straight Armbar. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Neck Crank",
+      "text": "From this position, attempt Neck Crank. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -216,17 +216,17 @@ From a teaching perspective, the mounted crucifix demonstrates critical concepts
 
 ## Available Attacks
 
-### [[Armbar from Crucifix]] (10% of attempts)
+### [[Armbar Finish]] (12% of attempts)
 
-### [[Choke from Crucifix]] (10% of attempts)
+### [[Rear Naked Choke]] (11% of attempts)
 
 ### [[Back Control to Crucifix]] (10% of attempts)
 
-### [[Rear Naked Choke]] (9% of attempts)
+### [[Armbar on Free Arm]] (10% of attempts)
 
 ### [[Gift Wrap to Technical Mount]] (11% of attempts)
 
-### [[Straight Armbar]] (10% of attempts)
+### [[Neck Crank]] (6% of attempts)
 
 ### [[Mount to Armbar]] (10% of attempts)
 
@@ -245,13 +245,13 @@ From a teaching perspective, the mounted crucifix demonstrates critical concepts
 ## Decision Making from This Position
 
 **If opponent's neck is exposed and both arms are trapped:**
-- Execute **[[Choke from Crucifix]]** → [[game-over]] (Probability: 75%)
-- Execute **[[Rear Naked Choke]]** → [[game-over]] (Probability: 65%)
+- Execute **[[Rear Naked Choke]]** → [[game-over]] (Probability: 75%)
+- Execute **[[Neck Crank]]** → [[game-over]] (Probability: 65%)
 
 
 **If opponent extends trapped arm attempting extraction:**
-- Execute **[[Armbar from Crucifix]]** → [[game-over]] (Probability: 80%)
-- Execute **[[Straight Armbar]]** → [[game-over]] (Probability: 75%)
+- Execute **[[Armbar Finish]]** → [[game-over]] (Probability: 80%)
+- Execute **[[Armbar on Free Arm]]** → [[Armbar Control]] (Probability: 75%)
 
 
 **If opponent turns away to defend neck:**

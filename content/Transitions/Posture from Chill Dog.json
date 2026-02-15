@@ -1,0 +1,13 @@
+{
+  "name": "Posture from Chill Dog",
+  "description": "",
+  "tags": [],
+  "from_position": "Chill Dog/Top",
+  "outcomes": [
+    {
+      "to": "Closed Guard/Top",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

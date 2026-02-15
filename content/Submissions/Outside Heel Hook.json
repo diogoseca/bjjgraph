@@ -1,6 +1,6 @@
 {
   "name": "Outside Heel Hook",
-  "description": "Master Outside Heel Hook in BJJ. Safety guide covering proper application, knee rotation mechanics, injury prevention. Success: Beginner 20%, Intermediate 35%, Advanced 55%.",
+  "description": "Master Outside Heel Hook in BJJ. Safety guide covering proper application, knee rotation mechanics, injury prevention, and defensive strategies from leg entanglements.",
   "tags": [
     "bjj",
     "submission",
@@ -9,13 +9,17 @@
     "outside-heel-hook",
     "ashi-garami",
     "advanced",
-    "dangerous"
+    "dangerous",
+    "finishing-guide",
+    "no-gi"
   ],
   "submission_category": "Joint Lock",
   "submission_type": "Leg Lock",
   "target_area": "Knee joint, ankle joint, and surrounding ligaments",
   "starting_position": "Outside Ashi-Garami",
-  "overview": "The Outside Heel Hook is one of the most dangerous and effective leg lock submissions in Brazilian Jiu-Jitsu, targeting the knee joint through rotational force applied to the heel and foot. Unlike inside heel hooks which attack from inside positioning, the outside heel hook is applied when controlling the opponent's leg from the outside position, typically from outside ashi-garami or similar leg entanglement positions. This submission creates torque on the knee joint by rotating the foot and lower leg while the upper leg remains fixed, placing tremendous stress on the ACL, MCL, meniscus, and other knee structures. The outside heel hook gained prominence in modern no-gi competition through the leg lock revolution and has become a fundamental finishing position in high-level competition. Due to its extreme injury potential and the speed at which damage occurs, this technique requires exceptional technical precision, safety awareness, and should only be practiced by experienced grapplers with trustworthy training partners. The mechanical advantage created by proper hip positioning and heel control makes this one of the highest percentage finishing attacks from leg entanglement positions, but also one requiring the greatest responsibility and control during application.",
+  "from_position": "Outside Ashi-Garami/Bottom",
+  "success_rate": 45,
+  "overview": "The Outside Heel Hook is one of the most dangerous and effective leg lock submissions in Brazilian Jiu-Jitsu, targeting the knee joint through rotational force applied to the heel and foot. Unlike inside heel hooks which attack from inside positioning, the outside heel hook is applied when controlling the opponent's leg from the outside position, typically from outside ashi-garami or similar leg entanglement positions. This submission creates torque on the knee joint by rotating the foot and lower leg while the upper leg remains fixed, placing tremendous stress on the ACL, MCL, meniscus, and other knee structures.\n\nThe outside heel hook gained prominence in modern no-gi competition through the leg lock revolution and has become a fundamental finishing position in high-level competition. The mechanical advantage created by proper hip positioning and heel control makes this one of the highest percentage finishing attacks from leg entanglement positions. Due to its extreme injury potential and the speed at which damage occurs, this technique requires exceptional technical precision, safety awareness, and should only be practiced by experienced grapplers with trustworthy training partners.\n\nThe position demands systematic control before any finishing attempt: hip control with the inside leg prevents defensive rotation, hip extension removes slack from the system, and a deep heel cup provides the rotational lever. Only when all three control elements are established should the practitioner begin slow, progressive rotation. This submission represents the ultimate test of a grappler's responsibility, as the margin between a clean tap and a catastrophic injury is razor-thin.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -77,208 +81,21 @@
       "Never practice on injured knees or with prior knee injuries without medical clearance"
     ]
   },
-  "key_principles": [
-    "Control the hip to prevent rotation and escape before attacking the heel",
-    "Cup the heel with arms in figure-four configuration to maximize rotational control",
-    "Extend hips to create initial tension and straighten the leg",
-    "Rotate the heel toward the outside (away from opponent's centerline) while maintaining leg extension",
-    "Keep opponent's knee line pointing away from you to maximize torque on joint",
-    "Apply rotation slowly and progressively - damage occurs rapidly once threshold is crossed",
-    "Maintain constant pressure on opponent's hip with your leg to prevent defensive rotation"
-  ],
-  "setup_requirements": [
-    "Secure outside ashi-garami or similar outside leg entanglement position with opponent's leg trapped",
-    "Control opponent's hip with your inside leg to prevent them rotating their knee line toward you",
-    "Break opponent's defensive grips on your legs or clothing",
-    "Cup the heel securely with both arms before applying any rotational pressure",
-    "Ensure opponent's knee is pointing away from you (outside positioning maintained)",
-    "Create leg extension by pushing hips forward toward opponent while pulling heel",
-    "Establish figure-four grip or similar heel control configuration"
-  ],
-  "execution_steps": [
+  "outcomes": [
     {
-      "step_number": 1,
-      "action": "Establish outside ashi-garami position",
-      "description": "Secure outside ashi-garami with your inside leg hooking over opponent's hip and your outside leg controlling their trapped leg from the outside. Your inside leg should prevent them from rotating their knee line toward you, which is their primary defense. Ensure you have broken their grips on your legs and that your position is stable before proceeding to heel control.",
-      "timing": "Control phase - no submission pressure yet"
+      "to": "game-over",
+      "probability": 60,
+      "result": "success"
     },
     {
-      "step_number": 2,
-      "action": "Cup the heel with both hands",
-      "description": "Reach over the top of opponent's foot and cup their heel with both hands, creating a figure-four grip or similar secure configuration. Your forearm should run along the bottom of their foot with the heel secured in the crook of your elbow. The grip should be firm but the focus is on control, not pressure. Ensure the blade of the forearm is positioned across the Achilles tendon area for maximum control.",
-      "timing": "Setup phase - establishing control"
+      "to": "Outside Ashi-Garami/Top",
+      "probability": 25,
+      "result": "failure"
     },
     {
-      "step_number": 3,
-      "action": "Extend hips to create leg straightness",
-      "description": "Push your hips forward toward your opponent while maintaining heel control, creating extension in their trapped leg. This removes slack from the system and begins to load tension into the knee joint. The leg should become relatively straight but not hyperextended. Your inside leg must maintain constant pressure on their hip to prevent defensive rotation. This extension is crucial for the submission to function properly.",
-      "timing": "Tension creation - 2-3 seconds"
-    },
-    {
-      "step_number": 4,
-      "action": "Position heel for rotational control",
-      "description": "Adjust your grip so the heel is secured with maximum rotational potential. The heel should be cupped deep into the crook of your elbow, with your hands locked together (figure-four or gable grip). Your forearm becomes the lever that will rotate the foot. Ensure your chest is tight to the heel and foot, eliminating any space that would reduce control. The opponent's toes should be pointing slightly away from their centerline.",
-      "timing": "Final setup - 1-2 seconds"
-    },
-    {
-      "step_number": 5,
-      "action": "Apply slow outside rotation to heel",
-      "description": "While maintaining hip extension and hip control, begin rotating the heel toward the outside (away from opponent's centerline) by turning your forearms and pulling the heel across your chest. This rotation twists the lower leg while the upper leg remains fixed by your leg entanglement, creating severe torque on the knee joint. The rotation should be EXTREMELY SLOW and progressive. In training, take 5-7 seconds minimum to reach submission pressure. Watch your partner intensely for any tap signal.",
-      "timing": "Finishing phase - SLOW 5-7 seconds minimum in training"
-    },
-    {
-      "step_number": 6,
-      "action": "Maintain pressure until tap",
-      "description": "Continue the slow, steady rotational pressure while maintaining all control points: hip extension, heel cup, and hip control with your inside leg. The submission works through cumulative rotation rather than sudden force. In competition, maintain pressure until referee stoppage. In training, release IMMEDIATELY upon any tap signal. Never increase pressure suddenly or jerk the heel. After tap, follow release protocol carefully.",
-      "timing": "Tap or finish"
-    }
-  ],
-  "opponent_defense_patterns": [
-    {
-      "defense": "Rotating knee line inward toward attacker to reduce torque",
-      "effectiveness": "High",
-      "your_adjustment": "Use your inside leg to block their hip and prevent rotation. Increase hip extension to straighten the leg further, making rotation more difficult. Adjust your angle to stay perpendicular to their leg alignment."
-    },
-    {
-      "defense": "Grabbing attacker's legs or pants to prevent position consolidation",
-      "effectiveness": "High",
-      "your_adjustment": "Break grips systematically before attempting the submission. Use your free hand to strip grips while maintaining leg control. Don't rush to the finish until grips are cleared and position is secure."
-    },
-    {
-      "defense": "Rolling toward the attacked leg to relieve pressure",
-      "effectiveness": "Medium",
-      "your_adjustment": "Follow their roll while maintaining heel control and leg entanglement. Your body should rotate with them. Often the roll exposes their back or creates transition opportunities to back control. Don't release the heel during the roll."
-    },
-    {
-      "defense": "Pulling trapped leg out through gap between attacker's legs",
-      "effectiveness": "Medium",
-      "your_adjustment": "Close distance with your legs and eliminate space. Keep your outside leg tight to their trapped leg. Extend your hips to create length in their leg, making extraction harder. Attack the submission quickly before they create escape space."
-    },
-    {
-      "defense": "Standing up or attempting to create vertical posture",
-      "effectiveness": "Low",
-      "your_adjustment": "Use your outside leg to off-balance them and prevent standing. Pull them back down while maintaining heel control. If they achieve standing, transition to single leg X-guard or X-guard position rather than forcing a compromised finish."
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Applying sudden or jerking rotation to the heel",
-      "consequence": "Catastrophic knee injury to training partner with permanent damage",
-      "correction": "Always apply rotation slowly and progressively over 5-7 seconds minimum in training. Feel for resistance and watch partner for tap signals. Speed in training is never acceptable for heel hooks."
-    },
-    {
-      "error": "Attempting submission before securing positional control",
-      "consequence": "Partner escapes easily and position is lost, or partial pressure applied incorrectly causing injury without proper control",
-      "correction": "Establish outside ashi-garami fully, break all grips, and secure heel control before applying any rotational pressure. Position before submission always."
-    },
-    {
-      "error": "Failing to control opponent's hip with inside leg",
-      "consequence": "Opponent rotates knee line inward, escaping the submission and potentially reversing position",
-      "correction": "Keep constant pressure with inside leg across opponent's hip and lower abdomen. This prevents their primary defensive rotation and maintains outside positioning."
-    },
-    {
-      "error": "Insufficient hip extension before rotation",
-      "consequence": "Slack in the system reduces submission effectiveness and allows opponent to escape or defend",
-      "correction": "Push hips forward to create full leg extension before rotating heel. The leg should be relatively straight to maximize torque on the knee joint."
-    },
-    {
-      "error": "Cupping the heel loosely or with improper grip configuration",
-      "consequence": "Heel slips during rotation, losing submission and potentially injuring ankle instead of controlling knee",
-      "correction": "Secure heel deep in the crook of your elbow with figure-four or locked hands. Forearm should be blade-edge across Achilles. Test grip security before applying pressure."
-    },
-    {
-      "error": "Looking away from partner during finish",
-      "consequence": "Missing tap signals leading to serious injury",
-      "correction": "Maintain visual contact with training partner throughout the submission. Watch their face and hands for any tap signal. Never turn away during application."
-    },
-    {
-      "error": "Rotating toward inside instead of outside",
-      "consequence": "Wrong submission mechanics - either no pressure or straight ankle lock pressure instead of heel hook",
-      "correction": "Rotate heel away from opponent's centerline (outside rotation). Remember 'outside heel hook' means rotating the heel to the outside. Inside rotation is a different attack."
-    }
-  ],
-  "variations_and_setups": [
-    {
-      "variation_name": "Outside heel hook from 50-50 guard",
-      "description": "From 50-50 guard position where legs are mirrored, transition to outside control by freeing your inside leg and establishing it over opponent's hip. This creates the outside ashi position from 50-50, allowing the standard outside heel hook attack. Often used when inside heel hook attempts from 50-50 are defended.",
-      "when_to_use": "When opponent successfully defends inside heel hook from 50-50 by controlling your legs, or when you achieve 50-50 but have better outside positioning available"
-    },
-    {
-      "variation_name": "Outside heel hook from backside 50-50",
-      "description": "From backside 50-50 (back-to-back leg entanglement), you have natural outside control of opponent's leg. Establish heel control while maintaining back-to-back positioning. The mechanics are similar but your body is facing away from opponent. This variation is common in scrambles and transitions.",
-      "when_to_use": "During scrambles from leg entanglements, or when opponent forces backside 50-50 during leg lock exchanges"
-    },
-    {
-      "variation_name": "Outside heel hook from cross ashi-garami",
-      "description": "From cross ashi position where you control opponent's opposite leg (right leg controlling their left leg), you have outside positioning. This creates a different angle of attack and is often more difficult for opponent to defend due to the crossed configuration limiting their mobility.",
-      "when_to_use": "After passing to cross ashi from single leg X-guard, or when opponent presents cross-body leg during scrambles"
-    },
-    {
-      "variation_name": "Standing outside heel hook (takedown finish)",
-      "description": "When opponent is standing and you secure outside ashi from bottom or during scramble, you can attack the heel hook while sitting with them standing. Fall back to create extension and finish the submission during the takedown. This variation is common in no-gi competition and requires excellent timing.",
-      "when_to_use": "When securing outside ashi from bottom during standing exchanges, or when opponent attempts to stand from leg entanglement"
-    }
-  ],
-  "knowledge_assessment": [
-    {
-      "question": "What is the minimum application time for an outside heel hook in training, and why is this critical?",
-      "answer": "The minimum application time is 5-7 seconds of slow, progressive pressure. This is critical because knee ligament damage from heel hooks occurs extremely rapidly once the failure threshold is crossed. Unlike joint locks where there is some warning pain, heel hooks can cause catastrophic ACL, MCL, and meniscus tears with minimal warning. Slow application in training gives partners adequate time to recognize the danger and tap safely, preventing career-ending injuries.",
-      "safety_critical": true
-    },
-    {
-      "question": "Why must you control the opponent's hip with your inside leg before attempting the outside heel hook?",
-      "answer": "Controlling the opponent's hip with your inside leg prevents them from rotating their knee line inward toward you, which is their primary defensive movement. If they can rotate their knee line, they reduce the torque on the joint and can escape the submission. Additionally, hip control maintains your outside positioning which is essential for the mechanics of the outside heel hook to function properly. Without this control, the submission is ineffective and the position is vulnerable to escape or reversal.",
-      "safety_critical": false
-    },
-    {
-      "question": "What are the five primary structures at risk of injury during an outside heel hook?",
-      "answer": "The five primary structures at risk are: (1) ACL (anterior cruciate ligament) which can rupture from rotational force, (2) MCL (medial collateral ligament) which is stressed by the valgus force on the knee, (3) Meniscus cartilage which can tear from rotational shearing, (4) LCL (lateral collateral ligament) which is stressed during rotation, and (5) PCL (posterior cruciate ligament) which can be strained during leg extension. All of these are critical knee structures that require months of recovery if damaged, often requiring surgical reconstruction.",
-      "safety_critical": true
-    },
-    {
-      "question": "What is the correct direction of rotation for an outside heel hook and how does this differ from an inside heel hook?",
-      "answer": "For an outside heel hook, you rotate the heel toward the outside, meaning away from the opponent's centerline. If controlling their right leg, you rotate the heel toward their right side. This is opposite to an inside heel hook where you would rotate toward the inside (toward their centerline). The direction is determined by your positional relationship to the trapped leg - outside positioning requires outside rotation. The torque on the knee joint is similar in effect but the positioning and grip configurations are mirrored.",
-      "safety_critical": false
-    },
-    {
-      "question": "What should you do immediately if your training partner taps to your outside heel hook?",
-      "answer": "Immediately release all rotational pressure on the heel, then release the figure-four grip or heel cup, remove hip pressure and extension, and allow the opponent to straighten their leg naturally without any rotation during release. After releasing, check your partner's condition before continuing training. Never apply any additional rotation while releasing, as this can cause injury even after the tap. Following proper release protocol is as important as proper application for training partner safety.",
-      "safety_critical": true
-    },
-    {
-      "question": "Why is hip extension important before applying rotational pressure in the outside heel hook?",
-      "answer": "Hip extension removes all slack from the leg by straightening it, which loads tension into the knee joint and surrounding ligaments before rotation begins. Without proper extension, there is slack in the system that allows the opponent's leg to rotate freely without creating submission pressure, making the technique ineffective. Hip extension also makes it harder for the opponent to escape by pulling their leg out, and ensures that when rotation is applied, the force is transmitted efficiently to the knee joint rather than being absorbed by muscular flexibility or joint slack.",
-      "safety_critical": false
-    },
-    {
-      "question": "Under what circumstances should you NOT practice outside heel hooks?",
-      "answer": "Do not practice outside heel hooks if: (1) you or your partner have current knee injuries or previous knee surgeries without medical clearance, (2) you are below purple belt or lack extensive leg lock experience, (3) your training partner is unfamiliar with leg locks or heel hook defense, (4) you cannot commit to extremely slow application speed, (5) you are tired or unable to maintain complete control, (6) there is not clear mutual communication and agreement to practice leg locks, or (7) you are in a competition-paced training situation where control might be compromised. The injury risk is too severe to practice without ideal conditions and experienced partners.",
-      "safety_critical": true
-    },
-    {
-      "question": "Your opponent begins rotating their knee inward to escape - what grip adjustment maintains finishing pressure?",
-      "answer": "When the opponent rotates their knee inward, first reinforce your inside leg pressure across their hip to halt the rotation. Then adjust your heel grip by pulling the heel tighter to your chest while simultaneously extending your hips more aggressively. This combination of increased hip extension and tighter heel connection maintains the rotational potential despite their defensive movement. If they continue rotating, consider transitioning to inside ashi-garami where their rotation actually improves your position for an inside heel hook.",
-      "safety_critical": false
-    },
-    {
-      "question": "What indicates you have reached the point of no escape for your opponent in the outside heel hook?",
-      "answer": "The point of no escape occurs when three conditions are met simultaneously: (1) your hip extension has fully straightened their leg with no remaining slack, (2) your heel cup is deep with the heel secured in the crook of your elbow and hands locked, and (3) your inside leg has prevented any hip rotation so their knee line points away from you. At this point, even minimal rotation creates immediate submission pressure. In training, this is precisely when you must slow down most dramatically, as the margin between tap and injury is extremely small.",
-      "safety_critical": true
-    },
-    {
-      "question": "How do you adjust your finishing mechanics when the opponent has unusually flexible ankles?",
-      "answer": "Flexible opponents require focusing on hip extension before rotation rather than relying on ankle torque alone. Extend your hips more aggressively to take all slack from the leg system, ensuring the knee joint receives the rotational force rather than being absorbed by ankle flexibility. Keep your chest extremely tight to the foot and heel, eliminating any space. You may also need to adjust your grip higher on the heel, closer to the Achilles, to reduce the opponent's ability to dissipate force through ankle movement. The finish comes from knee rotation, not ankle manipulation.",
-      "safety_critical": false
-    },
-    {
-      "question": "In competition, what signals indicate your heel hook is about to force a tap versus when you should transition?",
-      "answer": "Signals indicating imminent tap include: opponent's free leg stops fighting and goes limp, verbal sounds of distress, hands desperately grabbing your arms rather than defending strategically, and visible tension in their facial expression. Signals to transition include: opponent successfully rotating their knee line despite your control, their hands effectively breaking your heel grip, their hips escaping your inside leg control, or significant space developing between your chest and their heel. In competition, decisively attack finishing indicators while immediately abandoning compromised positions for transitions to saddle, inside ashi, or back control.",
-      "safety_critical": false
-    },
-    {
-      "question": "What is the proper figure-four grip configuration for maximum heel hook control?",
-      "answer": "The proper figure-four configuration places the blade of your forearm across the Achilles tendon with the heel cupped deep in the crook of your elbow. Your gripping hand cups around the top of the foot, with fingers pointing toward the toes. Your other arm reaches across and grabs your own wrist or forearm, creating the figure-four lock. This configuration maximizes rotational control because the heel cannot slip out, and your entire torso can generate the rotation rather than just your arms. Keep elbows tight to your body and chest pressed against the heel for maximum mechanical advantage.",
-      "safety_critical": false
+      "to": "Standing Position/Bottom",
+      "probability": 15,
+      "result": "counter"
     }
   ],
   "from_positions": [
@@ -286,9 +103,9 @@
     "Cross Ashi-Garami",
     "50-50 Guard",
     "Backside 50-50",
-    "Single Leg X-Guard",
     "Ashi Garami",
-    "Leg Entanglement"
+    "Saddle",
+    "Honey Hole"
   ],
   "related_submissions": [
     "Inside Heel Hook",
@@ -298,7 +115,6 @@
     "Straight Ankle Lock",
     "Calf Slicer",
     "Estima Lock",
-    "Heel Hook Variations",
     "Kneebar from 50-50",
     "Toe Hold from 50-50"
   ],
@@ -336,13 +152,384 @@
       "relationship": "Transition position with natural outside control"
     },
     {
-      "name": "Single Leg X-Guard",
-      "relationship": "Entry position for establishing outside ashi control"
+      "name": "Ashi Garami",
+      "relationship": "Parent leg entanglement category"
     },
     {
       "name": "Straight Ankle Lock",
       "relationship": "Lower-risk alternative from similar positions"
     }
   ],
-  "success_rate": 45
+  "variations_and_setups": [
+    {
+      "variation_name": "Outside heel hook from 50-50 guard",
+      "description": "From 50-50 guard position where legs are mirrored, transition to outside control by freeing your inside leg and establishing it over opponent's hip. This creates the outside ashi position from 50-50, allowing the standard outside heel hook attack. Often used when inside heel hook attempts from 50-50 are defended.",
+      "when_to_use": "When opponent successfully defends inside heel hook from 50-50 by controlling your legs, or when you achieve 50-50 but have better outside positioning available"
+    },
+    {
+      "variation_name": "Outside heel hook from backside 50-50",
+      "description": "From backside 50-50 (back-to-back leg entanglement), you have natural outside control of opponent's leg. Establish heel control while maintaining back-to-back positioning. The mechanics are similar but your body is facing away from opponent. This variation is common in scrambles and transitions.",
+      "when_to_use": "During scrambles from leg entanglements, or when opponent forces backside 50-50 during leg lock exchanges"
+    },
+    {
+      "variation_name": "Outside heel hook from cross ashi-garami",
+      "description": "From cross ashi position where you control opponent's opposite leg (right leg controlling their left leg), you have outside positioning. This creates a different angle of attack and is often more difficult for opponent to defend due to the crossed configuration limiting their mobility.",
+      "when_to_use": "After passing to cross ashi from guard transitions, or when opponent presents cross-body leg during scrambles"
+    },
+    {
+      "variation_name": "Standing outside heel hook (takedown finish)",
+      "description": "When opponent is standing and you secure outside ashi from bottom or during scramble, you can attack the heel hook while sitting with them standing. Fall back to create extension and finish the submission during the takedown. This variation is common in no-gi competition and requires excellent timing.",
+      "when_to_use": "When securing outside ashi from bottom during standing exchanges, or when opponent attempts to stand from leg entanglement"
+    }
+  ],
+  "attacker": {
+    "name": "Outside Heel Hook Attacker",
+    "description": "How to execute Outside Heel Hook in BJJ. Attacking perspective with setup, execution, and finishing mechanics from outside leg entanglements.",
+    "overview": "The Outside Heel Hook attack requires systematic positional dominance before any finishing pressure. The attacker must establish outside ashi-garami control, secure hip control with the inside leg to prevent defensive rotation, and create leg extension through hip pressure before cupping the heel. The finishing sequence uses the forearm as a rotational lever, turning the heel away from the opponent's centerline while the leg entanglement fixes the upper leg in place. This creates devastating torque on the knee joint that attacks the ACL, MCL, and meniscus simultaneously. The attack chain from outside ashi connects to transitions including saddle entry, inside ashi conversion, and back takes when the primary heel hook is defended. Mastering the outside heel hook demands understanding that control precedes finish: rushing to rotate the heel without establishing all three control elements (hip control, leg extension, deep heel cup) results in either a failed attempt or an uncontrolled application that endangers your training partner.",
+    "key_principles": [
+      "Control the hip to prevent rotation and escape before attacking the heel",
+      "Cup the heel with arms in figure-four configuration to maximize rotational control",
+      "Extend hips to create initial tension and straighten the leg",
+      "Rotate the heel toward the outside (away from opponent's centerline) while maintaining leg extension",
+      "Keep opponent's knee line pointing away from you to maximize torque on joint",
+      "Apply rotation slowly and progressively - damage occurs rapidly once threshold is crossed",
+      "Maintain constant pressure on opponent's hip with your leg to prevent defensive rotation"
+    ],
+    "setup_requirements": [
+      "Secure outside ashi-garami or similar outside leg entanglement position with opponent's leg trapped",
+      "Control opponent's hip with your inside leg to prevent them rotating their knee line toward you",
+      "Break opponent's defensive grips on your legs or clothing",
+      "Cup the heel securely with both arms before applying any rotational pressure",
+      "Ensure opponent's knee is pointing away from you (outside positioning maintained)",
+      "Create leg extension by pushing hips forward toward opponent while pulling heel",
+      "Establish figure-four grip or similar heel control configuration"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish outside ashi-garami position",
+        "description": "Secure outside ashi-garami with your inside leg hooking over opponent's hip and your outside leg controlling their trapped leg from the outside. Your inside leg should prevent them from rotating their knee line toward you, which is their primary defense. Ensure you have broken their grips on your legs and that your position is stable before proceeding to heel control.",
+        "timing": "Control phase - no submission pressure yet"
+      },
+      {
+        "step_number": 2,
+        "action": "Cup the heel with both hands",
+        "description": "Reach over the top of opponent's foot and cup their heel with both hands, creating a figure-four grip or similar secure configuration. Your forearm should run along the bottom of their foot with the heel secured in the crook of your elbow. The grip should be firm but the focus is on control, not pressure. Ensure the blade of the forearm is positioned across the Achilles tendon area for maximum control.",
+        "timing": "Setup phase - establishing control"
+      },
+      {
+        "step_number": 3,
+        "action": "Extend hips to create leg straightness",
+        "description": "Push your hips forward toward your opponent while maintaining heel control, creating extension in their trapped leg. This removes slack from the system and begins to load tension into the knee joint. The leg should become relatively straight but not hyperextended. Your inside leg must maintain constant pressure on their hip to prevent defensive rotation. This extension is crucial for the submission to function properly.",
+        "timing": "Tension creation - 2-3 seconds"
+      },
+      {
+        "step_number": 4,
+        "action": "Position heel for rotational control",
+        "description": "Adjust your grip so the heel is secured with maximum rotational potential. The heel should be cupped deep into the crook of your elbow, with your hands locked together (figure-four or gable grip). Your forearm becomes the lever that will rotate the foot. Ensure your chest is tight to the heel and foot, eliminating any space that would reduce control. The opponent's toes should be pointing slightly away from their centerline.",
+        "timing": "Final setup - 1-2 seconds"
+      },
+      {
+        "step_number": 5,
+        "action": "Apply slow outside rotation to heel",
+        "description": "While maintaining hip extension and hip control, begin rotating the heel toward the outside (away from opponent's centerline) by turning your forearms and pulling the heel across your chest. This rotation twists the lower leg while the upper leg remains fixed by your leg entanglement, creating severe torque on the knee joint. The rotation should be EXTREMELY SLOW and progressive. In training, take 5-7 seconds minimum to reach submission pressure. Watch your partner intensely for any tap signal.",
+        "timing": "Finishing phase - SLOW 5-7 seconds minimum in training"
+      },
+      {
+        "step_number": 6,
+        "action": "Maintain pressure until tap",
+        "description": "Continue the slow, steady rotational pressure while maintaining all control points: hip extension, heel cup, and hip control with your inside leg. The submission works through cumulative rotation rather than sudden force. In competition, maintain pressure until referee stoppage. In training, release IMMEDIATELY upon any tap signal. Never increase pressure suddenly or jerk the heel. After tap, follow release protocol carefully.",
+        "timing": "Tap or finish"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Rotating knee line inward toward attacker to reduce torque",
+        "effectiveness": "High",
+        "your_response": "Use your inside leg to block their hip and prevent rotation. Increase hip extension to straighten the leg further, making rotation more difficult. Adjust your angle to stay perpendicular to their leg alignment.",
+        "targets_outcome": "Outside Ashi-Garami"
+      },
+      {
+        "counter": "Grabbing attacker's legs or pants to prevent position consolidation",
+        "effectiveness": "High",
+        "your_response": "Break grips systematically before attempting the submission. Use your free hand to strip grips while maintaining leg control. Don't rush to the finish until grips are cleared and position is secure.",
+        "targets_outcome": "Outside Ashi-Garami"
+      },
+      {
+        "counter": "Rolling toward the attacked leg to relieve pressure",
+        "effectiveness": "Medium",
+        "your_response": "Follow their roll while maintaining heel control and leg entanglement. Your body should rotate with them. Often the roll exposes their back or creates transition opportunities to back control. Don't release the heel during the roll.",
+        "targets_outcome": "Outside Ashi-Garami"
+      },
+      {
+        "counter": "Pulling trapped leg out through gap between attacker's legs",
+        "effectiveness": "Medium",
+        "your_response": "Close distance with your legs and eliminate space. Keep your outside leg tight to their trapped leg. Extend your hips to create length in their leg, making extraction harder. Attack the submission quickly before they create escape space.",
+        "targets_outcome": "Standing Position"
+      },
+      {
+        "counter": "Standing up or attempting to create vertical posture",
+        "effectiveness": "Low",
+        "your_response": "Use your outside leg to off-balance them and prevent standing. Pull them back down while maintaining heel control. If they achieve standing, transition to a guard position rather than forcing a compromised finish.",
+        "targets_outcome": "Standing Position"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Applying sudden or jerking rotation to the heel",
+        "consequence": "Catastrophic knee injury to training partner with permanent damage",
+        "correction": "Always apply rotation slowly and progressively over 5-7 seconds minimum in training. Feel for resistance and watch partner for tap signals. Speed in training is never acceptable for heel hooks."
+      },
+      {
+        "error": "Attempting submission before securing positional control",
+        "consequence": "Partner escapes easily and position is lost, or partial pressure applied incorrectly causing injury without proper control",
+        "correction": "Establish outside ashi-garami fully, break all grips, and secure heel control before applying any rotational pressure. Position before submission always."
+      },
+      {
+        "error": "Failing to control opponent's hip with inside leg",
+        "consequence": "Opponent rotates knee line inward, escaping the submission and potentially reversing position",
+        "correction": "Keep constant pressure with inside leg across opponent's hip and lower abdomen. This prevents their primary defensive rotation and maintains outside positioning."
+      },
+      {
+        "error": "Insufficient hip extension before rotation",
+        "consequence": "Slack in the system reduces submission effectiveness and allows opponent to escape or defend",
+        "correction": "Push hips forward to create full leg extension before rotating heel. The leg should be relatively straight to maximize torque on the knee joint."
+      },
+      {
+        "error": "Cupping the heel loosely or with improper grip configuration",
+        "consequence": "Heel slips during rotation, losing submission and potentially injuring ankle instead of controlling knee",
+        "correction": "Secure heel deep in the crook of your elbow with figure-four or locked hands. Forearm should be blade-edge across Achilles. Test grip security before applying pressure."
+      },
+      {
+        "error": "Looking away from partner during finish",
+        "consequence": "Missing tap signals leading to serious injury",
+        "correction": "Maintain visual contact with training partner throughout the submission. Watch their face and hands for any tap signal. Never turn away during application."
+      },
+      {
+        "error": "Rotating toward inside instead of outside",
+        "consequence": "Wrong submission mechanics - either no pressure or straight ankle lock pressure instead of heel hook",
+        "correction": "Rotate heel away from opponent's centerline (outside rotation). Remember 'outside heel hook' means rotating the heel to the outside. Inside rotation is a different attack."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Positional Control",
+        "focus": "Outside ashi-garami maintenance without submissions",
+        "description": "Establish and maintain outside ashi-garami position against progressive resistance. Focus exclusively on hip control with inside leg, leg triangle tightness, and preventing opponent's defensive rotation. No heel gripping or submission attempts. Build the positional foundation that all finishing mechanics depend on. Drill 5-minute rounds of position maintenance."
+      },
+      {
+        "phase": "Phase 2: Grip Mechanics and Extension",
+        "focus": "Heel cup configuration and hip extension without rotation",
+        "description": "From established outside ashi-garami, practice cupping the heel with proper figure-four grip and creating hip extension to remove slack. Partner remains passive. Focus on grip depth, forearm blade placement across Achilles, chest-to-heel connection, and full leg extension through hip drive. No rotational pressure applied. Build muscle memory for proper setup mechanics."
+      },
+      {
+        "phase": "Phase 3: Controlled Finishing",
+        "focus": "Slow rotation with cooperative partner and immediate release",
+        "description": "With a cooperative partner, practice the complete sequence from position to slow rotational finish at absolute minimum speed. Partner taps immediately upon feeling any pressure. Practice the release protocol after every repetition. Focus on maintaining all control points during rotation. Gradually increase partner's defensive movement while maintaining slow, controlled application speed."
+      },
+      {
+        "phase": "Phase 4: Chain Attacks and Live Application",
+        "focus": "Submission chains and positional sparring from leg entanglements",
+        "description": "Begin positional sparring from outside ashi-garami with partner defending at increasing resistance levels. When heel hook is defended, chain to kneebar, toe hold, inside ashi transition, or back take. Practice recognizing when to commit to the finish versus when to transition. Maintain strict safety protocols during all live training. Graduate to full leg lock sparring rounds with trusted partners only."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the minimum application time for an outside heel hook in training, and why is this critical?",
+        "answer": "The minimum application time is 5-7 seconds of slow, progressive pressure. This is critical because knee ligament damage from heel hooks occurs extremely rapidly once the failure threshold is crossed. Unlike joint locks where there is some warning pain, heel hooks can cause catastrophic ACL, MCL, and meniscus tears with minimal warning. Slow application in training gives partners adequate time to recognize the danger and tap safely, preventing career-ending injuries.",
+        "safety_critical": true
+      },
+      {
+        "question": "Why must you control the opponent's hip with your inside leg before attempting the outside heel hook?",
+        "answer": "Controlling the opponent's hip with your inside leg prevents them from rotating their knee line inward toward you, which is their primary defensive movement. If they can rotate their knee line, they reduce the torque on the joint and can escape the submission. Additionally, hip control maintains your outside positioning which is essential for the mechanics of the outside heel hook to function properly. Without this control, the submission is ineffective and the position is vulnerable to escape or reversal.",
+        "safety_critical": false
+      },
+      {
+        "question": "What are the five primary structures at risk of injury during an outside heel hook?",
+        "answer": "The five primary structures at risk are: (1) ACL (anterior cruciate ligament) which can rupture from rotational force, (2) MCL (medial collateral ligament) which is stressed by the valgus force on the knee, (3) Meniscus cartilage which can tear from rotational shearing, (4) LCL (lateral collateral ligament) which is stressed during rotation, and (5) PCL (posterior cruciate ligament) which can be strained during leg extension. All of these are critical knee structures that require months of recovery if damaged, often requiring surgical reconstruction.",
+        "safety_critical": true
+      },
+      {
+        "question": "What is the correct direction of rotation for an outside heel hook and how does this differ from an inside heel hook?",
+        "answer": "For an outside heel hook, you rotate the heel toward the outside, meaning away from the opponent's centerline. If controlling their right leg, you rotate the heel toward their right side. This is opposite to an inside heel hook where you would rotate toward the inside (toward their centerline). The direction is determined by your positional relationship to the trapped leg - outside positioning requires outside rotation. The torque on the knee joint is similar in effect but the positioning and grip configurations are mirrored.",
+        "safety_critical": false
+      },
+      {
+        "question": "What should you do immediately if your training partner taps to your outside heel hook?",
+        "answer": "Immediately release all rotational pressure on the heel, then release the figure-four grip or heel cup, remove hip pressure and extension, and allow the opponent to straighten their leg naturally without any rotation during release. After releasing, check your partner's condition before continuing training. Never apply any additional rotation while releasing, as this can cause injury even after the tap. Following proper release protocol is as important as proper application for training partner safety.",
+        "safety_critical": true
+      },
+      {
+        "question": "Why is hip extension important before applying rotational pressure in the outside heel hook?",
+        "answer": "Hip extension removes all slack from the leg by straightening it, which loads tension into the knee joint and surrounding ligaments before rotation begins. Without proper extension, there is slack in the system that allows the opponent's leg to rotate freely without creating submission pressure, making the technique ineffective. Hip extension also makes it harder for the opponent to escape by pulling their leg out, and ensures that when rotation is applied, the force is transmitted efficiently to the knee joint rather than being absorbed by muscular flexibility or joint slack.",
+        "safety_critical": false
+      },
+      {
+        "question": "Under what circumstances should you NOT practice outside heel hooks?",
+        "answer": "Do not practice outside heel hooks if: (1) you or your partner have current knee injuries or previous knee surgeries without medical clearance, (2) you are below purple belt or lack extensive leg lock experience, (3) your training partner is unfamiliar with leg locks or heel hook defense, (4) you cannot commit to extremely slow application speed, (5) you are tired or unable to maintain complete control, (6) there is not clear mutual communication and agreement to practice leg locks, or (7) you are in a competition-paced training situation where control might be compromised. The injury risk is too severe to practice without ideal conditions and experienced partners.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your opponent begins rotating their knee inward to escape - what grip adjustment maintains finishing pressure?",
+        "answer": "When the opponent rotates their knee inward, first reinforce your inside leg pressure across their hip to halt the rotation. Then adjust your heel grip by pulling the heel tighter to your chest while simultaneously extending your hips more aggressively. This combination of increased hip extension and tighter heel connection maintains the rotational potential despite their defensive movement. If they continue rotating, consider transitioning to inside ashi-garami where their rotation actually improves your position for an inside heel hook.",
+        "safety_critical": false
+      },
+      {
+        "question": "What indicates you have reached the point of no escape for your opponent in the outside heel hook?",
+        "answer": "The point of no escape occurs when three conditions are met simultaneously: (1) your hip extension has fully straightened their leg with no remaining slack, (2) your heel cup is deep with the heel secured in the crook of your elbow and hands locked, and (3) your inside leg has prevented any hip rotation so their knee line points away from you. At this point, even minimal rotation creates immediate submission pressure. In training, this is precisely when you must slow down most dramatically, as the margin between tap and injury is extremely small.",
+        "safety_critical": true
+      },
+      {
+        "question": "How do you adjust your finishing mechanics when the opponent has unusually flexible ankles?",
+        "answer": "Flexible opponents require focusing on hip extension before rotation rather than relying on ankle torque alone. Extend your hips more aggressively to take all slack from the leg system, ensuring the knee joint receives the rotational force rather than being absorbed by ankle flexibility. Keep your chest extremely tight to the foot and heel, eliminating any space. You may also need to adjust your grip higher on the heel, closer to the Achilles, to reduce the opponent's ability to dissipate force through ankle movement. The finish comes from knee rotation, not ankle manipulation.",
+        "safety_critical": false
+      },
+      {
+        "question": "In competition, what signals indicate your heel hook is about to force a tap versus when you should transition?",
+        "answer": "Signals indicating imminent tap include: opponent's free leg stops fighting and goes limp, verbal sounds of distress, hands desperately grabbing your arms rather than defending strategically, and visible tension in their facial expression. Signals to transition include: opponent successfully rotating their knee line despite your control, their hands effectively breaking your heel grip, their hips escaping your inside leg control, or significant space developing between your chest and their heel. In competition, decisively attack finishing indicators while immediately abandoning compromised positions for transitions to saddle, inside ashi, or back control.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the proper figure-four grip configuration for maximum heel hook control?",
+        "answer": "The proper figure-four configuration places the blade of your forearm across the Achilles tendon with the heel cupped deep in the crook of your elbow. Your gripping hand cups around the top of the foot, with fingers pointing toward the toes. Your other arm reaches across and grabs your own wrist or forearm, creating the figure-four lock. This configuration maximizes rotational control because the heel cannot slip out, and your entire torso can generate the rotation rather than just your arms. Keep elbows tight to your body and chest pressed against the heel for maximum mechanical advantage.",
+        "safety_critical": false
+      }
+    ]
+  },
+  "defender": {
+    "name": "Outside Heel Hook Defender",
+    "description": "How to defend against Outside Heel Hook in BJJ. Recognition cues, escape mechanics, and defensive strategies to protect your knee from rotational damage.",
+    "overview": "Defending the Outside Heel Hook requires recognizing the threat before the attacker establishes finishing position, then executing systematic defensive actions that protect the knee from rotational damage. The defender's primary objective is preventing the three conditions that make the heel hook inescapable: full leg extension, deep heel cup, and hip immobilization. Defense operates on a timeline - early defense through grip fighting and positional denial is far more effective than late defense after the heel is cupped and rotation has begun.\n\nThe critical defensive principle is knee line rotation: by turning the knee inward toward the attacker, the defender reduces the rotational torque on the knee joint and creates opportunities to extract the leg. Combined with aggressive hand fighting to prevent or strip the heel grip, hip mobility to create escape angles, and tactical awareness of when to tap versus when to continue defending, the defender can survive and escape from even well-established outside heel hook attempts. Understanding this defense is not optional for anyone training in environments where heel hooks are permitted - it is a fundamental safety skill that prevents career-ending injuries.",
+    "key_principles": [
+      "Rotate your knee line inward toward the attacker immediately to reduce rotational torque on the knee joint before any rotation is applied",
+      "Fight the hands aggressively to prevent the heel cup from being established - breaking grips early is far easier than escaping a locked figure-four",
+      "Never allow full leg extension by keeping your knee bent and actively pulling your heel toward your hip to maintain slack in the system",
+      "Tap immediately if the heel is cupped with locked hands and rotation has begun - there is no shame in tapping early to heel hooks",
+      "Use your free leg to create frames on attacker's hips and push to create separation that weakens their control structure",
+      "Stay calm and systematic rather than panicking with explosive movements that can accelerate injury",
+      "Recognize the point of no return and differentiate between positions you can escape and positions requiring immediate tap"
+    ],
+    "recognition_cues": [
+      "Opponent secures outside ashi-garami with their inside leg hooking over your hip and outside leg controlling your trapped leg from the outside",
+      "Opponent's hands reach for your heel, attempting to cup it with both arms in a figure-four or similar grip configuration",
+      "You feel hip extension pressure as opponent pushes their hips forward to straighten your trapped leg, removing slack from the system",
+      "Your knee line is pointing away from the attacker (outward), indicating they have achieved the outside positioning needed for the heel hook"
+    ],
+    "defensive_options": [
+      {
+        "action": "Rotate knee line inward and strip heel grip",
+        "when_to_use": "As soon as you recognize outside ashi-garami being established, before opponent secures the heel cup",
+        "targets_outcome": "Outside Ashi-Garami",
+        "if_successful": "Opponent loses outside positioning and heel access, returning to neutral leg entanglement where you can work standard escapes",
+        "risk": "Low risk if executed before heel grip is locked; moderate risk if attempted against established grip as movement may create momentary torque"
+      },
+      {
+        "action": "Stand up and extract leg using height advantage",
+        "when_to_use": "When opponent's leg triangle is loose or you have prevented their inside leg from controlling your hip effectively",
+        "targets_outcome": "Standing Position",
+        "if_successful": "Full escape to standing position where you can disengage or re-engage on your terms with no leg lock threat",
+        "risk": "Moderate - standing creates space that may allow opponent to tighten position if extraction fails; must protect heel during the attempt"
+      },
+      {
+        "action": "Counter-entangle into opponent's legs for mutual threat",
+        "when_to_use": "When opponent loosens their leg control during grip transition or positional adjustment, exposing their own legs",
+        "targets_outcome": "Outside Ashi-Garami",
+        "if_successful": "Creates mutual leg lock threat that forces opponent to defend, breaking their offensive sequence and potentially giving you the superior position",
+        "risk": "Moderate to high - entering your own leg entanglement while already trapped requires precise timing; failed attempt may worsen position"
+      },
+      {
+        "action": "Tap immediately to prevent injury",
+        "when_to_use": "When opponent has locked figure-four heel grip, achieved full leg extension, and begins any rotational pressure - the point of no return",
+        "targets_outcome": "game-over",
+        "if_successful": "Prevents catastrophic knee injury including ACL tear, MCL damage, and meniscus destruction that could require surgery and months of rehabilitation",
+        "risk": "No physical risk - loss of match position is insignificant compared to potential knee reconstruction"
+      }
+    ],
+    "escape_paths": [
+      "Rotate knee inward while stripping heel grip with both hands, then extract leg through the weakened triangle using internal hip rotation and standing base",
+      "Create frames on attacker's hips with free leg, push to create separation while maintaining bent knee position, then thread leg out using circular hip movement rather than straight pulling",
+      "Roll toward the trapped leg to follow the rotation direction, relieving pressure while creating scramble opportunities to extract or transition to top position"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Outside Ashi-Garami",
+        "how": "Successfully rotate knee line inward and strip the heel grip before opponent establishes the figure-four lock, then work standard ashi garami escape sequence to extract your leg from the entanglement"
+      },
+      {
+        "outcome": "Standing Position",
+        "how": "Exploit a loose leg triangle or broken grip to stand up with base, using height advantage and gravity to extract trapped leg while maintaining heel protection throughout the standing sequence"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Straightening the trapped leg or allowing opponent to achieve full extension",
+        "consequence": "Full leg extension loads maximum tension into the knee joint and eliminates all slack that would otherwise absorb rotational force, making the submission nearly inescapable and dramatically increasing injury risk",
+        "correction": "Actively maintain knee flexion by pulling your heel toward your hip using your hamstring. Fight against hip extension pressure constantly. A bent knee absorbs significantly more rotational force before reaching the injury threshold."
+      },
+      {
+        "error": "Panicking and making explosive movements when heel is cupped",
+        "consequence": "Explosive movements against a locked heel grip can cause self-inflicted knee injury by creating sudden rotational force. Panic also prevents systematic defensive thinking and wastes energy on low-percentage escape attempts.",
+        "correction": "Remain calm and assess the position systematically. Determine whether the heel grip is secure or can be stripped. If the grip is locked with rotation beginning, tap immediately rather than fighting explosively."
+      },
+      {
+        "error": "Attempting to pull leg straight out against the leg triangle",
+        "consequence": "Straight pulling strengthens the attacker's leg triangle by driving your leg deeper into their control structure. It also exposes your heel more clearly and creates extension that assists their finishing mechanics.",
+        "correction": "Use internal hip rotation and circular movement to collapse the triangle structure rather than pulling straight out. Thread the leg through using rotation, not force. The escape path is circular, not linear."
+      },
+      {
+        "error": "Failing to fight the hands before the heel grip is established",
+        "consequence": "Once the figure-four heel grip is locked with hands clasped, stripping the grip becomes extremely difficult and the submission is nearly finished. The defensive window closes rapidly after grip establishment.",
+        "correction": "Prioritize hand fighting immediately upon recognizing the heel hook threat. Strip developing grips before they lock. Use two-on-one grip breaks targeting the thumb side. Prevention through grip denial is far more effective than late escape attempts."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the single most important defensive movement when you recognize an outside heel hook being established?",
+        "answer": "Immediately rotate your knee line inward, turning your knee toward the attacker. This single movement reduces the rotational torque available to the attacker by changing the angle of your knee relative to their rotational force. Combined with keeping your knee bent to maintain slack, this defensive rotation is the foundation of all subsequent escape attempts. It must happen before you address grips or attempt extraction.",
+        "safety_critical": true
+      },
+      {
+        "question": "At what point should you tap to an outside heel hook rather than continue defending?",
+        "answer": "Tap immediately when the attacker has achieved all three finishing conditions: (1) locked figure-four or similar heel grip with hands clasped, (2) full or near-full extension of your leg through their hip drive, and (3) any rotational pressure has begun on your heel. Once rotation starts against a locked grip with an extended leg, the margin between discomfort and catastrophic injury is measured in millimeters of rotation. There is no safe escape from this configuration. Tapping preserves your knees for decades of future training.",
+        "safety_critical": true
+      },
+      {
+        "question": "Why is pulling your trapped leg straight out against the attacker's leg triangle counterproductive?",
+        "answer": "Straight pulling drives your leg deeper into their triangle lock by pressing against the strongest part of the entanglement structure. This actually tightens their control rather than loosening it. It also straightens your leg, which is exactly the extension the attacker needs for the finish. Instead, use internal hip rotation to collapse the triangle structure from the inside, creating a circular escape path that weakens their leg configuration rather than strengthening it.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent has outside ashi-garami but has not yet cupped your heel - what is your defensive priority sequence?",
+        "answer": "The priority sequence is: (1) Rotate your knee inward immediately to deny the outside angle. (2) Keep your knee bent by actively pulling heel toward hip. (3) Use both hands aggressively to fight their developing grips and prevent them from reaching your heel. (4) Push on their hips with your free leg to create separation and weaken their control structure. (5) Begin working leg extraction using internal rotation once grips are denied. This early-stage defense has the highest success rate because no finishing pressure exists yet.",
+        "safety_critical": false
+      },
+      {
+        "question": "How does the defensive approach change between early-stage defense and late-stage defense against an outside heel hook?",
+        "answer": "Early-stage defense (before heel grip is locked) focuses on prevention: rotating knee inward, hand fighting to deny heel access, maintaining bent knee, and extracting the leg from the entanglement. You have time and multiple options. Late-stage defense (after heel grip is locked with extension) narrows to one option: tap immediately if rotation has begun, or attempt a final desperate grip strip if no rotation has started yet. The transition between these stages happens in seconds, so defenders must recognize the shift and act accordingly. Treating late-stage defense like early-stage defense by attempting escapes against a locked heel hook causes injuries.",
+        "safety_critical": true
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and Awareness",
+        "focus": "Identifying heel hook threats and understanding the danger timeline",
+        "description": "Partner establishes outside ashi-garami at slow speed and progresses through the heel hook setup stages. Defender practices identifying each stage: position establishment, heel exposure, grip development, extension, and rotation initiation. Focus on recognizing the defensive window and understanding when tapping is required. No escape attempts - purely awareness building."
+      },
+      {
+        "phase": "Phase 2: Grip Fighting and Prevention",
+        "focus": "Hand fighting to deny heel grip establishment",
+        "description": "Partner actively attempts to cup the heel while defender focuses exclusively on grip denial through hand fighting. Practice two-on-one grip breaks, wrist control, and blocking heel access. Partner provides progressive resistance. Defender learns to prevent the figure-four from being established. Add knee rotation drill alongside grip fighting."
+      },
+      {
+        "phase": "Phase 3: Escape Mechanics",
+        "focus": "Leg extraction through internal hip rotation and standing escape",
+        "description": "From established outside ashi-garami without heel grip, practice full escape sequences: knee rotation inward, frame creation on hips, internal hip rotation for leg threading, and standing to extract. Partner provides progressive resistance from 25% to 75%. Build muscle memory for the circular escape path rather than straight pulling."
+      },
+      {
+        "phase": "Phase 4: Live Defensive Sparring",
+        "focus": "Full defensive flow against progressive resistance and chained attacks",
+        "description": "Positional sparring starting from outside ashi-garami with partner attacking heel hooks, transitioning to kneebars and toe holds when defended. Defender practices the complete defensive decision tree: grip fight, rotate knee, escape or tap. Strict safety protocols maintained. Partner gradually increases intensity. Build confidence in recognizing when to fight and when to tap under realistic conditions."
+      }
+    ]
+  }
 }

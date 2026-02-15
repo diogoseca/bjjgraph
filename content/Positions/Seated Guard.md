@@ -168,17 +168,25 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 ### Available Transitions
 
 
-- **[[Toreando Pass]]** (19% of attempts)
+- **[[Toreando Pass]]** (38% of attempts)
 
-- **[[Knee Slice Pass]]** (17% of attempts)
+- **[[Knee Slice Pass]]** (12% of attempts)
 
-- **[[Long Step Pass]]** (16% of attempts)
+- **[[Long Step Pass]]** (11% of attempts)
 
-- **[[Leg Drag Pass]]** (17% of attempts)
+- **[[Leg Drag Pass]]** (12% of attempts)
 
-- **[[Stack Pass]]** (16% of attempts)
+- **[[Stack Pass]]** (11% of attempts)
 
-- **[[Smash Pass]]** (15% of attempts)
+- **[[Smash Pass]]** (10% of attempts)
+
+- **[[Bodylock Pass from Seated]]** (4% of attempts)
+
+- **[[Bull Pass from Seated]]** (1% of attempts)
+
+- **[[Knee Slice from Seated Guard]]** (0% of attempts)
+
+- **[[Toreando Pass from Seated Guard]]** (1% of attempts)
 
 
 ### Common Mistakes

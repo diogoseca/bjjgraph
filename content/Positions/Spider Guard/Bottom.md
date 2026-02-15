@@ -4,7 +4,7 @@
 
 ---
 title: "Spider Guard Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master Spider Guard Bottom in BJJ. Complete guide covering sleeve and collar control, sweeps, and submissions. Fundamental open guard with 60% sweep success at advanced level."
+description: "Master Spider Guard Bottom in BJJ. Complete guide covering sleeve control, bicep hooks, sweeps, and submissions. Fundamental open guard for distance management and attack."
 ---
 
 
@@ -21,37 +21,37 @@ description: "Master Spider Guard Bottom in BJJ. Complete guide covering sleeve 
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 34% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Spider Guard Sweeps",
-      "text": "From this position, attempt Spider Guard Sweeps. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Balloon Sweep",
+      "text": "From this position, attempt Balloon Sweep. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Lasso Guard Sweeps",
-      "text": "From this position, attempt Lasso Guard Sweeps. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Scissor Sweep",
+      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute De La Riva Sweep",
-      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Scissor Sweep",
-      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Spider Guard to Omoplata",
+      "text": "From this position, attempt Spider Guard to Omoplata. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -115,7 +115,7 @@ description: "Master Spider Guard Bottom in BJJ. Complete guide covering sleeve 
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Spider Guard Bottom",
-  "description": "Master Spider Guard Bottom in BJJ. Complete guide covering sleeve and collar control, sweeps, and submissions. Fundamental open guard with 60% sweep success at advanced level.",
+  "description": "Master Spider Guard Bottom in BJJ. Complete guide covering sleeve control, bicep hooks, sweeps, and submissions. Fundamental open guard for distance management and attack.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -157,7 +157,7 @@ description: "Master Spider Guard Bottom in BJJ. Complete guide covering sleeve 
 
 <section id="overview" class="content-section">
 
-Spider Guard Bottom is a fundamental gi-based open guard position where the bottom practitioner controls the opponent's sleeves with their grips while using their feet against the opponent's biceps or hips to create distance and control. This position is characterized by active foot placement on the opponent's arms, extended legs creating mechanical advantage, and strong collar or sleeve grips that prevent the opponent from establishing dominant posture. The guard creates a web-like control system that makes passing extremely difficult while offering numerous sweep and submission opportunities. Spider Guard is one of the most versatile positions in gi jiu-jitsu, allowing the bottom player to control distance, create angles, and launch attacks while maintaining a strong defensive framework. The position excels at neutralizing pressure passing attempts and creating opportunities for transitions to other guard variations or direct attacks.
+Spider Guard Bottom is a fundamental gi-based open guard position where the bottom practitioner controls the opponent's sleeves with their grips while using their feet against the opponent's biceps or hips to create distance and control. This position is characterized by active foot placement on the opponent's arms, extended legs creating mechanical advantage, and strong collar or sleeve grips that prevent the opponent from establishing dominant posture. The guard creates a web-like control system that makes passing extremely difficult while offering numerous sweep and submission opportunities. Spider Guard is one of the most versatile positions in gi jiu-jitsu, allowing the bottom player to control distance, create angles, and launch attacks while maintaining a strong defensive framework. The position excels at neutralizing pressure passing attempts and creating opportunities for transitions to other guard variations or direct attacks. The core principle is using your legs against the opponent's arms, which creates a favorable strength asymmetry that allows smaller practitioners to control larger opponents effectively. When properly maintained, Spider Guard forces the top player into a reactive role where every grip break attempt can be converted into a sweep or submission entry.
 
 </section>
 
@@ -205,23 +205,29 @@ Spider Guard Bottom is a fundamental gi-based open guard position where the bott
 
 ## Available Escapes
 
-### [[Triangle Setup]] (11% of attempts)
+### [[Triangle Setup]] (34% of attempts)
 
-### [[Omoplata Sweep]] (10% of attempts)
+### [[Omoplata Sweep]] (9% of attempts)
 
-### [[Spider Guard Sweeps]] (11% of attempts)
+### [[Balloon Sweep]] (9% of attempts)
 
-### [[Lasso Guard Sweeps]] (12% of attempts)
+### [[Scissor Sweep]] (8% of attempts)
 
-### [[De La Riva Sweep]] (11% of attempts)
+### [[De La Riva Sweep]] (8% of attempts)
 
-### [[Scissor Sweep]] (12% of attempts)
+### [[Spider Guard to Omoplata]] (9% of attempts)
 
-### [[Armbar from Guard]] (10% of attempts)
+### [[Pendulum Sweep]] (7% of attempts)
 
-### [[Spider Guard to Omoplata]] (12% of attempts)
+### [[Armbar Finish]] (6% of attempts)
 
-### [[Spider Guard Pass]] (11% of attempts)
+### [[Guard Recovery]] (6% of attempts)
+
+### [[Spider Sweep]] (2% of attempts)
+
+### [[Spider to Lasso Guard]] (1% of attempts)
+
+### [[Triangle from Spider Guard]] (1% of attempts)
 
 
 
@@ -237,18 +243,18 @@ Spider Guard Bottom is a fundamental gi-based open guard position where the bott
 
 
 **Else if opponent drives forward with low posture attempting pressure pass:**
-- Execute **[[Lasso Guard Sweeps]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Balloon Sweep]]** → [[Mount]] (Probability: 55%)
 - Execute **[[Scissor Sweep]]** → [[Mount]] (Probability: 45%)
 
 
 **Else if opponent steps to side attempting toreando or knee cut pass:**
 - Execute **[[De La Riva Sweep]]** → [[Back Control]] (Probability: 50%)
-- Execute **[[Spider Guard Sweeps]]** → [[Mount]] (Probability: 50%)
+- Execute **[[Pendulum Sweep]]** → [[Mount]] (Probability: 50%)
 
 
 **Else if opponent secures strong grips and controls distance effectively:**
 - Execute **[[Guard Recovery]]** → [[Closed Guard]] (Probability: 55%)
-- Execute **[[Shin to Shin Pull]]** → [[Single Leg X-Guard]] (Probability: 45%)
+- Execute **[[Butterfly Hook Recovery]]** → [[Butterfly Guard]] (Probability: 45%)
 
 
 
@@ -338,10 +344,10 @@ Start with compromised spider guard position (weak grips or poor foot placement)
 **A**: Grips should be established at or above the opponent's elbows using deep four-finger sleeve grips. This position maximizes the lever arm length, providing stronger control over the opponent's arm movement and posture. Gripping too low on the wrists or forearms creates weak control that opponents can easily strip, while gripping near the elbows gives you mechanical advantage for pulling, pushing, and redirecting their movement.
 
 **Q2**: Your opponent is driving forward with low posture trying to pressure pass - how should you respond?
-**A**: Against forward pressure with low posture, transition one leg to lasso by threading it under their arm and over their shoulder. This converts their forward pressure into a sweep setup. Alternatively, if they commit significant weight forward, use their momentum for a balloon sweep or scissor sweep by collapsing one bicep hook while extending the other leg. Never try to hold them out with straight arm strength against forward pressure.
+**A**: Against forward pressure with low posture, transition one leg to lasso by threading it under their arm and over their shoulder. This converts their forward pressure into a sweep setup. Alternatively, if they commit significant weight forward, use their momentum for a balloon sweep by extending both legs and elevating them overhead, or execute a scissor sweep by collapsing one bicep hook while extending the other leg. Never try to hold them out with straight arm strength against forward pressure.
 
 **Q3**: Why must your hips remain elevated and mobile in Spider Guard rather than flat on the mat?
-**A**: Elevated, mobile hips are essential for three reasons: First, they enable quick angle creation for sweep setups and guard transitions. Second, they provide the ability to adjust foot placement instantly as the opponent moves. Third, they prevent stack passes because stacking requires your hips to be flat and compressed. Mobile hips also allow you to follow the opponent's lateral movement during passing attempts.
+**A**: Elevated, mobile hips are essential for three reasons: First, they enable quick angle creation for sweep setups and guard transitions. Second, they provide the ability to adjust foot placement instantly as the opponent moves. Third, they prevent stack passes because stacking requires your hips to be flat and compressed. Mobile hips also allow you to follow the opponent's lateral movement during passing attempts and maintain the perpendicular angle needed for effective sweeps.
 
 **Q4**: Your opponent successfully breaks one of your sleeve grips - what should you do immediately?
 **A**: Immediately recognize whether you can regain the grip or must transition to another position. If regaining is possible, use the foot pressure on that side to prevent them from withdrawing their arm while fighting for the grip. If they've withdrawn the arm completely, immediately transition to a guard that works with single-sleeve control such as collar-sleeve, lasso, or de la riva. Never remain in a compromised Spider Guard hoping to recover.
@@ -373,7 +379,7 @@ Start with compromised spider guard position (weak grips or poor foot placement)
 | Advancement Probability | 52% |
 | Submission Probability | 42% |
 
-**Average Time in Position**: 1-3 minutes depending on skill level and opponent's passing strategy
+**Average Time in Position**: 1-3 minutes
 
 
 </section>

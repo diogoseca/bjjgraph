@@ -21,38 +21,32 @@ description: "Master bottom gogoplata control mechanics including shin positioni
     {
       "@type": "HowToStep",
       "name": "Execute Gogoplata",
-      "text": "From this position, attempt Gogoplata. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Gogoplata. This technique is attempted in 28% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle Choke",
-      "text": "From this position, attempt Triangle Choke. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Closed Guard to Omoplata",
+      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Closed Guard to Omoplata",
-      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Back Take",
+      "text": "From this position, attempt Back Take. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Mission Control Recovery",
+      "text": "From this position, attempt Mission Control Recovery. This technique is attempted in 25% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar from Guard",
-      "text": "From this position, attempt Armbar from Guard. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Switch to Triangle",
+      "text": "From this position, attempt Switch to Triangle. This technique is attempted in 18% of exchanges from this position.",
       "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute High Mount Transition",
-      "text": "From this position, attempt High Mount Transition. This technique is attempted in 10% of exchanges from this position.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -216,21 +210,15 @@ Strategically, bottom gogoplata control functions as a high-risk, high-reward po
 
 ## Available Escapes
 
-### [[Gogoplata]] (10% of attempts)
+### [[Gogoplata]] (28% of attempts)
 
-### [[Triangle Choke]] (13% of attempts)
+### [[Closed Guard to Omoplata]] (15% of attempts)
 
-### [[Closed Guard to Omoplata]] (12% of attempts)
+### [[Back Take]] (14% of attempts)
 
-### [[Back Take]] (11% of attempts)
+### [[Mission Control Recovery]] (25% of attempts)
 
-### [[Armbar from Guard]] (12% of attempts)
-
-### [[High Mount Transition]] (10% of attempts)
-
-### [[Mission Control Recovery]] (14% of attempts)
-
-### [[Rubber Guard Maintenance]] (18% of attempts)
+### [[Switch to Triangle]] (18% of attempts)
 
 
 

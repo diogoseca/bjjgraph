@@ -35,7 +35,7 @@
       "relationship": "Alternative side control variation with different control points"
     },
     {
-      "name": "Scarf Hold Position",
+      "name": "Modified Scarf Hold",
       "relationship": "Related control position with head control emphasis"
     },
     {
@@ -49,15 +49,11 @@
     {
       "name": "Kimura Trap",
       "relationship": "Submission control accessible from consolidation"
-    },
-    {
-      "name": "North-South",
-      "relationship": "High-control position accessible through transition"
     }
   ],
   "top": {
     "name": "Side Control Consolidation Top",
-    "description": "Master Side Control Consolidation Top position with 85% retention rate. Complete guide covering pressure mechanics, control establishment, and strategic advancement timing.",
+    "description": "Master Side Control Consolidation Top position with 80% retention rate. Complete guide covering pressure mechanics, control establishment, and strategic advancement timing.",
     "tags": [
       "bjj",
       "position",
@@ -147,7 +143,7 @@
             "probability": 60
           },
           {
-            "technique": "Americana from Side Control",
+            "technique": "Americana",
             "target": "Americana",
             "probability": 45
           }
@@ -162,7 +158,7 @@
             "probability": 75
           },
           {
-            "technique": "Kimura from Side Control",
+            "technique": "Kimura",
             "target": "Kimura Trap",
             "probability": 65
           },
@@ -202,7 +198,7 @@
             "probability": 65
           },
           {
-            "technique": "Armbar from Side Control",
+            "technique": "Armbar Finish",
             "target": "Armbar Control",
             "probability": 50
           }
@@ -294,20 +290,16 @@
         "relationship": "Opposite perspective - defensive counterpart position"
       },
       {
-        "name": "Kimura from Side Control",
+        "name": "Kimura",
         "relationship": "Primary submission option from consolidated control"
       },
       {
-        "name": "Americana from Side Control",
+        "name": "Americana",
         "relationship": "High-percentage submission when near arm isolated"
       },
       {
         "name": "Arm Triangle",
         "relationship": "Choke attack when opponent brings arm across"
-      },
-      {
-        "name": "North-South",
-        "relationship": "Control position accessible through pressure transition"
       }
     ],
     "position_metrics": {
@@ -325,41 +317,49 @@
     "transitions": [
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": 14
+        "attempt_probability": 22
       },
       {
         "transition": "Side Control to North-South",
-        "attempt_probability": 14
+        "attempt_probability": 12
       },
       {
         "transition": "Knee on Belly",
-        "attempt_probability": 14
-      },
-      {
-        "transition": "Kimura from Side Control",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "Americana from Side Control",
         "attempt_probability": 12
       },
       {
-        "transition": "Arm Triangle",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Armbar from Side Control",
+        "transition": "Kimura",
         "attempt_probability": 11
       },
       {
-        "transition": "North-South Choke",
+        "transition": "Americana",
         "attempt_probability": 10
+      },
+      {
+        "transition": "Arm Triangle",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Armbar Finish",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "North-South Choke",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Consolidation to Knee on Belly",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Consolidation to Mount",
+        "attempt_probability": 2
       }
     ]
   },
   "bottom": {
     "name": "Side Control Consolidation Bottom",
-    "description": "Master Side Control Consolidation Bottom defensive strategies. Complete guide covering frame management, breathing techniques, and escape timing with 45% retention rate for advanced practitioners.",
+    "description": "Master Side Control Consolidation Bottom defensive strategies. Complete guide covering frame management, breathing techniques, and escape timing for advanced practitioners.",
     "tags": [
       "bjj",
       "position",
@@ -370,7 +370,7 @@
     ],
     "overview": "Side Control Consolidation Bottom represents the critical defensive challenge where the bottom practitioner must prevent the opponent from establishing complete control while systematically working toward escape opportunities. This position requires sophisticated understanding of pressure management, breathing techniques under duress, and the strategic use of defensive frames to prevent the opponent from settling into dominant control. The bottom player faces the immediate challenge of maintaining survival posture while simultaneously creating the micro-adjustments necessary for eventual escape sequences.\n\nDuring the consolidation phase, the bottom practitioner must prioritize three essential objectives: maintaining breathing capacity under chest pressure, preventing the opponent from securing the crossface and far arm control simultaneously, and identifying transitional moments when the opponent adjusts position or pressure angles. These brief windows represent the primary opportunities for initiating escape sequences or improving defensive positioning. Expert defensive players understand that energy conservation during this phase is critical, as premature or poorly-timed escape attempts often result in worse positioning or submission vulnerability.\n\nThe psychological dimension of Side Control Consolidation Bottom cannot be underestimated, as the pressure and restricted movement can create panic responses that lead to defensive errors. Successful bottom players develop the composure to remain calm under sustained pressure, using controlled breathing techniques and systematic defensive priorities to weather the consolidation phase and identify genuine escape opportunities. The position serves as a fundamental test of defensive maturity and escape hierarchy understanding.",
     "state_properties": {
-      "point_value": 0,
+      "point_value": -3,
       "position_type": "Defensive",
       "risk_level": "High",
       "energy_cost": "High",
@@ -439,12 +439,12 @@
         "condition": "If opponent is actively consolidating with heavy chest pressure and establishing crossface",
         "actions": [
           {
-            "technique": "Frame and Shrimp",
+            "technique": "Frame and Shrimp to Guard",
             "target": "Open Guard",
             "probability": 45
           },
           {
-            "technique": "Elbow Escape",
+            "technique": "Elbow Escape to Guard",
             "target": "Half Guard",
             "probability": 40
           }
@@ -454,12 +454,12 @@
         "condition": "If opponent raises hips or adjusts position preparing for advancement",
         "actions": [
           {
-            "technique": "Elbow Escape",
+            "technique": "Elbow Escape to Guard",
             "target": "Half Guard",
             "probability": 55
           },
           {
-            "technique": "Hip Escape",
+            "technique": "Hip Escape to Guard",
             "target": "Open Guard",
             "probability": 50
           }
@@ -474,7 +474,7 @@
             "probability": 35
           },
           {
-            "technique": "Granby Roll",
+            "technique": "Granby Roll to Guard",
             "target": "Turtle",
             "probability": 40
           }
@@ -484,13 +484,13 @@
         "condition": "If opponent transitions toward north-south or adjusts pressure angle",
         "actions": [
           {
-            "technique": "Granby Roll",
+            "technique": "Granby Roll to Guard",
             "target": "Turtle",
             "probability": 48
           },
           {
-            "technique": "Technical Standup",
-            "target": "Standing Guard",
+            "technique": "Technical Stand-up",
+            "target": "Clinch",
             "probability": 32
           }
         ]
@@ -573,11 +573,11 @@
         "relationship": "Position opponent advances to if consolidation successful"
       },
       {
-        "name": "Elbow Escape",
+        "name": "Elbow Escape to Guard",
         "relationship": "Primary escape technique from consolidated position"
       },
       {
-        "name": "Frame and Shrimp",
+        "name": "Frame and Shrimp to Guard",
         "relationship": "Fundamental defensive movement for space creation"
       },
       {
@@ -611,28 +611,36 @@
     },
     "transitions": [
       {
-        "transition": "Elbow Escape",
-        "attempt_probability": 19
-      },
-      {
-        "transition": "Frame and Shrimp",
-        "attempt_probability": 21
-      },
-      {
-        "transition": "Bridge and Roll",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "Granby Roll",
+        "transition": "Elbow Escape to Guard",
         "attempt_probability": 16
       },
       {
-        "transition": "Technical Standup",
-        "attempt_probability": 12
+        "transition": "Frame and Shrimp to Guard",
+        "attempt_probability": 25
       },
       {
-        "transition": "Hip Escape",
-        "attempt_probability": 19
+        "transition": "Bridge and Roll",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Granby Roll to Guard",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Technical Stand-up",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Hip Escape to Guard",
+        "attempt_probability": 16
+      },
+      {
+        "transition": "Escape Side Control Consolidation",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Frame from Side Control Consolidation",
+        "attempt_probability": 3
       }
     ]
   }

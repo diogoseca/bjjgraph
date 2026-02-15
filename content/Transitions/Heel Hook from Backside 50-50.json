@@ -1,0 +1,134 @@
+{
+  "name": "Heel Hook from Backside 50-50",
+  "description": "TODO: Write 150-160 character SEO description for Heel Hook from Backside 50-50.",
+  "tags": [
+    "bjj",
+    "transition",
+    "TODO"
+  ],
+  "from_position": "Backside 50-50/Bottom",
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Backside 50-50/Bottom",
+      "probability": 45,
+      "result": "failure"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "TODO: Write overview for Heel Hook from Backside 50-50.",
+  "conditions": [
+    "TODO"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "TODO",
+      "description": "TODO",
+      "when_to_use": "TODO"
+    }
+  ],
+  "position_integration": "TODO: Write position integration for Heel Hook from Backside 50-50.",
+  "related_content": [
+    {
+      "name": "TODO",
+      "relationship": "TODO"
+    }
+  ],
+  "attacker": {
+    "name": "Heel Hook from Backside 50-50 Attacker",
+    "description": "TODO: Write attacker description for Heel Hook from Backside 50-50.",
+    "overview": "TODO: Write attacker overview for Heel Hook from Backside 50-50.",
+    "key_principles": [
+      "TODO"
+    ],
+    "setup_requirements": [
+      "TODO"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "TODO",
+        "description": "TODO"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "TODO",
+        "effectiveness": "Medium",
+        "your_response": "TODO",
+        "targets_outcome": "Backside 50-50/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "TODO",
+        "description": "TODO"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "TODO",
+        "answer": "TODO"
+      }
+    ],
+    "safety_considerations": "TODO: Write safety considerations for Heel Hook from Backside 50-50."
+  },
+  "defender": {
+    "name": "Heel Hook from Backside 50-50 Defender",
+    "description": "TODO: Write defender description for Heel Hook from Backside 50-50.",
+    "overview": "TODO: Write defender overview for Heel Hook from Backside 50-50.",
+    "key_principles": [
+      "TODO"
+    ],
+    "recognition_cues": [
+      "TODO"
+    ],
+    "defensive_options": [
+      {
+        "action": "TODO",
+        "when_to_use": "TODO",
+        "targets_outcome": "Backside 50-50/Bottom",
+        "if_successful": "TODO",
+        "risk": "TODO"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "game-over",
+        "how": "TODO"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "TODO",
+        "answer": "TODO"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "TODO",
+        "description": "TODO"
+      }
+    ]
+  }
+}

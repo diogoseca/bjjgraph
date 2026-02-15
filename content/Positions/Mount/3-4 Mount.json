@@ -137,7 +137,7 @@
         "condition": "If opponent remains flat and passive, accepting bottom position without immediate escape attempts",
         "actions": [
           {
-            "technique": "Side Control to Mount",
+            "technique": "Consolidate Mount",
             "target": "Mount",
             "probability": 75
           },
@@ -147,8 +147,8 @@
             "probability": 60
           },
           {
-            "technique": "Ezekiel from Mount",
-            "target": "Armbar Control",
+            "technique": "Americana",
+            "target": "Kimura Trap",
             "probability": 50
           }
         ]
@@ -157,17 +157,17 @@
         "condition": "Else if opponent attempts to bridge explosively or turn into the mounted side to escape",
         "actions": [
           {
-            "technique": "Americana from Mount",
+            "technique": "Americana",
             "target": "Kimura Trap",
             "probability": 65
           },
           {
-            "technique": "Kimura from Mount",
+            "technique": "Kimura",
             "target": "Kimura Trap",
             "probability": 60
           },
           {
-            "technique": "Knee Cut Pass",
+            "technique": "Side Control to Mount",
             "target": "Side Control",
             "probability": 70
           }
@@ -177,19 +177,19 @@
         "condition": "Else if opponent turns away from posted leg or exposes their back during escape attempt",
         "actions": [
           {
+            "technique": "Back Take",
+            "target": "Back Control",
+            "probability": 75
+          },
+          {
             "technique": "Side Control to North-South",
             "target": "North-South",
             "probability": 70
           },
           {
-            "technique": "Knee Cut Pass",
-            "target": "Side Control",
+            "technique": "S-Mount Transition",
+            "target": "S Mount",
             "probability": 65
-          },
-          {
-            "technique": "Back Take Generic",
-            "target": "Back Control",
-            "probability": 75
           }
         ]
       },
@@ -202,12 +202,12 @@
             "probability": 55
           },
           {
-            "technique": "Triangle from Mount",
+            "technique": "Mounted Triangle",
             "target": "Mounted Triangle",
             "probability": 45
           },
           {
-            "technique": "Side Control to Mount",
+            "technique": "Consolidate Mount",
             "target": "Mount",
             "probability": 60
           }
@@ -326,35 +326,39 @@
     "transitions": [
       {
         "transition": "Mount to Armbar",
-        "attempt_probability": 18
+        "attempt_probability": 39
       },
       {
-        "transition": "Side Control to Mount",
-        "attempt_probability": 15
-      },
-      {
-        "transition": "Americana from Mount",
-        "attempt_probability": 14
-      },
-      {
-        "transition": "Ezekiel from Mount",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Triangle from Mount",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Kimura from Mount",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Side Control to North-South",
+        "transition": "Mounted Triangle",
         "attempt_probability": 8
       },
       {
-        "transition": "Back Take Generic",
-        "attempt_probability": 12
+        "transition": "S-Mount Transition",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Back Take",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Consolidate Mount",
+        "attempt_probability": 16
+      },
+      {
+        "transition": "High Mount Transition",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Cross Collar Choke",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "3-4 Mount to S Mount",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "3-4 Mount to Technical Mount",
+        "attempt_probability": 2
       }
     ]
   },
@@ -372,7 +376,7 @@
     ],
     "overview": "3-4 Mount Bottom represents a defensive position where the practitioner is on their back with the opponent in a modified mount position, characterized by the top player having three points of contact on one side and four on the other (three limbs on the ground on one side, four on the other). This asymmetric position creates unique escape opportunities compared to traditional mount bottom, as the weight distribution is uneven and specific angles become available for defensive movement.\n\nThe position occurs when the top player transitions between mount variations or when the bottom player begins defensive movements that shift the top player's base. Understanding 3-4 Mount Bottom is essential for mount escape development, as it represents a critical transitional state where proper defensive frames and hip movement can lead to successful escapes or guard recovery. The asymmetric nature of the position means that escape routes differ significantly from standard mount escapes, requiring specific technical knowledge.\n\nFrom a positional hierarchy perspective, 3-4 Mount Bottom is a high-risk defensive position worth -4 points in IBJJF competition, requiring immediate defensive action to prevent submissions and create escape opportunities. Success in this position depends on recognizing the specific 3-4 configuration, establishing proper defensive frames, and exploiting the inherent instability in the top player's asymmetric base.",
     "state_properties": {
-      "point_value": 0,
+      "point_value": -4,
       "position_type": "Defensive",
       "risk_level": "High",
       "energy_cost": "High",
@@ -454,7 +458,7 @@
         "condition": "If opponent drops weight low with chest pressure but maintains 3-4 configuration",
         "actions": [
           {
-            "technique": "Elbow Escape",
+            "technique": "Elbow Escape to Guard",
             "target": "Half Guard",
             "probability": 50
           },
@@ -469,12 +473,12 @@
         "condition": "If opponent attempts to transition to traditional mount or high mount",
         "actions": [
           {
-            "technique": "Frame and Shrimp",
+            "technique": "Frame and Shrimp to Guard",
             "target": "Half Guard",
             "probability": 48
           },
           {
-            "technique": "Hip Escape",
+            "technique": "Hip Escape to Guard",
             "target": "Open Guard",
             "probability": 42
           }
@@ -489,7 +493,7 @@
             "probability": 35
           },
           {
-            "technique": "Elbow Escape",
+            "technique": "Elbow Escape to Guard",
             "target": "Half Guard",
             "probability": 40
           }
@@ -584,7 +588,7 @@
         "relationship": "Common escape destination - using knee shield to prevent re-mounting"
       },
       {
-        "name": "Elbow Escape",
+        "name": "Elbow Escape to Guard",
         "relationship": "Primary escape technique - shrimp-based movement to recover guard"
       }
     ],
@@ -602,28 +606,36 @@
     },
     "transitions": [
       {
-        "transition": "Elbow Escape",
-        "attempt_probability": 19
+        "transition": "Elbow Escape to Guard",
+        "attempt_probability": 24
       },
       {
         "transition": "Bridge and Roll",
-        "attempt_probability": 16
-      },
-      {
-        "transition": "Shrimp Escape",
-        "attempt_probability": 17
-      },
-      {
-        "transition": "Hip Escape",
-        "attempt_probability": 16
-      },
-      {
-        "transition": "Frame and Shrimp",
-        "attempt_probability": 15
+        "attempt_probability": 13
       },
       {
         "transition": "Upa Escape",
         "attempt_probability": 17
+      },
+      {
+        "transition": "Explosive Bridge to Turtle",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Guard Recovery",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Half Guard Recovery",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Bridge Escape from 3-4 Mount",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Elbow Escape from 3-4 Mount",
+        "attempt_probability": 3
       }
     ]
   }

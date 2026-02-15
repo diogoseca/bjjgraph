@@ -20,8 +20,8 @@ description: "Escape North-South bottom position in BJJ. Comprehensive guide to 
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Elbow Escape",
-      "text": "From this position, attempt Elbow Escape. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Elbow Escape to Guard",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
@@ -38,8 +38,8 @@ description: "Escape North-South bottom position in BJJ. Comprehensive guide to 
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape",
-      "text": "From this position, attempt Hip Escape. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Hip Escape to Guard",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
@@ -50,8 +50,8 @@ description: "Escape North-South bottom position in BJJ. Comprehensive guide to 
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Frame and Shrimp",
-      "text": "From this position, attempt Frame and Shrimp. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Frame and Shrimp to Guard",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,19 +209,19 @@ The position demands mental toughness and technical precision. Panic and explosi
 
 ## Available Escapes
 
-### [[Elbow Escape]] (14% of attempts)
+### [[Elbow Escape to Guard]] (14% of attempts)
 
 ### [[Bridge and Roll]] (12% of attempts)
 
 ### [[Turtle Transition]] (17% of attempts)
 
-### [[Hip Escape]] (14% of attempts)
+### [[Hip Escape to Guard]] (14% of attempts)
 
 ### [[North-South Escape]] (13% of attempts)
 
-### [[Frame and Shrimp]] (12% of attempts)
+### [[Frame and Shrimp to Guard]] (12% of attempts)
 
-### [[Granby Roll]] (11% of attempts)
+### [[Granby Roll to Guard]] (11% of attempts)
 
 ### [[Technical Stand-up]] (7% of attempts)
 
@@ -392,11 +392,11 @@ Partner alternates between maintaining North-South control and setting up submis
 - **[[Side Control]]** - Adjacent pin position with similar escape principles
 - **[[Mount]]** - Common transition target from North-South for top player
 - **[[Turtle]]** - Common escape result when turning to knees
-- **[[Elbow Escape]]** - Primary escape technique to recover guard
-- **[[Hip Escape]]** - Fundamental movement for creating space
+- **[[Elbow Escape to Guard]]** - Primary escape technique to recover guard
+- **[[Hip Escape to Guard]]** - Fundamental movement for creating space and recovering guard
 - **[[Half Guard]]** - Common guard recovery position from escape
 - **[[Bridge and Roll]]** - Alternative escape technique using hip power
-- **[[Frame and Shrimp]]** - Combined technique for systematic escape
+- **[[Frame and Shrimp to Guard]]** - Combined technique for systematic escape to guard
 
 
 </section>

@@ -1,6 +1,6 @@
 {
   "name": "Base Attack to Sweep",
-  "description": "Master Base Attack to Sweep from Aoki Lock bottom. Destabilize opponent's posted leg to reverse position. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "description": "Master Base Attack to Sweep from Aoki Lock bottom. Destabilize opponent's posted leg to reverse position into mount with expert timing and hip mechanics.",
   "tags": [
     "bjj",
     "transition",
@@ -13,207 +13,23 @@
   "from_position": "Aoki Lock/Bottom",
   "outcomes": [
     {
-      "to": "Mount",
+      "to": "Mount/Top",
       "probability": 65,
       "result": "success"
     },
     {
-      "to": "Aoki Lock",
+      "to": "Aoki Lock/Bottom",
       "probability": 25,
       "result": "failure"
     },
     {
-      "to": "Back Control",
+      "to": "Back Control/Bottom",
       "probability": 10,
       "result": "counter"
     }
   ],
+  "success_rate": 58,
   "overview": "The Base Attack to Sweep represents a critical offensive escape option from the Aoki Lock bottom position, targeting the top player's posted leg to destabilize their base and create a sweeping opportunity. When caught in Aoki Lock bottom, most practitioners focus purely on defensive arm extraction, but the base attack approach exploits a fundamental vulnerability in the position - the top player must maintain a posted leg for stability while applying shoulder pressure, and attacking this base creates immediate positional crisis.\n\nThis technique operates on the principle that the Aoki Lock top player cannot simultaneously maintain maximum shoulder pressure and defend their posted leg. By timing your attack to coincide with their pressure application, you catch them committed to the finish and vulnerable to base disruption. The sweep typically ends in mount position, converting a highly dangerous defensive situation into dominant top control.\n\nThe base attack is particularly effective because it addresses both survival and advancement simultaneously. Rather than simply escaping the shoulder lock, you create a dilemma where the opponent must choose between maintaining the submission or protecting their position. Advanced practitioners chain this with arm extraction attempts, using the threat of one to create openings for the other. This technique requires precise timing, hip mobility, and the ability to read when opponents are committed to finishing rather than maintaining position.",
-  "key_principles": [
-    "Attack opponent's posted leg when they commit to increasing shoulder pressure",
-    "Time the sweep to coincide with their forward weight shift during pressure application",
-    "Use your free hand as the primary weapon for disrupting their base stability",
-    "Create continuous hip movement to reduce shoulder pressure angle during the attack",
-    "Chain base attacks with arm extraction attempts to create offensive-defensive dilemmas",
-    "Maintain shoulder protection throughout the sweep attempt to prevent finish during transition",
-    "Follow through completely to mount rather than stopping at position escape"
-  ],
-  "setup_requirements": [
-    "Opponent has established Aoki Lock control with posted leg for base stability",
-    "Your free hand has access to attack opponent's posted leg or hip",
-    "You have identified the timing window when opponent increases pressure commitment",
-    "Your shoulder remains in safe rotation range allowing movement without injury risk",
-    "Hip mobility exists to generate sweeping force despite leg entanglement constraint"
-  ],
-  "execution_steps": [
-    {
-      "step_number": 1,
-      "action": "Identify posted leg",
-      "description": "Locate opponent's posted leg that provides their primary base stability for shoulder pressure application. This is typically the leg closest to your hips, posted on the mat to prevent being rolled."
-    },
-    {
-      "step_number": 2,
-      "action": "Protect shoulder",
-      "description": "Internally rotate your trapped shoulder to resist external rotation pressure while preparing the attack. Keep elbow bent when possible to maintain safe joint angle throughout the sweep attempt."
-    },
-    {
-      "step_number": 3,
-      "action": "Attack posted leg",
-      "description": "Use your free hand to hook behind opponent's posted ankle or grab their pants at the knee, preparing to pull their base out from under them when they commit forward pressure."
-    },
-    {
-      "step_number": 4,
-      "action": "Generate hip drive",
-      "description": "Explosively bridge your hips toward opponent while simultaneously pulling their posted leg off the mat. The combination of upward hip force and base removal creates rotational momentum."
-    },
-    {
-      "step_number": 5,
-      "action": "Follow rotation",
-      "description": "Continue the rotational momentum as opponent loses balance, following their fall while extracting your trapped arm from the loosening leg entanglement during the transition."
-    },
-    {
-      "step_number": 6,
-      "action": "Establish mount",
-      "description": "Complete the sweep by establishing mount position with hips heavy on opponent's torso, knees wide for base, and hands posted for control. Immediately address any remaining grip threats."
-    }
-  ],
-  "common_counters": [
-    {
-      "counter": "Opponent widens base before committing to pressure, making posted leg unreachable",
-      "effectiveness": "High",
-      "your_response": "Switch to arm extraction escape when base is too wide, or create angle through hip escape to reach posted leg"
-    },
-    {
-      "counter": "Opponent releases shoulder pressure and transitions to back control when base is threatened",
-      "effectiveness": "High",
-      "your_response": "Accept the position change and immediately address back control defense rather than continuing sweep"
-    },
-    {
-      "counter": "Opponent posts free hand on mat to create secondary base when leg is attacked",
-      "effectiveness": "Medium",
-      "your_response": "Continue sweep attempt as hand post provides inferior base, or transition to attacking posted hand instead"
-    },
-    {
-      "counter": "Opponent drives weight forward explosively to finish before sweep completes",
-      "effectiveness": "Medium",
-      "your_response": "Tap immediately if shoulder pressure reaches dangerous threshold - no sweep is worth injury"
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Attacking posted leg without protecting shoulder first",
-      "consequence": "Opponent finishes shoulder lock during your attack attempt causing injury",
-      "correction": "Always maintain internal shoulder rotation and safe elbow angle before initiating base attack"
-    },
-    {
-      "error": "Attempting sweep when opponent has already widened their base",
-      "consequence": "Wasted energy on low-percentage attempt while remaining trapped in submission",
-      "correction": "Only attack base when opponent commits to tight positioning for pressure application"
-    },
-    {
-      "error": "Pulling posted leg without simultaneous hip bridge",
-      "consequence": "Insufficient force to actually sweep, opponent simply repositions leg",
-      "correction": "Coordinate hip drive with leg pull - the combination creates necessary rotational force"
-    },
-    {
-      "error": "Stopping after breaking base instead of following through to mount",
-      "consequence": "Opponent recovers position and reestablishes Aoki Lock or transitions to back",
-      "correction": "Commit fully to sweep completion, following rotation until mount is established"
-    },
-    {
-      "error": "Releasing shoulder protection during sweep transition",
-      "consequence": "Opponent adjusts grip and finishes lock during position change",
-      "correction": "Maintain shoulder defense until arm is fully extracted and you have positional control"
-    },
-    {
-      "error": "Attempting sweep when shoulder is already in dangerous rotation range",
-      "consequence": "Injury occurs during the movement as position shifts apply additional torque",
-      "correction": "Tap first if shoulder is compromised - establish safe position before attempting sweep"
-    }
-  ],
-  "training_progressions": [
-    {
-      "phase": "Week 1-2",
-      "focus": "Posted leg identification and grip mechanics",
-      "description": "Practice identifying opponent's posted leg from Aoki Lock bottom with compliant partner. Develop muscle memory for free hand grip positions that effectively attack base stability without compromising shoulder defense."
-    },
-    {
-      "phase": "Week 3-4",
-      "focus": "Timing and coordination",
-      "description": "Partner applies light Aoki Lock pressure in cycles. Practice timing your base attack to coincide with their pressure commitment. Focus on coordinating hip bridge with leg pull for synchronized force generation."
-    },
-    {
-      "phase": "Week 5-6",
-      "focus": "Chaining with escapes",
-      "description": "Combine base attack with arm extraction attempts against moderate resistance. Practice switching between techniques based on opponent's defensive reactions. Develop sensitivity to when each option is available."
-    },
-    {
-      "phase": "Week 7+",
-      "focus": "Live application",
-      "description": "Implement base attack in positional sparring from Aoki Lock scenarios. Focus on real-time decision making about when to attack versus when to prioritize pure escape. Develop competition-ready timing."
-    }
-  ],
-  "variants_and_adaptations": [
-    {
-      "variant_name": "Hip Push Variation",
-      "description": "Instead of attacking posted leg directly, push opponent's hip away while bridging. Creates similar destabilization effect when leg grip is unavailable.",
-      "when_to_use": "When opponent's posted leg is positioned too far to reach effectively"
-    },
-    {
-      "variant_name": "Rolling Sweep Entry",
-      "description": "Combine base attack with rolling escape direction, using momentum from partial roll to add force to sweep. Follows opponent's pressure rather than fighting it.",
-      "when_to_use": "When opponent maintains very heavy forward pressure, using their momentum against them"
-    },
-    {
-      "variant_name": "Knee Shield Insert",
-      "description": "After destabilizing base, insert knee shield rather than completing to mount. Prioritizes guard recovery over position advancement.",
-      "when_to_use": "When full sweep is blocked but space has been created for guard recovery"
-    }
-  ],
-  "knowledge_assessment": [
-    {
-      "question": "What is the primary goal of Base Attack to Sweep?",
-      "answer": "The primary goal is to convert a dangerous defensive position into dominant top control by destabilizing the opponent's posted leg base during their pressure commitment, creating a sweep to mount while simultaneously escaping the shoulder lock threat."
-    },
-    {
-      "question": "What position do you start Base Attack to Sweep from?",
-      "answer": "This technique starts from Aoki Lock Bottom position, where the opponent has leg entanglement control over your shoulder with a posted leg for base stability. You are typically on your side or stomach with your shoulder under rotational pressure."
-    },
-    {
-      "question": "What are the key grips needed for Base Attack to Sweep?",
-      "answer": "Your free hand hooks behind opponent's posted ankle or grabs their pants at the knee. This grip must be secure enough to pull their base out during your hip bridge. No grip is needed on your trapped arm side - focus on shoulder protection rather than grip fighting."
-    },
-    {
-      "question": "How do you counter Base Attack to Sweep when applying Aoki Lock?",
-      "answer": "The primary counters are widening your base before committing to pressure, using a secondary hand post when leg is attacked, or transitioning immediately to back control when you sense the sweep attempt. Forcing the finish when base is compromised is dangerous."
-    },
-    {
-      "question": "When is the best time to attempt Base Attack to Sweep?",
-      "answer": "The optimal timing window is when your opponent commits to increasing shoulder pressure with forward weight shift. At this moment they cannot simultaneously defend their posted leg, creating the vulnerability you exploit. Attacking during static control phases is less effective."
-    },
-    {
-      "question": "Your opponent widens their base when you reach for their posted leg - how do you adjust?",
-      "answer": "Switch to arm extraction escape when base is too wide to attack effectively. Alternatively, use hip escape to create angle that brings their posted leg back into range. The threat of base attack often creates openings for other escapes even when the sweep itself is blocked."
-    },
-    {
-      "question": "What is the critical hip mechanic that makes this sweep effective?",
-      "answer": "The explosive hip bridge toward your opponent, timed with the leg pull, creates rotational momentum that tips them over their compromised base. Without the bridge, simply pulling their leg creates insufficient force - the hip drive is the power source for the sweep."
-    },
-    {
-      "question": "Why must you maintain shoulder protection throughout the sweep attempt?",
-      "answer": "The opponent may abandon the sweep defense and commit to finishing the shoulder lock during your transition. If you sacrifice shoulder safety for sweep mechanics, you risk injury during the position change. Tap immediately if shoulder reaches dangerous range regardless of sweep progress."
-    },
-    {
-      "question": "What distinguishes this technique from pure defensive arm extraction?",
-      "answer": "Base Attack to Sweep addresses both survival and advancement simultaneously, creating a dilemma where the opponent must choose between submission and position. Pure arm extraction only escapes the immediate threat without improving your position, while this technique converts defense into offense."
-    },
-    {
-      "question": "How do you chain Base Attack attempts with arm extraction?",
-      "answer": "Use the threat of one to create openings for the other. When opponent widens base to defend sweep, space opens for arm extraction. When they tighten to prevent arm escape, their base becomes vulnerable. Flowing between both keeps opponent in reactive mode rather than allowing them to settle into stable control."
-    }
-  ],
-  "safety_considerations": "This technique is executed from a position that places your shoulder at significant injury risk. Before attempting any sweep, ensure your shoulder remains in safe rotation range with internal rotation maintained. Never sacrifice shoulder safety for sweep success - tap immediately if pressure reaches uncomfortable levels during any phase of the technique. Practice with partners who understand the dangers of Aoki Lock and will respect tap signals instantly. Beginners should drill this technique at very low resistance until the coordination between shoulder protection and sweep mechanics becomes automatic. The sweep should feel like a bonus when available, not a desperate attempt to avoid tapping. Shoulder injuries from this position include rotator cuff tears, labrum damage, and dislocation - none are worth a sweep in training.",
-  "position_integration": "Base Attack to Sweep fits within the Aoki Lock escape hierarchy as an offensive option that converts defensive survival into position advancement. While arm extraction and rolling escapes represent pure defensive options returning you to guard, this technique advances directly to mount, making it high-reward when available. The sweep integrates with the broader leg lock defense system where base attacks create universal responses to leg entanglement submissions. Successful execution develops into follow-up mount attacks including armbar, americana, and cross collar choke opportunities. The technique also teaches the critical principle that even defensive positions contain offensive opportunities when you understand the mechanical constraints your opponent faces.",
   "related_content": [
     {
       "name": "Aoki Lock",
@@ -244,9 +60,335 @@
       "relationship": "Follow-up attack - available from successful sweep outcome"
     },
     {
-      "name": "Americana from Mount",
-      "relationship": "Follow-up attack - available from successful sweep outcome"
+      "name": "Americana",
+      "relationship": "Follow-up attack - shoulder lock available from mount after successful sweep"
     }
   ],
-  "success_rate": 58
+  "attacker": {
+    "name": "Base Attack to Sweep Attacker",
+    "description": "How to execute Base Attack to Sweep in BJJ. Attacking perspective with setup, execution steps, and counters from Aoki Lock bottom.",
+    "overview": "The Base Attack to Sweep represents a critical offensive escape option from the Aoki Lock bottom position, targeting the top player's posted leg to destabilize their base and create a sweeping opportunity. When caught in Aoki Lock bottom, most practitioners focus purely on defensive arm extraction, but the base attack approach exploits a fundamental vulnerability in the position - the top player must maintain a posted leg for stability while applying shoulder pressure, and attacking this base creates immediate positional crisis.\n\nThis technique operates on the principle that the Aoki Lock top player cannot simultaneously maintain maximum shoulder pressure and defend their posted leg. By timing your attack to coincide with their pressure application, you catch them committed to the finish and vulnerable to base disruption. The sweep typically ends in mount position, converting a highly dangerous defensive situation into dominant top control.\n\nThe base attack is particularly effective because it addresses both survival and advancement simultaneously. Rather than simply escaping the shoulder lock, you create a dilemma where the opponent must choose between maintaining the submission or protecting their position. Advanced practitioners chain this with arm extraction attempts, using the threat of one to create openings for the other. This technique requires precise timing, hip mobility, and the ability to read when opponents are committed to finishing rather than maintaining position.",
+    "key_principles": [
+      "Attack opponent's posted leg when they commit to increasing shoulder pressure",
+      "Time the sweep to coincide with their forward weight shift during pressure application",
+      "Use your free hand as the primary weapon for disrupting their base stability",
+      "Create continuous hip movement to reduce shoulder pressure angle during the attack",
+      "Chain base attacks with arm extraction attempts to create offensive-defensive dilemmas",
+      "Maintain shoulder protection throughout the sweep attempt to prevent finish during transition",
+      "Follow through completely to mount rather than stopping at position escape"
+    ],
+    "setup_requirements": [
+      "Opponent has established Aoki Lock control with posted leg for base stability",
+      "Your free hand has access to attack opponent's posted leg or hip",
+      "You have identified the timing window when opponent increases pressure commitment",
+      "Your shoulder remains in safe rotation range allowing movement without injury risk",
+      "Hip mobility exists to generate sweeping force despite leg entanglement constraint"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Identify posted leg",
+        "description": "Locate opponent's posted leg that provides their primary base stability for shoulder pressure application. This is typically the leg closest to your hips, posted on the mat to prevent being rolled."
+      },
+      {
+        "step_number": 2,
+        "action": "Protect shoulder",
+        "description": "Internally rotate your trapped shoulder to resist external rotation pressure while preparing the attack. Keep elbow bent when possible to maintain safe joint angle throughout the sweep attempt."
+      },
+      {
+        "step_number": 3,
+        "action": "Attack posted leg",
+        "description": "Use your free hand to hook behind opponent's posted ankle or grab their pants at the knee, preparing to pull their base out from under them when they commit forward pressure."
+      },
+      {
+        "step_number": 4,
+        "action": "Generate hip drive",
+        "description": "Explosively bridge your hips toward opponent while simultaneously pulling their posted leg off the mat. The combination of upward hip force and base removal creates rotational momentum."
+      },
+      {
+        "step_number": 5,
+        "action": "Follow rotation",
+        "description": "Continue the rotational momentum as opponent loses balance, following their fall while extracting your trapped arm from the loosening leg entanglement during the transition."
+      },
+      {
+        "step_number": 6,
+        "action": "Establish mount",
+        "description": "Complete the sweep by establishing mount position with hips heavy on opponent's torso, knees wide for base, and hands posted for control. Immediately address any remaining grip threats."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent widens base before committing to pressure, making posted leg unreachable",
+        "effectiveness": "High",
+        "your_response": "Switch to arm extraction escape when base is too wide, or create angle through hip escape to reach posted leg",
+        "targets_outcome": "Aoki Lock/Bottom"
+      },
+      {
+        "counter": "Opponent releases shoulder pressure and transitions to back control when base is threatened",
+        "effectiveness": "High",
+        "your_response": "Accept the position change and immediately address back control defense rather than continuing sweep",
+        "targets_outcome": "Back Control/Bottom"
+      },
+      {
+        "counter": "Opponent posts free hand on mat to create secondary base when leg is attacked",
+        "effectiveness": "Medium",
+        "your_response": "Continue sweep attempt as hand post provides inferior base, or transition to attacking posted hand instead",
+        "targets_outcome": "Aoki Lock/Bottom"
+      },
+      {
+        "counter": "Opponent drives weight forward explosively to finish before sweep completes",
+        "effectiveness": "Medium",
+        "your_response": "Tap immediately if shoulder pressure reaches dangerous threshold - no sweep is worth injury",
+        "targets_outcome": "Aoki Lock/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attacking posted leg without protecting shoulder first",
+        "consequence": "Opponent finishes shoulder lock during your attack attempt causing injury",
+        "correction": "Always maintain internal shoulder rotation and safe elbow angle before initiating base attack"
+      },
+      {
+        "error": "Attempting sweep when opponent has already widened their base",
+        "consequence": "Wasted energy on low-percentage attempt while remaining trapped in submission",
+        "correction": "Only attack base when opponent commits to tight positioning for pressure application"
+      },
+      {
+        "error": "Pulling posted leg without simultaneous hip bridge",
+        "consequence": "Insufficient force to actually sweep, opponent simply repositions leg",
+        "correction": "Coordinate hip drive with leg pull - the combination creates necessary rotational force"
+      },
+      {
+        "error": "Stopping after breaking base instead of following through to mount",
+        "consequence": "Opponent recovers position and reestablishes Aoki Lock or transitions to back",
+        "correction": "Commit fully to sweep completion, following rotation until mount is established"
+      },
+      {
+        "error": "Releasing shoulder protection during sweep transition",
+        "consequence": "Opponent adjusts grip and finishes lock during position change",
+        "correction": "Maintain shoulder defense until arm is fully extracted and you have positional control"
+      },
+      {
+        "error": "Attempting sweep when shoulder is already in dangerous rotation range",
+        "consequence": "Injury occurs during the movement as position shifts apply additional torque",
+        "correction": "Tap first if shoulder is compromised - establish safe position before attempting sweep"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Posted leg identification and grip mechanics",
+        "description": "Practice identifying opponent's posted leg from Aoki Lock bottom with compliant partner. Develop muscle memory for free hand grip positions that effectively attack base stability without compromising shoulder defense."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Timing and coordination",
+        "description": "Partner applies light Aoki Lock pressure in cycles. Practice timing your base attack to coincide with their pressure commitment. Focus on coordinating hip bridge with leg pull for synchronized force generation."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Chaining with escapes",
+        "description": "Combine base attack with arm extraction attempts against moderate resistance. Practice switching between techniques based on opponent's defensive reactions. Develop sensitivity to when each option is available."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live application",
+        "description": "Implement base attack in positional sparring from Aoki Lock scenarios. Focus on real-time decision making about when to attack versus when to prioritize pure escape. Develop competition-ready timing."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary goal of Base Attack to Sweep?",
+        "answer": "The primary goal is to convert a dangerous defensive position into dominant top control by destabilizing the opponent's posted leg base during their pressure commitment, creating a sweep to mount while simultaneously escaping the shoulder lock threat."
+      },
+      {
+        "question": "What position do you start Base Attack to Sweep from?",
+        "answer": "This technique starts from Aoki Lock Bottom position, where the opponent has leg entanglement control over your shoulder with a posted leg for base stability. You are typically on your side or stomach with your shoulder under rotational pressure."
+      },
+      {
+        "question": "What are the key grips needed for Base Attack to Sweep?",
+        "answer": "Your free hand hooks behind opponent's posted ankle or grabs their pants at the knee. This grip must be secure enough to pull their base out during your hip bridge. No grip is needed on your trapped arm side - focus on shoulder protection rather than grip fighting."
+      },
+      {
+        "question": "How do you counter Base Attack to Sweep when applying Aoki Lock?",
+        "answer": "The primary counters are widening your base before committing to pressure, using a secondary hand post when leg is attacked, or transitioning immediately to back control when you sense the sweep attempt. Forcing the finish when base is compromised is dangerous."
+      },
+      {
+        "question": "When is the best time to attempt Base Attack to Sweep?",
+        "answer": "The optimal timing window is when your opponent commits to increasing shoulder pressure with forward weight shift. At this moment they cannot simultaneously defend their posted leg, creating the vulnerability you exploit. Attacking during static control phases is less effective."
+      },
+      {
+        "question": "Your opponent widens their base when you reach for their posted leg - how do you adjust?",
+        "answer": "Switch to arm extraction escape when base is too wide to attack effectively. Alternatively, use hip escape to create angle that brings their posted leg back into range. The threat of base attack often creates openings for other escapes even when the sweep itself is blocked."
+      },
+      {
+        "question": "What is the critical hip mechanic that makes this sweep effective?",
+        "answer": "The explosive hip bridge toward your opponent, timed with the leg pull, creates rotational momentum that tips them over their compromised base. Without the bridge, simply pulling their leg creates insufficient force - the hip drive is the power source for the sweep."
+      },
+      {
+        "question": "Why must you maintain shoulder protection throughout the sweep attempt?",
+        "answer": "The opponent may abandon the sweep defense and commit to finishing the shoulder lock during your transition. If you sacrifice shoulder safety for sweep mechanics, you risk injury during the position change. Tap immediately if shoulder reaches dangerous range regardless of sweep progress."
+      },
+      {
+        "question": "What distinguishes this technique from pure defensive arm extraction?",
+        "answer": "Base Attack to Sweep addresses both survival and advancement simultaneously, creating a dilemma where the opponent must choose between submission and position. Pure arm extraction only escapes the immediate threat without improving your position, while this technique converts defense into offense."
+      },
+      {
+        "question": "How do you chain Base Attack attempts with arm extraction?",
+        "answer": "Use the threat of one to create openings for the other. When opponent widens base to defend sweep, space opens for arm extraction. When they tighten to prevent arm escape, their base becomes vulnerable. Flowing between both keeps opponent in reactive mode rather than allowing them to settle into stable control."
+      }
+    ],
+    "safety_considerations": "This technique is executed from a position that places your shoulder at significant injury risk. Before attempting any sweep, ensure your shoulder remains in safe rotation range with internal rotation maintained. Never sacrifice shoulder safety for sweep success - tap immediately if pressure reaches uncomfortable levels during any phase of the technique. Practice with partners who understand the dangers of Aoki Lock and will respect tap signals instantly. Beginners should drill this technique at very low resistance until the coordination between shoulder protection and sweep mechanics becomes automatic. The sweep should feel like a bonus when available, not a desperate attempt to avoid tapping. Shoulder injuries from this position include rotator cuff tears, labrum damage, and dislocation - none are worth a sweep in training."
+  },
+  "defender": {
+    "name": "Base Attack to Sweep Defender",
+    "description": "How to defend against Base Attack to Sweep in BJJ. Recognition cues, defensive options, and strategies to maintain Aoki Lock control.",
+    "overview": "Defending the Base Attack to Sweep requires the Aoki Lock top player to maintain awareness of their posted leg vulnerability while continuing to apply effective shoulder pressure. As the attacker in the Aoki Lock position, your base is the structural foundation that allows you to generate finishing pressure, and the bottom player's primary offensive escape targets this foundation directly. Understanding the sweep mechanics from the defender's perspective means recognizing that your commitment to finishing the shoulder lock creates the very opening your opponent exploits.\n\nThe defensive methodology centers on maintaining base integrity without sacrificing submission pressure entirely. This requires a balance between tight positioning for the finish and wide enough base to prevent the sweep. The key insight is that you do not need to choose one or the other permanently - you can cycle between pressure phases and base-recovery phases, never allowing your opponent a clean window where your posted leg is fully committed and vulnerable. Reading their free hand activity and hip tension provides early warning of sweep attempts.\n\nAdvanced defenders develop the ability to transition fluidly when the base attack materializes. Rather than desperately trying to re-post a compromised leg, skilled practitioners release the Aoki Lock control and flow to back control, converting a defensive scramble into continued positional dominance. The willingness to abandon the submission attempt in favor of positional advancement is what separates effective defenders from those who get swept trying to hold onto a finish that is no longer available.",
+    "key_principles": [
+      "Monitor your posted leg positioning constantly - it is your structural foundation for both base and pressure generation",
+      "Cycle between pressure phases and base-recovery phases rather than committing fully to either",
+      "Read the bottom player's free hand activity as the primary indicator of incoming sweep attempts",
+      "Maintain secondary base options through hand posting so a single leg attack does not compromise you entirely",
+      "Be willing to abandon the Aoki Lock and transition to back control rather than fight a compromised base position",
+      "Keep weight distributed across multiple contact points to prevent single-point-of-failure base collapse",
+      "Control opponent's hip movement through your leg entanglement to limit their bridging power"
+    ],
+    "recognition_cues": [
+      "Bottom player's free hand reaches toward your posted leg ankle or knee rather than defending their shoulder",
+      "Bottom player generates hip movement or begins loading a bridge despite being under shoulder pressure",
+      "Bottom player shifts their attention from shoulder defense to base disruption, indicating they have accepted the submission risk in favor of positional escape",
+      "You feel decreased resistance against your shoulder pressure as opponent redirects energy toward sweep mechanics"
+    ],
+    "defensive_options": [
+      {
+        "action": "Widen base preemptively by stepping posted leg further from opponent's reach while maintaining hip pressure angle",
+        "when_to_use": "When you detect the bottom player's free hand moving toward your posted leg or sense a shift in their defensive priorities",
+        "targets_outcome": "Aoki Lock/Bottom",
+        "if_successful": "Opponent cannot reach your posted leg and remains trapped in Aoki Lock with no sweep available, forcing them back to pure arm extraction defense",
+        "risk": "Widening base reduces your shoulder pressure effectiveness and may create space for arm extraction escape"
+      },
+      {
+        "action": "Abandon Aoki Lock and transition to back control by following opponent's hip movement and inserting hooks",
+        "when_to_use": "When your posted leg has been compromised and the sweep is in progress or imminent, making base recovery unlikely",
+        "targets_outcome": "Back Control/Bottom",
+        "if_successful": "You maintain dominant position despite losing the submission, converting to back control where you retain 4-point scoring potential and multiple submission threats",
+        "risk": "If transition timing is poor, opponent may complete the sweep during the scramble and achieve mount"
+      },
+      {
+        "action": "Post free hand on mat to create secondary base while maintaining leg entanglement and shoulder pressure",
+        "when_to_use": "When opponent has gripped your posted leg but has not yet generated the hip bridge, giving you time to establish a secondary support point",
+        "targets_outcome": "Aoki Lock/Bottom",
+        "if_successful": "Secondary base absorbs the sweep force and you can reposition your posted leg while maintaining Aoki Lock control and submission threat",
+        "risk": "Hand posting reduces your ability to control opponent's hips, potentially opening other escape routes like arm extraction"
+      },
+      {
+        "action": "Drive weight forward explosively to finish the shoulder lock before sweep completes",
+        "when_to_use": "Only when submission is very close to completion and you judge you can finish before the sweep disrupts your position entirely",
+        "targets_outcome": "Aoki Lock/Bottom",
+        "if_successful": "Submission finishes before positional change occurs, ending the exchange in your favor",
+        "risk": "Extremely high - forward commitment accelerates sweep if submission does not finish, and applying explosive pressure risks injuring your partner"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Aoki Lock/Bottom",
+        "how": "Maintain base integrity by widening posted leg positioning when you detect sweep setup, or post secondary hand to create redundant base. Cycle between pressure and base phases to deny clean timing windows. Control opponent's hips through leg entanglement to limit their bridging power."
+      },
+      {
+        "outcome": "Back Control/Bottom",
+        "how": "When base is compromised and sweep appears inevitable, immediately release Aoki Lock shoulder pressure and flow to back control by following opponent's hip movement. Insert hooks during the transition scramble and establish seatbelt grip before they complete the positional change. Accept losing the submission to maintain dominant position."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Keeping posted leg in a narrow, tight position close to opponent throughout the entire Aoki Lock application",
+        "consequence": "Posted leg remains within easy reach of opponent's free hand, providing a consistent target for base attack grip establishment",
+        "correction": "Vary posted leg distance based on phase - tighter during pressure application but widen when you sense free hand activity toward your base"
+      },
+      {
+        "error": "Ignoring the free hand activity of the bottom player while focused on finishing the shoulder lock",
+        "consequence": "Sweep arrives without warning because you did not monitor the primary attack vector, resulting in complete position reversal to bottom mount",
+        "correction": "Maintain peripheral awareness of opponent's free hand at all times - its target tells you whether they are defending shoulder or setting up sweep"
+      },
+      {
+        "error": "Attempting to muscle through the sweep by driving more pressure forward when base is already compromised",
+        "consequence": "Forward momentum accelerates the rotational sweep and may cause injury to the bottom player's shoulder from uncontrolled pressure application",
+        "correction": "When base is compromised, transition immediately to back control rather than fighting a losing positional battle that risks injury"
+      },
+      {
+        "error": "Maintaining Aoki Lock grip too long when the position has clearly shifted to a scramble",
+        "consequence": "Miss the window to transition to back control while clinging to a submission that is no longer viable, ending up swept to bottom mount",
+        "correction": "Develop the discipline to release the submission and flow to positional control the moment you recognize base has been fatally compromised"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that your opponent is setting up Base Attack to Sweep?",
+        "answer": "The earliest cue is your opponent's free hand moving toward your posted leg rather than defending their trapped shoulder. This shift in hand target indicates they have accepted the shoulder pressure risk and are prioritizing positional escape through base disruption. Secondary cues include hip loading tension and decreased resistance against your shoulder pressure."
+      },
+      {
+        "question": "When should you abandon the Aoki Lock and transition to back control instead of defending the sweep?",
+        "answer": "Transition to back control when your posted leg has been gripped and the opponent has begun their hip bridge, making base recovery unlikely within the sweep timeline. The decision point is when you feel rotational momentum beginning - at that stage, fighting the sweep wastes energy and risks getting swept, while flowing to back control preserves dominant position."
+      },
+      {
+        "question": "How do you balance base width with submission pressure effectiveness?",
+        "answer": "Cycle between pressure phases with a tighter posted leg for maximum shoulder torque and base-recovery phases with a wider posted leg when you detect sweep setups. The key is never committing to maximum pressure for extended periods, which locks your base in a vulnerable position. Short pressure bursts followed by base checks deny the bottom player clean timing windows."
+      },
+      {
+        "question": "Your opponent grips your posted ankle but has not bridged yet - what is your best response?",
+        "answer": "Post your free hand on the mat immediately to create a secondary base point while maintaining leg entanglement and shoulder control. With a secondary base established, their ankle grip alone cannot generate the sweep. Then reposition your posted leg to a wider stance or peel their grip with your now-free posted leg adjustment. Do not panic and abandon position prematurely."
+      },
+      {
+        "question": "Why is driving forward to force a quick finish a poor response to a developing Base Attack to Sweep?",
+        "answer": "Driving forward commits your weight in exactly the direction the sweep exploits. The sweep works by pulling your base out while your momentum carries you over the compromised support point. Forward pressure accelerates this rotational collapse. Additionally, explosive uncontrolled pressure risks serious shoulder injury to the bottom player, making this response both tactically and ethically wrong."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Recognition and base awareness",
+        "description": "From Aoki Lock top position with compliant partner, practice identifying when partner's free hand targets your posted leg. Develop awareness of your base positioning and how different posted leg distances affect both your pressure effectiveness and sweep vulnerability."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Defensive base adjustments",
+        "description": "Partner attempts Base Attack to Sweep at 40% speed and intensity. Practice widening base in response to free hand activity, posting secondary hand when grip is established, and cycling between pressure and base-recovery phases. Focus on maintaining Aoki Lock control throughout."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Transition to back control",
+        "description": "Partner executes full-speed Base Attack to Sweep. Practice the decision point of releasing Aoki Lock and flowing to back control when base is compromised. Develop smooth transition mechanics including hook insertion and seatbelt establishment during the scramble."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live positional sparring integration",
+        "description": "Full Aoki Lock positional sparring where partner can attempt any escape including Base Attack to Sweep. Practice reading sweep setups while maintaining submission pressure, choosing between base defense and back control transition in real time under competition conditions."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Hip Push Variation",
+      "description": "Instead of attacking posted leg directly, push opponent's hip away while bridging. Creates similar destabilization effect when leg grip is unavailable.",
+      "when_to_use": "When opponent's posted leg is positioned too far to reach effectively"
+    },
+    {
+      "variant_name": "Rolling Sweep Entry",
+      "description": "Combine base attack with rolling escape direction, using momentum from partial roll to add force to sweep. Follows opponent's pressure rather than fighting it.",
+      "when_to_use": "When opponent maintains very heavy forward pressure, using their momentum against them"
+    },
+    {
+      "variant_name": "Knee Shield Insert",
+      "description": "After destabilizing base, insert knee shield rather than completing to mount. Prioritizes guard recovery over position advancement.",
+      "when_to_use": "When full sweep is blocked but space has been created for guard recovery"
+    }
+  ],
+  "position_integration": "Base Attack to Sweep fits within the Aoki Lock escape hierarchy as an offensive option that converts defensive survival into position advancement. While arm extraction and rolling escapes represent pure defensive options returning you to guard, this technique advances directly to mount, making it high-reward when available. The sweep integrates with the broader leg lock defense system where base attacks create universal responses to leg entanglement submissions. Successful execution develops into follow-up mount attacks including armbar, americana, and cross collar choke opportunities. The technique also teaches the critical principle that even defensive positions contain offensive opportunities when you understand the mechanical constraints your opponent faces.",
+  "conditions": [
+    "Opponent has established Aoki Lock control with leg entanglement over your shoulder",
+    "Opponent is using a posted leg for base stability during pressure application",
+    "Your free hand has unobstructed access toward opponent's posted leg or hip region",
+    "Your shoulder remains in safe rotation range, not yet at injury threshold",
+    "You can generate hip bridging force despite the leg entanglement constraint"
+  ]
 }

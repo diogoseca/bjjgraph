@@ -21,37 +21,37 @@ description: "Master Turtle Top position in BJJ. Offensive position with multipl
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Back Control",
-      "text": "From this position, attempt Turtle to Back Control. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Back Control. This technique is attempted in 69% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Front Headlock to Anaconda",
-      "text": "From this position, attempt Front Headlock to Anaconda. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Front Headlock to Anaconda. This technique is attempted in 5% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Front Headlock to Darce",
-      "text": "From this position, attempt Front Headlock to Darce. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Front Headlock to Darce. This technique is attempted in 5% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crucifix from Turtle",
-      "text": "From this position, attempt Crucifix from Turtle. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Crucifix from Turtle. This technique is attempted in 3% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle Flatten to Side Control",
-      "text": "From this position, attempt Turtle Flatten to Side Control. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Turtle Flatten to Side Control. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Truck Entry",
-      "text": "From this position, attempt Turtle to Truck Entry. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Truck Entry. This technique is attempted in 0% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -204,25 +204,35 @@ Turtle Top is an offensive position where the practitioner attacks an opponent w
 
 ## Available Attacks
 
-### [[Turtle to Back Control]] (13% of attempts)
+### [[Turtle to Back Control]] (69% of attempts)
 
-### [[Front Headlock to Anaconda]] (10% of attempts)
+### [[Front Headlock to Anaconda]] (5% of attempts)
 
-### [[Front Headlock to Darce]] (10% of attempts)
+### [[Front Headlock to Darce]] (5% of attempts)
 
-### [[Crucifix from Turtle]] (9% of attempts)
+### [[Crucifix from Turtle]] (3% of attempts)
 
-### [[Turtle Flatten to Side Control]] (12% of attempts)
+### [[Turtle Flatten to Side Control]] (7% of attempts)
 
-### [[Turtle to Truck Entry]] (7% of attempts)
+### [[Turtle to Truck Entry]] (0% of attempts)
 
-### [[Front Headlock to Guillotine]] (10% of attempts)
+### [[Front Headlock to Guillotine]] (3% of attempts)
 
-### [[Kimura from Turtle]] (9% of attempts)
+### [[Kimura]] (2% of attempts)
 
-### [[Arm Triangle from Turtle]] (10% of attempts)
+### [[Arm Triangle from Turtle]] (2% of attempts)
 
-### [[Turtle to Standing]] (10% of attempts)
+### [[Turtle to Standing]] (3% of attempts)
+
+### [[Transition to Matrix]] (0% of attempts)
+
+### [[Transition to Rodeo Ride]] (0% of attempts)
+
+### [[Turtle Attack Sequence]] (0% of attempts)
+
+### [[Turtle to Matrix]] (0% of attempts)
+
+### [[Turtle to Rodeo Ride]] (1% of attempts)
 
 
 
@@ -394,10 +404,10 @@ Partner in turtle defends with various escape attempts (granby, standup, sit-thr
 - **[[Anaconda Choke]]** - Direct submission option from turtle top
 - **[[Darce Choke]]** - Alternative front headlock submission
 - **[[Guillotine Choke]]** - Submission option when opponent lifts head
-- **[[Kimura from Turtle]]** - Arm attack when opponent extends limb
+- **[[Kimura]]** - Arm attack submission when opponent extends limb
 - **[[Truck]]** - Advanced back attack variation from turtle
 - **[[Side Control]]** - Alternative positional advancement from turtle
-- **[[Pressure Application]]** - Fundamental concept for turtle top control
+- **[[Turtle to Back Control]]** - Primary transition for securing back control
 
 
 </section>

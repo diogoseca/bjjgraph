@@ -23,10 +23,6 @@
       "relationship": "Alternative triangle configuration from back control"
     },
     {
-      "name": "Seat Belt Control Back",
-      "relationship": "Upper body control variation commonly paired with body triangle"
-    },
-    {
       "name": "Crucifix",
       "relationship": "Transition target when opponent reaches back to clear triangle"
     },
@@ -39,17 +35,21 @@
       "relationship": "Alternative dominant position if triangle must be released"
     },
     {
-      "name": "Standing Back Control",
-      "relationship": "Standing variation of back control before transitioning to ground"
-    },
-    {
       "name": "Gift Wrap",
       "relationship": "Upper body control variation that pairs well with triangle"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Common escape destination for the defender trapped in body triangle"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Alternative escape destination through guard recovery sequences"
     }
   ],
   "top": {
     "name": "Body Triangle Top",
-    "description": "Defend and escape body triangle position in BJJ. Strategic guide covering breathing management, triangle clearing, and systematic escape sequences. Beginner 25%, Intermediate 40%, Advanced 55%.",
+    "description": "Defend and escape body triangle position in BJJ. Strategic guide covering breathing management, triangle clearing, and systematic escape sequences.",
     "tags": [
       "bjj",
       "position",
@@ -61,7 +61,7 @@
     ],
     "overview": "From the top perspective in Body Triangle Position, you are the defender who is being controlled from the back with your opponent's legs locked in a triangle configuration around your torso. This is one of the most challenging defensive positions in Brazilian Jiu-Jitsu, as the body triangle provides your opponent exceptional control while restricting your breathing and limiting your escape options. Unlike standard back control with hooks, the triangle lock cannot be cleared through simple hip movement, requiring systematic approach and mental composure under significant physical and psychological pressure.\n\nThe primary challenge of this position is the breathing restriction created by the triangle squeezing your ribcage and diaphragm. This creates genuine physiological stress that compounds over time, forcing you to work urgently while potentially causing panic. Your opponent's legs create a locked structure that prevents hip rotation and limits your ability to turn into them or create escape angles. Meanwhile, their upper body is free to attack your neck and arms without concern for maintaining leg positioning, creating a multi-layered defensive challenge.\n\nSuccessful defense from body triangle top requires calm breathing management, systematic clearing of the triangle lock, and protection of your neck throughout the escape process. You must work methodically despite the discomfort, using specific techniques to create space, attack the locked leg configuration, and eventually turn into your opponent or extract yourself from back control entirely. Elite defenders view this position as a temporary problem to be solved through technical precision rather than explosive scrambling. Understanding the mechanics of how the triangle creates pressure allows you to find weaknesses in the lock and systematically dismantle your opponent's control before advancing to neck attacks.",
     "state_properties": {
-      "point_value": 0,
+      "point_value": 4,
       "position_type": "Defensive",
       "risk_level": "High",
       "energy_cost": "High",
@@ -162,7 +162,7 @@
             "probability": 50
           },
           {
-            "technique": "Granby Roll escape",
+            "technique": "Granby Roll to Guard",
             "target": "Open Guard",
             "probability": 48
           }
@@ -172,12 +172,12 @@
         "condition": "If you have cleared triangle completely but opponent maintains upper body control",
         "actions": [
           {
-            "technique": "Frame and Shrimp to Half Guard",
+            "technique": "Frame and Shrimp to Guard",
             "target": "Half Guard",
             "probability": 55
           },
           {
-            "technique": "Technical Standup",
+            "technique": "Standing up in Base",
             "target": "Standing Position",
             "probability": 45
           }
@@ -252,11 +252,11 @@
         "relationship": "Alternative escape target achieving guard recovery"
       },
       {
-        "name": "Frame and Shrimp",
-        "relationship": "Key escape movement pattern for creating space"
+        "name": "Frame and Shrimp to Guard",
+        "relationship": "Key escape movement pattern for creating space and recovering guard"
       },
       {
-        "name": "Granby Roll",
+        "name": "Granby Roll to Guard",
         "relationship": "Advanced escape technique from body triangle control"
       },
       {
@@ -264,7 +264,7 @@
         "relationship": "Primary escape transition from body triangle"
       },
       {
-        "name": "Technical Standup",
+        "name": "Standing up in Base",
         "relationship": "Alternative escape path to standing position"
       },
       {
@@ -290,33 +290,41 @@
     "transitions": [
       {
         "transition": "Hip Escape to Turtle",
-        "attempt_probability": 18
+        "attempt_probability": 14
       },
       {
-        "transition": "Frame and Shrimp",
-        "attempt_probability": 18
-      },
-      {
-        "transition": "Granby Roll",
-        "attempt_probability": 13
+        "transition": "Frame and Shrimp to Guard",
+        "attempt_probability": 9
       },
       {
         "transition": "Triangle Clear to Side",
-        "attempt_probability": 22
+        "attempt_probability": 51
       },
       {
-        "transition": "Technical Standup",
-        "attempt_probability": 15
+        "transition": "Standing up in Base",
+        "attempt_probability": 5
       },
       {
-        "transition": "Back Escape Series",
-        "attempt_probability": 14
+        "transition": "Rolling Back Take Reversal",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Elbow Escape to Remove Hooks",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Guard Recovery",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Body Triangle Squeeze",
+        "attempt_probability": 1
       }
     ]
   },
   "bottom": {
     "name": "Body Triangle Bottom",
-    "description": "Master body triangle from bottom perspective. Powerful leg control creating breathing restriction and submission setups. Beginner 45%, Intermediate 60%, Advanced 75%.",
+    "description": "Master body triangle from bottom perspective. Powerful leg control creating breathing restriction and submission setups with high retention and finishing rates.",
     "tags": [
       "bjj",
       "position",
@@ -329,7 +337,7 @@
     ],
     "overview": "From the bottom perspective in Body Triangle Position, you are the attacker who has secured back control and locked your legs in a triangle configuration around your opponent's torso. This is one of the most dominant positions in Brazilian Jiu-Jitsu, offering exceptional control with minimal energy expenditure while creating tremendous pressure and multiple submission pathways. Your legs create a figure-four lock that cannot be cleared through standard escape techniques, while your upper body is free to hunt for finishing attacks.\n\nThe mechanical advantage of the body triangle is substantial - by crossing one leg over the other and tucking the foot behind your own knee, you create a locked structure that restricts your opponent's breathing and prevents hip rotation. Unlike standard back control with hooks, which requires constant adjustment and can be cleared through systematic hip movement, the body triangle represents a static mechanical lock that grows tighter as the opponent attempts to escape. The breathing restriction is not merely uncomfortable but creates genuine physiological stress that compounds over time, forcing your opponent to work urgently and often make defensive mistakes.\n\nFrom this bottom position, you maintain constant chest-to-back pressure while your hips are positioned beside your opponent on the mat, creating a stable base that prevents them from rolling you over. Your upper body focuses on collar grips, seatbelt control, or other configurations that threaten the neck and arms, while your legs maintain unwavering lower body control. The position is particularly effective in both gi and no-gi contexts, with the breathing restriction creating the same psychological and physical pressure regardless of the ruleset. Elite practitioners view the body triangle as both a holding pattern for point accumulation and a launching platform for high-percentage submissions.",
     "state_properties": {
-      "point_value": 4,
+      "point_value": -4,
       "position_type": "Offensive/Controlling",
       "risk_level": "Low to Medium",
       "energy_cost": "Low",
@@ -401,7 +409,7 @@
           },
           {
             "technique": "Work for collar grips systematically",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 60
           }
         ]
@@ -410,7 +418,7 @@
         "condition": "If opponent reaches back to attack triangle lock or grab your legs",
         "actions": [
           {
-            "technique": "Armbar from Back with Legs",
+            "technique": "Armbar from Back Transition",
             "target": "Armbar Control",
             "probability": 65
           },
@@ -426,11 +434,11 @@
         "actions": [
           {
             "technique": "Bow and Arrow Choke",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 70
           },
           {
-            "technique": "Turtle to Truck",
+            "technique": "Roll to Truck",
             "target": "Truck",
             "probability": 50
           }
@@ -512,15 +520,11 @@
         "relationship": "Parent position - standard back control without triangle lock"
       },
       {
-        "name": "Seat Belt Control Back",
-        "relationship": "Upper body control variation commonly used with body triangle"
-      },
-      {
         "name": "Rear Naked Choke",
-        "relationship": "Primary submission from this position"
+        "relationship": "Primary submission transition from this position"
       },
       {
-        "name": "Armbar from Back with Legs",
+        "name": "Armbar from Back Transition",
         "relationship": "High-percentage submission when opponent defends neck"
       },
       {
@@ -538,44 +542,47 @@
       {
         "name": "Body Triangle Lock",
         "relationship": "Transition to establish this position from standard hooks"
+      },
+      {
+        "name": "Kimura from Back",
+        "relationship": "Alternative submission when opponent defends collar and neck"
       }
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 78
+        "value": 78,
+        "description": "High retention due to mechanical lock that resists standard clearing techniques"
       },
       "advancement_probability": {
-        "value": 68
+        "value": 68,
+        "description": "Strong probability of advancing to submission or better control"
       },
       "submission_probability": {
-        "value": 60
+        "value": 60,
+        "description": "High finishing rate from breathing restriction and neck access"
       },
       "average_time": "2-4 minutes depending on opponent's escape urgency and your submission timing"
     },
     "transitions": [
       {
         "transition": "Rear Naked Choke",
-        "attempt_probability": 22
+        "attempt_probability": 28
       },
       {
-        "transition": "Armbar from Back with Legs",
-        "attempt_probability": 10
+        "transition": "Armbar from Back Transition",
+        "attempt_probability": 9
       },
       {
         "transition": "Bow and Arrow Choke",
-        "attempt_probability": 12
+        "attempt_probability": 13
       },
       {
         "transition": "Short Choke",
         "attempt_probability": 10
       },
       {
-        "transition": "Triangle Choke Back",
-        "attempt_probability": 8
-      },
-      {
         "transition": "Back Control to Crucifix",
-        "attempt_probability": 15
+        "attempt_probability": 8
       },
       {
         "transition": "Back Control Maintenance",
@@ -583,7 +590,15 @@
       },
       {
         "transition": "Kimura from Back",
-        "attempt_probability": 8
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Roll to Truck",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Cross Collar Choke",
+        "attempt_probability": 6
       }
     ]
   }

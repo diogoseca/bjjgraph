@@ -159,7 +159,7 @@
           },
           {
             "technique": "Heel Hook",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 60
           }
         ]
@@ -168,12 +168,12 @@
         "condition": "If opponent establishes strong inside position with free leg",
         "actions": [
           {
-            "technique": "X-Guard to Ashi Transition",
+            "technique": "Cross Ashi Transition",
             "target": "Ashi Garami",
             "probability": 50
           },
           {
-            "technique": "Technical Standup",
+            "technique": "Standing up in Base",
             "target": "Standing Position",
             "probability": 45
           }
@@ -184,11 +184,11 @@
         "actions": [
           {
             "technique": "Heel Hook",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 65
           },
           {
-            "technique": "Straight Ankle Lock",
+            "technique": "Straight Ankle Lock Entry",
             "target": "Straight Ankle Lock Control",
             "probability": 55
           }
@@ -198,7 +198,7 @@
         "condition": "If opponent flexes knee strongly to defend heel",
         "actions": [
           {
-            "technique": "Kneebar from Top",
+            "technique": "Kneebar entry",
             "target": "Kneebar Control",
             "probability": 60
           },
@@ -320,40 +320,48 @@
     },
     "transitions": [
       {
+        "transition": "Outside Heel Hook",
+        "attempt_probability": 39
+      },
+      {
+        "transition": "Straight Ankle Lock Entry",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Toe Hold",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Saddle Entry from Top",
+        "attempt_probability": 18
+      },
+      {
+        "transition": "Inside Ashi Entry",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Kneebar entry",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Transition to Backside 50-50",
+        "attempt_probability": 3
+      },
+      {
         "transition": "Heel Hook",
         "attempt_probability": 8
       },
       {
-        "transition": "Outside Heel Hook",
-        "attempt_probability": 23
+        "transition": "Cross Ashi Transition",
+        "attempt_probability": 3
       },
       {
-        "transition": "Straight Ankle Lock",
-        "attempt_probability": 10
+        "transition": "Cross Ashi to 50-50",
+        "attempt_probability": 1
       },
       {
-        "transition": "Toe Hold",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Saddle Entry from Top",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "Inside Ashi Entry",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Kneebar from Top",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Inside Heel Hook",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Counter-entangle to 50-50 Guard",
-        "attempt_probability": 5
+        "transition": "Outside Heel Hook from Cross Ashi",
+        "attempt_probability": 1
       }
     ]
   },
@@ -438,7 +446,7 @@
         "actions": [
           {
             "technique": "Tap Out",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 95
           }
         ]
@@ -600,35 +608,51 @@
     "transitions": [
       {
         "transition": "Ashi Garami Escape",
-        "attempt_probability": 17
+        "attempt_probability": 8
       },
       {
         "transition": "Inside Ashi Entry",
-        "attempt_probability": 14
+        "attempt_probability": 8
       },
       {
         "transition": "X-Guard to Ashi Transition",
-        "attempt_probability": 12
+        "attempt_probability": 5
       },
       {
         "transition": "Saddle Defense",
-        "attempt_probability": 16
+        "attempt_probability": 38
       },
       {
         "transition": "Outside Ashi Entry",
-        "attempt_probability": 12
+        "attempt_probability": 8
       },
       {
-        "transition": "Technical Standup",
-        "attempt_probability": 10
+        "transition": "Standing Escape",
+        "attempt_probability": 3
       },
       {
         "transition": "Counter-entangle to 50-50 Guard",
-        "attempt_probability": 12
+        "attempt_probability": 6
       },
       {
-        "transition": "Heel Hook",
-        "attempt_probability": 7
+        "transition": "Transition to Backside 50-50",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Counter heel hook",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Leg Extraction",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Counter Entangle from Cross Ashi",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Leg Extraction from Cross Ashi",
+        "attempt_probability": 1
       }
     ]
   }

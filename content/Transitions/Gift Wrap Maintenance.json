@@ -1,0 +1,129 @@
+{
+  "name": "Gift Wrap Maintenance",
+  "description": "TODO: Write 150-160 character SEO description for Gift Wrap Maintenance.",
+  "tags": [
+    "bjj",
+    "transition",
+    "TODO"
+  ],
+  "from_position": "Gift Wrap/Top",
+  "outcomes": [
+    {
+      "to": "Gift Wrap/Top",
+      "probability": 100,
+      "result": "success"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "TODO: Write overview for Gift Wrap Maintenance.",
+  "conditions": [
+    "TODO"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "TODO",
+      "description": "TODO",
+      "when_to_use": "TODO"
+    }
+  ],
+  "position_integration": "TODO: Write position integration for Gift Wrap Maintenance.",
+  "related_content": [
+    {
+      "name": "TODO",
+      "relationship": "TODO"
+    }
+  ],
+  "attacker": {
+    "name": "Gift Wrap Maintenance Attacker",
+    "description": "TODO: Write attacker description for Gift Wrap Maintenance.",
+    "overview": "TODO: Write attacker overview for Gift Wrap Maintenance.",
+    "key_principles": [
+      "TODO"
+    ],
+    "setup_requirements": [
+      "TODO"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "TODO",
+        "description": "TODO"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "TODO",
+        "effectiveness": "Medium",
+        "your_response": "TODO",
+        "targets_outcome": "Gift Wrap/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "TODO",
+        "description": "TODO"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "TODO",
+        "answer": "TODO"
+      }
+    ],
+    "safety_considerations": "TODO: Write safety considerations for Gift Wrap Maintenance."
+  },
+  "defender": {
+    "name": "Gift Wrap Maintenance Defender",
+    "description": "TODO: Write defender description for Gift Wrap Maintenance.",
+    "overview": "TODO: Write defender overview for Gift Wrap Maintenance.",
+    "key_principles": [
+      "TODO"
+    ],
+    "recognition_cues": [
+      "TODO"
+    ],
+    "defensive_options": [
+      {
+        "action": "TODO",
+        "when_to_use": "TODO",
+        "targets_outcome": "Gift Wrap/Top",
+        "if_successful": "TODO",
+        "risk": "TODO"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Gift Wrap/Top",
+        "how": "TODO"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "TODO",
+        "answer": "TODO"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "TODO",
+        "description": "TODO"
+      }
+    ]
+  }
+}

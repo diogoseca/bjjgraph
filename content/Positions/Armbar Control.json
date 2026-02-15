@@ -3,7 +3,7 @@
   "slug": "armbar-control",
   "description": "Master armbar control in BJJ from both offensive and defensive perspectives. Complete strategic guide covering submission mechanics, defense strategies, and position-specific tactics.",
   "variant_uniqueness": "Limb isolation through multi-point control",
-  "overview": "Armbar Control represents one of Brazilian Jiu-Jitsu's most fundamental submission control positions, accessible from both offensive (top) and defensive (bottom) perspectives. The position centers on isolating and controlling a single arm through a combination of leg control, hip positioning, and grip management. From the top position, the practitioner uses their entire body to attack a single joint, creating overwhelming mechanical advantage. From the bottom position, the defender must employ systematic defensive principles to prevent hyperextension and create escape opportunities.\n\nThe armbar's effectiveness stems from its ability to control multiple points simultaneously while concentrating force on the vulnerable elbow joint. The top player controls the opponent's head and torso with their legs while both hands isolate the arm, creating a multi-point control system that severely limits defensive options. The bottom player, conversely, must understand the same mechanics in reverse - identifying and systematically removing the conditions necessary for the finish.\n\nThis position appears across all levels of competition and training, making proficiency from both perspectives essential for complete grappling development. The top perspective requires understanding leverage mechanics, hip positioning, and submission chains. The bottom perspective demands calm decision-making under pressure, technical precision in defensive movements, and recognition of escape timing windows.",
+  "overview": "Armbar Control represents one of Brazilian Jiu-Jitsu's most fundamental submission control positions, accessible from both offensive (top) and defensive (bottom) perspectives. The position centers on isolating and controlling a single arm through a combination of leg control, hip positioning, and grip management. From the top position, the practitioner uses their entire body to attack a single joint, creating overwhelming mechanical advantage. From the bottom position, the defender must employ systematic defensive principles to prevent hyperextension and create escape opportunities.\n\nThe armbar's effectiveness stems from its ability to control multiple points simultaneously while concentrating force on the vulnerable elbow joint. The top player controls the opponent's head and torso with their legs while both hands isolate the arm, creating a multi-point control system that severely limits defensive options. The bottom player, conversely, must understand the same mechanics in reverse - identifying and systematically removing the conditions necessary for the finish.\n\nThis position appears across all levels of competition and training, making proficiency from both perspectives essential for complete grappling development. The top perspective requires understanding leverage mechanics, hip positioning, and submission chains. The bottom perspective demands calm decision-making under pressure, technical precision in defensive movements, and recognition of escape timing windows.\n\nFrom the top, the practitioner's body functions as a unified machine where the legs act as clamps controlling the opponent's torso and head, the hips serve as a fulcrum positioned against the shoulder, and the hands direct the finishing vector by pulling the wrist toward the chest. Every component must work in concert: if the legs lose control, the opponent sits up; if the hips drift from the shoulder, leverage disappears; if the hands lose the wrist, the arm retracts. This interconnected control system is what makes the armbar both powerful when executed correctly and vulnerable to systematic defense when any single element is compromised.\n\nFrom the bottom, survival depends on understanding the same five-point control system and methodically removing each element. The defender who bends the arm, rotates the thumb upward, controls the leg across the face, stacks the hips, and creates angles has addressed every finishing requirement simultaneously. This is not a position where a single defensive action suffices - the defender must layer multiple defensive principles to create genuine escape opportunities. The urgency of escape is real: armbar control is inherently time-limited for the bottom player because the top player can make incremental adjustments that progressively close escape windows.",
   "key_principles": [
     "Armbar control is fundamentally about limb isolation through multi-point body control",
     "Hip positioning relative to shoulder determines leverage efficiency for both attack and defense",
@@ -31,7 +31,7 @@
       "relationship": "Classic setup position for armbar from both top and bottom perspectives"
     },
     {
-      "name": "Kimura Control",
+      "name": "Kimura Trap",
       "relationship": "Related arm isolation position creating submission chain options"
     },
     {
@@ -43,7 +43,7 @@
       "relationship": "Common entry point for armbar transitions"
     },
     {
-      "name": "S Mount",
+      "name": "High Mount",
       "relationship": "Transitional mount variation facilitating armbar setup"
     },
     {
@@ -138,13 +138,13 @@
         "condition": "If opponent attempts to roll through or turn into the submission",
         "actions": [
           {
-            "technique": "Triangle to Armbar",
-            "target": "Triangle Control",
+            "technique": "Straight Armbar",
+            "target": "Armbar Control",
             "probability": 55
           },
           {
-            "technique": "Kimura from Guard",
-            "target": "Kimura Control",
+            "technique": "Kimura",
+            "target": "Kimura Trap",
             "probability": 40
           }
         ]
@@ -254,42 +254,65 @@
         "relationship": "Entry variation from guard positions"
       },
       {
-        "name": "Kimura Control",
-        "relationship": "Alternative arm attack when armbar is defended"
-      },
-      {
-        "name": "S Mount",
-        "relationship": "Transitional position for armbar setup from mount"
+        "name": "Kimura Trap",
+        "relationship": "Alternative arm attack control when armbar is defended"
       },
       {
         "name": "High Mount",
-        "relationship": "Alternative control position facilitating armbar entry"
+        "relationship": "Transitional position facilitating armbar setup from mount"
+      },
+      {
+        "name": "Belly Down Armbar",
+        "relationship": "Variant submission finish when opponent rolls during armbar attempt"
       }
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 72
+        "value": 72,
+        "description": "High retention due to multi-point control system anchoring the isolated arm"
       },
       "advancement_probability": {
-        "value": 68
+        "value": 68,
+        "description": "Strong advancement through armbar finish or chain attacks to triangle and omoplata"
       },
       "submission_probability": {
-        "value": 65
+        "value": 65,
+        "description": "One of the highest submission conversion rates when control is properly established"
       },
       "average_time": "15-45 seconds from control to finish or escape"
     },
     "transitions": [
       {
         "transition": "Armbar Finish",
-        "attempt_probability": 70
+        "attempt_probability": 53
       },
       {
         "transition": "Triangle Setup",
-        "attempt_probability": 20
+        "attempt_probability": 21
       },
       {
-        "transition": "Belly Down Armbar",
-        "attempt_probability": 10
+        "transition": "Omoplata",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Kimura",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Straight Armbar",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Back Take from Armbar",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Belly Down Armbar Transition",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Triangle from Armbar",
+        "attempt_probability": 1
       }
     ],
     "knowledge_assessment": [
@@ -318,12 +341,12 @@
         "answer": "One leg crosses over the opponent's face/neck with your hamstring pressing against their cheek and your calf hooking behind their head. The other leg positions across their chest with your thigh applying downward pressure. Both legs work together to prevent the opponent from sitting up or turning into the position. Avoid crossing your feet, which compromises hip mobility."
       },
       {
-        "question": "How should you coordinate hip elevation with arm pulling during the finish?",
-        "answer": "The finish requires simultaneous opposing vectors: hips drive upward toward the ceiling while hands pull the wrist toward your chest. The hip elevation creates the primary extension force using your largest muscle groups (glutes, core), while the arm pull maintains control and guides the direction of pressure. These movements must be synchronized - pulling without hip elevation wastes energy and reduces effectiveness."
+        "question": "How do you distribute your weight to prevent the opponent from bridging out of armbar control?",
+        "answer": "Concentrate your weight through your hips directly against the opponent's shoulder, creating a downward anchor point. Your upper body should stay slightly elevated rather than flat on the mat, allowing you to adjust dynamically to bridging attempts. If the opponent bridges, follow their hip movement by scooting your hips to maintain the shoulder connection rather than trying to resist with static weight. Your legs provide the secondary anchor by squeezing inward against their head and torso."
       },
       {
-        "question": "What should you do when your opponent begins to roll toward you?",
-        "answer": "When the opponent rolls toward the controlled arm side, follow their roll while maintaining your grip configuration. As they rotate, your body position naturally transitions toward a mounted armbar or even belly-down armbar position. Keep your knees pinched and continue the arm isolation. If they roll away from the controlled arm, immediately tighten your leg control and consider switching to a triangle attack as this escape exposes their neck."
+        "question": "Your opponent begins to roll toward the trapped arm side - what is your immediate response?",
+        "answer": "When the opponent rolls toward the controlled arm side, follow their roll while maintaining your grip configuration. As they rotate, your body position naturally transitions toward a mounted armbar or belly-down armbar position. Keep your knees pinched and continue the arm isolation. If they roll away from the controlled arm, immediately tighten your leg control and consider switching to a triangle attack as this escape exposes their neck."
       }
     ]
   },
@@ -348,11 +371,11 @@
       "time_sustainability": "Short"
     },
     "state_invariants": [
-      "Defender's arm is extended or being extended across opponent's hips with elbow joint exposed and vulnerable to hyperextension",
-      "Opponent controls defender's arm with both hands, typically gripping near the wrist and triceps area, creating isolation of the attacked limb",
-      "Opponent's hips positioned near defender's shoulder with legs controlling the head and torso, creating the classic armbar triangle structure",
-      "Defender's free hand available for gripping opponent's leg, creating frames, or assisting in defensive positioning to prevent full extension",
-      "Defender's body position either supine or on their side with limited mobility due to opponent's leg control over head and chest areas"
+      "Defender's arm is extended or being extended across opponent's hips with elbow joint exposed and vulnerable to hyperextension, requiring constant flexion effort to prevent full straightening",
+      "Opponent controls defender's arm with both hands, typically gripping near the wrist and triceps area, creating isolation of the attacked limb from the defender's torso",
+      "Opponent's hips positioned near defender's shoulder with legs controlling the head and torso, creating the classic armbar triangle structure that limits postural recovery",
+      "Defender's free hand available for gripping opponent's leg, creating frames, or assisting in defensive positioning to prevent full extension of the trapped arm",
+      "Defender's body position either supine or on their side with limited mobility due to opponent's leg control over head and chest areas, restricting bridge and turn movements"
     ],
     "prerequisites": [
       "Opponent has secured grip control on defender's arm (wrist and triceps)",
@@ -391,12 +414,12 @@
         "actions": [
           {
             "technique": "Stack Defense",
-            "target": "Standing Position",
+            "target": "Closed Guard",
             "probability": 55
           },
           {
-            "technique": "Rolling Escape",
-            "target": "Turtle",
+            "technique": "Rolling Escape to Guard",
+            "target": "Closed Guard",
             "probability": 65
           }
         ]
@@ -405,7 +428,7 @@
         "condition": "If opponent has tight control but arm is still bent",
         "actions": [
           {
-            "technique": "Hip Escape",
+            "technique": "Hip Escape to Guard",
             "target": "Closed Guard",
             "probability": 70
           },
@@ -417,16 +440,16 @@
         ]
       },
       {
-        "condition": "If opponent transitions to triangle or omoplata",
+        "condition": "If opponent transitions to triangle or omoplata from failed armbar",
         "actions": [
           {
-            "technique": "Posture Defense",
+            "technique": "Posture Recovery",
             "target": "Closed Guard",
             "probability": 45
           },
           {
             "technique": "Stack Defense",
-            "target": "Standing Position",
+            "target": "Closed Guard",
             "probability": 40
           }
         ]
@@ -459,9 +482,9 @@
         "correction": "Bridge hips, turn onto side toward attacked arm, create stacking pressure to compromise opponent's angle"
       },
       {
-        "error": "Giving up mental battle and tapping prematurely",
-        "consequence": "Misses escape opportunities and fails to develop crucial submission defense skills",
-        "correction": "Maintain composure, systematically work through defensive sequence, tap only when joint is actually compromised"
+        "error": "Attempting escape without addressing the grip on the wrist first",
+        "consequence": "All escape attempts fail because the opponent maintains the primary control point and can simply re-tighten after each attempt",
+        "correction": "Before committing to any escape, use your free hand to break or loosen the opponent's grip on your wrist, then immediately execute your escape technique while their control is compromised"
       }
     ],
     "training_drills": [
@@ -500,7 +523,7 @@
         "relationship": "Common transition - opponent switches to triangle when armbar is defended"
       },
       {
-        "name": "Hip Escape",
+        "name": "Hip Escape to Guard",
         "relationship": "Primary escape technique - most reliable armbar defense method"
       },
       {
@@ -526,28 +549,31 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 60
+        "value": 60,
+        "description": "Moderate retention reflecting high submission threat requiring urgent escape"
       },
       "advancement_probability": {
-        "value": 62
+        "value": 62,
+        "description": "Reasonable escape probability when systematic defense is applied before full extension"
       },
       "submission_probability": {
-        "value": 12
+        "value": 12,
+        "description": "Very low offensive output - position is almost purely defensive with rare counter-submission opportunities"
       },
       "average_time": "10-30 seconds (must escape quickly to prevent finish)"
     },
     "transitions": [
       {
-        "transition": "Hip Escape",
-        "attempt_probability": 15
+        "transition": "Hip Escape to Guard",
+        "attempt_probability": 14
       },
       {
         "transition": "Stack Defense",
-        "attempt_probability": 18
+        "attempt_probability": 14
       },
       {
         "transition": "Arm Extraction",
-        "attempt_probability": 15
+        "attempt_probability": 12
       },
       {
         "transition": "Hitchhiker Escape",
@@ -555,11 +581,19 @@
       },
       {
         "transition": "Bridge and Roll",
-        "attempt_probability": 17
+        "attempt_probability": 13
       },
       {
-        "transition": "Rolling Escape",
-        "attempt_probability": 15
+        "transition": "Rolling Escape to Guard",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Hip Escape to Turtle",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Armbar Defense",
+        "attempt_probability": 8
       }
     ],
     "knowledge_assessment": [

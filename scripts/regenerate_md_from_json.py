@@ -76,11 +76,28 @@ def detect_position_template_type(json_file, data=None):
         return 'DUAL'
 
 
+def detect_transition_template_type(json_file, data=None):
+    """Detect which Transitions/Submissions template to use based on JSON structure.
+
+    - DUAL: Has attacker and defender sections (new attacker/defender structure)
+    - SINGLE: Flat structure (legacy, pre-migration)
+    """
+    if data is None:
+        data = load_json_file(json_file)
+
+    if 'attacker' in data and 'defender' in data:
+        return 'DUAL'
+    return 'SINGLE'
+
+
 def load_template(category, template_name):
     """Load Jinja2 template from templates/"""
-    if category == "Positions":
-        # Positions templates are in subdirectory
-        template_path = Path(f"templates/Positions/{template_name}")
+    if category in ("Positions", "Transitions", "Submissions"):
+        # These categories have templates in subdirectories
+        template_path = Path(f"templates/{category}/{template_name}")
+        if not template_path.exists():
+            # Fallback to flat structure for legacy templates
+            template_path = Path(f"templates/{template_name}")
     else:
         # Other categories use flat structure
         template_path = Path(f"templates/{template_name}")
@@ -187,6 +204,7 @@ def load_schema(category, json_path=None):
 
     Uses the same schema files as validate_json.py. For Positions, detects
     the template type (SINGLE/DUAL/FAMILY) from the JSON structure.
+    For Transitions/Submissions, detects DUAL (attacker/defender) vs SINGLE (legacy).
 
     Args:
         category: Category name (e.g., "Positions", "Transitions").
@@ -202,6 +220,15 @@ def load_schema(category, json_path=None):
     if category == "Positions":
         template_type = detect_position_template_type(json_path)
         schema_path = Path(f"templates/Positions/TEMPLATE-POSITION-{template_type}.json")
+    elif category in ("Transitions", "Submissions"):
+        # Check if file uses new attacker/defender structure
+        template_type = detect_transition_template_type(json_path)
+        if template_type == 'DUAL':
+            schema_name = "TEMPLATE-TRANSITION.json" if category == "Transitions" else "TEMPLATE-SUBMISSION.json"
+            schema_path = Path(f"templates/{category}/{schema_name}")
+        else:
+            # Legacy flat schema
+            schema_path = Path(f"templates/{category}.json")
     else:
         schema_path = Path(f"templates/{category}.json")
 
@@ -252,9 +279,62 @@ def process_json_file(json_path, dry_run=False):
             f"at path {'.'.join(str(p) for p in e.path)}"
         )
 
-    # Handle different category types
-    if category != "Positions":
-        # Flat categories: render single file
+    # Handle Transitions and Submissions with attacker/defender structure
+    if category in ("Transitions", "Submissions"):
+        template_type = detect_transition_template_type(json_path, data)
+
+        if template_type == 'DUAL':
+            # Render 3 files: hub, attacker, defender
+            generated_files = []
+            technique_name = data.get('name', json_path.stem)
+
+            # Render hub page
+            hub_template = load_template(category, "TEMPLATE-HUB.md.jinja2")
+            hub_content = hub_template.render(**data)
+            hub_path = json_path.with_suffix('.md')
+            write_markdown_file(hub_path, hub_content, dry_run)
+            generated_files.append(hub_path)
+
+            # Render attacker page
+            attacker_template = load_template(category, "TEMPLATE-ATTACKER.md.jinja2")
+            attacker_content = attacker_template.render(
+                attacker=data['attacker'],
+                name=technique_name,
+                from_position=data.get('from_position', ''),
+                outcomes=data.get('outcomes', []),
+                safety_considerations=data.get('safety_considerations', {}),
+                target_area=data.get('target_area', ''),
+            )
+            attacker_path = json_path.parent / technique_name / "Attacker.md"
+            attacker_path.parent.mkdir(parents=True, exist_ok=True)
+            write_markdown_file(attacker_path, attacker_content, dry_run)
+            generated_files.append(attacker_path)
+
+            # Render defender page
+            defender_template = load_template(category, "TEMPLATE-DEFENDER.md.jinja2")
+            defender_content = defender_template.render(
+                defender=data['defender'],
+                name=technique_name,
+                from_position=data.get('from_position', ''),
+                outcomes=data.get('outcomes', []),
+                safety_considerations=data.get('safety_considerations', {}),
+                target_area=data.get('target_area', ''),
+            )
+            defender_path = json_path.parent / technique_name / "Defender.md"
+            write_markdown_file(defender_path, defender_content, dry_run)
+            generated_files.append(defender_path)
+
+            return generated_files
+        else:
+            # Legacy SINGLE: render single file using old flat template
+            template = load_template(category, f"{category}.md.jinja2")
+            markdown_content = generate_markdown(data, template)
+            md_path = json_path.with_suffix('.md')
+            write_markdown_file(md_path, markdown_content, dry_run)
+            return [md_path]
+
+    # Handle other flat categories (Principles, Systems)
+    if category not in ("Positions",):
         template = load_template(category, f"{category}.md.jinja2")
         markdown_content = generate_markdown(data, template)
         md_path = json_path.with_suffix('.md')

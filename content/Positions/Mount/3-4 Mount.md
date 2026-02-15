@@ -95,17 +95,17 @@ The position scores 4 points in IBJJF competition when held from top, placing it
 ### Available Transitions
 
 
-- **[[Elbow Escape]]** (19% of attempts)
+- **[[Elbow Escape to Guard]]** (22% of attempts)
 
-- **[[Bridge and Roll]]** (16% of attempts)
+- **[[Bridge and Roll]]** (18% of attempts)
 
-- **[[Shrimp Escape]]** (17% of attempts)
+- **[[Shrimp Escape]]** (18% of attempts)
 
-- **[[Hip Escape]]** (16% of attempts)
+- **[[Hip Escape to Guard]]** (15% of attempts)
 
-- **[[Frame and Shrimp]]** (15% of attempts)
+- **[[Frame and Shrimp to Guard]]** (12% of attempts)
 
-- **[[Upa Escape]]** (17% of attempts)
+- **[[Upa Escape]]** (15% of attempts)
 
 
 ### Common Mistakes
@@ -166,21 +166,21 @@ The position scores 4 points in IBJJF competition when held from top, placing it
 ### Available Transitions
 
 
-- **[[Mount to Armbar]]** (18% of attempts)
+- **[[Mount to Armbar]]** (20% of attempts)
 
-- **[[Side Control to Mount]]** (15% of attempts)
+- **[[Side Control to Mount]]** (14% of attempts)
 
-- **[[Americana from Mount]]** (14% of attempts)
+- **[[Americana]]** (14% of attempts)
 
-- **[[Ezekiel from Mount]]** (12% of attempts)
+- **[[Mounted Triangle]]** (12% of attempts)
 
-- **[[Triangle from Mount]]** (10% of attempts)
+- **[[Kimura]]** (12% of attempts)
 
-- **[[Kimura from Mount]]** (11% of attempts)
+- **[[S-Mount Transition]]** (8% of attempts)
 
 - **[[Side Control to North-South]]** (8% of attempts)
 
-- **[[Back Take Generic]]** (12% of attempts)
+- **[[Back Take]]** (12% of attempts)
 
 
 ### Common Mistakes

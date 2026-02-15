@@ -358,7 +358,6 @@ The 10th Planet system requires specialized drilling that emphasizes position fa
 - [[Electric Chair Submission]] (Submission) - Primary submission from lockdown system
 - [[Guard Retention]] (Principle) - Fundamental principle underlying all guard work
 - [[Flexibility Training]] (Principle) - Essential physical preparation for system execution
-- [[Hip Movement]] (Principle) - Core mechanical principle for position transitions
 - [[Submission Chains]] (Principle) - Strategic framework connecting system attacks
 - [[System Building]] (Principle) - Methodology for integrating techniques into cohesive system
 - [[10th Planet Rubber Guard System]] (System) - Specialized subsystem focusing on rubber guard details

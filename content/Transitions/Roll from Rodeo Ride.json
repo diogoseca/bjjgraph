@@ -1,0 +1,13 @@
+{
+  "name": "Roll from Rodeo Ride",
+  "description": "",
+  "tags": [],
+  "from_position": "Rodeo Ride/Bottom",
+  "outcomes": [
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

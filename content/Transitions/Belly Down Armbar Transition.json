@@ -1,0 +1,134 @@
+{
+  "name": "Belly Down Armbar Transition",
+  "description": "TODO: Write 150-160 character SEO description for Belly Down Armbar Transition.",
+  "tags": [
+    "bjj",
+    "transition",
+    "TODO"
+  ],
+  "from_position": "Armbar Control/Top",
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Armbar Control/Top",
+      "probability": 45,
+      "result": "failure"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "TODO: Write overview for Belly Down Armbar Transition.",
+  "conditions": [
+    "TODO"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "TODO",
+      "description": "TODO",
+      "when_to_use": "TODO"
+    }
+  ],
+  "position_integration": "TODO: Write position integration for Belly Down Armbar Transition.",
+  "related_content": [
+    {
+      "name": "TODO",
+      "relationship": "TODO"
+    }
+  ],
+  "attacker": {
+    "name": "Belly Down Armbar Transition Attacker",
+    "description": "TODO: Write attacker description for Belly Down Armbar Transition.",
+    "overview": "TODO: Write attacker overview for Belly Down Armbar Transition.",
+    "key_principles": [
+      "TODO"
+    ],
+    "setup_requirements": [
+      "TODO"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "TODO",
+        "description": "TODO"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "TODO",
+        "effectiveness": "Medium",
+        "your_response": "TODO",
+        "targets_outcome": "Armbar Control/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "TODO",
+        "description": "TODO"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "TODO",
+        "answer": "TODO"
+      }
+    ],
+    "safety_considerations": "TODO: Write safety considerations for Belly Down Armbar Transition."
+  },
+  "defender": {
+    "name": "Belly Down Armbar Transition Defender",
+    "description": "TODO: Write defender description for Belly Down Armbar Transition.",
+    "overview": "TODO: Write defender overview for Belly Down Armbar Transition.",
+    "key_principles": [
+      "TODO"
+    ],
+    "recognition_cues": [
+      "TODO"
+    ],
+    "defensive_options": [
+      {
+        "action": "TODO",
+        "when_to_use": "TODO",
+        "targets_outcome": "Armbar Control/Top",
+        "if_successful": "TODO",
+        "risk": "TODO"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "game-over",
+        "how": "TODO"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "TODO",
+        "answer": "TODO"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "TODO",
+        "description": "TODO"
+      }
+    ]
+  }
+}

@@ -92,21 +92,31 @@ Understanding Ashi Garami requires recognizing the position as a complete system
 ### Available Transitions
 
 
-- **[[Inside Ashi Entry]]** (20% of attempts)
+- **[[Inside Ashi Entry]]** (62% of attempts)
 
-- **[[Cross Ashi Transition]]** (15% of attempts)
+- **[[Cross Ashi Transition]]** (7% of attempts)
 
-- **[[Inside Ashi-Garami to Honey Hole]]** (10% of attempts)
+- **[[Heel Hook]]** (4% of attempts)
 
-- **[[Heel Hook]]** (20% of attempts)
+- **[[Straight Ankle Lock Entry]]** (12% of attempts)
 
-- **[[Straight Ankle Lock]]** (10% of attempts)
+- **[[50-50 Entry]]** (5% of attempts)
 
-- **[[50-50 Entry from Standing]]** (10% of attempts)
+- **[[Toe Hold]]** (5% of attempts)
 
-- **[[X-Guard to Ashi Transition]]** (5% of attempts)
+- **[[Kneebar Setup]]** (2% of attempts)
 
-- **[[Inside Ashi-Garami to Cross Ashi]]** (10% of attempts)
+- **[[Single Leg X Transition]]** (1% of attempts)
+
+- **[[Transition to Backside 50-50]]** (1% of attempts)
+
+- **[[Back Take from Ashi]]** (0% of attempts)
+
+- **[[Ashi Garami Maintenance]]** (0% of attempts)
+
+- **[[Heel Strip from Ashi Garami]]** (0% of attempts)
+
+- **[[Standing Up from Ashi Garami]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -163,17 +173,23 @@ Understanding Ashi Garami requires recognizing the position as a complete system
 ### Available Transitions
 
 
-- **[[Ashi Garami Escape]]** (30% of attempts)
+- **[[Ashi Garami Escape]]** (38% of attempts)
 
-- **[[Counter Ashi Entry]]** (20% of attempts)
+- **[[Counter Ashi Entry]]** (15% of attempts)
 
-- **[[Guard Pass]]** (20% of attempts)
+- **[[Pass to Side Control]]** (8% of attempts)
 
-- **[[Front Headlock Series]]** (10% of attempts)
+- **[[Guillotine Setup]]** (4% of attempts)
 
-- **[[Guillotine Setup]]** (8% of attempts)
+- **[[Straight Ankle Lock Entry]]** (13% of attempts)
 
-- **[[Straight Ankle Lock]]** (12% of attempts)
+- **[[Back Step Pass]]** (10% of attempts)
+
+- **[[Toe Hold]]** (6% of attempts)
+
+- **[[Back Take from Ashi]]** (4% of attempts)
+
+- **[[Ashi Garami to Leg Entanglement]]** (2% of attempts)
 
 
 ### Common Mistakes

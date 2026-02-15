@@ -101,21 +101,15 @@ The position also demonstrates important principles about submission-based contr
 ### Available Transitions
 
 
-- **[[Gogoplata]]** (10% of attempts)
+- **[[Gogoplata]]** (28% of attempts)
 
-- **[[Triangle Choke]]** (13% of attempts)
+- **[[Closed Guard to Omoplata]]** (15% of attempts)
 
-- **[[Closed Guard to Omoplata]]** (12% of attempts)
+- **[[Back Take]]** (14% of attempts)
 
-- **[[Back Take]]** (11% of attempts)
+- **[[Mission Control Recovery]]** (25% of attempts)
 
-- **[[Armbar from Guard]]** (12% of attempts)
-
-- **[[High Mount Transition]]** (10% of attempts)
-
-- **[[Mission Control Recovery]]** (14% of attempts)
-
-- **[[Rubber Guard Maintenance]]** (18% of attempts)
+- **[[Switch to Triangle]]** (18% of attempts)
 
 
 ### Common Mistakes
@@ -176,19 +170,25 @@ The position also demonstrates important principles about submission-based contr
 ### Available Transitions
 
 
-- **[[Head Extraction to Posture]]** (12% of attempts)
+- **[[Head Extraction to Posture]]** (24% of attempts)
 
-- **[[Shin Removal to Pass]]** (10% of attempts)
+- **[[Shin Removal to Pass]]** (4% of attempts)
 
-- **[[Leg Extraction Escape]]** (10% of attempts)
+- **[[Leg Extraction Escape]]** (4% of attempts)
 
-- **[[Stack Defense]]** (13% of attempts)
+- **[[Stack Defense]]** (9% of attempts)
 
-- **[[Angle Change Escape]]** (13% of attempts)
+- **[[Angle Change Escape]]** (14% of attempts)
 
-- **[[Hand Control to Extract]]** (12% of attempts)
+- **[[Hand Control to Extract]]** (11% of attempts)
 
-- **[[Gogoplata]]** (30% of attempts)
+- **[[Roll to Turtle]]** (14% of attempts)
+
+- **[[Explosive Bridge to Guard Recovery]]** (7% of attempts)
+
+- **[[Posture Recovery]]** (11% of attempts)
+
+- **[[Gogoplata to Armbar]]** (2% of attempts)
 
 
 ### Common Mistakes

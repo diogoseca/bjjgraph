@@ -2,148 +2,13 @@
 
 
 
-
 ---
 title: "Back Take from Top | BJJ Technique | BJJ Graph"
-description: "Master the Back Take from Hindulotine in BJJ. Capitalize on opponent's turning escape to secure back control. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%."
+description: "Master the Back Take from Hindulotine in BJJ. Capitalize on opponent's turning escape to secure back control with systematic grip transitions."
 ---
 
 
-<body data-content-type="transitions">
-
-<!-- Schema Markup - Auto-generated from JSON -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Execute Back Take from Top in BJJ",
-  "description": "Step-by-step guide for Back Take from Top from Hindulotine/Top. Possible outcomes: Back Control (65%), Hindulotine (25%), Turtle (10%).",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Recognize the turn",
-      "text": "Feel opponent's shoulder rotation and hip movement as they initiate the escape turn away from your choking arm. Their near shoulder will begin dropping toward the mat as they try to face away from the guillotine pressure.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Follow with chest",
-      "text": "Maintain chest-to-back connection by following their rotation with your upper body. Do not allow any space to develop between your chest and their upper back during the transition. Your chest pressure maintains control as grips change.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Release and re-grip",
-      "text": "As they complete the turn, release the guillotine grip and immediately establish seat belt control with your choking arm going over their shoulder and other arm under their armpit. Lock hands in gable grip across their chest.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Insert bottom hook",
-      "text": "Slide your bottom leg between their legs, inserting your foot inside their thigh with toes pointing outward. This hook controls their hip rotation and prevents them from continuing to turn to face you.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Insert top hook",
-      "text": "Bring your top leg over their hip and insert the second hook inside their opposite thigh. Both hooks should now control their hip movement with your feet crossing inside their thighs near the groin area.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Consolidate control",
-      "text": "Adjust your position to establish full back control with proper seat belt grip, both hooks deep, and chest-to-back pressure. Begin hand fighting and positioning for rear naked choke or other attacks.",
-      "position": 6
-    }
-  ],
-  "tool": ["BJJ Gi or No-Gi attire", "Training partner", "Mat space"],
-  "totalTime": "PT5M"
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the primary trigger that indicates it's time to transition from Hindulotine to back take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The primary trigger is feeling the opponent's shoulder rotation and hip movement as they turn away from the choking pressure. When you feel their near shoulder dropping toward the mat and their hips beginning to face away, this indicates they are committing to the turning escape and creates the window for back take transition."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What grip must be established before releasing the guillotine during this transition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The seat belt grip must be established before fully releasing the guillotine. The seat belt consists of one arm over the opponent's shoulder and the other under their armpit, with hands locked together (typically gable grip) across their chest. This maintains upper body control throughout the transition."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Your opponent begins turning but then stalls and turtles tightly - how do you adjust?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When opponent turtles instead of giving up the back fully, transition to systematic turtle attack methodology. Maintain your seat belt grip, work to establish spiral ride control, and systematically insert hooks using standard turtle-to-back techniques. The tight turtle is harder to attack but still leads to back control with patience."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which hook should be inserted first and why?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The bottom hook should be inserted first because it controls the opponent's hip rotation and prevents them from continuing to turn to face you. The bottom hook creates a physical barrier that stops their escape momentum. The top hook is then added to complete control once the bottom hook secures their hip position."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the critical error if you attempt this back take when opponent is not actually turning?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Forcing the back take against a non-turning opponent abandons the Hindulotine submission threat without gaining position. You release choking pressure to chase a position that isn't available, giving opponent opportunity to posture, escape, or establish defensive frames. The back take must be reactive to their turn, not proactive."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do you maintain control if opponent explosively stands during your transition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Follow them to standing while maintaining seat belt grip, establishing standing back control with your chest to their back. Lock a body lock grip and work to drag them back down or execute a standing back control takedown. The key is never releasing upper body control during their stand-up attempt."
-      }
-    }
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Back Take from Top",
-  "description": "Master the Back Take from Hindulotine in BJJ. Capitalize on opponent's turning escape to secure back control. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
-  "url": "https://bjjgraph.org/Transitions/Back-Take-from-Top",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.org"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
-    {"@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/"},
-    {"@type": "ListItem", "position": 3, "name": "Back Take from Top", "item": "https://bjjgraph.org/Transitions/Back-Take-from-Top"}
-  ]
-}
-</script>
+<body data-content-type="transitions-hub">
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -156,7 +21,7 @@ The mechanical beauty of this transition lies in using the opponent's own escape
 
 Strategically, the back take option makes your Hindulotine attacks significantly more dangerous. Opponents who know you will take their back if they turn become hesitant to execute the primary escape, allowing more finishing opportunities on the guillotine itself. The mere threat of this transition improves your overall submission percentage from the position.
 
-**From Position**: [[Hindulotine/Top]]
+**From Position**: [[Hindulotine]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -174,105 +39,133 @@ Strategically, the back take option makes your Hindulotine attacks significantly
 
 </section>
 
+<section class="content-section">
+
+## Attacker vs Defender
+
+| &nbsp; | Attacker | Defender |
+|--------|----------|----------|
+| **Focus** | Execute technique | Prevent or counter |
+| **Key Principles** | Maintain constant grip pressure during the transition to pre... | Control the speed and depth of your turning escape to avoid ... |
+| **Options** | 6 execution steps | 3 defensive options |
+
+</section>
+
+<section id="attacker-summary" class="content-section">
+
+## Playing as Attacker
+
+[[Back Take from Top/Attacker|→ Full Attacker Guide]]
+
+### Key Principles
 
 
-<section id="key-principles" class="content-section">
-
-## Key Principles
 - Maintain constant grip pressure during the transition to prevent opponent from completing their escape rotation
+
 - Use opponent's turning momentum as the entry mechanism rather than forcing the transition against resistance
+
 - Establish seat belt control before releasing any guillotine grip components to maintain connection
+
 - Insert hooks sequentially starting with the bottom hook as opponent's hips become accessible during their turn
+
 - Keep chest-to-back connection throughout to prevent opponent from creating separation space
+
 - Time the grip transition precisely when opponent commits to the turn but before they can flatten or re-square
+
 - Anticipate the turn by feeling for shoulder rotation and hip movement under your control
 
 
-</section>
-
-<section id="setup-requirements" class="content-section">
-
-## Prerequisites
-- Established top Hindulotine with guillotine grip secured around opponent's neck
-- Opponent initiating turning escape by rotating shoulders away from choking arm
-- Sufficient base to follow opponent's movement without losing positional stability
-- Upper body control maintained throughout transition sequence
-- Recognition of opponent's escape pattern before they complete rotation
+### Execution Steps
 
 
-</section>
+- **Recognize the turn**: Feel opponent's shoulder rotation and hip movement as they initiate the escape turn away from your c...
 
-<section id="execution-steps" class="content-section">
+- **Follow with chest**: Maintain chest-to-back connection by following their rotation with your upper body. Do not allow any...
 
-## Execution Steps
-1. **Recognize the turn**: Feel opponent's shoulder rotation and hip movement as they initiate the escape turn away from your choking arm. Their near shoulder will begin dropping toward the mat as they try to face away from the guillotine pressure.
-2. **Follow with chest**: Maintain chest-to-back connection by following their rotation with your upper body. Do not allow any space to develop between your chest and their upper back during the transition. Your chest pressure maintains control as grips change.
-3. **Release and re-grip**: As they complete the turn, release the guillotine grip and immediately establish seat belt control with your choking arm going over their shoulder and other arm under their armpit. Lock hands in gable grip across their chest.
-4. **Insert bottom hook**: Slide your bottom leg between their legs, inserting your foot inside their thigh with toes pointing outward. This hook controls their hip rotation and prevents them from continuing to turn to face you.
-5. **Insert top hook**: Bring your top leg over their hip and insert the second hook inside their opposite thigh. Both hooks should now control their hip movement with your feet crossing inside their thighs near the groin area.
-6. **Consolidate control**: Adjust your position to establish full back control with proper seat belt grip, both hooks deep, and chest-to-back pressure. Begin hand fighting and positioning for rear naked choke or other attacks.
+- **Release and re-grip**: As they complete the turn, release the guillotine grip and immediately establish seat belt control w...
+
+- **Insert bottom hook**: Slide your bottom leg between their legs, inserting your foot inside their thigh with toes pointing ...
+
+- **Insert top hook**: Bring your top leg over their hip and insert the second hook inside their opposite thigh. Both hooks...
+
+- **Consolidate control**: Adjust your position to establish full back control with proper seat belt grip, both hooks deep, and...
 
 
-</section>
+### Common Mistakes
 
-<section id="common-counters" class="content-section">
 
-## Opponent Counters
-- **Opponent turns fully through to face you and re-establishes guard** (Effectiveness: High) - Your Response: Accelerate hook insertion and pull them onto their side before they complete the full rotation; maintain upper body control to slow their turn
-- **Opponent turtles tightly instead of giving up back hooks** (Effectiveness: Medium) - Your Response: Transition to standard turtle attack methodology; establish seat belt and work systematic hook insertion or spiral ride to back
-- **Opponent posts arm to prevent being pulled to their side** (Effectiveness: Medium) - Your Response: Use the posting arm as a target for arm drag or trap the arm to eliminate the post and continue back take sequence
-- **Opponent explosively stands up during transition** (Effectiveness: Low) - Your Response: Follow to standing back control or drag them back down with your body weight while maintaining seat belt grip
+- **Releasing guillotine grip before establishing seat belt control**
+  - Consequence: Creates a gap in control allowing opponent to escape, turn to face you, or stand up before you secure back position
+  - Correction: Overlap controls during transition: begin establishing seat belt while still maintaining some guillotine pressure, only fully releasing when new control is secure
+
+- **Chasing the back take against opponent who is not turning**
+  - Consequence: Attempting to force the turn gives up the Hindulotine position without gain, often resulting in loss of control entirely
+  - Correction: Only transition to back take when opponent initiates the turn; if they are not turning, continue attacking the guillotine or switch to other front headlock attacks
+
+- **Allowing space between chest and opponent's back during transition**
+  - Consequence: Opponent can frame, create distance, and either complete escape or achieve turtle position that is harder to attack
+  - Correction: Maintain constant chest-to-back pressure throughout entire transition sequence, following their movement closely
 
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="defender-summary" class="content-section">
 
-## Common Mistakes
-- **Mistake**: Releasing guillotine grip before establishing seat belt control
-  - **Consequence**: Creates a gap in control allowing opponent to escape, turn to face you, or stand up before you secure back position
-  - **Correction**: Overlap controls during transition: begin establishing seat belt while still maintaining some guillotine pressure, only fully releasing when new control is secure
-- **Mistake**: Chasing the back take against opponent who is not turning
-  - **Consequence**: Attempting to force the turn gives up the Hindulotine position without gain, often resulting in loss of control entirely
-  - **Correction**: Only transition to back take when opponent initiates the turn; if they are not turning, continue attacking the guillotine or switch to other front headlock attacks
-- **Mistake**: Allowing space between chest and opponent's back during transition
-  - **Consequence**: Opponent can frame, create distance, and either complete escape or achieve turtle position that is harder to attack
-  - **Correction**: Maintain constant chest-to-back pressure throughout entire transition sequence, following their movement closely
-- **Mistake**: Inserting hooks before establishing upper body control
-  - **Consequence**: Opponent can use their arms to frame and push away, escaping before you consolidate the position
-  - **Correction**: Always secure seat belt or comparable upper body control before worrying about hooks; control hierarchy is upper body first, then hooks
-- **Mistake**: Attempting to insert both hooks simultaneously
-  - **Consequence**: Compromises your base and allows opponent to roll through or escape before hooks are properly secured
-  - **Correction**: Insert hooks sequentially, bottom hook first to control their hips, then top hook while maintaining pressure
+## Playing as Defender
+
+[[Back Take from Top/Defender|→ Full Defender Guide]]
+
+### Key Principles
+
+
+- Control the speed and depth of your turning escape to avoid giving the attacker momentum to follow into back control
+
+- Block seat belt establishment immediately by keeping elbows tight to your body and framing against the attacker's arms during the grip transition
+
+- Deny hook insertion by keeping knees together and hips low to the mat, eliminating the space needed for the attacker's legs to enter
+
+- Exploit the grip transition window when attacker releases guillotine but has not yet secured seat belt as your primary escape opportunity
+
+- Maintain shoulder-to-mat connection on the turning side to prevent being pulled onto your side where hooks become accessible
+
+- Prioritize achieving tight turtle over attempting to face the opponent, as turtle provides better defensive structure than an incomplete turn
+
+
+### Recognition Cues
+
+
+- Attacker's chest pressure follows your rotation instead of maintaining the original guillotine angle, indicating they are pursuing the back rather than the choke
+
+- Guillotine grip pressure decreases or shifts as attacker begins releasing the choke to transition hands toward seat belt configuration across your chest
+
+- You feel the attacker's legs moving from sprawl base to a position alongside your hips, attempting to thread hooks inside your thighs as you turn
+
+- Attacker's arm that was under your chin begins sliding over your shoulder while their other arm reaches under your armpit for the seat belt
+
+
+### Defensive Options
+
+
+- **Complete the turn explosively and re-face opponent before hooks are inserted, using frames on their biceps and hips to create distance and recover to guard or combat base** - When: Early in the transition when attacker has released guillotine but has not yet secured seat belt or inserted any hooks
+
+- **Tighten into a compact defensive turtle by dropping elbows to knees, tucking chin, and keeping hips low to deny both hooks and seat belt access** - When: When the attacker has established partial upper body control and you cannot safely complete the turn to face them
+
+- **Post your near arm and drive your hips backward into the attacker while sprawling your legs away, preventing them from getting underneath you for hooks** - When: When you feel the attacker's legs beginning to thread alongside your hips during the transition
 
 
 </section>
 
-<section id="training-progressions" class="content-section hide-minimal">
 
-## Training Progressions
-**Week 1-2** - Recognition and timing
-Partner feeds turning escapes from Hindulotine at various speeds. Focus on recognizing the turn initiation and practicing the grip transition from guillotine to seat belt. No resistance from partner beyond the escape attempt.
-
-**Week 3-4** - Sequential hook insertion
-Add hook insertion to the drill with partner providing light resistance. Practice the bottom hook first, then top hook sequence. Partner allows the transition but makes you earn proper positioning.
-
-**Week 5-6** - Counter integration
-Partner varies between completing the turn, turtling, posting, or standing. Practice reading which response is coming and adjusting your transition accordingly. Work both the back take and alternatives.
-
-**Week 7+** - Live application
-Integrate into positional sparring starting from Hindulotine. Partner works legitimate escapes at full resistance. Practice the back take as part of complete Hindulotine attack system with submissions and transitions.
-
-
-
-</section>
-
-<section id="variants-and-adaptations" class="content-section hide-minimal">
+<section id="variants" class="content-section hide-minimal">
 
 ## Variations
+
+
 **Gift wrap back take**: Instead of standard seat belt, trap opponent's near arm across their body during the turn, establishing gift wrap control. This eliminates one defensive arm and creates direct path to rear naked choke. (When to use: When opponent's near arm is accessible and you can trap it during the transition)
 
+
 **Rolling back take**: If opponent turns hard and begins to come on top, follow the momentum by rolling underneath them while maintaining control. End in back control from the opposite side configuration. (When to use: When opponent commits strongly to the turn and your base is compromised)
+
 
 **Standing back take follow**: If opponent stands during their escape attempt, follow them up while maintaining seat belt. Establish standing back control with body lock and work takedown to grounded back control. (When to use: When opponent achieves enough base to stand during escape)
 
@@ -280,50 +173,7 @@ Integrate into positional sparring starting from Hindulotine. Partner works legi
 
 </section>
 
-<section id="knowledge-assessment" class="content-section">
 
-## Test Your Knowledge
-**Q1**: What is the primary trigger that indicates it's time to transition from Hindulotine to back take?
-**A**: The primary trigger is feeling the opponent's shoulder rotation and hip movement as they turn away from the choking pressure. When you feel their near shoulder dropping toward the mat and their hips beginning to face away, this indicates they are committing to the turning escape and creates the window for back take transition.
-
-**Q2**: What grip must be established before releasing the guillotine during this transition?
-**A**: The seat belt grip must be established before fully releasing the guillotine. The seat belt consists of one arm over the opponent's shoulder and the other under their armpit, with hands locked together (typically gable grip) across their chest. This maintains upper body control throughout the transition.
-
-**Q3**: Your opponent begins turning but then stalls and turtles tightly - how do you adjust?
-**A**: When opponent turtles instead of giving up the back fully, transition to systematic turtle attack methodology. Maintain your seat belt grip, work to establish spiral ride control, and systematically insert hooks using standard turtle-to-back techniques. The tight turtle is harder to attack but still leads to back control with patience.
-
-**Q4**: Which hook should be inserted first and why?
-**A**: The bottom hook should be inserted first because it controls the opponent's hip rotation and prevents them from continuing to turn to face you. The bottom hook creates a physical barrier that stops their escape momentum. The top hook is then added to complete control once the bottom hook secures their hip position.
-
-**Q5**: What is the critical error if you attempt this back take when opponent is not actually turning?
-**A**: Forcing the back take against a non-turning opponent abandons the Hindulotine submission threat without gaining position. You release choking pressure to chase a position that isn't available, giving opponent opportunity to posture, escape, or establish defensive frames. The back take must be reactive to their turn, not proactive.
-
-**Q6**: How do you maintain control if opponent explosively stands during your transition?
-**A**: Follow them to standing while maintaining seat belt grip, establishing standing back control with your chest to their back. Lock a body lock grip and work to drag them back down or execute a standing back control takedown. The key is never releasing upper body control during their stand-up attempt.
-
-**Q7**: Your opponent posts their near arm as you attempt the back take - what adjustment do you make?
-**A**: The posting arm becomes a target for control. Either arm drag the posting arm across their body to eliminate the post and continue the back take, or trap the arm in a gift wrap configuration. The post cannot be ignored as it allows them to base and potentially escape.
-
-**Q8**: How does threatening this back take improve your overall Hindulotine submission percentage?
-**A**: The back take threat creates a dilemma for defenders. If they know you will take their back when they turn, they become hesitant to execute the primary guillotine escape. This hesitation keeps them in the choking position longer and makes them accept more pressure before attempting escape, increasing your finishing opportunities on the guillotine itself.
-
-**Q9**: What chest position must be maintained throughout this transition and why?
-**A**: Constant chest-to-back connection must be maintained throughout. Any space allows opponent to frame, create distance, and either complete their escape or achieve a defensive turtle position. Your chest following their movement ensures continuous pressure and prevents the separation that enables defense.
-
-**Q10**: When should you use the rolling back take variant instead of the standard transition?
-**A**: The rolling back take variant is appropriate when opponent commits strongly to their turn and your base becomes compromised by their momentum. Rather than fighting their energy, you follow the momentum by rolling underneath them while maintaining control. This uses their escape energy to end up in back control from the opposite side configuration.
-
-
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Considerations
-
-This transition is relatively low-risk compared to submission techniques, but proper training protocols remain important. Avoid explosive jerking movements during the grip transition that could strain training partner's neck. When inserting hooks, be aware of knee positioning to prevent accidental strikes. During the learning phase, communicate with your partner about the pace of the turn to ensure controlled practice. The neck has already been under pressure from the Hindulotine, so allow recovery time between repetitions.
-
-</section>
 
 <section id="position-integration" class="content-section">
 
@@ -333,19 +183,30 @@ The Back Take from Hindulotine is a critical component of the front headlock att
 
 </section>
 
+
 <section id="related-content" class="content-section">
 
 ## Related Techniques
 
+
 - [[Hindulotine]] - Starting position for this transition
+
 - [[Back Control]] - Target position after successful execution
+
 - [[Rear Naked Choke]] - Primary submission from resulting back control
+
 - [[Front Headlock]] - Parent position system for Hindulotine attacks
+
 - [[Guillotine Control]] - Related position with similar back take opportunities
+
 - [[Back Take from Bottom]] - Alternative back take from bottom Hindulotine
+
 - [[Hindulotine to Darce Choke]] - Alternative attack when opponent frames instead of turns
+
 - [[Hindulotine to Anaconda Choke]] - Alternative attack from same control position
+
 - [[Turtle]] - Common intermediate position during transition
+
 - [[Crucifix]] - Advanced follow-up position from back control
 
 

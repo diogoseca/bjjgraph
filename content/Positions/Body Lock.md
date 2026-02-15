@@ -93,17 +93,23 @@ The position is inherently transitional and requires immediate attack execution.
 ### Available Transitions
 
 
-- **[[Hip Escape]]** (17% of attempts)
+- **[[Grip Break]]** (32% of attempts)
 
-- **[[Grip Break]]** (15% of attempts)
+- **[[Sitting Guard Pull]]** (20% of attempts)
 
-- **[[Sitting Guard Pull]]** (21% of attempts)
+- **[[Rolling to Guard]]** (13% of attempts)
 
-- **[[Technical Standup]]** (14% of attempts)
+- **[[Whizzer]]** (8% of attempts)
 
-- **[[Sprawl Defense]]** (15% of attempts)
+- **[[Takedown Defense]]** (8% of attempts)
 
-- **[[Rolling to Guard]]** (18% of attempts)
+- **[[Turn In and Face]]** (8% of attempts)
+
+- **[[Standing up in Base]]** (6% of attempts)
+
+- **[[Escape Body Lock]]** (3% of attempts)
+
+- **[[Pummeling Escape from Body Lock]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -160,19 +166,25 @@ The position is inherently transitional and requires immediate attack execution.
 ### Available Transitions
 
 
-- **[[Back Take Generic]]** (18% of attempts)
+- **[[Back Take]]** (14% of attempts)
 
-- **[[Turtle to Back Take]]** (16% of attempts)
+- **[[Snap Down to Front Headlock]]** (8% of attempts)
 
-- **[[Body Lock Pass]]** (18% of attempts)
+- **[[Tani Otoshi]]** (10% of attempts)
 
-- **[[Double Leg Entry]]** (12% of attempts)
+- **[[Kosoto Gake]]** (8% of attempts)
 
-- **[[Snap Down]]** (14% of attempts)
+- **[[Mat Return to Back Mount]]** (40% of attempts)
 
-- **[[Turtle to Back Control]]** (12% of attempts)
+- **[[Harai Goshi]]** (5% of attempts)
 
-- **[[Rolling Back Take]]** (10% of attempts)
+- **[[Body Lock Pass]]** (10% of attempts)
+
+- **[[Double Leg Finish]]** (3% of attempts)
+
+- **[[Body Lock Takedown]]** (1% of attempts)
+
+- **[[Body Lock to Standing]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -211,15 +223,9 @@ The position is inherently transitional and requires immediate attack execution.
 ## Related Positions
 
 
-- **[[Standing Rear Clinch]]** - Direct precursor - body lock is advanced control from rear clinch position
-
-- **[[Double Unders]]** - Related grip configuration using double underhooks instead of locked hands
-
 - **[[Clinch]]** - General standing control position from which body lock is often established
 
-- **[[Standing Back Control]]** - Rear body lock variation with hooks establishing back control while standing
-
-- **[[Overhook Control]]** - Alternative standing control using single overhook instead of locked grip
+- **[[Double Unders]]** - Related grip configuration using double underhooks instead of locked hands
 
 - **[[Front Headlock]]** - Transition option when opponent lowers level to defend body lock pressure
 
@@ -228,6 +234,12 @@ The position is inherently transitional and requires immediate attack execution.
 - **[[Back Control]]** - Primary target position from successful mat return or back take
 
 - **[[Harness]]** - Ground-based control position using similar locked grip mechanics
+
+- **[[Overhook Control]]** - Alternative standing control using single overhook instead of locked grip
+
+- **[[Crab Ride]]** - Transition position used when moving from body lock to back control on the mat
+
+- **[[Closed Guard]]** - Counter position when bottom player sits to guard to escape body lock
 
 
 </section>

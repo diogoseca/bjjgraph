@@ -1,6 +1,6 @@
 {
   "name": "Leg Extraction Escape",
-  "description": "Master Leg Extraction Escape from Gogoplata Control. Step-by-step technique for removing trapped leg and recovering Half Guard with 65% success rate for advanced.",
+  "description": "Master Leg Extraction Escape from Gogoplata Control in BJJ. Complete guide to systematic head extraction, hip control, and Half Guard recovery at 58% success.",
   "tags": [
     "bjj",
     "escape",
@@ -12,194 +12,23 @@
   "from_position": "Gogoplata Control/Top",
   "outcomes": [
     {
-      "to": "Half Guard",
+      "to": "Half Guard/Top",
       "probability": 65,
       "result": "success"
     },
     {
-      "to": "Gogoplata Control",
+      "to": "Gogoplata Control/Top",
       "probability": 25,
       "result": "failure"
     },
     {
-      "to": "Gogoplata Control",
+      "to": "Gogoplata Control/Bottom",
       "probability": 10,
       "result": "counter"
     }
   ],
-  "overview": "The Leg Extraction Escape represents a critical defensive technique for escaping the Gogoplata Control position, where the opponent has established a shin across your throat with their foot secured behind your head. This escape focuses on systematically removing the trapped leg configuration through precise hand positioning, hip angle changes, and methodical extraction mechanics rather than explosive, desperate movements that typically tighten the submission.\n\nThe technique operates on the fundamental principle that the gogoplata's structural integrity depends on the foot-behind-head configuration. By addressing this anchor point first through careful hand control and lateral head movement, the defender can dismantle the submission threat before it reaches critical pressure. The escape requires remaining calm under submission pressure while executing a specific sequence of movements that create space for leg removal.\n\nStrategically, this escape serves as the primary pathway out of gogoplata control when emergency rolling options are unavailable or undesirable due to back exposure risks. The successful completion leaves the defender in half guard bottom position, which while not ideal, represents a massive positional improvement from the immediate submission threat. Understanding this escape is essential for any practitioner who trains with flexible guard players employing rubber guard systems.",
-  "key_principles": [
-    "Address the foot-behind-head configuration before attempting to remove the shin from your throat",
-    "Use lateral head movement rather than pulling straight backward which tightens the submission",
-    "Maintain controlled breathing and calm composure despite airway restriction to execute proper technique",
-    "Control opponent's hips with your hands to prevent them from re-elevating and re-establishing optimal submission angle",
-    "Create incremental positional improvements rather than attempting single explosive escape movements",
-    "Turn your chin slightly toward the attacking leg to reduce direct trachea compression while working the escape",
-    "Secure half guard entanglement immediately upon leg extraction to prevent opponent from recovering full guard"
-  ],
-  "setup_requirements": [
-    "Recognition that you are caught in gogoplata control with shin across throat and foot behind head",
-    "Assessment of submission tightness - shallow foot position or dropped hips indicate time for systematic escape",
-    "Hands positioned on opponent's hips rather than grabbing at the choking leg directly",
-    "Slight chin turn toward attacking leg to create breathing space for escape execution",
-    "Mental composure despite airway restriction allowing for technical rather than panicked response"
-  ],
-  "execution_steps": [
-    {
-      "step_number": 1,
-      "action": "Assess and stabilize",
-      "description": "Evaluate the submission tightness by checking opponent's hip elevation and foot depth behind your head. Turn your chin slightly toward the attacking leg to reduce direct trachea compression and create breathing space for the escape sequence."
-    },
-    {
-      "step_number": 2,
-      "action": "Establish hip control",
-      "description": "Place both hands on opponent's hips rather than grabbing at the choking leg. This prevents them from re-elevating their hips to maintain optimal submission angle and provides base for your escape movements."
-    },
-    {
-      "step_number": 3,
-      "action": "Drive hips down",
-      "description": "Use your hands on their hips to drive their pelvis toward the mat, reducing the perpendicular angle of the shin across your throat. This decreases submission pressure and creates opportunity for head extraction."
-    },
-    {
-      "step_number": 4,
-      "action": "Address foot position",
-      "description": "While maintaining hip pressure, work one hand to control the foot behind your head. Push the foot forward over the top of your head rather than pulling it backward. This removes the structural anchor preventing your escape."
-    },
-    {
-      "step_number": 5,
-      "action": "Extract head laterally",
-      "description": "With the foot position loosened, move your head laterally and downward rather than straight back. Slip your chin under the shin and extract your head through the opening created by the compromised foot-behind-head configuration."
-    },
-    {
-      "step_number": 6,
-      "action": "Secure half guard",
-      "description": "As your head clears, immediately trap one of opponent's legs between yours to establish half guard. Control their knee and establish frames to prevent them from recovering rubber guard or attempting another gogoplata entry."
-    }
-  ],
-  "common_counters": [
-    {
-      "counter": "Opponent re-elevates hips and re-establishes deep foot position behind head as you attempt extraction",
-      "effectiveness": "High",
-      "your_response": "Maintain constant pressure on their hips with both hands, preventing hip elevation. If they regain position, return to step 2 and restart the sequence with heavier hip control."
-    },
-    {
-      "counter": "Opponent transitions to triangle choke as your head moves laterally during extraction attempt",
-      "effectiveness": "Medium",
-      "your_response": "Keep your chin tucked and your shoulder tight against their leg during extraction. If triangle threatens, immediately posture up and address the new submission threat using standard triangle defense."
-    },
-    {
-      "counter": "Opponent pulls their own foot deeper behind your head when you attempt to address foot position",
-      "effectiveness": "Medium",
-      "your_response": "Increase hip pressure to prevent them from generating the leverage needed to pull the foot deeper. Their pulling motion requires hip elevation which your hip control prevents."
-    },
-    {
-      "counter": "Opponent releases gogoplata and recovers full closed guard as you begin extraction",
-      "effectiveness": "Low",
-      "your_response": "Accept closed guard as a positional improvement over gogoplata control. Begin standard closed guard passing sequence from the improved position."
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Pulling head straight backward to escape the shin across throat",
-      "consequence": "The foot-behind-head configuration prevents backward movement and pulling actually tightens the choke by increasing shin pressure against trachea",
-      "correction": "Move head laterally and work to remove the foot from behind your head first before attempting to extract your head from the shin pressure"
-    },
-    {
-      "error": "Grabbing at the choking shin with hands instead of controlling opponent's hips",
-      "consequence": "Opponent's leg is stronger than your arms making direct pulling ineffective while exposing your arms for armbar transitions",
-      "correction": "Place hands on opponent's hips to control their angle and elevation rather than fighting the stronger leg muscles directly"
-    },
-    {
-      "error": "Panicking and making explosive uncontrolled movements when feeling airway restriction",
-      "consequence": "Random movements typically worsen position by tightening existing submission or exposing back for transitions",
-      "correction": "Remain calm and work systematically through escape sequence recognizing that controlled technical movements are more effective than desperate struggling"
-    },
-    {
-      "error": "Attempting escape without first creating breathing space through chin position adjustment",
-      "consequence": "Working under full airway restriction leads to rushed technique, poor decision making, and increased submission risk",
-      "correction": "Turn chin slightly toward attacking leg before beginning escape sequence to reduce direct trachea compression and create time for proper technique"
-    },
-    {
-      "error": "Failing to immediately secure half guard after head extraction allowing guard recovery",
-      "consequence": "Opponent recovers rubber guard or closed guard and threatens immediate re-entry to gogoplata or other attacks",
-      "correction": "As soon as head clears, immediately trap one leg between yours and establish frames to prevent guard recovery"
-    }
-  ],
-  "training_progressions": [
-    {
-      "phase": "Week 1-2",
-      "focus": "Position recognition and breathing",
-      "description": "Partner establishes gogoplata control at 30% tightness. Practice identifying the position, adjusting chin for breathing space, and maintaining calm composure. No escape attempts yet - purely position familiarization and mental conditioning."
-    },
-    {
-      "phase": "Week 3-4",
-      "focus": "Hip control mechanics",
-      "description": "Partner maintains gogoplata at 50% tightness while you practice establishing hip control and driving their pelvis to the mat. Focus on hand placement on hips and maintaining constant downward pressure while partner offers light resistance."
-    },
-    {
-      "phase": "Week 5-6",
-      "focus": "Complete extraction sequence",
-      "description": "Perform full escape sequence against medium resistance. Partner attempts to re-establish position during your extraction. Practice chaining hip control to foot removal to head extraction to half guard establishment as continuous flow."
-    },
-    {
-      "phase": "Week 7+",
-      "focus": "Live application",
-      "description": "Include escape in positional sparring from gogoplata control. Partner applies full submission pressure while you execute escape. Develop recognition of timing windows and ability to escape under competition-level threat."
-    }
-  ],
-  "variants_and_adaptations": [
-    {
-      "variant_name": "Stack and Extract",
-      "description": "When opponent's hips drop to mat level, drive your weight forward in stacking motion while working head extraction. The forward pressure combined with their compromised hip position creates easier extraction angle.",
-      "when_to_use": "When opponent's hips are not elevated and submission pressure is reduced"
-    },
-    {
-      "variant_name": "Foot-First Extraction",
-      "description": "Focus entirely on removing the foot from behind your head before any other movements. Use both hands to push the foot over the top of your head, then extract once the closed loop is broken.",
-      "when_to_use": "When opponent's foot position is shallow and can be addressed directly"
-    },
-    {
-      "variant_name": "Emergency Roll to Turtle",
-      "description": "When submission is critically tight and systematic escape time is unavailable, execute explosive forward roll accepting back exposure. The rolling motion breaks the shin angle and foot position simultaneously.",
-      "when_to_use": "Emergency situations only when breathing is severely restricted"
-    }
-  ],
-  "knowledge_assessment": [
-    {
-      "question": "What is the primary goal of Leg Extraction Escape?",
-      "answer": "The primary goal is to systematically dismantle the gogoplata control configuration by addressing the foot-behind-head anchor point, removing the shin from the throat, and recovering to half guard position. This transforms an immediate submission threat into a manageable guard passing situation."
-    },
-    {
-      "question": "Why does pulling straight backward fail as an escape from gogoplata?",
-      "answer": "Pulling straight backward fails because the foot-behind-head configuration creates a closed loop system. Backward movement actually tightens the choke by pulling the shin harder against the trachea. The structural anchor must be addressed through lateral movement and foot removal first."
-    },
-    {
-      "question": "Your opponent's hips suddenly drop to mat level while maintaining gogoplata - what opportunity does this create?",
-      "answer": "Dropped hips reduce the perpendicular shin angle across your throat, decreasing compression effectiveness. This creates a window to stack forward with pressure, driving weight into them while working to extract your head as the submission loosens. The compromised angle means less threat during your extraction attempt."
-    },
-    {
-      "question": "Where should your hands be positioned during the escape and why?",
-      "answer": "Hands should be positioned on the opponent's hips rather than grabbing at the choking leg. The leg is stronger than your arms making direct pulling ineffective, while hip control prevents them from re-elevating to maintain optimal submission angle. Hip control addresses the root cause rather than fighting symptoms."
-    },
-    {
-      "question": "How do you create breathing space before beginning the escape sequence?",
-      "answer": "Turn your chin slightly toward the attacking leg to reduce direct trachea compression. This small positional adjustment moves the shin off center from the windpipe, creating enough breathing capacity to execute a calm, technical escape rather than panicking under full airway restriction."
-    },
-    {
-      "question": "What position should you immediately secure after successfully extracting your head?",
-      "answer": "Immediately trap one of the opponent's legs between yours to establish half guard. This prevents them from recovering rubber guard or closed guard and threatening immediate re-entry to gogoplata. Establish frames after securing the leg entanglement to complete the positional recovery."
-    },
-    {
-      "question": "Your opponent attempts to transition to triangle as you move your head laterally during extraction - how do you respond?",
-      "answer": "Keep your chin tucked and shoulder tight against their leg during the extraction to prevent triangle entry. If the triangle threatens, immediately posture up and address the new submission using standard triangle defense. The lateral movement should be controlled to minimize triangle exposure."
-    },
-    {
-      "question": "When is the emergency roll to turtle variant appropriate versus the systematic extraction?",
-      "answer": "The emergency roll is only appropriate when the submission is critically tight with severely restricted breathing and no time exists for systematic escape. The roll accepts back exposure risk in exchange for immediately breaking the submission. If you have any breathing capacity, the systematic extraction is preferred to avoid back exposure."
-    }
-  ],
-  "safety_considerations": "Practice this escape at reduced intensity initially as the gogoplata creates real airway compression that can cause panic responses. Partners should establish clear tap signals before drilling and immediately release upon any tap. When drilling the escape, the bottom player should maintain the position loosely enough to allow successful practice without risk of loss of consciousness. Avoid training this escape when fatigued as poor technique under pressure can lead to neck strain or injury. The emergency roll variant carries additional risk of neck injury if performed incorrectly - only attempt after mastering the basic mechanics.",
-  "position_integration": "The Leg Extraction Escape serves as the primary systematic defense against gogoplata control, bridging the gap between immediate submission danger and positional recovery. This technique integrates with the broader rubber guard defensive system, as gogoplata typically arises from rubber guard, mission control, or similar high guard variations. Success with this escape requires understanding both the submission mechanics being defended and the guard recovery principles being employed. The escape feeds directly into half guard bottom game, where the defender can work standard sweeps and guard recovery techniques. Understanding this escape is essential for any practitioner facing flexible guard players, as it provides the methodical pathway out of a position where strength and aggression alone are insufficient.",
+  "success_rate": 58,
+  "overview": "The Leg Extraction Escape represents a critical defensive technique for escaping the Gogoplata Control position, where the opponent has established a shin across your throat with their foot secured behind your head. This escape focuses on systematically removing the trapped leg configuration through precise hand positioning, hip angle changes, and methodical extraction mechanics rather than explosive, desperate movements that typically tighten the submission.\n\nThe technique operates on the fundamental principle that the gogoplata's structural integrity depends on the foot-behind-head configuration. By addressing this anchor point first through careful hand control and lateral head movement, the defender can dismantle the submission threat before it reaches critical pressure. The escape requires remaining calm under submission pressure while executing a specific sequence of movements that create space for leg removal.\n\nStrategically, this escape serves as the primary pathway out of gogoplata control when emergency rolling options are unavailable or undesirable due to back exposure risks. The successful completion leaves the defender in half guard top position, which while not dominant, represents a massive positional improvement from the immediate submission threat. Understanding this escape is essential for any practitioner who trains with flexible guard players employing rubber guard systems.",
   "related_content": [
     {
       "name": "Gogoplata Control",
@@ -236,7 +65,329 @@
     {
       "name": "Angle Change Escape",
       "relationship": "Alternative escape using different movement pattern"
+    },
+    {
+      "name": "Hand Control to Extract",
+      "relationship": "Complementary escape technique targeting hand fighting before extraction"
     }
   ],
-  "success_rate": 58
+  "attacker": {
+    "name": "Leg Extraction Escape Attacker",
+    "description": "How to execute Leg Extraction Escape in BJJ. Attacking perspective with setup, execution steps, and counters for escaping gogoplata control.",
+    "overview": "The Leg Extraction Escape represents a critical defensive technique for escaping the Gogoplata Control position, where the opponent has established a shin across your throat with their foot secured behind your head. This escape focuses on systematically removing the trapped leg configuration through precise hand positioning, hip angle changes, and methodical extraction mechanics rather than explosive, desperate movements that typically tighten the submission.\n\nThe technique operates on the fundamental principle that the gogoplata's structural integrity depends on the foot-behind-head configuration. By addressing this anchor point first through careful hand control and lateral head movement, the defender can dismantle the submission threat before it reaches critical pressure. The escape requires remaining calm under submission pressure while executing a specific sequence of movements that create space for leg removal.\n\nStrategically, this escape serves as the primary pathway out of gogoplata control when emergency rolling options are unavailable or undesirable due to back exposure risks. The successful completion leaves the defender in half guard top position, which while not dominant, represents a massive positional improvement from the immediate submission threat. Understanding this escape is essential for any practitioner who trains with flexible guard players employing rubber guard systems.",
+    "key_principles": [
+      "Address the foot-behind-head configuration before attempting to remove the shin from your throat",
+      "Use lateral head movement rather than pulling straight backward which tightens the submission",
+      "Maintain controlled breathing and calm composure despite airway restriction to execute proper technique",
+      "Control opponent's hips with your hands to prevent them from re-elevating and re-establishing optimal submission angle",
+      "Create incremental positional improvements rather than attempting single explosive escape movements",
+      "Turn your chin slightly toward the attacking leg to reduce direct trachea compression while working the escape",
+      "Secure half guard entanglement immediately upon leg extraction to prevent opponent from recovering full guard"
+    ],
+    "setup_requirements": [
+      "Recognition that you are caught in gogoplata control with shin across throat and foot behind head",
+      "Assessment of submission tightness - shallow foot position or dropped hips indicate time for systematic escape",
+      "Hands positioned on opponent's hips rather than grabbing at the choking leg directly",
+      "Slight chin turn toward attacking leg to create breathing space for escape execution",
+      "Mental composure despite airway restriction allowing for technical rather than panicked response"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Assess and stabilize",
+        "description": "Evaluate the submission tightness by checking opponent's hip elevation and foot depth behind your head. Turn your chin slightly toward the attacking leg to reduce direct trachea compression and create breathing space for the escape sequence."
+      },
+      {
+        "step_number": 2,
+        "action": "Establish hip control",
+        "description": "Place both hands on opponent's hips rather than grabbing at the choking leg. This prevents them from re-elevating their hips to maintain optimal submission angle and provides base for your escape movements."
+      },
+      {
+        "step_number": 3,
+        "action": "Drive hips down",
+        "description": "Use your hands on their hips to drive their pelvis toward the mat, reducing the perpendicular angle of the shin across your throat. This decreases submission pressure and creates opportunity for head extraction."
+      },
+      {
+        "step_number": 4,
+        "action": "Address foot position",
+        "description": "While maintaining hip pressure, work one hand to control the foot behind your head. Push the foot forward over the top of your head rather than pulling it backward. This removes the structural anchor preventing your escape."
+      },
+      {
+        "step_number": 5,
+        "action": "Extract head laterally",
+        "description": "With the foot position loosened, move your head laterally and downward rather than straight back. Slip your chin under the shin and extract your head through the opening created by the compromised foot-behind-head configuration."
+      },
+      {
+        "step_number": 6,
+        "action": "Secure half guard",
+        "description": "As your head clears, immediately trap one of opponent's legs between yours to establish half guard. Control their knee and establish frames to prevent them from recovering rubber guard or attempting another gogoplata entry."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent re-elevates hips and re-establishes deep foot position behind head as you attempt extraction",
+        "effectiveness": "High",
+        "your_response": "Maintain constant pressure on their hips with both hands, preventing hip elevation. If they regain position, return to step 2 and restart the sequence with heavier hip control.",
+        "targets_outcome": "Gogoplata Control/Top"
+      },
+      {
+        "counter": "Opponent transitions to triangle choke as your head moves laterally during extraction attempt",
+        "effectiveness": "Medium",
+        "your_response": "Keep your chin tucked and your shoulder tight against their leg during extraction. If triangle threatens, immediately posture up and address the new submission threat using standard triangle defense.",
+        "targets_outcome": "Gogoplata Control/Bottom"
+      },
+      {
+        "counter": "Opponent pulls their own foot deeper behind your head when you attempt to address foot position",
+        "effectiveness": "Medium",
+        "your_response": "Increase hip pressure to prevent them from generating the leverage needed to pull the foot deeper. Their pulling motion requires hip elevation which your hip control prevents.",
+        "targets_outcome": "Gogoplata Control/Top"
+      },
+      {
+        "counter": "Opponent releases gogoplata and recovers full closed guard as you begin extraction",
+        "effectiveness": "Low",
+        "your_response": "Accept closed guard as a positional improvement over gogoplata control. Begin standard closed guard passing sequence from the improved position.",
+        "targets_outcome": "Half Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Pulling head straight backward to escape the shin across throat",
+        "consequence": "The foot-behind-head configuration prevents backward movement and pulling actually tightens the choke by increasing shin pressure against trachea",
+        "correction": "Move head laterally and work to remove the foot from behind your head first before attempting to extract your head from the shin pressure"
+      },
+      {
+        "error": "Grabbing at the choking shin with hands instead of controlling opponent's hips",
+        "consequence": "Opponent's leg is stronger than your arms making direct pulling ineffective while exposing your arms for armbar transitions",
+        "correction": "Place hands on opponent's hips to control their angle and elevation rather than fighting the stronger leg muscles directly"
+      },
+      {
+        "error": "Panicking and making explosive uncontrolled movements when feeling airway restriction",
+        "consequence": "Random movements typically worsen position by tightening existing submission or exposing back for transitions",
+        "correction": "Remain calm and work systematically through escape sequence recognizing that controlled technical movements are more effective than desperate struggling"
+      },
+      {
+        "error": "Attempting escape without first creating breathing space through chin position adjustment",
+        "consequence": "Working under full airway restriction leads to rushed technique, poor decision making, and increased submission risk",
+        "correction": "Turn chin slightly toward attacking leg before beginning escape sequence to reduce direct trachea compression and create time for proper technique"
+      },
+      {
+        "error": "Failing to immediately secure half guard after head extraction allowing guard recovery",
+        "consequence": "Opponent recovers rubber guard or closed guard and threatens immediate re-entry to gogoplata or other attacks",
+        "correction": "As soon as head clears, immediately trap one leg between yours and establish frames to prevent guard recovery"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Position recognition and breathing",
+        "description": "Partner establishes gogoplata control at 30% tightness. Practice identifying the position, adjusting chin for breathing space, and maintaining calm composure. No escape attempts yet - purely position familiarization and mental conditioning."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Hip control mechanics",
+        "description": "Partner maintains gogoplata at 50% tightness while you practice establishing hip control and driving their pelvis to the mat. Focus on hand placement on hips and maintaining constant downward pressure while partner offers light resistance."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Complete extraction sequence",
+        "description": "Perform full escape sequence against medium resistance. Partner attempts to re-establish position during your extraction. Practice chaining hip control to foot removal to head extraction to half guard establishment as continuous flow."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live application",
+        "description": "Include escape in positional sparring from gogoplata control. Partner applies full submission pressure while you execute escape. Develop recognition of timing windows and ability to escape under competition-level threat."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary goal of Leg Extraction Escape?",
+        "answer": "The primary goal is to systematically dismantle the gogoplata control configuration by addressing the foot-behind-head anchor point, removing the shin from the throat, and recovering to half guard position. This transforms an immediate submission threat into a manageable guard passing situation."
+      },
+      {
+        "question": "Why does pulling straight backward fail as an escape from gogoplata?",
+        "answer": "Pulling straight backward fails because the foot-behind-head configuration creates a closed loop system. Backward movement actually tightens the choke by pulling the shin harder against the trachea. The structural anchor must be addressed through lateral movement and foot removal first."
+      },
+      {
+        "question": "Your opponent's hips suddenly drop to mat level while maintaining gogoplata - what opportunity does this create?",
+        "answer": "Dropped hips reduce the perpendicular shin angle across your throat, decreasing compression effectiveness. This creates a window to stack forward with pressure, driving weight into them while working to extract your head as the submission loosens. The compromised angle means less threat during your extraction attempt."
+      },
+      {
+        "question": "Where should your hands be positioned during the escape and why?",
+        "answer": "Hands should be positioned on the opponent's hips rather than grabbing at the choking leg. The leg is stronger than your arms making direct pulling ineffective, while hip control prevents them from re-elevating to maintain optimal submission angle. Hip control addresses the root cause rather than fighting symptoms."
+      },
+      {
+        "question": "How do you create breathing space before beginning the escape sequence?",
+        "answer": "Turn your chin slightly toward the attacking leg to reduce direct trachea compression. This small positional adjustment moves the shin off center from the windpipe, creating enough breathing capacity to execute a calm, technical escape rather than panicking under full airway restriction."
+      },
+      {
+        "question": "What position should you immediately secure after successfully extracting your head?",
+        "answer": "Immediately trap one of the opponent's legs between yours to establish half guard. This prevents them from recovering rubber guard or closed guard and threatening immediate re-entry to gogoplata. Establish frames after securing the leg entanglement to complete the positional recovery."
+      },
+      {
+        "question": "Your opponent attempts to transition to triangle as you move your head laterally during extraction - how do you respond?",
+        "answer": "Keep your chin tucked and shoulder tight against their leg during the extraction to prevent triangle entry. If the triangle threatens, immediately posture up and address the new submission using standard triangle defense. The lateral movement should be controlled to minimize triangle exposure."
+      },
+      {
+        "question": "When is the emergency roll to turtle variant appropriate versus the systematic extraction?",
+        "answer": "The emergency roll is only appropriate when the submission is critically tight with severely restricted breathing and no time exists for systematic escape. The roll accepts back exposure risk in exchange for immediately breaking the submission. If you have any breathing capacity, the systematic extraction is preferred to avoid back exposure."
+      },
+      {
+        "question": "Your opponent releases one hand from their foot to grab your wrist during the escape - how do you exploit this?",
+        "answer": "When they release hand control on their own foot, the foot-behind-head anchor weakens significantly. Immediately shift your focus to pushing the now-unsupported foot over your head while using your free hand to maintain hip pressure. Their grip on your wrist is less dangerous than a fully locked gogoplata configuration."
+      },
+      {
+        "question": "What is the critical difference between the stack and extract variant and the standard escape sequence?",
+        "answer": "The stack and extract variant uses forward weight pressure combined with hip driving when the opponent's hips have already dropped to mat level, creating a compression-based extraction. The standard sequence relies on lateral head movement and systematic foot removal without stacking. The stack variant requires compromised hip elevation to be effective."
+      }
+    ],
+    "safety_considerations": "Practice this escape at reduced intensity initially as the gogoplata creates real airway compression that can cause panic responses. Partners should establish clear tap signals before drilling and immediately release upon any tap. When drilling the escape, the bottom player should maintain the position loosely enough to allow successful practice without risk of loss of consciousness. Avoid training this escape when fatigued as poor technique under pressure can lead to neck strain or injury. The emergency roll variant carries additional risk of neck injury if performed incorrectly - only attempt after mastering the basic mechanics."
+  },
+  "defender": {
+    "name": "Leg Extraction Escape Defender",
+    "description": "How to defend against Leg Extraction Escape from gogoplata control in BJJ. Recognition cues, retention strategies, and counter-attacks to maintain submission position.",
+    "overview": "As the gogoplata control holder (bottom player), your objective when the top player initiates a Leg Extraction Escape is to maintain the shin-across-throat configuration and preserve the foot-behind-head anchor that makes the position effective. The defender's role requires constant awareness of the opponent's hand positioning, hip pressure direction, and head angle changes that signal extraction attempts. Early recognition of these cues allows preemptive adjustments that shut down escape pathways before they develop momentum.\n\nThe fundamental defensive strategy centers on maintaining hip elevation and foot depth behind the opponent's head. These two elements form the structural foundation of gogoplata control, and the escape specifically targets both. By actively pulling the foot deeper, re-elevating hips when pressed down, and using hand fighting to prevent the opponent from establishing hip control, the defender can force repeated failed escape attempts that drain the opponent's energy and composure. When the escape progresses despite defensive efforts, transitioning to triangle, omoplata, or back control provides alternative attacking pathways that punish imprecise escape attempts.",
+    "key_principles": [
+      "Maintain constant hip elevation to preserve perpendicular shin angle across the throat - any hip drop reduces submission effectiveness and creates extraction windows",
+      "Actively pull your own foot deeper behind the opponent's head using both hands whenever you feel their extraction attempts beginning",
+      "Monitor opponent's hand positioning on your hips as the primary indicator that systematic extraction is being attempted rather than panicked struggling",
+      "Use your free leg and hip mobility to re-angle and maintain optimal compression geometry when the opponent attempts to change the angle of engagement",
+      "Recognize when gogoplata retention is failing and transition proactively to triangle, omoplata, or back control rather than losing position entirely"
+    ],
+    "recognition_cues": [
+      "Opponent places both hands on your hips rather than grabbing at the choking leg, indicating systematic extraction attempt rather than panic response",
+      "Opponent turns chin toward the attacking leg to create breathing space, signaling they are preparing for a methodical escape sequence",
+      "Opponent begins driving your pelvis toward the mat with steady downward pressure on your hips, attempting to reduce shin compression angle",
+      "Opponent's hand moves toward the foot behind their head, indicating they are targeting the structural anchor point of the position"
+    ],
+    "defensive_options": [
+      {
+        "action": "Re-elevate hips and pull foot deeper behind opponent's head using both hands to reinforce the closed-loop configuration",
+        "when_to_use": "Immediately when you feel downward pressure on your hips or sense the opponent beginning the extraction sequence",
+        "targets_outcome": "Gogoplata Control/Top",
+        "if_successful": "Opponent remains trapped in gogoplata control with renewed submission pressure, forcing them to restart their escape attempt",
+        "risk": "Using both hands on your own foot temporarily releases head control, allowing opponent a brief window for explosive escape"
+      },
+      {
+        "action": "Transition to triangle by switching the choking leg over the opponent's shoulder and locking ankles as they move their head laterally",
+        "when_to_use": "When the opponent has partially extracted their head laterally and the shin is sliding off the throat but their posture is still broken",
+        "targets_outcome": "Gogoplata Control/Bottom",
+        "if_successful": "Opponent is caught in triangle control, converting their escape attempt into a new submission threat from a stronger position",
+        "risk": "If triangle lock is not secured quickly, opponent may posture up and escape both gogoplata and triangle attempt"
+      },
+      {
+        "action": "Release gogoplata and immediately recover closed guard with strong collar and sleeve control before opponent can establish passing position",
+        "when_to_use": "When extraction is nearly complete and continuing to hold risks losing all guard control as opponent powers through to side control",
+        "targets_outcome": "Gogoplata Control/Top",
+        "if_successful": "Opponent lands in closed guard rather than achieving half guard top, maintaining guard retention and enabling immediate re-attack",
+        "risk": "Voluntary release surrenders the submission attempt and opponent may pass before closed guard is fully established"
+      },
+      {
+        "action": "Use hip rotation and core engagement to re-angle the shin as the opponent drives hips down, maintaining perpendicular throat contact despite reduced elevation",
+        "when_to_use": "When the opponent has established strong hip control and is successfully pressing your pelvis toward the mat",
+        "targets_outcome": "Gogoplata Control/Top",
+        "if_successful": "Shin pressure is maintained despite hip drop through angle adjustment, frustrating the escape and potentially increasing compression through the new angle",
+        "risk": "Core fatigue from sustained hip elevation fight may compromise position if the exchange is prolonged"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Gogoplata Control/Top",
+        "how": "Maintain hip elevation and foot depth throughout the opponent's extraction attempt by actively pulling the foot deeper and fighting their hip control with core engagement. Each failed escape attempt increases their fatigue and panic, making the submission finish more likely on subsequent attempts."
+      },
+      {
+        "outcome": "Gogoplata Control/Bottom",
+        "how": "When the escape partially succeeds and the shin slides off the throat, immediately transition to triangle by bringing the opposite leg over the opponent's shoulder. Their lateral head movement during extraction creates the angle needed for triangle entry. Alternatively, if they turn away, redirect to omoplata by controlling their arm across your hip."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Maintaining a static position without actively reinforcing the foot-behind-head anchor when opponent begins extraction",
+        "consequence": "Opponent systematically dismantles the position through incremental hip pressure and foot removal because the defender is not actively fighting to maintain configuration",
+        "correction": "Continuously pull your own foot deeper behind the opponent's head using your hands, treat the position as an active engagement requiring constant adjustment rather than a static hold"
+      },
+      {
+        "error": "Allowing hips to drop to mat level when opponent applies downward pressure on the pelvis",
+        "consequence": "Shin angle becomes parallel to the throat instead of perpendicular, eliminating compression and making head extraction straightforward for the opponent",
+        "correction": "Engage core and bridge hips upward against their pressure, use the leg that is not across the throat to post on the mat and assist hip elevation, prioritize hip height above all other defensive actions"
+      },
+      {
+        "error": "Holding the gogoplata configuration too long when the escape is clearly succeeding instead of transitioning to alternative attacks",
+        "consequence": "Opponent completes extraction to half guard top while you lose both the submission and advantageous guard position, ending in a strictly worse position",
+        "correction": "Recognize when the foot position is compromised beyond recovery and immediately transition to triangle, omoplata, or closed guard recovery rather than clinging to a failing gogoplata"
+      },
+      {
+        "error": "Releasing hand control on own foot to grab opponent's head or arms during the escape attempt",
+        "consequence": "The foot-behind-head anchor loosens without active hand reinforcement, allowing the opponent to push the foot over their head and break the closed-loop system",
+        "correction": "Maintain at least one hand controlling your own foot position at all times, the hands serve the foot configuration first and head control second during escape defense"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the most critical element to maintain when your opponent begins the Leg Extraction Escape?",
+        "answer": "Hip elevation is the most critical element because it determines the shin angle across the throat. When hips drop, the shin becomes parallel to the throat and compression is lost. Active core engagement and bridging against the opponent's downward hip pressure must be the immediate priority before any other defensive adjustment."
+      },
+      {
+        "question": "Your opponent places both hands on your hips and begins pressing downward - what does this indicate and how should you respond?",
+        "answer": "Both hands on hips indicates a systematic leg extraction attempt rather than panicked struggling. Respond by immediately engaging your core to resist the downward pressure, pulling your foot deeper behind their head with both hands, and using your non-choking leg to post on the mat for additional hip elevation support. Their committed hand position means they cannot address the foot behind their head simultaneously."
+      },
+      {
+        "question": "When should you abandon gogoplata retention and transition to an alternative attack?",
+        "answer": "Transition when the foot position behind the opponent's head is compromised beyond recovery, specifically when the foot has been pushed past the crown of their head or their head has moved laterally enough that the shin is no longer across the throat. At this point, maintaining the failing configuration wastes energy and position. Redirect to triangle if their head is still low, or omoplata if they are turning away."
+      },
+      {
+        "question": "How does the triangle transition work when the opponent partially escapes your gogoplata control?",
+        "answer": "As the opponent moves their head laterally and the shin slides off the throat, immediately bring your opposite leg over their shoulder and lock your ankles in a figure-four triangle configuration. The foot that was behind their head assists in securing the triangle lock. Their broken posture from the gogoplata attempt means they enter the triangle already compromised, making this a high-percentage counter-transition."
+      },
+      {
+        "question": "Your opponent successfully pushes your foot over their head with one hand - what is your immediate response?",
+        "answer": "Once the foot clears their head, the gogoplata is structurally broken and cannot be recovered from this position. Immediately switch to plan B: if their head is still between your legs with posture broken, lock up a triangle. If they are posturing away, recover closed guard by bringing both legs inside and locking your ankles. Do not waste time trying to re-establish the foot behind their head as the momentum has shifted."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Gogoplata retention under pressure",
+        "description": "Partner applies progressive hip pressure from gogoplata top position while you focus on maintaining hip elevation and foot depth. Start at 30% resistance and increase to 70%. Develop the core endurance and hand positioning needed to maintain the configuration under sustained downward pressure without attempting to finish the submission."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Recognition and immediate response drilling",
+        "description": "Partner performs each phase of the Leg Extraction Escape sequence at controlled speed. Practice identifying each escape phase through tactile cues and executing the correct defensive response: re-elevating hips when pressed down, pulling foot deeper when addressed, and transitioning to triangle when head moves laterally. Build automatic defensive reactions."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Transition chains from failing gogoplata",
+        "description": "Partner performs full-speed extraction attempts while you practice the decision point between maintaining gogoplata and transitioning to alternative attacks. Drill the gogoplata-to-triangle and gogoplata-to-omoplata transitions under realistic conditions. Develop the timing recognition for when to abandon retention and commit to the transition."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live positional sparring",
+        "description": "Full resistance positional rounds starting in gogoplata control. Top player attempts any escape including leg extraction, emergency rolls, and stacking. Bottom player works retention and transition chains under competition-level pressure. Develop adaptive decision-making and the ability to chain defensive responses with offensive transitions."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Stack and Extract",
+      "description": "When opponent's hips drop to mat level, drive your weight forward in stacking motion while working head extraction. The forward pressure combined with their compromised hip position creates easier extraction angle.",
+      "when_to_use": "When opponent's hips are not elevated and submission pressure is reduced"
+    },
+    {
+      "variant_name": "Foot-First Extraction",
+      "description": "Focus entirely on removing the foot from behind your head before any other movements. Use both hands to push the foot over the top of your head, then extract once the closed loop is broken.",
+      "when_to_use": "When opponent's foot position is shallow and can be addressed directly"
+    },
+    {
+      "variant_name": "Emergency Roll to Turtle",
+      "description": "When submission is critically tight and systematic escape time is unavailable, execute explosive forward roll accepting back exposure. The rolling motion breaks the shin angle and foot position simultaneously.",
+      "when_to_use": "Emergency situations only when breathing is severely restricted"
+    }
+  ],
+  "conditions": [
+    "Caught in gogoplata control with shin across throat and foot secured behind head",
+    "Sufficient breathing capacity to execute systematic escape rather than requiring emergency measures",
+    "Hands free to establish hip control rather than trapped or isolated by opponent",
+    "Mental composure maintained despite airway restriction"
+  ],
+  "position_integration": "The Leg Extraction Escape serves as the primary systematic defense against gogoplata control, bridging the gap between immediate submission danger and positional recovery. This technique integrates with the broader rubber guard defensive system, as gogoplata typically arises from rubber guard, mission control, or similar high guard variations. Success with this escape requires understanding both the submission mechanics being defended and the guard recovery principles being employed. The escape feeds directly into half guard top game, where the passer can work standard half guard passing techniques. Understanding this escape is essential for any practitioner facing flexible guard players, as it provides the methodical pathway out of a position where strength and aggression alone are insufficient."
 }

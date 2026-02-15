@@ -337,7 +337,7 @@ Begin with static positional drills establishing harness control and hook placem
 - [[Position-Over-Submission Approach]] (Principle) - Strategic framework prioritizing dominant position establishment
 - [[Hand Fighting from Back]] (Principle) - Essential skill for removing defensive frames and creating submission access
 - [[Chin Protection]] (Principle) - Understanding opponent's primary defense helps create attack sequences
-- [[Back Escape Series]] (Principle) - Understanding escape mechanics improves attack and control strategies
+- [[Back Door Escape]] (Principle) - Understanding escape mechanics improves attack and control strategies
 - [[Danaher Straight Jacket System]] (System) - Complementary system focusing on front bodylock to back control sequences
 - [[Garry Tonon Leg Lock to Back System]] (System) - Integration approach connecting leg attacks with back take opportunities
 - [[Roger Gracie Fundamental System]] (System) - Traditional approach emphasizing position-based back attacks and basic submissions

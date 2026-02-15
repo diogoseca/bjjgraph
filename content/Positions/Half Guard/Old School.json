@@ -53,7 +53,7 @@
   ],
   "top": {
     "name": "Old School Top",
-    "description": "Master Old School Top in BJJ half guard. Control opponent's lockdown with whizzer and crossface pressure. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
+    "description": "Master Old School Top in BJJ half guard. Control opponent's lockdown with whizzer and crossface pressure while working systematic passes to side control or mount.",
     "tags": [
       "bjj",
       "position",
@@ -178,7 +178,7 @@
         "condition": "If opponent extends whizzered arm to create frames",
         "actions": [
           {
-            "technique": "Kimura from Half Guard",
+            "technique": "Kimura on Trapped Arm",
             "target": "Kimura Trap",
             "probability": 50
           },
@@ -297,33 +297,37 @@
     "transitions": [
       {
         "transition": "Half Guard Pass",
-        "attempt_probability": 22
+        "attempt_probability": 28
       },
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 20
-      },
-      {
-        "transition": "Crossface Pass",
         "attempt_probability": 18
       },
       {
-        "transition": "Side Control to Mount",
-        "attempt_probability": 14
+        "transition": "Crossface Pass",
+        "attempt_probability": 22
       },
       {
-        "transition": "Back Take Generic",
-        "attempt_probability": 14
+        "transition": "Lockdown Break and Pass",
+        "attempt_probability": 18
       },
       {
-        "transition": "Kimura from Half Guard",
-        "attempt_probability": 12
+        "transition": "Darce from Lockdown Counter",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Crossface from Old School",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Defend Old School Sweep",
+        "attempt_probability": 2
       }
     ]
   },
   "bottom": {
     "name": "Old School Bottom",
-    "description": "Master Old School Bottom position in BJJ half guard. Classic 10th Planet sweep with 60% intermediate success rate. Control opponent's head and arm for powerful sweep to mount or back.",
+    "description": "Master Old School Bottom position in BJJ half guard. Classic 10th Planet sweep with lockdown control. Secure underhook and head control for powerful sweep to mount or back.",
     "tags": [
       "bjj",
       "position",
@@ -419,7 +423,7 @@
         "condition": "If opponent extends their trapped leg to clear the lockdown while maintaining forward pressure",
         "actions": [
           {
-            "technique": "Electric Chair Submission",
+            "technique": "Electric Chair Transition",
             "target": "Electric Chair",
             "probability": 60
           },
@@ -454,7 +458,7 @@
             "probability": 70
           },
           {
-            "technique": "Lockdown Sweeps",
+            "technique": "Lockdown Recovery",
             "target": "Half Guard",
             "probability": 50
           }
@@ -582,23 +586,31 @@
     "transitions": [
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 35
+        "attempt_probability": 41
       },
       {
-        "transition": "Lockdown Sweeps",
-        "attempt_probability": 18
-      },
-      {
-        "transition": "Electric Chair Submission",
+        "transition": "Electric Chair Transition",
         "attempt_probability": 15
-      },
-      {
-        "transition": "Underhook Sweep from Half",
-        "attempt_probability": 17
       },
       {
         "transition": "Half Guard to Back Take",
-        "attempt_probability": 15
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Deep Half Entry",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Dogfight Position",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Old School Sweep from Bottom",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Old School to Half Guard",
+        "attempt_probability": 3
       }
     ]
   }

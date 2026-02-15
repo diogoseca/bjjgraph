@@ -369,7 +369,7 @@ Emphasize rapid transitions between eccentric and concentric actions through exe
 - [[Scissor Sweep]] (Transition) - Demonstrates explosive leg extension and pulling mechanics that require rapid force production for successful completion
 - [[Double Leg Finish]] (Transition) - Requires explosive level change and penetration step where speed of execution determines success against defensive reactions
 - [[Technical Stand Up to Single Leg]] (Transition) - Utilizes explosive posting and hip elevation to rapidly achieve standing position from bottom positions
-- [[Granby Roll]] (Transition) - Escape movement requiring explosive rolling action to evade back control and restore guard position
+- [[Granby Roll to Guard]] (Transition) - Escape movement requiring explosive rolling action to evade back control and restore guard position
 - [[Bridge and Shrimp]] (Principle) - Fundamental movement pattern incorporating explosive bridging mechanics essential for escapes and position recovery
 - [[Strength Development]] (Principle) - Prerequisite physical quality providing force production foundation upon which explosive power is built
 - [[Biomechanical Principles]] (Principle) - Governs optimal force application pathways ensuring explosive power is mechanically efficient

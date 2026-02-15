@@ -1,0 +1,139 @@
+{
+  "name": "Toreando from Headquarters",
+  "description": "TODO: Write 150-160 character SEO description for Toreando from Headquarters.",
+  "tags": [
+    "bjj",
+    "transition",
+    "TODO"
+  ],
+  "from_position": "Headquarters Position/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Headquarters Position/Top",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "TODO: Write overview for Toreando from Headquarters.",
+  "conditions": [
+    "TODO"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "TODO",
+      "description": "TODO",
+      "when_to_use": "TODO"
+    }
+  ],
+  "position_integration": "TODO: Write position integration for Toreando from Headquarters.",
+  "related_content": [
+    {
+      "name": "TODO",
+      "relationship": "TODO"
+    }
+  ],
+  "attacker": {
+    "name": "Toreando from Headquarters Attacker",
+    "description": "TODO: Write attacker description for Toreando from Headquarters.",
+    "overview": "TODO: Write attacker overview for Toreando from Headquarters.",
+    "key_principles": [
+      "TODO"
+    ],
+    "setup_requirements": [
+      "TODO"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "TODO",
+        "description": "TODO"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "TODO",
+        "effectiveness": "Medium",
+        "your_response": "TODO",
+        "targets_outcome": "Headquarters Position/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "TODO",
+        "description": "TODO"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "TODO",
+        "answer": "TODO"
+      }
+    ],
+    "safety_considerations": "TODO: Write safety considerations for Toreando from Headquarters."
+  },
+  "defender": {
+    "name": "Toreando from Headquarters Defender",
+    "description": "TODO: Write defender description for Toreando from Headquarters.",
+    "overview": "TODO: Write defender overview for Toreando from Headquarters.",
+    "key_principles": [
+      "TODO"
+    ],
+    "recognition_cues": [
+      "TODO"
+    ],
+    "defensive_options": [
+      {
+        "action": "TODO",
+        "when_to_use": "TODO",
+        "targets_outcome": "Headquarters Position/Top",
+        "if_successful": "TODO",
+        "risk": "TODO"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Side Control/Top",
+        "how": "TODO"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "TODO",
+        "answer": "TODO"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "TODO",
+        "description": "TODO"
+      }
+    ]
+  }
+}

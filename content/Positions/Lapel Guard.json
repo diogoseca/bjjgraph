@@ -304,35 +304,39 @@
     "transitions": [
       {
         "transition": "Lapel Clear to Toreando Pass",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "Backstep Around Worm Guard",
-        "attempt_probability": 14
+        "attempt_probability": 16
       },
       {
         "transition": "Pressure Pass Through Squid",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Knee Slice Despite Lapel",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "Long Step Around Ringworm",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Stack Pass Over Lapel Barrier",
         "attempt_probability": 11
       },
       {
+        "transition": "Knee Slice Despite Lapel",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Long Step Around Ringworm",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Stack Pass Over Lapel Barrier",
+        "attempt_probability": 9
+      },
+      {
         "transition": "Distance Creation to Reset",
-        "attempt_probability": 13
+        "attempt_probability": 8
       },
       {
         "transition": "Leg Drag While Clearing Lapel",
-        "attempt_probability": 12
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Leg Extraction from Lapel Wrap",
+        "attempt_probability": 10
       }
     ]
   },
@@ -586,43 +590,59 @@
     "transitions": [
       {
         "transition": "Worm Guard Entry",
-        "attempt_probability": 11
+        "attempt_probability": 7
       },
       {
         "transition": "Squid Guard Entry",
-        "attempt_probability": 10
+        "attempt_probability": 6
       },
       {
         "transition": "Ringworm Guard Entry",
-        "attempt_probability": 9
+        "attempt_probability": 5
       },
       {
         "transition": "Lapel Sweep to Back",
-        "attempt_probability": 10
+        "attempt_probability": 43
       },
       {
         "transition": "Lapel Omoplata Entry",
-        "attempt_probability": 9
+        "attempt_probability": 6
       },
       {
         "transition": "Lapel Triangle Setup",
-        "attempt_probability": 8
+        "attempt_probability": 5
       },
       {
         "transition": "Lapel to Lasso Transition",
-        "attempt_probability": 11
+        "attempt_probability": 6
       },
       {
         "transition": "Lapel to Spider Transition",
-        "attempt_probability": 12
+        "attempt_probability": 8
       },
       {
         "transition": "Lapel to De La Riva",
-        "attempt_probability": 11
+        "attempt_probability": 6
       },
       {
         "transition": "Lapel Elevator Sweep",
-        "attempt_probability": 9
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Transition to Piranha Guard",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Lapel Guard to Piranha Guard",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Lapel to Lasso Guard",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Lapel to Spider Guard",
+        "attempt_probability": 1
       }
     ]
   }

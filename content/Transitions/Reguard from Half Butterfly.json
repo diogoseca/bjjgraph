@@ -1,0 +1,13 @@
+{
+  "name": "Reguard from Half Butterfly",
+  "description": "",
+  "tags": [],
+  "from_position": "Half Butterfly/Bottom",
+  "outcomes": [
+    {
+      "to": "Butterfly Guard/Bottom",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

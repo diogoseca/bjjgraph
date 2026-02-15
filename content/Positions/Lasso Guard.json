@@ -78,35 +78,51 @@
     "transitions": [
       {
         "transition": "Lasso Guard Pass",
-        "attempt_probability": 20
-      },
-      {
-        "transition": "Stack Pass",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Knee Cut Pass",
-        "attempt_probability": 18
-      },
-      {
-        "transition": "Smash Pass",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Toreando Pass",
         "attempt_probability": 15
       },
       {
-        "transition": "Long Step Pass",
-        "attempt_probability": 8
-      },
-      {
-        "transition": "Leg Weave Pass",
+        "transition": "Stack Pass",
         "attempt_probability": 10
       },
       {
-        "transition": "Kimura from Standing",
-        "attempt_probability": 5
+        "transition": "Knee Cut Pass",
+        "attempt_probability": 34
+      },
+      {
+        "transition": "Smash Pass",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Toreando Pass",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Long Step Pass",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Leg Weave Pass",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Kimura",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Body Lock Pass",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Spider Guard Pass",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Lasso Guard Backstep Pass",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Lasso Guard Stack Pass",
+        "attempt_probability": 1
       }
     ],
     "decision_tree": [
@@ -174,7 +190,7 @@
         "condition": "If opponent over-commits to lasso and exposes their non-lasso arm or neck",
         "actions": [
           {
-            "technique": "Kimura from Standing",
+            "technique": "Kimura",
             "target": "Kimura Trap",
             "probability": 45
           },
@@ -330,36 +346,68 @@
     ],
     "transitions": [
       {
-        "transition": "Lasso Guard Sweeps",
-        "attempt_probability": 25
+        "transition": "Sickle Sweep",
+        "attempt_probability": 60
       },
       {
         "transition": "Triangle Setup",
-        "attempt_probability": 18
+        "attempt_probability": 13
       },
       {
         "transition": "Omoplata Sweep",
-        "attempt_probability": 15
-      },
-      {
-        "transition": "De La Riva Sweep",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Spider Guard Sweeps",
         "attempt_probability": 10
       },
       {
-        "transition": "X-Guard Sweep",
-        "attempt_probability": 8
-      },
-      {
-        "transition": "Armbar from Guard",
+        "transition": "De La Riva Sweep",
         "attempt_probability": 7
       },
       {
-        "transition": "Kimura from Guard",
+        "transition": "Hook Sweep",
         "attempt_probability": 5
+      },
+      {
+        "transition": "X-Guard Sweep",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Armbar Finish",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Kimura Sweep",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Transition to Russian Leg Lasso",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Transition to Inverted Lasso Guard",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Berimbolo Entry",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Guard Recovery",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Lasso Guard to Inverted Lasso Guard",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Lasso Guard to Russian Leg Lasso",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Lasso Sweep",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Omoplata from Lasso",
+        "attempt_probability": 1
       }
     ],
     "decision_tree": [
@@ -367,7 +415,7 @@
         "condition": "If opponent maintains upright posture and attempts to break the sleeve grip while staying at distance",
         "actions": [
           {
-            "technique": "Lasso Guard Sweeps",
+            "technique": "Sickle Sweep",
             "target": "Mount",
             "probability": 60
           },
@@ -387,7 +435,7 @@
             "probability": 50
           },
           {
-            "technique": "Lasso Guard Variations",
+            "technique": "Transition to Inverted Lasso Guard",
             "target": "Inverted Lasso Guard",
             "probability": 45
           }
@@ -412,12 +460,12 @@
         "condition": "If opponent successfully begins to free their arm from the lasso control",
         "actions": [
           {
-            "technique": "Spider Guard Sweeps",
+            "technique": "Hook Sweep",
             "target": "Side Control",
             "probability": 50
           },
           {
-            "technique": "Armbar from Guard",
+            "technique": "Armbar Finish",
             "target": "Armbar Control",
             "probability": 45
           }
@@ -427,12 +475,12 @@
         "condition": "If opponent circles around the lasso leg toward your non-lasso side",
         "actions": [
           {
-            "technique": "Lasso Guard Variations",
+            "technique": "De La Riva Sweep",
             "target": "De La Riva Guard",
             "probability": 60
           },
           {
-            "technique": "Kimura from Guard",
+            "technique": "Kimura Sweep",
             "target": "Kimura Trap",
             "probability": 40
           }
@@ -484,7 +532,7 @@
       },
       {
         "name": "Lasso Sweep Flow Drill",
-        "description": "Partner provides progressive resistance starting at 30% intensity. Execute triangle sweep when they posture up, omoplata sweep when they drive forward, hook sweep when they try to circle. Partner gives appropriate reactions to create opportunities for each sweep variation. Increase resistance as technique improves. Develops timing and recognition of sweep opportunities.",
+        "description": "Partner provides progressive resistance starting at 30% intensity. Execute sickle sweep when they posture up, omoplata sweep when they drive forward, hook sweep when they try to circle. Partner gives appropriate reactions to create opportunities for each sweep variation. Increase resistance as technique improves. Develops timing and recognition of sweep opportunities.",
         "duration": "10 minutes of continuous flow, gradually increasing resistance each round"
       },
       {

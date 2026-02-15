@@ -133,39 +133,87 @@
     "transitions": [
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 23
+        "attempt_probability": 87
       },
       {
         "transition": "Smash Pass",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "Underhook Pass",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "Long Step Pass",
-        "attempt_probability": 7
-      },
-      {
-        "transition": "Crossface Pass",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Kimura from Half Guard",
-        "attempt_probability": 7
-      },
-      {
-        "transition": "Darce Choke",
         "attempt_probability": 6
       },
       {
+        "transition": "Underhook Pass",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Long Step Pass",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Crossface Pass",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Kimura",
+        "attempt_probability": 0
+      },
+      {
         "transition": "Back Step Pass",
-        "attempt_probability": 9
+        "attempt_probability": 0
       },
       {
         "transition": "Crossface to Combat Base",
-        "attempt_probability": 11
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Transition to Double Jump",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Transition to Flattened Half Guard",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Transition to Pocket Half Guard",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Transition to Quarter Guard",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Transition to Triangle Escape Position",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Over-Under Pass",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Headquarters Pass",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Half Guard to Double Jump",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Half Guard to Flattened Half Guard",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Half Guard to Leg Hook",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Half Guard to Pocket Half Guard",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Half Guard to Quarter Guard",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Half Guard to Triangle Escape Position",
+        "attempt_probability": 1
       }
     ],
     "decision_tree": [
@@ -218,7 +266,7 @@
         "condition": "If opponent turns to side and battles for underhook, creating scramble potential",
         "actions": [
           {
-            "technique": "Kimura from Half Guard",
+            "technique": "Kimura",
             "target": "Kimura Trap",
             "probability": 45
           },
@@ -403,39 +451,79 @@
     "transitions": [
       {
         "transition": "Underhook Sweep from Half",
-        "attempt_probability": 19
+        "attempt_probability": 84
       },
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "Deep Half Entry",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "Lockdown Sweeps",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Electric Chair Submission",
         "attempt_probability": 4
       },
       {
+        "transition": "Deep Half Entry",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Lockdown Recovery",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Electric Chair Transition",
+        "attempt_probability": 0
+      },
+      {
         "transition": "Half Guard to Back Take",
-        "attempt_probability": 13
+        "attempt_probability": 3
       },
       {
-        "transition": "Waiter Sweep",
-        "attempt_probability": 9
+        "transition": "Kimura Sweep",
+        "attempt_probability": 1
       },
       {
-        "transition": "Kimura from Half Guard",
-        "attempt_probability": 9
+        "transition": "Knee Shield Retention",
+        "attempt_probability": 1
       },
       {
-        "transition": "Underhook Sweep",
-        "attempt_probability": 11
+        "transition": "Transition to K-Guard",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Transition to Old School",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Guard Recovery",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Dogfight Position",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Transition to Z-Guard",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Back Door Escape from Half Guard",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Deep Half Entry from Half Guard",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Half Guard to K-Guard",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Half Guard to Old School",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Half Guard to X-Guard",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Knee Torque Sweep",
+        "attempt_probability": 1
       }
     ],
     "decision_tree": [
@@ -478,13 +566,13 @@
         "condition": "If opponent attempts to stand or posture up creating distance from your frames",
         "actions": [
           {
-            "technique": "Waiter Sweep",
+            "technique": "Kimura Sweep",
             "target": "Side Control",
             "probability": 60
           },
           {
-            "technique": "Lockdown Sweeps",
-            "target": "Side Control",
+            "technique": "Lockdown Recovery",
+            "target": "Lockdown",
             "probability": 65
           }
         ]
@@ -498,7 +586,7 @@
             "probability": 70
           },
           {
-            "technique": "Electric Chair Submission",
+            "technique": "Electric Chair Transition",
             "target": "Electric Chair",
             "probability": 45
           }
@@ -560,7 +648,7 @@
       },
       {
         "name": "Half Guard Sweep Flow",
-        "description": "Starting from half guard bottom with underhook secured, flow through sequence: Underhook sweep to Old School sweep to Waiter sweep to Deep half entry to Back take. Partner provides 50% resistance. Focus on smooth transitions between techniques and maintaining underhook control throughout sequence.",
+        "description": "Starting from half guard bottom with underhook secured, flow through sequence: Underhook sweep to Old School sweep to Kimura sweep to Deep half entry to Back take. Partner provides 50% resistance. Focus on smooth transitions between techniques and maintaining underhook control throughout sequence.",
         "duration": "10 minutes"
       },
       {
@@ -588,10 +676,6 @@
         "relationship": "Leg entanglement variation using double leg figure-four for posture and sweep control"
       },
       {
-        "name": "Z-Lock Half Guard",
-        "relationship": "Variation using knee shield with shin across opponent's hip for offensive framing"
-      },
-      {
         "name": "Side Control",
         "relationship": "Common pass destination if half guard retention fails against top pressure"
       },
@@ -610,6 +694,10 @@
       {
         "name": "Back Control",
         "relationship": "Advanced position accessible through back take sequences from underhook control"
+      },
+      {
+        "name": "Dogfight Position",
+        "relationship": "Scramble position arising when both players achieve underhooks simultaneously"
       }
     ],
     "position_metrics": {

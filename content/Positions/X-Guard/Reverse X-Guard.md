@@ -21,6 +21,8 @@ Developed as an evolution of traditional X-Guard, Reverse X-Guard offers unique 
 
 The position requires significant core strength, flexibility, and timing to execute effectively. While beginners may struggle with the inverted mechanics and spatial awareness required, intermediate and advanced practitioners can use Reverse X-Guard as a high-percentage sweeping position that flows naturally into dominant positions or submission attacks. From the top perspective, this position requires understanding of leg entanglement defense, base management, and systematic passing approaches to navigate safely while avoiding sweep and submission threats.
 
+Reverse X-Guard has gained prominence in modern competition BJJ as athletes like Marcelo Garcia and the Miyao brothers demonstrated the effectiveness of X-Guard variations at the highest levels. The position serves as a critical node in the modern guard system, connecting De La Riva entries to leg entanglement attacks and high-amplitude sweeps. Understanding both perspectives is essential for any serious competitor or hobbyist who trains against modern guard systems.
+
 </section>
 
 <section id="key-principles" class="content-section">
@@ -93,19 +95,19 @@ The position requires significant core strength, flexibility, and timing to exec
 ### Available Transitions
 
 
-- **[[Reverse X-Guard Sweep]]** (14% of attempts)
+- **[[Reverse X-Guard Sweep]]** (15% of attempts)
 
-- **[[Elevation Sweep to Mount]]** (13% of attempts)
+- **[[Elevation Sweep to Mount]]** (14% of attempts)
 
 - **[[Reverse X to Back Take]]** (12% of attempts)
 
-- **[[Reverse X-Guard to Standard X-Guard]]** (19% of attempts)
+- **[[Reverse X-Guard to Standard X-Guard]]** (18% of attempts)
 
 - **[[Reverse X to Single Leg X Entry]]** (15% of attempts)
 
 - **[[Reverse X to Ashi Garami Entry]]** (13% of attempts)
 
-- **[[Technical Stand Up]]** (14% of attempts)
+- **[[Technical Stand-up]]** (13% of attempts)
 
 
 ### Common Mistakes
@@ -166,17 +168,23 @@ The position requires significant core strength, flexibility, and timing to exec
 ### Available Transitions
 
 
-- **[[Smash Pass]]** (19% of attempts)
+- **[[Smash Pass]]** (30% of attempts)
 
-- **[[Knee Slice Pass]]** (17% of attempts)
+- **[[Knee Slice Pass]]** (13% of attempts)
 
-- **[[Long Step Pass]]** (15% of attempts)
+- **[[Long Step Pass]]** (11% of attempts)
 
-- **[[Leg Drag Pass]]** (17% of attempts)
+- **[[Leg Drag Pass]]** (13% of attempts)
 
-- **[[Butterfly Pass]]** (18% of attempts)
+- **[[Butterfly Pass]]** (14% of attempts)
 
-- **[[Back Step]]** (14% of attempts)
+- **[[Back Step]]** (11% of attempts)
+
+- **[[Backstep Pass from Reverse X-Guard]]** (5% of attempts)
+
+- **[[Knee Slice from Reverse X-Guard]]** (2% of attempts)
+
+- **[[Standing Escape from Reverse X-Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -227,11 +235,11 @@ The position requires significant core strength, flexibility, and timing to exec
 
 - **[[Back Control]]** - High-percentage advancement when opponent disengages
 
-- **[[Seated Guard]]** - Recovery position if Reverse X is broken
+- **[[Open Guard]]** - Recovery position if Reverse X is broken
 
 - **[[Butterfly Guard]]** - Related elevation-based guard with similar mechanics
 
-- **[[Shin-to-Shin Guard]]** - Alternative leg control guard position
+- **[[K-Guard]]** - Modern leg entanglement guard with complementary entries
 
 
 </section>

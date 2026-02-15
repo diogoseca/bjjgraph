@@ -367,7 +367,6 @@ Practice maintaining shield while simultaneously threatening sweeps and back tak
 - [[Frame Management]] (Principle) - Broader concept that encompasses knee shield as specific application of general framing principles
 - [[Guard Retention]] (Principle) - General retention framework that knee shield retention exemplifies in half guard contexts
 - [[Space Management]] (Principle) - Fundamental concept that knee shield retention achieves through frame pressure and distance creation
-- [[Hip Movement]] (Principle) - Essential complementary skill that enables dynamic shield adjustment and recovery capabilities
 
 
 </section>

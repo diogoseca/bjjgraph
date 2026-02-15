@@ -93,17 +93,21 @@ Toe Hold Control occupies a unique space in the leg lock ecosystem, particularly
 ### Available Transitions
 
 
-- **[[Saddle Defense]]** (20% of attempts)
+- **[[Saddle Defense]]** (25% of attempts)
 
-- **[[Ashi Garami Escape]]** (18% of attempts)
+- **[[Ashi Garami Escape]]** (15% of attempts)
 
-- **[[Inside Ashi Entry]]** (17% of attempts)
+- **[[Inside Ashi Entry]]** (14% of attempts)
 
-- **[[X-Guard to Ashi Transition]]** (15% of attempts)
+- **[[X-Guard to Ashi Transition]]** (12% of attempts)
 
-- **[[Guard Replacement]]** (16% of attempts)
+- **[[Guard Recovery]]** (13% of attempts)
 
-- **[[Deep Half Entry]]** (14% of attempts)
+- **[[Deep Half Entry]]** (12% of attempts)
+
+- **[[Boot Defense from Toe Hold]]** (6% of attempts)
+
+- **[[Counter Rotation from Toe Hold]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -168,17 +172,21 @@ Toe Hold Control occupies a unique space in the leg lock ecosystem, particularly
 ### Available Transitions
 
 
-- **[[Toe Hold]]** (17% of attempts)
+- **[[Toe Hold]]** (14% of attempts)
 
-- **[[Outside Ashi Entry]]** (19% of attempts)
+- **[[Outside Ashi Entry]]** (24% of attempts)
 
-- **[[Inside Ashi Entry]]** (17% of attempts)
+- **[[Inside Ashi Entry]]** (14% of attempts)
 
-- **[[Saddle Entry from Top]]** (16% of attempts)
+- **[[Saddle Entry from Top]]** (13% of attempts)
 
-- **[[Straight Ankle Lock]]** (17% of attempts)
+- **[[Ankle Lock Finish]]** (14% of attempts)
 
-- **[[Kneebar from Top]]** (14% of attempts)
+- **[[Kneebar Finish]]** (12% of attempts)
+
+- **[[Toe Hold to Ashi Garami]]** (6% of attempts)
+
+- **[[Toe Hold to Straight Ankle Lock]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -224,8 +232,6 @@ Toe Hold Control occupies a unique space in the leg lock ecosystem, particularly
 - **[[Saddle]]** - Advanced control position when opponent sits up or flexes knee attempting to alleviate toe hold pressure
 
 - **[[50-50 Guard]]** - Symmetrical leg entanglement position offering mutual toe hold and ankle lock opportunities for both practitioners
-
-- **[[Straight Ankle Lock Control]]** - Related ankle attack position with similar leg entanglement but different mechanical submission application
 
 - **[[Kneebar Control]]** - Alternative leg lock target when opponent extends leg straight during escape attempts from toe hold
 

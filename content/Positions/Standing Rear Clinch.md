@@ -20,8 +20,8 @@ description: "Master Standing Rear Clinch in BJJ. Dominant back control from sta
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take Generic",
-      "text": "From this position, attempt Back Take Generic. This technique is attempted in 25% of exchanges from this position.",
+      "name": "Execute Back Take",
+      "text": "From this position, attempt Back Take. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
@@ -38,8 +38,8 @@ description: "Master Standing Rear Clinch in BJJ. Dominant back control from sta
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Snap Down",
-      "text": "From this position, attempt Snap Down. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Snap Down to Front Headlock",
+      "text": "From this position, attempt Snap Down to Front Headlock. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
@@ -50,8 +50,8 @@ description: "Master Standing Rear Clinch in BJJ. Dominant back control from sta
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Single Leg Takedown",
-      "text": "From this position, attempt Single Leg Takedown. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Mat Return to Back Mount",
+      "text": "From this position, attempt Mat Return to Back Mount. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     },
     {
@@ -171,7 +171,7 @@ description: "Master Standing Rear Clinch in BJJ. Dominant back control from sta
 
 <section id="overview" class="content-section">
 
-Standing Rear Clinch is a dominant control position where you establish chest-to-back connection with a standing opponent, typically securing body lock, seatbelt, or collar tie configurations. This position bridges wrestling and Brazilian Jiu-Jitsu, serving as a critical transition point for securing takedowns, back takes, or forcing opponents into inferior ground positions. The standing variant offers unique tactical advantages over ground-based back control, allowing the top player to dictate when and how the engagement transitions to the mat while maintaining dominant positional control.
+Standing Rear Clinch is a dominant control position where you establish chest-to-back connection with a standing opponent, typically securing body lock, seatbelt, or collar tie configurations. This position bridges wrestling and Brazilian Jiu-Jitsu, serving as a critical transition point for securing takedowns, back takes, or forcing opponents into inferior ground positions. The standing variant offers unique tactical advantages over ground-based back control, allowing the controlling player to dictate when and how the engagement transitions to the mat while maintaining dominant positional control.
 
 Strategically, Standing Rear Clinch provides multiple advancement pathways including rear takedowns like mat returns or back steps to establish back control on the ground, bodylock passes if the opponent sits to guard, or standing submission attacks. The position requires sophisticated weight distribution management, hip positioning, and grip fighting to prevent opponents from hand fighting free or executing reversal techniques. Understanding these mechanics is essential for competitors who want to control the pace of standing exchanges and systematically advance to more dominant positions.
 
@@ -222,17 +222,17 @@ The Standing Rear Clinch holds particular importance in no-gi grappling and MMA 
 
 ## Available Techniques and Transitions
 
-### [[Back Take Generic]] (25% of attempts)
+### [[Back Take]] (25% of attempts)
 
 ### [[Body Lock Pass]] (20% of attempts)
 
 ### [[Rolling Back Take]] (15% of attempts)
 
-### [[Snap Down]] (15% of attempts)
+### [[Snap Down to Front Headlock]] (15% of attempts)
 
 ### [[Double Leg Finish]] (10% of attempts)
 
-### [[Single Leg Takedown]] (10% of attempts)
+### [[Mat Return to Back Mount]] (10% of attempts)
 
 ### [[Rear Naked Choke Setup]] (5% of attempts)
 
@@ -246,16 +246,16 @@ The Standing Rear Clinch holds particular importance in no-gi grappling and MMA 
 
 **If opponent sits to guard with back exposed maintaining poor defensive posture:**
 - Execute **[[Body Lock Pass]]** → [[Side Control]] (Probability: 65%)
-- Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 70%)
+- Execute **[[Back Take]]** → [[Back Control]] (Probability: 70%)
 
 
 **If opponent drops to hands and knees attempting turtle defensive position:**
 - Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Body Lock Pass]]** → [[Turtle]] (Probability: 65%)
+- Execute **[[Mat Return to Back Mount]]** → [[Back Control]] (Probability: 65%)
 
 
 **If opponent remains standing and hand fights aggressively to break grips:**
-- Execute **[[Snap Down]]** → [[Front Headlock]] (Probability: 55%)
+- Execute **[[Snap Down to Front Headlock]]** → [[Front Headlock]] (Probability: 55%)
 - Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 58%)
 
 
@@ -265,8 +265,8 @@ The Standing Rear Clinch holds particular importance in no-gi grappling and MMA 
 
 
 **If opponent executes successful hip escape creating separation distance:**
-- Execute **[[Re-establish Control]]** → [[Clinch]] (Probability: 48%)
-- Execute **[[Transition to Front Position]]** → [[Standing Position]] (Probability: 52%)
+- Execute **[[Double Leg Finish]]** → [[Side Control]] (Probability: 48%)
+- Execute **[[Snap Down to Front Headlock]]** → [[Front Headlock]] (Probability: 52%)
 
 
 
@@ -324,7 +324,7 @@ Partner starts in standing rear clinch position with light grips. Bottom person 
 
 ### Takedown Finish Flow Drill
 
-From established standing rear clinch, practice flowing between rolling back take, back step, and snap down techniques. Partner offers moderate resistance but allows technique completion. Focus on proper mechanics, hip positioning, and smooth transitions between techniques. Alternate roles every 10 repetitions.
+From established standing rear clinch, practice flowing between rolling back take, mat return, and snap down techniques. Partner offers moderate resistance but allows technique completion. Focus on proper mechanics, hip positioning, and smooth transitions between techniques. Alternate roles every 10 repetitions.
 
 **Duration**: 10 minutes continuous
 
@@ -372,10 +372,10 @@ Bottom person moves aggressively in all directions (forward, backward, spinning,
 - **[[Body Lock]]** - Specific grip variation and control system used within standing rear clinch
 - **[[Seat Belt Control Back]]** - Ground-based version of similar control structure with comparable grip hierarchy
 - **[[Front Headlock]]** - Alternative standing control if opponent drops level or you execute snap down
-- **[[Turtle]]** - Common transition target when opponent attempts defensive posture on ground
 - **[[Rear Naked Choke]]** - Primary submission threat from this position both standing and on ground
-- **[[Standing Position]]** - Starting neutral position before establishing rear clinch control
 - **[[Side Control]]** - Common destination via bodylock pass when opponent sits to guard
+- **[[Body Lock Pass]]** - Key transition technique for converting rear clinch to ground control
+- **[[Rolling Back Take]]** - High-percentage transition for converting standing rear clinch to seated back control
 
 
 </section>

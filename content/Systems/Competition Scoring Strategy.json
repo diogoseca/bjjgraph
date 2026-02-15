@@ -279,7 +279,7 @@
       "relationship": "Control position for lead preservation and submission threats"
     },
     {
-      "name": "Guard Pass",
+      "name": "Pass to Side Control",
       "content_type": "Transition",
       "relationship": "Primary 3-point scoring action from top position"
     },
@@ -289,7 +289,7 @@
       "relationship": "Strategic opening that sacrifices takedown points for guard game"
     },
     {
-      "name": "Back Take Generic",
+      "name": "Back Take",
       "content_type": "Transition",
       "relationship": "4-point scoring transition to highest value position"
     },

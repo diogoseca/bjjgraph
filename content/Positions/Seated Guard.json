@@ -272,27 +272,43 @@
     "transitions": [
       {
         "transition": "Toreando Pass",
-        "attempt_probability": 19
+        "attempt_probability": 38
       },
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 17
+        "attempt_probability": 12
       },
       {
         "transition": "Long Step Pass",
-        "attempt_probability": 16
+        "attempt_probability": 11
       },
       {
         "transition": "Leg Drag Pass",
-        "attempt_probability": 17
+        "attempt_probability": 12
       },
       {
         "transition": "Stack Pass",
-        "attempt_probability": 16
+        "attempt_probability": 11
       },
       {
         "transition": "Smash Pass",
-        "attempt_probability": 15
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Bodylock Pass from Seated",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Bull Pass from Seated",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Knee Slice from Seated Guard",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Toreando Pass from Seated Guard",
+        "attempt_probability": 1
       }
     ],
     "knowledge_assessment": [

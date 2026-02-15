@@ -20,38 +20,38 @@ description: "Master Crackhead Control Bottom in BJJ. 10th Planet's innovative t
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Turtle to Guard",
-      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Granby Roll to Guard",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll",
-      "text": "From this position, attempt Granby Roll. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Standing up in Base",
+      "text": "From this position, attempt Standing up in Base. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Standup",
-      "text": "From this position, attempt Technical Standup. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Sit Through Escape",
+      "text": "From this position, attempt Sit Through Escape. This technique is attempted in 26% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Sit Through Escape",
-      "text": "From this position, attempt Sit Through Escape. This technique is attempted in 19% of exchanges from this position.",
+      "name": "Execute Peterson Roll",
+      "text": "From this position, attempt Peterson Roll. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Crackhead Control to Carni",
+      "text": "From this position, attempt Crackhead Control to Carni. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape",
-      "text": "From this position, attempt Hip Escape. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Crackhead Control to Mission Control",
+      "text": "From this position, attempt Crackhead Control to Mission Control. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,17 +212,21 @@ Successful execution requires exceptional cardiovascular conditioning and techni
 
 ## Available Escapes
 
-### [[Turtle to Guard]] (18% of attempts)
+### [[Granby Roll to Guard]] (14% of attempts)
 
-### [[Granby Roll]] (15% of attempts)
+### [[Standing up in Base]] (12% of attempts)
 
-### [[Technical Standup]] (17% of attempts)
+### [[Sit Through Escape]] (26% of attempts)
 
-### [[Sit Through Escape]] (19% of attempts)
+### [[Peterson Roll]] (12% of attempts)
 
-### [[Deep Half Entry]] (14% of attempts)
+### [[Crackhead Control to Carni]] (12% of attempts)
 
-### [[Hip Escape]] (17% of attempts)
+### [[Crackhead Control to Mission Control]] (10% of attempts)
+
+### [[Crackhead Control to New York]] (8% of attempts)
+
+### [[Posture Recovery to Closed Guard]] (6% of attempts)
 
 
 
@@ -233,23 +237,23 @@ Successful execution requires exceptional cardiovascular conditioning and techni
 ## Decision Making from This Position
 
 **If opponent attempts to secure seat belt control with both underhooks or cross-face:**
-- Execute **[[Granby Roll]]** → [[Closed Guard]] (Probability: 50%)
+- Execute **[[Granby Roll to Guard]]** → [[Closed Guard]] (Probability: 50%)
 - Execute **[[Sit Through Escape]]** → [[Dogfight Position]] (Probability: 45%)
 
 
 **If opponent commits heavy chest pressure attempting to flatten turtle:**
-- Execute **[[Hip Escape]]** → [[Closed Guard]] (Probability: 55%)
-- Execute **[[Technical Standup]]** → [[Standing Position]] (Probability: 40%)
+- Execute **[[Hip Escape to Guard]]** → [[Closed Guard]] (Probability: 55%)
+- Execute **[[Standing up in Base]]** → [[Clinch]] (Probability: 40%)
 
 
 **If opponent secures single underhook but maintains distance:**
-- Execute **[[Hip Escape]]** → [[Half Guard]] (Probability: 60%)
+- Execute **[[Hip Escape to Guard]]** → [[Half Guard]] (Probability: 60%)
 - Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 35%)
 
 
 **If opponent attacks front headlock or guillotine position:**
-- Execute **[[Technical Standup]]** → [[Standing Position]] (Probability: 50%)
-- Execute **[[Granby Roll]]** → [[Closed Guard]] (Probability: 40%)
+- Execute **[[Standing up in Base]]** → [[Clinch]] (Probability: 50%)
+- Execute **[[Granby Roll to Guard]]** → [[Closed Guard]] (Probability: 40%)
 
 
 
@@ -385,11 +389,11 @@ Continuous flow drill alternating between turtle bottom and various guard positi
 
 - **[[Crackhead Control Top]]** - Opposite perspective - attacking position
 - **[[Turtle]]** - Parent traditional position - less dynamic variation
-- **[[Granby Roll]]** - Primary escape technique from turtle bottom
+- **[[Granby Roll to Guard]]** - Primary escape technique from turtle bottom
 - **[[Dogfight Position]]** - Common transition target for guard recovery
 - **[[Deep Half Guard]]** - Alternative guard recovery option
 - **[[Turtle to Guard]]** - Essential transition for position improvement
-- **[[Technical Standup]]** - Standing escape option from turtle
+- **[[Standing up in Base]]** - Standing escape option from turtle
 - **[[Closed Guard]]** - Primary guard recovery target
 - **[[Half Guard]]** - Alternative guard recovery target
 

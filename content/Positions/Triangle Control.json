@@ -78,27 +78,35 @@
     "transitions": [
       {
         "transition": "Triangle Escape",
-        "attempt_probability": 24
+        "attempt_probability": 22
       },
       {
         "transition": "Posture Recovery",
-        "attempt_probability": 18
+        "attempt_probability": 16
       },
       {
         "transition": "Stack Defense",
-        "attempt_probability": 14
+        "attempt_probability": 12
       },
       {
         "transition": "Guard Recovery",
-        "attempt_probability": 7
+        "attempt_probability": 5
       },
       {
         "transition": "Triangle Clear to Side",
-        "attempt_probability": 7
+        "attempt_probability": 5
       },
       {
         "transition": "Triangle Choke",
-        "attempt_probability": 30
+        "attempt_probability": 37
+      },
+      {
+        "transition": "Posture Up from Triangle",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Stack Escape from Triangle",
+        "attempt_probability": 1
       }
     ],
     "decision_tree": [

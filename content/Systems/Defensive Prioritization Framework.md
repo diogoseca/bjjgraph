@@ -327,10 +327,10 @@ The framework is best developed through progressive resistance drilling that beg
 - [[Mount]] (Position) - Highest priority defensive situation requiring immediate framework application
 - [[Back Control]] (Position) - Maximum threat position with specific defensive protocols within the framework
 - [[Side Control]] (Position) - Medium threat position demonstrating measured defensive response principles
-- [[Elbow Escape]] (Transition) - Primary escape technique from mount and side control central to framework execution
-- [[Frame and Shrimp]] (Transition) - Core defensive movement pattern used across all framework applications
+- [[Elbow Escape to Guard]] (Transition) - Primary escape technique from mount and side control central to framework execution
+- [[Frame and Shrimp to Guard]] (Transition) - Core defensive movement pattern used across all framework applications
 - [[Bridge and Roll]] (Transition) - Essential mount escape within the framework's escape sequencing system
-- [[Technical Standup]] (Transition) - Critical escape option from bottom positions within the defensive priority system
+- [[Technical Stand-up]] (Transition) - Critical escape option from bottom positions within the defensive priority system
 - [[Shrimp Escape]] (Transition) - Fundamental movement creating space for higher-level escapes in the framework
 - [[Frame Management]] (Principle) - Essential defensive skill underlying all framework applications
 - [[Space Creation]] (Principle) - Core defensive principle enabling escape execution throughout the framework

@@ -26,10 +26,6 @@
       "relationship": "Similar concept using butterfly hook in half guard context"
     },
     {
-      "name": "Z-Guard",
-      "relationship": "Related position utilizing Z-configuration leg geometry with different upper body strategies"
-    },
-    {
       "name": "Electric Chair",
       "relationship": "Primary submission threat directly available from Z-Lock configuration"
     },
@@ -38,12 +34,16 @@
       "relationship": "Frequent transition position when opponent attempts to disengage from Z-Lock"
     },
     {
-      "name": "Old School",
-      "relationship": "Classic sweep position accessed from Z-Lock when opponent bases wide"
-    },
-    {
       "name": "Half Guard",
       "relationship": "Parent category - Z-Lock is specialized variation"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Alternative half guard framework with different defensive philosophy"
+    },
+    {
+      "name": "Flattened Half Guard",
+      "relationship": "Worst-case scenario when Z-Lock retention fails against heavy pressure"
     }
   ],
   "top": {
@@ -144,7 +144,7 @@
         "condition": "If opponent turns away from pressure to protect upper body",
         "actions": [
           {
-            "technique": "Back Take Generic",
+            "technique": "Back Take from Top",
             "target": "Back Control",
             "probability": 60
           },
@@ -289,27 +289,43 @@
     "transitions": [
       {
         "transition": "Knee Slice from Half",
-        "attempt_probability": 19
+        "attempt_probability": 28
       },
       {
         "transition": "Underhook Pass",
-        "attempt_probability": 17
+        "attempt_probability": 12
       },
       {
-        "transition": "Back Take Generic",
-        "attempt_probability": 15
+        "transition": "Back Take from Top",
+        "attempt_probability": 13
       },
       {
         "transition": "Smash Pass",
-        "attempt_probability": 19
-      },
-      {
-        "transition": "Side Control to Mount",
         "attempt_probability": 14
       },
       {
         "transition": "Crossface Pass",
-        "attempt_probability": 16
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Half Guard Pass",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Darce Setup",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Lockdown Break and Pass",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Lockdown Break from Z-Lock",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Pass Z-Lock",
+        "attempt_probability": 1
       }
     ]
   },
@@ -401,7 +417,7 @@
             "probability": 55
           },
           {
-            "technique": "Electric Chair Submission",
+            "technique": "Electric Chair Transition",
             "target": "Electric Chair",
             "probability": 45
           }
@@ -416,7 +432,7 @@
             "probability": 60
           },
           {
-            "technique": "Lockdown Sweeps",
+            "technique": "Lockdown Recovery",
             "target": "Side Control",
             "probability": 40
           }
@@ -441,7 +457,7 @@
         "condition": "If opponent attempts to clear lockdown by straightening their trapped leg",
         "actions": [
           {
-            "technique": "Electric Chair Submission",
+            "technique": "Electric Chair Transition",
             "target": "Electric Chair",
             "probability": 65
           },
@@ -525,10 +541,6 @@
         "relationship": "Similar concept using butterfly hook in half guard context"
       },
       {
-        "name": "Old School",
-        "relationship": "High-percentage sweep from Z-Lock when opponent bases wide"
-      },
-      {
         "name": "Half Guard",
         "relationship": "Parent category - Z-Lock is specialized variation"
       },
@@ -539,6 +551,10 @@
       {
         "name": "Old School Sweep",
         "relationship": "Primary sweep transition from Z-Lock bottom"
+      },
+      {
+        "name": "Flattened Half Guard",
+        "relationship": "Worst-case position when Z-Lock retention fails under pressure"
       }
     ],
     "position_metrics": {
@@ -556,27 +572,43 @@
     "transitions": [
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 17
+        "attempt_probability": 30
       },
       {
-        "transition": "Electric Chair Submission",
+        "transition": "Electric Chair Transition",
         "attempt_probability": 14
       },
       {
         "transition": "Butterfly Sweep",
-        "attempt_probability": 18
+        "attempt_probability": 11
       },
       {
         "transition": "Deep Half Entry",
-        "attempt_probability": 19
+        "attempt_probability": 13
       },
       {
-        "transition": "Lockdown Sweeps",
-        "attempt_probability": 15
+        "transition": "Lockdown Recovery",
+        "attempt_probability": 8
       },
       {
         "transition": "Underhook Sweep from Half",
-        "attempt_probability": 17
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Kimura Sweep",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Transition to Z-Guard",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Escape Z-Lock Half Guard",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Sweep from Z-Lock Half Guard",
+        "attempt_probability": 1
       }
     ]
   }

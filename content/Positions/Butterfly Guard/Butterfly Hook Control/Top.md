@@ -4,7 +4,7 @@
 
 ---
 title: "Butterfly Hook Control Top | BJJ Position Guide | BJJ Graph"
-description: "Master Butterfly Hook Control Top in BJJ. Complete guide covering base maintenance, hook removal, and passing strategies. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%."
+description: "Master Butterfly Hook Control Top in BJJ. Complete guide covering base maintenance, hook removal, and passing strategies against active butterfly hooks."
 ---
 
 
@@ -21,37 +21,37 @@ description: "Master Butterfly Hook Control Top in BJJ. Complete guide covering 
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Pass",
-      "text": "From this position, attempt Butterfly Pass. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Smash",
-      "text": "From this position, attempt Butterfly Smash. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Smash. This technique is attempted in 34% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing up in Base",
-      "text": "From this position, attempt Standing up in Base. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Standing up in Base. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Pressure Pass",
-      "text": "From this position, attempt Pressure Pass. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Pressure Pass. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Double Under Pass",
-      "text": "From this position, attempt Double Under Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Double Under Pass. This technique is attempted in 4% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -115,7 +115,7 @@ description: "Master Butterfly Hook Control Top in BJJ. Complete guide covering 
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Butterfly Hook Control Top",
-  "description": "Master Butterfly Hook Control Top in BJJ. Complete guide covering base maintenance, hook removal, and passing strategies. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.",
+  "description": "Master Butterfly Hook Control Top in BJJ. Complete guide covering base maintenance, hook removal, and passing strategies against active butterfly hooks.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -208,21 +208,33 @@ Effective top play requires understanding how to distribute weight to minimize s
 
 ## Available Attacks
 
-### [[Butterfly Pass]] (13% of attempts)
+### [[Butterfly Pass]] (10% of attempts)
 
-### [[Butterfly Smash]] (17% of attempts)
+### [[Butterfly Smash]] (34% of attempts)
 
-### [[Knee Slice Pass]] (12% of attempts)
+### [[Knee Slice Pass]] (10% of attempts)
 
-### [[Standing up in Base]] (14% of attempts)
+### [[Standing up in Base]] (12% of attempts)
 
-### [[Pressure Pass]] (11% of attempts)
+### [[Pressure Pass]] (8% of attempts)
 
-### [[Double Under Pass]] (12% of attempts)
+### [[Double Under Pass]] (4% of attempts)
 
-### [[Leg Weave Pass]] (11% of attempts)
+### [[Leg Weave Pass]] (4% of attempts)
 
-### [[Toreando Pass]] (10% of attempts)
+### [[Toreando Pass]] (2% of attempts)
+
+### [[Back Step Pass]] (4% of attempts)
+
+### [[Body Lock Pass]] (4% of attempts)
+
+### [[Leg Drag Pass]] (4% of attempts)
+
+### [[Over-Under Pass]] (2% of attempts)
+
+### [[Pass Butterfly Hook Control]] (1% of attempts)
+
+### [[Smash from Butterfly Hook Control]] (1% of attempts)
 
 
 
@@ -385,14 +397,12 @@ Start with opponent in butterfly guard with hooks established. Work to pass usin
 
 - **[[Butterfly Guard]]** - Opponent's position - understanding guard mechanics aids passing
 - **[[Combat Base]]** - Foundational posture for engaging butterfly hooks
-- **[[Standing Guard]]** - Alternative position when disengaging from hooks
 - **[[Side Control]]** - Goal position after successful passing
 - **[[Half Guard]]** - Common transition when smashing butterfly hooks
 - **[[Headquarters Position]]** - Intermediate passing position from butterfly
 - **[[Butterfly Pass]]** - Primary passing technique
 - **[[Butterfly Smash]]** - Hook neutralization technique
 - **[[Knee Slice Pass]]** - Counter-sweep passing option
-- **[[Toreando Pass]]** - Alternative passing option when creating distance
 - **[[Double Under Pass]]** - Pressure-based passing option
 - **[[Leg Weave Pass]]** - Control-based passing methodology
 

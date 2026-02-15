@@ -4,7 +4,7 @@
 
 ---
 title: "Spider Guard | BJJ Position Guide | BJJ Graph"
-description: "Master Spider Guard in BJJ. Strategic guide covering when to use spider guard, defensive escapes, and offensive attacks with complete perspective analysis."
+description: "Master Spider Guard in BJJ. Strategic guide covering sleeve control, bicep hooks, sweeps, and submissions from bottom with passing strategies from top."
 ---
 
 
@@ -18,6 +18,8 @@ description: "Master Spider Guard in BJJ. Strategic guide covering when to use s
 Spider Guard is a highly technical open guard position characterized by the bottom player controlling both sleeves of the opponent while placing their feet on the opponent's biceps or elbows, creating strong pushing frames. This guard creates exceptional distance management and posture control, allowing the bottom player to break down the top player's base while setting up sweeps, triangles, and omoplatas. The position derives its name from the resemblance to a spider's legs extending outward with thread-like control of the opponent's arms.
 
 Spider Guard is particularly effective in gi-based competition, where sleeve grips provide mechanical advantage for controlling distance and creating off-balancing opportunities. The position allows the guard player to maintain safe distance while simultaneously threatening attacks, making it difficult for the opponent to establish effective passing pressure. Advanced practitioners use Spider Guard as a hub position, flowing to Lasso Guard, De La Riva Guard, and various other open guard variations.
+
+From the top perspective, facing Spider Guard requires systematic grip breaking, posture management, and strategic passing sequences. The top player must avoid fighting foot pressure with arm strength and instead use distance management, grip-breaking mechanics, and angle changes to neutralize the guard before initiating passes. Understanding both perspectives is critical: the bottom player must maintain tension and create attacking opportunities, while the top player must methodically dismantle the control structure before committing to a passing sequence.
 
 The effectiveness of Spider Guard relies heavily on grip strength, hip mobility, and precise foot placement. When executed correctly, it creates a dilemma for the opponent: maintaining upright posture leaves them vulnerable to sweeps, while attempting to address the feet on biceps creates opportunities for transitions to submission positions. This position is fundamental to modern gi jiu-jitsu and serves as a cornerstone of many competition-focused guard systems.
 
@@ -93,23 +95,29 @@ The effectiveness of Spider Guard relies heavily on grip strength, hip mobility,
 ### Available Transitions
 
 
-- **[[Triangle Setup]]** (11% of attempts)
+- **[[Triangle Setup]]** (34% of attempts)
 
-- **[[Omoplata Sweep]]** (10% of attempts)
+- **[[Omoplata Sweep]]** (9% of attempts)
 
-- **[[Spider Guard Sweeps]]** (11% of attempts)
+- **[[Balloon Sweep]]** (9% of attempts)
 
-- **[[Lasso Guard Sweeps]]** (12% of attempts)
+- **[[Scissor Sweep]]** (8% of attempts)
 
-- **[[De La Riva Sweep]]** (11% of attempts)
+- **[[De La Riva Sweep]]** (8% of attempts)
 
-- **[[Scissor Sweep]]** (12% of attempts)
+- **[[Spider Guard to Omoplata]]** (9% of attempts)
 
-- **[[Armbar from Guard]]** (10% of attempts)
+- **[[Pendulum Sweep]]** (7% of attempts)
 
-- **[[Spider Guard to Omoplata]]** (12% of attempts)
+- **[[Armbar Finish]]** (6% of attempts)
 
-- **[[Spider Guard Pass]]** (11% of attempts)
+- **[[Guard Recovery]]** (6% of attempts)
+
+- **[[Spider Sweep]]** (2% of attempts)
+
+- **[[Spider to Lasso Guard]]** (1% of attempts)
+
+- **[[Triangle from Spider Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -170,19 +178,23 @@ The effectiveness of Spider Guard relies heavily on grip strength, hip mobility,
 ### Available Transitions
 
 
-- **[[Toreando Pass]]** (15% of attempts)
+- **[[Toreando Pass]]** (22% of attempts)
 
-- **[[Leg Drag Pass]]** (15% of attempts)
+- **[[Leg Drag Pass]]** (13% of attempts)
 
-- **[[Knee Slice Pass]]** (15% of attempts)
+- **[[Knee Slice Pass]]** (13% of attempts)
 
-- **[[X Pass]]** (14% of attempts)
+- **[[Long Step Pass]]** (12% of attempts)
 
-- **[[Stack Pass]]** (13% of attempts)
+- **[[Double Under Pass]]** (11% of attempts)
 
-- **[[Long Step Pass]]** (15% of attempts)
+- **[[Leg Weave Pass]]** (11% of attempts)
 
-- **[[Double Under Pass]]** (13% of attempts)
+- **[[Grip Break]]** (10% of attempts)
+
+- **[[Spider Guard Pass]]** (5% of attempts)
+
+- **[[Stack Pass from Spider]]** (3% of attempts)
 
 
 ### Common Mistakes

@@ -4,7 +4,7 @@
 
 ---
 title: "Russian Cowboy Top | BJJ Position Guide | BJJ Graph"
-description: "Offensive guide to mastering Russian Cowboy position. Learn control maintenance, truck entries, and submission setups. Success rates: Beginner 40%, Intermediate 60%, Advanced 80%."
+description: "Offensive guide to mastering Russian Cowboy position. Learn control maintenance, truck entries, and submission setups from single-hook back control."
 ---
 
 
@@ -21,37 +21,37 @@ description: "Offensive guide to mastering Russian Cowboy position. Learn contro
     {
       "@type": "HowToStep",
       "name": "Execute Truck Entry",
-      "text": "From this position, attempt Truck Entry. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Truck Entry. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Twister Finish",
-      "text": "From this position, attempt Twister Finish. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Twister Finish. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Control to Crucifix",
-      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke",
-      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Calf Slicer from Truck",
-      "text": "From this position, attempt Calf Slicer from Truck. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Calf Slicer",
+      "text": "From this position, attempt Calf Slicer. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bow and Arrow Choke",
-      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -115,7 +115,7 @@ description: "Offensive guide to mastering Russian Cowboy position. Learn contro
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Russian Cowboy Top",
-  "description": "Offensive guide to mastering Russian Cowboy position. Learn control maintenance, truck entries, and submission setups. Success rates: Beginner 40%, Intermediate 60%, Advanced 80%.",
+  "description": "Offensive guide to mastering Russian Cowboy position. Learn control maintenance, truck entries, and submission setups from single-hook back control.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -210,21 +210,23 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 
 ## Available Attacks
 
-### [[Truck Entry]] (14% of attempts)
+### [[Truck Entry]] (13% of attempts)
 
-### [[Twister Finish]] (11% of attempts)
+### [[Twister Finish]] (10% of attempts)
 
-### [[Back Control to Crucifix]] (13% of attempts)
+### [[Back Control to Crucifix]] (12% of attempts)
 
-### [[Rear Naked Choke]] (12% of attempts)
+### [[Rear Naked Choke]] (11% of attempts)
 
-### [[Calf Slicer from Truck]] (11% of attempts)
+### [[Calf Slicer]] (10% of attempts)
 
-### [[Bow and Arrow Choke]] (11% of attempts)
+### [[Bow and Arrow Choke]] (10% of attempts)
 
-### [[Turtle to Back Take]] (16% of attempts)
+### [[Turtle to Back Take]] (18% of attempts)
 
-### [[Armbar from Back]] (12% of attempts)
+### [[Armbar from Back Transition]] (11% of attempts)
+
+### [[Russian Cowboy to Back Control]] (5% of attempts)
 
 
 
@@ -246,17 +248,17 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 
 **If opponent turns into you to escape the bottom position:**
 - Execute **[[Turtle to Back Take]]** → [[Back Control]] (Probability: 75%)
-- Execute **[[Rear Naked Choke]]** → [[game-over]] (Probability: 60%)
+- Execute **[[Rear Naked Choke]]** → [[Game Over]] (Probability: 60%)
 
 
 **If opponent extends their far arm to post or create distance:**
-- Execute **[[Armbar from Back]]** → [[Armbar Control]] (Probability: 65%)
+- Execute **[[Armbar from Back Transition]]** → [[Armbar Control]] (Probability: 65%)
 - Execute **[[Back Control to Crucifix]]** → [[Crucifix]] (Probability: 70%)
 
 
 **If opponent flattens out attempting to relieve hook pressure:**
-- Execute **[[Bow and Arrow Choke]]** → [[game-over]] (Probability: 60%)
-- Execute **[[Calf Slicer from Truck]]** → [[Truck]] (Probability: 55%)
+- Execute **[[Bow and Arrow Choke]]** → [[Game Over]] (Probability: 60%)
+- Execute **[[Calf Slicer]]** → [[Truck]] (Probability: 55%)
 
 
 
@@ -314,7 +316,7 @@ Partner starts in bottom turtle position, you establish Russian Cowboy control. 
 
 ### Transition Flow Drill
 
-From Russian Cowboy, practice flowing between related positions: Russian Cowboy → Truck → Back Control → Crucifix → Russian Cowboy. Partner provides moderate resistance. Emphasis on smooth transitions while maintaining control throughout the sequence.
+From Russian Cowboy, practice flowing between related positions: Russian Cowboy to Truck to Back Control to Crucifix to Russian Cowboy. Partner provides moderate resistance. Emphasis on smooth transitions while maintaining control throughout the sequence.
 
 **Duration**: 3 rounds of 3 minutes
 
@@ -397,8 +399,8 @@ Partner in turtle position with moderate defensive posture. Practice entering Ru
 - **[[Turtle]]** - Common starting position for Russian Cowboy entry
 - **[[Crab Ride]]** - Similar back control variant with different hook configuration
 - **[[Twister]]** - Signature submission from this position
-- **[[Truck Entry]]** - Primary offensive transition
-- **[[Calf Slicer from Truck]]** - High-percentage submission available from transition
+- **[[Truck Entry]]** - Primary offensive transition from this position
+- **[[Calf Slicer]]** - High-percentage transition to leg submission from truck pathway
 
 
 </section>

@@ -1,0 +1,142 @@
+{
+  "name": "Americana from Modified Mount",
+  "description": "TODO: Write 150-160 character SEO description for Americana from Modified Mount.",
+  "tags": [
+    "bjj",
+    "transition",
+    "submission",
+    "americana",
+    "shoulder-lock",
+    "mount"
+  ],
+  "from_position": "Modified Mount/Top",
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Modified Mount/Top",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "TODO: Write overview for Americana from Modified Mount.",
+  "conditions": [
+    "TODO"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "TODO",
+      "description": "TODO",
+      "when_to_use": "TODO"
+    }
+  ],
+  "position_integration": "TODO: Write position integration for Americana from Modified Mount.",
+  "related_content": [
+    {
+      "name": "TODO",
+      "relationship": "TODO"
+    }
+  ],
+  "attacker": {
+    "name": "Americana from Modified Mount Attacker",
+    "description": "TODO: Write attacker description for Americana from Modified Mount.",
+    "overview": "TODO: Write attacker overview for Americana from Modified Mount.",
+    "key_principles": [
+      "TODO"
+    ],
+    "setup_requirements": [
+      "TODO"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "TODO",
+        "description": "TODO"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "TODO",
+        "effectiveness": "Medium",
+        "your_response": "TODO",
+        "targets_outcome": "Modified Mount/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "TODO",
+        "description": "TODO"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "TODO",
+        "answer": "TODO"
+      }
+    ],
+    "safety_considerations": "TODO: Write safety considerations for Americana from Modified Mount."
+  },
+  "defender": {
+    "name": "Americana from Modified Mount Defender",
+    "description": "TODO: Write defender description for Americana from Modified Mount.",
+    "overview": "TODO: Write defender overview for Americana from Modified Mount.",
+    "key_principles": [
+      "TODO"
+    ],
+    "recognition_cues": [
+      "TODO"
+    ],
+    "defensive_options": [
+      {
+        "action": "TODO",
+        "when_to_use": "TODO",
+        "targets_outcome": "Modified Mount/Top",
+        "if_successful": "TODO",
+        "risk": "TODO"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Modified Mount/Top",
+        "how": "TODO"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "TODO",
+        "answer": "TODO"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "TODO",
+        "description": "TODO"
+      }
+    ]
+  }
+}

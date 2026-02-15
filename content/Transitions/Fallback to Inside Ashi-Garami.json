@@ -1,0 +1,139 @@
+{
+  "name": "Fallback to Inside Ashi-Garami",
+  "description": "TODO: Write 150-160 character SEO description for Fallback to Inside Ashi-Garami.",
+  "tags": [
+    "bjj",
+    "transition",
+    "TODO"
+  ],
+  "from_position": "Saddle/Top",
+  "outcomes": [
+    {
+      "to": "Inside Ashi-Garami/Top",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Saddle/Top",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "TODO: Write overview for Fallback to Inside Ashi-Garami.",
+  "conditions": [
+    "TODO"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "TODO",
+      "description": "TODO",
+      "when_to_use": "TODO"
+    }
+  ],
+  "position_integration": "TODO: Write position integration for Fallback to Inside Ashi-Garami.",
+  "related_content": [
+    {
+      "name": "TODO",
+      "relationship": "TODO"
+    }
+  ],
+  "attacker": {
+    "name": "Fallback to Inside Ashi-Garami Attacker",
+    "description": "TODO: Write attacker description for Fallback to Inside Ashi-Garami.",
+    "overview": "TODO: Write attacker overview for Fallback to Inside Ashi-Garami.",
+    "key_principles": [
+      "TODO"
+    ],
+    "setup_requirements": [
+      "TODO"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "TODO",
+        "description": "TODO"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "TODO",
+        "effectiveness": "Medium",
+        "your_response": "TODO",
+        "targets_outcome": "Saddle/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "TODO",
+        "description": "TODO"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "TODO",
+        "answer": "TODO"
+      }
+    ],
+    "safety_considerations": "TODO: Write safety considerations for Fallback to Inside Ashi-Garami."
+  },
+  "defender": {
+    "name": "Fallback to Inside Ashi-Garami Defender",
+    "description": "TODO: Write defender description for Fallback to Inside Ashi-Garami.",
+    "overview": "TODO: Write defender overview for Fallback to Inside Ashi-Garami.",
+    "key_principles": [
+      "TODO"
+    ],
+    "recognition_cues": [
+      "TODO"
+    ],
+    "defensive_options": [
+      {
+        "action": "TODO",
+        "when_to_use": "TODO",
+        "targets_outcome": "Saddle/Top",
+        "if_successful": "TODO",
+        "risk": "TODO"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Inside Ashi-Garami/Top",
+        "how": "TODO"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "TODO",
+        "answer": "TODO"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "TODO",
+        "description": "TODO"
+      }
+    ]
+  }
+}

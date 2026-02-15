@@ -21,37 +21,37 @@ description: "Attack from Buggy Choke position. Complete offensive guide coverin
     {
       "@type": "HowToStep",
       "name": "Execute Finish Buggy Choke",
-      "text": "From this position, attempt Finish Buggy Choke. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Finish Buggy Choke. This technique is attempted in 45% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Aoki Lock to Back Control",
-      "text": "From this position, attempt Aoki Lock to Back Control. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Hook Leg and Take Back",
+      "text": "From this position, attempt Hook Leg and Take Back. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hook Leg and Take Back",
-      "text": "From this position, attempt Hook Leg and Take Back. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Roll to Truck",
+      "text": "From this position, attempt Roll to Truck. This technique is attempted in 7% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Aoki Lock to Crucifix",
-      "text": "From this position, attempt Aoki Lock to Crucifix. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Switch to Darce Configuration",
+      "text": "From this position, attempt Switch to Darce Configuration. This technique is attempted in 4% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Roll to Truck",
-      "text": "From this position, attempt Roll to Truck. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Switch to Anaconda Configuration",
+      "text": "From this position, attempt Switch to Anaconda Configuration. This technique is attempted in 2% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Switch to Darce Configuration",
-      "text": "From this position, attempt Switch to Darce Configuration. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Buggy Choke to Front Headlock",
+      "text": "From this position, attempt Buggy Choke to Front Headlock. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,25 +210,29 @@ From a technical perspective, the buggy choke teaches important principles about
 
 ## Available Attacks
 
-### [[Finish Buggy Choke]] (11% of attempts)
+### [[Finish Buggy Choke]] (45% of attempts)
 
-### [[Aoki Lock to Back Control]] (11% of attempts)
+### [[Hook Leg and Take Back]] (17% of attempts)
 
-### [[Hook Leg and Take Back]] (11% of attempts)
+### [[Roll to Truck]] (7% of attempts)
 
-### [[Aoki Lock to Crucifix]] (10% of attempts)
+### [[Switch to Darce Configuration]] (4% of attempts)
 
-### [[Roll to Truck]] (9% of attempts)
+### [[Switch to Anaconda Configuration]] (2% of attempts)
 
-### [[Switch to Darce Configuration]] (8% of attempts)
+### [[Buggy Choke to Front Headlock]] (5% of attempts)
 
-### [[Switch to Anaconda Configuration]] (8% of attempts)
+### [[Turtle Flatten to Side Control]] (7% of attempts)
 
-### [[Buggy Choke to Side Control]] (12% of attempts)
+### [[Guillotine from Turtle]] (2% of attempts)
 
-### [[Rolling Back Take]] (10% of attempts)
+### [[Crucifix from Turtle]] (10% of attempts)
 
-### [[Buggy Choke to Front Headlock]] (10% of attempts)
+### [[Buggy Choke to North-South]] (0% of attempts)
+
+### [[Buggy Choke to Side Control]] (0% of attempts)
+
+### [[Grip Strip from Buggy Choke]] (1% of attempts)
 
 
 

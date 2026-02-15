@@ -208,7 +208,7 @@ Energy Conservation is a critical strategic principle in Brazilian Jiu-Jitsu tha
 
 **Turtle**: Highly efficient defensive position requiring minimal energy to maintain while allowing controlled breathing and recovery between exchanges
 
-**Guard Pass**: Use pressure and patience rather than explosive scrambles, forcing defender to expend energy while passer maintains structural control
+**Headquarters Position**: Use pressure and patience rather than explosive scrambles, forcing defender to expend energy while passer maintains structural control from standing headquarters
 
 **Open Guard**: Strategic guard pulling to avoid high-energy standup exchanges when grappling is preferred or when energy conservation is prioritized
 

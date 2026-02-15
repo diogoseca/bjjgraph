@@ -97,19 +97,19 @@ Understanding the Gift Wrap requires recognizing it as part of a larger back att
 ### Available Transitions
 
 
-- **[[Gift Wrap Arm Recovery]]** (17% of attempts)
+- **[[Gift Wrap Arm Recovery]]** (20% of attempts)
 
-- **[[Hip Escape to Guard]]** (14% of attempts)
+- **[[Hip Escape to Guard]]** (17% of attempts)
 
 - **[[Roll to Turtle]]** (16% of attempts)
 
-- **[[Technical Stand Up]]** (12% of attempts)
+- **[[Technical Stand-up]]** (10% of attempts)
 
 - **[[Counter Roll to Top]]** (9% of attempts)
 
-- **[[Granby Roll Escape]]** (12% of attempts)
+- **[[Granby Roll to Guard]]** (12% of attempts)
 
-- **[[Submission Escape Protocol]]** (20% of attempts)
+- **[[Shrimp Escape]]** (16% of attempts)
 
 
 ### Common Mistakes

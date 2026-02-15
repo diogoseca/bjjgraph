@@ -352,9 +352,9 @@ Purple belt progression requires structured drilling that emphasizes repetition,
 - [[Triangle Setup]] (Transition) - Fundamental submission entry teaching angle creation and arm isolation from guard
 - [[Knee Slice Pass]] (Transition) - Systematic guard pass requiring understanding of pressure, base, and guard retention counters
 - [[Side Control Escape]] (Transition) - Essential defensive sequence requiring frame creation and hip escape mechanics
-- [[Elbow Escape]] (Transition) - Fundamental escape from mount and side control teaching shrimping and guard recovery
-- [[Guard Pass]] (Transition) - Generic passing principles applicable across multiple guard types requiring systematic development
-- [[Back Take Generic]] (Transition) - Universal back-taking principles applicable from multiple positions and situations
+- [[Elbow Escape to Guard]] (Transition) - Fundamental escape from mount and side control teaching shrimping and guard recovery
+- [[Pass to Side Control]] (Transition) - Generic passing principles applicable across multiple guard types requiring systematic development
+- [[Back Take]] (Transition) - Universal back-taking principles applicable from multiple positions and situations
 - [[Positional Hierarchy]] (Principle) - Fundamental concept governing strategic decision-making and position advancement priorities
 - [[Guard Retention]] (Principle) - Critical defensive concept preventing opponent from passing and establishing dominant positions
 - [[Guard Passing]] (Principle) - Systematic approach to defeating guards through posture, pressure, and connection breaking

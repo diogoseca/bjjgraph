@@ -120,7 +120,7 @@
         "condition": "Else if opponent sets up triangle by opening guard wider",
         "actions": [
           {
-            "technique": "Guard Pass",
+            "technique": "Knee Cut Pass",
             "target": "Side Control",
             "probability": 70
           },
@@ -309,27 +309,35 @@
     "transitions": [
       {
         "transition": "Arm Extraction",
-        "attempt_probability": 18
+        "attempt_probability": 15
       },
       {
         "transition": "Stack Pass",
-        "attempt_probability": 16
+        "attempt_probability": 13
       },
       {
         "transition": "Pressure Pass",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Knee Cut Pass",
         "attempt_probability": 14
       },
       {
-        "transition": "Guard Pass",
-        "attempt_probability": 17
-      },
-      {
         "transition": "Posture Recovery",
-        "attempt_probability": 19
+        "attempt_probability": 24
       },
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 16
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Posture from Williams Guard",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Stack from Williams Guard",
+        "attempt_probability": 3
       }
     ]
   },
@@ -368,7 +376,7 @@
         "condition": "If opponent defends shoulder lock by pulling arm back aggressively",
         "actions": [
           {
-            "technique": "Rolling Armbar",
+            "technique": "Armbar Finish",
             "target": "Armbar Control",
             "probability": 60
           },
@@ -418,7 +426,7 @@
             "probability": 75
           },
           {
-            "technique": "Back Take Generic",
+            "technique": "Back Take from Bottom",
             "target": "Back Control",
             "probability": 60
           }
@@ -540,7 +548,7 @@
       },
       {
         "question": "Your opponent starts to posture up and pull their arm back forcefully—what adjustment do you make?",
-        "answer": "An aggressive arm pull is your trigger for the rolling armbar or omoplata transition. Follow their motion rather than fighting it—as they pull back, use their momentum to rotate into the omoplata by swinging your leg over their shoulder. Alternatively, if their elbow is exposed, transition to armbar control. The key is reading their defensive energy and redirecting it into your attack rather than trying to hold static position."
+        "answer": "An aggressive arm pull is your trigger for the armbar finish or omoplata transition. Follow their motion rather than fighting it—as they pull back, use their momentum to rotate into the omoplata by swinging your leg over their shoulder. Alternatively, if their elbow is exposed, transition to armbar control. The key is reading their defensive energy and redirecting it into your attack rather than trying to hold static position."
       },
       {
         "question": "How do you maintain Williams Guard when opponent drives forward with heavy pressure?",
@@ -582,31 +590,35 @@
     "transitions": [
       {
         "transition": "Williams Shoulder Lock",
-        "attempt_probability": 14
+        "attempt_probability": 13
       },
       {
         "transition": "Omoplata Sweep",
-        "attempt_probability": 16
+        "attempt_probability": 15
       },
       {
         "transition": "Triangle Setup",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "Closed Guard to Omoplata",
         "attempt_probability": 18
       },
       {
-        "transition": "Back Take Generic",
-        "attempt_probability": 12
+        "transition": "Back Take from Bottom",
+        "attempt_probability": 11
       },
       {
         "transition": "Kimura to Back Take",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Armbar Finish",
         "attempt_probability": 13
       },
       {
-        "transition": "Rolling Armbar",
-        "attempt_probability": 14
+        "transition": "Williams Guard Sweep",
+        "attempt_probability": 6
       }
     ]
   }

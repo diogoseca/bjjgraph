@@ -20,14 +20,14 @@ description: "Master Shoulder of Justice Top in BJJ. Complete offensive guide wi
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura from Side Control",
-      "text": "From this position, attempt Kimura from Side Control. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Kimura",
+      "text": "From this position, attempt Kimura. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Americana from Side Control",
-      "text": "From this position, attempt Americana from Side Control. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Americana",
+      "text": "From this position, attempt Americana. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
@@ -209,9 +209,9 @@ The Shoulder of Justice Top is characterized by driving your shoulder blade deep
 
 ## Available Attacks
 
-### [[Kimura from Side Control]] (16% of attempts)
+### [[Kimura]] (16% of attempts)
 
-### [[Americana from Side Control]] (14% of attempts)
+### [[Americana]] (14% of attempts)
 
 ### [[Side Control to Mount]] (15% of attempts)
 
@@ -221,7 +221,7 @@ The Shoulder of Justice Top is characterized by driving your shoulder blade deep
 
 ### [[North-South Choke]] (12% of attempts)
 
-### [[Position Change]] (15% of attempts)
+### [[Knee on Belly]] (15% of attempts)
 
 
 
@@ -232,18 +232,18 @@ The Shoulder of Justice Top is characterized by driving your shoulder blade deep
 ## Decision Making from This Position
 
 **If opponent attempts to create frames or push away with near-side arm to relieve pressure:**
-- Execute **[[Kimura from Side Control]]** → [[Kimura Trap]] (Probability: 72%)
-- Execute **[[Americana from Side Control]]** → [[Armbar Control]] (Probability: 67%)
+- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 72%)
+- Execute **[[Americana]]** → [[Armbar Control]] (Probability: 67%)
 
 
 **If opponent shrimps away or attempts to recover guard by creating distance:**
 - Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 77%)
-- Execute **[[Side Control to Mount]]** → [[Knee on Belly]] (Probability: 70%)
+- Execute **[[Knee on Belly]]** → [[Knee on Belly]] (Probability: 70%)
 
 
 **If opponent turns toward you to escape shoulder pressure or go to turtle:**
 - Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 82%)
-- Execute **[[Position Change]]** → [[Scarf Hold Position]] (Probability: 74%)
+- Execute **[[Back Take from Top]]** → [[Back Control]] (Probability: 74%)
 
 
 **If opponent brings far arm across to defend face from shoulder pressure:**
@@ -253,7 +253,7 @@ The Shoulder of Justice Top is characterized by driving your shoulder blade deep
 
 **If opponent flattens out completely and stops resisting to conserve energy:**
 - Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 80%)
-- Execute **[[Kimura from Side Control]]** → [[Kimura Trap]] (Probability: 68%)
+- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 68%)
 
 
 
@@ -410,8 +410,8 @@ Partner in bottom position actively moves their head to different defensive posi
 - **[[North-South]]** - Common transition target from pressure-induced turning reactions
 - **[[Kimura Trap]]** - Primary submission control when opponent frames with near arm
 - **[[Mount]]** - Position advancement target when opponent turns or shrimps away
-- **[[Kimura from Side Control]]** - Primary offensive technique - highest percentage submission from this position
-- **[[Americana from Side Control]]** - Secondary submission option when near arm is isolated and trapped
+- **[[Kimura]]** - Primary offensive technique - highest percentage submission from this position
+- **[[Americana]]** - Secondary submission option when near arm is isolated and trapped
 
 
 </section>

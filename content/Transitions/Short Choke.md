@@ -2,148 +2,13 @@
 
 
 
-
 ---
 title: "Short Choke | BJJ Technique | BJJ Graph"
 description: "Master Short Choke from back control in BJJ. Compact collar strangle finishing when opponent defends RNC. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%."
 ---
 
 
-<body data-content-type="transitions">
-
-<!-- Schema Markup - Auto-generated from JSON -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Execute Short Choke in BJJ",
-  "description": "Step-by-step guide for Short Choke from Body Triangle/Bottom. Possible outcomes: game-over (65%), Body Triangle (25%), Back Control (10%).",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Secure collar grip",
-      "text": "With your top arm (over-shoulder arm in seatbelt), reach across opponent's neck and grip their collar as deep as possible behind their neck, thumb inside the collar, palm facing down toward the mat",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Position forearm blade",
-      "text": "Rotate your wrist so your forearm blade (the bony edge of your forearm near the wrist) is positioned across the side of opponent's neck, targeting the carotid artery rather than the windpipe",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Control defending hand",
-      "text": "Use your non-choking hand to trap opponent's hand that's defending their neck by controlling their wrist or pinning it to their body, preventing them from inserting fingers to relieve pressure",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Tighten body triangle",
-      "text": "Increase squeeze pressure with your body triangle to restrict their breathing and core movement, creating multiple pressure points that compound the choke's effectiveness and prevent escape",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Pull elbow down",
-      "text": "Drive your choking elbow down toward your hip in a circular motion while keeping the grip locked deep in the collar, this pulls the collar tighter and increases forearm pressure on the neck",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Expand and finish",
-      "text": "Arch your back slightly and expand your chest while continuing the downward elbow pressure, creating a pincer effect between your forearm and the collar that cuts off blood flow to the brain",
-      "position": 6
-    }
-  ],
-  "tool": ["BJJ Gi or No-Gi attire", "Training partner", "Mat space"],
-  "totalTime": "PT5M"
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the primary goal of the Short Choke from body triangle?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The primary goal is to finish the opponent with a blood choke by applying forearm pressure across the carotid artery while using the collar grip as an anchor point. It serves as a high-percentage alternative when the opponent successfully defends the rear naked choke by tucking their chin."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What position do you start Short Choke from?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "This technique starts from back control with body triangle established, specifically from the bottom perspective where you are the attacker with your legs locked around the opponent's torso and your chest against their back."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the key grips needed for Short Choke?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The primary grip is a deep collar grip behind the opponent's neck with your thumb inside the collar and palm facing down. The grip should be as deep as possible, ideally at skull-base level. Your secondary hand controls the opponent's defending arm or can establish a second collar grip for the double-collar variation."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Your opponent is grip-fighting aggressively with both hands to strip your collar grip - what opening does this create?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When both hands are occupied with grip fighting, their arms become exposed for attack. You should immediately transition to an armbar attempt by isolating one of the reaching arms. Their focus on stopping the choke creates the submission opportunity on a different limb."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why is driving your elbow toward your hip more effective than pulling straight back?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The circular elbow-to-hip motion creates a mechanical advantage by engaging your lat muscles and back rather than relying on arm strength alone. This motion tightens the collar progressively while angling the forearm blade more effectively across the neck, requiring less strength while generating more pressure."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How should you position your forearm blade for maximum effectiveness?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Position the bony edge of your forearm near the wrist across the lateral side of the neck where the carotid artery runs, not across the windpipe. This creates a blood choke that restricts blood flow to the brain, which finishes faster and cleaner than a trachea crush that opponents can often endure through discomfort."
-      }
-    }
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Short Choke",
-  "description": "Master Short Choke from back control in BJJ. Compact collar strangle finishing when opponent defends RNC. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
-  "url": "https://bjjgraph.org/Transitions/Short-Choke",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.org"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
-    {"@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/"},
-    {"@type": "ListItem", "position": 3, "name": "Short Choke", "item": "https://bjjgraph.org/Transitions/Short-Choke"}
-  ]
-}
-</script>
+<body data-content-type="transitions-hub">
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -156,7 +21,7 @@ The technique capitalizes on the stability provided by the body triangle, which 
 
 Strategically, the Short Choke fits into a systematic back attack game where you cycle between RNC attempts and collar chokes based on the opponent's defensive reactions. When they defend one attack, it often opens the other. The Short Choke is particularly effective in gi competition where collar access is readily available, and it requires less physical exertion than fighting for the deep RNC position. Elite practitioners use this choke as part of a continuous threat cycle that eventually overwhelms the defender's ability to protect all attack vectors simultaneously.
 
-**From Position**: [[Body Triangle/Bottom]]
+**From Position**: [[Body Triangle]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -174,107 +39,133 @@ Strategically, the Short Choke fits into a systematic back attack game where you
 
 </section>
 
+<section class="content-section">
+
+## Attacker vs Defender
+
+| &nbsp; | Attacker | Defender |
+|--------|----------|----------|
+| **Focus** | Execute technique | Prevent or counter |
+| **Key Principles** | Collar grip depth determines choke effectiveness - the deepe... | Protect the collar first - preventing the deep grip behind y... |
+| **Options** | 6 execution steps | 4 defensive options |
+
+</section>
+
+<section id="attacker-summary" class="content-section">
+
+## Playing as Attacker
+
+[[Short Choke/Attacker|→ Full Attacker Guide]]
+
+### Key Principles
 
 
-<section id="key-principles" class="content-section">
-
-## Key Principles
 - Collar grip depth determines choke effectiveness - the deeper behind the neck you grip, the more powerful the strangle becomes
+
 - Use the body triangle squeeze to restrict breathing and create urgency that forces defensive mistakes opening collar access
+
 - Forearm blade placement across the throat is critical - aim for the side of the neck rather than the trachea for blood choke effect
+
 - Maintain chest-to-back connection throughout the attack to prevent opponent from creating space or turning to escape
+
 - Coordinate pulling elbow down toward your hip while expanding chest to maximize choking pressure without excessive strength
+
 - Use your non-choking hand to control opponent's defending hand or assist the choke by pushing their head into the strangle
 
 
-</section>
-
-<section id="setup-requirements" class="content-section">
-
-## Prerequisites
-- Established back control with body triangle locked around opponent's torso at lower ribcage level
-- Gi collar access on at least one side - ideally the collar on the same side as your top arm in seatbelt position
-- Opponent's chin tucked or hands defending neck, preventing clean RNC entry
-- Chest-to-back connection maintained with minimal space between your torso and their upper back
-- Non-choking arm controlling opponent's defending arm or establishing secondary collar grip
+### Execution Steps
 
 
-</section>
+- **Secure collar grip**: With your top arm (over-shoulder arm in seatbelt), reach across opponent's neck and grip their colla...
 
-<section id="execution-steps" class="content-section">
+- **Position forearm blade**: Rotate your wrist so your forearm blade (the bony edge of your forearm near the wrist) is positioned...
 
-## Execution Steps
-1. **Secure collar grip**: With your top arm (over-shoulder arm in seatbelt), reach across opponent's neck and grip their collar as deep as possible behind their neck, thumb inside the collar, palm facing down toward the mat
-2. **Position forearm blade**: Rotate your wrist so your forearm blade (the bony edge of your forearm near the wrist) is positioned across the side of opponent's neck, targeting the carotid artery rather than the windpipe
-3. **Control defending hand**: Use your non-choking hand to trap opponent's hand that's defending their neck by controlling their wrist or pinning it to their body, preventing them from inserting fingers to relieve pressure
-4. **Tighten body triangle**: Increase squeeze pressure with your body triangle to restrict their breathing and core movement, creating multiple pressure points that compound the choke's effectiveness and prevent escape
-5. **Pull elbow down**: Drive your choking elbow down toward your hip in a circular motion while keeping the grip locked deep in the collar, this pulls the collar tighter and increases forearm pressure on the neck
-6. **Expand and finish**: Arch your back slightly and expand your chest while continuing the downward elbow pressure, creating a pincer effect between your forearm and the collar that cuts off blood flow to the brain
+- **Control defending hand**: Use your non-choking hand to trap opponent's hand that's defending their neck by controlling their w...
+
+- **Tighten body triangle**: Increase squeeze pressure with your body triangle to restrict their breathing and core movement, cre...
+
+- **Pull elbow down**: Drive your choking elbow down toward your hip in a circular motion while keeping the grip locked dee...
+
+- **Expand and finish**: Arch your back slightly and expand your chest while continuing the downward elbow pressure, creating...
 
 
-</section>
+### Common Mistakes
 
-<section id="common-counters" class="content-section">
 
-## Opponent Counters
-- **Two-on-one grip fighting where opponent uses both hands to strip your collar grip before the choke tightens** (Effectiveness: High) - Your Response: Transition immediately to armbar on the exposed arm since both their hands are occupied with grip breaking
-- **Turning into you by rotating toward the choking arm to reduce pressure angle and create space** (Effectiveness: Medium) - Your Response: Follow the turn and transition to bow and arrow choke as their rotation gives you better pulling angle
-- **Tucking chin extremely deep and hunching shoulders to create barrier against forearm blade** (Effectiveness: Medium) - Your Response: Use non-choking hand to push their forehead and extend their neck, or switch to clock choke variation
-- **Bridge and roll attempt to reverse position while defending the choke** (Effectiveness: Low) - Your Response: Body triangle prevents effective rolling - increase squeeze and continue choke finish
+- **Gripping collar too shallow near the shoulder rather than deep behind the neck**
+  - Consequence: Choke lacks power and opponent can easily strip grip or create space to breathe
+  - Correction: Walk fingers deep into collar behind neck before applying pressure, aim for grip at base of skull level
+
+- **Positioning forearm across windpipe instead of side of neck targeting carotid**
+  - Consequence: Creates painful trachea crush that opponent can endure longer, may cause injury rather than clean blood choke
+  - Correction: Angle forearm to attack lateral neck where carotid artery runs, creating blood choke that finishes faster and cleaner
+
+- **Releasing body triangle pressure while focusing on upper body choke**
+  - Consequence: Opponent gains hip mobility to turn, bridge, or create escape angles that relieve choke pressure
+  - Correction: Maintain or increase body triangle squeeze during choke - the leg pressure amplifies upper body attack effectiveness
 
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="defender-summary" class="content-section">
 
-## Common Mistakes
-- **Mistake**: Gripping collar too shallow near the shoulder rather than deep behind the neck
-  - **Consequence**: Choke lacks power and opponent can easily strip grip or create space to breathe
-  - **Correction**: Walk fingers deep into collar behind neck before applying pressure, aim for grip at base of skull level
-- **Mistake**: Positioning forearm across windpipe instead of side of neck targeting carotid
-  - **Consequence**: Creates painful trachea crush that opponent can endure longer, may cause injury rather than clean blood choke
-  - **Correction**: Angle forearm to attack lateral neck where carotid artery runs, creating blood choke that finishes faster and cleaner
-- **Mistake**: Releasing body triangle pressure while focusing on upper body choke
-  - **Consequence**: Opponent gains hip mobility to turn, bridge, or create escape angles that relieve choke pressure
-  - **Correction**: Maintain or increase body triangle squeeze during choke - the leg pressure amplifies upper body attack effectiveness
-- **Mistake**: Pulling collar straight back rather than driving elbow down toward hip
-  - **Consequence**: Inefficient mechanics that require excessive strength and allow opponent time to defend
-  - **Correction**: Use circular elbow-to-hip motion that leverages your back muscles and creates mechanical advantage
-- **Mistake**: Neglecting to control opponent's defending hands before finishing
-  - **Consequence**: Opponent inserts fingers under collar or forearm, creating space that defeats the choke
-  - **Correction**: Always address defending hands first - trap, pin, or use them as armbar bait before committing to finish
-- **Mistake**: Allowing space to develop between your chest and opponent's back
-  - **Consequence**: Opponent can turn partially, slip down, or create angles that reduce choke effectiveness
-  - **Correction**: Stay glued chest-to-back throughout, following any movement they make and using seatbelt to pull them back
+## Playing as Defender
+
+[[Short Choke/Defender|→ Full Defender Guide]]
+
+### Key Principles
+
+
+- Protect the collar first - preventing the deep grip behind your neck is far easier than stripping it once established, keep your chin tucked and hands fighting any collar access attempts
+
+- Address the grip before the finish - once you feel fingers walking into your collar, immediately use two-on-one grip fighting to strip or shallow the grip before the forearm blade is positioned
+
+- Manage breathing under body triangle compression by using controlled chest breathing rather than diaphragmatic breathing, accepting reduced oxygen and working efficiently within that constraint
+
+- Turn toward the choking arm side to reduce the angle of pressure across your neck and simultaneously begin creating space for escape sequences
+
+- Chain defensive actions together rather than relying on single explosive movements - strip grip, create frame, hip escape, and turn in a connected sequence
+
+- Keep at least one hand defending your neck at all times even while working to escape the body triangle, as the attacker will immediately re-attack the collar if your neck is exposed
+
+
+### Recognition Cues
+
+
+- Attacker's top hand (over-shoulder arm in seatbelt) releases the seatbelt clasp and begins reaching toward your collar behind your neck rather than staying in standard harness position
+
+- You feel fingers walking deep into your gi collar behind your neck with thumb inserting inside the collar fabric, indicating the attacker is establishing the anchor grip for the choke
+
+- Attacker's forearm rotates and the bony edge of their wrist begins pressing across the side of your neck rather than maintaining flat hand contact, signaling the transition from grip establishment to choke application
+
+- The attacker's non-choking hand shifts from seatbelt position to controlling your wrist or pinning your defending hand to your body, indicating they are clearing defensive obstacles before finishing
+
+- You feel the attacker begin driving their elbow downward toward their hip while simultaneously expanding their chest against your back, creating the distinctive tightening pressure of the Short Choke finish
+
+
+### Defensive Options
+
+
+- **Two-on-one grip strip on the collar hand - use both hands to peel the attacker's fingers out of your collar by attacking the thumb and peeling the grip toward your chest away from the back of your neck** - When: Immediately when you feel fingers entering your collar, before the grip is fully established and the forearm blade is positioned across your neck
+
+- **Turn into the choking arm by rotating your shoulders and hips toward the side of the attacking forearm, reducing the cross-neck pressure angle while creating space to work your chin under the forearm** - When: When the collar grip is already established and forearm pressure is building across your neck but the choke is not yet fully cinched
+
+- **Frame on the choking arm's elbow with both hands to prevent the downward elbow drive that creates the finishing pressure, wedging your hands between their forearm and your neck to create a barrier** - When: When the choke is being actively applied and you need to prevent the finish while buying time for a positional escape
 
 
 </section>
 
-<section id="training-progressions" class="content-section hide-minimal">
 
-## Training Progressions
-**Week 1-2** - Grip mechanics and placement
-Practice collar grip depth and forearm blade positioning on non-resisting partner. Focus on finding the correct angle across the carotid rather than windpipe. Drill the elbow-to-hip motion without resistance to develop muscle memory for the finishing mechanic.
-
-**Week 3-4** - Integration with body triangle
-Combine Short Choke with body triangle control against light resistance. Partner defends passively while you work on maintaining squeeze pressure during upper body attack. Learn to coordinate leg and arm pressure simultaneously.
-
-**Week 5-6** - Counter-offense transitions
-Partner actively defends using common counters. Practice transitioning between Short Choke, RNC attempts, and armbar when they expose arms. Develop ability to read defensive reactions and attack appropriate openings.
-
-**Week 7+** - Live sparring application
-Apply Short Choke in live rolling starting from back control. Work on hitting the technique against fully resisting opponents, recognizing when RNC defense creates Short Choke opportunity, and maintaining composure under competitive pressure.
-
-
-
-</section>
-
-<section id="variants-and-adaptations" class="content-section hide-minimal">
+<section id="variants" class="content-section hide-minimal">
 
 ## Variations
+
+
 **Cross-collar Short Choke**: Instead of same-side collar grip, reach across to grip the opposite collar. This creates different angle of pressure and can be more effective when opponent defends the same-side approach. (When to use: When opponent effectively blocks same-side collar access or has strong defensive posture on that side)
 
+
 **Short Choke to Bow and Arrow transition**: Begin Short Choke setup to force reaction, then as opponent turns into you to relieve pressure, shoot your leg over their shoulder and transition to bow and arrow choke with superior leverage. (When to use: When opponent's defensive turn creates better angle for bow and arrow finish)
+
 
 **Double collar Short Choke**: Establish grips on both collars behind the neck, then pull both elbows down simultaneously creating scissor-like pressure from both forearms on the neck. (When to use: When you have time to establish second grip and opponent is focused on defending single-collar attacks)
 
@@ -282,50 +173,7 @@ Apply Short Choke in live rolling starting from back control. Work on hitting th
 
 </section>
 
-<section id="knowledge-assessment" class="content-section">
 
-## Test Your Knowledge
-**Q1**: What is the primary goal of the Short Choke from body triangle?
-**A**: The primary goal is to finish the opponent with a blood choke by applying forearm pressure across the carotid artery while using the collar grip as an anchor point. It serves as a high-percentage alternative when the opponent successfully defends the rear naked choke by tucking their chin.
-
-**Q2**: What position do you start Short Choke from?
-**A**: This technique starts from back control with body triangle established, specifically from the bottom perspective where you are the attacker with your legs locked around the opponent's torso and your chest against their back.
-
-**Q3**: What are the key grips needed for Short Choke?
-**A**: The primary grip is a deep collar grip behind the opponent's neck with your thumb inside the collar and palm facing down. The grip should be as deep as possible, ideally at skull-base level. Your secondary hand controls the opponent's defending arm or can establish a second collar grip for the double-collar variation.
-
-**Q4**: Your opponent is grip-fighting aggressively with both hands to strip your collar grip - what opening does this create?
-**A**: When both hands are occupied with grip fighting, their arms become exposed for attack. You should immediately transition to an armbar attempt by isolating one of the reaching arms. Their focus on stopping the choke creates the submission opportunity on a different limb.
-
-**Q5**: Why is driving your elbow toward your hip more effective than pulling straight back?
-**A**: The circular elbow-to-hip motion creates a mechanical advantage by engaging your lat muscles and back rather than relying on arm strength alone. This motion tightens the collar progressively while angling the forearm blade more effectively across the neck, requiring less strength while generating more pressure.
-
-**Q6**: How should you position your forearm blade for maximum effectiveness?
-**A**: Position the bony edge of your forearm near the wrist across the lateral side of the neck where the carotid artery runs, not across the windpipe. This creates a blood choke that restricts blood flow to the brain, which finishes faster and cleaner than a trachea crush that opponents can often endure through discomfort.
-
-**Q7**: Your opponent turns toward your choking arm to relieve pressure - how do you adapt?
-**A**: Follow their turn and use the momentum to transition to a bow and arrow choke. Their rotation actually improves your angle for the bow and arrow by allowing you to shoot your leg over their shoulder. The defensive movement becomes the entry for a higher-leverage finishing position.
-
-**Q8**: How does the body triangle enhance the Short Choke's effectiveness beyond just positional control?
-**A**: The body triangle creates synergistic pressure by restricting the opponent's breathing through ribcage compression while you simultaneously attack their blood flow with the collar choke. This multi-vector attack overwhelms their defensive capacity and creates panic that leads to mistakes. The triangle also prevents hip movement that could create escape angles.
-
-**Q9**: What determines whether to attack with Short Choke versus continuing to fight for the rear naked choke?
-**A**: Choose Short Choke when the opponent has successfully tucked their chin and is actively defending RNC entry, or when your arm is fatigued from fighting for deep RNC position. The Short Choke requires less positional depth and uses the collar as leverage, making it ideal when the opponent's chin defense is strong but their collar is accessible.
-
-**Q10**: When should you avoid attempting the Short Choke?
-**A**: Avoid the Short Choke when you don't have secure collar access, when your body triangle is loose or threatened, or when opponent has already inserted defensive hands under your choking arm. Also avoid if your grip strength is compromised from previous attempts, as shallow or weak collar grip will fail against experienced defenders.
-
-
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Considerations
-
-The Short Choke is a blood choke that can cause unconsciousness within seconds when properly applied. Always train with partners who understand tap signals and release immediately upon tap. Never apply this choke explosively or with jerking motions that could injure the neck. In training, apply pressure gradually and give partners time to tap. The combination of body triangle breathing restriction and neck choke can cause faster unconsciousness than typical chokes - be especially vigilant with this technique. Never continue pressure after a tap, and if a partner goes unconscious, release immediately and elevate their legs while calling for assistance. Avoid this technique on partners with neck injuries, high blood pressure, or cardiovascular conditions.
-
-</section>
 
 <section id="position-integration" class="content-section">
 
@@ -335,17 +183,26 @@ The Short Choke integrates into the back attack system as a primary alternative 
 
 </section>
 
+
 <section id="related-content" class="content-section">
 
 ## Related Techniques
 
+
 - [[Body Triangle]] - Starting position providing leg control foundation
+
 - [[Rear Naked Choke]] - Primary alternative - opponent defending RNC opens Short Choke
+
 - [[Bow and Arrow Choke]] - Transition target when opponent turns to defend
+
 - [[Armbar from Back]] - Counter-attack when opponent grip fights
+
 - [[Back Control]] - Fallback position if choke fails
+
 - [[Seat Belt Control Back]] - Upper body control enabling choke setup
+
 - [[Cross Collar Choke]] - Related collar choke mechanics
+
 - [[Clock Choke]] - Similar collar-based strangling mechanics
 
 

@@ -299,15 +299,15 @@
     "transitions": [
       {
         "transition": "Lasso Guard Pass",
-        "attempt_probability": 13
+        "attempt_probability": 11
       },
       {
         "transition": "Stack Pass",
-        "attempt_probability": 12
+        "attempt_probability": 11
       },
       {
         "transition": "Arm Extraction",
-        "attempt_probability": 14
+        "attempt_probability": 22
       },
       {
         "transition": "Cartwheel Pass",
@@ -315,19 +315,27 @@
       },
       {
         "transition": "Pressure Pass",
-        "attempt_probability": 12
+        "attempt_probability": 10
       },
       {
         "transition": "Knee Cut Pass",
-        "attempt_probability": 13
+        "attempt_probability": 8
       },
       {
         "transition": "Smash Pass",
-        "attempt_probability": 11
+        "attempt_probability": 9
       },
       {
-        "transition": "Toreando Pass",
-        "attempt_probability": 14
+        "transition": "Back Step Pass",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Pass Inverted Lasso Guard",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Stack from Inverted Lasso",
+        "attempt_probability": 2
       }
     ]
   },
@@ -585,43 +593,47 @@
     "transitions": [
       {
         "transition": "Berimbolo Entry",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Hip Bump Sweep V2",
-        "attempt_probability": 11
+        "attempt_probability": 37
       },
       {
         "transition": "Kiss of the Dragon",
-        "attempt_probability": 10
+        "attempt_probability": 11
       },
       {
         "transition": "Triangle Setup",
-        "attempt_probability": 9
+        "attempt_probability": 6
       },
       {
         "transition": "Omoplata Sweep",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Lasso Guard Sweeps",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Single Leg X Entry",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "De La Riva Sweep",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Armbar from Guard",
         "attempt_probability": 8
       },
       {
-        "transition": "Lasso Guard Variations",
-        "attempt_probability": 11
+        "transition": "Sickle Sweep",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Single Leg X Entry",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "De La Riva Sweep",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Balloon Sweep",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Tomoe Nage",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Inverted Lasso Sweep",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Inverted Lasso to Lasso Guard",
+        "attempt_probability": 1
       }
     ]
   }

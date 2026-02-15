@@ -21,37 +21,37 @@ description: "Execute the Matrix back take from bottom position. Technical guide
     {
       "@type": "HowToStep",
       "name": "Execute Matrix Back Take",
-      "text": "From this position, attempt Matrix Back Take. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Matrix Back Take. This technique is attempted in 44% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 8% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Drag to Back",
-      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Chair Sit to Back",
-      "text": "From this position, attempt Chair Sit to Back. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Chair Sit to Back. This technique is attempted in 6% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll",
-      "text": "From this position, attempt Granby Roll. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Granby Roll to Guard",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling to Guard",
-      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -216,21 +216,25 @@ Risk management is essential when executing the Matrix. Incomplete rotations can
 
 ## Available Escapes
 
-### [[Matrix Back Take]] (13% of attempts)
+### [[Matrix Back Take]] (44% of attempts)
 
-### [[Rolling Back Take]] (12% of attempts)
+### [[Rolling Back Take]] (8% of attempts)
 
-### [[Arm Drag to Back]] (13% of attempts)
+### [[Arm Drag to Back]] (8% of attempts)
 
-### [[Chair Sit to Back]] (12% of attempts)
+### [[Chair Sit to Back]] (6% of attempts)
 
-### [[Granby Roll]] (14% of attempts)
+### [[Granby Roll to Guard]] (14% of attempts)
 
-### [[Rolling to Guard]] (12% of attempts)
+### [[Rolling to Guard]] (8% of attempts)
 
-### [[Berimbolo Entry]] (11% of attempts)
+### [[Berimbolo Entry]] (2% of attempts)
 
-### [[Turtle to Back Take]] (13% of attempts)
+### [[Turtle to Guard]] (8% of attempts)
+
+### [[Counter Roll from Matrix]] (1% of attempts)
+
+### [[Escape Matrix Position]] (1% of attempts)
 
 
 
@@ -251,12 +255,12 @@ Risk management is essential when executing the Matrix. Incomplete rotations can
 
 
 **Rotation is blocked mid-movement by weight pressure:**
-- Execute **[[Rolling to Guard]]** → [[Closed Guard]] (Probability: 60%)
-- Execute **[[Granby Roll]]** → [[Closed Guard]] (Probability: 55%)
+- Execute **[[Granby Roll to Guard]]** → [[Closed Guard]] (Probability: 60%)
+- Execute **[[Rolling to Guard]]** → [[Closed Guard]] (Probability: 55%)
 
 
 **Opponent actively scrambling or mobile:**
-- Execute **[[Turtle to Back Take]]** → [[Back Control]] (Probability: 50%)
+- Execute **[[Arm Drag to Back]]** → [[Back Control]] (Probability: 50%)
 - Execute **[[Rolling to Guard]]** → [[Open Guard]] (Probability: 55%)
 
 
@@ -356,7 +360,7 @@ Intentionally practice incomplete or defended Matrix attempts, focusing on immed
 **A**: The shoulder on the mat serves as your pivot point—the fulcrum around which your entire body rotates. Without this contact, you're rotating through open space with no mechanical advantage, creating a slow, floating movement that opponents easily stuff. The shoulder anchors your rotation to a fixed point, allowing your hips and legs to generate momentum around it. Only lift the shoulder after your hips have passed their apex.
 
 **Q5**: You're mid-rotation and feel your opponent beginning to follow and flatten you—what's your response?
-**A**: Accelerate the rotation and commit harder rather than slowing down. Hesitation mid-rotation is the worst possible outcome—you're inverted with your back exposed and no defensive structure. Either complete the rotation explosively and race them to hook establishment, or if that's impossible, immediately transition to a granby roll to guard recovery. Never stop in the vulnerable inverted position.
+**A**: Accelerate the rotation and commit harder rather than slowing down. Hesitation mid-rotation is the worst possible outcome—you're inverted with your back exposed and no defensive structure. Either complete the rotation explosively and race them to hook establishment, or if that's impossible, immediately transition to a guard recovery using the rolling momentum to pull into closed guard. Never stop in the vulnerable inverted position.
 
 **Q6**: How do you recognize the optimal timing window for Matrix entry against a turtle opponent?
 **A**: Watch for moments of stillness or weight commitment. When they settle their weight, stop adjusting their base, or commit to a grip or movement that loads them onto one side, that's your window. Also effective: the moment after they complete their own movement (reaching for a grip, adjusting position) when they're momentarily static before starting their next action. Their weight transfer creates the stability you need to rotate against.
@@ -395,10 +399,10 @@ Intentionally practice incomplete or defended Matrix attempts, focusing on immed
 - **[[Turtle]]** - Common starting position providing optimal structure for Matrix entry
 - **[[Rolling Back Take]]** - Similar rotational back take with comparable mechanics and timing
 - **[[Berimbolo Entry]]** - Shares inverted rolling mechanics and spatial awareness requirements
-- **[[Granby Roll]]** - Backup transition when Matrix is defended, uses similar rolling mechanics
+- **[[Granby Roll to Guard]]** - Backup transition when Matrix is defended, uses similar rolling mechanics
 - **[[Crab Ride]]** - Alternative back attack approach with overlapping timing windows
 - **[[Back Attack System]]** - Comprehensive system integrating Matrix with other back take approaches
-- **[[Scramble Position]]** - Dynamic environment where Matrix opportunities frequently emerge
+- **[[Matrix Back Take]]** - Primary transition technique executed from this position
 
 
 </section>

@@ -19,10 +19,6 @@
       "relationship": "Grounded version of this position - common transition target for both players"
     },
     {
-      "name": "Standing Rear Clinch",
-      "relationship": "Entry position - back control develops from successful rear clinch control"
-    },
-    {
       "name": "Clinch",
       "relationship": "Neutral starting position - standing back control often emerges from clinch scrambles"
     },
@@ -39,24 +35,8 @@
       "relationship": "Primary control mechanism - seat belt grip configuration essential for maintaining standing back control"
     },
     {
-      "name": "Seat Belt Control Back",
-      "relationship": "Specific grip detail - the fundamental upper body control for back positions"
-    },
-    {
       "name": "Body Triangle",
       "relationship": "Advanced leg control - can be applied from standing to prevent escape attempts"
-    },
-    {
-      "name": "Rear Naked Choke",
-      "relationship": "Primary offensive threat from top position"
-    },
-    {
-      "name": "Scramble Position",
-      "relationship": "Common result of failed control or escape attempts"
-    },
-    {
-      "name": "Standing Position",
-      "relationship": "Neutral return position if bottom player successfully escapes"
     },
     {
       "name": "Front Headlock",
@@ -146,7 +126,7 @@
         "actions": [
           {
             "technique": "Rear Naked Choke attack",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 55
           },
           {
@@ -226,7 +206,7 @@
           },
           {
             "technique": "Attack choke during transition",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 50
           }
         ]
@@ -304,10 +284,6 @@
         "relationship": "Advanced leg control option to compromise opponent's base and secure position"
       },
       {
-        "name": "Standing Rear Clinch",
-        "relationship": "Common entry position - standing back control develops from successful rear clinch"
-      },
-      {
         "name": "Crucifix",
         "relationship": "Alternative control position when opponent fights grips aggressively"
       },
@@ -342,35 +318,47 @@
     "transitions": [
       {
         "transition": "Rear Naked Choke",
-        "attempt_probability": 18
+        "attempt_probability": 30
       },
       {
         "transition": "Takedown to Grounded Back Control",
-        "attempt_probability": 18
+        "attempt_probability": 16
       },
       {
         "transition": "Body Triangle Lock",
-        "attempt_probability": 14
-      },
-      {
-        "transition": "Armbar from Back Transition",
         "attempt_probability": 7
       },
       {
+        "transition": "Armbar from Back Transition",
+        "attempt_probability": 9
+      },
+      {
         "transition": "Crucifix Transition",
-        "attempt_probability": 10
+        "attempt_probability": 7
       },
       {
         "transition": "Truck Position Entry",
-        "attempt_probability": 13
+        "attempt_probability": 5
       },
       {
         "transition": "Snap Down to Front Headlock",
-        "attempt_probability": 8
+        "attempt_probability": 4
       },
       {
         "transition": "Follow to Back Control",
-        "attempt_probability": 12
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Mat Return to Back Mount",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Transition to Seat Belt Control Back",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Bow and Arrow Setup from Standing Back",
+        "attempt_probability": 2
       }
     ]
   },
@@ -389,7 +377,7 @@
     ],
     "overview": "Standing Back Control Bottom represents one of the most vulnerable defensive positions in Brazilian Jiu-Jitsu, where your opponent has achieved back control while both practitioners remain on their feet. This position is characterized by the opponent's chest against your back, typically with some form of harness or seat belt grip (one arm over the shoulder, one under the armpit), and hooks or body triangle attempting to secure the position. The standing variant is particularly dangerous because it combines the submission threats of back control with the potential for forceful takedowns and slams in certain rulesets.\n\nFrom a strategic perspective, Standing Back Control Bottom is a transitional position that demands immediate defensive action. Unlike grounded back control where you can use the mat for additional leverage and defense, the standing position offers limited defensive options and requires you to simultaneously defend against strangulation attempts, maintain your balance, and work toward escaping to a more favorable position. The primary goals are grip fighting to prevent choking sequences, creating space to remove hooks or body control, and transitioning to either a grounded position where you have more defensive tools or separating entirely to return to neutral.\n\nSuccess in this position relies on understanding the mechanical principles of back exposure, the timing windows for defensive hand fighting, and the sequential nature of escapes. Beginners often panic and make the position worse through frantic movement, while advanced practitioners use systematic approaches to address immediate threats first (defending the neck), then working to improve position through hip movement, grip breaks, and technical transitions that exploit the inherent instability of standing back control. The position requires calm decision-making under pressure, technical precision in grip fighting, and understanding of multiple escape pathways depending on opponent's control configuration.",
     "state_properties": {
-      "point_value": 4,
+      "point_value": -4,
       "position_type": "Defensive",
       "risk_level": "High",
       "energy_cost": "High",
@@ -476,7 +464,7 @@
             "probability": 50
           },
           {
-            "technique": "Technical Standup with grip breaks",
+            "technique": "Standing up in Base with grip breaks",
             "target": "Standing Position",
             "probability": 40
           },
@@ -507,7 +495,7 @@
         "actions": [
           {
             "technique": "Immediate hip turn and face opponent",
-            "target": "Scramble Position",
+            "target": "Clinch",
             "probability": 55
           },
           {
@@ -583,7 +571,7 @@
       },
       {
         "name": "Transition Options from Standing Back Control Bottom",
-        "description": "Partner has standing back control. Practice all major escape paths: hip escape to turtle, technical standup to neutral, rolling to guard, granby roll recovery. Drill each option 10 times, focusing on proper mechanics and timing.",
+        "description": "Partner has standing back control. Practice all major escape paths: hip escape to turtle, standing up in base to neutral, rolling to guard, granby roll recovery. Drill each option 10 times, focusing on proper mechanics and timing.",
         "duration": "10-15 minutes"
       }
     ],
@@ -601,24 +589,20 @@
         "relationship": "Primary submission threat to defend against from this position"
       },
       {
-        "name": "Technical Standup",
+        "name": "Standing up in Base",
         "relationship": "Key escape technique to return to standing neutral position"
       },
       {
-        "name": "Hip Escape",
-        "relationship": "Fundamental movement for creating angles and escaping back control"
+        "name": "Hip Escape to Turtle",
+        "relationship": "Fundamental escape movement for creating angles and reaching turtle position"
       },
       {
-        "name": "Grip Break",
+        "name": "Grip Break and Face",
         "relationship": "Essential technique for defeating harness control and preventing chokes"
       },
       {
-        "name": "Scramble Position",
-        "relationship": "Transitional state when escapes are partially successful, requires quick decision-making"
-      },
-      {
-        "name": "Standing Position",
-        "relationship": "Target neutral position when escape is successful"
+        "name": "Clinch",
+        "relationship": "Neutral recovery position when escape through facing opponent is successful"
       },
       {
         "name": "Seat Belt Control Back",
@@ -643,23 +627,19 @@
     "transitions": [
       {
         "transition": "Hip Escape to Turtle",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "Technical Standup",
         "attempt_probability": 10
       },
       {
         "transition": "Rolling to Guard",
-        "attempt_probability": 10
+        "attempt_probability": 6
       },
       {
-        "transition": "Granby Roll",
+        "transition": "Granby Roll to Guard",
         "attempt_probability": 5
       },
       {
         "transition": "Grip Break and Face",
-        "attempt_probability": 12
+        "attempt_probability": 13
       },
       {
         "transition": "Controlled Descent",
@@ -667,11 +647,19 @@
       },
       {
         "transition": "Explosive Forward Roll",
-        "attempt_probability": 6
+        "attempt_probability": 4
       },
       {
         "transition": "Turn In and Face",
-        "attempt_probability": 14
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Arm Drag Escape",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Standing up in Base",
+        "attempt_probability": 10
       }
     ]
   }

@@ -95,21 +95,25 @@ The dual nature of overhook control makes it equally valuable as both an offensi
 ### Available Transitions
 
 
-- **[[Arm Drag to Back]]** (13% of attempts)
+- **[[Arm Drag to Back]]** (11% of attempts)
 
-- **[[Overhook Sweep]]** (14% of attempts)
+- **[[Overhook Sweep]]** (22% of attempts)
 
-- **[[Butterfly Sweep]]** (13% of attempts)
+- **[[Butterfly Sweep]]** (11% of attempts)
 
-- **[[Triangle Setup]]** (12% of attempts)
+- **[[Triangle Setup]]** (10% of attempts)
 
-- **[[Closed Guard to Omoplata]]** (11% of attempts)
+- **[[Closed Guard to Omoplata]]** (9% of attempts)
 
-- **[[Guillotine Setup]]** (12% of attempts)
+- **[[Guillotine Setup]]** (10% of attempts)
 
-- **[[Elevator Sweep]]** (13% of attempts)
+- **[[Elevator Sweep]]** (11% of attempts)
 
-- **[[Old School Sweep]]** (12% of attempts)
+- **[[Old School Sweep]]** (10% of attempts)
+
+- **[[Overhook Control Sweep]]** (4% of attempts)
+
+- **[[Overhook to Half Guard]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -166,23 +170,25 @@ The dual nature of overhook control makes it equally valuable as both an offensi
 ### Available Transitions
 
 
-- **[[Kimura]]** (12% of attempts)
+- **[[Kimura]]** (16% of attempts)
 
-- **[[Darce Choke]]** (11% of attempts)
+- **[[Darce Choke]]** (10% of attempts)
 
-- **[[Anaconda Choke]]** (10% of attempts)
+- **[[Anaconda Choke]]** (9% of attempts)
 
-- **[[Arm Drag to Back]]** (12% of attempts)
+- **[[Arm Drag to Back]]** (11% of attempts)
 
-- **[[Two-on-One to Back Take]]** (11% of attempts)
+- **[[Two-on-One to Back Take]]** (10% of attempts)
 
-- **[[Snap Down to Front Headlock]]** (12% of attempts)
+- **[[Snap Down to Front Headlock]]** (11% of attempts)
 
-- **[[Crab Ride to Back]]** (11% of attempts)
+- **[[Crab Ride to Back]]** (10% of attempts)
 
-- **[[Crucifix from Turtle]]** (9% of attempts)
+- **[[Crucifix from Turtle]]** (8% of attempts)
 
-- **[[Side Control to Mount]]** (12% of attempts)
+- **[[Side Control to Mount]]** (11% of attempts)
+
+- **[[Overhook Pass to Side Control]]** (4% of attempts)
 
 
 ### Common Mistakes

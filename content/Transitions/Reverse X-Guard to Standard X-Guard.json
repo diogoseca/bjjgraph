@@ -1,147 +1,392 @@
 {
   "name": "Reverse X-Guard to Standard X-Guard",
-  "description": "Master the Reverse X-Guard to Standard X-Guard transition in BJJ. Step-by-step hook reconfiguration for improved sweep angles. Success: Beginner 30%, Advanced 65%.",
+  "description": "Master the Reverse X-Guard to Standard X-Guard transition in BJJ. Step-by-step hook reconfiguration for improved sweep angles and continuous threat cycling.",
   "tags": [
     "bjj",
     "transition",
     "x-guard",
     "guard-transition",
     "leg-entanglement",
-    "sweep-setup"
+    "sweep-setup",
+    "hook-reconfiguration"
   ],
   "from_position": "Reverse X-Guard/Bottom",
   "outcomes": [
     {
-      "to": "X-Guard",
-      "probability": 65,
+      "to": "X-Guard/Bottom",
+      "probability": 58,
       "result": "success"
     },
     {
-      "to": "Reverse X-Guard",
-      "probability": 25,
+      "to": "Reverse X-Guard/Bottom",
+      "probability": 27,
       "result": "failure"
     },
     {
-      "to": "Headquarters Position",
-      "probability": 10,
+      "to": "Headquarters Position/Top",
+      "probability": 15,
       "result": "counter"
     }
   ],
+  "success_rate": 58,
   "overview": "The Reverse X-Guard to Standard X-Guard transition is a fundamental guard reconfiguration that repositions your hooks from an inverted same-side configuration to the traditional opposite-side X-Guard structure. This transition allows you to access different sweep angles and attack vectors while maintaining continuous leg entanglement control over your opponent.\n\nStrategically, this transition becomes essential when your Reverse X-Guard sweeps are being defended through base widening or when you need to attack in the opposite direction. Standard X-Guard provides superior technical lift for sweeps targeting the opponent's far side, while Reverse X-Guard excels at same-side attacks. Understanding when to flow between these positions dramatically increases your overall sweep success rate and makes your guard significantly harder to pass.\n\nThe transition requires precise timing and coordinated hook movement to prevent the opponent from capitalizing on the brief moment of reduced control. Advanced practitioners use this transition fluidly as part of a continuous threat cycle, forcing opponents to defend multiple angles simultaneously. The key is maintaining constant connection with at least one hook throughout the reconfiguration while your grips keep the opponent's posture compromised.",
-  "key_principles": [
-    "Maintain at least one hook in contact with opponent throughout the entire transition to prevent disengagement",
-    "Use grip control on sleeve or collar to freeze opponent's posture during hook reconfiguration",
-    "Time the transition when opponent commits weight in one direction, making them vulnerable to opposite-side attacks",
-    "Keep hips elevated throughout to maintain sweeping threat and prevent opponent from smashing down",
-    "Move hooks sequentially rather than simultaneously to ensure continuous control",
-    "Create the new hook position before fully releasing the old hook configuration",
-    "Use hip rotation to facilitate hook repositioning rather than relying solely on leg strength"
+  "conditions": [
+    "Established Reverse X-Guard with functional hooks and grips",
+    "Opponent standing or in combat base with weight on the controlled leg",
+    "Current Reverse X-Guard sweep angle is being successfully defended",
+    "Sufficient hip mobility to rotate from inverted to standard angle",
+    "At least one strong upper body grip controlling opponent's posture"
   ],
-  "setup_requirements": [
-    "Established Reverse X-Guard with primary hook behind opponent's knee and secondary hook on hip",
-    "Strong grip control on opponent's sleeve, collar, or belt to manage their posture",
-    "Opponent standing or in combat base with weight distributed through controlled leg",
-    "Sufficient hip mobility to rotate from inverted to standard X-Guard angle",
-    "Recognition that current sweep angle is being defended or that opposite-side attack would be more effective"
-  ],
-  "execution_steps": [
+  "related_content": [
     {
-      "step_number": 1,
-      "action": "Secure grip control",
-      "description": "Ensure you have a strong grip on opponent's sleeve on the controlled leg side and far collar or belt. This grip freezes their posture and prevents them from capitalizing on the transition."
+      "name": "Reverse X-Guard",
+      "relationship": "Starting position for this transition"
     },
     {
-      "step_number": 2,
-      "action": "Elevate hips and load hooks",
-      "description": "Push your hips up toward the ceiling while driving both hooks into your opponent to create maximum off-balancing pressure. This forces them to focus on balance rather than countering your transition."
+      "name": "X-Guard",
+      "relationship": "Target position after successful hook reconfiguration"
     },
     {
-      "step_number": 3,
-      "action": "Rotate hip angle",
-      "description": "Begin rotating your hips from the inverted Reverse X angle toward the standard X-Guard orientation. Your body should move from facing away from the opponent to facing more directly toward them."
+      "name": "Single Leg X-Guard",
+      "relationship": "Alternative transition when opponent backsteps during reconfiguration"
     },
     {
-      "step_number": 4,
-      "action": "Reposition primary hook",
-      "description": "Slide your hook from behind the opponent's near knee to the traditional X-Guard position on their far hip. Maintain constant pressure against their leg as you move to prevent any gap in control."
+      "name": "Deep Half Guard",
+      "relationship": "Bail-out position when opponent smashes during transition"
     },
     {
-      "step_number": 5,
-      "action": "Establish butterfly hook",
-      "description": "Your secondary leg transitions from the same-side hip hook to the butterfly hook position under the opponent's near thigh. This creates the classic X-Guard scissoring structure."
+      "name": "Reverse X-Guard Sweep",
+      "relationship": "Attack from starting position that sets up transition when defended"
     },
     {
-      "step_number": 6,
-      "action": "Settle and adjust",
-      "description": "Once both hooks are in X-Guard position, adjust your angle and grip to optimize for your chosen sweep direction. Ensure your far hip hook is deep and your butterfly hook is active under their thigh."
+      "name": "Ashi Garami",
+      "relationship": "Leg entanglement transition option from either X-Guard variation"
+    },
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Related elevation-based guard with similar hook mechanics"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Common entry path to both X-Guard variations"
+    },
+    {
+      "name": "Headquarters Position",
+      "relationship": "Opponent's target position if counter is successful"
     }
   ],
-  "common_counters": [
-    {
-      "counter": "Backstep during hook transition to disengage leg and establish passing angle",
-      "effectiveness": "High",
-      "your_response": "Accelerate your transition and follow their movement, converting to Single Leg X if they backstep before you complete the reconfiguration"
-    },
-    {
-      "counter": "Drop weight and smash forward during the brief moment of reduced hook pressure",
-      "effectiveness": "Medium",
-      "your_response": "If you feel them dropping weight, abort the transition and return to solid Reverse X-Guard or convert directly to Deep Half Guard"
-    },
-    {
-      "counter": "Strip sleeve grip and establish cross-face control during transition",
-      "effectiveness": "Medium",
-      "your_response": "Maintain secondary grip on belt or far collar and complete transition quickly, then re-establish sleeve control from X-Guard"
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Releasing both hooks simultaneously during the transition",
-      "consequence": "Complete loss of leg control allowing opponent to disengage and pass or establish dominant grips",
-      "correction": "Always maintain at least one hook in contact throughout - move hooks sequentially with overlapping control"
-    },
-    {
-      "error": "Neglecting grip control and focusing only on hook positioning",
-      "consequence": "Opponent capitalizes on transition by establishing passing grips or changing their base to defend",
-      "correction": "Secure strong sleeve and collar/belt grips before initiating any hook movement and maintain throughout"
-    },
-    {
-      "error": "Dropping hips during the transition rather than maintaining elevation",
-      "consequence": "Loss of sweeping threat and opponent easily pressures through your guard structure",
-      "correction": "Keep hips elevated throughout the entire transition by engaging core and hip flexors continuously"
-    },
-    {
-      "error": "Attempting transition when opponent has strong defensive posture and wide base",
-      "consequence": "Opponent easily defends and passes during the moment of transition vulnerability",
-      "correction": "Only initiate transition when opponent's posture is compromised or they're reacting to your current sweep threat"
-    },
-    {
-      "error": "Moving too slowly through the hook reconfiguration sequence",
-      "consequence": "Opponent recognizes the transition and times their counter perfectly",
-      "correction": "Practice the transition until the hook movement is fluid and takes less than 2 seconds from start to finish"
-    }
-  ],
-  "training_progressions": [
-    {
-      "phase": "Week 1-2",
-      "focus": "Fundamentals",
-      "description": "Practice the hook repositioning sequence with a compliant partner. Focus on maintaining at least one hook in contact throughout and understanding the body angle change required. Drill 50 repetitions per side daily."
-    },
-    {
-      "phase": "Week 3-4",
-      "focus": "Timing",
-      "description": "Partner provides light resistance and attempts basic counters. Work on recognizing when to initiate the transition based on opponent's weight distribution and reactions to your Reverse X-Guard attacks."
-    },
-    {
-      "phase": "Week 5-6",
-      "focus": "Combinations",
-      "description": "Chain the transition with sweeps from both positions. Practice Reverse X-Guard sweep attempt, transition to Standard X-Guard when defended, then execute X-Guard sweep. Develop flow between positions."
-    },
-    {
-      "phase": "Week 7+",
-      "focus": "Live application",
-      "description": "Implement in positional sparring starting from Reverse X-Guard. Focus on reading opponent's reactions and choosing between maintaining Reverse X, transitioning to Standard X, or taking alternative paths based on defensive responses."
-    }
-  ],
+  "attacker": {
+    "name": "Reverse X-Guard to Standard X-Guard Attacker",
+    "description": "How to execute Reverse X-Guard to Standard X-Guard in BJJ. Attacking perspective with setup, execution steps, and counters for hook reconfiguration.",
+    "overview": "The Reverse X-Guard to Standard X-Guard transition is a fundamental guard reconfiguration that repositions your hooks from an inverted same-side configuration to the traditional opposite-side X-Guard structure. This transition allows you to access different sweep angles and attack vectors while maintaining continuous leg entanglement control over your opponent.\n\nStrategically, this transition becomes essential when your Reverse X-Guard sweeps are being defended through base widening or when you need to attack in the opposite direction. Standard X-Guard provides superior technical lift for sweeps targeting the opponent's far side, while Reverse X-Guard excels at same-side attacks. Understanding when to flow between these positions dramatically increases your overall sweep success rate and makes your guard significantly harder to pass.\n\nThe transition requires precise timing and coordinated hook movement to prevent the opponent from capitalizing on the brief moment of reduced control. Advanced practitioners use this transition fluidly as part of a continuous threat cycle, forcing opponents to defend multiple angles simultaneously. The key is maintaining constant connection with at least one hook throughout the reconfiguration while your grips keep the opponent's posture compromised.",
+    "key_principles": [
+      "Maintain at least one hook in contact with opponent throughout the entire transition to prevent disengagement",
+      "Use grip control on sleeve or collar to freeze opponent's posture during hook reconfiguration",
+      "Time the transition when opponent commits weight in one direction, making them vulnerable to opposite-side attacks",
+      "Keep hips elevated throughout to maintain sweeping threat and prevent opponent from smashing down",
+      "Move hooks sequentially rather than simultaneously to ensure continuous control",
+      "Create the new hook position before fully releasing the old hook configuration",
+      "Use hip rotation to facilitate hook repositioning rather than relying solely on leg strength"
+    ],
+    "setup_requirements": [
+      "Established Reverse X-Guard with primary hook behind opponent's knee and secondary hook on hip",
+      "Strong grip control on opponent's sleeve, collar, or belt to manage their posture",
+      "Opponent standing or in combat base with weight distributed through controlled leg",
+      "Sufficient hip mobility to rotate from inverted to standard X-Guard angle",
+      "Recognition that current sweep angle is being defended or that opposite-side attack would be more effective"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Secure grip control",
+        "description": "Ensure you have a strong grip on opponent's sleeve on the controlled leg side and far collar or belt. This grip freezes their posture and prevents them from capitalizing on the transition."
+      },
+      {
+        "step_number": 2,
+        "action": "Elevate hips and load hooks",
+        "description": "Push your hips up toward the ceiling while driving both hooks into your opponent to create maximum off-balancing pressure. This forces them to focus on balance rather than countering your transition."
+      },
+      {
+        "step_number": 3,
+        "action": "Rotate hip angle",
+        "description": "Begin rotating your hips from the inverted Reverse X angle toward the standard X-Guard orientation. Your body should move from facing away from the opponent to facing more directly toward them."
+      },
+      {
+        "step_number": 4,
+        "action": "Reposition primary hook",
+        "description": "Slide your hook from behind the opponent's near knee to the traditional X-Guard position on their far hip. Maintain constant pressure against their leg as you move to prevent any gap in control."
+      },
+      {
+        "step_number": 5,
+        "action": "Establish butterfly hook",
+        "description": "Your secondary leg transitions from the same-side hip hook to the butterfly hook position under the opponent's near thigh. This creates the classic X-Guard scissoring structure."
+      },
+      {
+        "step_number": 6,
+        "action": "Settle and adjust angle",
+        "description": "Once both hooks are in X-Guard position, adjust your angle and grip to optimize for your chosen sweep direction. Ensure your far hip hook is deep and your butterfly hook is active under their thigh."
+      },
+      {
+        "step_number": 7,
+        "action": "Re-establish grip hierarchy",
+        "description": "Confirm your sleeve grip on the controlled leg side is solid and adjust your secondary grip for the new angle. The grip priorities shift slightly in standard X-Guard since your sweeping direction has changed."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Backstep during hook transition to disengage leg and establish passing angle",
+        "effectiveness": "High",
+        "your_response": "Accelerate your transition and follow their movement, converting to Single Leg X if they backstep before you complete the reconfiguration",
+        "targets_outcome": "Headquarters Position/Top"
+      },
+      {
+        "counter": "Drop weight and smash forward during the brief moment of reduced hook pressure",
+        "effectiveness": "Medium",
+        "your_response": "If you feel them dropping weight, abort the transition and return to solid Reverse X-Guard or convert directly to Deep Half Guard",
+        "targets_outcome": "Reverse X-Guard/Bottom"
+      },
+      {
+        "counter": "Strip sleeve grip and establish cross-face control during transition",
+        "effectiveness": "Medium",
+        "your_response": "Maintain secondary grip on belt or far collar and complete transition quickly, then re-establish sleeve control from X-Guard",
+        "targets_outcome": "Headquarters Position/Top"
+      },
+      {
+        "counter": "Step over bottom leg during hook exchange to clear entanglement entirely",
+        "effectiveness": "High",
+        "your_response": "Use sleeve grip to pull them off-balance as they step, and immediately re-hook the stepping leg to recover guard or transition to butterfly guard retention",
+        "targets_outcome": "Headquarters Position/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing both hooks simultaneously during the transition",
+        "consequence": "Complete loss of leg control allowing opponent to disengage and pass or establish dominant grips",
+        "correction": "Always maintain at least one hook in contact throughout - move hooks sequentially with overlapping control"
+      },
+      {
+        "error": "Neglecting grip control and focusing only on hook positioning",
+        "consequence": "Opponent capitalizes on transition by establishing passing grips or changing their base to defend",
+        "correction": "Secure strong sleeve and collar/belt grips before initiating any hook movement and maintain throughout"
+      },
+      {
+        "error": "Dropping hips during the transition rather than maintaining elevation",
+        "consequence": "Loss of sweeping threat and opponent easily pressures through your guard structure",
+        "correction": "Keep hips elevated throughout the entire transition by engaging core and hip flexors continuously"
+      },
+      {
+        "error": "Attempting transition when opponent has strong defensive posture and wide base",
+        "consequence": "Opponent easily defends and passes during the moment of transition vulnerability",
+        "correction": "Only initiate transition when opponent's posture is compromised or they are reacting to your current sweep threat"
+      },
+      {
+        "error": "Moving too slowly through the hook reconfiguration sequence",
+        "consequence": "Opponent recognizes the transition and times their counter perfectly",
+        "correction": "Practice the transition until the hook movement is fluid and takes less than two seconds from start to finish"
+      },
+      {
+        "error": "Rotating hips without maintaining shoulder connection to the mat",
+        "consequence": "Upper body lifts off mat during rotation, losing the base needed for leverage and making you vulnerable to being stacked",
+        "correction": "Keep shoulder blades pinned to the mat as your hips rotate, using core engagement to decouple upper and lower body movement"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Fundamentals",
+        "description": "Practice the hook repositioning sequence with a compliant partner. Focus on maintaining at least one hook in contact throughout and understanding the body angle change required. Drill 50 repetitions per side daily."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Timing and recognition",
+        "description": "Partner provides light resistance and attempts basic counters. Work on recognizing when to initiate the transition based on opponent's weight distribution and reactions to your Reverse X-Guard attacks."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Combination chains",
+        "description": "Chain the transition with sweeps from both positions. Practice Reverse X-Guard sweep attempt, transition to Standard X-Guard when defended, then execute X-Guard sweep. Develop flow between positions."
+      },
+      {
+        "phase": "Week 7-8",
+        "focus": "Counter recovery",
+        "description": "Partner actively attempts all three primary counters (backstep, smash, grip strip). Practice aborting the transition and converting to alternative positions like Single Leg X or Deep Half when countered."
+      },
+      {
+        "phase": "Week 9+",
+        "focus": "Live application",
+        "description": "Implement in positional sparring starting from Reverse X-Guard. Focus on reading opponent's reactions and choosing between maintaining Reverse X, transitioning to Standard X, or taking alternative paths based on defensive responses."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary strategic reason for transitioning from Reverse X-Guard to Standard X-Guard?",
+        "answer": "The primary reason is to access opposite-side sweep angles when your Reverse X-Guard sweeps are being defended. Reverse X-Guard attacks the same side, while Standard X-Guard attacks the far side. Switching between them forces opponents to defend both directions, creating a continuous threat cycle that dramatically increases overall sweep success rate."
+      },
+      {
+        "question": "What is the critical rule for hook movement during this transition?",
+        "answer": "You must maintain at least one hook in contact with your opponent throughout the entire transition. Move hooks sequentially with overlapping control rather than simultaneously releasing both. Create the new hook position before fully releasing the old configuration to ensure continuous control and prevent the opponent from disengaging or passing."
+      },
+      {
+        "question": "Your opponent starts to backstep as you begin repositioning your primary hook - how do you adjust?",
+        "answer": "If the opponent backsteps before you complete the transition, abort the full X-Guard conversion and follow their movement. Convert to Single Leg X-Guard while maintaining ankle control, which allows you to continue attacking their base despite their defensive movement. The backstep actually exposes their leg for Single Leg X entries and maintains your offensive initiative."
+      },
+      {
+        "question": "What are the essential grips needed before initiating this transition?",
+        "answer": "You need a strong grip on the opponent's sleeve on the controlled leg side to prevent them from establishing passing grips and to freeze their posture. The secondary grip on far collar or belt manages their upper body posture and provides backup control during the vulnerable hook reconfiguration phase. Both grips must be established before any hook movement begins."
+      },
+      {
+        "question": "When is the optimal timing window to attempt this transition?",
+        "answer": "The optimal time is when your opponent successfully defends your Reverse X-Guard sweep by widening their base or shifting weight to the attacked side. Their defensive commitment creates vulnerability to opposite-side attacks. It is also effective when they begin dropping weight to smash, as you can use their forward pressure to facilitate the hip rotation needed for hook repositioning."
+      },
+      {
+        "question": "How do you handle an opponent who drops their weight and drives forward during the transition?",
+        "answer": "If you feel them dropping weight during the transition, immediately abort and choose an alternative path. Return to solid Reverse X-Guard if the transition has not progressed far, or convert directly to Deep Half Guard by threading under their near leg. Their downward pressure actually assists the Deep Half entry and keeps you in an offensive guard position."
+      },
+      {
+        "question": "What role does hip elevation play throughout this transition?",
+        "answer": "Hip elevation must be maintained throughout to preserve your sweeping threat and prevent the opponent from smashing down through your guard structure. Elevated hips create the space needed for hook repositioning by keeping your legs active against the opponent's base. Dropping your hips signals vulnerability and invites pressure passing, collapsing the transition entirely."
+      },
+      {
+        "question": "How does the direction of force change between Reverse X-Guard and Standard X-Guard sweeps?",
+        "answer": "In Reverse X-Guard, your sweep force is directed toward the same side as your hooks, using the inverted angle to attack laterally. In Standard X-Guard, the scissoring action of the hooks creates force targeting the opponent's far side, lifting and rotating them in the opposite direction. This directional change is the core reason the transition is so valuable strategically."
+      },
+      {
+        "question": "Your opponent strips your sleeve grip mid-transition while your hooks are between positions - what do you do?",
+        "answer": "Rely on your secondary grip on belt or far collar to maintain posture control while completing the transition as quickly as possible. Do not pause or abort solely due to losing the sleeve grip, as the hook reconfiguration is more critical than the grip in the moment. Once in stable X-Guard position, immediately re-establish the sleeve grip before launching any sweep attacks."
+      },
+      {
+        "question": "What happens if you release both hooks simultaneously during the reconfiguration?",
+        "answer": "Releasing both hooks simultaneously creates a window of zero leg control where the opponent can freely disengage, backstep to a passing angle, or drive forward into a dominant position. This is the single most common and catastrophic error in this transition. The solution is strict sequential hook movement with overlapping control, ensuring one hook always maintains pressure while the other repositions."
+      }
+    ],
+    "safety_considerations": "This transition is relatively low-risk when performed correctly, as it involves repositioning your own body rather than applying joint stress to your opponent. The primary safety concern is maintaining your own back and hip health during the rotational movement. Avoid forcing the transition if your hips or lower back are fatigued, as the twisting motion combined with opponent pressure can strain these areas. When drilling, ensure you have adequate hip mobility before attempting full-speed repetitions. If you feel your grips slipping during the transition, it is safer to return to your starting position rather than forcing completion, which could result in losing position entirely and ending up in a disadvantageous passing situation."
+  },
+  "defender": {
+    "name": "Reverse X-Guard to Standard X-Guard Defender",
+    "description": "How to defend against Reverse X-Guard to Standard X-Guard in BJJ. Recognition cues, defensive options, and escape strategies for the top player.",
+    "overview": "Defending the Reverse X-Guard to Standard X-Guard transition requires the top player to recognize the brief window of vulnerability when the bottom player reconfigures their hooks. This is one of the most important moments to capitalize on from the top position in X-Guard exchanges, because the bottom player must temporarily reduce their leg control to reposition hooks. The defender's goal is to either prevent the transition from completing (forcing the bottom player to remain in Reverse X-Guard where you have already adapted your defense) or to exploit the transition window to disengage entirely and establish a passing position.\n\nThe key defensive concept is that any guard transition creates a moment of reduced structural integrity. During the Reverse X to Standard X switch, the bottom player's scissoring action is temporarily disrupted as hooks change sides. A prepared top player who recognizes this moment can backstep to disengage the entangled leg, drive forward pressure to smash the transitioning guard, or strip critical grips that the bottom player needs to complete the reconfiguration. Success depends on reading the bottom player's hip rotation and grip adjustments that telegraph the transition before it begins.\n\nAdvanced defenders integrate this awareness into their overall X-Guard passing strategy, deliberately baiting the transition by defending Reverse X sweeps in ways that encourage the switch, then capitalizing on the predictable hook exchange. This transforms a defensive scenario into an offensive trap.",
+    "key_principles": [
+      "Recognize the hip rotation and hook movement that signals the transition is beginning before hooks fully disengage",
+      "Attack during the window of reduced hook pressure rather than waiting for the new guard configuration to settle",
+      "Maintain heavy downward pressure on the controlled leg to make hook repositioning mechanically difficult",
+      "Strip the sleeve grip first, as this is the anchor that freezes your posture during the transition",
+      "Use backstep timing to extract your leg when the primary hook releases its position behind your knee",
+      "Keep your base wide and hips forward to resist the elevation that creates space for hook reconfiguration"
+    ],
+    "recognition_cues": [
+      "Bottom player's hips begin rotating from the inverted Reverse X angle toward a more squared-up position facing you directly",
+      "Primary hook behind your knee loosens or begins sliding as the bottom player starts repositioning it to the far hip",
+      "Bottom player tightens sleeve or collar grip noticeably, pulling your posture forward to mask the hook exchange",
+      "Bottom player's elevation pressure increases sharply just before the transition, loading your weight onto the hooks to create space for movement",
+      "Secondary hook on your hip begins moving downward toward a butterfly hook position under your thigh"
+    ],
+    "defensive_options": [
+      {
+        "action": "Backstep and extract the controlled leg during hook exchange, driving hips away from bottom player",
+        "when_to_use": "When you feel the primary hook behind your knee loosen as it begins repositioning, indicating the transition has started",
+        "targets_outcome": "Headquarters Position/Top",
+        "if_successful": "You clear the leg entanglement entirely and establish Headquarters Position for systematic passing",
+        "risk": "If timed too early, the bottom player still has strong hooks and can use your backstep movement to take your back"
+      },
+      {
+        "action": "Drive forward pressure and smash hips down to flatten the bottom player during the reduced-control window",
+        "when_to_use": "When you feel the scissoring pressure decrease as hooks transition between positions, indicating momentary structural weakness",
+        "targets_outcome": "Reverse X-Guard/Bottom",
+        "if_successful": "You collapse the guard structure and force the bottom player back to a weaker Reverse X-Guard or flatten them for a pass",
+        "risk": "If the bottom player maintains strong grips, your forward drive can be redirected into a sweep using your own momentum"
+      },
+      {
+        "action": "Strip the sleeve grip aggressively and establish cross-face control while hooks are in transition",
+        "when_to_use": "When you notice the bottom player tightening their sleeve grip as a precursor to the transition, before hooks begin moving",
+        "targets_outcome": "Headquarters Position/Top",
+        "if_successful": "Without the sleeve grip, the bottom player cannot freeze your posture and you can freely disengage or initiate passing",
+        "risk": "Reaching to strip grips while entangled can compromise your base if the bottom player attacks with a sweep during your hand fighting"
+      },
+      {
+        "action": "Step over the transitioning bottom hook before it establishes the new butterfly position under your thigh",
+        "when_to_use": "When the secondary hook releases from the hip position and is in transit toward the butterfly hook configuration",
+        "targets_outcome": "Headquarters Position/Top",
+        "if_successful": "You clear the bottom leg entirely and achieve a dominant passing position with the bottom player's guard completely broken",
+        "risk": "Stepping over requires momentary single-leg balance, and a well-timed elevation from the remaining hook can sweep you"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Headquarters Position/Top",
+        "how": "Time your backstep or leg extraction to coincide with the hook exchange window. When the primary hook releases from behind your knee, immediately drive your hips back and step your leg free while maintaining upper body control. Transition directly to Headquarters by establishing knee-line control on the now-freed leg."
+      },
+      {
+        "outcome": "Reverse X-Guard/Bottom",
+        "how": "Apply heavy forward pressure during the transition to collapse the bottom player's structure before they can complete the hook reconfiguration. Drive your hips toward their chest and flatten their elevation, forcing them back to Reverse X-Guard where they started. This denies them the angle change while you maintain your existing defensive framework."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Waiting passively for the transition to complete before attempting to defend or counter",
+        "consequence": "The bottom player establishes a fully configured Standard X-Guard with fresh angles, and you must now defend a completely new set of sweep threats from a position they chose deliberately",
+        "correction": "React immediately to the first recognition cue. The transition window is brief, and any defensive action during the exchange is more effective than defending the completed position"
+      },
+      {
+        "error": "Pulling the controlled leg backward against the hooks rather than using angular movement to disengage",
+        "consequence": "Straight backward pulling plays into the bottom player's elevation mechanics and can actually accelerate their sweep by loading their hooks with your retreating force",
+        "correction": "Use lateral backstep movement at an angle rather than pulling straight back. Angle your extraction to move your knee away from the hook's strongest line of control"
+      },
+      {
+        "error": "Focusing only on the hooks while ignoring the bottom player's grip control on your sleeve or collar",
+        "consequence": "Even if you partially disengage hooks, the maintained grips allow the bottom player to pull you back into guard, re-establish hooks, and potentially sweep you off-balance during your escape attempt",
+        "correction": "Address grip control as a primary defensive priority. Strip the sleeve grip before or simultaneously with your leg extraction to ensure clean disengagement"
+      },
+      {
+        "error": "Standing fully upright with narrow base when detecting the transition",
+        "consequence": "Tall narrow posture maximizes the bottom player's leverage advantage and makes any elevation sweep attempt during your counter-defense far more effective",
+        "correction": "Lower your center of gravity and widen your base immediately when you sense the transition starting. Forward hip pressure with a wide stance is the most stable defensive platform"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary window of opportunity for the defender during this transition?",
+        "answer": "The primary window occurs when the bottom player's hooks are between positions during the reconfiguration. The primary hook releases from behind the knee to reposition to the far hip, and the secondary hook transitions from the hip to a butterfly position. During this exchange, the scissoring structure that generates sweep power is temporarily broken, creating the best opportunity for backstep extraction or smash pressure."
+      },
+      {
+        "question": "How do you recognize that the bottom player is about to attempt this transition?",
+        "answer": "The earliest cue is the bottom player's hips beginning to rotate from the inverted Reverse X angle toward a squared-up position. They will also tighten their sleeve grip noticeably and increase elevation pressure to create space for hook movement. Feeling the primary hook behind your knee begin to loosen or slide is the definitive signal that the transition has started and your counter window is open."
+      },
+      {
+        "question": "Your opponent begins rotating their hips and you feel the primary hook loosening - what is your immediate response?",
+        "answer": "Immediately backstep your controlled leg at an angle, driving your hips away from the bottom player while stripping their sleeve grip with your free hand. The angular backstep is critical because straight backward movement loads their remaining hook. As you extract your leg, transition directly to Headquarters Position by driving your knee to the mat and establishing control over their now-freed leg before they can recover guard."
+      },
+      {
+        "question": "Why is stripping the sleeve grip important before or during your defensive action?",
+        "answer": "The sleeve grip is the anchor that freezes your posture during the transition. It prevents you from establishing the distance needed for backstep extraction and allows the bottom player to pull you back into guard even if you partially disengage hooks. Without it, their ability to control the timing and direction of the exchange collapses, and your escape becomes significantly higher percentage."
+      },
+      {
+        "question": "What is the risk of attempting a backstep too early before the hooks have actually begun transitioning?",
+        "answer": "If you backstep while the bottom player still has fully engaged Reverse X-Guard hooks, their strong hook configuration can redirect your backward movement into a sweep. The primary hook behind your knee combined with their hip elevation creates a powerful fulcrum, and your backstep momentum can be used against you. Wait for the definitive loosening of the primary hook before committing to the extraction."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Recognition drilling",
+        "description": "Partner performs the Reverse X to Standard X transition at slow speed while you practice identifying each recognition cue: hip rotation, grip tightening, hook loosening, and elevation increase. Call out each cue verbally as you feel it without attempting to counter yet."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Counter timing",
+        "description": "Partner performs the transition at moderate speed while you practice each defensive option in isolation. Spend dedicated rounds on backstep extraction, smash pressure, and grip stripping. Focus on matching your counter to the specific phase of the transition."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Decision-making under pressure",
+        "description": "Partner alternates between completing the transition, aborting to sweep from Reverse X, and converting to Single Leg X. Practice selecting the correct defensive response based on what the bottom player actually does rather than pre-committing to a single counter."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live integration",
+        "description": "Positional sparring starting from Reverse X-Guard Top. Bottom player has full freedom to transition, sweep, or submit. Focus on maintaining awareness of transition attempts while also defending direct Reverse X sweeps and managing the overall passing strategy."
+      }
+    ]
+  },
   "variants_and_adaptations": [
     {
       "variant_name": "Quick Switch Variation",
@@ -159,87 +404,5 @@
       "when_to_use": "Against defensive opponents who successfully block your Reverse X attacks"
     }
   ],
-  "knowledge_assessment": [
-    {
-      "question": "What is the primary goal of the Reverse X-Guard to Standard X-Guard transition?",
-      "answer": "The primary goal is to reconfigure your hooks from the inverted same-side position to the traditional opposite-side X-Guard structure, which provides access to different sweep angles and attack vectors. This allows you to threaten sweeps in both directions and makes your guard significantly harder to defend against."
-    },
-    {
-      "question": "What position do you start this transition from?",
-      "answer": "This technique starts from Reverse X-Guard Bottom, where you have both hooks on the same side of your opponent's body with your primary hook behind their knee and secondary hook controlling their hip, while your body is angled away from them in an inverted position."
-    },
-    {
-      "question": "What are the essential grips needed throughout this transition?",
-      "answer": "You need a strong grip on the opponent's sleeve on the controlled leg side to prevent them from establishing passing grips, and a secondary grip on far collar or belt to manage their posture. These grips freeze the opponent during the vulnerable hook reconfiguration phase and must be maintained throughout the entire transition."
-    },
-    {
-      "question": "Your opponent starts to backstep as you begin the transition - how do you adjust?",
-      "answer": "If the opponent backsteps before you complete the transition, abort the full X-Guard conversion and follow their movement. Convert to Single Leg X-Guard while maintaining ankle control, which allows you to continue attacking their base despite their defensive movement. The backstep actually exposes their leg for Single Leg X entries."
-    },
-    {
-      "question": "When is the best time to attempt this transition?",
-      "answer": "The optimal time is when your opponent successfully defends your Reverse X-Guard sweep by widening their base or shifting weight to the attacked side. Their defensive commitment creates vulnerability to opposite-side attacks. Also effective when they begin dropping weight to smash, as you can use their forward pressure to facilitate the hook repositioning."
-    },
-    {
-      "question": "What is the critical rule for hook movement during this transition?",
-      "answer": "You must maintain at least one hook in contact with your opponent throughout the entire transition. Move hooks sequentially with overlapping control rather than simultaneously releasing both. Create the new hook position before fully releasing the old configuration to ensure continuous control and prevent the opponent from disengaging."
-    },
-    {
-      "question": "How do you handle an opponent who drops their weight during the transition?",
-      "answer": "If you feel them dropping weight during the transition, immediately abort and choose an alternative path. Return to solid Reverse X-Guard if the transition has not progressed far, or convert directly to Deep Half Guard by threading under their near leg. Their downward pressure actually assists the Deep Half entry."
-    },
-    {
-      "question": "What role does hip elevation play during this transition?",
-      "answer": "Hip elevation must be maintained throughout to preserve your sweeping threat and prevent the opponent from smashing down through your guard. Elevated hips also create the space needed for hook repositioning. Dropping your hips during transition signals vulnerability and invites pressure passing."
-    },
-    {
-      "question": "How does your body angle change during this transition?",
-      "answer": "Your body rotates from the inverted Reverse X angle (facing away from opponent) toward the standard X-Guard orientation (facing more directly toward them). This rotation facilitates the hook repositioning and establishes the proper angle for X-Guard sweep mechanics targeting the far side."
-    },
-    {
-      "question": "What should you do if the opponent strips your sleeve grip mid-transition?",
-      "answer": "If your sleeve grip is stripped, rely on your secondary grip (belt or far collar) to maintain posture control while completing the transition as quickly as possible. Once in stable X-Guard position, immediately work to re-establish the sleeve grip before attacking. Do not pause or abort the transition solely due to losing the sleeve grip."
-    }
-  ],
-  "safety_considerations": "This transition is relatively low-risk when performed correctly, as it involves repositioning your own body rather than applying joint stress to your opponent. The primary safety concern is maintaining your own back and hip health during the rotational movement. Avoid forcing the transition if your hips or lower back are fatigued, as the twisting motion combined with opponent pressure can strain these areas. When drilling, ensure you have adequate hip mobility before attempting full-speed repetitions. If you feel your grips slipping during the transition, it is safer to return to your starting position rather than forcing completion, which could result in losing position entirely and ending up in a disadvantageous passing situation.",
-  "position_integration": "The Reverse X-Guard to Standard X-Guard transition is a critical link in the modern leg entanglement guard system. It connects two powerful sweeping positions that attack in opposite directions, creating a continuous threat cycle that forces opponents to defend multiple angles. This transition sits within a broader network that includes Single Leg X-Guard, Deep Half Guard, and various Ashi Garami entries. Mastering this transition allows you to flow between Reverse X and Standard X based on opponent reactions, dramatically increasing your overall offensive output from bottom position. When combined with direct sweeps from both positions, leg lock entries, and back takes, this transition transforms X-Guard variants from isolated positions into a comprehensive guard system.",
-  "related_content": [
-    {
-      "name": "Reverse X-Guard",
-      "relationship": "Starting position"
-    },
-    {
-      "name": "X-Guard",
-      "relationship": "Target position"
-    },
-    {
-      "name": "Single Leg X-Guard",
-      "relationship": "Alternative transition when opponent backsteps"
-    },
-    {
-      "name": "Deep Half Guard",
-      "relationship": "Bail-out position when opponent smashes"
-    },
-    {
-      "name": "Reverse X-Guard Sweep",
-      "relationship": "Attack from starting position"
-    },
-    {
-      "name": "Technical Stand Up",
-      "relationship": "Alternative from X-Guard when sweeps fail"
-    },
-    {
-      "name": "Ashi Garami",
-      "relationship": "Leg entanglement transition option"
-    },
-    {
-      "name": "Butterfly Guard",
-      "relationship": "Related elevation-based guard"
-    },
-    {
-      "name": "De La Riva Guard",
-      "relationship": "Common entry path to both X-Guard variations"
-    }
-  ],
-  "success_rate": 58
+  "position_integration": "The Reverse X-Guard to Standard X-Guard transition is a critical link in the modern leg entanglement guard system. It connects two powerful sweeping positions that attack in opposite directions, creating a continuous threat cycle that forces opponents to defend multiple angles. This transition sits within a broader network that includes Single Leg X-Guard, Deep Half Guard, and various Ashi Garami entries. Mastering this transition allows you to flow between Reverse X and Standard X based on opponent reactions, dramatically increasing your overall offensive output from bottom position. When combined with direct sweeps from both positions, leg lock entries, and back takes, this transition transforms X-Guard variants from isolated positions into a comprehensive guard system."
 }

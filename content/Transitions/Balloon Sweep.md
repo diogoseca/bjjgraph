@@ -2,157 +2,26 @@
 
 
 
-
 ---
 title: "Balloon Sweep | BJJ Technique | BJJ Graph"
-description: "Master the Balloon Sweep from Closed Guard in BJJ. Complete guide with step-by-step execution, timing, and setups. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
+description: "Master the Balloon Sweep from Closed Guard in BJJ. Complete guide with step-by-step execution, timing, setups, and defensive counters for all levels."
 ---
 
 
-<body data-content-type="transitions">
-
-<!-- Schema Markup - Auto-generated from JSON -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Execute Balloon Sweep in BJJ",
-  "description": "Step-by-step guide for Balloon Sweep from Closed Guard/Bottom. Possible outcomes: Mount/Top (65%), Closed Guard/Bottom (25%), Closed Guard/Top (10%).",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Establish upper body control",
-      "text": "Secure a strong grip on the back of opponent's collar or neck with your dominant hand while controlling their sleeve or tricep with your other hand. Break their posture forward so their weight is over their hands and their head is near your chest. This control prevents them from posting wide during the sweep.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Open guard and create angle",
-      "text": "Open your closed guard by uncrossing your ankles. Simultaneously shift your hips at a 45-degree angle to the side opposite your collar grip. This angular position creates the rotational axis for the sweep and prevents opponent from simply posting their leg to defend.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Insert butterfly hook or posting foot",
-      "text": "Insert your inside foot (same side as your collar grip) as a butterfly hook under opponent's thigh, or alternatively place it as a posting foot on their hip. Your outside leg should remain active, with your knee drawn toward your chest and your foot ready to assist with lift or control.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Load and compress",
-      "text": "Pull opponent's upper body tight to your chest using your collar grip while simultaneously drawing your knees up toward your chest. This compression loads their weight onto your butterfly hook or posting foot and creates the coiled spring effect that will generate explosive power for the sweep.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute explosive lift and pull",
-      "text": "Simultaneously extend your hips upward explosively while lifting with your butterfly hook or pushing with your posting foot. Pull down hard on their collar to maintain their forward lean while your sleeve grip prevents them from posting their arm. The motion should feel like inflating a balloon under their center of mass.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Complete rotation and establish mount",
-      "text": "As opponent begins to tip over your center line, continue the rotation by following their momentum. Your outside leg should swing over to help you sit up and establish mount. Maintain upper body control throughout the transition to prevent them from turning into you or escaping.",
-      "position": 6
-    }
-  ],
-  "tool": ["BJJ Gi or No-Gi attire", "Training partner", "Mat space"],
-  "totalTime": "PT5M"
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the primary mechanical difference between the Balloon Sweep and traditional lateral sweeps from closed guard?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The Balloon Sweep uses vertical displacement and upward lift to compromise the opponent's base before rotating them over your center line, rather than relying primarily on lateral movement. This vertical component creates a balloon-like inflation effect under their center of mass, making it effective against opponents with strong wide bases who resist lateral sweeps."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why is the compression and loading phase critical to the success of the Balloon Sweep?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The loading phase where you compress and draw your knees up creates the coiled spring effect that generates explosive power for the sweep. Without proper loading, you are relying only on muscular strength rather than stored elastic energy, resulting in weak sweeps that are easily defended. The opponent's weight must be loaded onto your butterfly hook or posting foot before the explosive extension."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How should you respond if your opponent successfully posts their far leg during the Balloon Sweep attempt?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You have several options: switch to attacking the posted leg with a different sweep angle, transition to alternative sweeps like Hip Bump or Scissor Sweep that exploit their wide base, or transition to taking their back or attacking the posted arm with an armbar if they become exposed on that side."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What angle should your hips be positioned at during the Balloon Sweep and why is this important?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Your hips should be angled at approximately 45 degrees to the side opposite your collar grip. This angular position creates the rotational axis for the sweep and prevents the opponent from simply posting their far leg to defend. The sweep should move them over a diagonal line, not straight back, which makes posting much more difficult."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the correct coordination between upper and lower body movements during the explosive phase of the Balloon Sweep?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You must simultaneously extend your hips upward explosively while lifting with your butterfly hook or posting foot, and at the same time pull down hard on their collar to maintain their forward lean while your sleeve grip prevents posting. Both the upward lift from the legs and the downward pull from the upper body must work together in perfect synchronization to generate maximum sweeping power."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "When is the optimal timing to initiate the Balloon Sweep?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The optimal timing is when you feel the opponent's weight compressed and loaded onto your butterfly hook or posting foot, ideally coinciding with a moment of their forward pressure or movement. You should wait until their hands are positioned close to your body rather than posted wide, and their posture is broken forward with their head near your chest."
-      }
-    }
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Balloon Sweep",
-  "description": "Master the Balloon Sweep from Closed Guard in BJJ. Complete guide with step-by-step execution, timing, and setups. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
-  "url": "https://bjjgraph.org/Transitions/Balloon-Sweep",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.org"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
-    {"@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/"},
-    {"@type": "ListItem", "position": 3, "name": "Balloon Sweep", "item": "https://bjjgraph.org/Transitions/Balloon-Sweep"}
-  ]
-}
-</script>
+<body data-content-type="transitions-hub">
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-The Balloon Sweep is a dynamic and versatile sweep that combines elements of butterfly guard mechanics within the closed guard structure. This technique exploits the opponent's forward pressure and posture by using an explosive upward lifting motion combined with hip movement to elevate and off-balance them. The name derives from the balloon-like inflation of the hips and legs that creates the sweeping momentum. Unlike traditional closed guard sweeps that rely primarily on lateral movement, the Balloon Sweep uses vertical displacement to compromise the opponent's base before transitioning them over your center line. This makes it particularly effective against opponents who maintain a strong low base and resist lateral sweeps. The technique requires precise timing and coordination between upper body control and lower body mechanics, making it a valuable addition to any guard player's arsenal.
+The Balloon Sweep is a dynamic and versatile sweep that combines elements of butterfly guard mechanics within the closed guard structure. This technique exploits the opponent's forward pressure and posture by using an explosive upward lifting motion combined with hip movement to elevate and off-balance them. The name derives from the balloon-like inflation of the hips and legs that creates the sweeping momentum. Unlike traditional closed guard sweeps that rely primarily on lateral movement, the Balloon Sweep uses vertical displacement to compromise the opponent's base before transitioning them over your center line. This makes it particularly effective against opponents who maintain a strong low base and resist lateral sweeps.
 
-**From Position**: [[Closed Guard/Bottom]]
+The technique requires precise timing and coordination between upper body control and lower body mechanics. The sweeper must break the opponent's posture, load their weight onto a butterfly hook or posting foot, then execute an explosive hip extension synchronized with a collar pull. The vertical lift creates a moment of weightlessness that eliminates the opponent's ability to post or widen their base. This mechanical principle distinguishes the Balloon Sweep from hip-dominant sweeps like the Hip Bump or momentum-based sweeps like the Pendulum, giving practitioners a critical tool against opponents who neutralize those standard attacks.
+
+Strategically, the Balloon Sweep occupies a key role in the closed guard sweeping system because it punishes the defensive posture that defeats lateral sweeps. When opponents widen their base to resist Scissor Sweeps or drop their hips to counter Hip Bumps, they concentrate weight forward and inward, which is precisely the loading condition the Balloon Sweep exploits. This creates a self-correcting offensive cycle where the opponent's successful defense of one sweep creates the ideal setup for another.
+
+**From Position**: [[Closed Guard]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -163,186 +32,193 @@ The Balloon Sweep is a dynamic and versatile sweep that combines elements of but
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount/Top]] | 65% |
-| Failure | [[Closed Guard/Bottom]] | 25% |
-| Counter | [[Closed Guard/Top]] | 10% |
+| Success | [[Mount]] | 58% |
+| Failure | [[Closed Guard]] | 27% |
+| Counter | [[Closed Guard]] | 15% |
+
+
+</section>
+
+<section class="content-section">
+
+## Attacker vs Defender
+
+| &nbsp; | Attacker | Defender |
+|--------|----------|----------|
+| **Focus** | Execute technique | Prevent or counter |
+| **Key Principles** | Maintain strong upper body control through collar and sleeve... | Maintain upright posture with head over hips to prevent forw... |
+| **Options** | 7 execution steps | 4 defensive options |
+
+</section>
+
+<section id="attacker-summary" class="content-section">
+
+## Playing as Attacker
+
+[[Balloon Sweep/Attacker|→ Full Attacker Guide]]
+
+### Key Principles
+
+
+- Maintain strong upper body control through collar and sleeve grips throughout the entire sweep
+
+- Use explosive hip extension to create vertical lift under the opponent's center of mass
+
+- Time the sweep to coincide with the opponent's forward pressure or weight commitment
+
+- Create a 45-degree hip angle to establish the rotational axis and prevent far-leg posting
+
+- Keep feet active and ready to transition between butterfly hooks and posting positions
+
+- Synchronize the downward collar pull with the upward leg lift for maximum sweeping force
+
+- Maintain all connection points through the transition to prevent opponent from posting or turtling
+
+
+### Execution Steps
+
+
+- **Establish upper body control**: Secure a strong grip on the back of opponent's collar or neck with your dominant hand while controll...
+
+- **Open guard and create angle**: Open your closed guard by uncrossing your ankles. Simultaneously shift your hips at a 45-degree angl...
+
+- **Insert butterfly hook or posting foot**: Insert your inside foot (same side as your collar grip) as a butterfly hook under the opponent's thi...
+
+- **Load and compress**: Pull the opponent's upper body tight to your chest using your collar grip while simultaneously drawi...
+
+- **Execute explosive lift and pull**: Simultaneously extend your hips upward explosively while lifting with your butterfly hook or pushing...
+
+- **Guide the rotation over center line**: As the opponent begins to tip over your center line from the vertical displacement, guide their traj...
+
+- **Follow through and establish mount**: Continue the rotation by following their momentum, swinging your outside leg over and sitting up to ...
+
+
+### Common Mistakes
+
+
+- **Attempting sweep without proper upper body control established first**
+  - Consequence: Opponent easily posts their arms or pulls their hips back, completely shutting down the sweep and potentially initiating a guard pass
+  - Correction: Always establish strong collar and sleeve control first, ensuring opponent's posture is broken and their weight is forward before opening guard or initiating any lifting motion
+
+- **Lifting too early before the opponent's weight is fully loaded onto the hook**
+  - Consequence: Sweep has no power and opponent simply steps over or backs away, wasting energy and telegraphing the intention for future attempts
+  - Correction: Wait until you feel the opponent's weight fully compressed onto your butterfly hook or posting foot during the loading phase. The coiled spring must be fully loaded before releasing
+
+- **Using only leg power without coordinating the upper body collar pull**
+  - Consequence: Opponent maintains upright posture and can easily post or counter, resulting in a failed sweep or guard pass opportunity for them
+  - Correction: Synchronize the upward lift from your legs with a strong downward pull on the collar at the exact same moment. Both force vectors must work together to create the off-balancing effect
+
+
+</section>
+
+<section id="defender-summary" class="content-section">
+
+## Playing as Defender
+
+[[Balloon Sweep/Defender|→ Full Defender Guide]]
+
+### Key Principles
+
+
+- Maintain upright posture with head over hips to prevent forward weight loading that enables the sweep
+
+- Fight the collar grip aggressively since it is the primary control mechanism for the entire sweep
+
+- Deny butterfly hook insertion by keeping hips low and squeezing knees against opponent's body
+
+- Post the far leg wide immediately when you feel upward lifting force under your center of mass
+
+- Keep hands active on opponent's hips or biceps to control distance and detect sweep loading
+
+- Recognize the hip angle shift that precedes the sweep and reposition to neutralize the diagonal attack line
+
+
+### Recognition Cues
+
+
+- Opponent uncrosses their ankles and opens their closed guard while maintaining strong collar and sleeve grips
+
+- You feel a butterfly hook or foot being inserted under your thigh or onto your hip after the guard opens
+
+- Opponent shifts their hips to a 45-degree angle while pulling your upper body tight to their chest
+
+- You feel your weight being drawn forward and compressed downward as if being loaded onto a spring
+
+- Opponent's knees draw up toward their chest while maintaining strong pull on your collar
+
+
+### Defensive Options
+
+
+- **Post far leg wide and drive hips back to break the loading position** - When: As soon as you feel the opponent's guard open and a hook being inserted, before the compression phase completes
+
+- **Strip the collar grip with two-on-one grip break while sitting hips back** - When: When you recognize the opponent establishing a deep collar grip and beginning to break your posture forward
+
+- **Stand up in base to eliminate the forward weight distribution and open passing options** - When: When you feel your posture being systematically broken and the opponent is actively loading for the sweep
 
 
 </section>
 
 
-
-<section id="key-principles" class="content-section">
-
-## Key Principles
-- Maintain strong upper body control throughout the sweep
-- Use explosive hip extension to create vertical lift
-- Time the sweep to coincide with opponent's forward pressure
-- Create an angle with your body to facilitate the rotation
-- Keep your feet active and ready to transition butterfly hooks if needed
-- Combine pulling motion with lifting motion for maximum effectiveness
-- Maintain connection points to prevent opponent from posting
-
-
-</section>
-
-<section id="setup-requirements" class="content-section">
-
-## Prerequisites
-- Closed guard established with opponent's posture broken forward
-- Strong grip on opponent's collar or back of neck with one hand
-- Control of opponent's sleeve or tricep with other hand
-- Opponent's weight shifted forward onto their hands or knees
-- Your hips positioned directly under opponent's center of mass
-- Ability to create space to insert butterfly hook or posting foot
-- Opponent's hands positioned close to your body (not posted wide)
-
-
-</section>
-
-<section id="execution-steps" class="content-section">
-
-## Execution Steps
-1. **Establish upper body control**: Secure a strong grip on the back of opponent's collar or neck with your dominant hand while controlling their sleeve or tricep with your other hand. Break their posture forward so their weight is over their hands and their head is near your chest. This control prevents them from posting wide during the sweep.
-2. **Open guard and create angle**: Open your closed guard by uncrossing your ankles. Simultaneously shift your hips at a 45-degree angle to the side opposite your collar grip. This angular position creates the rotational axis for the sweep and prevents opponent from simply posting their leg to defend.
-3. **Insert butterfly hook or posting foot**: Insert your inside foot (same side as your collar grip) as a butterfly hook under opponent's thigh, or alternatively place it as a posting foot on their hip. Your outside leg should remain active, with your knee drawn toward your chest and your foot ready to assist with lift or control.
-4. **Load and compress**: Pull opponent's upper body tight to your chest using your collar grip while simultaneously drawing your knees up toward your chest. This compression loads their weight onto your butterfly hook or posting foot and creates the coiled spring effect that will generate explosive power for the sweep.
-5. **Execute explosive lift and pull**: Simultaneously extend your hips upward explosively while lifting with your butterfly hook or pushing with your posting foot. Pull down hard on their collar to maintain their forward lean while your sleeve grip prevents them from posting their arm. The motion should feel like inflating a balloon under their center of mass.
-6. **Complete rotation and establish mount**: As opponent begins to tip over your center line, continue the rotation by following their momentum. Your outside leg should swing over to help you sit up and establish mount. Maintain upper body control throughout the transition to prevent them from turning into you or escaping.
-
-
-</section>
-
-<section id="common-counters" class="content-section">
-
-## Opponent Counters
-- **Opponent posts their far leg wide to create a wide base** (Effectiveness: High) - Your Response: Switch to attacking the posted leg with a different sweep angle, or transition to alternative sweeps like Hip Bump or Scissor Sweep that exploit their wide base
-- **Opponent pulls their hips back and stands up to relieve pressure** (Effectiveness: Medium) - Your Response: Follow their backward movement by sitting up and transitioning to technical standup or single leg attack, or re-establish closed guard if they remain in range
-- **Opponent drives forward hard to flatten you out** (Effectiveness: Medium) - Your Response: Use their forward pressure to enhance the sweep by maintaining the lift and using their momentum against them, or transition to Pendulum Sweep if they over-commit
-- **Opponent posts their free arm wide to prevent rotation** (Effectiveness: Low) - Your Response: Attack the posted arm with armbar or transition to taking their back as they become exposed on that side
-
-
-</section>
-
-<section id="common-mistakes" class="content-section hide-minimal">
-
-## Common Mistakes
-- **Mistake**: Attempting sweep without proper upper body control
-  - **Consequence**: Opponent easily posts their arms or pulls their hips back, completely shutting down the sweep and potentially passing your guard
-  - **Correction**: Always establish strong collar and sleeve control first, ensuring opponent's posture is broken and their weight is forward before initiating the lift
-- **Mistake**: Lifting too early before opponent's weight is loaded
-  - **Consequence**: Sweep has no power and opponent simply steps over or backs away, wasting energy and telegraphing your intention
-  - **Correction**: Wait until you feel opponent's weight compressed onto your butterfly hook or posting foot. The loading phase is critical for generating power
-- **Mistake**: Using only leg power without coordinating upper body pull
-  - **Consequence**: Opponent maintains upright posture and can easily post or counter, resulting in failed sweep or even guard pass
-  - **Correction**: Synchronize the upward lift from your legs with a strong downward pull on the collar. Both directions of force must work together
-- **Mistake**: Failing to create proper angle before initiating sweep
-  - **Consequence**: Opponent simply posts their far leg, creating a stable base that cannot be swept with forward momentum alone
-  - **Correction**: Always angle your hips 45 degrees to create the rotational axis. The sweep should move them over a diagonal line, not straight back
-- **Mistake**: Releasing upper body control during the sweep transition
-  - **Consequence**: Opponent escapes to side or turtles instead of ending in mount, losing position advantage
-  - **Correction**: Maintain collar and sleeve grips throughout entire sweep and into mount transition. Only release once mount is fully established
-- **Mistake**: Not following through with hip movement after initial lift
-  - **Consequence**: Opponent lands in half guard or scramble position instead of being fully swept to mount
-  - **Correction**: Continue rotating your hips and sitting up to follow the sweep motion through to completion. Think of it as a continuous circular motion
-
-
-</section>
-
-<section id="training-progressions" class="content-section hide-minimal">
-
-## Training Progressions
-**Week 1-2: Fundamental Mechanics** - Basic movement pattern and coordination
-Practice the lifting motion from closed guard with partner in defensive posture only. Focus on feeling the compression and explosive extension. Partner remains static to allow development of proper mechanics. Drill 20 repetitions per side.
-
-**Week 3-4: Timing and Control** - Upper body control integration and timing
-Add active collar and sleeve control. Partner provides light resistance by trying to maintain posture. Practice loading and timing the sweep to coincide with partner's small forward movements. Begin recognizing optimal moments for execution. Drill 15 repetitions per side with partner resistance.
-
-**Week 5-8: Dynamic Execution** - Full technique under moderate resistance
-Partner actively defends with moderate resistance including posting attempts and weight distribution changes. Practice adapting angle and timing based on their defensive reactions. Add transitions to mount and alternative options if sweep is defended. Flow rolling with focus on this sweep.
-
-**Week 9-12: Competition Application** - Integration with other attacks and setups
-Chain Balloon Sweep with Hip Bump, Scissor, and Pendulum sweeps. Practice setting up sweep from various guard situations and against different opponent reactions. Partner provides full resistance with realistic defensive counters. Live rolling with emphasis on finding opportunities.
-
-**Month 4+: Advanced Variations** - Refinement and situational adaptations
-Develop variations for different opponent body types and defensive strategies. Practice no-gi adaptations and transitions to leg attacks. Incorporate into competition training and study high-level competition footage for timing insights.
-
-
-
-</section>
-
-<section id="variants-and-adaptations" class="content-section hide-minimal">
+<section id="variants" class="content-section hide-minimal">
 
 ## Variations
-**Double Balloon Sweep**: Both feet inserted as butterfly hooks under both thighs for maximum lifting power. Creates symmetrical lift that is harder to defend with posting. (When to use: Against opponents with strong posting defense or when they maintain very tight inside control position)
-
-**Balloon to Back Take**: If opponent successfully posts to defend the sweep, immediately transition to taking their back by following their rotation and securing seat belt control. (When to use: When opponent posts their far leg but exposes their back in the process)
-
-**Flower Sweep Combination**: Fake the Balloon Sweep to draw opponent's defensive post, then immediately switch to Flower Sweep attacking the posted arm side. (When to use: Against opponents who consistently defend Balloon Sweep with wide posting)
-
-**No-Gi Balloon Sweep**: Replace collar grip with overhook or whizzer on one arm while controlling their opposite wrist. Use head control and shoulder pressure instead of gi grips. (When to use: In no-gi training or MMA contexts where gi grips are unavailable)
 
 
+**Double Balloon Sweep**: Both feet inserted as butterfly hooks under both thighs for maximum symmetrical lifting power. Creates a balanced lift that is harder to defend with single-leg posting because both sides elevate simultaneously. (When to use: Against opponents with strong single-leg posting defense or when they maintain very tight inside control preventing asymmetric hook placement)
 
-</section>
 
-<section id="knowledge-assessment" class="content-section">
+**Balloon to Back Take**: When the opponent successfully posts to defend the full sweep, immediately follow their rotation by releasing the collar grip, securing an underhook, and inserting hooks to take their back. (When to use: When the opponent posts their far leg but their upper body rotation exposes their back during the defense)
 
-## Test Your Knowledge
-**Q1**: What is the primary mechanical difference between the Balloon Sweep and traditional lateral sweeps from closed guard?
-**A**: The Balloon Sweep uses vertical displacement and upward lift to compromise the opponent's base before rotating them over your center line, rather than relying primarily on lateral movement. This vertical component creates a balloon-like inflation effect under their center of mass, making it effective against opponents with strong wide bases who resist lateral sweeps.
 
-**Q2**: Why is the compression and loading phase critical to the success of the Balloon Sweep?
-**A**: The loading phase where you compress and draw your knees up creates the coiled spring effect that generates explosive power for the sweep. Without proper loading, you are relying only on muscular strength rather than stored elastic energy, resulting in weak sweeps that are easily defended. The opponent's weight must be loaded onto your butterfly hook or posting foot before the explosive extension.
+**Flower Sweep Combination**: Initiate the Balloon Sweep to draw the opponent's defensive post, then immediately redirect to a Flower Sweep attacking the posted arm side where their base is now compromised. (When to use: Against opponents who consistently defend the Balloon Sweep with wide arm or leg posting)
 
-**Q3**: How should you respond if your opponent successfully posts their far leg during the Balloon Sweep attempt?
-**A**: You have several options: switch to attacking the posted leg with a different sweep angle, transition to alternative sweeps like Hip Bump or Scissor Sweep that exploit their wide base, or transition to taking their back or attacking the posted arm with an armbar if they become exposed on that side.
 
-**Q4**: What angle should your hips be positioned at during the Balloon Sweep and why is this important?
-**A**: Your hips should be angled at approximately 45 degrees to the side opposite your collar grip. This angular position creates the rotational axis for the sweep and prevents the opponent from simply posting their far leg to defend. The sweep should move them over a diagonal line, not straight back, which makes posting much more difficult.
-
-**Q5**: What is the correct coordination between upper and lower body movements during the explosive phase of the Balloon Sweep?
-**A**: You must simultaneously extend your hips upward explosively while lifting with your butterfly hook or posting foot, and at the same time pull down hard on their collar to maintain their forward lean while your sleeve grip prevents posting. Both the upward lift from the legs and the downward pull from the upper body must work together in perfect synchronization to generate maximum sweeping power.
-
-**Q6**: When is the optimal timing to initiate the Balloon Sweep?
-**A**: The optimal timing is when you feel the opponent's weight compressed and loaded onto your butterfly hook or posting foot, ideally coinciding with a moment of their forward pressure or movement. You should wait until their hands are positioned close to your body rather than posted wide, and their posture is broken forward with their head near your chest.
+**No-Gi Balloon Sweep**: Replace the collar grip with a deep overhook or whizzer controlling one arm above the elbow while controlling the opposite wrist. Use head control and body-to-body connection instead of gi grips for the pulling mechanism. (When to use: In no-gi training, submission grappling competition, or MMA contexts where gi grips are unavailable)
 
 
 
 </section>
 
-<section id="safety-considerations" class="content-section">
 
-## Safety Considerations
-
-When practicing the Balloon Sweep, ensure controlled execution to avoid slamming your partner, especially during the explosive lifting phase. Partners should practice proper breakfall techniques to safely absorb the sweep. During drilling, maintain awareness of other training partners to avoid collisions as the sweep involves rotational movement. Progress resistance levels gradually to prevent injuries from mistimed explosive movements. Ensure adequate mat space for the sweep's rotational arc. Partners with back, neck, or shoulder injuries should communicate limitations before drilling.
-
-</section>
 
 <section id="position-integration" class="content-section">
 
 ## Position Integration
 
-The Balloon Sweep is a fundamental component of closed guard offense that bridges traditional guard sweeps with modern butterfly guard mechanics. It fits into the guard attack system as a high-percentage option when opponents maintain strong posture and resist lateral sweeps. The technique chains naturally with Hip Bump Sweep, Scissor Sweep, and Pendulum Sweep to create a comprehensive guard sweeping system. From the BJJ positional hierarchy perspective, the Balloon Sweep represents an efficient path from the neutral Closed Guard position to the dominant Mount position, bypassing intermediary positions. It integrates particularly well with submission attacks from closed guard, as failed submission attempts often leave opponents in ideal positions for Balloon Sweep setups. The sweep also serves as an entry point to butterfly guard mechanics, teaching practitioners the fundamental lifting and off-balancing principles that apply to butterfly guard and X-guard positions.
+The Balloon Sweep is a fundamental component of closed guard offense that bridges traditional guard sweeps with modern butterfly guard mechanics. It occupies a critical role in the sweeping system because it punishes the exact defensive posture that defeats lateral sweeps. When opponents widen their base against Scissor Sweeps or drop their hips against Hip Bumps, they concentrate weight forward into the loading condition the Balloon Sweep exploits. The technique chains naturally with Hip Bump Sweep, Scissor Sweep, Pendulum Sweep, and Flower Sweep to create a comprehensive guard sweeping system where each defense opens the next attack. From the BJJ positional hierarchy, the Balloon Sweep represents an efficient path from neutral Closed Guard directly to dominant Mount, bypassing intermediary positions. It integrates with submission attacks from closed guard, as failed triangle or armbar attempts often leave opponents in ideal forward-loaded positions for Balloon Sweep setups. The lifting mechanics also serve as a gateway to butterfly guard and X-guard principles.
 
 </section>
+
 
 <section id="related-content" class="content-section">
 
 ## Related Techniques
 
-- [[Hip Bump Sweep]] - Alternative - attacks similar forward posture with different angle
-- [[Scissor Sweep]] - Follow-up - chain when opponent defends with wide base
-- [[Pendulum Sweep]] - Combination - use when opponent drives hard forward
-- [[Flower Sweep]] - Follow-up - attack posted arm after Balloon Sweep attempt
-- [[Basic Butterfly Sweep]] - Related technique - similar lifting mechanics
-- [[Elevator Sweep]] - Related technique - shares vertical displacement principle
-- [[Closed Guard]] - Starting position - primary launch point
-- [[Mount]] - Ending position - target position after sweep
-- [[Butterfly Guard]] - Related position - shares hook mechanics
-- [[Armbar from Guard]] - Combination - attack if opponent posts arm
-- [[Triangle from Closed Guard]] - Setup - failed triangle creates Balloon Sweep opportunity
-- [[Back Take Generic]] - Alternative - transition if opponent defends by turning
+
+- [[Hip Bump Sweep]] - Alternative sweep attacking similar forward posture with a different angle of force
+
+- [[Scissor Sweep]] - Chain option when opponent defends Balloon Sweep by widening their base laterally
+
+- [[Pendulum Sweep]] - Combination sweep that exploits opponent driving hard forward to resist the lift
+
+- [[Flower Sweep]] - Follow-up attack targeting posted arm after Balloon Sweep attempt is defended
+
+- [[Basic Butterfly Sweep]] - Related technique sharing the fundamental lifting and hook mechanics
+
+- [[Elevator Sweep]] - Related technique sharing the vertical displacement principle from guard
+
+- [[Closed Guard]] - Starting position and primary launch point for this sweep
+
+- [[Mount]] - Primary target position achieved upon successful sweep completion
+
+- [[Butterfly Guard]] - Related position sharing hook mechanics used in the lifting phase
+
+- [[Armbar from Guard]] - Submission chain option when opponent posts arm to defend sweep
+
+- [[Triangle from Closed Guard]] - Setup relationship where failed triangle creates ideal Balloon Sweep loading
+
+- [[Back Take]] - Alternative transition when opponent defends sweep by turning and exposing back
 
 
 </section>

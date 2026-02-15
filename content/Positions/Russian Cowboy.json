@@ -49,7 +49,7 @@
   ],
   "top": {
     "name": "Russian Cowboy Top",
-    "description": "Offensive guide to mastering Russian Cowboy position. Learn control maintenance, truck entries, and submission setups. Success rates: Beginner 40%, Intermediate 60%, Advanced 80%.",
+    "description": "Offensive guide to mastering Russian Cowboy position. Learn control maintenance, truck entries, and submission setups from single-hook back control.",
     "tags": [
       "bjj",
       "back_attack",
@@ -59,7 +59,7 @@
     ],
     "overview": "The Russian Cowboy is a highly effective back control variant commonly used in no-gi grappling and submission wrestling. This position features the top practitioner establishing control over the opponent's back while maintaining a hook under one leg, creating powerful leverage for attacks and making escape extremely difficult. The position derives its name from the riding motion resembling a cowboy on a bucking horse, combined with its popularity among Russian and Eastern European grapplers.\n\nFrom a tactical perspective, the Russian Cowboy represents a transitional state between traditional back control and the truck position, offering unique submission opportunities including the twister, calf slicers, and various choke attacks. The position excels at controlling an opponent who is attempting to turtle or escape from bottom positions, as the single leg hook combined with upper body control creates a powerful pinning mechanism. Advanced practitioners use this position to systematically break down defensive postures and expose submission opportunities.\n\nThe Russian Cowboy is particularly effective because it combines elements of back attack systems with leg entanglement control, forcing the opponent to defend multiple threats simultaneously. Unlike pure back control where both hooks are in, or pure truck where both legs are controlled, the Russian Cowboy's asymmetric structure creates unique mechanical advantages that make it difficult for the opponent to distribute their defensive resources effectively. This position requires strong positional awareness and the ability to transition fluidly between related control positions.",
     "state_properties": {
-      "point_value": 4,
+      "point_value": 0,
       "position_type": "Offensive/Controlling",
       "risk_level": "Low to Medium",
       "energy_cost": "Medium",
@@ -163,7 +163,7 @@
           },
           {
             "technique": "Rear Naked Choke",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 60
           }
         ]
@@ -172,7 +172,7 @@
         "condition": "If opponent extends their far arm to post or create distance",
         "actions": [
           {
-            "technique": "Armbar from Back",
+            "technique": "Armbar from Back Transition",
             "target": "Armbar Control",
             "probability": 65
           },
@@ -188,11 +188,11 @@
         "actions": [
           {
             "technique": "Bow and Arrow Choke",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 60
           },
           {
-            "technique": "Calf Slicer from Truck",
+            "technique": "Calf Slicer",
             "target": "Truck",
             "probability": 55
           }
@@ -239,7 +239,7 @@
       },
       {
         "name": "Transition Flow Drill",
-        "description": "From Russian Cowboy, practice flowing between related positions: Russian Cowboy → Truck → Back Control → Crucifix → Russian Cowboy. Partner provides moderate resistance. Emphasis on smooth transitions while maintaining control throughout the sequence.",
+        "description": "From Russian Cowboy, practice flowing between related positions: Russian Cowboy to Truck to Back Control to Crucifix to Russian Cowboy. Partner provides moderate resistance. Emphasis on smooth transitions while maintaining control throughout the sequence.",
         "duration": "3 rounds of 3 minutes"
       },
       {
@@ -284,11 +284,11 @@
       },
       {
         "name": "Truck Entry",
-        "relationship": "Primary offensive transition"
+        "relationship": "Primary offensive transition from this position"
       },
       {
-        "name": "Calf Slicer from Truck",
-        "relationship": "High-percentage submission available from transition"
+        "name": "Calf Slicer",
+        "relationship": "High-percentage transition to leg submission from truck pathway"
       }
     ],
     "position_metrics": {
@@ -309,41 +309,45 @@
     "transitions": [
       {
         "transition": "Truck Entry",
-        "attempt_probability": 14
-      },
-      {
-        "transition": "Twister Finish",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Back Control to Crucifix",
         "attempt_probability": 13
       },
       {
-        "transition": "Rear Naked Choke",
+        "transition": "Twister Finish",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Back Control to Crucifix",
         "attempt_probability": 12
       },
       {
-        "transition": "Calf Slicer from Truck",
+        "transition": "Rear Naked Choke",
         "attempt_probability": 11
+      },
+      {
+        "transition": "Calf Slicer",
+        "attempt_probability": 10
       },
       {
         "transition": "Bow and Arrow Choke",
-        "attempt_probability": 11
+        "attempt_probability": 10
       },
       {
         "transition": "Turtle to Back Take",
-        "attempt_probability": 16
+        "attempt_probability": 18
       },
       {
-        "transition": "Armbar from Back",
-        "attempt_probability": 12
+        "transition": "Armbar from Back Transition",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Russian Cowboy to Back Control",
+        "attempt_probability": 5
       }
     ]
   },
   "bottom": {
     "name": "Russian Cowboy Bottom",
-    "description": "Defensive guide to escaping Russian Cowboy position. Learn survival tactics, escape sequences, and recovery strategies. Success rates: Beginner 25%, Intermediate 40%, Advanced 60%.",
+    "description": "Defensive guide to escaping Russian Cowboy position. Learn survival tactics, escape sequences, and recovery strategies from single-hook back control.",
     "tags": [
       "bjj",
       "defense",
@@ -421,12 +425,12 @@
         "condition": "If opponent begins choking sequence or attacks neck",
         "actions": [
           {
-            "technique": "Hand Fighting",
+            "technique": "Hand Fighting from Back",
             "target": "Russian Cowboy",
             "probability": 80
           },
           {
-            "technique": "Chin Protection",
+            "technique": "Chin Protection and Frame",
             "target": "Russian Cowboy",
             "probability": 85
           }
@@ -436,7 +440,7 @@
         "condition": "If opponent advances hooking leg toward truck position",
         "actions": [
           {
-            "technique": "Hip Escape",
+            "technique": "Hip Escape to Guard",
             "target": "Half Guard",
             "probability": 50
           },
@@ -451,12 +455,12 @@
         "condition": "If opponent loosens upper body control to adjust position",
         "actions": [
           {
-            "technique": "Technical Standup",
-            "target": "Standing Guard",
+            "technique": "Technical Stand-up",
+            "target": "Clinch",
             "probability": 45
           },
           {
-            "technique": "Granby Roll",
+            "technique": "Granby Roll to Guard",
             "target": "Open Guard",
             "probability": 50
           }
@@ -466,12 +470,12 @@
         "condition": "If opponent attempts to flatten you completely",
         "actions": [
           {
-            "technique": "Frame and Turn In",
+            "technique": "Hip Escape to Guard",
             "target": "Half Guard",
             "probability": 55
           },
           {
-            "technique": "Guard Replacement",
+            "technique": "Guard Recovery",
             "target": "Closed Guard",
             "probability": 45
           }
@@ -540,8 +544,8 @@
         "relationship": "Intermediate recovery position during escape sequences"
       },
       {
-        "name": "Back Escape Series",
-        "relationship": "Systematic defensive approach applicable to this position"
+        "name": "Hand Fighting from Back",
+        "relationship": "Critical defensive technique for preventing choke setups"
       }
     ],
     "position_metrics": {
@@ -561,28 +565,36 @@
     },
     "transitions": [
       {
-        "transition": "Granby Roll",
-        "attempt_probability": 17
-      },
-      {
-        "transition": "Technical Standup",
-        "attempt_probability": 15
-      },
-      {
-        "transition": "Hip Escape",
-        "attempt_probability": 18
-      },
-      {
-        "transition": "Rolling Back Take",
+        "transition": "Granby Roll to Guard",
         "attempt_probability": 14
       },
       {
-        "transition": "Turtle Transition",
-        "attempt_probability": 21
+        "transition": "Technical Stand-up",
+        "attempt_probability": 12
       },
       {
-        "transition": "Guard Replacement",
+        "transition": "Hip Escape to Guard",
         "attempt_probability": 15
+      },
+      {
+        "transition": "Rolling Back Take",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Turtle Transition",
+        "attempt_probability": 26
+      },
+      {
+        "transition": "Guard Recovery",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Hip Escape from Russian Cowboy",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Roll Escape from Russian Cowboy",
+        "attempt_probability": 3
       }
     ]
   }

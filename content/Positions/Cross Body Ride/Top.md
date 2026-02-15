@@ -21,37 +21,37 @@ description: "Master Cross Body Ride Top position in BJJ. Dominant turtle top co
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Back Control",
-      "text": "From this position, attempt Turtle to Back Control. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Back Control. This technique is attempted in 55% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crucifix from Turtle",
-      "text": "From this position, attempt Crucifix from Turtle. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Crucifix from Turtle. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Crab Ride to Back",
-      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Twister",
+      "text": "From this position, attempt Twister. This technique is attempted in 3% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Turtle Flatten to Side Control",
+      "text": "From this position, attempt Turtle Flatten to Side Control. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Bow and Arrow Choke",
-      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Turtle to Truck",
+      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rear Naked Choke",
-      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Crab Ride to Back",
+      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,21 +210,25 @@ Modern approaches to the Cross Body Ride emphasize dynamic control rather than s
 
 ## Available Attacks
 
-### [[Turtle to Back Control]] (18% of attempts)
+### [[Turtle to Back Control]] (55% of attempts)
 
-### [[Crucifix from Turtle]] (13% of attempts)
+### [[Crucifix from Turtle]] (17% of attempts)
 
-### [[Crab Ride to Back]] (14% of attempts)
+### [[Twister]] (3% of attempts)
 
-### [[Side Control to Mount]] (13% of attempts)
+### [[Turtle Flatten to Side Control]] (9% of attempts)
 
-### [[Bow and Arrow Choke]] (11% of attempts)
+### [[Turtle to Truck]] (7% of attempts)
 
-### [[Rear Naked Choke]] (12% of attempts)
+### [[Crab Ride to Back]] (7% of attempts)
 
-### [[Armbar from Back]] (10% of attempts)
+### [[Darce from Turtle]] (1% of attempts)
 
-### [[Twister]] (9% of attempts)
+### [[Cross Body to Back Control]] (0% of attempts)
+
+### [[Cross Body to Side Control]] (0% of attempts)
+
+### [[Twister Entry]] (1% of attempts)
 
 
 
@@ -246,7 +250,7 @@ Modern approaches to the Cross Body Ride emphasize dynamic control rather than s
 
 **If opponent extends near arm to post or defend neck:**
 - Execute **[[Crucifix from Turtle]]** → [[Crucifix]] (Probability: 70%)
-- Execute **[[Armbar from Back]]** → [[Armbar Control]] (Probability: 50%)
+- Execute **[[Armbar from Back Transition]]** → [[Armbar Control]] (Probability: 50%)
 
 
 **If opponent attempts to stand or elevate hips significantly:**

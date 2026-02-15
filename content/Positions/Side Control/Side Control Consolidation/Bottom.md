@@ -4,7 +4,7 @@
 
 ---
 title: "Side Control Consolidation Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master Side Control Consolidation Bottom defensive strategies. Complete guide covering frame management, breathing techniques, and escape timing with 45% retention rate for advanced practitioners."
+description: "Master Side Control Consolidation Bottom defensive strategies. Complete guide covering frame management, breathing techniques, and escape timing for advanced practitioners."
 ---
 
 
@@ -20,14 +20,14 @@ description: "Master Side Control Consolidation Bottom defensive strategies. Com
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Elbow Escape",
-      "text": "From this position, attempt Elbow Escape. This technique is attempted in 19% of exchanges from this position.",
+      "name": "Execute Elbow Escape to Guard",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 19% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Frame and Shrimp",
-      "text": "From this position, attempt Frame and Shrimp. This technique is attempted in 21% of exchanges from this position.",
+      "name": "Execute Frame and Shrimp to Guard",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 21% of exchanges from this position.",
       "position": 2
     },
     {
@@ -38,20 +38,20 @@ description: "Master Side Control Consolidation Bottom defensive strategies. Com
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll",
-      "text": "From this position, attempt Granby Roll. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Granby Roll to Guard",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 16% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Standup",
-      "text": "From this position, attempt Technical Standup. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Technical Stand-up",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape",
-      "text": "From this position, attempt Hip Escape. This technique is attempted in 19% of exchanges from this position.",
+      "name": "Execute Hip Escape to Guard",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 19% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -115,7 +115,7 @@ description: "Master Side Control Consolidation Bottom defensive strategies. Com
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Side Control Consolidation Bottom",
-  "description": "Master Side Control Consolidation Bottom defensive strategies. Complete guide covering frame management, breathing techniques, and escape timing with 45% retention rate for advanced practitioners.",
+  "description": "Master Side Control Consolidation Bottom defensive strategies. Complete guide covering frame management, breathing techniques, and escape timing for advanced practitioners.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -211,17 +211,17 @@ The psychological dimension of Side Control Consolidation Bottom cannot be under
 
 ## Available Escapes
 
-### [[Elbow Escape]] (19% of attempts)
+### [[Elbow Escape to Guard]] (19% of attempts)
 
-### [[Frame and Shrimp]] (21% of attempts)
+### [[Frame and Shrimp to Guard]] (21% of attempts)
 
 ### [[Bridge and Roll]] (13% of attempts)
 
-### [[Granby Roll]] (16% of attempts)
+### [[Granby Roll to Guard]] (16% of attempts)
 
-### [[Technical Standup]] (12% of attempts)
+### [[Technical Stand-up]] (12% of attempts)
 
-### [[Hip Escape]] (19% of attempts)
+### [[Hip Escape to Guard]] (19% of attempts)
 
 
 
@@ -232,23 +232,23 @@ The psychological dimension of Side Control Consolidation Bottom cannot be under
 ## Decision Making from This Position
 
 **If opponent is actively consolidating with heavy chest pressure and establishing crossface:**
-- Execute **[[Frame and Shrimp]]** → [[Open Guard]] (Probability: 45%)
-- Execute **[[Elbow Escape]]** → [[Half Guard]] (Probability: 40%)
+- Execute **[[Frame and Shrimp to Guard]]** → [[Open Guard]] (Probability: 45%)
+- Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 40%)
 
 
 **If opponent raises hips or adjusts position preparing for advancement:**
-- Execute **[[Elbow Escape]]** → [[Half Guard]] (Probability: 55%)
-- Execute **[[Hip Escape]]** → [[Open Guard]] (Probability: 50%)
+- Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 55%)
+- Execute **[[Hip Escape to Guard]]** → [[Open Guard]] (Probability: 50%)
 
 
 **If opponent extends base or posts hand creating structural vulnerability:**
 - Execute **[[Bridge and Roll]]** → [[Side Control]] (Probability: 35%)
-- Execute **[[Granby Roll]]** → [[Turtle]] (Probability: 40%)
+- Execute **[[Granby Roll to Guard]]** → [[Turtle]] (Probability: 40%)
 
 
 **If opponent transitions toward north-south or adjusts pressure angle:**
-- Execute **[[Granby Roll]]** → [[Turtle]] (Probability: 48%)
-- Execute **[[Technical Standup]]** → [[Standing Guard]] (Probability: 32%)
+- Execute **[[Granby Roll to Guard]]** → [[Turtle]] (Probability: 48%)
+- Execute **[[Technical Stand-up]]** → [[Clinch]] (Probability: 32%)
 
 
 
@@ -391,8 +391,8 @@ Start in fully consolidated side control with heavy pressure. Bottom player must
 - **[[Half Guard]]** - Primary escape target and recovery position
 - **[[Turtle]]** - Alternative defensive position from granby roll escape
 - **[[Mount]]** - Position opponent advances to if consolidation successful
-- **[[Elbow Escape]]** - Primary escape technique from consolidated position
-- **[[Frame and Shrimp]]** - Fundamental defensive movement for space creation
+- **[[Elbow Escape to Guard]]** - Primary escape technique from consolidated position
+- **[[Frame and Shrimp to Guard]]** - Fundamental defensive movement for space creation
 - **[[Knee Shield Half Guard]]** - Common recovery position after successful escape
 - **[[Open Guard]]** - Guard recovery target after creating distance
 - **[[Side Control Consolidation Top]]** - Opposite perspective - offensive counterpart position

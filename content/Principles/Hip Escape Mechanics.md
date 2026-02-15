@@ -377,7 +377,7 @@ Execute hip escape repetitions while already fatigued from previous training, si
 - [[Escape Fundamentals]] (Principle) - Broader conceptual framework containing hip escape mechanics
 - [[Side Control Escapes]] (Principle) - Primary application context for hip escape mechanics
 - [[Mount Escape Hierarchy]] (Principle) - Strategic framework built upon hip escape mechanics foundation
-- [[Elbow Escape]] (Transition) - Specific technical application of hip escape mechanics from side control
+- [[Elbow Escape to Guard]] (Transition) - Specific technical application of hip escape mechanics from side control
 - [[Side Control Escape]] (Transition) - Direct implementation of hip escape mechanics principles
 - [[Upa Escape]] (Transition) - Mount escape combining hip mechanics with bridging emphasis
 - [[Mount]] (Position) - Common application position requiring hip escape mechanics

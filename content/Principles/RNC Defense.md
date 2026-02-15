@@ -381,11 +381,11 @@ Training approach where practitioners take turns teaching RNC Defense concepts t
 - [[Back Control]] (Position) - Primary positional context where RNC Defense is applied, requiring constant neck protection while working toward escape
 - [[Rear Naked Choke]] (Submission) - The specific submission technique that RNC Defense is designed to prevent and counter
 - [[Back Defense Protocol]] (System) - Comprehensive defensive system for back control that integrates RNC Defense with positional escape strategies
-- [[Hip Escape]] (Transition) - Key positional escape technique that must be coordinated with RNC Defense to avoid being caught during the escape attempt
+- [[Hip Escape to Guard]] (Transition) - Key positional escape technique that must be coordinated with RNC Defense to avoid being caught during the escape attempt
 - [[Submission Defense Concepts]] (Principle) - Broader defensive framework that provides theoretical foundation for RNC-specific defensive strategies
 - [[Body Triangle]] (Position) - Advanced back control variation that increases importance of RNC Defense due to limited positional escape options
 - [[Defensive Strategy]] (Principle) - Overarching strategic framework that RNC Defense exemplifies in the specific context of choke defense
-- [[Back Escape Series]] (Principle) - Complementary concept that must be coordinated with RNC Defense to balance neck protection with positional improvement
+- [[Back Door Escape]] (Principle) - Complementary concept that must be coordinated with RNC Defense to balance neck protection with positional improvement
 - [[Grip Breaking]] (Principle) - General grip breaking principles that apply specifically to breaking hand clasps in RNC Defense scenarios
 - [[Escape Fundamentals]] (Principle) - Foundational escape concepts that integrate with RNC Defense for comprehensive back control survival
 

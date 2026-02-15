@@ -16,7 +16,7 @@
   "development_timeline": "Beginner to Advanced",
   "overview": "Pin Escape Methodology represents a systematic approach to defensive grappling that transcends position-specific techniques by establishing universal principles applicable across all pinning situations. Rather than memorizing dozens of individual escapes, this framework teaches practitioners to identify common structural elements in all pins and apply consistent solutions based on hierarchical priorities. The methodology emphasizes incremental positional improvement over explosive all-or-nothing escape attempts, recognizing that escapes are processes rather than single movements.\n\nAt its core, Pin Escape Methodology is built on understanding that all effective pins share fundamental characteristics: control of the upper body (particularly shoulders and head), elimination of hip mobility, and strategic weight distribution that prevents defensive frames. By identifying these commonalities, practitioners develop a decision tree that guides escape attempts regardless of the specific pin. This approach dramatically reduces cognitive load during defensive situations, allowing more mental resources for timing and execution.\n\nThe methodology integrates concepts of defensive framing, hip escape mechanics, and pressure management into a cohesive system that prioritizes survival first, space creation second, and position improvement third. This hierarchical structure ensures practitioners never sacrifice fundamental defensive integrity while pursuing more advanced escape sequences. Understanding this methodology is essential for developing a comprehensive defensive game that remains functional under pressure against skilled opponents.",
   "key_principles": [
-    "Hierarchical escape priorities: survival → space creation → guard recovery → positional advancement",
+    "Hierarchical escape priorities: survival \u2192 space creation \u2192 guard recovery \u2192 positional advancement",
     "Universal framing structures that apply across multiple pin positions",
     "Incremental positional improvement rather than explosive full escapes",
     "Pressure sensitivity and weight distribution recognition as timing mechanisms",
@@ -359,7 +359,7 @@
       "relationship": "Transitional application context - demonstrates how methodology adapts to less stable pins with different escape opportunities"
     },
     {
-      "name": "Elbow Escape",
+      "name": "Elbow Escape to Guard",
       "content_type": "Transition",
       "relationship": "Fundamental technique within methodology - elbow escape (shrimp) is core movement pattern used across multiple pin escapes"
     },
@@ -374,7 +374,7 @@
       "relationship": "Specific technical application - upa escape from mount exemplifies methodology's timing and leverage principles"
     },
     {
-      "name": "Hip Escape",
+      "name": "Hip Escape to Guard",
       "content_type": "Transition",
       "relationship": "Core technical component - hip escape is fundamental movement that methodology organizes into systematic sequences"
     },

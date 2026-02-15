@@ -337,7 +337,7 @@
       "relationship": "Fundamental escape technique within series, typically serving as primary option against chest-heavy mount configurations"
     },
     {
-      "name": "Elbow Escape",
+      "name": "Elbow Escape to Guard",
       "content_type": "Transition",
       "relationship": "Core escape technique in series progression, typically used as secondary option when bridge is defended or as primary against hip-heavy mounts"
     },
@@ -352,7 +352,7 @@
       "relationship": "Hip escape variation that creates lateral space and angle changes necessary for guard recovery in series progression"
     },
     {
-      "name": "Hip Escape",
+      "name": "Hip Escape to Guard",
       "content_type": "Transition",
       "relationship": "Fundamental movement pattern underlying multiple escape techniques in series, creates space through lateral hip displacement"
     },

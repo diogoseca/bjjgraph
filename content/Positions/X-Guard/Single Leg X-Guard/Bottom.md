@@ -21,37 +21,37 @@ description: "Master Single Leg X-Guard Bottom in BJJ. Complete guide covering s
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Sweep",
-      "text": "From this position, attempt Single Leg X Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg X Sweep. This technique is attempted in 8% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard to Ashi Transition",
-      "text": "From this position, attempt X-Guard to Ashi Transition. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt X-Guard to Ashi Transition. This technique is attempted in 8% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Entry",
-      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand Up to Single Leg",
-      "text": "From this position, attempt Technical Stand Up to Single Leg. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand Up to Single Leg. This technique is attempted in 7% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Guard to X-Guard",
-      "text": "From this position, attempt Butterfly Guard to X-Guard. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Guard to X-Guard. This technique is attempted in 24% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute De La Riva to X-Guard Transition",
-      "text": "From this position, attempt De La Riva to X-Guard Transition. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt De La Riva to X-Guard Transition. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -205,25 +205,29 @@ Single Leg X-Guard Bottom represents one of the most versatile and effective pos
 
 ## Available Escapes
 
-### [[Single Leg X Sweep]] (10% of attempts)
+### [[Single Leg X Sweep]] (8% of attempts)
 
-### [[X-Guard to Ashi Transition]] (10% of attempts)
+### [[X-Guard to Ashi Transition]] (8% of attempts)
 
-### [[Single Leg X Entry]] (10% of attempts)
+### [[Single Leg X Entry]] (8% of attempts)
 
-### [[Technical Stand Up to Single Leg]] (9% of attempts)
+### [[Technical Stand Up to Single Leg]] (7% of attempts)
 
-### [[Butterfly Guard to X-Guard]] (11% of attempts)
+### [[Butterfly Guard to X-Guard]] (24% of attempts)
 
-### [[De La Riva to X-Guard Transition]] (10% of attempts)
+### [[De La Riva to X-Guard Transition]] (8% of attempts)
 
-### [[Ankle Pick Sweep]] (11% of attempts)
+### [[Ankle Pick Sweep]] (9% of attempts)
 
-### [[Inside Ashi Entry]] (9% of attempts)
+### [[Inside Ashi Entry]] (7% of attempts)
 
-### [[Standing to Single Leg X]] (10% of attempts)
+### [[Standing to Single Leg X]] (8% of attempts)
 
-### [[Heel Grab Sweep]] (10% of attempts)
+### [[Heel Grab Sweep]] (8% of attempts)
+
+### [[SLX to Ashi Garami]] (3% of attempts)
+
+### [[SLX to X-Guard]] (2% of attempts)
 
 
 

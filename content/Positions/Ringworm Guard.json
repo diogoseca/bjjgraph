@@ -367,7 +367,7 @@
         "condition": "If opponent stands upright and attempts to back away from the guard",
         "actions": [
           {
-            "technique": "Lapel Guard Sweeps",
+            "technique": "Lapel Sweep to Back",
             "target": "Mount",
             "probability": 55
           },
@@ -522,27 +522,31 @@
     "transitions": [
       {
         "transition": "Ringworm Sweep to Back Control",
-        "attempt_probability": 17
-      },
-      {
-        "transition": "Triangle Setup",
         "attempt_probability": 15
       },
       {
-        "transition": "Omoplata to Sweep",
-        "attempt_probability": 14
+        "transition": "Triangle Setup",
+        "attempt_probability": 13
       },
       {
-        "transition": "Lapel Guard Sweeps",
-        "attempt_probability": 18
+        "transition": "Omoplata to Sweep",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Lapel Sweep to Back",
+        "attempt_probability": 16
       },
       {
         "transition": "Berimbolo Entry",
-        "attempt_probability": 14
+        "attempt_probability": 13
       },
       {
         "transition": "Ringworm Guard to Worm Guard",
-        "attempt_probability": 22
+        "attempt_probability": 23
+      },
+      {
+        "transition": "Ringworm to Spider Guard",
+        "attempt_probability": 7
       }
     ]
   }

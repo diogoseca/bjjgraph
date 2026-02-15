@@ -21,37 +21,37 @@ description: "Master Double Jump Top position in BJJ. Advanced turtle attack wit
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Back Control",
-      "text": "From this position, attempt Turtle to Back Control. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Back Control. This technique is attempted in 38% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crab Ride to Back",
-      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Truck",
-      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Truck Entry",
-      "text": "From this position, attempt Truck Entry. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Transition to Rodeo Ride",
+      "text": "From this position, attempt Transition to Rodeo Ride. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take Generic",
-      "text": "From this position, attempt Back Take Generic. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Sit to Half Guard",
+      "text": "From this position, attempt Sit to Half Guard. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,17 +210,21 @@ Double Jump Top represents modern turtle attack methodology, emphasizing leg-bas
 
 ## Available Attacks
 
-### [[Turtle to Back Control]] (19% of attempts)
+### [[Turtle to Back Control]] (38% of attempts)
 
-### [[Crab Ride to Back]] (17% of attempts)
+### [[Crab Ride to Back]] (20% of attempts)
 
-### [[Turtle to Truck]] (16% of attempts)
+### [[Turtle to Truck]] (13% of attempts)
 
-### [[Rolling Back Take]] (15% of attempts)
+### [[Rolling Back Take]] (10% of attempts)
 
-### [[Truck Entry]] (16% of attempts)
+### [[Transition to Rodeo Ride]] (6% of attempts)
 
-### [[Back Take Generic]] (17% of attempts)
+### [[Sit to Half Guard]] (8% of attempts)
+
+### [[Double Jump to Mount]] (3% of attempts)
+
+### [[Double Jump to Side Control]] (2% of attempts)
 
 
 
@@ -239,7 +243,7 @@ Double Jump Top represents modern turtle attack methodology, emphasizing leg-bas
 **If opponent attempts to sit to butterfly guard or turn into you:**
 - Execute **[[Crab Ride to Back]]** → [[Crab Ride]] (Probability: 65%)
 - Execute **[[Turtle to Back Control]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 55%)
+- Execute **[[Back Take]]** → [[Back Control]] (Probability: 55%)
 
 
 **If opponent rolls away from pressure to escape hooks:**
@@ -250,7 +254,7 @@ Double Jump Top represents modern turtle attack methodology, emphasizing leg-bas
 
 **If opponent flattens to belly to defend hooks:**
 - Execute **[[Turtle to Back Control]]** → [[Back Control]] (Probability: 75%)
-- Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 70%)
+- Execute **[[Back Take]]** → [[Back Control]] (Probability: 70%)
 
 
 

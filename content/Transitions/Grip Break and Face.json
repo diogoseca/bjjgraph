@@ -13,193 +13,23 @@
   "from_position": "Standing Back Control/Bottom",
   "outcomes": [
     {
-      "to": "Clinch",
+      "to": "Clinch/Top",
       "probability": 55,
       "result": "success"
     },
     {
-      "to": "Standing Back Control",
+      "to": "Standing Back Control/Bottom",
       "probability": 30,
       "result": "failure"
     },
     {
-      "to": "Front Headlock",
+      "to": "Front Headlock/Bottom",
       "probability": 15,
       "result": "counter"
     }
   ],
+  "success_rate": 58,
   "overview": "The Grip Break and Face technique is a fundamental standing back control escape that prioritizes breaking the opponent's harness grip while simultaneously rotating to face them. This escape exploits the inherent instability of standing back control by using explosive hip rotation combined with systematic grip fighting to transition from a highly vulnerable defensive position to a neutral clinch where both practitioners can engage face-to-face.\n\nThe technique operates on the principle that standing back control is transitional by nature - the attacker must constantly manage their balance while maintaining control. By targeting the harness grip first, you eliminate their primary control mechanism, then use the moment of grip disruption to explosively turn your hips and shoulders to face the opponent. The timing is critical: the rotation must occur in the window between breaking the grip and the opponent re-establishing control.\n\nStrategically, this escape is preferred when you have sufficient space to rotate and the opponent has not yet secured hooks or body triangle. It requires less energy than dropping to turtle and allows you to immediately threaten offensive positions from the resulting clinch. Advanced practitioners chain this with immediate underhooks or collar ties to gain clinch advantage after completing the rotation.",
-  "key_principles": [
-    "Address the harness grip first - without breaking upper body control, rotation is impossible against a competent opponent",
-    "Use two-on-one grip control to systematically strip the opponent's choking arm before attempting rotation",
-    "Explosive hip rotation must be committed and complete - partial turns allow opponent to circle with you and maintain back exposure",
-    "Timing the rotation immediately after grip break is critical - delays allow opponent to re-establish control",
-    "Maintain chin protection throughout the rotation to prevent catching a choke during the transitional moment",
-    "Establish clinch control immediately upon facing opponent - underhooks, collar ties, or wrist control prevent them from re-taking your back"
-  ],
-  "setup_requirements": [
-    "Opponent has established standing back control with harness or seat belt grip configuration",
-    "Both practitioners are standing with opponent's chest connected to your back",
-    "You have protected your neck from immediate choke threat through chin tuck and hand position",
-    "Opponent does not have body triangle or deep hooks that would prevent hip rotation",
-    "You have identified which arm is the choking arm versus the control arm in their harness"
-  ],
-  "execution_steps": [
-    {
-      "step_number": 1,
-      "action": "Secure defensive posture",
-      "description": "Tuck chin tightly to chest and bring your leading hand to control the opponent's choking arm wrist. Establish wide base with feet shoulder-width apart for stability during the upcoming rotation."
-    },
-    {
-      "step_number": 2,
-      "action": "Two-on-one grip control",
-      "description": "Bring your second hand to join the first, creating two-on-one control on the opponent's choking arm wrist. Both hands grip firmly around their wrist while maintaining chin protection through shoulder positioning."
-    },
-    {
-      "step_number": 3,
-      "action": "Strip the choking arm",
-      "description": "Pull opponent's choking arm across your body using both hands, peeling their grip away from the harness configuration. Drive their arm toward your opposite hip while keeping your elbows tight to prevent them from re-establishing grip."
-    },
-    {
-      "step_number": 4,
-      "action": "Explosive hip rotation",
-      "description": "Immediately upon breaking the grip, explosively rotate your hips toward the side where you pulled their arm. Turn your entire body as a unit, pivoting on your lead foot while driving your rear hip through to face the opponent."
-    },
-    {
-      "step_number": 5,
-      "action": "Complete the turn",
-      "description": "Continue rotation until your chest faces opponent's chest. Your shoulders should square up with theirs, eliminating all back exposure. Keep hands active during rotation to prevent opponent from catching your neck as you turn."
-    },
-    {
-      "step_number": 6,
-      "action": "Establish clinch control",
-      "description": "Immediately upon facing opponent, establish clinch control through underhooks, collar tie, or wrist control. Do not pause in neutral - secure controlling grips to prevent opponent from circling back to your back or shooting for takedown."
-    }
-  ],
-  "common_counters": [
-    {
-      "counter": "Opponent circles with your rotation maintaining back exposure",
-      "effectiveness": "High",
-      "your_response": "Commit to faster, more explosive rotation and immediately establish underhook on the side you turn toward to block their circular movement"
-    },
-    {
-      "counter": "Opponent drops hooks in deep before you can rotate",
-      "effectiveness": "High",
-      "your_response": "Switch to turtle descent escape or address hooks first by widening stance before attempting rotation"
-    },
-    {
-      "counter": "Opponent re-establishes harness grip during rotation",
-      "effectiveness": "Medium",
-      "your_response": "Continue rotation anyway if past 90 degrees, or reset grip fighting if caught early - do not pause mid-rotation"
-    },
-    {
-      "counter": "Opponent shoots for takedown as you face them",
-      "effectiveness": "Medium",
-      "your_response": "Sprawl immediately and establish front headlock control, converting their failed back take into your offensive position"
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Attempting rotation without first breaking the harness grip",
-      "consequence": "Opponent maintains control through rotation, often ending up in tighter back control or securing choke during your turn",
-      "correction": "Always strip the choking arm with two-on-one control before initiating any rotation - the grip break creates the window for escape"
-    },
-    {
-      "error": "Lifting chin during rotation to look at opponent",
-      "consequence": "Exposes neck to choke, opponent can catch rear naked choke during transitional moment when your defenses are compromised",
-      "correction": "Keep chin tucked throughout rotation, use peripheral vision and body awareness to track opponent rather than looking directly"
-    },
-    {
-      "error": "Hesitating after breaking grip before rotating",
-      "consequence": "Window for escape closes as opponent re-establishes harness grip or drives you forward off balance",
-      "correction": "Grip break and rotation must be one continuous explosive movement - practice until the transition is seamless"
-    },
-    {
-      "error": "Rotating toward the choking arm side",
-      "consequence": "Turns directly into opponent's power, makes re-establishing choke easier, often results in guillotine or front headlock for opponent",
-      "correction": "Always rotate toward the side you pull their arm - turn away from the choking arm direction"
-    },
-    {
-      "error": "Failing to establish clinch control after completing rotation",
-      "consequence": "Opponent immediately circles back to your back or shoots takedown, wasting the successful escape",
-      "correction": "Establish underhooks, collar tie, or wrist control immediately upon facing - the escape is not complete until you control the clinch"
-    }
-  ],
-  "training_progressions": [
-    {
-      "phase": "Week 1-2",
-      "focus": "Grip breaking mechanics",
-      "description": "Practice two-on-one grip control and harness strip against static partner. Focus on proper hand placement, elbow position, and pulling mechanics. Drill 50 repetitions per side per session without rotation."
-    },
-    {
-      "phase": "Week 3-4",
-      "focus": "Rotation timing",
-      "description": "Add rotation after grip break with compliant partner. Focus on seamless transition from grip strip to hip rotation. Partner provides feedback on timing - rotation should begin within half-second of grip break."
-    },
-    {
-      "phase": "Week 5-6",
-      "focus": "Clinch establishment",
-      "description": "Complete full sequence including clinch control after rotation. Partner begins adding light resistance, attempting to circle with rotation. Practice establishing underhooks and collar ties immediately upon facing."
-    },
-    {
-      "phase": "Week 7+",
-      "focus": "Live application",
-      "description": "Progressive sparring from standing back control position. Partner attempts to maintain control, finish chokes, or counter your rotation. Focus on reading when to attempt grip break versus other escapes based on opponent's control configuration."
-    }
-  ],
-  "variants_and_adaptations": [
-    {
-      "variant_name": "Duck Under Rotation",
-      "description": "Instead of pulling arm across body, duck your head under opponent's choking arm while rotating, using their arm position to facilitate the turn. More effective when opponent has higher arm position on your shoulder.",
-      "when_to_use": "When opponent's choking arm is high on your shoulder rather than deep under your chin"
-    },
-    {
-      "variant_name": "Arm Drag to Face",
-      "description": "Convert the grip strip into an arm drag, pulling opponent's arm past your hip while rotating. Creates opportunity to take opponent's back rather than just achieving neutral clinch.",
-      "when_to_use": "When you have strong grip control and opponent is off-balance, allowing you to capitalize offensively rather than just escaping"
-    },
-    {
-      "variant_name": "Level Change and Face",
-      "description": "Drop your level significantly while breaking grip, making rotation easier and loading opponent's weight onto your back before standing up through the turn. Useful against larger opponents.",
-      "when_to_use": "Against heavier opponents who are difficult to turn against, or when opponent is attempting to lift you"
-    }
-  ],
-  "knowledge_assessment": [
-    {
-      "question": "What is the primary goal of Grip Break and Face?",
-      "answer": "The primary goal is to escape standing back control by breaking the opponent's harness grip and rotating to face them, transitioning from a highly vulnerable defensive position to a neutral clinch where you can engage face-to-face and threaten your own offensive attacks."
-    },
-    {
-      "question": "Why must the grip break occur before attempting rotation?",
-      "answer": "Without breaking the harness grip first, the opponent maintains structural control over your upper body. Attempting to rotate against an intact harness allows them to circle with you, tighten their grip during the movement, or catch a choke as you turn into their control arm. The grip break creates the necessary window of reduced control for successful rotation."
-    },
-    {
-      "question": "Your opponent has a tight seatbelt grip - which arm do you target first and why?",
-      "answer": "Target the choking arm (the arm over your shoulder threatening your neck) first using two-on-one control. This arm presents the immediate submission threat, and stripping it first protects your neck during rotation. The control arm under your armpit, while important for their grip structure, cannot directly submit you."
-    },
-    {
-      "question": "Which direction should you rotate when executing this escape?",
-      "answer": "Rotate toward the side where you pull their arm - away from the choking arm direction. Rotating toward the choking arm side turns you directly into their power and makes re-establishing the choke easier. By turning away from the choking arm, you create maximum distance from their submission threat during the transitional moment."
-    },
-    {
-      "question": "Your opponent drops their hooks in as you begin breaking their grip - how do you adjust?",
-      "answer": "If hooks are inserted before you complete the grip break, this escape becomes significantly harder. Switch to a turtle descent escape or widen your stance to address the hooks first before re-attempting rotation. Deep hooks prevent effective hip rotation, so the setup requirements have changed and a different escape pathway is needed."
-    },
-    {
-      "question": "What must you establish immediately upon completing the rotation and why?",
-      "answer": "Immediately establish clinch control through underhooks, collar tie, or wrist control. The escape is not complete just because you're facing them - without controlling the clinch, your opponent can immediately circle back to your back or shoot for a takedown. The goal is neutral-plus, not just neutral."
-    },
-    {
-      "question": "Your opponent begins circling with your rotation to maintain back exposure - what adjustment is needed?",
-      "answer": "Commit to faster, more explosive rotation and immediately establish an underhook on the side you turn toward. The underhook blocks their ability to continue circling and forces them to address your clinch control rather than re-establishing back position. Partial or slow rotations allow skilled opponents to match your movement."
-    },
-    {
-      "question": "When is the Arm Drag to Face variant preferable to the standard grip break rotation?",
-      "answer": "The arm drag variant is preferable when you have strong grip control and your opponent is off-balance, allowing you to capitalize offensively rather than just escaping. Instead of achieving neutral clinch, the arm drag can give you their back - converting a defensive escape into an offensive opportunity. This requires reading their balance and having secure two-on-one control."
-    }
-  ],
-  "safety_considerations": "This technique is generally low-risk when practiced with proper control. The primary safety concern is neck protection during the rotation - never lift your chin or look directly at your opponent during the turn, as this exposes your neck to potential choke during the transitional moment. Partners should release grip pressure if the escaping practitioner's neck becomes exposed during drilling. When practicing explosive rotations, ensure adequate space and warm up thoroughly to prevent shoulder or hip strains. In live training, be mindful of elbow position during grip strips to avoid striking your partner. If you feel your neck being compressed during rotation, stop the technique and reset rather than forcing through.",
-  "position_integration": "Grip Break and Face is a cornerstone escape from standing back control that fits into the broader standing grappling system. It connects standing back exposure to the clinch game, allowing you to transition from pure defense to neutral engagement. This escape is typically attempted when the opponent has harness control but has not yet secured hooks or body triangle - once leg control is established, other escapes like turtle descent become more appropriate. Successful execution often leads to underhook battles, collar tie exchanges, or immediate takedown attempts from both practitioners. The technique chains well with offensive clinch work, as the same two-on-one grip mechanics used for the escape can immediately transition to arm drags or duck unders for back takes of your own.",
   "related_content": [
     {
       "name": "Standing Back Control",
@@ -230,17 +60,331 @@
       "relationship": "Alternative escape pathway - different strategic choice from same starting position"
     },
     {
-      "name": "Technical Standup",
-      "relationship": "Related escape - shares principles of creating distance and establishing base"
-    },
-    {
       "name": "Duck Under",
       "relationship": "Variant technique - similar rotation mechanics with different arm relationship"
     },
     {
       "name": "Harness",
       "relationship": "Control configuration - the grip you must defeat to execute this escape"
+    },
+    {
+      "name": "Controlled Descent",
+      "relationship": "Alternative escape - dropping to turtle when hooks prevent rotation"
     }
   ],
-  "success_rate": 58
+  "attacker": {
+    "name": "Grip Break and Face Attacker",
+    "description": "How to execute Grip Break and Face in BJJ. Attacking perspective with setup, execution steps, and counters.",
+    "overview": "The Grip Break and Face technique is a fundamental standing back control escape that prioritizes breaking the opponent's harness grip while simultaneously rotating to face them. This escape exploits the inherent instability of standing back control by using explosive hip rotation combined with systematic grip fighting to transition from a highly vulnerable defensive position to a neutral clinch where both practitioners can engage face-to-face.\n\nThe technique operates on the principle that standing back control is transitional by nature - the attacker must constantly manage their balance while maintaining control. By targeting the harness grip first, you eliminate their primary control mechanism, then use the moment of grip disruption to explosively turn your hips and shoulders to face the opponent. The timing is critical: the rotation must occur in the window between breaking the grip and the opponent re-establishing control.\n\nStrategically, this escape is preferred when you have sufficient space to rotate and the opponent has not yet secured hooks or body triangle. It requires less energy than dropping to turtle and allows you to immediately threaten offensive positions from the resulting clinch. Advanced practitioners chain this with immediate underhooks or collar ties to gain clinch advantage after completing the rotation.",
+    "key_principles": [
+      "Address the harness grip first - without breaking upper body control, rotation is impossible against a competent opponent",
+      "Use two-on-one grip control to systematically strip the opponent's choking arm before attempting rotation",
+      "Explosive hip rotation must be committed and complete - partial turns allow opponent to circle with you and maintain back exposure",
+      "Timing the rotation immediately after grip break is critical - delays allow opponent to re-establish control",
+      "Maintain chin protection throughout the rotation to prevent catching a choke during the transitional moment",
+      "Establish clinch control immediately upon facing opponent - underhooks, collar ties, or wrist control prevent them from re-taking your back"
+    ],
+    "setup_requirements": [
+      "Opponent has established standing back control with harness or seat belt grip configuration",
+      "Both practitioners are standing with opponent's chest connected to your back",
+      "You have protected your neck from immediate choke threat through chin tuck and hand position",
+      "Opponent does not have body triangle or deep hooks that would prevent hip rotation",
+      "You have identified which arm is the choking arm versus the control arm in their harness"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Secure defensive posture",
+        "description": "Tuck chin tightly to chest and bring your leading hand to control the opponent's choking arm wrist. Establish wide base with feet shoulder-width apart for stability during the upcoming rotation."
+      },
+      {
+        "step_number": 2,
+        "action": "Two-on-one grip control",
+        "description": "Bring your second hand to join the first, creating two-on-one control on the opponent's choking arm wrist. Both hands grip firmly around their wrist while maintaining chin protection through shoulder positioning."
+      },
+      {
+        "step_number": 3,
+        "action": "Strip the choking arm",
+        "description": "Pull opponent's choking arm across your body using both hands, peeling their grip away from the harness configuration. Drive their arm toward your opposite hip while keeping your elbows tight to prevent them from re-establishing grip."
+      },
+      {
+        "step_number": 4,
+        "action": "Explosive hip rotation",
+        "description": "Immediately upon breaking the grip, explosively rotate your hips toward the side where you pulled their arm. Turn your entire body as a unit, pivoting on your lead foot while driving your rear hip through to face the opponent."
+      },
+      {
+        "step_number": 5,
+        "action": "Complete the turn",
+        "description": "Continue rotation until your chest faces opponent's chest. Your shoulders should square up with theirs, eliminating all back exposure. Keep hands active during rotation to prevent opponent from catching your neck as you turn."
+      },
+      {
+        "step_number": 6,
+        "action": "Establish clinch control",
+        "description": "Immediately upon facing opponent, establish clinch control through underhooks, collar tie, or wrist control. Do not pause in neutral - secure controlling grips to prevent opponent from circling back to your back or shooting for takedown."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent circles with your rotation maintaining back exposure",
+        "effectiveness": "High",
+        "your_response": "Commit to faster, more explosive rotation and immediately establish underhook on the side you turn toward to block their circular movement",
+        "targets_outcome": "Standing Back Control/Bottom"
+      },
+      {
+        "counter": "Opponent drops hooks in deep before you can rotate",
+        "effectiveness": "High",
+        "your_response": "Switch to turtle descent escape or address hooks first by widening stance before attempting rotation",
+        "targets_outcome": "Standing Back Control/Bottom"
+      },
+      {
+        "counter": "Opponent re-establishes harness grip during rotation",
+        "effectiveness": "Medium",
+        "your_response": "Continue rotation anyway if past 90 degrees, or reset grip fighting if caught early - do not pause mid-rotation",
+        "targets_outcome": "Standing Back Control/Bottom"
+      },
+      {
+        "counter": "Opponent shoots for takedown as you face them",
+        "effectiveness": "Medium",
+        "your_response": "Sprawl immediately and establish front headlock control, converting their failed back take into your offensive position",
+        "targets_outcome": "Front Headlock/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting rotation without first breaking the harness grip",
+        "consequence": "Opponent maintains control through rotation, often ending up in tighter back control or securing choke during your turn",
+        "correction": "Always strip the choking arm with two-on-one control before initiating any rotation - the grip break creates the window for escape"
+      },
+      {
+        "error": "Lifting chin during rotation to look at opponent",
+        "consequence": "Exposes neck to choke, opponent can catch rear naked choke during transitional moment when your defenses are compromised",
+        "correction": "Keep chin tucked throughout rotation, use peripheral vision and body awareness to track opponent rather than looking directly"
+      },
+      {
+        "error": "Hesitating after breaking grip before rotating",
+        "consequence": "Window for escape closes as opponent re-establishes harness grip or drives you forward off balance",
+        "correction": "Grip break and rotation must be one continuous explosive movement - practice until the transition is seamless"
+      },
+      {
+        "error": "Rotating toward the choking arm side",
+        "consequence": "Turns directly into opponent's power, makes re-establishing choke easier, often results in guillotine or front headlock for opponent",
+        "correction": "Always rotate toward the side you pull their arm - turn away from the choking arm direction"
+      },
+      {
+        "error": "Failing to establish clinch control after completing rotation",
+        "consequence": "Opponent immediately circles back to your back or shoots takedown, wasting the successful escape",
+        "correction": "Establish underhooks, collar tie, or wrist control immediately upon facing - the escape is not complete until you control the clinch"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Grip breaking mechanics",
+        "description": "Practice two-on-one grip control and harness strip against static partner. Focus on proper hand placement, elbow position, and pulling mechanics. Drill 50 repetitions per side per session without rotation."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Rotation timing",
+        "description": "Add rotation after grip break with compliant partner. Focus on seamless transition from grip strip to hip rotation. Partner provides feedback on timing - rotation should begin within half-second of grip break."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Clinch establishment",
+        "description": "Complete full sequence including clinch control after rotation. Partner begins adding light resistance, attempting to circle with rotation. Practice establishing underhooks and collar ties immediately upon facing."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live application",
+        "description": "Progressive sparring from standing back control position. Partner attempts to maintain control, finish chokes, or counter your rotation. Focus on reading when to attempt grip break versus other escapes based on opponent's control configuration."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary goal of Grip Break and Face?",
+        "answer": "The primary goal is to escape standing back control by breaking the opponent's harness grip and rotating to face them, transitioning from a highly vulnerable defensive position to a neutral clinch where you can engage face-to-face and threaten your own offensive attacks."
+      },
+      {
+        "question": "Why must the grip break occur before attempting rotation?",
+        "answer": "Without breaking the harness grip first, the opponent maintains structural control over your upper body. Attempting to rotate against an intact harness allows them to circle with you, tighten their grip during the movement, or catch a choke as you turn into their control arm. The grip break creates the necessary window of reduced control for successful rotation."
+      },
+      {
+        "question": "Your opponent has a tight seatbelt grip - which arm do you target first and why?",
+        "answer": "Target the choking arm (the arm over your shoulder threatening your neck) first using two-on-one control. This arm presents the immediate submission threat, and stripping it first protects your neck during rotation. The control arm under your armpit, while important for their grip structure, cannot directly submit you."
+      },
+      {
+        "question": "Which direction should you rotate when executing this escape?",
+        "answer": "Rotate toward the side where you pull their arm - away from the choking arm direction. Rotating toward the choking arm side turns you directly into their power and makes re-establishing the choke easier. By turning away from the choking arm, you create maximum distance from their submission threat during the transitional moment."
+      },
+      {
+        "question": "Your opponent drops their hooks in as you begin breaking their grip - how do you adjust?",
+        "answer": "If hooks are inserted before you complete the grip break, this escape becomes significantly harder. Switch to a turtle descent escape or widen your stance to address the hooks first before re-attempting rotation. Deep hooks prevent effective hip rotation, so the setup requirements have changed and a different escape pathway is needed."
+      },
+      {
+        "question": "What must you establish immediately upon completing the rotation and why?",
+        "answer": "Immediately establish clinch control through underhooks, collar tie, or wrist control. The escape is not complete just because you're facing them - without controlling the clinch, your opponent can immediately circle back to your back or shoot for a takedown. The goal is neutral-plus, not just neutral."
+      },
+      {
+        "question": "Your opponent begins circling with your rotation to maintain back exposure - what adjustment is needed?",
+        "answer": "Commit to faster, more explosive rotation and immediately establish an underhook on the side you turn toward. The underhook blocks their ability to continue circling and forces them to address your clinch control rather than re-establishing back position. Partial or slow rotations allow skilled opponents to match your movement."
+      },
+      {
+        "question": "When is the Arm Drag to Face variant preferable to the standard grip break rotation?",
+        "answer": "The arm drag variant is preferable when you have strong grip control and your opponent is off-balance, allowing you to capitalize offensively rather than just escaping. Instead of achieving neutral clinch, the arm drag can give you their back - converting a defensive escape into an offensive opportunity. This requires reading their balance and having secure two-on-one control."
+      },
+      {
+        "question": "What is the optimal timing window for initiating the hip rotation after the grip strip?",
+        "answer": "The rotation must begin within a fraction of a second of completing the grip strip - essentially as one continuous motion. The window exists between the moment their harness loses structural integrity and the moment they can re-grip or adjust. Waiting even one full second allows a skilled opponent to re-establish the seatbelt or switch to a body lock. Train the grip break and rotation as a single coordinated movement rather than two separate actions."
+      },
+      {
+        "question": "Your opponent maintains a body lock instead of a seatbelt grip - how does this change your approach?",
+        "answer": "A body lock eliminates the distinct choking arm versus control arm dynamic, so you cannot use the standard two-on-one strip. Instead, address the body lock by creating space at the locking point - pry their hands apart or peel their grip at the wrist clasp. Once the lock breaks, the rotation mechanics remain the same. Alternatively, use the Level Change and Face variant to drop your center of gravity below their lock point, making the grip harder to maintain."
+      }
+    ],
+    "safety_considerations": "This technique is generally low-risk when practiced with proper control. The primary safety concern is neck protection during the rotation - never lift your chin or look directly at your opponent during the turn, as this exposes your neck to potential choke during the transitional moment. Partners should release grip pressure if the escaping practitioner's neck becomes exposed during drilling. When practicing explosive rotations, ensure adequate space and warm up thoroughly to prevent shoulder or hip strains. In live training, be mindful of elbow position during grip strips to avoid striking your partner. If you feel your neck being compressed during rotation, stop the technique and reset rather than forcing through."
+  },
+  "defender": {
+    "name": "Grip Break and Face Defender",
+    "description": "How to defend against Grip Break and Face in BJJ. Recognition cues, defensive options, and strategies to maintain standing back control.",
+    "overview": "As the player with standing back control, defending against the Grip Break and Face escape requires anticipation, grip management, and tactical counter-movement. Your opponent will attempt to break your harness grip and explosively rotate to face you, converting your dominant back exposure into a neutral clinch. Your defensive strategy centers on maintaining grip integrity, inserting hooks to prevent rotation, and exploiting the transitional moments of their escape attempt to either re-establish control or advance to an even better position.\n\nThe key to defending this escape is recognizing the early stages of the grip break attempt and responding before the rotation begins. Once your opponent achieves two-on-one control on your choking arm and begins the strip, the window for maintaining pure back control narrows rapidly. However, every phase of their escape creates opportunities for you - their grip fighting focus can open neck access, their rotation can expose them to front headlock transitions, and their commitment to turning can allow you to follow and maintain back exposure through circular footwork.\n\nAdvanced defenders treat the Grip Break and Face attempt as a predictable sequence that opens counter-attacking opportunities. Rather than simply fighting to maintain static control, skilled practitioners use the opponent's escape movements to transition between different control configurations, switching from harness to body lock, inserting hooks during the disruption, or converting the partial rotation into front headlock or takedown entries.",
+    "key_principles": [
+      "Maintain harness grip integrity through proper locking mechanics - hands clasped, elbows tight, chest pressure constant against their back",
+      "Insert hooks or body triangle preemptively when you sense grip fighting beginning, as leg control prevents the hip rotation that defines this escape",
+      "Follow their rotation with circular footwork rather than fighting static resistance - if they turn, turn with them to maintain back exposure",
+      "Use their grip fighting focus as an opportunity to deepen your choking arm position or switch to an alternative control configuration",
+      "Convert partial escapes into front headlock or takedown opportunities rather than desperately fighting to maintain pure back control",
+      "Keep your chest glued to their back throughout their escape attempts - separation equals lost control"
+    ],
+    "recognition_cues": [
+      "Opponent brings both hands to your choking arm wrist, establishing two-on-one control that signals the beginning of the grip strip sequence",
+      "Opponent widens their stance and drops their weight slightly, loading their base for the upcoming explosive hip rotation",
+      "Opponent's shoulders begin rotating or they shift weight to one foot, indicating imminent directional commitment for the turn",
+      "Opponent tucks chin aggressively to one shoulder while pulling your arm across their centerline, clearing space for rotation"
+    ],
+    "defensive_options": [
+      {
+        "action": "Drop hooks immediately upon sensing two-on-one grip fighting on your choking arm",
+        "when_to_use": "Early in the escape attempt, before the opponent has stripped your harness grip - inserting hooks prevents hip rotation entirely",
+        "targets_outcome": "Standing Back Control/Bottom",
+        "if_successful": "Opponent cannot rotate with hooks controlling their hips, forcing them to abandon this escape and switch to a different pathway like turtle descent",
+        "risk": "If hooks are shallow or poorly timed, opponent may still complete rotation while you've committed weight to hook insertion"
+      },
+      {
+        "action": "Circle with their rotation to maintain back exposure while re-establishing harness grip",
+        "when_to_use": "When the opponent has already begun rotating but has not yet completed the full turn - match their movement rather than fighting against it",
+        "targets_outcome": "Standing Back Control/Bottom",
+        "if_successful": "You maintain back exposure throughout their rotation attempt, keeping chest-to-back connection and re-establishing grips from the new angle",
+        "risk": "If you cannot match their speed, you may end up in neutral clinch or lose contact entirely"
+      },
+      {
+        "action": "Transition to front headlock as opponent completes partial rotation toward you",
+        "when_to_use": "When the opponent has successfully broken your harness and completed roughly 90-120 degrees of rotation but has not yet established clinch control",
+        "targets_outcome": "Front Headlock/Bottom",
+        "if_successful": "You convert their partial escape into a front headlock position where you control their head, maintaining offensive advantage despite losing back control",
+        "risk": "If opponent completes full rotation before you secure the head, you end up in neutral clinch with no control advantage"
+      },
+      {
+        "action": "Switch from harness to body lock control when you feel the seatbelt being stripped",
+        "when_to_use": "At the moment the opponent begins peeling your choking arm away - release the seatbelt and immediately lock body lock around their torso",
+        "targets_outcome": "Standing Back Control/Bottom",
+        "if_successful": "Body lock control is harder to strip with two-on-one mechanics and maintains your back exposure while negating their grip break sequence",
+        "risk": "Momentary loss of control during the grip switch may give them the window to rotate"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Standing Back Control/Bottom",
+        "how": "Insert hooks early when you recognize the two-on-one grip fighting, preventing hip rotation. Alternatively, switch to body lock when seatbelt is being stripped, or circle with their rotation to maintain chest-to-back connection and re-establish harness from the new angle."
+      },
+      {
+        "outcome": "Front Headlock/Bottom",
+        "how": "When the opponent has broken your harness and committed to rotation, do not desperately chase back control. Instead, as they turn past 90 degrees, snap down on their head and secure front headlock control. Their forward-leaning rotation posture makes the head accessible, and you convert a lost back control into a strong offensive position with multiple submission options."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Fighting the grip strip with pure arm strength rather than adjusting body position or switching grip configuration",
+        "consequence": "Arms fatigue rapidly in the grip battle, and the opponent eventually strips the harness through persistent two-on-one leverage, leaving you with no backup control",
+        "correction": "When you feel two-on-one pressure on your choking arm, immediately switch to body lock or insert hooks rather than arm-wrestling for the grip. Change the game rather than fighting their strongest mechanic."
+      },
+      {
+        "error": "Staying flat-footed and static while opponent rotates, trying to hold position through grip alone",
+        "consequence": "Opponent's explosive rotation breaks through static resistance, and you lose back exposure entirely without any transitional control",
+        "correction": "Follow their rotation with active circular footwork, keeping your chest connected to their back. If they turn left, step left with them. Your feet must be as active as your hands during the defense."
+      },
+      {
+        "error": "Reaching for the neck or attempting choke while opponent is actively grip fighting",
+        "consequence": "Extending the choking arm gives the opponent better leverage to strip it, and committing to the choke attempt removes your ability to maintain harness control or switch grips",
+        "correction": "Prioritize maintaining control position over chasing the submission during active escape attempts. Secure your control first, then attack when the opponent settles or their escape stalls."
+      },
+      {
+        "error": "Losing chest-to-back connection by leaning back or creating space during the grip exchange",
+        "consequence": "Any space between your chest and their back makes their rotation dramatically easier and removes the pressure that makes back control oppressive",
+        "correction": "Drive your chest forward into their back throughout the entire exchange. Your body weight through the chest connection is your primary control tool - arms are secondary."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that your opponent is about to attempt Grip Break and Face?",
+        "answer": "The earliest cue is when both of their hands move to your choking arm wrist, establishing two-on-one control. This signals the grip strip sequence has begun and your window to insert hooks or switch grips is narrowing. Before they even begin pulling your arm, the hand positioning tells you their intention. React immediately by inserting hooks or switching to body lock control."
+      },
+      {
+        "question": "Why is inserting hooks the highest-priority defensive response against this escape?",
+        "answer": "Hooks control the opponent's hips, and this escape requires explosive hip rotation to succeed. Without free hip movement, the opponent cannot complete the turn regardless of whether they break your harness grip. Hooks fundamentally change the escape equation from a grip-fighting problem into a leg-entanglement problem, forcing them to abandon the rotation entirely and switch to a different escape pathway like turtle descent or hook clearance."
+      },
+      {
+        "question": "Your opponent has stripped your choking arm and begun rotating - is it better to chase back control or transition to front headlock?",
+        "answer": "Once they have broken the harness and begun committed rotation past approximately 90 degrees, chasing back control by circling becomes increasingly difficult and energy-expensive. Transitioning to front headlock is the higher-percentage option because their rotation brings their head toward you, making head control accessible. The front headlock maintains your offensive advantage with multiple submission options, whereas desperately circling for back control often results in losing all control entirely."
+      },
+      {
+        "question": "How should you adjust your body position when you feel persistent two-on-one pressure on your choking arm?",
+        "answer": "Rather than fighting the arm battle in isolation, drive your chest harder into their back to increase overall control pressure, then immediately switch your grip configuration. Either transition to a body lock by releasing the seatbelt and locking hands around their torso, or drop your hooks in to prevent the rotation that follows the grip strip. The body position adjustment supplements the grip change - chest pressure buys you time, and the grip switch changes the defensive problem they must solve."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Recognition and hook insertion",
+        "description": "Partner performs slow-motion grip fighting from standing back control. Practice recognizing two-on-one control establishment and immediately responding with hook insertion. Focus on timing the hook drop to arrive before the grip strip completes. Drill 40 repetitions per session at progressively increasing speed."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Circular footwork and grip switching",
+        "description": "Partner attempts grip strip and rotation at moderate speed. Practice following their rotation with circular footwork to maintain chest-to-back connection. Also drill the seatbelt-to-body-lock switch when you feel the choking arm being stripped. Alternate between circling defense and grip switching each repetition."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Front headlock conversion",
+        "description": "Partner completes the grip break and begins full rotation. Practice converting the lost back control into front headlock by snapping down on their head during the turn. Focus on the transition timing - releasing back control pursuit and securing head control at the optimal moment."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live situational sparring",
+        "description": "Full-speed positional sparring starting from standing back control. Partner attempts Grip Break and Face along with other escapes. Practice reading which escape is being attempted and selecting the appropriate defensive response. Score based on maintaining control or successfully transitioning to front headlock."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Duck Under Rotation",
+      "description": "Instead of pulling arm across body, duck your head under opponent's choking arm while rotating, using their arm position to facilitate the turn. More effective when opponent has higher arm position on your shoulder.",
+      "when_to_use": "When opponent's choking arm is high on your shoulder rather than deep under your chin"
+    },
+    {
+      "variant_name": "Arm Drag to Face",
+      "description": "Convert the grip strip into an arm drag, pulling opponent's arm past your hip while rotating. Creates opportunity to take opponent's back rather than just achieving neutral clinch.",
+      "when_to_use": "When you have strong grip control and opponent is off-balance, allowing you to capitalize offensively rather than just escaping"
+    },
+    {
+      "variant_name": "Level Change and Face",
+      "description": "Drop your level significantly while breaking grip, making rotation easier and loading opponent's weight onto your back before standing up through the turn. Useful against larger opponents.",
+      "when_to_use": "Against heavier opponents who are difficult to turn against, or when opponent is attempting to lift you"
+    }
+  ],
+  "conditions": [
+    "Opponent has harness or seatbelt grip but has not yet inserted hooks or body triangle",
+    "Both practitioners are standing with opponent's chest connected to your back",
+    "Your neck is protected from immediate choke threat through chin tuck",
+    "You have sufficient space to rotate without being driven into a wall or cage"
+  ],
+  "position_integration": "Grip Break and Face is a cornerstone escape from standing back control that fits into the broader standing grappling system. It connects standing back exposure to the clinch game, allowing you to transition from pure defense to neutral engagement. This escape is typically attempted when the opponent has harness control but has not yet secured hooks or body triangle - once leg control is established, other escapes like turtle descent become more appropriate. Successful execution often leads to underhook battles, collar tie exchanges, or immediate takedown attempts from both practitioners. The technique chains well with offensive clinch work, as the same two-on-one grip mechanics used for the escape can immediately transition to arm drags or duck unders for back takes of your own."
 }

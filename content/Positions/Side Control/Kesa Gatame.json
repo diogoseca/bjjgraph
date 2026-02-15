@@ -3,7 +3,7 @@
   "slug": "kesa-gatame",
   "description": "Master Kesa Gatame (Scarf Hold) in BJJ. Strategic guide covering control mechanics, submissions, escapes, and transitions with complete perspective analysis for both bottom and top players.",
   "variant_uniqueness": "Perpendicular angle trades back exposure for arm",
-  "overview": "Kesa Gatame, also known as Scarf Hold, represents one of judo's most effective pinning positions adapted for Brazilian Jiu-Jitsu. This position creates a unique control dynamic where the top practitioner sits perpendicular to their supine opponent, wrapping one arm around the opponent's head while controlling the near arm. The position's defining characteristic is the trade-off between offensive control and defensive vulnerability—while offering exceptional upper body immobilization and powerful submission opportunities, it simultaneously exposes the top player's back to potential attacks if proper awareness is not maintained.\n\nHistorically, Kesa Gatame has been a cornerstone of judo newaza and was prominently featured in early Brazilian Jiu-Jitsu through the Gracie family's judo background. The position excels at immobilizing larger opponents through superior leverage and weight distribution rather than pure pressure. Modern BJJ has seen the position evolve with variations addressing the traditional back exposure weakness while maintaining offensive potency. Understanding both perspectives—the oppressive control from top and the systematic escape mechanics from bottom—is essential for complete positional mastery.\n\nThe strategic uniqueness of Kesa Gatame lies in its geometric relationship: the perpendicular body angle creates biomechanical advantages for control but also creates specific vulnerabilities that can be exploited through proper technique. From the top, practitioners must balance aggressive submission attacks with defensive awareness of back takes. From the bottom, practitioners must recognize that standard side control escapes are ineffective and employ specialized bridge-and-turn mechanics or capitalize on the opponent's back exposure.",
+  "overview": "Kesa Gatame, also known as Scarf Hold, represents one of judo's most effective pinning positions adapted for Brazilian Jiu-Jitsu. This position creates a unique control dynamic where the top practitioner sits perpendicular to their supine opponent, wrapping one arm around the opponent's head while controlling the near arm. The position's defining characteristic is the trade-off between offensive control and defensive vulnerability—while offering exceptional upper body immobilization and powerful submission opportunities, it simultaneously exposes the top player's back to potential attacks if proper awareness is not maintained.\n\nHistorically, Kesa Gatame has been a cornerstone of judo newaza and was prominently featured in early Brazilian Jiu-Jitsu through the Gracie family's judo background. The position excels at immobilizing larger opponents through superior leverage and weight distribution rather than pure pressure. Modern BJJ has seen the position evolve with variations addressing the traditional back exposure weakness while maintaining offensive potency. Understanding both perspectives—the oppressive control from top and the systematic escape mechanics from bottom—is essential for complete positional mastery.\n\nThe strategic uniqueness of Kesa Gatame lies in its geometric relationship: the perpendicular body angle creates biomechanical advantages for control but also creates specific vulnerabilities that can be exploited through proper technique. From the top, practitioners must balance aggressive submission attacks with defensive awareness of back takes. From the bottom, practitioners must recognize that standard side control escapes are ineffective and employ specialized bridge-and-turn mechanics or capitalize on the opponent's back exposure.\n\nKesa Gatame functions as a positional hub within the side control family, offering distinct transition pathways that differ from standard cross-body side control. The top player can flow between Kesa Gatame, Reverse Kesa Gatame, North-South, and mount depending on the bottom player's defensive reactions. The bottom player's escape routes similarly branch toward turtle, half guard recovery, or back take opportunities that are unique to this position's geometry. Mastery of Kesa Gatame from both perspectives significantly expands a practitioner's positional vocabulary and provides tools for controlling opponents who are difficult to pin with conventional side control mechanics.",
   "key_principles": [
     "Perpendicular body positioning creates unique control mechanics distinct from standard side control",
     "Top player must balance offensive pressure with defensive awareness of back exposure",
@@ -52,7 +52,7 @@
     }
   ],
   "top": {
-    "overview": "Kesa Gatame Top, also known as scarf hold, is a traditional judo pinning position that has been adapted for Brazilian Jiu-Jitsu. The top practitioner sits perpendicular to their supine opponent, controlling the head and near arm while using their bodyweight to pin the opponent's torso. This position creates immense pressure and restricts the opponent's breathing and movement, making it highly effective for maintaining control and setting up submissions.\n\nWhile less commonly emphasized in modern sport BJJ compared to traditional side control, Kesa Gatame offers unique advantages including superior weight distribution, excellent control of the opponent's upper body, and powerful submission opportunities. The position is particularly effective in no-gi and MMA contexts where the crossface and shoulder pressure can be devastating. Understanding Kesa Gatame enhances a practitioner's overall top game by providing an alternative pinning structure with distinct mechanical advantages.\n\nThe position requires careful attention to weight distribution and hip positioning to prevent common escapes. When executed properly, Kesa Gatame can be one of the most oppressive positions in grappling, creating a sense of helplessness in the bottom player while offering the top player numerous attacking options.",
+    "overview": "Kesa Gatame Top, also known as scarf hold, is a traditional judo pinning position that has been adapted for Brazilian Jiu-Jitsu. The top practitioner sits perpendicular to their supine opponent, controlling the head and near arm while using their bodyweight to pin the opponent's torso. This position creates immense pressure and restricts the opponent's breathing and movement, making it highly effective for maintaining control and setting up submissions.\n\nWhile less commonly emphasized in modern sport BJJ compared to traditional side control, Kesa Gatame offers unique advantages including superior weight distribution, excellent control of the opponent's upper body, and powerful submission opportunities. The position is particularly effective in no-gi and MMA contexts where the crossface and shoulder pressure can be devastating. Understanding Kesa Gatame enhances a practitioner's overall top game by providing an alternative pinning structure with distinct mechanical advantages.\n\nThe position requires careful attention to weight distribution and hip positioning to prevent common escapes. When executed properly, Kesa Gatame can be one of the most oppressive positions in grappling, creating a sense of helplessness in the bottom player while offering the top player numerous attacking options. The key to sustainable control lies in using skeletal structure and gravity rather than muscular tension, allowing the top player to maintain crushing pressure while conserving energy for submission attacks.\n\nFrom a competitive standpoint, Kesa Gatame scores as a guard pass (3 points in IBJJF) and serves as both a controlling position and a launching pad for higher-value positions like mount. The transition from Kesa Gatame to mount is particularly natural when the bottom player turns into the top player, making their escape attempt the catalyst for positional advancement.",
     "state_properties": {
       "point_value": 3,
       "position_type": "Offensive/Controlling",
@@ -93,7 +93,7 @@
             "probability": 70
           },
           {
-            "technique": "Kimura from Side Control",
+            "technique": "Kimura",
             "target": "Kimura Trap",
             "probability": 60
           }
@@ -118,12 +118,12 @@
         "condition": "If opponent extends trapped arm attempting to push or frame",
         "actions": [
           {
-            "technique": "Americana from Side Control",
+            "technique": "Americana",
             "target": "Armbar Control",
             "probability": 65
           },
           {
-            "technique": "Armbar from Side Control",
+            "technique": "Armbar Finish",
             "target": "Armbar Control",
             "probability": 55
           }
@@ -190,7 +190,7 @@
       },
       {
         "name": "Submission Chain Drill",
-        "description": "Start in Kesa Gatame Top and flow through the submission chain: Americana attempt → opponent defends → switch to Kimura → opponent defends → transition to Armbar → opponent defends → secure North-South Choke. Partner provides realistic defensive reactions. Reset and repeat with different entry points.",
+        "description": "Start in Kesa Gatame Top and flow through the submission chain: Americana attempt, opponent defends, switch to Kimura, opponent defends, transition to Armbar, opponent defends, secure North-South Choke. Partner provides realistic defensive reactions. Reset and repeat with different entry points.",
         "duration": "4 rounds of 3 minutes"
       },
       {
@@ -200,10 +200,6 @@
       }
     ],
     "related_content": [
-      {
-        "name": "Scarf Hold Position",
-        "relationship": "Identical position, alternative name"
-      },
       {
         "name": "Reverse Kesa-Gatame",
         "relationship": "Mirror variation facing opposite direction"
@@ -225,28 +221,35 @@
         "relationship": "Common advancement target when opponent turns in"
       },
       {
-        "name": "Americana from Side Control",
-        "relationship": "Primary submission attack from this position"
+        "name": "Americana",
+        "relationship": "Primary submission transition from this position"
       },
       {
-        "name": "Kimura from Side Control",
-        "relationship": "High-percentage submission option"
+        "name": "Kimura",
+        "relationship": "High-percentage submission transition"
+      },
+      {
+        "name": "Arm Triangle",
+        "relationship": "Submission chain option from heavy pressure"
       }
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 78
+        "value": 78,
+        "description": "High retention due to strong upper body control and weight distribution"
       },
       "advancement_probability": {
-        "value": 62
+        "value": 62,
+        "description": "Strong advancement options to mount and north-south"
       },
       "submission_probability": {
-        "value": 52
+        "value": 52,
+        "description": "Good submission rate from americana, kimura, and arm triangle chains"
       },
       "average_time": "1-3 minutes"
     },
     "name": "Kesa Gatame Top",
-    "description": "Master Kesa Gatame Top position in BJJ. Dominant scarf hold with 70% retention rate. Complete guide covering control, submissions, and transitions.",
+    "description": "Master Kesa Gatame Top position in BJJ. Dominant scarf hold with 78% retention rate. Complete guide covering control, submissions, and transitions.",
     "tags": [
       "bjj",
       "position",
@@ -260,32 +263,48 @@
     ],
     "transitions": [
       {
-        "transition": "Americana from Side Control",
-        "attempt_probability": 15
+        "transition": "Americana",
+        "attempt_probability": 11
       },
       {
-        "transition": "Kimura from Side Control",
-        "attempt_probability": 14
+        "transition": "Kimura",
+        "attempt_probability": 10
       },
       {
-        "transition": "Armbar from Side Control",
-        "attempt_probability": 13
+        "transition": "Armbar Finish",
+        "attempt_probability": 9
       },
       {
         "transition": "North-South Choke",
-        "attempt_probability": 12
+        "attempt_probability": 8
       },
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": 16
+        "attempt_probability": 12
       },
       {
         "transition": "Side Control to North-South",
-        "attempt_probability": 19
+        "attempt_probability": 40
       },
       {
         "transition": "Arm Triangle",
-        "attempt_probability": 11
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Transition to Modified Scarf Hold",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Transition to Reverse Kesa-Gatame",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Kesa Gatame to Modified Scarf Hold",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Kesa Gatame to Reverse Kesa-Gatame",
+        "attempt_probability": 1
       }
     ],
     "knowledge_assessment": [
@@ -324,9 +343,9 @@
     ]
   },
   "bottom": {
-    "overview": "Kesa Gatame Bottom represents one of the most challenging defensive positions in Brazilian Jiu-Jitsu, where the bottom practitioner faces intense chest-to-chest pressure from an opponent controlling from the scarf hold position. This classical judo pin has been adapted for BJJ competition and presents unique escape challenges due to the opponent's ability to control both the head and near-side arm while applying crushing chest pressure. The position requires specific escape mechanics that differ significantly from standard side control escapes, as the top player's weight distribution and control points create a distinct defensive problem. Understanding the fundamental escape pathways from Kesa Gatame Bottom is essential for any practitioner, as this position appears frequently in both gi and no-gi competition, particularly against opponents with judo backgrounds or those who favor old-school control positions.\n\nThe defensive challenge of Kesa Gatame Bottom centers on the opponent's ability to control your head and arm while sitting their hips back, making standard shrimping escapes ineffective. The top player's chest pressure restricts breathing and movement, while their cross-face and arm control prevent easy frame creation. Successful escape requires understanding the specific vulnerabilities in the top player's position: their exposed back, the potential to create space by attacking their far arm, and the opportunity to exploit their posted leg for sweeping mechanics. The position demands patience, systematic defensive progression, and the ability to recognize windows of opportunity when the top player adjusts their weight or attempts submissions.",
+    "overview": "Kesa Gatame Bottom represents one of the most challenging defensive positions in Brazilian Jiu-Jitsu, where the bottom practitioner faces intense chest-to-chest pressure from an opponent controlling from the scarf hold position. This classical judo pin has been adapted for BJJ competition and presents unique escape challenges due to the opponent's ability to control both the head and near-side arm while applying crushing chest pressure. The position requires specific escape mechanics that differ significantly from standard side control escapes, as the top player's weight distribution and control points create a distinct defensive problem. Understanding the fundamental escape pathways from Kesa Gatame Bottom is essential for any practitioner, as this position appears frequently in both gi and no-gi competition, particularly against opponents with judo backgrounds or those who favor old-school control positions.\n\nThe defensive challenge of Kesa Gatame Bottom centers on the opponent's ability to control your head and arm while sitting their hips back, making standard shrimping escapes ineffective. The top player's chest pressure restricts breathing and movement, while their cross-face and arm control prevent easy frame creation. Successful escape requires understanding the specific vulnerabilities in the top player's position: their exposed back, the potential to create space by attacking their far arm, and the opportunity to exploit their posted leg for sweeping mechanics. The position demands patience, systematic defensive progression, and the ability to recognize windows of opportunity when the top player adjusts their weight or attempts submissions.\n\nFrom a strategic perspective, the bottom player in Kesa Gatame must internalize that this is not a position to endure passively. Every second spent flat on the back under Kesa Gatame compounds the problem as the top player settles their weight and the bottom player's energy depletes. The escape mentality must be immediate and proactive, with the bottom player cycling through escape attempts while maintaining defensive integrity. The unique geometry of Kesa Gatame means that the top player's back is inherently exposed, creating reversal opportunities that do not exist in standard side control.",
     "state_properties": {
-      "point_value": 0,
+      "point_value": -3,
       "position_type": "Defensive",
       "risk_level": "High",
       "energy_cost": "Medium",
@@ -360,18 +379,18 @@
         "condition": "If opponent maintains tight head control and heavy chest pressure without attacking submissions",
         "actions": [
           {
-            "technique": "Frame and Shrimp",
+            "technique": "Frame and Shrimp to Guard",
             "target": "Half Guard",
             "probability": 40
           },
           {
-            "technique": "Elbow Escape",
+            "technique": "Elbow Escape to Guard",
             "target": "Half Guard",
             "probability": 45
           },
           {
             "technique": "Bridge and Roll",
-            "target": "Scarf Hold Position",
+            "target": "Closed Guard",
             "probability": 30
           }
         ]
@@ -380,7 +399,7 @@
         "condition": "If opponent shifts weight forward toward your head or attempts to transition to mount",
         "actions": [
           {
-            "technique": "Granby Roll",
+            "technique": "Granby Roll to Guard",
             "target": "Turtle",
             "probability": 50
           },
@@ -390,7 +409,7 @@
             "probability": 45
           },
           {
-            "technique": "Back Take Generic",
+            "technique": "Back Take from Bottom",
             "target": "Back Control",
             "probability": 35
           }
@@ -400,17 +419,17 @@
         "condition": "If opponent releases head control to attack far-side arm for Americana or other submissions",
         "actions": [
           {
-            "technique": "Hip Escape",
+            "technique": "Hip Escape to Guard",
             "target": "Closed Guard",
             "probability": 55
           },
           {
-            "technique": "Guard Replacement",
+            "technique": "Guard Recovery",
             "target": "Open Guard",
             "probability": 50
           },
           {
-            "technique": "Re-Guard",
+            "technique": "Half Guard Recovery",
             "target": "Half Guard",
             "probability": 45
           }
@@ -421,11 +440,11 @@
         "actions": [
           {
             "technique": "Bridge and Roll",
-            "target": "Scarf Hold Position",
+            "target": "Closed Guard",
             "probability": 50
           },
           {
-            "technique": "Turtle Transition",
+            "technique": "Bridge and Turn to Turtle",
             "target": "Turtle",
             "probability": 55
           }
@@ -493,10 +512,6 @@
     ],
     "related_content": [
       {
-        "name": "Scarf Hold Position",
-        "relationship": "Opposite perspective - sibling variant"
-      },
-      {
         "name": "Side Control",
         "relationship": "Similar defensive position with different escape mechanics"
       },
@@ -529,24 +544,31 @@
         "relationship": "Primary escape technique from this position"
       },
       {
-        "name": "Elbow Escape",
+        "name": "Elbow Escape to Guard",
         "relationship": "Fundamental escape movement pattern"
+      },
+      {
+        "name": "Ghost Escape",
+        "relationship": "High-percentage escape exploiting back exposure"
       }
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 45
+        "value": 45,
+        "description": "Moderate retention as position is inherently transitional for bottom player"
       },
       "advancement_probability": {
-        "value": 50
+        "value": 50,
+        "description": "Good escape probability through bridge-and-turn or back take opportunities"
       },
       "submission_probability": {
-        "value": 15
+        "value": 15,
+        "description": "Low submission probability but back take reversals possible"
       },
       "average_time": "45-90 seconds before escape or submission"
     },
     "name": "Kesa Gatame Bottom",
-    "description": "Master Kesa Gatame Bottom position in BJJ. Complete escape guide covering defensive frames, hip escapes, and guard recovery. Essential defensive position with 40% escape rate.",
+    "description": "Master Kesa Gatame Bottom escapes in BJJ. Complete guide covering defensive frames, bridge-and-turn mechanics, and guard recovery from scarf hold.",
     "tags": [
       "bjj",
       "position",
@@ -560,31 +582,43 @@
     "transitions": [
       {
         "transition": "Bridge and Roll",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Elbow Escape to Guard",
         "attempt_probability": 13
       },
       {
-        "transition": "Elbow Escape",
-        "attempt_probability": 16
+        "transition": "Hip Escape to Guard",
+        "attempt_probability": 9
       },
       {
-        "transition": "Hip Escape",
-        "attempt_probability": 13
+        "transition": "Back Take from Bottom",
+        "attempt_probability": 7
       },
       {
-        "transition": "Back Take Generic",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Turtle Transition",
-        "attempt_probability": 17
+        "transition": "Bridge and Turn to Turtle",
+        "attempt_probability": 30
       },
       {
         "transition": "Ghost Escape",
-        "attempt_probability": 15
+        "attempt_probability": 12
       },
       {
-        "transition": "Frame and Shrimp",
-        "attempt_probability": 15
+        "transition": "Frame and Shrimp to Guard",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Back Take from Kesa Gatame",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Bridge Escape from Kesa Gatame",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Frame to Guard from Kesa Gatame",
+        "attempt_probability": 1
       }
     ],
     "knowledge_assessment": [

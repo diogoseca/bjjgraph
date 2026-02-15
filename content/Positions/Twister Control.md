@@ -96,25 +96,23 @@ The position's effectiveness scales with skill level and understanding. Beginner
 ### Available Transitions
 
 
-- **[[Hip Escape to Guard Recovery]]** (15% of attempts)
+- **[[Roll Through Escape]]** (15% of attempts)
 
-- **[[Roll Through Escape]]** (9% of attempts)
+- **[[Hip Escape to Guard]]** (14% of attempts)
 
-- **[[Bridge and Turn to Turtle]]** (15% of attempts)
+- **[[Bridge and Turn to Turtle]]** (14% of attempts)
 
-- **[[Granby Roll Escape]]** (6% of attempts)
+- **[[Leg Extraction]]** (12% of attempts)
 
-- **[[Guard Replacement]]** (9% of attempts)
-
-- **[[Shrimp Escape]]** (6% of attempts)
-
-- **[[Address Leg Control]]** (10% of attempts)
-
-- **[[Defensive Roll]]** (10% of attempts)
+- **[[Defensive Roll]]** (11% of attempts)
 
 - **[[Frame and Turn]]** (10% of attempts)
 
 - **[[Scramble to Guard]]** (10% of attempts)
+
+- **[[Shrimp Escape]]** (8% of attempts)
+
+- **[[Granby Roll to Guard]]** (6% of attempts)
 
 
 ### Common Mistakes
@@ -171,17 +169,17 @@ The position's effectiveness scales with skill level and understanding. Beginner
 ### Available Transitions
 
 
-- **[[Guillotine Choke]]** (15% of attempts)
-
-- **[[Calf Slicer from Truck]]** (9% of attempts)
+- **[[Twister Finish]]** (30% of attempts)
 
 - **[[Back Take]]** (23% of attempts)
 
-- **[[Neck Crank]]** (9% of attempts)
+- **[[Guillotine Choke]]** (15% of attempts)
 
-- **[[Banana Split]]** (14% of attempts)
+- **[[Calf Slicer]]** (12% of attempts)
 
-- **[[Twister]]** (30% of attempts)
+- **[[Neck Crank]]** (11% of attempts)
+
+- **[[Twister]]** (9% of attempts)
 
 
 ### Common Mistakes
@@ -219,8 +217,6 @@ The position's effectiveness scales with skill level and understanding. Beginner
 - **[[Back Control]]** - Alternative control position - can transition between these positions
 
 - **[[Crab Ride]]** - Related back exposure position with different control mechanics
-
-- **[[Turtle]]** - Common starting position for entries into Twister Control system
 
 - **[[Lockdown]]** - Bottom position that can lead to truck and Twister Control entries
 

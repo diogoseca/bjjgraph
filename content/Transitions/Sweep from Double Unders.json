@@ -1,0 +1,42 @@
+{
+  "name": "Sweep from Double Unders",
+  "description": "Master the Sweep from Double Unders in BJJ. Learn counter-sweeping techniques when opponent has double underhooks to reverse position.",
+  "tags": ["bjj", "transition", "sweep", "double-unders", "guard", "reversal"],
+  "from_position": "Double Unders/Bottom",
+  "outcomes": [
+    {"to": "Side Control/Top", "probability": 40, "result": "success"},
+    {"to": "Double Unders/Bottom", "probability": 35, "result": "failure"},
+    {"to": "Side Control/Bottom", "probability": 25, "result": "counter"}
+  ],
+  "success_rate": 40,
+  "overview": "TODO",
+  "conditions": ["TODO"],
+  "variants_and_adaptations": [{"variant_name": "TODO", "description": "TODO", "when_to_use": "TODO"}],
+  "position_integration": "TODO",
+  "related_content": [{"name": "TODO", "relationship": "TODO"}],
+  "attacker": {
+    "name": "Sweep from Double Unders Attacker",
+    "description": "TODO",
+    "overview": "TODO",
+    "key_principles": ["TODO"],
+    "setup_requirements": ["TODO"],
+    "execution_steps": [{"step_number": 1, "action": "TODO", "description": "TODO"}],
+    "common_counters": [{"counter": "TODO", "effectiveness": "Medium", "your_response": "TODO", "targets_outcome": "Double Unders/Bottom"}],
+    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
+    "training_progressions": [{"phase": "Phase 1: Mechanics", "focus": "TODO", "description": "TODO"}],
+    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
+    "safety_considerations": "TODO"
+  },
+  "defender": {
+    "name": "Sweep from Double Unders Defender",
+    "description": "TODO",
+    "overview": "TODO",
+    "key_principles": ["TODO"],
+    "recognition_cues": ["TODO"],
+    "defensive_options": [{"action": "TODO", "when_to_use": "TODO", "targets_outcome": "Double Unders/Bottom", "if_successful": "TODO", "risk": "TODO"}],
+    "favorable_outcomes": [{"outcome": "Double Unders/Bottom", "how": "TODO"}],
+    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
+    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
+    "training_progressions": [{"phase": "Phase 1: Recognition", "focus": "TODO", "description": "TODO"}]
+  }
+}

@@ -21,37 +21,37 @@ description: "Master Crab Ride Top attacks in BJJ. Complete guide covering back 
     {
       "@type": "HowToStep",
       "name": "Execute Crab Ride to Back",
-      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 39% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Control to Crucifix",
-      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Darce from Turtle",
+      "text": "From this position, attempt Darce from Turtle. This technique is attempted in 7% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Darce from Turtle",
-      "text": "From this position, attempt Darce from Turtle. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Anaconda from Turtle",
+      "text": "From this position, attempt Anaconda from Turtle. This technique is attempted in 6% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Anaconda from Turtle",
-      "text": "From this position, attempt Anaconda from Turtle. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Guillotine from Turtle",
+      "text": "From this position, attempt Guillotine from Turtle. This technique is attempted in 3% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guillotine from Turtle",
-      "text": "From this position, attempt Guillotine from Turtle. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Truck Entry",
+      "text": "From this position, attempt Truck Entry. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura from Turtle",
-      "text": "From this position, attempt Kimura from Turtle. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Crucifix from Turtle",
+      "text": "From this position, attempt Crucifix from Turtle. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,19 +209,25 @@ Crab Ride Top is particularly valued in modern no-gi grappling and MMA contexts,
 
 ## Available Attacks
 
-### [[Crab Ride to Back]] (25% of attempts)
+### [[Crab Ride to Back]] (39% of attempts)
 
-### [[Back Control to Crucifix]] (15% of attempts)
+### [[Darce from Turtle]] (7% of attempts)
 
-### [[Darce from Turtle]] (15% of attempts)
+### [[Anaconda from Turtle]] (6% of attempts)
 
-### [[Anaconda from Turtle]] (15% of attempts)
+### [[Guillotine from Turtle]] (3% of attempts)
 
-### [[Guillotine from Turtle]] (10% of attempts)
+### [[Truck Entry]] (12% of attempts)
 
-### [[Kimura from Turtle]] (10% of attempts)
+### [[Crucifix from Turtle]] (11% of attempts)
 
-### [[Truck Entry]] (10% of attempts)
+### [[Transition to Cross Body Ride]] (7% of attempts)
+
+### [[Transition to Rodeo Ride]] (9% of attempts)
+
+### [[Rolling Back Take]] (4% of attempts)
+
+### [[Kimura from Crab Ride]] (2% of attempts)
 
 
 
@@ -247,13 +253,13 @@ Crab Ride Top is particularly valued in modern no-gi grappling and MMA contexts,
 
 
 **If opponent flattens out completely or rolls to their back:**
-- Execute **[[Flatten to Side Control]]** → [[Side Control]] (Probability: 80%)
-- Execute **[[Mount Transition]]** → [[Mount]] (Probability: 70%)
+- Execute **[[Turtle Flatten to Side Control]]** → [[Side Control]] (Probability: 80%)
+- Execute **[[Consolidate Mount]]** → [[Mount]] (Probability: 70%)
 
 
 **If opponent extends far arm to post or defend neck:**
 - Execute **[[Back Control to Crucifix]]** → [[Crucifix]] (Probability: 70%)
-- Execute **[[Kimura from Turtle]]** → [[Kimura Trap]] (Probability: 55%)
+- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 55%)
 
 
 

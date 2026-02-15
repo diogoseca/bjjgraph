@@ -1,0 +1,139 @@
+{
+  "name": "Counter Entangle to 50-50 from Ashi",
+  "description": "TODO: Write 150-160 character SEO description for Counter Entangle to 50-50 from Ashi.",
+  "tags": [
+    "bjj",
+    "transition",
+    "TODO"
+  ],
+  "from_position": "Inside Ashi-Garami/Bottom",
+  "outcomes": [
+    {
+      "to": "50-50 Guard/Bottom",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Inside Ashi-Garami/Bottom",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Open Guard/Top",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "TODO: Write overview for Counter Entangle to 50-50 from Ashi.",
+  "conditions": [
+    "TODO"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "TODO",
+      "description": "TODO",
+      "when_to_use": "TODO"
+    }
+  ],
+  "position_integration": "TODO: Write position integration for Counter Entangle to 50-50 from Ashi.",
+  "related_content": [
+    {
+      "name": "TODO",
+      "relationship": "TODO"
+    }
+  ],
+  "attacker": {
+    "name": "Counter Entangle to 50-50 from Ashi Attacker",
+    "description": "TODO: Write attacker description for Counter Entangle to 50-50 from Ashi.",
+    "overview": "TODO: Write attacker overview for Counter Entangle to 50-50 from Ashi.",
+    "key_principles": [
+      "TODO"
+    ],
+    "setup_requirements": [
+      "TODO"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "TODO",
+        "description": "TODO"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "TODO",
+        "effectiveness": "Medium",
+        "your_response": "TODO",
+        "targets_outcome": "Inside Ashi-Garami/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "TODO",
+        "description": "TODO"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "TODO",
+        "answer": "TODO"
+      }
+    ],
+    "safety_considerations": "TODO: Write safety considerations for Counter Entangle to 50-50 from Ashi."
+  },
+  "defender": {
+    "name": "Counter Entangle to 50-50 from Ashi Defender",
+    "description": "TODO: Write defender description for Counter Entangle to 50-50 from Ashi.",
+    "overview": "TODO: Write defender overview for Counter Entangle to 50-50 from Ashi.",
+    "key_principles": [
+      "TODO"
+    ],
+    "recognition_cues": [
+      "TODO"
+    ],
+    "defensive_options": [
+      {
+        "action": "TODO",
+        "when_to_use": "TODO",
+        "targets_outcome": "Inside Ashi-Garami/Bottom",
+        "if_successful": "TODO",
+        "risk": "TODO"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "50-50 Guard/Bottom",
+        "how": "TODO"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "TODO",
+        "answer": "TODO"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "TODO",
+        "description": "TODO"
+      }
+    ]
+  }
+}

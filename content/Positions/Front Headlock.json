@@ -39,10 +39,6 @@
       "relationship": "Alternative advancement - can flatten opponent from front headlock into side control pinning position"
     },
     {
-      "name": "Standing Rear Clinch",
-      "relationship": "Standing variation - front headlock from standing position leads to standing guillotine or back take"
-    },
-    {
       "name": "Crucifix",
       "relationship": "Alternative control - if opponent rolls through front headlock escape, can catch crucifix position"
     },
@@ -64,7 +60,7 @@
     ],
     "overview": "Front headlock top is one of the most dominant offensive control positions in Brazilian Jiu-Jitsu, offering a unique combination of strong positional control and multiple high-percentage submission options. When executed properly, this position allows you to control an opponent who is bent forward, typically on their hands and knees, while simultaneously threatening guillotine, anaconda, darce chokes, and back takes.\n\nThe strategic value of front headlock top lies in its versatility and the dilemmas it creates for your opponent. Unlike many positions where you must choose between maintaining control and hunting submissions, the front headlock allows both simultaneously. Your control mechanics naturally set up your submission attacks, and your submission threats reinforce your positional dominance. This synergy makes it one of the highest-percentage attacking positions in modern grappling.\n\nFront headlock top typically arises during scrambles, when your opponent turtles defensively, during failed takedown attempts, or as a deliberate entry from guard passing sequences. The position has become increasingly systematized in modern BJJ, with comprehensive front headlock systems becoming standard curriculum at high-level academies. Understanding these systems transforms the front headlock from an opportunistic position into a deliberate strategic destination.\n\nThe biomechanics of front headlock control revolve around creating downward pressure with your chest while controlling your opponent's head and far shoulder. Your weight drives into their upper back, collapsing their posture and preventing them from standing up or improving position. Your arms work in tandem - one controls the head (setting up chokes), while the other controls the far shoulder or arm (preventing escapes). This dual control system creates a cage around your opponent's upper body.\n\nModern competitors have demonstrated the effectiveness of front headlock top at the highest levels of competition. The position has become the foundation of entire competitive strategies, serving as both a submission platform and a gateway to back attacks. The position works equally well in gi and no-gi contexts, though the specific grips and tactics vary.\n\nMastering front headlock top requires understanding both the technical details of individual submissions and the overarching strategic framework that connects them. You must develop the ability to read your opponent's defensive responses and adapt your attacks accordingly, creating submission chains where each defensive movement opens a new attack. This systematic approach, combined with positional patience and technical precision, makes the front headlock one of the most powerful weapons in modern Brazilian Jiu-Jitsu.",
     "state_properties": {
-      "point_value": 2,
+      "point_value": 0,
       "position_type": "Offensive/Controlling",
       "risk_level": "Low to Medium",
       "energy_cost": "Medium",
@@ -257,8 +253,8 @@
         "relationship": "Positional advancement - front headlock transitions to back when opponent circles"
       },
       {
-        "name": "Front Headlock Series Transition",
-        "relationship": "Complete systematic approach to front headlock attacks and transitions"
+        "name": "Front Headlock to Guillotine",
+        "relationship": "Primary transition pathway to guillotine submission from front headlock control"
       },
       {
         "name": "Snap Down to Front Headlock",
@@ -295,51 +291,51 @@
     "transitions": [
       {
         "transition": "Guillotine Setup",
-        "attempt_probability": 9
+        "attempt_probability": 14
       },
       {
         "transition": "Anaconda Setup",
-        "attempt_probability": 9
+        "attempt_probability": 13
       },
       {
         "transition": "Darce Setup",
-        "attempt_probability": 9
+        "attempt_probability": 13
       },
       {
         "transition": "Front Headlock to Back",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Side Control to Mount",
-        "attempt_probability": 8
-      },
-      {
-        "transition": "Buggy Choke to Side Control",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Aoki Lock to Crucifix",
-        "attempt_probability": 7
-      },
-      {
-        "transition": "Front Headlock Series Transition",
-        "attempt_probability": 8
+        "attempt_probability": 15
       },
       {
         "transition": "Arm Triangle from Front Headlock",
-        "attempt_probability": 8
-      },
-      {
-        "transition": "Guillotine Defense",
-        "attempt_probability": 8
+        "attempt_probability": 6
       },
       {
         "transition": "Japanese Necktie Setup",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Peruvian Necktie Setup",
-        "attempt_probability": 8
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Step Over to Mount",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Turtle Flatten to Side Control",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Snap Down to Front Headlock",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Crucifix from Turtle",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Kimura",
+        "attempt_probability": 4
       }
     ],
     "knowledge_assessment": [
@@ -450,12 +446,12 @@
         "condition": "If opponent's weight is high and forward, attempting to flatten you to mat",
         "actions": [
           {
-            "technique": "Technical Standup",
+            "technique": "Technical Stand-up",
             "target": "Standing Position",
             "probability": 55
           },
           {
-            "technique": "Granby Roll",
+            "technique": "Granby Roll to Guard",
             "target": "Closed Guard",
             "probability": 40
           }
@@ -541,11 +537,11 @@
         "relationship": "Specific submission defense transition essential for surviving front headlock position"
       },
       {
-        "name": "Technical Standup",
+        "name": "Technical Stand-up",
         "relationship": "Primary escape method - standing removes most submission threats from front headlock"
       },
       {
-        "name": "Granby Roll",
+        "name": "Granby Roll to Guard",
         "relationship": "Alternative escape method - rolling through front headlock to recover guard"
       },
       {
@@ -578,28 +574,40 @@
     },
     "transitions": [
       {
-        "transition": "Technical Standup",
+        "transition": "Technical Stand-up",
         "attempt_probability": 19
       },
       {
-        "transition": "Granby Roll",
-        "attempt_probability": 17
+        "transition": "Granby Roll to Guard",
+        "attempt_probability": 11
       },
       {
         "transition": "Turtle to Guard",
-        "attempt_probability": 21
+        "attempt_probability": 13
       },
       {
         "transition": "Stand and Circle Away",
-        "attempt_probability": 16
+        "attempt_probability": 15
       },
       {
         "transition": "Roll Through to Reversal",
-        "attempt_probability": 14
+        "attempt_probability": 13
       },
       {
         "transition": "Arm Drag Escape",
-        "attempt_probability": 13
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Guillotine Defense",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Sit Through to Guard",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Hip Escape from Front Headlock",
+        "attempt_probability": 4
       }
     ],
     "knowledge_assessment": [

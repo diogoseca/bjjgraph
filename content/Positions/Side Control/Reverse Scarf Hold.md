@@ -95,15 +95,15 @@ Both perspectives require specialized drilling and positional understanding, as 
 ### Available Transitions
 
 
-- **[[Elbow Escape]]** (20% of attempts)
+- **[[Elbow Escape to Guard]]** (20% of attempts)
 
 - **[[Bridge and Roll]]** (15% of attempts)
 
-- **[[Hip Escape]]** (17% of attempts)
+- **[[Hip Escape to Guard]]** (17% of attempts)
 
-- **[[Frame and Shrimp]]** (17% of attempts)
+- **[[Frame and Shrimp to Guard]]** (17% of attempts)
 
-- **[[Technical Standup]]** (13% of attempts)
+- **[[Technical Stand-up]]** (13% of attempts)
 
 - **[[Shrimp Escape]]** (18% of attempts)
 
@@ -168,9 +168,9 @@ Both perspectives require specialized drilling and positional understanding, as 
 
 - **[[Side Control to Mount]]** (15% of attempts)
 
-- **[[Americana from Side Control]]** (13% of attempts)
+- **[[Americana]]** (13% of attempts)
 
-- **[[Kimura from Side Control]]** (14% of attempts)
+- **[[Kimura]]** (14% of attempts)
 
 - **[[Back Step]]** (12% of attempts)
 
@@ -225,7 +225,7 @@ Both perspectives require specialized drilling and positional understanding, as 
 
 - **[[North-South]]** - Common transition target from reverse scarf hold
 
-- **[[Side Control]]** - Entry position for reverse scarf hold transitions
+- **[[Side Control Consolidation]]** - Entry position for reverse scarf hold transitions
 
 - **[[Mount]]** - Advancement position when opponent bridges forward
 

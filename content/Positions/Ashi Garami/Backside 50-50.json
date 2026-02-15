@@ -102,15 +102,15 @@
     "knowledge_assessment": [
       {
         "question": "What is the primary mechanism for maintaining dominant pressure in Backside 50-50 Top?",
-        "answer": "Chest-to-back pressure is the primary control mechanism. Your chest should be heavy on opponent's upper back, driving their hips into the mat. This limits their hip mobility and prevents them from creating angles or frames. Weight distribution should favor forward pressure rather than sitting back on your heels."
+        "answer": "Chest-to-back pressure is the primary control mechanism. Your chest should be heavy on opponent's upper back, driving their hips into the mat. This limits their hip mobility and prevents them from creating angles or frames. Weight distribution should favor forward pressure rather than sitting back on your heels. Let skeletal structure and gravity do the work rather than muscular effort."
       },
       {
         "question": "Your opponent starts bridging and creating hip movement while you have Backside 50-50 Top. What adjustment do you make?",
-        "answer": "Drive your chest pressure forward and down immediately when you feel them bridge. Lower your hips closer to the mat to increase base stability. Use your forearm on their hip to post and prevent the turn. If they continue creating movement, walk your hips higher up their body toward back control rather than fighting to stay in the leg entanglement."
+        "answer": "Drive your chest pressure forward and down immediately when you feel them bridge. Lower your hips closer to the mat to increase base stability. Use your forearm on their hip to post and prevent the turn. If they continue creating movement, walk your hips higher up their body toward back control rather than fighting to stay in the leg entanglement. Their bridging often aids your advancement."
       },
       {
         "question": "What are the essential grips for maintaining Backside 50-50 Top position?",
-        "answer": "Primary control comes from body positioning, not grips. Your chest pressure and leg entanglement provide base control. Hands should be free for attacking - one hand controlling opponent's heel or ankle for submissions, the other posting or framing against their hip. Avoid using arm strength to hold position as this fatigues quickly and reduces attacking options."
+        "answer": "Primary control comes from body positioning, not grips. Your chest pressure and leg entanglement provide base control. Hands should be free for attacking - one hand controlling opponent's heel or ankle for submissions, the other posting or framing against their hip. Avoid using arm strength to hold position as this fatigues quickly and reduces attacking options. Grips are for attacking, structure is for controlling."
       },
       {
         "question": "How do you shut down the bottom player's primary escape attempts from Backside 50-50 Top?",
@@ -126,7 +126,7 @@
       },
       {
         "question": "How do you manage energy expenditure to maintain Backside 50-50 Top for extended periods?",
-        "answer": "Let your body structure do the work rather than muscular effort. Chest pressure comes from positioning and weight distribution, not active pressing. Legs stay entangled through proper positioning, not squeezing. Arms remain relaxed until attacking. Keep breathing steady. The position should feel sustainable - if you're working hard just to maintain it, your body position is wrong."
+        "answer": "Let your body structure do the work rather than muscular effort. Chest pressure comes from positioning and weight distribution, not active pressing. Legs stay entangled through proper positioning, not squeezing. Arms remain relaxed until attacking. Keep breathing steady. The position should feel sustainable - if you're working hard just to maintain it, your body position is wrong. Recalibrate weight distribution."
       },
       {
         "question": "You've partially lost control and your opponent creates a frame against your shoulder. How do you recover full control?",
@@ -138,18 +138,18 @@
         "condition": "If opponent is primarily defending their back and creating frames to prevent you from walking up their body",
         "actions": [
           {
-            "technique": "Inside Heel Hook",
-            "target": "game-over",
+            "technique": "Heel Hook",
+            "target": "Game Over",
             "probability": 50
           },
           {
             "technique": "Outside Heel Hook",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 45
           },
           {
             "technique": "Toe Hold",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 40
           }
         ]
@@ -158,7 +158,7 @@
         "condition": "If opponent is primarily defending leg attacks with good positioning and control of your legs",
         "actions": [
           {
-            "technique": "Back Take Generic",
+            "technique": "Back Take from 50-50",
             "target": "Back Control",
             "probability": 65
           },
@@ -178,12 +178,7 @@
         "condition": "If opponent attempts to sweep by inverting or creating angles with their hips",
         "actions": [
           {
-            "technique": "Pressure Application",
-            "target": "Backside 50-50",
-            "probability": 70
-          },
-          {
-            "technique": "Back Take Generic",
+            "technique": "Back Take from 50-50",
             "target": "Back Control",
             "probability": 60
           },
@@ -191,6 +186,11 @@
             "technique": "Saddle Entry from Top",
             "target": "Saddle",
             "probability": 55
+          },
+          {
+            "technique": "Heel Hook",
+            "target": "Game Over",
+            "probability": 45
           }
         ]
       },
@@ -199,12 +199,12 @@
         "actions": [
           {
             "technique": "Kneebar",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 55
           },
           {
-            "technique": "Straight Ankle Lock",
-            "target": "game-over",
+            "technique": "Straight Ankle Lock Entry",
+            "target": "Game Over",
             "probability": 60
           }
         ]
@@ -213,14 +213,14 @@
         "condition": "If opponent commits to turtle position to defend both back and legs simultaneously",
         "actions": [
           {
-            "technique": "Back Take Generic",
+            "technique": "Back Take from 50-50",
             "target": "Back Control",
             "probability": 70
           },
           {
-            "technique": "Pressure Pass",
-            "target": "Side Control",
-            "probability": 60
+            "technique": "Calf Slicer",
+            "target": "Game Over",
+            "probability": 50
           }
         ]
       }
@@ -280,7 +280,7 @@
       },
       {
         "name": "Leg Lock Finish Sequence Drill",
-        "description": "Starting from backside 50-50 top, practice finishing sequence for inside heel hook, outside heel hook, and toe hold. Bottom player remains relatively static. Focus on technical precision of each finish from this specific position. 3 repetitions of each submission before switching partners.",
+        "description": "Starting from backside 50-50 top, practice finishing sequence for heel hook, outside heel hook, and toe hold. Bottom player remains relatively static. Focus on technical precision of each finish from this specific position. 3 repetitions of each submission before switching partners.",
         "duration": "8 minutes total"
       }
     ],
@@ -306,7 +306,7 @@
         "relationship": "Alternative leg entanglement configuration from top"
       },
       {
-        "name": "Inside Heel Hook",
+        "name": "Heel Hook",
         "relationship": "Primary submission finish from this position"
       },
       {
@@ -320,32 +320,35 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 60
+        "value": 60,
+        "description": "Moderate retention due to opponent's constant escape attempts and transitional nature of leg entanglements"
       },
       "advancement_probability": {
-        "value": 60
+        "value": 60,
+        "description": "High advancement potential through back control or saddle transitions when leg attacks are defended"
       },
       "submission_probability": {
-        "value": 42
+        "value": 42,
+        "description": "Strong submission rate from heel hooks, toe holds, and ankle locks due to pressure advantage"
       },
       "average_time": "45-90 seconds before advancement or submission attempt"
     },
     "transitions": [
       {
-        "transition": "Inside Heel Hook",
-        "attempt_probability": 16
+        "transition": "Heel Hook",
+        "attempt_probability": 20
       },
       {
         "transition": "Outside Heel Hook",
-        "attempt_probability": 12
+        "attempt_probability": 10
       },
       {
         "transition": "Toe Hold",
         "attempt_probability": 10
       },
       {
-        "transition": "Straight Ankle Lock",
-        "attempt_probability": 8
+        "transition": "Straight Ankle Lock Entry",
+        "attempt_probability": 5
       },
       {
         "transition": "Saddle Entry from Top",
@@ -353,19 +356,27 @@
       },
       {
         "transition": "Kneebar",
-        "attempt_probability": 12
+        "attempt_probability": 7
       },
       {
         "transition": "50-50 Pass",
-        "attempt_probability": 8
+        "attempt_probability": 6
       },
       {
         "transition": "Back Take from 50-50",
         "attempt_probability": 16
       },
       {
-        "transition": "Calf Slicer from 50-50",
+        "transition": "Calf Slicer",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Inside Ashi-Garami to Honey Hole",
         "attempt_probability": 6
+      },
+      {
+        "transition": "Counter heel hook",
+        "attempt_probability": 4
       }
     ]
   },
@@ -424,7 +435,7 @@
       },
       {
         "question": "What are the essential frames for maintaining defensive structure in Backside 50-50 Bottom?",
-        "answer": "Top arm frames against opponent's chest, shoulder, or hip to maintain separation and prevent flattening. Bottom arm can frame against their leg or hip for additional stability. These frames work together to create space for hip movement. Without active frames, opponent collapses all space and eliminates your mobility."
+        "answer": "Top arm frames against opponent's chest, shoulder, or hip to maintain separation and prevent flattening. Bottom arm can frame against their leg or hip for additional stability. These frames work together to create space for hip movement. Without active frames, opponent collapses all space and eliminates your mobility entirely."
       },
       {
         "question": "How do you defend against the primary back control threat from Backside 50-50 Bottom?",
@@ -467,13 +478,13 @@
         "condition": "If opponent overcommits to leg attack and releases upper body control",
         "actions": [
           {
-            "technique": "50-50 Pass",
+            "technique": "Counter-entangle to 50-50 Guard",
             "target": "50-50 Guard",
             "probability": 55
           },
           {
-            "technique": "Inside Heel Hook",
-            "target": "game-over",
+            "technique": "Heel Hook",
+            "target": "Game Over",
             "probability": 40
           }
         ]
@@ -482,13 +493,13 @@
         "condition": "If opponent maintains tight leg entanglement but extends their attacking leg",
         "actions": [
           {
-            "technique": "Inside Heel Hook",
-            "target": "game-over",
+            "technique": "Heel Hook",
+            "target": "Game Over",
             "probability": 50
           },
           {
-            "technique": "Straight Ankle Lock",
-            "target": "game-over",
+            "technique": "Straight Ankle Lock Entry",
+            "target": "Game Over",
             "probability": 45
           }
         ]
@@ -502,7 +513,7 @@
             "probability": 40
           },
           {
-            "technique": "X-Guard to Ashi Transition",
+            "technique": "Ashi Garami Escape",
             "target": "Inside Ashi-Garami",
             "probability": 35
           }
@@ -512,8 +523,8 @@
         "condition": "If opponent releases leg entanglement to pursue back control",
         "actions": [
           {
-            "technique": "Rolling Back Take",
-            "target": "Back Control",
+            "technique": "Ashi Garami Escape",
+            "target": "Open Guard",
             "probability": 60
           },
           {
@@ -537,22 +548,22 @@
       },
       {
         "error": "Forcing leg lock attacks from inferior position without proper control",
-        "consequence": "Opponent easily defends leg attack and uses your commitment to improve their position, potentially passing to side control or taking your back while you're focused on the submission",
+        "consequence": "Opponent easily defends leg attack and uses your commitment to improve their position, potentially passing to side control or taking your back while you're focused on the submission.",
         "correction": "Only attack legs when opponent makes specific mistakes or overcommits. Primary goal should be to improve position first. Use leg attacks opportunistically, not as primary strategy from this position."
       },
       {
         "error": "Remaining static in the position without attempting to improve or escape",
-        "consequence": "Opponent settles into comfortable top control, methodically breaks down your defenses, and eventually passes or submits with minimal resistance",
+        "consequence": "Opponent settles into comfortable top control, methodically breaks down your defenses, and eventually passes or submits with minimal resistance.",
         "correction": "Constant movement and adjustment are essential. Work toward facing opponent, extracting legs, or reversing position. Every second in backside 50-50 bottom should involve active improvement attempts."
       },
       {
         "error": "Failing to use frames and posting arms to maintain space",
-        "consequence": "Opponent collapses all space between you, making it impossible to move hips or create angles needed for escapes or reversals",
+        "consequence": "Opponent collapses all space between you, making it impossible to move hips or create angles needed for escapes or reversals.",
         "correction": "Top arm should constantly post on opponent's chest, shoulder, or hip to maintain separation. Bottom arm can frame against opponent's leg or hip. These frames are crucial for maintaining the ability to move."
       },
       {
         "error": "Releasing leg entanglement control prematurely while attempting to escape",
-        "consequence": "Opponent passes directly to dominant positions like side control or mount once leg entanglement is released without proper preparation",
+        "consequence": "Opponent passes directly to dominant positions like side control or mount once leg entanglement is released without proper preparation.",
         "correction": "Maintain leg control while working to improve position. Only release entanglement when you have clear path to standing, guard recovery, or position reversal. Coordinate leg extraction with upper body movement and framing."
       }
     ],
@@ -600,8 +611,8 @@
         "relationship": "Fundamental concept governing mechanics of all 50-50 variations"
       },
       {
-        "name": "Inside Heel Hook",
-        "relationship": "Primary submission attack available from this position"
+        "name": "Heel Hook",
+        "relationship": "Primary submission transition available from this position"
       },
       {
         "name": "X-Guard",
@@ -614,44 +625,63 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 60
+        "value": 60,
+        "description": "Moderate retention reflecting the transitional nature and opponent's pressure advantage"
       },
       "advancement_probability": {
-        "value": 60
+        "value": 60,
+        "description": "Reasonable advancement through escapes, guard recovery, or opportunistic reversals"
       },
       "submission_probability": {
-        "value": 42
+        "value": 42,
+        "description": "Opportunistic submissions possible through counter-attacks when opponent overcommits"
       },
       "average_time": "30-60 seconds"
     },
     "transitions": [
       {
-        "transition": "Inside Heel Hook",
-        "attempt_probability": 8
+        "transition": "Heel Hook",
+        "attempt_probability": 6
       },
       {
         "transition": "Outside Heel Hook",
-        "attempt_probability": 15
+        "attempt_probability": 5
       },
       {
-        "transition": "Straight Ankle Lock",
-        "attempt_probability": 8
+        "transition": "Straight Ankle Lock Entry",
+        "attempt_probability": 4
       },
       {
         "transition": "Standing up in Base",
-        "attempt_probability": 13
+        "attempt_probability": 6
       },
       {
         "transition": "Ashi Garami Escape",
-        "attempt_probability": 29
+        "attempt_probability": 44
       },
       {
         "transition": "Counter-entangle to 50-50 Guard",
-        "attempt_probability": 15
+        "attempt_probability": 11
       },
       {
-        "transition": "Hip Escape",
-        "attempt_probability": 12
+        "transition": "Hip Escape to Guard",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Rolling Back Take",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Counter heel hook",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Saddle Defense",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Heel Hook from Backside 50-50",
+        "attempt_probability": 2
       }
     ]
   }

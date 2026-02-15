@@ -10,137 +10,407 @@
     "x-guard",
     "off-balancing"
   ],
-  "overview": "The Butterfly Guard to X-Guard transition represents a fundamental evolution in modern guard play, connecting dynamic elevation mechanics with sophisticated off-balancing systems. This transition capitalizes on the opponent's forward pressure and posture, using butterfly hooks as launching mechanisms to establish the powerful X-Guard position. The technique exploits the natural reaction of opponents who base wide or post their weight forward while defending butterfly sweeps, creating the perfect opportunity to slide underneath and capture the standing leg. This transition is particularly effective against pressure passers who commit their weight forward, as their defensive posture naturally sets up the mechanics required for X-Guard entry. The movement requires precise timing, active hip mobility, and the ability to maintain connection throughout the transition, making it a cornerstone technique for guard players at all levels who want to develop a dynamic, flowing guard game.",
-  "key_principles": [
-    "Use butterfly hooks to create initial off-balance and elevation",
-    "Capitalize on opponent's forward pressure and wide base",
-    "Maintain constant connection with grips throughout transition",
-    "Slide hips underneath opponent's center of gravity",
-    "Establish X-Guard hooks before releasing butterfly position",
-    "Control opponent's posture to prevent immediate escape",
-    "Create angles to facilitate hook placement"
-  ],
-  "setup_requirements": [
-    "Active butterfly guard with both hooks engaged under opponent's thighs",
-    "Strong sleeve and collar grips or underhook control established",
-    "Opponent posting forward with at least one leg planted",
-    "Sufficient space created underneath opponent's hips to slide through",
-    "Active hip positioning maintaining elevation pressure",
-    "Opponent's weight committed forward preventing immediate backward escape"
-  ],
-  "execution_steps": [
+  "from_position": "Butterfly Guard/Bottom",
+  "outcomes": [
     {
-      "step_number": 1,
-      "action": "Establish butterfly control",
-      "description": "Begin in butterfly guard with both hooks actively engaged under opponent's thighs, feet pulling inward. Secure strong grips on opponent's sleeves or collar, maintaining one underhook when possible. Keep your hips active and mobile, shoulders off the mat, creating constant elevation threat that prevents opponent from settling their weight."
+      "to": "X-Guard/Bottom",
+      "probability": 58,
+      "result": "success"
     },
     {
-      "step_number": 2,
-      "action": "Create elevation and forward pressure",
-      "description": "Lift forcefully with both butterfly hooks while pulling opponent's upper body forward with your grips. This creates the crucial off-balance moment where opponent must post their hands or feet to prevent being swept. Focus on making opponent's base widen and weight shift forward onto their posted leg, which becomes your target for X-Guard capture."
+      "to": "Butterfly Guard/Bottom",
+      "probability": 30,
+      "result": "failure"
     },
     {
-      "step_number": 3,
-      "action": "Identify target leg and begin hip slide",
-      "description": "As opponent posts their leg forward to defend the sweep, immediately identify this as your target leg. Begin sliding your hips toward that side, angling your body to position yourself perpendicular to their leg. Release the butterfly hook on the opposite side while maintaining the hook on the target leg side to control their balance."
-    },
-    {
-      "step_number": 4,
-      "action": "Insert first X-Guard hook",
-      "description": "Slide your inside leg (the one on the same side as the target leg) across opponent's hip, hooking behind their near thigh with your instep. Your shin should be cutting across their hip line, foot pulling their leg toward you. This first hook begins establishing the X-Guard frame and prevents opponent from stepping back or clearing their leg."
-    },
-    {
-      "step_number": 5,
-      "action": "Complete X-Guard structure",
-      "description": "Thread your outside leg underneath opponent's target leg, placing your foot on their opposite hip with toes pointing away. Your inside leg hooks behind their near knee or upper thigh, creating the 'X' configuration. Both legs should be actively controlling - the top leg pushing away at the hip while the bottom leg pulls the knee toward you, creating opposing forces that off-balance opponent."
-    },
-    {
-      "step_number": 6,
-      "action": "Secure grips and establish control",
-      "description": "Adjust your upper body grips to control opponent's posture and prepare for sweeps. Common grip configurations include ankle and sleeve control, or pants and belt grips. Keep your hips active and mobile underneath opponent, constantly adjusting your angle and hook tension to prevent them from clearing the position or establishing a strong base."
+      "to": "Butterfly Guard/Top",
+      "probability": 12,
+      "result": "counter"
     }
   ],
-  "common_counters": [
+  "success_rate": 58,
+  "overview": "The Butterfly Guard to X-Guard transition represents a fundamental evolution in modern guard play, connecting dynamic elevation mechanics with sophisticated off-balancing systems. This transition capitalizes on the opponent's forward pressure and posture, using butterfly hooks as launching mechanisms to establish the powerful X-Guard position. The technique exploits the natural reaction of opponents who base wide or post their weight forward while defending butterfly sweeps, creating the perfect opportunity to slide underneath and capture the standing leg.\n\nThis transition is particularly effective against pressure passers who commit their weight forward, as their defensive posture naturally sets up the mechanics required for X-Guard entry. The movement requires precise timing, active hip mobility, and the ability to maintain connection throughout the transition, making it a cornerstone technique for guard players at all levels who want to develop a dynamic, flowing guard game. The key biomechanical insight is that the butterfly hook elevation creates a dilemma: the opponent must either accept being swept or post a leg forward, and that posted leg becomes the target for X-Guard capture.\n\nFrom a systems perspective, the butterfly to X-Guard pathway is the most natural and high-percentage method of entering X-Guard in both gi and no-gi competition. It creates a seamless chain where failed butterfly sweeps flow directly into X-Guard entries, maintaining constant offensive pressure and preventing the top player from ever settling into a stable passing position. Mastery of this transition transforms butterfly guard from a single-threat position into a multi-layered attack platform with sweeps, transitions, and leg entanglement entries all available from the same starting configuration.",
+  "conditions": [
+    "Opponent must be in combat base or kneeling with at least one leg posted forward",
+    "Bottom player must have active butterfly hooks engaged under opponent's thighs",
+    "Opponent's weight must be committed forward or shifting forward in response to elevation",
+    "Bottom player must have at least one strong upper body grip controlling opponent's posture",
+    "Sufficient mat space underneath opponent's base to allow hip sliding movement"
+  ],
+  "related_content": [
     {
-      "counter": "Opponent sprawls backward and pulls their leg out before X-Guard hooks are secured",
-      "effectiveness": "High",
-      "your_response": "Immediately transition to seated guard or shin-to-shin guard, maintaining sleeve control. Use the momentum of their backward movement to come up on your hip and pursue with technical standup or follow them to establish alternative guard position."
+      "name": "Butterfly Guard",
+      "relationship": "Starting position providing hooks and elevation mechanics"
     },
     {
-      "counter": "Opponent drives their knee down to mat and smashes through your hook placement attempt",
-      "effectiveness": "Medium",
-      "your_response": "Switch to deep half guard entry by diving under their downward pressure. Their forward drive creates the perfect angle for deep half penetration. Alternatively, retain butterfly position by re-establishing your hook and resetting the sequence."
+      "name": "X-Guard",
+      "relationship": "Target position after successful transition"
     },
     {
-      "counter": "Opponent steps their targeted leg back while you're mid-transition",
-      "effectiveness": "Medium",
-      "your_response": "Follow their movement by scooting your hips forward aggressively, maintaining contact with your butterfly hook. If they fully clear, immediately recover to seated guard or shin-to-shin position, using your grips to prevent them from establishing passing position."
+      "name": "Single Leg X-Guard",
+      "relationship": "Alternative ending position when full X-Guard is not achievable"
     },
     {
-      "counter": "Opponent posts their hands on your hips and creates strong frames to prevent hip slide",
-      "effectiveness": "Low",
-      "your_response": "Use their posted hands as an opportunity to attack arm drags or underhook opportunities. Alternatively, switch your attack to the opposite leg if they're overcommitting to one side. Their static framing position creates sweep opportunities from butterfly guard."
+      "name": "Butterfly Hook Control",
+      "relationship": "Prerequisite control concept for maintaining active hooks"
+    },
+    {
+      "name": "Basic Butterfly Sweep",
+      "relationship": "Setup technique that creates the forward post enabling X-Guard entry"
+    },
+    {
+      "name": "X-Guard Sweep",
+      "relationship": "Primary follow-up technique after establishing X-Guard"
+    },
+    {
+      "name": "De La Riva to X-Guard Transition",
+      "relationship": "Alternative X-Guard entry from different guard"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Alternative transition when opponent smashes through X-Guard entry"
+    },
+    {
+      "name": "Half Butterfly",
+      "relationship": "Alternative starting position with single hook variation"
+    },
+    {
+      "name": "Single Leg X Entry",
+      "relationship": "Related entry technique to adjacent leg entanglement position"
+    },
+    {
+      "name": "Elevator Sweep",
+      "relationship": "Related butterfly elevation technique that creates same forward post reaction"
+    },
+    {
+      "name": "Arm Drag to Back",
+      "relationship": "Alternative attack from butterfly when opponent defends X-Guard entry"
     }
   ],
-  "common_errors": [
-    {
-      "error": "Releasing butterfly hooks too early before X-Guard structure is established",
-      "consequence": "Opponent easily steps back or passes, leaving you in vulnerable position without proper guard retention",
-      "correction": "Maintain at least one butterfly hook throughout the transition until your first X-Guard hook is securely placed. Think of it as a continuous hook - transforming from butterfly to X rather than releasing and re-hooking."
-    },
-    {
-      "error": "Failing to create sufficient elevation and off-balance before attempting transition",
-      "consequence": "Opponent remains balanced and stable, making it impossible to slide underneath their base",
-      "correction": "Always begin with explosive elevation using butterfly hooks, forcing opponent to post and widen their base. The transition succeeds because of the initial off-balance, not just the mechanics of sliding underneath."
-    },
-    {
-      "error": "Sliding hips in wrong direction or angle relative to target leg",
-      "consequence": "Body positioning becomes misaligned, making hook placement awkward or impossible",
-      "correction": "Always slide toward the side of the target leg, positioning your body perpendicular to their leg. Your inside shoulder should be pointing toward their posted foot as you slide underneath."
-    },
-    {
-      "error": "Losing grip control during hip movement",
-      "consequence": "Opponent clears their leg easily or establishes dominant passing position",
-      "correction": "Maintain strong grips throughout entire transition - these grips control opponent's posture and prevent them from stepping back. Use sleeve grips or underhook to pull them forward as you slide."
-    },
-    {
-      "error": "Static hip positioning instead of active sliding motion",
-      "consequence": "Opponent has time to recognize the transition and defend, leading to failed entry",
-      "correction": "Execute the hip slide as one continuous, fluid motion combined with the initial elevation. The transition should feel explosive and dynamic, not slow and deliberate. Speed and timing are critical to success."
-    },
-    {
-      "error": "Attempting to force X-Guard when opponent's weight is backward or evenly distributed",
-      "consequence": "Struggling against poor positioning, wasting energy on low-percentage attempt",
-      "correction": "Only enter X-Guard when opponent is committed forward with weight on posted leg. If they're not in proper position, use butterfly sweeps or other attacks to create the forward pressure first."
-    }
-  ],
-  "training_progressions": [
-    {
-      "phase": "Phase 1: Fundamental Mechanics (Weeks 1-2)",
-      "focus": "Butterfly guard control and basic elevation principles",
-      "description": "Begin with stationary butterfly guard position drills, focusing on maintaining active hooks and elevation pressure. Practice the feeling of lifting opponent's weight while keeping your own hips mobile. Partner remains passive, allowing you to explore the mechanics of creating elevation and controlling posture from butterfly guard. Emphasis on developing comfortable, sustainable butterfly position."
-    },
-    {
-      "phase": "Phase 2: Hip Sliding Mechanics (Weeks 3-4)",
-      "focus": "Directional hip movement and angle creation",
-      "description": "Practice the hip slide motion independently, learning to move your hips underneath partner's posted leg. Partner maintains static forward position with one leg posted. Focus on sliding to the correct angle, positioning body perpendicular to target leg. Drill should develop smooth, continuous sliding motion without stopping or adjusting mid-movement. Add basic grip retention during hip slides."
-    },
-    {
-      "phase": "Phase 3: Hook Sequencing (Weeks 5-8)",
-      "focus": "Proper hook placement and X-Guard completion",
-      "description": "Combine elevation, hip slide, and hook placement into flowing sequence. Partner provides light forward pressure and maintains posted position. Emphasis on maintaining one butterfly hook until first X-Guard hook is secure, then smoothly completing the X structure. Practice both sides equally to develop ambidextrous proficiency. Add grip adjustments and posture control as hooks are established."
-    },
-    {
-      "phase": "Phase 4: Dynamic Integration (Weeks 9-12)",
-      "focus": "Timing, reaction to resistance, and sweep follow-ups",
-      "description": "Partner now actively defends butterfly sweeps, creating realistic resistance and backward pressure. Practice recognizing the moment when opponent posts forward, immediately capitalizing with X-Guard transition. Include common defensive reactions like leg withdrawal and smash attempts. Begin chaining X-Guard sweeps immediately after transition. Develop ability to flow between butterfly and X-Guard based on opponent's reactions."
-    },
-    {
-      "phase": "Phase 5: Competition Application (Weeks 13+)",
-      "focus": "Live sparring integration and system building",
-      "description": "Implement transition during positional sparring from butterfly guard. Partner uses full resistance and attempts to pass or counter. Focus on recognizing optimal moments for transition based on opponent's pressure patterns and grip fighting. Develop backup options when transition is defended, creating complete guard retention system. Track success rates and identify personal timing patterns."
-    }
-  ],
+  "attacker": {
+    "name": "Butterfly Guard to X-Guard Attacker",
+    "description": "How to execute Butterfly Guard to X-Guard in BJJ. Attacking perspective with setup, execution steps, and counters.",
+    "overview": "The Butterfly Guard to X-Guard transition exploits a fundamental defensive dilemma: when you elevate with butterfly hooks, the opponent must post a leg forward or be swept. That posted leg becomes the target for X-Guard capture. The attacker's role is to create this dilemma through explosive elevation, then capitalize on the reaction by sliding underneath and threading legs into the X-configuration before the opponent can retract. Success requires coordinating upper body grip control with lower body hook mechanics in a single fluid motion, treating the transition as a continuous transformation from butterfly to X rather than two separate positions. The attacker who masters this timing creates a guard system where every butterfly sweep defense feeds directly into X-Guard entry, maintaining relentless offensive pressure.",
+    "key_principles": [
+      "Use butterfly hooks to create initial off-balance and elevation that forces opponent to post forward",
+      "Capitalize on opponent's forward weight commitment as the trigger for hip slide initiation",
+      "Maintain constant grip connection throughout transition to prevent opponent disengagement",
+      "Slide hips underneath opponent's center of gravity in one continuous fluid motion",
+      "Transform butterfly hook into X-Guard hook without releasing control of the target leg",
+      "Establish opposing forces with X-Guard legs immediately to prevent hook clearing",
+      "Create perpendicular body angle to target leg for maximum mechanical advantage"
+    ],
+    "setup_requirements": [
+      "Active butterfly guard with both hooks engaged under opponent's thighs creating constant elevation threat",
+      "Strong sleeve and collar grips or underhook control preventing opponent from disengaging",
+      "Opponent posting forward with at least one leg planted in response to elevation pressure",
+      "Sufficient space created underneath opponent's hips through elevation to allow hip slide",
+      "Active hip positioning maintaining mobility and readiness for directional sliding",
+      "Opponent's weight committed forward preventing immediate backward retreat from posted position"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish butterfly control",
+        "description": "Begin in butterfly guard with both hooks actively engaged under opponent's thighs, feet pulling inward with insteps pressing against inner thighs. Secure strong grips on opponent's sleeves or collar, maintaining one underhook when possible. Keep your hips active and mobile, shoulders off the mat, creating constant elevation threat that prevents opponent from settling their weight."
+      },
+      {
+        "step_number": 2,
+        "action": "Create elevation and forward pressure",
+        "description": "Lift forcefully with both butterfly hooks while pulling opponent's upper body forward with your grips. This creates the crucial off-balance moment where opponent must post their hands or feet to prevent being swept. Focus on making opponent's base widen and weight shift forward onto their posted leg, which becomes your target for X-Guard capture. The elevation needs to be explosive enough to provoke an immediate defensive reaction."
+      },
+      {
+        "step_number": 3,
+        "action": "Identify target leg and begin hip slide",
+        "description": "As opponent posts their leg forward to defend the sweep, immediately identify this as your target leg. Begin sliding your hips toward that side, angling your body to position yourself perpendicular to their leg. Release the butterfly hook on the opposite side while maintaining the hook on the target leg side to control their balance. Your inside shoulder should point toward their posted foot as you slide underneath."
+      },
+      {
+        "step_number": 4,
+        "action": "Insert first X-Guard hook behind knee",
+        "description": "Thread your inside leg (the one on the same side as the target leg) deep behind opponent's near knee, hooking with your instep past the knee joint. The butterfly hook transforms into this X-Guard hook in a continuous motion rather than a release-and-rehook. This first hook is the load-bearing element that creates elevation control and prevents opponent from stepping back or clearing their leg."
+      },
+      {
+        "step_number": 5,
+        "action": "Complete X-Guard structure with outside leg",
+        "description": "Extend your outside leg across opponent's hip line, placing your foot on their far hip with toes pointing away. Your inside leg hooks behind their near knee while this outside leg pushes across the hip, creating the characteristic X configuration. Both legs should be actively controlling with opposing forces: the outside leg pushes away at the hip while the inside leg pulls the knee toward you, generating powerful off-balancing pressure."
+      },
+      {
+        "step_number": 6,
+        "action": "Secure grips and control ankle",
+        "description": "Adjust your upper body grips to control opponent's posture and trap the target leg. Grab their ankle or pants cuff on the trapped leg with one hand while the other controls their free leg sleeve or pants. Keep your hips elevated off the mat to maintain tension in the X-configuration. This grip configuration prevents backward extraction and sets up immediate sweep opportunities."
+      },
+      {
+        "step_number": 7,
+        "action": "Establish perpendicular angle and sweep readiness",
+        "description": "Fine-tune your body angle to be perpendicular to opponent's trapped leg, forming a T-shape. Actively adjust hook tension and hip elevation to keep opponent off-balance and prevent them from establishing a strong base. From here, you are immediately ready to execute X-Guard sweeps by extending legs to dump them forward, or transition to single leg X or ashi garami based on their reaction."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent sprawls backward and pulls their leg out before X-Guard hooks are secured",
+        "effectiveness": "High",
+        "your_response": "Immediately transition to seated guard or shin-to-shin guard, maintaining sleeve control. Use the momentum of their backward movement to come up on your hip and pursue with technical standup or follow them to establish alternative guard position. Do not stay flat chasing a failed entry.",
+        "targets_outcome": "Butterfly Guard/Bottom"
+      },
+      {
+        "counter": "Opponent drives their knee down to mat and smashes through your hook placement attempt",
+        "effectiveness": "Medium",
+        "your_response": "Switch to deep half guard entry by diving under their downward pressure. Their forward drive creates the perfect angle for deep half penetration. Alternatively, retain butterfly position by re-establishing your hook and resetting the sequence with a fresh elevation attempt.",
+        "targets_outcome": "Butterfly Guard/Bottom"
+      },
+      {
+        "counter": "Opponent steps their targeted leg back while you are mid-transition before hooks are locked",
+        "effectiveness": "Medium",
+        "your_response": "Follow their movement by scooting your hips forward aggressively, maintaining contact with your remaining butterfly hook. If they fully clear, immediately switch to the opposite leg as your new target since their weight has now shifted. Use your grips to prevent them from establishing passing position during the reset.",
+        "targets_outcome": "Butterfly Guard/Bottom"
+      },
+      {
+        "counter": "Opponent posts their hands on your hips and creates strong frames to prevent hip slide underneath",
+        "effectiveness": "Low",
+        "your_response": "Use their posted hands as an opportunity to attack arm drags or strip their grip to create underhook opportunities. Their hands-on-hips position means they have abandoned collar or sleeve control, making them vulnerable to butterfly elevation sweeps. Alternatively, switch attack direction to the opposite leg.",
+        "targets_outcome": "Butterfly Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing butterfly hooks too early before X-Guard structure is established",
+        "consequence": "Opponent easily steps back or passes, leaving you in a vulnerable position without guard retention",
+        "correction": "Maintain at least one butterfly hook throughout the transition until your first X-Guard hook is securely placed. Transform the butterfly hook into the X-Guard hook in a continuous motion rather than releasing and re-hooking."
+      },
+      {
+        "error": "Failing to create sufficient elevation and off-balance before attempting transition",
+        "consequence": "Opponent remains balanced and stable, making it impossible to slide underneath their base",
+        "correction": "Always begin with explosive elevation using butterfly hooks, forcing opponent to post and widen their base. The transition succeeds because of the initial off-balance reaction, not just the mechanics of sliding underneath."
+      },
+      {
+        "error": "Sliding hips in wrong direction or angle relative to target leg",
+        "consequence": "Body positioning becomes misaligned, making hook placement awkward or impossible and reducing sweep leverage",
+        "correction": "Always slide toward the side of the target leg, positioning your body perpendicular to their leg. Your inside shoulder should point toward their posted foot as you slide underneath to create the correct T-angle."
+      },
+      {
+        "error": "Losing grip control during hip movement phase",
+        "consequence": "Opponent clears their leg easily or establishes dominant passing position while you are flat on your back",
+        "correction": "Maintain strong grips throughout entire transition. These grips control opponent's posture and prevent backward retreat. Use sleeve grips or underhook to keep pulling them forward as you slide underneath."
+      },
+      {
+        "error": "Static hip positioning instead of active explosive sliding motion",
+        "consequence": "Opponent has time to recognize the transition attempt and defend before hooks are established",
+        "correction": "Execute the hip slide as one continuous fluid motion combined with the initial elevation. The transition should feel explosive and dynamic. Speed and decisive timing are critical to beating the opponent's defensive reaction."
+      },
+      {
+        "error": "Attempting X-Guard entry when opponent's weight is backward or evenly distributed",
+        "consequence": "Struggling against poor positioning, wasting energy on a low-percentage attempt that exposes you to passing",
+        "correction": "Only initiate the X-Guard entry when opponent is committed forward with weight on their posted leg. If they are not in proper position, use butterfly sweeps or elevation threats to provoke the forward weight shift first."
+      },
+      {
+        "error": "Hooking too shallow behind the knee with inside leg during X-Guard establishment",
+        "consequence": "Opponent easily extracts their leg by stepping back, collapsing the entire X-Guard structure before sweeps are possible",
+        "correction": "Drive your inside leg deep past the knee joint until your foot clears the back of their knee. A deep hook creates a secure anchor that resists extraction and provides strong elevation leverage."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Fundamental Mechanics (Weeks 1-2)",
+        "focus": "Butterfly guard control and basic elevation principles",
+        "description": "Begin with stationary butterfly guard position drills, focusing on maintaining active hooks and elevation pressure. Practice the feeling of lifting opponent's weight while keeping your own hips mobile. Partner remains passive, allowing you to explore the mechanics of creating elevation and controlling posture from butterfly guard. Emphasis on developing comfortable, sustainable butterfly position with strong hook engagement."
+      },
+      {
+        "phase": "Phase 2: Hip Sliding Mechanics (Weeks 3-4)",
+        "focus": "Directional hip movement and perpendicular angle creation",
+        "description": "Practice the hip slide motion independently, learning to move your hips underneath partner's posted leg. Partner maintains static forward position with one leg posted. Focus on sliding to the correct perpendicular angle, positioning body in a T-shape relative to the target leg. Drill develops smooth, continuous sliding motion without stopping or adjusting mid-movement. Add basic grip retention during hip slides."
+      },
+      {
+        "phase": "Phase 3: Hook Sequencing (Weeks 5-8)",
+        "focus": "Proper hook placement and X-Guard completion",
+        "description": "Combine elevation, hip slide, and hook placement into a flowing sequence. Partner provides light forward pressure and maintains posted position. Emphasis on maintaining one butterfly hook until first X-Guard hook is secure, then smoothly completing the X structure. Practice both sides equally to develop ambidextrous proficiency. Add grip adjustments and posture control as hooks are established."
+      },
+      {
+        "phase": "Phase 4: Dynamic Integration (Weeks 9-12)",
+        "focus": "Timing, reaction to resistance, and sweep follow-ups",
+        "description": "Partner now actively defends butterfly sweeps, creating realistic resistance and varying reactions. Practice recognizing the moment when opponent posts forward, immediately capitalizing with X-Guard transition. Include common defensive reactions like leg withdrawal, smash attempts, and backstep counters. Begin chaining X-Guard sweeps immediately after transition. Develop ability to flow between butterfly and X-Guard based on opponent's reactions."
+      },
+      {
+        "phase": "Phase 5: Competition Application (Weeks 13+)",
+        "focus": "Live sparring integration and system building",
+        "description": "Implement transition during positional sparring from butterfly guard with full resistance. Focus on recognizing optimal entry moments based on opponent's pressure patterns and grip fighting. Develop backup options when transition is defended, including single leg X entries and deep half guard. Build a complete guard retention system where every defensive reaction feeds into the next attack."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary mechanical principle that enables the butterfly guard to X-Guard transition?",
+        "answer": "The primary mechanical principle is using butterfly hooks to create elevation and off-balance, forcing the opponent to post their leg forward. This forward post creates the space and angle necessary to slide your hips underneath their base and establish X-Guard hooks. The transition succeeds because the opponent's defensive reaction to butterfly elevation naturally positions them for X-Guard entry - their defense against one attack creates the opening for the next."
+      },
+      {
+        "question": "Why is maintaining grip control critical throughout the butterfly to X-Guard transition?",
+        "answer": "Grip control serves multiple essential functions: it controls the opponent's posture preventing them from stepping backward, creates the forward pressure that forces them to post their leg, maintains connection during the hip slide so they cannot clear their leg, and sets up immediate sweep opportunities once X-Guard is established. Without grips, the opponent can simply pull their leg out and disengage before the transition completes, making the entire sequence fail."
+      },
+      {
+        "question": "Your opponent posts their right leg forward after your butterfly elevation attempt - describe the exact hip slide direction and body angle you need?",
+        "answer": "You should slide your hips toward the right side, positioning your body perpendicular to their right leg in a T-shape. Your left shoulder (inside shoulder) should point toward their posted right foot as you slide underneath. This perpendicular angle allows your legs to properly create the X configuration with maximum leverage. Sliding straight backward or at the wrong angle results in hooks that lack the proper leverage to control and sweep effectively."
+      },
+      {
+        "question": "Why should you maintain at least one butterfly hook until the first X-Guard hook is secured?",
+        "answer": "Maintaining a butterfly hook provides continuous control and prevents the opponent from stepping back or disengaging during the transition. This creates a bridge between positions where you are never without control of their leg. Releasing both butterfly hooks prematurely leaves a gap where the opponent can easily clear their leg and pass. The butterfly hook should transform into the X-Guard inside hook in a continuous motion rather than two separate distinct movements."
+      },
+      {
+        "question": "What are the two opposing forces your legs create once X-Guard is fully established and why do they matter?",
+        "answer": "The outside leg across the hip pushes away from you while the inside leg behind the knee pulls toward you. These opposing forces create powerful off-balancing that destabilizes the opponent by splitting their base in two directions simultaneously. The push-pull dynamic is what makes X-Guard such an effective sweeping position because the opponent cannot counter both forces at once. Proper hook placement with active tension in both directions is critical for maintaining this mechanical advantage."
+      },
+      {
+        "question": "Your opponent begins stepping their targeted leg backward mid-transition before your X-Guard hooks are locked - what is your immediate response?",
+        "answer": "Scoot your hips forward aggressively following their retreating leg while maintaining contact with your remaining butterfly hook and upper body grips. If they fully clear the leg, immediately switch to the opposite leg as your new target since their weight has shifted in that direction. If you cannot capture either leg, recover to seated guard or shin-to-shin position using your grips to prevent them from establishing a passing position. Never stay flat on your back chasing a failed entry."
+      },
+      {
+        "question": "What conditions must exist before you should attempt the butterfly to X-Guard transition?",
+        "answer": "The opponent must have their weight committed forward with at least one leg posted in front of them, typically as a reaction to your butterfly elevation or sweep attempt. You need active butterfly hooks providing control, strong upper body grips preventing disengagement, and sufficient space underneath their base for your hip slide. Attempting the transition when the opponent's weight is backward or evenly distributed wastes energy and exposes you to passing. If conditions are not right, use butterfly sweeps to provoke the forward commitment first."
+      },
+      {
+        "question": "How does the butterfly to X-Guard transition differ in no-gi versus gi, and what grip adjustments are needed?",
+        "answer": "In no-gi, you cannot rely on sleeve and collar grips for posture control and forward pressure. Instead, establish a strong underhook on one side while maintaining the butterfly hook on the same side. The underhook replaces the pulling function of gi grips, controlling the opponent's posture and preventing backward retreat during the hip slide. Wrist control on the opposite arm provides secondary connection. The mechanics of elevation and hip sliding remain identical, but the entry window is often shorter because no-gi grips are less secure, requiring more explosive timing."
+      },
+      {
+        "question": "If your initial butterfly sweep is completely shut down and the opponent maintains a very wide low base without posting forward, what should you do instead of forcing X-Guard?",
+        "answer": "When the opponent maintains a wide low base without posting forward, the conditions for X-Guard entry do not exist. Instead, chain to alternative attacks from butterfly that specifically target wide bases: arm drags to back control exploit the space created by their wide stance, or collar drags that pull them off their centerline. You can also attempt asymmetric elevation targeting one side to force a directional post, or transition to half butterfly to create new angles. Forcing X-Guard against a settled, balanced opponent results in a failed entry and energy waste."
+      },
+      {
+        "question": "What is the most critical timing window for initiating the hip slide during this transition?",
+        "answer": "The optimal timing window is the exact moment the opponent plants their posted foot in response to your butterfly elevation. At this instant, their weight is committed forward onto that leg and they cannot retract it without losing balance. This window lasts approximately one to two seconds before they stabilize their base and regain the ability to retreat. Initiating the hip slide too early means the leg is not yet loaded and can be easily withdrawn. Too late means the opponent has stabilized and can defend the entry or begin their own passing sequence."
+      }
+    ],
+    "safety_considerations": "The butterfly guard to X-Guard transition is generally a safe technique when practiced with proper progression and partner communication. Primary safety concerns include preventing accidental knee torque when establishing hooks - always control the motion of your hooks and avoid sudden jerking movements that could stress your partner's knee joint. When drilling, the bottom person should communicate if hooks are placed uncomfortably on the knee. The top person should avoid suddenly driving weight down onto the guard player's legs during the transition phase, as this can cause lower back strain. Both practitioners should maintain awareness of available mat space, as the dynamic nature of the transition can cause rolling or movement. When practicing with resistance, the defending partner should not explosively rip their leg out of X-Guard hooks, as this can cause knee or ankle strain for both parties. Instead, use controlled escape techniques. Beginners should master the basic mechanics with cooperative drilling before adding significant resistance to prevent injury from mistimed or poorly executed transitions."
+  },
+  "defender": {
+    "name": "Butterfly Guard to X-Guard Defender",
+    "description": "How to defend against Butterfly Guard to X-Guard in BJJ. Recognition cues, defensive options, and escape strategies.",
+    "overview": "Defending the Butterfly Guard to X-Guard transition requires the top player to recognize the sequence early and disrupt it before the X-Guard hooks are established. The critical defensive window occurs during the opponent's hip slide phase, after they have created elevation but before they complete the X-configuration. Once full X-Guard is locked in with deep hooks and proper grips, escaping becomes significantly more difficult and energetically costly. Effective defense starts with posture management and weight distribution awareness: if you never allow your weight to commit too far forward, the opponent cannot create the conditions necessary for X-Guard entry.\n\nThe defender's primary strategic objective is to deny the bottom player the forward post that triggers the entire transition. This means controlling distance, managing base width, and avoiding overcommitting to butterfly guard smash attempts that expose your legs to capture. When the entry is already in progress, the defender must act decisively by retracting the targeted leg, driving the knee to the mat, or establishing strong hip frames before hooks are secured. Understanding which defensive option to deploy depends on reading the timing of the attack: early recognition allows leg retraction, mid-transition requires smash defense, and late recognition necessitates immediate X-Guard escape protocols rather than prevention.",
+    "key_principles": [
+      "Maintain balanced weight distribution to avoid committing forward into optimal X-Guard entry range",
+      "Control distance and grip fighting to prevent the bottom player from establishing the pulling connection needed for elevation",
+      "React to butterfly elevation by widening base laterally rather than posting one leg deeply forward",
+      "Recognize the hip slide initiation as the critical moment requiring immediate defensive action",
+      "Keep hips low and knees pinched to deny space underneath your base for the opponent's hip slide",
+      "If hooks begin to establish, immediately address the inside hook behind the knee as the primary structural threat",
+      "Maintain active hand position to strip ankle grips and prevent the opponent from locking the X-Guard configuration"
+    ],
+    "recognition_cues": [
+      "Opponent creates explosive butterfly elevation then immediately begins sliding their hips toward one of your legs rather than completing a direct sweep",
+      "You feel the opponent's upper body grips pulling you forward while one butterfly hook maintains deep contact on your inner thigh and the other hook releases",
+      "Opponent's body angle shifts from facing you directly to rotating perpendicular, with their shoulder turning toward your posted foot",
+      "You notice the opponent scooting underneath your base rather than elevating you overhead, indicating X-Guard entry rather than traditional butterfly sweep",
+      "Opponent's inside leg begins threading deep behind your knee while maintaining ankle or pants grip on your lower leg"
+    ],
+    "defensive_options": [
+      {
+        "action": "Retract the targeted leg immediately by stepping it back and pulling the knee out of hook range before X-Guard is established",
+        "when_to_use": "Early in the transition when you feel the opponent begin to slide their hips toward one side and the inside hook is not yet deep behind your knee",
+        "targets_outcome": "Butterfly Guard/Bottom",
+        "if_successful": "Opponent falls back to butterfly guard position without X-Guard hooks, and you can re-establish combat base with improved posture and grip position",
+        "risk": "If timed too late, the opponent follows your retreating leg with their hips and captures it anyway, potentially ending up in a worse scramble position"
+      },
+      {
+        "action": "Drive your knee to the mat on the attacked side, smashing through the hook placement attempt and flattening the opponent's guard structure with heavy downward pressure",
+        "when_to_use": "When the opponent has begun the hip slide but has not yet completed the X-Guard hook configuration, and you have sufficient forward pressure to flatten their position",
+        "targets_outcome": "Butterfly Guard/Bottom",
+        "if_successful": "Opponent's X-Guard attempt is crushed by your downward pressure, resetting them to a flattened butterfly or half guard where you can begin passing sequences",
+        "risk": "If the opponent reads your knee drive, they can redirect underneath into deep half guard entry, using your own downward pressure against you"
+      },
+      {
+        "action": "Post your hands firmly on the opponent's hips and create strong frames to prevent their hip slide from progressing underneath your base",
+        "when_to_use": "When you recognize the hip slide initiation but the opponent still has grips controlling your upper body, using frames to create distance and deny space",
+        "targets_outcome": "Butterfly Guard/Bottom",
+        "if_successful": "Opponent cannot complete the hip slide and must reset to butterfly guard. Your frames create distance that allows you to recover posture and begin passing",
+        "risk": "Posting hands on hips removes them from grip fighting, potentially exposing you to arm drags or underhook attacks if the opponent abandons the X-Guard entry"
+      },
+      {
+        "action": "Backstep to the opposite side, circling away from the X-Guard entry direction while establishing cross-face pressure to flatten the opponent",
+        "when_to_use": "When the opponent has committed their hips to one side for X-Guard entry and you recognize you cannot retract the targeted leg in time",
+        "targets_outcome": "Butterfly Guard/Top",
+        "if_successful": "You pass around the X-Guard attempt entirely, ending up in side control or a dominant passing position on the opposite side of the opponent's committed angle",
+        "risk": "If the opponent has already secured deep hooks, backstepping can expose your back or create scramble situations where the opponent transitions to alternative leg entanglements"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Butterfly Guard/Bottom",
+        "how": "Deny the X-Guard entry by retracting the targeted leg early, driving the knee to mat to smash the hook attempt, or framing on hips to prevent the hip slide. This resets the opponent to butterfly guard where you can restart your passing approach with better awareness of the transition threat."
+      },
+      {
+        "outcome": "Butterfly Guard/Top",
+        "how": "Capitalize on the opponent's committed angle by backstepping around their X-Guard entry attempt or timing a pass during the moment they release one butterfly hook to begin the transition. Their commitment to the hip slide creates a brief window where their guard structure is compromised and a decisive pass can succeed."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Overcommitting weight forward into butterfly guard, posting one leg deeply in front and loading it with your center of gravity",
+        "consequence": "Creates the exact condition the opponent needs for X-Guard entry. Your posted, weight-bearing leg becomes an easy target for capture since you cannot retract it without losing balance entirely.",
+        "correction": "Maintain balanced weight distribution with hips back and center of gravity between both legs. If you must post a leg, keep it lightly loaded so you can retract it instantly when you feel the opponent begin a hip slide."
+      },
+      {
+        "error": "Attempting to explosively rip your leg out of partially established X-Guard hooks using raw strength",
+        "consequence": "Risk of knee or ankle injury for both practitioners due to the hook configurations around the joint. Also often fails because the opponent's leg structure is mechanically stronger than your pulling force from that angle.",
+        "correction": "Use technical extraction by pushing the opponent's inside hook down toward the mat with your hands while stepping your leg backward. Address the hooks systematically rather than trying to muscle through the position."
+      },
+      {
+        "error": "Freezing in place when recognizing the X-Guard entry rather than immediately reacting with a defensive action",
+        "consequence": "Gives the opponent the time needed to complete full X-Guard establishment with deep hooks and grip control, making escape exponentially more difficult",
+        "correction": "Train immediate pattern recognition so that the hip slide trigger produces an automatic defensive reaction. Even an imperfect early defense is far more effective than a perfect response after X-Guard is fully locked in."
+      },
+      {
+        "error": "Ignoring the opponent's grip control and only focusing on the hooks during defense",
+        "consequence": "Even if you manage to clear one hook, the opponent's upper body grips maintain connection and allow them to immediately re-enter the X-Guard or transition to alternative attacks",
+        "correction": "Address grips and hooks simultaneously. Strip the ankle grip first if possible, then work on clearing the inside hook. Breaking the grip connection gives you freedom to disengage completely."
+      },
+      {
+        "error": "Standing tall with narrow base when facing butterfly guard elevation threats",
+        "consequence": "Narrow base with high center of gravity maximizes the opponent's sweeping leverage and makes any forward post extremely deep and vulnerable to X-Guard capture",
+        "correction": "Maintain a wide stance with low hips and active grip fighting from combat base. A wider, lower stance distributes your weight across a larger base, making it harder for the opponent to force a single-leg forward post."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the most critical timing window for defending the butterfly to X-Guard transition?",
+        "answer": "The most critical defensive window is during the opponent's hip slide phase, after they have created butterfly elevation but before they thread their inside leg deep behind your knee. Once the inside hook is secured past the knee joint, the X-Guard structure becomes extremely difficult to dismantle. Early intervention during the hip slide gives you maximum defensive options including leg retraction, knee drive, or hip framing, all of which become ineffective once full hooks are established."
+      },
+      {
+        "question": "Why should you avoid explosively ripping your leg out of partially established X-Guard hooks?",
+        "answer": "Explosive leg extraction against established hooks risks knee and ankle injury for both practitioners because the X-Guard configuration wraps around the knee joint. The opponent's two-leg structure is also mechanically stronger than your single-leg pulling force from that angle, so brute force often fails anyway. Instead, use technical extraction by pushing the inside hook toward the mat with your hands while controlled stepping the leg backward, systematically dismantling the position rather than fighting through it."
+      },
+      {
+        "question": "How does your weight distribution affect your vulnerability to the butterfly to X-Guard transition?",
+        "answer": "If your weight is committed heavily forward with one leg posted deeply, you create the exact condition the opponent needs for X-Guard entry. Your weight-bearing posted leg cannot be quickly retracted without losing balance, making it an easy capture target. Maintaining balanced distribution with hips back and center of gravity between both legs means you can retract either leg instantly when you detect the hip slide. The opponent needs your forward commitment to make this transition work, so denying that commitment is the most fundamental defense."
+      },
+      {
+        "question": "Your opponent has begun sliding their hips toward your right leg but has not yet secured the deep knee hook - what are your best defensive options?",
+        "answer": "At this mid-transition moment you have three primary options ranked by effectiveness: first, retract your right leg immediately by stepping it back before the inside hook threads behind the knee. Second, drive your right knee firmly to the mat to smash through the hook placement attempt and flatten their guard. Third, post both hands on their hips to frame and prevent the hip slide from progressing further underneath you. The choice depends on your balance and grip situation, but leg retraction is highest percentage if you have sufficient base to execute it without falling forward."
+      },
+      {
+        "question": "What body positioning changes in the opponent should alert you that an X-Guard entry is being attempted rather than a standard butterfly sweep?",
+        "answer": "The key distinguishing cue is the opponent's body angle rotation. In a standard butterfly sweep, the opponent elevates you directly overhead or to one side while maintaining a facing angle toward you. In an X-Guard entry, the opponent rotates their shoulders perpendicular to your posted leg, sliding their hips underneath rather than elevating overhead. You will also notice one butterfly hook release while the other maintains deep contact, and their upper body pulls laterally rather than upward. Recognizing this perpendicular rotation is the earliest reliable indicator of X-Guard entry versus sweep."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Drilling (Weeks 1-2)",
+        "focus": "Identifying X-Guard entry cues from butterfly guard top position",
+        "description": "Partner slowly performs the butterfly to X-Guard transition while you focus purely on recognizing the entry cues: the hip slide initiation, shoulder rotation, hook release pattern, and grip pulling direction. Call out each cue as you recognize it. No defensive action yet, purely building pattern recognition and the ability to distinguish X-Guard entry from standard butterfly sweeps."
+      },
+      {
+        "phase": "Phase 2: Early Intervention Responses (Weeks 3-5)",
+        "focus": "Practicing immediate defensive reactions to transition initiation",
+        "description": "Partner performs the butterfly to X-Guard entry at moderate speed. Practice each defensive option in isolation: leg retraction, knee smash, hip framing, and backstep. Partner pauses mid-transition to allow you to execute the defense. Build automatic responses to the hip slide trigger. Gradually increase partner speed as your reaction time improves."
+      },
+      {
+        "phase": "Phase 3: Positional Sparring from Butterfly Top (Weeks 6-8)",
+        "focus": "Applying defenses against live X-Guard transition attempts with resistance",
+        "description": "Start in opponent's butterfly guard with partner specifically hunting for X-Guard entries. Practice reading the transition in real-time and selecting the appropriate defensive response based on timing and positioning. Partner uses increasing resistance and adds feints between butterfly sweeps and X-Guard entries to test your recognition accuracy."
+      },
+      {
+        "phase": "Phase 4: Full Integration with Passing (Weeks 9+)",
+        "focus": "Combining X-Guard defense with proactive butterfly guard passing strategy",
+        "description": "Full positional sparring where you work butterfly guard passing while being prepared to defend X-Guard transitions. Develop the ability to maintain offensive passing pressure while staying alert to transition cues. Build a complete tactical approach where your passing movements inherently limit the opponent's ability to initiate the hip slide for X-Guard entry."
+      }
+    ]
+  },
   "variants_and_adaptations": [
     {
       "variant_name": "No-Gi Butterfly to X-Guard with Underhook",
@@ -155,108 +425,8 @@
     {
       "variant_name": "Butterfly to Single Leg X-Guard Variation",
       "description": "Instead of completing full X-Guard structure, establish single leg X-Guard by driving top hook straight up into opponent's hip while bottom leg curls behind their near knee. This creates immediate sweeping power and is faster to establish than traditional X-Guard. Particularly effective against opponents who immediately attempt to clear X-Guard hooks by pulling their leg back.",
-      "when_to_use": "Against explosive opponents who don't give time for full X-Guard setup, or when immediate sweeping action is required"
+      "when_to_use": "Against explosive opponents who do not give time for full X-Guard setup, or when immediate sweeping action is required"
     }
   ],
-  "knowledge_assessment": [
-    {
-      "question": "What is the primary mechanical principle that enables the butterfly guard to X-Guard transition?",
-      "answer": "The primary mechanical principle is using butterfly hooks to create elevation and off-balance, forcing the opponent to post their leg forward. This forward post creates the space and angle necessary to slide your hips underneath their base and establish X-Guard hooks. The transition succeeds because the opponent's defensive reaction to butterfly elevation naturally positions them for X-Guard entry."
-    },
-    {
-      "question": "Why is maintaining grip control critical throughout the butterfly to X-Guard transition?",
-      "answer": "Grip control serves multiple essential functions: it controls the opponent's posture preventing them from stepping backward, creates the forward pressure that forces them to post their leg, maintains connection during the hip slide so they can't clear their leg, and sets up immediate sweep opportunities once X-Guard is established. Without grips, the opponent can simply pull their leg out and disengage before the transition completes."
-    },
-    {
-      "question": "How should you respond if your opponent sprawls backward while you're attempting to slide into X-Guard?",
-      "answer": "Immediately transition to seated guard or shin-to-shin guard position while maintaining your sleeve or collar grips. Use the momentum of their backward movement to come up on your hip and pursue with a technical standup or follow-up guard establishment. The key is not to stay flat on your back chasing a failed position, but rather to flow into an alternative guard structure that keeps you connected and prevents them from achieving passing position."
-    },
-    {
-      "question": "What is the correct body angle when sliding your hips to enter X-Guard from butterfly guard?",
-      "answer": "Your body should position perpendicular to the opponent's target leg, with your inside shoulder pointing toward their posted foot. This perpendicular angle allows your legs to properly create the 'X' configuration with one leg across their hip and the other underneath their leg. If you slide straight backward or at the wrong angle, your hooks won't have the proper leverage to control and sweep."
-    },
-    {
-      "question": "Why should you maintain at least one butterfly hook until the first X-Guard hook is secured?",
-      "answer": "Maintaining a butterfly hook provides continuous control and prevents the opponent from stepping back or disengaging during the transition. This creates a 'bridge' between positions where you're never without control of their leg. Releasing both butterfly hooks prematurely leaves a gap where the opponent can easily clear their leg and pass, making the transition fail. The butterfly hook transforms into the X-Guard hook in a continuous motion rather than separate distinct movements."
-    },
-    {
-      "question": "What are the two opposing forces your legs create once X-Guard is fully established?",
-      "answer": "The top leg (across the hip) pushes away while the bottom leg (behind the knee) pulls toward you. These opposing forces create powerful off-balancing that destabilizes the opponent and prevents them from maintaining a strong base. This push-pull dynamic is what makes X-Guard such an effective sweeping position and why proper hook placement is critical for the position's effectiveness."
-    }
-  ],
-  "safety_considerations": "The butterfly guard to X-Guard transition is generally a safe technique when practiced with proper progression and partner communication. Primary safety concerns include preventing accidental knee torque when establishing hooks - always control the motion of your hooks and avoid sudden jerking movements that could stress your partner's knee joint. When drilling, the bottom person should communicate if hooks are placed uncomfortably on the knee. The top person should avoid suddenly driving weight down onto the guard player's legs during the transition phase, as this can cause lower back strain. Both practitioners should maintain awareness of available mat space, as the dynamic nature of the transition can cause rolling or movement. When practicing with resistance, the defending partner should not explosively rip their leg out of X-Guard hooks, as this can cause knee or ankle strain for both parties. Instead, use controlled escape techniques. Beginners should master the basic mechanics with cooperative drilling before adding significant resistance to prevent injury from mistimed or poorly executed transitions.",
-  "position_integration": "The butterfly guard to X-Guard transition represents a crucial link in modern guard retention and sweeping systems, connecting dynamic elevation-based guard play with sophisticated off-balancing positions. This technique integrates seamlessly with the broader butterfly guard system, providing an alternative attack when traditional butterfly sweeps are defended with forward pressure and wide base. It exemplifies the principle of using opponent's defensive reactions to create new offensive opportunities - their defense against butterfly elevation naturally sets up X-Guard entry. Within the X-Guard system, this entry is considered one of the most natural and high-percentage methods of establishment, particularly against pressure-passing opponents. The transition also connects to deeper guard positions like single leg X-Guard and deep half guard, creating a complete lower guard ecosystem. From a game planning perspective, this transition is essential for guard players who face opponents with strong butterfly sweep defense, as it provides a seamless pathway to maintain offensive momentum when elevation sweeps are shut down. The technique also integrates with modern leg entanglement systems, as X-Guard can transition to ashi garami positions for leg lock attacks in no-gi and submission-only formats.",
-  "related_content": [
-    {
-      "name": "Butterfly Guard",
-      "relationship": "Starting position"
-    },
-    {
-      "name": "X-Guard",
-      "relationship": "Ending position"
-    },
-    {
-      "name": "Single Leg X-Guard",
-      "relationship": "Alternative ending position"
-    },
-    {
-      "name": "Butterfly Hook Control",
-      "relationship": "Prerequisite control concept"
-    },
-    {
-      "name": "Basic Butterfly Sweep",
-      "relationship": "Setup technique that creates entry opportunity"
-    },
-    {
-      "name": "X-Guard Sweep",
-      "relationship": "Follow-up technique"
-    },
-    {
-      "name": "De La Riva to X-Guard Transition",
-      "relationship": "Alternative X-Guard entry method"
-    },
-    {
-      "name": "Deep Half Guard",
-      "relationship": "Alternative transition option"
-    },
-    {
-      "name": "Seated Guard",
-      "relationship": "Backup position if transition is defended"
-    },
-    {
-      "name": "Technical Standup",
-      "relationship": "Counter to opponent's backward escape"
-    },
-    {
-      "name": "Shin-to-Shin Guard",
-      "relationship": "Recovery option if hooks are cleared"
-    },
-    {
-      "name": "Half Butterfly",
-      "relationship": "Alternative starting position variation"
-    },
-    {
-      "name": "Single Leg X Entry",
-      "relationship": "Related entry technique"
-    }
-  ],
-  "from_position": "Butterfly Guard/Bottom",
-  "outcomes": [
-    {
-      "to": "X-Guard/Bottom",
-      "probability": 65,
-      "result": "success"
-    },
-    {
-      "to": "Butterfly Guard/Bottom",
-      "probability": 25,
-      "result": "failure"
-    },
-    {
-      "to": "Butterfly Guard/Top",
-      "probability": 10,
-      "result": "counter"
-    }
-  ],
-  "success_rate": 58
+  "position_integration": "The butterfly guard to X-Guard transition represents a crucial link in modern guard retention and sweeping systems, connecting dynamic elevation-based guard play with sophisticated off-balancing positions. This technique integrates seamlessly with the broader butterfly guard system, providing an alternative attack when traditional butterfly sweeps are defended with forward pressure and wide base. It exemplifies the principle of using opponent's defensive reactions to create new offensive opportunities - their defense against butterfly elevation naturally sets up X-Guard entry. Within the X-Guard system, this entry is considered one of the most natural and high-percentage methods of establishment, particularly against pressure-passing opponents. The transition also connects to deeper guard positions like single leg X-Guard and deep half guard, creating a complete lower guard ecosystem. From a game planning perspective, this transition is essential for guard players who face opponents with strong butterfly sweep defense, as it provides a seamless pathway to maintain offensive momentum when elevation sweeps are shut down. The technique also integrates with modern leg entanglement systems, as X-Guard can transition to ashi garami positions for leg lock attacks in no-gi and submission-only formats."
 }

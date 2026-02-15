@@ -1,0 +1,139 @@
+{
+  "name": "Turtle from Side Control Bottom",
+  "description": "TODO: Write 150-160 character SEO description for Turtle from Side Control Bottom.",
+  "tags": [
+    "bjj",
+    "transition",
+    "TODO"
+  ],
+  "from_position": "Side Control/Bottom",
+  "outcomes": [
+    {
+      "to": "Turtle/Bottom",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Side Control/Bottom",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Open Guard/Top",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "TODO: Write overview for Turtle from Side Control Bottom.",
+  "conditions": [
+    "TODO"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "TODO",
+      "description": "TODO",
+      "when_to_use": "TODO"
+    }
+  ],
+  "position_integration": "TODO: Write position integration for Turtle from Side Control Bottom.",
+  "related_content": [
+    {
+      "name": "TODO",
+      "relationship": "TODO"
+    }
+  ],
+  "attacker": {
+    "name": "Turtle from Side Control Bottom Attacker",
+    "description": "TODO: Write attacker description for Turtle from Side Control Bottom.",
+    "overview": "TODO: Write attacker overview for Turtle from Side Control Bottom.",
+    "key_principles": [
+      "TODO"
+    ],
+    "setup_requirements": [
+      "TODO"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "TODO",
+        "description": "TODO"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "TODO",
+        "effectiveness": "Medium",
+        "your_response": "TODO",
+        "targets_outcome": "Side Control/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "TODO",
+        "description": "TODO"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "TODO",
+        "answer": "TODO"
+      }
+    ],
+    "safety_considerations": "TODO: Write safety considerations for Turtle from Side Control Bottom."
+  },
+  "defender": {
+    "name": "Turtle from Side Control Bottom Defender",
+    "description": "TODO: Write defender description for Turtle from Side Control Bottom.",
+    "overview": "TODO: Write defender overview for Turtle from Side Control Bottom.",
+    "key_principles": [
+      "TODO"
+    ],
+    "recognition_cues": [
+      "TODO"
+    ],
+    "defensive_options": [
+      {
+        "action": "TODO",
+        "when_to_use": "TODO",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "TODO",
+        "risk": "TODO"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Turtle/Bottom",
+        "how": "TODO"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "TODO",
+        "answer": "TODO"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "TODO",
+        "description": "TODO"
+      }
+    ]
+  }
+}

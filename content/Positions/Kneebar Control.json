@@ -70,7 +70,7 @@
     ],
     "overview": "Kneebar Control from top position represents a distinctly different mechanical and strategic approach compared to bottom position variants. From this configuration, the attacking practitioner is on top of their opponent, having isolated a leg and established control structures that allow for kneebar attacks while maintaining superior positional hierarchy.\n\nThe fundamental architecture of top kneebar control typically emerges from guard passing situations, half guard, or turtle attacks. The top practitioner secures the opponent's leg while maintaining weight distribution that prevents easy re-guard or escape. Unlike bottom position kneebars where both practitioners face mutual vulnerability, top position attacks allow the attacker to maintain dominant position even if the submission fails, making this a lower-risk, higher-reward option in competition.\n\nFrom top position, kneebar control can manifest in several configurations. The most common involves securing the opponent's leg while passing or from consolidated top positions like side control or north-south. The knee-on-belly kneebar represents one classic variant where the top practitioner uses their elevated position to isolate a leg. Half guard kneebars occur when the top practitioner threads their leg through and captures the opponent's leg from the top position. Turtle kneebars emerge when the opponent assumes a defensive position and exposes a leg to control.\n\nThe strategic advantage of top position kneebars lies in positional safety - if the finish doesn't materialize, the practitioner typically retains top position rather than returning to neutral or inferior positions. This risk-reward calculus makes top kneebars attractive in competition scenarios where maintaining positional dominance matters for scoring. The position also creates psychological pressure on the bottom practitioner, who must defend the submission while preventing the top player from consolidating more dominant positions.\n\nDefensively, the top practitioner must be aware that committing fully to a kneebar finish may temporarily sacrifice top pressure, creating brief windows where athletic opponents might explode into escapes or reversals. Managing this balance between submission pursuit and positional maintenance represents the key strategic decision point in top position leg attacks.",
     "state_properties": {
-      "point_value": 3,
+      "point_value": 0,
       "position_type": "Offensive/Controlling",
       "risk_level": "Low to Medium",
       "energy_cost": "Medium",
@@ -288,40 +288,36 @@
     },
     "transitions": [
       {
-        "transition": "Knee Cut Pass",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Side Control to Mount",
-        "attempt_probability": 8
-      },
-      {
-        "transition": "Side Control to North-South",
+        "transition": "Straight Ankle Lock",
         "attempt_probability": 9
       },
       {
-        "transition": "Straight Ankle Lock",
-        "attempt_probability": 8
-      },
-      {
         "transition": "Toe Hold",
-        "attempt_probability": 8
-      },
-      {
-        "transition": "Half Guard Pass",
         "attempt_probability": 9
       },
       {
         "transition": "Knee on Belly",
-        "attempt_probability": 8
-      },
-      {
-        "transition": "Armbar from Mount",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Kneebar",
-        "attempt_probability": 30
+        "attempt_probability": 63
+      },
+      {
+        "transition": "Kneebar Finish",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Kneebar Control Maintenance",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Kneebar to 50-50 Transition",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Kneebar to Ashi Garami",
+        "attempt_probability": 1
       }
     ],
     "knowledge_assessment": [
@@ -593,43 +589,55 @@
     "transitions": [
       {
         "transition": "Kneebar Finish",
-        "attempt_probability": 8
+        "attempt_probability": 38
       },
       {
         "transition": "Inside Ashi Entry",
-        "attempt_probability": 14
+        "attempt_probability": 8
       },
       {
         "transition": "Outside Ashi Entry",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Saddle Entry from Top",
-        "attempt_probability": 9
+        "attempt_probability": 6
       },
       {
         "transition": "50-50 Entry from Standing",
-        "attempt_probability": 11
+        "attempt_probability": 5
       },
       {
         "transition": "Heel Hook",
-        "attempt_probability": 8
-      },
-      {
-        "transition": "Straight Ankle Lock",
         "attempt_probability": 10
       },
       {
+        "transition": "Straight Ankle Lock",
+        "attempt_probability": 6
+      },
+      {
         "transition": "Toe Hold",
-        "attempt_probability": 8
+        "attempt_probability": 6
       },
       {
         "transition": "Single Leg X Entry",
-        "attempt_probability": 11
+        "attempt_probability": 5
       },
       {
         "transition": "X-Guard Sweep",
-        "attempt_probability": 9
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Transition to Backside 50-50",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Guard Recovery",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Straighten Leg Kneebar Defense",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Turn and Extract from Kneebar",
+        "attempt_probability": 1
       }
     ],
     "knowledge_assessment": [

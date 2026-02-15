@@ -4,7 +4,7 @@
 
 ---
 title: "Scarf Hold Position Top | BJJ Position Guide | BJJ Graph"
-description: "Master Scarf Hold Top (Kesa Gatame) in BJJ. Traditional judo pinning position with perpendicular control, hip pressure, and arm isolation. Learn control mechanics, submissions, and transitions with 70% retention rate."
+description: "Master Scarf Hold Top (Kesa Gatame) in BJJ. Traditional judo pinning position with perpendicular control, hip pressure, and arm isolation. Learn control mechanics, submissions, and transitions with 72% retention rate."
 ---
 
 
@@ -20,14 +20,14 @@ description: "Master Scarf Hold Top (Kesa Gatame) in BJJ. Traditional judo pinni
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Americana from Side Control",
-      "text": "From this position, attempt Americana from Side Control. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Americana",
+      "text": "From this position, attempt Americana. This technique is attempted in 17% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura from Side Control",
-      "text": "From this position, attempt Kimura from Side Control. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Kimura",
+      "text": "From this position, attempt Kimura. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
@@ -44,8 +44,8 @@ description: "Master Scarf Hold Top (Kesa Gatame) in BJJ. Traditional judo pinni
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar from Side Control",
-      "text": "From this position, attempt Armbar from Side Control. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Armbar Finish",
+      "text": "From this position, attempt Armbar Finish. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
@@ -115,7 +115,7 @@ description: "Master Scarf Hold Top (Kesa Gatame) in BJJ. Traditional judo pinni
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Scarf Hold Position Top",
-  "description": "Master Scarf Hold Top (Kesa Gatame) in BJJ. Traditional judo pinning position with perpendicular control, hip pressure, and arm isolation. Learn control mechanics, submissions, and transitions with 70% retention rate.",
+  "description": "Master Scarf Hold Top (Kesa Gatame) in BJJ. Traditional judo pinning position with perpendicular control, hip pressure, and arm isolation. Learn control mechanics, submissions, and transitions with 72% retention rate.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -205,15 +205,15 @@ Scarf Hold Top Position (Kesa Gatame) is a classical pinning position derived fr
 
 ## Available Attacks
 
-### [[Americana from Side Control]] (17% of attempts)
+### [[Americana]] (17% of attempts)
 
-### [[Kimura from Side Control]] (14% of attempts)
+### [[Kimura]] (14% of attempts)
 
 ### [[Side Control to Mount]] (18% of attempts)
 
 ### [[Side Control to North-South]] (22% of attempts)
 
-### [[Armbar from Side Control]] (13% of attempts)
+### [[Armbar Finish]] (13% of attempts)
 
 ### [[Arm Triangle]] (16% of attempts)
 
@@ -227,22 +227,22 @@ Scarf Hold Top Position (Kesa Gatame) is a classical pinning position derived fr
 
 **If opponent attempts to turn their face toward you and bridge:**
 - Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 65%)
-- Execute **[[Kimura from Side Control]]** → [[Kimura Trap]] (Probability: 45%)
+- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 45%)
 
 
 **If opponent pushes on your head with far arm to create space:**
 - Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 70%)
-- Execute **[[Armbar from Side Control]]** → [[Armbar Control]] (Probability: 50%)
+- Execute **[[Armbar Finish]]** → [[Armbar Control]] (Probability: 50%)
 
 
 **If opponent attempts to extract trapped near arm:**
-- Execute **[[Americana from Side Control]]** → [[Armbar Control]] (Probability: 60%)
+- Execute **[[Americana]]** → [[Armbar Control]] (Probability: 60%)
 - Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 55%)
 
 
 **If opponent is passive and not defending actively:**
-- Execute **[[Americana from Side Control]]** → [[Armbar Control]] (Probability: 75%)
-- Execute **[[Kimura from Side Control]]** → [[Kimura Trap]] (Probability: 65%)
+- Execute **[[Americana]]** → [[Armbar Control]] (Probability: 75%)
+- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 65%)
 
 
 
@@ -371,8 +371,8 @@ Start in scarf hold top and chain between Americana, arm triangle, and kimura se
 - **[[Reverse Kesa-Gatame]]** - Variation - facing opposite direction with similar control principles
 - **[[North-South]]** - Transition target - common progression from scarf hold
 - **[[Mount]]** - Transition target - advancement option when opponent turns in
-- **[[Americana from Side Control]]** - Primary submission - highest percentage finish from this position
-- **[[Kimura from Side Control]]** - Secondary submission when opponent defends americana
+- **[[Americana]]** - Primary submission transition - highest percentage finish from this position
+- **[[Kimura]]** - Secondary submission transition when opponent defends americana
 
 
 </section>

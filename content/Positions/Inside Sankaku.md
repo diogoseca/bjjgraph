@@ -89,17 +89,21 @@ Inside Sankaku, also known as the 'Honey Hole' or '411', is an advanced leg enta
 ### Available Transitions
 
 
-- **[[Hip Escape to Guard Recovery]]** (19% of attempts)
+- **[[Hip Escape to Guard]]** (15% of attempts)
 
-- **[[Granby Roll Escape]]** (17% of attempts)
+- **[[Granby Roll to Guard]]** (14% of attempts)
 
-- **[[Technical Standup]]** (12% of attempts)
+- **[[Technical Stand-up]]** (6% of attempts)
 
-- **[[Counter Leg Attack]]** (17% of attempts)
+- **[[Counter Leg Attack]]** (10% of attempts)
 
-- **[[Frame and Extract to Half Guard]]** (21% of attempts)
+- **[[Frame and Extract to Half Guard]]** (22% of attempts)
 
-- **[[Rolling Escape]]** (14% of attempts)
+- **[[Counter-entangle to 50-50 Guard]]** (18% of attempts)
+
+- **[[Saddle Defense]]** (7% of attempts)
+
+- **[[Ashi Garami Escape]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -160,25 +164,27 @@ Inside Sankaku, also known as the 'Honey Hole' or '411', is an advanced leg enta
 ### Available Transitions
 
 
-- **[[Inside Heel Hook]]** (12% of attempts)
+- **[[Heel Hook]]** (42% of attempts)
 
-- **[[Toe Hold]]** (9% of attempts)
+- **[[Toe Hold]]** (10% of attempts)
 
-- **[[Outside Ashi Entry]]** (12% of attempts)
+- **[[Outside Ashi Entry]]** (8% of attempts)
 
-- **[[Saddle Entry from Top]]** (11% of attempts)
+- **[[Saddle Entry from Top]]** (8% of attempts)
 
-- **[[50-50 Entry]]** (11% of attempts)
+- **[[50-50 Entry]]** (3% of attempts)
 
-- **[[Kneebar from Top]]** (9% of attempts)
+- **[[Kneebar Finish]]** (8% of attempts)
 
-- **[[Calf Slicer]]** (8% of attempts)
+- **[[Calf Slicer]]** (3% of attempts)
 
 - **[[Rolling Back Take]]** (10% of attempts)
 
-- **[[Outside Heel Hook]]** (9% of attempts)
+- **[[Inside Ashi-Garami to Honey Hole]]** (6% of attempts)
 
-- **[[Side Control to Mount]]** (9% of attempts)
+- **[[Inside Sankaku Heel Hook]]** (1% of attempts)
+
+- **[[Inside Sankaku to Saddle]]** (1% of attempts)
 
 
 ### Common Mistakes

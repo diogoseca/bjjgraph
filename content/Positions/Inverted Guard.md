@@ -89,25 +89,29 @@ Inverted Guard is a modern guard position where the practitioner turns upside-do
 ### Available Transitions
 
 
-- **[[Berimbolo Entry]]** (9% of attempts)
+- **[[Berimbolo Entry]]** (15% of attempts)
 
-- **[[Rolling Back Take]]** (10% of attempts)
+- **[[Rolling Back Take]]** (11% of attempts)
 
-- **[[Kiss of the Dragon]]** (9% of attempts)
+- **[[Kiss of the Dragon]]** (8% of attempts)
 
-- **[[Single Leg X Entry]]** (11% of attempts)
+- **[[Single Leg X Entry]]** (10% of attempts)
 
-- **[[X-Guard Sweep]]** (10% of attempts)
+- **[[X-Guard Sweep]]** (8% of attempts)
 
-- **[[Granby Roll]]** (12% of attempts)
+- **[[Granby Roll to Guard]]** (10% of attempts)
 
-- **[[Omoplata from Guard]]** (8% of attempts)
+- **[[Omoplata]]** (5% of attempts)
 
-- **[[Truck Entry]]** (8% of attempts)
+- **[[Roll to Truck]]** (6% of attempts)
 
-- **[[Reverse X-Guard Entry]]** (10% of attempts)
+- **[[Reverse X-Guard Entry]]** (5% of attempts)
 
-- **[[Technical Stand-up]]** (13% of attempts)
+- **[[Technical Stand-up]]** (7% of attempts)
+
+- **[[Bolo Sweep]]** (8% of attempts)
+
+- **[[Reverse De La Riva Recovery]]** (7% of attempts)
 
 
 ### Common Mistakes
@@ -172,21 +176,29 @@ Inverted Guard is a modern guard position where the practitioner turns upside-do
 ### Available Transitions
 
 
-- **[[Smash Pass]]** (13% of attempts)
+- **[[Smash Pass]]** (8% of attempts)
 
-- **[[Stack Pass]]** (12% of attempts)
+- **[[Stack Pass]]** (6% of attempts)
 
-- **[[Pressure Pass]]** (13% of attempts)
+- **[[Pressure Pass]]** (7% of attempts)
 
-- **[[Leg Weave Pass]]** (12% of attempts)
+- **[[Leg Weave Pass]]** (4% of attempts)
 
-- **[[Knee Slice Pass]]** (13% of attempts)
+- **[[Knee Slice Pass]]** (6% of attempts)
 
-- **[[Headquarters Pass]]** (14% of attempts)
-
-- **[[Knee on Belly]]** (12% of attempts)
+- **[[Headquarters Pass]]** (8% of attempts)
 
 - **[[Toreando Pass]]** (11% of attempts)
+
+- **[[Back Step Pass]]** (29% of attempts)
+
+- **[[Leg Drag Pass]]** (10% of attempts)
+
+- **[[Stack Pass from Inversion]]** (8% of attempts)
+
+- **[[Stack from Inverted]]** (2% of attempts)
+
+- **[[Toreando from Inverted]]** (1% of attempts)
 
 
 ### Common Mistakes

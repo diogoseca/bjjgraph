@@ -1,6 +1,6 @@
 {
   "name": "Hand Control to Extract",
-  "description": "Master hand control extraction from gogoplata in BJJ. Systematic grip fighting and head extraction technique. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "description": "Master hand control extraction from gogoplata in BJJ. Systematic grip fighting and head extraction technique for escaping shin-across-throat control.",
   "tags": [
     "bjj",
     "transition",
@@ -13,221 +13,32 @@
   "from_position": "Gogoplata Control/Top",
   "outcomes": [
     {
-      "to": "Closed Guard",
+      "to": "Closed Guard/Top",
       "probability": 50,
       "result": "success"
     },
     {
-      "to": "Half Guard",
+      "to": "Half Guard/Top",
       "probability": 15,
       "result": "success"
     },
     {
-      "to": "Gogoplata Control",
+      "to": "Gogoplata Control/Top",
       "probability": 25,
       "result": "failure"
     },
     {
-      "to": "Triangle Control",
+      "to": "Triangle Control/Bottom",
       "probability": 10,
       "result": "counter"
     }
   ],
+  "success_rate": 58,
   "overview": "Hand Control to Extract is a systematic defensive technique employed when caught in gogoplata control. The bottom player's primary weapon in maintaining the gogoplata is their hands pulling their own foot behind your head, which locks the shin-across-throat configuration. By controlling and neutralizing these hands first, you remove the structural foundation that makes the gogoplata dangerous, allowing for systematic head extraction without tightening the choke.\n\nThe technique operates on the principle that the gogoplata is a self-contained submission system where the attacker uses their own hands to maintain foot position. Unlike defending a triangle or armbar where you fight the opponent's limbs directly, gogoplata defense requires you to address how the opponent controls their own body. Their hands pulling their foot deeper is more threatening than the shin itself, making hand control the primary defensive objective.\n\nStrategically, this escape works best when the gogoplata is not fully locked. The window for this technique opens when the opponent is still working to secure their foot behind your head or when their grip on their own foot is loose. Practitioners must develop sensitivity to recognize when hand fighting is viable versus when emergency escapes are necessary. The technique demands precise timing and methodical execution rather than explosive movement, making it particularly effective for technically proficient defenders who remain calm under submission pressure.",
-  "key_principles": [
-    "Address the opponent's hands controlling their foot before attempting head extraction",
-    "Break the closed loop by preventing the foot from being pulled deeper behind your head",
-    "Maintain breathing space by turning chin slightly toward the attacking shin during hand fight",
-    "Use two-on-one grip control to systematically strip the opponent's grip on their own foot",
-    "Create lateral angle change once hands are controlled to reduce shin compression",
-    "Execute head extraction only after the structural foundation of the gogoplata is compromised",
-    "Maintain base throughout to prevent being swept during the escape sequence"
-  ],
-  "setup_requirements": [
-    "Gogoplata is not fully locked - opponent is still securing foot position or grip is loose",
-    "Sufficient breathing space to work methodically rather than requiring emergency escape",
-    "One or both of opponent's hands are accessible for grip fighting",
-    "Base established with at least one hand posted to prevent being swept during hand fight",
-    "Recognition that explosive pulling will tighten the choke rather than escape it"
-  ],
-  "execution_steps": [
-    {
-      "step_number": 1,
-      "action": "Assess and stabilize",
-      "description": "Immediately turn your chin slightly toward the attacking shin to create breathing space and reduce direct trachea compression. Establish base with your hips back and at least one hand posted on the mat to prevent being swept."
-    },
-    {
-      "step_number": 2,
-      "action": "Identify hand position",
-      "description": "Locate the opponent's hands - specifically identify which hand is pulling their foot behind your head. This is your primary target. The opponent typically uses both hands on their own ankle or foot to maintain the closed loop configuration."
-    },
-    {
-      "step_number": 3,
-      "action": "Establish two-on-one grip",
-      "description": "Bring your nearest hand to control the opponent's wrist while your other hand secures their forearm or elbow. Create a two-on-one configuration that gives you mechanical advantage to strip their grip from their own foot."
-    },
-    {
-      "step_number": 4,
-      "action": "Strip the foot grip",
-      "description": "Using your two-on-one control, systematically peel the opponent's fingers from their own foot or ankle. Push their hand toward their hip while pulling your head slightly lateral. The goal is breaking the closed loop, not removing your head yet."
-    },
-    {
-      "step_number": 5,
-      "action": "Control the freed hand",
-      "description": "Once you strip their grip, immediately pin their hand to their chest or hip using your chest pressure or hand control. Do not allow them to re-grip their foot. Their second hand becomes less effective without the primary grip."
-    },
-    {
-      "step_number": 6,
-      "action": "Create angle and extract",
-      "description": "With the foot no longer locked behind your head, shift your hips laterally and drive your head toward the side of the freed hand. The shin will slide off your throat as you create perpendicular angle. Continue extracting until you clear the leg entirely."
-    },
-    {
-      "step_number": 7,
-      "action": "Consolidate position",
-      "description": "As your head clears, immediately establish closed guard or advance to half guard. Control the opponent's hips to prevent them from re-establishing rubber guard or attacking with triangle. Maintain posture to prevent being pulled back into danger."
-    }
-  ],
-  "common_counters": [
-    {
-      "counter": "Opponent switches to overhook control on your arm during hand fighting",
-      "effectiveness": "High",
-      "your_response": "If they release their foot grip to overhook, immediately extract your head before they can re-establish. Their overhook without foot control is less dangerous than the gogoplata."
-    },
-    {
-      "counter": "Opponent elevates hips and tightens shin pressure during your hand fight",
-      "effectiveness": "High",
-      "your_response": "Abandon the hand fight and address the immediate choke threat. Return to emergency escape protocols if breathing becomes restricted. Hand fighting only works when you have time."
-    },
-    {
-      "counter": "Opponent transitions to triangle by releasing gogoplata grip and switching leg position",
-      "effectiveness": "Medium",
-      "your_response": "The triangle transition creates space for posture recovery. As they switch legs, drive posture up and begin triangle defense immediately. You have exchanged one threat for another but gained time."
-    },
-    {
-      "counter": "Opponent uses free hand to push your head deeper as you strip their other grip",
-      "effectiveness": "Medium",
-      "your_response": "Address both hands simultaneously. If they push your head with one hand, they cannot pull their foot deep with both. Swim your head toward the pushing hand side to escape the pressure."
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Attempting head extraction before controlling opponent's hands",
-      "consequence": "The opponent pulls their foot deeper as you try to escape, tightening the choke and making extraction impossible",
-      "correction": "Always address the hands first. The foot cannot stay locked without the opponent actively pulling it. Break the grip before moving your head."
-    },
-    {
-      "error": "Using only one hand to fight both of opponent's hands",
-      "consequence": "Insufficient leverage to strip their grip, wasting time and energy while the choke remains locked",
-      "correction": "Commit to two-on-one control on their primary gripping hand. Accept temporary position vulnerability to gain the mechanical advantage needed."
-    },
-    {
-      "error": "Pulling head straight backward during extraction attempt",
-      "consequence": "Even with hands controlled, backward pulling tightens any remaining shin contact and may allow opponent to re-grip",
-      "correction": "Extract laterally, not backward. Create angle by shifting hips to the side and driving head toward the freed hand direction."
-    },
-    {
-      "error": "Losing base during hand fighting by bringing both hands to fight",
-      "consequence": "Opponent can sweep you or use the instability to adjust and tighten their position",
-      "correction": "Maintain base throughout. If necessary, use one hand for base while working grip breaks with the other, then switch hands."
-    },
-    {
-      "error": "Releasing control of opponent's hand immediately after stripping their grip",
-      "consequence": "Opponent immediately re-grips their foot, resetting the defensive sequence and wasting your effort",
-      "correction": "Pin the stripped hand to their body with chest pressure or hand control. Only release after your head is completely extracted."
-    },
-    {
-      "error": "Attempting this escape when the gogoplata is fully locked and breathing is severely restricted",
-      "consequence": "Hand fighting requires time you do not have. You may lose consciousness while working grips instead of escaping",
-      "correction": "Assess the urgency first. If breathing is critically restricted, use emergency escapes. Hand control works only when you have methodical time."
-    }
-  ],
-  "training_progressions": [
-    {
-      "phase": "Week 1-2",
-      "focus": "Grip identification and hand positioning",
-      "description": "Partner establishes loose gogoplata control without fully locking. Practice identifying which hand is controlling their foot and establishing two-on-one grip control without extracting head. Focus on hand positioning mechanics only."
-    },
-    {
-      "phase": "Week 3-4",
-      "focus": "Grip stripping mechanics",
-      "description": "Partner provides light resistance on their foot grip. Work the complete sequence from two-on-one establishment through grip strip to hand pinning. Partner allows grip to be broken but tries to re-grip if not properly controlled."
-    },
-    {
-      "phase": "Week 5-6",
-      "focus": "Full extraction with timing",
-      "description": "Partner establishes gogoplata at 60% tightness and actively defends their grip. Practice the complete sequence including head extraction and position consolidation. Work timing between grip strip and lateral extraction."
-    },
-    {
-      "phase": "Week 7+",
-      "focus": "Live integration and decision making",
-      "description": "From rubber guard sparring, work recognizing when hand control escape is viable versus when emergency escapes are required. Practice making real-time decisions about which defensive approach to use based on submission tightness."
-    }
-  ],
-  "variants_and_adaptations": [
-    {
-      "variant_name": "Single hand strip to immediate extraction",
-      "description": "When opponent has weak grip with only one hand on their foot, strip that single hand and immediately extract before they can adjust. Faster but requires recognizing the weak grip opportunity.",
-      "when_to_use": "When opponent's gogoplata setup is incomplete and only one hand is controlling foot position"
-    },
-    {
-      "variant_name": "Elbow wedge extraction",
-      "description": "Instead of two-on-one grip fighting, wedge your elbow between opponent's hands and their foot, physically blocking them from pulling deeper while creating extraction space simultaneously.",
-      "when_to_use": "When opponent's hands are positioned close together and an elbow wedge can address both simultaneously"
-    },
-    {
-      "variant_name": "Hip switch to hand control",
-      "description": "Combine lateral hip movement with hand control, using the hip switch to reduce shin pressure while simultaneously fighting grips. The pressure reduction buys time for more thorough grip stripping.",
-      "when_to_use": "When you have some breathing space but need to address both pressure and grip control together"
-    }
-  ],
-  "knowledge_assessment": [
-    {
-      "question": "What is the primary defensive target when escaping gogoplata using hand control?",
-      "answer": "The opponent's hands that are pulling their own foot behind your head. The gogoplata is a closed-loop system where the attacker uses their hands to maintain foot position. By stripping their grip on their own foot, you break the structural foundation that locks the submission in place."
-    },
-    {
-      "question": "What position do you start Hand Control to Extract from?",
-      "answer": "This technique starts from Gogoplata Control/Top, meaning you are the defender caught in the gogoplata with your opponent on bottom controlling you with their shin across your throat."
-    },
-    {
-      "question": "Your opponent has both hands pulling their foot deep - which hand should you target first and why?",
-      "answer": "Target the hand that is closer to their ankle/foot, as this is the anchor point for the closed loop. The hand on the ankle has more direct control over foot positioning. Stripping this grip compromises the entire configuration more than fighting the supporting hand."
-    },
-    {
-      "question": "Why must you extract your head laterally rather than pulling straight backward?",
-      "answer": "Pulling straight backward actually tightens any remaining shin contact because the shin remains perpendicular to your trachea. Lateral extraction changes the angle, allowing the shin to slide off your throat as you create a perpendicular relationship between your head movement and the shin position."
-    },
-    {
-      "question": "The opponent releases their foot grip to overhook your arm - how should you respond?",
-      "answer": "Immediately extract your head before they can re-establish the gogoplata. The overhook without foot control is significantly less dangerous than the locked gogoplata. They have traded their primary threat for a secondary control - use this window to escape entirely."
-    },
-    {
-      "question": "How do you assess whether hand control escape is viable versus needing emergency escape?",
-      "answer": "Evaluate your breathing. If breathing is severely restricted with the choke fully locked, emergency escape is required - you do not have time for methodical grip fighting. Hand control escape requires enough breathing space to work for 10-15 seconds without losing consciousness."
-    },
-    {
-      "question": "After stripping the grip, why must you pin the opponent's hand before extracting?",
-      "answer": "If you release control immediately after stripping their grip, the opponent will re-grip their foot and reset the submission. Pinning the hand with chest pressure or hand control prevents re-establishment and ensures your extraction effort is not wasted."
-    },
-    {
-      "question": "What grip configuration provides optimal leverage to strip opponent's control of their foot?",
-      "answer": "Two-on-one control with one hand on their wrist and the other on their forearm or elbow. This gives you mechanical advantage over their grip strength and allows you to peel their fingers while controlling the entire arm to prevent re-gripping."
-    },
-    {
-      "question": "Your opponent elevates their hips aggressively during your hand fight - what does this indicate?",
-      "answer": "This indicates they are tightening the submission and you may not have time for hand fighting. Hip elevation increases shin compression on your throat. Reassess whether to continue hand control escape or switch to emergency protocols based on your breathing status."
-    },
-    {
-      "question": "What position should you consolidate to after successfully extracting from gogoplata?",
-      "answer": "Closed guard or half guard depending on your hip position after extraction. Immediately control opponent's hips to prevent them from re-establishing rubber guard or transitioning to triangle. Recover posture to prevent being pulled back into submission danger."
-    }
-  ],
-  "safety_considerations": "Hand Control to Extract is generally a safe defensive technique, but practitioners must recognize its limitations. Never attempt this methodical escape when the gogoplata is fully locked and breathing is severely compromised - in such cases, tap or use emergency escapes immediately. The hand fighting phase requires you to accept some choke pressure while working, which is only safe when the submission is not fully applied. During training, partners should communicate clearly about tightness levels. If the defender says the choke is too tight for hand fighting, the attacker should loosen to allow technical practice. Never sacrifice consciousness trying to work a technical escape - the tap exists for safety. Practitioners with neck injuries should avoid extended time in gogoplata positions during training.",
-  "position_integration": "Hand Control to Extract occupies a specific niche in the gogoplata defense hierarchy. It sits between immediate tap (when fully caught) and basic posture defense (when position is loose). This technique becomes relevant when the gogoplata is established but not fully locked - a common scenario when defending against practitioners who are still developing their rubber guard finishing. The escape feeds into closed guard recovery, which then opens standard guard passing sequences. Understanding this escape helps practitioners remain calm when caught in gogoplata, recognizing that the position has specific defensive solutions rather than being an automatic tap. The technical awareness developed through this escape also improves offensive gogoplata application by understanding what opponents will attempt defensively.",
   "related_content": [
     {
       "name": "Gogoplata Control",
-      "relationship": "Starting position - the submission you are escaping from"
+      "relationship": "Starting position - the submission control you are escaping from"
     },
     {
       "name": "Rubber Guard",
@@ -262,9 +73,346 @@
       "relationship": "Alternative escape technique from same position"
     },
     {
-      "name": "Stack Defense",
-      "relationship": "Alternative defensive approach using pressure"
+      "name": "Head Extraction to Posture",
+      "relationship": "Complementary extraction technique addressing different phase of escape"
     }
   ],
-  "success_rate": 58
+  "attacker": {
+    "name": "Hand Control to Extract Attacker",
+    "description": "How to execute Hand Control to Extract in BJJ. Attacking perspective with setup, execution steps, and counters for escaping gogoplata.",
+    "overview": "Hand Control to Extract is a systematic defensive technique employed when caught in gogoplata control. The bottom player's primary weapon in maintaining the gogoplata is their hands pulling their own foot behind your head, which locks the shin-across-throat configuration. By controlling and neutralizing these hands first, you remove the structural foundation that makes the gogoplata dangerous, allowing for systematic head extraction without tightening the choke.\n\nThe technique operates on the principle that the gogoplata is a self-contained submission system where the attacker uses their own hands to maintain foot position. Unlike defending a triangle or armbar where you fight the opponent's limbs directly, gogoplata defense requires you to address how the opponent controls their own body. Their hands pulling their foot deeper is more threatening than the shin itself, making hand control the primary defensive objective.\n\nStrategically, this escape works best when the gogoplata is not fully locked. The window for this technique opens when the opponent is still working to secure their foot behind your head or when their grip on their own foot is loose. Practitioners must develop sensitivity to recognize when hand fighting is viable versus when emergency escapes are necessary. The technique demands precise timing and methodical execution rather than explosive movement, making it particularly effective for technically proficient defenders who remain calm under submission pressure.",
+    "key_principles": [
+      "Address the opponent's hands controlling their foot before attempting head extraction",
+      "Break the closed loop by preventing the foot from being pulled deeper behind your head",
+      "Maintain breathing space by turning chin slightly toward the attacking shin during hand fight",
+      "Use two-on-one grip control to systematically strip the opponent's grip on their own foot",
+      "Create lateral angle change once hands are controlled to reduce shin compression",
+      "Execute head extraction only after the structural foundation of the gogoplata is compromised",
+      "Maintain base throughout to prevent being swept during the escape sequence"
+    ],
+    "setup_requirements": [
+      "Gogoplata is not fully locked - opponent is still securing foot position or grip is loose",
+      "Sufficient breathing space to work methodically rather than requiring emergency escape",
+      "One or both of opponent's hands are accessible for grip fighting",
+      "Base established with at least one hand posted to prevent being swept during hand fight",
+      "Recognition that explosive pulling will tighten the choke rather than escape it"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Assess and stabilize",
+        "description": "Immediately turn your chin slightly toward the attacking shin to create breathing space and reduce direct trachea compression. Establish base with your hips back and at least one hand posted on the mat to prevent being swept."
+      },
+      {
+        "step_number": 2,
+        "action": "Identify hand position",
+        "description": "Locate the opponent's hands - specifically identify which hand is pulling their foot behind your head. This is your primary target. The opponent typically uses both hands on their own ankle or foot to maintain the closed loop configuration."
+      },
+      {
+        "step_number": 3,
+        "action": "Establish two-on-one grip",
+        "description": "Bring your nearest hand to control the opponent's wrist while your other hand secures their forearm or elbow. Create a two-on-one configuration that gives you mechanical advantage to strip their grip from their own foot."
+      },
+      {
+        "step_number": 4,
+        "action": "Strip the foot grip",
+        "description": "Using your two-on-one control, systematically peel the opponent's fingers from their own foot or ankle. Push their hand toward their hip while pulling your head slightly lateral. The goal is breaking the closed loop, not removing your head yet."
+      },
+      {
+        "step_number": 5,
+        "action": "Control the freed hand",
+        "description": "Once you strip their grip, immediately pin their hand to their chest or hip using your chest pressure or hand control. Do not allow them to re-grip their foot. Their second hand becomes less effective without the primary grip."
+      },
+      {
+        "step_number": 6,
+        "action": "Create angle and extract",
+        "description": "With the foot no longer locked behind your head, shift your hips laterally and drive your head toward the side of the freed hand. The shin will slide off your throat as you create perpendicular angle. Continue extracting until you clear the leg entirely."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate position",
+        "description": "As your head clears, immediately establish closed guard or advance to half guard. Control the opponent's hips to prevent them from re-establishing rubber guard or attacking with triangle. Maintain posture to prevent being pulled back into danger."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent switches to overhook control on your arm during hand fighting",
+        "effectiveness": "High",
+        "your_response": "If they release their foot grip to overhook, immediately extract your head before they can re-establish. Their overhook without foot control is less dangerous than the gogoplata.",
+        "targets_outcome": "Closed Guard/Top"
+      },
+      {
+        "counter": "Opponent elevates hips and tightens shin pressure during your hand fight",
+        "effectiveness": "High",
+        "your_response": "Abandon the hand fight and address the immediate choke threat. Return to emergency escape protocols if breathing becomes restricted. Hand fighting only works when you have time.",
+        "targets_outcome": "Gogoplata Control/Top"
+      },
+      {
+        "counter": "Opponent transitions to triangle by releasing gogoplata grip and switching leg position",
+        "effectiveness": "Medium",
+        "your_response": "The triangle transition creates space for posture recovery. As they switch legs, drive posture up and begin triangle defense immediately. You have exchanged one threat for another but gained time.",
+        "targets_outcome": "Triangle Control/Bottom"
+      },
+      {
+        "counter": "Opponent uses free hand to push your head deeper as you strip their other grip",
+        "effectiveness": "Medium",
+        "your_response": "Address both hands simultaneously. If they push your head with one hand, they cannot pull their foot deep with both. Swim your head toward the pushing hand side to escape the pressure.",
+        "targets_outcome": "Gogoplata Control/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting head extraction before controlling opponent's hands",
+        "consequence": "The opponent pulls their foot deeper as you try to escape, tightening the choke and making extraction impossible",
+        "correction": "Always address the hands first. The foot cannot stay locked without the opponent actively pulling it. Break the grip before moving your head."
+      },
+      {
+        "error": "Using only one hand to fight both of opponent's hands",
+        "consequence": "Insufficient leverage to strip their grip, wasting time and energy while the choke remains locked",
+        "correction": "Commit to two-on-one control on their primary gripping hand. Accept temporary position vulnerability to gain the mechanical advantage needed."
+      },
+      {
+        "error": "Pulling head straight backward during extraction attempt",
+        "consequence": "Even with hands controlled, backward pulling tightens any remaining shin contact and may allow opponent to re-grip",
+        "correction": "Extract laterally, not backward. Create angle by shifting hips to the side and driving head toward the freed hand direction."
+      },
+      {
+        "error": "Losing base during hand fighting by bringing both hands to fight",
+        "consequence": "Opponent can sweep you or use the instability to adjust and tighten their position",
+        "correction": "Maintain base throughout. If necessary, use one hand for base while working grip breaks with the other, then switch hands."
+      },
+      {
+        "error": "Releasing control of opponent's hand immediately after stripping their grip",
+        "consequence": "Opponent immediately re-grips their foot, resetting the defensive sequence and wasting your effort",
+        "correction": "Pin the stripped hand to their body with chest pressure or hand control. Only release after your head is completely extracted."
+      },
+      {
+        "error": "Attempting this escape when the gogoplata is fully locked and breathing is severely restricted",
+        "consequence": "Hand fighting requires time you do not have. You may lose consciousness while working grips instead of escaping",
+        "correction": "Assess the urgency first. If breathing is critically restricted, use emergency escapes. Hand control works only when you have methodical time."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Grip identification and hand positioning",
+        "description": "Partner establishes loose gogoplata control without fully locking. Practice identifying which hand is controlling their foot and establishing two-on-one grip control without extracting head. Focus on hand positioning mechanics only."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Grip stripping mechanics",
+        "description": "Partner provides light resistance on their foot grip. Work the complete sequence from two-on-one establishment through grip strip to hand pinning. Partner allows grip to be broken but tries to re-grip if not properly controlled."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Full extraction with timing",
+        "description": "Partner establishes gogoplata at 60% tightness and actively defends their grip. Practice the complete sequence including head extraction and position consolidation. Work timing between grip strip and lateral extraction."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live integration and decision making",
+        "description": "From rubber guard sparring, work recognizing when hand control escape is viable versus when emergency escapes are required. Practice making real-time decisions about which defensive approach to use based on submission tightness."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary defensive target when escaping gogoplata using hand control?",
+        "answer": "The opponent's hands that are pulling their own foot behind your head. The gogoplata is a closed-loop system where the attacker uses their hands to maintain foot position. By stripping their grip on their own foot, you break the structural foundation that locks the submission in place."
+      },
+      {
+        "question": "What position do you start Hand Control to Extract from?",
+        "answer": "This technique starts from Gogoplata Control/Top, meaning you are the defender caught in the gogoplata with your opponent on bottom controlling you with their shin across your throat."
+      },
+      {
+        "question": "Your opponent has both hands pulling their foot deep - which hand should you target first and why?",
+        "answer": "Target the hand that is closer to their ankle/foot, as this is the anchor point for the closed loop. The hand on the ankle has more direct control over foot positioning. Stripping this grip compromises the entire configuration more than fighting the supporting hand."
+      },
+      {
+        "question": "Why must you extract your head laterally rather than pulling straight backward?",
+        "answer": "Pulling straight backward actually tightens any remaining shin contact because the shin remains perpendicular to your trachea. Lateral extraction changes the angle, allowing the shin to slide off your throat as you create a perpendicular relationship between your head movement and the shin position."
+      },
+      {
+        "question": "The opponent releases their foot grip to overhook your arm - how should you respond?",
+        "answer": "Immediately extract your head before they can re-establish the gogoplata. The overhook without foot control is significantly less dangerous than the locked gogoplata. They have traded their primary threat for a secondary control - use this window to escape entirely."
+      },
+      {
+        "question": "How do you assess whether hand control escape is viable versus needing emergency escape?",
+        "answer": "Evaluate your breathing. If breathing is severely restricted with the choke fully locked, emergency escape is required - you do not have time for methodical grip fighting. Hand control escape requires enough breathing space to work for 10-15 seconds without losing consciousness."
+      },
+      {
+        "question": "After stripping the grip, why must you pin the opponent's hand before extracting?",
+        "answer": "If you release control immediately after stripping their grip, the opponent will re-grip their foot and reset the submission. Pinning the hand with chest pressure or hand control prevents re-establishment and ensures your extraction effort is not wasted."
+      },
+      {
+        "question": "What grip configuration provides optimal leverage to strip opponent's control of their foot?",
+        "answer": "Two-on-one control with one hand on their wrist and the other on their forearm or elbow. This gives you mechanical advantage over their grip strength and allows you to peel their fingers while controlling the entire arm to prevent re-gripping."
+      },
+      {
+        "question": "Your opponent elevates their hips aggressively during your hand fight - what does this indicate?",
+        "answer": "This indicates they are tightening the submission and you may not have time for hand fighting. Hip elevation increases shin compression on your throat. Reassess whether to continue hand control escape or switch to emergency protocols based on your breathing status."
+      },
+      {
+        "question": "What position should you consolidate to after successfully extracting from gogoplata?",
+        "answer": "Closed guard or half guard depending on your hip position after extraction. Immediately control opponent's hips to prevent them from re-establishing rubber guard or transitioning to triangle. Recover posture to prevent being pulled back into submission danger."
+      },
+      {
+        "question": "You strip one grip but your opponent immediately re-grips with their other hand - how do you chain your grip fighting?",
+        "answer": "Maintain control of the stripped hand by pinning it with your chest or trapping it against their body. Then use your freed hand to address the second grip using the same peel-and-pin method. The key is never releasing the first hand to fight the second - sequential pinning prevents the re-grip cycle."
+      },
+      {
+        "question": "What base adjustment prevents you from being swept while committing both hands to grip fighting?",
+        "answer": "Widen your knees and drop your hips back before committing both hands. If you must use both hands simultaneously, shift your weight onto your knees and toes with hips low and wide. Work in short bursts - strip the grip, immediately post one hand for base, then pin with chest pressure rather than sustained two-hand fighting."
+      }
+    ],
+    "safety_considerations": "Hand Control to Extract is generally a safe defensive technique, but practitioners must recognize its limitations. Never attempt this methodical escape when the gogoplata is fully locked and breathing is severely compromised - in such cases, tap or use emergency escapes immediately. The hand fighting phase requires you to accept some choke pressure while working, which is only safe when the submission is not fully applied. During training, partners should communicate clearly about tightness levels. If the defender says the choke is too tight for hand fighting, the attacker should loosen to allow technical practice. Never sacrifice consciousness trying to work a technical escape - the tap exists for safety. Practitioners with neck injuries should avoid extended time in gogoplata positions during training."
+  },
+  "defender": {
+    "name": "Hand Control to Extract Defender",
+    "description": "How to defend against Hand Control to Extract in BJJ. Maintain gogoplata control against grip fighting escape attempts with recognition cues and retention strategies.",
+    "overview": "As the gogoplata attacker (bottom player), defending against Hand Control to Extract means maintaining your submission control while your opponent systematically attacks your grip on your own foot. Your primary challenge is preventing the top player from breaking the closed-loop configuration that makes your gogoplata effective. The defender in this context is the person holding the gogoplata who must retain their finishing position against a technically sound escape attempt.\n\nThe key to defending this escape lies in understanding that your opponent's entire strategy revolves around stripping your hands from your foot. Every defensive response must prioritize maintaining that grip connection while simultaneously tightening the submission. When you feel the top player's hands engaging your wrists or forearms in a two-on-one configuration, this is your signal to either deepen the submission before they can strip your grip, transition to an alternative attack that punishes their hand commitment, or adjust your grip architecture to make stripping more difficult.\n\nSuccessful defense requires proactive grip management rather than reactive grip retention. Anticipating the hand fight and adjusting your foot depth, hip elevation, and grip positioning before the opponent establishes their two-on-one gives you the best chance of maintaining the gogoplata. If the grip is partially stripped, immediate transitions to triangle or omoplata capitalize on the opponent's compromised posture and hand positioning rather than fighting a losing battle to re-establish the original configuration.",
+    "key_principles": [
+      "Maintain constant hip elevation to keep shin pressure on the throat regardless of opponent's hand fighting activity",
+      "Deepen foot position behind the head proactively before opponent can establish two-on-one grip control",
+      "Use grip architecture that resists stripping - interlocked fingers on your own shin rather than cupping the foot loosely",
+      "Recognize when re-gripping is impossible and transition immediately to triangle or omoplata rather than fighting a lost grip battle",
+      "Keep opponent's posture broken throughout to limit their ability to generate leverage for grip stripping",
+      "Use your free leg and hip movement to create instability that disrupts their base during hand fighting attempts"
+    ],
+    "recognition_cues": [
+      "Opponent's hands shift from posting on the mat to engaging your wrists or forearms, indicating they are transitioning from stabilization to active grip fighting",
+      "Opponent establishes a two-on-one grip on your primary gripping hand with one hand on your wrist and the other on your forearm or elbow",
+      "Opponent turns chin toward your shin rather than away, creating breathing space that signals they are preparing for a methodical escape rather than panicking",
+      "Opponent's weight shifts laterally as they begin creating angle for head extraction after controlling your hands"
+    ],
+    "defensive_options": [
+      {
+        "action": "Deepen foot position and elevate hips aggressively when you feel opponent's hands engage your wrists",
+        "when_to_use": "Early in the escape attempt before opponent establishes strong two-on-one control on your gripping hand",
+        "targets_outcome": "Gogoplata Control/Top",
+        "if_successful": "Gogoplata tightens beyond the threshold where hand fighting is viable, forcing opponent to abandon escape or tap",
+        "risk": "If hip elevation is insufficient, you expend energy without meaningfully tightening the submission"
+      },
+      {
+        "action": "Release foot grip with one hand and switch to overhook control on opponent's arm, trapping their bicep against your torso",
+        "when_to_use": "When opponent has nearly stripped your grip and re-gripping is unlikely to succeed, but their arm is committed to the hand fight",
+        "targets_outcome": "Gogoplata Control/Top",
+        "if_successful": "You maintain head control through the overhook while using remaining hand to re-establish foot grip from a different angle",
+        "risk": "If opponent extracts head before you secure the overhook, you lose the gogoplata entirely and end up in open guard"
+      },
+      {
+        "action": "Transition to triangle by releasing gogoplata configuration and switching to leg-over-shoulder triangle lock",
+        "when_to_use": "When opponent has successfully stripped your primary grip and the gogoplata is no longer maintainable but their posture remains broken",
+        "targets_outcome": "Triangle Control/Bottom",
+        "if_successful": "You exchange gogoplata for triangle choke, maintaining a strong submission threat from an arguably tighter position",
+        "risk": "The transition creates a brief window where opponent can posture up and escape both submissions entirely"
+      },
+      {
+        "action": "Use free leg to hook opponent's far hip or push their knee, destroying their base during the hand fight",
+        "when_to_use": "When opponent commits both hands to grip fighting and their base becomes vulnerable to sweeping pressure",
+        "targets_outcome": "Gogoplata Control/Top",
+        "if_successful": "Opponent must abandon hand fight to recover base, giving you time to re-establish deep foot position and tighten the submission",
+        "risk": "Moving your free leg may compromise your own hip elevation and reduce shin pressure on the throat"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Gogoplata Control/Top",
+        "how": "Deepen foot position behind opponent's head before they can establish two-on-one control. Use interlocked finger grip on your own shin rather than cupping the foot, making the grip significantly harder to strip. Elevate hips aggressively at the first sign of hand engagement to tighten the submission beyond the threshold where methodical escape is viable."
+      },
+      {
+        "outcome": "Triangle Control/Bottom",
+        "how": "When the grip is partially stripped and re-establishment is unlikely, immediately release the gogoplata configuration and swing your choking leg over the opponent's far shoulder while your other leg closes underneath. Their broken posture and committed hand position from the grip fight makes the triangle entry high-percentage. Lock your ankles before they can posture."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Passively holding foot grip without deepening position when feeling opponent's hands engage",
+        "consequence": "Static grip is easier to strip than a dynamically tightening one. Opponent methodically peels your fingers while you simply resist, losing the grip battle through attrition.",
+        "correction": "The moment you feel their hands on your wrists, immediately pull your foot deeper and elevate hips. Make them fight a moving target rather than a static grip."
+      },
+      {
+        "error": "Attempting to re-grip the foot after it has been fully stripped rather than transitioning",
+        "consequence": "The foot is now in front of the opponent's face rather than behind their head. Re-gripping requires pulling it back through a space the opponent is actively defending, wasting time and energy.",
+        "correction": "Once the grip is fully broken and foot is displaced, transition immediately to triangle or omoplata. These attacks are available because the opponent's posture is broken and their hands are committed."
+      },
+      {
+        "error": "Dropping hips to the mat during the grip retention battle to conserve energy",
+        "consequence": "Without hip elevation, the shin angle becomes parallel to the throat rather than perpendicular, eliminating compression. Even if you retain the grip, the submission threat disappears.",
+        "correction": "Maintain elevated hips throughout the grip battle. If fatigue forces your hips down, transition to an alternative attack immediately rather than holding a structurally unsound gogoplata."
+      },
+      {
+        "error": "Using loose cupping grip on your own foot instead of interlocked fingers on your shin",
+        "consequence": "Cupping grip is mechanically weak against two-on-one stripping. Opponent can peel individual fingers from around the foot with minimal effort.",
+        "correction": "Interlock your fingers around your own shin rather than cupping the foot. This creates a grip that requires significantly more force to break and cannot be stripped finger by finger."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What grip architecture on your own foot is most resistant to two-on-one stripping attempts?",
+        "answer": "Interlocked fingers around your own shin rather than cupping the foot or ankle. The interlocked grip distributes force across all fingers simultaneously, meaning the opponent cannot strip individual fingers. This grip also positions your hands closer to your body where you have more strength."
+      },
+      {
+        "question": "Your opponent has established a two-on-one on your primary gripping hand and is peeling your fingers - what is your best immediate response?",
+        "answer": "Elevate your hips explosively to tighten the submission while simultaneously using your free hand to push their head deeper into the choke. If the grip is about to be fully broken, transition to triangle by swinging your choking leg over their far shoulder before they can posture. Do not fight the two-on-one with grip strength alone."
+      },
+      {
+        "question": "When should you abandon the gogoplata and transition to triangle rather than fighting to maintain your grip?",
+        "answer": "Transition when your primary grip hand has been stripped and the opponent has begun lateral head movement. At this point, re-gripping requires pulling your foot back through defended space, which is low percentage. The triangle is immediately available because their posture is broken and their arms are committed to the hand fight, making the leg-over-shoulder entry high percentage."
+      },
+      {
+        "question": "How does your hip elevation affect the opponent's ability to execute hand control extraction?",
+        "answer": "Elevated hips create perpendicular shin angle against the throat, maximizing compression. This limits the time available for hand fighting because the opponent must breathe against active pressure. When hips drop, the shin angle becomes parallel and compression decreases, giving the opponent unlimited time for methodical grip stripping. Maintaining elevation is your primary retention tool."
+      },
+      {
+        "question": "Your opponent turns their chin toward your shin during the escape - what does this signal and how should you respond?",
+        "answer": "Chin rotation toward the shin creates breathing space by moving the trachea slightly off the direct compression line. This signals a calm, technically aware opponent preparing for methodical escape rather than panicking. Respond by pulling your foot deeper and using your free hand to turn their chin back away from the shin, restoring the direct compression angle before they can establish hand fighting position."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Grip architecture and retention basics",
+        "description": "Practice establishing the most resistant grip configurations on your own foot/shin from gogoplata control. Partner applies light two-on-one pressure while you work on interlocked grip positioning, foot depth, and hip elevation maintenance. No transitions yet - focus purely on retention mechanics."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Dynamic tightening under grip attack",
+        "description": "Partner applies moderate grip fighting pressure. Practice the response of deepening foot position and elevating hips the moment you feel hands engage your wrists. Work the timing of proactive tightening versus reactive grip retention. Introduce the overhook counter when grip is partially compromised."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Transition timing to triangle and omoplata",
+        "description": "Partner works full hand control extraction sequence. Practice recognizing the point of no return where re-gripping is lower percentage than transitioning. Drill the gogoplata-to-triangle switch at various stages of grip compromise. Work smooth transitions that maintain offensive pressure throughout."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live retention and transition integration",
+        "description": "Full resistance positional sparring starting from gogoplata control. Work reading the opponent's escape strategy in real time and selecting between tightening, overhook counters, and submission transitions based on their hand fighting success. Develop the decision-making framework for when to retain versus when to transition."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Single hand strip to immediate extraction",
+      "description": "When opponent has weak grip with only one hand on their foot, strip that single hand and immediately extract before they can adjust. Faster but requires recognizing the weak grip opportunity.",
+      "when_to_use": "When opponent's gogoplata setup is incomplete and only one hand is controlling foot position"
+    },
+    {
+      "variant_name": "Elbow wedge extraction",
+      "description": "Instead of two-on-one grip fighting, wedge your elbow between opponent's hands and their foot, physically blocking them from pulling deeper while creating extraction space simultaneously.",
+      "when_to_use": "When opponent's hands are positioned close together and an elbow wedge can address both simultaneously"
+    },
+    {
+      "variant_name": "Hip switch to hand control",
+      "description": "Combine lateral hip movement with hand control, using the hip switch to reduce shin pressure while simultaneously fighting grips. The pressure reduction buys time for more thorough grip stripping.",
+      "when_to_use": "When you have some breathing space but need to address both pressure and grip control together"
+    }
+  ],
+  "conditions": [
+    "Gogoplata is established but not fully locked with maximum tightness",
+    "Opponent's hands are accessible and actively gripping their own foot behind your head",
+    "Sufficient breathing space exists to work methodically for 10-15 seconds",
+    "Base can be maintained with at least one hand while committing the other to grip fighting"
+  ],
+  "position_integration": "Hand Control to Extract occupies a specific niche in the gogoplata defense hierarchy. It sits between immediate tap (when fully caught) and basic posture defense (when position is loose). This technique becomes relevant when the gogoplata is established but not fully locked - a common scenario when defending against practitioners who are still developing their rubber guard finishing. The escape feeds into closed guard recovery, which then opens standard guard passing sequences. Understanding this escape helps practitioners remain calm when caught in gogoplata, recognizing that the position has specific defensive solutions rather than being an automatic tap. The technical awareness developed through this escape also improves offensive gogoplata application by understanding what opponents will attempt defensively."
 }

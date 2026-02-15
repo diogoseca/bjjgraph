@@ -21,37 +21,37 @@ description: "Master Piranha Guard Bottom in BJJ. Aggressive lapel-based guard w
     {
       "@type": "HowToStep",
       "name": "Execute Pendulum Sweep",
-      "text": "From this position, attempt Pendulum Sweep. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Pendulum Sweep. This technique is attempted in 21% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Collar Drag",
-      "text": "From this position, attempt Collar Drag. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Collar Drag. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute De La Riva Sweep",
-      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Berimbolo Entry",
-      "text": "From this position, attempt Berimbolo Entry. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Berimbolo Entry. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,21 +210,25 @@ From a tactical perspective, Piranha Guard represents the evolution of modern la
 
 ## Available Escapes
 
-### [[Pendulum Sweep]] (15% of attempts)
+### [[Pendulum Sweep]] (21% of attempts)
 
-### [[Collar Drag]] (12% of attempts)
+### [[Collar Drag]] (10% of attempts)
 
-### [[Triangle Setup]] (12% of attempts)
+### [[Triangle Setup]] (10% of attempts)
 
-### [[Omoplata Sweep]] (12% of attempts)
+### [[Omoplata Sweep]] (10% of attempts)
 
-### [[De La Riva Sweep]] (12% of attempts)
+### [[De La Riva Sweep]] (10% of attempts)
 
-### [[Berimbolo Entry]] (12% of attempts)
+### [[Berimbolo Entry]] (10% of attempts)
 
-### [[Flower Sweep]] (13% of attempts)
+### [[Flower Sweep]] (11% of attempts)
 
-### [[Armbar from Guard]] (12% of attempts)
+### [[Armbar from Guard]] (10% of attempts)
+
+### [[Piranha Guard Sweep]] (5% of attempts)
+
+### [[Piranha to Worm Guard]] (3% of attempts)
 
 
 

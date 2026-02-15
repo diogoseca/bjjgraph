@@ -4,7 +4,7 @@
 
 ---
 title: "Clinch | BJJ Position Guide | BJJ Graph"
-description: "Master the clinch position in BJJ with comprehensive grip fighting, takedown setups, and standing control strategies. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
+description: "Master the clinch position in BJJ with comprehensive grip fighting, takedown setups, and standing control strategies for gi and no-gi grappling."
 ---
 
 
@@ -38,8 +38,8 @@ description: "Master the clinch position in BJJ with comprehensive grip fighting
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Snap Down",
-      "text": "From this position, attempt Snap Down. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Snap Down to Front Headlock",
+      "text": "From this position, attempt Snap Down to Front Headlock. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
@@ -135,7 +135,7 @@ description: "Master the clinch position in BJJ with comprehensive grip fighting
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Clinch",
-  "description": "Master the clinch position in BJJ with comprehensive grip fighting, takedown setups, and standing control strategies. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "description": "Master the clinch position in BJJ with comprehensive grip fighting, takedown setups, and standing control strategies for gi and no-gi grappling.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -236,7 +236,7 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 
 ### [[Body Lock Pass]] (7% of attempts)
 
-### [[Snap Down]] (8% of attempts)
+### [[Snap Down to Front Headlock]] (8% of attempts)
 
 ### [[Guard Pull]] (10% of attempts)
 
@@ -270,13 +270,13 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 
 
 **If opponent maintains upright posture with hands high and limited hip commitment:**
-- Execute **[[Snap Down]]** → [[Front Headlock]] (Probability: 65%)
+- Execute **[[Snap Down to Front Headlock]]** → [[Front Headlock]] (Probability: 65%)
 - Execute **[[Double Leg Entry]]** → [[Side Control]] (Probability: 50%)
 
 
 **If opponent secures body lock or double underhooks with head control:**
 - Execute **[[Frame Creation]]** → [[Standing Position]] (Probability: 45%)
-- Execute **[[Pull guard]]** → [[Open Guard]] (Probability: 60%)
+- Execute **[[Guard Pull]]** → [[Open Guard]] (Probability: 60%)
 
 
 **If opponent squares stance or exposes legs while grip fighting:**
@@ -285,7 +285,7 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 
 
 **If opponent posts hands or attempts to create distance:**
-- Execute **[[Snap Down]]** → [[Front Headlock]] (Probability: 65%)
+- Execute **[[Snap Down to Front Headlock]]** → [[Front Headlock]] (Probability: 65%)
 - Execute **[[High Crotch]]** → [[Side Control]] (Probability: 50%)
 
 
@@ -392,7 +392,7 @@ Focused drill exclusively on establishing and maintaining dominant head position
 |--------|------|
 | Retention Rate | 60% |
 | Advancement Probability | 60% |
-| Submission Probability | 32% |
+| Submission Probability | 5% |
 
 **Average Time in Position**: 15-45 seconds before resolution to ground or separation
 
@@ -404,16 +404,16 @@ Focused drill exclusively on establishing and maintaining dominant head position
 ## Related Positions and Techniques
 
 - **[[Body Lock]]** - Advanced clinch control with torso engagement
-- **[[Front Headlock]]** - Common transition target from clinch control
+- **[[Front Headlock]]** - Common transition target from clinch snap downs
 - **[[Standing Position]]** - General category containing clinch variations
 - **[[Double Leg Entry]]** - Primary offensive transition from clinch
 - **[[Guard Pull]]** - Alternative transition pathway to ground engagement
 - **[[Overhook Control]]** - Defensive grip configuration within clinch
-- **[[Standing Rear Clinch]]** - Advanced clinch variation with back exposure
 - **[[Arm Drag to Back]]** - High-percentage back take from clinch grip fighting
 - **[[Single Leg Takedown]]** - Essential wrestling takedown from clinch engagement
 - **[[Back Control]]** - Primary destination when arm drag succeeds
 - **[[Closed Guard]]** - Common landing position after guard pull
+- **[[Snap Down to Front Headlock]]** - Key clinch-to-control transition via level change
 
 
 </section>

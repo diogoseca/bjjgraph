@@ -1,0 +1,13 @@
+{
+  "name": "Hand Fight from Seat Belt Control",
+  "description": "",
+  "tags": [],
+  "from_position": "Seat Belt Control Back/Bottom",
+  "outcomes": [
+    {
+      "to": "Back Control/Bottom",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

@@ -95,23 +95,35 @@ The position excels against standing and combat base opponents, using leg extens
 ### Available Transitions
 
 
-- **[[Scissor Sweep]]** (14% of attempts)
+- **[[De La Riva Sweep]]** (2% of attempts)
 
-- **[[Pendulum Sweep]]** (12% of attempts)
+- **[[X-Guard Sweep]]** (1% of attempts)
 
-- **[[Hip Bump Sweep]]** (11% of attempts)
+- **[[Single Leg X Sweep]]** (3% of attempts)
 
-- **[[Triangle Setup]]** (10% of attempts)
+- **[[Elevator Sweep]]** (1% of attempts)
 
-- **[[Omoplata Sweep]]** (9% of attempts)
+- **[[Tripod Sweep]]** (66% of attempts)
 
-- **[[De La Riva Sweep]]** (11% of attempts)
+- **[[Sickle Sweep]]** (9% of attempts)
 
-- **[[X-Guard Sweep]]** (10% of attempts)
+- **[[Transition to Feet on Hips Guard]]** (8% of attempts)
 
-- **[[Single Leg X Sweep]]** (11% of attempts)
+- **[[Tomoe Nage]]** (4% of attempts)
 
-- **[[Elevator Sweep]]** (12% of attempts)
+- **[[Lumberjack Sweep]]** (3% of attempts)
+
+- **[[Guard Pull]]** (1% of attempts)
+
+- **[[Balloon Sweep]]** (1% of attempts)
+
+- **[[Feet on Hips Sickle Sweep]]** (0% of attempts)
+
+- **[[Feet on Hips Tripod Sweep]]** (0% of attempts)
+
+- **[[Feet on Hips to De La Riva]]** (0% of attempts)
+
+- **[[Push Sweep from Feet on Hips]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -176,19 +188,29 @@ The position excels against standing and combat base opponents, using leg extens
 ### Available Transitions
 
 
-- **[[Toreando Pass]]** (18% of attempts)
+- **[[Toreando Pass]]** (37% of attempts)
 
-- **[[Knee Cut Pass]]** (16% of attempts)
+- **[[Knee Cut Pass]]** (11% of attempts)
 
-- **[[Leg Drag Pass]]** (14% of attempts)
+- **[[Leg Drag Pass]]** (10% of attempts)
 
-- **[[Double Under Pass]]** (13% of attempts)
+- **[[Double Under Pass]]** (3% of attempts)
 
-- **[[Long Step Pass]]** (14% of attempts)
+- **[[Long Step Pass]]** (8% of attempts)
 
-- **[[X Pass]]** (12% of attempts)
+- **[[X Pass]]** (8% of attempts)
 
-- **[[Stack Pass]]** (13% of attempts)
+- **[[Stack Pass]]** (5% of attempts)
+
+- **[[Body Lock Pass]]** (5% of attempts)
+
+- **[[Smash Pass]]** (6% of attempts)
+
+- **[[Leg Weave Pass]]** (5% of attempts)
+
+- **[[Knee Cut from Feet on Hips]]** (1% of attempts)
+
+- **[[Pass Feet on Hips Guard]]** (1% of attempts)
 
 
 ### Common Mistakes

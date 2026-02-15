@@ -369,8 +369,8 @@ Allow partner to partially collapse frames, then practice re-establishing effect
 - [[Hip Escape Mechanics]] (Principle) - Frames provide the stable foundation from which hip escape movements can be executed effectively
 - [[Defensive Framing]] (Principle) - Closely related concept focusing on specific framing applications in defensive scenarios
 - [[Frame Management]] (Principle) - Advanced concept covering the strategic coordination and timing of frame establishment and dissolution
-- [[Elbow Escape]] (Transition) - Primary escape technique that relies fundamentally on effective frame creation to generate initial space
-- [[Frame and Shrimp]] (Transition) - Core defensive technique that explicitly integrates frame creation with hip escape movement
+- [[Elbow Escape to Guard]] (Transition) - Primary escape technique that relies fundamentally on effective frame creation to generate initial space
+- [[Frame and Shrimp to Guard]] (Transition) - Core defensive technique that explicitly integrates frame creation with hip escape movement
 - [[Side Control]] (Position) - Primary position where frame creation skills are essential for effective defense and escape
 - [[Mount]] (Position) - Dominant position requiring sophisticated frame creation to prevent advancement and create escape opportunities
 - [[Knee Shield Half Guard]] (Position) - Guard variation where the knee shield functions as the primary frame in the defensive structure

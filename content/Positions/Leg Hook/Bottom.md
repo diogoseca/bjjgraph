@@ -21,37 +21,37 @@ description: "Master Leg Hook Bottom in BJJ. Transitional half guard control wit
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 26% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Single Leg X Entry",
-      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Shin Shield Recovery",
+      "text": "From this position, attempt Shin Shield Recovery. This technique is attempted in 16% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute X-Guard to Ashi Transition",
-      "text": "From this position, attempt X-Guard to Ashi Transition. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Half Guard Recovery",
+      "text": "From this position, attempt Half Guard Recovery. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Guard Recovery",
+      "text": "From this position, attempt Guard Recovery. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -206,21 +206,25 @@ Leg Hook Bottom Position represents a critical transitional state within the hal
 
 ## Available Escapes
 
-### [[Deep Half Entry]] (14% of attempts)
+### [[Deep Half Entry]] (26% of attempts)
 
-### [[Old School Sweep]] (13% of attempts)
+### [[Old School Sweep]] (10% of attempts)
 
-### [[Underhook Sweep from Half]] (12% of attempts)
+### [[Underhook Sweep from Half]] (8% of attempts)
 
-### [[Single Leg X Entry]] (13% of attempts)
+### [[Shin Shield Recovery]] (16% of attempts)
 
-### [[X-Guard to Ashi Transition]] (11% of attempts)
+### [[Half Guard Recovery]] (10% of attempts)
 
-### [[Rolling Back Take]] (10% of attempts)
+### [[Guard Recovery]] (8% of attempts)
 
-### [[Lockdown Sweeps]] (12% of attempts)
+### [[Butterfly Hook Recovery]] (8% of attempts)
 
-### [[Shin Shield Recovery]] (15% of attempts)
+### [[Frame and Shrimp to Guard]] (8% of attempts)
+
+### [[Counter Leg Hook]] (4% of attempts)
+
+### [[Escape Leg Hook]] (2% of attempts)
 
 
 
@@ -232,7 +236,7 @@ Leg Hook Bottom Position represents a critical transitional state within the hal
 
 **If opponent drives forward with heavy pressure attempting to flatten you:**
 - Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 60%)
-- Execute **[[Frame and Shrimp]]** → [[Half Guard]] (Probability: 55%)
+- Execute **[[Frame and Shrimp to Guard]]** → [[Half Guard]] (Probability: 55%)
 
 
 **Else if opponent attempts to extract their trapped leg by stepping back or standing:**
@@ -241,7 +245,7 @@ Leg Hook Bottom Position represents a critical transitional state within the hal
 
 
 **Else if opponent establishes strong crossface and tries to flatten you completely:**
-- Execute **[[Lockdown Sweeps]]** → [[Lockdown]] (Probability: 50%)
+- Execute **[[Lockdown Recovery]]** → [[Lockdown]] (Probability: 50%)
 - Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 45%)
 
 

@@ -21,37 +21,37 @@ description: "Master offensive strategies from top Mount in BJJ. Learn control m
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Mount",
-      "text": "From this position, attempt Armbar from Mount. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Armbar from Mount. This technique is attempted in 8% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Americana from Mount",
-      "text": "From this position, attempt Americana from Mount. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Americana from Mount. This technique is attempted in 5% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Cross Collar Choke",
-      "text": "From this position, attempt Cross Collar Choke. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Cross Collar Choke. This technique is attempted in 5% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Ezekiel from Mount",
-      "text": "From this position, attempt Ezekiel from Mount. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Ezekiel from Mount. This technique is attempted in 2% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Gift Wrap to Technical Mount",
-      "text": "From this position, attempt Gift Wrap to Technical Mount. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Gift Wrap to Technical Mount. This technique is attempted in 5% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute S-Mount Transition",
-      "text": "From this position, attempt S-Mount Transition. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt S-Mount Transition. This technique is attempted in 3% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,27 +213,39 @@ Mount retention mechanics require constant adjustment. When the bottom player br
 
 ## Available Attacks
 
-### [[Armbar from Mount]] (15% of attempts)
+### [[Armbar from Mount]] (8% of attempts)
 
-### [[Americana from Mount]] (10% of attempts)
+### [[Americana from Mount]] (5% of attempts)
 
-### [[Cross Collar Choke]] (10% of attempts)
+### [[Cross Collar Choke]] (5% of attempts)
 
-### [[Ezekiel from Mount]] (7% of attempts)
+### [[Ezekiel from Mount]] (2% of attempts)
 
-### [[Gift Wrap to Technical Mount]] (10% of attempts)
+### [[Gift Wrap to Technical Mount]] (5% of attempts)
 
-### [[S-Mount Transition]] (8% of attempts)
+### [[S-Mount Transition]] (3% of attempts)
 
-### [[High Mount Transition]] (10% of attempts)
+### [[High Mount Transition]] (5% of attempts)
 
-### [[Mounted Triangle]] (7% of attempts)
+### [[Mounted Triangle]] (2% of attempts)
 
-### [[Consolidate Mount]] (13% of attempts)
+### [[Consolidate Mount]] (64% of attempts)
 
-### [[Kimura from Mount]] (5% of attempts)
+### [[Kimura from Mount]] (0% of attempts)
 
-### [[Mount Control]] (5% of attempts)
+### [[Loop Choke from Mount]] (0% of attempts)
+
+### [[Monoplata from Mount]] (0% of attempts)
+
+### [[Mount Control]] (0% of attempts)
+
+### [[Transition to 3-4 Mount]] (0% of attempts)
+
+### [[Mount to 3-4 Mount]] (0% of attempts)
+
+### [[Mount to Knee on Belly]] (0% of attempts)
+
+### [[Mount to Technical Mount]] (1% of attempts)
 
 
 

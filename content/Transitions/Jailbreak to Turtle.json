@@ -1,6 +1,6 @@
 {
   "name": "Jailbreak to Turtle",
-  "description": "Master the Jailbreak to Turtle escape in BJJ. Step-by-step inversion mechanics from half guard bottom to turtle. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "description": "Master the Jailbreak to Turtle escape in BJJ. Step-by-step inversion mechanics from half guard bottom to turtle with counters and chain options.",
   "tags": [
     "bjj",
     "transition",
@@ -14,188 +14,23 @@
   "from_position": "Jailbreak/Bottom",
   "outcomes": [
     {
-      "to": "Turtle",
+      "to": "Turtle/Bottom",
       "probability": 55,
       "result": "success"
     },
     {
-      "to": "Jailbreak",
+      "to": "Jailbreak/Bottom",
       "probability": 30,
       "result": "failure"
     },
     {
-      "to": "Side Control",
+      "to": "Side Control/Bottom",
       "probability": 15,
       "result": "counter"
     }
   ],
+  "success_rate": 55,
   "overview": "The Jailbreak to Turtle transition represents a critical escape pathway from compressed half guard bottom when traditional framing and shrimping defenses have been neutralized. This technique leverages explosive inversion mechanics to convert the opponent's forward pressure into rotational momentum, allowing the bottom player to roll through to turtle position and reset the engagement. Popularized within the 10th Planet system, this escape has become essential for modern no-gi competitors facing aggressive pressure passers.\n\nThe biomechanical foundation of this escape relies on maintaining underhook connection while inverting the spine and shoulders toward the mat. When the top player commits weight forward for the pass, their base becomes vulnerable to being rolled through. The underhook serves as the anchor point that prevents separation during the roll and enables directional control of the escape trajectory. Timing is paramount—executing too early without sufficient pressure commitment results in the top player basing out, while executing too late means being flattened beyond recovery.\n\nFrom a game theory perspective, Jailbreak to Turtle creates a strategic dilemma for the top player. Driving forward pressure to complete the pass opens vulnerability to the rolling escape, while backing off to prevent the roll allows the bottom player to recover guard frames. This technique chains naturally into turtle attacks and back takes, making it both a defensive escape and an offensive transition when the opponent follows the roll.",
-  "key_principles": [
-    "Maintain underhook connection throughout the entire rolling sequence to prevent separation and control escape direction",
-    "Time the escape when opponent commits weight forward, using their momentum against them rather than fighting pressure directly",
-    "Generate explosive hip rotation and inversion momentum through committed movement—partial execution results in worse position",
-    "Keep chin tucked to chest throughout the roll to protect cervical spine and enable smooth granby-style rotation",
-    "Use free leg actively to push off mat and create propulsion for the inverting motion",
-    "Read opponent's base width and pressure commitment to determine optimal timing window for escape initiation"
-  ],
-  "setup_requirements": [
-    "Secure underhook on same side as trapped leg with elbow tight to your hip creating structural connection",
-    "Top player has committed weight forward with crossface or shoulder pressure compromising your frames",
-    "Hips turned toward trapped leg side with space to initiate inversion without being completely chest-pinned",
-    "Free leg posted against mat or opponent's hip ready to generate propulsion",
-    "Traditional half guard retention compromised—shrimping and framing no longer creating adequate space"
-  ],
-  "execution_steps": [
-    {
-      "step_number": 1,
-      "action": "Secure underhook",
-      "description": "Establish deep underhook on the same side as your trapped leg, driving your elbow tight to your own hip to create a structural frame that prevents the opponent from driving flattening pressure through the connection point."
-    },
-    {
-      "step_number": 2,
-      "action": "Turn hips",
-      "description": "Rotate your hips toward your trapped leg side, angling your body to face the direction of the roll while maintaining underhook connection. This angular positioning creates the momentum vector for the inversion."
-    },
-    {
-      "step_number": 3,
-      "action": "Tuck chin",
-      "description": "Pull your chin firmly to your chest, rounding your shoulders and spine to protect your neck during the rolling motion. Look toward your own belt line to ensure proper spinal alignment throughout the inversion sequence."
-    },
-    {
-      "step_number": 4,
-      "action": "Push with free leg",
-      "description": "Drive explosively off the mat with your free leg, generating propulsion for the rolling motion. The push should angle toward the direction of your underhook, creating rotational force to roll through the opponent's pressure."
-    },
-    {
-      "step_number": 5,
-      "action": "Invert shoulders",
-      "description": "Roll your shoulders toward the mat in a granby-style motion, using the momentum from your leg push and the opponent's forward pressure to rotate your body. Maintain tight underhook throughout to prevent separation during the roll."
-    },
-    {
-      "step_number": 6,
-      "action": "Complete to turtle",
-      "description": "Continue the rolling motion until you establish turtle position with knees and hands on mat. Immediately protect your neck and far arm from chokes while assessing options for guard recovery, standing, or back attack if opponent followed."
-    }
-  ],
-  "common_counters": [
-    {
-      "counter": "Top player sprawls hips back and bases wide when sensing the roll initiation, preventing forward momentum exploitation",
-      "effectiveness": "High",
-      "your_response": "If opponent bases wide, abandon the jailbreak and switch to deep half entry by diving underneath their hips, or threaten old school sweep to force reaction"
-    },
-    {
-      "counter": "Top player follows the roll and immediately attacks turtle with front headlock or back control attempts",
-      "effectiveness": "Medium",
-      "your_response": "Continue rolling momentum into a back take by using your underhook to pull yourself behind them as they chase, or immediately sit through to guard recovery"
-    },
-    {
-      "counter": "Top player strips underhook during the roll attempt and drives to side control",
-      "effectiveness": "High",
-      "your_response": "If underhook is compromised, abort the jailbreak immediately and establish emergency frames to prevent complete pass, then work standard side control escapes"
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Attempting jailbreak without securing underhook first or losing underhook during the roll",
-      "consequence": "Top player easily separates and follows to mount or side control with no connection to control their position",
-      "correction": "Establish death grip on underhook before initiating and maintain elbow-to-hip connection throughout the entire rolling sequence"
-    },
-    {
-      "error": "Rolling too slowly without explosive commitment to the movement",
-      "consequence": "Top player has time to base out, adjust weight distribution, or follow the roll to maintain dominant position",
-      "correction": "Generate explosive hip rotation and commit fully once initiated—partial execution strands you in worse position than starting point"
-    },
-    {
-      "error": "Failing to tuck chin during the inversion causing neck to extend",
-      "consequence": "Risk of cervical spine injury from awkward neck positioning and inability to complete smooth rolling motion",
-      "correction": "Pull chin firmly to chest before initiating, look at your belt throughout the roll to maintain protective spinal flexion"
-    },
-    {
-      "error": "Not using free leg to generate propulsion for the roll",
-      "consequence": "Insufficient momentum to complete the inversion, getting stuck mid-escape in compromised position",
-      "correction": "Actively push off mat with free leg simultaneously with shoulder inversion to create necessary rotational force"
-    },
-    {
-      "error": "Initiating escape when opponent's weight is not committed forward",
-      "consequence": "Opponent easily bases out and counters by driving back into half guard top or transitioning to pass",
-      "correction": "Wait for opponent to commit weight forward for the pass before executing—their forward pressure is the energy source for the escape"
-    }
-  ],
-  "training_progressions": [
-    {
-      "phase": "Week 1-2",
-      "focus": "Mechanics isolation",
-      "description": "Practice the rolling motion solo and with compliant partner. Focus on underhook positioning, chin tuck, and granby-style inversion without resistance. Build muscle memory for the movement pattern and body awareness for the inversion."
-    },
-    {
-      "phase": "Week 3-4",
-      "focus": "Timing development",
-      "description": "Partner applies moderate forward pressure while you read weight commitment and execute escape at optimal moment. Focus on recognizing when opponent's base is vulnerable versus when they are well-posted. Alternate between jailbreak and deep half entries based on pressure."
-    },
-    {
-      "phase": "Week 5-6",
-      "focus": "Chain combinations",
-      "description": "Practice jailbreak to turtle then immediately chain to guard recovery, standing, or back take depending on opponent's reaction. Add partner following the roll to practice continuing momentum into offensive transitions rather than stopping at turtle."
-    },
-    {
-      "phase": "Week 7+",
-      "focus": "Live integration",
-      "description": "Incorporate jailbreak into positional sparring from half guard bottom. Work against fully resisting opponents who know the technique is coming. Focus on setting up the escape with other threats and executing when genuine openings appear."
-    }
-  ],
-  "variants_and_adaptations": [
-    {
-      "variant_name": "Jailbreak to Back Take",
-      "description": "When opponent follows the rolling motion attempting to maintain control, continue the momentum rather than stopping at turtle. Use your underhook to pull yourself behind them as they chase, establishing back control from their follow attempt.",
-      "when_to_use": "When opponent commits to following your roll rather than basing out or disengaging"
-    },
-    {
-      "variant_name": "Shallow Jailbreak to Re-Guard",
-      "description": "Execute a shorter, shallower version of the roll that creates just enough separation to immediately sit through and recover guard rather than completing to full turtle. Requires less flexibility and commitment than full jailbreak.",
-      "when_to_use": "When you need quick separation but want to maintain guard position rather than transitioning to turtle game"
-    },
-    {
-      "variant_name": "Lockdown to Jailbreak Chain",
-      "description": "Use lockdown control to initially stop the pass and recover energy, then release lockdown and immediately execute jailbreak when opponent drives forward expecting to complete the pass after the release.",
-      "when_to_use": "When initial jailbreak timing was missed and you need to reset the engagement before attempting again"
-    }
-  ],
-  "knowledge_assessment": [
-    {
-      "question": "What is the primary goal of Jailbreak to Turtle?",
-      "answer": "The primary goal is to escape crushing half guard pressure by converting the opponent's forward weight commitment into rotational momentum, rolling through their pressure to establish turtle position. This resets the engagement and opens offensive opportunities including guard recovery, standing, or back takes if the opponent follows the roll."
-    },
-    {
-      "question": "What is the single most critical control point that must be maintained throughout the escape?",
-      "answer": "The underhook on the same side as your trapped leg is the essential control point. This underhook prevents the top player from separating during the roll, provides directional control of the escape trajectory, and enables you to pull into back control if they follow. Without maintaining this underhook, the top player can disengage and follow to mount or side control freely."
-    },
-    {
-      "question": "Your opponent drives heavy crossface pressure and commits weight forward - what adjustment enables the escape?",
-      "answer": "This forward weight commitment is actually the optimal trigger for the escape. Rather than fighting the pressure with frames, use their momentum against them by tightening your underhook, tucking your chin, and explosively rolling through their committed weight. Their forward pressure becomes the energy source that enables the inversion when properly redirected."
-    },
-    {
-      "question": "How do you determine whether to attempt jailbreak versus switching to deep half entry?",
-      "answer": "The decision depends on opponent's weight distribution and base width. Jailbreak is optimal when they commit weight forward with narrow base, making them vulnerable to being rolled. Deep half entry is better when they base wide with hips back to prevent the roll, as this defensive posture creates space to dive underneath. Forward commitment means jailbreak; wide defensive base means deep half."
-    },
-    {
-      "question": "Your underhook gets stripped mid-roll - what is the recovery protocol?",
-      "answer": "Immediately abort the jailbreak attempt when the underhook is lost. Without this connection, the escape mechanics fail and the opponent will follow to mount or side control. Switch to emergency defense by establishing frames against their shoulder and hip while shrimping to recover half guard, or continue to turtle and play defensive turtle escapes if you cannot recover the underhook."
-    },
-    {
-      "question": "What timing cue indicates the opponent is vulnerable to the jailbreak escape?",
-      "answer": "The optimal timing window opens when the opponent drives their chest pressure forward and commits their hips toward you to complete the pass. At this moment their base narrows, their weight shifts forward of their hips, and they become vulnerable to being rolled through. The sensation is their weight loading onto your upper body—this forward commitment is the trigger to execute."
-    },
-    {
-      "question": "How do you chain offensive options if the opponent follows your roll to turtle?",
-      "answer": "If the opponent follows the roll, continue your momentum rather than stopping at turtle. Use your underhook connection to pull yourself behind them as they chase, establishing back control from their follow attempt. Alternatively, immediately sit through toward the direction they came from to recover guard before they can establish turtle top control. The key is staying dynamic rather than settling into static turtle."
-    },
-    {
-      "question": "What body mechanics protect the cervical spine during the inversion?",
-      "answer": "Pull your chin firmly to your chest before initiating the roll, looking toward your own belt line throughout the movement. This spinal flexion rounds the shoulders and protects the neck from compression forces during the inversion. Never extend the neck or look up during the roll—maintaining the tucked chin position is essential for safe execution of the granby-style rotation."
-    }
-  ],
-  "safety_considerations": "The Jailbreak to Turtle requires proper cervical spine protection throughout the inversion. Always tuck chin firmly to chest before initiating and maintain this position throughout the roll—extending the neck during inversion risks compression injury. Build flexibility and body awareness through progressive drilling before attempting against resistance. Avoid this technique if you have existing neck injuries or limited spinal mobility. When training, communicate with partners about resistance levels and ensure controlled execution. The explosive nature of the movement means partners should be prepared for sudden motion. Stop immediately if any neck discomfort occurs during practice.",
-  "position_integration": "Jailbreak to Turtle serves as a critical escape valve in the half guard bottom system, activating when traditional framing and shrimping defenses have been compromised by skilled pressure passing. This technique connects the defensive half guard position to the neutral turtle position, creating a reset point from which multiple offensive and defensive options become available. The escape chains naturally into turtle attacks including sit-throughs to guard, technical standups, and back takes when opponents follow the roll. Within the broader BJJ system, mastering this transition provides insurance against being flattened and passed, allowing practitioners to remain threatening even from compromised bottom positions. The technique integrates with lockdown control, deep half entries, and old school sweeps as alternative responses to half guard top pressure, creating a decision tree that keeps opponents guessing.",
   "related_content": [
     {
       "name": "Jailbreak",
@@ -222,11 +57,11 @@
       "relationship": "Chain destination - achieved when opponent follows the roll"
     },
     {
-      "name": "Old School",
+      "name": "Old School Sweep",
       "relationship": "Related technique - uses similar underhook mechanics from half guard"
     },
     {
-      "name": "Granby Roll Escape",
+      "name": "Granby Roll to Guard",
       "relationship": "Related movement - shares inversion mechanics with jailbreak"
     },
     {
@@ -234,5 +69,323 @@
       "relationship": "Follow-up option - common chain from turtle after jailbreak escape"
     }
   ],
-  "success_rate": 58
+  "conditions": [
+    "Underhook secured on same side as trapped leg with structural elbow-to-hip connection",
+    "Top player has committed weight forward with crossface or shoulder pressure compromising bottom frames",
+    "Traditional half guard retention (shrimping, framing) has been neutralized by opponent's pressure",
+    "Sufficient hip mobility to initiate inversion without being completely chest-pinned to mat",
+    "Free leg available to post against mat or opponent's hip for propulsion"
+  ],
+  "attacker": {
+    "name": "Jailbreak to Turtle Attacker",
+    "description": "How to execute Jailbreak to Turtle in BJJ. Attacking perspective with setup, execution steps, and counters for escaping compressed half guard.",
+    "overview": "The Jailbreak to Turtle escape converts the opponent's forward pressure into rotational momentum, rolling through their committed weight to establish turtle position. This technique requires explosive inversion mechanics anchored by underhook connection throughout the entire rolling sequence. The escape is most effective when the top player drives forward to complete the pass, creating the exact conditions that make the roll mechanically viable. Mastering this transition provides a critical escape valve from compressed half guard and chains into guard recovery, technical standups, and back takes when opponents follow the roll.",
+    "key_principles": [
+      "Maintain underhook connection throughout the entire rolling sequence to prevent separation and control escape direction",
+      "Time the escape when opponent commits weight forward, using their momentum against them rather than fighting pressure directly",
+      "Generate explosive hip rotation and inversion momentum through committed movement—partial execution results in worse position",
+      "Keep chin tucked to chest throughout the roll to protect cervical spine and enable smooth granby-style rotation",
+      "Use free leg actively to push off mat and create propulsion for the inverting motion",
+      "Read opponent's base width and pressure commitment to determine optimal timing window for escape initiation"
+    ],
+    "setup_requirements": [
+      "Secure underhook on same side as trapped leg with elbow tight to your hip creating structural connection",
+      "Top player has committed weight forward with crossface or shoulder pressure compromising your frames",
+      "Hips turned toward trapped leg side with space to initiate inversion without being completely chest-pinned",
+      "Free leg posted against mat or opponent's hip ready to generate propulsion",
+      "Traditional half guard retention compromised—shrimping and framing no longer creating adequate space"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Secure underhook",
+        "description": "Establish deep underhook on the same side as your trapped leg, driving your elbow tight to your own hip to create a structural frame that prevents the opponent from driving flattening pressure through the connection point."
+      },
+      {
+        "step_number": 2,
+        "action": "Turn hips toward trapped leg",
+        "description": "Rotate your hips toward your trapped leg side, angling your body to face the direction of the roll while maintaining underhook connection. This angular positioning creates the momentum vector for the inversion."
+      },
+      {
+        "step_number": 3,
+        "action": "Tuck chin to chest",
+        "description": "Pull your chin firmly to your chest, rounding your shoulders and spine to protect your neck during the rolling motion. Look toward your own belt line to ensure proper spinal alignment throughout the inversion sequence."
+      },
+      {
+        "step_number": 4,
+        "action": "Push explosively with free leg",
+        "description": "Drive explosively off the mat with your free leg, generating propulsion for the rolling motion. The push should angle toward the direction of your underhook, creating rotational force to roll through the opponent's pressure."
+      },
+      {
+        "step_number": 5,
+        "action": "Invert shoulders in granby motion",
+        "description": "Roll your shoulders toward the mat in a granby-style motion, using the momentum from your leg push and the opponent's forward pressure to rotate your body. Maintain tight underhook throughout to prevent separation during the roll."
+      },
+      {
+        "step_number": 6,
+        "action": "Complete roll to turtle base",
+        "description": "Continue the rolling motion until you establish turtle position with knees and hands on mat. Immediately protect your neck and far arm from chokes while assessing options for guard recovery, standing, or back attack if opponent followed."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Top player sprawls hips back and bases wide when sensing the roll initiation, preventing forward momentum exploitation",
+        "effectiveness": "High",
+        "your_response": "If opponent bases wide, abandon the jailbreak and switch to deep half entry by diving underneath their hips, or threaten old school sweep to force reaction",
+        "targets_outcome": "Jailbreak/Bottom"
+      },
+      {
+        "counter": "Top player follows the roll and immediately attacks turtle with front headlock or back control attempts",
+        "effectiveness": "Medium",
+        "your_response": "Continue rolling momentum into a back take by using your underhook to pull yourself behind them as they chase, or immediately sit through to guard recovery",
+        "targets_outcome": "Turtle/Bottom"
+      },
+      {
+        "counter": "Top player strips underhook during the roll attempt and drives to side control",
+        "effectiveness": "High",
+        "your_response": "If underhook is compromised, abort the jailbreak immediately and establish emergency frames to prevent complete pass, then work standard side control escapes",
+        "targets_outcome": "Side Control/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting jailbreak without securing underhook first or losing underhook during the roll",
+        "consequence": "Top player easily separates and follows to mount or side control with no connection to control their position",
+        "correction": "Establish death grip on underhook before initiating and maintain elbow-to-hip connection throughout the entire rolling sequence"
+      },
+      {
+        "error": "Rolling too slowly without explosive commitment to the movement",
+        "consequence": "Top player has time to base out, adjust weight distribution, or follow the roll to maintain dominant position",
+        "correction": "Generate explosive hip rotation and commit fully once initiated—partial execution strands you in worse position than starting point"
+      },
+      {
+        "error": "Failing to tuck chin during the inversion causing neck to extend",
+        "consequence": "Risk of cervical spine injury from awkward neck positioning and inability to complete smooth rolling motion",
+        "correction": "Pull chin firmly to chest before initiating, look at your belt throughout the roll to maintain protective spinal flexion"
+      },
+      {
+        "error": "Not using free leg to generate propulsion for the roll",
+        "consequence": "Insufficient momentum to complete the inversion, getting stuck mid-escape in compromised position",
+        "correction": "Actively push off mat with free leg simultaneously with shoulder inversion to create necessary rotational force"
+      },
+      {
+        "error": "Initiating escape when opponent's weight is not committed forward",
+        "consequence": "Opponent easily bases out and counters by driving back into half guard top or transitioning to pass",
+        "correction": "Wait for opponent to commit weight forward for the pass before executing—their forward pressure is the energy source for the escape"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Mechanics isolation",
+        "description": "Practice the rolling motion solo and with compliant partner. Focus on underhook positioning, chin tuck, and granby-style inversion without resistance. Build muscle memory for the movement pattern and body awareness for the inversion."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Timing development",
+        "description": "Partner applies moderate forward pressure while you read weight commitment and execute escape at optimal moment. Focus on recognizing when opponent's base is vulnerable versus when they are well-posted. Alternate between jailbreak and deep half entries based on pressure."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Chain combinations",
+        "description": "Practice jailbreak to turtle then immediately chain to guard recovery, standing, or back take depending on opponent's reaction. Add partner following the roll to practice continuing momentum into offensive transitions rather than stopping at turtle."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live integration",
+        "description": "Incorporate jailbreak into positional sparring from half guard bottom. Work against fully resisting opponents who know the technique is coming. Focus on setting up the escape with other threats and executing when genuine openings appear."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary goal of Jailbreak to Turtle?",
+        "answer": "The primary goal is to escape crushing half guard pressure by converting the opponent's forward weight commitment into rotational momentum, rolling through their pressure to establish turtle position. This resets the engagement and opens offensive opportunities including guard recovery, standing, or back takes if the opponent follows the roll."
+      },
+      {
+        "question": "What is the single most critical control point that must be maintained throughout the escape?",
+        "answer": "The underhook on the same side as your trapped leg is the essential control point. This underhook prevents the top player from separating during the roll, provides directional control of the escape trajectory, and enables you to pull into back control if they follow. Without maintaining this underhook, the top player can disengage and follow to mount or side control freely."
+      },
+      {
+        "question": "Your opponent drives heavy crossface pressure and commits weight forward - what adjustment enables the escape?",
+        "answer": "This forward weight commitment is actually the optimal trigger for the escape. Rather than fighting the pressure with frames, use their momentum against them by tightening your underhook, tucking your chin, and explosively rolling through their committed weight. Their forward pressure becomes the energy source that enables the inversion when properly redirected."
+      },
+      {
+        "question": "How do you determine whether to attempt jailbreak versus switching to deep half entry?",
+        "answer": "The decision depends on opponent's weight distribution and base width. Jailbreak is optimal when they commit weight forward with narrow base, making them vulnerable to being rolled. Deep half entry is better when they base wide with hips back to prevent the roll, as this defensive posture creates space to dive underneath. Forward commitment means jailbreak; wide defensive base means deep half."
+      },
+      {
+        "question": "Your underhook gets stripped mid-roll - what is the recovery protocol?",
+        "answer": "Immediately abort the jailbreak attempt when the underhook is lost. Without this connection, the escape mechanics fail and the opponent will follow to mount or side control. Switch to emergency defense by establishing frames against their shoulder and hip while shrimping to recover half guard, or continue to turtle and play defensive turtle escapes if you cannot recover the underhook."
+      },
+      {
+        "question": "What timing cue indicates the opponent is vulnerable to the jailbreak escape?",
+        "answer": "The optimal timing window opens when the opponent drives their chest pressure forward and commits their hips toward you to complete the pass. At this moment their base narrows, their weight shifts forward of their hips, and they become vulnerable to being rolled through. The sensation is their weight loading onto your upper body—this forward commitment is the trigger to execute."
+      },
+      {
+        "question": "How do you chain offensive options if the opponent follows your roll to turtle?",
+        "answer": "If the opponent follows the roll, continue your momentum rather than stopping at turtle. Use your underhook connection to pull yourself behind them as they chase, establishing back control from their follow attempt. Alternatively, immediately sit through toward the direction they came from to recover guard before they can establish turtle top control. The key is staying dynamic rather than settling into static turtle."
+      },
+      {
+        "question": "What body mechanics protect the cervical spine during the inversion?",
+        "answer": "Pull your chin firmly to your chest before initiating the roll, looking toward your own belt line throughout the movement. This spinal flexion rounds the shoulders and protects the neck from compression forces during the inversion. Never extend the neck or look up during the roll—maintaining the tucked chin position is essential for safe execution of the granby-style rotation."
+      },
+      {
+        "question": "Your opponent posts their hand wide on the mat to base out against the roll - how do you adjust?",
+        "answer": "When the opponent posts wide to prevent the roll, their weight shifts laterally and their forward pressure decreases. This opens two options: switch to a deep half entry by diving underneath their now-elevated hips, or threaten the old school sweep using your underhook to attack their compromised lateral base. The wide post specifically defeats jailbreak mechanics, so recognize this cue and transition to alternative attacks rather than forcing the roll."
+      },
+      {
+        "question": "What grip configuration on the underhook maximizes control during the rolling sequence?",
+        "answer": "The underhook should be deep with your hand reaching to their far lat or shoulder blade, and your elbow pinched tight against your own hip creating a locked structural connection. Avoid a shallow underhook where only your forearm contacts their side—this allows them to whizzer and strip during the roll. The elbow-to-hip connection is the critical detail that transforms the underhook from a grip into a mechanical fulcrum for the entire escape."
+      },
+      {
+        "question": "What is the correct direction of force application during the free leg push-off?",
+        "answer": "The free leg should push at approximately a 45-degree angle toward the direction of your underhook and shoulder inversion, not straight back or straight to the side. This diagonal force vector creates rotational momentum that combines with the shoulder inversion to generate the rolling motion. Pushing straight back only creates linear movement that the top player can absorb, while the angular push creates the spiral force needed to roll through their base."
+      }
+    ],
+    "safety_considerations": "The Jailbreak to Turtle requires proper cervical spine protection throughout the inversion. Always tuck chin firmly to chest before initiating and maintain this position throughout the roll—extending the neck during inversion risks compression injury. Build flexibility and body awareness through progressive drilling before attempting against resistance. Avoid this technique if you have existing neck injuries or limited spinal mobility. When training, communicate with partners about resistance levels and ensure controlled execution. The explosive nature of the movement means partners should be prepared for sudden motion. Stop immediately if any neck discomfort occurs during practice."
+  },
+  "defender": {
+    "name": "Jailbreak to Turtle Defender",
+    "description": "How to defend against Jailbreak to Turtle in BJJ. Recognition cues, defensive options, and strategies for preventing the rolling escape from half guard top.",
+    "overview": "Defending the Jailbreak to Turtle requires the top player to recognize early warning signs of the inversion attempt and respond with precise base adjustments and grip control. As the half guard top player, you are driving forward pressure to complete the pass, which is exactly the energy the bottom player needs for the jailbreak roll. The defensive challenge is maintaining enough forward pressure to prevent guard recovery while avoiding the over-commitment that enables the rolling escape. Successful defense relies on reading the bottom player's hip angle, underhook depth, and free leg positioning to anticipate the escape before it launches. When you identify jailbreak setup indicators, the priority shifts from completing the pass to neutralizing the escape mechanics—primarily by widening your base, controlling the underhook arm, and managing your weight distribution to stay behind your hips rather than loading forward onto the bottom player's chest.",
+    "key_principles": [
+      "Monitor the depth and tightness of opponent's underhook—this is the mechanical fulcrum enabling the entire escape",
+      "Maintain base width sufficient to prevent being rolled while still applying passing pressure",
+      "Keep your hips behind your shoulders to prevent forward weight commitment that fuels the inversion",
+      "Strip or neutralize the underhook before it becomes structurally locked with elbow-to-hip connection",
+      "Control opponent's free leg to eliminate the push-off propulsion source for the rolling motion",
+      "Recognize hip turning toward trapped leg side as the primary pre-roll indicator and react immediately"
+    ],
+    "recognition_cues": [
+      "Bottom player secures deep underhook on their trapped leg side with elbow driving tight to their own hip, establishing the structural connection needed for the roll",
+      "Bottom player's hips begin rotating toward their trapped leg side with shoulders angling toward the mat, creating the angular momentum vector for inversion",
+      "Bottom player's free leg actively posts against the mat or your hip rather than fighting for half guard retention, indicating they are loading propulsion for explosive movement",
+      "Bottom player tucks their chin to chest and rounds their shoulders, adopting the protective spinal position required for the granby-style roll",
+      "Bottom player stops fighting for frames and traditional shrimping escapes, shifting their energy toward underhook depth and hip positioning"
+    ],
+    "defensive_options": [
+      {
+        "action": "Sprawl hips back and widen base laterally to remove forward weight commitment that powers the roll",
+        "when_to_use": "When you sense the bottom player's hips turning and underhook deepening—the earliest recognition cue before the roll initiates",
+        "targets_outcome": "Jailbreak/Bottom",
+        "if_successful": "Bottom player cannot generate sufficient rotational momentum, stalling the escape and allowing you to re-engage passing pressure from a safer base position",
+        "risk": "Backing off pressure may allow bottom player to recover half guard frames or transition to deep half entry"
+      },
+      {
+        "action": "Strip or whizzer the underhook arm by driving your overhook deep and circling your elbow inside to break the structural connection",
+        "when_to_use": "When you feel the underhook locking in with elbow-to-hip tightness but before the bottom player initiates the explosive roll",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "Without the underhook, the jailbreak mechanics collapse completely—continue driving forward to complete the pass to side control",
+        "risk": "Fighting for the underhook strip can temporarily reduce your passing pressure, opening other escape paths"
+      },
+      {
+        "action": "Block the free leg by pinning it to the mat with your near knee or hand, eliminating the push-off propulsion source",
+        "when_to_use": "When you see the bottom player posting their free leg against the mat in preparation for the explosive push-off phase",
+        "targets_outcome": "Jailbreak/Bottom",
+        "if_successful": "Without free leg propulsion, the bottom player lacks the explosive force to complete the inversion and remains stuck in compressed half guard",
+        "risk": "Shifting attention to leg control may loosen your crossface or upper body pressure, allowing frame recovery"
+      },
+      {
+        "action": "Follow the roll with chest pressure maintained, immediately establishing front headlock or back control as they complete to turtle",
+        "when_to_use": "When the roll has already initiated and cannot be stopped—commit to following rather than fighting the momentum",
+        "targets_outcome": "Turtle/Bottom",
+        "if_successful": "You arrive at turtle top with immediate attacking position, converting their escape into your offensive opportunity with front headlock or back take",
+        "risk": "If bottom player continues momentum into back take chain, you may end up giving up back control"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Jailbreak/Bottom",
+        "how": "Sprawl hips back and widen your base the moment you feel the bottom player's hips turning and underhook deepening. Remove your forward weight commitment that powers the roll while maintaining crossface control. This stalls the escape and forces them to re-engage from a neutral jailbreak position where you can resume passing."
+      },
+      {
+        "outcome": "Side Control/Bottom",
+        "how": "Strip the underhook by driving a deep whizzer and circling your elbow inside to break the structural connection. Once the underhook is defeated, immediately drive forward pressure to flatten the bottom player and complete the pass to side control. The underhook strip must happen before the roll initiates—once they are mid-inversion with underhook intact, this option is gone."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Continuing to drive forward pressure after recognizing the jailbreak setup, feeding energy into the escape",
+        "consequence": "Your forward weight commitment becomes the rotational force that powers the inversion, making the escape easier and more explosive",
+        "correction": "The moment you recognize jailbreak indicators (deep underhook, hip turn, chin tuck), immediately shift your hips back and widen your base to remove forward momentum from the equation"
+      },
+      {
+        "error": "Attempting to hold position through brute strength rather than adjusting base and weight distribution",
+        "consequence": "The jailbreak uses your committed weight against you—muscling down actually increases the rotational force available to the bottom player",
+        "correction": "Address the escape mechanically by widening base and repositioning hips behind shoulders rather than simply driving harder, which feeds the very energy source the escape requires"
+      },
+      {
+        "error": "Ignoring the underhook establishment and focusing only on completing the pass",
+        "consequence": "A locked underhook with elbow-to-hip connection is the structural requirement for the jailbreak—allowing it to set unopposed guarantees the escape becomes available",
+        "correction": "Treat underhook prevention as your highest priority in half guard top. Use whizzer, overhook, and arm control to prevent the underhook from locking in before addressing the pass"
+      },
+      {
+        "error": "Panicking and pulling away completely when sensing the roll, creating excessive space",
+        "consequence": "Complete disengagement gives the bottom player freedom to recover full guard, stand up, or establish deep half—all better positions than the compressed half guard you had",
+        "correction": "Adjust base and weight distribution without fully disengaging. Widen stance and shift hips back while maintaining upper body contact and crossface to preserve passing pressure"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that the bottom player is setting up the jailbreak escape?",
+        "answer": "The earliest cue is the bottom player establishing a deep underhook on their trapped leg side with their elbow driving tight to their own hip. This structural connection is the mechanical requirement for the entire escape. Before the hip turn, chin tuck, or free leg post, the underhook establishment signals jailbreak intent and should trigger immediate defensive adjustments to strip or neutralize it."
+      },
+      {
+        "question": "Your bottom opponent has a deep underhook and their hips start turning - what is your immediate response?",
+        "answer": "Immediately sprawl your hips back and widen your base laterally. This removes the forward weight commitment that powers the inversion and makes your center of gravity too far back to be rolled. Simultaneously work to strip the underhook with a deep whizzer or overhook. Do not continue driving forward—your forward pressure is the energy source the bottom player needs to execute the roll."
+      },
+      {
+        "question": "Why is simply driving harder into the bottom player a flawed defensive response to the jailbreak?",
+        "answer": "The jailbreak specifically uses the top player's forward weight commitment as rotational energy for the escape. Driving harder loads more weight forward of your hips, narrowing your base and increasing the momentum available for the inversion. The correct response is the opposite—shift weight behind your hips and widen base to remove the very energy source the technique exploits. Fighting force with force plays directly into the escape's mechanics."
+      },
+      {
+        "question": "The jailbreak roll has already initiated and you cannot stop it - what is the best response?",
+        "answer": "If the roll is already in motion, commit to following it with chest pressure maintained rather than fighting the momentum. As the bottom player completes to turtle, immediately establish front headlock control or begin inserting hooks for back control. Convert their escape into your offensive position at turtle top. The worst response is partially resisting mid-roll, which creates a scramble where neither player has control."
+      },
+      {
+        "question": "How do you maintain effective passing pressure while preventing the jailbreak escape?",
+        "answer": "The key is controlling your center of gravity relative to your base. Keep your hips behind your shoulders rather than loading chest-first onto the bottom player. Apply pressure through a wide base with shoulder pressure angled downward rather than forward. This maintains uncomfortable control while keeping your weight distribution safe from being rolled. Additionally, prioritize underhook prevention through whizzer and overhook control, as without the underhook the jailbreak is mechanically impossible regardless of your weight distribution."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Recognition drilling",
+        "description": "Partner slowly sets up jailbreak from half guard bottom while you identify each recognition cue: underhook depth, hip angle, chin tuck, free leg posting. Practice calling out each cue verbally before partner executes. Build pattern recognition without attempting to counter yet."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Base adjustment responses",
+        "description": "Partner sets up jailbreak at moderate speed while you practice the three primary defensive responses: sprawl and widen base, strip the underhook with whizzer, and block the free leg. Alternate between responses each repetition to build versatile defensive reactions to the same stimulus."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Follow-the-roll practice",
+        "description": "Partner executes the full jailbreak roll while you practice following with maintained chest pressure to establish turtle top position. Focus on smooth transitions from half guard top through the roll to front headlock or back take entries. Develop comfort with the dynamic movement rather than fighting it."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live integration with mixed threats",
+        "description": "Positional sparring from half guard top where partner can attempt jailbreak, deep half, old school sweep, or lockdown. Practice reading which escape is being attempted and applying the correct defensive response. Develop the ability to maintain passing pressure while staying alert to jailbreak indicators in real-time exchanges."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Jailbreak to Back Take",
+      "description": "When opponent follows the rolling motion attempting to maintain control, continue the momentum rather than stopping at turtle. Use your underhook to pull yourself behind them as they chase, establishing back control from their follow attempt.",
+      "when_to_use": "When opponent commits to following your roll rather than basing out or disengaging"
+    },
+    {
+      "variant_name": "Shallow Jailbreak to Re-Guard",
+      "description": "Execute a shorter, shallower version of the roll that creates just enough separation to immediately sit through and recover guard rather than completing to full turtle. Requires less flexibility and commitment than full jailbreak.",
+      "when_to_use": "When you need quick separation but want to maintain guard position rather than transitioning to turtle game"
+    },
+    {
+      "variant_name": "Lockdown to Jailbreak Chain",
+      "description": "Use lockdown control to initially stop the pass and recover energy, then release lockdown and immediately execute jailbreak when opponent drives forward expecting to complete the pass after the release.",
+      "when_to_use": "When initial jailbreak timing was missed and you need to reset the engagement before attempting again"
+    }
+  ],
+  "position_integration": "Jailbreak to Turtle serves as a critical escape valve in the half guard bottom system, activating when traditional framing and shrimping defenses have been compromised by skilled pressure passing. This technique connects the defensive half guard position to the neutral turtle position, creating a reset point from which multiple offensive and defensive options become available. The escape chains naturally into turtle attacks including sit-throughs to guard, technical standups, and back takes when opponents follow the roll. Within the broader BJJ system, mastering this transition provides insurance against being flattened and passed, allowing practitioners to remain threatening even from compromised bottom positions. The technique integrates with lockdown control, deep half entries, and old school sweeps as alternative responses to half guard top pressure, creating a decision tree that keeps opponents guessing."
 }

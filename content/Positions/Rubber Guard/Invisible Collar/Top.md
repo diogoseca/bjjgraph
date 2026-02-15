@@ -32,8 +32,8 @@ description: "Master Invisible Collar from top position with grip concealment ta
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar from Back with Legs",
-      "text": "From this position, attempt Armbar from Back with Legs. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Armbar from Back Transition",
+      "text": "From this position, attempt Armbar from Back Transition. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
@@ -215,7 +215,7 @@ Success in invisible collar top requires coordinating upper body attacks with lo
 
 ### [[Rear Naked Choke]] (14% of attempts)
 
-### [[Armbar from Back with Legs]] (12% of attempts)
+### [[Armbar from Back Transition]] (12% of attempts)
 
 ### [[Aoki Lock to Crucifix]] (11% of attempts)
 
@@ -388,7 +388,7 @@ From invisible collar position, create three-way dilemma: collar choke, rear nak
 - **[[Rear Naked Choke]]** - Primary alternative submission when collar is defended
 - **[[Cross Collar Choke]]** - Direct finishing technique from invisible collar position
 - **[[Crucifix]]** - Common transition target when opponent turns into collar
-- **[[Armbar from Back with Legs]]** - Alternative submission when opponent extends arms to defend
+- **[[Armbar from Back]]** - Alternative submission when opponent extends arms to defend
 - **[[Bow and Arrow Choke]]** - Advanced variation using invisible collar grip mechanics
 - **[[Body Triangle]]** - Enhanced control position often combined with invisible collar
 

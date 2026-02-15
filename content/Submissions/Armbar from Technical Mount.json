@@ -1,0 +1,151 @@
+{
+  "name": "Armbar from Technical Mount",
+  "description": "TODO: Write 150-160 character SEO description for Armbar from Technical Mount.",
+  "tags": [
+    "bjj",
+    "submission",
+    "TODO"
+  ],
+  "submission_category": "Joint Lock",
+  "submission_type": "Arm Lock",
+  "target_area": "Shoulder and elbow joint",
+  "starting_position": "Technical Mount",
+  "from_position": "Technical Mount/Top",
+  "from_positions": ["Technical Mount", "Mount", "Back Control"],
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Technical Mount/Top",
+      "probability": 45,
+      "result": "failure"
+    }
+  ],
+  "success_rate": 50,
+  "overview": "TODO: Write overview for Armbar from Technical Mount.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "TODO",
+        "severity": "Medium",
+        "recovery_time": "TODO"
+      }
+    ],
+    "application_speed": "SLOW and progressive. Never spike or jerk the submission.",
+    "tap_signals": [
+      "Verbal tap (saying 'tap' or any distress signal)",
+      "Physical hand tap on partner or mat",
+      "Physical foot tap with free leg",
+      "Any unusual screaming or distress vocalization"
+    ],
+    "release_protocol": [
+      "Release immediately upon any tap signal",
+      "If in doubt, release - position can be re-established"
+    ],
+    "training_restrictions": [
+      "TODO"
+    ]
+  },
+  "related_content": [
+    {
+      "name": "TODO",
+      "relationship": "TODO"
+    }
+  ],
+  "attacker": {
+    "name": "Armbar from Technical Mount Attacker",
+    "description": "TODO: Write attacker description for Armbar from Technical Mount.",
+    "overview": "TODO: Write attacker overview for Armbar from Technical Mount.",
+    "key_principles": [
+      "TODO"
+    ],
+    "setup_requirements": [
+      "TODO"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "TODO",
+        "description": "TODO"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "TODO",
+        "effectiveness": "Medium",
+        "your_response": "TODO",
+        "targets_outcome": "Technical Mount/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "TODO",
+        "description": "TODO"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "TODO",
+        "answer": "TODO"
+      }
+    ],
+    "safety_considerations": "TODO: Write safety considerations for Armbar from Technical Mount."
+  },
+  "defender": {
+    "name": "Armbar from Technical Mount Defender",
+    "description": "TODO: Write defender description for Armbar from Technical Mount.",
+    "overview": "TODO: Write defender overview for Armbar from Technical Mount.",
+    "key_principles": [
+      "TODO"
+    ],
+    "recognition_cues": [
+      "TODO"
+    ],
+    "defensive_options": [
+      {
+        "action": "TODO",
+        "when_to_use": "TODO",
+        "targets_outcome": "Technical Mount/Top",
+        "if_successful": "TODO",
+        "risk": "TODO"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Technical Mount/Top",
+        "how": "TODO"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "TODO",
+        "answer": "TODO"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "TODO",
+        "description": "TODO"
+      }
+    ]
+  }
+}

@@ -86,19 +86,25 @@ X-Guard is an advanced open guard position where the bottom practitioner entangl
 ### Available Transitions
 
 
-- **[[X-Guard Sweep]]** (24% of attempts)
+- **[[X-Guard Sweep]]** (38% of attempts)
 
-- **[[Single Leg X Entry]]** (19% of attempts)
+- **[[Single Leg X Entry]]** (16% of attempts)
 
-- **[[X-Guard to Ashi Transition]]** (15% of attempts)
+- **[[X-Guard to Ashi Transition]]** (12% of attempts)
 
-- **[[Technical Stand Up to Single Leg]]** (10% of attempts)
+- **[[Technical Stand Up to Single Leg]]** (7% of attempts)
 
-- **[[Deep Half Entry]]** (9% of attempts)
+- **[[Deep Half Entry]]** (6% of attempts)
 
-- **[[Butterfly Guard to X-Guard]]** (9% of attempts)
+- **[[Butterfly Guard to X-Guard]]** (6% of attempts)
 
-- **[[Tomahawk Sweep]]** (14% of attempts)
+- **[[Tomahawk Sweep]]** (11% of attempts)
+
+- **[[X-Guard Technical Stand Up]]** (2% of attempts)
+
+- **[[X-Guard to Ashi Garami]]** (1% of attempts)
+
+- **[[X-Guard to Single Leg X]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -159,21 +165,29 @@ X-Guard is an advanced open guard position where the bottom practitioner entangl
 ### Available Transitions
 
 
-- **[[Smash Pass]]** (18% of attempts)
+- **[[Smash Pass]]** (14% of attempts)
 
-- **[[Knee Slice Pass]]** (20% of attempts)
+- **[[Knee Slice Pass]]** (46% of attempts)
 
-- **[[Long Step Pass]]** (12% of attempts)
+- **[[Long Step Pass]]** (8% of attempts)
 
-- **[[Saddle Entry from Top]]** (10% of attempts)
+- **[[Saddle Entry from Top]]** (6% of attempts)
 
-- **[[Outside Ashi Entry]]** (8% of attempts)
+- **[[Outside Ashi Entry]]** (4% of attempts)
 
-- **[[Leg Weave Pass]]** (12% of attempts)
+- **[[Leg Weave Pass]]** (8% of attempts)
 
-- **[[Back Step]]** (8% of attempts)
+- **[[Back Step]]** (4% of attempts)
 
-- **[[Stack Pass]]** (12% of attempts)
+- **[[Stack Pass]]** (8% of attempts)
+
+- **[[Knee Pin from X-Guard]]** (1% of attempts)
+
+- **[[Smash Pass from X-Guard]]** (0% of attempts)
+
+- **[[Standing Escape from X-Guard]]** (0% of attempts)
+
+- **[[Step Over from X-Guard]]** (1% of attempts)
 
 
 ### Common Mistakes

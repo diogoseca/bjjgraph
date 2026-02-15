@@ -21,37 +21,37 @@ description: "Master defensive strategies against Ashi Garami leg entanglements 
     {
       "@type": "HowToStep",
       "name": "Execute Ashi Garami Escape",
-      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 30% of exchanges from this position.",
+      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 38% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter Ashi Entry",
-      "text": "From this position, attempt Counter Ashi Entry. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Counter Ashi Entry. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guard Pass",
-      "text": "From this position, attempt Guard Pass. This technique is attempted in 20% of exchanges from this position.",
+      "name": "Execute Pass to Side Control",
+      "text": "From this position, attempt Pass to Side Control. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Front Headlock Series",
-      "text": "From this position, attempt Front Headlock Series. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Guillotine Setup",
+      "text": "From this position, attempt Guillotine Setup. This technique is attempted in 4% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guillotine Setup",
-      "text": "From this position, attempt Guillotine Setup. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Straight Ankle Lock Entry",
+      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Straight Ankle Lock",
-      "text": "From this position, attempt Straight Ankle Lock. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Back Step Pass",
+      "text": "From this position, attempt Back Step Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,17 +208,23 @@ Top Ashi Garami defense requires extensive drilling of mechanical extraction seq
 
 ## Available Attacks
 
-### [[Ashi Garami Escape]] (30% of attempts)
+### [[Ashi Garami Escape]] (38% of attempts)
 
-### [[Counter Ashi Entry]] (20% of attempts)
+### [[Counter Ashi Entry]] (15% of attempts)
 
-### [[Guard Pass]] (20% of attempts)
+### [[Pass to Side Control]] (8% of attempts)
 
-### [[Front Headlock Series]] (10% of attempts)
+### [[Guillotine Setup]] (4% of attempts)
 
-### [[Guillotine Setup]] (8% of attempts)
+### [[Straight Ankle Lock Entry]] (13% of attempts)
 
-### [[Straight Ankle Lock]] (12% of attempts)
+### [[Back Step Pass]] (10% of attempts)
+
+### [[Toe Hold]] (6% of attempts)
+
+### [[Back Take from Ashi]] (4% of attempts)
+
+### [[Ashi Garami to Leg Entanglement]] (2% of attempts)
 
 
 
@@ -245,7 +251,7 @@ Top Ashi Garami defense requires extensive drilling of mechanical extraction seq
 
 
 **If opponent loses connection points during advancement attempt or transitional movement:**
-- Execute **[[Guard Pass]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Pass to Side Control]]** → [[Side Control]] (Probability: 55%)
 - Execute **[[Front Headlock Series]]** → [[Front Headlock]] (Probability: 45%)
 
 
@@ -255,7 +261,7 @@ Top Ashi Garami defense requires extensive drilling of mechanical extraction seq
 
 
 **If opponent extends trapped leg straight while attempting heel hook from Outside Ashi:**
-- Execute **[[Straight Ankle Lock]]** → [[Straight Ankle Lock Control]] (Probability: 55%)
+- Execute **[[Straight Ankle Lock Entry]]** → [[Straight Ankle Lock Control]] (Probability: 55%)
 - Execute **[[Ashi Garami Escape]]** → [[Standing Position]] (Probability: 45%)
 
 
@@ -370,7 +376,7 @@ Partner cycles through hierarchy advancement attempts (Outside to Inside, Inside
 - **[[Front Headlock]]** - Offensive counter-position accessible when opponent sits up for control angle, exposing neck to attack
 - **[[Guillotine Control]]** - Submission counter-attack available when opponent loses hip connection and exposes neck during transitions
 - **[[50-50 Guard]]** - Bilateral entanglement often reached during defensive scrambles requiring specialized escape sequences
-- **[[Straight Ankle Lock Control]]** - Counter-submission opportunity when opponent extends leg during entanglement exchange
+- **[[Straight Ankle Lock]]** - Counter-submission opportunity when opponent extends leg during entanglement exchange
 
 
 </section>

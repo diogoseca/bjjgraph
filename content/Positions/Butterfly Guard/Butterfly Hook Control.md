@@ -93,25 +93,39 @@ The position serves as a crucial gateway in modern BJJ, connecting standing posi
 ### Available Transitions
 
 
-- **[[Butterfly Sweep]]** (13% of attempts)
+- **[[Butterfly Sweep]]** (42% of attempts)
 
-- **[[Butterfly Sweep Variations]]** (10% of attempts)
+- **[[Arm Drag to Back]]** (9% of attempts)
 
-- **[[Arm Drag to Back]]** (10% of attempts)
+- **[[Butterfly Guard to X-Guard]]** (6% of attempts)
 
-- **[[Butterfly Guard to X-Guard]]** (10% of attempts)
+- **[[Hook Sweep]]** (5% of attempts)
 
-- **[[Hook Sweep]]** (10% of attempts)
+- **[[Elevator Sweep]]** (5% of attempts)
 
-- **[[Elevator Sweep]]** (10% of attempts)
+- **[[Guillotine Setup]]** (5% of attempts)
 
-- **[[Guillotine Setup]]** (9% of attempts)
+- **[[Deep Half Entry]]** (6% of attempts)
 
-- **[[Deep Half Entry]]** (10% of attempts)
+- **[[Single Leg X Entry]]** (5% of attempts)
 
-- **[[Single Leg X Entry]]** (10% of attempts)
+- **[[Butterfly Sweep with Guillotine]]** (2% of attempts)
 
-- **[[Omoplata Sweep]]** (8% of attempts)
+- **[[Butterfly Hook Recovery]]** (3% of attempts)
+
+- **[[Kimura Sweep]]** (4% of attempts)
+
+- **[[Collar Drag]]** (1% of attempts)
+
+- **[[John Wayne Sweep]]** (1% of attempts)
+
+- **[[Sumi Gaeshi]]** (3% of attempts)
+
+- **[[Arm Drag Sweep]]** (2% of attempts)
+
+- **[[Butterfly Hook Sweep]]** (0% of attempts)
+
+- **[[Reguard to Butterfly Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -170,21 +184,33 @@ The position serves as a crucial gateway in modern BJJ, connecting standing posi
 ### Available Transitions
 
 
-- **[[Butterfly Pass]]** (13% of attempts)
+- **[[Butterfly Pass]]** (10% of attempts)
 
-- **[[Butterfly Smash]]** (17% of attempts)
+- **[[Butterfly Smash]]** (34% of attempts)
 
-- **[[Knee Slice Pass]]** (12% of attempts)
+- **[[Knee Slice Pass]]** (10% of attempts)
 
-- **[[Standing up in Base]]** (14% of attempts)
+- **[[Standing up in Base]]** (12% of attempts)
 
-- **[[Pressure Pass]]** (11% of attempts)
+- **[[Pressure Pass]]** (8% of attempts)
 
-- **[[Double Under Pass]]** (12% of attempts)
+- **[[Double Under Pass]]** (4% of attempts)
 
-- **[[Leg Weave Pass]]** (11% of attempts)
+- **[[Leg Weave Pass]]** (4% of attempts)
 
-- **[[Toreando Pass]]** (10% of attempts)
+- **[[Toreando Pass]]** (2% of attempts)
+
+- **[[Back Step Pass]]** (4% of attempts)
+
+- **[[Body Lock Pass]]** (4% of attempts)
+
+- **[[Leg Drag Pass]]** (4% of attempts)
+
+- **[[Over-Under Pass]]** (2% of attempts)
+
+- **[[Pass Butterfly Hook Control]]** (1% of attempts)
+
+- **[[Smash from Butterfly Hook Control]]** (1% of attempts)
 
 
 ### Common Mistakes

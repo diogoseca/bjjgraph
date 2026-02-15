@@ -80,39 +80,77 @@ Run `npm run validate` to check all wikilinks resolve.
 - `attempt_probability` values must sum to 100% per role
 - Each `transition` must reference a valid Transition by name
 
-### Transitions
+### Transitions (Attacker/Defender Model)
+
+Transitions generate 3 pages: Hub, Attacker, Defender.
+
+**Hub-level requirements:**
 
 | Section | Requirements |
 |---------|--------------|
 | Overview & Properties | Name, `from_position` (Position/Role format) |
 | Outcomes | Array of outcomes with `to`, `probability`, `result` |
-| Visual Execution | Detailed movement description (4+ sentences) |
-| Setup Requirements | Min 6 prerequisites |
-| Execution Steps | Min 6 numbered steps |
-| Physical Requirements | Strength, flexibility, coordination, speed ratings |
-| Common Mistakes | Min 5 with corrections |
-| Variations & Setups | Min 2 alternative entries |
+| Related Content | Min 3 related entries |
+
+**Attacker page requirements:**
+
+| Section | Requirements |
+|---------|--------------|
+| Overview | Detailed attacking perspective (4+ sentences) |
+| Key Principles | Min 5 fundamental concepts |
+| Setup Requirements | Min 4 prerequisites |
+| Execution Steps | Min 6 numbered steps with action + description |
+| Common Counters | Min 3 with `targets_outcome` linking to `outcomes[].to` |
+| Common Errors | Min 5 with consequence and correction |
+| Training Progressions | Min 4 phases |
 | Knowledge Assessment | Min 5 technical questions |
+| Safety Considerations | Required text section |
+
+**Defender page requirements:**
+
+| Section | Requirements |
+|---------|--------------|
+| Overview | Detailed defending perspective |
+| Key Principles | Min 5 fundamental concepts |
+| Recognition Cues | Min 3 signs the technique is being attempted |
+| Defensive Options | Min 3 with `targets_outcome` linking to `outcomes[].to` |
+| Favorable Outcomes | Min 1 with outcome position and how to achieve |
+| Common Errors | Min 3 with consequence and correction |
+| Knowledge Assessment | Min 3 technical questions |
+| Training Progressions | Min 3 phases |
 
 **Outcome requirements:**
 - Min 2 outcomes per transition (success + failure or counter)
 - `probability` values must sum to 100%
 - `result` must be: `success`, `failure`, or `counter`
-- `to` must reference valid Position, Transition, or `game-over`
+- `to` must use Position/Role format (e.g., `"Mount/Top"`) or `"game-over"`
+- `targets_outcome` values in attacker/defender must match an `outcomes[].to` value
 
-### Submissions
+### Submissions (Attacker/Defender Model)
+
+Submissions generate 3 pages: Hub, Attacker, Defender. Same attacker/defender pattern as Transitions with additions.
+
+**Hub-level requirements:**
 
 | Section | Requirements |
 |---------|--------------|
 | Safety Notice | **MANDATORY** - First visible content with warning |
-| Overview & Properties | ID, type, target anatomy |
-| Visual Finishing | Detailed finishing sequence |
-| Setup Requirements | Min 6 prerequisites |
-| Execution Steps | Min 6 numbered steps |
-| Injury Awareness | Specific risks, severity, recovery time |
-| Training Progressions | 6 phases (Weeks 1-2, 3-4, 5-8, 9-12, 13+, Ongoing) |
-| Common Mistakes | Min 5 + dedicated safety errors section |
-| Knowledge Assessment | Min 6 questions including 2+ safety questions |
+| Overview & Properties | Type, target anatomy, category |
+| Outcomes | **REQUIRED** - Array of outcomes (was previously optional) |
+| Safety Considerations | Shared object at hub level |
+
+**Attacker page:** Same as Transition attacker, plus execution steps may include `timing` field.
+
+**Defender page:** Same as Transition defender, plus:
+
+| Section | Requirements |
+|---------|--------------|
+| Escape Paths | Min 2 submission-specific escape routes |
+
+**Submission-specific rules:**
+- `outcomes[]` is mandatory (no submissions without outcomes)
+- `safety_considerations` stays at hub level (shared between roles)
+- Knowledge assessment items can have `safety_critical: true` flag
 
 ---
 
@@ -306,6 +344,21 @@ ERROR: Armbar from Mount outcomes sum to 110% (expected 100%)
 - `failure` - Technique fails, position maintained or regressed
 - `counter` - Opponent successfully counters
 
+### `targets_outcome` Validation
+
+Attacker and Defender sections use `targets_outcome` to link actions to specific outcomes:
+
+| Field | Location | Validates Against |
+|-------|----------|-------------------|
+| `attacker.common_counters[].targets_outcome` | Transition/Submission | `outcomes[].to` |
+| `defender.defensive_options[].targets_outcome` | Transition/Submission | `outcomes[].to` |
+| `defender.favorable_outcomes[].outcome` | Transition/Submission | `outcomes[].to` |
+
+**Rules:**
+- Each `targets_outcome` value must match exactly one `outcomes[].to` value
+- Values use Position/Role format (e.g., `"Mount/Top"`, `"Closed Guard/Bottom"`, `"game-over"`)
+- `TODO` values are skipped during validation
+
 ### Fixing Validation Errors
 
 The validation output shows files needing fixes. Edit the JSON source files directly in `templates/`.
@@ -314,10 +367,18 @@ The validation output shows files needing fixes. Edit the JSON source files dire
 
 ## Complete Schema Reference
 
-For full schema details, see the JSON template files in `templates/Positions/`:
+For full schema details, see the JSON template files:
+
+**Positions** (`templates/Positions/`):
 - `TEMPLATE-POSITION-FAMILY.json` — Family positions (hub + top + bottom)
 - `TEMPLATE-POSITION-DUAL.json` — Dual positions (top + bottom)
 - `TEMPLATE-POSITION-SINGLE.json` — Single/neutral positions
+
+**Transitions** (`templates/Transitions/`):
+- `TEMPLATE-TRANSITION.json` — Transitions with attacker/defender structure
+
+**Submissions** (`templates/Submissions/`):
+- `TEMPLATE-SUBMISSION.json` — Submissions with attacker/defender + required outcomes
 
 ---
 
@@ -334,3 +395,5 @@ For full schema details, see the JSON template files in `templates/Positions/`:
 | Ensure `attempt_probability` sums to 100% | Leave probability sums incomplete |
 | Ensure `outcomes` probability sums to 100% | Have outcomes that don't sum correctly |
 | Use `result` types: success/failure/counter | Invent custom result types |
+| Ensure `targets_outcome` matches `outcomes[].to` | Use targets_outcome values not in outcomes |
+| Use Position/Role format in `outcomes[].to` | Use bare position names without role suffix |

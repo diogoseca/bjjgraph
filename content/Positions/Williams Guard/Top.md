@@ -21,37 +21,37 @@ description: "Master Williams Guard Top defense and passing strategies. Learn to
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction",
-      "text": "From this position, attempt Arm Extraction. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Arm Extraction. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass",
-      "text": "From this position, attempt Stack Pass. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Pressure Pass",
-      "text": "From this position, attempt Pressure Pass. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Pressure Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guard Pass",
-      "text": "From this position, attempt Guard Pass. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Knee Cut Pass",
+      "text": "From this position, attempt Knee Cut Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Posture Recovery",
-      "text": "From this position, attempt Posture Recovery. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Posture Recovery. This technique is attempted in 24% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -204,17 +204,21 @@ Williams Guard Top represents the challenging defensive and passing position fac
 
 ## Available Attacks
 
-### [[Arm Extraction]] (18% of attempts)
+### [[Arm Extraction]] (15% of attempts)
 
-### [[Stack Pass]] (16% of attempts)
+### [[Stack Pass]] (13% of attempts)
 
-### [[Pressure Pass]] (14% of attempts)
+### [[Pressure Pass]] (12% of attempts)
 
-### [[Guard Pass]] (17% of attempts)
+### [[Knee Cut Pass]] (14% of attempts)
 
-### [[Posture Recovery]] (19% of attempts)
+### [[Posture Recovery]] (24% of attempts)
 
-### [[Knee Slice Pass]] (16% of attempts)
+### [[Knee Slice Pass]] (13% of attempts)
+
+### [[Posture from Williams Guard]] (6% of attempts)
+
+### [[Stack from Williams Guard]] (3% of attempts)
 
 
 
@@ -235,7 +239,7 @@ Williams Guard Top represents the challenging defensive and passing position fac
 
 
 **Else if opponent sets up triangle by opening guard wider:**
-- Execute **[[Guard Pass]]** → [[Side Control]] (Probability: 70%)
+- Execute **[[Knee Cut Pass]]** → [[Side Control]] (Probability: 70%)
 - Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 60%)
 
 

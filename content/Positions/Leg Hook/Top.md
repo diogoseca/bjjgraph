@@ -21,37 +21,37 @@ description: "Master Leg Hook Top in BJJ. Control position from half guard top w
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 29% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Leg Drag Pass",
-      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Leg Weave Pass",
+      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Leg Weave Pass",
-      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Smash Pass",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 16% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Half Guard Pass",
+      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take Generic",
-      "text": "From this position, attempt Back Take Generic. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Pressure Pass",
+      "text": "From this position, attempt Pressure Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Knee on Belly",
-      "text": "From this position, attempt Knee on Belly. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Transition to Flattened Half Guard",
+      "text": "From this position, attempt Transition to Flattened Half Guard. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -206,21 +206,21 @@ Leg Hook Top Position represents a transitional control state where the top prac
 
 ## Available Attacks
 
-### [[Knee Slice Pass]] (18% of attempts)
+### [[Knee Slice Pass]] (29% of attempts)
 
-### [[Leg Drag Pass]] (14% of attempts)
+### [[Leg Weave Pass]] (18% of attempts)
 
-### [[Leg Weave Pass]] (13% of attempts)
+### [[Smash Pass]] (16% of attempts)
 
-### [[Side Control to Mount]] (12% of attempts)
+### [[Half Guard Pass]] (13% of attempts)
 
-### [[Back Take Generic]] (11% of attempts)
+### [[Pressure Pass]] (10% of attempts)
 
-### [[Knee on Belly]] (13% of attempts)
+### [[Transition to Flattened Half Guard]] (8% of attempts)
 
-### [[Kimura from Half Guard]] (10% of attempts)
+### [[Leg Hook to Half Guard]] (4% of attempts)
 
-### [[Darce Setup]] (9% of attempts)
+### [[Leg Hook to Side Control]] (2% of attempts)
 
 
 
@@ -241,12 +241,12 @@ Leg Hook Top Position represents a transitional control state where the top prac
 
 
 **Else if bottom player extends arms to push or frame:**
-- Execute **[[Kimura from Half Guard]]** → [[Kimura Trap]] (Probability: 50%)
+- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 50%)
 - Execute **[[Darce Setup]]** → [[Darce Control]] (Probability: 45%)
 
 
 **Else if bottom player attempts to turn away or go to turtle:**
-- Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 65%)
+- Execute **[[Back Take from Top]]** → [[Back Control]] (Probability: 65%)
 - Execute **[[Darce Setup]]** → [[Darce Control]] (Probability: 55%)
 
 
@@ -404,7 +404,7 @@ Start in leg hook top position. Practice transitioning to submission threats (ki
 - **[[Leg Drag Pass]]** - Primary transition - alternative high-percentage pass from hook control
 - **[[Side Control]]** - Transition target - most common final position after successful pass
 - **[[Headquarters Position]]** - Related passing position - similar control concepts with different leg configuration
-- **[[Kimura from Half Guard]]** - Submission threat - opportunistic submission from this position
+- **[[Kimura]]** - Submission threat - opportunistic submission from this position
 - **[[Darce Choke]]** - Submission threat - available when bottom player makes defensive errors
 - **[[Smash Pass]]** - Related passing concept - complementary pressure passing strategy
 - **[[Lockdown]]** - Defensive system - understanding opponent's control from bottom

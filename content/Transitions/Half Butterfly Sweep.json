@@ -1,0 +1,13 @@
+{
+  "name": "Half Butterfly Sweep",
+  "description": "",
+  "tags": [],
+  "from_position": "Half Butterfly/Bottom",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

@@ -269,35 +269,51 @@
     "transitions": [
       {
         "transition": "Toreando Pass",
-        "attempt_probability": 12
+        "attempt_probability": 8
       },
       {
         "transition": "Knee Cut Pass",
-        "attempt_probability": 13
+        "attempt_probability": 10
       },
       {
         "transition": "Stack Pass",
-        "attempt_probability": 11
+        "attempt_probability": 8
       },
       {
         "transition": "Double Under Pass",
-        "attempt_probability": 12
+        "attempt_probability": 3
       },
       {
         "transition": "Leg Drag Pass",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Knee Slice Pass",
-        "attempt_probability": 13
+        "attempt_probability": 8
       },
       {
         "transition": "Pressure Pass",
-        "attempt_probability": 12
+        "attempt_probability": 7
       },
       {
         "transition": "Headquarters Pass",
-        "attempt_probability": 16
+        "attempt_probability": 30
+      },
+      {
+        "transition": "Grip Break",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Long Step Pass",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "X Pass",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Bull Pass from Collar Sleeve",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Pass Collar Sleeve Guard",
+        "attempt_probability": 1
       }
     ],
     "knowledge_assessment": [
@@ -425,12 +441,12 @@
         "condition": "If opponent attempts to circle around to pass toward sleeve-grip side",
         "actions": [
           {
-            "technique": "Spider Guard Variations",
+            "technique": "Lapel to Spider Transition",
             "target": "Spider Guard",
             "probability": 60
           },
           {
-            "technique": "Lasso Guard Variations",
+            "technique": "Lapel to Lasso Transition",
             "target": "Lasso Guard",
             "probability": 55
           }
@@ -440,8 +456,8 @@
         "condition": "If opponent stands up completely to initiate standing guard pass",
         "actions": [
           {
-            "technique": "Technical Stand Up",
-            "target": "Standing Position",
+            "technique": "Standing up in Base",
+            "target": "Clinch",
             "probability": 50
           },
           {
@@ -558,43 +574,59 @@
     "transitions": [
       {
         "transition": "Pendulum Sweep",
-        "attempt_probability": 11
+        "attempt_probability": 9
       },
       {
         "transition": "Flower Sweep",
-        "attempt_probability": 10
+        "attempt_probability": 6
       },
       {
         "transition": "Triangle Setup",
-        "attempt_probability": 9
+        "attempt_probability": 49
       },
       {
         "transition": "Omoplata Sweep",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Hip Bump Sweep",
-        "attempt_probability": 10
+        "attempt_probability": 6
       },
       {
         "transition": "Scissor Sweep",
-        "attempt_probability": 12
+        "attempt_probability": 7
       },
       {
         "transition": "Arm Drag to Back",
-        "attempt_probability": 9
+        "attempt_probability": 4
       },
       {
-        "transition": "Technical Stand Up",
-        "attempt_probability": 9
+        "transition": "Standing up in Base",
+        "attempt_probability": 1
       },
       {
-        "transition": "Lasso Guard Variations",
-        "attempt_probability": 10
+        "transition": "Lapel to Lasso Transition",
+        "attempt_probability": 4
       },
       {
-        "transition": "Spider Guard Variations",
-        "attempt_probability": 11
+        "transition": "Lapel to Spider Transition",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Collar Drag",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Hip Bump Sweep",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Collar Sleeve Sweep",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Collar Sleeve to De La Riva",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Collar Sleeve to Spider Guard",
+        "attempt_probability": 1
       }
     ],
     "knowledge_assessment": [

@@ -238,19 +238,23 @@ def process_transitions(content_dir: Path) -> dict:
 
         slug = slugify(trans_data['name'])
 
+        # Support both flat and attacker/defender structures
+        attacker = trans_data.get('attacker', {})
+        ka_source = attacker.get('knowledge_assessment', trans_data.get('knowledge_assessment', []))
         knowledge_assessment = [
             {'question': qa.get('question', ''), 'answer': qa.get('answer', '')}
-            for qa in trans_data.get('knowledge_assessment', [])
+            for qa in ka_source
         ]
 
         effectiveness_map = {'High': 70, 'Medium': 50, 'Low': 30}
+        cc_source = attacker.get('common_counters', trans_data.get('common_counters', []))
         common_counters = [
             {
                 'technique': c.get('counter', 'Defense'),
                 'effectiveness': effectiveness_map.get(c.get('effectiveness', 'Medium'), 50),
                 'resultPosition': slugify(trans_data.get('starting_position', ''))
             }
-            for c in trans_data.get('common_counters', [])
+            for c in cc_source
         ]
 
         success_rate = trans_data.get('success_rate', 50)
@@ -290,13 +294,16 @@ def process_submissions(content_dir: Path) -> dict:
 
         slug = slugify(sub_data['name'])
 
+        # Support both flat and attacker/defender structures
+        attacker = sub_data.get('attacker', {})
+        ka_source = attacker.get('knowledge_assessment', sub_data.get('knowledge_assessment', []))
         knowledge_assessment = [
             {
                 'question': qa.get('question', ''),
                 'answer': qa.get('answer', ''),
                 'safetyCritical': qa.get('safety_critical', False)
             }
-            for qa in sub_data.get('knowledge_assessment', [])
+            for qa in ka_source
         ]
 
         from_positions = [slugify(p) for p in sub_data.get('from_positions', [])]

@@ -95,13 +95,13 @@ Scarf Hold Position represents a transitional control platform rather than purel
 
 - **[[Bridge and Roll]]** (16% of attempts)
 
-- **[[Elbow Escape]]** (18% of attempts)
+- **[[Elbow Escape to Guard]]** (18% of attempts)
 
-- **[[Hip Escape]]** (15% of attempts)
+- **[[Hip Escape to Guard]]** (15% of attempts)
 
 - **[[Ghost Escape]]** (16% of attempts)
 
-- **[[Frame and Shrimp]]** (16% of attempts)
+- **[[Frame and Shrimp to Guard]]** (16% of attempts)
 
 - **[[Turtle Transition]]** (19% of attempts)
 
@@ -158,15 +158,15 @@ Scarf Hold Position represents a transitional control platform rather than purel
 ### Available Transitions
 
 
-- **[[Americana from Side Control]]** (17% of attempts)
+- **[[Americana]]** (17% of attempts)
 
-- **[[Kimura from Side Control]]** (14% of attempts)
+- **[[Kimura]]** (14% of attempts)
 
 - **[[Side Control to Mount]]** (18% of attempts)
 
 - **[[Side Control to North-South]]** (22% of attempts)
 
-- **[[Armbar from Side Control]]** (13% of attempts)
+- **[[Armbar Finish]]** (13% of attempts)
 
 - **[[Arm Triangle]]** (16% of attempts)
 

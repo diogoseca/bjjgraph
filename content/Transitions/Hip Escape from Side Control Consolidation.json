@@ -1,0 +1,141 @@
+{
+  "name": "Hip Escape from Side Control Consolidation",
+  "description": "TODO: Write 150-160 character SEO description for Hip Escape from Side Control Consolidation.",
+  "tags": [
+    "bjj",
+    "transition",
+    "escape",
+    "side-control",
+    "consolidation"
+  ],
+  "from_position": "Side Control Consolidation/Bottom",
+  "outcomes": [
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 40,
+      "result": "success"
+    },
+    {
+      "to": "Side Control Consolidation/Bottom",
+      "probability": 40,
+      "result": "failure"
+    },
+    {
+      "to": "Mount/Bottom",
+      "probability": 20,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 40,
+  "overview": "TODO: Write overview for Hip Escape from Side Control Consolidation.",
+  "conditions": [
+    "TODO"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "TODO",
+      "description": "TODO",
+      "when_to_use": "TODO"
+    }
+  ],
+  "position_integration": "TODO: Write position integration for Hip Escape from Side Control Consolidation.",
+  "related_content": [
+    {
+      "name": "TODO",
+      "relationship": "TODO"
+    }
+  ],
+  "attacker": {
+    "name": "Hip Escape from Side Control Consolidation Attacker",
+    "description": "TODO: Write attacker description for Hip Escape from Side Control Consolidation.",
+    "overview": "TODO: Write attacker overview for Hip Escape from Side Control Consolidation.",
+    "key_principles": [
+      "TODO"
+    ],
+    "setup_requirements": [
+      "TODO"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "TODO",
+        "description": "TODO"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "TODO",
+        "effectiveness": "Medium",
+        "your_response": "TODO",
+        "targets_outcome": "Side Control Consolidation/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "TODO",
+        "description": "TODO"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "TODO",
+        "answer": "TODO"
+      }
+    ],
+    "safety_considerations": "TODO: Write safety considerations for Hip Escape from Side Control Consolidation."
+  },
+  "defender": {
+    "name": "Hip Escape from Side Control Consolidation Defender",
+    "description": "TODO: Write defender description for Hip Escape from Side Control Consolidation.",
+    "overview": "TODO: Write defender overview for Hip Escape from Side Control Consolidation.",
+    "key_principles": [
+      "TODO"
+    ],
+    "recognition_cues": [
+      "TODO"
+    ],
+    "defensive_options": [
+      {
+        "action": "TODO",
+        "when_to_use": "TODO",
+        "targets_outcome": "Side Control Consolidation/Bottom",
+        "if_successful": "TODO",
+        "risk": "TODO"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "TODO"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "TODO",
+        "answer": "TODO"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "TODO",
+        "description": "TODO"
+      }
+    ]
+  }
+}

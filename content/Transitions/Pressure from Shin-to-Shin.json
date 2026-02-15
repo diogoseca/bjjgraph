@@ -1,0 +1,13 @@
+{
+  "name": "Pressure from Shin-to-Shin",
+  "description": "",
+  "tags": [],
+  "from_position": "Shin-to-Shin Guard/Top",
+  "outcomes": [
+    {
+      "to": "Half Guard/Top",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

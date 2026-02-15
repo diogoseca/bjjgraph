@@ -338,11 +338,11 @@ The guillotine system requires isolation drilling of individual components befor
 - [[Guillotine from Turtle]] (Transition) - Systematic entry when opponent turtles defensively
 - [[Guard Pull]] (Transition) - Essential transition connecting standing guillotine to guard finishing positions
 - [[Arm Drag to Back]] (Transition) - Alternative attack when guillotine is defended, maintaining offensive pressure
-- [[Snap Down]] (Transition) - Standing wrestling entry that creates head control for guillotine attacks
+- [[Snap Down to Front Headlock]] (Transition) - Standing wrestling entry that creates head control for guillotine attacks
 - [[Guillotine Choke]] (Submission) - Primary submission finish of the system
 - [[High Elbow Guillotine]] (Submission) - Core finishing variation with optimal mechanics
 - [[Arm in Guillotine]] (Submission) - Alternative finish when opponent's posture is broken
-- [[Guillotine Variations]] (Submission) - Collection of grip and position variations within the system
+- [[Guillotine Choke]] (Submission) - Collection of grip and position variations within the system
 - [[Darce Choke]] (Submission) - Related front headlock submission with similar entry patterns
 - [[Anaconda Choke]] (Submission) - Complementary front headlock submission sharing similar control positions
 - [[Grip Fighting]] (Principle) - Essential skill for establishing and maintaining guillotine grips

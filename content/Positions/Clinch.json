@@ -1,6 +1,6 @@
 {
   "name": "Clinch",
-  "description": "Master the clinch position in BJJ with comprehensive grip fighting, takedown setups, and standing control strategies. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "description": "Master the clinch position in BJJ with comprehensive grip fighting, takedown setups, and standing control strategies for gi and no-gi grappling.",
   "tags": [
     "bjj",
     "position",
@@ -59,7 +59,7 @@
       "attempt_probability": 7
     },
     {
-      "transition": "Snap Down",
+      "transition": "Snap Down to Front Headlock",
       "attempt_probability": 8
     },
     {
@@ -119,7 +119,7 @@
       "condition": "If opponent maintains upright posture with hands high and limited hip commitment",
       "actions": [
         {
-          "technique": "Snap Down",
+          "technique": "Snap Down to Front Headlock",
           "target": "Front Headlock",
           "probability": 65
         },
@@ -139,7 +139,7 @@
           "probability": 45
         },
         {
-          "technique": "Pull guard",
+          "technique": "Guard Pull",
           "target": "Open Guard",
           "probability": 60
         }
@@ -164,7 +164,7 @@
       "condition": "If opponent posts hands or attempts to create distance",
       "actions": [
         {
-          "technique": "Snap Down",
+          "technique": "Snap Down to Front Headlock",
           "target": "Front Headlock",
           "probability": 65
         },
@@ -262,7 +262,7 @@
     },
     {
       "name": "Front Headlock",
-      "relationship": "Common transition target from clinch control"
+      "relationship": "Common transition target from clinch snap downs"
     },
     {
       "name": "Standing Position",
@@ -281,10 +281,6 @@
       "relationship": "Defensive grip configuration within clinch"
     },
     {
-      "name": "Standing Rear Clinch",
-      "relationship": "Advanced clinch variation with back exposure"
-    },
-    {
       "name": "Arm Drag to Back",
       "relationship": "High-percentage back take from clinch grip fighting"
     },
@@ -299,17 +295,24 @@
     {
       "name": "Closed Guard",
       "relationship": "Common landing position after guard pull"
+    },
+    {
+      "name": "Snap Down to Front Headlock",
+      "relationship": "Key clinch-to-control transition via level change"
     }
   ],
   "position_metrics": {
     "retention_rate": {
-      "value": 60
+      "value": 60,
+      "description": "Moderate retention reflecting the inherently transitional nature of the clinch"
     },
     "advancement_probability": {
-      "value": 60
+      "value": 60,
+      "description": "Good advancement odds when dominant grips and head position are established"
     },
     "submission_probability": {
-      "value": 32
+      "value": 5,
+      "description": "Very low direct submission threat; clinch primarily creates positional advancement"
     },
     "average_time": "15-45 seconds before resolution to ground or separation"
   },
@@ -346,5 +349,53 @@
       "question": "Your opponent starts circling aggressively to your right while maintaining a collar tie - how do you recover and maintain clinch control?",
       "answer": "Match their footwork by stepping your right foot first to re-square your hips, maintaining your base relative to their centerline. Do not cross your feet or chase with your left foot first, as this narrows your base and creates a single leg entry for them. Use their collar tie grip momentum against them by swimming your inside hand to an underhook on the side they're circling toward, which disrupts their angle creation. If they've already gained a significant angle, address it immediately with a hard re-square by stepping and turning your hips to face them directly, then re-engage grip fighting from the neutral position. Allowing the angle to persist invites snap downs, go-behinds, and back takes."
     }
-  ]
+  ],
+  "top": {
+    "transitions": [
+      {
+        "transition": "Body Lock Takedown from Clinch",
+        "attempt_probability": 25
+      },
+      {
+        "transition": "Duck Under",
+        "attempt_probability": 20
+      },
+      {
+        "transition": "Fireman's Carry",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Kouchi Gari",
+        "attempt_probability": 20
+      },
+      {
+        "transition": "Uchi Mata",
+        "attempt_probability": 20
+      }
+    ]
+  },
+  "bottom": {
+    "transitions": [
+      {
+        "transition": "Arm Drag from Clinch",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Break Clinch",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Duck Under from Clinch",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Guard Pull from Clinch",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Underhook Pummeling from Clinch",
+        "attempt_probability": 0
+      }
+    ]
+  }
 }

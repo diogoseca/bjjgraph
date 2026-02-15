@@ -356,7 +356,7 @@ Create training circuits where you start in various positions with opponent havi
 - [[Guillotine Choke]] (Submission) - Guillotine effectiveness is determined primarily by head control quality and positioning relative to opponent's spine
 - [[Rear Naked Choke]] (Submission) - Rear naked choke requires overcoming chin protection through superior head control before the choke can be applied
 - [[Darce Choke]] (Submission) - Darce choke setup and finish depend on controlling head position to create the proper angle for the shoulder-of-justice pressure
-- [[Snap Down]] (Transition) - Snap down represents the primary method of establishing head control from standing positions for ground engagement
+- [[Snap Down to Front Headlock]] (Transition) - Snap down represents the primary method of establishing head control from standing positions for ground engagement
 - [[Chin Protection]] (Principle) - Chin protection serves as the primary defensive counter to head control in choke situations
 - [[Frame Management]] (Principle) - Head control often eliminates opponent's ability to establish effective defensive frames
 

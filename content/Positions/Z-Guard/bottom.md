@@ -21,37 +21,37 @@ description: "Master Z-Guard Bottom position in BJJ. Complete guide covering kne
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 22% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take Generic",
-      "text": "From this position, attempt Back Take Generic. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Back Take from Bottom",
+      "text": "From this position, attempt Back Take from Bottom. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Truck",
-      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard Sweep",
-      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,21 +211,25 @@ From a strategic perspective, Z-Guard Bottom represents a critical position in t
 
 ## Available Escapes
 
-### [[Old School Sweep]] (14% of attempts)
+### [[Old School Sweep]] (22% of attempts)
 
-### [[Underhook Sweep from Half]] (14% of attempts)
+### [[Underhook Sweep from Half]] (12% of attempts)
 
-### [[Deep Half Entry]] (13% of attempts)
+### [[Deep Half Entry]] (11% of attempts)
 
-### [[Back Take Generic]] (12% of attempts)
+### [[Back Take from Bottom]] (10% of attempts)
 
-### [[Turtle to Truck]] (11% of attempts)
+### [[Turtle to Truck]] (9% of attempts)
 
-### [[X-Guard Sweep]] (13% of attempts)
+### [[X-Guard Sweep]] (11% of attempts)
 
-### [[Lockdown Sweeps]] (12% of attempts)
+### [[Lockdown Recovery]] (10% of attempts)
 
-### [[Electric Chair Submission]] (11% of attempts)
+### [[Electric Chair Transition]] (9% of attempts)
+
+### [[Z-Guard Sweep]] (4% of attempts)
+
+### [[Z-Guard to Half Guard]] (2% of attempts)
 
 
 
@@ -237,23 +241,23 @@ From a strategic perspective, Z-Guard Bottom represents a critical position in t
 
 **If opponent drives heavy forward pressure attempting to collapse knee shield and flatten you to back:**
 - Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 65%)
-- Execute **[[Underhook Sweep from Half]]** → [[Half Guard]] (Probability: 55%)
+- Execute **[[Underhook Sweep from Half]]** → [[Side Control]] (Probability: 55%)
 
 
 **If opponent posts hand on mat near your head or attempts to establish crossface control:**
-- Execute **[[Old School Sweep]]** → [[Half Guard]] (Probability: 70%)
-- Execute **[[Underhook Sweep from Half]]** → [[Half Guard]] (Probability: 60%)
+- Execute **[[Old School Sweep]]** → [[Side Control]] (Probability: 70%)
+- Execute **[[Underhook Sweep from Half]]** → [[Side Control]] (Probability: 60%)
 
 
 **If opponent attempts to circle around knee shield toward backstep position:**
-- Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Electric Chair Submission]]** → [[Electric Chair]] (Probability: 50%)
-- Execute **[[Turtle to Truck]]** → [[Truck]] (Probability: 55%)
+- Execute **[[Back Take from Bottom]]** → [[Back Control]] (Probability: 60%)
+- Execute **[[Electric Chair Transition]]** → [[Electric Chair]] (Probability: 50%)
+- Execute **[[Turtle to Truck]]** → [[Twister Control]] (Probability: 55%)
 
 
 **If opponent successfully collapses knee shield but has not yet established full passing pressure:**
-- Execute **[[Lockdown Sweeps]]** → [[Lockdown]] (Probability: 60%)
-- Execute **[[Underhook Sweep from Half]]** → [[Half Guard]] (Probability: 50%)
+- Execute **[[Lockdown Recovery]]** → [[Lockdown]] (Probability: 60%)
+- Execute **[[Underhook Sweep from Half]]** → [[Side Control]] (Probability: 50%)
 
 
 **If opponent maintains distance and good base, preventing sweep entries:**

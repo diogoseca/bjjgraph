@@ -290,11 +290,11 @@
     "transitions": [
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 14
+        "attempt_probability": 25
       },
       {
         "transition": "Smash Pass",
-        "attempt_probability": 13
+        "attempt_probability": 14
       },
       {
         "transition": "Leg Drag Pass",
@@ -306,19 +306,23 @@
       },
       {
         "transition": "Underhook Pass",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "Side Control to Mount",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Side Control to North-South",
-        "attempt_probability": 11
+        "attempt_probability": 12
       },
       {
         "transition": "Kimura from Half Guard",
         "attempt_probability": 10
+      },
+      {
+        "transition": "Guillotine Setup",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Backstep from K-Guard",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Pass K-Guard",
+        "attempt_probability": 2
       }
     ],
     "knowledge_assessment": [
@@ -574,31 +578,47 @@
     "transitions": [
       {
         "transition": "X-Guard Sweep",
-        "attempt_probability": 14
+        "attempt_probability": 10
       },
       {
         "transition": "Single Leg X Sweep",
-        "attempt_probability": 15
+        "attempt_probability": 11
       },
       {
         "transition": "Deep Half Entry",
-        "attempt_probability": 18
+        "attempt_probability": 29
       },
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 13
+        "attempt_probability": 8
       },
       {
         "transition": "Waiter Sweep",
-        "attempt_probability": 12
+        "attempt_probability": 7
       },
       {
         "transition": "Half Guard to Back Take",
-        "attempt_probability": 14
+        "attempt_probability": 12
       },
       {
         "transition": "Butterfly Sweep",
-        "attempt_probability": 14
+        "attempt_probability": 10
+      },
+      {
+        "transition": "50-50 Entry",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Butterfly Hook Recovery",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "K-Guard Sweep",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "K-Guard to Single Leg X",
+        "attempt_probability": 1
       }
     ],
     "knowledge_assessment": [

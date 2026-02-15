@@ -4,147 +4,13 @@
 
 ---
 title: "Buggy Choke | BJJ Submission | BJJ Graph"
-description: "Master the Buggy Choke in BJJ. Powerful half guard compression choke targeting the carotid arteries. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%."
+description: "Master the Buggy Choke in BJJ. Powerful half guard compression choke targeting the carotid arteries from bottom position with detailed attack and defense."
 ---
 
 
-<body data-content-type="submissions">
+<body data-content-type="submissions-hub">
 
-<!-- Schema Markup - Auto-generated from JSON -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Execute Buggy Choke in BJJ",
-  "description": "Step-by-step guide for Buggy Choke with safety protocols.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Establish Half Guard Control",
-      "text": "From half guard bottom, secure your opponent's leg with your half guard while they attempt to flatten you or consolidate position. Your outside leg should hook deep while your inside knee creates a frame. Recognize the moment when your opponent commits their weight forward, making them vulnerable to the choke setup.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Create the Angle and Trap",
-      "text": "Turn your body into your opponent, creating a sharp angle rather than staying flat. As you turn, thread your inside arm (the arm on the side of your trapped leg) around and behind their head, or trap their far arm so it crosses their own neck. Your goal is to create a position where their own arm contributes to the choke. Use your free hand to control their wrist or sleeve, preventing defensive hand fighting.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Lock the Grip Configuration",
-      "text": "Secure your choking arm position by grabbing your own leg, your opponent's leg, or establishing a gable grip around their head and shoulder. The exact grip varies based on body proportions and positioning, but the critical element is creating a closed loop that prevents them from swimming their trapped arm free. Your grip should feel secure but not yet applying choking pressure.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Adjust Head Position",
-      "text": "Position your head to the opposite side of where you're choking (if choking from the right, your head goes to their left). This creates the correct angle for carotid compression and prevents them from turning into you to escape. Your ear should be pressed against their shoulder or upper back, creating maximum leverage. Ensure your chin is tucked to protect your own neck if they attempt to counter.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Drive Shoulder and Hip Pressure",
-      "text": "Begin applying the choke by driving your shoulder into the side of their neck while simultaneously pulling with your arms and driving your hips forward. The pressure comes from your entire body rotation, not just arm strength. Your trapped leg should extend slightly to create additional leverage while your free leg hooks over their back or maintains half guard control. This coordinated movement compresses the carotid arteries from multiple angles.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Finish with Core Engagement",
-      "text": "Tighten the choke by squeezing your entire core, engaging your lats, and driving continuous pressure through your shoulder into their neck. Maintain the angle by keeping your head position stable and your hips tight. The finish should feel like you're trying to touch your shoulder to your opposite hip while keeping everything compressed. Watch for the tap and release immediately. If they defend by tucking their chin, maintain pressure and wait for fatigue, or transition to other attacks.",
-      "position": 6
-    }
-  ],
-  "tool": ["BJJ Gi or No-Gi attire", "Training partner", "Mat space"],
-  "totalTime": "PT5M"
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the primary target of the Buggy Choke and why is proper angle so critical?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The primary target is the carotid arteries on the sides of the neck, not the windpipe. Proper angle is critical because you need to create compression from the side to effectively cut off blood flow to the brain. If your angle is wrong and you compress the windpipe instead, you create a painful but less effective submission that's also more dangerous to your partner's throat structure."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the minimum safety requirements before attempting this choke in training?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You must ensure your partner has at least one hand free to tap, apply pressure progressively over 3-5 seconds minimum (never explosive), watch for all tap signals including verbal and physical taps, and immediately release all pressure when partner taps. Additionally, you should only practice this technique with partners who understand proper defensive protocols and tapping etiquette."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why is trapping the opponent's arm such an essential component of the Buggy Choke?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Trapping the opponent's arm serves multiple purposes: it prevents them from using that hand to defend their neck, it contributes to the choking pressure by creating an obstacle their neck is compressed against, and it limits their mobility and ability to posture up or escape. Without the arm trap, opponents can easily hand fight and prevent the choke from being secured."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should you do if your opponent successfully defends the Buggy Choke by freeing their trapped arm?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Maintain your positional control and immediately transition to alternative attacks rather than losing the position entirely. Common transitions include the electric chair sweep/submission, old school sweep, deep half guard, or taking the back if they overcommit to escaping. The key is to stay offensive and use their defensive movement to set up the next attack."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do you properly finish the Buggy Choke in terms of body mechanics and pressure application?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The finish comes from full body engagement, not just arm strength. Drive your shoulder into the side of their neck while pulling with your arms, engage your core and lat muscles, extend your hips slightly for leverage, and maintain your angled position with your head on the opposite side. The pressure should be progressive and continuous, creating compression from multiple angles simultaneously. Squeeze as if trying to touch your shoulder to your opposite hip while keeping everything tight."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the immediate protocol if your partner loses consciousness during the Buggy Choke?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Immediately release all pressure and remove yourself from their neck area completely. Check their breathing and consciousness level. Place them in recovery position if they're unconscious. Alert your instructor or coach immediately for medical assessment. Never attempt to shake them awake or move them excessively. Most importantly, this situation indicates the choke was held too long past the point they should have tapped, which represents a critical safety failure."
-      }
-    }
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Buggy Choke",
-  "description": "Master the Buggy Choke in BJJ. Powerful half guard compression choke targeting the carotid arteries. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.",
-  "url": "https://bjjgraph.org/Submissions/Buggy-Choke",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.org"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
-    {"@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/"},
-    {"@type": "ListItem", "position": 3, "name": "Buggy Choke", "item": "https://bjjgraph.org/Submissions/Buggy-Choke"}
-  ]
-}
-</script>
-
-> ⚠️ **SAFETY**: Buggy Choke targets the Carotid arteries and neck compression. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
+> **SAFETY**: Buggy Choke targets the Carotid arteries and neck compression. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -157,6 +23,7 @@ The Buggy Choke is a devastating compression choke originating from half guard b
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and neck compression
 **Starting Position**: [[Half Guard]]
+**From Position**: [[Half Guard]] (Bottom)
 **Success Rate**: 52%
 
 </section>
@@ -204,94 +71,153 @@ The Buggy Choke is a devastating compression choke originating from half guard b
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="outcomes" class="content-section">
 
-## Key Principles
+## Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[game-over]] | 55% |
+| Failure | [[Half Guard]] | 30% |
+| Counter | [[Side Control]] | 15% |
+
+
+</section>
+
+<section class="content-section">
+
+## Attacker vs Defender
+
+| &nbsp; | Attacker | Defender |
+|--------|----------|----------|
+| **Focus** | Execute and finish | Escape and survive |
+| **Key Principles** | Create a tight angle between your body and opponent's neck u... | Recognize the threat early by monitoring opponent's arm thre... |
+| **Options** | 6 execution steps | 4 defensive options |
+
+</section>
+
+<section id="attacker-summary" class="content-section">
+
+## Playing as Attacker
+
+[[Buggy Choke/Attacker|→ Full Attacker Guide]]
+
+### Key Principles
+
+
 - Create a tight angle between your body and opponent's neck using leg positioning
+
 - Trap the opponent's arm to prevent defensive hand fighting and neck protection
+
 - Drive shoulder pressure into the neck while pulling with the choking arm
+
 - Use your legs to control opponent's posture and prevent escape routes
+
 - Maintain connection between your chest and opponent's trapped shoulder throughout
+
 - Angle your body to maximize compression on the carotid arteries, not the windpipe
+
 - Squeeze with your entire core and back muscles, not just arm strength
 
 
-</section>
-
-<section id="setup-requirements" class="content-section">
-
-## Prerequisites
-- Establish half guard bottom with opponent attempting to flatten or pass
-- Secure deep underhook on the near side or control opponent's far arm
-- Create angle with your body positioning, typically turning into opponent
-- Trap opponent's arm across their own neck or behind your head
-- Establish leg control to prevent opponent from posturing up or escaping
-- Control opponent's head positioning to prevent them from turning away from pressure
+### Execution Steps
 
 
-</section>
+- **Establish Half Guard Control**: From half guard bottom, secure your opponent's leg with your half guard while they attempt to flatte...
 
-<section id="execution-steps" class="content-section">
+- **Create the Angle and Trap**: Turn your body into your opponent, creating a sharp angle rather than staying flat. As you turn, thr...
 
-## Execution Steps
-1. **Establish Half Guard Control**: From half guard bottom, secure your opponent's leg with your half guard while they attempt to flatten you or consolidate position. Your outside leg should hook deep while your inside knee creates a frame. Recognize the moment when your opponent commits their weight forward, making them vulnerable to the choke setup. (Timing: Initial setup phase, typically when opponent drives into you)
-2. **Create the Angle and Trap**: Turn your body into your opponent, creating a sharp angle rather than staying flat. As you turn, thread your inside arm (the arm on the side of your trapped leg) around and behind their head, or trap their far arm so it crosses their own neck. Your goal is to create a position where their own arm contributes to the choke. Use your free hand to control their wrist or sleeve, preventing defensive hand fighting. (Timing: 2-3 seconds to establish proper angle)
-3. **Lock the Grip Configuration**: Secure your choking arm position by grabbing your own leg, your opponent's leg, or establishing a gable grip around their head and shoulder. The exact grip varies based on body proportions and positioning, but the critical element is creating a closed loop that prevents them from swimming their trapped arm free. Your grip should feel secure but not yet applying choking pressure. (Timing: 1-2 seconds for grip establishment)
-4. **Adjust Head Position**: Position your head to the opposite side of where you're choking (if choking from the right, your head goes to their left). This creates the correct angle for carotid compression and prevents them from turning into you to escape. Your ear should be pressed against their shoulder or upper back, creating maximum leverage. Ensure your chin is tucked to protect your own neck if they attempt to counter. (Timing: 1 second for optimal head placement)
-5. **Drive Shoulder and Hip Pressure**: Begin applying the choke by driving your shoulder into the side of their neck while simultaneously pulling with your arms and driving your hips forward. The pressure comes from your entire body rotation, not just arm strength. Your trapped leg should extend slightly to create additional leverage while your free leg hooks over their back or maintains half guard control. This coordinated movement compresses the carotid arteries from multiple angles. (Timing: 3-5 seconds progressive pressure increase)
-6. **Finish with Core Engagement**: Tighten the choke by squeezing your entire core, engaging your lats, and driving continuous pressure through your shoulder into their neck. Maintain the angle by keeping your head position stable and your hips tight. The finish should feel like you're trying to touch your shoulder to your opposite hip while keeping everything compressed. Watch for the tap and release immediately. If they defend by tucking their chin, maintain pressure and wait for fatigue, or transition to other attacks. (Timing: 2-4 seconds to full submission)
+- **Lock the Grip Configuration**: Secure your choking arm position by grabbing your own leg, your opponent's leg, or establishing a ga...
+
+- **Adjust Head Position**: Position your head to the opposite side of where you're choking (if choking from the right, your hea...
+
+- **Drive Shoulder and Hip Pressure**: Begin applying the choke by driving your shoulder into the side of their neck while simultaneously p...
+
+- **Finish with Core Engagement**: Tighten the choke by squeezing your entire core, engaging your lats, and driving continuous pressure...
 
 
-</section>
+### Common Mistakes
 
-<section id="opponent-defense-patterns" class="content-section">
 
-## Opponent Defenses
-- **Posture up and create space by driving forward** (Effectiveness: High) - Your Adjustment: Maintain your angle by turning harder into them and using your legs to break their posture down. If they successfully create space, transition to sweep attempts or deep half guard recovery.
-- **Free the trapped arm by swimming or pulling it back** (Effectiveness: High) - Your Adjustment: Immediately tighten your grip on their wrist and use your head position to block their arm extraction. If the arm escapes, switch to alternative half guard attacks like the electric chair or old school sweep.
-- **Turn into the choke to relieve pressure** (Effectiveness: Medium) - Your Adjustment: Use their turning motion to transition to back control or maintain the choke while adjusting your angle. Your leg position should prevent them from completing the turn.
-- **Tuck chin and protect neck with free hand** (Effectiveness: Medium) - Your Adjustment: Maintain pressure and wait for their arm to fatigue from the defensive position. Often you can still get carotid compression despite the chin tuck if your angle is correct. Be patient and maintain position control.
-- **Roll or scramble explosively to escape position** (Effectiveness: Low) - Your Adjustment: Use your leg control to prevent the roll or follow them through the scramble while maintaining your grips. Often their explosive movement actually tightens the choke if you stay connected.
+- **Applying the choke with only arm strength instead of using whole body mechanics**
+  - Consequence: Premature fatigue, weak choke that opponent can defend, and potential injury to your own shoulder or elbow
+  - Correction: Focus on driving pressure through your shoulder and engaging your core and back muscles. The arms should maintain position while your body rotation creates the pressure.
+
+- **Losing the angle by staying too flat or parallel with opponent**
+  - Consequence: No compression on carotid arteries, opponent easily escapes or counters
+  - Correction: Maintain a sharp angle with your body turned into your opponent. Your shoulders should form approximately 45-90 degrees relative to their spine.
+
+- **Failing to trap opponent's arm securely before attempting the choke**
+  - Consequence: Opponent uses their free arm to defend their neck, making the choke impossible to finish
+  - Correction: Ensure the arm is deeply trapped across their neck or behind your head before applying pressure. Control their wrist with your free hand if needed.
 
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="defender-summary" class="content-section">
 
-## Common Mistakes
-- **Mistake**: Applying the choke with only arm strength instead of using whole body mechanics
-  - **Consequence**: Premature fatigue, weak choke that opponent can defend, and potential injury to your own shoulder or elbow
-  - **Correction**: Focus on driving pressure through your shoulder and engaging your core and back muscles. The arms should maintain position while your body rotation creates the pressure.
-- **Mistake**: Losing the angle by staying too flat or parallel with opponent
-  - **Consequence**: No compression on carotid arteries, opponent easily escapes or counters
-  - **Correction**: Maintain a sharp angle with your body turned into your opponent. Your shoulders should form approximately 45-90 degrees relative to their spine.
-- **Mistake**: Failing to trap opponent's arm securely before attempting the choke
-  - **Consequence**: Opponent uses their free arm to defend their neck, making the choke impossible to finish
-  - **Correction**: Ensure the arm is deeply trapped across their neck or behind your head before applying pressure. Control their wrist with your free hand if needed.
-- **Mistake**: Releasing pressure when opponent defends instead of maintaining position
-  - **Consequence**: Opponent escapes and potentially passes your guard
-  - **Correction**: Even if the finish isn't immediately available, maintain your controlling grips and position. Often defenses create fatigue, opening the submission later.
-- **Mistake**: Applying explosive, jerking pressure to force the tap
-  - **Consequence**: Serious injury including neck strain, potential loss of consciousness without warning, or jaw dislocation
-  - **Correction**: Apply pressure progressively and smoothly over 3-5 seconds. Give your partner time to recognize the danger and tap safely.
-- **Mistake**: Continuing to apply pressure after partner taps or goes limp
-  - **Consequence**: Unconsciousness, prolonged oxygen deprivation, potential brain injury
-  - **Correction**: Develop acute awareness of tap signals and immediately release all pressure the instant you feel a tap. If partner goes limp without tapping, release immediately and alert instructor.
-- **Mistake**: Poor head positioning that creates windpipe pressure instead of carotid compression
-  - **Consequence**: Painful crushing of windpipe without achieving clean submission, potential tracheal damage
-  - **Correction**: Adjust your angle so pressure is directed to the sides of the neck where carotid arteries are located, not the front of the throat. This is both safer and more effective.
+## Playing as Defender
+
+[[Buggy Choke/Defender|→ Full Defender Guide]]
+
+### Key Principles
+
+
+- Recognize the threat early by monitoring opponent's arm threading and body angle changes from bottom half guard
+
+- Never allow your arm to be trapped across your own neck or behind opponent's head without immediate extraction
+
+- Maintain strong posture and avoid collapsing your weight forward into opponent's half guard, which feeds the choke angle
+
+- Keep at least one hand free to defend your neck at all times when in top half guard
+
+- Address the arm trap first before worrying about the choking pressure—free the arm and the choke dissolves
+
+- Use posture changes and hip movement to destroy the angle the attacker needs for carotid compression
+
+
+### Recognition Cues
+
+
+- Opponent begins threading their inside arm around or behind your head while you are in top half guard
+
+- Opponent turns sharply into you from bottom half guard, creating an angle with their torso rather than staying flat
+
+- You feel your arm being pulled across your own centerline or trapped against your neck by opponent's grip
+
+- Opponent's legs shift from standard half guard retention to actively controlling your posture and preventing you from backing away
+
+- Opponent secures a grip on their own leg or establishes a gable grip around your head and shoulder area
+
+
+### Escape Paths
+
+
+- Extract the trapped arm by turning your elbow down and swimming it back to your hip, then immediately posture up to reset in half guard top
+
+- Drive through to complete the half guard pass to side control, which removes the positional framework the Buggy Choke requires
+
+- Posture up explosively to break the compression angle, then re-establish dominant crossface and shoulder pressure from top half guard
+
+- Roll toward the choking side to relieve the angle, accepting a scramble to reset the position rather than remaining in the choke
 
 
 </section>
 
-<section id="variations-and-setups" class="content-section hide-minimal">
+
+<section id="variations" class="content-section hide-minimal">
 
 ## Variations
+
+
 **Buggy Choke from Lockdown**: Establish lockdown control with your legs before setting up the choke. The lockdown prevents opponent from posturing and creates additional breaking pressure on their posture, making the choke easier to secure. This is a high-percentage 10th Planet system variation. (When to use: When opponent is attempting to smash through your half guard with heavy pressure)
 
-**Buggy Choke from Turtle**: When opponent is flattening you from turtle position, use similar mechanics by threading your arm around their head while they drive forward. The angle changes slightly but the arm trap and compression mechanics remain the same. (When to use: When defending against opponent's turtle attacks or when transitioning from failed guard retention)
+
+**Buggy Choke from Flattened Half Guard**: When opponent has successfully flattened you in half guard and is consolidating for the pass, use their committed weight against them by threading the arm behind their head and creating the compression angle from the flattened position. The opponent's heavy forward pressure actually assists the choke mechanics. (When to use: When you have been flattened in half guard and opponent is driving heavy crossface pressure, making standard sweeps difficult)
+
 
 **Buggy Choke to Electric Chair Combination**: If opponent defends the choke by freeing their trapped arm, immediately transition to the electric chair position by controlling their far leg and extending your lockdown. This creates a devastating submission chain. (When to use: When opponent successfully defends the initial choke attempt but remains in your half guard)
+
 
 **Rolling Buggy Choke**: If opponent attempts to roll away from the pressure, maintain all your grips and follow them through the roll. Often the submission actually tightens during the roll, or you can take the back if they complete the rotation. (When to use: Against explosive opponents who try to scramble out of bad positions)
 
@@ -299,48 +225,6 @@ The Buggy Choke is a devastating compression choke originating from half guard b
 
 </section>
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-**Q1**: What is the primary target of the Buggy Choke and why is proper angle so critical? **[SAFETY-CRITICAL]**
-**A**: The primary target is the carotid arteries on the sides of the neck, not the windpipe. Proper angle is critical because you need to create compression from the side to effectively cut off blood flow to the brain. If your angle is wrong and you compress the windpipe instead, you create a painful but less effective submission that's also more dangerous to your partner's throat structure.
-
-**Q2**: What are the minimum safety requirements before attempting this choke in training? **[SAFETY-CRITICAL]**
-**A**: You must ensure your partner has at least one hand free to tap, apply pressure progressively over 3-5 seconds minimum (never explosive), watch for all tap signals including verbal and physical taps, and immediately release all pressure when partner taps. Additionally, you should only practice this technique with partners who understand proper defensive protocols and tapping etiquette.
-
-**Q3**: Why is trapping the opponent's arm such an essential component of the Buggy Choke?
-**A**: Trapping the opponent's arm serves multiple purposes: it prevents them from using that hand to defend their neck, it contributes to the choking pressure by creating an obstacle their neck is compressed against, and it limits their mobility and ability to posture up or escape. Without the arm trap, opponents can easily hand fight and prevent the choke from being secured.
-
-**Q4**: What should you do if your opponent successfully defends the Buggy Choke by freeing their trapped arm?
-**A**: Maintain your positional control and immediately transition to alternative attacks rather than losing the position entirely. Common transitions include the electric chair sweep/submission, old school sweep, deep half guard, or taking the back if they overcommit to escaping. The key is to stay offensive and use their defensive movement to set up the next attack.
-
-**Q5**: How do you properly finish the Buggy Choke in terms of body mechanics and pressure application?
-**A**: The finish comes from full body engagement, not just arm strength. Drive your shoulder into the side of their neck while pulling with your arms, engage your core and lat muscles, extend your hips slightly for leverage, and maintain your angled position with your head on the opposite side. The pressure should be progressive and continuous, creating compression from multiple angles simultaneously. Squeeze as if trying to touch your shoulder to your opposite hip while keeping everything tight.
-
-**Q6**: What is the immediate protocol if your partner loses consciousness during the Buggy Choke? **[SAFETY-CRITICAL]**
-**A**: Immediately release all pressure and remove yourself from their neck area completely. Check their breathing and consciousness level. Place them in recovery position if they're unconscious. Alert your instructor or coach immediately for medical assessment. Never attempt to shake them awake or move them excessively. Most importantly, this situation indicates the choke was held too long past the point they should have tapped, which represents a critical safety failure.
-
-**Q7**: Why is the Buggy Choke particularly effective from bottom half guard compared to other submission options?
-**A**: The Buggy Choke is effective from bottom half guard because it uses the opponent's forward pressure against them—when they try to flatten you or consolidate position, they unknowingly move into the optimal angle for the choke. It allows a smaller, defensive player to finish a larger opponent using mechanics rather than strength. Additionally, the setup is deceptive; opponents often don't recognize the threat until it's deeply locked, unlike more obvious submissions like armbars where the threat is apparent earlier.
-
-**Q8**: Your opponent starts to posture up during your Buggy Choke attempt - what adjustment prevents escape?
-**A**: When opponent begins posturing, immediately extend your legs to break their posture down while turning harder into them to maintain your angle. Use your half guard hook to prevent them from standing or backing away. If they create significant space, you may need to follow them up, transitioning the choke attempt into a sweep or back take rather than abandoning the position entirely. The key is using your legs as anchors while your upper body maintains the choking configuration.
-
-**Q9**: What grip adjustments should you make during the finish if opponent begins defending with their free hand?
-**A**: If opponent's free hand begins fighting your grip, tighten your choking arm's connection to your body or leg anchor, making it harder to pry loose. You can also use your own free hand to control their defending wrist, pinning it to your body or trapping it between you. The critical adjustment is ensuring your primary choking mechanism—the shoulder and arm pressure—remains intact even if you need to sacrifice some grip configuration. Never release your core choking structure to hand fight.
-
-**Q10**: What indicators tell you the choke is properly positioned on the carotid arteries versus the windpipe? **[SAFETY-CRITICAL]**
-**A**: Proper carotid compression causes the opponent's face to flush red, their eyes may bulge slightly, and they typically tap quickly (within seconds) as blood flow is restricted. Windpipe compression causes choking, coughing, and panic but opponents can often endure it longer while suffering. You should feel your shoulder bone pressing into the soft tissue on the side of their neck, not the front cartilage of the throat. The angle of your body should be perpendicular enough that pressure naturally goes to the side.
-
-**Q11**: In competition, what finishing strategies maximize success rate while maintaining safety awareness? **[SAFETY-CRITICAL]**
-**A**: In competition, commit fully to the position before attempting the finish—ensure the arm trap is secure and your angle is correct before applying significant pressure. Once committed, apply steady progressive pressure rather than explosive cranking. Watch for opponent's defense patterns and be prepared to transition if they successfully address one element of your control. Even in competition, maintain awareness that opponents may pass out rather than tap, so be prepared to release immediately if they go limp. Winning by submission is not worth causing serious injury.
-
-**Q12**: What physical sensations indicate you have reached the point of no escape for your opponent?
-**A**: The point of no escape occurs when your shoulder is fully wedged into the side of their neck, their trapped arm cannot be extracted, and your legs prevent any posture change or roll. You will feel their body become increasingly tense as they recognize the threat, followed by either immediate tap or brief defensive struggle. Their head will be trapped in a fixed position unable to turn away from pressure. At this point, even small increases in pressure will cause the tap—there is no need for explosive finishing force.
-
-
-
-</section>
 
 <section id="from-positions" class="content-section">
 
@@ -349,11 +233,9 @@ The Buggy Choke is a devastating compression choke originating from half guard b
 - [[Half Guard]]
 - [[Lockdown]]
 - [[Deep Half Guard]]
-- [[Turtle]]
 - [[Quarter Guard]]
-- [[Butterfly Half Guard]]
-- [[Z-Guard]]
-- [[Dogfight Position]]
+- [[Half Butterfly]]
+- [[Flattened Half Guard]]
 
 
 </section>
@@ -382,13 +264,12 @@ The Buggy Choke is a devastating compression choke originating from half guard b
 - [[Deep Half Guard]] - Recovery position when Buggy Choke setup is defended
 - [[Electric Chair Submission]] - Primary follow-up submission when opponent defends the Buggy Choke
 - [[Crab Ride]] - Position that can develop from successful Buggy Choke angle creation
-- [[Truck]] - Alternative back attack position accessible from similar half guard entries
+- [[Lockdown]] - Complementary leg entanglement that enhances Buggy Choke control and posture breaking
 - [[Half Guard Pass]] - What opponent is attempting when Buggy Choke becomes available
-- [[Underhook Sweep from Half]] - Alternative offensive option from the same underhook control position
+- [[Half Guard]] - Primary starting position and positional context for the Buggy Choke system
 
 
 </section>
-
 
 <section id="terminal-state" class="content-section">
 

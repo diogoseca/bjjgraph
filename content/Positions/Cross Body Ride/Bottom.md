@@ -20,38 +20,38 @@ description: "Master defensive strategies from Cross Body Ride Bottom in BJJ. Co
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll",
-      "text": "From this position, attempt Granby Roll. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Rolling to Guard",
+      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape",
-      "text": "From this position, attempt Hip Escape. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Turtle to Guard",
+      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 32% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Standup",
-      "text": "From this position, attempt Technical Standup. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Turtle to Standing",
+      "text": "From this position, attempt Turtle to Standing. This technique is attempted in 16% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Shrimp Escape",
-      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Sit Through to Guard",
+      "text": "From this position, attempt Sit Through to Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling to Guard",
-      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Peterson Roll",
+      "text": "From this position, attempt Peterson Roll. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Turtle to Guard",
-      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Hip Escape to Guard",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -161,6 +161,8 @@ Cross Body Ride Bottom represents a highly disadvantageous defensive position wh
 
 From the bottom perspective, Cross Body Ride represents a critical juncture where proper defensive framing, hip movement, and explosive timing can create escape opportunities, while poor technique leads to rapid position deterioration. The bottom player must balance survival priorities—protecting the neck, preventing the back take, maintaining base—while actively working toward re-guard or reversal opportunities. Understanding the relationship between upper body frames, hip positioning, and timing is essential for survival and eventual escape from this compromised position.
 
+The fundamental challenge of Cross Body Ride Bottom is that passive defense guarantees position loss. The top player's perpendicular weight creates a collapsing force that steadily erodes the bottom player's structural integrity. Every second spent without active escape work allows the top player to advance grips, insert hooks, or transition to an even more dominant configuration. Successful defense requires continuous movement, intelligent framing, and the discipline to chain escape attempts rather than committing to single explosive efforts that waste energy when they fail.
+
 </section>
 
 <section id="state-invariants" class="content-section">
@@ -206,17 +208,21 @@ From the bottom perspective, Cross Body Ride represents a critical juncture wher
 
 ## Available Escapes
 
-### [[Granby Roll]] (18% of attempts)
+### [[Rolling to Guard]] (16% of attempts)
 
-### [[Hip Escape]] (17% of attempts)
+### [[Turtle to Guard]] (32% of attempts)
 
-### [[Technical Standup]] (15% of attempts)
+### [[Turtle to Standing]] (16% of attempts)
 
-### [[Shrimp Escape]] (16% of attempts)
+### [[Sit Through to Guard]] (14% of attempts)
 
-### [[Rolling to Guard]] (17% of attempts)
+### [[Peterson Roll]] (8% of attempts)
 
-### [[Turtle to Guard]] (17% of attempts)
+### [[Hip Escape to Guard]] (8% of attempts)
+
+### [[Hip Escape from Cross Body Ride]] (4% of attempts)
+
+### [[Roll Escape from Cross Body Ride]] (2% of attempts)
 
 
 
@@ -227,22 +233,22 @@ From the bottom perspective, Cross Body Ride represents a critical juncture wher
 ## Decision Making from This Position
 
 **If opponent is high on back with hooks threatening but not yet established:**
-- Execute **[[Granby Roll]]** → [[Closed Guard]] (Probability: 45%)
-- Execute **[[Hip Escape]]** → [[Half Guard]] (Probability: 40%)
+- Execute **[[Granby Roll to Guard]]** → [[Closed Guard]] (Probability: 45%)
+- Execute **[[Hip Escape to Guard]]** → [[Half Guard]] (Probability: 40%)
 
 
 **If opponent is controlling one arm and attempting crucifix entry:**
 - Execute **[[Rolling to Guard]]** → [[Open Guard]] (Probability: 50%)
-- Execute **[[Frame and Shrimp]]** → [[Deep Half Guard]] (Probability: 35%)
+- Execute **[[Frame and Shrimp to Guard]]** → [[Deep Half Guard]] (Probability: 35%)
 
 
 **If opponent has heavy cross-body pressure but limited control of arms:**
-- Execute **[[Technical Standup]]** → [[Standing Position]] (Probability: 42%)
+- Execute **[[Technical Stand-up]]** → [[Standing Position]] (Probability: 42%)
 - Execute **[[Shrimp Escape]]** → [[Closed Guard]] (Probability: 38%)
 
 
 **If opponent is attempting to flatten you completely to mat:**
-- Execute **[[Granby Roll]]** → [[Closed Guard]] (Probability: 40%)
+- Execute **[[Granby Roll to Guard]]** → [[Closed Guard]] (Probability: 40%)
 - Execute **[[Turtle to Guard]]** → [[Butterfly Guard]] (Probability: 35%)
 
 
@@ -382,10 +388,10 @@ Start in cross body ride bottom position. Bottom player scores points for succes
 - **[[Back Control]]** - Common transition target when escape fails
 - **[[Crucifix]]** - Common transition target from arm isolation
 - **[[Crab Ride]]** - Similar defensive position with different top control angle
-- **[[Twister Control]]** - Related control position from turtle variations
-- **[[Granby Roll]]** - Primary escape technique from this position
-- **[[Hip Escape]]** - Essential escape technique for re-guarding
+- **[[Granby Roll to Guard]]** - Primary escape technique from this position
+- **[[Hip Escape to Guard]]** - Essential escape technique for re-guarding
 - **[[Half Guard]]** - Common escape destination from turtle
+- **[[Shrimp Escape]]** - Fundamental escape movement for creating space
 
 
 </section>

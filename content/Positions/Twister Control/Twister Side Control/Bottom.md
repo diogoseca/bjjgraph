@@ -20,8 +20,8 @@ description: "Defend twister side control with systematic escape strategies. Lea
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll",
-      "text": "From this position, attempt Granby Roll. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Granby Roll to Guard",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
@@ -32,14 +32,14 @@ description: "Defend twister side control with systematic escape strategies. Lea
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape",
-      "text": "From this position, attempt Hip Escape. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Hip Escape to Guard",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 17% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Frame and Shrimp",
-      "text": "From this position, attempt Frame and Shrimp. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Frame and Shrimp to Guard",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 18% of exchanges from this position.",
       "position": 4
     },
     {
@@ -212,13 +212,13 @@ The learning curve for defending Twister Side Control is steep, with beginners o
 
 ## Available Escapes
 
-### [[Granby Roll]] (15% of attempts)
+### [[Granby Roll to Guard]] (15% of attempts)
 
 ### [[Technical Stand-up]] (13% of attempts)
 
-### [[Hip Escape]] (17% of attempts)
+### [[Hip Escape to Guard]] (17% of attempts)
 
-### [[Frame and Shrimp]] (18% of attempts)
+### [[Frame and Shrimp to Guard]] (18% of attempts)
 
 ### [[Turtle Transition]] (21% of attempts)
 
@@ -239,7 +239,7 @@ The learning curve for defending Twister Side Control is steep, with beginners o
 
 **If top player has shoulder control but incomplete leg entanglement:**
 - Execute **[[Leg Extraction]]** → [[Side Control]] (Probability: 45%)
-- Execute **[[Hip Escape]]** → [[Half Guard]] (Probability: 40%)
+- Execute **[[Hip Escape to Guard]]** → [[Half Guard]] (Probability: 40%)
 
 
 **If top player's weight is distributed unevenly or too far forward:**
@@ -248,8 +248,8 @@ The learning curve for defending Twister Side Control is steep, with beginners o
 
 
 **If bottom player successfully creates upper body frames and partial separation:**
-- Execute **[[Granby Roll]]** → [[Half Guard]] (Probability: 50%)
-- Execute **[[Shrimp Escape]]** → [[Open Guard]] (Probability: 45%)
+- Execute **[[Granby Roll to Guard]]** → [[Half Guard]] (Probability: 50%)
+- Execute **[[Frame and Shrimp to Guard]]** → [[Open Guard]] (Probability: 45%)
 
 
 
@@ -385,9 +385,9 @@ Multiple rounds starting from twister side control bottom. Defender attempts ful
 
 - **[[Turtle]]** - Common transitional position when achieving partial escape from twister side control
 - **[[Side Control]]** - Traditional position sharing lateral control mechanics with different escape priorities
-- **[[Granby Roll]]** - Key escape technique for creating distance and recovering guard
+- **[[Granby Roll to Guard]]** - Key escape technique for creating distance and recovering guard
 - **[[Half Guard]]** - Common recovery position after successful leg extraction
-- **[[Hip Escape]]** - Fundamental movement pattern adapted for escaping leg entanglement
+- **[[Hip Escape to Guard]]** - Fundamental movement pattern adapted for escaping leg entanglement
 - **[[Technical Stand-up]]** - Advanced escape option when sufficient upper body separation is achieved
 - **[[Open Guard]]** - Recovery position achievable through successful shrimp escape sequences
 

@@ -4,7 +4,7 @@
 
 ---
 title: "Crucifix | BJJ Position Guide | BJJ Graph"
-description: "Master Crucifix position in BJJ. Dominant arm-trapping control with 85% submission rate. Complete guide covering both perspectives, entries, submissions, and escapes."
+description: "Master Crucifix position in BJJ. Dominant arm-trapping control with high submission rate. Complete guide covering both perspectives, entries, submissions, and escapes."
 ---
 
 
@@ -95,17 +95,17 @@ Mastery of the Crucifix from both perspectives—understanding how to establish 
 ### Available Transitions
 
 
-- **[[Hip Escape to Guard Recovery]]** (17% of attempts)
+- **[[Hip Escape to Guard]]** (18% of attempts)
 
 - **[[Arm Extraction]]** (21% of attempts)
 
-- **[[Back Take from Bottom]]** (15% of attempts)
+- **[[Back Take from Bottom]]** (13% of attempts)
 
-- **[[Elbow Escape]]** (16% of attempts)
+- **[[Elbow Escape to Guard]]** (16% of attempts)
 
-- **[[Hip Escape]]** (19% of attempts)
+- **[[Shrimp Escape]]** (20% of attempts)
 
-- **[[Technical Standup]]** (12% of attempts)
+- **[[Standing Escape]]** (12% of attempts)
 
 
 ### Common Mistakes
@@ -133,7 +133,7 @@ Mastery of the Crucifix from both perspectives—understanding how to establish 
 
 - ❌ **Giving up mentally when crucifix is secured, assuming position is inescapable**
   - Consequence: Self-fulfilling prophecy where lack of defensive effort leads to inevitable submission when escapes were technically possible
-  - ✅ Correction: Maintain aggressive defensive mindset—statistics show significant escape rates even from consolidated crucifix with proper technique
+  - ✅ Correction: Maintain aggressive defensive mindset—significant escape rates exist even from consolidated crucifix with proper technique
 
 
 </section>
@@ -166,19 +166,19 @@ Mastery of the Crucifix from both perspectives—understanding how to establish 
 ### Available Transitions
 
 
-- **[[Rear Naked Choke]]** (16% of attempts)
+- **[[Rear Naked Choke]]** (18% of attempts)
 
-- **[[Choke from Crucifix]]** (14% of attempts)
+- **[[Neck Crank]]** (12% of attempts)
 
-- **[[Armbar from Crucifix]]** (14% of attempts)
+- **[[Armbar on Free Arm]]** (15% of attempts)
 
 - **[[Kimura]]** (13% of attempts)
 
 - **[[Side Control to Mount]]** (14% of attempts)
 
-- **[[Back Control to Crucifix]]** (15% of attempts)
+- **[[Back Control Maintenance]]** (15% of attempts)
 
-- **[[Side Control to North-South]]** (14% of attempts)
+- **[[Side Control to North-South]]** (13% of attempts)
 
 
 ### Common Mistakes

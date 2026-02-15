@@ -21,32 +21,38 @@ description: "Master Dead Orchard Control Top in BJJ. Advanced anaconda variatio
     {
       "@type": "HowToStep",
       "name": "Execute Anaconda Choke",
-      "text": "From this position, attempt Anaconda Choke. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Anaconda Choke. This technique is attempted in 37% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 20% of exchanges from this position.",
+      "name": "Execute Darce from Turtle",
+      "text": "From this position, attempt Darce from Turtle. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 20% of exchanges from this position.",
+      "name": "Execute Front Headlock to Back",
+      "text": "From this position, attempt Front Headlock to Back. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Darce from Turtle",
-      "text": "From this position, attempt Darce from Turtle. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Side Control to Mount",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 18% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Front Headlock to Back",
-      "text": "From this position, attempt Front Headlock to Back. This technique is attempted in 20% of exchanges from this position.",
+      "name": "Execute Side Control to North-South",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Dead Orchard to Anaconda Finish",
+      "text": "From this position, attempt Dead Orchard to Anaconda Finish. This technique is attempted in 4% of exchanges from this position.",
+      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -200,15 +206,19 @@ Dead Orchard Control Top is an advanced anaconda choke variation developed withi
 
 ## Available Attacks
 
-### [[Anaconda Choke]] (25% of attempts)
+### [[Anaconda Choke]] (37% of attempts)
 
-### [[Side Control to Mount]] (20% of attempts)
+### [[Darce from Turtle]] (13% of attempts)
 
-### [[Side Control to North-South]] (20% of attempts)
+### [[Front Headlock to Back]] (18% of attempts)
 
-### [[Darce from Turtle]] (15% of attempts)
+### [[Side Control to Mount]] (18% of attempts)
 
-### [[Front Headlock to Back]] (20% of attempts)
+### [[Side Control to North-South]] (8% of attempts)
+
+### [[Dead Orchard to Anaconda Finish]] (4% of attempts)
+
+### [[Dead Orchard to Darce Switch]] (2% of attempts)
 
 
 
@@ -219,7 +229,7 @@ Dead Orchard Control Top is an advanced anaconda choke variation developed withi
 ## Decision Making from This Position
 
 **If opponent remains stationary with minimal defensive movement:**
-- Execute **[[Anaconda Choke]]** → [[game-over]] (Probability: 70%)
+- Execute **[[Anaconda Choke]]** → [[Game Over]] (Probability: 70%)
 - Execute **[[Increase shoulder pressure gradually]]** → [[Dead Orchard Control]] (Probability: 30%)
 
 
@@ -240,7 +250,7 @@ Dead Orchard Control Top is an advanced anaconda choke variation developed withi
 
 **If opponent establishes strong defensive grips preventing finish:**
 - Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 50%)
-- Execute **[[Side Control to Mount]]** → [[Side Control]] (Probability: 50%)
+- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 50%)
 
 
 
@@ -293,7 +303,7 @@ Dead Orchard Control Top is an advanced anaconda choke variation developed withi
 
 Partner starts in defensive turtle position. Establish dead orchard control and maintain grip and shoulder pressure for 2-minute rounds while partner attempts various escape sequences. Focus on grip depth preservation, shoulder pressure consistency, and positional adjustments without releasing control. Reset and repeat for 5 rounds with 1-minute rest periods.
 
-**Duration**: 5 rounds × 2 minutes
+**Duration**: 5 rounds x 2 minutes
 
 
 ### Positional Flow Drill
@@ -307,7 +317,7 @@ From dead orchard control top, practice flowing between control maintenance and 
 
 Establish dead orchard control and practice recognizing optimal finishing windows based on partner's defensive responses. Partner alternates between different defensive patterns (static defense, explosive escape attempts, gradual space creation). Practitioner must identify and capitalize on submission opportunities while maintaining position when finish is not available. Instructor provides feedback on timing decisions.
 
-**Duration**: 6 rounds × 3 minutes
+**Duration**: 6 rounds x 3 minutes
 
 
 ### Counter-Response Chain Drill

@@ -1,0 +1,13 @@
+{
+  "name": "Underhook Sweep from Dogfight",
+  "description": "",
+  "tags": [],
+  "from_position": "Dogfight Position/Bottom",
+  "outcomes": [
+    {
+      "to": "Mount/Top",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

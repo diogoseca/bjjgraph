@@ -95,21 +95,21 @@ The position frequently occurs during scrambles, failed takedown attempts, succe
 ### Available Transitions
 
 
-- **[[Hip Escape to Turtle]]** (14% of attempts)
-
-- **[[Technical Standup]]** (12% of attempts)
-
-- **[[Rolling to Guard]]** (13% of attempts)
-
-- **[[Granby Roll]]** (11% of attempts)
+- **[[Hip Escape to Turtle]]** (13% of attempts)
 
 - **[[Standing up in Base]]** (10% of attempts)
 
+- **[[Rolling to Guard]]** (10% of attempts)
+
+- **[[Granby Roll to Guard]]** (5% of attempts)
+
 - **[[Grip Break and Face]]** (12% of attempts)
 
-- **[[Controlled Descent]]** (17% of attempts)
+- **[[Controlled Descent]]** (30% of attempts)
 
-- **[[Explosive Forward Roll]]** (11% of attempts)
+- **[[Explosive Forward Roll]]** (6% of attempts)
+
+- **[[Turn In and Face]]** (14% of attempts)
 
 
 ### Common Mistakes
@@ -170,21 +170,21 @@ The position frequently occurs during scrambles, failed takedown attempts, succe
 ### Available Transitions
 
 
-- **[[Rear Naked Choke]]** (14% of attempts)
+- **[[Rear Naked Choke]]** (18% of attempts)
 
-- **[[Takedown to Grounded Back Control]]** (15% of attempts)
+- **[[Takedown to Grounded Back Control]]** (18% of attempts)
 
-- **[[Bow and Arrow Choke]]** (12% of attempts)
+- **[[Body Triangle Lock]]** (14% of attempts)
 
-- **[[Body Triangle Lock]]** (13% of attempts)
-
-- **[[Armbar from Back Transition]]** (11% of attempts)
-
-- **[[Mat Return to Back Mount]]** (14% of attempts)
+- **[[Armbar from Back Transition]]** (7% of attempts)
 
 - **[[Crucifix Transition]]** (10% of attempts)
 
-- **[[Truck Position Entry]]** (11% of attempts)
+- **[[Truck Position Entry]]** (13% of attempts)
+
+- **[[Snap Down to Front Headlock]]** (8% of attempts)
+
+- **[[Follow to Back Control]]** (12% of attempts)
 
 
 ### Common Mistakes
@@ -225,8 +225,6 @@ The position frequently occurs during scrambles, failed takedown attempts, succe
 
 - **[[Back Control]]** - Grounded version of this position - common transition target for both players
 
-- **[[Standing Rear Clinch]]** - Entry position - back control develops from successful rear clinch control
-
 - **[[Clinch]]** - Neutral starting position - standing back control often emerges from clinch scrambles
 
 - **[[Turtle]]** - Common defensive transition - bottom player often moves here when escaping standing back control
@@ -235,15 +233,7 @@ The position frequently occurs during scrambles, failed takedown attempts, succe
 
 - **[[Harness]]** - Primary control mechanism - seat belt grip configuration essential for maintaining standing back control
 
-- **[[Seat Belt Control Back]]** - Specific grip detail - the fundamental upper body control for back positions
-
 - **[[Body Triangle]]** - Advanced leg control - can be applied from standing to prevent escape attempts
-
-- **[[Rear Naked Choke]]** - Primary offensive threat from top position
-
-- **[[Scramble Position]]** - Common result of failed control or escape attempts
-
-- **[[Standing Position]]** - Neutral return position if bottom player successfully escapes
 
 - **[[Front Headlock]]** - Alternative control if bottom player begins turning to face top player
 

@@ -21,37 +21,37 @@ description: "Master the Jailbreak escape from bottom half guard. Advanced 10th 
     {
       "@type": "HowToStep",
       "name": "Execute Jailbreak to Turtle",
-      "text": "From this position, attempt Jailbreak to Turtle. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Jailbreak to Turtle. This technique is attempted in 22% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Jailbreak to Back Take",
-      "text": "From this position, attempt Jailbreak to Back Take. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Jailbreak to Back Take. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Jailbreak to Deep Half Entry",
-      "text": "From this position, attempt Jailbreak to Deep Half Entry. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Jailbreak to Deep Half Entry. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guard Recovery",
-      "text": "From this position, attempt Guard Recovery. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Guard Recovery. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Standup",
-      "text": "From this position, attempt Technical Standup. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Lockdown Recovery",
+      "text": "From this position, attempt Lockdown Recovery. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,17 +210,19 @@ The biomechanical principle underlying the Jailbreak involves converting the opp
 
 ## Available Escapes
 
-### [[Jailbreak to Turtle]] (19% of attempts)
+### [[Jailbreak to Turtle]] (22% of attempts)
 
-### [[Jailbreak to Back Take]] (16% of attempts)
+### [[Jailbreak to Back Take]] (14% of attempts)
 
-### [[Jailbreak to Deep Half Entry]] (17% of attempts)
+### [[Jailbreak to Deep Half Entry]] (15% of attempts)
 
-### [[Guard Recovery]] (19% of attempts)
+### [[Guard Recovery]] (15% of attempts)
 
-### [[Old School Sweep]] (13% of attempts)
+### [[Old School Sweep]] (12% of attempts)
 
-### [[Technical Standup]] (16% of attempts)
+### [[Lockdown Recovery]] (12% of attempts)
+
+### [[Electric Chair Transition]] (10% of attempts)
 
 
 
@@ -237,7 +239,7 @@ The biomechanical principle underlying the Jailbreak involves converting the opp
 
 **If top player bases out wide to prevent roll and underhook remains secure:**
 - Execute **[[Old School Sweep]]** → [[Mount]] (Probability: 50%)
-- Execute **[[Technical Standup]]** → [[Standing Position]] (Probability: 60%)
+- Execute **[[Technical Stand-up]]** → [[Standing Position]] (Probability: 60%)
 
 
 **If top player follows the jailbreak roll motion attempting to maintain control:**
@@ -355,7 +357,7 @@ Bottom player executes jailbreak while top player intentionally follows the roll
 **A**: Energy management in Jailbreak Bottom requires strategic patience combined with explosive execution. Don't continuously fight for the escape against a well-based opponent. Instead, maintain your underhook defensively while waiting for them to commit weight forward for their pass. When they don't commit, consider switching to lockdown to recover energy, or threatening other attacks to force reactions. Save your explosive energy for moments when their weight is forward and the escape mechanics will work.
 
 **Q8**: Your jailbreak fails and you end up in turtle with the opponent on top - how do you continue the escape sequence?
-**A**: If you reach turtle after a jailbreak attempt, immediately protect your neck and far arm from chokes and back takes. Your options from turtle include: sitting through to guard recovery by posting and rotating, standing up through a technical standup if you can create space, or attacking with a Peterson roll or Granby to re-guard. The key is staying active in turtle rather than stalling, as the opponent will quickly establish back control if you remain static. Chain your escape attempts together.
+**A**: If you reach turtle after a jailbreak attempt, immediately protect your neck and far arm from chokes and back takes. Your options from turtle include: sitting through to guard recovery by posting and rotating, standing up through a technical stand-up if you can create space, or attacking with a Peterson roll or Granby to re-guard. The key is staying active in turtle rather than stalling, as the opponent will quickly establish back control if you remain static. Chain your escape attempts together.
 
 
 

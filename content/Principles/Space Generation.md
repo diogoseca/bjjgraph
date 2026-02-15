@@ -377,9 +377,9 @@ Solo practice of shrimping sequences, bridging patterns, granby rolls, and techn
 ### Related Content
 - [[Frame Creation]] (Principle) - Core skill that enables space generation—frames provide the structural leverage for all space-creating movements
 - [[Hip Escape Mechanics]] (Principle) - Primary mechanical technique for converting frame-created space into actual positional displacement
-- [[Elbow Escape]] (Transition) - Classic application combining frames and shrimping to generate space for mount and side control escapes
+- [[Elbow Escape to Guard]] (Transition) - Classic application combining frames and shrimping to generate space for mount and side control escapes
 - [[Shrimp Escape]] (Transition) - Fundamental transition demonstrating pure space generation through hip movement and frame coordination
-- [[Frame and Shrimp]] (Transition) - Technical sequence explicitly teaching coordinated frame and hip escape for systematic space generation
+- [[Frame and Shrimp to Guard]] (Transition) - Technical sequence explicitly teaching coordinated frame and hip escape for systematic space generation
 - [[Side Control]] (Position) - Primary position where space generation skills are most critical for survival and escape
 - [[Mount]] (Position) - High-threat position requiring explosive bridging and shrimping to generate escape space under maximum pressure
 - [[Escape Fundamentals]] (Principle) - Broader framework that space generation serves as the foundational skill for all escape sequences

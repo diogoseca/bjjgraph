@@ -21,37 +21,37 @@ description: "Master Rubber Guard bottom using the 10th Planet system. Learn Mis
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 53% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Omoplata from Guard",
-      "text": "From this position, attempt Omoplata from Guard. This technique is attempted in 20% of exchanges from this position.",
+      "name": "Execute Omoplata",
+      "text": "From this position, attempt Omoplata. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Gogoplata",
-      "text": "From this position, attempt Gogoplata. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Gogoplata. This technique is attempted in 5% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rubber Guard Maintenance",
-      "text": "From this position, attempt Rubber Guard Maintenance. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Rubber Guard Maintenance. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Bump Sweep",
-      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 5% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -201,19 +201,29 @@ The Rubber Guard from the bottom perspective represents one of the most innovati
 
 ## Available Escapes
 
-### [[Triangle Setup]] (25% of attempts)
+### [[Triangle Setup]] (53% of attempts)
 
-### [[Omoplata from Guard]] (20% of attempts)
+### [[Omoplata]] (15% of attempts)
 
-### [[Gogoplata]] (10% of attempts)
+### [[Gogoplata]] (5% of attempts)
 
-### [[Rubber Guard Maintenance]] (15% of attempts)
+### [[Rubber Guard Maintenance]] (10% of attempts)
 
-### [[Hip Bump Sweep]] (10% of attempts)
+### [[Hip Bump Sweep]] (5% of attempts)
 
-### [[Omoplata Sweep]] (10% of attempts)
+### [[Omoplata Sweep]] (5% of attempts)
 
-### [[Guard Recovery]] (10% of attempts)
+### [[Guard Recovery]] (5% of attempts)
+
+### [[Crackhead Control Entry]] (1% of attempts)
+
+### [[Mission Control Entry from Rubber Guard]] (0% of attempts)
+
+### [[New York Entry from Rubber Guard]] (0% of attempts)
+
+### [[Rubber Guard Sweep]] (0% of attempts)
+
+### [[Rubber Guard to Closed Guard]] (1% of attempts)
 
 
 
@@ -225,7 +235,7 @@ The Rubber Guard from the bottom perspective represents one of the most innovati
 
 **If opponent establishes strong posture and begins pulling trapped arm free:**
 - Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 60%)
-- Execute **[[Omoplata from Guard]]** → [[Omoplata Control]] (Probability: 50%)
+- Execute **[[Omoplata]]** → [[Omoplata Control]] (Probability: 50%)
 
 
 **If opponent drives forward with pressure attempting to smash or stack:**
@@ -235,7 +245,7 @@ The Rubber Guard from the bottom perspective represents one of the most innovati
 
 **If opponent sits back and attempts to break open the guard:**
 - Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 55%)
-- Execute **[[Omoplata from Guard]]** → [[Omoplata Control]] (Probability: 50%)
+- Execute **[[Omoplata]]** → [[Omoplata Control]] (Probability: 50%)
 
 
 **If opponent successfully breaks leg grip but remains in guard:**

@@ -1,0 +1,13 @@
+{
+  "name": "Posture Recovery from Carni",
+  "description": "",
+  "tags": [],
+  "from_position": "Carni/Top",
+  "outcomes": [
+    {
+      "to": "Closed Guard/Top",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

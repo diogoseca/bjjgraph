@@ -21,37 +21,37 @@ description: "Master defensive strategies from bottom Mount in BJJ. Learn system
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 46% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Upa Escape",
-      "text": "From this position, attempt Upa Escape. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Upa Escape. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 22% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Frame and Shrimp to Guard",
-      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Explosive Bridge to Guard Recovery",
+      "text": "From this position, attempt Explosive Bridge to Guard Recovery. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Explosive Bridge to Guard Recovery",
-      "text": "From this position, attempt Explosive Bridge to Guard Recovery. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Explosive Bridge to Turtle",
+      "text": "From this position, attempt Explosive Bridge to Turtle. This technique is attempted in 2% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape to Turtle",
-      "text": "From this position, attempt Hip Escape to Turtle. This technique is attempted in 5% of exchanges from this position.",
+      "name": "Execute Elbow Escape from Mount",
+      "text": "From this position, attempt Elbow Escape from Mount. This technique is attempted in 0% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -215,19 +215,21 @@ Energy management is the hidden variable in mount defense. The top player expend
 
 ## Available Escapes
 
-### [[Elbow Escape to Guard]] (25% of attempts)
+### [[Elbow Escape to Guard]] (46% of attempts)
 
-### [[Upa Escape]] (20% of attempts)
+### [[Upa Escape]] (17% of attempts)
 
-### [[Hip Escape to Guard]] (20% of attempts)
+### [[Hip Escape to Guard]] (22% of attempts)
 
-### [[Frame and Shrimp to Guard]] (15% of attempts)
+### [[Explosive Bridge to Guard Recovery]] (12% of attempts)
 
-### [[Explosive Bridge to Guard Recovery]] (10% of attempts)
+### [[Explosive Bridge to Turtle]] (2% of attempts)
 
-### [[Hip Escape to Turtle]] (5% of attempts)
+### [[Elbow Escape from Mount]] (0% of attempts)
 
-### [[Deep Half Entry]] (5% of attempts)
+### [[Heel Drag Escape]] (0% of attempts)
+
+### [[Trap and Roll from Mount]] (1% of attempts)
 
 
 

@@ -3,7 +3,7 @@
   "slug": "reverse-x-guard",
   "description": "Master Reverse X-Guard in BJJ. Strategic guide covering when to use inverted leg control, sweeps, and back takes with complete perspective analysis for bottom and top players.",
   "variant_uniqueness": "Inverted orientation for explosive lifting",
-  "overview": "Reverse X-Guard is an inverted guard position where the bottom practitioner controls their opponent using leg entanglement while facing away from them. This position creates powerful sweeping mechanics by combining hip elevation, leg control, and rotational pressure. The guard player's outside leg hooks behind the opponent's near knee while the inside leg extends across their far hip, creating a scissoring action that destabilizes their base.\n\nDeveloped as an evolution of traditional X-Guard, Reverse X-Guard offers unique advantages in both gi and no-gi contexts. The inverted orientation allows the guard player to generate explosive lifting power while simultaneously controlling distance and preventing passes. This position is particularly effective against standing opponents and creates natural pathways to back takes, leg attacks, and traditional sweeps.\n\nThe position requires significant core strength, flexibility, and timing to execute effectively. While beginners may struggle with the inverted mechanics and spatial awareness required, intermediate and advanced practitioners can use Reverse X-Guard as a high-percentage sweeping position that flows naturally into dominant positions or submission attacks. From the top perspective, this position requires understanding of leg entanglement defense, base management, and systematic passing approaches to navigate safely while avoiding sweep and submission threats.",
+  "overview": "Reverse X-Guard is an inverted guard position where the bottom practitioner controls their opponent using leg entanglement while facing away from them. This position creates powerful sweeping mechanics by combining hip elevation, leg control, and rotational pressure. The guard player's outside leg hooks behind the opponent's near knee while the inside leg extends across their far hip, creating a scissoring action that destabilizes their base.\n\nDeveloped as an evolution of traditional X-Guard, Reverse X-Guard offers unique advantages in both gi and no-gi contexts. The inverted orientation allows the guard player to generate explosive lifting power while simultaneously controlling distance and preventing passes. This position is particularly effective against standing opponents and creates natural pathways to back takes, leg attacks, and traditional sweeps.\n\nThe position requires significant core strength, flexibility, and timing to execute effectively. While beginners may struggle with the inverted mechanics and spatial awareness required, intermediate and advanced practitioners can use Reverse X-Guard as a high-percentage sweeping position that flows naturally into dominant positions or submission attacks. From the top perspective, this position requires understanding of leg entanglement defense, base management, and systematic passing approaches to navigate safely while avoiding sweep and submission threats.\n\nReverse X-Guard has gained prominence in modern competition BJJ as athletes like Marcelo Garcia and the Miyao brothers demonstrated the effectiveness of X-Guard variations at the highest levels. The position serves as a critical node in the modern guard system, connecting De La Riva entries to leg entanglement attacks and high-amplitude sweeps. Understanding both perspectives is essential for any serious competitor or hobbyist who trains against modern guard systems.",
   "key_principles": [
     "Maintain constant hip elevation to generate upward lifting pressure on opponent's base",
     "Create scissoring action between inside and outside legs to destabilize opponent laterally",
@@ -39,7 +39,7 @@
       "relationship": "High-percentage advancement when opponent disengages"
     },
     {
-      "name": "Seated Guard",
+      "name": "Open Guard",
       "relationship": "Recovery position if Reverse X is broken"
     },
     {
@@ -47,8 +47,8 @@
       "relationship": "Related elevation-based guard with similar mechanics"
     },
     {
-      "name": "Shin-to-Shin Guard",
-      "relationship": "Alternative leg control guard position"
+      "name": "K-Guard",
+      "relationship": "Modern leg entanglement guard with complementary entries"
     }
   ],
   "top": {
@@ -240,40 +240,55 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 62
+        "value": 62,
+        "description": "Top player maintains position against sweep attempts"
       },
       "advancement_probability": {
-        "value": 58
+        "value": 58,
+        "description": "Likelihood of passing to dominant position"
       },
       "submission_probability": {
-        "value": 12
+        "value": 12,
+        "description": "Low submission rate - primarily a passing position"
       },
       "average_time": "30-90 seconds"
     },
     "transitions": [
       {
         "transition": "Smash Pass",
-        "attempt_probability": 19
+        "attempt_probability": 30
       },
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 17
+        "attempt_probability": 13
       },
       {
         "transition": "Long Step Pass",
-        "attempt_probability": 15
+        "attempt_probability": 11
       },
       {
         "transition": "Leg Drag Pass",
-        "attempt_probability": 17
+        "attempt_probability": 13
       },
       {
         "transition": "Butterfly Pass",
-        "attempt_probability": 18
+        "attempt_probability": 14
       },
       {
         "transition": "Back Step",
-        "attempt_probability": 14
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Backstep Pass from Reverse X-Guard",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Knee Slice from Reverse X-Guard",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Standing Escape from Reverse X-Guard",
+        "attempt_probability": 1
       }
     ],
     "knowledge_assessment": [
@@ -298,7 +313,7 @@
         "answer": "Immediately backstep with your entangled leg while clearing their control. This disengages you from the dangerous leg entanglement before they can secure heel hook or toe hold grips. As you backstep, maintain upper body control to prevent them from following your movement. Reset to a neutral passing position like headquarters rather than remaining in the compromised leg entanglement."
       },
       {
-        "question": "Your opponent hooks are starting to weaken - how do you capitalize on this opening?",
+        "question": "Your opponent's hooks are starting to weaken - how do you capitalize on this opening?",
         "answer": "When hooks weaken, immediately initiate a passing sequence before they can re-establish control. The knee slice pass is highly effective as you can drive your knee through their weakened hook structure. Alternatively, execute a long step pass to create angle and clear the legs entirely. The key is immediate action - any hesitation allows them to reset their hooks and control."
       },
       {
@@ -360,7 +375,7 @@
         "condition": "If opponent maintains standing posture with weight evenly distributed",
         "actions": [
           {
-            "technique": "Elevation Sweep",
+            "technique": "Elevation Sweep to Mount",
             "target": "Mount",
             "probability": 65
           },
@@ -511,24 +526,27 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 68
+        "value": 68,
+        "description": "Guard retention rate against passing attempts"
       },
       "advancement_probability": {
-        "value": 62
+        "value": 62,
+        "description": "Probability of sweeping or advancing to dominant position"
       },
       "submission_probability": {
-        "value": 38
+        "value": 38,
+        "description": "Includes leg lock entries and sweep-to-submission chains"
       },
       "average_time": "30-60 seconds"
     },
     "transitions": [
       {
         "transition": "Reverse X-Guard Sweep",
-        "attempt_probability": 14
+        "attempt_probability": 15
       },
       {
         "transition": "Elevation Sweep to Mount",
-        "attempt_probability": 13
+        "attempt_probability": 14
       },
       {
         "transition": "Reverse X to Back Take",
@@ -536,7 +554,7 @@
       },
       {
         "transition": "Reverse X-Guard to Standard X-Guard",
-        "attempt_probability": 19
+        "attempt_probability": 18
       },
       {
         "transition": "Reverse X to Single Leg X Entry",
@@ -547,8 +565,8 @@
         "attempt_probability": 13
       },
       {
-        "transition": "Technical Stand Up",
-        "attempt_probability": 14
+        "transition": "Technical Stand-up",
+        "attempt_probability": 13
       }
     ],
     "knowledge_assessment": [

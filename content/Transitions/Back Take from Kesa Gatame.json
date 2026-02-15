@@ -1,0 +1,13 @@
+{
+  "name": "Back Take from Kesa Gatame",
+  "description": "",
+  "tags": [],
+  "from_position": "Kesa Gatame/Bottom",
+  "outcomes": [
+    {
+      "to": "Back Control/Top",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

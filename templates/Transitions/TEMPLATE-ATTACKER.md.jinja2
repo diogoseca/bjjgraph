@@ -1,0 +1,215 @@
+{# BJJ Transition Attacker Page Template #}
+{# Generates attacker perspective pages from attacker section #}
+{# Input: attacker (full attacker section), name (hub name), from_position, outcomes #}
+
+---
+title: "{{ attacker.name }} | BJJ Technique Guide | BJJ Graph"
+description: "{{ attacker.description }}"
+---
+
+{# PostHog A/B Testing Metadata #}
+<body data-content-type="transitions">
+
+<!-- Schema Markup - HowTo for Execution -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Execute {{ name }} in BJJ",
+  "description": "Step-by-step guide for executing {{ name }} from {{ from_position }}.",
+  "step": [
+    {%- for step in attacker.execution_steps[:8] %}
+    {
+      "@type": "HowToStep",
+      "name": "{{ step.action }}",
+      "text": "{{ step.description }}",
+      "position": {{ loop.index }}
+    }{{ "," if not loop.last else "" }}
+    {%- endfor %}
+  ],
+  "tool": ["BJJ Gi or No-Gi attire", "Training partner", "Mat space"],
+  "totalTime": "PT5M"
+}
+</script>
+
+<!-- Schema Markup - FAQ from Knowledge Assessment -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {%- for qa in attacker.knowledge_assessment[:6] %}
+    {
+      "@type": "Question",
+      "name": "{{ qa.question }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ qa.answer }}"
+      }
+    }{{ "," if not loop.last else "" }}
+    {%- endfor %}
+  ]
+}
+</script>
+
+<!-- Schema Markup - WebPage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "{{ attacker.name }}",
+  "description": "{{ attacker.description }}",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "{{ name }}",
+      "item": "https://bjjgraph.org/Transitions/{{ name.replace(' ', '-') }}"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Attacker",
+      "item": "https://bjjgraph.org/Transitions/{{ name.replace(' ', '-') }}/Attacker"
+    }
+  ]
+}
+</script>
+
+{# Flexbox wrapper for A/B testing #}
+<main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+<section id="overview" class="content-section">
+
+{{ attacker.overview }}
+
+**From Position**: [[{{ from_position.split('/')[0] }}]] ({{ from_position.split('/')[1] if '/' in from_position else '' }})
+
+</section>
+
+<section id="key-principles" class="content-section">
+
+## Key Attacking Principles
+
+{% for principle in attacker.key_principles -%}
+- {{ principle }}
+{% endfor %}
+
+</section>
+
+<section id="setup-requirements" class="content-section">
+
+## Prerequisites
+
+{% for req in attacker.setup_requirements -%}
+- {{ req }}
+{% endfor %}
+
+</section>
+
+<section id="execution-steps" class="content-section">
+
+## Execution Steps
+
+{% for step in attacker.execution_steps -%}
+{{ step.step_number }}. **{{ step.action }}**: {{ step.description }}
+{% endfor %}
+
+</section>
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+{% for outcome in outcomes -%}
+| {{ outcome.result | capitalize }} | [[{{ outcome.to.split('/')[0] if '/' in outcome.to else outcome.to }}]] | {{ outcome.probability }}% |
+{% endfor %}
+
+</section>
+
+<section id="common-counters" class="content-section">
+
+## Opponent Counters
+
+{% for counter in attacker.common_counters -%}
+- **{{ counter.counter }}** (Effectiveness: {{ counter.effectiveness }}){% if counter.your_response %} - Your Response: {{ counter.your_response }}{% endif %}{% if counter.targets_outcome %} → Leads to [[{{ counter.targets_outcome.split('/')[0] if '/' in counter.targets_outcome else counter.targets_outcome }}]]{% endif %}
+{% endfor %}
+
+</section>
+
+<section id="common-mistakes" class="content-section hide-minimal">
+
+## Common Attacking Mistakes
+
+{% for error in attacker.common_errors -%}
+### {{ loop.index }}. {{ error.error }}
+
+- **Consequence**: {{ error.consequence }}
+- **Correction**: {{ error.correction }}
+
+{% endfor %}
+
+</section>
+
+<section id="training-progressions" class="content-section hide-minimal">
+
+## Training Progressions
+
+{% for progression in attacker.training_progressions -%}
+**{{ progression.phase }}** - {{ progression.focus }}
+{{ progression.description }}
+
+{% endfor %}
+
+</section>
+
+{% if attacker.knowledge_assessment %}
+<section id="knowledge-assessment" class="content-section">
+
+## Test Your Knowledge
+
+{% for qa in attacker.knowledge_assessment -%}
+**Q{{ loop.index }}**: {{ qa.question }}
+**A**: {{ qa.answer }}
+
+{% endfor %}
+
+</section>
+{% endif %}
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Considerations
+
+{{ attacker.safety_considerations }}
+
+</section>
+
+</main>

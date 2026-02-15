@@ -56,7 +56,7 @@
       "attempt_probability": 2
     },
     {
-      "transition": "Snap Down",
+      "transition": "Snap Down to Front Headlock",
       "attempt_probability": 3
     },
     {
@@ -157,7 +157,7 @@
       "condition": "If opponent establishes strong collar tie and is driving forward with pressure",
       "actions": [
         {
-          "technique": "Snap Down",
+          "technique": "Snap Down to Front Headlock",
           "target": "Front Headlock",
           "probability": 55
         },
@@ -242,7 +242,7 @@
           "probability": 45
         },
         {
-          "technique": "Snap Down",
+          "technique": "Snap Down to Front Headlock",
           "target": "Front Headlock",
           "probability": 40
         },
@@ -325,19 +325,19 @@
     },
     {
       "name": "Front Headlock",
-      "relationship": "Common transition target from snapdowns"
+      "relationship": "Common transition target from snapdowns and failed shot defense"
     },
     {
       "name": "Closed Guard",
-      "relationship": "Primary guard pull destination"
+      "relationship": "Primary guard pull destination from standing engagement"
     },
     {
       "name": "Combat Base",
-      "relationship": "Standing variation of defensive base concepts"
+      "relationship": "Standing variation of defensive base concepts shared with ground positions"
     },
     {
       "name": "Guard Pull",
-      "relationship": "Key offensive transition from standing"
+      "relationship": "Key offensive transition from standing to ground game"
     },
     {
       "name": "Double Leg Entry",
@@ -345,15 +345,11 @@
     },
     {
       "name": "Single Leg Entry",
-      "relationship": "High-percentage takedown option"
+      "relationship": "High-percentage takedown option from standing"
     },
     {
       "name": "Sprawl",
       "relationship": "Essential defensive response to leg attacks"
-    },
-    {
-      "name": "Seated Guard",
-      "relationship": "Common guard pull destination for modern BJJ strategies"
     },
     {
       "name": "De La Riva Guard",
@@ -362,18 +358,159 @@
     {
       "name": "Back Control",
       "relationship": "High-value target from standing arm drags and back takes"
+    },
+    {
+      "name": "Snap Down to Front Headlock",
+      "relationship": "Primary snapdown transition to establish front headlock control"
     }
   ],
   "position_metrics": {
     "retention_rate": {
-      "value": 60
+      "value": 60,
+      "description": "Standing exchanges transition frequently due to guard pulls and takedown attempts"
     },
     "advancement_probability": {
-      "value": 65
+      "value": 65,
+      "description": "High probability of advancing to a favorable ground position through takedowns or strategic guard pulls"
     },
     "submission_probability": {
-      "value": 22
+      "value": 22,
+      "description": "Direct submissions rare from standing but guillotines and flying submissions occur at higher levels"
     },
     "average_time": "30-90 seconds in competitive settings, longer in training environments"
+  },
+  "knowledge_assessment": [
+    {
+      "question": "Your opponent suddenly drops their level and shoots a double leg from distance - what is your immediate defensive priority and body positioning?",
+      "answer": "Your immediate priority is to sprawl by driving your hips down and back while posting your hands on the opponent's head and shoulders. Drop your weight onto their upper back to kill the shot's forward momentum. Avoid stepping backward, which gives them penetration depth. Once the shot is stuffed, transition to a front headlock by circling toward their head side to establish control and prevent them from completing the finish."
+    },
+    {
+      "question": "What are the three most important grip configurations to establish when initiating standing engagement in the gi?",
+      "answer": "The three priority grip configurations are: (1) collar and sleeve grip, which provides control of distance and the ability to set up both throws and guard pulls; (2) double sleeve control, which neutralizes the opponent's offensive options while creating pulling and off-balancing opportunities; and (3) collar tie with wrist control, which allows snapdowns, Russian tie transitions, and close-range throw entries. Each configuration should be established proactively through deliberate hand fighting sequences rather than passively accepted."
+    },
+    {
+      "question": "How should you distribute your weight and position your feet to maintain a strong standing base against both pulling and pushing forces?",
+      "answer": "Weight should be distributed roughly 50/50 between both feet with slightly more emphasis on the balls of the feet rather than the heels. Feet should be approximately shoulder-width apart in a staggered stance with the lead foot slightly forward. Knees stay bent at roughly 15-20 degrees to lower the center of gravity without compromising mobility. The hips sit slightly behind the shoulders to create a strong base against pulls, while the slight forward lean of the torso provides resistance to being driven backward. This balanced distribution allows rapid adjustment in any direction."
+    },
+    {
+      "question": "Your opponent has secured a dominant cross collar grip and is beginning to load their hip for a throw - what do you do?",
+      "answer": "Immediately address the grip by using your same-side hand to strip or break the collar grip through a two-on-one peel or circular grip break. Simultaneously lower your center of gravity by bending your knees and widening your base slightly to resist the rotational force. Step your near-side foot backward and away from the direction of the throw to deny their hip entry. If you cannot break the grip in time, consider sitting to guard by pulling them into your closed guard or De La Riva before they complete the throw, converting their offensive momentum into your guard game entry."
+    },
+    {
+      "question": "What visual and tactile cues indicate that an opponent is about to attempt a guard pull from standing?",
+      "answer": "Key cues include: the opponent establishing a strong sleeve or collar grip and breaking their own posture by rounding their shoulders; shifting their weight to their heels; stepping one foot between your feet or to the outside; their eyes dropping to check foot placement; a sudden tightening of their grips as they prepare to sit. Tactile cues include feeling a distinct downward pulling force through the grips and sensing their weight shift backward. Recognizing these early allows you to either disengage grips to deny the pull or immediately pressure forward to pass as they sit."
+    },
+    {
+      "question": "How do you manage energy expenditure during extended standing exchanges that last beyond 60 seconds?",
+      "answer": "Energy management requires cycling between active and passive phases. During passive phases, maintain a neutral stance with relaxed grip hands and use minimal footwork to maintain position. During active phases, commit fully to grip sequences or attack entries for 5-10 second bursts. Avoid constant isometric grip tension by using a catch-and-release grip fighting approach where you break grips immediately rather than fighting sustained grip battles. Breathe rhythmically and avoid holding your breath during exchanges. If fatigue builds, consider pulling guard to a strong position rather than fighting exhausted on the feet."
+    },
+    {
+      "question": "Your opponent breaks your primary grips and begins circling to your weak side - how do you recover your standing position?",
+      "answer": "Immediately re-center by pivoting on your lead foot to face the opponent squarely, denying them the angle advantage. Re-establish hand contact by extending your lead hand as a frame or post against their near shoulder or collar to reestablish distance control. Use your rear hand to fight for a secondary grip while circling your feet to match their movement pattern. Avoid chasing them with lunging steps, which compromise your base. Instead, use short shuffling steps that maintain your stance width and balance. Once facing them squarely, restart your grip fighting sequence from a neutral position."
+    },
+    {
+      "question": "What is the correct strategic approach when your opponent has a significant height or reach advantage in the standing position?",
+      "answer": "Against taller opponents, close distance quickly to negate their reach advantage by establishing inside position with collar ties or underhooks. Level change more aggressively since their higher center of gravity makes them more vulnerable to low-level attacks like ankle picks and double legs. Use snap downs to exploit their forward-leaning posture. Avoid staying at their preferred long range where they can use their reach for collar grips and stiff-arm control. Consider guard pulling earlier in the exchange to transition to a ground position where height advantage diminishes, particularly into guards like De La Riva or half guard where leg control neutralizes reach."
+    }
+  ],
+  "top": {
+    "transitions": [
+      {
+        "transition": "Arm Drag",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Deashi Harai",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Double Leg Setup",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "High Crotch",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Ippon Seoi Nage",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Jumping Guard",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Kosoto Gari",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Morote Seoi Nage",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Osoto Gari",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Ouchi Gari",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Russian Tie to Back Take",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Sasae Tsurikomi Ashi",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Single Leg Takedown",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Single Leg to Back Take",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Tai Otoshi",
+        "attempt_probability": 0
+      }
+    ]
+  },
+  "bottom": {
+    "transitions": [
+      {
+        "transition": "Arm Drag from Standing",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Butterfly Guard Pull",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Level Change Takedown",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Pull Guard from Standing",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Snap Down from Standing",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Sprawl Defense from Standing",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Standing Guard Pull",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Takedown from Bottom",
+        "attempt_probability": 0
+      }
+    ]
   }
 }

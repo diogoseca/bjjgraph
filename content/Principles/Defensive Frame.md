@@ -371,7 +371,7 @@ Systematically catalog and practice the optimal frame configurations for each ma
 - [[Mount]] (Position) - Critical defensive position requiring sophisticated multi-point frame systems for survival and escape
 - [[Guard Retention]] (Principle) - Advanced application of defensive framing in dynamic guard passing scenarios
 - [[Shrimp Escape]] (Transition) - Fundamental escape technique that requires effective framing to create execution space
-- [[Elbow Escape]] (Transition) - Specific escape emphasizing elbow frame as primary defensive and space-creation tool
+- [[Elbow Escape to Guard]] (Transition) - Specific escape emphasizing elbow frame as primary defensive and space-creation tool
 - [[Knee on Belly]] (Position) - Position requiring immediate and effective frame establishment to prevent position consolidation
 - [[Pressure Reduction]] (Principle) - Related defensive concept that frames implement through structural mechanics
 - [[Leverage Principles]] (Principle) - Fundamental biomechanical concept underlying effective frame construction and maintenance

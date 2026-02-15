@@ -4,7 +4,7 @@
 
 ---
 title: "Darce Control | BJJ Position Guide | BJJ Graph"
-description: "Master Darce Control position in BJJ. Dominant front headlock variant with 70% submission rate. Learn entries, arm triangle mechanics, transition chains, and defensive strategies for both offensive and defensive scenarios."
+description: "Master Darce Control position in BJJ. Dominant front headlock variant with high submission rate. Learn entries, arm triangle mechanics, transition chains, and defensive strategies."
 ---
 
 
@@ -87,17 +87,19 @@ The effectiveness of Darce Control lies in its ability to create multiple dilemm
 ### Available Transitions
 
 
-- **[[Arm Extraction]]** (20% of attempts)
+- **[[Arm Extraction]]** (25% of attempts)
 
-- **[[Rolling to Guard]]** (21% of attempts)
+- **[[Granby Roll to Guard]]** (15% of attempts)
 
-- **[[Granby Roll]]** (17% of attempts)
+- **[[Back Door Escape]]** (12% of attempts)
 
-- **[[Back Door Escape]]** (15% of attempts)
+- **[[Counter Roll to Top]]** (8% of attempts)
 
-- **[[Counter Roll]]** (10% of attempts)
+- **[[Step Over Escape]]** (15% of attempts)
 
-- **[[Step Over Escape]]** (17% of attempts)
+- **[[Hip Escape to Guard]]** (15% of attempts)
+
+- **[[Rolling to Guard]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -150,15 +152,19 @@ The effectiveness of Darce Control lies in its ability to create multiple dilemm
 ### Available Transitions
 
 
-- **[[Darce Choke]]** (26% of attempts)
+- **[[Darce Choke]]** (48% of attempts)
 
-- **[[Side Control to Mount]]** (20% of attempts)
+- **[[Turtle to Back Take]]** (18% of attempts)
 
-- **[[Turtle to Back Take]]** (20% of attempts)
+- **[[Switch to Anaconda Configuration]]** (13% of attempts)
 
-- **[[Anaconda from Turtle]]** (14% of attempts)
+- **[[Side Control to Mount]]** (10% of attempts)
 
-- **[[Side Control to North-South]]** (20% of attempts)
+- **[[Side Control to North-South]]** (6% of attempts)
+
+- **[[Darce Control Maintenance]]** (3% of attempts)
+
+- **[[Darce to Anaconda Switch]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -206,8 +212,6 @@ The effectiveness of Darce Control lies in its ability to create multiple dilemm
 - **[[Darce Choke]]** - Primary submission finish from this control position
 
 - **[[Back Control]]** - High-percentage transition when opponent rolls to escape
-
-- **[[Scramble Position]]** - Common context where darce opportunities arise
 
 
 </section>

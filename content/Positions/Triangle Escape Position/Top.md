@@ -27,31 +27,31 @@ description: "Master escaping the triangle from top position. Complete guide cov
     {
       "@type": "HowToStep",
       "name": "Execute Posture Recovery",
-      "text": "From this position, attempt Posture Recovery. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Posture Recovery. This technique is attempted in 27% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Escape",
-      "text": "From this position, attempt Triangle Escape. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Escape. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction",
-      "text": "From this position, attempt Arm Extraction. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Arm Extraction. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guard Pass",
-      "text": "From this position, attempt Guard Pass. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Pass to Side Control",
+      "text": "From this position, attempt Pass to Side Control. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing up in Base",
-      "text": "From this position, attempt Standing up in Base. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Standing up in Base. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -99,7 +99,7 @@ description: "Master escaping the triangle from top position. Complete guide cov
     },
     {
       "@type": "Question",
-      "name": "What happens if you ignoring threat of armbar transition on trapped arm?",
+      "name": "What happens if you ignoring threat of armbar transition on trapped arm during escape sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Opponent easily transitions to armbar when defender focuses only on choke aspect The correct approach is: Keep trapped arm's elbow tight to body and hand in defensive position while escaping"
@@ -211,15 +211,19 @@ The position demands sophisticated decision-making about when to prioritize surv
 
 ### [[Stack Pass]] (18% of attempts)
 
-### [[Posture Recovery]] (19% of attempts)
+### [[Posture Recovery]] (27% of attempts)
 
-### [[Triangle Escape]] (17% of attempts)
+### [[Triangle Escape]] (18% of attempts)
 
-### [[Arm Extraction]] (15% of attempts)
+### [[Arm Extraction]] (13% of attempts)
 
-### [[Guard Pass]] (14% of attempts)
+### [[Pass to Side Control]] (6% of attempts)
 
-### [[Standing up in Base]] (17% of attempts)
+### [[Standing up in Base]] (13% of attempts)
+
+### [[Complete Triangle Escape from Top]] (3% of attempts)
+
+### [[Posture in Triangle]] (2% of attempts)
 
 
 
@@ -240,8 +244,13 @@ The position demands sophisticated decision-making about when to prioritize surv
 
 
 **If triangle is locked tight and opponent has proper angle:**
-- Execute **[[Standing up in Base]]** → [[Standing Position]] (Probability: 45%)
+- Execute **[[Standing up in Base]]** → [[Open Guard]] (Probability: 45%)
 - Execute **[[Stack Pass]]** → [[Side Control]] (Probability: 40%)
+
+
+**If opponent begins transitioning to armbar from triangle position:**
+- Execute **[[Armbar Defense]]** → [[Closed Guard]] (Probability: 50%)
+- Execute **[[Posture Recovery]]** → [[Combat Base]] (Probability: 40%)
 
 
 
@@ -272,10 +281,15 @@ The position demands sophisticated decision-making about when to prioritize surv
 - ❌ **Consequence**: Exhausts defender while often tightening submission, making escape progressively more difficult
 - ✅ **Correction**: Execute controlled, systematic escape sequences focusing on specific objectives in proper order
 
-### 5. Ignoring threat of armbar transition on trapped arm
+### 5. Ignoring threat of armbar transition on trapped arm during escape sequence
 
 - ❌ **Consequence**: Opponent easily transitions to armbar when defender focuses only on choke aspect
 - ✅ **Correction**: Keep trapped arm's elbow tight to body and hand in defensive position while escaping
+
+### 6. Circling toward the free arm side instead of the trapped arm side during escape
+
+- ❌ **Consequence**: Tightens the triangle lock by moving into the choking angle the opponent wants
+- ✅ **Correction**: Always circle toward the trapped arm side, which opens the triangle structure rather than closing it
 
 
 
@@ -287,7 +301,7 @@ The position demands sophisticated decision-making about when to prioritize surv
 
 ### Posture Recovery Drill
 
-Partner applies triangle at varying tightness levels (30%, 50%, 70%). Practice recovering vertical posture from each stage, focusing on spine alignment and weight distribution.
+Partner applies triangle at varying tightness levels (30%, 50%, 70%). Practice recovering vertical posture from each stage, focusing on spine alignment and weight distribution. Reset after each successful recovery.
 
 **Duration**: 5 minutes
 
@@ -301,9 +315,16 @@ Partner maintains triangle lock while you execute stack pass sequence. Partner p
 
 ### Defense to Offense Transition
 
-Start caught in triangle, execute chosen escape technique, and immediately transition to guard passing sequence. Partner can attempt to re-guard or sweep.
+Start caught in triangle, execute chosen escape technique, and immediately transition to guard passing sequence. Partner can attempt to re-guard or sweep. Focus on seamless flow from defense to offense.
 
 **Duration**: 5 minutes
+
+
+### Arm Protection Awareness Drill
+
+Partner alternates between tightening triangle and attempting armbar transitions. Practice keeping trapped arm elbow pinned to ribs while maintaining escape posture. Develops dual threat awareness under pressure.
+
+**Duration**: 4 minutes
 
 
 
@@ -368,8 +389,8 @@ Start caught in triangle, execute chosen escape technique, and immediately trans
 - **[[Stack Pass]]** - Primary offensive escape transition from triangle position
 - **[[Armbar Control]]** - Common transition opponent attempts from triangle if escape is defended
 - **[[Defensive Posture]]** - Fundamental concept for maintaining structure under submission pressure
-- **[[Submission Defense]]** - Broader defensive framework applicable to triangle escape scenarios
 - **[[Posture Recovery]]** - Essential transition technique for triangle escape success
+- **[[Armbar Defense]]** - Critical defensive skill when opponent transitions from triangle to armbar
 
 
 </section>

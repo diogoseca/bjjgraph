@@ -21,37 +21,37 @@ description: "Master North-South top position in BJJ. Complete guide to establis
     {
       "@type": "HowToStep",
       "name": "Execute North-South Choke",
-      "text": "From this position, attempt North-South Choke. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt North-South Choke. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute North-South to Kimura",
-      "text": "From this position, attempt North-South to Kimura. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt North-South to Kimura. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar from Side Control",
-      "text": "From this position, attempt Armbar from Side Control. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Armbar from North-South",
+      "text": "From this position, attempt Armbar from North-South. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Americana from Side Control",
-      "text": "From this position, attempt Americana from Side Control. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Americana",
+      "text": "From this position, attempt Americana. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,29 +209,25 @@ The position serves as a critical checkpoint during guard passing sequences and 
 
 ## Available Attacks
 
-### [[North-South Choke]] (9% of attempts)
+### [[North-South Choke]] (14% of attempts)
 
-### [[Side Control to Mount]] (11% of attempts)
+### [[Side Control to Mount]] (12% of attempts)
 
-### [[North-South to Kimura]] (9% of attempts)
+### [[North-South to Kimura]] (14% of attempts)
 
-### [[Armbar from Side Control]] (8% of attempts)
+### [[Armbar from North-South]] (12% of attempts)
 
-### [[Side Control to North-South]] (10% of attempts)
+### [[Side Control to North-South]] (8% of attempts)
 
-### [[Americana from Side Control]] (8% of attempts)
+### [[Americana]] (10% of attempts)
 
 ### [[Knee on Belly]] (8% of attempts)
 
-### [[Spinning Armbar]] (6% of attempts)
-
-### [[Reverse Armbar]] (7% of attempts)
-
 ### [[Arm Triangle Setup]] (8% of attempts)
 
-### [[Armbar from North-South]] (8% of attempts)
+### [[Reverse Mount Transition]] (7% of attempts)
 
-### [[Reverse Mount Transition]] (8% of attempts)
+### [[Back Take from Top]] (7% of attempts)
 
 
 
@@ -355,28 +351,28 @@ Maintain maximum chest pressure in North-South while partner attempts only frame
 ## Test Your Knowledge
 
 **Q1**: What is the optimal weight distribution for maintaining North-South control?
-**A**: Your body weight should be distributed forward across your opponent's chest and shoulders, not sitting back toward their hips or stomach. The pressure point should be your sternum driving into their upper chest area, compressing their rib cage to restrict breathing. Keep your hips relatively low and base wide to prevent bridging escapes while maintaining the forward weight commitment.
+**A**: Your body weight should be distributed forward across your opponent's chest and shoulders, not sitting back toward their hips or stomach. The pressure point should be your sternum driving into their upper chest area, compressing their rib cage to restrict breathing. Keep your hips relatively low and base wide to prevent bridging escapes while maintaining the forward weight commitment. Think of draping your torso over theirs like a heavy blanket rather than sitting on them.
 
 **Q2**: Your opponent starts creating frames with their forearms against your chest - what adjustment do you make?
-**A**: When frames are being established, you have two primary options: either collapse the frames by driving your chest pressure forward and angling your shoulders to slip past their forearms, or recognize this as a signal to transition to mount or side control. Fighting against established frames wastes energy - instead, use their frame creation as a trigger to advance position by stepping over to mount when they commit both arms to framing.
+**A**: When frames are being established, you have two primary options: either collapse the frames by driving your chest pressure forward and angling your shoulders to slip past their forearms, or recognize this as a signal to transition to mount or side control. Fighting against established frames wastes energy - instead, use their frame creation as a trigger to advance position by stepping over to mount when they commit both arms to framing. Their framing arms cannot simultaneously block your leg step-over.
 
 **Q3**: What are the essential grip priorities from North-South top?
-**A**: Priority one is controlling at least one of your opponent's arms through underhooks, overhooks, or direct wrist control to prevent defensive framing. Secondary grips depend on your objective: for the North-South choke, control their far arm while positioning for the choke; for kimura attacks, isolate and feed the near arm across their body. Never allow both arms to remain free and active.
+**A**: Priority one is controlling at least one of your opponent's arms through underhooks, overhooks, or direct wrist control to prevent defensive framing. Secondary grips depend on your objective: for the North-South choke, control their far arm while positioning for the choke; for kimura attacks, isolate and feed the near arm across their body. Never allow both arms to remain free and active simultaneously, as this creates compounding frame problems.
 
 **Q4**: How do you shut down the primary bridge and roll escape attempt from North-South?
-**A**: Widen your base immediately when you feel them begin to bridge by sprawling your legs outward and lowering your hips. Your head should stay heavy on the mat beside their hip to block their turning momentum. Keep weight forward over their chest - if you're sitting back, you're vulnerable. The key is anticipating the bridge by feeling their hip movement and pre-emptively adjusting your base before they generate momentum.
+**A**: Widen your base immediately when you feel them begin to bridge by sprawling your legs outward and lowering your hips. Your head should stay heavy on the mat beside their hip to block their turning momentum. Keep weight forward over their chest - if you're sitting back, you're vulnerable. The key is anticipating the bridge by feeling their hip movement and pre-emptively adjusting your base before they generate momentum. Their bridge must overcome both your weight and your base width.
 
 **Q5**: Your opponent explosively bridges and you feel yourself being lifted - what is your immediate response?
-**A**: Immediately sprawl your hips back and widen your base, using your hands to post on the mat if needed. Ride the bridge rather than fighting it directly - their bridge will fail within 1-2 seconds due to fatigue. As they return to the mat, immediately reestablish your chest pressure and tighten your arm control. If the bridge was strong enough to create space, consider transitioning to mount during their descent.
+**A**: Immediately sprawl your hips back and widen your base, using your hands to post on the mat if needed. Ride the bridge rather than fighting it directly - their bridge will fail within 1-2 seconds due to fatigue. As they return to the mat, immediately reestablish your chest pressure and tighten your arm control. If the bridge was strong enough to create space, consider transitioning to mount during their descent when their energy is momentarily depleted.
 
 **Q6**: How do you manage energy while maintaining North-South for extended periods?
-**A**: North-South should be a low-energy position when maintained correctly. Use skeletal structure rather than muscular effort - let your body weight create pressure rather than actively pushing. Keep your breathing rhythmic and controlled. Avoid constant movement; instead, settle your weight and only adjust when your opponent moves. The position is designed for recovery while controlling, so relax your non-essential muscles and let gravity do the work.
+**A**: North-South should be a low-energy position when maintained correctly. Use skeletal structure rather than muscular effort - let your body weight create pressure rather than actively pushing. Keep your breathing rhythmic and controlled. Avoid constant movement; instead, settle your weight and only adjust when your opponent moves. The position is designed for recovery while controlling, so relax your non-essential muscles and let gravity do the work. Your body should feel heavy and relaxed, not tense.
 
 **Q7**: Your opponent partially escapes and gets one knee between you - how do you recover full control?
 **A**: Address the knee immediately by hip switching to clear it before they can establish a full half guard frame. Drive your chest pressure forward while using your hand to push their knee down and away. If the knee is established, transition to passing their half guard rather than trying to force back to North-South. You can also switch your angle and attack side control on the opposite side where they haven't established the knee shield.
 
 **Q8**: What determines whether you should hunt submissions from North-South versus transitioning to mount?
-**A**: Transition to mount when: your opponent has established strong defensive frames, they're defending their neck well making the North-South choke unavailable, or you feel their escape is progressing despite your control. Hunt submissions when: their arms are exposed or isolated, their neck is available for the choke, they're flat on their back without active frames, or they're exhausted and not actively defending. The decision also depends on the rule set - mount scores points, so in competition you may prioritize advancement.
+**A**: Transition to mount when: your opponent has established strong defensive frames, they're defending their neck well making the North-South choke unavailable, or you feel their escape is progressing despite your control. Hunt submissions when: their arms are exposed or isolated, their neck is available for the choke, they're flat on their back without active frames, or they're exhausted and not actively defending. The decision also depends on the rule set - mount scores additional points, so in competition you may prioritize advancement over submission attempts.
 
 
 

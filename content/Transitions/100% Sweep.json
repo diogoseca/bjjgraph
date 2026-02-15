@@ -1,6 +1,6 @@
 {
   "name": "100% Sweep",
-  "description": "Master the 100% Sweep from closed guard. Complete guide covering arm trap mechanics, hip angle creation, and sweep execution. Beginner 20%, Intermediate 40%, Advanced 60%.",
+  "description": "Master the 100% Sweep from closed guard. Complete guide covering arm trap mechanics, hip angle creation, and sweep execution for competition.",
   "tags": [
     "bjj",
     "transition",
@@ -10,254 +10,32 @@
     "arm_trap",
     "limb_isolation"
   ],
-  "from_position": "Closed Guard",
+  "from_position": "Closed Guard/Bottom",
   "outcomes": [
     {
-      "to": "Mount",
-      "probability": 60,
+      "to": "Mount/Top",
+      "probability": 50,
       "result": "success"
     },
     {
-      "to": "Closed Guard",
-      "probability": 30,
+      "to": "Closed Guard/Bottom",
+      "probability": 35,
       "result": "failure"
     },
     {
-      "to": "Closed Guard",
-      "probability": 10,
+      "to": "Side Control/Bottom",
+      "probability": 15,
       "result": "counter"
     }
   ],
-  "overview": "The 100% Sweep, also known as the Hundred Percent Sweep or Arm Trap Sweep, is an advanced closed guard technique that reverses position from bottom to top by isolating the opponent's arm and using precise hip movement. This sweep exemplifies the principle of limb isolation to create sweeping leverage, demonstrating how technical control can overcome strength. The technique starts from closed guard bottom with the practitioner trapping one of the opponent's arms across their body while simultaneously breaking their posture and creating an optimal angle through hip movement. The 100% Sweep is particularly effective against opponents who posture aggressively or attempt to break the guard, making it a high-percentage competition technique. Success requires excellent timing, proper arm control, and dynamic hip mobility to roll the opponent over their trapped arm and shoulder. This sweep is essential for advanced practitioners developing a sophisticated closed guard game and understanding the mechanics of limb isolation sweeps.",
-  "key_principles": [
-    "Isolate opponent's arm across your body to create sweeping leverage and limit their defensive options",
-    "Break opponent's posture effectively before initiating sweep to disrupt balance",
-    "Create optimal angle through hip shift to the side of trapped arm for maximum leverage",
-    "Use planted foot on mat to generate power and assist in rolling action",
-    "Maintain continuous motion from arm trap through sweep completion to prevent recovery",
-    "Follow through to top position immediately after sweep to consolidate positional advantage",
-    "Combine arm control with leg leverage to overcome opponent's base and stability"
+  "success_rate": 50,
+  "conditions": [
+    "Closed guard must be fully locked with ankles crossed behind opponent's back",
+    "One of opponent's arms must be accessible for isolation and trapping across your body",
+    "Opponent's posture must be broken or breakable before committing to sweep",
+    "Sufficient mat space to execute the rolling motion without hitting walls or other pairs"
   ],
-  "setup_requirements": [
-    "Closed guard established with legs locked around opponent's waist",
-    "Control opponent's wrists or sleeves to limit their actions and prevent strikes",
-    "Maintain tight guard with knees squeezed to keep opponent's posture under control",
-    "Opponent postures up or leans forward, creating opportunity for arm isolation",
-    "Establish strong connection with legs behind opponent's back to trap them in place",
-    "Upper body slightly elevated using core to create tension and prepare for arm trap"
-  ],
-  "execution_steps": [
-    {
-      "step_number": 1,
-      "action": "Establish Closed Guard Control",
-      "description": "Start in Closed Guard with your legs locked around the opponent's waist, facing them as they posture up or attempt to break your guard. Your hands control their wrists or sleeves to prevent strikes or grip breaks, while maintaining a tight guard to keep their posture under control, and your feet locked securely behind their back to trap them in place."
-    },
-    {
-      "step_number": 2,
-      "action": "Secure Grip Control",
-      "description": "Control the opponent's wrists or sleeves using both hands to limit their actions. Keep your hands actively gripping to prevent them from establishing strong posture or creating space. This grip control is essential for setting up the arm trap in the next steps and preventing them from posting their hands to defend."
-    },
-    {
-      "step_number": 3,
-      "action": "Break Opponent's Posture",
-      "description": "Maintain a tight guard by squeezing your knees together to break the opponent's posture. Pull them down using your legs and core, ensuring your head is positioned defensively to avoid being easily stacked. Keep strong tension in your closed guard to limit their movement and prepare for the arm isolation."
-    },
-    {
-      "step_number": 4,
-      "action": "Trap the Arm Across Body",
-      "description": "Trap one of the opponent's arms across your body using an overhook or strong grip control on their wrist. Pull the arm tightly against your torso while using your other hand to control their opposite wrist or sleeve to prevent them from posturing fully. This arm trap is the critical control point for the entire sweep, eliminating their ability to post and defend."
-    },
-    {
-      "step_number": 5,
-      "action": "Create Hip Angle",
-      "description": "Shift your hips to the side of the trapped arm to create an angle of approximately 45 degrees or more. This hip movement is essential for generating leverage. As you shift, unlock one leg from the closed guard and plant that foot on the mat to assist in the hip escape and create the foundation for the sweeping motion."
-    },
-    {
-      "step_number": 6,
-      "action": "Position Planted Foot",
-      "description": "Unlock your guard completely and plant your free foot firmly on the mat, positioning it close to your hip for maximum leverage. Your planted leg will be the primary driver for the hip movement and sweep. The other leg remains over the opponent's back to help control and pull them down into the sweep."
-    },
-    {
-      "step_number": 7,
-      "action": "Off-Balance with Pull",
-      "description": "Pull the opponent forward and down with your legs and core while simultaneously swinging the trapped arm across your body to the opposite side. This combined action disrupts their balance and sets up the rolling motion. Use your legs to pull them into your sweep rather than pushing them away, collapsing their base toward the trapped side."
-    },
-    {
-      "step_number": 8,
-      "action": "Execute Hip Drive",
-      "description": "Drive your hips upward and to the side using explosive power from your planted foot pushing off the mat. This hip drive is the key moment of the sweep, where you generate the force to roll the opponent over their trapped arm and shoulder. Keep the arm trap tight throughout this movement to maintain the fulcrum point."
-    },
-    {
-      "step_number": 9,
-      "action": "Complete Rolling Motion",
-      "description": "Roll the opponent over their trapped arm and shoulder in one continuous motion, maintaining control of their upper body as they fall to their back. Continue the rolling action smoothly without hesitation, ensuring you follow through completely. Your body should come up and over as they go down, maintaining pressure throughout."
-    },
-    {
-      "step_number": 10,
-      "action": "Secure Top Position",
-      "description": "Follow through to the top position, often landing in mount or high side control if the opponent's legs are open. Immediately secure an underhook or head control to prevent their escape. Consolidate your dominant position by establishing proper weight distribution and maintaining control points before they can recover guard."
-    }
-  ],
-  "common_counters": [
-    {
-      "counter": "Posture Recovery - opponent regains upright posture before arm trap is secured",
-      "effectiveness": "High",
-      "your_response": "If they recover posture early, maintain arm trap and chain to another closed guard attack like triangle or omoplata. You can also wait for them to lean forward again before re-attempting the sweep, or use their upright posture to attack with armbar."
-    },
-    {
-      "counter": "Arm Freeing - opponent pulls trapped arm free from control with strong grip break",
-      "effectiveness": "Medium",
-      "your_response": "If they free their arm, immediately transition to two-on-one control on their remaining arm or switch to a different guard attack like Hip Bump Sweep or Scissor Sweep. Use their arm freeing motion as an opportunity to set up a different sweep or submission."
-    },
-    {
-      "counter": "Base Widening - opponent lowers center of gravity and widens base to resist roll",
-      "effectiveness": "Medium",
-      "your_response": "If they widen their base, adjust your hip angle more aggressively to create additional leverage or use their lowered posture to transition to other attacks like kimura or guillotine. Their defensive base widening often opens up submission opportunities."
-    },
-    {
-      "counter": "Counter Sweep - opponent uses your sweep momentum for their own passing attempt",
-      "effectiveness": "Low",
-      "your_response": "If they attempt a counter sweep or pass, be prepared to abandon the technique and return to closed guard or transition to open guard positions. Advanced practitioners can sometimes use the counter momentum to complete a different sweep variation or attack with a submission."
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Ineffective arm trap or control - failing to secure strong grip on opponent's arm",
-      "consequence": "Opponent easily frees arm or maintains balance, allowing them to defend or posture up and counter the sweep attempt",
-      "correction": "Secure a strong overhook or grip and pull the arm tightly across your body with active pressure. The arm should be trapped against your torso, not just loosely controlled. Maintain constant tension on the trapped arm throughout the entire movement."
-    },
-    {
-      "error": "Poor hip angle or insufficient shift - not creating enough lateral movement",
-      "consequence": "Reduces leverage for the sweep, making the rolling action difficult or impossible. Opponent resists with their base easily.",
-      "correction": "Shift your hips significantly to the side of the trapped arm to create the optimal angle (approximately 45 degrees or more). The hip movement should be pronounced and committed, creating a clear angle that allows you to roll them over the fulcrum of their trapped shoulder."
-    },
-    {
-      "error": "Lack of posture breaking before sweep - attempting sweep while opponent maintains upright posture",
-      "consequence": "Allows opponent to maintain balance and stability, making the sweep impossible to complete. They can easily counter with posture recovery or pass your guard.",
-      "correction": "Pull the opponent down with your legs and core to disrupt their posture first before attempting the sweep. Their upper body should be leaning forward and off-balance before you initiate hip movement. Never attempt this sweep against a fully postured opponent."
-    },
-    {
-      "error": "Weak planted foot position - not establishing solid base with the free leg",
-      "consequence": "Insufficient power generation for the hip drive, resulting in a slow or failed sweep that the opponent can easily defend.",
-      "correction": "Plant your foot firmly on the mat close to your hip with proper position for maximum push-off power. The planted leg should be positioned to drive your hips explosively upward and to the side. Your foot placement is critical for generating the necessary force."
-    },
-    {
-      "error": "Hesitation during execution - pausing between setup and sweep completion",
-      "consequence": "Gives opponent time to recognize the attack and recover their base or free their trapped arm, negating all your setup work.",
-      "correction": "Execute the sweep as one continuous fluid motion from arm trap through hip drive to completion. Once you commit to the sweep, follow through without pausing. The entire technique should flow seamlessly from posture break to sweep completion in 2-3 seconds."
-    }
-  ],
-  "training_progressions": [
-    {
-      "phase": "Solo Drilling Phase",
-      "focus": "Hip shift and arm trap mechanics without partner",
-      "description": "Practice hip shift movements and arm trap positioning without a partner to develop muscle memory. Focus on the mechanics of creating the proper angle and understanding the body movements required. Use a grappling dummy if available to simulate arm control and practice the rolling motion."
-    },
-    {
-      "phase": "Cooperative Drilling",
-      "focus": "Complete technique execution with compliant partner",
-      "description": "Partner allows the sweep to develop smoothly for technique refinement. Focus on proper sequencing from arm trap through posture break to sweep completion. Partner should provide enough structure to practice against but not resist. Perform 10-15 repetitions per side to build proper movement patterns."
-    },
-    {
-      "phase": "Progressive Resistance Training",
-      "focus": "Adding defensive reactions to setup",
-      "description": "Partner provides increasing levels of resistance to the arm trap and sweep attempt. Start with 25% resistance and gradually increase as technique improves. Partner can defend posture and try to free arm, forcing you to make technical adjustments. Focus on maintaining proper mechanics under pressure."
-    },
-    {
-      "phase": "Positional Sparring from Closed Guard",
-      "focus": "Live closed guard scenarios with sweep attempts",
-      "description": "Start from closed guard bottom and attempt the 100% Sweep during positional sparring. Partner can use any defense or counter they want. Focus on recognizing the right moments to attempt the sweep and chaining to other attacks when it's defended. Practice for 5-minute rounds."
-    },
-    {
-      "phase": "Combination Development",
-      "focus": "Chaining with other closed guard attacks",
-      "description": "Practice flowing from 100% Sweep to triangle, armbar, or other sweeps based on opponent's defensive reactions. Develop ability to read their defense and immediately transition to appropriate follow-up attacks. Focus on creating multi-attack sequences."
-    },
-    {
-      "phase": "Competition Simulation",
-      "focus": "Full resistance competition scenarios",
-      "description": "Apply the 100% Sweep in full sparring and competition simulation rounds. Focus on setting up the sweep through grip fighting and creating the right opportunities. Practice consolidating top position after successful sweeps to maximize scoring."
-    }
-  ],
-  "variants_and_adaptations": [
-    {
-      "variant_name": "Standard 100% Sweep with Gi Grips",
-      "description": "Classic closed guard sweep with arm trap across body using traditional gi grips on sleeve and collar. Uses the gi fabric for enhanced control and tighter arm isolation before executing hip shift.",
-      "when_to_use": "Standard gi training and competition when opponent postures up or attempts to break guard with hands on your chest or collar"
-    },
-    {
-      "variant_name": "Overhook Variation",
-      "description": "Using a deep overhook instead of wrist or sleeve control for tighter arm isolation. The overhook provides more secure arm control but requires closer range and prevents opponent from posting their hand.",
-      "when_to_use": "When opponent has strong grips or when you can secure a deep overhook during guard breaks. Particularly effective when opponent tries to stand or create distance."
-    },
-    {
-      "variant_name": "No-Gi Adaptation",
-      "description": "Adjusted arm control using underhooks, wrist control, or Russian ties instead of gi grips. Hip mechanics and sweep execution remain the same but grip strategies change significantly to account for sweat and lack of friction.",
-      "when_to_use": "No-gi competition or MMA where gi grips are not available. Requires more explosive execution due to less secure grips."
-    },
-    {
-      "variant_name": "Counter to Guard Break Attempt",
-      "description": "Applied as a direct counter to opponent's guard break attempt, using their forward pressure and momentum to facilitate the sweep. Time the arm trap as they attempt to stand or posture aggressively.",
-      "when_to_use": "When opponent is actively trying to break your closed guard and creates the arm trap opportunity through their own forward movement"
-    },
-    {
-      "variant_name": "Combination Setup with Triangle Threat",
-      "description": "Used in chain with triangle attack to create multiple-choice dilemmas. If they defend the triangle by pulling their arm out, trap that arm for the 100% Sweep. Creates powerful attack system from closed guard.",
-      "when_to_use": "Advanced competition when opponent is defending triangle attempts and you need to create combinations. Particularly effective against experienced grapplers who know triangle defense."
-    }
-  ],
-  "knowledge_assessment": [
-    {
-      "question": "What creates the primary leverage mechanism in a 100% Sweep?",
-      "answer": "The primary leverage comes from trapping the opponent's arm across your body while simultaneously shifting your hips to the side of that trapped arm. This creates a fulcrum effect where the trapped arm and your hip position combine to roll the opponent over. The planted foot provides additional power by driving your hips upward and to the side, completing the rotational force needed to sweep them over their trapped shoulder."
-    },
-    {
-      "question": "When is the optimal moment to initiate a 100% Sweep?",
-      "answer": "The optimal moment is when the opponent postures up or leans forward in your closed guard, particularly when attempting to break your guard or establish grips. You need their posture to be somewhat broken (not fully upright) and one of their arms to be in position where you can trap it across your body. Timing the sweep as they lean forward increases success rate significantly because their weight is already moving in the direction you want to sweep them."
-    },
-    {
-      "question": "What is the most common mistake when executing a 100% Sweep?",
-      "answer": "The most common mistake is attempting the sweep without properly breaking the opponent's posture first. Many practitioners try to sweep while the opponent is still upright and balanced, which makes the technique extremely difficult or impossible. You must pull them down with your legs and core to disrupt their balance before initiating the hip movement and sweep. Their upper body should be leaning forward and their weight off-balance before you commit to the sweep."
-    },
-    {
-      "question": "Which control point is essential for starting a 100% Sweep?",
-      "answer": "Trapping one of the opponent's arms across your body is the essential control point. This can be done with an overhook, wrist grip, or sleeve control (in gi), but the arm must be isolated and pulled tightly across your torso. Without this arm trap, the opponent can easily base out with that arm and prevent the sweep. The trapped arm becomes the fulcrum point around which the entire sweep rotates."
-    },
-    {
-      "question": "How do you adjust if the opponent resists during a 100% Sweep attempt?",
-      "answer": "If the opponent resists by recovering posture or freeing their arm, you should immediately chain to another closed guard attack rather than forcing the sweep. Good options include transitioning to a triangle choke (if they posture up with arm still somewhat isolated), switching to a Scissor Sweep or Hip Bump Sweep (if they defend the arm trap), or attacking with an omoplata or kimura (if their arm is still somewhat isolated but they've widened their base). The key is maintaining offensive pressure through combinations rather than committing to a single failed attempt."
-    },
-    {
-      "question": "What role does the planted foot play in executing the 100% Sweep?",
-      "answer": "The planted foot is critical for generating the explosive hip drive that completes the sweep. It should be positioned close to your hip on the mat, creating a stable base from which to push off. When you initiate the sweep, this planted foot drives forcefully into the mat, propelling your hips upward and to the side. This generates the rotational power needed to roll the opponent over their trapped arm and shoulder. Without proper foot placement and drive, the sweep lacks the necessary force to overcome their base."
-    },
-    {
-      "question": "Your opponent posts their free hand on the mat as you initiate the sweep - how do you adjust?",
-      "answer": "When the opponent posts with their free hand, immediately recognize this as a Kimura opportunity. Their posting arm is now exposed and vulnerable. Abandon the sweep momentarily and wrap their posting arm with a figure-four Kimura grip, securing your hands palm-to-palm or wrist-to-wrist around their wrist. From here, you can either finish the Kimura directly or use the control to continue the sweeping motion with added leverage. The key is reading their defensive post instantly and transitioning to the submission attack before they can retract the arm."
-    },
-    {
-      "question": "What hip angle is required for the 100% Sweep and why is it critical?",
-      "answer": "The hip angle should be approximately 45 degrees or more to the side of the trapped arm. This angle is critical because it creates the mechanical advantage needed to roll the opponent over their shoulder line rather than pushing them straight back where their base is strongest. The angle also allows your planted foot to drive your hips in a diagonal trajectory that combines upward lift with lateral rotation. Without sufficient angle, you're fighting against their strongest base points and the sweep becomes a strength contest rather than a technical execution."
-    },
-    {
-      "question": "What grip options work best for securing the arm trap in no-gi situations?",
-      "answer": "In no-gi, the most effective grip options for the arm trap include: a deep overhook where your armpit clamps their tricep against your ribs, a two-on-one wrist control where both hands secure their wrist and pull it across your centerline, or a Russian tie grip where you thread under their arm to control the tricep from behind while your other hand controls the wrist. The overhook provides the most secure control but requires closer range. The two-on-one allows more distance but is easier to strip with sweat. Combining these grips with active pulling creates the necessary control despite the lack of gi friction."
-    },
-    {
-      "question": "If your opponent defends by pulling their trapped arm back forcefully, what attack chain opens up?",
-      "answer": "When the opponent forcefully pulls their arm back, this defensive motion typically drives their head forward toward you, creating an immediate guillotine opportunity. As they retract the arm, shoot your free hand around the back of their head and secure a guillotine grip around their neck before they can posture back up. The momentum of their arm pull actually assists in breaking their posture for the choke. This creates the classic closed guard attack triangle where the 100% Sweep chains to Kimura (if they post) or Guillotine (if they pull the arm back), with each defense opening the next attack."
-    },
-    {
-      "question": "How do you prevent the opponent from simply standing up to defend the 100% Sweep?",
-      "answer": "The key to preventing the stand-up defense is maintaining strong ankle lock pressure with your heels driving into their lower back before and during the sweep initiation. When they begin to stand, immediately pull down harder with your heels while simultaneously shooting your hips upward into the sweep. Their standing attempt actually assists the sweep if timed correctly because they're loading weight onto their feet rather than their knees. Additionally, maintaining constant forward pull on their posture with grips makes standing significantly more difficult. If they do achieve standing position, transition to standing sweep options like the double ankle sweep or technical stand-up rather than forcing the 100% Sweep from a compromised position."
-    },
-    {
-      "question": "What is the correct sequence for consolidating position after completing the sweep?",
-      "answer": "After rolling the opponent over, immediately drive your knee across their body to establish mount before they can recover guard or turn to turtle. Keep the arm trap secured throughout the transition if possible, as this prevents them from framing. Once your knee clears their hip, settle your weight low with your hips pressed into their abdomen. Establish head control with your free hand to prevent them from bridging. Your first priority is preventing the elbow-knee escape by driving your knees into their armpits. Only release the arm trap once mount is fully secured with proper weight distribution and base. The entire consolidation should be one continuous motion flowing from the sweep completion."
-    }
-  ],
-  "safety_considerations": "When practicing the 100% Sweep, execute with control to avoid injuring your partner when they fall. The sweep can result in a hard landing if done too explosively, particularly in beginner settings where partners may not know how to breakfall properly. Be prepared to adjust if the sweep fails or your opponent counters, as forcing a failed sweep can leave you vulnerable to guard passing or strikes in MMA contexts. Ensure your training partner is ready for the dynamic guard movement and understands how to fall safely by tucking their chin and using breakfall techniques. Always practice in a controlled environment with proper mats to prevent injury from falls. When learning the technique, use slower speeds and progressive resistance to develop proper mechanics before attempting at full intensity. In competition, be aware of the rules regarding slamming, as following through too aggressively on the sweep could be interpreted as a slam in some rule sets.",
-  "position_integration": "The 100% Sweep is a crucial component of an advanced closed guard attack system, fitting into the broader closed guard framework alongside other sweeps and submissions. It works particularly well in combination with Hip Bump Sweep, Scissor Sweep, and triangle attacks, creating multi-faceted dilemmas for opponents. From Closed Guard, if the opponent defends the 100% Sweep by recovering posture, you can transition to triangle or armbar attacks. If they defend by widening their base, you can switch to other sweep variations or guillotine attempts. The technique integrates into competition strategy as a high-percentage move for scoring sweep points (2 points in IBJJF rules) and can lead directly to mount (4 additional points) for a total of 6 points in one sequence. Understanding the 100% Sweep also teaches fundamental principles of limb isolation and angle creation that apply to many other advanced guard techniques including omoplata sweeps and other arm-trap based attacks. It represents an evolution from basic closed guard sweeps toward more sophisticated control-based attacks that rely on precise positioning rather than pure athleticism.",
+  "overview": "The 100% Sweep is an advanced closed guard technique that reverses position from bottom to top by isolating the opponent's arm and using precise hip movement to roll them over their trapped shoulder. This sweep exemplifies the principle of limb isolation to create sweeping leverage, demonstrating how technical control can overcome strength. The technique starts from closed guard bottom with the practitioner trapping one of the opponent's arms across their body while simultaneously breaking their posture and creating an optimal angle through hip movement.\n\nThe 100% Sweep is particularly effective against opponents who posture aggressively or attempt to break the guard, making it a high-percentage competition technique. Success requires excellent timing, proper arm control, and dynamic hip mobility to roll the opponent over their trapped arm and shoulder. The sweep chains naturally into submission threats: opponents who post their free hand to defend open themselves to kimura attacks, while those who retract the trapped arm create guillotine opportunities.\n\nThis sweep is essential for advanced practitioners developing a sophisticated closed guard game and understanding the mechanics of limb isolation sweeps. In competition, it scores 2 sweep points and typically lands directly in mount for an additional 4 points, making it one of the highest-scoring single sequences available from closed guard.",
   "related_content": [
     {
       "name": "Omoplata Sweep",
@@ -277,7 +55,7 @@
     },
     {
       "name": "Pendulum Sweep",
-      "relationship": "Related closed guard sweep using different angle creation"
+      "relationship": "Related closed guard sweep using different angle creation mechanics"
     },
     {
       "name": "Closed Guard to Triangle",
@@ -293,7 +71,7 @@
     },
     {
       "name": "Mount",
-      "relationship": "Common ending position when sweep is successful"
+      "relationship": "Primary ending position when sweep is successful"
     },
     {
       "name": "Side Control",
@@ -308,5 +86,369 @@
       "relationship": "Chain attack when opponent pulls arm back defensively"
     }
   ],
-  "success_rate": 50
+  "attacker": {
+    "name": "100% Sweep Attacker",
+    "description": "How to execute the 100% Sweep in BJJ. Attacking perspective with setup, execution steps, counters, and chain attacks.",
+    "overview": "The 100% Sweep is an advanced closed guard technique that reverses position from bottom to top by isolating the opponent's arm and using precise hip movement. This sweep exemplifies the principle of limb isolation to create sweeping leverage, demonstrating how technical control can overcome strength. The technique starts from closed guard bottom with the practitioner trapping one of the opponent's arms across their body while simultaneously breaking their posture and creating an optimal angle through hip movement. The 100% Sweep is particularly effective against opponents who posture aggressively or attempt to break the guard, making it a high-percentage competition technique. Success requires excellent timing, proper arm control, and dynamic hip mobility to roll the opponent over their trapped arm and shoulder. This sweep is essential for advanced practitioners developing a sophisticated closed guard game and understanding the mechanics of limb isolation sweeps.",
+    "key_principles": [
+      "Isolate opponent's arm across your body to create sweeping leverage and eliminate their ability to post defensively",
+      "Break opponent's posture effectively before initiating sweep to disrupt balance and load their weight forward",
+      "Create optimal angle through hip shift to the side of trapped arm for maximum mechanical advantage",
+      "Use planted foot on mat to generate explosive hip drive power and assist in rolling action",
+      "Maintain continuous motion from arm trap through sweep completion to prevent defensive recovery",
+      "Follow through to top position immediately after sweep to consolidate positional advantage",
+      "Combine arm control with leg leverage to overcome opponent's base and stability"
+    ],
+    "setup_requirements": [
+      "Closed guard established with legs locked around opponent's waist and ankles crossed behind their back",
+      "Control opponent's wrists or sleeves to limit their actions and prevent them from posturing or posting",
+      "Opponent's posture is broken or they are leaning forward, creating opportunity for arm isolation",
+      "At least one of opponent's arms is accessible and positioned where it can be trapped across your centerline",
+      "Sufficient core engagement to elevate upper body slightly and prepare for arm trap execution",
+      "Strong leg connection with heels driving into opponent's lower back to maintain closed guard pressure"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish Closed Guard Control",
+        "description": "Start in closed guard with your legs locked around the opponent's waist, facing them as they posture up or attempt to break your guard. Your hands control their wrists or sleeves to prevent strikes or grip breaks, while maintaining a tight guard to keep their posture under control, and your feet locked securely behind their back to trap them in place."
+      },
+      {
+        "step_number": 2,
+        "action": "Secure Grip Control",
+        "description": "Control the opponent's wrists or sleeves using both hands to limit their actions. Keep your hands actively gripping to prevent them from establishing strong posture or creating space. This grip control is essential for setting up the arm trap in the next steps and preventing them from posting their hands to defend."
+      },
+      {
+        "step_number": 3,
+        "action": "Break Opponent's Posture",
+        "description": "Squeeze your knees together while pulling with your heels to break the opponent's posture forward. Pull them down using your legs and core, ensuring your head is positioned defensively to avoid being stacked. Keep strong tension in your closed guard to limit their movement and prepare for the arm isolation."
+      },
+      {
+        "step_number": 4,
+        "action": "Trap the Arm Across Body",
+        "description": "Trap one of the opponent's arms across your body using an overhook or strong grip control on their wrist. Pull the arm tightly against your torso while using your other hand to control their opposite wrist or sleeve to prevent them from posturing fully. This arm trap is the critical control point for the entire sweep, eliminating their ability to post and defend."
+      },
+      {
+        "step_number": 5,
+        "action": "Create Hip Angle",
+        "description": "Shift your hips to the side of the trapped arm to create an angle of approximately 45 degrees or more. This hip movement is essential for generating leverage. As you shift, begin unlocking one leg from the closed guard and plant that foot on the mat to assist in the hip escape and create the foundation for the sweeping motion."
+      },
+      {
+        "step_number": 6,
+        "action": "Position Planted Foot",
+        "description": "Unlock your guard completely and plant your free foot firmly on the mat, positioning it close to your hip for maximum leverage. Your planted leg will be the primary driver for the hip movement and sweep. The other leg remains over the opponent's back to help control and pull them down into the sweep direction."
+      },
+      {
+        "step_number": 7,
+        "action": "Off-Balance with Combined Pull",
+        "description": "Pull the opponent forward and down with your legs and core while simultaneously swinging the trapped arm across your body to the opposite side. This combined action disrupts their balance and sets up the rolling motion. Use your legs to pull them into your sweep rather than pushing them away, collapsing their base toward the trapped side."
+      },
+      {
+        "step_number": 8,
+        "action": "Execute Explosive Hip Drive",
+        "description": "Drive your hips upward and to the side using explosive power from your planted foot pushing off the mat. This hip drive is the key moment of the sweep, where you generate the force to roll the opponent over their trapped arm and shoulder. Keep the arm trap tight throughout this movement to maintain the fulcrum point around which they rotate."
+      },
+      {
+        "step_number": 9,
+        "action": "Complete Rolling Motion",
+        "description": "Roll the opponent over their trapped arm and shoulder in one continuous motion, maintaining control of their upper body as they fall to their back. Continue the rolling action smoothly without hesitation, ensuring you follow through completely. Your body should come up and over as they go down, maintaining pressure throughout the rotation."
+      },
+      {
+        "step_number": 10,
+        "action": "Secure Top Position",
+        "description": "Follow through to the top position, typically landing in mount or high side control if the opponent's legs are open. Immediately secure an underhook or head control to prevent their escape. Consolidate your dominant position by establishing proper weight distribution and maintaining control points before they can recover guard or turn to turtle."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Posture Recovery - opponent regains upright posture before arm trap is secured",
+        "effectiveness": "High",
+        "your_response": "If they recover posture early, maintain arm trap and chain to another closed guard attack like triangle or omoplata. You can also wait for them to lean forward again before re-attempting the sweep, or use their upright posture to attack with hip bump sweep.",
+        "targets_outcome": "Closed Guard/Bottom"
+      },
+      {
+        "counter": "Arm Freeing - opponent pulls trapped arm free from control with strong grip break",
+        "effectiveness": "Medium",
+        "your_response": "If they free their arm, immediately transition to two-on-one control on their remaining arm or switch to a different guard attack like Hip Bump Sweep or Scissor Sweep. Use their arm freeing motion as an opportunity to set up a different sweep or submission.",
+        "targets_outcome": "Closed Guard/Bottom"
+      },
+      {
+        "counter": "Base Widening - opponent lowers center of gravity and widens base to resist roll",
+        "effectiveness": "Medium",
+        "your_response": "If they widen their base, adjust your hip angle more aggressively to create additional leverage or use their lowered posture to transition to kimura or guillotine attacks. Their defensive base widening often opens submission opportunities on the posting arm.",
+        "targets_outcome": "Closed Guard/Bottom"
+      },
+      {
+        "counter": "Counter Pass - opponent uses your open guard during sweep attempt to initiate a passing sequence",
+        "effectiveness": "Low",
+        "your_response": "If they attempt a counter pass, immediately re-close your guard or transition to open guard retention with feet on hips. If you've committed too deeply, frame against their shoulder and hip escape to re-establish guard before they consolidate top position.",
+        "targets_outcome": "Side Control/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Ineffective arm trap - failing to secure strong grip on opponent's arm before committing to sweep",
+        "consequence": "Opponent easily frees arm or maintains balance, allowing them to defend or posture up and counter the sweep attempt",
+        "correction": "Secure a strong overhook or grip and pull the arm tightly across your body with active pressure. The arm should be trapped against your torso, not just loosely controlled. Maintain constant tension on the trapped arm throughout the entire movement."
+      },
+      {
+        "error": "Insufficient hip angle - not creating enough lateral shift before initiating the sweep",
+        "consequence": "Reduces leverage for the sweep, making the rolling action difficult or impossible as you fight against their strongest base points",
+        "correction": "Shift your hips significantly to the side of the trapped arm to create the optimal angle of approximately 45 degrees or more. The hip movement should be pronounced and committed, creating a clear angle that allows you to roll them over the fulcrum of their trapped shoulder."
+      },
+      {
+        "error": "Attempting sweep without breaking posture - initiating sweep while opponent maintains upright position",
+        "consequence": "Allows opponent to maintain balance and stability, making the sweep impossible to complete. They can easily counter with posture recovery or begin a guard pass.",
+        "correction": "Pull the opponent down with your legs and core to disrupt their posture first before attempting the sweep. Their upper body should be leaning forward and off-balance before you initiate hip movement. Never attempt this sweep against a fully postured opponent."
+      },
+      {
+        "error": "Weak planted foot position - not establishing solid base with the free leg close to hip",
+        "consequence": "Insufficient power generation for the hip drive, resulting in a slow or failed sweep that the opponent can easily defend",
+        "correction": "Plant your foot firmly on the mat close to your hip with proper position for maximum push-off power. The planted leg should be positioned to drive your hips explosively upward and to the side. Your foot placement is critical for generating the necessary rotational force."
+      },
+      {
+        "error": "Hesitation during execution - pausing between setup and sweep completion",
+        "consequence": "Gives opponent time to recognize the attack and recover their base or free their trapped arm, negating all your setup work",
+        "correction": "Execute the sweep as one continuous fluid motion from arm trap through hip drive to completion. Once you commit to the sweep, follow through without pausing. The entire technique should flow seamlessly from posture break to sweep completion in 2-3 seconds."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Solo Drilling Phase",
+        "focus": "Hip shift and arm trap mechanics without partner",
+        "description": "Practice hip shift movements and arm trap positioning without a partner to develop muscle memory. Focus on the mechanics of creating the proper angle and understanding the body movements required. Use a grappling dummy if available to simulate arm control and practice the rolling motion."
+      },
+      {
+        "phase": "Cooperative Drilling",
+        "focus": "Complete technique execution with compliant partner",
+        "description": "Partner allows the sweep to develop smoothly for technique refinement. Focus on proper sequencing from arm trap through posture break to sweep completion. Partner should provide enough structure to practice against but not resist. Perform 10-15 repetitions per side to build proper movement patterns."
+      },
+      {
+        "phase": "Progressive Resistance Training",
+        "focus": "Adding defensive reactions to setup",
+        "description": "Partner provides increasing levels of resistance to the arm trap and sweep attempt. Start with 25% resistance and gradually increase as technique improves. Partner can defend posture and try to free arm, forcing you to make technical adjustments. Focus on maintaining proper mechanics under pressure."
+      },
+      {
+        "phase": "Positional Sparring from Closed Guard",
+        "focus": "Live closed guard scenarios with sweep attempts",
+        "description": "Start from closed guard bottom and attempt the 100% Sweep during positional sparring. Partner can use any defense or counter they want. Focus on recognizing the right moments to attempt the sweep and chaining to other attacks when it's defended. Practice for 5-minute rounds."
+      },
+      {
+        "phase": "Combination Development",
+        "focus": "Chaining with other closed guard attacks",
+        "description": "Practice flowing from 100% Sweep to triangle, armbar, or other sweeps based on opponent's defensive reactions. Develop ability to read their defense and immediately transition to appropriate follow-up attacks. Focus on creating multi-attack sequences that cover all defensive options."
+      },
+      {
+        "phase": "Competition Simulation",
+        "focus": "Full resistance competition scenarios",
+        "description": "Apply the 100% Sweep in full sparring and competition simulation rounds. Focus on setting up the sweep through grip fighting and creating the right opportunities. Practice consolidating top position after successful sweeps to maximize scoring potential."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What creates the primary leverage mechanism in a 100% Sweep?",
+        "answer": "The primary leverage comes from trapping the opponent's arm across your body while simultaneously shifting your hips to the side of that trapped arm. This creates a fulcrum effect where the trapped arm and your hip position combine to roll the opponent over. The planted foot provides additional power by driving your hips upward and to the side, completing the rotational force needed to sweep them over their trapped shoulder."
+      },
+      {
+        "question": "When is the optimal moment to initiate a 100% Sweep?",
+        "answer": "The optimal moment is when the opponent leans forward in your closed guard, particularly when attempting to break your guard or establish grips. You need their posture to be somewhat broken and one of their arms to be in position where you can trap it across your body. Timing the sweep as they lean forward increases success rate significantly because their weight is already moving in the direction you want to sweep them."
+      },
+      {
+        "question": "What is the most common mistake when executing a 100% Sweep?",
+        "answer": "The most common mistake is attempting the sweep without properly breaking the opponent's posture first. Many practitioners try to sweep while the opponent is still upright and balanced, which makes the technique extremely difficult or impossible. You must pull them down with your legs and core to disrupt their balance before initiating the hip movement and sweep. Their upper body should be leaning forward and their weight off-balance before you commit."
+      },
+      {
+        "question": "Which control point is essential for starting a 100% Sweep?",
+        "answer": "Trapping one of the opponent's arms across your body is the essential control point. This can be done with an overhook, wrist grip, or sleeve control in gi, but the arm must be isolated and pulled tightly across your torso. Without this arm trap, the opponent can easily base out with that arm and prevent the sweep. The trapped arm becomes the fulcrum point around which the entire sweep rotates, and losing this control at any point during execution will cause the sweep to fail."
+      },
+      {
+        "question": "How do you adjust if the opponent resists during a 100% Sweep attempt?",
+        "answer": "If the opponent resists by recovering posture or freeing their arm, immediately chain to another closed guard attack rather than forcing the sweep. Good options include transitioning to a triangle choke if they posture up with arm still somewhat isolated, switching to a Scissor Sweep or Hip Bump Sweep if they defend the arm trap, or attacking with an omoplata or kimura if their arm is still somewhat isolated but they've widened their base. The key is maintaining offensive pressure through combinations rather than committing to a single failed attempt."
+      },
+      {
+        "question": "What role does the planted foot play in executing the 100% Sweep?",
+        "answer": "The planted foot is critical for generating the explosive hip drive that completes the sweep. It should be positioned close to your hip on the mat, creating a stable base from which to push off. When you initiate the sweep, this planted foot drives forcefully into the mat, propelling your hips upward and to the side. This generates the rotational power needed to roll the opponent over their trapped arm and shoulder. Without proper foot placement and drive, the sweep lacks the necessary force to overcome their base."
+      },
+      {
+        "question": "Your opponent posts their free hand on the mat as you initiate the sweep - how do you adjust?",
+        "answer": "When the opponent posts with their free hand, immediately recognize this as a kimura opportunity. Their posting arm is now exposed and vulnerable. Abandon the sweep momentarily and wrap their posting arm with a figure-four kimura grip, securing your hands around their wrist. From here, you can either finish the kimura directly or use the control to continue the sweeping motion with added leverage. The key is reading their defensive post instantly and transitioning to the submission attack before they can retract the arm."
+      },
+      {
+        "question": "What hip angle is required for the 100% Sweep and why is it critical?",
+        "answer": "The hip angle should be approximately 45 degrees or more to the side of the trapped arm. This angle is critical because it creates the mechanical advantage needed to roll the opponent over their shoulder line rather than pushing them straight back where their base is strongest. The angle also allows your planted foot to drive your hips in a diagonal trajectory that combines upward lift with lateral rotation. Without sufficient angle, you're fighting against their strongest base points and the sweep becomes a strength contest rather than a technical execution."
+      },
+      {
+        "question": "What grip options work best for securing the arm trap in no-gi situations?",
+        "answer": "In no-gi, the most effective grip options for the arm trap include a deep overhook where your armpit clamps their tricep against your ribs, a two-on-one wrist control where both hands secure their wrist and pull it across your centerline, or a Russian tie grip where you thread under their arm to control the tricep from behind while your other hand controls the wrist. The overhook provides the most secure control but requires closer range. The two-on-one allows more distance but is easier to strip. Combining these grips with active pulling creates the necessary control despite the lack of gi friction."
+      },
+      {
+        "question": "If your opponent defends by pulling their trapped arm back forcefully, what attack chain opens up?",
+        "answer": "When the opponent forcefully pulls their arm back, this defensive motion typically drives their head forward toward you, creating an immediate guillotine opportunity. As they retract the arm, shoot your free hand around the back of their head and secure a guillotine grip around their neck before they can posture back up. The momentum of their arm pull actually assists in breaking their posture for the choke. This creates the classic closed guard attack chain where the 100% Sweep chains to kimura if they post or guillotine if they pull the arm back, with each defense opening the next attack."
+      },
+      {
+        "question": "How do you prevent the opponent from simply standing up to defend the 100% Sweep?",
+        "answer": "The key to preventing the stand-up defense is maintaining strong ankle lock pressure with your heels driving into their lower back before and during the sweep initiation. When they begin to stand, immediately pull down harder with your heels while simultaneously shooting your hips upward into the sweep. Their standing attempt actually assists the sweep if timed correctly because they're loading weight onto their feet rather than their knees. If they do achieve standing position, transition to standing sweep options like lumberjack sweep or technical stand-up rather than forcing the 100% Sweep from a compromised position."
+      },
+      {
+        "question": "What is the correct sequence for consolidating position after completing the sweep?",
+        "answer": "After rolling the opponent over, immediately drive your knee across their body to establish mount before they can recover guard or turn to turtle. Keep the arm trap secured throughout the transition if possible, as this prevents them from framing. Once your knee clears their hip, settle your weight low with your hips pressed into their abdomen. Establish head control with your free hand to prevent them from bridging. Your first priority is preventing the elbow-knee escape by driving your knees into their armpits. Only release the arm trap once mount is fully secured with proper weight distribution and base."
+      }
+    ],
+    "safety_considerations": "When practicing the 100% Sweep, execute with control to avoid injuring your partner when they fall. The sweep can result in a hard landing if done too explosively, particularly in beginner settings where partners may not know how to breakfall properly. Ensure your training partner understands how to fall safely by tucking their chin and using breakfall techniques. Always practice in a controlled environment with proper mats to prevent injury from falls. When learning the technique, use slower speeds and progressive resistance to develop proper mechanics before attempting at full intensity. Be prepared to adjust if the sweep fails or your opponent counters, as forcing a failed sweep can leave you vulnerable to guard passing. In competition, be aware of the rules regarding slamming, as following through too aggressively on the sweep could be interpreted as a slam in some rule sets."
+  },
+  "defender": {
+    "name": "100% Sweep Defender",
+    "description": "How to defend against the 100% Sweep in BJJ. Recognition cues, defensive options, and escape strategies from the top player's perspective.",
+    "overview": "Defending the 100% Sweep requires the top player in closed guard to recognize the arm trap and hip angle setup before the sweep reaches its point of no return. The 100% Sweep is dangerous precisely because it chains into submissions when defended improperly, so your defensive strategy must address the arm isolation without creating new vulnerabilities. The core defensive principle is maintaining strong posture and preventing your arm from being pinned across the opponent's centerline, as this arm trap is the single indispensable element of the sweep. If your arm gets trapped, you must act immediately to recover it or widen your base before they generate the hip drive that completes the roll. Understanding the mechanical requirements of this sweep allows you to disrupt the technique at multiple stages, from denying the initial arm trap through resisting the final rolling motion.",
+    "key_principles": [
+      "Maintain strong upright posture with elbows tight to prevent the initial arm isolation that enables the sweep",
+      "Keep your arms close to your centerline and never allow one arm to cross the opponent's body without resistance",
+      "Widen your base immediately when you feel any arm control being established to increase your resistance to the roll",
+      "Retract your trapped arm early before the opponent can lock the overhook or secure a deep grip across their torso",
+      "Drive your hips low and forward to flatten the opponent and eliminate the hip angle they need for leverage",
+      "Recognize the hip shift as the commitment signal and respond decisively before the planted foot generates the sweep force"
+    ],
+    "recognition_cues": [
+      "Opponent grabs your wrist or sleeve with two hands and begins pulling one arm across their body toward the opposite hip",
+      "Opponent shifts their hips laterally to one side while maintaining guard closure, creating an angle relative to your centerline",
+      "Opponent secures a deep overhook on one of your arms, clamping your tricep against their ribs with their armpit",
+      "Opponent unlocks their guard and plants one foot on the mat while keeping the other leg over your back, indicating the hip drive is imminent",
+      "You feel a strong diagonal pull combining downward posture break with lateral arm control dragging your weight toward one side"
+    ],
+    "defensive_options": [
+      {
+        "action": "Posture recovery and arm extraction - drive your hips back, straighten your spine, and pull the trapped arm free using a circular motion toward your thumb",
+        "when_to_use": "Early in the sweep setup when the opponent first attempts to isolate your arm but before they have secured a deep overhook or locked the grip tightly",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "You return to standard closed guard top position with posture re-established, and can resume your guard breaking sequence",
+        "risk": "If you fail to extract the arm, your explosive posture recovery can momentarily create space that the opponent uses to accelerate the sweep"
+      },
+      {
+        "action": "Base widening and hip drop - immediately widen your knees to shoulder width or beyond while driving your hips low and forward to flatten the opponent against the mat",
+        "when_to_use": "When the arm is already partially trapped and extraction is difficult, but before the opponent has generated the hip drive with their planted foot",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "The widened base makes the rolling motion mechanically impossible even with the arm trapped, and their hip angle becomes ineffective against your lowered center of gravity",
+        "risk": "Driving forward with low hips while your arm is trapped can expose you to guillotine or triangle if the opponent abandons the sweep and chains to a submission"
+      },
+      {
+        "action": "Post the free hand wide on the mat to the opposite side of the sweep direction and drive your weight over that posting arm",
+        "when_to_use": "When the sweep is already in motion and you feel yourself being rolled, use the free hand to create a structural post that arrests the rolling momentum",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "The post stops the sweep mid-execution and you can work to recover posture and extract the trapped arm from a stabilized position",
+        "risk": "The posting arm becomes vulnerable to kimura attack if the opponent recognizes the post and transitions from sweep to submission"
+      },
+      {
+        "action": "Stand up explosively to break the guard open and strip the arm trap by creating vertical distance",
+        "when_to_use": "When you feel the arm trap beginning but still have your posture and can load weight into your legs before the opponent locks the angle",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "Standing breaks the closed guard, removes the mechanical advantage of their hip angle, and allows you to strip the arm control using gravity and distance",
+        "risk": "If the opponent maintains the arm trap while you stand, their hanging weight can actually accelerate the sweep as you lose the stability of your kneeling base"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Closed Guard/Bottom",
+        "how": "Maintain strong posture throughout, deny the arm trap by keeping elbows tight and arms close to your centerline, and immediately retract any arm that gets pulled across their body. When you feel the hip shift, widen your base and drive your hips low to eliminate their angle. Return to your guard breaking sequence once the sweep threat is neutralized."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing one arm to drift across opponent's centerline without resistance or awareness",
+        "consequence": "Opponent secures the arm trap which is the foundational control for the entire sweep, making the subsequent defense exponentially harder as they now have the fulcrum point established",
+        "correction": "Keep both elbows pinned to your ribs when in closed guard top. If you feel any pulling on your arm, immediately retract it using a circular motion toward your thumb before they can lock the overhook or secure a deep grip. Treat any arm isolation attempt as an urgent defensive priority."
+      },
+      {
+        "error": "Keeping a narrow base with knees close together while opponent creates hip angle",
+        "consequence": "Narrow base provides minimal resistance to the lateral rolling force, allowing even a partially set up sweep to succeed because you lack the structural width to absorb the rotational pressure",
+        "correction": "Maintain knees at least shoulder-width apart at all times in closed guard top. When you detect any hip shifting or arm control, immediately widen your base further and drop your hips to lower your center of gravity. A wide, low base is the structural antidote to all rolling sweeps."
+      },
+      {
+        "error": "Reaching forward with hands on the mat while posture is broken, exposing arms to isolation",
+        "consequence": "Hands on the mat create distance between your elbows and your body, making arm trapping trivially easy for the bottom player. Additionally, this position loads weight onto your hands rather than your hips, weakening your base.",
+        "correction": "Keep hands on the opponent's body rather than the mat. Control their hips, biceps, or collar to maintain connection while keeping your arms close to your torso. Weight should be distributed through your hips and knees, not through your extended arms."
+      },
+      {
+        "error": "Panicking and pushing directly into the opponent when feeling the sweep initiate",
+        "consequence": "Pushing forward into an opponent who has the arm trapped and hip angle established actually assists the sweep by loading more weight onto the fulcrum point they've created",
+        "correction": "When feeling the sweep begin, resist the instinct to push forward. Instead, widen your base laterally and drive your hips down and back to lower your center of gravity. If the sweep is already in deep motion, post your free hand wide to the side opposite the sweep direction to arrest the rotation."
+      },
+      {
+        "error": "Ignoring the hip shift and only defending the arm trap without addressing the angle",
+        "consequence": "Even if you maintain some arm control, the opponent's hip angle creates enough leverage that a strong hip drive can still complete the sweep with suboptimal arm control",
+        "correction": "Address both elements simultaneously. When you feel the hip shift, square your body back to the opponent while widening your base. Drive your hips toward their centerline to flatten them and eliminate the angle. The hip angle is as critical as the arm trap to the sweep's success."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that a 100% Sweep is being set up?",
+        "answer": "The earliest cue is feeling the opponent pull one of your arms across their body with two-handed control or establish an overhook clamping your tricep. This arm isolation always precedes the hip angle and planted foot, so recognizing and responding to the arm trap attempt gives you the maximum defensive window. Secondary cues include feeling their hips shift laterally and sensing their guard unlock on one side as they prepare to plant a foot."
+      },
+      {
+        "question": "Why is base widening more effective than posture recovery once the arm is already trapped?",
+        "answer": "Once the arm is trapped, posture recovery alone is insufficient because the opponent already has the fulcrum point established. Explosive posturing can even accelerate the sweep by lifting your center of gravity and making you easier to roll. Base widening directly addresses the mechanical requirement of the sweep by increasing the distance between your support points, which exponentially increases the force required to roll you. A low, wide base with hips driven forward makes the rolling motion structurally impossible even with a solid arm trap, buying you time to work on extracting the arm from a stable position."
+      },
+      {
+        "question": "Your arm is trapped and you feel the hip drive beginning - what is your last-resort defensive response?",
+        "answer": "When the sweep is already in deep execution, your last-resort defense is posting your free hand wide on the mat to the side opposite the sweep direction while simultaneously driving your weight over that posting arm. This creates a structural brace that can arrest the rolling momentum even mid-sweep. However, you must immediately recognize that this posting arm is now vulnerable to kimura attack, so as soon as the sweep momentum is stopped, you need to extract the trapped arm and retract the posting hand back to your body before the opponent can transition to the submission. This is a temporary emergency measure, not a sustainable defensive position."
+      },
+      {
+        "question": "How does the defender's response to a 100% Sweep attempt differ between gi and no-gi?",
+        "answer": "In gi, the opponent has stronger grip options for the arm trap through sleeve and collar control, making early grip fighting and grip breaking essential for prevention. The defender should prioritize stripping sleeve grips before they develop into arm isolation. In no-gi, the arm trap relies on overhooks and wrist control which are less secure but faster to establish due to the lack of friction. The defender can more easily extract a trapped arm through sweat and skin slip, but must respond faster because the opponent will use more explosive timing to compensate for reduced grip security. In both contexts, base widening and hip positioning remain the primary structural defenses."
+      },
+      {
+        "question": "What submission threats should you be aware of when defending the 100% Sweep?",
+        "answer": "The primary submission threats during defense are kimura on the posting arm if you brace against the sweep with your free hand, guillotine choke if you drive your head forward while trying to recover posture with your arm trapped, and triangle choke if you pull one arm free but leave the other in a compromised position creating the arm-in/arm-out configuration. Understanding these chains is critical because many defenders escape the sweep only to be submitted by the follow-up attack. Your defensive movements should keep both arms close to your body and your head position neutral to avoid feeding into these submission transitions."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Recognition Drilling",
+        "focus": "Identifying the setup cues for 100% Sweep attempts",
+        "description": "Partner attempts the 100% Sweep setup at slow speed while you practice identifying each stage: arm isolation attempt, hip angle creation, guard unlock, and planted foot. Call out each stage verbally as you recognize it. Develop the ability to detect the technique within the first 1-2 seconds of setup before it reaches the point of commitment."
+      },
+      {
+        "phase": "Defensive Response Drilling",
+        "focus": "Executing specific defensive responses to each stage of the sweep",
+        "description": "Partner sets up the 100% Sweep and pauses at predetermined stages while you practice the appropriate defensive response for that stage. Practice arm extraction at the early stage, base widening at the mid stage, and posting defense at the late stage. Perform 10 repetitions at each stage before progressing to the next."
+      },
+      {
+        "phase": "Progressive Resistance Defense",
+        "focus": "Defending against increasingly committed sweep attempts",
+        "description": "Partner attempts the 100% Sweep with progressive intensity starting at 40% and increasing to 80%. Focus on reading the timing of their commitment and selecting the appropriate defensive response based on how far the sweep has progressed. Develop the ability to chain defensive options when the first response is insufficient."
+      },
+      {
+        "phase": "Positional Sparring from Closed Guard Top",
+        "focus": "Defending sweeps in live closed guard scenarios",
+        "description": "Start in closed guard top against a partner whose primary attack is the 100% Sweep and its chain attacks. Work your full defensive game including prevention, response, and recovery while the partner chains between sweep and submission threats. 5-minute rounds with focus on maintaining top position throughout."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Standard 100% Sweep with Gi Grips",
+      "description": "Classic closed guard sweep with arm trap across body using traditional gi grips on sleeve and collar. Uses the gi fabric for enhanced control and tighter arm isolation before executing hip shift.",
+      "when_to_use": "Standard gi training and competition when opponent postures up or attempts to break guard with hands on your chest or collar"
+    },
+    {
+      "variant_name": "Overhook Variation",
+      "description": "Using a deep overhook instead of wrist or sleeve control for tighter arm isolation. The overhook provides more secure arm control but requires closer range and prevents opponent from posting their hand.",
+      "when_to_use": "When opponent has strong grips or when you can secure a deep overhook during guard breaks. Particularly effective when opponent tries to stand or create distance."
+    },
+    {
+      "variant_name": "No-Gi Adaptation",
+      "description": "Adjusted arm control using underhooks, wrist control, or Russian ties instead of gi grips. Hip mechanics and sweep execution remain the same but grip strategies change significantly to account for reduced friction.",
+      "when_to_use": "No-gi competition or MMA where gi grips are not available. Requires more explosive execution due to less secure grips."
+    },
+    {
+      "variant_name": "Counter to Guard Break Attempt",
+      "description": "Applied as a direct counter to opponent's guard break attempt, using their forward pressure and momentum to facilitate the sweep. Time the arm trap as they attempt to stand or posture aggressively.",
+      "when_to_use": "When opponent is actively trying to break your closed guard and creates the arm trap opportunity through their own forward movement"
+    },
+    {
+      "variant_name": "Combination Setup with Triangle Threat",
+      "description": "Used in chain with triangle attack to create multiple-choice dilemmas. If they defend the triangle by pulling their arm out, trap that arm for the 100% Sweep. Creates a powerful closed guard attack system.",
+      "when_to_use": "Advanced competition when opponent is defending triangle attempts and you need to create combinations. Particularly effective against experienced grapplers who know triangle defense."
+    }
+  ],
+  "position_integration": "The 100% Sweep is a crucial component of an advanced closed guard attack system, fitting into the broader closed guard framework alongside other sweeps and submissions. It works particularly well in combination with Hip Bump Sweep, Scissor Sweep, and triangle attacks, creating multi-faceted dilemmas for opponents. From Closed Guard, if the opponent defends the 100% Sweep by recovering posture, you can transition to triangle or armbar attacks. If they defend by widening their base, you can switch to other sweep variations or guillotine attempts. The technique integrates into competition strategy as a high-percentage move for scoring sweep points (2 points in IBJJF rules) and can lead directly to mount (4 additional points) for a total of 6 points in one sequence. Understanding the 100% Sweep also teaches fundamental principles of limb isolation and angle creation that apply to many other advanced guard techniques including omoplata sweeps and other arm-trap based attacks. It represents an evolution from basic closed guard sweeps toward more sophisticated control-based attacks that rely on precise positioning rather than pure athleticism."
 }

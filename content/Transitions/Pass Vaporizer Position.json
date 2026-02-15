@@ -1,0 +1,13 @@
+{
+  "name": "Pass Vaporizer Position",
+  "description": "",
+  "tags": [],
+  "from_position": "Vaporizer/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

@@ -364,7 +364,7 @@
       "relationship": "Frame management provides critical distance control enabling escape execution from all bottom positions"
     },
     {
-      "name": "Elbow Escape",
+      "name": "Elbow Escape to Guard",
       "content_type": "Transition",
       "relationship": "Classic escape sequence requiring proper frame maintenance for successful execution"
     },

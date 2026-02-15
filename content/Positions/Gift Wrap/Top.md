@@ -239,13 +239,13 @@ Understanding Gift Wrap Top requires recognizing it as part of a larger submissi
 ## Decision Making from This Position
 
 **If opponent is passive and defending neck with free arm only:**
-- Execute **[[Rear Naked Choke Attack]]** → [[game-over]] (Probability: 60%)
+- Execute **[[Rear Naked Choke Attack]]** → [[Game Over]] (Probability: 60%)
 - Execute **[[Gift Wrap to Technical Mount]]** → [[Technical Mount]] (Probability: 30%)
 - Execute **[[Maintain control and set up body triangle]]** → [[Body Triangle]] (Probability: 55%)
 
 
 **If opponent is actively trying to recover trapped arm with explosive movements:**
-- Execute **[[Rear Naked Choke as Arm Recovery Creates Opening]]** → [[game-over]] (Probability: 65%)
+- Execute **[[Rear Naked Choke as Arm Recovery Creates Opening]]** → [[Game Over]] (Probability: 65%)
 - Execute **[[Transition to Crucifix]]** → [[Crucifix]] (Probability: 50%)
 - Execute **[[Reinforce Gift Wrap and Reset Control]]** → [[Gift Wrap]] (Probability: 45%)
 
@@ -253,7 +253,7 @@ Understanding Gift Wrap Top requires recognizing it as part of a larger submissi
 **If opponent overextends free arm attempting to create frames or break grips:**
 - Execute **[[Armbar on Free Arm]]** → [[Armbar Control]] (Probability: 55%)
 - Execute **[[Gift Wrap to Technical Mount]]** → [[Technical Mount]] (Probability: 45%)
-- Execute **[[Maintain Gift Wrap and Attack Neck]]** → [[game-over]] (Probability: 50%)
+- Execute **[[Maintain Gift Wrap and Attack Neck]]** → [[Game Over]] (Probability: 50%)
 
 
 **If opponent attempts to turn into attacker or escape hips away:**
@@ -263,9 +263,9 @@ Understanding Gift Wrap Top requires recognizing it as part of a larger submissi
 
 
 **If opponent rolls to belly exposing back of head and neck:**
-- Execute **[[Short Choke or Rear Naked Choke]]** → [[game-over]] (Probability: 70%)
+- Execute **[[Short Choke or Rear Naked Choke]]** → [[Game Over]] (Probability: 70%)
 - Execute **[[Transition to Crucifix with Arm Trap]]** → [[Crucifix]] (Probability: 60%)
-- Execute **[[Bow and Arrow Choke Setup]]** → [[game-over]] (Probability: 50%)
+- Execute **[[Bow and Arrow Choke Setup]]** → [[Game Over]] (Probability: 50%)
 
 
 
@@ -370,7 +370,7 @@ Start from standard back control and race to establish Gift Wrap before partner 
 **A**: When opponent bridges, drive your hips forward into their lower back to flatten them while simultaneously tightening your arm threading under their armpit. Use your hooks or body triangle to absorb the bridging energy. The key is anticipating the bridge and loading your weight forward before they complete the movement, rather than reacting after the bridge creates space.
 
 **Q3**: What are the essential grip mechanics for maintaining the Gift Wrap arm trap?
-**A**: Thread your control arm under the opponent's armpit from the outside and secure their wrist or forearm on the opposite side. Your grip should be on their wrist or lower forearm for maximum leverage. The arm forms a diagonal line across their chest. Your other arm typically controls their neck area or reinforces the trap. The threading action creates a mechanical lock that requires minimal strength to maintain.
+**A**: Thread your control arm under the opponent's armpit from the outside and secure their wrist or lower forearm on the opposite side. Your grip should be on their wrist or lower forearm for maximum leverage. The arm forms a diagonal line across their chest. Your other arm typically controls their neck area or reinforces the trap. The threading action creates a mechanical lock that requires minimal strength to maintain.
 
 **Q4**: How do you shut down the primary arm recovery escape attempt from Gift Wrap?
 **A**: Prevent arm recovery by keeping constant downward pressure on their trapped arm while maintaining it high across the chest. When they attempt to rotate their shoulder to extract the arm, drive your controlling elbow toward their hip to counter the rotation. Additionally, keeping your chest glued to their back eliminates the space they need to maneuver their shoulder for extraction.
@@ -381,8 +381,8 @@ Start from standard back control and race to establish Gift Wrap before partner 
 **Q6**: Your opponent starts turning their hips toward you while you have Gift Wrap - how do you respond?
 **A**: When opponent turns toward you, follow their rotation and transition to technical mount while maintaining the Gift Wrap arm control. This hip turn is actually an opportunity rather than an escape, as it opens the path to mounted positions. Use your hooks to guide the rotation while keeping the trapped arm secured, ending in technical mount with the Gift Wrap still intact.
 
-**Q7**: How do you manage energy expenditure while maintaining Gift Wrap for extended periods?
-**A**: Use mechanical positioning rather than muscular strength to maintain control. Keep your chest connected to their back through body weight rather than squeezing. Let your arm threading create the control angle rather than gripping with maximum force. Relax between submission attempts while maintaining structural control. The arm trap itself should feel effortless when properly positioned.
+**Q7**: How do you distribute your weight optimally to maintain Gift Wrap without excessive energy expenditure?
+**A**: Settle your chest weight directly onto the opponent's upper back through gravity rather than active squeezing. Your hips should drive forward into their lower back creating a wedge effect. Let the arm threading create the control angle through proper positioning rather than gripping with maximum force. Keep your body relaxed between submission attempts while maintaining structural alignment. The arm trap itself should feel nearly effortless when the diagonal line across their chest is correctly angled.
 
 **Q8**: What is the immediate threat hierarchy you should address when your opponent partially recovers their trapped arm?
 **A**: If they begin recovering the arm, immediately attack the exposed neck since their hand fighting ability temporarily decreases during recovery attempts. The rear naked choke becomes highest percentage when they use their free arm to push against your controlling arm, as this removes their neck protection. Alternatively, if the arm recovers fully, immediately re-engage the Gift Wrap before they establish two-handed defense.

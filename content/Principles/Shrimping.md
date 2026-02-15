@@ -367,7 +367,7 @@ Partner moves between different top positions randomly and practitioner must imm
 
 ### Related Content
 - [[Bridge and Shrimp]] (Principle) - Complementary fundamental movement that combines with shrimping in most escape sequences
-- [[Elbow Escape]] (Transition) - Specific escape technique from mount that uses shrimping as its primary movement mechanism
+- [[Elbow Escape to Guard]] (Transition) - Specific escape technique from mount that uses shrimping as its primary movement mechanism
 - [[Hip Escape Mechanics]] (Principle) - Broader biomechanical framework that includes shrimping as primary application
 - [[Frame Creation]] (Principle) - Essential prerequisite skill that must be combined with shrimping for effective escapes
 - [[Escape Fundamentals]] (Principle) - Series of escape principles where shrimping serves as foundational movement pattern

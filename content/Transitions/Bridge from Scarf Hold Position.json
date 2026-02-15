@@ -1,0 +1,13 @@
+{
+  "name": "Bridge from Scarf Hold Position",
+  "description": "",
+  "tags": [],
+  "from_position": "Scarf Hold Position/Bottom",
+  "outcomes": [
+    {
+      "to": "Closed Guard/Top",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

@@ -89,17 +89,21 @@ The position's reputation is divided: traditionalists view it as a stalling posi
 ### Available Transitions
 
 
-- **[[Position reversal sweep to top]]** (18% of attempts)
+- **[[Position reversal sweep to top]]** (22% of attempts)
 
-- **[[Counter heel hook]]** (14% of attempts)
+- **[[Counter heel hook]]** (12% of attempts)
 
-- **[[50-50 Guard to Single Leg X-Guard]]** (19% of attempts)
+- **[[50-50 Guard to Single Leg X-Guard]]** (24% of attempts)
 
-- **[[Extract legs and stand up]]** (20% of attempts)
+- **[[Extract legs and stand up]]** (23% of attempts)
 
-- **[[Straight Ankle Lock]]** (15% of attempts)
+- **[[Straight Ankle Lock]]** (4% of attempts)
 
-- **[[Kneebar entry]]** (14% of attempts)
+- **[[Kneebar entry]]** (5% of attempts)
+
+- **[[Toe Hold]]** (5% of attempts)
+
+- **[[Counter-entangle to 50-50 Guard]]** (5% of attempts)
 
 
 ### Common Mistakes
@@ -154,21 +158,31 @@ The position's reputation is divided: traditionalists view it as a stalling posi
 ### Available Transitions
 
 
-- **[[Inside Heel Hook]]** (11% of attempts)
+- **[[Inside Heel Hook]]** (35% of attempts)
 
-- **[[Kneebar from 50-50]]** (10% of attempts)
+- **[[Kneebar from 50-50]]** (7% of attempts)
 
-- **[[Straight Ankle Lock]]** (11% of attempts)
+- **[[Straight Ankle Lock]]** (2% of attempts)
 
-- **[[Calf Slicer from 50-50]]** (8% of attempts)
+- **[[Calf Slicer from 50-50]]** (2% of attempts)
 
-- **[[Back Take from 50-50]]** (17% of attempts)
+- **[[Back Take from 50-50]]** (12% of attempts)
 
-- **[[50-50 Guard to Outside Ashi]]** (16% of attempts)
+- **[[50-50 Guard to Outside Ashi]]** (6% of attempts)
 
-- **[[50-50 Guard to Inside Ashi]]** (15% of attempts)
+- **[[50-50 Guard to Inside Ashi]]** (7% of attempts)
 
-- **[[Pass to Side Control]]** (12% of attempts)
+- **[[Outside Heel Hook]]** (4% of attempts)
+
+- **[[50-50 Pass]]** (8% of attempts)
+
+- **[[Toe Hold]]** (3% of attempts)
+
+- **[[Transition to Backside 50-50]]** (4% of attempts)
+
+- **[[Saddle Entry from Top]]** (9% of attempts)
+
+- **[[50-50 Guard to Backside 50-50]]** (1% of attempts)
 
 
 ### Common Mistakes

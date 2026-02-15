@@ -296,27 +296,35 @@
     "transitions": [
       {
         "transition": "Leg Drag Pass",
-        "attempt_probability": 19
+        "attempt_probability": 24
       },
       {
         "transition": "Toreando Pass",
-        "attempt_probability": 18
+        "attempt_probability": 15
       },
       {
         "transition": "Smash Pass",
-        "attempt_probability": 16
+        "attempt_probability": 13
       },
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 17
+        "attempt_probability": 14
       },
       {
         "transition": "Long Step Pass",
-        "attempt_probability": 16
+        "attempt_probability": 13
       },
       {
         "transition": "Stack Pass",
-        "attempt_probability": 14
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Backstep from Worm Guard",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Lapel Strip from Worm Guard",
+        "attempt_probability": 3
       }
     ]
   },
@@ -375,7 +383,7 @@
         "answer": "Extract sufficient lapel material from the opponent's gi, then feed it deep under their leg from outside to inside, passing under their thigh rather than shallow across the surface. The lapel should travel a complete path under their leg before wrapping around your shin or foot. Shallow feeds create weak control that collapses under pressure. Practice pulling ample lapel material and feeding at proper depth to create tight, secure connection."
       },
       {
-        "question": "Your opponent begins closing distance aggressively - what adjustment do you make to prevent the smash pass?",
+        "question": "Your opponent begins closing distance aggressively to initiate a smash pass - what adjustment do you make?",
         "answer": "Immediately engage your free leg to create frames against their hip or shoulder, pushing them back to optimal distance. If they continue advancing, extend your legs and use the lapel connection as a lever to off-balance them forward into a sweep opportunity. Never allow them to collapse distance without resistance, as close-range negates worm guard's off-balancing mechanics and enables smash passing sequences."
       },
       {
@@ -439,7 +447,7 @@
             "probability": 55
           },
           {
-            "technique": "Lasso Guard Sweeps",
+            "technique": "Lapel Elevator Sweep",
             "target": "Side Control",
             "probability": 60
           }
@@ -576,35 +584,47 @@
     "transitions": [
       {
         "transition": "Omoplata Sweep",
-        "attempt_probability": 13
+        "attempt_probability": 30
       },
       {
         "transition": "Triangle Setup",
-        "attempt_probability": 12
+        "attempt_probability": 9
       },
       {
         "transition": "Omoplata to Back",
-        "attempt_probability": 12
+        "attempt_probability": 9
       },
       {
-        "transition": "Lasso Guard Sweeps",
-        "attempt_probability": 13
+        "transition": "Lapel Elevator Sweep",
+        "attempt_probability": 10
       },
       {
         "transition": "X-Guard Sweep",
-        "attempt_probability": 14
-      },
-      {
-        "transition": "De La Riva Sweep",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "Bolo Sweep",
         "attempt_probability": 11
       },
       {
+        "transition": "De La Riva Sweep",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Bolo Sweep",
+        "attempt_probability": 8
+      },
+      {
         "transition": "Triangle from Guard",
-        "attempt_probability": 12
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Collar Drag from Worm Guard",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Worm Guard Sweep",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Worm to Squid Guard",
+        "attempt_probability": 1
       }
     ]
   }

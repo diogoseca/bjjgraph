@@ -21,37 +21,37 @@ description: "Master attacking from back control in BJJ. Learn hook control, har
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke",
-      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 24% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 78% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar from Back with Legs",
-      "text": "From this position, attempt Armbar from Back with Legs. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Armbar from Back Transition",
+      "text": "From this position, attempt Armbar from Back Transition. This technique is attempted in 2% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bow and Arrow Choke",
-      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 4% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Control to Crucifix",
-      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 0% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar from Back",
-      "text": "From this position, attempt Armbar from Back. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Armbar on Free Arm",
+      "text": "From this position, attempt Armbar on Free Arm. This technique is attempted in 0% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Body Triangle Lock",
-      "text": "From this position, attempt Body Triangle Lock. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Body Triangle Lock. This technique is attempted in 2% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,21 +211,43 @@ The attacking methodology from back control follows a layered approach. First, e
 
 ## Available Attacks
 
-### [[Rear Naked Choke]] (24% of attempts)
+### [[Rear Naked Choke]] (78% of attempts)
 
-### [[Armbar from Back with Legs]] (9% of attempts)
+### [[Armbar from Back Transition]] (2% of attempts)
 
-### [[Bow and Arrow Choke]] (14% of attempts)
+### [[Bow and Arrow Choke]] (4% of attempts)
 
-### [[Back Control to Crucifix]] (10% of attempts)
+### [[Back Control to Crucifix]] (0% of attempts)
 
-### [[Armbar from Back]] (7% of attempts)
+### [[Armbar on Free Arm]] (0% of attempts)
 
-### [[Body Triangle Lock]] (10% of attempts)
+### [[Body Triangle Lock]] (2% of attempts)
 
-### [[Choke from Crucifix]] (6% of attempts)
+### [[Back Control Maintenance]] (13% of attempts)
 
-### [[Back Control Maintenance]] (20% of attempts)
+### [[Triangle from Back]] (0% of attempts)
+
+### [[Kimura from Back]] (0% of attempts)
+
+### [[Gift Wrap Control]] (0% of attempts)
+
+### [[Transition to Seat Belt Control Back]] (0% of attempts)
+
+### [[Short Choke Attack]] (0% of attempts)
+
+### [[Mat Return to Back Mount]] (0% of attempts)
+
+### [[Back Control to Cross Body Ride]] (0% of attempts)
+
+### [[Back Control to Reverse Half Guard]] (0% of attempts)
+
+### [[Back Control to Seat Belt Control Back]] (0% of attempts)
+
+### [[Gift Wrap from Back]] (0% of attempts)
+
+### [[Rear Naked Choke Setup]] (0% of attempts)
+
+### [[Standing Back Control Entry]] (1% of attempts)
 
 
 

@@ -359,7 +359,7 @@ The system should be trained in progressive phases, beginning with positional co
 - [[Saddle]] (Position) - Advanced position that expands chain with heel hook variations
 - [[Honey Hole]] (Position) - Related leg entanglement position for expanded leg attack system
 - [[Cross Ashi-Garami]] (Position) - Alternative ashi variation for chain execution
-- [[Straight Footlock]] (Submission) - Primary submission and entry point for the chain
+- [[Straight Ankle Lock]] (Submission) - Primary submission and entry point for the chain
 - [[Kneebar]] (Submission) - Secondary submission and transition target in chain
 - [[Kneebar from Top]] (Submission) - Specific kneebar variation used in chain from ashi garami
 - [[Achilles Lock]] (Submission) - Related ankle attack that shares similar positional prerequisites

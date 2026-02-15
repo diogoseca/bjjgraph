@@ -58,7 +58,7 @@
     },
     {
       "skill_name": "Space Utilization",
-      "description": "Knowing what to do with created space—whether inserting a knee shield, establishing a guard hook, creating additional distance, or transitioning to another defensive movement. Creating space without using it wastes the escape opportunity."
+      "description": "Knowing what to do with created space\u2014whether inserting a knee shield, establishing a guard hook, creating additional distance, or transitioning to another defensive movement. Creating space without using it wastes the escape opportunity."
     }
   ],
   "principle_relationships": [
@@ -331,7 +331,7 @@
       "relationship": "Complementary fundamental movement that combines with shrimping in most escape sequences"
     },
     {
-      "name": "Elbow Escape",
+      "name": "Elbow Escape to Guard",
       "content_type": "Transition",
       "relationship": "Specific escape technique from mount that uses shrimping as its primary movement mechanism"
     },

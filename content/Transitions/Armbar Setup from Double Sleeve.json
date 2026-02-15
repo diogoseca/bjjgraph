@@ -1,0 +1,139 @@
+{
+  "name": "Armbar Setup from Double Sleeve",
+  "description": "TODO: Write 150-160 character SEO description for Armbar Setup from Double Sleeve.",
+  "tags": [
+    "bjj",
+    "transition",
+    "TODO"
+  ],
+  "from_position": "Double Sleeve Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Armbar Control/Top",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Double Sleeve Guard/Bottom",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Open Guard/Top",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 55,
+  "overview": "TODO: Write overview for Armbar Setup from Double Sleeve.",
+  "conditions": [
+    "TODO"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "TODO",
+      "description": "TODO",
+      "when_to_use": "TODO"
+    }
+  ],
+  "position_integration": "TODO: Write position integration for Armbar Setup from Double Sleeve.",
+  "related_content": [
+    {
+      "name": "TODO",
+      "relationship": "TODO"
+    }
+  ],
+  "attacker": {
+    "name": "Armbar Setup from Double Sleeve Attacker",
+    "description": "TODO: Write attacker description for Armbar Setup from Double Sleeve.",
+    "overview": "TODO: Write attacker overview for Armbar Setup from Double Sleeve.",
+    "key_principles": [
+      "TODO"
+    ],
+    "setup_requirements": [
+      "TODO"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "TODO",
+        "description": "TODO"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "TODO",
+        "effectiveness": "Medium",
+        "your_response": "TODO",
+        "targets_outcome": "Double Sleeve Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "TODO",
+        "description": "TODO"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "TODO",
+        "answer": "TODO"
+      }
+    ],
+    "safety_considerations": "TODO: Write safety considerations for Armbar Setup from Double Sleeve."
+  },
+  "defender": {
+    "name": "Armbar Setup from Double Sleeve Defender",
+    "description": "TODO: Write defender description for Armbar Setup from Double Sleeve.",
+    "overview": "TODO: Write defender overview for Armbar Setup from Double Sleeve.",
+    "key_principles": [
+      "TODO"
+    ],
+    "recognition_cues": [
+      "TODO"
+    ],
+    "defensive_options": [
+      {
+        "action": "TODO",
+        "when_to_use": "TODO",
+        "targets_outcome": "Double Sleeve Guard/Bottom",
+        "if_successful": "TODO",
+        "risk": "TODO"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Armbar Control/Top",
+        "how": "TODO"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "TODO",
+        "answer": "TODO"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "TODO",
+        "description": "TODO"
+      }
+    ]
+  }
+}

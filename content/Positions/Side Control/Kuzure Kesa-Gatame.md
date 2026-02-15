@@ -95,15 +95,15 @@ The strategic importance of Kuzure Kesa-Gatame in modern BJJ cannot be overstate
 ### Available Transitions
 
 
-- **[[Elbow Escape]]** (21% of attempts)
+- **[[Elbow Escape to Guard]]** (21% of attempts)
 
 - **[[Arm Recovery to Guard]]** (18% of attempts)
 
 - **[[Bridge and Roll]]** (14% of attempts)
 
-- **[[Granby Roll]]** (19% of attempts)
+- **[[Granby Roll to Guard]]** (19% of attempts)
 
-- **[[Technical Standup]]** (12% of attempts)
+- **[[Technical Stand-up]]** (12% of attempts)
 
 - **[[Re-Guard from Headquarters]]** (16% of attempts)
 
@@ -166,11 +166,11 @@ The strategic importance of Kuzure Kesa-Gatame in modern BJJ cannot be overstate
 ### Available Transitions
 
 
-- **[[Americana from Side Control]]** (11% of attempts)
+- **[[Americana]]** (11% of attempts)
 
-- **[[Armbar from Side Control]]** (10% of attempts)
+- **[[Armbar Finish]]** (10% of attempts)
 
-- **[[Kimura from Side Control]]** (10% of attempts)
+- **[[Kimura]]** (10% of attempts)
 
 - **[[Side Control to Mount]]** (11% of attempts)
 
@@ -182,7 +182,7 @@ The strategic importance of Kuzure Kesa-Gatame in modern BJJ cannot be overstate
 
 - **[[Breadcutter Choke]]** (8% of attempts)
 
-- **[[Far Side Armbar]]** (9% of attempts)
+- **[[Armbar on Free Arm]]** (9% of attempts)
 
 - **[[Gift Wrap Control]]** (10% of attempts)
 

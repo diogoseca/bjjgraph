@@ -103,17 +103,17 @@ Mission Control serves as the central hub of the rubber guard system, connecting
 
 - **[[Closed Guard to Omoplata]]** (12% of attempts)
 
-- **[[Triangle from Guard]]** (14% of attempts)
+- **[[Closed Guard to Triangle]]** (14% of attempts)
 
-- **[[Armbar from Guard]]** (10% of attempts)
+- **[[Armbar Finish]]** (10% of attempts)
 
 - **[[Hip Bump Sweep]]** (10% of attempts)
 
 - **[[Omoplata Sweep]]** (10% of attempts)
 
-- **[[Closed Guard to Triangle]]** (8% of attempts)
+- **[[Progression to Zombie]]** (8% of attempts)
 
-- **[[Triangle to Omoplata]]** (9% of attempts)
+- **[[Rubber Guard Maintenance]]** (9% of attempts)
 
 
 ### Common Mistakes
@@ -178,17 +178,21 @@ Mission Control serves as the central hub of the rubber guard system, connecting
 ### Available Transitions
 
 
-- **[[Posture Recovery]]** (19% of attempts)
+- **[[Posture Recovery]]** (16% of attempts)
 
-- **[[Guard Pass]]** (16% of attempts)
+- **[[Arm Extraction and Pass]]** (14% of attempts)
 
-- **[[Stack Defense]]** (17% of attempts)
+- **[[Stack Defense]]** (14% of attempts)
 
-- **[[Standing up in Base]]** (20% of attempts)
+- **[[Standing up in Base]]** (24% of attempts)
 
-- **[[Arm Extraction]]** (15% of attempts)
+- **[[Arm Extraction]]** (13% of attempts)
 
-- **[[Guard Opening Sequence]]** (13% of attempts)
+- **[[Guard Opening Sequence]]** (11% of attempts)
+
+- **[[Posture Break from Mission Control]]** (5% of attempts)
+
+- **[[Stack Pass from Mission Control]]** (3% of attempts)
 
 
 ### Common Mistakes

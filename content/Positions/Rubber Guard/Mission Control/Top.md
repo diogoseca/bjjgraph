@@ -21,37 +21,37 @@ description: "Learn defensive strategies and escape mechanics from the top of Mi
     {
       "@type": "HowToStep",
       "name": "Execute Posture Recovery",
-      "text": "From this position, attempt Posture Recovery. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Posture Recovery. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guard Pass",
-      "text": "From this position, attempt Guard Pass. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Arm Extraction and Pass",
+      "text": "From this position, attempt Arm Extraction and Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Defense",
-      "text": "From this position, attempt Stack Defense. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Stack Defense. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing up in Base",
-      "text": "From this position, attempt Standing up in Base. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Standing up in Base. This technique is attempted in 24% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction",
-      "text": "From this position, attempt Arm Extraction. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Arm Extraction. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guard Opening Sequence",
-      "text": "From this position, attempt Guard Opening Sequence. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Guard Opening Sequence. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -214,17 +214,21 @@ Energy management from Mission Control top is critical for successful escape. Wh
 
 ## Available Attacks
 
-### [[Posture Recovery]] (19% of attempts)
+### [[Posture Recovery]] (16% of attempts)
 
-### [[Guard Pass]] (16% of attempts)
+### [[Arm Extraction and Pass]] (14% of attempts)
 
-### [[Stack Defense]] (17% of attempts)
+### [[Stack Defense]] (14% of attempts)
 
-### [[Standing up in Base]] (20% of attempts)
+### [[Standing up in Base]] (24% of attempts)
 
-### [[Arm Extraction]] (15% of attempts)
+### [[Arm Extraction]] (13% of attempts)
 
-### [[Guard Opening Sequence]] (13% of attempts)
+### [[Guard Opening Sequence]] (11% of attempts)
+
+### [[Posture Break from Mission Control]] (5% of attempts)
+
+### [[Stack Pass from Mission Control]] (3% of attempts)
 
 
 
@@ -250,7 +254,7 @@ Energy management from Mission Control top is critical for successful escape. Wh
 
 
 **Trapped arm is successfully extracted and shoulder isolation is eliminated:**
-- Execute **[[Guard Pass]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Arm Extraction and Pass]]** → [[Side Control]] (Probability: 55%)
 - Execute **[[Guard Opening Sequence]]** → [[Combat Base]] (Probability: 42%)
 
 
@@ -402,7 +406,7 @@ Partner establishes Mission Control. Top person practices standing to break cont
 - **[[Triangle Control]]** - Primary threat - must defend triangle throughout entire escape sequence
 - **[[Omoplata Control]]** - Secondary threat - becomes primary when arm extraction is attempted
 - **[[Headquarters Position]]** - Counter position - stacking pressure can lead to this passing position
-- **[[Standing Guard]]** - Alternative escape - standing can break high guard control
+- **[[Open Guard]]** - Alternative escape destination - arm extraction often leads here
 - **[[Side Control]]** - Passing destination - successful escape often leads directly to passing opportunity
 - **[[New York]]** - Advanced threat - bottom practitioner may transition to this when initial Mission Control is defended
 - **[[Combat Base]]** - Escape destination - stable position for initiating guard passing after escape

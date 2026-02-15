@@ -1,0 +1,42 @@
+{
+  "name": "Escape from Crab Ride",
+  "description": "Master the Escape from Crab Ride in BJJ. Learn systematic techniques to clear hooks, recover posture, and transition to a dominant position.",
+  "tags": ["bjj", "transition", "escape", "crab-ride", "positional-escape", "defense"],
+  "from_position": "Crab Ride/Bottom",
+  "outcomes": [
+    {"to": "Side Control/Top", "probability": 40, "result": "success"},
+    {"to": "Crab Ride/Bottom", "probability": 35, "result": "failure"},
+    {"to": "Back Control/Bottom", "probability": 25, "result": "counter"}
+  ],
+  "success_rate": 40,
+  "overview": "TODO",
+  "conditions": ["TODO"],
+  "variants_and_adaptations": [{"variant_name": "TODO", "description": "TODO", "when_to_use": "TODO"}],
+  "position_integration": "TODO",
+  "related_content": [{"name": "TODO", "relationship": "TODO"}],
+  "attacker": {
+    "name": "Escape from Crab Ride Attacker",
+    "description": "TODO",
+    "overview": "TODO",
+    "key_principles": ["TODO"],
+    "setup_requirements": ["TODO"],
+    "execution_steps": [{"step_number": 1, "action": "TODO", "description": "TODO"}],
+    "common_counters": [{"counter": "TODO", "effectiveness": "Medium", "your_response": "TODO", "targets_outcome": "Crab Ride/Bottom"}],
+    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
+    "training_progressions": [{"phase": "Phase 1: Mechanics", "focus": "TODO", "description": "TODO"}],
+    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
+    "safety_considerations": "TODO"
+  },
+  "defender": {
+    "name": "Escape from Crab Ride Defender",
+    "description": "TODO",
+    "overview": "TODO",
+    "key_principles": ["TODO"],
+    "recognition_cues": ["TODO"],
+    "defensive_options": [{"action": "TODO", "when_to_use": "TODO", "targets_outcome": "Crab Ride/Bottom", "if_successful": "TODO", "risk": "TODO"}],
+    "favorable_outcomes": [{"outcome": "Crab Ride/Bottom", "how": "TODO"}],
+    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
+    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
+    "training_progressions": [{"phase": "Phase 1: Recognition", "focus": "TODO", "description": "TODO"}]
+  }
+}

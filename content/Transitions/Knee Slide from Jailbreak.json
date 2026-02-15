@@ -1,0 +1,13 @@
+{
+  "name": "Knee Slide from Jailbreak",
+  "description": "",
+  "tags": [],
+  "from_position": "Jailbreak/Top",
+  "outcomes": [
+    {
+      "to": "Half Guard/Top",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

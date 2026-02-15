@@ -362,10 +362,10 @@ Practice escape sequences while in fatigued state, deliberately conditioning abi
 ### Related Content
 - [[Mount]] (Position) - Primary position where mount escape series is applied, represents starting point for all escape sequences in the series
 - [[Bridge and Roll]] (Transition) - Fundamental escape technique within series, typically serving as primary option against chest-heavy mount configurations
-- [[Elbow Escape]] (Transition) - Core escape technique in series progression, typically used as secondary option when bridge is defended or as primary against hip-heavy mounts
+- [[Elbow Escape to Guard]] (Transition) - Core escape technique in series progression, typically used as secondary option when bridge is defended or as primary against hip-heavy mounts
 - [[Upa Escape]] (Transition) - Alternative name for bridge-and-roll escape, represents same technique executed from mount bottom with explosive bridging mechanics
 - [[Shrimp Escape]] (Transition) - Hip escape variation that creates lateral space and angle changes necessary for guard recovery in series progression
-- [[Hip Escape]] (Transition) - Fundamental movement pattern underlying multiple escape techniques in series, creates space through lateral hip displacement
+- [[Hip Escape to Guard]] (Transition) - Fundamental movement pattern underlying multiple escape techniques in series, creates space through lateral hip displacement
 - [[Escape Hierarchy]] (Principle) - Broader conceptual framework that informs technique selection within mount escape series based on success probability analysis
 - [[Pin Escape Methodology]] (Principle) - Overarching systematic approach to escaping pins that mount escape series exemplifies in specific application
 - [[Frame Management]] (Principle) - Essential skill set for creating and maintaining defensive frames throughout escape series execution

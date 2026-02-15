@@ -97,21 +97,23 @@ Strategically, RDLR has become increasingly prominent in both gi and no-gi compe
 
 - **[[Waiter Sweep]]** (12% of attempts)
 
-- **[[Kiss of the Dragon]]** (11% of attempts)
+- **[[Kiss of the Dragon]]** (31% of attempts)
 
-- **[[Berimbolo Entry]]** (10% of attempts)
+- **[[Berimbolo Entry]]** (13% of attempts)
 
-- **[[Crab Ride to Back]]** (12% of attempts)
+- **[[De La Riva to X-Guard Transition]]** (9% of attempts)
 
-- **[[De La Riva to X-Guard Transition]]** (12% of attempts)
+- **[[Single Leg X Entry]]** (10% of attempts)
 
-- **[[Single Leg X Entry]]** (12% of attempts)
+- **[[Omoplata Sweep]]** (4% of attempts)
 
-- **[[Omoplata Sweep]]** (10% of attempts)
+- **[[Reverse De La Riva Recovery]]** (12% of attempts)
 
-- **[[Rolling Back Take]]** (10% of attempts)
+- **[[Tripod Sweep]]** (6% of attempts)
 
-- **[[Turtle to Truck]]** (11% of attempts)
+- **[[Kiss of the Dragon from RDLR]]** (2% of attempts)
+
+- **[[RDLR to Crab Ride]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -172,19 +174,25 @@ Strategically, RDLR has become increasingly prominent in both gi and no-gi compe
 ### Available Transitions
 
 
-- **[[RDLR Pass]]** (14% of attempts)
+- **[[RDLR Pass]]** (20% of attempts)
 
-- **[[Leg Drag Pass]]** (15% of attempts)
+- **[[Leg Drag Pass]]** (13% of attempts)
 
-- **[[Knee Slice Pass]]** (13% of attempts)
+- **[[Knee Slice Pass]]** (7% of attempts)
 
-- **[[Smash Pass]]** (12% of attempts)
+- **[[Smash Pass]]** (7% of attempts)
 
-- **[[Toreando Pass]]** (14% of attempts)
+- **[[Toreando Pass]]** (6% of attempts)
 
-- **[[Back Step]]** (19% of attempts)
+- **[[Long Step Pass]]** (9% of attempts)
 
-- **[[Long Step Pass]]** (13% of attempts)
+- **[[Body Lock Pass]]** (8% of attempts)
+
+- **[[Headquarters Pass]]** (14% of attempts)
+
+- **[[Back Step Pass]]** (13% of attempts)
+
+- **[[RDLR Backstep Counter]]** (3% of attempts)
 
 
 ### Common Mistakes

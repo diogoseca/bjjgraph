@@ -35,7 +35,7 @@
       "relationship": "Advanced attacking position from turtle top"
     },
     {
-      "name": "Standing Position",
+      "name": "Scramble Position",
       "relationship": "Escape target via technical standup from turtle bottom"
     },
     {
@@ -242,8 +242,8 @@
         "relationship": "Submission option when opponent lifts head"
       },
       {
-        "name": "Kimura from Turtle",
-        "relationship": "Arm attack when opponent extends limb"
+        "name": "Kimura",
+        "relationship": "Arm attack submission when opponent extends limb"
       },
       {
         "name": "Truck",
@@ -254,19 +254,22 @@
         "relationship": "Alternative positional advancement from turtle"
       },
       {
-        "name": "Pressure Application",
-        "relationship": "Fundamental concept for turtle top control"
+        "name": "Turtle to Back Control",
+        "relationship": "Primary transition for securing back control"
       }
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 72
+        "value": 72,
+        "description": "High retention due to offensive initiative and multiple attack options"
       },
       "advancement_probability": {
-        "value": 68
+        "value": 68,
+        "description": "Strong advancement rate to back control or side control"
       },
       "submission_probability": {
-        "value": 42
+        "value": 42,
+        "description": "Moderate direct submission rate via front headlock attacks"
       },
       "average_time": "15-45 seconds before transition to dominant position"
     },
@@ -284,43 +287,63 @@
     "transitions": [
       {
         "transition": "Turtle to Back Control",
-        "attempt_probability": 13
+        "attempt_probability": 69
       },
       {
         "transition": "Front Headlock to Anaconda",
-        "attempt_probability": 10
+        "attempt_probability": 5
       },
       {
         "transition": "Front Headlock to Darce",
-        "attempt_probability": 10
+        "attempt_probability": 5
       },
       {
         "transition": "Crucifix from Turtle",
-        "attempt_probability": 9
+        "attempt_probability": 3
       },
       {
         "transition": "Turtle Flatten to Side Control",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Turtle to Truck Entry",
         "attempt_probability": 7
       },
       {
-        "transition": "Front Headlock to Guillotine",
-        "attempt_probability": 10
+        "transition": "Turtle to Truck Entry",
+        "attempt_probability": 0
       },
       {
-        "transition": "Kimura from Turtle",
-        "attempt_probability": 9
+        "transition": "Front Headlock to Guillotine",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Kimura",
+        "attempt_probability": 2
       },
       {
         "transition": "Arm Triangle from Turtle",
-        "attempt_probability": 10
+        "attempt_probability": 2
       },
       {
         "transition": "Turtle to Standing",
-        "attempt_probability": 10
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Transition to Matrix",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Transition to Rodeo Ride",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Turtle Attack Sequence",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Turtle to Matrix",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Turtle to Rodeo Ride",
+        "attempt_probability": 1
       }
     ],
     "knowledge_assessment": [
@@ -400,7 +423,7 @@
           },
           {
             "technique": "Explosive Standup",
-            "target": "Standing Position",
+            "target": "Scramble Position",
             "probability": 40
           }
         ]
@@ -460,7 +483,7 @@
           },
           {
             "technique": "Technical Standup",
-            "target": "Standing Position",
+            "target": "Scramble Position",
             "probability": 35
           }
         ]
@@ -534,11 +557,11 @@
         "relationship": "Alternative recovery position via sit-through or roll"
       },
       {
-        "name": "Granby Roll",
+        "name": "Granby Roll to Guard",
         "relationship": "Primary escape technique from turtle bottom"
       },
       {
-        "name": "Technical Standup",
+        "name": "Technical Stand-up",
         "relationship": "Alternative escape route to standing position"
       },
       {
@@ -554,8 +577,8 @@
         "relationship": "Fundamental concept for turtle bottom structure"
       },
       {
-        "name": "Base Maintenance",
-        "relationship": "Critical principle for turtle stability"
+        "name": "Rolling to Guard",
+        "relationship": "Key escape transition for guard recovery"
       },
       {
         "name": "Hip Escape Mechanics",
@@ -564,13 +587,16 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 42
+        "value": 42,
+        "description": "Low retention due to transitional nature - designed to be escaped quickly"
       },
       "advancement_probability": {
-        "value": 52
+        "value": 52,
+        "description": "Moderate advancement via guard recovery or standup"
       },
       "submission_probability": {
-        "value": 12
+        "value": 12,
+        "description": "Low direct submission rate, primarily through rolling attacks"
       },
       "average_time": "10-30 seconds before transition to another position"
     },
@@ -587,28 +613,32 @@
     ],
     "transitions": [
       {
-        "transition": "Granby Roll",
-        "attempt_probability": 16
-      },
-      {
-        "transition": "Technical Standup",
-        "attempt_probability": 18
-      },
-      {
-        "transition": "Rolling to Guard",
-        "attempt_probability": 20
-      },
-      {
-        "transition": "Deep Half Entry",
+        "transition": "Granby Roll to Guard",
         "attempt_probability": 15
       },
       {
+        "transition": "Technical Stand-up",
+        "attempt_probability": 16
+      },
+      {
+        "transition": "Rolling to Guard",
+        "attempt_probability": 21
+      },
+      {
+        "transition": "Deep Half Entry",
+        "attempt_probability": 14
+      },
+      {
         "transition": "Sit Through to Guard",
-        "attempt_probability": 18
+        "attempt_probability": 16
       },
       {
         "transition": "Peterson Roll",
-        "attempt_probability": 13
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Sit Out from Turtle",
+        "attempt_probability": 6
       }
     ],
     "knowledge_assessment": [

@@ -368,7 +368,7 @@ Study high-level competitors using Granby rolls in competition. Analyze timing, 
 
 
 ### Related Content
-- [[Granby Roll]] (Transition) - This concept describes the theoretical framework for the Granby Roll transition technique, providing the principles underlying the mechanical execution
+- [[Granby Roll to Guard]] (Transition) - This concept describes the theoretical framework for the Granby Roll transition technique, providing the principles underlying the mechanical execution
 - [[Escape Hierarchy]] (Principle) - Broader framework that includes Granby Roll as one component of complete defensive escape system
 - [[Creating Space]] (Principle) - General principle of which Granby Roll is specific application using rotational mechanics
 - [[Turtle]] (Position) - Primary position from which Granby Roll concept is most frequently applied to prevent back takes and recover guard

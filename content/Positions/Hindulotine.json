@@ -262,35 +262,35 @@
     "transitions": [
       {
         "transition": "Guillotine Choke",
-        "attempt_probability": 12
+        "attempt_probability": 26
       },
       {
         "transition": "Hindulotine to Darce Choke",
-        "attempt_probability": 13
+        "attempt_probability": 11
       },
       {
         "transition": "Hindulotine to Anaconda Choke",
-        "attempt_probability": 12
+        "attempt_probability": 9
       },
       {
         "transition": "Back Take from Top",
         "attempt_probability": 14
       },
       {
-        "transition": "Side Control to Mount",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "Side Control to North-South",
-        "attempt_probability": 12
-      },
-      {
         "transition": "Front Headlock to Back",
-        "attempt_probability": 13
+        "attempt_probability": 11
       },
       {
         "transition": "Arm Triangle from Top",
-        "attempt_probability": 11
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Snap Down to Front Headlock",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Hindulotine Choke Finish",
+        "attempt_probability": 5
       }
     ],
     "knowledge_assessment": [
@@ -529,35 +529,39 @@
     "transitions": [
       {
         "transition": "Guillotine Choke",
-        "attempt_probability": 14
+        "attempt_probability": 32
       },
       {
         "transition": "Hindulotine to Darce Choke",
-        "attempt_probability": 13
+        "attempt_probability": 8
       },
       {
         "transition": "Hindulotine to Anaconda Choke",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Sweep to Mount",
-        "attempt_probability": 12
+        "attempt_probability": 6
       },
       {
         "transition": "Back Take from Bottom",
         "attempt_probability": 13
       },
       {
-        "transition": "Arm Triangle Transition",
-        "attempt_probability": 11
-      },
-      {
         "transition": "High Elbow Guillotine Variation",
-        "attempt_probability": 13
+        "attempt_probability": 8
       },
       {
         "transition": "Butterfly Sweep with Guillotine",
-        "attempt_probability": 12
+        "attempt_probability": 20
+      },
+      {
+        "transition": "Guard Recovery",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Arm Triangle Transition",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Sweep to Mount",
+        "attempt_probability": 2
       }
     ],
     "knowledge_assessment": [

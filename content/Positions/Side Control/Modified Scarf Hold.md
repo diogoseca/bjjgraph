@@ -101,13 +101,13 @@ Competition applicability is high, particularly in gi competitions where the pos
 ### Available Transitions
 
 
-- **[[Elbow Escape]]** (18% of attempts)
+- **[[Elbow Escape to Guard]]** (18% of attempts)
 
 - **[[Bridge and Roll]]** (14% of attempts)
 
 - **[[Turtle Transition]]** (21% of attempts)
 
-- **[[Frame and Shrimp]]** (16% of attempts)
+- **[[Frame and Shrimp to Guard]]** (16% of attempts)
 
 - **[[Arm Extraction]]** (19% of attempts)
 
@@ -168,11 +168,11 @@ Competition applicability is high, particularly in gi competitions where the pos
 ### Available Transitions
 
 
-- **[[Americana from Side Control]]** (14% of attempts)
+- **[[Americana]]** (14% of attempts)
 
-- **[[Kimura from Side Control]]** (13% of attempts)
+- **[[Kimura]]** (13% of attempts)
 
-- **[[Armbar from Side Control]]** (12% of attempts)
+- **[[Armbar Finish]]** (12% of attempts)
 
 - **[[Side Control to Mount]]** (15% of attempts)
 
@@ -180,7 +180,7 @@ Competition applicability is high, particularly in gi competitions where the pos
 
 - **[[North-South Choke]]** (11% of attempts)
 
-- **[[Far Side Armbar]]** (10% of attempts)
+- **[[Armbar on Free Arm]]** (10% of attempts)
 
 - **[[Arm Triangle]]** (11% of attempts)
 

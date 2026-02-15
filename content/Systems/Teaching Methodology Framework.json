@@ -1,7 +1,16 @@
 {
   "name": "Teaching Methodology Framework",
   "description": "Master BJJ teaching with systematic instruction framework. Progressive resistance, positional hierarchy, and skill development for coaching excellence.",
-  "tags": ["bjj", "teaching", "methodology", "instruction", "coaching", "pedagogy", "skill-development", "progressive-training"],
+  "tags": [
+    "bjj",
+    "teaching",
+    "methodology",
+    "instruction",
+    "coaching",
+    "pedagogy",
+    "skill-development",
+    "progressive-training"
+  ],
   "system_type": "Training Methodology",
   "difficulty_level": "Advanced",
   "overview": "The Teaching Methodology Framework represents a comprehensive systematic approach to Brazilian Jiu-Jitsu instruction that synthesizes the most effective pedagogical principles from elite-level coaches. This framework emphasizes progressive resistance training, positional hierarchy understanding, and technical precision over athleticism. The system recognizes that effective BJJ instruction requires more than demonstrating techniques - it demands a structured progression that develops both technical knowledge and problem-solving abilities. The methodology integrates three critical components: conceptual understanding of fundamental principles, systematic drilling progressions that build muscle memory, and controlled sparring environments that allow safe experimentation. Unlike traditional approaches that focus on memorizing large numbers of techniques, this framework emphasizes depth over breadth, ensuring students develop robust foundational skills before progressing to advanced material. The system also addresses the critical relationship between instruction methodology and student retention, recognizing that properly structured classes create confident practitioners who remain engaged long-term.",
@@ -311,7 +320,7 @@
       "relationship": "Highest-value position for teaching systematic submission approach"
     },
     {
-      "name": "Elbow Escape",
+      "name": "Elbow Escape to Guard",
       "content_type": "Transition",
       "relationship": "First major escape technique taught in defensive curriculum phase"
     },
@@ -331,7 +340,7 @@
       "relationship": "Core neutral position offensive technique in curriculum progression"
     },
     {
-      "name": "Technical Standup",
+      "name": "Technical Stand-up",
       "content_type": "Transition",
       "relationship": "Essential defensive skill for returning to standing position safely"
     },

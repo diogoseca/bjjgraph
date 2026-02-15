@@ -13,12 +13,12 @@
   "from_position": "Kuzure Kesa-Gatame/Bottom",
   "outcomes": [
     {
-      "to": "Closed Guard",
+      "to": "Closed Guard/Top",
       "probability": 50,
       "result": "success"
     },
     {
-      "to": "Half Guard",
+      "to": "Half Guard/Top",
       "probability": 15,
       "result": "success"
     },
@@ -28,222 +28,13 @@
       "result": "failure"
     },
     {
-      "to": "Armbar Control",
+      "to": "Armbar Control/Bottom",
       "probability": 10,
       "result": "counter"
     }
   ],
+  "success_rate": 58,
   "overview": "Arm Recovery to Guard is the critical defensive transition from Kuzure Kesa-Gatame bottom that addresses the position's primary problem: the trapped arm. Unlike escapes that work around the arm isolation (such as the Granby Roll to Turtle), this technique directly solves the trapped arm by extracting it through precise shoulder rotation, frame creation, and hip movement to recover a guard position. The technique transforms a severely disadvantaged pin into an active guard where offensive options become available.\n\nThe strategic value of this transition lies in its directness. Rather than conceding positional regression to Turtle or fighting for a difficult bridge-and-roll reversal, successful arm recovery places you immediately into Closed Guard or Half Guard with both arms free, full breathing capacity restored, and a complete offensive toolkit available. This makes it the highest-value escape from Kuzure Kesa-Gatame when the timing window presents itself.\n\nThe technique requires precise coordination between shoulder mechanics, hip movement, and frame placement. The trapped arm cannot simply be pulled free against the opponent's clamping pressure. Instead, the practitioner must create a momentary release through a combination of bridge-induced weight shift and internal shoulder rotation that changes the angle of the trapped arm relative to the opponent's armpit clamp. This window is brief, typically coinciding with the opponent's weight shifting forward during a submission attempt or positional adjustment, making timing sensitivity the single most important skill for this technique.",
-  "key_principles": [
-    "Internal shoulder rotation changes the angle of the trapped arm, reducing the cross-section that must pass through the opponent's armpit clamp",
-    "Bridge timing must coincide with opponent's forward weight shift during submission attempts or positional adjustments",
-    "The free arm creates a frame against the opponent's hip to maintain space during arm extraction, not to push them away",
-    "Hip escape away from the opponent creates the distance needed to insert knees and recover guard after arm extraction",
-    "Elbow extraction precedes wrist extraction—pulling the elbow to your ribs first collapses the opponent's control structure",
-    "Guard recovery must happen immediately after arm extraction before the opponent can re-establish side control grips",
-    "Energy conservation is critical—the extraction must be a single precise movement, not repeated yanking"
-  ],
-  "setup_requirements": [
-    "Trapped arm maintained at approximately 90-degree bend with elbow tight to ribs, preventing full extension or collapse",
-    "Free arm positioned to frame against opponent's hip or shoulder, creating minimal but critical space",
-    "Feet flat on the mat with knees bent, providing bridge power and hip escape capability",
-    "Controlled breathing established despite rib pressure, ensuring sufficient energy for explosive extraction",
-    "Recognition of opponent's forward weight shift or submission attempt creating the timing window",
-    "Mental commitment to immediate guard recovery after extraction—no hesitation between steps"
-  ],
-  "execution_steps": [
-    {
-      "step_number": 1,
-      "action": "Establish defensive arm position",
-      "description": "Ensure trapped arm is bent at approximately 90 degrees with elbow pinched tight to your ribs. Internally rotate your shoulder so your palm faces upward toward the ceiling. This rotation narrows the profile of your arm within the opponent's armpit clamp and prepares the extraction angle."
-    },
-    {
-      "step_number": 2,
-      "action": "Set the free arm frame",
-      "description": "Place your free forearm against the opponent's hip bone on the near side, creating a skeletal frame that maintains space between your bodies. Do not push—simply wedge the frame in place using bone-on-bone contact. Your elbow stays tight to your own body to prevent the opponent from collapsing the frame."
-    },
-    {
-      "step_number": 3,
-      "action": "Bridge into opponent's posting leg",
-      "description": "Drive your hips upward at a perpendicular angle targeting the opponent's far-side posting leg. This angular bridge disrupts their base and forces a momentary forward weight shift that lightens the armpit clamp on your trapped arm. Keep your feet flat and drive through your heels for maximum power."
-    },
-    {
-      "step_number": 4,
-      "action": "Extract the elbow",
-      "description": "During the momentary pressure release from the bridge, pull your trapped elbow sharply toward your own hip by contracting your lat and retracting your shoulder blade. The internal rotation set in step one allows the elbow to slide through the loosened armpit clamp. This is the critical moment—the extraction must be decisive and complete in one motion."
-    },
-    {
-      "step_number": 5,
-      "action": "Hip escape to create distance",
-      "description": "As soon as the elbow clears, shrimp your hips away from the opponent by pushing off your feet and sliding your hips toward the far side. Maintain the free arm frame against their hip to prevent them from following your hip movement. Your extracted arm immediately moves to create a secondary frame against their shoulder or collar."
-    },
-    {
-      "step_number": 6,
-      "action": "Insert knee shield",
-      "description": "Drive your near-side knee across the opponent's torso as your hips create space, placing your shin diagonally across their midsection. This knee shield prevents them from re-establishing chest-to-chest contact and begins the guard recovery structure. Your far leg hooks behind their body or remains ready to close guard."
-    },
-    {
-      "step_number": 7,
-      "action": "Recover full guard",
-      "description": "Circle your far leg around the opponent's back and close your ankles to establish Closed Guard. If distance is insufficient for Closed Guard, settle for Half Guard by clamping your legs around one of their legs. Immediately establish grips—collar and sleeve in gi, wrist and head control in no-gi—to prevent the opponent from disengaging and re-passing."
-    },
-    {
-      "step_number": 8,
-      "action": "Consolidate guard position",
-      "description": "Pull the opponent's posture down using your new grips while squeezing your guard closed. Adjust your hip angle to center yourself under them rather than remaining offset from the side control position. Establish dominant grips and begin assessing offensive options from your recovered guard position."
-    }
-  ],
-  "common_counters": [
-    {
-      "counter": "Opponent tightens armpit clamp and drops chest weight when sensing extraction attempt",
-      "effectiveness": "High",
-      "your_response": "Abandon the direct extraction and chain into a Granby Roll or hip escape to Half Guard instead. Return to arm recovery when the opponent adjusts again. The failed attempt often causes them to overcommit to arm control, opening other escape paths."
-    },
-    {
-      "counter": "Opponent transitions to armbar by extending your arm as you attempt extraction",
-      "effectiveness": "High",
-      "your_response": "Immediately abort extraction and defend the armbar by clasping hands together in a Gable grip, turning into the opponent, and working standard armbar defense. The key is recognizing the armbar transition early—if your elbow begins extending during extraction, stop and defend."
-    },
-    {
-      "counter": "Opponent follows your hip escape and re-establishes side control before guard recovery",
-      "effectiveness": "Medium",
-      "your_response": "Use the knee shield aggressively to maintain distance. If they begin passing, transition to Knee Shield Half Guard rather than fighting for Closed Guard. A partial guard recovery is still a significant positional improvement over Kuzure Kesa-Gatame bottom."
-    },
-    {
-      "counter": "Opponent switches to North-South as you bridge to prevent guard recovery angle",
-      "effectiveness": "Medium",
-      "your_response": "Follow their rotation with your own hip movement, staying square to them rather than allowing the North-South transition to complete. Use the arm you just freed to frame against their hip and continue your guard recovery from the new angle."
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Yanking the trapped arm straight out with muscular force against the armpit clamp",
-      "consequence": "Wastes critical energy without freeing the arm, and can create armbar vulnerability if the arm extends during the yank",
-      "correction": "Use internal shoulder rotation to narrow arm profile, then extract during a bridge-induced weight shift when the clamp loosens momentarily"
-    },
-    {
-      "error": "Attempting extraction without bridging first to create a weight shift",
-      "consequence": "The opponent's full weight reinforces the armpit clamp, making extraction virtually impossible regardless of strength",
-      "correction": "Always bridge at a perpendicular angle to the opponent's base before extracting—the weight shift is what creates the opening, not arm strength"
-    },
-    {
-      "error": "Pausing after arm extraction instead of immediately hip escaping to recover guard",
-      "consequence": "Opponent re-establishes side control grips on the now-free arm, returning you to the same trapped position or worse",
-      "correction": "Chain the extraction directly into hip escape and knee shield insertion—treat steps 4 through 7 as one continuous movement with no hesitation"
-    },
-    {
-      "error": "Extending the trapped arm fully straight during the extraction attempt",
-      "consequence": "Creates an immediate armbar opportunity that the opponent can finish, turning an escape attempt into a submission loss",
-      "correction": "Keep the elbow bent throughout extraction—pull the elbow toward your hip, never straighten the arm. If you feel extension, immediately abort and defend"
-    },
-    {
-      "error": "Pushing the opponent away with the free arm instead of creating a structural frame",
-      "consequence": "Rapid fatigue of the free arm with minimal space creation, leaving no energy for the actual extraction and guard recovery",
-      "correction": "Use bone-on-bone framing with forearm against hip—skeletal structure maintains space without muscular effort, preserving energy for the extraction"
-    },
-    {
-      "error": "Attempting guard recovery with legs before the arm is fully extracted",
-      "consequence": "The partially trapped arm gets caught in an even worse position as the body rotates, potentially creating a tighter arm isolation or submission angle",
-      "correction": "Complete elbow extraction fully before beginning hip escape and leg insertion. Sequence matters—arm first, then legs"
-    },
-    {
-      "error": "Bridging straight upward instead of at a perpendicular angle toward the opponent's posting leg",
-      "consequence": "The opponent simply settles back down without losing base, wasting your explosive bridge energy without creating an extraction window",
-      "correction": "Direct the bridge at a 45-90 degree angle toward their far-side posting leg to attack their base structure and force a genuine weight shift"
-    }
-  ],
-  "training_progressions": [
-    {
-      "phase": "Week 1-2",
-      "focus": "Arm mechanics and shoulder rotation",
-      "description": "Practice the internal shoulder rotation and elbow retraction movement in isolation. Partner holds arm in simulated clamp position with zero resistance. Focus on the rotation-to-extraction pathway until the motor pattern is automatic. Drill 20 repetitions per side per session."
-    },
-    {
-      "phase": "Week 3-4",
-      "focus": "Bridge-to-extraction timing",
-      "description": "Partner establishes light Kuzure Kesa-Gatame. Practice bridging and timing the extraction to the peak of the bridge when partner's weight shifts. Partner provides light resistance on the clamp but releases when bridge timing is correct. Chain into hip escape but stop before guard recovery."
-    },
-    {
-      "phase": "Week 5-6",
-      "focus": "Full sequence with guard recovery",
-      "description": "Execute complete technique from extraction through guard recovery against moderate resistance. Partner maintains position realistically but does not counter the extraction aggressively. Focus on eliminating pauses between extraction, hip escape, knee shield, and guard closure. Time the full sequence—target under 3 seconds from bridge to guard."
-    },
-    {
-      "phase": "Week 7-8",
-      "focus": "Counter recognition and chain escapes",
-      "description": "Partner applies full resistance and uses common counters—tightening the clamp, threatening armbar, following the hip escape. Practice recognizing when to abort and chain into Granby Roll or Elbow Escape instead. Develop the decision-making framework for when arm recovery is viable versus when alternative escapes are better."
-    },
-    {
-      "phase": "Week 9+",
-      "focus": "Live application and integration",
-      "description": "Positional sparring starting from Kuzure Kesa-Gatame bottom. Use arm recovery as part of a complete escape system that includes Elbow Escape, Granby Roll, and Bridge and Roll. Track success rate and identify which timing cues most reliably predict successful extraction. Target 40%+ success rate against equal-level training partners."
-    }
-  ],
-  "variants_and_adaptations": [
-    {
-      "variant_name": "Two-on-one arm extraction",
-      "description": "Use both hands to grip and extract the trapped arm by reaching your free hand to grasp your own trapped wrist. The two-on-one grip provides significantly more extraction force. Trade-off is that you temporarily lose your frame, so bridge timing must be precise to avoid being flattened during the grip change.",
-      "when_to_use": "When the opponent's armpit clamp is extremely tight and single-arm extraction fails repeatedly. Best used against heavier opponents where the pressure differential makes standard extraction insufficient."
-    },
-    {
-      "variant_name": "Extraction to Half Guard underhook",
-      "description": "Instead of recovering full Closed Guard, extract the arm and immediately use it to establish an underhook as you shrimp to Half Guard. The underhook gives you immediate offensive capability from Half Guard rather than settling into a neutral Closed Guard. Requires less hip escape distance than full guard recovery.",
-      "when_to_use": "When the opponent follows your hip escape closely and Closed Guard distance is not achievable. The underhook from Half Guard is a strong offensive position that compensates for not reaching Closed Guard."
-    },
-    {
-      "variant_name": "No-gi palm-up extraction",
-      "description": "In no-gi, the absence of sleeve friction changes the extraction mechanics. Rotate the trapped arm palm-up and slide the forearm along your own ribs using the sweat and reduced friction to your advantage. The slick surface allows for faster extraction but also means the opponent may regrip quickly, so the transition to guard must be immediate.",
-      "when_to_use": "No-gi grappling where the reduced friction of skin-on-skin contact creates different extraction dynamics than gi training."
-    }
-  ],
-  "knowledge_assessment": [
-    {
-      "question": "What is the primary goal of Arm Recovery to Guard?",
-      "answer": "The primary goal is to extract the trapped arm from the opponent's armpit clamp in Kuzure Kesa-Gatame and immediately recover a guard position (Closed Guard or Half Guard). This transitions you from a severely disadvantaged pin with submission danger into an active guard where both arms are free, breathing is restored, and offensive techniques become available."
-    },
-    {
-      "question": "What position do you start Arm Recovery to Guard from?",
-      "answer": "This technique starts from Kuzure Kesa-Gatame bottom, where the opponent has modified scarf hold with one of your arms trapped between their armpit and chest. You are lying on your side with restricted breathing from their hip pressure into your ribs."
-    },
-    {
-      "question": "Why is internal shoulder rotation critical before attempting the arm extraction?",
-      "answer": "Internal shoulder rotation (turning the palm upward) narrows the cross-sectional profile of the upper arm within the opponent's armpit clamp. A wider arm profile gets stuck against the clamping pressure. By rotating internally, you reduce the width that must pass through the clamp, making extraction possible with significantly less force. Without this rotation, even strong practitioners struggle to pull the arm free against a tight clamp."
-    },
-    {
-      "question": "Your opponent shifts their weight forward to set up an Americana on your trapped arm—how does this create your extraction window?",
-      "answer": "The forward weight shift to grip for the Americana lightens the hip pressure on your ribs and loosens the armpit clamp as their focus and weight moves toward your arm rather than maintaining the pin. This is the optimal moment to bridge perpendicular to their base and extract the elbow during the momentary pressure reduction. Their offensive commitment creates the defensive opening."
-    },
-    {
-      "question": "What are the key grips and frames needed for Arm Recovery to Guard?",
-      "answer": "The free arm creates a forearm frame against the opponent's near-side hip bone using bone-on-bone contact for structural space maintenance. The trapped arm maintains a 90-degree bend with the elbow tight to the ribs. After extraction, both arms transition to guard-recovery grips: collar and sleeve in gi, or wrist control and head control in no-gi. The frame is not for pushing but for maintaining the minimum space needed during hip escape."
-    },
-    {
-      "question": "You extract your arm successfully but the opponent immediately drives forward to re-pass—what must you do in the next two seconds?",
-      "answer": "Immediately insert your near-side knee across their torso as a shield while completing your hip escape. If they drive hard, use the knee shield to redirect their pressure while your far leg circles behind them to close guard. Establishing any guard—even Half Guard—is the priority. If you hesitate after extraction without inserting the knee shield, they will re-establish side control grips on your now-free arm and return you to the same trapped position."
-    },
-    {
-      "question": "How do you counter the opponent tightening their armpit clamp when they sense your extraction attempt?",
-      "answer": "When the opponent clamps down harder, abandon the direct extraction and chain into an alternative escape—Granby Roll to Turtle or Elbow Escape to Half Guard. The failed extraction attempt often causes them to overcommit to arm control, which opens their base for other escapes. Return to arm recovery on the next timing window when they adjust or attack. Repeatedly forcing against a reinforced clamp wastes energy and creates submission openings."
-    },
-    {
-      "question": "What is the most critical direction of force during the bridge that creates the extraction window?",
-      "answer": "The bridge must be directed perpendicular to the opponent's base, targeting their far-side posting leg at a 45-90 degree angle. This angular bridge attacks their structural stability and forces a genuine forward weight shift that loosens the armpit clamp. Bridging straight upward merely lifts them temporarily without disrupting their base, and they settle back down with the clamp intact. The directional bridge creates mechanical disruption, not just vertical displacement."
-    },
-    {
-      "question": "When should you abort Arm Recovery to Guard and switch to a different escape?",
-      "answer": "Abort when: the opponent successfully tightens the clamp during your bridge (chain to Granby Roll), your arm begins extending during extraction creating armbar danger (immediately defend armbar), or you extract the arm but cannot create enough hip distance for guard recovery (settle for Half Guard with underhook). The technique has a narrow timing window—if the window closes, forcing it creates more danger than switching to an alternative escape that exploits the new weight distribution your attempt created."
-    },
-    {
-      "question": "Why is extracting the elbow before the wrist the correct sequence rather than pulling the entire arm at once?",
-      "answer": "The armpit clamp is tightest at the shoulder and upper arm where the opponent has maximum leverage. Pulling the elbow to your ribs first collapses the opponent's primary control point—their armpit pressure on your upper arm. Once the elbow clears, the forearm and wrist slide through the now-disrupted clamp with minimal resistance. Attempting to pull the entire arm simultaneously fights the tightest point of control with the weakest leverage angle, requiring far more force and creating more extension risk."
-    },
-    {
-      "question": "How does Arm Recovery to Guard differ in no-gi versus gi, and what adjustments are needed?",
-      "answer": "In no-gi, reduced friction from sweat makes the extraction mechanically easier—the arm slides through the clamp with less resistance. However, the opponent can also regrip faster and the guard recovery grips are less secure without collar and sleeve. The adjustment is to use palm-up rotation to maximize the slick surface advantage during extraction, but transition to guard more aggressively since the opponent's re-passing attempts will also be faster without gi friction slowing their movement."
-    }
-  ],
-  "safety_considerations": "Arm Recovery to Guard involves extracting a trapped arm from a clamped position, which creates risk for the shoulder joint and elbow. Never attempt to yank the arm free with explosive force against a fully locked clamp—this can strain the shoulder rotator cuff or create an armbar angle that the opponent finishes. If you feel sharp pain in the shoulder during extraction, stop immediately and tap if necessary. During training, communicate with partners about the tightness of the armpit clamp, particularly when drilling at higher resistance levels. Partners should release pressure immediately if the bottom practitioner signals discomfort. Practitioners with existing shoulder injuries or hypermobility should approach this technique with extra caution and may need to rely more on alternative escapes like the Granby Roll that do not stress the trapped shoulder joint.",
-  "position_integration": "Arm Recovery to Guard is one of the primary escape transitions from Kuzure Kesa-Gatame bottom, forming part of a complete defensive system alongside Elbow Escape, Granby Roll, Bridge and Roll, and Technical Standup. Its unique value is that it directly addresses the position's defining feature—the arm trap—while recovering to an offensive guard position rather than a neutral or still-defensive position like Turtle. In the broader escape hierarchy, arm recovery should be the first-choice escape when timing permits, as Closed Guard offers the best offensive return. When arm recovery is denied, practitioners chain into Elbow Escape for Half Guard recovery or Granby Roll for Turtle, then work back toward guard from those intermediate positions. The technique integrates with the guard game by providing a direct re-entry into Closed Guard or Half Guard attack systems.",
   "related_content": [
     {
       "name": "Kuzure Kesa-Gatame",
@@ -258,11 +49,11 @@
       "relationship": "Secondary successful outcome when full guard distance is not achievable"
     },
     {
-      "name": "Elbow Escape",
+      "name": "Elbow Escape to Guard",
       "relationship": "Alternative escape from same position—chains when arm recovery is denied"
     },
     {
-      "name": "Granby Roll",
+      "name": "Granby Roll to Guard",
       "relationship": "Alternative escape to Turtle when direct guard recovery is blocked"
     },
     {
@@ -286,5 +77,360 @@
       "relationship": "Related parent position with similar but distinct arm control dynamics"
     }
   ],
-  "success_rate": 58
+  "attacker": {
+    "name": "Arm Recovery to Guard Attacker",
+    "description": "How to execute Arm Recovery to Guard in BJJ. Attacking perspective with setup, execution steps, and counters.",
+    "overview": "Arm Recovery to Guard is the critical defensive transition from Kuzure Kesa-Gatame bottom that addresses the position's primary problem: the trapped arm. Unlike escapes that work around the arm isolation (such as the Granby Roll to Turtle), this technique directly solves the trapped arm by extracting it through precise shoulder rotation, frame creation, and hip movement to recover a guard position. The technique transforms a severely disadvantaged pin into an active guard where offensive options become available.\n\nThe strategic value of this transition lies in its directness. Rather than conceding positional regression to Turtle or fighting for a difficult bridge-and-roll reversal, successful arm recovery places you immediately into Closed Guard or Half Guard with both arms free, full breathing capacity restored, and a complete offensive toolkit available. This makes it the highest-value escape from Kuzure Kesa-Gatame when the timing window presents itself.\n\nThe technique requires precise coordination between shoulder mechanics, hip movement, and frame placement. The trapped arm cannot simply be pulled free against the opponent's clamping pressure. Instead, the practitioner must create a momentary release through a combination of bridge-induced weight shift and internal shoulder rotation that changes the angle of the trapped arm relative to the opponent's armpit clamp. This window is brief, typically coinciding with the opponent's weight shifting forward during a submission attempt or positional adjustment, making timing sensitivity the single most important skill for this technique.",
+    "key_principles": [
+      "Internal shoulder rotation changes the angle of the trapped arm, reducing the cross-section that must pass through the opponent's armpit clamp",
+      "Bridge timing must coincide with opponent's forward weight shift during submission attempts or positional adjustments",
+      "The free arm creates a frame against the opponent's hip to maintain space during arm extraction, not to push them away",
+      "Hip escape away from the opponent creates the distance needed to insert knees and recover guard after arm extraction",
+      "Elbow extraction precedes wrist extraction—pulling the elbow to your ribs first collapses the opponent's control structure",
+      "Guard recovery must happen immediately after arm extraction before the opponent can re-establish side control grips",
+      "Energy conservation is critical—the extraction must be a single precise movement, not repeated yanking"
+    ],
+    "setup_requirements": [
+      "Trapped arm maintained at approximately 90-degree bend with elbow tight to ribs, preventing full extension or collapse",
+      "Free arm positioned to frame against opponent's hip or shoulder, creating minimal but critical space",
+      "Feet flat on the mat with knees bent, providing bridge power and hip escape capability",
+      "Controlled breathing established despite rib pressure, ensuring sufficient energy for explosive extraction",
+      "Recognition of opponent's forward weight shift or submission attempt creating the timing window",
+      "Mental commitment to immediate guard recovery after extraction—no hesitation between steps"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish defensive arm position",
+        "description": "Ensure trapped arm is bent at approximately 90 degrees with elbow pinched tight to your ribs. Internally rotate your shoulder so your palm faces upward toward the ceiling. This rotation narrows the profile of your arm within the opponent's armpit clamp and prepares the extraction angle."
+      },
+      {
+        "step_number": 2,
+        "action": "Set the free arm frame",
+        "description": "Place your free forearm against the opponent's hip bone on the near side, creating a skeletal frame that maintains space between your bodies. Do not push—simply wedge the frame in place using bone-on-bone contact. Your elbow stays tight to your own body to prevent the opponent from collapsing the frame."
+      },
+      {
+        "step_number": 3,
+        "action": "Bridge into opponent's posting leg",
+        "description": "Drive your hips upward at a perpendicular angle targeting the opponent's far-side posting leg. This angular bridge disrupts their base and forces a momentary forward weight shift that lightens the armpit clamp on your trapped arm. Keep your feet flat and drive through your heels for maximum power."
+      },
+      {
+        "step_number": 4,
+        "action": "Extract the elbow",
+        "description": "During the momentary pressure release from the bridge, pull your trapped elbow sharply toward your own hip by contracting your lat and retracting your shoulder blade. The internal rotation set in step one allows the elbow to slide through the loosened armpit clamp. This is the critical moment—the extraction must be decisive and complete in one motion."
+      },
+      {
+        "step_number": 5,
+        "action": "Hip escape to create distance",
+        "description": "As soon as the elbow clears, shrimp your hips away from the opponent by pushing off your feet and sliding your hips toward the far side. Maintain the free arm frame against their hip to prevent them from following your hip movement. Your extracted arm immediately moves to create a secondary frame against their shoulder or collar."
+      },
+      {
+        "step_number": 6,
+        "action": "Insert knee shield",
+        "description": "Drive your near-side knee across the opponent's torso as your hips create space, placing your shin diagonally across their midsection. This knee shield prevents them from re-establishing chest-to-chest contact and begins the guard recovery structure. Your far leg hooks behind their body or remains ready to close guard."
+      },
+      {
+        "step_number": 7,
+        "action": "Recover full guard",
+        "description": "Circle your far leg around the opponent's back and close your ankles to establish Closed Guard. If distance is insufficient for Closed Guard, settle for Half Guard by clamping your legs around one of their legs. Immediately establish grips—collar and sleeve in gi, wrist and head control in no-gi—to prevent the opponent from disengaging and re-passing."
+      },
+      {
+        "step_number": 8,
+        "action": "Consolidate guard position",
+        "description": "Pull the opponent's posture down using your new grips while squeezing your guard closed. Adjust your hip angle to center yourself under them rather than remaining offset from the side control position. Establish dominant grips and begin assessing offensive options from your recovered guard position."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent tightens armpit clamp and drops chest weight when sensing extraction attempt",
+        "effectiveness": "High",
+        "your_response": "Abandon the direct extraction and chain into a Granby Roll or hip escape to Half Guard instead. Return to arm recovery when the opponent adjusts again. The failed attempt often causes them to overcommit to arm control, opening other escape paths.",
+        "targets_outcome": "Kuzure Kesa-Gatame/Bottom"
+      },
+      {
+        "counter": "Opponent transitions to armbar by extending your arm as you attempt extraction",
+        "effectiveness": "High",
+        "your_response": "Immediately abort extraction and defend the armbar by clasping hands together in a Gable grip, turning into the opponent, and working standard armbar defense. The key is recognizing the armbar transition early—if your elbow begins extending during extraction, stop and defend.",
+        "targets_outcome": "Armbar Control/Bottom"
+      },
+      {
+        "counter": "Opponent follows your hip escape and re-establishes side control before guard recovery",
+        "effectiveness": "Medium",
+        "your_response": "Use the knee shield aggressively to maintain distance. If they begin passing, transition to Knee Shield Half Guard rather than fighting for Closed Guard. A partial guard recovery is still a significant positional improvement over Kuzure Kesa-Gatame bottom.",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Opponent switches to North-South as you bridge to prevent guard recovery angle",
+        "effectiveness": "Medium",
+        "your_response": "Follow their rotation with your own hip movement, staying square to them rather than allowing the North-South transition to complete. Use the arm you just freed to frame against their hip and continue your guard recovery from the new angle.",
+        "targets_outcome": "Kuzure Kesa-Gatame/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Yanking the trapped arm straight out with muscular force against the armpit clamp",
+        "consequence": "Wastes critical energy without freeing the arm, and can create armbar vulnerability if the arm extends during the yank",
+        "correction": "Use internal shoulder rotation to narrow arm profile, then extract during a bridge-induced weight shift when the clamp loosens momentarily"
+      },
+      {
+        "error": "Attempting extraction without bridging first to create a weight shift",
+        "consequence": "The opponent's full weight reinforces the armpit clamp, making extraction virtually impossible regardless of strength",
+        "correction": "Always bridge at a perpendicular angle to the opponent's base before extracting—the weight shift is what creates the opening, not arm strength"
+      },
+      {
+        "error": "Pausing after arm extraction instead of immediately hip escaping to recover guard",
+        "consequence": "Opponent re-establishes side control grips on the now-free arm, returning you to the same trapped position or worse",
+        "correction": "Chain the extraction directly into hip escape and knee shield insertion—treat steps 4 through 7 as one continuous movement with no hesitation"
+      },
+      {
+        "error": "Extending the trapped arm fully straight during the extraction attempt",
+        "consequence": "Creates an immediate armbar opportunity that the opponent can finish, turning an escape attempt into a submission loss",
+        "correction": "Keep the elbow bent throughout extraction—pull the elbow toward your hip, never straighten the arm. If you feel extension, immediately abort and defend"
+      },
+      {
+        "error": "Pushing the opponent away with the free arm instead of creating a structural frame",
+        "consequence": "Rapid fatigue of the free arm with minimal space creation, leaving no energy for the actual extraction and guard recovery",
+        "correction": "Use bone-on-bone framing with forearm against hip—skeletal structure maintains space without muscular effort, preserving energy for the extraction"
+      },
+      {
+        "error": "Attempting guard recovery with legs before the arm is fully extracted",
+        "consequence": "The partially trapped arm gets caught in an even worse position as the body rotates, potentially creating a tighter arm isolation or submission angle",
+        "correction": "Complete elbow extraction fully before beginning hip escape and leg insertion. Sequence matters—arm first, then legs"
+      },
+      {
+        "error": "Bridging straight upward instead of at a perpendicular angle toward the opponent's posting leg",
+        "consequence": "The opponent simply settles back down without losing base, wasting your explosive bridge energy without creating an extraction window",
+        "correction": "Direct the bridge at a 45-90 degree angle toward their far-side posting leg to attack their base structure and force a genuine weight shift"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Arm mechanics and shoulder rotation",
+        "description": "Practice the internal shoulder rotation and elbow retraction movement in isolation. Partner holds arm in simulated clamp position with zero resistance. Focus on the rotation-to-extraction pathway until the motor pattern is automatic. Drill 20 repetitions per side per session."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Bridge-to-extraction timing",
+        "description": "Partner establishes light Kuzure Kesa-Gatame. Practice bridging and timing the extraction to the peak of the bridge when partner's weight shifts. Partner provides light resistance on the clamp but releases when bridge timing is correct. Chain into hip escape but stop before guard recovery."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Full sequence with guard recovery",
+        "description": "Execute complete technique from extraction through guard recovery against moderate resistance. Partner maintains position realistically but does not counter the extraction aggressively. Focus on eliminating pauses between extraction, hip escape, knee shield, and guard closure. Time the full sequence—target under 3 seconds from bridge to guard."
+      },
+      {
+        "phase": "Week 7-8",
+        "focus": "Counter recognition and chain escapes",
+        "description": "Partner applies full resistance and uses common counters—tightening the clamp, threatening armbar, following the hip escape. Practice recognizing when to abort and chain into Granby Roll or Elbow Escape instead. Develop the decision-making framework for when arm recovery is viable versus when alternative escapes are better."
+      },
+      {
+        "phase": "Week 9+",
+        "focus": "Live application and integration",
+        "description": "Positional sparring starting from Kuzure Kesa-Gatame bottom. Use arm recovery as part of a complete escape system that includes Elbow Escape, Granby Roll, and Bridge and Roll. Track success rate and identify which timing cues most reliably predict successful extraction. Target 40%+ success rate against equal-level training partners."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary goal of Arm Recovery to Guard?",
+        "answer": "The primary goal is to extract the trapped arm from the opponent's armpit clamp in Kuzure Kesa-Gatame and immediately recover a guard position (Closed Guard or Half Guard). This transitions you from a severely disadvantaged pin with submission danger into an active guard where both arms are free, breathing is restored, and offensive techniques become available."
+      },
+      {
+        "question": "What position do you start Arm Recovery to Guard from?",
+        "answer": "This technique starts from Kuzure Kesa-Gatame bottom, where the opponent has modified scarf hold with one of your arms trapped between their armpit and chest. You are lying on your side with restricted breathing from their hip pressure into your ribs."
+      },
+      {
+        "question": "Why is internal shoulder rotation critical before attempting the arm extraction?",
+        "answer": "Internal shoulder rotation (turning the palm upward) narrows the cross-sectional profile of the upper arm within the opponent's armpit clamp. A wider arm profile gets stuck against the clamping pressure. By rotating internally, you reduce the width that must pass through the clamp, making extraction possible with significantly less force. Without this rotation, even strong practitioners struggle to pull the arm free against a tight clamp."
+      },
+      {
+        "question": "Your opponent shifts their weight forward to set up an Americana on your trapped arm—how does this create your extraction window?",
+        "answer": "The forward weight shift to grip for the Americana lightens the hip pressure on your ribs and loosens the armpit clamp as their focus and weight moves toward your arm rather than maintaining the pin. This is the optimal moment to bridge perpendicular to their base and extract the elbow during the momentary pressure reduction. Their offensive commitment creates the defensive opening."
+      },
+      {
+        "question": "What are the key grips and frames needed for Arm Recovery to Guard?",
+        "answer": "The free arm creates a forearm frame against the opponent's near-side hip bone using bone-on-bone contact for structural space maintenance. The trapped arm maintains a 90-degree bend with the elbow tight to the ribs. After extraction, both arms transition to guard-recovery grips: collar and sleeve in gi, or wrist control and head control in no-gi. The frame is not for pushing but for maintaining the minimum space needed during hip escape."
+      },
+      {
+        "question": "You extract your arm successfully but the opponent immediately drives forward to re-pass—what must you do in the next two seconds?",
+        "answer": "Immediately insert your near-side knee across their torso as a shield while completing your hip escape. If they drive hard, use the knee shield to redirect their pressure while your far leg circles behind them to close guard. Establishing any guard—even Half Guard—is the priority. If you hesitate after extraction without inserting the knee shield, they will re-establish side control grips on your now-free arm and return you to the same trapped position."
+      },
+      {
+        "question": "How do you counter the opponent tightening their armpit clamp when they sense your extraction attempt?",
+        "answer": "When the opponent clamps down harder, abandon the direct extraction and chain into an alternative escape—Granby Roll to Turtle or Elbow Escape to Half Guard. The failed extraction attempt often causes them to overcommit to arm control, which opens their base for other escapes. Return to arm recovery on the next timing window when they adjust or attack. Repeatedly forcing against a reinforced clamp wastes energy and creates submission openings."
+      },
+      {
+        "question": "What is the most critical direction of force during the bridge that creates the extraction window?",
+        "answer": "The bridge must be directed perpendicular to the opponent's base, targeting their far-side posting leg at a 45-90 degree angle. This angular bridge attacks their structural stability and forces a genuine forward weight shift that loosens the armpit clamp. Bridging straight upward merely lifts them temporarily without disrupting their base, and they settle back down with the clamp intact. The directional bridge creates mechanical disruption, not just vertical displacement."
+      },
+      {
+        "question": "When should you abort Arm Recovery to Guard and switch to a different escape?",
+        "answer": "Abort when: the opponent successfully tightens the clamp during your bridge (chain to Granby Roll), your arm begins extending during extraction creating armbar danger (immediately defend armbar), or you extract the arm but cannot create enough hip distance for guard recovery (settle for Half Guard with underhook). The technique has a narrow timing window—if the window closes, forcing it creates more danger than switching to an alternative escape that exploits the new weight distribution your attempt created."
+      },
+      {
+        "question": "Why is extracting the elbow before the wrist the correct sequence rather than pulling the entire arm at once?",
+        "answer": "The armpit clamp is tightest at the shoulder and upper arm where the opponent has maximum leverage. Pulling the elbow to your ribs first collapses the opponent's primary control point—their armpit pressure on your upper arm. Once the elbow clears, the forearm and wrist slide through the now-disrupted clamp with minimal resistance. Attempting to pull the entire arm simultaneously fights the tightest point of control with the weakest leverage angle, requiring far more force and creating more extension risk."
+      },
+      {
+        "question": "How does Arm Recovery to Guard differ in no-gi versus gi, and what adjustments are needed?",
+        "answer": "In no-gi, reduced friction from sweat makes the extraction mechanically easier—the arm slides through the clamp with less resistance. However, the opponent can also regrip faster and the guard recovery grips are less secure without collar and sleeve. The adjustment is to use palm-up rotation to maximize the slick surface advantage during extraction, but transition to guard more aggressively since the opponent's re-passing attempts will also be faster without gi friction slowing their movement."
+      }
+    ],
+    "safety_considerations": "Arm Recovery to Guard involves extracting a trapped arm from a clamped position, which creates risk for the shoulder joint and elbow. Never attempt to yank the arm free with explosive force against a fully locked clamp—this can strain the shoulder rotator cuff or create an armbar angle that the opponent finishes. If you feel sharp pain in the shoulder during extraction, stop immediately and tap if necessary. During training, communicate with partners about the tightness of the armpit clamp, particularly when drilling at higher resistance levels. Partners should release pressure immediately if the bottom practitioner signals discomfort. Practitioners with existing shoulder injuries or hypermobility should approach this technique with extra caution and may need to rely more on alternative escapes like the Granby Roll that do not stress the trapped shoulder joint."
+  },
+  "defender": {
+    "name": "Arm Recovery to Guard Defender",
+    "description": "How to defend against Arm Recovery to Guard in BJJ. Recognition cues, defensive options, and escape strategies.",
+    "overview": "As the top player in Kuzure Kesa-Gatame, your opponent's arm recovery attempt represents one of the most common and highest-value escapes they will attempt. Your role as the defender in this context means maintaining your dominant top position by preventing the trapped arm from being extracted and denying the subsequent guard recovery. Understanding the mechanics of this escape is essential for shutting it down at each phase: the initial shoulder rotation, the bridge that creates the extraction window, the elbow pull, and the hip escape to guard.\n\nThe critical defensive principle is that arm recovery requires a specific sequence of events—bridge, extract, hip escape, insert legs—and disrupting any single link in that chain defeats the entire escape. Your primary weapons are armpit clamp pressure on the trapped arm, hip-to-rib weight distribution that restricts their bridge power, and the ability to follow their hip movement to deny guard recovery space. The most common error defenders make is reacting only to the arm pull itself while ignoring the bridge that precedes it. By the time they feel the arm moving, the weight shift has already created the opening.\n\nAdvanced defense involves reading the escape attempt before it develops and preemptively attacking. When you feel the opponent internally rotating their shoulder or planting their feet for a bridge, you have two strategic options: tighten your control to deny the escape entirely, or deliberately allow partial extraction to transition into an armbar. This counter-offensive approach transforms a defensive moment into an attacking opportunity, punishing the escape attempt and discouraging future extraction efforts. The key is recognizing the early signals and choosing your response before the opponent commits to their bridge.",
+    "key_principles": [
+      "Maintain constant armpit clamp pressure on the trapped upper arm—your armpit and chest create a vise that the arm cannot pass through when properly loaded with chest weight",
+      "Keep your hip pressure angled into their ribs at approximately 45 degrees toward their far hip, preventing the bridge power they need to create the extraction window",
+      "Head position past their far shoulder redirects bridge force and prevents the angular bridge from disrupting your base toward your posting leg",
+      "Follow all hip escape movement immediately—when they shrimp away, your hips must follow to deny the space needed for knee insertion and guard recovery",
+      "Recognize the internal shoulder rotation as the earliest indicator of the escape attempt, allowing you to preemptively tighten before the bridge phase begins",
+      "Maintain your posting leg wide and heavy to absorb the perpendicular bridge without losing structural base"
+    ],
+    "recognition_cues": [
+      "Opponent internally rotates their trapped shoulder so the palm begins turning upward toward the ceiling—this is the first preparatory movement before extraction",
+      "Opponent plants both feet flat on the mat and tenses their glutes, indicating they are loading for an explosive bridge toward your posting leg",
+      "Opponent's free arm shifts from passive to actively wedging against your hip bone, establishing the frame they need to maintain space during extraction",
+      "Opponent's breathing pattern changes from restricted shallow breaths to a deep inhale, signaling they are gathering energy for an explosive effort",
+      "Opponent creates slight space between their elbow and their ribs on the trapped side by micro-adjusting their shoulder position"
+    ],
+    "defensive_options": [
+      {
+        "action": "Tighten the armpit clamp by dropping your chest weight onto their upper arm while squeezing your elbow against your ribs, then drive your hip pressure deeper into their ribs to restrict bridge power",
+        "when_to_use": "When you recognize the early shoulder rotation or foot-planting cues before the bridge begins—preemptive tightening is far more effective than reactive tightening after the bridge",
+        "targets_outcome": "Kuzure Kesa-Gatame/Bottom",
+        "if_successful": "Opponent remains trapped in Kuzure Kesa-Gatame with their arm still isolated, their bridge energy wasted, and their escape window closed until their next attempt",
+        "risk": "Over-committing chest weight forward to tighten the clamp can shift your center of gravity, potentially making you vulnerable to a Granby Roll or bridge-and-roll reversal if the arm recovery was a setup"
+      },
+      {
+        "action": "Transition to armbar by extending their trapped arm as they attempt extraction—when their elbow begins moving, redirect the arm into full extension and swing your leg over their face",
+        "when_to_use": "When the opponent commits to the extraction and their elbow begins to clear your armpit clamp—the partially extracted arm is in the ideal position for armbar transition since it is already moving away from their body",
+        "targets_outcome": "Armbar Control/Bottom",
+        "if_successful": "You transition from a controlling pin into an armbar control position with their arm already partially extended, creating immediate submission danger that transforms their escape attempt into a finishing opportunity",
+        "risk": "If the armbar transition is too slow, the opponent completes the extraction and recovers guard before you can secure the arm. You may also lose top position entirely if the transition is sloppy"
+      },
+      {
+        "action": "Follow the hip escape by driving your hips into theirs and re-establishing chest-to-chest contact before they can insert a knee shield or close their guard",
+        "when_to_use": "When the opponent successfully extracts the arm and begins hip escaping—this is the last defensive window before guard recovery completes. Your reaction must be immediate as the gap between arm extraction and knee insertion is typically under two seconds",
+        "targets_outcome": "Kuzure Kesa-Gatame/Bottom",
+        "if_successful": "You re-establish side control or modified scarf hold with new grips on their now-free arm, denying the guard recovery and returning to a dominant control position",
+        "risk": "Driving forward aggressively into their hip escape may run you into a knee shield if they insert it faster than you advance, potentially creating a Half Guard situation rather than maintaining your original control"
+      },
+      {
+        "action": "Switch to North-South by rotating perpendicular to their body when you feel the bridge coming, denying the guard recovery angle entirely",
+        "when_to_use": "When the opponent's bridge is powerful enough that maintaining Kuzure Kesa-Gatame becomes difficult—rather than fighting their bridge strength, flow with it by transitioning to North-South where their guard recovery mechanics cannot function",
+        "targets_outcome": "Kuzure Kesa-Gatame/Bottom",
+        "if_successful": "You transition to North-South control, which eliminates the guard recovery threat entirely since their legs cannot reach you from this angle. You maintain top control and can attack from the new position",
+        "risk": "The transition creates a brief moment of reduced control where the opponent may turtle, recover to all fours, or establish frames during the rotation"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Kuzure Kesa-Gatame/Bottom",
+        "how": "Shut down the extraction at the earliest phase by tightening the armpit clamp when you feel the shoulder rotation, then drive hip pressure into their ribs to deny the bridge. If the arm extraction fails, immediately re-consolidate your pin by resetting your hip angle and chest weight before they can chain into a different escape."
+      },
+      {
+        "outcome": "Armbar Control/Bottom",
+        "how": "When the opponent commits to the bridge and begins extracting their elbow, allow the partial extraction to continue while redirecting their arm into full extension. As the arm clears your armpit, grip their wrist with both hands and swing your far leg over their face to establish armbar control. The key timing is catching the arm during extraction when it is transitioning between trapped and free—this is the moment of maximum vulnerability for an armbar counter."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Reacting only to the arm pull without addressing the bridge that creates the extraction window",
+        "consequence": "The bridge disrupts your base and creates a genuine weight shift that loosens the armpit clamp regardless of how hard you squeeze. By the time you feel the arm moving, the extraction may already be complete.",
+        "correction": "Defend the bridge first by maintaining heavy hip pressure angled toward their far hip and keeping your posting leg wide. A bridge that fails to shift your weight cannot create the extraction opening."
+      },
+      {
+        "error": "Maintaining a narrow base with your posting leg close to your body instead of wide",
+        "consequence": "The opponent's perpendicular bridge targets your posting leg directly, and a narrow base makes it easy to disrupt. Losing your base creates a cascading failure where the arm clamp loosens and extraction succeeds.",
+        "correction": "Post your base leg wide with your knee bent and foot firmly planted, creating a wide triangular base that absorbs the angular bridge without structural collapse."
+      },
+      {
+        "error": "Sitting upright with your torso vertical instead of keeping chest low and heavy over their body",
+        "consequence": "Upright posture reduces armpit clamp effectiveness and allows the opponent's free arm to create frames that generate space for extraction. Your weight becomes easier to move with bridges.",
+        "correction": "Keep your chest low and parallel to the mat, channeling your body weight through the armpit clamp and hip pressure. Low chest position eliminates framing opportunities and maximizes clamp effectiveness."
+      },
+      {
+        "error": "Allowing the opponent to complete the hip escape without following their movement",
+        "consequence": "Even if they extract the arm with difficulty, if you fail to follow their hips, they gain the space to insert a knee shield and recover Closed Guard or Half Guard. The extraction becomes successful despite your clamp defense.",
+        "correction": "When you feel any hip escape movement, immediately drive your hips toward theirs to close the space. Your hip-follow must be as automatic as their shrimp—any delay creates the guard recovery window."
+      },
+      {
+        "error": "Chasing the arm with your hands after it begins to clear instead of using body position to maintain control",
+        "consequence": "Hand fighting for a freed arm is low-percentage and takes both hands off the mat, compromising your base and creating sweep or reversal opportunities during the scramble.",
+        "correction": "If the arm clears your armpit, immediately transition your control strategy: either drive forward for re-pass before guard recovery, swing to armbar, or rotate to North-South. Do not hand-fight for the freed arm."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that your opponent is about to attempt Arm Recovery to Guard?",
+        "answer": "The earliest cue is the internal shoulder rotation of the trapped arm, where you feel their palm beginning to turn upward toward the ceiling. This rotation narrows their arm profile for extraction and always precedes the bridge. Recognizing this rotation gives you a one-to-two-second head start to tighten your clamp before they generate bridge power, which is the most effective defensive timing window."
+      },
+      {
+        "question": "Why is the perpendicular bridge toward your posting leg the most dangerous phase of this escape for the top player?",
+        "answer": "The perpendicular bridge attacks the structural weakness of your base—your posting leg is the primary stability point, and a bridge directed at it creates maximum base disruption with minimum energy. This angular bridge forces a genuine forward weight shift that mechanically loosens the armpit clamp regardless of how strongly you squeeze. The straight-up bridge is far less dangerous because it doesn't attack your base structure and you simply settle back down."
+      },
+      {
+        "question": "Your opponent bridges hard and you feel your armpit clamp loosening—should you fight to maintain Kuzure Kesa-Gatame or transition?",
+        "answer": "If the bridge has already disrupted your base and the clamp is loosening, fighting to maintain the exact position is often lower-percentage than transitioning. Your best options are: immediately transition to armbar by extending the partially freed arm, or rotate to North-South to deny the guard recovery angle entirely. Stubbornly fighting to maintain a compromised Kuzure Kesa-Gatame often results in losing both the arm control and the passing position when the opponent completes the escape sequence."
+      },
+      {
+        "question": "How do you distinguish between a genuine arm recovery attempt and a setup for a different escape like the Granby Roll?",
+        "answer": "A genuine arm recovery attempt features internal shoulder rotation, feet planted flat for bridge power, and a free arm frame against your hip—the entire sequence targets the trapped arm as the primary objective. A Granby Roll setup instead shows the opponent turning their face away from you, loading their shoulders to invert, and their free arm reaching across or behind their body rather than framing against your hip. The bridge direction differs too—arm recovery bridges toward your posting leg, while Granby Roll setups bridge toward open space to create inversion room."
+      },
+      {
+        "question": "What adjustment should you make to your hip pressure when you recognize the arm recovery is being attempted?",
+        "answer": "Drive your hip pressure more aggressively at a 45-degree angle toward their far hip rather than straight down into their ribs. This angular pressure makes their perpendicular bridge less effective because it must overcome both your weight and the redirecting force vector. Simultaneously increase the clamp by contracting your lat to pin their upper arm and dropping your chest weight lower onto the trapped arm. The combination of directional hip pressure and reinforced arm clamp eliminates the momentary weight shift that the bridge is designed to create."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Recognition cue identification",
+        "description": "Partner slowly performs the arm recovery setup sequence (shoulder rotation, foot plant, frame placement) without committing to the bridge. Top player practices identifying each cue verbally and responding with clamp tightening. Focus on developing sensitivity to the subtle shoulder rotation that precedes all other movements. 15-20 repetitions per side."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Clamp maintenance under bridge pressure",
+        "description": "Partner bridges at 50-70% power while top player focuses on maintaining armpit clamp and hip pressure through the bridge. Practice absorbing the bridge with wide base and low chest position without losing arm control. No armbar counters yet—focus purely on pin retention against increasing bridge intensity."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Counter-attacking from extraction attempts",
+        "description": "Partner performs full arm recovery sequence at moderate speed. Top player practices both defensive retention and the armbar counter-transition when the arm begins to clear. Develop the decision framework for when to tighten the clamp versus when to flow into the armbar. Practice North-South transition as alternative when the bridge is too powerful to absorb."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live positional defense integration",
+        "description": "Full positional sparring from Kuzure Kesa-Gatame where the bottom player uses arm recovery as part of their complete escape system. Top player integrates clamp defense, armbar counters, hip-following, and North-South transitions into a reactive defensive system. Track which defensive responses are most effective against each escape variation."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Two-on-one arm extraction",
+      "description": "Use both hands to grip and extract the trapped arm by reaching your free hand to grasp your own trapped wrist. The two-on-one grip provides significantly more extraction force. Trade-off is that you temporarily lose your frame, so bridge timing must be precise to avoid being flattened during the grip change.",
+      "when_to_use": "When the opponent's armpit clamp is extremely tight and single-arm extraction fails repeatedly. Best used against heavier opponents where the pressure differential makes standard extraction insufficient."
+    },
+    {
+      "variant_name": "Extraction to Half Guard underhook",
+      "description": "Instead of recovering full Closed Guard, extract the arm and immediately use it to establish an underhook as you shrimp to Half Guard. The underhook gives you immediate offensive capability from Half Guard rather than settling into a neutral Closed Guard. Requires less hip escape distance than full guard recovery.",
+      "when_to_use": "When the opponent follows your hip escape closely and Closed Guard distance is not achievable. The underhook from Half Guard is a strong offensive position that compensates for not reaching Closed Guard."
+    },
+    {
+      "variant_name": "No-gi palm-up extraction",
+      "description": "In no-gi, the absence of sleeve friction changes the extraction mechanics. Rotate the trapped arm palm-up and slide the forearm along your own ribs using the sweat and reduced friction to your advantage. The slick surface allows for faster extraction but also means the opponent may regrip quickly, so the transition to guard must be immediate.",
+      "when_to_use": "No-gi grappling where the reduced friction of skin-on-skin contact creates different extraction dynamics than gi training."
+    }
+  ],
+  "conditions": [
+    "One arm is trapped in opponent's armpit clamp in Kuzure Kesa-Gatame",
+    "Opponent shifts weight forward for submission attempt or positional adjustment creating timing window",
+    "Trapped arm maintains approximately 90-degree bend with elbow close to ribs",
+    "Feet are flat on mat with sufficient bridge power available"
+  ],
+  "position_integration": "Arm Recovery to Guard is one of the primary escape transitions from Kuzure Kesa-Gatame bottom, forming part of a complete defensive system alongside Elbow Escape, Granby Roll, Bridge and Roll, and Technical Standup. Its unique value is that it directly addresses the position's defining feature—the arm trap—while recovering to an offensive guard position rather than a neutral or still-defensive position like Turtle. In the broader escape hierarchy, arm recovery should be the first-choice escape when timing permits, as Closed Guard offers the best offensive return. When arm recovery is denied, practitioners chain into Elbow Escape for Half Guard recovery or Granby Roll for Turtle, then work back toward guard from those intermediate positions. The technique integrates with the guard game by providing a direct re-entry into Closed Guard or Half Guard attack systems."
 }

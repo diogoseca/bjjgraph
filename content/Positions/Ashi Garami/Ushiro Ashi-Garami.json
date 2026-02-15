@@ -93,8 +93,8 @@
         "answer": "Follow to back control when your opponent commits fully to turtle rotation and turns their back to escape, when your leg entanglement has degraded to the point where submission attempts have low success probability, or when they've cleared both legs but their turtle position exposes back access. The back take becomes optimal when their rotation momentum is too strong to reverse for leg attacks."
       },
       {
-        "question": "How do you manage energy expenditure in the dynamic ushiro position?",
-        "answer": "Allow controlled inversion rather than exhausting yourself trying to prevent the inevitable rotation through pure strength. Conserve energy by using technical leg positioning and grip fighting rather than muscular holding. Focus energy expenditure on the critical moments: grip establishment, submission finishing, or transition timing rather than sustained resistance throughout the entire scramble sequence."
+        "question": "How do you maintain weight distribution to keep your opponent pinned while attacking from ushiro?",
+        "answer": "Keep your hips heavy and connected to the opponent's trapped leg, distributing weight through your inside leg control on their thigh. Avoid lifting your hips to reach for grips, as this creates space for escape. Instead, angle your torso toward the trapped leg while maintaining constant downward pressure through your figure-four. Your weight should feel like it is driving through your inside leg into their thigh rather than floating above them."
       },
       {
         "question": "What are the key indicators that your opponent is about to attempt a counter-attack on your legs?",
@@ -133,7 +133,7 @@
         "actions": [
           {
             "technique": "Immediate Heel Hook Attempt",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 50
           },
           {
@@ -153,7 +153,7 @@
           },
           {
             "technique": "Ankle Lock During Transition",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 45
           }
         ]
@@ -178,7 +178,7 @@
         "actions": [
           {
             "technique": "Accelerate Heel Hook Finish",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 50
           },
           {
@@ -295,11 +295,7 @@
     "transitions": [
       {
         "transition": "Inside Heel Hook from Ushiro",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Estima Lock to Saddle",
-        "attempt_probability": 12
+        "attempt_probability": 13
       },
       {
         "transition": "Follow to Back Control",
@@ -307,11 +303,7 @@
       },
       {
         "transition": "Ankle Lock Finish",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Inside Ashi-Garami to Honey Hole",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Cross Ashi Transition",
@@ -319,15 +311,23 @@
       },
       {
         "transition": "Outside Heel Hook Adjustment",
-        "attempt_probability": 7
+        "attempt_probability": 5
       },
       {
         "transition": "Return to Outside Ashi",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "Kneebar from Ushiro",
-        "attempt_probability": 10
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Saddle Entry from Top",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Toe Hold",
+        "attempt_probability": 8
       }
     ]
   },
@@ -575,35 +575,27 @@
       },
       {
         "transition": "Inversion to Turtle",
-        "attempt_probability": 17
-      },
-      {
-        "transition": "Counter Ashi Entry",
-        "attempt_probability": 10
+        "attempt_probability": 35
       },
       {
         "transition": "Ushiro Ashi-Garami to Deep Half",
-        "attempt_probability": 10
+        "attempt_probability": 12
       },
       {
         "transition": "Single Leg X Recovery",
-        "attempt_probability": 11
+        "attempt_probability": 13
       },
       {
         "transition": "Reverse Heel Hook Counter",
-        "attempt_probability": 9
+        "attempt_probability": 5
       },
       {
         "transition": "Leg Extraction to Guard",
-        "attempt_probability": 14
+        "attempt_probability": 15
       },
       {
-        "transition": "Granby Roll Escape",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Scramble to Guard",
-        "attempt_probability": 7
+        "transition": "Counter-entangle to 50-50 Guard",
+        "attempt_probability": 8
       }
     ]
   }

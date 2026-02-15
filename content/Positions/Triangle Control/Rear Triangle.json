@@ -105,7 +105,7 @@
         "condition": "If opponent tucks chin and defends choke primarily",
         "actions": [
           {
-            "technique": "Armbar from Back with Legs",
+            "technique": "Armbar from Back Transition",
             "target": "Armbar Control",
             "probability": 65
           },
@@ -125,8 +125,8 @@
             "probability": 70
           },
           {
-            "technique": "Triangle Choke Back",
-            "target": "game-over",
+            "technique": "Triangle Choke",
+            "target": "Game Over",
             "probability": 60
           }
         ]
@@ -136,7 +136,7 @@
         "actions": [
           {
             "technique": "Extend Hips and Finish Triangle",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 55
           },
           {
@@ -151,7 +151,7 @@
         "actions": [
           {
             "technique": "Rear Naked Choke",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 65
           },
           {
@@ -242,7 +242,7 @@
         "relationship": "Primary submission finish from this position"
       },
       {
-        "name": "Armbar from Back with Legs",
+        "name": "Armbar from Back",
         "relationship": "Alternative submission when opponent defends the choke"
       },
       {
@@ -260,40 +260,51 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 75
+        "value": 75,
+        "description": "High retention due to triangle lock structure and chest-to-back connection"
       },
       "advancement_probability": {
-        "value": 65
+        "value": 65,
+        "description": "Strong advancement through submission cycling and position transitions"
       },
       "submission_probability": {
-        "value": 70
+        "value": 70,
+        "description": "Very high submission rate from multiple converging threats"
       },
       "average_time": "45-90 seconds before submission or escape attempt"
     },
     "transitions": [
       {
-        "transition": "Triangle Choke Back",
-        "attempt_probability": 19
+        "transition": "Triangle Choke",
+        "attempt_probability": 24
       },
       {
-        "transition": "Armbar from Back with Legs",
-        "attempt_probability": 17
+        "transition": "Armbar from Back Transition",
+        "attempt_probability": 14
       },
       {
         "transition": "Rear Naked Choke",
-        "attempt_probability": 19
-      },
-      {
-        "transition": "Aoki Lock to Crucifix",
         "attempt_probability": 16
       },
       {
+        "transition": "Aoki Lock to Crucifix",
+        "attempt_probability": 13
+      },
+      {
         "transition": "Bow and Arrow Choke",
-        "attempt_probability": 15
+        "attempt_probability": 12
       },
       {
         "transition": "Kimura from Back",
-        "attempt_probability": 14
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Rear Triangle Choke Finish",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Rear Triangle to Armbar",
+        "attempt_probability": 3
       }
     ],
     "knowledge_assessment": [
@@ -322,8 +333,8 @@
         "answer": "Immediately follow them with your hips, closing the gap before they can rotate or stand. Use your free hand to push off the mat and drive your chest back into contact. Tighten the triangle lock to restrict their hip movement. If significant space is created, consider transitioning back to traditional back control with seat belt grip before re-establishing the triangle."
       },
       {
-        "question": "How do you manage energy expenditure when controlling rear triangle for extended periods?",
-        "answer": "Let your legs do the primary work through the triangle lock rather than squeezing constantly with your arms. Maintain steady compression through knee squeeze and hip angle rather than maximum force. Use attacks to make opponent defend rather than trying to muscle through finishes. Rest your hands on the opponent's body between grip changes to conserve arm endurance."
+        "question": "How do you distribute your weight to maintain rear triangle without fatiguing your legs prematurely?",
+        "answer": "Let your skeletal structure do the work rather than muscular squeezing. Lock the ankle deep into the knee crook so the figure-four holds itself structurally. Use your body weight draped over the opponent's back as the primary control force rather than constant leg tension. Reserve active squeezing for moments when you need to tighten during escape attempts or submission finishes. Between attacks, maintain a firm but relaxed triangle lock."
       },
       {
         "question": "After your opponent successfully defends the triangle choke attempt, how do you reset without losing position?",
@@ -347,7 +358,7 @@
     ],
     "overview": "Rear Triangle Bottom is a highly compromised defensive position where the practitioner is caught in a triangle choke configuration applied from the opponent's back control position. This represents one of the most dangerous submission threats in BJJ, combining the control advantages of back mount with the finishing mechanics of the triangle choke. The bottom player faces significant constraints on mobility and breathing, with the opponent's legs creating a figure-four configuration around the neck and one arm while maintaining back control elements. This position typically occurs when an opponent successfully transitions from standard back control or seated back mount into a triangle configuration, often catching one arm inside the triangle while controlling the back. The defensive player must navigate multiple submission threats including the triangle choke itself, potential transitions to armbars, and the ever-present danger of the rear naked choke. Understanding the escape hierarchy and maintaining composure under extreme pressure are essential for survival and eventual escape from this precarious position.",
     "state_properties": {
-      "point_value": 4,
+      "point_value": -4,
       "position_type": "Defensive",
       "risk_level": "High",
       "energy_cost": "High",
@@ -390,7 +401,7 @@
           },
           {
             "technique": "Tap Out",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 45
           }
         ]
@@ -419,7 +430,7 @@
         "condition": "If opponent transitions to armbar or loosens triangle to adjust position",
         "actions": [
           {
-            "technique": "Rolling Escape",
+            "technique": "Rolling Escape to Guard",
             "target": "Closed Guard",
             "probability": 40
           },
@@ -444,12 +455,12 @@
             "probability": 50
           },
           {
-            "technique": "Rolling Escape",
+            "technique": "Rolling Escape to Guard",
             "target": "Closed Guard",
             "probability": 30
           },
           {
-            "technique": "Back Take Generic",
+            "technique": "Back Take",
             "target": "Back Control",
             "probability": 20
           }
@@ -523,7 +534,7 @@
     "related_content": [
       {
         "name": "Triangle Control",
-        "relationship": "Opponent's position - top perspective of same configuration"
+        "relationship": "Opponent's position - top perspective of similar triangle configuration"
       },
       {
         "name": "Back Control",
@@ -564,40 +575,51 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 32
+        "value": 32,
+        "description": "Low retention - defender is actively working to escape this compromised position"
       },
       "advancement_probability": {
-        "value": 38
+        "value": 38,
+        "description": "Moderate escape probability through systematic arm extraction and angle changes"
       },
       "submission_probability": {
-        "value": 12
+        "value": 12,
+        "description": "Very low submission probability - position is almost entirely defensive"
       },
       "average_time": "15-45 seconds before tap or escape"
     },
     "transitions": [
       {
         "transition": "Arm Extraction",
-        "attempt_probability": 19
+        "attempt_probability": 25
       },
       {
         "transition": "Triangle Escape",
-        "attempt_probability": 17
+        "attempt_probability": 14
       },
       {
-        "transition": "Rolling Escape",
-        "attempt_probability": 15
+        "transition": "Rolling Escape to Guard",
+        "attempt_probability": 12
       },
       {
         "transition": "Stack Defense",
-        "attempt_probability": 16
+        "attempt_probability": 13
       },
       {
         "transition": "Posture Recovery",
-        "attempt_probability": 15
+        "attempt_probability": 12
       },
       {
         "transition": "Hand Fighting from Back",
-        "attempt_probability": 18
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Grip Fight Escape from Rear Triangle",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Posture Defense from Rear Triangle",
+        "attempt_probability": 3
       }
     ],
     "knowledge_assessment": [

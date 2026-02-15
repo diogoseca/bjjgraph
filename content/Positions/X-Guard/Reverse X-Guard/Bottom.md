@@ -21,13 +21,13 @@ description: "Master Reverse X-Guard Bottom in BJJ. Advanced guard position with
     {
       "@type": "HowToStep",
       "name": "Execute Reverse X-Guard Sweep",
-      "text": "From this position, attempt Reverse X-Guard Sweep. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Reverse X-Guard Sweep. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Elevation Sweep to Mount",
-      "text": "From this position, attempt Elevation Sweep to Mount. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Elevation Sweep to Mount. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,7 +39,7 @@ description: "Master Reverse X-Guard Bottom in BJJ. Advanced guard position with
     {
       "@type": "HowToStep",
       "name": "Execute Reverse X-Guard to Standard X-Guard",
-      "text": "From this position, attempt Reverse X-Guard to Standard X-Guard. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Reverse X-Guard to Standard X-Guard. This technique is attempted in 18% of exchanges from this position.",
       "position": 4
     },
     {
@@ -210,19 +210,19 @@ The position requires high technical proficiency, hip mobility, and timing to ex
 
 ## Available Escapes
 
-### [[Reverse X-Guard Sweep]] (14% of attempts)
+### [[Reverse X-Guard Sweep]] (15% of attempts)
 
-### [[Elevation Sweep to Mount]] (13% of attempts)
+### [[Elevation Sweep to Mount]] (14% of attempts)
 
 ### [[Reverse X to Back Take]] (12% of attempts)
 
-### [[Reverse X-Guard to Standard X-Guard]] (19% of attempts)
+### [[Reverse X-Guard to Standard X-Guard]] (18% of attempts)
 
 ### [[Reverse X to Single Leg X Entry]] (15% of attempts)
 
 ### [[Reverse X to Ashi Garami Entry]] (13% of attempts)
 
-### [[Technical Stand Up]] (14% of attempts)
+### [[Technical Stand-up]] (13% of attempts)
 
 
 
@@ -233,7 +233,7 @@ The position requires high technical proficiency, hip mobility, and timing to ex
 ## Decision Making from This Position
 
 **If opponent maintains standing posture with weight evenly distributed:**
-- Execute **[[Elevation Sweep]]** → [[Mount]] (Probability: 65%)
+- Execute **[[Elevation Sweep to Mount]]** → [[Mount]] (Probability: 65%)
 - Execute **[[Reverse X-Guard Sweep]]** → [[Mount]] (Probability: 70%)
 
 

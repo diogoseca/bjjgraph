@@ -8,12 +8,15 @@
     "foot-lock",
     "estima-lock",
     "50-50-guard",
-    "toe-hold-variant"
+    "toe-hold-variant",
+    "hub",
+    "finishing-guide"
   ],
   "submission_category": "Joint Lock",
   "submission_type": "Leg Lock",
   "target_area": "Foot and ankle joints (dorsiflexion of foot)",
   "starting_position": "Ashi Garami",
+  "success_rate": 55,
   "overview": "The Estima Lock is a sophisticated foot lock submission targeting the ankle and foot through dorsiflexion pressure. Named after Victor Estima who popularized the technique, this submission applies pressure by using the back of the opponent's knee to create a fulcrum while controlling the foot. The Estima Lock is most commonly executed from leg entanglement positions, particularly the 50-50 guard, where both practitioners' legs are entangled and the positioning creates ideal mechanical advantage for the foot attack.\n\nWhat makes the Estima Lock particularly effective is its deceptive setup - it often appears as a defensive position or transition rather than an attacking submission. From 50-50 guard bottom, the practitioner uses their leg position behind the opponent's knee to create pressure while controlling the foot with their hands. The submission works by forcefully dorsiflexing (bending upward) the opponent's foot while the knee joint is bent, creating intense pressure on the ligaments and tendons of the ankle and foot. Unlike traditional toe holds that rotate the foot, the Estima Lock applies direct upward pressure, making it distinct in its application and defense requirements.\n\nThe technique requires precise control and understanding of leg entanglement mechanics. Success depends on proper positioning of the attacking leg behind the opponent's knee, correct hand placement on the foot, and coordinated pressure application. When executed correctly, the Estima Lock can finish opponents quickly, but it also serves as an excellent sweeping mechanism and position advancement tool. The submission is particularly valuable in modern leg lock systems where transitions between different leg attacks create layered offensive threats.",
   "safety_considerations": {
     "injury_risks": [
@@ -63,224 +66,21 @@
       "Communicate throughout application in drilling"
     ]
   },
-  "key_principles": [
-    "Leg positioning behind opponent's knee creates the fulcrum for dorsiflexion pressure",
-    "Hand control on the foot must be secure before applying pressure with the leg",
-    "The bent knee position amplifies pressure on ankle ligaments and foot structures",
-    "Hip positioning controls distance and prevents opponent from straightening their leg to escape",
-    "Pressure application must be progressive and controlled - never sudden or jerking",
-    "The submission can be applied from both offensive and defensive positions in leg entanglements",
-    "Understanding opponent's defensive reactions allows for transitions to other leg attacks"
-  ],
-  "setup_requirements": [
-    "Leg entanglement position established (50-50, outside ashi, or similar)",
-    "Opponent's knee must be bent to create proper angle for foot attack",
-    "Your attacking leg positioned behind opponent's knee (back of knee against your shin)",
-    "Control of opponent's foot with both hands (fingers on top of foot, thumbs underneath)",
-    "Hip positioning close enough to maintain pressure but not so close that opponent can straighten their leg",
-    "Opponent's heel controlled and prevented from pulling out of the entanglement",
-    "Your free leg positioned to control opponent's hips or provide additional leverage"
-  ],
-  "execution_steps": [
+  "outcomes": [
     {
-      "step_number": 1,
-      "action": "Establish leg entanglement control",
-      "description": "From 50-50 guard bottom or similar leg entanglement, ensure your legs are properly positioned around opponent's leg. Your inside leg should be positioned with the shin or calf behind opponent's knee. Maintain close hip positioning to prevent opponent from creating distance and straightening their leg.",
-      "timing": "Initial setup: 2-3 seconds"
+      "to": "game-over",
+      "probability": 60,
+      "result": "success"
     },
     {
-      "step_number": 2,
-      "action": "Secure foot grip with both hands",
-      "description": "Reach down and grip opponent's foot with both hands. Position your fingers across the top of the foot (dorsal surface) with thumbs underneath (plantar surface). Your grip should be near the ball of the foot, not the toes. Ensure the grip is tight and controlled before proceeding to pressure application.",
-      "timing": "Grip establishment: 1-2 seconds"
+      "to": "Ashi Garami/Top",
+      "probability": 25,
+      "result": "failure"
     },
     {
-      "step_number": 3,
-      "action": "Position attacking leg behind knee",
-      "description": "Adjust your leg position so that the back of opponent's knee rests against your shin or calf. Your knee should be bent at approximately 90 degrees or slightly more. This creates the fulcrum point where pressure will be applied. Ensure your foot is positioned to provide stability and prevent opponent from pulling their leg free.",
-      "timing": "Leg positioning: 1-2 seconds"
-    },
-    {
-      "step_number": 4,
-      "action": "Control opponent's hips and prevent escape",
-      "description": "Use your free leg to control opponent's hips or wrap around their body to prevent them from creating distance. Hip control is critical - if opponent can extend their leg or create space, the submission becomes ineffective. Your body should be tight to theirs with no gaps.",
-      "timing": "Hip control: 1 second"
-    },
-    {
-      "step_number": 5,
-      "action": "Apply dorsiflexion pressure on foot",
-      "description": "Begin pulling opponent's foot toward their shin (dorsiflexion) while simultaneously pushing with your leg behind their knee. The pressure creates a folding motion at the ankle joint. Start with very light pressure and increase gradually. Your hands pull the foot upward while your leg provides counter-pressure behind the knee.",
-      "timing": "Initial pressure: 2-3 seconds"
-    },
-    {
-      "step_number": 6,
-      "action": "Coordinate leg and hand pressure for finish",
-      "description": "Increase pressure gradually by pulling harder with your hands while maintaining or slightly increasing leg pressure behind the knee. The finish comes from the coordinated pulling motion with hands and pushing with the leg. Watch for tap signals and be prepared to release immediately. Maximum pressure should take 5-7 seconds total from initial application.",
-      "timing": "Finishing pressure: 3-5 seconds"
-    },
-    {
-      "step_number": 7,
-      "action": "Adjust or transition based on defense",
-      "description": "If opponent defends by pulling their foot free, be prepared to transition to other attacks such as toe hold, outside heel hook, or sweep. If opponent attempts to straighten their leg, use this movement to advance position or switch to different leg attack. The Estima Lock works best when integrated into a broader leg attack system.",
-      "timing": "Transition if needed: 1-2 seconds"
-    }
-  ],
-  "opponent_defense_patterns": [
-    {
-      "defense": "Pull foot free from hand grip",
-      "effectiveness": "Medium",
-      "your_adjustment": "Immediately switch to toe hold or outside heel hook as their foot movement creates openings for these attacks. Maintain leg entanglement throughout the transition."
-    },
-    {
-      "defense": "Straighten leg to remove knee bend",
-      "effectiveness": "High",
-      "your_adjustment": "Use their leg straightening motion to sweep them backward or transition to straight ankle lock. Their force works against them when redirected. Maintain hand control on foot throughout."
-    },
-    {
-      "defense": "Clear attacking leg from behind knee",
-      "effectiveness": "Medium",
-      "your_adjustment": "As they clear your leg, immediately reposition to inside position and switch to inside heel hook or kneebar. The leg clearing motion often exposes other submission opportunities."
-    },
-    {
-      "defense": "Create distance with hips",
-      "effectiveness": "High",
-      "your_adjustment": "Follow their hip movement and use your free leg to re-close distance. If distance is created, abandon Estima Lock and switch to sweep or position advancement. Never chase a lost position."
-    },
-    {
-      "defense": "Counter with their own foot attack",
-      "effectiveness": "Low",
-      "your_adjustment": "Your position in 50-50 bottom often provides better angle for Estima Lock than their counter attacks. Maintain pressure and finish before they can establish their attack. Speed and commitment win simultaneous leg lock situations."
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Applying pressure before establishing proper hand and leg positioning",
-      "consequence": "Weak submission that opponent easily defends, wasted energy, loss of position",
-      "correction": "Ensure all control points are established before applying any pressure. Setup must be complete and tight before beginning pressure application."
-    },
-    {
-      "error": "Gripping too close to the toes instead of ball of foot",
-      "consequence": "Ineffective pressure application, risk of finger injury, opponent easily pulls foot free",
-      "correction": "Grip across the ball of the foot where metatarsals meet the midfoot. This provides maximum leverage and control while protecting your fingers."
-    },
-    {
-      "error": "Failing to control opponent's hips allowing distance creation",
-      "consequence": "Opponent straightens leg and escapes, loss of submission and position",
-      "correction": "Use free leg to actively control opponent's hips throughout the submission. Your bodies should remain close with no gap for opponent to exploit."
-    },
-    {
-      "error": "Jerking or spiking the foot pressure suddenly",
-      "consequence": "SEVERE ankle or foot ligament damage, potential fracture, destroyed training partnership",
-      "correction": "Always apply pressure progressively over 5-7 seconds minimum. Give partner multiple opportunities to tap. Smooth, controlled pressure is more effective and safer than explosive force."
-    },
-    {
-      "error": "Not releasing immediately when partner taps",
-      "consequence": "SEVERE injury to ankle ligaments, damaged trust, potential joint damage requiring surgery",
-      "correction": "Release all pressure the instant you feel or hear a tap. Practice releasing quickly in drilling so it becomes automatic in live training. Partner safety must always be priority."
-    },
-    {
-      "error": "Attacking the wrong foot in 50-50 position",
-      "consequence": "No pressure on opponent, exposure to opponent's attacks, wasted position",
-      "correction": "From 50-50 bottom, attack the foot of the leg that is trapped between your legs. Ensure you understand the leg entanglement geometry before attempting the submission."
-    },
-    {
-      "error": "Neglecting to monitor opponent's leg straightening defense",
-      "consequence": "Missing transition opportunities, getting swept, losing dominant position",
-      "correction": "Feel opponent's leg tension constantly. As soon as they begin to straighten, transition to sweep or alternative submission. Use their defensive force against them."
-    },
-    {
-      "error": "Applying technique to beginners unfamiliar with leg locks",
-      "consequence": "SEVERE injury risk due to partner not recognizing danger or proper tap timing",
-      "correction": "Only practice with partners who understand leg locks and know the tap signals. Explain the submission and safety protocols before drilling. Never surprise anyone with a leg lock."
-    }
-  ],
-  "variations_and_setups": [
-    {
-      "variation_name": "Estima Lock from 50-50 Bottom (Classic)",
-      "description": "From bottom of 50-50 guard with opponent's weight on top, use your inside leg behind their knee and attack the trapped foot. This is the original and most common application where you appear defensive but are actually attacking.",
-      "when_to_use": "When opponent establishes 50-50 top position and commits their weight forward. Works best when opponent focuses on their own attacks and neglects foot defense."
-    },
-    {
-      "variation_name": "Estima Lock from Top 50-50",
-      "description": "From top of 50-50 guard, use your outside leg to attack opponent's foot while maintaining top pressure. This variation requires different mechanics but provides offensive control while attacking.",
-      "when_to_use": "When you achieve 50-50 top position and opponent is defending their legs. Combines position control with submission threat."
-    },
-    {
-      "variation_name": "Estima Lock from Outside Ashi",
-      "description": "From outside ashi garami position (your legs outside opponent's leg), thread your inside leg behind their knee and attack the foot. Requires repositioning but creates powerful angle for the lock.",
-      "when_to_use": "When opponent defends outside heel hook by straightening their leg. The straightening motion can be redirected into Estima Lock setup."
-    },
-    {
-      "variation_name": "Estima Lock to Sweep Combination",
-      "description": "Use the Estima Lock setup to break opponent's base and posture, then use their defensive reaction to execute a sweep to top position. The submission threat forces defensive reactions that create sweep opportunities.",
-      "when_to_use": "When opponent has strong leg lock defense but poor base. The submission threat can be used primarily as a sweeping mechanism rather than a finish."
-    },
-    {
-      "variation_name": "Rolling Estima Lock Entry",
-      "description": "From standing or open guard, execute a rolling entry to establish the leg entanglement and immediately attack the Estima Lock as you come up on your side. Dynamic entry that catches opponents by surprise.",
-      "when_to_use": "Against opponents who defend standard leg entanglement entries. The rolling motion creates momentum and makes it harder to defend the hand grip on the foot."
-    }
-  ],
-  "knowledge_assessment": [
-    {
-      "question": "What is the primary anatomical target of the Estima Lock and what motion creates the pressure?",
-      "answer": "The Estima Lock targets the ankle joint and foot ligaments through dorsiflexion (upward bending) of the foot. The pressure is created by pulling the foot toward the shin with the hands while using the attacking leg behind the opponent's bent knee as a fulcrum point. This combination of forces creates intense pressure on the deltoid ligament, talofibular ligaments, and other ankle structures.",
-      "safety_critical": false
-    },
-    {
-      "question": "Why must the opponent's knee be bent for the Estima Lock to be effective?",
-      "answer": "The bent knee position is critical because it creates the mechanical leverage needed for the submission. When the knee is bent with your leg behind it, you create a fulcrum point that amplifies the dorsiflexion pressure on the foot. If the opponent straightens their leg, they remove this fulcrum and the submission loses effectiveness. The bent knee also prevents the opponent from easily rotating their leg to escape.",
-      "safety_critical": false
-    },
-    {
-      "question": "What are the minimum safety requirements before attempting an Estima Lock in training?",
-      "answer": "Before attempting an Estima Lock in training: (1) Ensure your partner is familiar with leg locks and knows all tap signals, (2) Verbally confirm they understand the submission and will tap early, (3) Establish that you will apply pressure very slowly over 5-7 seconds minimum, (4) Ensure partner has clear access to tap with hands, (5) Never apply to beginners or those unfamiliar with leg attacks, (6) Commit to immediate release upon any tap signal. Communication and partner safety must always be the priority.",
-      "safety_critical": true
-    },
-    {
-      "question": "If an opponent defends the Estima Lock by straightening their leg, what should you do and why?",
-      "answer": "When the opponent straightens their leg to defend, you should immediately transition to either: (1) A sweep using their straightening force to break their base backward, (2) A straight ankle lock since their leg is now extended, or (3) Reposition to reestablish the bent knee if possible. You should NOT continue trying to force the Estima Lock because without the bent knee, the submission has no mechanical advantage and wastes energy while exposing you to counters.",
-      "safety_critical": false
-    },
-    {
-      "question": "Describe the correct hand positioning for the Estima Lock and why incorrect grip placement is dangerous?",
-      "answer": "Correct hand positioning is across the ball of the foot (where metatarsals meet the midfoot) with fingers on top and thumbs underneath. Gripping too close to the toes is dangerous because: (1) It provides poor leverage making you compensate with excessive force, (2) It risks finger injuries from slippage, (3) It concentrates pressure on small bones that can fracture, (4) It allows the opponent to easily pull their foot free. The ball of the foot provides maximum control and distributes pressure safely across stronger anatomical structures.",
-      "safety_critical": true
-    },
-    {
-      "question": "What makes the Estima Lock effective from the bottom of 50-50 guard despite appearing to be a defensive position?",
-      "answer": "The Estima Lock is effective from bottom 50-50 because: (1) The leg entanglement geometry provides ideal attacking angle on the trapped foot, (2) Opponent's weight on top prevents them from easily creating distance, (3) The position appears defensive causing opponents to lower their guard, (4) You can attack while opponent focuses on their own offense, (5) The bottom position provides better angle for the foot grip and leg positioning behind the knee. This deceptive positioning is part of what makes the technique so successful.",
-      "safety_critical": false
-    },
-    {
-      "question": "Why is progressive pressure application over 5-7 seconds critical for safety in the Estima Lock?",
-      "answer": "Progressive pressure over 5-7 seconds is critical because: (1) Ligaments and tendons in the foot and ankle can tear with sudden force before the person can tap, (2) It gives your partner multiple opportunities to recognize the danger and tap, (3) It allows you to feel resistance and adjust if something feels wrong, (4) It builds trust that makes partners willing to train leg locks safely, (5) Explosive force can cause fractures or severe ligament damage requiring surgery. Slow, controlled pressure is both more effective technically and vastly safer for your training partners.",
-      "safety_critical": true
-    },
-    {
-      "question": "Your opponent begins retracting their foot toward their body during your Estima Lock attempt - what grip adjustment prevents the escape?",
-      "answer": "When the opponent retracts their foot, immediately shift your grip deeper onto the dorsal surface of the foot while pulling your elbows tight to your body. Angle your wrists to cup the foot rather than grip it flat. Simultaneously increase hip pressure forward to close the distance they are creating. If the foot continues retracting, follow it with your whole body rather than just reaching with your arms, maintaining the fulcrum behind their knee throughout the adjustment.",
-      "safety_critical": false
-    },
-    {
-      "question": "What are the primary indicators that the Estima Lock is reaching the breaking point and a tap is imminent?",
-      "answer": "Key indicators the submission is reaching the breaking point include: (1) Opponent's foot visibly folding toward their shin beyond normal range of motion, (2) Opponent begins verbally expressing distress or urgency, (3) Opponent's body stiffens as pain signals intensify, (4) Decreased resistance in the foot as ligaments reach their limit, (5) Opponent's free leg begins thrashing or kicking as panic sets in. Upon observing any of these indicators, IMMEDIATELY check for tap signals and be prepared to release - never push through these warning signs.",
-      "safety_critical": true
-    },
-    {
-      "question": "In competition, what determines whether to commit to finishing the Estima Lock versus transitioning to another attack?",
-      "answer": "The decision to finish versus transition depends on: (1) Whether your fulcrum behind the knee is solid - if their knee begins straightening, transition immediately to ankle lock or sweep, (2) Quality of your hand grip on the foot - if slipping toward toes, switch to toe hold, (3) Whether opponent is defending the foot or the position - if they focus on foot extraction, their leg position often deteriorates for other attacks, (4) Time remaining and point situation - finishing from suboptimal position may be necessary under time pressure. The Estima Lock works best when opponents must choose between defending the foot attack and maintaining leg position.",
-      "safety_critical": false
-    },
-    {
-      "question": "How do you maintain control when the opponent attempts to rotate their hip to relieve dorsiflexion pressure?",
-      "answer": "When the opponent rotates their hip, follow their rotation with your entire body rather than fighting it statically. Use your free leg to block their hip rotation by hooking or pressing against their hip. Adjust your hand grip to maintain the dorsiflexion angle relative to their shin regardless of hip position. If rotation continues, the hip movement often creates opportunities for toe hold (rotation exposes the foot differently) or transition to inside position for heel hook. The key is treating their defense as a transition opportunity rather than a problem to overcome with force.",
-      "safety_critical": false
-    },
-    {
-      "question": "What specific control must be established before any pressure is applied to prevent injury during the Estima Lock finish?",
-      "answer": "Before applying any finishing pressure: (1) Confirm your leg is solidly positioned behind their bent knee with no slippage possible, (2) Verify your hand grip covers the ball of the foot with secure finger placement - not the toes, (3) Ensure your free leg controls their hip to prevent sudden distance creation, (4) Confirm verbal communication with your training partner that pressure is beginning, (5) Verify tap access - partner's hands must be free to tap. Only after all five control points are confirmed should pressure application begin. Rushing the finish without proper control is the primary cause of training injuries with this submission.",
-      "safety_critical": true
+      "to": "Standing Position/Bottom",
+      "probability": 15,
+      "result": "counter"
     }
   ],
   "from_positions": [
@@ -350,5 +150,398 @@
       "relationship": "Advanced leg entanglement position that can transition to Estima Lock"
     }
   ],
-  "success_rate": 55
+  "attacker": {
+    "name": "Estima Lock Attacker",
+    "description": "How to execute Estima Lock in BJJ. Attacking perspective with setup, execution, and finishing mechanics.",
+    "overview": "The Estima Lock is a sophisticated foot lock submission targeting the ankle and foot through dorsiflexion pressure. Named after Victor Estima who popularized the technique, this submission applies pressure by using the back of the opponent's knee to create a fulcrum while controlling the foot. The Estima Lock is most commonly executed from leg entanglement positions, particularly the 50-50 guard, where both practitioners' legs are entangled and the positioning creates ideal mechanical advantage for the foot attack.\n\nWhat makes the Estima Lock particularly effective is its deceptive setup - it often appears as a defensive position or transition rather than an attacking submission. From 50-50 guard bottom, the practitioner uses their leg position behind the opponent's knee to create pressure while controlling the foot with their hands. The submission works by forcefully dorsiflexing (bending upward) the opponent's foot while the knee joint is bent, creating intense pressure on the ligaments and tendons of the ankle and foot. Unlike traditional toe holds that rotate the foot, the Estima Lock applies direct upward pressure, making it distinct in its application and defense requirements.\n\nThe technique requires precise control and understanding of leg entanglement mechanics. Success depends on proper positioning of the attacking leg behind the opponent's knee, correct hand placement on the foot, and coordinated pressure application. When executed correctly, the Estima Lock can finish opponents quickly, but it also serves as an excellent sweeping mechanism and position advancement tool. The submission is particularly valuable in modern leg lock systems where transitions between different leg attacks create layered offensive threats.",
+    "key_principles": [
+      "Leg positioning behind opponent's knee creates the fulcrum for dorsiflexion pressure",
+      "Hand control on the foot must be secure before applying pressure with the leg",
+      "The bent knee position amplifies pressure on ankle ligaments and foot structures",
+      "Hip positioning controls distance and prevents opponent from straightening their leg to escape",
+      "Pressure application must be progressive and controlled - never sudden or jerking",
+      "The submission can be applied from both offensive and defensive positions in leg entanglements",
+      "Understanding opponent's defensive reactions allows for transitions to other leg attacks"
+    ],
+    "setup_requirements": [
+      "Leg entanglement position established (50-50, outside ashi, or similar)",
+      "Opponent's knee must be bent to create proper angle for foot attack",
+      "Your attacking leg positioned behind opponent's knee (back of knee against your shin)",
+      "Control of opponent's foot with both hands (fingers on top of foot, thumbs underneath)",
+      "Hip positioning close enough to maintain pressure but not so close that opponent can straighten their leg",
+      "Opponent's heel controlled and prevented from pulling out of the entanglement",
+      "Your free leg positioned to control opponent's hips or provide additional leverage"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish leg entanglement control",
+        "description": "From 50-50 guard bottom or similar leg entanglement, ensure your legs are properly positioned around opponent's leg. Your inside leg should be positioned with the shin or calf behind opponent's knee. Maintain close hip positioning to prevent opponent from creating distance and straightening their leg.",
+        "timing": "Initial setup: 2-3 seconds"
+      },
+      {
+        "step_number": 2,
+        "action": "Secure foot grip with both hands",
+        "description": "Reach down and grip opponent's foot with both hands. Position your fingers across the top of the foot (dorsal surface) with thumbs underneath (plantar surface). Your grip should be near the ball of the foot, not the toes. Ensure the grip is tight and controlled before proceeding to pressure application.",
+        "timing": "Grip establishment: 1-2 seconds"
+      },
+      {
+        "step_number": 3,
+        "action": "Position attacking leg behind knee",
+        "description": "Adjust your leg position so that the back of opponent's knee rests against your shin or calf. Your knee should be bent at approximately 90 degrees or slightly more. This creates the fulcrum point where pressure will be applied. Ensure your foot is positioned to provide stability and prevent opponent from pulling their leg free.",
+        "timing": "Leg positioning: 1-2 seconds"
+      },
+      {
+        "step_number": 4,
+        "action": "Control opponent's hips and prevent escape",
+        "description": "Use your free leg to control opponent's hips or wrap around their body to prevent them from creating distance. Hip control is critical - if opponent can extend their leg or create space, the submission becomes ineffective. Your body should be tight to theirs with no gaps.",
+        "timing": "Hip control: 1 second"
+      },
+      {
+        "step_number": 5,
+        "action": "Apply dorsiflexion pressure on foot",
+        "description": "Begin pulling opponent's foot toward their shin (dorsiflexion) while simultaneously pushing with your leg behind their knee. The pressure creates a folding motion at the ankle joint. Start with very light pressure and increase gradually. Your hands pull the foot upward while your leg provides counter-pressure behind the knee.",
+        "timing": "Initial pressure: 2-3 seconds"
+      },
+      {
+        "step_number": 6,
+        "action": "Coordinate leg and hand pressure for finish",
+        "description": "Increase pressure gradually by pulling harder with your hands while maintaining or slightly increasing leg pressure behind the knee. The finish comes from the coordinated pulling motion with hands and pushing with the leg. Watch for tap signals and be prepared to release immediately. Maximum pressure should take 5-7 seconds total from initial application.",
+        "timing": "Finishing pressure: 3-5 seconds"
+      },
+      {
+        "step_number": 7,
+        "action": "Adjust or transition based on defense",
+        "description": "If opponent defends by pulling their foot free, be prepared to transition to other attacks such as toe hold, outside heel hook, or sweep. If opponent attempts to straighten their leg, use this movement to advance position or switch to different leg attack. The Estima Lock works best when integrated into a broader leg attack system.",
+        "timing": "Transition if needed: 1-2 seconds"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Pull foot free from hand grip",
+        "effectiveness": "Medium",
+        "your_response": "Immediately switch to toe hold or outside heel hook as their foot movement creates openings for these attacks. Maintain leg entanglement throughout the transition.",
+        "targets_outcome": "Ashi Garami/Top"
+      },
+      {
+        "counter": "Straighten leg to remove knee bend",
+        "effectiveness": "High",
+        "your_response": "Use their leg straightening motion to sweep them backward or transition to straight ankle lock. Their force works against them when redirected. Maintain hand control on foot throughout.",
+        "targets_outcome": "Ashi Garami/Top"
+      },
+      {
+        "counter": "Clear attacking leg from behind knee",
+        "effectiveness": "Medium",
+        "your_response": "As they clear your leg, immediately reposition to inside position and switch to inside heel hook or kneebar. The leg clearing motion often exposes other submission opportunities.",
+        "targets_outcome": "Ashi Garami/Top"
+      },
+      {
+        "counter": "Create distance with hips and stand up",
+        "effectiveness": "High",
+        "your_response": "Follow their hip movement and use your free leg to re-close distance. If distance is created, abandon Estima Lock and switch to sweep or position advancement. Never chase a lost position.",
+        "targets_outcome": "Standing Position"
+      },
+      {
+        "counter": "Counter with their own foot attack",
+        "effectiveness": "Low",
+        "your_response": "Your position in 50-50 bottom often provides better angle for Estima Lock than their counter attacks. Maintain pressure and finish before they can establish their attack. Speed and commitment win simultaneous leg lock situations.",
+        "targets_outcome": "game-over"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Applying pressure before establishing proper hand and leg positioning",
+        "consequence": "Weak submission that opponent easily defends, wasted energy, loss of position",
+        "correction": "Ensure all control points are established before applying any pressure. Setup must be complete and tight before beginning pressure application."
+      },
+      {
+        "error": "Gripping too close to the toes instead of ball of foot",
+        "consequence": "Ineffective pressure application, risk of finger injury, opponent easily pulls foot free",
+        "correction": "Grip across the ball of the foot where metatarsals meet the midfoot. This provides maximum leverage and control while protecting your fingers."
+      },
+      {
+        "error": "Failing to control opponent's hips allowing distance creation",
+        "consequence": "Opponent straightens leg and escapes, loss of submission and position",
+        "correction": "Use free leg to actively control opponent's hips throughout the submission. Your bodies should remain close with no gap for opponent to exploit."
+      },
+      {
+        "error": "Jerking or spiking the foot pressure suddenly",
+        "consequence": "SEVERE ankle or foot ligament damage, potential fracture, destroyed training partnership",
+        "correction": "Always apply pressure progressively over 5-7 seconds minimum. Give partner multiple opportunities to tap. Smooth, controlled pressure is more effective and safer than explosive force."
+      },
+      {
+        "error": "Not releasing immediately when partner taps",
+        "consequence": "SEVERE injury to ankle ligaments, damaged trust, potential joint damage requiring surgery",
+        "correction": "Release all pressure the instant you feel or hear a tap. Practice releasing quickly in drilling so it becomes automatic in live training. Partner safety must always be priority."
+      },
+      {
+        "error": "Attacking the wrong foot in 50-50 position",
+        "consequence": "No pressure on opponent, exposure to opponent's attacks, wasted position",
+        "correction": "From 50-50 bottom, attack the foot of the leg that is trapped between your legs. Ensure you understand the leg entanglement geometry before attempting the submission."
+      },
+      {
+        "error": "Neglecting to monitor opponent's leg straightening defense",
+        "consequence": "Missing transition opportunities, getting swept, losing dominant position",
+        "correction": "Feel opponent's leg tension constantly. As soon as they begin to straighten, transition to sweep or alternative submission. Use their defensive force against them."
+      },
+      {
+        "error": "Applying technique to beginners unfamiliar with leg locks",
+        "consequence": "SEVERE injury risk due to partner not recognizing danger or proper tap timing",
+        "correction": "Only practice with partners who understand leg locks and know the tap signals. Explain the submission and safety protocols before drilling. Never surprise anyone with a leg lock."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanical Foundation",
+        "focus": "Grip placement, fulcrum positioning, and controlled pressure application",
+        "description": "Drill the Estima Lock on a non-resisting partner from established 50-50 guard. Focus exclusively on correct hand placement across the ball of the foot, proper shin positioning behind the knee, and slow progressive pressure over 7-10 seconds. Repeat 20-30 reps per side until the grip-fulcrum-pressure sequence becomes automatic. No live resistance at this stage."
+      },
+      {
+        "phase": "Phase 2: Position Integration",
+        "focus": "Entries from multiple leg entanglements and hip control maintenance",
+        "description": "Practice entering the Estima Lock from 50-50 bottom, outside ashi, and inside ashi positions. Partner provides light resistance (30-40%) focused on pulling their foot free and creating hip distance. Develop the ability to establish the lock from different angles and maintain hip control with your free leg throughout. Add the sweep combination as an alternative finish when the lock is defended."
+      },
+      {
+        "phase": "Phase 3: Chain Attacks and Transitions",
+        "focus": "Offensive flow between Estima Lock, toe hold, heel hook, and sweeps",
+        "description": "Partner provides moderate resistance (50-70%) using specific defenses: foot retraction, leg straightening, and hip escaping. Practice flowing from Estima Lock to toe hold when foot is pulled, to straight ankle lock when leg straightens, and to sweep when opponent creates distance. Develop recognition of which transition is available based on opponent's defensive reaction. Minimum 5-minute positional rounds."
+      },
+      {
+        "phase": "Phase 4: Live Application and Competition Scenarios",
+        "focus": "Full-speed application with intelligent defense and time-pressure finishing",
+        "description": "Positional sparring starting from 50-50 guard with full resistance. Attacker works to finish Estima Lock or chain to alternative submissions within 90-second rounds. Defender uses all available defenses including counter-attacks. Add competition variables like points, time pressure, and referee standup threats. Develop the judgment to know when to commit to the finish versus transition, and when to abandon the position entirely."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary anatomical target of the Estima Lock and what motion creates the pressure?",
+        "answer": "The Estima Lock targets the ankle joint and foot ligaments through dorsiflexion (upward bending) of the foot. The pressure is created by pulling the foot toward the shin with the hands while using the attacking leg behind the opponent's bent knee as a fulcrum point. This combination of forces creates intense pressure on the deltoid ligament, talofibular ligaments, and other ankle structures.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why must the opponent's knee be bent for the Estima Lock to be effective?",
+        "answer": "The bent knee position is critical because it creates the mechanical leverage needed for the submission. When the knee is bent with your leg behind it, you create a fulcrum point that amplifies the dorsiflexion pressure on the foot. If the opponent straightens their leg, they remove this fulcrum and the submission loses effectiveness. The bent knee also prevents the opponent from easily rotating their leg to escape.",
+        "safety_critical": false
+      },
+      {
+        "question": "What are the minimum safety requirements before attempting an Estima Lock in training?",
+        "answer": "Before attempting an Estima Lock in training: (1) Ensure your partner is familiar with leg locks and knows all tap signals, (2) Verbally confirm they understand the submission and will tap early, (3) Establish that you will apply pressure very slowly over 5-7 seconds minimum, (4) Ensure partner has clear access to tap with hands, (5) Never apply to beginners or those unfamiliar with leg attacks, (6) Commit to immediate release upon any tap signal. Communication and partner safety must always be the priority.",
+        "safety_critical": true
+      },
+      {
+        "question": "If an opponent defends the Estima Lock by straightening their leg, what should you do and why?",
+        "answer": "When the opponent straightens their leg to defend, you should immediately transition to either: (1) A sweep using their straightening force to break their base backward, (2) A straight ankle lock since their leg is now extended, or (3) Reposition to reestablish the bent knee if possible. You should NOT continue trying to force the Estima Lock because without the bent knee, the submission has no mechanical advantage and wastes energy while exposing you to counters.",
+        "safety_critical": false
+      },
+      {
+        "question": "Describe the correct hand positioning for the Estima Lock and why incorrect grip placement is dangerous?",
+        "answer": "Correct hand positioning is across the ball of the foot (where metatarsals meet the midfoot) with fingers on top and thumbs underneath. Gripping too close to the toes is dangerous because: (1) It provides poor leverage making you compensate with excessive force, (2) It risks finger injuries from slippage, (3) It concentrates pressure on small bones that can fracture, (4) It allows the opponent to easily pull their foot free. The ball of the foot provides maximum control and distributes pressure safely across stronger anatomical structures.",
+        "safety_critical": true
+      },
+      {
+        "question": "What makes the Estima Lock effective from the bottom of 50-50 guard despite appearing to be a defensive position?",
+        "answer": "The Estima Lock is effective from bottom 50-50 because: (1) The leg entanglement geometry provides ideal attacking angle on the trapped foot, (2) Opponent's weight on top prevents them from easily creating distance, (3) The position appears defensive causing opponents to lower their guard, (4) You can attack while opponent focuses on their own offense, (5) The bottom position provides better angle for the foot grip and leg positioning behind the knee. This deceptive positioning is part of what makes the technique so successful.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is progressive pressure application over 5-7 seconds critical for safety in the Estima Lock?",
+        "answer": "Progressive pressure over 5-7 seconds is critical because: (1) Ligaments and tendons in the foot and ankle can tear with sudden force before the person can tap, (2) It gives your partner multiple opportunities to recognize the danger and tap, (3) It allows you to feel resistance and adjust if something feels wrong, (4) It builds trust that makes partners willing to train leg locks safely, (5) Explosive force can cause fractures or severe ligament damage requiring surgery. Slow, controlled pressure is both more effective technically and vastly safer for your training partners.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your opponent begins retracting their foot toward their body during your Estima Lock attempt - what grip adjustment prevents the escape?",
+        "answer": "When the opponent retracts their foot, immediately shift your grip deeper onto the dorsal surface of the foot while pulling your elbows tight to your body. Angle your wrists to cup the foot rather than grip it flat. Simultaneously increase hip pressure forward to close the distance they are creating. If the foot continues retracting, follow it with your whole body rather than just reaching with your arms, maintaining the fulcrum behind their knee throughout the adjustment.",
+        "safety_critical": false
+      },
+      {
+        "question": "What are the primary indicators that the Estima Lock is reaching the breaking point and a tap is imminent?",
+        "answer": "Key indicators the submission is reaching the breaking point include: (1) Opponent's foot visibly folding toward their shin beyond normal range of motion, (2) Opponent begins verbally expressing distress or urgency, (3) Opponent's body stiffens as pain signals intensify, (4) Decreased resistance in the foot as ligaments reach their limit, (5) Opponent's free leg begins thrashing or kicking as panic sets in. Upon observing any of these indicators, IMMEDIATELY check for tap signals and be prepared to release - never push through these warning signs.",
+        "safety_critical": true
+      },
+      {
+        "question": "In competition, what determines whether to commit to finishing the Estima Lock versus transitioning to another attack?",
+        "answer": "The decision to finish versus transition depends on: (1) Whether your fulcrum behind the knee is solid - if their knee begins straightening, transition immediately to ankle lock or sweep, (2) Quality of your hand grip on the foot - if slipping toward toes, switch to toe hold, (3) Whether opponent is defending the foot or the position - if they focus on foot extraction, their leg position often deteriorates for other attacks, (4) Time remaining and point situation - finishing from suboptimal position may be necessary under time pressure. The Estima Lock works best when opponents must choose between defending the foot attack and maintaining leg position.",
+        "safety_critical": false
+      },
+      {
+        "question": "How do you maintain control when the opponent attempts to rotate their hip to relieve dorsiflexion pressure?",
+        "answer": "When the opponent rotates their hip, follow their rotation with your entire body rather than fighting it statically. Use your free leg to block their hip rotation by hooking or pressing against their hip. Adjust your hand grip to maintain the dorsiflexion angle relative to their shin regardless of hip position. If rotation continues, the hip movement often creates opportunities for toe hold (rotation exposes the foot differently) or transition to inside position for heel hook. The key is treating their defense as a transition opportunity rather than a problem to overcome with force.",
+        "safety_critical": false
+      },
+      {
+        "question": "What specific control must be established before any pressure is applied to prevent injury during the Estima Lock finish?",
+        "answer": "Before applying any finishing pressure: (1) Confirm your leg is solidly positioned behind their bent knee with no slippage possible, (2) Verify your hand grip covers the ball of the foot with secure finger placement - not the toes, (3) Ensure your free leg controls their hip to prevent sudden distance creation, (4) Confirm verbal communication with your training partner that pressure is beginning, (5) Verify tap access - partner's hands must be free to tap. Only after all five control points are confirmed should pressure application begin. Rushing the finish without proper control is the primary cause of training injuries with this submission.",
+        "safety_critical": true
+      }
+    ]
+  },
+  "defender": {
+    "name": "Estima Lock Defender",
+    "description": "How to defend against Estima Lock in BJJ. Recognition, escape paths, and defensive strategies.",
+    "overview": "Defending the Estima Lock requires understanding the unique dorsiflexion mechanics that distinguish it from rotational foot locks like toe holds. The submission's danger lies in its deceptive setup - from 50-50 guard, the attack develops from what appears to be a neutral or even disadvantageous position for the attacker. The defender must recognize the early grip establishment on their foot and the positioning of the attacker's leg behind their knee before pressure begins, because once both control points are secured and coordinated pressure starts, escape windows narrow rapidly.\n\nThe primary defensive strategy centers on preventing the two conditions the Estima Lock requires: a bent knee with the attacker's leg behind it, and hand control on the dorsal surface of your foot. Straightening your leg removes the fulcrum, while retracting your foot denies the grip. However, each defensive action creates different vulnerabilities - straightening the leg exposes you to straight ankle locks and sweeps, while foot retraction can expose the heel for heel hook attempts. Intelligent defense requires understanding these trade-offs and choosing the defensive path that leads to the most favorable positional outcome rather than simply escaping the immediate threat.\n\nDefensive training should emphasize early recognition and prevention over late-stage escape. The best defense against the Estima Lock is never allowing both control points to be established simultaneously. When caught in a fully locked Estima Lock with coordinated pressure, the honest answer is that escape probability drops significantly - making early intervention and prevention the cornerstone of an effective defensive game plan against this submission.",
+    "key_principles": [
+      "Deny the two-point control: prevent attacker from simultaneously securing hand grip on foot and leg fulcrum behind knee",
+      "Straighten your leg proactively to remove the fulcrum before pressure begins - a straight leg eliminates the Estima Lock mechanism entirely",
+      "Retract your foot toward your body to deny hand grip access, keeping toes pointed and foot tight to your glute",
+      "Create hip distance immediately when you feel the attacker's shin slide behind your knee - space breaks the submission mechanics",
+      "Recognize the difference between Estima Lock and toe hold setups to apply the correct defensive response",
+      "Accept that late-stage defense has low probability - prioritize early recognition and prevention over heroic escapes under full pressure",
+      "When defense leads to standing, immediately disengage the leg entanglement rather than re-engaging from a compromised position"
+    ],
+    "recognition_cues": [
+      "Attacker's hands reach for the top (dorsal surface) of your foot with fingers wrapping over the ball of the foot rather than cupping the heel or gripping the ankle",
+      "Attacker's shin or calf slides behind your knee crease while you are in a leg entanglement, creating a wedge sensation behind the joint",
+      "Attacker's hips close distance toward yours in 50-50 or ashi garami while simultaneously gripping your foot - this coordinated movement signals imminent Estima Lock setup",
+      "You feel upward pressure on your foot (dorsiflexion) rather than rotational pressure (which would indicate toe hold) - the direction of force is the key differentiator",
+      "Attacker's free leg wraps around your hip or body to prevent you from creating distance, locking their body tight to yours"
+    ],
+    "defensive_options": [
+      {
+        "action": "Straighten trapped leg forcefully to remove knee bend fulcrum",
+        "when_to_use": "As soon as you feel the attacker's shin sliding behind your knee, before they establish hand grip on foot. Most effective in the first 1-2 seconds of setup.",
+        "targets_outcome": "Ashi Garami/Top",
+        "if_successful": "Removes the fulcrum that makes the Estima Lock functional, returning to neutral leg entanglement where you can work standard escapes",
+        "risk": "Straightening the leg exposes you to straight ankle lock if attacker already has foot control, and the straightening motion can be used against you for sweeps"
+      },
+      {
+        "action": "Retract foot toward glute and strip hand grips",
+        "when_to_use": "When attacker reaches for your foot but has not yet secured a solid two-handed grip. Use two-on-one grip fighting to strip their hand control before they lock in.",
+        "targets_outcome": "Ashi Garami/Top",
+        "if_successful": "Denies the hand control needed for dorsiflexion pressure, forcing attacker to re-establish grips and giving you time to improve position",
+        "risk": "Pulling foot back with a bent knee can expose your heel if attacker transitions to heel hook, and aggressive retraction may compromise your own leg entanglement control"
+      },
+      {
+        "action": "Create hip distance by pushing off attacker's body and standing up",
+        "when_to_use": "When attacker has partial grip but has not coordinated leg pressure behind knee. Most effective when combined with posting on free leg to create elevation and distance.",
+        "targets_outcome": "Standing Position",
+        "if_successful": "Breaks the close-range mechanics required for the Estima Lock, creates space to extract leg entirely and reset to standing",
+        "risk": "Standing in a leg entanglement can expose you to sweeps if attacker maintains foot control, and creating distance without clearing the leg entanglement first may not fully escape"
+      },
+      {
+        "action": "Rotate hip inward to change foot angle and deny dorsiflexion",
+        "when_to_use": "When attacker has established both grip and fulcrum but has not yet applied significant pressure. Internal hip rotation changes the angle of your foot relative to their grip.",
+        "targets_outcome": "Ashi Garami/Top",
+        "if_successful": "Changes the mechanical angle so dorsiflexion pressure is no longer applied cleanly, buying time to work other defenses or strip grips",
+        "risk": "Hip rotation may create openings for toe hold if attacker follows the rotation, and partial rotation without grip breaking merely delays the submission rather than escaping it"
+      }
+    ],
+    "escape_paths": [
+      "Straighten leg to remove fulcrum, then use the straightening momentum to stand and extract leg from entanglement entirely, disengaging to standing position",
+      "Strip hand grips with two-on-one fighting, retract foot to glute, then work standard leg entanglement escape by clearing hooks and recovering guard or standing",
+      "Push attacker's hips away with free leg while simultaneously straightening trapped leg, creating enough distance to pull leg free from the entanglement structure"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Ashi Garami/Top",
+        "how": "Strip attacker's hand grips early before pressure develops, straighten your leg to remove the fulcrum, and maintain top position in the leg entanglement where you can work passing or your own counter-attacks"
+      },
+      {
+        "outcome": "Standing Position",
+        "how": "Create hip distance by posting on free leg and driving hips away from attacker. Once distance is established, extract your leg from the entanglement and stand completely free. Disengage and reset rather than re-engaging from a compromised entanglement."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing both control points (hand grip on foot and leg behind knee) to be established before reacting",
+        "consequence": "Once both controls are in place, escape probability drops below 30%. The coordinated pressure between hand and leg creates a mechanical advantage that is extremely difficult to overcome defensively.",
+        "correction": "React to the FIRST control point. As soon as you feel the shin behind your knee OR hands reaching for your foot, begin defensive action immediately. Do not wait for full setup - early intervention is the key to successful defense."
+      },
+      {
+        "error": "Pulling foot straight back without addressing the leg fulcrum behind the knee",
+        "consequence": "Pulling the foot back while the attacker's leg remains behind your knee actually increases dorsiflexion pressure and can accelerate the submission. You are essentially doing the attacker's job for them.",
+        "correction": "Address the leg fulcrum first by straightening your knee, then retract your foot once the fulcrum is removed. Alternatively, strip hand grips first, then deal with the leg position. Never pull your foot back into an active fulcrum."
+      },
+      {
+        "error": "Rotating hip outward (externally) thinking it relieves pressure",
+        "consequence": "External hip rotation can actually improve the attacker's angle for dorsiflexion and may expose your heel for heel hook transition. It worsens your position rather than improving it.",
+        "correction": "Rotate hip INWARD (internal rotation) to change the foot angle and deny clean dorsiflexion. Internal rotation closes off the dorsal surface of your foot from the attacker's grip and reduces their mechanical advantage."
+      },
+      {
+        "error": "Panicking and making explosive movements when pressure begins",
+        "consequence": "Explosive movements under pressure can cause self-injury as sudden force against the lock can tear ligaments before you can escape. Panic also prevents recognition of available escape windows.",
+        "correction": "If pressure has already begun and feels significant, TAP EARLY. There is no shame in tapping to a well-applied Estima Lock. In training, your ankle health is more important than your ego. In competition, if escape probability is low, intelligent tapping preserves your body for the next match."
+      },
+      {
+        "error": "Ignoring the submission threat because you don't recognize the Estima Lock setup",
+        "consequence": "The Estima Lock develops quickly and can cause injury before you realize what's happening. Lack of recognition means no defensive response until pressure is already applied at dangerous levels.",
+        "correction": "Learn to recognize the dorsal foot grip and shin-behind-knee combination as distinct from other leg attacks. Drill recognition cues regularly so the Estima Lock setup triggers immediate defensive response without conscious identification delay."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What are the two control points the attacker needs for the Estima Lock, and why should you react to the first one immediately?",
+        "answer": "The two control points are: (1) hand grip on the dorsal surface of your foot near the ball, and (2) their leg positioned behind your bent knee as a fulcrum. You must react to the first control point because once both are established simultaneously, coordinated dorsiflexion pressure becomes possible and escape probability drops dramatically. Early intervention against either control point individually is far easier than defending against the completed submission with both controls locked in.",
+        "safety_critical": true
+      },
+      {
+        "question": "Why is straightening your leg the most effective primary defense against the Estima Lock?",
+        "answer": "Straightening your leg removes the fulcrum behind the knee that the entire Estima Lock mechanism depends on. Without a bent knee, the attacker's shin behind your knee has no leverage point to amplify dorsiflexion pressure on your foot. A straight leg eliminates the folding motion at the ankle that creates the submission. However, you must be aware that straightening exposes you to straight ankle lock and sweep threats, so this defense should be combined with grip fighting to prevent those follow-up attacks.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent has established the Estima Lock grip and is beginning to apply pressure - what is the safest response?",
+        "answer": "If significant pressure has already begun with both control points established, the safest response is to tap early. The Estima Lock can damage ankle ligaments rapidly once coordinated pressure is applied, and late-stage escapes have low success probability. In training, tapping preserves your ankles and training partnerships. If pressure is just beginning and you still have movement, attempt internal hip rotation combined with grip stripping, but if these fail within 2-3 seconds, tap immediately rather than fighting through increasing pressure that risks ligament damage.",
+        "safety_critical": true
+      },
+      {
+        "question": "How do you distinguish between an Estima Lock setup and a toe hold setup from the defender's perspective?",
+        "answer": "The key differentiator is grip orientation and force direction. In the Estima Lock, the attacker's fingers wrap over the top (dorsal surface) of your foot and they pull upward toward your shin (dorsiflexion). In a toe hold, the attacker cups your foot from underneath and applies rotational twisting force. Additionally, the Estima Lock requires a fulcrum behind your knee (attacker's leg positioned there), while a toe hold works with the leg in various positions. Feeling upward pressure on top of your foot with a wedge behind your knee signals Estima Lock; rotational pressure on the bottom of your foot signals toe hold. The correct defensive response differs: straighten leg for Estima Lock, control foot rotation for toe hold.",
+        "safety_critical": false
+      },
+      {
+        "question": "What defensive trade-offs must you evaluate when choosing between straightening your leg versus retracting your foot?",
+        "answer": "Straightening your leg removes the Estima Lock fulcrum but exposes you to straight ankle lock (your extended leg is now vulnerable to ankle compression) and sweeps (your straightening force can be redirected to break your base). Retracting your foot denies the hand grip but keeps your knee bent, which means if you fail to strip their grip completely, you may expose your heel for a heel hook transition. The optimal choice depends on which control point the attacker has established more firmly: if their leg behind your knee is the primary control, retract foot; if their hand grip is primary, straighten the leg. When both are equally established, straightening is generally safer because it eliminates the submission mechanism entirely.",
+        "safety_critical": false
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and Early Prevention",
+        "focus": "Identifying Estima Lock setup cues and reacting to the first control point",
+        "description": "Partner slowly establishes Estima Lock control points from 50-50 guard. Defender practices recognizing the dorsal foot grip and shin-behind-knee positioning, then immediately reacts with leg straightening or foot retraction before the second control point is established. No finishing pressure applied. 20-30 reps per side focusing on reaction speed to the first tactile cue."
+      },
+      {
+        "phase": "Phase 2: Grip Fighting and Stripping",
+        "focus": "Two-on-one grip fighting to deny hand control on foot",
+        "description": "Partner establishes 50-50 and actively attempts to grip the defender's foot. Defender practices stripping grips using two-on-one hand fighting, foot retraction, and toe-pointing to make the foot difficult to grip. Partner provides moderate resistance (40-60%). Develop the sensitivity to feel when grip is being established and the hand fighting reflexes to deny it before it locks in."
+      },
+      {
+        "phase": "Phase 3: Escape Under Pressure",
+        "focus": "Executing escapes when both control points are partially established",
+        "description": "Partner establishes Estima Lock with both control points but applies only light pressure (20-30%). Defender practices combining internal hip rotation with grip stripping and leg straightening under controlled pressure. If defender cannot escape within 5 seconds, they tap and reset. Builds the decision-making framework for when to fight versus when to tap. Gradually increase partner resistance across rounds."
+      },
+      {
+        "phase": "Phase 4: Live Positional Defense",
+        "focus": "Full-resistance defense integrated with counter-attacks and position recovery",
+        "description": "Positional sparring from 50-50 guard where attacker pursues Estima Lock and all chain attacks. Defender works full defensive game including prevention, escape, counter-attacks (own leg attacks when attacker overcommits), and position recovery to standing. 90-second rounds with full resistance. Develops realistic timing, decision-making under pressure, and integration of all defensive skills into a coherent defensive system."
+      }
+    ]
+  },
+  "variations_and_setups": [
+    {
+      "variation_name": "Estima Lock from 50-50 Bottom (Classic)",
+      "description": "From bottom of 50-50 guard with opponent's weight on top, use your inside leg behind their knee and attack the trapped foot. This is the original and most common application where you appear defensive but are actually attacking.",
+      "when_to_use": "When opponent establishes 50-50 top position and commits their weight forward. Works best when opponent focuses on their own attacks and neglects foot defense."
+    },
+    {
+      "variation_name": "Estima Lock from Top 50-50",
+      "description": "From top of 50-50 guard, use your outside leg to attack opponent's foot while maintaining top pressure. This variation requires different mechanics but provides offensive control while attacking.",
+      "when_to_use": "When you achieve 50-50 top position and opponent is defending their legs. Combines position control with submission threat."
+    },
+    {
+      "variation_name": "Estima Lock from Outside Ashi",
+      "description": "From outside ashi garami position (your legs outside opponent's leg), thread your inside leg behind their knee and attack the foot. Requires repositioning but creates powerful angle for the lock.",
+      "when_to_use": "When opponent defends outside heel hook by straightening their leg. The straightening motion can be redirected into Estima Lock setup."
+    },
+    {
+      "variation_name": "Estima Lock to Sweep Combination",
+      "description": "Use the Estima Lock setup to break opponent's base and posture, then use their defensive reaction to execute a sweep to top position. The submission threat forces defensive reactions that create sweep opportunities.",
+      "when_to_use": "When opponent has strong leg lock defense but poor base. The submission threat can be used primarily as a sweeping mechanism rather than a finish."
+    },
+    {
+      "variation_name": "Rolling Estima Lock Entry",
+      "description": "From standing or open guard, execute a rolling entry to establish the leg entanglement and immediately attack the Estima Lock as you come up on your side. Dynamic entry that catches opponents by surprise.",
+      "when_to_use": "Against opponents who defend standard leg entanglement entries. The rolling motion creates momentum and makes it harder to defend the hand grip on the foot."
+    }
+  ]
 }

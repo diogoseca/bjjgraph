@@ -1,0 +1,13 @@
+{
+  "name": "Lapel Strip from Worm Guard",
+  "description": "",
+  "tags": [],
+  "from_position": "Worm Guard/Top",
+  "outcomes": [
+    {
+      "to": "Open Guard/Top",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

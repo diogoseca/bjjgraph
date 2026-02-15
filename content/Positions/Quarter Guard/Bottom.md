@@ -4,7 +4,7 @@
 
 ---
 title: "Quarter Guard Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master Quarter Guard Bottom in BJJ. Learn sweeps, back takes, and defensive retention. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%."
+description: "Master Quarter Guard Bottom in BJJ. Learn sweeps, back takes, and defensive retention from compromised half guard with urgency-driven offensive strategies."
 ---
 
 
@@ -21,37 +21,37 @@ description: "Master Quarter Guard Bottom in BJJ. Learn sweeps, back takes, and 
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard to Back Take",
-      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Electric Chair Submission",
-      "text": "From this position, attempt Electric Chair Submission. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Electric Chair Transition",
+      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -115,7 +115,7 @@ description: "Master Quarter Guard Bottom in BJJ. Learn sweeps, back takes, and 
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Quarter Guard Bottom",
-  "description": "Master Quarter Guard Bottom in BJJ. Learn sweeps, back takes, and defensive retention. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.",
+  "description": "Master Quarter Guard Bottom in BJJ. Learn sweeps, back takes, and defensive retention from compromised half guard with urgency-driven offensive strategies.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -207,21 +207,25 @@ Success in quarter guard bottom depends on maintaining the underhook, creating a
 
 ## Available Escapes
 
-### [[Old School Sweep]] (13% of attempts)
+### [[Old School Sweep]] (11% of attempts)
 
-### [[Half Guard to Back Take]] (12% of attempts)
+### [[Half Guard to Back Take]] (10% of attempts)
 
-### [[Underhook Sweep from Half]] (13% of attempts)
+### [[Underhook Sweep from Half]] (11% of attempts)
 
-### [[Deep Half Entry]] (14% of attempts)
+### [[Deep Half Entry]] (12% of attempts)
 
-### [[Rolling Back Take]] (11% of attempts)
+### [[Rolling Back Take]] (9% of attempts)
 
-### [[Electric Chair Submission]] (9% of attempts)
+### [[Electric Chair Transition]] (7% of attempts)
 
-### [[Knee Shield Retention]] (16% of attempts)
+### [[Knee Shield Retention]] (25% of attempts)
 
-### [[Lockdown Sweeps]] (12% of attempts)
+### [[Lockdown Recovery]] (10% of attempts)
+
+### [[Knee Shield from Quarter Guard]] (3% of attempts)
+
+### [[Recover Full Guard from Quarter Guard]] (2% of attempts)
 
 
 
@@ -233,7 +237,7 @@ Success in quarter guard bottom depends on maintaining the underhook, creating a
 
 **If opponent drives weight forward and extends trapped leg attempting aggressive pass:**
 - Execute **[[Old School Sweep]]** → [[Side Control]] (Probability: 65%)
-- Execute **[[Electric Chair Submission]]** → [[Electric Chair]] (Probability: 40%)
+- Execute **[[Electric Chair Transition]]** → [[Electric Chair]] (Probability: 40%)
 
 
 **If opponent attempts crossface or shoulder pressure to flatten you completely:**

@@ -338,11 +338,6 @@
       "relationship": "Physical requirement for system execution"
     },
     {
-      "name": "Hip Movement",
-      "content_type": "Principle",
-      "relationship": "Essential mechanical component of all system transitions"
-    },
-    {
       "name": "Posture Breaking",
       "content_type": "Principle",
       "relationship": "Initial control establishment principle"

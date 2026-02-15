@@ -21,37 +21,37 @@ description: "Master defensive Cross Ashi-Garami from bottom position. Learn hee
     {
       "@type": "HowToStep",
       "name": "Execute Ashi Garami Escape",
-      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 8% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Inside Ashi Entry",
-      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 8% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard to Ashi Transition",
-      "text": "From this position, attempt X-Guard to Ashi Transition. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt X-Guard to Ashi Transition. This technique is attempted in 5% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Saddle Defense",
-      "text": "From this position, attempt Saddle Defense. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Saddle Defense. This technique is attempted in 38% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Outside Ashi Entry",
-      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Standup",
-      "text": "From this position, attempt Technical Standup. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Standing Escape",
+      "text": "From this position, attempt Standing Escape. This technique is attempted in 3% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,17 +208,29 @@ Cross Ashi-Garami Bottom is considered a medium-risk position because while heel
 
 ## Available Escapes
 
-### [[Ashi Garami Escape]] (20% of attempts)
+### [[Ashi Garami Escape]] (8% of attempts)
 
-### [[Inside Ashi Entry]] (17% of attempts)
+### [[Inside Ashi Entry]] (8% of attempts)
 
-### [[X-Guard to Ashi Transition]] (16% of attempts)
+### [[X-Guard to Ashi Transition]] (5% of attempts)
 
-### [[Saddle Defense]] (17% of attempts)
+### [[Saddle Defense]] (38% of attempts)
 
-### [[Outside Ashi Entry]] (16% of attempts)
+### [[Outside Ashi Entry]] (8% of attempts)
 
-### [[Technical Standup]] (14% of attempts)
+### [[Standing Escape]] (3% of attempts)
+
+### [[Counter-entangle to 50-50 Guard]] (6% of attempts)
+
+### [[Transition to Backside 50-50]] (8% of attempts)
+
+### [[Counter heel hook]] (6% of attempts)
+
+### [[Leg Extraction]] (8% of attempts)
+
+### [[Counter Entangle from Cross Ashi]] (1% of attempts)
+
+### [[Leg Extraction from Cross Ashi]] (1% of attempts)
 
 
 
@@ -229,7 +241,7 @@ Cross Ashi-Garami Bottom is considered a medium-risk position because while heel
 ## Decision Making from This Position
 
 **If opponent secures deep heel hook grip with figure-four configuration locked and begins external rotation:**
-- Execute **[[Tap Out]]** → [[game-over]] (Probability: 95%)
+- Execute **[[Tap Out]]** → [[Game Over]] (Probability: 95%)
 
 
 **If opponent has cross ashi control but hands are not yet secured in heel hook grip:**

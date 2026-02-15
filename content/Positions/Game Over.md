@@ -306,7 +306,7 @@ Start from a neutral or disadvantaged position. The goal is to advance through t
 - **[[Omoplata Control]]** - Shoulder lock control position with omoplata finish transition to Game Over
 - **[[Bow and Arrow Choke]]** - High-percentage gi submission finish that terminates at Game Over from back control
 - **[[Rear Naked Choke]]** - Highest-percentage no-gi submission finish leading directly to Game Over
-- **[[Armbar Finish]]** - Universal submission finish from multiple control positions terminating at Game Over
+- **[[Armbar from Guard]]** - Universal submission finish from multiple control positions terminating at Game Over
 
 
 </section>

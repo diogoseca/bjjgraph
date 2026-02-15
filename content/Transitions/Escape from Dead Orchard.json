@@ -1,0 +1,42 @@
+{
+  "name": "Escape from Dead Orchard",
+  "description": "Master the Escape from Dead Orchard Control in BJJ. Learn to defend the choke threat, clear the arm configuration, and recover to open guard.",
+  "tags": ["bjj", "transition", "escape", "dead-orchard", "choke-defense", "positional-escape"],
+  "from_position": "Dead Orchard Control/Bottom",
+  "outcomes": [
+    {"to": "Open Guard/Bottom", "probability": 35, "result": "success"},
+    {"to": "Dead Orchard Control/Bottom", "probability": 40, "result": "failure"},
+    {"to": "Side Control/Bottom", "probability": 25, "result": "counter"}
+  ],
+  "success_rate": 35,
+  "overview": "TODO",
+  "conditions": ["TODO"],
+  "variants_and_adaptations": [{"variant_name": "TODO", "description": "TODO", "when_to_use": "TODO"}],
+  "position_integration": "TODO",
+  "related_content": [{"name": "TODO", "relationship": "TODO"}],
+  "attacker": {
+    "name": "Escape from Dead Orchard Attacker",
+    "description": "TODO",
+    "overview": "TODO",
+    "key_principles": ["TODO"],
+    "setup_requirements": ["TODO"],
+    "execution_steps": [{"step_number": 1, "action": "TODO", "description": "TODO"}],
+    "common_counters": [{"counter": "TODO", "effectiveness": "Medium", "your_response": "TODO", "targets_outcome": "Dead Orchard Control/Bottom"}],
+    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
+    "training_progressions": [{"phase": "Phase 1: Mechanics", "focus": "TODO", "description": "TODO"}],
+    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
+    "safety_considerations": "TODO"
+  },
+  "defender": {
+    "name": "Escape from Dead Orchard Defender",
+    "description": "TODO",
+    "overview": "TODO",
+    "key_principles": ["TODO"],
+    "recognition_cues": ["TODO"],
+    "defensive_options": [{"action": "TODO", "when_to_use": "TODO", "targets_outcome": "Dead Orchard Control/Bottom", "if_successful": "TODO", "risk": "TODO"}],
+    "favorable_outcomes": [{"outcome": "Dead Orchard Control/Bottom", "how": "TODO"}],
+    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
+    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
+    "training_progressions": [{"phase": "Phase 1: Recognition", "focus": "TODO", "description": "TODO"}]
+  }
+}

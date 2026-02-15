@@ -21,37 +21,37 @@ description: "Master Worm Guard Top position in BJJ. Complete passing guide cove
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 24% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toreando Pass",
-      "text": "From this position, attempt Toreando Pass. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Toreando Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, attempt Long Step Pass. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass",
-      "text": "From this position, attempt Stack Pass. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -205,17 +205,21 @@ Worm Guard Top represents the passing position against one of modern BJJ's most 
 
 ## Available Attacks
 
-### [[Leg Drag Pass]] (19% of attempts)
+### [[Leg Drag Pass]] (24% of attempts)
 
-### [[Toreando Pass]] (18% of attempts)
+### [[Toreando Pass]] (15% of attempts)
 
-### [[Smash Pass]] (16% of attempts)
+### [[Smash Pass]] (13% of attempts)
 
-### [[Knee Slice Pass]] (17% of attempts)
+### [[Knee Slice Pass]] (14% of attempts)
 
-### [[Long Step Pass]] (16% of attempts)
+### [[Long Step Pass]] (13% of attempts)
 
-### [[Stack Pass]] (14% of attempts)
+### [[Stack Pass]] (12% of attempts)
+
+### [[Backstep from Worm Guard]] (6% of attempts)
+
+### [[Lapel Strip from Worm Guard]] (3% of attempts)
 
 
 

@@ -1,284 +1,482 @@
 {
   "name": "Knee Slice Pass",
-  "description": "Master the Knee Slice Pass in BJJ. High-percentage guard passing technique from Half Guard to Side Control. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
+  "description": "Master the Knee Slice Pass in BJJ. High-percentage guard passing technique from Half Guard to Side Control with systematic breakdowns for attackers and defenders.",
   "tags": [
     "bjj",
     "guard passing",
     "half guard pass",
     "pressure passing",
+    "knee slice",
     "technique"
   ],
-  "overview": "The Knee Slice Pass is one of the most fundamental and high-percentage guard passing techniques in Brazilian Jiu-Jitsu. This pass involves cutting through the opponent's guard by driving your knee across their thighs while controlling their upper body, effectively bisecting their defensive structure. The technique is particularly effective from half guard and open guard positions, where the passer can establish strong control points before initiating the slice. The knee slice creates a powerful combination of forward pressure and lateral movement that makes it extremely difficult for the bottom player to retain guard. The pass works across all levels of competition and remains a staple in modern BJJ due to its mechanical efficiency and adaptability to both gi and no-gi contexts. Understanding the knee slice is essential for developing a complete passing game, as it serves as a gateway to numerous other passing sequences and submissions.",
-  "key_principles": [
-    "Establish dominant grips and control points before initiating the slice",
-    "Drive knee across opponent's thighs at a 45-degree angle",
-    "Maintain constant forward pressure throughout the pass",
-    "Keep hips low and weight distributed over opponent's center",
-    "Control the far hip to prevent opponent from turning into you",
-    "Use head position to control opponent's upper body",
-    "Transition smoothly from slice to consolidation in side control"
-  ],
-  "setup_requirements": [
-    "Opponent in half guard or open guard position",
-    "Establish grip on opponent's collar or far sleeve",
-    "Control opponent's near arm to prevent frames",
-    "Clear opponent's bottom leg hook if passing from half guard",
-    "Position knee on opponent's thigh ready to slice",
-    "Head positioned to control opponent's upper body",
-    "Hips loaded and ready to drive forward"
-  ],
-  "execution_steps": [
+  "from_position": "Half Guard/Top",
+  "outcomes": [
     {
-      "step_number": 1,
-      "action": "Establish control points",
-      "description": "Secure a strong collar grip with your lead hand and control the opponent's far sleeve or wrist. Your other hand should control their near hip or pants to prevent them from turning into you. Ensure your head is positioned on the opposite side of where your knee will slice."
+      "to": "Side Control/Top",
+      "probability": 68,
+      "result": "success"
     },
     {
-      "step_number": 2,
-      "action": "Clear the bottom leg",
-      "description": "If passing from half guard, use your free leg to backstep and clear the bottom hook. Drive your shin across the opponent's thigh to create separation. If passing from open guard, establish your knee position on top of their thigh, preparing to slice."
+      "to": "Half Guard/Top",
+      "probability": 20,
+      "result": "failure"
     },
     {
-      "step_number": 3,
-      "action": "Begin the knee slice",
-      "description": "Drive your knee across the opponent's thighs at approximately a 45-degree angle, slicing from outside to inside. Your knee should cut through the space between their legs while your shin creates a barrier. Keep your hips low and weight driving forward into their center."
-    },
-    {
-      "step_number": 4,
-      "action": "Control the far hip",
-      "description": "As your knee slices through, use your grip on their far hip or pants to prevent them from turning into you or recovering guard. This control is critical - your hand should be glued to their hip, feeling for any attempt to escape or re-guard."
-    },
-    {
-      "step_number": 5,
-      "action": "Drive head and shoulder pressure",
-      "description": "Apply significant pressure with your head on the opposite side of the slice, driving into their chest or shoulder. Your shoulder should follow, creating a crossface that controls their upper body and prevents them from coming up to their side. This pressure is essential for completing the pass."
-    },
-    {
-      "step_number": 6,
-      "action": "Complete the pass",
-      "description": "As your knee clears their legs completely, swing your slicing leg back and establish side control. Your hips should drop to the mat, and you should immediately secure standard side control grips - one underhook or head control, one controlling the far hip. Ensure your chest pressure is heavy and your base is wide."
-    },
-    {
-      "step_number": 7,
-      "action": "Consolidate position",
-      "description": "Settle your weight, ensuring your opponent is flat on their back with no frames between you. Establish a strong crossface, control their hips, and position your body perpendicular to theirs. Make micro-adjustments to eliminate any space they might use to escape or re-guard."
+      "to": "Half Guard/Bottom",
+      "probability": 12,
+      "result": "counter"
     }
   ],
-  "common_counters": [
+  "success_rate": 68,
+  "conditions": [
+    "Top player has at least one leg trapped in opponent's half guard",
+    "Top player has established upper body control through crossface, collar grip, or underhook",
+    "Opponent's knee shield has been neutralized or is not yet established",
+    "Top player's slicing knee is positioned on or above opponent's thigh line"
+  ],
+  "overview": "The Knee Slice Pass is one of the most fundamental and high-percentage guard passing techniques in Brazilian Jiu-Jitsu. This pass involves cutting through the opponent's guard by driving your knee across their thighs while controlling their upper body, effectively bisecting their defensive structure. The technique is particularly effective from half guard and open guard positions, where the passer can establish strong control points before initiating the slice. The knee slice creates a powerful combination of forward pressure and lateral movement that makes it extremely difficult for the bottom player to retain guard.\n\nThe pass works across all levels of competition and remains a staple in modern BJJ due to its mechanical efficiency and adaptability to both gi and no-gi contexts. The biomechanical principle underlying the knee slice is the simultaneous application of perpendicular forces: forward driving pressure through the hips and lateral cutting motion through the knee. This dual-vector force is extremely difficult to counter with a single defensive structure, which is why the technique maintains such high success rates even against experienced guard players.\n\nUnderstanding the knee slice is essential for developing a complete passing game, as it serves as a gateway to numerous other passing sequences and submissions. When the bottom player defends the slice in one direction, they invariably expose themselves to complementary attacks from the opposite angle, creating a passing system rather than an isolated technique. The knee slice chains naturally with the long step pass, leg drag, backstep pass, and various submission entries, making it the central hub of most high-level passing systems.",
+  "related_content": [
     {
-      "counter": "Opponent establishes a strong knee shield frame",
-      "effectiveness": "High",
-      "your_response": "Switch to a long step pass or transition to a knee cut variation. Alternatively, smash the knee shield by driving your shoulder into their knee while controlling their far hip, then continue the slice once the frame collapses."
+      "name": "Half Guard",
+      "relationship": "Common starting position for the pass"
     },
     {
-      "counter": "Opponent turns to their knees during the slice",
-      "effectiveness": "Medium",
-      "your_response": "Follow them to turtle position or take the back. If they turn, immediately swim your arm under their far armpit for a seatbelt grip and establish hooks or mat return them. Never allow them to complete the turtle and stand up."
+      "name": "Side Control",
+      "relationship": "Primary ending position after successful pass"
     },
     {
-      "counter": "Opponent recovers full guard by bringing their knee back inside",
-      "effectiveness": "Medium",
-      "your_response": "Prevent this by maintaining constant forward pressure and controlling the far hip throughout the slice. If they begin recovering, switch to a stack pass or backstep to restart the passing sequence from a different angle."
+      "name": "Knee Shield Half Guard",
+      "relationship": "Common defensive structure the passer must overcome"
     },
     {
-      "counter": "Opponent underhooks your slicing leg and sweeps",
-      "effectiveness": "Low",
-      "your_response": "Keep your base wide and hips low to prevent this. If they secure the underhook, immediately shift your weight away from the sweep direction and consider transitioning to a different pass or taking the back as they commit to the sweep."
+      "name": "Long Step Pass",
+      "relationship": "Complementary pass when knee slice is blocked by knee shield"
+    },
+    {
+      "name": "Leg Drag Pass",
+      "relationship": "Complementary pass in cohesive passing system"
+    },
+    {
+      "name": "Crossface Pass",
+      "relationship": "Alternative pressure pass from half guard top"
+    },
+    {
+      "name": "Kimura",
+      "relationship": "Submission opportunity when opponent reaches to defend the pass"
+    },
+    {
+      "name": "Darce Choke",
+      "relationship": "Submission opportunity when opponent turns into the passer"
+    },
+    {
+      "name": "Arm Triangle",
+      "relationship": "Follow-up submission from consolidated side control"
+    },
+    {
+      "name": "Pressure Pass",
+      "relationship": "Related pressure-based passing methodology"
+    },
+    {
+      "name": "Headquarters Position",
+      "relationship": "Intermediate staging position during pass execution"
+    },
+    {
+      "name": "Z-Guard",
+      "relationship": "Defensive guard structure the knee slice effectively counters"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Common guard recovery attempt defender uses to counter the slice"
+    },
+    {
+      "name": "Back Step Pass",
+      "relationship": "Alternative pass direction when knee slice is stuffed"
+    },
+    {
+      "name": "Knee Cut Pass",
+      "relationship": "Alternative angle variation of the slicing motion"
     }
   ],
-  "common_errors": [
-    {
-      "error": "Slicing with knee too high, allowing opponent to recover guard",
-      "consequence": "Opponent can easily bring their knee back inside and re-establish guard, nullifying all passing progress",
-      "correction": "Keep your hips low and drive your knee across their thighs, not over them. Your shin should create a horizontal barrier that their legs cannot pass through. Think of cutting through, not jumping over."
-    },
-    {
-      "error": "Failing to control the far hip during the slice",
-      "consequence": "Opponent can turn away from you, escaping to turtle or recovering guard position",
-      "correction": "Maintain constant contact with the far hip throughout the entire pass. Your hand should be glued to their hip, anticipating and preventing any rotation or escape attempt before it develops."
-    },
-    {
-      "error": "Insufficient head and shoulder pressure",
-      "consequence": "Opponent can easily come up to their side and create frames, making the pass significantly more difficult or impossible",
-      "correction": "Drive your head and shoulder heavily into their upper body on the opposite side of your slicing knee. This crossface pressure should be constant and heavy, pinning their shoulder to the mat."
-    },
-    {
-      "error": "Rushing the pass without establishing proper grips first",
-      "consequence": "Opponent has freedom to frame, recover guard, or even sweep due to lack of control points",
-      "correction": "Always establish your grips and control points before initiating the slice. The setup phase is critical - take the time to secure collar control, far sleeve, and hip control before attempting to pass."
-    },
-    {
-      "error": "Slicing at the wrong angle, making the pass inefficient",
-      "consequence": "More energy expenditure, easier for opponent to defend, and reduced success rate overall",
-      "correction": "Drive your knee at approximately 45 degrees from outside to inside. This angle maximizes pressure while efficiently cutting through their guard structure. Too perpendicular or too parallel both reduce effectiveness."
-    },
-    {
-      "error": "Allowing space between your chest and opponent during consolidation",
-      "consequence": "Opponent can insert frames and escape back to guard or progress to better positions",
-      "correction": "Immediately after completing the slice, drop your weight and eliminate all space. Your chest should be heavy on theirs, with no room for them to get arms or legs between you. Pressure is maintained through body connection, not just grips."
-    }
-  ],
-  "training_progressions": [
-    {
-      "phase": "Week 1-2: Fundamental Mechanics",
-      "focus": "Basic knee slice motion and body positioning",
-      "description": "Practice the slicing motion with a completely stationary partner. Focus on proper knee angle, hip position, and maintaining low posture. Drill the movement slowly, emphasizing proper mechanics over speed. Partner provides zero resistance, allowing you to develop muscle memory for the correct movement pattern."
-    },
-    {
-      "phase": "Week 3-4: Control Point Integration",
-      "focus": "Adding grips and pressure during the slice",
-      "description": "Partner now holds static guard position but doesn't actively defend. Practice establishing your grips (collar, far sleeve, far hip) before initiating the slice. Focus on maintaining these control points throughout the entire pass. Begin incorporating head pressure and crossface during the slice."
-    },
-    {
-      "phase": "Week 5-6: Dealing with Frames",
-      "focus": "Passing against knee shield and other defensive frames",
-      "description": "Partner now uses defensive frames (knee shield, collar ties, pushing on hips) but doesn't actively try to sweep or submit. Learn to feel frames, break them down systematically, and continue your pass. This phase teaches you to maintain forward pressure while dealing with common defensive structures."
-    },
-    {
-      "phase": "Week 7-8: Dynamic Passing",
-      "focus": "Passing against active guard retention and recovery",
-      "description": "Partner actively tries to prevent the pass by recovering guard, turning away, or establishing strong frames. You must now combine all previous elements while reading and reacting to their defensive movements. Begin chaining the knee slice with other passes (long step, leg drag) when countered."
-    },
-    {
-      "phase": "Week 9-10: Transition to Submissions",
-      "focus": "Attacking from the knee slice position",
-      "description": "Learn to recognize submission opportunities during the pass. Practice transitioning to kimura, darce, or arm triangle when opponent defends the pass in specific ways. This phase connects passing to submission chains, making your knee slice more dangerous overall."
-    },
-    {
-      "phase": "Week 11+: Competition Integration",
-      "focus": "Using knee slice in full sparring and competition scenarios",
-      "description": "Integrate the knee slice into your regular rolling sessions. Focus on recognizing when the knee slice is the highest percentage option versus other passes. Develop the ability to chain it with your other passes seamlessly. Begin using it in competition or competition-style sparring."
-    }
-  ],
+  "attacker": {
+    "name": "Knee Slice Pass Attacker",
+    "description": "How to execute the Knee Slice Pass in BJJ. Complete attacking guide with setup requirements, step-by-step execution, counters, and training progressions.",
+    "overview": "The Knee Slice Pass from the attacker's perspective is a systematic process of bisecting the opponent's guard structure through coordinated upper body control and knee-driven pressure. The passer must establish dominant grips and head position before initiating the slice, then maintain constant forward pressure while the knee cuts across the opponent's thighs at a diagonal angle. The technique rewards methodical execution over speed, as each phase of the pass builds upon the previous one to create compounding pressure that eventually overwhelms the defender's guard retention.\n\nThe critical insight for the attacker is that the knee slice is not a single explosive movement but rather a continuous pressure sequence with distinct phases: grip establishment, frame neutralization, knee insertion, hip drive, and consolidation. Rushing any phase creates gaps the defender can exploit. The passer who understands the sequential nature of the technique and applies patient, relentless forward pressure will complete the pass far more consistently than one who relies on speed or athleticism alone.",
+    "key_principles": [
+      "Establish dominant grips and control points before initiating the slice to prevent defensive reactions",
+      "Drive knee across opponent's thighs at a 45-degree angle from outside to inside for maximum cutting efficiency",
+      "Maintain constant forward pressure through hips throughout the entire pass sequence",
+      "Keep hips low and weight distributed over opponent's center of mass to prevent guard recovery",
+      "Control the far hip with a dedicated hand to prevent opponent from turning away or recovering guard",
+      "Position head on the opposite side of the slicing knee to create crossface pressure that pins the opponent flat",
+      "Transition smoothly from the slice to side control consolidation without creating space"
+    ],
+    "setup_requirements": [
+      "Opponent's half guard engaged with your leg trapped, establishing the starting position",
+      "Collar grip or cross-face control established with lead hand to pin opponent's upper body",
+      "Far hip or far knee controlled with trailing hand to prevent rotation and guard recovery",
+      "Opponent's knee shield neutralized or bypassed through pressure or grip manipulation",
+      "Slicing knee positioned on or above opponent's thigh line ready to cut through",
+      "Head driven into opponent's far shoulder or chest to create crossface pressure",
+      "Hips loaded low with weight committed forward, ready to drive through the pass"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish control points",
+        "description": "Secure a strong collar grip with your lead hand and control the opponent's far sleeve or wrist. Your other hand should control their near hip or pants to prevent them from turning into you. Ensure your head is positioned on the opposite side of where your knee will slice, creating initial crossface pressure that limits their upper body mobility."
+      },
+      {
+        "step_number": 2,
+        "action": "Clear the bottom leg hook",
+        "description": "If passing from half guard, use your free leg to backstep and clear the bottom hook. Drive your shin across the opponent's thigh to create separation between their legs. If passing from open guard, establish your knee position on top of their thigh, preparing to slice. The key is separating your trapped leg from their entanglement without sacrificing upper body control."
+      },
+      {
+        "step_number": 3,
+        "action": "Begin the knee slice",
+        "description": "Drive your knee across the opponent's thighs at approximately a 45-degree angle, slicing from outside to inside. Your knee should cut through the space between their legs while your shin creates a horizontal barrier that prevents re-entanglement. Keep your hips low and weight driving forward into their center of mass throughout this phase."
+      },
+      {
+        "step_number": 4,
+        "action": "Control the far hip",
+        "description": "As your knee slices through, use your grip on their far hip or pants to prevent them from turning into you or recovering guard. This control is critical and must be maintained throughout the entire pass. Your hand should be glued to their hip, feeling for any attempt to rotate, escape, or re-guard, and blocking it before it develops momentum."
+      },
+      {
+        "step_number": 5,
+        "action": "Drive head and shoulder pressure",
+        "description": "Apply significant pressure with your head on the opposite side of the slice, driving into their chest or shoulder. Your shoulder should follow, creating a crossface that controls their upper body and prevents them from coming up to their side. This pressure pins their shoulder to the mat and is essential for completing the pass against competent defenders."
+      },
+      {
+        "step_number": 6,
+        "action": "Extract the slicing leg",
+        "description": "As your knee clears their thigh line completely, windshield-wiper your shin free from any remaining leg contact. Your foot should clear their bottom leg entirely, preventing them from catching a last-second half guard by re-hooking your ankle or calf. Maintain forward pressure throughout extraction to prevent any space for guard recovery."
+      },
+      {
+        "step_number": 7,
+        "action": "Establish side control",
+        "description": "Swing your now-free leg back and drop your hips to the mat in a perpendicular position to their torso. Immediately secure standard side control grips with one arm controlling their head via crossface and the other controlling the far hip. Your chest pressure should be heavy and centered on their sternum with no daylight between your bodies."
+      },
+      {
+        "step_number": 8,
+        "action": "Consolidate position",
+        "description": "Settle your weight and eliminate any remaining space the opponent might exploit. Ensure they are flat on their back with no frames between your bodies. Make micro-adjustments to widen your base, deepen your crossface, and block any knee insertion attempts. The first five seconds of consolidation determine whether you hold the position or allow a guard recovery."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent establishes a strong knee shield frame before the slice begins",
+        "effectiveness": "High",
+        "your_response": "Switch to a long step pass around the frame, or smash the knee shield by driving your shoulder into their knee while controlling the far hip, then continue the slice once the frame collapses. Do not try to force the slice through an established knee shield.",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Opponent turns to their knees during the slice to escape to turtle",
+        "effectiveness": "Medium",
+        "your_response": "Follow them immediately and secure a seatbelt grip under their far armpit. Establish back control hooks or use a mat return to flatten them back down. Never allow them to complete the turtle and stand up. The turn itself can be an opportunity for a back take.",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Opponent recovers full guard by re-inserting their knee during the slice",
+        "effectiveness": "Medium",
+        "your_response": "Prevent this by maintaining constant forward pressure and far hip control throughout the slice. If they begin recovering, immediately switch to a backstep pass or stack pass to restart from a different angle rather than forcing the original slice against a re-established guard.",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Opponent underhooks your slicing leg and attempts a deep half sweep",
+        "effectiveness": "Low",
+        "your_response": "Keep your base wide and hips low to prevent the underhook from generating sweep leverage. If they secure the underhook on your leg, immediately shift your weight over their head and consider a whizzer on their underhooking arm or transition to a crossface pass that neutralizes their leverage angle.",
+        "targets_outcome": "Half Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Slicing with knee too high above the thigh line, allowing opponent to recover guard underneath",
+        "consequence": "Opponent easily brings their knee back inside and re-establishes half guard or full guard, nullifying all passing progress",
+        "correction": "Keep your hips low and drive your knee across their thighs, not over them. Your shin should create a horizontal barrier that their legs cannot pass through. Think of cutting through their guard, not jumping over it."
+      },
+      {
+        "error": "Failing to control the far hip during the slice",
+        "consequence": "Opponent turns away freely, escaping to turtle or recovering guard by creating an angle",
+        "correction": "Maintain constant contact with the far hip throughout the entire pass. Your trailing hand should be glued to their hip, anticipating and preventing any rotation or escape attempt before it develops momentum."
+      },
+      {
+        "error": "Insufficient head and shoulder crossface pressure",
+        "consequence": "Opponent comes up to their side, establishes frames, and makes the pass significantly more difficult or initiates sweeps",
+        "correction": "Drive your head and shoulder heavily into their upper body on the opposite side of your slicing knee. This crossface pressure should be constant and heavy, pinning their far shoulder to the mat throughout every phase of the pass."
+      },
+      {
+        "error": "Rushing the pass without establishing proper grips and control first",
+        "consequence": "Opponent has freedom to frame, recover guard, or sweep due to lack of control points and uncommitted weight",
+        "correction": "Always establish your grips and control points before initiating the slice. The setup phase is critical. Secure collar control, far hip control, and crossface pressure before attempting the knee drive."
+      },
+      {
+        "error": "Slicing at a perpendicular angle instead of the optimal 45-degree diagonal",
+        "consequence": "Increased energy expenditure, easier for opponent to block with frames, and reduced cutting effectiveness",
+        "correction": "Drive your knee at approximately 45 degrees from outside to inside. This angle maximizes forward pressure while efficiently cutting through their guard structure. Too perpendicular stalls against frames, too parallel loses cutting power."
+      },
+      {
+        "error": "Allowing space between your chest and opponent during the consolidation phase",
+        "consequence": "Opponent inserts frames, recovers knee shield, or escapes back to guard before you can settle side control",
+        "correction": "Immediately after completing the slice, drop your weight and eliminate all space. Your chest should be heavy on theirs with zero daylight. Body-to-body connection is your primary control mechanism during consolidation."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2: Fundamental Mechanics",
+        "focus": "Basic knee slice motion and body positioning",
+        "description": "Practice the slicing motion with a completely stationary partner. Focus on proper knee angle, hip position, and maintaining low posture. Drill the movement slowly, emphasizing proper mechanics over speed. Partner provides zero resistance, allowing you to develop muscle memory for the correct movement pattern and weight distribution."
+      },
+      {
+        "phase": "Week 3-4: Control Point Integration",
+        "focus": "Adding grips and pressure during the slice",
+        "description": "Partner holds static half guard position but does not actively defend. Practice establishing your grips (collar, far sleeve, far hip) before initiating the slice. Focus on maintaining these control points throughout the entire pass. Begin incorporating head pressure and crossface during the slice."
+      },
+      {
+        "phase": "Week 5-6: Dealing with Frames",
+        "focus": "Passing against knee shield and other defensive frames",
+        "description": "Partner uses defensive frames (knee shield, collar ties, pushing on hips) but does not actively sweep or submit. Learn to feel frames, break them down systematically, and continue your pass. This phase teaches maintaining forward pressure while dealing with common defensive structures."
+      },
+      {
+        "phase": "Week 7-8: Dynamic Passing",
+        "focus": "Passing against active guard retention and recovery",
+        "description": "Partner actively tries to prevent the pass by recovering guard, turning away, or establishing strong frames. Combine all previous elements while reading and reacting to defensive movements. Begin chaining the knee slice with other passes (long step, leg drag, backstep) when countered."
+      },
+      {
+        "phase": "Week 9-10: Submission Integration",
+        "focus": "Recognizing and attacking submission opportunities during the pass",
+        "description": "Learn to recognize submission windows that open during the passing sequence. Practice transitioning to kimura when opponent reaches to defend, darce choke when they turn into you, and arm triangle when they frame with the far arm. Connect passing to submission chains."
+      },
+      {
+        "phase": "Week 11+: Competition Integration",
+        "focus": "Live sparring and competition application",
+        "description": "Integrate the knee slice into regular rolling sessions and competition-style sparring. Focus on recognizing when the knee slice is the highest percentage option versus other passes. Develop the ability to chain it with your complete passing system under full resistance."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal angle for driving your knee during the knee slice pass?",
+        "answer": "Approximately 45 degrees from outside to inside. This diagonal angle maximizes forward pressure while efficiently cutting through the opponent's guard structure. A perpendicular angle stalls against defensive frames, while a parallel angle loses cutting power and allows guard recovery underneath."
+      },
+      {
+        "question": "Why is controlling the far hip critical during the knee slice pass?",
+        "answer": "Controlling the far hip prevents the opponent from turning away, which would allow them to escape to turtle, recover guard, or create frames. The far hip control keeps them flat and unable to rotate, preventing the most common defensive responses. Without it, even a technically perfect slice can be negated by hip rotation alone."
+      },
+      {
+        "question": "Your opponent establishes a strong knee shield as you begin your knee slice. How do you adjust?",
+        "answer": "Do not force the slice through an established knee shield. Instead, choose from several options: smash the knee shield by driving your shoulder into their knee while maintaining far hip control, transition to a long step pass around the frame, switch to a backstep pass that avoids the shield entirely, or use the stalling moment to attack a kimura on their framing arm. Read their reaction and chain accordingly."
+      },
+      {
+        "question": "What combination of pressure points makes the knee slice pass most effective?",
+        "answer": "Four simultaneous pressure points create the pass: forward hip drive through your center of mass into theirs, head and shoulder crossface pressure on the far side pinning their shoulder flat, far hip control with your trailing hand preventing rotation, and the knee driving diagonally across their thighs creating a barrier. All four must work in concert."
+      },
+      {
+        "question": "What grip configuration do you need before initiating the knee slice?",
+        "answer": "The minimum grip configuration requires three control points: lead hand on collar or crossface controlling the head and far shoulder, trailing hand on the far hip or pants controlling rotation, and your head positioned on the far side creating additional pressure. Some variations add an underhook instead of collar grip, which trades head control for superior upper body manipulation."
+      },
+      {
+        "question": "Your opponent turns to their knees as you are mid-slice. What is the correct response?",
+        "answer": "Immediately transition from passing to back-taking. As they turn, swim your arm under their far armpit and secure a seatbelt grip. Follow their rotation rather than fighting it, then establish hooks for back control or perform a mat return to flatten them back down. Their turn exposes the back, which is a higher-value position than the side control you were pursuing."
+      },
+      {
+        "question": "What is the most critical hip movement in the knee slice pass?",
+        "answer": "The forward hip drive that loads your body weight through your center of mass into the opponent. Your hips must stay low and heavy throughout the entire pass, driving forward and slightly downward. If your hips rise above your shoulders or your weight shifts backward at any point, the opponent gains the space needed to recover guard or create defensive frames."
+      },
+      {
+        "question": "When should you transition from the knee slice to a submission attack during the passing sequence?",
+        "answer": "Transition to submissions when the opponent's defensive reactions expose specific vulnerabilities: attack the kimura when they reach across your body to push your head or frame against your shoulder, attack the darce choke when they underhook and turn into you during the slice, and attack the arm triangle when their far arm crosses their own neck while defending. Recognize these windows during the pass rather than forcing the completion."
+      },
+      {
+        "question": "How does the knee slice differ from the knee cut pass in terms of direction of force?",
+        "answer": "The knee slice emphasizes a diagonal cutting motion at roughly 45 degrees from outside to inside, combined with strong forward hip drive. The knee cut variation uses a more lateral angle, cutting across the body at a sharper angle with less forward pressure. The slice is better against flat opponents, while the cut works better when the opponent is on their side and you need to clear their legs from a wider angle."
+      },
+      {
+        "question": "What are the entry requirements that must exist before you can attempt a knee slice from half guard top?",
+        "answer": "Four conditions must be present: your trapped leg must be partially freed or your shin positioned above the opponent's thigh line, upper body control must be established through crossface or collar grip, the opponent's knee shield must be neutralized or absent, and your base must be stable enough to commit forward pressure without risk of being swept. Attempting the slice without these conditions leads to failed passes and potential sweeps."
+      }
+    ],
+    "safety_considerations": "The knee slice pass is generally safe when practiced with proper control and awareness. The primary safety concern is avoiding excessive pressure on the opponent's knees or hips during the slice, which could cause joint strain if applied too forcefully or at incorrect angles. When training, start with minimal resistance and gradually increase intensity as both partners develop familiarity with the technique. Ensure you are not driving your knee directly into your partner's knee joint, which could cause meniscus or ligament damage. When consolidating in side control, apply crossface pressure firmly but avoid striking motions with your forearm against the face or jaw. Communicate with your training partner throughout, especially when they are learning to defend the pass, to ensure both parties can train safely and develop skill without unnecessary injury risk."
+  },
+  "defender": {
+    "name": "Knee Slice Pass Defender",
+    "description": "How to defend and counter the Knee Slice Pass in BJJ. Recognition cues, defensive options, escape strategies, and counter-attacks from half guard bottom.",
+    "overview": "Defending the knee slice pass requires the bottom player to recognize the attack early through specific tactile and visual cues, then deploy the appropriate defensive structure before the passer establishes the four pressure points that make the pass nearly unstoppable. The defender's primary objective is preventing the passer's knee from completing the diagonal cut across their thighs by maintaining frames, controlling distance, and disrupting the passer's grip sequence. Effective defense operates on a hierarchy: first prevent the slice from starting through proactive framing, then disrupt the slice mid-execution through hip movement and knee recovery, and finally counter-attack by exploiting the positional commitments the passer makes during the attempt.\n\nThe most critical defensive window occurs before the passer's knee crosses the thigh line. Once the knee has cleared past the midpoint and the crossface is established, the probability of successful defense drops dramatically. This means the defender must be proactive rather than reactive, reading the setup grips and body positioning that telegraph the incoming slice. Skilled defenders use the passer's forward commitment against them by timing underhook entries, deep half transitions, and sweep attempts to coincide with the moments when the passer's base is most compromised during the driving phase of the pass.",
+    "key_principles": [
+      "Establish knee shield or frame before the passer can begin the slicing motion to create a structural barrier they must overcome",
+      "Fight for the underhook on the trapped-leg side as the primary offensive weapon that enables sweeps, back takes, and guard recovery",
+      "Maintain hip mobility by staying on your side rather than flat on your back, preserving the ability to shrimp, reguard, and create angles",
+      "Control the passer's slicing knee with your bottom leg to prevent it from clearing your thigh line and completing the cut",
+      "Time defensive actions to coincide with the passer's forward weight commitment, when their base is most vulnerable to sweeps and counters",
+      "Deny the crossface by keeping your head turned toward the passer and your near-side elbow tight to your body as a frame",
+      "Chain multiple defensive responses together rather than committing entirely to a single defense that can be read and countered"
+    ],
+    "recognition_cues": [
+      "Passer's lead hand secures collar grip or cross-face control while their trailing hand reaches for your far hip, establishing the two primary control points needed to initiate the slice",
+      "Passer's knee begins to rise and angle diagonally across your thigh line, shifting from a vertical shin position to a 45-degree cutting trajectory with weight loading forward",
+      "Passer drives their head to the far side of their slicing knee, positioning for crossface pressure that will pin your shoulder to the mat",
+      "Passer's hips drop low and load forward, committing body weight into the pass rather than maintaining a neutral upright posture",
+      "Passer's trailing hand grips your far hip or pant leg, signaling they are about to initiate the forward drive and prevent your rotation"
+    ],
+    "defensive_options": [
+      {
+        "action": "Establish knee shield frame by inserting your shin across the passer's chest and hip before the slice begins",
+        "when_to_use": "Immediately when you recognize the passer establishing collar grip and far hip control in preparation for the slice",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "Passer cannot initiate the slice and must deal with your knee shield first, resetting to neutral half guard and buying time for offensive entries",
+        "risk": "If the passer smashes through the knee shield with shoulder pressure, you may end up flat on your back without frames"
+      },
+      {
+        "action": "Fight for underhook on the trapped-leg side by swimming your arm under passer's armpit and driving to your side",
+        "when_to_use": "When the passer has not yet established a deep crossface and there is space between your bodies to insert the underhook",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You gain the dominant grip position enabling sweeps, back takes, and prevents the passer from completing the crossface needed for the slice",
+        "risk": "Overcommitting to the underhook can expose you to a kimura if the passer catches your reaching arm, or a darce choke if you over-rotate"
+      },
+      {
+        "action": "Transition to deep half guard by ducking under the passer's hips as they drive forward",
+        "when_to_use": "When the passer commits significant forward pressure and their hips are loaded over your centerline during the mid-phase of the slice",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You enter deep half guard underneath the passer with superior sweeping angles, completely negating the knee slice trajectory",
+        "risk": "Mistiming the entry can leave you flat on your back with the passer in a strong crossface position, worse than where you started"
+      },
+      {
+        "action": "Hip escape and knee recovery to reguard by shrimping away and inserting your knee between your bodies",
+        "when_to_use": "When the passer's knee has begun the slice but has not yet cleared past your thigh midline and some space remains",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You recover full half guard or insert a knee shield, resetting the passing attempt and forcing the passer to re-establish their setup",
+        "risk": "If the passer maintains far hip control, your shrimp creates no effective distance and you exhaust energy without improving position"
+      },
+      {
+        "action": "Turn to turtle and immediately stand or re-guard when the slice is nearly complete",
+        "when_to_use": "As a last resort when the knee has cleared your thigh line and the pass is nearly complete but consolidation has not occurred",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "You avoid conceding side control and reach turtle where you can initiate stand-up or guard recovery sequences",
+        "risk": "The passer may follow you to turtle and secure back control, putting you in a worse position than side control bottom"
+      },
+      {
+        "action": "Underhook the slicing leg and initiate a sweep by driving into the passer's committed weight",
+        "when_to_use": "When the passer overcommits forward pressure during the driving phase and their base is compromised on one side",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You sweep the passer, ending up in top position and completely reversing the positional exchange",
+        "risk": "The passer can sprawl and drive their hips back, stripping your underhook and accelerating their pass completion"
+      },
+      {
+        "action": "Frame against the crossface arm and pummel your head free to face the passer",
+        "when_to_use": "Early in the sequence when the passer is establishing crossface but has not yet loaded their full weight into the pressure",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You deny the crossface which is the primary upper body control mechanism, making the slice significantly harder to complete",
+        "risk": "If your frame is weak, the passer simply drives through it and establishes an even deeper crossface than before"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Establish a knee shield frame before the slice begins, then fight for the underhook to regain offensive half guard position. Use the knee shield to create distance, deny the crossface, and transition to an active half guard with sweep and back take options available."
+      },
+      {
+        "outcome": "Half Guard/Top",
+        "how": "Time an underhook sweep or deep half sweep to coincide with the passer's forward weight commitment during the driving phase of the slice. As they load forward to complete the pass, use their momentum against them by redirecting their weight over your hips and completing the reversal to top position."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Lying flat on your back without any frames or knee shield when you recognize the knee slice setup",
+        "consequence": "Passer establishes crossface and far hip control unopposed, making the slice nearly impossible to stop once initiated with full pressure",
+        "correction": "Immediately turn to your side and insert a knee shield or forearm frame the moment you recognize collar grip and far hip control being established. Proactive framing before the slice starts is vastly more effective than reactive defense mid-pass."
+      },
+      {
+        "error": "Pushing against the passer's shoulders or head with extended arms instead of maintaining tight elbow-to-knee frames",
+        "consequence": "Extended arms are easily isolated for kimura or americana submissions, and pushing creates no structural barrier against the forward drive of the slice",
+        "correction": "Keep elbows connected to your knees as the default defensive structure. Frame with forearms against the passer's neck and shoulder rather than extending your arms, maintaining structural integrity while creating distance."
+      },
+      {
+        "error": "Attempting to recover guard by only hip-escaping without addressing the far hip grip",
+        "consequence": "The passer's far hip control prevents effective distance creation, and the shrimp exhausts energy without improving position because the passer simply follows your movement",
+        "correction": "Before hip-escaping, strip or neutralize the far hip grip first by using your top hand to peel their grip, then shrimp away. Alternatively, combine the hip escape with a knee shield insertion that creates a structural barrier the passer must reset against."
+      },
+      {
+        "error": "Waiting too long to react, allowing the passer's knee to clear past the thigh midline before defending",
+        "consequence": "Once the knee has crossed past midline with crossface established, the pass is nearly complete and defensive success probability drops below 20%",
+        "correction": "Defend during the setup phase before the slice begins. Read the collar grip and far hip control as the trigger for immediate defensive action. The earlier you respond in the sequence, the higher your success rate."
+      },
+      {
+        "error": "Overcommitting to a single defensive response without chaining alternatives",
+        "consequence": "Skilled passers read single-response defense and adapt their pass to exploit the commitment, completing the pass through the gap your defense creates",
+        "correction": "Chain defensive responses together: start with knee shield, if it is smashed transition to underhook fight, if underhook is denied transition to deep half entry. Each defensive failure should flow into the next option rather than leaving you exposed."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that a knee slice pass is about to be initiated from half guard top?",
+        "answer": "The earliest cue is the passer establishing a collar grip or crossface with their lead hand while their trailing hand reaches for your far hip or pant leg. This dual grip setup is the prerequisite for the slice and should trigger immediate defensive framing. Additionally, watch for their head positioning to the far side and their knee beginning to angle diagonally across your thigh."
+      },
+      {
+        "question": "Why is the knee shield the most important initial defensive structure against the knee slice?",
+        "answer": "The knee shield creates a structural barrier across the passer's chest and hip line that physically prevents the knee from completing its diagonal cut. Unlike arm frames which can be driven through with pressure, a properly positioned shin frame creates a bone-on-bone barrier that requires the passer to either smash through it or switch to an entirely different pass. This buys the defender time to establish offensive grips and threaten sweeps."
+      },
+      {
+        "question": "Your opponent has begun the knee slice and their knee is halfway across your thigh. What are your best options at this point?",
+        "answer": "At the halfway point, your best options are a deep half guard entry by ducking under their hips as they drive forward, or an aggressive underhook on the trapped-leg side combined with a hip escape to create enough angle to re-insert your knee. A direct knee shield is likely too late at this stage. If neither option is available, prepare to turn to turtle as a last resort to avoid conceding side control, then immediately work to stand or reguard from turtle."
+      },
+      {
+        "question": "When is the optimal timing window to attempt a sweep against a knee slice pass?",
+        "answer": "The optimal sweep timing is during the passer's forward driving phase when they have committed their body weight forward and their base is compromised. As they load forward to complete the slice, their trailing leg is light and their center of gravity is ahead of their support base. This is when underhook sweeps and deep half sweeps have maximum effectiveness because you are redirecting their already-committed momentum rather than fighting against a stable base."
+      },
+      {
+        "question": "What is the danger of attempting an underhook recovery when the passer has already established crossface control?",
+        "answer": "When the passer has an established crossface, reaching for the underhook exposes your arm to kimura attacks because the crossface pins your shoulder and limits your ability to withdraw the reaching arm. The passer can catch the reaching arm with their far hand while maintaining crossface with the near arm, isolating your shoulder in a vulnerable position. You must first address the crossface by framing against it or pummeling your head free before committing to the underhook battle."
+      },
+      {
+        "question": "How do you prevent the passer from re-establishing the knee slice after you successfully recover your knee shield?",
+        "answer": "After recovering knee shield, immediately establish offensive grips that keep the passer reactive: collar grip to threaten collar drags, sleeve grip to prevent them re-establishing their own grips, and use the knee shield to create distance for angle creation. Threatening sweeps from the knee shield position forces the passer to defend rather than re-setup. A purely defensive knee shield without offensive threat will eventually be passed as the passer methodically works to smash or circumvent it."
+      },
+      {
+        "question": "What makes the deep half guard entry an effective counter to the knee slice, and when does it become too late to attempt it?",
+        "answer": "Deep half guard works because the passer's forward driving pressure during the knee slice actually assists your entry underneath their hips. You redirect their downward momentum to shoot underneath them, establishing sweeping angles that negate the slice entirely. It becomes too late when the passer's knee has fully cleared your thigh line and they have begun consolidation, as you will be diving under someone who is no longer above you but beside you, resulting in being flattened in a worse position."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2: Recognition and Framing",
+        "focus": "Identifying knee slice setup cues and establishing defensive frames",
+        "description": "Partner slowly sets up the knee slice while you practice recognizing the grip sequence and immediately establishing knee shield or forearm frames. Focus on reading the collar grip and far hip control as triggers for defensive action. No resistance from either side, purely pattern recognition and frame insertion timing."
+      },
+      {
+        "phase": "Week 3-4: Active Defense Integration",
+        "focus": "Combining frames with hip movement and guard recovery",
+        "description": "Partner executes the knee slice at moderate speed. Practice combining knee shield establishment with hip escapes, underhook recovery, and deep half guard entries. Chain multiple defensive responses together when the first option is countered. Partner provides moderate forward pressure but does not actively counter your defensive responses."
+      },
+      {
+        "phase": "Week 5-6: Counter-Attack Development",
+        "focus": "Timing sweeps and back takes against the knee slice attempt",
+        "description": "Partner executes full-speed knee slice attempts. Practice timing underhook sweeps, deep half sweeps, and back takes to coincide with the passer's forward weight commitment. Focus on reading the moment of maximum base compromise and exploiting it offensively. Both partners at 70-80% intensity."
+      },
+      {
+        "phase": "Week 7+: Live Positional Sparring",
+        "focus": "Full resistance defense and counter-attack in sparring context",
+        "description": "Positional sparring starting from half guard bottom against passer's free choice of passing technique. Integrate knee slice defense into broader half guard defensive system alongside defense against smash pass, long step, and backstep. Full resistance from both partners with scoring based on successful defense, guard retention, and counter-attacks."
+      }
+    ]
+  },
   "variants_and_adaptations": [
     {
       "variant_name": "Knee Slice with Underhook",
-      "description": "Instead of controlling the far sleeve, secure a deep underhook on the far side while slicing. This variation provides more control over opponent's upper body and prevents them from turning into you effectively. The underhook also opens up back-take opportunities if they turn away.",
+      "description": "Instead of controlling the far sleeve, secure a deep underhook on the far side while slicing. This variation provides more control over the opponent's upper body and prevents them from turning into you. The underhook also opens direct back-take opportunities if they turn away during the pass.",
       "when_to_use": "Against opponents who effectively use far side frames or when you want to chain to back attacks"
     },
     {
       "variant_name": "Reverse Knee Slice",
-      "description": "Slice your knee in the opposite direction (from inside to outside) while facing the opposite direction. This pass is particularly effective when opponent is attempting to recover full guard and you can intercept their legs during the recovery. The mechanics are similar but the angle and direction are reversed.",
-      "when_to_use": "When opponent is actively trying to bring their legs back inside to recover guard"
+      "description": "Slice your knee in the opposite direction (from inside to outside) while facing the opposite direction. This pass is particularly effective when the opponent is attempting to recover full guard and you can intercept their legs during the recovery. The mechanics are similar but the angle and direction are reversed.",
+      "when_to_use": "When opponent is actively bringing their legs back inside to recover guard"
     },
     {
       "variant_name": "Knee Slice to Mount",
-      "description": "Instead of completing the pass to side control, continue driving forward and bring your knee all the way across to mount. This requires excellent balance and timing but can surprise opponents who expect you to settle in side control. Your slicing motion continues into a mounting motion.",
-      "when_to_use": "When opponent is extremely focused on preventing side control or when you have dominant control and can capitalize on forward momentum"
+      "description": "Instead of completing the pass to side control, continue driving forward and bring your knee all the way across to mount. This requires excellent balance and timing but surprises opponents who expect you to settle in side control. The slicing motion continues directly into a mounting transition.",
+      "when_to_use": "When opponent is focused on preventing side control or when you have dominant control and can capitalize on forward momentum"
     },
     {
       "variant_name": "Knee Slice with Leg Weave",
-      "description": "Combine the knee slice with a leg weave by threading your slicing leg under their bottom leg instead of over it. This creates a more secure passing position and prevents them from recovering half guard. The weave acts as an insurance policy during the pass.",
+      "description": "Combine the knee slice with a leg weave by threading your slicing leg under their bottom leg instead of over it. This creates a more secure passing position and prevents them from recovering half guard. The weave acts as insurance during the pass.",
       "when_to_use": "Against opponents with excellent half guard recovery or when you want maximum security during the pass"
     }
   ],
-  "knowledge_assessment": [
-    {
-      "question": "What is the optimal angle for driving your knee during the knee slice pass?",
-      "answer": "Approximately 45 degrees from outside to inside. This angle maximizes forward pressure while efficiently cutting through the opponent's guard structure. Too perpendicular makes the pass easier to defend; too parallel reduces the slicing effectiveness and can allow guard recovery."
-    },
-    {
-      "question": "Why is controlling the far hip critical during the knee slice pass?",
-      "answer": "Controlling the far hip prevents the opponent from turning away from you, which would allow them to escape to turtle, recover guard, or create frames. The far hip control keeps them flat on their back and unable to rotate, making the pass significantly more effective and preventing common escape routes."
-    },
-    {
-      "question": "How should you respond when your opponent establishes a strong knee shield frame during your knee slice attempt?",
-      "answer": "You have several options: smash the knee shield by driving your shoulder into their knee while controlling the far hip, transition to a long step pass around the frame, switch to a knee cut variation, or use the frame as an opportunity to attack with a kimura or darce choke. The key is recognizing the frame early and adjusting rather than forcing the original pass."
-    },
-    {
-      "question": "What combination of pressure points makes the knee slice pass most effective?",
-      "answer": "The combination of forward hip pressure, head/shoulder crossface pressure on the opposite side of the slice, far hip control preventing rotation, and the knee driving across their thighs creating a barrier. These four pressure points working together make it extremely difficult for the opponent to defend or escape the pass."
-    },
-    {
-      "question": "When should you transition from knee slice to submission attacks, and what are the most common submissions available?",
-      "answer": "Transition to submissions when you feel strong resistance to the pass or when the opponent's defensive reactions expose submission opportunities. Most common submissions from knee slice include: kimura (when they reach to defend), darce or anaconda choke (when they turn into you), arm triangle (when they frame and turn away), and straight armbar (from the consolidated side control position). The key is recognizing these opportunities during the passing sequence rather than forcing the pass when a submission is more available."
-    },
-    {
-      "question": "How do you prevent your opponent from turning to their knees during the knee slice pass?",
-      "answer": "Maintain constant downward and forward pressure with your head and shoulder, keep your far hip control tight, and ensure your body weight is distributed over their center of mass. If they begin turning, immediately follow them and secure back control or return them to their back. The key is anticipating the turn before it develops through maintaining proper pressure and control points throughout the pass."
-    }
-  ],
-  "safety_considerations": "The knee slice pass is generally safe when practiced with proper control and awareness. The primary safety concern is avoiding excessive pressure on the opponent's knees or hips during the slice, which could cause joint strain if applied too forcefully or at incorrect angles. When training, start with minimal resistance and gradually increase intensity as both partners develop familiarity with the technique. Ensure you're not driving your knee directly into your partner's knee joint, which could cause injury. Additionally, when consolidating in side control, be mindful of crossface pressure - apply it firmly but avoid striking motions with your forearm. Communicate with your training partner, especially when they're learning to defend the pass, to ensure both parties can train safely and effectively.",
-  "position_integration": "The knee slice pass is a cornerstone technique in any complete guard passing system. It serves as a central hub from which numerous other passes and attacks can be launched. The knee slice naturally chains with the long step pass, leg drag, and over-under pass, creating a cohesive passing system where if one is defended, you can immediately transition to another. It works effectively from multiple starting positions including half guard, butterfly guard, and various open guard positions, making it extremely versatile. The pass also creates natural submission opportunities including the kimura, darce, and arm triangle, allowing you to seamlessly blend passing with attacking. In the broader context of positional hierarchy, the knee slice is your primary tool for advancing from guard positions to dominant top positions like side control, which then open up further advancement to mount or back control. Understanding the knee slice is essential for developing pressure passing abilities and creates the foundation for more advanced passing concepts.",
-  "related_content": [
-    {
-      "name": "Half Guard",
-      "relationship": "Common starting position"
-    },
-    {
-      "name": "Side Control",
-      "relationship": "Primary ending position"
-    },
-    {
-      "name": "Knee Shield Half Guard",
-      "relationship": "Common defensive structure to pass through"
-    },
-    {
-      "name": "Long Step Pass",
-      "relationship": "Alternative pass when knee slice is countered"
-    },
-    {
-      "name": "Leg Drag Pass",
-      "relationship": "Complementary pass in passing system"
-    },
-    {
-      "name": "Underhook Pass",
-      "relationship": "Related variation using underhook control"
-    },
-    {
-      "name": "Kimura",
-      "relationship": "Submission opportunity during pass"
-    },
-    {
-      "name": "Darce Choke",
-      "relationship": "Submission when opponent turns into you"
-    },
-    {
-      "name": "Arm Triangle",
-      "relationship": "Follow-up submission from consolidated position"
-    },
-    {
-      "name": "Pressure Passing",
-      "relationship": "Core principle of the technique"
-    },
-    {
-      "name": "Headquarters Position",
-      "relationship": "Intermediate position during pass execution"
-    },
-    {
-      "name": "Z-Guard",
-      "relationship": "Position that knee slice effectively counters"
-    },
-    {
-      "name": "Deep Half Guard",
-      "relationship": "Common guard recovery attempt to prevent"
-    },
-    {
-      "name": "Top Half Guard",
-      "relationship": "Conceptual framework for passing from half guard"
-    },
-    {
-      "name": "Knee Cut Pass",
-      "relationship": "Alternative angle variation of the slice"
-    }
-  ],
-  "from_position": "Half Guard/Bottom",
-  "outcomes": [
-    {
-      "to": "Side Control/Top",
-      "probability": 75,
-      "result": "success"
-    },
-    {
-      "to": "Half Guard/Bottom",
-      "probability": 15,
-      "result": "failure"
-    },
-    {
-      "to": "Half Guard/Top",
-      "probability": 10,
-      "result": "counter"
-    }
-  ],
-  "success_rate": 68
+  "position_integration": "The knee slice pass is a cornerstone technique in any complete guard passing system. It serves as a central hub from which numerous other passes and attacks can be launched. The knee slice naturally chains with the long step pass, leg drag, backstep pass, and over-under pass, creating a cohesive passing system where if one is defended, you can immediately transition to another. It works effectively from multiple starting positions including half guard, butterfly guard, headquarters, and various open guard configurations, making it extremely versatile. The pass also creates natural submission opportunities including the kimura, darce choke, and arm triangle, allowing you to seamlessly blend passing with attacking. In the broader context of positional hierarchy, the knee slice is your primary tool for advancing from guard positions to dominant top positions like side control, which then opens further advancement to mount or back control. Understanding the knee slice is essential for developing pressure passing abilities and creates the foundation for more advanced passing concepts and competition-level passing systems."
 }

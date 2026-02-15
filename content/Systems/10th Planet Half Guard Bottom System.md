@@ -335,7 +335,7 @@ The 10th Planet Half Guard Bottom System requires drilling that emphasizes both 
 - [[Old School]] (Position) - Classic sweep position accessed from Lockdown when opponent defends Electric Chair
 - [[Dogfight Position]] (Position) - Transitional position reached when coming up on underhook from bottom half guard
 - [[Rubber Guard]] (Position) - Connected 10th Planet system that shares control principles and can be accessed from half guard transitions
-- [[Lockdown Sweeps]] (Transition) - Family of sweep techniques executed from the Lockdown position
+- [[Lockdown Recovery]] (Transition) - Family of sweep techniques executed from the Lockdown position
 - [[Old School Sweep]] (Transition) - Signature sweep of the system using underhook and arm triangle from Lockdown
 - [[Underhook Sweep from Half]] (Transition) - Traditional half guard sweep that complements the Lockdown-based attacks
 - [[Deep Half Entry]] (Transition) - Escape route and alternative attack platform when Lockdown is countered
@@ -347,7 +347,6 @@ The 10th Planet Half Guard Bottom System requires drilling that emphasizes both 
 - [[Underhook Defense]] (Principle) - Critical principle for winning the underhook battle from bottom half guard
 - [[Whizzer Control]] (Principle) - Understanding opponent's whizzer defense to counter it effectively
 - [[Sweep Mechanics]] (Principle) - Fundamental principles underlying all Lockdown-based sweeps
-- [[Hip Movement]] (Principle) - Essential for generating power in whip-ups and maintaining dynamic bottom position
 - [[Frame Creation]] (Principle) - Prevents opponent from smashing and flattening before Lockdown is established
 - [[Creating Reactions]] (Principle) - Using Electric Chair threats to force defensive movements that enable sweeps
 - [[Guard Retention]] (Principle) - The Lockdown as an ultimate guard retention tool that prevents passing

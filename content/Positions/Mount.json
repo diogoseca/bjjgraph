@@ -117,51 +117,71 @@
     "transitions": [
       {
         "transition": "Armbar from Mount",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "Americana from Mount",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Cross Collar Choke",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Ezekiel from Mount",
-        "attempt_probability": 7
-      },
-      {
-        "transition": "Gift Wrap to Technical Mount",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "S-Mount Transition",
         "attempt_probability": 8
       },
       {
-        "transition": "High Mount Transition",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Mounted Triangle",
-        "attempt_probability": 7
-      },
-      {
-        "transition": "Consolidate Mount",
-        "attempt_probability": 15
-      },
-      {
-        "transition": "Kimura from Mount",
+        "transition": "Americana from Mount",
         "attempt_probability": 5
       },
       {
-        "transition": "Loop Choke from Mount",
+        "transition": "Cross Collar Choke",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Ezekiel from Mount",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Gift Wrap to Technical Mount",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "S-Mount Transition",
         "attempt_probability": 3
       },
       {
-        "transition": "Monoplata from Mount",
+        "transition": "High Mount Transition",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Mounted Triangle",
         "attempt_probability": 2
+      },
+      {
+        "transition": "Consolidate Mount",
+        "attempt_probability": 64
+      },
+      {
+        "transition": "Kimura from Mount",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Loop Choke from Mount",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Monoplata from Mount",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Mount Control",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Transition to 3-4 Mount",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Mount to 3-4 Mount",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Mount to Knee on Belly",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Mount to Technical Mount",
+        "attempt_probability": 1
       }
     ],
     "decision_tree": [
@@ -406,23 +426,35 @@
     "transitions": [
       {
         "transition": "Elbow Escape to Guard",
-        "attempt_probability": 35
+        "attempt_probability": 46
       },
       {
         "transition": "Upa Escape",
-        "attempt_probability": 20
+        "attempt_probability": 17
       },
       {
         "transition": "Hip Escape to Guard",
-        "attempt_probability": 25
+        "attempt_probability": 22
       },
       {
         "transition": "Explosive Bridge to Guard Recovery",
-        "attempt_probability": 15
+        "attempt_probability": 12
       },
       {
         "transition": "Explosive Bridge to Turtle",
-        "attempt_probability": 5
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Elbow Escape from Mount",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Heel Drag Escape",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Trap and Roll from Mount",
+        "attempt_probability": 1
       }
     ],
     "decision_tree": [

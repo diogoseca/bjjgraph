@@ -1,0 +1,13 @@
+{
+  "name": "Re-pull Half Guard from Dogfight",
+  "description": "",
+  "tags": [],
+  "from_position": "Dogfight Position/Bottom",
+  "outcomes": [
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

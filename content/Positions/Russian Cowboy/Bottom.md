@@ -4,7 +4,7 @@
 
 ---
 title: "Russian Cowboy Bottom | BJJ Position Guide | BJJ Graph"
-description: "Defensive guide to escaping Russian Cowboy position. Learn survival tactics, escape sequences, and recovery strategies. Success rates: Beginner 25%, Intermediate 40%, Advanced 60%."
+description: "Defensive guide to escaping Russian Cowboy position. Learn survival tactics, escape sequences, and recovery strategies from single-hook back control."
 ---
 
 
@@ -20,38 +20,38 @@ description: "Defensive guide to escaping Russian Cowboy position. Learn surviva
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll",
-      "text": "From this position, attempt Granby Roll. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Granby Roll to Guard",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Standup",
-      "text": "From this position, attempt Technical Standup. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Technical Stand-up",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape",
-      "text": "From this position, attempt Hip Escape. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Hip Escape to Guard",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle Transition",
-      "text": "From this position, attempt Turtle Transition. This technique is attempted in 21% of exchanges from this position.",
+      "text": "From this position, attempt Turtle Transition. This technique is attempted in 26% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guard Replacement",
-      "text": "From this position, attempt Guard Replacement. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Guard Recovery",
+      "text": "From this position, attempt Guard Recovery. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -115,7 +115,7 @@ description: "Defensive guide to escaping Russian Cowboy position. Learn surviva
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Russian Cowboy Bottom",
-  "description": "Defensive guide to escaping Russian Cowboy position. Learn survival tactics, escape sequences, and recovery strategies. Success rates: Beginner 25%, Intermediate 40%, Advanced 60%.",
+  "description": "Defensive guide to escaping Russian Cowboy position. Learn survival tactics, escape sequences, and recovery strategies from single-hook back control.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -210,17 +210,21 @@ The defensive hierarchy in Russian Cowboy emphasizes protecting the neck first, 
 
 ## Available Escapes
 
-### [[Granby Roll]] (17% of attempts)
+### [[Granby Roll to Guard]] (14% of attempts)
 
-### [[Technical Standup]] (15% of attempts)
+### [[Technical Stand-up]] (12% of attempts)
 
-### [[Hip Escape]] (18% of attempts)
+### [[Hip Escape to Guard]] (15% of attempts)
 
-### [[Rolling Back Take]] (14% of attempts)
+### [[Rolling Back Take]] (12% of attempts)
 
-### [[Turtle Transition]] (21% of attempts)
+### [[Turtle Transition]] (26% of attempts)
 
-### [[Guard Replacement]] (15% of attempts)
+### [[Guard Recovery]] (12% of attempts)
+
+### [[Hip Escape from Russian Cowboy]] (6% of attempts)
+
+### [[Roll Escape from Russian Cowboy]] (3% of attempts)
 
 
 
@@ -231,23 +235,23 @@ The defensive hierarchy in Russian Cowboy emphasizes protecting the neck first, 
 ## Decision Making from This Position
 
 **If opponent begins choking sequence or attacks neck:**
-- Execute **[[Hand Fighting]]** → [[Russian Cowboy]] (Probability: 80%)
-- Execute **[[Chin Protection]]** → [[Russian Cowboy]] (Probability: 85%)
+- Execute **[[Hand Fighting from Back]]** → [[Russian Cowboy]] (Probability: 80%)
+- Execute **[[Chin Protection and Frame]]** → [[Russian Cowboy]] (Probability: 85%)
 
 
 **If opponent advances hooking leg toward truck position:**
-- Execute **[[Hip Escape]]** → [[Half Guard]] (Probability: 50%)
+- Execute **[[Hip Escape to Guard]]** → [[Half Guard]] (Probability: 50%)
 - Execute **[[Turtle Transition]]** → [[Turtle]] (Probability: 55%)
 
 
 **If opponent loosens upper body control to adjust position:**
-- Execute **[[Technical Standup]]** → [[Standing Guard]] (Probability: 45%)
-- Execute **[[Granby Roll]]** → [[Open Guard]] (Probability: 50%)
+- Execute **[[Technical Stand-up]]** → [[Clinch]] (Probability: 45%)
+- Execute **[[Granby Roll to Guard]]** → [[Open Guard]] (Probability: 50%)
 
 
 **If opponent attempts to flatten you completely:**
-- Execute **[[Frame and Turn In]]** → [[Half Guard]] (Probability: 55%)
-- Execute **[[Guard Replacement]]** → [[Closed Guard]] (Probability: 45%)
+- Execute **[[Hip Escape to Guard]]** → [[Half Guard]] (Probability: 55%)
+- Execute **[[Guard Recovery]]** → [[Closed Guard]] (Probability: 45%)
 
 
 
@@ -373,7 +377,7 @@ Partner establishes Russian Cowboy then periodically loosens control. Practice r
 - **[[Truck]]** - Primary advancement position to defend against
 - **[[Turtle]]** - Common escape target and transitional position
 - **[[Half Guard]]** - Intermediate recovery position during escape sequences
-- **[[Back Escape Series]]** - Systematic defensive approach applicable to this position
+- **[[Hand Fighting from Back]]** - Critical defensive technique for preventing choke setups
 
 
 </section>

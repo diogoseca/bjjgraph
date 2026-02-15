@@ -1,0 +1,13 @@
+{
+  "name": "Pass Butterfly Hook Control",
+  "description": "",
+  "tags": [],
+  "from_position": "Butterfly Hook Control/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

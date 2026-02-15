@@ -21,19 +21,19 @@ description: "Master Williams Guard Bottom in BJJ. Innovative shoulder lock guar
     {
       "@type": "HowToStep",
       "name": "Execute Williams Shoulder Lock",
-      "text": "From this position, attempt Williams Shoulder Lock. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Williams Shoulder Lock. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
@@ -44,14 +44,14 @@ description: "Master Williams Guard Bottom in BJJ. Innovative shoulder lock guar
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take Generic",
-      "text": "From this position, attempt Back Take Generic. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Back Take from Bottom",
+      "text": "From this position, attempt Back Take from Bottom. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura to Back Take",
-      "text": "From this position, attempt Kimura to Back Take. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Kimura to Back Take. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -204,19 +204,21 @@ Williams Guard Bottom is an innovative open guard position characterized by cont
 
 ## Available Escapes
 
-### [[Williams Shoulder Lock]] (14% of attempts)
+### [[Williams Shoulder Lock]] (13% of attempts)
 
-### [[Omoplata Sweep]] (16% of attempts)
+### [[Omoplata Sweep]] (15% of attempts)
 
-### [[Triangle Setup]] (13% of attempts)
+### [[Triangle Setup]] (12% of attempts)
 
 ### [[Closed Guard to Omoplata]] (18% of attempts)
 
-### [[Back Take Generic]] (12% of attempts)
+### [[Back Take from Bottom]] (11% of attempts)
 
-### [[Kimura to Back Take]] (13% of attempts)
+### [[Kimura to Back Take]] (12% of attempts)
 
-### [[Rolling Armbar]] (14% of attempts)
+### [[Armbar Finish]] (13% of attempts)
+
+### [[Williams Guard Sweep]] (6% of attempts)
 
 
 
@@ -227,7 +229,7 @@ Williams Guard Bottom is an innovative open guard position characterized by cont
 ## Decision Making from This Position
 
 **If opponent defends shoulder lock by pulling arm back aggressively:**
-- Execute **[[Rolling Armbar]]** → [[Armbar Control]] (Probability: 60%)
+- Execute **[[Armbar Finish]]** → [[Armbar Control]] (Probability: 60%)
 - Execute **[[Omoplata Sweep]]** → [[Mount]] (Probability: 55%)
 
 
@@ -243,7 +245,7 @@ Williams Guard Bottom is an innovative open guard position characterized by cont
 
 **Else if opponent attempts to circle away from controlled arm:**
 - Execute **[[Closed Guard to Omoplata]]** → [[Omoplata Control]] (Probability: 75%)
-- Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 60%)
+- Execute **[[Back Take from Bottom]]** → [[Back Control]] (Probability: 60%)
 
 
 
@@ -333,7 +335,7 @@ Flow drill connecting Williams shoulder lock to omoplata to triangle to armbar. 
 **A**: Williams Guard requires a figure-four grip configuration on the opponent's arm that creates shoulder lock mechanics. Your bottom arm threads behind their tricep while your top hand grips your own wrist, creating the shoulder isolation. This grip must be reinforced by leg engagement—typically feet on hips or butterfly hooks—to create distance and prevent the opponent from collapsing into you to escape the shoulder manipulation.
 
 **Q2**: Your opponent starts to posture up and pull their arm back forcefully—what adjustment do you make?
-**A**: An aggressive arm pull is your trigger for the rolling armbar or omoplata transition. Follow their motion rather than fighting it—as they pull back, use their momentum to rotate into the omoplata by swinging your leg over their shoulder. Alternatively, if their elbow is exposed, transition to armbar control. The key is reading their defensive energy and redirecting it into your attack rather than trying to hold static position.
+**A**: An aggressive arm pull is your trigger for the armbar finish or omoplata transition. Follow their motion rather than fighting it—as they pull back, use their momentum to rotate into the omoplata by swinging your leg over their shoulder. Alternatively, if their elbow is exposed, transition to armbar control. The key is reading their defensive energy and redirecting it into your attack rather than trying to hold static position.
 
 **Q3**: How do you maintain Williams Guard when opponent drives forward with heavy pressure?
 **A**: Forward pressure is actually advantageous for your attacking options. Use your legs as frames to manage the pressure while maintaining shoulder lock grip. Their forward drive accelerates your omoplata rotation—use their momentum to swing your leg over and take the back, or complete the omoplata sweep. Never try to hold static against forward pressure; instead, channel their energy into transitions that favor your attacking angles.

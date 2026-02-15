@@ -93,17 +93,21 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 ### Available Transitions
 
 
-- **[[Granby Roll]]** (17% of attempts)
+- **[[Granby Roll to Guard]]** (14% of attempts)
 
-- **[[Technical Standup]]** (15% of attempts)
+- **[[Technical Stand-up]]** (12% of attempts)
 
-- **[[Hip Escape]]** (18% of attempts)
+- **[[Hip Escape to Guard]]** (15% of attempts)
 
-- **[[Rolling Back Take]]** (14% of attempts)
+- **[[Rolling Back Take]]** (12% of attempts)
 
-- **[[Turtle Transition]]** (21% of attempts)
+- **[[Turtle Transition]]** (26% of attempts)
 
-- **[[Guard Replacement]]** (15% of attempts)
+- **[[Guard Recovery]]** (12% of attempts)
+
+- **[[Hip Escape from Russian Cowboy]]** (6% of attempts)
+
+- **[[Roll Escape from Russian Cowboy]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -160,21 +164,23 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 ### Available Transitions
 
 
-- **[[Truck Entry]]** (14% of attempts)
+- **[[Truck Entry]]** (13% of attempts)
 
-- **[[Twister Finish]]** (11% of attempts)
+- **[[Twister Finish]]** (10% of attempts)
 
-- **[[Back Control to Crucifix]]** (13% of attempts)
+- **[[Back Control to Crucifix]]** (12% of attempts)
 
-- **[[Rear Naked Choke]]** (12% of attempts)
+- **[[Rear Naked Choke]]** (11% of attempts)
 
-- **[[Calf Slicer from Truck]]** (11% of attempts)
+- **[[Calf Slicer]]** (10% of attempts)
 
-- **[[Bow and Arrow Choke]]** (11% of attempts)
+- **[[Bow and Arrow Choke]]** (10% of attempts)
 
-- **[[Turtle to Back Take]]** (16% of attempts)
+- **[[Turtle to Back Take]]** (18% of attempts)
 
-- **[[Armbar from Back]]** (12% of attempts)
+- **[[Armbar from Back Transition]]** (11% of attempts)
+
+- **[[Russian Cowboy to Back Control]]** (5% of attempts)
 
 
 ### Common Mistakes

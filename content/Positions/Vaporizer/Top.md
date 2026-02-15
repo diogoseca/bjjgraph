@@ -21,37 +21,37 @@ description: "Master Vaporizer top defense in BJJ. Complete guide to escaping lo
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard Pass",
-      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 22% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Pressure Pass",
-      "text": "From this position, attempt Pressure Pass. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Pressure Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Lockdown Escape to Half Guard Pass",
-      "text": "From this position, attempt Lockdown Escape to Half Guard Pass. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Lockdown Escape to Half Guard Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Whizzer",
-      "text": "From this position, attempt Whizzer. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Whizzer. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,17 +210,21 @@ Successful navigation of this position requires understanding the systematic nat
 
 ## Available Attacks
 
-### [[Half Guard Pass]] (17% of attempts)
+### [[Half Guard Pass]] (22% of attempts)
 
-### [[Knee Slice Pass]] (17% of attempts)
+### [[Knee Slice Pass]] (15% of attempts)
 
-### [[Smash Pass]] (17% of attempts)
+### [[Smash Pass]] (13% of attempts)
 
-### [[Pressure Pass]] (17% of attempts)
+### [[Pressure Pass]] (13% of attempts)
 
-### [[Lockdown Escape to Half Guard Pass]] (16% of attempts)
+### [[Lockdown Escape to Half Guard Pass]] (13% of attempts)
 
-### [[Whizzer]] (16% of attempts)
+### [[Whizzer]] (13% of attempts)
+
+### [[Defend Vaporizer Sweep]] (7% of attempts)
+
+### [[Pass Vaporizer Position]] (4% of attempts)
 
 
 
@@ -232,7 +236,7 @@ Successful navigation of this position requires understanding the systematic nat
 
 **If opponent has deep underhook and is creating strong whip-up pressure:**
 - Execute **[[Whizzer]]** → [[Half Guard]] (Probability: 55%)
-- Execute **[[Base Widening]]** → [[Combat Base]] (Probability: 45%)
+- Execute **[[Lockdown Break and Pass]]** → [[Combat Base]] (Probability: 45%)
 
 
 **If lockdown is tight but upper body control is weak:**
@@ -241,7 +245,7 @@ Successful navigation of this position requires understanding the systematic nat
 
 
 **If opponent is threatening Electric Chair or attempting to roll to Truck:**
-- Execute **[[Base Widening]]** → [[Combat Base]] (Probability: 60%)
+- Execute **[[Lockdown Break and Pass]]** → [[Combat Base]] (Probability: 60%)
 - Execute **[[Half Guard Pass]]** → [[Side Control]] (Probability: 40%)
 
 

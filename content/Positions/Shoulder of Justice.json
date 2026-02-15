@@ -39,7 +39,7 @@
       "relationship": "Transition option when opponent creates space while shrimping"
     },
     {
-      "name": "Scarf Hold Position",
+      "name": "Kuzure Kesa-Gatame",
       "relationship": "Alternative pressure position with similar control objectives"
     },
     {
@@ -131,12 +131,12 @@
         "condition": "If opponent attempts to create frames or push away with near-side arm to relieve pressure",
         "actions": [
           {
-            "technique": "Kimura from Side Control",
+            "technique": "Kimura",
             "target": "Kimura Trap",
             "probability": 72
           },
           {
-            "technique": "Americana from Side Control",
+            "technique": "Americana",
             "target": "Armbar Control",
             "probability": 67
           }
@@ -151,7 +151,7 @@
             "probability": 77
           },
           {
-            "technique": "Side Control to Mount",
+            "technique": "Knee on Belly",
             "target": "Knee on Belly",
             "probability": 70
           }
@@ -166,8 +166,8 @@
             "probability": 82
           },
           {
-            "technique": "Position Change",
-            "target": "Scarf Hold Position",
+            "technique": "Back Take from Top",
+            "target": "Back Control",
             "probability": 74
           }
         ]
@@ -196,7 +196,7 @@
             "probability": 80
           },
           {
-            "technique": "Kimura from Side Control",
+            "technique": "Kimura",
             "target": "Kimura Trap",
             "probability": 68
           }
@@ -298,11 +298,11 @@
         "relationship": "Position advancement target when opponent turns or shrimps away"
       },
       {
-        "name": "Kimura from Side Control",
+        "name": "Kimura",
         "relationship": "Primary offensive technique - highest percentage submission from this position"
       },
       {
-        "name": "Americana from Side Control",
+        "name": "Americana",
         "relationship": "Secondary submission option when near arm is isolated and trapped"
       }
     ],
@@ -320,32 +320,40 @@
     },
     "transitions": [
       {
-        "transition": "Kimura from Side Control",
-        "attempt_probability": 16
+        "transition": "Kimura",
+        "attempt_probability": 20
       },
       {
-        "transition": "Americana from Side Control",
-        "attempt_probability": 14
-      },
-      {
-        "transition": "Side Control to Mount",
-        "attempt_probability": 15
-      },
-      {
-        "transition": "Side Control to North-South",
-        "attempt_probability": 15
-      },
-      {
-        "transition": "Arm Triangle",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "North-South Choke",
+        "transition": "Americana",
         "attempt_probability": 12
       },
       {
-        "transition": "Position Change",
-        "attempt_probability": 15
+        "transition": "Side Control to Mount",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Side Control to North-South",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Arm Triangle",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "North-South Choke",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Knee on Belly",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Shoulder of Justice Kimura Setup",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Shoulder of Justice to Mount",
+        "attempt_probability": 3
       }
     ]
   },
@@ -363,7 +371,7 @@
     ],
     "overview": "The Shoulder of Justice Bottom position represents one of the most uncomfortable and challenging defensive situations in Brazilian Jiu-Jitsu. From this position, you are flat on your back with your opponent driving their shoulder blade deep into your jaw at an angle toward your far shoulder, creating intense pressure through your temporomandibular joint and cervical spine. This relentless pressure creates both physical discomfort and technical challenges, as every defensive movement you make can expose you to submissions or further position advancement.\n\nFrom the bottom perspective, your primary objective is to relieve the shoulder pressure while preventing submissions and creating opportunities for escape or guard recovery. The psychological challenge of this position is significant - the pressure is designed to force reactive movements that open offensive pathways for your opponent. Understanding the dilemma structure inherent in this position is critical: attempting to push away with your near arm exposes you to kimuras, turning away opens north-south transitions, shrimping allows mount advancement, and bringing your far arm across creates arm triangle opportunities. Success from bottom requires patience, proper breathing techniques, systematic pressure relief, and recognition of genuine escape windows rather than reactive desperation movements that play into your opponent's control strategy.",
     "state_properties": {
-      "point_value": 0,
+      "point_value": -3,
       "position_type": "Defensive",
       "risk_level": "High",
       "energy_cost": "High",
@@ -415,7 +423,7 @@
       },
       {
         "question": "Your opponent shifts weight toward your head to increase pressure - what escape opportunity does this create?",
-        "answer": "When opponent shifts weight toward your head, their hips become lighter on your hip line, creating a potential bridge and roll opportunity. Their forward weight shift also makes them vulnerable if you can time a coordinated bridge that disrupts their base. Additionally, you may be able to sneak your hips out toward your feet for a technical standup attempt if you can create the initial angle."
+        "answer": "When opponent shifts weight toward your head, their hips become lighter on your hip line, creating a potential bridge and roll opportunity. Their forward weight shift also makes them vulnerable if you can time a coordinated bridge that disrupts their base. Additionally, you may be able to sneak your hips out toward your feet for a technical stand-up attempt if you can create the initial angle."
       },
       {
         "question": "What happens if you turn your face into the pressure to relieve jaw discomfort?",
@@ -436,7 +444,7 @@
             "probability": 35
           },
           {
-            "technique": "Frame and Shrimp",
+            "technique": "Frame and Shrimp to Guard",
             "target": "Closed Guard",
             "probability": 28
           }
@@ -451,7 +459,7 @@
             "probability": 22
           },
           {
-            "technique": "Technical Standup",
+            "technique": "Technical Stand-up",
             "target": "Standing Position",
             "probability": 18
           }
@@ -461,12 +469,12 @@
         "condition": "If opponent begins stepping over for mount transition creating space",
         "actions": [
           {
-            "technique": "Elbow Escape",
+            "technique": "Elbow Escape to Guard",
             "target": "Half Guard",
             "probability": 42
           },
           {
-            "technique": "Hip Escape",
+            "technique": "Hip Escape to Guard",
             "target": "Open Guard",
             "probability": 32
           }
@@ -561,7 +569,7 @@
         "relationship": "Primary escape technique from this position"
       },
       {
-        "name": "Elbow Escape",
+        "name": "Elbow Escape to Guard",
         "relationship": "Secondary escape technique for guard recovery"
       }
     ],
@@ -580,27 +588,35 @@
     "transitions": [
       {
         "transition": "Shrimp Escape",
+        "attempt_probability": 30
+      },
+      {
+        "transition": "Elbow Escape to Guard",
         "attempt_probability": 19
       },
       {
-        "transition": "Elbow Escape",
-        "attempt_probability": 21
-      },
-      {
-        "transition": "Frame and Shrimp",
-        "attempt_probability": 17
+        "transition": "Frame and Shrimp to Guard",
+        "attempt_probability": 16
       },
       {
         "transition": "Bridge and Roll",
         "attempt_probability": 11
       },
       {
-        "transition": "Technical Standup",
-        "attempt_probability": 16
+        "transition": "Technical Stand-up",
+        "attempt_probability": 10
       },
       {
-        "transition": "Hip Escape",
-        "attempt_probability": 16
+        "transition": "Hip Escape to Guard",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Escape Shoulder of Justice",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Frame from Shoulder of Justice",
+        "attempt_probability": 2
       }
     ]
   }

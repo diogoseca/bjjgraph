@@ -20,8 +20,8 @@ description: "Master defensive strategies from Reverse Mount Bottom. Learn syste
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Elbow Escape",
-      "text": "From this position, attempt Elbow Escape. This technique is attempted in 25% of exchanges from this position.",
+      "name": "Execute Elbow Escape to Guard",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
@@ -32,20 +32,20 @@ description: "Master defensive strategies from Reverse Mount Bottom. Learn syste
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape",
-      "text": "From this position, attempt Hip Escape. This technique is attempted in 20% of exchanges from this position.",
+      "name": "Execute Hip Escape to Guard",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 20% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guard Replacement",
-      "text": "From this position, attempt Guard Replacement. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Guard Recovery",
+      "text": "From this position, attempt Guard Recovery. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Frame and Shrimp",
-      "text": "From this position, attempt Frame and Shrimp. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Frame and Shrimp to Guard",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     }
   ],
@@ -202,15 +202,15 @@ Understanding the escape hierarchy and maintaining composure under pressure are 
 
 ## Available Escapes
 
-### [[Elbow Escape]] (25% of attempts)
+### [[Elbow Escape to Guard]] (25% of attempts)
 
 ### [[Bridge and Roll]] (25% of attempts)
 
-### [[Hip Escape]] (20% of attempts)
+### [[Hip Escape to Guard]] (20% of attempts)
 
-### [[Guard Replacement]] (15% of attempts)
+### [[Guard Recovery]] (15% of attempts)
 
-### [[Frame and Shrimp]] (15% of attempts)
+### [[Frame and Shrimp to Guard]] (15% of attempts)
 
 
 
@@ -221,23 +221,23 @@ Understanding the escape hierarchy and maintaining composure under pressure are 
 ## Decision Making from This Position
 
 **If opponent is establishing seat belt control or attempting rear naked choke:**
-- Execute **[[RNC Defense]]** → [[Turtle]] (Probability: 40%)
-- Execute **[[Hand Fighting from Back]]** → [[Side Control]] (Probability: 30%)
+- Execute **[[Hand Fighting from Back]]** → [[Turtle]] (Probability: 40%)
+- Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 30%)
 
 
 **If opponent has not yet established hooks or full control:**
 - Execute **[[Bridge and Roll]]** → [[Half Guard]] (Probability: 45%)
-- Execute **[[Hip Escape]]** → [[Open Guard]] (Probability: 35%)
+- Execute **[[Hip Escape to Guard]]** → [[Open Guard]] (Probability: 35%)
 
 
 **If opponent is high on back with weight shifted forward:**
-- Execute **[[Forward Roll Escape]]** → [[Turtle]] (Probability: 30%)
-- Execute **[[Granby Roll]]** → [[Deep Half Guard]] (Probability: 25%)
+- Execute **[[Guard Recovery]]** → [[Turtle]] (Probability: 30%)
+- Execute **[[Frame and Shrimp to Guard]]** → [[Deep Half Guard]] (Probability: 25%)
 
 
-**If opponent attempts to transition to traditional mount:**
-- Execute **[[Guard Replacement]]** → [[Half Guard]] (Probability: 35%)
-- Execute **[[Frame and Shrimp]]** → [[Closed Guard]] (Probability: 25%)
+**If opponent attempts to transition to traditional mount by spinning:**
+- Execute **[[Guard Recovery]]** → [[Half Guard]] (Probability: 35%)
+- Execute **[[Frame and Shrimp to Guard]]** → [[Closed Guard]] (Probability: 25%)
 
 
 
@@ -377,8 +377,8 @@ Partner sits in reverse mount with progressively increasing weight and control. 
 - **[[Turtle]]** - Primary escape target from reverse mount
 - **[[Half Guard]]** - Secondary escape target providing better defensive structure
 - **[[Bridge and Roll]]** - Key escape transition technique
-- **[[Elbow Escape]]** - Alternative escape technique to create space
-- **[[Frame and Shrimp]]** - Foundational escape movement pattern
+- **[[Elbow Escape to Guard]]** - Alternative escape technique to create space and recover guard
+- **[[Frame and Shrimp to Guard]]** - Foundational escape movement pattern for re-guarding
 
 
 </section>

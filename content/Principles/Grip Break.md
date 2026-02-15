@@ -367,7 +367,6 @@ Systematic study of high-level competition footage focusing specifically on how 
 - [[Grip Fighting]] (Principle) - Parent concept encompassing both grip establishment and grip breaking as integrated system
 - [[Grip Strategy]] (Principle) - Strategic framework for determining when to fight for grips versus accepting certain grips
 - [[Grip Breaking]] (Principle) - Closely related concept focusing on systematic approach to removing opponent's controls
-- [[Hand Fighting]] (Principle) - No-gi equivalent emphasizing hand control and wrist fighting instead of fabric grips
 - [[Connection Breaking]] (Principle) - Broader concept of removing all opponent connections, of which grip breaking is primary component
 - [[Frame Creation]] (Principle) - Complementary defensive concept that maintains space after grips are broken
 - [[Guard Opening Sequence]] (Transition) - Technical application requiring systematic grip breaking to open closed guard
@@ -375,7 +374,7 @@ Systematic study of high-level competition footage focusing specifically on how 
 - [[Closed Guard]] (Position) - Position where grip breaking prevents opponent from opening guard and establishing passing grips
 - [[Spider Guard]] (Position) - Position demonstrating grip concepts in reverse - maintaining grips against breaking attempts
 - [[Combat Base]] (Position) - Position requiring systematic grip breaking to establish passing controls from guard
-- [[Guard Pass]] (Transition) - Technical category requiring grip breaking as prerequisite to establishing passing controls
+- [[Pass to Side Control]] (Transition) - Technical category requiring grip breaking as prerequisite to establishing passing controls
 
 
 </section>

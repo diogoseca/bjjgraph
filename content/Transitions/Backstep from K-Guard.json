@@ -1,0 +1,13 @@
+{
+  "name": "Backstep from K-Guard",
+  "description": "",
+  "tags": [],
+  "from_position": "K-Guard/Top",
+  "outcomes": [
+    {
+      "to": "Half Guard/Top",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

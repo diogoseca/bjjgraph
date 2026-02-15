@@ -359,7 +359,6 @@ Begin with static position holds to develop the hip flexibility and muscle memor
 - [[Posture Breaking]] (Principle) - Foundational principle required before rubber guard establishment
 - [[Guard Retention]] (Principle) - Defensive framework maintained throughout offensive sequence
 - [[Submission Chains]] (Principle) - Theoretical foundation for multiple submission pathways
-- [[Hip Movement]] (Principle) - Critical mobility requirement for rubber guard positioning
 - [[Flexibility Training]] (Principle) - Physical preparation necessary for system execution
 - [[Offensive Combinations]] (Principle) - Strategic framework for chaining triangle with alternative attacks
 - [[10th Planet Rubber Guard System]] (System) - Parent system containing complete rubber guard framework and philosophy

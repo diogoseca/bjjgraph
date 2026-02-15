@@ -20,38 +20,38 @@ description: "Master attacking from Carni position in BJJ. Advanced leg entangle
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Inside Heel Hook",
-      "text": "From this position, attempt Inside Heel Hook. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Heel Hook",
+      "text": "From this position, attempt Heel Hook. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Saddle Entry from Top",
-      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Turtle to Truck",
-      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Roll to Truck",
+      "text": "From this position, attempt Roll to Truck. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Calf Slicer from Truck",
-      "text": "From this position, attempt Calf Slicer from Truck. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Calf Slicer",
+      "text": "From this position, attempt Calf Slicer. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Outside Ashi Entry",
-      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,21 +213,23 @@ The technical requirements for effective Carni play from bottom include precise 
 
 ## Available Escapes
 
-### [[Inside Heel Hook]] (13% of attempts)
+### [[Heel Hook]] (12% of attempts)
 
-### [[Saddle Entry from Top]] (15% of attempts)
+### [[Saddle Entry from Top]] (17% of attempts)
 
-### [[Rolling Back Take]] (12% of attempts)
+### [[Rolling Back Take]] (11% of attempts)
 
-### [[Turtle to Truck]] (13% of attempts)
+### [[Roll to Truck]] (12% of attempts)
 
-### [[Calf Slicer from Truck]] (12% of attempts)
+### [[Calf Slicer]] (11% of attempts)
 
-### [[Outside Ashi Entry]] (13% of attempts)
+### [[Outside Ashi Entry]] (12% of attempts)
 
-### [[Kneebar Finish]] (12% of attempts)
+### [[Kneebar Finish]] (11% of attempts)
 
-### [[Side Control to North-South]] (10% of attempts)
+### [[Side Control to North-South]] (9% of attempts)
+
+### [[Carni to Gogoplata Setup]] (5% of attempts)
 
 
 
@@ -244,21 +246,21 @@ The technical requirements for effective Carni play from bottom include precise 
 
 **If opponent attempts to roll away or spin to extract trapped leg:**
 - Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 65%)
-- Execute **[[Turtle to Truck]]** → [[Truck]] (Probability: 60%)
+- Execute **[[Roll to Truck]]** → [[Truck]] (Probability: 60%)
 
 
 **If opponent turns belly down to defend heel exposure:**
-- Execute **[[Turtle to Truck]]** → [[Truck]] (Probability: 75%)
-- Execute **[[Calf Slicer from Truck]]** → [[Truck]] (Probability: 55%)
+- Execute **[[Roll to Truck]]** → [[Truck]] (Probability: 75%)
+- Execute **[[Calf Slicer]]** → [[Truck]] (Probability: 55%)
 
 
 **If opponent extends leg and attempts to create distance:**
-- Execute **[[Inside Heel Hook]]** → [[Heel Hook]] (Probability: 70%)
+- Execute **[[Heel Hook]]** → [[Heel Hook]] (Probability: 70%)
 - Execute **[[Kneebar Finish]]** → [[Kneebar Control]] (Probability: 60%)
 
 
 **If opponent establishes upper body pressure and attempts to stack:**
-- Execute **[[Granby Roll]]** → [[Half Guard]] (Probability: 50%)
+- Execute **[[Granby Roll to Guard]]** → [[Half Guard]] (Probability: 50%)
 - Execute **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]] (Probability: 45%)
 
 

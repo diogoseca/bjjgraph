@@ -21,37 +21,37 @@ description: "Defend and escape Buggy Choke attacks from turtle. Complete defens
     {
       "@type": "HowToStep",
       "name": "Execute Sit to Half Guard",
-      "text": "From this position, attempt Sit to Half Guard. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Sit to Half Guard. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 5% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Stand Up",
-      "text": "From this position, attempt Technical Stand Up. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Technical Stand-up",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 6% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turn In and Face",
-      "text": "From this position, attempt Turn In and Face. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Turn In and Face. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Roll to Deep Half Guard",
-      "text": "From this position, attempt Roll to Deep Half Guard. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Turtle to Guard",
+      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Back Door Escape",
+      "text": "From this position, attempt Back Door Escape. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,17 +210,21 @@ Successful defense requires abandoning the mindset of maintaining turtle as a sa
 
 ## Available Escapes
 
-### [[Sit to Half Guard]] (18% of attempts)
+### [[Sit to Half Guard]] (25% of attempts)
 
-### [[Granby Roll to Guard]] (18% of attempts)
+### [[Granby Roll to Guard]] (5% of attempts)
 
-### [[Technical Stand Up]] (16% of attempts)
+### [[Technical Stand-up]] (6% of attempts)
 
-### [[Turn In and Face]] (18% of attempts)
+### [[Turn In and Face]] (14% of attempts)
 
-### [[Roll to Deep Half Guard]] (14% of attempts)
+### [[Turtle to Guard]] (12% of attempts)
 
-### [[Elbow Escape to Guard]] (16% of attempts)
+### [[Back Door Escape]] (13% of attempts)
+
+### [[Roll to Deep Half Guard]] (7% of attempts)
+
+### [[Turtle to Back Control]] (18% of attempts)
 
 
 

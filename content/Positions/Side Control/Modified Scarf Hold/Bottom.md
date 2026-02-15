@@ -20,8 +20,8 @@ description: "Defensive guide for Modified Scarf Hold bottom position. Learn sys
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Elbow Escape",
-      "text": "From this position, attempt Elbow Escape. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Elbow Escape to Guard",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
@@ -38,8 +38,8 @@ description: "Defensive guide for Modified Scarf Hold bottom position. Learn sys
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Frame and Shrimp",
-      "text": "From this position, attempt Frame and Shrimp. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Frame and Shrimp to Guard",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 16% of exchanges from this position.",
       "position": 4
     },
     {
@@ -213,13 +213,13 @@ The psychological component cannot be overlooked. Modified Scarf Hold creates in
 
 ## Available Escapes
 
-### [[Elbow Escape]] (18% of attempts)
+### [[Elbow Escape to Guard]] (18% of attempts)
 
 ### [[Bridge and Roll]] (14% of attempts)
 
 ### [[Turtle Transition]] (21% of attempts)
 
-### [[Frame and Shrimp]] (16% of attempts)
+### [[Frame and Shrimp to Guard]] (16% of attempts)
 
 ### [[Arm Extraction]] (19% of attempts)
 
@@ -235,11 +235,11 @@ The psychological component cannot be overlooked. Modified Scarf Hold creates in
 
 **If opponent maintains heavy chest pressure but near arm is not fully controlled:**
 - Execute **[[Arm Extraction]]** → [[Half Guard]] (Probability: 45%)
-- Execute **[[Frame and Shrimp]]** → [[Open Guard]] (Probability: 35%)
+- Execute **[[Frame and Shrimp to Guard]]** → [[Open Guard]] (Probability: 35%)
 
 
 **If opponent rises to transition to mount or hunt submissions:**
-- Execute **[[Elbow Escape]]** → [[Half Guard]] (Probability: 50%)
+- Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 50%)
 - Execute **[[Bridge and Roll]]** → [[Closed Guard]] (Probability: 30%)
 
 
@@ -341,7 +341,7 @@ Partner starts in Modified Scarf Hold, you attempt specific escape technique, pa
 **A**: Avoid explosive movements that deplete energy without creating escape opportunities. Maintain steady breathing despite pressure. Make small, purposeful adjustments rather than large desperate movements. Accept that you may need to survive for extended periods - settle mentally into efficient defense mode. Save explosive movements for high-percentage escape moments only.
 
 **Q8**: You partially escape to turtle position but opponent still has hooks and chest contact - how do you complete the escape?
-**A**: From turtle with opponent still attached, immediately post on your hands and drive your hips backward to create separation. Turn to face them to recover guard, or continue circling away to create space for a sit-out or granby roll. Never remain static in turtle with opponent maintaining contact - either complete the escape to guard/standing or be prepared to defend back takes.
+**A**: From turtle with opponent still attached, immediately post on your hands and drive your hips backward to create separation. Turn to face them to recover guard, or continue circling away to create space for a sit-out or granby roll. Never remain static in turtle with opponent maintaining contact - either complete the escape to guard or standing, or be prepared to defend back takes.
 
 
 
@@ -371,8 +371,8 @@ Partner starts in Modified Scarf Hold, you attempt specific escape technique, pa
 - **[[Kesa Gatame]]** - Traditional scarf hold variant
 - **[[Turtle]]** - Common escape destination
 - **[[Half Guard]]** - Primary guard recovery target
-- **[[Elbow Escape]]** - Primary escape technique
-- **[[Frame and Shrimp]]** - Fundamental escape movement
+- **[[Elbow Escape to Guard]]** - Primary escape technique
+- **[[Frame and Shrimp to Guard]]** - Fundamental escape movement
 - **[[Bridge and Roll]]** - Secondary escape technique
 
 

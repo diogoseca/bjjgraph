@@ -19,7 +19,7 @@ New York is a fundamental control position within 10th Planet's Rubber Guard sys
 
 The strategic value of New York lies in its ability to simultaneously break the opponent's posture while maintaining offensive options. By securing the overhook and controlling the shin, the bottom player creates a system where the top player cannot establish strong base or generate meaningful pressure. This control mechanism is particularly effective in no-gi grappling where traditional collar grips are unavailable, making it a cornerstone of 10th Planet Jiu-Jitsu.
 
-From a biomechanical perspective, New York exploits the opponent's compromised structure by forcing them into a hunched, defensive posture. The overhook eliminates one posting base while the shin control prevents them from creating distance or improving their position. This dual-control system creates what 10th Planet's calls a "control web" where every escape attempt opens a different submission or positional advancement.
+From a biomechanical perspective, New York exploits the opponent's compromised structure by forcing them into a hunched, defensive posture. The overhook eliminates one posting base while the shin control prevents them from creating distance or improving their position. This dual-control system creates what 10th Planet calls a "control web" where every escape attempt opens a different submission or positional advancement.
 
 The position requires significant hip flexibility and core strength from the bottom player, as maintaining the shin-to-shoulder connection while managing the overhook demands both mobility and muscular endurance. Athletes with limited hip flexibility will struggle to maintain New York effectively and may find themselves forced back to more traditional closed guard positions.
 
@@ -117,7 +117,7 @@ The learning curve for New York is steep, typically requiring 6-12 months of ded
 
 - **[[Gogoplata]]** (7% of attempts)
 
-- **[[Armbar from Guard]]** (11% of attempts)
+- **[[Armbar Finish]]** (11% of attempts)
 
 - **[[Hip Bump Sweep]]** (11% of attempts)
 
@@ -186,17 +186,19 @@ The learning curve for New York is steep, typically requiring 6-12 months of ded
 ### Available Transitions
 
 
-- **[[Posture Recovery]]** (18% of attempts)
+- **[[Posture Recovery]]** (19% of attempts)
 
-- **[[Overhook Extraction]]** (16% of attempts)
+- **[[Overhook Extraction]]** (19% of attempts)
 
-- **[[Guard Opening Sequence]]** (15% of attempts)
+- **[[Guard Opening Sequence]]** (14% of attempts)
 
-- **[[Base Widening]]** (20% of attempts)
+- **[[Stack Defense]]** (25% of attempts)
 
-- **[[Stack Defense]]** (21% of attempts)
+- **[[Pressure Pass]]** (9% of attempts)
 
-- **[[Pressure Pass]]** (10% of attempts)
+- **[[Posture Recovery to Closed Guard]]** (9% of attempts)
+
+- **[[New York Pass to Side Control]]** (5% of attempts)
 
 
 ### Common Mistakes

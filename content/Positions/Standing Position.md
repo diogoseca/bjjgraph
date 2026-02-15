@@ -38,8 +38,8 @@ description: "Master standing position in BJJ. Complete guide covering grips, ta
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Snap Down",
-      "text": "From this position, attempt Snap Down. This technique is attempted in 3% of exchanges from this position.",
+      "name": "Execute Snap Down to Front Headlock",
+      "text": "From this position, attempt Snap Down to Front Headlock. This technique is attempted in 3% of exchanges from this position.",
       "position": 4
     },
     {
@@ -233,7 +233,7 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 
 ### [[Ankle Pick]] (2% of attempts)
 
-### [[Snap Down]] (3% of attempts)
+### [[Snap Down to Front Headlock]] (3% of attempts)
 
 ### [[Guard Pull]] (6% of attempts)
 
@@ -290,7 +290,7 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 ## Decision Making from This Position
 
 **If opponent establishes strong collar tie and is driving forward with pressure:**
-- Execute **[[Snap Down]]** → [[Front Headlock]] (Probability: 55%)
+- Execute **[[Snap Down to Front Headlock]]** → [[Front Headlock]] (Probability: 55%)
 - Execute **[[Guard Pull]]** → [[Closed Guard]] (Probability: 50%)
 - Execute **[[Arm Drag to Back]]** → [[Back Control]] (Probability: 45%)
 
@@ -315,7 +315,7 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 
 **If opponent is circling and avoiding engagement with constant movement:**
 - Execute **[[Ankle Pick]]** → [[Half Guard]] (Probability: 45%)
-- Execute **[[Snap Down]]** → [[Front Headlock]] (Probability: 40%)
+- Execute **[[Snap Down to Front Headlock]]** → [[Front Headlock]] (Probability: 40%)
 - Execute **[[Guard Pull]]** → [[Closed Guard]] (Probability: 50%)
 
 
@@ -429,16 +429,16 @@ Practice multiple guard pull variations from standing engagement, focusing on gr
 ## Related Positions and Techniques
 
 - **[[Clinch]]** - Natural progression from standing with established grips and collar tie control
-- **[[Front Headlock]]** - Common transition target from snapdowns
-- **[[Closed Guard]]** - Primary guard pull destination
-- **[[Combat Base]]** - Standing variation of defensive base concepts
-- **[[Guard Pull]]** - Key offensive transition from standing
+- **[[Front Headlock]]** - Common transition target from snapdowns and failed shot defense
+- **[[Closed Guard]]** - Primary guard pull destination from standing engagement
+- **[[Combat Base]]** - Standing variation of defensive base concepts shared with ground positions
+- **[[Guard Pull]]** - Key offensive transition from standing to ground game
 - **[[Double Leg Entry]]** - Primary takedown technique from this position
-- **[[Single Leg Entry]]** - High-percentage takedown option
+- **[[Single Leg Entry]]** - High-percentage takedown option from standing
 - **[[Sprawl]]** - Essential defensive response to leg attacks
-- **[[Seated Guard]]** - Common guard pull destination for modern BJJ strategies
 - **[[De La Riva Guard]]** - Rolling guard pull destination with leg entanglement options
 - **[[Back Control]]** - High-value target from standing arm drags and back takes
+- **[[Snap Down to Front Headlock]]** - Primary snapdown transition to establish front headlock control
 
 
 </section>

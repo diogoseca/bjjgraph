@@ -305,23 +305,35 @@
     "transitions": [
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 22
+        "attempt_probability": 39
       },
       {
         "transition": "Smash Pass",
-        "attempt_probability": 20
-      },
-      {
-        "transition": "Side Control to Mount",
-        "attempt_probability": 18
+        "attempt_probability": 13
       },
       {
         "transition": "Underhook Pass",
-        "attempt_probability": 20
+        "attempt_probability": 13
       },
       {
-        "transition": "Back Take Generic",
-        "attempt_probability": 20
+        "transition": "Back Step Pass",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Darce Setup",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Transition to Flattened Half Guard",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Pass Pocket Half",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Smash Pocket Half",
+        "attempt_probability": 2
       }
     ]
   },
@@ -412,7 +424,7 @@
             "probability": 65
           },
           {
-            "technique": "Back Take Generic",
+            "technique": "Back Take from Bottom",
             "target": "Back Control",
             "probability": 55
           }
@@ -452,13 +464,13 @@
         "condition": "If opponent attempts to extract trapped leg by extending it",
         "actions": [
           {
-            "technique": "Electric Chair Submission",
+            "technique": "Electric Chair Transition",
             "target": "Electric Chair",
             "probability": 60
           },
           {
-            "technique": "Truck Entry",
-            "target": "Twister Control",
+            "technique": "Roll to Truck",
+            "target": "Truck",
             "probability": 55
           }
         ]
@@ -549,7 +561,7 @@
         "relationship": "Common advancement target via back-take from underhook"
       },
       {
-        "name": "Twister Control",
+        "name": "Truck",
         "relationship": "Advanced transition when opponent defends Old School Sweep"
       },
       {
@@ -576,23 +588,35 @@
     "transitions": [
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 25
-      },
-      {
-        "transition": "Back Take Generic",
-        "attempt_probability": 20
+        "attempt_probability": 37
       },
       {
         "transition": "Deep Half Entry",
-        "attempt_probability": 22
-      },
-      {
-        "transition": "Underhook Sweep from Half",
         "attempt_probability": 18
       },
       {
-        "transition": "Electric Chair Submission",
-        "attempt_probability": 15
+        "transition": "Underhook Sweep from Half",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Half Guard to Back Take",
+        "attempt_probability": 16
+      },
+      {
+        "transition": "Transition to Old School",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Roll to Truck",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Reguard from Pocket Half Guard",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Sweep from Pocket Half Guard",
+        "attempt_probability": 1
       }
     ]
   }

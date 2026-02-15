@@ -21,37 +21,37 @@ description: "Master defensive strategies against New York Control from top posi
     {
       "@type": "HowToStep",
       "name": "Execute Overhook Escape",
-      "text": "From this position, attempt Overhook Escape. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Overhook Escape. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Posture Recovery",
-      "text": "From this position, attempt Posture Recovery. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Posture Recovery. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Base Widening",
-      "text": "From this position, attempt Base Widening. This technique is attempted in 20% of exchanges from this position.",
+      "name": "Execute Crossface to Combat Base",
+      "text": "From this position, attempt Crossface to Combat Base. This technique is attempted in 21% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass",
-      "text": "From this position, attempt Stack Pass. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Extraction",
-      "text": "From this position, attempt Leg Extraction. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Leg Extraction. This technique is attempted in 16% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Standing up",
-      "text": "From this position, attempt Standing up. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Standing Escape",
+      "text": "From this position, attempt Standing Escape. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -214,17 +214,19 @@ Competition preparation requires specific drilling of New York defensive protoco
 
 ## Available Attacks
 
-### [[Overhook Escape]] (18% of attempts)
+### [[Overhook Escape]] (16% of attempts)
 
-### [[Posture Recovery]] (16% of attempts)
+### [[Posture Recovery]] (15% of attempts)
 
-### [[Base Widening]] (20% of attempts)
+### [[Crossface to Combat Base]] (21% of attempts)
 
-### [[Stack Pass]] (13% of attempts)
+### [[Stack Pass]] (12% of attempts)
 
-### [[Leg Extraction]] (18% of attempts)
+### [[Leg Extraction]] (16% of attempts)
 
-### [[Standing up]] (15% of attempts)
+### [[Standing Escape]] (14% of attempts)
+
+### [[New York Control Escape]] (6% of attempts)
 
 
 
@@ -236,7 +238,7 @@ Competition preparation requires specific drilling of New York defensive protoco
 
 **If overhook control remains deep and leg pressure maintains posture restriction:**
 - Execute **[[Overhook Escape]]** → [[Open Guard]] (Probability: 50%)
-- Execute **[[Base Widening]]** → [[Combat Base]] (Probability: 45%)
+- Execute **[[Crossface to Combat Base]]** → [[Combat Base]] (Probability: 45%)
 
 
 **If overhook is successfully extracted but leg control persists:**
@@ -246,7 +248,7 @@ Competition preparation requires specific drilling of New York defensive protoco
 
 **If bottom player begins triangle or gogoplata setup with leg positioning:**
 - Execute **[[Stack Pass]]** → [[Headquarters Position]] (Probability: 40%)
-- Execute **[[Standing up]]** → [[Standing Position]] (Probability: 45%)
+- Execute **[[Standing Escape]]** → [[Open Guard]] (Probability: 45%)
 
 
 
@@ -321,7 +323,7 @@ Begin in New York Control with top player working to escape or pass while bottom
 ## Test Your Knowledge
 
 **Q1**: What is the correct priority sequence when escaping New York Control from top?
-**A**: The overhook must be escaped before attempting to remove the leg control. Attempting to extract the leg while the overhook remains engaged leaves your arm trapped and allows the bottom player to transition between gogoplata, triangle, and omoplata threats freely. Only after the overhook is compromised can you safely address the leg control.
+**A**: The overhook must be escaped before attempting to remove the leg control. Attempting to extract the leg while the overhook remains engaged leaves your arm trapped and allows the bottom player to transition between gogoplata, triangle, and omoplata threats freely. Only after the overhook is compromised can you safely address the leg control without exposing yourself to chain submissions.
 
 **Q2**: Why does driving forward with pressure increase submission danger in New York Control?
 **A**: Forward pressure drives the opponent's controlling leg deeper across your back and shoulder, tightening their structure and improving their angle for gogoplata and triangle submissions. It also loads your weight forward, making sweeps easier. Lateral movement and base widening provide safer escape vectors that don't feed into their submission chains.
@@ -330,13 +332,13 @@ Begin in New York Control with top player working to escape or pass while bottom
 **A**: Immediately tuck your chin firmly to your chest while simultaneously driving your head toward the mat on the side away from the incoming shin. Keep elbows tight to prevent arm isolation for triangle backup. If possible, stand up explosively to create distance and eliminate the angle, or stack their hips to reduce the shin pressure across your throat.
 
 **Q4**: How should you distribute your weight when stuck in New York Control from top?
-**A**: Maintain a wide, low base with weight distributed laterally rather than forward. Keep hips close to the mat and spread knees wide for stability against sweeps. Avoid loading weight forward into the opponent, as this feeds their submission chains. Weight should feel centered over your knees with the ability to shift laterally quickly.
+**A**: Maintain a wide, low base with weight distributed laterally rather than forward. Keep hips close to the mat and spread knees wide for stability against sweeps. Avoid loading weight forward into the opponent, as this feeds their submission chains. Weight should feel centered over your knees with the ability to shift laterally quickly for escape attempts.
 
 **Q5**: What makes standard posture recovery ineffective against New York Control?
 **A**: The leg wrapped over your shoulder and across your back mechanically prevents vertical posture establishment. Attempting to straighten up only tightens their leg control and often drives your trapped arm deeper into their overhook. Instead, use circular base distribution and lateral movement to reduce leg effectiveness before any vertical posture attempts.
 
-**Q6**: Your opponent adjusts their grip - what window does this create for escape?
-**A**: Grip adjustments temporarily reduce overhook control depth and pulling pressure. This creates a brief window for arm extraction. Immediately rotate your shoulder forward and pull your elbow toward your hip while their grip is compromised. Time your posture recovery attempt to coincide with their grip transition, then establish defensive hand positioning before they can re-engage.
+**Q6**: Your opponent adjusts their overhook grip - what window does this create for escape?
+**A**: Grip adjustments temporarily reduce overhook control depth and pulling pressure. This creates a brief window for arm extraction. Immediately rotate your shoulder forward and pull your elbow toward your hip while their grip is compromised. Time your extraction to coincide with their grip transition, then establish defensive hand positioning before they can re-engage the overhook.
 
 **Q7**: How do you prevent the bottom player from transitioning to triangle when defending their overhook?
 **A**: Keep elbows pinned tightly to your ribs with hands protecting your neck at all times. Never extend your arms to post or push away, as extended arms provide the isolation needed for triangle setup. When escaping the overhook, rotate your shoulder while keeping the elbow connected to your body, denying the space needed for leg entry around your neck.

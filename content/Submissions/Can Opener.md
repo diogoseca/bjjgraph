@@ -8,143 +8,9 @@ description: "Understand Can Opener neck crank in BJJ: safety risks, legal statu
 ---
 
 
-<body data-content-type="submissions">
+<body data-content-type="submissions-hub">
 
-<!-- Schema Markup - Auto-generated from JSON -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Execute Can Opener in BJJ",
-  "description": "Step-by-step guide for Can Opener with safety protocols.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Establish head control",
-      "text": "From within closed guard, swim both hands behind opponent's head while they attempt to break your posture. Focus on getting deep hand position near the base of their skull rather than shallow neck contact. This requires timing when opponent momentarily releases collar grips or attempts to adjust their guard.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Interlace fingers",
-      "text": "Lock your fingers together behind opponent's head creating a strong structural frame with your arms. The finger interlace should be tight with palms pressing against the back of their skull. This grip must be secure as it provides the foundation for all subsequent pressure. Position your elbows to point outward creating a wide base.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Position forearms against neck",
-      "text": "Adjust your arm position so the bony portions of your forearms contact the sides and front of opponent's neck while your hands remain locked behind their head. The forearms should frame their neck creating a compression structure. Ensure your arms create an inverted V-shape that will drive downward pressure through the neck.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Pull head forward and down",
-      "text": "Using your interlaced hands, pull opponent's head toward your chest while simultaneously driving your forearms into their neck. The motion combines forward pulling with downward compression. Their own closed guard prevents them from creating distance, trapping them in the compression. This creates the characteristic 'can opening' effect on the cervical spine.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Drive elbows together",
-      "text": "Narrow your elbow position while maintaining the pull, creating a pinching effect that concentrates pressure on the neck. This increases the compression force while limiting opponent's ability to create space. The combined forward pull, downward pressure, and inward elbow drive maximizes discomfort forcing guard opening.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Maintain pressure until guard opens",
-      "text": "Continue the compression until opponent opens their guard to relieve neck pressure. The moment guard opens, immediately release all neck pressure and transition to a legal guard passing position. Never maintain this pressure longer than absolutely necessary, and never use in competitive or live training contexts where it is prohibited.",
-      "position": 6
-    }
-  ],
-  "tool": ["BJJ Gi or No-Gi attire", "Training partner", "Mat space"],
-  "totalTime": "PT5M"
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Why is the Can Opener banned in most Brazilian Jiu-Jitsu competitions?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The Can Opener is banned because it targets the cervical spine with compression forces that carry unacceptable injury risks including disc herniation, vertebrae damage, and nerve impingement. Unlike joint locks that have clear joint range limits, neck cranks can cause catastrophic injuries before the defender recognizes the danger. The technique provides minimal technical development while creating significant liability, leading organizations like IBJJF to prohibit it at all belt levels."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What anatomical structures does the Can Opener primarily attack?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The Can Opener attacks the cervical spine, specifically the vertebrae (C1-C7), intervertebral discs, and surrounding ligaments. The compression force flexes the neck forward beyond its natural range while restricting lateral movement, creating dangerous shearing forces on the vertebral bodies and compression on the anterior portion of the intervertebral discs. Secondary targets include the neck muscles (sternocleidomastoid, trapezius, scalenes), which can tear under excessive load, and the spinal cord itself, which can sustain damage from vertebral compression or displacement."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the breaking point indicators that signal imminent cervical injury during a Can Opener?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Unlike joint locks where pain increases gradually before structural failure, cervical injuries from the Can Opener often lack clear warning signs before catastrophic damage occurs. Indicators include sharp, shooting pain radiating down the arms or spine, sudden numbness or tingling in extremities, inability to resist the pressure despite muscular effort, and audible popping or grinding sounds from the neck. The critical danger is that serious disc herniation or vertebral damage can occur without these warning signs, making the technique inherently unpredictable. Practitioners must tap immediately at the first sign of discomfort rather than waiting for clear breaking point indicators."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the most effective defense against someone attempting a Can Opener from your closed guard?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The most effective defense is preventing the setup through proper grip control - maintaining strong collar and sleeve grips that prevent the opponent from swimming hands behind your head. If they begin to establish hand position, immediately break your posture down to your chest by pulling them forward with collar grips, eliminating the space needed for them to generate compression leverage. Breaking their posture down completely neutralizes the mechanical advantage required for the technique. Additionally, maintaining active guard retention with hip movement and angle changes prevents them from establishing the stable base needed for sustained pressure."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "If someone applies a Can Opener to you in training, what is the safest immediate response?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Immediately open your guard to relieve the pressure on your neck, while simultaneously using verbal communication to tell your partner to stop. Do not attempt to tough it out or wait for the pressure to build. As you open your guard, frame against their hips and create distance to fully escape the compression. After escaping, communicate clearly with your partner about gym rules and safety standards. If any neck pain, numbness, or restricted motion persists beyond a few minutes, stop training and seek medical evaluation. Never continue rolling if you experience cervical spine symptoms."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What control requirements must be established before the Can Opener can generate finishing pressure?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The attacker requires secure bilateral hand position behind the opponent's head with interlaced fingers at the skull base, creating a unified pulling structure. The forearms must be positioned along the sides of the neck to create compression surfaces. The attacker's posture must be partially upright with enough space to generate leverage despite being inside closed guard. The bottom player's guard must remain closed to trap them in place, preventing the hip escape that would relieve pressure. Without all these elements simultaneously present, the technique cannot generate dangerous force levels."
-      }
-    }
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Can Opener",
-  "description": "Understand Can Opener neck crank in BJJ: safety risks, legal status, defensive counters. Success rates: Beginner 15%, Intermediate 25%, Advanced 35%.",
-  "url": "https://bjjgraph.org/Submissions/Can-Opener",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.org"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
-    {"@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/"},
-    {"@type": "ListItem", "position": 3, "name": "Can Opener", "item": "https://bjjgraph.org/Submissions/Can-Opener"}
-  ]
-}
-</script>
-
-> ⚠️ **SAFETY**: Can Opener targets the Cervical spine and neck muscles. Risk: Cervical spine compression. Release immediately upon tap.
+> **SAFETY**: Can Opener targets the Cervical spine and neck muscles. Risk: Cervical spine compression. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -157,6 +23,7 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 **Type**: Neck Crank
 **Target Area**: Cervical spine and neck muscles
 **Starting Position**: [[Closed Guard]]
+**From Position**: [[Closed Guard]] (Top)
 **Success Rate**: 30%
 
 </section>
@@ -206,94 +73,150 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="outcomes" class="content-section">
 
-## Key Principles
+## Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[game-over]] | 55% |
+| Failure | [[Closed Guard]] | 25% |
+| Counter | [[Open Guard]] | 20% |
+
+
+</section>
+
+<section class="content-section">
+
+## Attacker vs Defender
+
+| &nbsp; | Attacker | Defender |
+|--------|----------|----------|
+| **Focus** | Execute and finish | Escape and survive |
+| **Key Principles** | Neck compression creates intense discomfort forcing guard op... | Prevention through grip discipline is the primary defense - ... |
+| **Options** | 6 execution steps | 4 defensive options |
+
+</section>
+
+<section id="attacker-summary" class="content-section">
+
+## Playing as Attacker
+
+[[Can Opener/Attacker|→ Full Attacker Guide]]
+
+### Key Principles
+
+
 - Neck compression creates intense discomfort forcing guard opening
+
 - Interlaced fingers behind head provide structural control
-- Forearm pressure against throat amplifies compression effect
-- Opponent's closed guard creates mechanical disadvantage for escape
+
+- Forearm pressure against neck sides amplifies compression effect
+
+- Opponent's closed guard creates mechanical disadvantage for their escape
+
 - Defensive awareness and early counter-measures are more important than offensive application
+
 - Legal and ethical alternatives should always be prioritized for guard breaking
+
 - Understanding this technique defensively prevents being caught by less experienced or unethical opponents
 
 
-</section>
-
-<section id="setup-requirements" class="content-section">
-
-## Prerequisites
-- Opponent has you trapped in closed guard with legs locked
-- Your posture is compromised or broken down
-- You have achieved hand position behind opponent's head
-- Opponent's guard is tight enough to restrict your movement
-- Your forearms can reach opponent's neck area
-- Opponent lacks grip control preventing your hand positioning
-- Training environment explicitly allows demonstration of banned techniques for educational purposes
+### Execution Steps
 
 
-</section>
+- **Establish head control**: From within closed guard, swim both hands behind opponent's head while they attempt to break your po...
 
-<section id="execution-steps" class="content-section">
+- **Interlace fingers**: Lock your fingers together behind opponent's head creating a strong structural frame with your arms....
 
-## Execution Steps
-1. **Establish head control**: From within closed guard, swim both hands behind opponent's head while they attempt to break your posture. Focus on getting deep hand position near the base of their skull rather than shallow neck contact. This requires timing when opponent momentarily releases collar grips or attempts to adjust their guard. (Timing: Initial setup phase - 2-3 seconds)
-2. **Interlace fingers**: Lock your fingers together behind opponent's head creating a strong structural frame with your arms. The finger interlace should be tight with palms pressing against the back of their skull. This grip must be secure as it provides the foundation for all subsequent pressure. Position your elbows to point outward creating a wide base. (Timing: Grip establishment - 1-2 seconds)
-3. **Position forearms against neck**: Adjust your arm position so the bony portions of your forearms contact the sides and front of opponent's neck while your hands remain locked behind their head. The forearms should frame their neck creating a compression structure. Ensure your arms create an inverted V-shape that will drive downward pressure through the neck. (Timing: Structural positioning - 2-3 seconds)
-4. **Pull head forward and down**: Using your interlaced hands, pull opponent's head toward your chest while simultaneously driving your forearms into their neck. The motion combines forward pulling with downward compression. Their own closed guard prevents them from creating distance, trapping them in the compression. This creates the characteristic 'can opening' effect on the cervical spine. (Timing: ONLY IF EDUCATIONAL DEMONSTRATION - 3-4 seconds minimum)
-5. **Drive elbows together**: Narrow your elbow position while maintaining the pull, creating a pinching effect that concentrates pressure on the neck. This increases the compression force while limiting opponent's ability to create space. The combined forward pull, downward pressure, and inward elbow drive maximizes discomfort forcing guard opening. (Timing: ONLY IF EDUCATIONAL DEMONSTRATION - 2-3 seconds)
-6. **Maintain pressure until guard opens**: Continue the compression until opponent opens their guard to relieve neck pressure. The moment guard opens, immediately release all neck pressure and transition to a legal guard passing position. Never maintain this pressure longer than absolutely necessary, and never use in competitive or live training contexts where it is prohibited. (Timing: RELEASE IMMEDIATELY upon guard opening or any distress signal)
+- **Position forearms against neck**: Adjust your arm position so the bony portions of your forearms contact the sides and front of oppone...
+
+- **Pull head forward and down**: Using your interlaced hands, pull opponent's head toward your chest while simultaneously driving you...
+
+- **Drive elbows together**: Narrow your elbow position while maintaining the pull, creating a pinching effect that concentrates ...
+
+- **Maintain pressure until guard opens**: Continue the compression until opponent opens their guard to relieve neck pressure. The moment guard...
 
 
-</section>
+### Common Mistakes
 
-<section id="opponent-defense-patterns" class="content-section">
 
-## Opponent Defenses
-- **Strong collar and sleeve grips preventing hand positioning** (Effectiveness: High) - Your Adjustment: This is the primary and most effective defense. If opponent maintains proper grips, Can Opener setup becomes nearly impossible. Cannot effectively counter strong grip fighting.
-- **Breaking attacker's posture down to chest level** (Effectiveness: High) - Your Adjustment: When posture is fully broken, your arms cannot generate the mechanical advantage needed for compression. Opponent's defensive posture break neutralizes the technique completely.
-- **Opening guard immediately and transitioning to different guard** (Effectiveness: High) - Your Adjustment: Smart opponent opens guard voluntarily before pressure builds, moving to open guard, butterfly, or scrambling position. This achieves your goal of opening guard but maintains opponent's defensive control.
-- **Framing against hips and creating distance** (Effectiveness: Medium) - Your Adjustment: Opponent uses frames on your hips to push away creating space that reduces neck pressure. You can counter by sitting back and maintaining hand position, but effectiveness drops significantly.
-- **Hand fighting to break finger clasp** (Effectiveness: Medium) - Your Adjustment: Opponent reaches up to peel fingers apart or strike wrists to break grip. If successful, entire technique structure collapses. Maintaining grip becomes primary battle.
-- **Angle change and hip escape** (Effectiveness: Medium) - Your Adjustment: By angling body and shrimping, opponent can reduce compression angle making technique less effective. Creates opportunities for them to establish better guard position or sweep.
+- **Applying rapid or jerking pressure to neck**
+  - Consequence: Immediate severe injury risk including cervical spine damage, muscle tears, or nerve impingement
+  - Correction: If demonstrating for educational purposes only, apply pressure extremely slowly over 7-10 seconds with constant communication. Better solution: do not apply this technique at all.
+
+- **Using technique in competition or gym where it is banned**
+  - Consequence: Disqualification, gym expulsion, legal liability for injuries, and damage to reputation as unsafe training partner
+  - Correction: Always verify competition rules and gym policies. Use legal guard-breaking alternatives like standing guard breaks, knee slice pressures, or proper posture-based breaks.
+
+- **Continuing pressure after partner shows discomfort**
+  - Consequence: Serious injury to training partner, breakdown of trust, and potential long-term cervical damage
+  - Correction: Release immediately at first sign of discomfort or distress. Partner safety must always override technical objectives. Never test pain tolerance with neck attacks.
 
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="defender-summary" class="content-section">
 
-## Common Mistakes
-- **Mistake**: Applying rapid or jerking pressure to neck
-  - **Consequence**: Immediate severe injury risk including cervical spine damage, muscle tears, or nerve impingement
-  - **Correction**: If demonstrating for educational purposes only, apply pressure extremely slowly over 7-10 seconds with constant communication. Better solution: do not apply this technique at all.
-- **Mistake**: Using technique in competition or gym where it is banned
-  - **Consequence**: Disqualification, gym expulsion, legal liability for injuries, and damage to reputation as unsafe training partner
-  - **Correction**: Always verify competition rules and gym policies. Use legal guard-breaking alternatives like standing guard breaks, knee slice pressures, or proper posture-based breaks.
-- **Mistake**: Continuing pressure after partner shows discomfort
-  - **Consequence**: Serious injury to training partner, breakdown of trust, and potential long-term cervical damage
-  - **Correction**: Release immediately at first sign of discomfort or distress. Partner safety must always override technical objectives. Never test pain tolerance with neck attacks.
-- **Mistake**: Shallow hand position on top of head rather than base of skull
-  - **Consequence**: Reduced effectiveness allowing easy escape through head movement, and potential for hands to slip causing uncontrolled pressure spikes
-  - **Correction**: If demonstrating technique, ensure hands are positioned at skull base with secure interlaced grip. However, prioritize not using this technique over perfecting its mechanics.
-- **Mistake**: Using in training without explicit partner consent and communication
-  - **Consequence**: Violation of training partner trust, unexpected injury, and creation of unsafe training environment
-  - **Correction**: If technique must be shown for educational awareness, obtain explicit verbal consent, agree on pressure limits, and maintain constant communication. Better approach: demonstrate on willing experienced partner or use verbal explanation only.
-- **Mistake**: Relying on Can Opener as primary guard breaking method
-  - **Consequence**: Development of poor technical fundamentals, inability to break guards of skilled opponents, and reputation as unsafe or low-level grappler
-  - **Correction**: Invest training time in proper guard breaking mechanics including standing breaks, toreando passing, pressure passing, and leg weave techniques that are legal, safe, and effective at all levels.
-- **Mistake**: Driving forearms into throat rather than neck sides
-  - **Consequence**: Airway compression creating choking effect rather than neck crank, increased injury risk, and potential loss of consciousness
-  - **Correction**: If demonstrating, ensure forearms contact neck sides and back rather than windpipe. However, recognize that any neck cranking carries significant risks regardless of precise positioning.
+## Playing as Defender
+
+[[Can Opener/Defender|→ Full Defender Guide]]
+
+### Key Principles
+
+
+- Prevention through grip discipline is the primary defense - deny hand access behind your head at all costs by maintaining strong collar and sleeve grips
+
+- Posture breaking eliminates the mechanical space the attacker needs to generate compression leverage from inside your guard
+
+- Never try to endure or muscle through Can Opener pressure - cervical spine injuries can occur without adequate warning signs
+
+- Opening your guard voluntarily is always the correct response when neck compression begins building, regardless of positional cost
+
+- Frame against the attacker's hips to push them away and create distance the moment you feel head control being established
+
+- Active hip movement and angle changes prevent the attacker from establishing the stable centered position needed for sustained compression
+
+- Communicate immediately and clearly with your training partner if they attempt this technique, regardless of training intensity
+
+
+### Recognition Cues
+
+
+- Opponent swims one or both hands behind your head while in your closed guard, abandoning normal grip fighting patterns for collar or sleeve control
+
+- You feel fingers interlacing or clasping together at the back of your skull or upper neck while opponent's forearms begin contacting the sides of your neck
+
+- Opponent begins pulling your head forward and curling you upward while their elbows drive inward, creating a compression cage around your neck and head
+
+- Opponent's weight shifts upward and slightly backward as they attempt to generate leverage for the downward compression pull from inside your guard
+
+- You feel increasing forward flexion pressure on your cervical spine that you cannot relieve through normal guard adjustments or hip movement
+
+
+### Escape Paths
+
+
+- Open guard voluntarily and immediately frame against attacker's hips to push them away, creating distance that eliminates compression, then recover to butterfly guard or open guard with feet on hips
+
+- Break attacker's posture completely by pulling them forward with collar grips while driving heels into their lower back, collapsing the space needed for the technique and returning to standard closed guard offense
+
+- Hip escape to an angle while framing against the attacker's shoulder, changing the compression vector so that the straight-down force is redirected off-axis, then re-establish guard from the new angle
 
 
 </section>
 
-<section id="variations-and-setups" class="content-section hide-minimal">
+
+<section id="variations" class="content-section hide-minimal">
 
 ## Variations
+
+
 **Single Arm Can Opener**: One arm behind head with forearm pressure while other arm posts for base. Less effective compression but more stable position. (When to use: When you cannot secure both hands behind head due to opponent's grip fighting. Still carries same safety risks and legal prohibitions as standard version.)
 
+
 **Can Opener from Half Guard**: Applied when trapped in opponent's half guard with similar mechanics but adjusted angles due to one leg being controlled. (When to use: When stuck in bottom half guard and seeking to create space. Even more dangerous due to restricted escape options for defender. Should be avoided.)
+
 
 **LEGAL ALTERNATIVE: Standing Guard Break**: Stand up in guard, establish solid posture, control hips, and break guard through proper leg positioning and pressure direction. No neck involvement. (When to use: ALWAYS prefer this method. Legal in all competitions, safe for training partners, effective at all skill levels, and develops proper technical fundamentals.)
 
@@ -301,48 +224,6 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 
 </section>
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-**Q1**: Why is the Can Opener banned in most Brazilian Jiu-Jitsu competitions? **[SAFETY-CRITICAL]**
-**A**: The Can Opener is banned because it targets the cervical spine with compression forces that carry unacceptable injury risks including disc herniation, vertebrae damage, and nerve impingement. Unlike joint locks that have clear joint range limits, neck cranks can cause catastrophic injuries before the defender recognizes the danger. The technique provides minimal technical development while creating significant liability, leading organizations like IBJJF to prohibit it at all belt levels.
-
-**Q2**: What anatomical structures does the Can Opener primarily attack? **[SAFETY-CRITICAL]**
-**A**: The Can Opener attacks the cervical spine, specifically the vertebrae (C1-C7), intervertebral discs, and surrounding ligaments. The compression force flexes the neck forward beyond its natural range while restricting lateral movement, creating dangerous shearing forces on the vertebral bodies and compression on the anterior portion of the intervertebral discs. Secondary targets include the neck muscles (sternocleidomastoid, trapezius, scalenes), which can tear under excessive load, and the spinal cord itself, which can sustain damage from vertebral compression or displacement.
-
-**Q3**: What are the breaking point indicators that signal imminent cervical injury during a Can Opener? **[SAFETY-CRITICAL]**
-**A**: Unlike joint locks where pain increases gradually before structural failure, cervical injuries from the Can Opener often lack clear warning signs before catastrophic damage occurs. Indicators include sharp, shooting pain radiating down the arms or spine, sudden numbness or tingling in extremities, inability to resist the pressure despite muscular effort, and audible popping or grinding sounds from the neck. The critical danger is that serious disc herniation or vertebral damage can occur without these warning signs, making the technique inherently unpredictable. Practitioners must tap immediately at the first sign of discomfort rather than waiting for clear breaking point indicators.
-
-**Q4**: What is the most effective defense against someone attempting a Can Opener from your closed guard? **[SAFETY-CRITICAL]**
-**A**: The most effective defense is preventing the setup through proper grip control - maintaining strong collar and sleeve grips that prevent the opponent from swimming hands behind your head. If they begin to establish hand position, immediately break your posture down to your chest by pulling them forward with collar grips, eliminating the space needed for them to generate compression leverage. Breaking their posture down completely neutralizes the mechanical advantage required for the technique. Additionally, maintaining active guard retention with hip movement and angle changes prevents them from establishing the stable base needed for sustained pressure.
-
-**Q5**: If someone applies a Can Opener to you in training, what is the safest immediate response? **[SAFETY-CRITICAL]**
-**A**: Immediately open your guard to relieve the pressure on your neck, while simultaneously using verbal communication to tell your partner to stop. Do not attempt to tough it out or wait for the pressure to build. As you open your guard, frame against their hips and create distance to fully escape the compression. After escaping, communicate clearly with your partner about gym rules and safety standards. If any neck pain, numbness, or restricted motion persists beyond a few minutes, stop training and seek medical evaluation. Never continue rolling if you experience cervical spine symptoms.
-
-**Q6**: What control requirements must be established before the Can Opener can generate finishing pressure?
-**A**: The attacker requires secure bilateral hand position behind the opponent's head with interlaced fingers at the skull base, creating a unified pulling structure. The forearms must be positioned along the sides of the neck to create compression surfaces. The attacker's posture must be partially upright with enough space to generate leverage despite being inside closed guard. The bottom player's guard must remain closed to trap them in place, preventing the hip escape that would relieve pressure. Without all these elements simultaneously present, the technique cannot generate dangerous force levels.
-
-**Q7**: What legal and safe guard-breaking alternatives should you use instead of the Can Opener?
-**A**: Effective legal alternatives include: standing guard breaks where you establish strong posture, stand up, control the hips, and use proper leg positioning to open the guard; knee slice pressure where you drive your knee across to create opening leverage; toreando passing where you control pants grips and redirect the legs; and pressure-based breaks where you establish frames against the hips and drive forward with proper weight distribution. These techniques develop proper guard passing fundamentals, work at all skill levels, carry minimal injury risk, and are legal in all competitions. Investing time in these methods creates better technical development than relying on banned techniques.
-
-**Q8**: Why is it important to learn about the Can Opener even if you should never use it? **[SAFETY-CRITICAL]**
-**A**: Understanding the Can Opener is important for comprehensive defensive knowledge - you need to recognize when an opponent is attempting banned or dangerous techniques so you can defend appropriately and communicate about safety standards. In training environments with less experienced partners or when visiting other gyms, someone may attempt this technique without understanding its risks. Knowing the setup allows you to prevent it through proper grip fighting and posture control. Additionally, understanding what makes techniques dangerous develops better judgment about risk assessment in all grappling exchanges. Defensive knowledge also allows you to coach others about why certain techniques are prohibited and how to train safely.
-
-**Q9**: What grip adjustments does the attacker make when the defender begins fighting the hand position?
-**A**: When the defender begins grip fighting, the attacker typically attempts to secure one hand behind the head first, using their other arm to control the defender's wrist or pin their arm to create a window for the second hand. If the defender strips one hand, the attacker may attempt a single-arm variation with forearm pressure while posting with the free hand. However, effective grip fighting by the defender makes establishing and maintaining the required hand position nearly impossible. This is why proper grip discipline from closed guard is the primary defense - it prevents the technique from ever being established rather than requiring escape after the dangerous position is achieved.
-
-**Q10**: What are the common finishing errors that reduce Can Opener effectiveness while increasing injury risk? **[SAFETY-CRITICAL]**
-**A**: Common finishing errors include: positioning hands too high on the crown of the skull rather than the base, allowing the grip to slip and causing sudden pressure spikes; driving forearms into the windpipe rather than neck sides, creating dangerous airway obstruction; applying jerking or explosive pressure instead of gradual compression, dramatically increasing vertebral injury risk; failing to recognize when the defender's guard has loosened and continuing unnecessary pressure; and over-relying on arm strength rather than proper leverage mechanics, leading to rapid fatigue and inconsistent pressure application. All these errors increase danger while reducing effectiveness, reinforcing why legal alternatives are superior.
-
-**Q11**: What should you do if you witness someone applying a Can Opener in your gym? **[SAFETY-CRITICAL]**
-**A**: Immediately intervene verbally to stop the roll, then inform both practitioners about the safety concerns and gym policies regarding banned techniques. Explain to the person applying it why the technique is dangerous and prohibited, and help them understand legal alternatives for guard breaking. Check on the defender to ensure they have no neck pain or injury symptoms. Report the incident to the instructor or gym owner so they can address safety standards with all students. Creating a culture of safety requires active intervention when dangerous techniques are used, even if this feels uncomfortable. The goal is education rather than punishment, but protecting training partners from injury must be the priority.
-
-**Q12**: How does competition context affect the application and consequences of the Can Opener?
-**A**: Under IBJJF rules and most major competition rulesets, the Can Opener results in immediate disqualification regardless of belt level. Even in submission-only or no-time-limit formats where neck cranks may be technically legal, elite competitors rarely use it due to its low finishing percentage against skilled opponents who simply open guard, the ethical concerns about intentionally injuring opponents, and the availability of higher-percentage techniques. In MMA contexts, the Can Opener sees occasional use as a guard opener rather than finish, but carries similar injury risks and ethical concerns. Understanding rule variations is important, but the fundamental safety and ethical issues make this technique inadvisable in any competitive context.
-
-
-
-</section>
 
 <section id="from-positions" class="content-section">
 
@@ -390,7 +271,6 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 
 
 </section>
-
 
 <section id="terminal-state" class="content-section">
 

@@ -1,0 +1,13 @@
+{
+  "name": "Backstep from Worm Guard",
+  "description": "",
+  "tags": [],
+  "from_position": "Worm Guard/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

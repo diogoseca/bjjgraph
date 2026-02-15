@@ -20,38 +20,38 @@ description: "Defensive survival position requiring systematic escape mechanics 
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll",
-      "text": "From this position, attempt Granby Roll. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Granby Roll to Guard",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 34% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape",
-      "text": "From this position, attempt Hip Escape. This technique is attempted in 20% of exchanges from this position.",
+      "name": "Execute Hip Escape to Guard",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Leg Extraction",
-      "text": "From this position, attempt Leg Extraction. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Leg Extraction to Guard",
+      "text": "From this position, attempt Leg Extraction to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Rolling Back Take Reversal",
+      "text": "From this position, attempt Rolling Back Take Reversal. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Forward Roll",
-      "text": "From this position, attempt Forward Roll. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Forward Roll. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Standup",
-      "text": "From this position, attempt Technical Standup. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Back Door Escape",
+      "text": "From this position, attempt Back Door Escape. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,17 +210,25 @@ The position emerged from wrestling's turk ride and was popularized in BJJ throu
 
 ## Available Escapes
 
-### [[Granby Roll]] (18% of attempts)
+### [[Granby Roll to Guard]] (34% of attempts)
 
-### [[Hip Escape]] (20% of attempts)
+### [[Hip Escape to Guard]] (15% of attempts)
 
-### [[Leg Extraction]] (18% of attempts)
+### [[Leg Extraction to Guard]] (15% of attempts)
 
-### [[Rolling Back Take]] (17% of attempts)
+### [[Rolling Back Take Reversal]] (9% of attempts)
 
-### [[Forward Roll]] (15% of attempts)
+### [[Forward Roll]] (11% of attempts)
 
-### [[Technical Standup]] (12% of attempts)
+### [[Back Door Escape]] (7% of attempts)
+
+### [[Defensive Roll]] (5% of attempts)
+
+### [[Hip Escape from Truck]] (2% of attempts)
+
+### [[Leg Extraction from Truck]] (1% of attempts)
+
+### [[Roll to Guard from Truck]] (1% of attempts)
 
 
 
@@ -231,24 +239,24 @@ The position emerged from wrestling's turk ride and was popularized in BJJ throu
 ## Decision Making from This Position
 
 **If opponent is setting up Twister (controlling far arm and twisting spine):**
-- Execute **[[Chin Protection and Grip Defense]]** → [[Truck]] (Probability: 65%)
-- Execute **[[Granby Roll]]** → [[Turtle]] (Probability: 35%)
+- Execute **[[Hand Fighting from Back]]** → [[Truck]] (Probability: 65%)
+- Execute **[[Granby Roll to Guard]]** → [[Turtle]] (Probability: 35%)
 
 
 **Else if opponent is attacking trapped leg with calf slicer:**
-- Execute **[[Leg Extraction]]** → [[Half Guard]] (Probability: 50%)
+- Execute **[[Leg Extraction to Guard]]** → [[Half Guard]] (Probability: 50%)
 - Execute **[[Forward Roll]]** → [[Deep Half Guard]] (Probability: 25%)
-- Execute **[[Tap Early Before Injury]]** → [[game-over]] (Probability: 25%)
+- Execute **[[Defensive Roll]]** → [[Open Guard]] (Probability: 25%)
 
 
 **Else if opponent has boot control but loose upper body control:**
-- Execute **[[Hip Escape]]** → [[Half Guard]] (Probability: 55%)
-- Execute **[[Granby Roll]]** → [[Turtle]] (Probability: 45%)
+- Execute **[[Hip Escape to Guard]]** → [[Half Guard]] (Probability: 55%)
+- Execute **[[Granby Roll to Guard]]** → [[Turtle]] (Probability: 45%)
 
 
 **Else if opponent is transitioning to back control (inserting hooks):**
-- Execute **[[Back Escape Series]]** → [[Turtle]] (Probability: 55%)
-- Execute **[[Rolling Back Take]]** → [[Open Guard]] (Probability: 45%)
+- Execute **[[Back Door Escape]]** → [[Turtle]] (Probability: 55%)
+- Execute **[[Rolling Back Take Reversal]]** → [[Open Guard]] (Probability: 45%)
 
 
 
@@ -284,9 +292,9 @@ The position emerged from wrestling's turk ride and was popularized in BJJ throu
 - ❌ **Consequence**: Rapid exhaustion leaves you defenseless against submissions and unable to execute escape sequences
 - ✅ **Correction**: Breathe calmly, prioritize neck protection first, then work systematically through escape steps without wasting energy
 
-### 6. Not tapping early to twister or calf slicer
+### 6. Not tapping early to twister or calf slicer when escape is no longer viable
 
-- ❌ **Consequence**: Both submissions can cause serious spinal or knee injuries with very little warning
+- ❌ **Consequence**: Both submissions can cause serious spinal or knee injuries with very little warning before damage occurs
 - ✅ **Correction**: Tap immediately when you feel twister crank on spine or calf slicer compressing knee joint—preserve training longevity
 
 
@@ -371,7 +379,7 @@ Start in truck bottom with partner providing light control (25% resistance). Pra
 |--------|------|
 | Retention Rate | 40% |
 | Advancement Probability | 50% |
-| Submission Probability | 30% |
+| Submission Probability | 5% |
 
 **Average Time in Position**: 20-45 seconds (high urgency position requiring immediate action)
 
@@ -382,16 +390,16 @@ Start in truck bottom with partner providing light control (25% resistance). Pra
 
 ## Related Positions and Techniques
 
-- **[[Truck]]** - Sibling variant - opponent's perspective of same position
 - **[[Turtle]]** - Common escape target - safer defensive position
 - **[[Twister Control]]** - Primary submission threat from this position
 - **[[Crab Ride]]** - Related position - similar back exposure with different leg configuration
 - **[[Half Guard]]** - Escape target - recovering guard from leg extraction
-- **[[Twister]]** - Primary submission to defend against from truck bottom
 - **[[Calf Slicer from Truck]]** - Secondary submission threat targeting trapped leg
 - **[[Banana Split]]** - Alternative submission attack from truck position
-- **[[Granby Roll]]** - Primary escape technique from truck bottom
-- **[[Hip Escape]]** - Fundamental movement for creating escape angles
+- **[[Granby Roll to Guard]]** - Primary escape technique from truck bottom
+- **[[Hip Escape to Guard]]** - Fundamental escape movement for creating angles
+- **[[Back Control]]** - Positional threat if opponent transitions from truck
+- **[[Deep Half Guard]]** - Alternative escape destination via forward roll
 
 
 </section>

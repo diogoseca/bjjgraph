@@ -1,6 +1,6 @@
 {
   "name": "Kneebar",
-  "description": "Master the Kneebar in BJJ. Complete guide with safety protocols, setup, execution, and defense. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%. Learn safe application.",
+  "description": "Master the Kneebar in BJJ. Complete guide covering safety protocols, setup from ashi garami, finishing mechanics, and defensive escapes for all skill levels.",
   "tags": [
     "bjj",
     "submission",
@@ -8,13 +8,17 @@
     "joint-lock",
     "kneebar",
     "ashi-garami",
-    "leg-entanglement"
+    "leg-entanglement",
+    "hub",
+    "finishing-guide"
   ],
   "submission_category": "Joint Lock",
   "submission_type": "Leg Lock",
   "target_area": "Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule)",
   "starting_position": "Ashi Garami",
-  "overview": "The Kneebar is a fundamental leg lock submission that attacks the knee joint through hyperextension. As one of the most accessible entries into modern leg lock systems, the kneebar serves as both a high-percentage finish and a gateway to more complex leg entanglements. The submission works by controlling the opponent's leg while using hip drive and posterior chain engagement to create dangerous hyperextension of the knee joint. Unlike heel hooks which attack rotational structures, the kneebar creates linear extension force, making it somewhat more predictable but still extremely dangerous when applied incorrectly. The technique has evolved significantly with modern leg lock systems, particularly through the systematic approaches developed by high-level competitors who have refined entries, controls, and finishing mechanics. Understanding proper kneebar application requires not just technical knowledge of the finish, but comprehensive awareness of the control positions that precede it, the defensive reactions opponents employ, and the biomechanical principles that make the submission effective. The kneebar exists within a broader ecosystem of leg attacks, often serving as a transitional threat that opens opportunities for other submissions or positional advances.",
+  "from_position": "Kneebar Control/Top",
+  "success_rate": 60,
+  "overview": "The Kneebar is a fundamental leg lock submission that attacks the knee joint through hyperextension. As one of the most accessible entries into modern leg lock systems, the kneebar serves as both a high-percentage finish and a gateway to more complex leg entanglements. The submission works by controlling the opponent's leg while using hip drive and posterior chain engagement to create dangerous hyperextension of the knee joint. Unlike heel hooks which attack rotational structures, the kneebar creates linear extension force, making it somewhat more predictable but still extremely dangerous when applied incorrectly.\n\nThe technique has evolved significantly with modern leg lock systems, particularly through systematic approaches that have refined entries, controls, and finishing mechanics. Understanding proper kneebar application requires not just technical knowledge of the finish, but comprehensive awareness of the control positions that precede it, the defensive reactions opponents employ, and the biomechanical principles that make the submission effective. The kneebar exists within a broader ecosystem of leg attacks, often serving as a transitional threat that opens opportunities for other submissions or positional advances. When an opponent hides their heel to defend heel hook attempts, the kneebar becomes the natural alternative, creating the kind of dilemma-based offense that defines elite leg lock systems.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -60,124 +64,88 @@
       "Avoid training kneebars with partners who have pre-existing knee injuries without explicit permission"
     ]
   },
-  "key_principles": [
-    "Hip alignment with opponent's knee creates the fulcrum for hyperextension",
-    "Control the leg's rotation before attempting the finish to prevent escape",
-    "Posterior chain engagement (glutes and hamstrings) generates safe, controlled pressure",
-    "The finish requires minimal strength when positioning is correct",
-    "Breaking opponent's defensive structure precedes finishing mechanics",
-    "Maintaining connection between your armpit and opponent's leg prevents space creation",
-    "Progressive pressure application allows partner time to recognize danger and tap"
-  ],
-  "setup_requirements": [
-    "Secure leg entanglement position with opponent's leg controlled between your legs",
-    "Establish grip on opponent's leg (typically around ankle or lower shin)",
-    "Create angle that aligns your hips perpendicular to opponent's knee joint",
-    "Clear opponent's free leg to prevent them from creating frames or escaping",
-    "Control opponent's upper body or arms to limit their defensive mobility",
-    "Position your body weight to prevent opponent from rolling or extracting leg",
-    "Ensure opponent's knee is positioned above your hip line before applying pressure"
-  ],
-  "execution_steps": [
+  "outcomes": [
     {
-      "step_number": 1,
-      "action": "Secure the leg entanglement",
-      "description": "From ashi garami or similar leg entanglement, ensure opponent's leg is trapped between your legs with your inside leg hooking behind their knee and your outside leg controlling across their hip or thigh. Your legs should create a scissor-like control that prevents the opponent from simply pulling their leg free.",
-      "timing": "Establish control before attempting finish"
+      "to": "game-over",
+      "probability": 45,
+      "result": "success"
     },
     {
-      "step_number": 2,
-      "action": "Grip the ankle and pull toward your chest",
-      "description": "Cup your hands around opponent's ankle or lower shin, creating a strong connection. Pull the leg tight to your chest, eliminating any space between your torso and their leg. This connection is critical - any gap allows the opponent to create defensive frames or rotate their leg to relieve pressure. Your elbows should squeeze together, trapping the leg securely.",
-      "timing": "Before applying hip pressure"
+      "to": "Kneebar Control/Top",
+      "probability": 30,
+      "result": "failure"
     },
     {
-      "step_number": 3,
-      "action": "Adjust angle and hip position",
-      "description": "Scoot your hips toward opponent's body while maintaining the tight ankle grip. Your hips should be positioned so that your pubic bone or lower abdomen makes contact with the back of opponent's knee. The angle should be perpendicular to their leg - your spine should form roughly a 90-degree angle with their femur. This perpendicular alignment is essential for proper force application.",
-      "timing": "Positioning phase before pressure"
+      "to": "Ashi Garami/Bottom",
+      "probability": 15,
+      "result": "counter"
     },
     {
-      "step_number": 4,
-      "action": "Clear the free leg",
-      "description": "Use your outside leg and hip positioning to clear or block opponent's free leg. They will attempt to use this leg to create frames on your hips or to post and extract their trapped leg. Your outside leg can hook over theirs, or you can use hip pressure to pin it. This step is often the difference between a successful finish and an escaped position.",
-      "timing": "Before final squeeze"
-    },
-    {
-      "step_number": 5,
-      "action": "Engage posterior chain and extend hips",
-      "description": "Activate your glutes and hamstrings to drive your hips upward while simultaneously pulling the ankle toward your chest. This creates the hyperextension force on opponent's knee joint. The movement should be controlled and progressive - think of slowly arching your back rather than explosive bridging. Your shoulder blades should press into the mat as your hips rise, creating a smooth arc of pressure.",
-      "timing": "3-5 seconds progressive pressure in training"
-    },
-    {
-      "step_number": 6,
-      "action": "Maintain control through finish or release",
-      "description": "Continue the controlled hip extension until opponent taps, maintaining all grips and controls throughout. The finish position has your hips fully extended, ankle pulled tight to chest, and opponent's knee hyperextended across your hips. Upon receiving tap signal, immediately stop hip pressure and carefully release as described in safety protocols. If opponent defends successfully, maintain the position and reassess rather than forcing the finish.",
-      "timing": "Until tap or position change"
+      "to": "Open Guard/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
   ],
-  "opponent_defense_patterns": [
-    {
-      "defense": "Pulling knee inward (flexing knee joint)",
-      "effectiveness": "High",
-      "your_adjustment": "Maintain tight ankle-to-chest connection to prevent knee flexion. If they succeed in flexing, you must re-extend their leg by scooting hips closer and pulling harder on ankle before attempting finish. Consider transitioning to heel hook if they rotate leg inward."
-    },
-    {
-      "defense": "Rolling toward their trapped leg (rolling through)",
-      "effectiveness": "Medium",
-      "your_adjustment": "Anticipate the roll by maintaining heavy hip pressure and following their rotation. Stay connected to their leg throughout the roll. Many times their roll actually helps you establish a more dominant finishing position. Keep your outside leg posted to prevent them from completing a full rotation."
-    },
-    {
-      "defense": "Creating frame with free leg on your hip or face",
-      "effectiveness": "High",
-      "your_adjustment": "This is why clearing the free leg is critical. If they establish this frame before you finish, you must address it before continuing. Use your outside leg to trap theirs, or transition your position to remove the frame. Never ignore a strong hip frame as it prevents proper hip extension."
-    },
-    {
-      "defense": "Grabbing your gi or body to prevent hip separation",
-      "effectiveness": "Medium",
-      "your_adjustment": "In gi, opponents may grab your lapel or belt to prevent you from creating the proper angle. Break these grips by explosive hip movement or hand fighting before they're fully established. The key is maintaining your angle despite their grip - sometimes you can finish even with them holding your gi if your positioning is superior."
-    },
-    {
-      "defense": "Attempting to stack by driving forward",
-      "effectiveness": "Low",
-      "your_adjustment": "Use your leg entanglement to prevent forward pressure. Your inside leg hook behind their knee should block their ability to drive into you. If they do stack, you've likely lost proper hip alignment - transition to a different attack or sweep rather than forcing a compromised kneebar."
-    }
+  "from_positions": [
+    "Ashi Garami",
+    "Inside Ashi-Garami",
+    "Outside Ashi-Garami",
+    "50-50 Guard",
+    "Single Leg X-Guard",
+    "Closed Guard",
+    "Half Guard",
+    "Deep Half Guard",
+    "Butterfly Guard",
+    "Turtle",
+    "Kneebar Control"
   ],
-  "common_errors": [
+  "related_submissions": [
+    "Heel Hook",
+    "Straight Ankle Lock",
+    "Toe Hold",
+    "Inside Heel Hook",
+    "Outside Heel Hook",
+    "Calf Slicer",
+    "Estima Lock",
+    "Achilles Lock",
+    "Calf Slicer from 50-50"
+  ],
+  "related_content": [
     {
-      "error": "Attempting to finish before establishing proper angle and control",
-      "consequence": "Opponent easily escapes, and you waste energy on ineffective pressure",
-      "correction": "Be patient with your positioning. Ensure your hips are perpendicular to their leg and all controls are tight before applying finishing pressure. The setup is more important than the finish."
+      "name": "Saddle",
+      "relationship": "Primary control position for kneebar entries, offers transitions between kneebar and heel hook attacks"
     },
     {
-      "error": "Allowing space between ankle and chest",
-      "consequence": "Opponent can flex their knee and rotate their leg to escape or relieve pressure",
-      "correction": "Maintain constant tension pulling the ankle to your chest throughout the entire sequence. Your elbows should squeeze together, and there should be no visible gap between their shin and your torso."
+      "name": "Honey Hole",
+      "relationship": "Advanced leg entanglement position that creates kneebar opportunities while controlling both legs"
     },
     {
-      "error": "Using explosive jerking motion instead of controlled pressure",
-      "consequence": "Severe knee injury to training partner, unsafe training environment, potential ligament rupture before partner can tap",
-      "correction": "Always apply pressure progressively over 3-5 seconds minimum in training. Engage your posterior chain smoothly rather than explosively bridging. Your partner's safety depends on controlled application."
+      "name": "Cross Ashi-Garami",
+      "relationship": "Alternative leg entanglement with different angle, allows kneebar finish with modified mechanics"
     },
     {
-      "error": "Ignoring opponent's free leg",
-      "consequence": "Opponent creates defensive frames that prevent finish or allows them to extract trapped leg",
-      "correction": "Always address the free leg before committing to finish. Use your outside leg to control it, or position your body to neutralize its defensive capability. This is a prerequisite, not an optional detail."
+      "name": "Kneebar Control",
+      "relationship": "Specific control position optimized for kneebar finishing, emphasizes proper angle and hip placement"
     },
     {
-      "error": "Finishing with hips parallel to opponent's leg rather than perpendicular",
-      "consequence": "Poor leverage, ineffective pressure, increased risk of opponent's leg slipping out or rotating",
-      "correction": "Check your angle before applying pressure. Your spine should be roughly perpendicular to their femur. Scoot your hips toward them and adjust your angle until the alignment is correct. This geometric principle is non-negotiable."
+      "name": "Leg Entanglement",
+      "relationship": "Broader category of positions that includes all kneebar setups and control variations"
     },
     {
-      "error": "Releasing controls prematurely upon feeling tap",
-      "consequence": "Loss of position, allows opponent to escape before acknowledging submission",
-      "correction": "Upon receiving tap, stop pressure immediately but maintain positional control while carefully releasing the leg. Follow the release protocol exactly - stop hip extension, lower hips, then allow them to extract their leg safely."
+      "name": "De La Riva Guard",
+      "relationship": "Guard with leg control hooks that can transition to kneebar attacks when opponent stands or passes"
     },
     {
-      "error": "Continuing to apply pressure after tap signal",
-      "consequence": "Serious injury to training partner, broken trust, unsafe training environment, potential career-ending knee damage",
-      "correction": "Develop acute awareness of all tap signals - verbal, hand, foot, or distress sounds. The instant you perceive any tap signal, stop all pressure immediately. This is absolute and non-negotiable in training. There are no exceptions."
+      "name": "Inside Ashi-Garami",
+      "relationship": "Foundation leg entanglement providing primary kneebar entries with inside position control"
+    },
+    {
+      "name": "Outside Ashi-Garami",
+      "relationship": "Alternative leg entanglement offering kneebar opportunities from outside angle"
+    },
+    {
+      "name": "Ashi Garami",
+      "relationship": "Parent position family encompassing the primary control positions for kneebar attacks"
     }
   ],
   "variations_and_setups": [
@@ -205,145 +173,391 @@
       "variation_name": "Reverse Kneebar",
       "description": "Apply kneebar with opponent's leg positioned so their toes point away from you rather than toward you. Changes the angle but maintains the hyperextension principle.",
       "when_to_use": "When the standard kneebar angle isn't available due to opponent's leg position or when transitioning from certain leg entanglements."
+    },
+    {
+      "variation_name": "Belly-Down Kneebar from Inside Ashi",
+      "description": "After establishing inside ashi control, transition to belly-down position by rotating your body over opponent's leg while maintaining leg entanglement. This variation provides superior control and finishing power by using gravity and body weight. Finish with hip extension while belly-down on their thigh.",
+      "when_to_use": "When opponent defends standard kneebar by maintaining knee bend, when transitioning from failed heel hook attempts, when maximum control is needed against strong opponents."
+    },
+    {
+      "variation_name": "Flying Kneebar Entry",
+      "description": "From standing position, jump and wrap legs around opponent's leg while simultaneously securing their thigh with your arms. Pull them forward while rotating backward to establish kneebar position during the fall. This spectacular entry requires precise timing and body awareness. Land with leg isolated and chest-to-thigh connection already established.",
+      "when_to_use": "In competition when opponent is defending standing, when opponent is bent forward presenting leg target, when element of surprise is needed. Primarily used by advanced practitioners."
+    },
+    {
+      "variation_name": "Reverse Kneebar from 50-50",
+      "description": "From 50-50 position where both legs are entangled, rotate your upper body to opposite side and attack kneebar with opponent's leg trapped in reverse orientation. Your chest faces away from their body. This variation uses the 50-50 leg configuration while changing upper body positioning for finishing angle.",
+      "when_to_use": "When standard 50-50 attacks are defended, when transitioning between leg attacks in 50-50, when opponent locks defensive posture in standard 50-50."
+    },
+    {
+      "variation_name": "Top Position Kneebar from Half Guard",
+      "description": "From top half guard, step over opponent's head with near leg while maintaining control of trapped leg. Rotate around their leg axis to achieve kneebar position from top. This variation attacks from top position rather than guard and uses stepping motion to secure entanglement.",
+      "when_to_use": "When passing half guard and opponent has deep underhook, when opponent's leg is exposed during half guard exchanges, when transitioning from failed passing attempts."
+    },
+    {
+      "variation_name": "X-Guard Kneebar Entry",
+      "description": "From X-guard position, use existing leg entanglement to transition to kneebar by removing top hook and rotating body to side. The X-guard structure already provides leg isolation. Transition by unhooking top leg, rotating chest to thigh, and securing standard kneebar finish position.",
+      "when_to_use": "When X-guard sweeps are defended, when creating submission chains from guard, when opponent pressures forward in X-guard presenting leg target."
     }
   ],
-  "knowledge_assessment": [
-    {
-      "question": "What is the minimum time you should take to apply finishing pressure during training, and why is this critical?",
-      "answer": "Minimum 3-5 seconds of progressive pressure in training. This is critical because knee ligaments can rupture before a partner recognizes the danger and has time to tap. Explosive application in training is never acceptable as it risks career-ending injuries to training partners. The progressive application allows your partner to feel the increasing danger and respond appropriately with a tap signal.",
-      "safety_critical": true
-    },
-    {
-      "question": "What is the proper geometric relationship between your hips and opponent's leg for maximum kneebar effectiveness?",
-      "answer": "Your hips should be positioned perpendicular to opponent's leg, meaning your spine forms approximately a 90-degree angle with their femur. This perpendicular alignment creates optimal leverage and force direction for hyperextension of the knee joint. If your hips are parallel to their leg, you lose mechanical advantage and the submission becomes ineffective.",
-      "safety_critical": false
-    },
-    {
-      "question": "Why must you clear or control opponent's free leg before committing to the finish?",
-      "answer": "The free leg is opponent's primary defensive tool - they can create frames on your hips or face that prevent you from generating the hip extension necessary to finish. If they establish a strong frame with their free leg, they can keep your hips distant from their trapped knee, eliminating your leverage. Additionally, the free leg can be used to post and extract their trapped leg. Controlling it is a prerequisite for successful finishing mechanics.",
-      "safety_critical": false
-    },
-    {
-      "question": "What should you do immediately upon receiving any tap signal, and what is the step-by-step release protocol?",
-      "answer": "Immediately stop all hip extension the moment any tap is received - verbal, hand, foot, or distress sound. Release protocol: (1) Stop hip extension instantly, (2) Drop hips away from opponent's leg to remove pressure, (3) Maintain grip control while releasing leg slowly and carefully, (4) Allow opponent to extract their leg at their own pace without forcing or rushing, (5) Check verbally with partner after release to ensure they're okay. Never rush the release as sudden movements can still cause injury.",
-      "safety_critical": true
-    },
-    {
-      "question": "What are the primary ligaments and structures at risk during kneebar application, and what are typical recovery times if injured?",
-      "answer": "Primary structures at risk include: (1) Posterior cruciate ligament (PCL) - tear requires 6-12 months recovery with surgery, (2) Medial collateral ligament (MCL) - grade 1-2 strain takes 4-8 weeks, grade 3 tear takes 3-6 months, (3) Joint capsule - damage requires 6-12 weeks recovery, (4) Meniscus (medial or lateral) - tears take 3-6 months and may require surgery. These severe recovery timelines emphasize why controlled application and immediate tap recognition are absolutely critical in training.",
-      "safety_critical": true
-    },
-    {
-      "question": "How do you maintain the critical connection between the opponent's ankle and your chest throughout the submission?",
-      "answer": "Cup both hands around opponent's ankle or lower shin and pull it tight to your chest, eliminating all space. Squeeze your elbows together to trap the leg securely against your torso. This connection must be maintained throughout the entire sequence - during angle adjustment, hip positioning, and finishing. Any gap allows opponent to flex their knee or rotate their leg, both of which defeat the submission. The ankle-to-chest connection is maintained through constant pulling tension, not just grip strength.",
-      "safety_critical": false
-    },
-    {
-      "question": "What muscle groups should you engage for safe, controlled kneebar pressure, and why is explosive bridging dangerous?",
-      "answer": "Engage your posterior chain - glutes and hamstrings - to create controlled hip extension. Think of slowly arching your back with shoulder blades pressing into mat, creating a smooth arc of pressure over several seconds. Explosive bridging is dangerous because it generates sudden, intense force that can rupture knee ligaments before partner can tap. The explosive motion also reduces your control and increases injury risk. Controlled posterior chain engagement allows progressive pressure that respects training partner's safety while maintaining technical efficiency.",
-      "safety_critical": true
-    },
-    {
-      "question": "Your opponent begins pulling their knee inward to flex the joint and relieve pressure - what adjustment do you make to maintain the finish?",
-      "answer": "Immediately scoot your hips closer to their body to re-establish contact with the back of their knee. Simultaneously increase your pulling tension on the ankle, drawing it tighter to your chest. If they have already created significant knee flexion, you must address this before continuing - extend their leg by driving your hips forward while pulling the ankle, essentially straightening the leg before reapplying finishing pressure. If knee flexion persists, consider transitioning to heel hook as their inward rotation may expose the heel.",
-      "safety_critical": false
-    },
-    {
-      "question": "What indicators tell you the kneebar is locked and your opponent has no escape?",
-      "answer": "The point of no escape occurs when: (1) your hips are in contact with the back of their knee with perpendicular alignment, (2) their ankle is secured tight to your chest with no space, (3) their free leg is controlled or cleared and cannot create frames, (4) your leg triangle prevents them from rotating or extracting. At this point, any hip extension creates hyperextension pressure. You will feel their leg become rigid as extension begins - this is when they must tap or face injury. Never accelerate pressure at this point; maintain progressive application.",
-      "safety_critical": false
-    },
-    {
-      "question": "How do you adjust your grip if the opponent's leg is sweaty or slippery in no-gi competition?",
-      "answer": "In no-gi with sweaty legs, transition from a standard ankle cup to a figure-four grip configuration where one arm wraps behind the Achilles and grips your own wrist or forearm. This creates a locked mechanical grip that doesn't rely on friction. You can also grip higher on the calf muscle belly where there's more surface area. Some competitors use a palm-to-palm Gable grip behind the ankle. The key is using interlocking arm positions rather than just hand grips on skin.",
-      "safety_critical": false
-    },
-    {
-      "question": "In competition, what strategies maximize your kneebar finish rate while maintaining safety?",
-      "answer": "Competition strategies include: (1) Attack when opponent is tired or distracted by other threats, (2) Use the kneebar as part of a dilemma system - threaten heel hook to get them to defend, then attack the kneebar when they hide the heel, (3) Establish position completely before applying any finishing pressure, (4) In training, practice at match pace but with controlled pressure - the setup can be fast, but the finish should still be progressive enough for tap recognition, (5) Focus on cutting off escape routes before applying pressure - a secure position finishes itself.",
-      "safety_critical": false
-    },
-    {
-      "question": "What is the difference between a kneebar that causes pain and one that causes structural damage, and why is this distinction critical for training?",
-      "answer": "Pain from a kneebar often occurs before structural damage as the ligaments stretch and pressure builds on the joint capsule. However, the margin between pain and structural damage in knee attacks is extremely small compared to other submissions. The ligaments can rupture with minimal additional force once the joint reaches its extension limit. This is why partners must tap at the first sensation of pressure, not pain - waiting for pain means you're already in the danger zone. In training, both partners must understand that the tap comes when extension begins, not when it hurts.",
-      "safety_critical": true
-    }
-  ],
-  "from_positions": [
-    "Ashi Garami",
-    "Inside Ashi-Garami",
-    "Outside Ashi-Garami",
-    "50-50 Guard",
-    "Single Leg X-Guard",
-    "Closed Guard",
-    "Half Guard",
-    "Deep Half Guard",
-    "Butterfly Guard",
-    "Turtle",
-    "Kneebar Control"
-  ],
-  "related_submissions": [
-    "Heel Hook",
-    "Straight Ankle Lock",
-    "Toe Hold",
-    "Inside Heel Hook",
-    "Outside Heel Hook",
-    "Calf Slicer",
-    "Estima Lock",
-    "Achilles Lock",
-    "Kneebar Variations",
-    "Calf Slicer from 50-50"
-  ],
-  "related_content": [
-    {
-      "name": "Saddle",
-      "relationship": "Primary control position for kneebar entries, offers transitions between kneebar and heel hook attacks"
-    },
-    {
-      "name": "Honey Hole",
-      "relationship": "Advanced leg entanglement position that creates kneebar opportunities while controlling both legs"
-    },
-    {
-      "name": "Cross Ashi-Garami",
-      "relationship": "Alternative leg entanglement with different angle, allows kneebar finish with modified mechanics"
-    },
-    {
-      "name": "Kneebar Control",
-      "relationship": "Specific control position optimized for kneebar finishing, emphasizes proper angle and hip placement"
-    },
-    {
-      "name": "Leg Entanglement",
-      "relationship": "Broader category of positions that includes all kneebar setups and control variations"
-    },
-    {
-      "name": "X-Guard",
-      "relationship": "Guard position offering sweep to kneebar combinations, particularly single leg X variations"
-    },
-    {
-      "name": "De La Riva Guard",
-      "relationship": "Guard with leg control hooks that can transition to kneebar attacks when opponent stands or passes"
-    },
-    {
-      "name": "Inside Ashi-Garami",
-      "relationship": "Foundation leg entanglement providing primary kneebar entries with inside position control"
-    },
-    {
-      "name": "Outside Ashi-Garami",
-      "relationship": "Alternative leg entanglement offering kneebar opportunities from outside angle"
-    }
-  ],
-  "success_rate": 60,
-  "from_position": "Kneebar Control/Top",
-  "outcomes": [
-    {
-      "to": "game-over",
-      "probability": 50,
-      "result": "success"
-    },
-    {
-      "to": "Kneebar Control",
-      "probability": 50,
-      "result": "failure"
-    }
-  ]
+  "attacker": {
+    "name": "Kneebar Attacker",
+    "description": "How to execute the Kneebar in BJJ. Attacking perspective covering setup from leg entanglements, finishing mechanics, and competition strategies.",
+    "overview": "The kneebar attack centers on isolating your opponent's leg and creating hyperextension pressure across the knee joint using your hips as the fulcrum. The submission is mechanically straightforward compared to heel hooks - you control the ankle tight to your chest while driving your hips into the back of their knee - but the details of positioning, angle, and control sequence determine whether the technique finishes or fails. The kneebar functions best within a systematic leg attack framework where it complements heel hook threats: when opponents hide their heel to defend rotational attacks, they expose the knee to linear hyperextension. This dilemma-based approach makes the kneebar exponentially more dangerous than when used in isolation. Mastering the kneebar requires understanding that the finish itself is simple, but the control preceding it demands precise positioning of your hips relative to their knee, elimination of their free leg as a defensive tool, and maintenance of the ankle-to-chest connection that prevents them from bending the knee to safety.",
+    "key_principles": [
+      "Hip alignment with opponent's knee creates the fulcrum for hyperextension - your hips must contact the back of their knee",
+      "Control the leg's rotation before attempting the finish to prevent escape and maintain proper extension angle",
+      "Posterior chain engagement (glutes and hamstrings) generates safe, controlled pressure rather than explosive bridging",
+      "The finish requires minimal strength when positioning is correct - poor position cannot be compensated by force",
+      "Breaking opponent's defensive structure precedes finishing mechanics - address the free leg before committing to pressure",
+      "Maintaining connection between your chest and opponent's leg prevents space creation that enables escape",
+      "Progressive pressure application allows partner time to recognize danger and tap safely in training"
+    ],
+    "setup_requirements": [
+      "Secure leg entanglement position with opponent's leg controlled between your legs",
+      "Establish grip on opponent's leg (typically around ankle or lower shin)",
+      "Create angle that aligns your hips perpendicular to opponent's knee joint",
+      "Clear opponent's free leg to prevent them from creating frames or escaping",
+      "Control opponent's upper body or arms to limit their defensive mobility",
+      "Position your body weight to prevent opponent from rolling or extracting leg",
+      "Ensure opponent's knee is positioned above your hip line before applying pressure"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Secure the leg entanglement",
+        "description": "From ashi garami or similar leg entanglement, ensure opponent's leg is trapped between your legs with your inside leg hooking behind their knee and your outside leg controlling across their hip or thigh. Your legs should create a scissor-like control that prevents the opponent from simply pulling their leg free.",
+        "timing": "Establish control before attempting finish"
+      },
+      {
+        "step_number": 2,
+        "action": "Grip the ankle and pull toward your chest",
+        "description": "Cup your hands around opponent's ankle or lower shin, creating a strong connection. Pull the leg tight to your chest, eliminating any space between your torso and their leg. This connection is critical - any gap allows the opponent to create defensive frames or rotate their leg to relieve pressure. Your elbows should squeeze together, trapping the leg securely.",
+        "timing": "Before applying hip pressure"
+      },
+      {
+        "step_number": 3,
+        "action": "Adjust angle and hip position",
+        "description": "Scoot your hips toward opponent's body while maintaining the tight ankle grip. Your hips should be positioned so that your pubic bone or lower abdomen makes contact with the back of opponent's knee. The angle should be perpendicular to their leg - your spine should form roughly a 90-degree angle with their femur. This perpendicular alignment is essential for proper force application.",
+        "timing": "Positioning phase before pressure"
+      },
+      {
+        "step_number": 4,
+        "action": "Clear the free leg",
+        "description": "Use your outside leg and hip positioning to clear or block opponent's free leg. They will attempt to use this leg to create frames on your hips or to post and extract their trapped leg. Your outside leg can hook over theirs, or you can use hip pressure to pin it. This step is often the difference between a successful finish and an escaped position.",
+        "timing": "Before final squeeze"
+      },
+      {
+        "step_number": 5,
+        "action": "Engage posterior chain and extend hips",
+        "description": "Activate your glutes and hamstrings to drive your hips upward while simultaneously pulling the ankle toward your chest. This creates the hyperextension force on opponent's knee joint. The movement should be controlled and progressive - think of slowly arching your back rather than explosive bridging. Your shoulder blades should press into the mat as your hips rise, creating a smooth arc of pressure.",
+        "timing": "3-5 seconds progressive pressure in training"
+      },
+      {
+        "step_number": 6,
+        "action": "Maintain control through finish or release",
+        "description": "Continue the controlled hip extension until opponent taps, maintaining all grips and controls throughout. The finish position has your hips fully extended, ankle pulled tight to chest, and opponent's knee hyperextended across your hips. Upon receiving tap signal, immediately stop hip pressure and carefully release as described in safety protocols. If opponent defends successfully, maintain the position and reassess rather than forcing the finish.",
+        "timing": "Until tap or position change"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Pulling knee inward (flexing knee joint)",
+        "effectiveness": "High",
+        "your_response": "Maintain tight ankle-to-chest connection to prevent knee flexion. If they succeed in flexing, you must re-extend their leg by scooting hips closer and pulling harder on ankle before attempting finish. Consider transitioning to heel hook if they rotate leg inward.",
+        "targets_outcome": "Kneebar Control/Top"
+      },
+      {
+        "counter": "Rolling toward their trapped leg (rolling through)",
+        "effectiveness": "Medium",
+        "your_response": "Anticipate the roll by maintaining heavy hip pressure and following their rotation. Stay connected to their leg throughout the roll. Many times their roll actually helps you establish a more dominant finishing position. Keep your outside leg posted to prevent them from completing a full rotation.",
+        "targets_outcome": "Ashi Garami/Bottom"
+      },
+      {
+        "counter": "Creating frame with free leg on your hip or face",
+        "effectiveness": "High",
+        "your_response": "This is why clearing the free leg is critical. If they establish this frame before you finish, you must address it before continuing. Use your outside leg to trap theirs, or transition your position to remove the frame. Never ignore a strong hip frame as it prevents proper hip extension.",
+        "targets_outcome": "Kneebar Control/Top"
+      },
+      {
+        "counter": "Grabbing your gi or body to prevent hip separation",
+        "effectiveness": "Medium",
+        "your_response": "In gi, opponents may grab your lapel or belt to prevent you from creating the proper angle. Break these grips by explosive hip movement or hand fighting before they are fully established. The key is maintaining your angle despite their grip - sometimes you can finish even with them holding your gi if your positioning is superior.",
+        "targets_outcome": "Kneebar Control/Top"
+      },
+      {
+        "counter": "Attempting to stack by driving forward",
+        "effectiveness": "Low",
+        "your_response": "Use your leg entanglement to prevent forward pressure. Your inside leg hook behind their knee should block their ability to drive into you. If they do stack, you have likely lost proper hip alignment - transition to a different attack or sweep rather than forcing a compromised kneebar.",
+        "targets_outcome": "Open Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting to finish before establishing proper angle and control",
+        "consequence": "Opponent easily escapes, and you waste energy on ineffective pressure",
+        "correction": "Be patient with your positioning. Ensure your hips are perpendicular to their leg and all controls are tight before applying finishing pressure. The setup is more important than the finish."
+      },
+      {
+        "error": "Allowing space between ankle and chest",
+        "consequence": "Opponent can flex their knee and rotate their leg to escape or relieve pressure",
+        "correction": "Maintain constant tension pulling the ankle to your chest throughout the entire sequence. Your elbows should squeeze together, and there should be no visible gap between their shin and your torso."
+      },
+      {
+        "error": "Using explosive jerking motion instead of controlled pressure",
+        "consequence": "Severe knee injury to training partner, unsafe training environment, potential ligament rupture before partner can tap",
+        "correction": "Always apply pressure progressively over 3-5 seconds minimum in training. Engage your posterior chain smoothly rather than explosively bridging. Your partner's safety depends on controlled application."
+      },
+      {
+        "error": "Ignoring opponent's free leg",
+        "consequence": "Opponent creates defensive frames that prevent finish or allows them to extract trapped leg",
+        "correction": "Always address the free leg before committing to finish. Use your outside leg to control it, or position your body to neutralize its defensive capability. This is a prerequisite, not an optional detail."
+      },
+      {
+        "error": "Finishing with hips parallel to opponent's leg rather than perpendicular",
+        "consequence": "Poor leverage, ineffective pressure, increased risk of opponent's leg slipping out or rotating",
+        "correction": "Check your angle before applying pressure. Your spine should be roughly perpendicular to their femur. Scoot your hips toward them and adjust your angle until the alignment is correct. This geometric principle is non-negotiable."
+      },
+      {
+        "error": "Releasing controls prematurely upon feeling tap",
+        "consequence": "Loss of position, allows opponent to escape before acknowledging submission",
+        "correction": "Upon receiving tap, stop pressure immediately but maintain positional control while carefully releasing the leg. Follow the release protocol exactly - stop hip extension, lower hips, then allow them to extract their leg safely."
+      },
+      {
+        "error": "Continuing to apply pressure after tap signal",
+        "consequence": "Serious injury to training partner, broken trust, unsafe training environment, potential career-ending knee damage",
+        "correction": "Develop acute awareness of all tap signals - verbal, hand, foot, or distress sounds. The instant you perceive any tap signal, stop all pressure immediately. This is absolute and non-negotiable in training. There are no exceptions."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Positional Mechanics",
+        "focus": "Hip placement, angle, and ankle-to-chest connection",
+        "description": "Drill the finishing position statically with a compliant partner. Focus exclusively on achieving correct perpendicular hip alignment, tight ankle grip, and proper leg configuration. No resistance. Perform 20-30 repetitions from each entry position until the correct body geometry becomes automatic. Partner provides feedback on angle and pressure direction."
+      },
+      {
+        "phase": "Phase 2: Control Sequence Integration",
+        "focus": "Full setup sequence including free leg clearing and grip transitions",
+        "description": "Chain the complete setup sequence from leg entanglement to finish position with light resistance (25-50%). Emphasize the order of operations: secure entanglement, grip ankle, adjust angle, clear free leg, then finish. Partner provides common defensive reactions one at a time so you can drill the appropriate response to each. Begin integrating entries from inside ashi, outside ashi, and 50-50."
+      },
+      {
+        "phase": "Phase 3: Live Positional Sparring",
+        "focus": "Finishing against active resistance and transitioning on defense",
+        "description": "Positional sparring starting from established kneebar control. Attacker works to finish, defender works to escape. Full resistance but controlled pressure on the finish. Alternate rounds where you start with good position versus rounds where you must establish position first. Begin developing the kneebar as part of a dilemma system with heel hook threats. 3-minute rounds, 5 rounds per session."
+      },
+      {
+        "phase": "Phase 4: Full Integration and Chain Attacks",
+        "focus": "Competition application, entry timing, and systematic attack chains",
+        "description": "Integrate kneebar entries into live rolling from all positions. Focus on recognizing kneebar opportunities during scrambles and transitions. Develop heel hook to kneebar and kneebar to heel hook chains that create dilemmas. Practice entries from standing, guard, and top positions at full speed with progressive finishing pressure. Film and review to identify timing patterns and missed opportunities."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the minimum time you should take to apply finishing pressure during training, and why is this critical?",
+        "answer": "Minimum 3-5 seconds of progressive pressure in training. This is critical because knee ligaments can rupture before a partner recognizes the danger and has time to tap. Explosive application in training is never acceptable as it risks career-ending injuries to training partners. The progressive application allows your partner to feel the increasing danger and respond appropriately with a tap signal.",
+        "safety_critical": true
+      },
+      {
+        "question": "What is the proper geometric relationship between your hips and opponent's leg for maximum kneebar effectiveness?",
+        "answer": "Your hips should be positioned perpendicular to opponent's leg, meaning your spine forms approximately a 90-degree angle with their femur. This perpendicular alignment creates optimal leverage and force direction for hyperextension of the knee joint. If your hips are parallel to their leg, you lose mechanical advantage and the submission becomes ineffective. Your pubic bone or lower abdomen should contact the back of their knee to serve as the fulcrum.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why must you clear or control opponent's free leg before committing to the finish?",
+        "answer": "The free leg is opponent's primary defensive tool - they can create frames on your hips or face that prevent you from generating the hip extension necessary to finish. If they establish a strong frame with their free leg, they can keep your hips distant from their trapped knee, eliminating your leverage. Additionally, the free leg can be used to post and extract their trapped leg. Controlling it is a prerequisite for successful finishing mechanics.",
+        "safety_critical": false
+      },
+      {
+        "question": "What should you do immediately upon receiving any tap signal, and what is the step-by-step release protocol?",
+        "answer": "Immediately stop all hip extension the moment any tap is received - verbal, hand, foot, or distress sound. Release protocol: (1) Stop hip extension instantly, (2) Drop hips away from opponent's leg to remove pressure, (3) Maintain grip control while releasing leg slowly and carefully, (4) Allow opponent to extract their leg at their own pace without forcing or rushing, (5) Check verbally with partner after release to ensure they are okay. Never rush the release as sudden movements can still cause injury.",
+        "safety_critical": true
+      },
+      {
+        "question": "What are the primary ligaments and structures at risk during kneebar application, and what are typical recovery times if injured?",
+        "answer": "Primary structures at risk include: (1) Posterior cruciate ligament (PCL) - tear requires 6-12 months recovery with surgery, (2) Medial collateral ligament (MCL) - grade 1-2 strain takes 4-8 weeks, grade 3 tear takes 3-6 months, (3) Joint capsule - damage requires 6-12 weeks recovery, (4) Meniscus (medial or lateral) - tears take 3-6 months and may require surgery. These severe recovery timelines emphasize why controlled application and immediate tap recognition are absolutely critical in training.",
+        "safety_critical": true
+      },
+      {
+        "question": "How do you maintain the critical connection between the opponent's ankle and your chest throughout the submission?",
+        "answer": "Cup both hands around opponent's ankle or lower shin and pull it tight to your chest, eliminating all space. Squeeze your elbows together to trap the leg securely against your torso. This connection must be maintained throughout the entire sequence - during angle adjustment, hip positioning, and finishing. Any gap allows opponent to flex their knee or rotate their leg, both of which defeat the submission. The ankle-to-chest connection is maintained through constant pulling tension, not just grip strength.",
+        "safety_critical": false
+      },
+      {
+        "question": "What muscle groups should you engage for safe, controlled kneebar pressure, and why is explosive bridging dangerous?",
+        "answer": "Engage your posterior chain - glutes and hamstrings - to create controlled hip extension. Think of slowly arching your back with shoulder blades pressing into mat, creating a smooth arc of pressure over several seconds. Explosive bridging is dangerous because it generates sudden, intense force that can rupture knee ligaments before partner can tap. The explosive motion also reduces your control and increases injury risk. Controlled posterior chain engagement allows progressive pressure that respects training partner's safety while maintaining technical efficiency.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your opponent begins pulling their knee inward to flex the joint and relieve pressure - what adjustment do you make to maintain the finish?",
+        "answer": "Immediately scoot your hips closer to their body to re-establish contact with the back of their knee. Simultaneously increase your pulling tension on the ankle, drawing it tighter to your chest. If they have already created significant knee flexion, you must address this before continuing - extend their leg by driving your hips forward while pulling the ankle, essentially straightening the leg before reapplying finishing pressure. If knee flexion persists, consider transitioning to heel hook as their inward rotation may expose the heel.",
+        "safety_critical": false
+      },
+      {
+        "question": "What indicators tell you the kneebar is locked and your opponent has no escape?",
+        "answer": "The point of no escape occurs when: (1) your hips are in contact with the back of their knee with perpendicular alignment, (2) their ankle is secured tight to your chest with no space, (3) their free leg is controlled or cleared and cannot create frames, (4) your leg triangle prevents them from rotating or extracting. At this point, any hip extension creates hyperextension pressure. You will feel their leg become rigid as extension begins - this is when they must tap or face injury. Never accelerate pressure at this point; maintain progressive application.",
+        "safety_critical": false
+      },
+      {
+        "question": "How do you adjust your grip if the opponent's leg is sweaty or slippery in no-gi competition?",
+        "answer": "In no-gi with sweaty legs, transition from a standard ankle cup to a figure-four grip configuration where one arm wraps behind the Achilles and grips your own wrist or forearm. This creates a locked mechanical grip that does not rely on friction. You can also grip higher on the calf muscle belly where there is more surface area. Some competitors use a palm-to-palm Gable grip behind the ankle. The key is using interlocking arm positions rather than just hand grips on skin.",
+        "safety_critical": false
+      },
+      {
+        "question": "In competition, what strategies maximize your kneebar finish rate while maintaining safety?",
+        "answer": "Competition strategies include: (1) Attack when opponent is tired or distracted by other threats, (2) Use the kneebar as part of a dilemma system - threaten heel hook to get them to defend, then attack the kneebar when they hide the heel, (3) Establish position completely before applying any finishing pressure, (4) In training, practice at match pace but with controlled pressure - the setup can be fast, but the finish should still be progressive enough for tap recognition, (5) Focus on cutting off escape routes before applying pressure - a secure position finishes itself.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the difference between a kneebar that causes pain and one that causes structural damage, and why is this distinction critical for training?",
+        "answer": "Pain from a kneebar often occurs before structural damage as the ligaments stretch and pressure builds on the joint capsule. However, the margin between pain and structural damage in knee attacks is extremely small compared to other submissions. The ligaments can rupture with minimal additional force once the joint reaches its extension limit. This is why partners must tap at the first sensation of pressure, not pain - waiting for pain means you are already in the danger zone. In training, both partners must understand that the tap comes when extension begins, not when it hurts.",
+        "safety_critical": true
+      }
+    ]
+  },
+  "defender": {
+    "name": "Kneebar Defender",
+    "description": "How to defend the Kneebar in BJJ. Recognition cues, escape mechanics, and defensive strategies to survive and counter kneebar attacks.",
+    "overview": "Defending the kneebar requires understanding the submission's mechanics in reverse: your opponent needs perpendicular hip alignment to the back of your knee, your ankle pulled to their chest, and hip extension to create the hyperextension force. Every defensive action targets one or more of these requirements. The most critical defensive window occurs before the attacker achieves full position - once hips are set, ankle is controlled, and your free leg is cleared, escape becomes extremely difficult and the risk of injury during resistance increases dramatically. Early recognition and immediate response are therefore more valuable than any specific escape technique.\n\nThe primary defensive hierarchy follows a clear sequence: first, prevent the attacker from establishing perpendicular hip alignment by keeping your knee bent and pulling it toward your chest; second, deny the ankle-to-chest connection by fighting grips and creating rotational movement; third, use your free leg actively to create frames on their hips that prevent the hip extension needed to finish. If the kneebar is fully locked with proper positioning, the safest response in training is to tap immediately rather than risk ligament damage through explosive escape attempts. Understanding when to fight and when to tap is the most important defensive skill for any leg lock.",
+    "key_principles": [
+      "Bend your knee immediately upon recognizing the kneebar attempt - a flexed knee cannot be hyperextended",
+      "Use your free leg aggressively to frame on the attacker's hips, preventing them from generating extension pressure",
+      "Fight grip control on your ankle before the attacker establishes the tight chest connection",
+      "Rotate your body toward the attacker rather than away to disrupt their perpendicular alignment",
+      "Tap early when the position is fully locked - the margin between pressure and structural damage is extremely narrow in kneebars",
+      "Address the position systematically rather than panicking - identify which element of their control is weakest and attack that first"
+    ],
+    "recognition_cues": [
+      "Opponent begins securing your leg between their legs while falling back or rotating perpendicular to your body",
+      "You feel hands gripping around your ankle or lower shin with pulling pressure toward their chest",
+      "Opponent's hips begin making contact with the back of your knee while their body angles perpendicular to your leg",
+      "Your free leg is being controlled, cleared, or pinned by opponent's outside leg or hip pressure",
+      "Opponent transitions from standard leg entanglement to a position where their chest faces your trapped leg with elbows squeezing"
+    ],
+    "defensive_options": [
+      {
+        "action": "Bend knee and pull leg toward your chest to prevent hyperextension",
+        "when_to_use": "Immediately upon recognizing kneebar attempt, before attacker establishes full position and hip contact",
+        "targets_outcome": "Kneebar Control/Top",
+        "if_successful": "Prevents the submission by eliminating the extension angle, forcing attacker to re-establish position or transition to alternative attack",
+        "risk": "If attacker has strong ankle grip, bending alone may not be sufficient and you must combine with grip fighting"
+      },
+      {
+        "action": "Frame with free leg on attacker's hip to block their hip extension",
+        "when_to_use": "When attacker has established ankle grip but has not yet cleared your free leg, or when you need to create distance",
+        "targets_outcome": "Kneebar Control/Top",
+        "if_successful": "Creates a structural block that prevents attacker from driving hips into the back of your knee, buying time for full escape",
+        "risk": "Attacker may transition to address your free leg, potentially moving to belly-down kneebar or heel hook if you expose the heel during framing"
+      },
+      {
+        "action": "Roll toward trapped leg and extract by rotating through",
+        "when_to_use": "When attacker's outside leg control is loose and you can generate rotational momentum to disrupt their position",
+        "targets_outcome": "Ashi Garami/Bottom",
+        "if_successful": "Reverses the position entirely, potentially establishing your own leg entanglement or achieving top position with leg free",
+        "risk": "If attacker follows the roll and maintains ankle control, you may end up in a worse position with them in belly-down kneebar"
+      },
+      {
+        "action": "Strip ankle grip by two-on-one hand fighting while maintaining knee bend",
+        "when_to_use": "When attacker has ankle grip but has not yet achieved perpendicular hip alignment, giving you time to address grips",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "Breaking the ankle-to-chest connection removes the primary finishing mechanic, allowing full leg extraction",
+        "risk": "Requires committing both hands to grip fighting, temporarily reducing your ability to frame or post"
+      }
+    ],
+    "escape_paths": [
+      "Bend knee forcefully while fighting ankle grips, then rotate body toward attacker to disrupt alignment and extract leg to recover guard",
+      "Establish free leg frame on attacker's far hip, push to create distance, then turn into them and extract trapped leg by circling knee inward",
+      "Roll through toward the trapped leg side when attacker's outside leg control is loose, using momentum to reverse position and establish top or counter leg entanglement",
+      "Two-on-one grip break on attacker's wrist controlling your ankle, then immediately retract leg while turning to face them and recovering guard position"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Kneebar Control/Top",
+        "how": "Bend knee and frame with free leg early before attacker establishes full position, then systematically strip grips and extract leg while maintaining knee flexion throughout"
+      },
+      {
+        "outcome": "Ashi Garami/Bottom",
+        "how": "Roll through toward trapped leg when attacker's control is loose, using the rotation to reverse positions and establish your own leg entanglement on their now-exposed legs"
+      },
+      {
+        "outcome": "Open Guard/Bottom",
+        "how": "Strip ankle grips with two-on-one hand fighting, retract leg while turning to face opponent, and re-establish open guard distance and framing"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Straightening the leg or allowing full knee extension while trying to pull leg out",
+        "consequence": "Gives the attacker exactly what they need - a straight leg is the finishing position for the kneebar, dramatically increasing submission risk and potential for injury",
+        "correction": "Always maintain knee flexion as the first priority. Pull your heel toward your buttock throughout all escape attempts. A bent knee cannot be hyperextended."
+      },
+      {
+        "error": "Ignoring the free leg and not using it to create defensive frames",
+        "consequence": "Allows the attacker to generate full hip extension without obstruction, making the finish nearly inevitable once positioning is complete",
+        "correction": "Immediately place your free foot on the attacker's far hip and push to create a structural block. Your free leg is your most powerful defensive tool - use it actively throughout the escape sequence."
+      },
+      {
+        "error": "Attempting explosive escape after the position is fully locked with proper alignment and ankle control",
+        "consequence": "High risk of ligament rupture during the explosive movement, as the attacker's position converts your movement into additional hyperextension force on the knee",
+        "correction": "If the kneebar is fully locked with perpendicular hips, tight ankle control, and free leg cleared, tap immediately. The window for safe escape has passed. Train to recognize this threshold and tap without hesitation."
+      },
+      {
+        "error": "Turning away from the attacker during escape attempts",
+        "consequence": "Rotating away actually improves the attacker's perpendicular alignment and may expose your heel for transition to heel hook",
+        "correction": "Always rotate toward the attacker to disrupt their angle. Turning into them closes the distance they need for hip extension and disrupts the perpendicular geometry they require."
+      },
+      {
+        "error": "Focusing solely on grip fighting while neglecting body positioning and knee bend",
+        "consequence": "Even if you break their grip momentarily, they can re-grip quickly if your leg remains straight and exposed in their entanglement",
+        "correction": "Combine grip fighting with constant knee flexion and body rotation. Breaking grips without simultaneously bending the knee and creating distance wastes the defensive window."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the single most important defensive action the moment you recognize a kneebar attempt?",
+        "answer": "Immediately bend your knee by pulling your heel toward your buttock. A flexed knee cannot be hyperextended, which is the entire mechanism of the kneebar. This must happen before any other defensive action - grip fighting, framing, or rolling are all secondary to maintaining knee flexion. The bent knee buys you time to execute other defensive techniques without risk of immediate submission.",
+        "safety_critical": true
+      },
+      {
+        "question": "When should you tap to a kneebar rather than continue attempting to escape?",
+        "answer": "Tap immediately when the attacker has achieved all three requirements for finishing: (1) perpendicular hip alignment with contact on the back of your knee, (2) your ankle secured tight to their chest with no space, and (3) your free leg cleared or unable to create effective frames. Once all three are established, any hip extension creates direct hyperextension force on your knee ligaments. The margin between pressure and structural damage is extremely narrow. Tapping early prevents the 6-12 month recovery that accompanies ligament tears.",
+        "safety_critical": true
+      },
+      {
+        "question": "Why is rotating toward the attacker more effective than rotating away during kneebar defense?",
+        "answer": "Rotating toward the attacker disrupts their perpendicular alignment, which is the geometric foundation of the kneebar's leverage. When you turn into them, you close the distance their hips need for extension and change the angle of force from hyperextension to a less dangerous direction. Rotating away actually improves their perpendicular alignment and may expose your heel for a transition to heel hook, creating a worse situation than the original kneebar threat.",
+        "safety_critical": false
+      },
+      {
+        "question": "How does the free leg function as a defensive tool against kneebar attacks?",
+        "answer": "Your free leg serves as a structural frame when placed on the attacker's far hip, creating a post that physically blocks their hip extension. This frame prevents them from bridging into the back of your trapped knee, removing the force generation needed to finish the submission. The free leg can also be used to push the attacker away to create extraction distance, or hooked behind their body to assist with rolling escapes. Attackers prioritize clearing the free leg precisely because it is so effective defensively.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent has a tight kneebar but you manage to bend your knee slightly - what sequence do you follow to complete the escape?",
+        "answer": "With knee bend established: (1) Maintain constant flexion while fighting their ankle grip with both hands using two-on-one control, (2) Place your free foot on their far hip as a frame to block further hip extension attempts, (3) Begin rotating your body toward the attacker to disrupt their perpendicular alignment, (4) As their angle degrades, increase your knee bend and start retracting your leg, circling your knee inward toward your body, (5) Once your leg clears their hip line, immediately recover guard or stand. Never straighten the leg at any point during this sequence.",
+        "safety_critical": false
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and Tap Awareness",
+        "focus": "Identifying kneebar attempts early and developing safe tap threshold",
+        "description": "Partner applies kneebars at 25% speed with verbal narration of each step. Defender practices recognizing the five recognition cues and tapping at the correct moment - when extension begins, not when pain starts. Drill 20 repetitions focusing purely on when to tap. This phase builds the safety awareness foundation that all subsequent defensive training depends on."
+      },
+      {
+        "phase": "Phase 2: Knee Bend and Free Leg Framing",
+        "focus": "Developing automatic knee flexion response and free leg defensive frames",
+        "description": "Partner establishes partial kneebar position with 25-50% resistance. Defender drills the immediate knee bend response followed by placing free foot on attacker's hip. Alternate between early-stage defense (before ankle grip) and mid-stage defense (after ankle grip but before full position). 15 repetitions per stage, building muscle memory for the knee flexion reflex."
+      },
+      {
+        "phase": "Phase 3: Grip Fighting and Escape Sequences",
+        "focus": "Complete escape sequences combining knee bend, grip fighting, and body rotation",
+        "description": "Partner applies kneebar with 50-75% resistance. Defender chains the full defensive sequence: bend knee, frame with free leg, fight ankle grips with two-on-one, rotate toward attacker, extract leg. Drill each escape path separately, then combine. 3-minute positional rounds where defender starts in kneebar position and works to escape while attacker works to finish."
+      },
+      {
+        "phase": "Phase 4: Live Defense Integration",
+        "focus": "Defending kneebars during live rolling and developing counter-attack awareness",
+        "description": "Full resistance positional sparring and live rolling with emphasis on kneebar defense. Defender practices recognizing kneebar threats from various positions and executing appropriate defense based on how deep the attacker's position is. Begin developing counter-offense: when the kneebar is escaped, immediately establish your own leg entanglement or pass. 5-minute rounds alternating roles."
+      }
+    ]
+  }
 }

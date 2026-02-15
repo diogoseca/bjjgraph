@@ -20,38 +20,38 @@ description: "Master defensive strategies from 3-4 Mount Bottom. Complete escape
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Elbow Escape",
-      "text": "From this position, attempt Elbow Escape. This technique is attempted in 19% of exchanges from this position.",
+      "name": "Execute Elbow Escape to Guard",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 22% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Shrimp Escape",
-      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape",
-      "text": "From this position, attempt Hip Escape. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Hip Escape to Guard",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Frame and Shrimp",
-      "text": "From this position, attempt Frame and Shrimp. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Frame and Shrimp to Guard",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Upa Escape",
-      "text": "From this position, attempt Upa Escape. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Upa Escape. This technique is attempted in 15% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,17 +209,17 @@ From a positional hierarchy perspective, 3-4 Mount Bottom is a high-risk defensi
 
 ## Available Escapes
 
-### [[Elbow Escape]] (19% of attempts)
+### [[Elbow Escape to Guard]] (22% of attempts)
 
-### [[Bridge and Roll]] (16% of attempts)
+### [[Bridge and Roll]] (18% of attempts)
 
-### [[Shrimp Escape]] (17% of attempts)
+### [[Shrimp Escape]] (18% of attempts)
 
-### [[Hip Escape]] (16% of attempts)
+### [[Hip Escape to Guard]] (15% of attempts)
 
-### [[Frame and Shrimp]] (15% of attempts)
+### [[Frame and Shrimp to Guard]] (12% of attempts)
 
-### [[Upa Escape]] (17% of attempts)
+### [[Upa Escape]] (15% of attempts)
 
 
 
@@ -235,18 +235,18 @@ From a positional hierarchy perspective, 3-4 Mount Bottom is a high-risk defensi
 
 
 **If opponent drops weight low with chest pressure but maintains 3-4 configuration:**
-- Execute **[[Elbow Escape]]** → [[Half Guard]] (Probability: 50%)
+- Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 50%)
 - Execute **[[Shrimp Escape]]** → [[Open Guard]] (Probability: 45%)
 
 
 **If opponent attempts to transition to traditional mount or high mount:**
-- Execute **[[Frame and Shrimp]]** → [[Half Guard]] (Probability: 48%)
-- Execute **[[Hip Escape]]** → [[Open Guard]] (Probability: 42%)
+- Execute **[[Frame and Shrimp to Guard]]** → [[Half Guard]] (Probability: 48%)
+- Execute **[[Hip Escape to Guard]]** → [[Open Guard]] (Probability: 42%)
 
 
 **If opponent isolates one arm for submission attempt:**
 - Execute **[[Bridge and Roll]]** → [[Closed Guard]] (Probability: 35%)
-- Execute **[[Elbow Escape]]** → [[Half Guard]] (Probability: 40%)
+- Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 40%)
 
 
 
@@ -388,7 +388,7 @@ Timed rounds starting from 3-4 mount bottom position. Bottom player scores point
 - **[[Closed Guard]]** - Guard recovery goal - full guard position after successful escape sequence
 - **[[Open Guard]]** - Transition target - intermediate position during escape sequences
 - **[[Knee Shield Half Guard]]** - Common escape destination - using knee shield to prevent re-mounting
-- **[[Elbow Escape]]** - Primary escape technique - shrimp-based movement to recover guard
+- **[[Elbow Escape to Guard]]** - Primary escape technique - shrimp-based movement to recover guard
 
 
 </section>

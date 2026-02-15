@@ -93,31 +93,41 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 ### Available Transitions
 
 
-- **[[Hip Bump Sweep]]** (8% of attempts)
+- **[[Hip Bump Sweep]]** (17% of attempts)
 
-- **[[Scissor Sweep]]** (8% of attempts)
+- **[[Scissor Sweep]]** (6% of attempts)
 
-- **[[Pendulum Sweep]]** (8% of attempts)
+- **[[Pendulum Sweep]]** (6% of attempts)
 
-- **[[Flower Sweep]]** (8% of attempts)
+- **[[Flower Sweep]]** (5% of attempts)
 
-- **[[Kimura to Back Take]]** (8% of attempts)
+- **[[Kimura to Back Take]]** (5% of attempts)
 
-- **[[Omoplata Sweep]]** (7% of attempts)
+- **[[Omoplata Sweep]]** (4% of attempts)
 
-- **[[Triangle Setup]]** (8% of attempts)
+- **[[Triangle Setup]]** (6% of attempts)
 
-- **[[Closed Guard to Triangle]]** (7% of attempts)
+- **[[Omoplata to Back]]** (3% of attempts)
 
-- **[[Omoplata to Back]]** (6% of attempts)
+- **[[Elevator Sweep]]** (4% of attempts)
 
-- **[[Elevator Sweep]]** (8% of attempts)
+- **[[Overhook Sweep]]** (4% of attempts)
 
-- **[[Overhook Sweep]]** (8% of attempts)
+- **[[Kimura Sweep]]** (5% of attempts)
 
-- **[[Kimura Sweep]]** (8% of attempts)
+- **[[Muscle Sweep]]** (3% of attempts)
 
-- **[[Muscle Sweep]]** (8% of attempts)
+- **[[Transition to Overhook Guard]]** (3% of attempts)
+
+- **[[Lumberjack Sweep]]** (4% of attempts)
+
+- **[[Guillotine Setup]]** (5% of attempts)
+
+- **[[Armbar from Guard]]** (10% of attempts)
+
+- **[[Cross Collar Choke]]** (6% of attempts)
+
+- **[[Closed Guard to Omoplata]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -176,23 +186,15 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 ### Available Transitions
 
 
-- **[[Guard Opening Sequence]]** (13% of attempts)
+- **[[Guard Opening Sequence]]** (28% of attempts)
 
-- **[[Toreando Pass]]** (11% of attempts)
+- **[[Stack Pass]]** (12% of attempts)
 
-- **[[Knee Slice Pass]]** (12% of attempts)
+- **[[Standing up in Base]]** (25% of attempts)
 
-- **[[Stack Pass]]** (10% of attempts)
+- **[[Posture Recovery]]** (30% of attempts)
 
-- **[[Over-Under Pass]]** (11% of attempts)
-
-- **[[Long Step Pass]]** (10% of attempts)
-
-- **[[Pressure Pass]]** (9% of attempts)
-
-- **[[Double Under Pass]]** (10% of attempts)
-
-- **[[Standing up in Base]]** (14% of attempts)
+- **[[Can Opener]]** (5% of attempts)
 
 
 ### Common Mistakes

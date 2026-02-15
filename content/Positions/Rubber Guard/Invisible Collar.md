@@ -93,17 +93,17 @@ The invisible collar serves multiple strategic functions within back attack syst
 ### Available Transitions
 
 
-- **[[Hand Fighting to Remove Collar Grip]]** (20% of attempts)
+- **[[Hand Fighting to Remove Collar Grip]]** (22% of attempts)
 
-- **[[Hip Escape to Guard Recovery]]** (17% of attempts)
+- **[[Hip Escape to Guard]]** (18% of attempts)
 
-- **[[Elbow Escape to Remove Hooks]]** (18% of attempts)
+- **[[Elbow Escape to Remove Hooks]]** (20% of attempts)
 
-- **[[Rolling Escape]]** (15% of attempts)
+- **[[Rolling Escape to Guard]]** (13% of attempts)
 
-- **[[Standing Escape]]** (13% of attempts)
+- **[[Standing Escape]]** (11% of attempts)
 
-- **[[Granby Roll Escape]]** (17% of attempts)
+- **[[Granby Roll to Guard]]** (16% of attempts)
 
 
 ### Common Mistakes
@@ -164,7 +164,7 @@ The invisible collar serves multiple strategic functions within back attack syst
 
 - **[[Rear Naked Choke]]** (14% of attempts)
 
-- **[[Armbar from Back with Legs]]** (12% of attempts)
+- **[[Armbar from Back Transition]]** (12% of attempts)
 
 - **[[Aoki Lock to Crucifix]]** (11% of attempts)
 

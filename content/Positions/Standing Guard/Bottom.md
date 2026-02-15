@@ -21,37 +21,37 @@ description: "Master Standing Guard Bottom in BJJ. Defensive position with dista
     {
       "@type": "HowToStep",
       "name": "Execute Pull guard",
-      "text": "From this position, attempt Pull guard. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Pull guard. This technique is attempted in 26% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Sitting Guard Pull",
-      "text": "From this position, attempt Sitting Guard Pull. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Sitting Guard Pull. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Shin to Shin Pull",
-      "text": "From this position, attempt Shin to Shin Pull. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Shin to Shin Pull. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing to Single Leg X",
-      "text": "From this position, attempt Standing to Single Leg X. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Standing to Single Leg X. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Ankle Pick",
-      "text": "From this position, attempt Ankle Pick. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Ankle Pick. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Drag to Back",
-      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,25 +210,29 @@ Modern guard players use Standing Guard Bottom as a tactical platform for enteri
 
 ## Available Escapes
 
-### [[Pull guard]] (13% of attempts)
+### [[Pull guard]] (26% of attempts)
 
-### [[Sitting Guard Pull]] (13% of attempts)
+### [[Sitting Guard Pull]] (11% of attempts)
 
-### [[Shin to Shin Pull]] (11% of attempts)
+### [[Shin to Shin Pull]] (9% of attempts)
 
-### [[Standing to Single Leg X]] (10% of attempts)
+### [[Standing to Single Leg X]] (8% of attempts)
 
-### [[Ankle Pick]] (10% of attempts)
+### [[Ankle Pick]] (8% of attempts)
 
-### [[Arm Drag to Back]] (9% of attempts)
+### [[Arm Drag to Back]] (7% of attempts)
 
-### [[Rolling Guard Pull]] (8% of attempts)
+### [[Rolling Guard Pull]] (6% of attempts)
 
-### [[Double Leg Entry]] (9% of attempts)
+### [[Double Leg Entry]] (7% of attempts)
 
-### [[Single Leg Entry]] (9% of attempts)
+### [[Single Leg Entry]] (7% of attempts)
 
-### [[Snap Down to Front Headlock]] (8% of attempts)
+### [[Snap Down to Front Headlock]] (6% of attempts)
+
+### [[Pull Guard from Ground]] (3% of attempts)
+
+### [[Technical Stand Up from Ground]] (2% of attempts)
 
 
 

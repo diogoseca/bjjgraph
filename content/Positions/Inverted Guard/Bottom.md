@@ -21,37 +21,37 @@ description: "Master inverted guard from bottom perspective. Dynamic defensive p
     {
       "@type": "HowToStep",
       "name": "Execute Berimbolo Entry",
-      "text": "From this position, attempt Berimbolo Entry. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Berimbolo Entry. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kiss of the Dragon",
-      "text": "From this position, attempt Kiss of the Dragon. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Kiss of the Dragon. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Entry",
-      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard Sweep",
-      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll",
-      "text": "From this position, attempt Granby Roll. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Granby Roll to Guard",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -205,25 +205,29 @@ From the bottom perspective, Inverted Guard represents a highly mobile defensive
 
 ## Available Escapes
 
-### [[Berimbolo Entry]] (9% of attempts)
+### [[Berimbolo Entry]] (15% of attempts)
 
-### [[Rolling Back Take]] (10% of attempts)
+### [[Rolling Back Take]] (11% of attempts)
 
-### [[Kiss of the Dragon]] (9% of attempts)
+### [[Kiss of the Dragon]] (8% of attempts)
 
-### [[Single Leg X Entry]] (11% of attempts)
+### [[Single Leg X Entry]] (10% of attempts)
 
-### [[X-Guard Sweep]] (10% of attempts)
+### [[X-Guard Sweep]] (8% of attempts)
 
-### [[Granby Roll]] (12% of attempts)
+### [[Granby Roll to Guard]] (10% of attempts)
 
-### [[Omoplata from Guard]] (8% of attempts)
+### [[Omoplata]] (5% of attempts)
 
-### [[Truck Entry]] (8% of attempts)
+### [[Roll to Truck]] (6% of attempts)
 
-### [[Reverse X-Guard Entry]] (10% of attempts)
+### [[Reverse X-Guard Entry]] (5% of attempts)
 
-### [[Technical Stand-up]] (13% of attempts)
+### [[Technical Stand-up]] (7% of attempts)
+
+### [[Bolo Sweep]] (8% of attempts)
+
+### [[Reverse De La Riva Recovery]] (7% of attempts)
 
 
 
@@ -234,7 +238,7 @@ From the bottom perspective, Inverted Guard represents a highly mobile defensive
 ## Decision Making from This Position
 
 **If opponent attempts smash pass with forward pressure and weight driving into shoulders:**
-- Execute **[[Granby Roll]]** → [[Closed Guard]] (Probability: 60%)
+- Execute **[[Granby Roll to Guard]]** → [[Closed Guard]] (Probability: 60%)
 - Execute **[[Berimbolo Entry]]** → [[Back Control]] (Probability: 50%)
 
 
@@ -254,7 +258,7 @@ From the bottom perspective, Inverted Guard represents a highly mobile defensive
 
 
 **Else if opponent begins stack pass with hips elevated and pressure angled downward:**
-- Execute **[[Granby Roll]]** → [[Closed Guard]] (Probability: 65%)
+- Execute **[[Granby Roll to Guard]]** → [[Closed Guard]] (Probability: 65%)
 - Execute **[[Reverse X-Guard Entry]]** → [[Reverse X-Guard]] (Probability: 45%)
 
 
@@ -407,7 +411,7 @@ Focus specifically on berimbolo entries and rolling back takes from inverted gua
 - **[[X-Guard]]** - Related guard position with similar sweep mechanics and base disruption strategies
 - **[[Berimbolo Entry]]** - Primary offensive transition utilizing inversion for back attack sequences
 - **[[Rolling Back Take]]** - Key transition to back control from inverted position using rotational mechanics
-- **[[Granby Roll]]** - Essential movement pattern for entering and exiting inverted guard safely
+- **[[Granby Roll to Guard]]** - Essential movement pattern for exiting inverted guard safely and recovering guard
 - **[[Kiss of the Dragon]]** - Advanced back take variation from inverted guard with high finishing potential
 - **[[Truck]]** - Related inverted position with back attack and submission opportunities
 - **[[Spider Guard]]** - Entry position that can transition to inverted guard for defensive retention

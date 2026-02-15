@@ -1,0 +1,13 @@
+{
+  "name": "Pass Piranha Guard",
+  "description": "",
+  "tags": [],
+  "from_position": "Piranha Guard/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

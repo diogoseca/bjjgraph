@@ -1,0 +1,13 @@
+{
+  "name": "Invert from Reverse Half Guard",
+  "description": "",
+  "tags": [],
+  "from_position": "Reverse Half Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Open Guard/Bottom",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

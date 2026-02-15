@@ -310,15 +310,15 @@
     "transitions": [
       {
         "transition": "Leg Drag Pass to Side Control",
-        "attempt_probability": 15
+        "attempt_probability": 24
       },
       {
         "transition": "Leg Drag to Back Take",
-        "attempt_probability": 18
+        "attempt_probability": 20
       },
       {
         "transition": "Leg Drag to Mount",
-        "attempt_probability": 14
+        "attempt_probability": 12
       },
       {
         "transition": "Leg Drag to Knee on Belly",
@@ -326,15 +326,15 @@
       },
       {
         "transition": "Leg Drag to North-South",
-        "attempt_probability": 10
+        "attempt_probability": 7
       },
       {
         "transition": "Leg Drag to Crucifix",
-        "attempt_probability": 8
+        "attempt_probability": 4
       },
       {
         "transition": "Leg Drag to Inside Ashi",
-        "attempt_probability": 9
+        "attempt_probability": 6
       },
       {
         "transition": "Leg Drag to Technical Mount",
@@ -342,7 +342,7 @@
       },
       {
         "transition": "Leg Drag to Darce Setup",
-        "attempt_probability": 6
+        "attempt_probability": 7
       }
     ]
   },
@@ -438,12 +438,12 @@
         "condition": "If opponent's weight shifts forward toward head control",
         "actions": [
           {
-            "technique": "Technical Standup",
+            "technique": "Technical Stand-up",
             "target": "Standing Position",
             "probability": 55
           },
           {
-            "technique": "Granby Roll Escape",
+            "technique": "Granby Roll to Guard",
             "target": "Open Guard",
             "probability": 45
           }
@@ -586,27 +586,27 @@
     "transitions": [
       {
         "transition": "Leg Drag Escape to Closed Guard",
-        "attempt_probability": 11
+        "attempt_probability": 4
       },
       {
-        "transition": "Technical Standup",
-        "attempt_probability": 12
+        "transition": "Technical Stand-up",
+        "attempt_probability": 9
       },
       {
         "transition": "Leg Drag Counter to Half Guard",
-        "attempt_probability": 15
+        "attempt_probability": 18
       },
       {
         "transition": "Roll to Turtle",
-        "attempt_probability": 15
+        "attempt_probability": 18
       },
       {
         "transition": "Inside Position Recovery",
         "attempt_probability": 10
       },
       {
-        "transition": "Granby Roll Escape",
-        "attempt_probability": 8
+        "transition": "Granby Roll to Guard",
+        "attempt_probability": 6
       },
       {
         "transition": "Leg Recovery to De La Riva",
@@ -614,11 +614,11 @@
       },
       {
         "transition": "Frame and Shrimp to Guard",
-        "attempt_probability": 9
+        "attempt_probability": 12
       },
       {
         "transition": "Half Guard Recovery",
-        "attempt_probability": 11
+        "attempt_probability": 14
       }
     ]
   }

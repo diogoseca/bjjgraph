@@ -4,7 +4,7 @@
 
 ---
 title: "Toe Hold Control Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master Toe Hold Control Bottom position in BJJ. Defensive guide covering escape mechanics, counter-attacks, and safety protocols."
+description: "Master Toe Hold Control Bottom defense in BJJ. Systematic guide covering grip breaking, ankle protection, escape mechanics, and safe recovery protocols."
 ---
 
 
@@ -21,37 +21,37 @@ description: "Master Toe Hold Control Bottom position in BJJ. Defensive guide co
     {
       "@type": "HowToStep",
       "name": "Execute Saddle Defense",
-      "text": "From this position, attempt Saddle Defense. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Saddle Defense. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Ashi Garami Escape",
-      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Inside Ashi Entry",
-      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard to Ashi Transition",
-      "text": "From this position, attempt X-Guard to Ashi Transition. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt X-Guard to Ashi Transition. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guard Replacement",
-      "text": "From this position, attempt Guard Replacement. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Guard Recovery",
+      "text": "From this position, attempt Guard Recovery. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -115,7 +115,7 @@ description: "Master Toe Hold Control Bottom position in BJJ. Defensive guide co
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Toe Hold Control Bottom",
-  "description": "Master Toe Hold Control Bottom position in BJJ. Defensive guide covering escape mechanics, counter-attacks, and safety protocols.",
+  "description": "Master Toe Hold Control Bottom defense in BJJ. Systematic guide covering grip breaking, ankle protection, escape mechanics, and safe recovery protocols.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -206,17 +206,21 @@ Toe Hold Control Bottom represents a defensive position within the leg entanglem
 
 ## Available Escapes
 
-### [[Saddle Defense]] (20% of attempts)
+### [[Saddle Defense]] (25% of attempts)
 
-### [[Ashi Garami Escape]] (18% of attempts)
+### [[Ashi Garami Escape]] (15% of attempts)
 
-### [[Inside Ashi Entry]] (17% of attempts)
+### [[Inside Ashi Entry]] (14% of attempts)
 
-### [[X-Guard to Ashi Transition]] (15% of attempts)
+### [[X-Guard to Ashi Transition]] (12% of attempts)
 
-### [[Guard Replacement]] (16% of attempts)
+### [[Guard Recovery]] (13% of attempts)
 
-### [[Deep Half Entry]] (14% of attempts)
+### [[Deep Half Entry]] (12% of attempts)
+
+### [[Boot Defense from Toe Hold]] (6% of attempts)
+
+### [[Counter Rotation from Toe Hold]] (3% of attempts)
 
 
 
@@ -227,7 +231,7 @@ Toe Hold Control Bottom represents a defensive position within the leg entanglem
 ## Decision Making from This Position
 
 **If opponent has completed full toe hold grip with figure-four and begins rotating ankle with significant pressure:**
-- Execute **[[Tap Out]]** → [[game-over]] (Probability: 95%)
+- Execute **[[Tap Out]]** → [[Game Over]] (Probability: 95%)
 - Execute **[[Explosive wrist control and internal rotation escape]]** → [[Ashi Garami]] (Probability: 5%)
 
 
@@ -238,7 +242,7 @@ Toe Hold Control Bottom represents a defensive position within the leg entanglem
 
 **If opponent transitions from toe hold to heel hook attempt creating momentary grip loosening:**
 - Execute **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]] (Probability: 50%)
-- Execute **[[Guard Replacement]]** → [[Open Guard]] (Probability: 40%)
+- Execute **[[Guard Recovery]]** → [[Open Guard]] (Probability: 40%)
 - Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 10%)
 
 

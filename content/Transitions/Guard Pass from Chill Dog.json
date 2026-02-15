@@ -1,0 +1,42 @@
+{
+  "name": "Guard Pass from Chill Dog",
+  "description": "TODO",
+  "tags": ["bjj", "transition", "guard-pass", "rubber-guard", "chill-dog"],
+  "from_position": "Chill Dog/Top",
+  "outcomes": [
+    {"to": "Side Control/Top", "probability": 50, "result": "success"},
+    {"to": "Chill Dog/Top", "probability": 32, "result": "failure"},
+    {"to": "Closed Guard/Top", "probability": 18, "result": "counter"}
+  ],
+  "success_rate": 50,
+  "overview": "TODO",
+  "conditions": ["TODO"],
+  "variants_and_adaptations": [{"variant_name": "TODO", "description": "TODO", "when_to_use": "TODO"}],
+  "position_integration": "TODO",
+  "related_content": [{"name": "TODO", "relationship": "TODO"}],
+  "attacker": {
+    "name": "Guard Pass from Chill Dog Attacker",
+    "description": "TODO",
+    "overview": "TODO",
+    "key_principles": ["TODO"],
+    "setup_requirements": ["TODO"],
+    "execution_steps": [{"step_number": 1, "action": "TODO", "description": "TODO"}],
+    "common_counters": [{"counter": "TODO", "effectiveness": "Medium", "your_response": "TODO", "targets_outcome": "Chill Dog/Top"}],
+    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
+    "training_progressions": [{"phase": "Phase 1: Mechanics", "focus": "TODO", "description": "TODO"}],
+    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
+    "safety_considerations": "TODO"
+  },
+  "defender": {
+    "name": "Guard Pass from Chill Dog Defender",
+    "description": "TODO",
+    "overview": "TODO",
+    "key_principles": ["TODO"],
+    "recognition_cues": ["TODO"],
+    "defensive_options": [{"action": "TODO", "when_to_use": "TODO", "targets_outcome": "Chill Dog/Top", "if_successful": "TODO", "risk": "TODO"}],
+    "favorable_outcomes": [{"outcome": "Chill Dog/Top", "how": "TODO"}],
+    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
+    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
+    "training_progressions": [{"phase": "Phase 1: Recognition", "focus": "TODO", "description": "TODO"}]
+  }
+}

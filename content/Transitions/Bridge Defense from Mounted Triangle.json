@@ -1,0 +1,13 @@
+{
+  "name": "Bridge Defense from Mounted Triangle",
+  "description": "",
+  "tags": [],
+  "from_position": "Mounted Triangle/Bottom",
+  "outcomes": [
+    {
+      "to": "Mount/Bottom",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

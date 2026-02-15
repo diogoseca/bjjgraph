@@ -338,5 +338,33 @@
       "question": "After your opponent partially escapes by straightening their leg and clearing one of your hooks, how do you recover the entanglement?",
       "answer": "After a partial escape where one hook is cleared, immediately prioritize re-establishing the remaining hook's depth behind their knee to prevent full escape. Use your freed leg to either re-pummel inside for the original entanglement or transition to an alternative configuration - if your inside hook was cleared, switch to outside ashi by placing that leg across their hip instead. Simultaneously, pull their foot toward your chest using your grips to re-bend their knee, which recreates the entanglement structure. If they have straightened fully, transition to a straight ankle lock or kneebar attack that capitalizes on the extended leg position rather than fighting to re-bend it. Never release your remaining control point while attempting to recover the lost hook."
     }
-  ]
+  ],
+  "top": {
+    "transitions": [
+      {
+        "transition": "Ashi Entry from Leg Entanglement",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Leg Extraction Pass",
+        "attempt_probability": 0
+      }
+    ]
+  },
+  "bottom": {
+    "transitions": [
+      {
+        "transition": "Leg Extraction Escape from Entanglement",
+        "attempt_probability": 40
+      },
+      {
+        "transition": "Guard Recovery from Leg Entanglement",
+        "attempt_probability": 35
+      },
+      {
+        "transition": "Inversion Escape from Leg Entanglement",
+        "attempt_probability": 25
+      }
+    ]
+  }
 }

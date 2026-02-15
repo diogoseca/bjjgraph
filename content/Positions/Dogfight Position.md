@@ -26,8 +26,8 @@ description: "Master the Dogfight position in BJJ half guard. Dynamic kneeling p
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take Generic",
-      "text": "From this position, attempt Back Take Generic. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Back Take",
+      "text": "From this position, attempt Back Take. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
@@ -56,8 +56,8 @@ description: "Master the Dogfight position in BJJ half guard. Dynamic kneeling p
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Electric Chair Submission",
-      "text": "From this position, attempt Electric Chair Submission. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Electric Chair Transition",
+      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 7% of exchanges from this position.",
       "position": 7
     },
     {
@@ -233,7 +233,7 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 
 ### [[Old School Sweep]] (18% of attempts)
 
-### [[Back Take Generic]] (18% of attempts)
+### [[Back Take]] (18% of attempts)
 
 ### [[Deep Half Entry]] (15% of attempts)
 
@@ -243,7 +243,7 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 
 ### [[Underhook Sweep from Half]] (10% of attempts)
 
-### [[Electric Chair Submission]] (7% of attempts)
+### [[Electric Chair Transition]] (7% of attempts)
 
 ### [[Hip Bump Sweep]] (7% of attempts)
 
@@ -260,7 +260,7 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 **If opponent has strong whizzer and is driving you backward with heavy crossface pressure:**
 - Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 70%)
 - Execute **[[Rolling to Guard]]** → [[Closed Guard]] (Probability: 60%)
-- Execute **[[Electric Chair Submission]]** → [[Electric Chair]] (Probability: 45%)
+- Execute **[[Electric Chair Transition]]** → [[Electric Chair]] (Probability: 45%)
 
 
 **If opponent's far leg is posted wide and vulnerable to being controlled:**
@@ -269,7 +269,7 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 
 
 **If opponent loses whizzer control, exposes their back, or commits weight forward excessively:**
-- Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 70%)
+- Execute **[[Back Take]]** → [[Back Control]] (Probability: 70%)
 - Execute **[[Underhook Sweep from Half]]** → [[Side Control]] (Probability: 65%)
 
 
@@ -279,7 +279,7 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 
 
 **If opponent attempts to circle their trapped leg free while maintaining balance:**
-- Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 60%)
+- Execute **[[Back Take]]** → [[Back Control]] (Probability: 60%)
 - Execute **[[Hip Bump Sweep]]** → [[Half Guard]] (Probability: 55%)
 
 
@@ -399,9 +399,9 @@ Practice entering Dogfight from flat half guard bottom with progressive resistan
 - **[[Back Control]]** - Primary offensive target from Dogfight via back take transitions when opponent exposes back
 - **[[Old School]]** - Signature sweep technique from Dogfight position targeting opponent's posted far leg
 - **[[Overhook Control]]** - Defensive concept the top player uses to counter Dogfight underhook and flatten opponent
-- **[[Z-Guard]]** - Related half guard position with similar knee shield mechanics that can transition to Dogfight
 - **[[Butterfly Guard]]** - Alternative guard position with similar underhook battles and elevated posture dynamics
 - **[[Crab Ride]]** - Alternative position top player may transition to when defending Dogfight back take attempts
+- **[[Flattened Half Guard]]** - Position you regress to when losing the underhook battle and getting driven backward in Dogfight
 
 
 </section>

@@ -368,7 +368,7 @@ Recording training sessions and analyzing defensive posture quality during disad
 ### Related Content
 - [[Defensive Frame]] (Principle) - Primary tactical implementation of defensive posture principles through specific limb configurations
 - [[Base Maintenance]] (Principle) - Complementary principle providing foundational stability for effective defensive postures
-- [[Frame and Shrimp]] (Transition) - Fundamental escape technique that relies on proper defensive posture as prerequisite
+- [[Frame and Shrimp to Guard]] (Transition) - Fundamental escape technique that relies on proper defensive posture as prerequisite
 - [[Escape Hierarchy]] (Principle) - Organizational framework for defensive responses built upon defensive posture foundation
 - [[Guard Retention]] (Principle) - Position-specific application of defensive posture principles to guard positions
 - [[Pressure Reduction]] (Principle) - Tactical approach to managing opponent's pressure using defensive posture structures

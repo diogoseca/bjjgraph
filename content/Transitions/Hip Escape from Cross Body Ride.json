@@ -1,0 +1,13 @@
+{
+  "name": "Hip Escape from Cross Body Ride",
+  "description": "",
+  "tags": [],
+  "from_position": "Cross Body Ride/Bottom",
+  "outcomes": [
+    {
+      "to": "Turtle/Bottom",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

@@ -371,7 +371,7 @@ Partner applies submission slowly with pause points, defender identifies optimal
 - [[Escape Hierarchy]] (Principle) - Defines prioritization system for which escapes to attempt first in multi-threat scenarios
 - [[Frame Creation]] (Principle) - Core mechanical skill used throughout submission defense to prevent completion and create escape space
 - [[Armbar Escape]] (Principle) - Specific application of submission defense concepts to armbar situations from various positions
-- [[Back Escape Series]] (Principle) - Specialized defensive framework for rear choke and back control scenarios applying core submission defense principles
+- [[Back Door Escape]] (Principle) - Specialized defensive framework for rear choke and back control scenarios applying core submission defense principles
 - [[Back Control]] (Position) - Primary position requiring submission defense against rear naked chokes and collar attacks
 - [[Mount]] (Position) - Dominant position requiring defense against armbars, americanas, ezekiels, and collar chokes
 - [[Triangle Control]] (Position) - Submission position requiring specific defensive posturing and escape timing to prevent completion

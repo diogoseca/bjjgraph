@@ -291,31 +291,51 @@
     "transitions": [
       {
         "transition": "Toreando Pass",
-        "attempt_probability": 18
+        "attempt_probability": 37
       },
       {
         "transition": "Knee Cut Pass",
-        "attempt_probability": 16
+        "attempt_probability": 11
       },
       {
         "transition": "Leg Drag Pass",
-        "attempt_probability": 14
+        "attempt_probability": 10
       },
       {
         "transition": "Double Under Pass",
-        "attempt_probability": 13
+        "attempt_probability": 3
       },
       {
         "transition": "Long Step Pass",
-        "attempt_probability": 14
+        "attempt_probability": 8
       },
       {
         "transition": "X Pass",
-        "attempt_probability": 12
+        "attempt_probability": 8
       },
       {
         "transition": "Stack Pass",
-        "attempt_probability": 13
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Body Lock Pass",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Smash Pass",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Leg Weave Pass",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Knee Cut from Feet on Hips",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Pass Feet on Hips Guard",
+        "attempt_probability": 1
       }
     ],
     "knowledge_assessment": [
@@ -595,40 +615,64 @@
     },
     "transitions": [
       {
-        "transition": "Scissor Sweep",
-        "attempt_probability": 14
-      },
-      {
-        "transition": "Pendulum Sweep",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Hip Bump Sweep",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Triangle Setup",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Omoplata Sweep",
-        "attempt_probability": 9
-      },
-      {
         "transition": "De La Riva Sweep",
-        "attempt_probability": 11
+        "attempt_probability": 2
       },
       {
         "transition": "X-Guard Sweep",
-        "attempt_probability": 10
+        "attempt_probability": 1
       },
       {
         "transition": "Single Leg X Sweep",
-        "attempt_probability": 11
+        "attempt_probability": 3
       },
       {
         "transition": "Elevator Sweep",
-        "attempt_probability": 12
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Tripod Sweep",
+        "attempt_probability": 66
+      },
+      {
+        "transition": "Sickle Sweep",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Transition to Feet on Hips Guard",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Tomoe Nage",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Lumberjack Sweep",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Guard Pull",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Balloon Sweep",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Feet on Hips Sickle Sweep",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Feet on Hips Tripod Sweep",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Feet on Hips to De La Riva",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Push Sweep from Feet on Hips",
+        "attempt_probability": 1
       }
     ],
     "knowledge_assessment": [

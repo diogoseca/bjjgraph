@@ -66,6 +66,79 @@ Positions/
 
 ---
 
+## Transition & Submission "Playing As" Model
+
+Transitions and Submissions follow the same hub-and-role pattern as Positions, using **Attacker/Defender** instead of Top/Bottom.
+
+### Structure
+
+```
+Transition (Hub Page)         = Technique overview, outcomes, both perspectives
+├── Attacker (Role Page)      = Executing the technique (setup, steps, counters)
+└── Defender (Role Page)      = Defending against it (recognition, escapes, options)
+```
+
+### File Organization
+
+```
+Transitions/
+├── Armbar from Mount.md           # Hub page (canonical graph node)
+└── Armbar from Mount/
+    ├── Attacker.md                # Execution perspective
+    └── Defender.md                # Defense perspective
+
+Submissions/
+├── Rear Naked Choke.md            # Hub page with safety info
+└── Rear Naked Choke/
+    ├── Attacker.md                # Finishing mechanics
+    └── Defender.md                # Escape paths, recognition
+```
+
+### Graph Rules (Transitions & Submissions)
+
+- **Hub pages are graph nodes** — same as Positions
+- **Attacker/Defender pages excluded from graph** — no separate nodes
+- **Hub carries `outcomes[]`** — shared between both roles
+- **`targets_outcome`** links role-specific actions to specific outcomes in the hub's `outcomes[]` array
+
+### Transition JSON Structure (Post-Migration)
+
+```json
+{
+  "name": "Armbar from Mount",
+  "from_position": "Mount/Top",
+  "outcomes": [
+    {"to": "Armbar Control/Top", "probability": 55, "result": "success"},
+    {"to": "Mount/Top", "probability": 30, "result": "failure"},
+    {"to": "Closed Guard/Bottom", "probability": 15, "result": "counter"}
+  ],
+  "attacker": {
+    "execution_steps": [...],
+    "common_counters": [
+      {"counter": "Opponent clasps hands", "targets_outcome": "Mount/Top", "effectiveness": "High"}
+    ]
+  },
+  "defender": {
+    "recognition_cues": ["Opponent grabs wrist and shifts weight"],
+    "defensive_options": [
+      {"action": "Clasp hands", "targets_outcome": "Mount/Top", "when_to_use": "..."}
+    ],
+    "favorable_outcomes": [
+      {"outcome": "Closed Guard/Bottom", "how": "Time bridge during leg swing"}
+    ]
+  }
+}
+```
+
+### Submission Differences
+
+Submissions use the same attacker/defender pattern with additions:
+- `outcomes[]` is **required** (all submissions must have probabilistic outcomes)
+- `safety_considerations` stays at **hub level** (shared between roles)
+- Defender has `escape_paths[]` (submission-specific escape routes)
+
+---
+
 ## Quartz Configuration
 
 ### Core Files

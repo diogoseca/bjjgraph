@@ -1,0 +1,195 @@
+{# BJJ Submission Hub Page Template #}
+{# Generates hub pages with safety banner, outcomes, and role summaries #}
+{# Input: Root fields (name, description, overview, etc.) + attacker, defender, outcomes, safety_considerations #}
+
+---
+title: "{{ name }} | BJJ Submission | BJJ Graph"
+description: "{{ description }}"
+---
+
+{# PostHog A/B Testing Metadata #}
+<body data-content-type="submissions-hub">
+
+> **SAFETY**: {{ name }} targets the {{ target_area }}. Risk: {{ safety_considerations.injury_risks[0].injury }}. Release immediately upon tap.
+
+{# Flexbox wrapper for A/B testing #}
+<main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+<section id="overview" class="content-section">
+
+{{ overview }}
+
+**Category**: {{ submission_category }}
+**Type**: {{ submission_type }}
+**Target Area**: {{ target_area }}
+**Starting Position**: [[{{ starting_position }}]]
+{% if from_position is defined and from_position -%}
+**From Position**: [[{{ from_position.split('/')[0] }}]] ({{ from_position.split('/')[1] if '/' in from_position else '' }})
+{% endif -%}
+**Success Rate**: {{ success_rate }}%
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+{% for risk in safety_considerations.injury_risks -%}
+| {{ risk.injury }} | {{ risk.severity }} | {{ risk.recovery_time }} |
+{% endfor %}
+
+**Application Speed**: {{ safety_considerations.application_speed }}
+
+**Tap Signals**:
+{% for signal in safety_considerations.tap_signals -%}
+- {{ signal }}
+{% endfor %}
+
+**Release Protocol**:
+{% for step in safety_considerations.release_protocol -%}
+{{ loop.index }}. {{ step }}
+{% endfor %}
+
+**Training Restrictions**:
+{% for restriction in safety_considerations.training_restrictions -%}
+- {{ restriction }}
+{% endfor %}
+
+</section>
+
+<section id="outcomes" class="content-section">
+
+## Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+{% for o in outcomes -%}
+| {{ o.result | capitalize }} | [[{{ o.to.split('/')[0] if '/' in o.to else o.to }}]] | {{ o.probability }}% |
+{% endfor %}
+
+</section>
+
+<section class="content-section">
+
+## Attacker vs Defender
+
+| &nbsp; | Attacker | Defender |
+|--------|----------|----------|
+| **Focus** | Execute and finish | Escape and survive |
+| **Key Principles** | {{ attacker.key_principles[0][:60] }}... | {{ defender.key_principles[0][:60] }}... |
+| **Options** | {{ attacker.execution_steps | length }} execution steps | {{ defender.defensive_options | length }} defensive options |
+
+</section>
+
+<section id="attacker-summary" class="content-section">
+
+## Playing as Attacker
+
+[[{{ name }}/Attacker|→ Full Attacker Guide]]
+
+### Key Principles
+
+{% for principle in attacker.key_principles %}
+- {{ principle }}
+{% endfor %}
+
+### Execution Steps
+
+{% for step in attacker.execution_steps %}
+- **{{ step.action }}**: {{ step.description[:100] }}...
+{% endfor %}
+
+### Common Mistakes
+
+{% for error in attacker.common_errors[:3] %}
+- **{{ error.error }}**
+  - Consequence: {{ error.consequence }}
+  - Correction: {{ error.correction }}
+{% endfor %}
+
+</section>
+
+<section id="defender-summary" class="content-section">
+
+## Playing as Defender
+
+[[{{ name }}/Defender|→ Full Defender Guide]]
+
+### Key Principles
+
+{% for principle in defender.key_principles %}
+- {{ principle }}
+{% endfor %}
+
+### Recognition Cues
+
+{% for cue in defender.recognition_cues %}
+- {{ cue }}
+{% endfor %}
+
+### Escape Paths
+
+{% for escape in defender.escape_paths %}
+- {{ escape }}
+{% endfor %}
+
+</section>
+
+{% if variations_and_setups is defined and variations_and_setups %}
+<section id="variations" class="content-section hide-minimal">
+
+## Variations
+
+{% for variant in variations_and_setups %}
+**{{ variant.variation_name }}**: {{ variant.description }}{% if variant.when_to_use %} (When to use: {{ variant.when_to_use }}){% endif %}
+
+{% endfor %}
+
+</section>
+{% endif %}
+
+<section id="from-positions" class="content-section">
+
+## From Which Positions?
+
+{% for position in from_positions -%}
+- [[{{ position }}]]
+{% endfor %}
+
+</section>
+
+<section id="related-submissions" class="content-section">
+
+## Related Submissions
+
+{% for submission in related_submissions -%}
+- [[{{ submission }}]]
+{% endfor %}
+
+</section>
+
+<section id="related-content" class="content-section">
+
+## Additional Related Content
+
+{% for item in related_content -%}
+- [[{{ item.name }}]] - {{ item.relationship }}
+{% endfor %}
+
+</section>
+
+<section id="terminal-state" class="content-section">
+
+## Match Outcome
+
+Successful execution of {{ name }} leads to → [[game-over|Game Over]]
+
+*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+
+</section>
+
+</main>

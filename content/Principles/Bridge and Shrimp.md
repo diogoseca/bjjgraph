@@ -358,7 +358,7 @@ Full resistance positional sparring starting from worst-case bottom positions, r
 - [[Escape Fundamentals]] (Principle) - Comprehensive framework that incorporates bridge and shrimp as foundational movement patterns for all escapes
 - [[Frame Creation]] (Principle) - Complementary defensive skill that preserves space created by bridge and shrimp movements
 - [[Mount Escape Series]] (Principle) - Specific application context where bridge and shrimp movements enable primary escape pathways
-- [[Elbow Escape]] (Transition) - Classic escape technique built entirely on bridge and shrimp movement patterns from side control
+- [[Elbow Escape to Guard]] (Transition) - Classic escape technique built entirely on bridge and shrimp movement patterns from side control
 - [[Upa Escape]] (Transition) - Mount escape that relies on explosive bridge movement as primary mechanical driver
 - [[Side Control Escapes]] (Principle) - Category of escapes that fundamentally depend on proper bridge and shrimp execution
 - [[Mount]] (Position) - Primary defensive challenge that requires bridge and shrimp mastery for reliable escape

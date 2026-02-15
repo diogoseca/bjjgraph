@@ -20,14 +20,14 @@ description: "Master Kimura Trap Top in BJJ. Dominant offensive position combini
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura from Side Control",
-      "text": "From this position, attempt Kimura from Side Control. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Kimura",
+      "text": "From this position, attempt Kimura. This technique is attempted in 32% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura from North-South",
-      "text": "From this position, attempt Kimura from North-South. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute North-South to Kimura",
+      "text": "From this position, attempt North-South to Kimura. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
@@ -44,14 +44,14 @@ description: "Master Kimura Trap Top in BJJ. Dominant offensive position combini
     },
     {
       "@type": "HowToStep",
-      "name": "Execute North-South to Kimura",
-      "text": "From this position, attempt North-South to Kimura. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Knee on Belly",
+      "text": "From this position, attempt Knee on Belly. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura from Turtle",
-      "text": "From this position, attempt Kimura from Turtle. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Transition to Reverse Scarf Hold",
+      "text": "From this position, attempt Transition to Reverse Scarf Hold. This technique is attempted in 0% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,19 +210,25 @@ Strategically, the position is valued for its control density—the top player c
 
 ## Available Attacks
 
-### [[Kimura from Side Control]] (15% of attempts)
+### [[Kimura]] (32% of attempts)
 
-### [[Kimura from North-South]] (15% of attempts)
+### [[North-South to Kimura]] (13% of attempts)
 
 ### [[Side Control to Mount]] (15% of attempts)
 
 ### [[Kimura to Back Take]] (13% of attempts)
 
-### [[North-South to Kimura]] (14% of attempts)
+### [[Knee on Belly]] (8% of attempts)
 
-### [[Kimura from Turtle]] (14% of attempts)
+### [[Transition to Reverse Scarf Hold]] (0% of attempts)
 
-### [[Kimura Defense]] (14% of attempts)
+### [[Guard Recovery]] (8% of attempts)
+
+### [[Americana]] (6% of attempts)
+
+### [[Kimura Defense]] (3% of attempts)
+
+### [[Kimura Trap to Reverse Scarf Hold]] (2% of attempts)
 
 
 
@@ -239,7 +245,7 @@ Strategically, the position is valued for its control density—the top player c
 
 **If opponent attempts to roll or turn into Kimura grip to defend shoulder pressure:**
 - Execute **[[Kimura to Back Take]]** → [[Back Control]] (Probability: 80%)
-- Execute **[[Kimura from North-South]]** → [[game-over]] (Probability: 70%)
+- Execute **[[North-South to Kimura]]** → [[game-over]] (Probability: 70%)
 
 
 **If opponent creates space attempting elbow escape or bridge and shrimp sequence:**
@@ -248,8 +254,8 @@ Strategically, the position is valued for its control density—the top player c
 
 
 **If opponent extends arm or loses defensive structure attempting to push or frame:**
-- Execute **[[Kimura from Side Control]]** → [[game-over]] (Probability: 85%)
-- Execute **[[Kimura from North-South]]** → [[game-over]] (Probability: 80%)
+- Execute **[[Kimura]]** → [[game-over]] (Probability: 85%)
+- Execute **[[North-South to Kimura]]** → [[game-over]] (Probability: 80%)
 
 
 
@@ -385,7 +391,7 @@ Start in Kimura Trap Top from side control. Partner cycles through defensive rea
 
 - **[[Side Control]]** - Primary position - most common platform for establishing Kimura Trap Top
 - **[[North-South]]** - Key transition position - excellent platform for Kimura finishing mechanics
-- **[[Kimura from Side Control]]** - Primary submission - direct finish from this control position
+- **[[Kimura]]** - Primary submission - direct finish from this control position
 - **[[Mount]]** - Common transition target - reached when opponent creates space defending Kimura
 - **[[Back Control]]** - Transition option - accessed when opponent rolls to defend Kimura
 - **[[Turtle]]** - Entry position - opponent's turtle creates arm exposure for grip establishment

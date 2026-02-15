@@ -97,15 +97,29 @@ Understanding the Saddle requires knowledge of both the offensive and defensive 
 ### Available Transitions
 
 
-- **[[Ashi Garami Escape]]** (22% of attempts)
+- **[[Ashi Garami Escape]]** (46% of attempts)
 
-- **[[Hip Escape]]** (18% of attempts)
+- **[[Standing up in Base]]** (0% of attempts)
 
-- **[[Technical Standup]]** (15% of attempts)
+- **[[Guard Recovery]]** (8% of attempts)
 
-- **[[Guard Recovery]]** (20% of attempts)
+- **[[Frame and Shrimp to Guard]]** (3% of attempts)
 
-- **[[Frame and Shrimp]]** (25% of attempts)
+- **[[Counter-entangle to 50-50 Guard]]** (8% of attempts)
+
+- **[[Saddle Defense]]** (14% of attempts)
+
+- **[[Inversion Escape]]** (9% of attempts)
+
+- **[[Leg Extraction to Guard]]** (11% of attempts)
+
+- **[[Boot Scoot Escape from Saddle]]** (0% of attempts)
+
+- **[[Fight to Inside Ashi from Saddle]]** (0% of attempts)
+
+- **[[Forward Roll from Saddle]]** (0% of attempts)
+
+- **[[Leg Pummeling from Saddle]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -162,21 +176,31 @@ Understanding the Saddle requires knowledge of both the offensive and defensive 
 ### Available Transitions
 
 
-- **[[Inside Heel Hook]]** (18% of attempts)
+- **[[Heel Hook]]** (54% of attempts)
 
-- **[[Outside Heel Hook]]** (15% of attempts)
+- **[[Outside Heel Hook]]** (2% of attempts)
 
-- **[[Straight Ankle Lock]]** (14% of attempts)
+- **[[Straight Ankle Lock Entry]]** (11% of attempts)
 
-- **[[Toe Hold]]** (12% of attempts)
+- **[[Toe Hold]]** (9% of attempts)
 
-- **[[Kneebar]]** (11% of attempts)
+- **[[Kneebar]]** (2% of attempts)
 
-- **[[Back Take from Ashi]]** (10% of attempts)
+- **[[Back Take from Ashi]]** (7% of attempts)
 
-- **[[Position Change]]** (12% of attempts)
+- **[[Cross Ashi Transition]]** (5% of attempts)
 
-- **[[Back Step]]** (8% of attempts)
+- **[[Transition to Backside 50-50]]** (5% of attempts)
+
+- **[[Calf Slicer]]** (2% of attempts)
+
+- **[[Estima Lock]]** (2% of attempts)
+
+- **[[Fallback to Inside Ashi-Garami]]** (0% of attempts)
+
+- **[[Heel Hook from Saddle]]** (0% of attempts)
+
+- **[[Saddle Fallback to Inside Ashi]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -184,7 +208,7 @@ Understanding the Saddle requires knowledge of both the offensive and defensive 
 
 - ❌ **Attempting to finish heel hook before establishing optimal control position**
   - Consequence: Opponent escapes by creating space or rotating away during your attack
-  - ✅ Correction: Follow systematic hierarchy: perpendicular alignment → hip pressure → inside position → grip establishment → clearing frames → finish
+  - ✅ Correction: Follow systematic hierarchy: perpendicular alignment, hip pressure, inside position, grip establishment, clearing frames, then finish
 
 - ❌ **Losing inside position by allowing opponent to turn into you**
   - Consequence: Entire position collapses as opponent achieves bilateral leg entanglement or guard recovery
@@ -225,7 +249,7 @@ Understanding the Saddle requires knowledge of both the offensive and defensive 
 
 - **[[Cross Ashi-Garami]]** - Alternative entanglement with different mechanical properties
 
-- **[[Straight Ankle Lock Control]]** - Lower-risk leg attack position with different finishing mechanics
+- **[[Backside 50-50]]** - Related entanglement offering outside heel hook opportunities
 
 
 </section>

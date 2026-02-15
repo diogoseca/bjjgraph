@@ -1,0 +1,13 @@
+{
+  "name": "Counter Roll from Matrix",
+  "description": "",
+  "tags": [],
+  "from_position": "Matrix/Bottom",
+  "outcomes": [
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

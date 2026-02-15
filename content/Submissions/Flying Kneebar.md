@@ -8,149 +8,9 @@ description: "Master the Flying Kneebar in BJJ. Complete guide with safety proto
 ---
 
 
-<body data-content-type="submissions">
+<body data-content-type="submissions-hub">
 
-<!-- Schema Markup - Auto-generated from JSON -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Execute Flying Kneebar in BJJ",
-  "description": "Step-by-step guide for Flying Kneebar with safety protocols.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Target Leg Selection and Initial Movement",
-      "text": "Identify the target leg (opponent's lead leg or leg currently bearing weight). Position yourself at a 30-45 degree angle from their centerline. Begin your jumping motion with a small penetration step toward the target leg. This step loads your jumping leg and closes distance while maintaining balance. Your eyes should track the target leg's position throughout, and your hands should begin reaching toward the ankle or knee area. Timing is crucial - execute this as opponent shifts weight forward onto the target leg.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Jump and Leg Grip Establishment",
-      "text": "Explosively jump off your back leg while simultaneously securing the opponent's ankle with both hands (no-gi) or gripping the pants at ankle and knee (gi). Your jump trajectory should be upward and slightly forward, not diving low. As you leave the ground, your inside leg (closest to opponent) begins to swing up and around the target leg. Grip security is paramount - if you cannot establish a solid ankle grip, abort the technique. Your body should be airborne for only a brief moment, with grip contact established before full weight commitment.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Hip Entry and Rotational Mechanics",
-      "text": "As you descend, drive your inside hip directly into the back of the opponent's knee while simultaneously threading your inside leg across their hip line. Your outside leg hooks over their torso (typically over the shoulder or upper back area). Begin your backward rotation, pulling the ankle toward your chest while pushing your hip into the back of their knee. The rotation should be smooth and continuous - this is NOT a static position. Your shoulders will rotate toward the mat as your legs configure around the target leg. Maintain absolute grip security on the ankle throughout this phase.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Landing and Position Consolidation",
-      "text": "Complete your rotation and land on your back/shoulders with proper breakfall mechanics - chin tucked, impact distributed across upper back, never landing on head or neck. The opponent's leg should now be trapped between your legs in classic kneebar configuration. Your inside leg is across their hip, outside leg over their torso, and their knee is positioned directly against your hip bone. Immediately upon landing, make micro-adjustments: ensure the knee is perfectly aligned with your hip, verify both hands control the ankle/foot, check that your hip makes full contact with the back of their knee. Take 1-2 seconds to consolidate position before any pressure application.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Leg Configuration Adjustment",
-      "text": "Refine your leg positioning for maximum control and finishing power. Your inside leg (across opponent's hip) should have the foot hooked behind their far hip to prevent them turning into you. Your outside leg (over torso) should be heavy and slightly toward their head to prevent them sitting up or rolling forward. Adjust your hip so it sits precisely behind their knee - too high targets the thigh (ineffective), too low allows knee bend (escape). The opponent's toes should point upward or slightly toward you. Squeeze your knees together to immobilize their leg and prevent rotation. This configuration must be locked before attempting to finish.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Ankle Control and Alignment",
-      "text": "Establish proper ankle control to isolate the knee joint. Pull the ankle to your chest/armpit area using both hands with equal grip pressure. The ankle should be pinned against your torso, eliminating slack in the system. Adjust the foot angle - for maximum effectiveness, plantarflex the ankle slightly (push toes away from their shin) to remove slack from the posterior chain. Verify that your chest and the trapped ankle create one rigid unit. Common error to avoid: allowing the ankle to drift away from center creates gaps and reduces finishing pressure.",
-      "position": 6
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Finishing Extension (Training Speed)",
-      "text": "Apply progressive extension by arching your back and driving your hip upward into the back of the opponent's knee. The extension comes from hip elevation and spinal arch, NOT from pulling the ankle - the ankle pull only maintains zero slack in the system. Apply pressure gradually over 3-5 seconds minimum in training, watching for tap signals continuously. The knee hyperextension should be felt immediately by the opponent. In training, stop at the FIRST sign of discomfort and wait for verbal confirmation before adding pressure. Never jerk or spike the finish. The submission is achieved when the knee is forced into slight hyperextension against the hip fulcrum point. Release immediately upon tap signal.",
-      "position": 7
-    }
-  ],
-  "tool": ["BJJ Gi or No-Gi attire", "Training partner", "Mat space"],
-  "totalTime": "PT5M"
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the minimum application time in training for a flying kneebar finish, and why is this critical?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The minimum application time is 5-7 seconds of progressive pressure in training. This is critical because the knee joint has multiple ligaments (PCL, MCL, LCL) that can be damaged simultaneously with fast application, and the dynamic entry often masks early pain signals. Slow progression allows training partners to recognize the submission and tap before structural damage occurs. Unlike chokes where unconsciousness provides a safety mechanism, knee submissions cause permanent ligament damage before the pain becomes unbearable."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the three most critical body positioning elements that must be correct before applying extension pressure?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "First, your hip must be positioned directly behind the opponent's knee joint (not on thigh, not too low). Second, the opponent's ankle must be pulled tight to your chest with both hands, creating zero slack in the system. Third, your leg configuration must be locked with inside leg across hip (foot hooked), outside leg over torso, and knees squeezed together to prevent rotation. Without all three elements aligned, finishing pressure either fails completely or applies dangerous torque from incorrect angles."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Describe the proper breakfall mechanics when landing from the flying kneebar rotation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Proper breakfall requires chin tucked to chest, rounded spine to distribute impact across upper back and shoulders (never on neck/head), and arms committed to ankle grip rather than posting. The rotation should be completed so you land flat on your back, not on your side or shoulders only. Impact distribution across a wide surface area prevents single-point trauma. Never post arms to break the fall as this causes shoulder injuries and releases the leg control, defeating the submission."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "If an opponent turns into the kneebar (rotates toward the trapped leg) during your finish, what is the immediate tactical response and why?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Immediately transition to heel hook position or counter-rotate with them to maintain perpendicular alignment. When they turn into the kneebar, their knee rotates inward which exposes the heel and removes kneebar pressure. Attempting to force the kneebar against their rotation creates dangerous multi-directional pressure on knee ligaments. The heel hook conversion is natural because your leg configuration is already correct - you simply shift your grip from ankle to heel and adjust your finishing angle. This creates a submission dilemma where defending one attack opens the other."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What physical prerequisites must a practitioner have before attempting flying kneebar in live training?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Practitioners must demonstrate: (1) Proficient breakfall ability from various angles and rotations, tested through dedicated ukemi (breakfall) training. (2) Core strength sufficient to control rotation speed and body positioning mid-air, verified through related drills like granby rolls. (3) Hip flexibility to configure legs properly around opponent's leg without strain. (4) Spatial awareness and proprioception to track body position during rotation. (5) Understanding of kneebar finishing mechanics from static positions. (6) Minimum rank of brown belt or 5+ years experience. (7) Completion of 8-12 weeks crash pad drilling progression with zero resistance."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Explain why the ankle must be pulled to the chest and plantarflexed during the finishing phase?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Pulling the ankle to the chest removes all slack from the leg's posterior chain (hamstrings, calf, Achilles) which causes the knee to straighten and prevents the opponent from creating protective knee bend. Plantarflexion (pushing toes down away from shin) creates additional tension through the ankle joint and further removes slack, making knee extension more efficient. Together, these actions isolate the knee joint so that hip extension directly translates to knee hyperextension rather than being absorbed by muscle contraction or joint angles. Without this ankle control, opponents can create knee bend and significantly delay or prevent the finish."
-      }
-    }
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Flying Kneebar",
-  "description": "Master the Flying Kneebar in BJJ. Complete guide with safety protocols, setup, execution, and counters. Success rates: Beginner 15%, Intermediate 30%, Advanced 50%.",
-  "url": "https://bjjgraph.org/Submissions/Flying-Kneebar",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.org"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
-    {"@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/"},
-    {"@type": "ListItem", "position": 3, "name": "Flying Kneebar", "item": "https://bjjgraph.org/Submissions/Flying-Kneebar"}
-  ]
-}
-</script>
-
-> ⚠️ **SAFETY**: Flying Kneebar targets the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). Risk: Posterior cruciate ligament (PCL) tear. Release immediately upon tap.
+> **SAFETY**: Flying Kneebar targets the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). Risk: Posterior cruciate ligament (PCL) tear. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -214,103 +74,154 @@ The Flying Kneebar is an advanced, dynamic leg lock submission that involves jum
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="outcomes" class="content-section">
 
-## Key Principles
+## Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[game-over]] | 60% |
+| Failure | [[Standing Position]] | 25% |
+| Counter | [[Standing Guard]] | 15% |
+
+
+</section>
+
+<section class="content-section">
+
+## Attacker vs Defender
+
+| &nbsp; | Attacker | Defender |
+|--------|----------|----------|
+| **Focus** | Execute and finish | Escape and survive |
+| **Key Principles** | Timing is critical - execute during opponent's forward step ... | Early recognition is your greatest asset - identify setup cu... |
+| **Options** | 7 execution steps | 4 defensive options |
+
+</section>
+
+<section id="attacker-summary" class="content-section">
+
+## Playing as Attacker
+
+[[Flying Kneebar/Attacker|→ Full Attacker Guide]]
+
+### Key Principles
+
+
 - Timing is critical - execute during opponent's forward step or weight shift to maximize success and minimize resistance
+
 - Control the targeted leg immediately upon contact - secure ankle and control the knee line before rotation
+
 - Protect yourself during the fall - tuck chin, distribute impact across back/shoulders, never post with arms
+
 - Maintain tight connection throughout rotation - gap between your hip and opponent's knee destroys finishing leverage
+
 - Hip positioning determines effectiveness - your hip must be directly behind opponent's knee at the moment of extension
+
 - Rotation must be complete before finishing - attempting to finish mid-rotation causes injury and escape opportunities
+
 - Progressive pressure application - even in competition, ramp pressure over 2-3 seconds to allow tap response time
 
 
-</section>
-
-<section id="setup-requirements" class="content-section">
-
-## Prerequisites
-- Opponent standing upright or in low wrestling stance with weight distributed between both legs
-- Clear identification of target leg (typically lead leg or leg they're stepping forward with)
-- Adequate space to execute jump and rotation without obstacles or mat boundaries
-- Your body positioned at appropriate angle (30-45 degrees from centerline) to allow rotational entry
-- Grips established or hands free to secure leg during flight phase (no-gi: ankle grip, gi: pant grips)
-- Mental commitment to full rotation - hesitation mid-technique causes dangerous incomplete entries
-- Opponent's stance wide enough to create gap for your body to rotate through
-- Physical prerequisites met: ability to safely breakfall, core strength for rotation control, hip flexibility for leg configuration
+### Execution Steps
 
 
-</section>
+- **Target Leg Selection and Initial Movement**: Identify the target leg (opponent's lead leg or leg currently bearing weight). Position yourself at ...
 
-<section id="execution-steps" class="content-section">
+- **Jump and Leg Grip Establishment**: Explosively jump off your back leg while simultaneously securing the opponent's ankle with both hand...
 
-## Execution Steps
-1. **Target Leg Selection and Initial Movement**: Identify the target leg (opponent's lead leg or leg currently bearing weight). Position yourself at a 30-45 degree angle from their centerline. Begin your jumping motion with a small penetration step toward the target leg. This step loads your jumping leg and closes distance while maintaining balance. Your eyes should track the target leg's position throughout, and your hands should begin reaching toward the ankle or knee area. Timing is crucial - execute this as opponent shifts weight forward onto the target leg. (Timing: 0.0-0.3 seconds)
-2. **Jump and Leg Grip Establishment**: Explosively jump off your back leg while simultaneously securing the opponent's ankle with both hands (no-gi) or gripping the pants at ankle and knee (gi). Your jump trajectory should be upward and slightly forward, not diving low. As you leave the ground, your inside leg (closest to opponent) begins to swing up and around the target leg. Grip security is paramount - if you cannot establish a solid ankle grip, abort the technique. Your body should be airborne for only a brief moment, with grip contact established before full weight commitment. (Timing: 0.3-0.8 seconds)
-3. **Hip Entry and Rotational Mechanics**: As you descend, drive your inside hip directly into the back of the opponent's knee while simultaneously threading your inside leg across their hip line. Your outside leg hooks over their torso (typically over the shoulder or upper back area). Begin your backward rotation, pulling the ankle toward your chest while pushing your hip into the back of their knee. The rotation should be smooth and continuous - this is NOT a static position. Your shoulders will rotate toward the mat as your legs configure around the target leg. Maintain absolute grip security on the ankle throughout this phase. (Timing: 0.8-1.5 seconds)
-4. **Landing and Position Consolidation**: Complete your rotation and land on your back/shoulders with proper breakfall mechanics - chin tucked, impact distributed across upper back, never landing on head or neck. The opponent's leg should now be trapped between your legs in classic kneebar configuration. Your inside leg is across their hip, outside leg over their torso, and their knee is positioned directly against your hip bone. Immediately upon landing, make micro-adjustments: ensure the knee is perfectly aligned with your hip, verify both hands control the ankle/foot, check that your hip makes full contact with the back of their knee. Take 1-2 seconds to consolidate position before any pressure application. (Timing: 1.5-2.5 seconds)
-5. **Leg Configuration Adjustment**: Refine your leg positioning for maximum control and finishing power. Your inside leg (across opponent's hip) should have the foot hooked behind their far hip to prevent them turning into you. Your outside leg (over torso) should be heavy and slightly toward their head to prevent them sitting up or rolling forward. Adjust your hip so it sits precisely behind their knee - too high targets the thigh (ineffective), too low allows knee bend (escape). The opponent's toes should point upward or slightly toward you. Squeeze your knees together to immobilize their leg and prevent rotation. This configuration must be locked before attempting to finish. (Timing: 2.5-4.0 seconds)
-6. **Ankle Control and Alignment**: Establish proper ankle control to isolate the knee joint. Pull the ankle to your chest/armpit area using both hands with equal grip pressure. The ankle should be pinned against your torso, eliminating slack in the system. Adjust the foot angle - for maximum effectiveness, plantarflex the ankle slightly (push toes away from their shin) to remove slack from the posterior chain. Verify that your chest and the trapped ankle create one rigid unit. Common error to avoid: allowing the ankle to drift away from center creates gaps and reduces finishing pressure. (Timing: 4.0-5.0 seconds)
-7. **Finishing Extension (Training Speed)**: Apply progressive extension by arching your back and driving your hip upward into the back of the opponent's knee. The extension comes from hip elevation and spinal arch, NOT from pulling the ankle - the ankle pull only maintains zero slack in the system. Apply pressure gradually over 3-5 seconds minimum in training, watching for tap signals continuously. The knee hyperextension should be felt immediately by the opponent. In training, stop at the FIRST sign of discomfort and wait for verbal confirmation before adding pressure. Never jerk or spike the finish. The submission is achieved when the knee is forced into slight hyperextension against the hip fulcrum point. Release immediately upon tap signal. (Timing: 5.0-10.0 seconds (training), 2.0-4.0 seconds (competition))
+- **Hip Entry and Rotational Mechanics**: As you descend, drive your inside hip directly into the back of the opponent's knee while simultaneo...
+
+- **Landing and Position Consolidation**: Complete your rotation and land on your back/shoulders with proper breakfall mechanics - chin tucked...
+
+- **Leg Configuration Adjustment**: Refine your leg positioning for maximum control and finishing power. Your inside leg (across opponen...
+
+- **Ankle Control and Alignment**: Establish proper ankle control to isolate the knee joint. Pull the ankle to your chest/armpit area u...
+
+- **Finishing Extension (Training Speed)**: Apply progressive extension by arching your back and driving your hip upward into the back of the op...
 
 
-</section>
+### Common Mistakes
 
-<section id="opponent-defense-patterns" class="content-section">
 
-## Opponent Defenses
-- **Pull targeted leg back immediately when they recognize jump initiation** (Effectiveness: High) - Your Adjustment: Commit fully to the jump and follow the leg backward - maintain grip security and complete rotation even if they retreat. Alternatively, switch to single leg takedown if leg withdrawal is too fast.
-- **Turn into the kneebar to alleviate pressure (rotate toward trapped leg)** (Effectiveness: High) - Your Adjustment: Counter-rotate with them to maintain perpendicular alignment, or immediately switch to heel hook position as their knee turns inward, exposing the heel.
-- **Sit forward and grab your head/upper body to prevent full rotation** (Effectiveness: Medium) - Your Adjustment: Use your outside leg to push their torso away while continuing rotation. Accelerate rotation speed to complete position before they establish upper body control.
-- **Lock their hands together (gable grip) around their own knee to create defensive structure** (Effectiveness: Medium) - Your Adjustment: Attack the grip by driving your hip deeper behind the knee - this forces them to defend knee integrity rather than maintain grip. Alternatively, transition to toe hold or ankle lock which their grip doesn't defend.
-- **Stack you by driving weight forward over your head** (Effectiveness: Low) - Your Adjustment: Maintain outside leg pressure across torso to prevent forward drive. If stack begins, immediately adjust angle 45 degrees to either side to redirect their pressure away from vertical stack.
-- **Create knee bend by tucking heel toward buttocks** (Effectiveness: Medium) - Your Adjustment: Immediately extend their ankle by plantarflexing the foot (push toes down), which removes slack and straightens the leg. Increase hip pressure to prevent further knee bend.
+- **Jumping too low and diving at opponent's legs rather than maintaining upright trajectory**
+  - Consequence: Failed entry, easy takedown defense, and dangerous head-first landing with potential neck injury
+  - Correction: Jump UP first, then rotate. Your initial jump should gain height before rotation begins. Think 'up and around' not 'dive and spin'.
+
+- **Failing to secure ankle grip before committing full weight to the technique**
+  - Consequence: Loss of leg control during rotation, failed submission, and awkward landing positions
+  - Correction: Establish firm two-handed ankle grip during flight phase before committing to rotation. If grip isn't secure by mid-jump, abort and land on feet.
+
+- **Attempting to finish before rotation is complete**
+  - Consequence: Severe torque on opponent's knee in unsafe direction, high injury risk, and certain escape
+  - Correction: Complete full 180-degree rotation until your back is on mat before applying ANY extension pressure. Position first, then finish.
 
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="defender-summary" class="content-section">
 
-## Common Mistakes
-- **Mistake**: Jumping too low and diving at opponent's legs rather than maintaining upright trajectory
-  - **Consequence**: Failed entry, easy takedown defense, and dangerous head-first landing with potential neck injury
-  - **Correction**: Jump UP first, then rotate. Your initial jump should gain height before rotation begins. Think 'up and around' not 'dive and spin'.
-- **Mistake**: Failing to secure ankle grip before committing full weight to the technique
-  - **Consequence**: Loss of leg control during rotation, failed submission, and awkward landing positions
-  - **Correction**: Establish firm two-handed ankle grip during flight phase before committing to rotation. If grip isn't secure by mid-jump, abort and land on feet.
-- **Mistake**: Attempting to finish before rotation is complete
-  - **Consequence**: Severe torque on opponent's knee in unsafe direction, high injury risk, and certain escape
-  - **Correction**: Complete full 180-degree rotation until your back is on mat before applying ANY extension pressure. Position first, then finish.
-- **Mistake**: Posting arm(s) during landing to break fall
-  - **Consequence**: Shoulder injury, broken arm/wrist, and loss of leg control allowing escape
-  - **Correction**: Keep arms committed to ankle grip throughout landing. Accept back/shoulder impact with proper breakfall - chin tucked, rounded spine, no arm posting.
-- **Mistake**: Hip positioned too high on opponent's thigh rather than directly behind knee
-  - **Consequence**: No hyperextension pressure on knee joint, easy escape by turning into position
-  - **Correction**: After landing, make precise micro-adjustment to place your hip bone directly on the back of their knee joint line. Lower hip position slightly if needed.
-- **Mistake**: Allowing opponent's toes to point downward (knee bent position)
-  - **Consequence**: Leg position becomes defensive, removing all finishing leverage and enabling escape
-  - **Correction**: Actively control foot angle - use your chest to pin ankle in plantarflexed position (toes pointing up/toward you). Never allow their heel to move toward buttocks.
-- **Mistake**: Jerking or spiking the finish with sudden explosive pressure
-  - **Consequence**: Catastrophic knee injury (PCL/MCL tear), permanent damage, and training partner lost
-  - **Correction**: Even in competition, ramp pressure progressively over 2-3 seconds. In training, 5-7 second minimum ramp time. Think 'squeeze and extend' not 'rip and tear'.
-- **Mistake**: Practicing at full speed/resistance before mastering controlled entries
-  - **Consequence**: High injury rate to both partners, failed technique development, and dangerous training culture
-  - **Correction**: Spend 8-12 weeks minimum on crash pad drilling with zero resistance before adding any live pressure. Brown belt minimum for live application.
+## Playing as Defender
+
+[[Flying Kneebar/Defender|→ Full Defender Guide]]
+
+### Key Principles
+
+
+- Early recognition is your greatest asset - identify setup cues before the attacker leaves the ground and deny the entry entirely by pulling your lead leg back or stepping offline
+
+- Never straighten your trapped leg once caught - maintain maximum knee bend by actively pulling your heel toward your buttock to deny the hyperextension angle
+
+- Turn into the attacker (rotate toward your trapped leg) to alleviate kneebar pressure and create heel hook exposure which is easier to defend than a locked kneebar
+
+- Establish defensive grips immediately - clasp hands around your own knee or grab behind your trapped leg's hamstring to create a structural barrier against extension
+
+- Prioritize tapping early over heroic escape attempts - the flying entry's momentum can produce sudden pressure spikes that damage ligaments before you feel significant pain
+
+- Control the attacker's outside leg (the one over your torso) by pushing it toward your feet, which disrupts their finishing angle and creates space to extract your trapped leg
+
+
+### Recognition Cues
+
+
+- Attacker shifts to a 30-45 degree angle from your centerline while their hands drop toward your lead leg's ankle or knee area - this angular positioning is the primary setup indicator
+
+- Attacker takes a quick penetration step (small explosive step forward) while their weight loads onto their back leg in preparation for the jump - their eyes will lock onto your lead leg
+
+- Attacker's body suddenly lifts upward with hands reaching for your ankle - the brief airborne moment where their inside leg swings toward your hip signals committed entry
+
+- In gi, attacker establishes cross-sleeve grip combined with same-side pant grip at your ankle, then adjusts their stance angle - this grip configuration precedes gi-specific flying kneebar entries
+
+
+### Escape Paths
+
+
+- Turn into the kneebar by rotating toward your trapped leg while maintaining maximum knee bend and clasping hands behind your hamstring - continue rotating until you can face the attacker and begin leg extraction through standing up or driving forward into top position
+
+- Stack and drive forward by pushing your weight over the attacker's head while bending your trapped knee and fighting their ankle grip - combine forward pressure with grip stripping to free your ankle and step out to standing or top control
+
+- Strip the ankle grip by using both hands to peel their fingers off your ankle while simultaneously bending your knee and rotating - once ankle grip breaks, rapidly extract your leg by pulling your knee toward your chest and stepping backward away from the attacker
 
 
 </section>
 
-<section id="variations-and-setups" class="content-section hide-minimal">
+
+<section id="variations" class="content-section hide-minimal">
 
 ## Variations
+
+
 **Flying Kneebar from Guard Pull**: Instead of jumping from standing range, initiate from closer distance by grabbing sleeves/wrists (gi) or overhooks (no-gi). Sit to guard pull position, but instead of establishing seated guard, immediately convert to flying kneebar by threading inside leg across hip and rotating backward. This variation has shorter flight time and more control throughout entry. (When to use: When opponent is extremely defensive to traditional flying entries or when competing under rulesets that allow guard pulls but you want to catch opponent off-guard with dynamic attack.)
+
 
 **Rolling Kneebar (Ground-Based Entry)**: From opponent's standing position while you're on ground (turtle, seated guard, etc.), grab their ankle with both hands and perform forward roll over your shoulder while maintaining ankle grip. As you roll, your legs configure around their leg identically to flying kneebar. This variation sacrifices surprise but increases control and reduces fall risk. (When to use: When you're already in bottom position and opponent stands to pass, or when opponent is too defensive for aerial entry but creates opening with standing posture.)
 
+
 **Flying Kneebar to Heel Hook Transition**: Execute standard flying kneebar entry, but if opponent immediately turns knee inward (common defense), allow their rotation and smoothly transition to inside heel hook position. Your leg configuration remains identical, but you shift grip from ankle to heel and adjust your angle to attack the exposed heel. (When to use: When opponent's defensive pattern involves turning into the kneebar, or in rulesets where heel hooks are allowed (this creates submission dilemma).)
 
+
 **Gi Variation with Pant Grips**: In gi competition, establish cross-sleeve and same-side pant grip before jumping. The pant grip at ankle provides more secure control during flight, while sleeve grip helps control opponent's upper body to prevent counter-grabs. Jump and rotate as in no-gi version, but rely on pant grip security rather than skin contact. (When to use: Gi competitions where grips provide more security than no-gi ankle grabs, especially effective when opponent is moving forward aggressively.)
+
 
 **Flying Kneebar from Failed Single Leg Defense**: When opponent shoots single leg takedown on you, instead of sprawling or defending traditionally, jump over their back and rotate to flying kneebar on the leg they're attacking. This requires split-second recognition but converts their offense into your attack. Your rotation brings you to their back/side with leg trapped. (When to use: Against aggressive wrestlers or when opponent over-commits to single leg attempt with head low and poor posture - advanced timing required.)
 
@@ -318,48 +229,6 @@ The Flying Kneebar is an advanced, dynamic leg lock submission that involves jum
 
 </section>
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-**Q1**: What is the minimum application time in training for a flying kneebar finish, and why is this critical? **[SAFETY-CRITICAL]**
-**A**: The minimum application time is 5-7 seconds of progressive pressure in training. This is critical because the knee joint has multiple ligaments (PCL, MCL, LCL) that can be damaged simultaneously with fast application, and the dynamic entry often masks early pain signals. Slow progression allows training partners to recognize the submission and tap before structural damage occurs. Unlike chokes where unconsciousness provides a safety mechanism, knee submissions cause permanent ligament damage before the pain becomes unbearable.
-
-**Q2**: What are the three most critical body positioning elements that must be correct before applying extension pressure?
-**A**: First, your hip must be positioned directly behind the opponent's knee joint (not on thigh, not too low). Second, the opponent's ankle must be pulled tight to your chest with both hands, creating zero slack in the system. Third, your leg configuration must be locked with inside leg across hip (foot hooked), outside leg over torso, and knees squeezed together to prevent rotation. Without all three elements aligned, finishing pressure either fails completely or applies dangerous torque from incorrect angles.
-
-**Q3**: Describe the proper breakfall mechanics when landing from the flying kneebar rotation? **[SAFETY-CRITICAL]**
-**A**: Proper breakfall requires chin tucked to chest, rounded spine to distribute impact across upper back and shoulders (never on neck/head), and arms committed to ankle grip rather than posting. The rotation should be completed so you land flat on your back, not on your side or shoulders only. Impact distribution across a wide surface area prevents single-point trauma. Never post arms to break the fall as this causes shoulder injuries and releases the leg control, defeating the submission.
-
-**Q4**: If an opponent turns into the kneebar (rotates toward the trapped leg) during your finish, what is the immediate tactical response and why?
-**A**: Immediately transition to heel hook position or counter-rotate with them to maintain perpendicular alignment. When they turn into the kneebar, their knee rotates inward which exposes the heel and removes kneebar pressure. Attempting to force the kneebar against their rotation creates dangerous multi-directional pressure on knee ligaments. The heel hook conversion is natural because your leg configuration is already correct - you simply shift your grip from ankle to heel and adjust your finishing angle. This creates a submission dilemma where defending one attack opens the other.
-
-**Q5**: What physical prerequisites must a practitioner have before attempting flying kneebar in live training? **[SAFETY-CRITICAL]**
-**A**: Practitioners must demonstrate: (1) Proficient breakfall ability from various angles and rotations, tested through dedicated ukemi (breakfall) training. (2) Core strength sufficient to control rotation speed and body positioning mid-air, verified through related drills like granby rolls. (3) Hip flexibility to configure legs properly around opponent's leg without strain. (4) Spatial awareness and proprioception to track body position during rotation. (5) Understanding of kneebar finishing mechanics from static positions. (6) Minimum rank of brown belt or 5+ years experience. (7) Completion of 8-12 weeks crash pad drilling progression with zero resistance.
-
-**Q6**: Explain why the ankle must be pulled to the chest and plantarflexed during the finishing phase?
-**A**: Pulling the ankle to the chest removes all slack from the leg's posterior chain (hamstrings, calf, Achilles) which causes the knee to straighten and prevents the opponent from creating protective knee bend. Plantarflexion (pushing toes down away from shin) creates additional tension through the ankle joint and further removes slack, making knee extension more efficient. Together, these actions isolate the knee joint so that hip extension directly translates to knee hyperextension rather than being absorbed by muscle contraction or joint angles. Without this ankle control, opponents can create knee bend and significantly delay or prevent the finish.
-
-**Q7**: What are the specific ligaments targeted by the flying kneebar, and what are their respective injury severities and recovery times? **[SAFETY-CRITICAL]**
-**A**: The flying kneebar primarily targets: (1) Posterior Cruciate Ligament (PCL) - CRITICAL severity, 6-12 months recovery with surgical reconstruction. (2) Medial Collateral Ligament (MCL) - High severity, 6-12 weeks for grade 2 sprain, 3-6 months for complete tear. (3) Lateral Collateral Ligament (LCL) - High severity, 4-8 weeks for partial tear, up to 6 months for complete tear. All three can be damaged simultaneously with improper application. Additionally, meniscus tears can occur from rotational forces during entry (High severity, 6-12 weeks with possible surgery). This multi-ligament threat profile makes the flying kneebar one of the most dangerous submissions when applied recklessly.
-
-**Q8**: Your opponent begins actively bending their knee during your finishing attempt, pulling their heel toward their buttock - what grip adjustment prevents escape?
-**A**: Immediately increase plantarflexion pressure on the ankle by driving their toes down toward the mat, which engages the ankle joint and makes knee bend biomechanically more difficult. Simultaneously, pull the ankle tighter to your chest and increase hip drive into the back of their knee. If they continue bending, consider transitioning to calf slicer position where their bent leg actually works in your favor. The key is controlling the ankle angle - without plantarflexion control, they can always create enough knee bend to relieve hyperextension pressure.
-
-**Q9**: What is the point of no escape in the flying kneebar, and what indicators tell you the finish is imminent?
-**A**: The point of no escape occurs when three conditions are met simultaneously: (1) your hip is wedged firmly behind their knee with no gap, (2) their ankle is pinned against your chest with plantarflexion, and (3) your legs have squeezed together to prevent any rotational escape. Indicators of imminent finish include: opponent's leg becoming completely straight with visible extension, cessation of defensive movement as they recognize the position is locked, verbal sounds of distress or discomfort, and any attempt to tap. At this point, maintain steady pressure rather than adding more - the submission is complete.
-
-**Q10**: During competition, your flying kneebar entry is successful but you notice your hip landed slightly too high on the thigh - what immediate adjustment sequence completes the submission?
-**A**: First, squeeze your knees together to prevent opponent from rotating while you adjust. Second, bridge your hips up slightly to create space, then slide your hip down toward their knee while maintaining ankle control. Third, re-establish hip contact directly behind the knee joint by feeling for the crease where thigh meets calf. Fourth, verify ankle is still tight to chest before reapplying extension pressure. This adjustment should take 1-2 seconds maximum. If opponent begins escaping during adjustment, consider transitioning to heel hook or calf slicer rather than forcing a poorly-positioned kneebar.
-
-**Q11**: What makes the flying kneebar particularly dangerous compared to ground-based kneebar entries, and how does this affect training protocols? **[SAFETY-CRITICAL]**
-**A**: The flying kneebar is more dangerous because: (1) the dynamic entry creates momentum that can translate to sudden, uncontrolled pressure on landing, (2) both practitioners are moving which makes precise hip positioning more difficult, (3) failed entries can result in awkward landings causing injury to both parties, (4) the surprise element means opponents may not recognize the submission in time to tap early, and (5) adrenaline from the athletic movement can mask the attacker's sense of how much pressure they're applying. Training protocols must therefore include: mandatory crash pad progression, zero-resistance drilling for 8-12 weeks, explicit consent requirements, and restriction to brown belt or higher for live application.
-
-**Q12**: Your opponent's knee is locked and you have proper position, but they are gripping their own leg with both hands to prevent full extension - how do you break through this defense to finish?
-**A**: Rather than fighting their grip strength directly, attack the structural weakness of their defense. First, increase hip pressure into the back of their knee while maintaining ankle control - this forces them to focus on preventing hyperextension rather than maintaining their grip. Second, use small hip circles or pulses to create micro-extensions that fatigue their grip. Third, if they're grabbing around their own knee, transition threat to toe hold by adjusting your far hand to their toes and rotating - this creates a dilemma where they must release the grip to defend the new attack. The key is making their defensive grip unsustainable rather than trying to overpower it.
-
-
-
-</section>
 
 <section id="from-positions" class="content-section">
 
@@ -410,7 +279,6 @@ The Flying Kneebar is an advanced, dynamic leg lock submission that involves jum
 
 
 </section>
-
 
 <section id="terminal-state" class="content-section">
 

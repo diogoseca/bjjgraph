@@ -20,38 +20,38 @@ description: "Master Double Sleeve Guard Bottom in BJJ. Control-focused open gua
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Scissor Sweep",
-      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Tripod Sweep",
+      "text": "From this position, attempt Tripod Sweep. This technique is attempted in 69% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Flower Sweep",
-      "text": "From this position, attempt Flower Sweep. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Omoplata Sweep",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 4% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Pendulum Sweep",
-      "text": "From this position, attempt Pendulum Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Triangle Setup",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Spider Guard Sweeps",
-      "text": "From this position, attempt Spider Guard Sweeps. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Omoplata",
+      "text": "From this position, attempt Omoplata. This technique is attempted in 4% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Lasso Guard Sweeps",
-      "text": "From this position, attempt Lasso Guard Sweeps. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Guard Recovery",
+      "text": "From this position, attempt Guard Recovery. This technique is attempted in 4% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Omoplata Sweep",
-      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Sickle Sweep",
+      "text": "From this position, attempt Sickle Sweep. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -206,23 +206,33 @@ Double Sleeve Guard Bottom is a fundamental open guard position where the bottom
 
 ## Available Escapes
 
-### [[Scissor Sweep]] (12% of attempts)
+### [[Tripod Sweep]] (69% of attempts)
 
-### [[Flower Sweep]] (11% of attempts)
+### [[Omoplata Sweep]] (4% of attempts)
 
-### [[Pendulum Sweep]] (10% of attempts)
+### [[Triangle Setup]] (8% of attempts)
 
-### [[Spider Guard Sweeps]] (15% of attempts)
+### [[Omoplata]] (4% of attempts)
 
-### [[Lasso Guard Sweeps]] (12% of attempts)
+### [[Guard Recovery]] (4% of attempts)
 
-### [[Omoplata Sweep]] (9% of attempts)
+### [[Sickle Sweep]] (6% of attempts)
 
-### [[Triangle Setup]] (10% of attempts)
+### [[Flower Sweep]] (2% of attempts)
 
-### [[Elevator Sweep]] (11% of attempts)
+### [[Pendulum Sweep]] (2% of attempts)
 
-### [[De La Riva Sweep]] (10% of attempts)
+### [[Armbar Setup from Double Sleeve]] (0% of attempts)
+
+### [[Double Sleeve Sweep]] (0% of attempts)
+
+### [[Double Sleeve to De La Riva]] (0% of attempts)
+
+### [[Double Sleeve to Lasso]] (0% of attempts)
+
+### [[Double Sleeve to Spider]] (0% of attempts)
+
+### [[Double Sleeve to Spider Guard]] (1% of attempts)
 
 
 
@@ -233,8 +243,8 @@ Double Sleeve Guard Bottom is a fundamental open guard position where the bottom
 ## Decision Making from This Position
 
 **If opponent maintains strong upright posture and attempts to break grips by pulling arms back:**
-- Execute **[[Spider Guard Sweeps]]** → [[Spider Guard]] (Probability: 65%)
-- Execute **[[Lasso Guard Sweeps]]** → [[Lasso Guard]] (Probability: 60%)
+- Execute **[[Tripod Sweep]]** → [[Open Guard]] (Probability: 60%)
+- Execute **[[Sickle Sweep]]** → [[Open Guard]] (Probability: 55%)
 
 
 **If opponent leans forward with weight attempting to break grips and establish chest pressure:**
@@ -251,7 +261,7 @@ Double Sleeve Guard Bottom is a fundamental open guard position where the bottom
 
 **If opponent successfully breaks one sleeve grip and establishes pants grip:**
 - Execute **[[Guard Recovery]]** → [[Open Guard]] (Probability: 45%)
-- Execute **[[Spider Guard Sweeps]]** → [[Spider Guard]] (Probability: 50%)
+- Execute **[[Overhook Sweep]]** → [[Mount]] (Probability: 50%)
 
 
 

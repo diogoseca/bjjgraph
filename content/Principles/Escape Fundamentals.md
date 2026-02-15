@@ -373,10 +373,10 @@ Record sparring sessions and review escape attempts that failed, identifying spe
 - [[Pin Escape Methodology]] (Principle) - Position-specific application of universal escape fundamentals to various pinning scenarios
 - [[Mount Escape Series]] (Principle) - Specific implementation of escape fundamentals from mount position with detailed technical sequences
 - [[Side Control Escapes]] (Principle) - Application of escape fundamentals specifically to side control with position-specific variations
-- [[Back Escape Series]] (Principle) - Complex application of escape fundamentals to back control scenarios requiring additional hand fighting components
+- [[Back Door Escape]] (Principle) - Complex application of escape fundamentals to back control scenarios requiring additional hand fighting components
 - [[Defensive Strategy]] (Principle) - Overarching defensive framework within which escape fundamentals are deployed based on strategic objectives
 - [[Space Management]] (Principle) - Complementary concept explaining how space is created, maintained, and exploited during defensive sequences
-- [[Elbow Escape]] (Transition) - Primary technical application of escape fundamentals from side control and mount positions
+- [[Elbow Escape to Guard]] (Transition) - Primary technical application of escape fundamentals from side control and mount positions
 - [[Shrimp Escape]] (Transition) - Fundamental hip escape movement that operationalizes space and angle creation principles
 - [[Bridge and Roll]] (Transition) - Explosive escape technique that applies fundamental principles through bridging mechanics and timing
 

@@ -97,21 +97,27 @@ Strategically, the Kimura Trap excels at creating dilemmas where opponents must 
 ### Available Transitions
 
 
-- **[[Old School Sweep]]** (15% of attempts)
+- **[[Old School Sweep]]** (31% of attempts)
 
 - **[[Kimura to Back Take]]** (14% of attempts)
 
-- **[[Kimura from Half Guard]]** (12% of attempts)
+- **[[Kimura Sweep]]** (10% of attempts)
 
-- **[[Rolling Kimura]]** (11% of attempts)
+- **[[Rolling Kimura]]** (10% of attempts)
 
-- **[[Underhook Sweep from Half]]** (13% of attempts)
+- **[[Underhook Sweep from Half]]** (6% of attempts)
 
-- **[[Half Guard Sweeps]]** (13% of attempts)
+- **[[Half Guard to Back Take]]** (6% of attempts)
 
-- **[[Closed Guard to Omoplata]]** (10% of attempts)
+- **[[Lockdown Recovery]]** (6% of attempts)
 
-- **[[Lockdown Sweeps]]** (12% of attempts)
+- **[[Electric Chair Transition]]** (6% of attempts)
+
+- **[[Half Guard Pass]]** (6% of attempts)
+
+- **[[Kimura Counter via Roll]]** (3% of attempts)
+
+- **[[Kimura Defense Arm Extraction]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -172,19 +178,25 @@ Strategically, the Kimura Trap excels at creating dilemmas where opponents must 
 ### Available Transitions
 
 
-- **[[Kimura from Side Control]]** (15% of attempts)
+- **[[Kimura]]** (32% of attempts)
 
-- **[[Kimura from North-South]]** (15% of attempts)
+- **[[North-South to Kimura]]** (13% of attempts)
 
 - **[[Side Control to Mount]]** (15% of attempts)
 
 - **[[Kimura to Back Take]]** (13% of attempts)
 
-- **[[North-South to Kimura]]** (14% of attempts)
+- **[[Knee on Belly]]** (8% of attempts)
 
-- **[[Kimura from Turtle]]** (14% of attempts)
+- **[[Transition to Reverse Scarf Hold]]** (0% of attempts)
 
-- **[[Kimura Defense]]** (14% of attempts)
+- **[[Guard Recovery]]** (8% of attempts)
+
+- **[[Americana]]** (6% of attempts)
+
+- **[[Kimura Defense]]** (3% of attempts)
+
+- **[[Kimura Trap to Reverse Scarf Hold]]** (2% of attempts)
 
 
 ### Common Mistakes

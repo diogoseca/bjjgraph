@@ -335,14 +335,13 @@ The Dynamic Guard System requires progressive drilling that builds from isolated
 - [[Reverse De La Riva Guard]] (Position) - Inverted guard option for back exposure and sweeps
 - [[Guard Retention]] (Principle) - Core defensive principle underlying entire system
 - [[Grip Fighting]] (Principle) - Essential skill for controlling engagement and creating opportunities
-- [[Hip Movement]] (Principle) - Fundamental movement pattern enabling guard switches
 - [[Frame Management]] (Principle) - Critical for maintaining distance during transitions
 - [[Distance Creation]] (Principle) - Key principle for preventing pressure establishment
 - [[Angle Creation]] (Principle) - Essential for off-balancing and creating sweep opportunities
 - [[Scissor Sweep]] (Transition) - Classic sweep integrated into guard switching sequences
 - [[Butterfly Sweep]] (Transition) - High-percentage sweep from butterfly guard position
 - [[De La Riva Sweep]] (Transition) - Primary offensive technique from DLR position
-- [[Spider Guard Sweeps]] (Transition) - Collection of sweeps from spider guard position
+- [[Spider Guard Pass]] (Transition) - Collection of sweeps from spider guard position
 - [[X-Guard Sweep]] (Transition) - Powerful elevation sweep from X-guard
 - [[Berimbolo Entry]] (Transition) - Advanced back-take option from DLR position
 - [[Guard Pull]] (Transition) - Entry method for initiating dynamic guard engagement

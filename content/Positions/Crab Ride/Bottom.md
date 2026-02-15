@@ -20,38 +20,38 @@ description: "Master Crab Ride Bottom defense in BJJ. Complete guide covering ho
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape",
-      "text": "From this position, attempt Hip Escape. This technique is attempted in 22% of exchanges from this position.",
+      "name": "Execute Hip Escape to Guard",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 32% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll",
-      "text": "From this position, attempt Granby Roll. This technique is attempted in 20% of exchanges from this position.",
+      "name": "Execute Granby Roll to Guard",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 19% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Standup",
-      "text": "From this position, attempt Technical Standup. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Turtle to Standing",
+      "text": "From this position, attempt Turtle to Standing. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Turtle to Guard",
-      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Guard Recovery",
+      "text": "From this position, attempt Guard Recovery. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Peterson Roll",
+      "text": "From this position, attempt Peterson Roll. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guard Replacement",
-      "text": "From this position, attempt Guard Replacement. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Sit Through Escape",
+      "text": "From this position, attempt Sit Through Escape. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -207,17 +207,21 @@ Strategically, Crab Ride Bottom is often a transitional state rather than a sust
 
 ## Available Escapes
 
-### [[Hip Escape]] (22% of attempts)
+### [[Hip Escape to Guard]] (32% of attempts)
 
-### [[Granby Roll]] (20% of attempts)
+### [[Granby Roll to Guard]] (19% of attempts)
 
-### [[Technical Standup]] (18% of attempts)
+### [[Turtle to Standing]] (14% of attempts)
 
-### [[Turtle to Guard]] (15% of attempts)
+### [[Guard Recovery]] (9% of attempts)
 
-### [[Rolling Back Take]] (10% of attempts)
+### [[Peterson Roll]] (9% of attempts)
 
-### [[Guard Replacement]] (15% of attempts)
+### [[Sit Through Escape]] (11% of attempts)
+
+### [[Rolling Back Take]] (4% of attempts)
+
+### [[Crab Ride Escape to Guard]] (2% of attempts)
 
 
 
@@ -228,23 +232,23 @@ Strategically, Crab Ride Bottom is often a transitional state rather than a sust
 ## Decision Making from This Position
 
 **If opponent has only one hook and is trying to insert second hook:**
-- Execute **[[Hip Escape]]** → [[Turtle]] (Probability: 45%)
-- Execute **[[Guard Replacement]]** → [[Butterfly Guard]] (Probability: 35%)
+- Execute **[[Hip Escape to Guard]]** → [[Half Guard]] (Probability: 45%)
+- Execute **[[Guard Recovery]]** → [[Butterfly Guard]] (Probability: 35%)
 
 
 **If opponent has strong upper body control and is breaking you down:**
-- Execute **[[Granby Roll]]** → [[Closed Guard]] (Probability: 40%)
-- Execute **[[Forward Roll Escape]]** → [[Closed Guard]] (Probability: 30%)
+- Execute **[[Granby Roll to Guard]]** → [[Closed Guard]] (Probability: 40%)
+- Execute **[[Rolling Escape to Guard]]** → [[Closed Guard]] (Probability: 30%)
 
 
 **If opponent is high on your back with loose hook control:**
-- Execute **[[Technical Standup]]** → [[Standing Position]] (Probability: 50%)
+- Execute **[[Turtle to Standing]]** → [[Standing Position]] (Probability: 50%)
 - Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 25%)
 
 
 **If opponent commits weight to one side for truck entry:**
 - Execute **[[Turtle to Guard]]** → [[Half Guard]] (Probability: 45%)
-- Execute **[[Explosive Hip Escape]]** → [[Turtle]] (Probability: 35%)
+- Execute **[[Hip Escape to Guard]]** → [[Open Guard]] (Probability: 35%)
 
 
 
@@ -382,8 +386,8 @@ Bottom player flows through all escape options (hip escape, granby, stand up, si
 - **[[Turtle]]** - Common entry position - where crab ride is often established from
 - **[[Back Control]]** - Primary threat position - what opponent is working toward
 - **[[Truck]]** - Alternative control position - similar defensive challenges
-- **[[Granby Roll]]** - Primary escape technique - most common technical solution
-- **[[Hip Escape]]** - Fundamental escape - basic defensive movement
+- **[[Granby Roll to Guard]]** - Primary escape technique - most common technical solution
+- **[[Hip Escape to Guard]]** - Fundamental escape - basic defensive movement to recover guard
 - **[[Rolling Back Take]]** - Counter-attack option - offensive opportunity from defensive position
 - **[[Rear Naked Choke]]** - Primary submission threat - what to defend against
 

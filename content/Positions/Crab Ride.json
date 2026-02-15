@@ -178,12 +178,12 @@
         "condition": "If opponent flattens out completely or rolls to their back",
         "actions": [
           {
-            "technique": "Flatten to Side Control",
+            "technique": "Turtle Flatten to Side Control",
             "target": "Side Control",
             "probability": 80
           },
           {
-            "technique": "Mount Transition",
+            "technique": "Consolidate Mount",
             "target": "Mount",
             "probability": 70
           }
@@ -198,7 +198,7 @@
             "probability": 70
           },
           {
-            "technique": "Kimura from Turtle",
+            "technique": "Kimura",
             "target": "Kimura Trap",
             "probability": 55
           }
@@ -317,31 +317,43 @@
     "transitions": [
       {
         "transition": "Crab Ride to Back",
-        "attempt_probability": 25
-      },
-      {
-        "transition": "Back Control to Crucifix",
-        "attempt_probability": 15
+        "attempt_probability": 39
       },
       {
         "transition": "Darce from Turtle",
-        "attempt_probability": 15
+        "attempt_probability": 7
       },
       {
         "transition": "Anaconda from Turtle",
-        "attempt_probability": 15
+        "attempt_probability": 6
       },
       {
         "transition": "Guillotine from Turtle",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Kimura from Turtle",
-        "attempt_probability": 10
+        "attempt_probability": 3
       },
       {
         "transition": "Truck Entry",
-        "attempt_probability": 10
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Crucifix from Turtle",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Transition to Cross Body Ride",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Transition to Rodeo Ride",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Rolling Back Take",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Kimura from Crab Ride",
+        "attempt_probability": 2
       }
     ]
   },
@@ -425,12 +437,12 @@
         "condition": "If opponent has only one hook and is trying to insert second hook",
         "actions": [
           {
-            "technique": "Hip Escape",
-            "target": "Turtle",
+            "technique": "Hip Escape to Guard",
+            "target": "Half Guard",
             "probability": 45
           },
           {
-            "technique": "Guard Replacement",
+            "technique": "Guard Recovery",
             "target": "Butterfly Guard",
             "probability": 35
           }
@@ -440,12 +452,12 @@
         "condition": "If opponent has strong upper body control and is breaking you down",
         "actions": [
           {
-            "technique": "Granby Roll",
+            "technique": "Granby Roll to Guard",
             "target": "Closed Guard",
             "probability": 40
           },
           {
-            "technique": "Forward Roll Escape",
+            "technique": "Rolling Escape to Guard",
             "target": "Closed Guard",
             "probability": 30
           }
@@ -455,7 +467,7 @@
         "condition": "If opponent is high on your back with loose hook control",
         "actions": [
           {
-            "technique": "Technical Standup",
+            "technique": "Turtle to Standing",
             "target": "Standing Position",
             "probability": 50
           },
@@ -475,8 +487,8 @@
             "probability": 45
           },
           {
-            "technique": "Explosive Hip Escape",
-            "target": "Turtle",
+            "technique": "Hip Escape to Guard",
+            "target": "Open Guard",
             "probability": 35
           }
         ]
@@ -554,12 +566,12 @@
         "relationship": "Alternative control position - similar defensive challenges"
       },
       {
-        "name": "Granby Roll",
+        "name": "Granby Roll to Guard",
         "relationship": "Primary escape technique - most common technical solution"
       },
       {
-        "name": "Hip Escape",
-        "relationship": "Fundamental escape - basic defensive movement"
+        "name": "Hip Escape to Guard",
+        "relationship": "Fundamental escape - basic defensive movement to recover guard"
       },
       {
         "name": "Rolling Back Take",
@@ -584,28 +596,36 @@
     },
     "transitions": [
       {
-        "transition": "Hip Escape",
-        "attempt_probability": 22
+        "transition": "Hip Escape to Guard",
+        "attempt_probability": 32
       },
       {
-        "transition": "Granby Roll",
-        "attempt_probability": 20
+        "transition": "Granby Roll to Guard",
+        "attempt_probability": 19
       },
       {
-        "transition": "Technical Standup",
-        "attempt_probability": 18
+        "transition": "Turtle to Standing",
+        "attempt_probability": 14
       },
       {
-        "transition": "Turtle to Guard",
-        "attempt_probability": 15
+        "transition": "Guard Recovery",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Peterson Roll",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Sit Through Escape",
+        "attempt_probability": 11
       },
       {
         "transition": "Rolling Back Take",
-        "attempt_probability": 10
+        "attempt_probability": 4
       },
       {
-        "transition": "Guard Replacement",
-        "attempt_probability": 15
+        "transition": "Crab Ride Escape to Guard",
+        "attempt_probability": 2
       }
     ]
   }

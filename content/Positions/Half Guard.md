@@ -98,23 +98,43 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 ### Available Transitions
 
 
-- **[[Underhook Sweep from Half]]** (19% of attempts)
+- **[[Underhook Sweep from Half]]** (84% of attempts)
 
-- **[[Old School Sweep]]** (13% of attempts)
+- **[[Old School Sweep]]** (4% of attempts)
 
-- **[[Deep Half Entry]]** (13% of attempts)
+- **[[Deep Half Entry]]** (4% of attempts)
 
-- **[[Lockdown Sweeps]]** (9% of attempts)
+- **[[Lockdown Recovery]]** (0% of attempts)
 
-- **[[Electric Chair Submission]]** (4% of attempts)
+- **[[Electric Chair Transition]]** (0% of attempts)
 
-- **[[Half Guard to Back Take]]** (13% of attempts)
+- **[[Half Guard to Back Take]]** (3% of attempts)
 
-- **[[Waiter Sweep]]** (9% of attempts)
+- **[[Kimura Sweep]]** (1% of attempts)
 
-- **[[Kimura from Half Guard]]** (9% of attempts)
+- **[[Knee Shield Retention]]** (1% of attempts)
 
-- **[[Underhook Sweep]]** (11% of attempts)
+- **[[Transition to K-Guard]]** (0% of attempts)
+
+- **[[Transition to Old School]]** (0% of attempts)
+
+- **[[Guard Recovery]]** (2% of attempts)
+
+- **[[Dogfight Position]]** (0% of attempts)
+
+- **[[Transition to Z-Guard]]** (0% of attempts)
+
+- **[[Back Door Escape from Half Guard]]** (0% of attempts)
+
+- **[[Deep Half Entry from Half Guard]]** (0% of attempts)
+
+- **[[Half Guard to K-Guard]]** (0% of attempts)
+
+- **[[Half Guard to Old School]]** (0% of attempts)
+
+- **[[Half Guard to X-Guard]]** (0% of attempts)
+
+- **[[Knee Torque Sweep]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -175,23 +195,47 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 ### Available Transitions
 
 
-- **[[Knee Slice Pass]]** (23% of attempts)
+- **[[Knee Slice Pass]]** (87% of attempts)
 
-- **[[Smash Pass]]** (13% of attempts)
+- **[[Smash Pass]]** (6% of attempts)
 
-- **[[Underhook Pass]]** (13% of attempts)
+- **[[Underhook Pass]]** (4% of attempts)
 
-- **[[Long Step Pass]]** (7% of attempts)
+- **[[Long Step Pass]]** (1% of attempts)
 
-- **[[Crossface Pass]]** (11% of attempts)
+- **[[Crossface Pass]]** (1% of attempts)
 
-- **[[Kimura from Half Guard]]** (7% of attempts)
+- **[[Kimura]]** (0% of attempts)
 
-- **[[Darce Choke]]** (6% of attempts)
+- **[[Back Step Pass]]** (0% of attempts)
 
-- **[[Back Step Pass]]** (9% of attempts)
+- **[[Crossface to Combat Base]]** (0% of attempts)
 
-- **[[Crossface to Combat Base]]** (11% of attempts)
+- **[[Transition to Double Jump]]** (0% of attempts)
+
+- **[[Transition to Flattened Half Guard]]** (0% of attempts)
+
+- **[[Transition to Pocket Half Guard]]** (0% of attempts)
+
+- **[[Transition to Quarter Guard]]** (0% of attempts)
+
+- **[[Transition to Triangle Escape Position]]** (0% of attempts)
+
+- **[[Over-Under Pass]]** (0% of attempts)
+
+- **[[Headquarters Pass]]** (0% of attempts)
+
+- **[[Half Guard to Double Jump]]** (0% of attempts)
+
+- **[[Half Guard to Flattened Half Guard]]** (0% of attempts)
+
+- **[[Half Guard to Leg Hook]]** (0% of attempts)
+
+- **[[Half Guard to Pocket Half Guard]]** (0% of attempts)
+
+- **[[Half Guard to Quarter Guard]]** (0% of attempts)
+
+- **[[Half Guard to Triangle Escape Position]]** (1% of attempts)
 
 
 ### Common Mistakes

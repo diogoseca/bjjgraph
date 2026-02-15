@@ -308,12 +308,12 @@
       "relationship": "Defensive control used in sprawl defense protocol"
     },
     {
-      "name": "Technical Standup",
+      "name": "Technical Stand-up",
       "content_type": "Transition",
       "relationship": "Offensive transition to return to standing when taken down"
     },
     {
-      "name": "Snap Down",
+      "name": "Snap Down to Front Headlock",
       "content_type": "Transition",
       "relationship": "Counter-offensive technique from standing defense exchanges"
     },
@@ -336,11 +336,6 @@
       "name": "Distance Creation",
       "content_type": "Principle",
       "relationship": "Strategic principle for controlling engagement distance"
-    },
-    {
-      "name": "Hand Fighting",
-      "content_type": "Principle",
-      "relationship": "Tactical hand fighting principles used in grip fighting component"
     },
     {
       "name": "Defensive Strategy",

@@ -103,13 +103,13 @@ The learning curve for Twister Side Control is significant, requiring practition
 ### Available Transitions
 
 
-- **[[Granby Roll]]** (15% of attempts)
+- **[[Granby Roll to Guard]]** (15% of attempts)
 
 - **[[Technical Stand-up]]** (13% of attempts)
 
-- **[[Hip Escape]]** (17% of attempts)
+- **[[Hip Escape to Guard]]** (17% of attempts)
 
-- **[[Frame and Shrimp]]** (18% of attempts)
+- **[[Frame and Shrimp to Guard]]** (18% of attempts)
 
 - **[[Turtle Transition]]** (21% of attempts)
 
@@ -184,7 +184,7 @@ The learning curve for Twister Side Control is significant, requiring practition
 
 - **[[Turtle to Truck]]** (11% of attempts)
 
-- **[[Back Take Generic]]** (11% of attempts)
+- **[[Back Take]]** (11% of attempts)
 
 - **[[Side Control to North-South]]** (12% of attempts)
 

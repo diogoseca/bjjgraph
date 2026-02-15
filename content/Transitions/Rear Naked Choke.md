@@ -2,148 +2,13 @@
 
 
 
-
 ---
 title: "Rear Naked Choke | BJJ Technique | BJJ Graph"
-description: "Master the Rear Naked Choke from back control. Step-by-step arm placement, squeeze mechanics, and finishing details. Success: Beginner 30%, Advanced 65%."
+description: "Master the Rear Naked Choke from back control. Step-by-step arm placement, squeeze mechanics, and finishing details for BJJ's highest-percentage submission."
 ---
 
 
-<body data-content-type="transitions">
-
-<!-- Schema Markup - Auto-generated from JSON -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Execute Rear Naked Choke in BJJ",
-  "description": "Step-by-step guide for Rear Naked Choke from Back Control/Top. Possible outcomes: Game Over (65%), Back Control (25%), Turtle (10%).",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Secure seatbelt control",
-      "text": "From back control, establish harness grip with one arm over opponent's shoulder and one under their armpit, hands clasped together on their chest. This controls their upper body and positions your choking arm.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Clear the chin",
-      "text": "Use your hand fighting techniques to create an opening past opponent's chin. Walk your fingers up their chest, use misdirection attacks, or time their defensive hand movement to slide your forearm under their chin toward their neck.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Set the choking arm",
-      "text": "Slide your forearm across the throat until the blade of your forearm (radius bone) contacts the trachea and your bicep and forearm create a V-shape around the neck. Your elbow should be directly under their chin.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Position your head",
-      "text": "Place your head tight behind opponent's head on the choking arm side, using your temple against the back of their skull. This prevents them from turning into you and creates a wedge that amplifies squeeze pressure.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Secure the grip",
-      "text": "Bring your non-choking hand to your bicep of the choking arm, gripping tightly. Place the choking hand behind opponent's head or on your own shoulder, completing the figure-four lock around their neck.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Apply the squeeze",
-      "text": "Expand your chest, pull your elbows back toward your body, and squeeze your shoulders together while driving your head forward into theirs. The pressure comes from your back muscles and chest expansion, compressing both carotid arteries simultaneously.",
-      "position": 6
-    }
-  ],
-  "tool": ["BJJ Gi or No-Gi attire", "Training partner", "Mat space"],
-  "totalTime": "PT5M"
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the primary goal of the Rear Naked Choke?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The primary goal is bilateral compression of the carotid arteries to restrict blood flow to the brain, causing unconsciousness within seconds. It is a blood choke, not an air choke, which makes it more effective and faster-acting when properly applied."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Where exactly should your forearm be positioned when executing the choke?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The blade of your forearm (radius bone) should contact the trachea with your elbow positioned directly under the opponent's chin. Your bicep and forearm create a V-shape around the neck that compresses both carotid arteries when squeezed."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why is head position critical for finishing the Rear Naked Choke?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Your head must be positioned directly behind your opponent's head, temple against skull, not beside it. This creates a wedge that prevents them from turning toward you, amplifies squeeze pressure through the head-to-head contact, and closes off the escape angle they need for rotation."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Your opponent has both hands on your choking wrist - what options do you have?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You can peel their fingers one at a time starting with the pinky, use your free hand to control one of their wrists creating an armbar opportunity, switch to bow and arrow choke if wearing a gi, or transition to crucifix position to trap their arms before returning to the choke attempt."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How should you generate the finishing squeeze - through arm strength or body mechanics?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Finishing pressure should come from chest expansion, pulling elbows back toward your body, squeezing shoulders together, and driving your head forward. Your arms maintain position while your back muscles and chest generate the compression. Arm strength alone leads to fatigue and failed attempts."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the proper grip configuration for maximum leverage in the RNC?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The figure-four configuration: your non-choking hand grips the bicep of your choking arm, while your choking hand goes behind opponent's head or on your own shoulder. This creates a closed system that amplifies pressure through leverage rather than requiring pure arm strength."
-      }
-    }
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Rear Naked Choke",
-  "description": "Master the Rear Naked Choke from back control. Step-by-step arm placement, squeeze mechanics, and finishing details. Success: Beginner 30%, Advanced 65%.",
-  "url": "https://bjjgraph.org/Transitions/Rear-Naked-Choke",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.org"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
-    {"@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/"},
-    {"@type": "ListItem", "position": 3, "name": "Rear Naked Choke", "item": "https://bjjgraph.org/Transitions/Rear-Naked-Choke"}
-  ]
-}
-</script>
+<body data-content-type="transitions-hub">
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -156,7 +21,7 @@ The technique's effectiveness stems from its mechanical simplicity combined with
 
 Strategically, the rear naked choke serves as the primary threat from back control, forcing opponents to defend their neck continuously. This defensive commitment creates opportunities for alternative attacks including armbar variations, bow and arrow choke, and crucifix transitions. The submission's reliability across all experience levels makes it a foundational technique that every practitioner must master both offensively and defensively.
 
-**From Position**: [[Back Control/Top]]
+**From Position**: [[Back Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -167,165 +32,150 @@ Strategically, the rear naked choke serves as the primary threat from back contr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Game Over]] | 65% |
-| Failure | [[Back Control]] | 25% |
-| Counter | [[Turtle]] | 10% |
+| Success | [[game-over]] | 58% |
+| Failure | [[Back Control]] | 30% |
+| Counter | [[Turtle]] | 12% |
 
 
 </section>
 
+<section class="content-section">
+
+## Attacker vs Defender
+
+| &nbsp; | Attacker | Defender |
+|--------|----------|----------|
+| **Focus** | Execute technique | Prevent or counter |
+| **Key Principles** | Chin line clearance is the critical entry point - your choki... | Neck defense always takes absolute priority over escape atte... |
+| **Options** | 7 execution steps | 4 defensive options |
+
+</section>
+
+<section id="attacker-summary" class="content-section">
+
+## Playing as Attacker
+
+[[Rear Naked Choke/Attacker|→ Full Attacker Guide]]
+
+### Key Principles
 
 
-<section id="key-principles" class="content-section">
-
-## Key Principles
 - Chin line clearance is the critical entry point - your choking arm must pass under the chin to reach the neck, making this the primary battle in the technique
+
 - Blade of the forearm contacts the throat, with the bicep and forearm creating a V-shape that compresses both carotid arteries simultaneously
+
 - Head position behind opponent's head prevents them from turning into you and creates the wedge pressure needed for the squeeze
+
 - The non-choking hand assists by controlling opponent's defensive hand, securing the choke grip, or blocking escape attempts
+
 - Chest expansion and shoulder squeeze generate finishing pressure rather than arm strength alone
+
 - Maintaining hooks or body triangle throughout the choke attempt prevents opponent from creating escape angles
 
 
-</section>
-
-<section id="setup-requirements" class="content-section">
-
-## Prerequisites
-- Secure back control with chest-to-back connection and hooks in or body triangle established
-- Harness grip or seatbelt control of opponent's upper body providing initial arm position
-- Opponent's neck defense compromised through hand fighting, misdirection, or positional adjustment
-- Head positioned behind opponent's head, not beside it, creating proper angle for choke entry
-- Dominant side hook deep to prevent opponent from turning away from the choking arm
+### Execution Steps
 
 
-</section>
+- **Secure seatbelt control**: From back control, establish harness grip with one arm over opponent's shoulder and one under their ...
 
-<section id="execution-steps" class="content-section">
+- **Initiate hand fighting sequence**: Begin systematic hand fighting to isolate or occupy opponent's defensive hands. Use your underhook h...
 
-## Execution Steps
-1. **Secure seatbelt control**: From back control, establish harness grip with one arm over opponent's shoulder and one under their armpit, hands clasped together on their chest. This controls their upper body and positions your choking arm.
-2. **Clear the chin**: Use your hand fighting techniques to create an opening past opponent's chin. Walk your fingers up their chest, use misdirection attacks, or time their defensive hand movement to slide your forearm under their chin toward their neck.
-3. **Set the choking arm**: Slide your forearm across the throat until the blade of your forearm (radius bone) contacts the trachea and your bicep and forearm create a V-shape around the neck. Your elbow should be directly under their chin.
-4. **Position your head**: Place your head tight behind opponent's head on the choking arm side, using your temple against the back of their skull. This prevents them from turning into you and creates a wedge that amplifies squeeze pressure.
-5. **Secure the grip**: Bring your non-choking hand to your bicep of the choking arm, gripping tightly. Place the choking hand behind opponent's head or on your own shoulder, completing the figure-four lock around their neck.
-6. **Apply the squeeze**: Expand your chest, pull your elbows back toward your body, and squeeze your shoulders together while driving your head forward into theirs. The pressure comes from your back muscles and chest expansion, compressing both carotid arteries simultaneously.
+- **Clear the chin**: Use your hand fighting techniques to create an opening past opponent's chin. Walk your fingers up th...
+
+- **Set the choking arm**: Slide your forearm across the throat until the blade of your forearm (radius bone) contacts the trac...
+
+- **Position your head**: Place your head tight behind opponent's head on the choking arm side, using your temple against the ...
+
+- **Secure the figure-four grip**: Bring your non-choking hand to the bicep of your choking arm, gripping tightly. Place the choking ha...
+
+- **Apply the squeeze**: Expand your chest, pull your elbows back toward your body, and squeeze your shoulders together while...
 
 
-</section>
+### Common Mistakes
 
-<section id="common-counters" class="content-section">
 
-## Opponent Counters
-- **Two-on-one grip defense where opponent controls choking wrist with both hands preventing arm from reaching neck** (Effectiveness: High) - Your Response: Use your free hand to peel their fingers one at a time, switch to arm attacks when they commit both hands to neck defense, or transition to bow and arrow choke in the gi
-- **Chin tuck defense where opponent drives chin down trapping your forearm against their chest** (Effectiveness: Medium) - Your Response: Walk your fingers up past their chin using short controlled movements, use your other hand to create a wedge under their chin, or wait for their jaw to tire from the pressure
-- **Turn and face escape where opponent rotates their shoulders toward you while fighting hands** (Effectiveness: Medium) - Your Response: Maintain chest-to-back connection and follow their rotation, use your hooks to prevent full turn, or transition to mounted position if they face you completely
-- **Hook strip to back escape where opponent removes your hooks while defending neck** (Effectiveness: Low) - Your Response: Prioritize hook retention over immediate choke attempts, switch to body triangle if hooks are threatened, or accept position reset to re-establish control
+- **Choking arm positioned too high on the neck with bicep pressing against the jaw rather than the carotid**
+  - Consequence: Creates a jaw crush or air choke that is uncomfortable but not fight-ending, allowing opponent extended time to escape
+  - Correction: Ensure your elbow is directly under their chin with the blade of your forearm on the trachea and bicep/forearm V-shape around the neck arteries
+
+- **Attempting to muscle the choke using arm strength rather than proper body mechanics**
+  - Consequence: Rapid forearm fatigue without completing the submission, plus loosening of grip that creates escape opportunities
+  - Correction: Generate pressure through chest expansion, shoulder squeeze, and back engagement while keeping arms relatively relaxed until the final squeeze
+
+- **Head positioned beside opponent's head instead of directly behind it**
+  - Consequence: Opponent can turn their head toward you and begin rotation to escape, reducing choke pressure significantly
+  - Correction: Drive your head tight behind theirs using your temple against their skull, creating the wedge that prevents rotation and amplifies pressure
 
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="defender-summary" class="content-section">
 
-## Common Mistakes
-- **Mistake**: Choking arm positioned too high on the neck with bicep pressing against the jaw rather than the carotid
-  - **Consequence**: Creates a jaw crush or air choke that is uncomfortable but not fight-ending, allowing opponent extended time to escape
-  - **Correction**: Ensure your elbow is directly under their chin with the blade of your forearm on the trachea and bicep/forearm V-shape around the neck arteries
-- **Mistake**: Attempting to muscle the choke using arm strength rather than proper body mechanics
-  - **Consequence**: Rapid forearm fatigue without completing the submission, plus loosening of grip that creates escape opportunities
-  - **Correction**: Generate pressure through chest expansion, shoulder squeeze, and back engagement while keeping arms relatively relaxed until the final squeeze
-- **Mistake**: Head positioned beside opponent's head instead of directly behind it
-  - **Consequence**: Opponent can turn their head toward you and begin rotation to escape, reducing choke pressure significantly
-  - **Correction**: Drive your head tight behind theirs using your temple against their skull, creating the wedge that prevents rotation and amplifies pressure
-- **Mistake**: Releasing hooks or body triangle control while focusing entirely on the choke attempt
-  - **Consequence**: Opponent creates hip escape angle and turns to face you, completely nullifying the back control position
-  - **Correction**: Maintain leg control throughout the choke attempt - the submission only works from back control, so position retention is non-negotiable
-- **Mistake**: Clasping hands together in a gable grip rather than using the proper figure-four configuration
-  - **Consequence**: Reduces mechanical leverage and squeeze efficiency, requires more strength, and creates easier grip break opportunities
-  - **Correction**: Use the standard RNC grip with free hand on bicep and choking hand behind head or on your own shoulder for maximum leverage
-- **Mistake**: Rushing the choke attempt before properly clearing the chin and setting arm position
-  - **Consequence**: Arm gets stuck on chin, creates ineffective pressure, and alerts opponent to defend before danger is established
-  - **Correction**: Be patient with hand fighting and chin clearance - a properly positioned arm finishes quickly, a poorly positioned arm rarely finishes at all
+## Playing as Defender
+
+[[Rear Naked Choke/Defender|→ Full Defender Guide]]
+
+### Key Principles
+
+
+- Neck defense always takes absolute priority over escape attempts - your hands must protect the neck before addressing hooks or attempting to turn
+
+- Two-on-one grip control on the choking wrist is the primary defensive mechanism, using both hands to prevent the arm from reaching depth across your throat
+
+- Chin tucked aggressively to chest creates a physical barrier that the choking forearm must overcome before reaching the carotid arteries
+
+- Shoulders tight and rounded forward reduce available space around the neck and make it harder for the attacker to thread their arm through
+
+- Defensive hand position must stay high near the collarbones and chin - hands that drift below the chest leave the neck exposed to immediate attack
+
+- Escape timing synchronizes with the attacker's offensive commitment, using their weight shifts during choke attempts as windows to create hip movement
+
+
+### Recognition Cues
+
+
+- Opponent's overhook arm begins walking fingers up your chest toward your chin, indicating the start of a choke entry attempt
+
+- Seatbelt grip shifts as opponent releases the clasp and their overhook hand separates to attack the neck independently
+
+- Increased chest-to-back pressure and head drive behind your skull signals the attacker is committing to the choke position
+
+- Opponent's free hand begins controlling your wrist or peeling your defensive grip, indicating they are setting up the choking arm path
+
+- Body triangle tightens or hook pressure increases simultaneously with upper body adjustment, signaling a coordinated choke attempt
+
+
+### Defensive Options
+
+
+- **Two-on-one wrist control - grab the choking wrist with both hands and pull it down to your chest while tucking your chin aggressively** - When: Immediately when you feel the opponent's arm begin to move toward your neck from the seatbelt position, before the forearm clears your chin line
+
+- **Hip escape to turtle - strip the bottom hook by kicking your leg free while maintaining neck defense, then turn to turtle position** - When: After successfully neutralizing the immediate choke threat through two-on-one control, when you can safely address hooks without exposing the neck
+
+- **Turn into opponent - rotate your shoulders toward the choking arm side while framing on their hip, working to face them and establish guard** - When: When opponent's hook control is compromised or when they overcommit to the choke by loosening their leg control to focus on the upper body attack
 
 
 </section>
 
-<section id="training-progressions" class="content-section hide-minimal">
 
-## Training Progressions
-**Week 1-2** - Arm placement mechanics
-Practice the choking arm position and figure-four grip on compliant partners. Focus on forearm blade placement, elbow position under chin, and proper head positioning. Drill entry from static harness position without resistance.
-
-**Week 3-4** - Hand fighting and chin clearance
-Add light defensive resistance to practice clearing the chin against two-on-one defense and chin tuck. Develop multiple entry paths including finger walking, misdirection, and timing their hand movement.
-
-**Week 5-6** - Submission chains and combinations
-Practice transitioning between RNC attempts, armbar attacks, bow and arrow choke, and crucifix when opponent defends. Develop the ability to attack continuously from back control using the choke threat to create other openings.
-
-**Week 7+** - Live application and timing
-Full resistance positional sparring from back control with the goal of finishing the rear naked choke. Focus on recognizing the optimal moment to attack, managing defensive resistance, and maintaining position throughout attempts.
-
-
-
-</section>
-
-<section id="variants-and-adaptations" class="content-section hide-minimal">
+<section id="variants" class="content-section hide-minimal">
 
 ## Variations
+
+
 **Short Choke (Palm-to-Palm)**: When unable to get the full figure-four grip, use a palm-to-palm clasp behind opponent's head with your choking arm still around the neck. Less mechanical advantage but effective when arm depth is limited. (When to use: When opponent's neck defense prevents full arm penetration or when time pressure requires immediate finish attempt)
 
-**One-Arm Rear Naked Choke**: Apply the choke using only the choking arm by driving your shoulder forward and squeezing the bicep and forearm together. The free hand can control their defensive hand or push their head forward. (When to use: When opponent has trapped your non-choking arm or when transitioning quickly from arm attack attempts)
 
-**Body Triangle RNC**: Execute the rear naked choke with body triangle leg control instead of hooks. The body triangle provides superior hip control and can add additional pressure when squeezing legs during the choke. (When to use: Against opponents who effectively strip hooks or when you have longer legs relative to opponent's torso)
-
+**One-Arm Rear Naked Choke**: Apply the choke using only the choking arm by driving your shoulder forward and squeezing the bicep and forearm together. The free hand can control their defensive hand or push their head forward into the choking arm. (When to use: When opponent has trapped your non-choking arm or when transitioning quickly from arm attack attempts)
 
 
-</section>
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-**Q1**: What is the primary goal of the Rear Naked Choke?
-**A**: The primary goal is bilateral compression of the carotid arteries to restrict blood flow to the brain, causing unconsciousness within seconds. It is a blood choke, not an air choke, which makes it more effective and faster-acting when properly applied.
-
-**Q2**: Where exactly should your forearm be positioned when executing the choke?
-**A**: The blade of your forearm (radius bone) should contact the trachea with your elbow positioned directly under the opponent's chin. Your bicep and forearm create a V-shape around the neck that compresses both carotid arteries when squeezed.
-
-**Q3**: Why is head position critical for finishing the Rear Naked Choke?
-**A**: Your head must be positioned directly behind your opponent's head, temple against skull, not beside it. This creates a wedge that prevents them from turning toward you, amplifies squeeze pressure through the head-to-head contact, and closes off the escape angle they need for rotation.
-
-**Q4**: Your opponent has both hands on your choking wrist - what options do you have?
-**A**: You can peel their fingers one at a time starting with the pinky, use your free hand to control one of their wrists creating an armbar opportunity, switch to bow and arrow choke if wearing a gi, or transition to crucifix position to trap their arms before returning to the choke attempt.
-
-**Q5**: How should you generate the finishing squeeze - through arm strength or body mechanics?
-**A**: Finishing pressure should come from chest expansion, pulling elbows back toward your body, squeezing shoulders together, and driving your head forward. Your arms maintain position while your back muscles and chest generate the compression. Arm strength alone leads to fatigue and failed attempts.
-
-**Q6**: What is the proper grip configuration for maximum leverage in the RNC?
-**A**: The figure-four configuration: your non-choking hand grips the bicep of your choking arm, while your choking hand goes behind opponent's head or on your own shoulder. This creates a closed system that amplifies pressure through leverage rather than requiring pure arm strength.
-
-**Q7**: When is the optimal moment to attempt the Rear Naked Choke?
-**A**: The optimal moment is when opponent's defensive hands are occupied elsewhere - during their escape attempts, when they're addressing your hooks, after you've misdirected to arm attacks, or when fatigue has slowed their hand fighting. Never chase the choke when both their hands are actively protecting the neck.
-
-**Q8**: Your opponent tucks their chin aggressively - how do you clear it?
-**A**: Walk your fingers up past their chin using small controlled movements, use your other hand to create a wedge or frame under their chin, apply pressure to their jaw with your forearm until the muscle fatigues, or switch attacks to draw their hands away from neck defense then return to the choke.
-
-**Q9**: What should you do if your opponent begins turning to face you during the choke attempt?
-**A**: Maintain chest-to-back connection and follow their rotation using your hooks to limit their turn angle. If they complete the turn, transition to mount rather than losing position entirely. The choke only works from back control, so prioritize maintaining that relationship over forcing a failed choke.
-
-**Q10**: Why might a practitioner choose the short choke variation over the standard figure-four grip?
-**A**: The short choke (palm-to-palm) is chosen when arm depth is limited due to opponent's neck defense preventing full penetration, when time pressure requires immediate attack, or when body proportions make the full grip difficult. It sacrifices some mechanical advantage for faster application.
+**Body Triangle RNC**: Execute the rear naked choke with body triangle leg control instead of hooks. The body triangle provides superior hip control and can add additional diaphragm pressure when squeezing legs during the choke. (When to use: Against opponents who effectively strip hooks or when you have longer legs relative to opponent's torso)
 
 
 
 </section>
 
-<section id="safety-considerations" class="content-section">
 
-## Safety Considerations
-
-The Rear Naked Choke is a blood choke that can cause unconsciousness within 4-10 seconds when properly applied. Training partners must tap immediately when they feel the choke sink in - there is no benefit to 'seeing if you can escape' once the grip is locked. The attacking practitioner must release immediately upon tap or verbal submission, as continued pressure risks serious injury including stroke, brain damage, or death. During drilling, apply pressure gradually and release the moment you feel a tap anywhere on your body. Never apply this technique standing where an unconscious opponent could fall and sustain head injury. If a training partner goes unconscious, release immediately, place them in recovery position, and monitor breathing. This technique should never be practiced on unwilling participants or outside controlled training environments.
-
-</section>
 
 <section id="position-integration" class="content-section">
 
@@ -335,20 +185,33 @@ The Rear Naked Choke is the primary submission threat from back control and the 
 
 </section>
 
+
 <section id="related-content" class="content-section">
 
 ## Related Techniques
 
+
 - [[Back Control]] - Starting position - the RNC is executed from back control with hooks or body triangle
+
 - [[Bow and Arrow Choke]] - Alternative choke - gi-based choke from back that creates submission chain with RNC
+
 - [[Armbar from Back]] - Chain attack - arm attack when opponent commits hands to neck defense
+
 - [[Crucifix]] - Transitional position - traps both arms allowing undefended RNC entry
+
 - [[Body Triangle]] - Control variation - leg control that enhances RNC finishing position
+
 - [[Gift Wrap]] - Arm trap - isolates one arm reducing opponent's defensive options for RNC
+
 - [[Back Take]] - Entry transition - methods for reaching back control where RNC becomes available
+
 - [[Turtle]] - Escape position - common outcome when opponent partially defends and escapes back control
+
 - [[Hand Fighting from Back]] - Setup technique - hand fighting methodology that creates RNC entry opportunities
-- [[Back Escape Series]] - Defensive counter - understanding escapes informs how to prevent them during RNC attempts
+
+- [[Back Door Escape]] - Defensive counter - understanding escapes informs how to prevent them during RNC attempts
+
+- [[Short Choke]] - Variant finish - palm-to-palm alternative when full figure-four grip is unavailable
 
 
 </section>

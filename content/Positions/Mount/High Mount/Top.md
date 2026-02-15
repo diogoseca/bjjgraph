@@ -4,7 +4,7 @@
 
 ---
 title: "High Mount Top | BJJ Position Guide | BJJ Graph"
-description: "Master High Mount Top position in BJJ. Advanced mount control with elevated knee positioning for maximum submission opportunities. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%."
+description: "Master High Mount Top position in BJJ. Advanced mount control with elevated knee positioning for maximum submission opportunities and systematic pressure application."
 ---
 
 
@@ -20,38 +20,38 @@ description: "Master High Mount Top position in BJJ. Advanced mount control with
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar from Mount",
-      "text": "From this position, attempt Armbar from Mount. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Mount to Armbar",
+      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Ezekiel from Mount",
-      "text": "From this position, attempt Ezekiel from Mount. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Cross Collar Choke",
+      "text": "From this position, attempt Cross Collar Choke. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Cross Collar Choke",
-      "text": "From this position, attempt Cross Collar Choke. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Americana",
+      "text": "From this position, attempt Americana. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Americana from Mount",
-      "text": "From this position, attempt Americana from Mount. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Triangle from Mount",
+      "text": "From this position, attempt Triangle from Mount. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle from Mount",
-      "text": "From this position, attempt Triangle from Mount. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Kimura",
+      "text": "From this position, attempt Kimura. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura from Mount",
-      "text": "From this position, attempt Kimura from Mount. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Arm Triangle",
+      "text": "From this position, attempt Arm Triangle. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -115,7 +115,7 @@ description: "Master High Mount Top position in BJJ. Advanced mount control with
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "High Mount Top",
-  "description": "Master High Mount Top position in BJJ. Advanced mount control with elevated knee positioning for maximum submission opportunities. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.",
+  "description": "Master High Mount Top position in BJJ. Advanced mount control with elevated knee positioning for maximum submission opportunities and systematic pressure application.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -213,25 +213,25 @@ From a biomechanical perspective, High Mount achieves dominance by positioning t
 
 ## Available Attacks
 
-### [[Armbar from Mount]] (14% of attempts)
+### [[Mount to Armbar]] (18% of attempts)
 
-### [[Ezekiel from Mount]] (11% of attempts)
+### [[Cross Collar Choke]] (14% of attempts)
 
-### [[Cross Collar Choke]] (11% of attempts)
+### [[Americana]] (10% of attempts)
 
-### [[Americana from Mount]] (10% of attempts)
+### [[Triangle from Mount]] (10% of attempts)
 
-### [[Triangle from Mount]] (8% of attempts)
-
-### [[Kimura from Mount]] (10% of attempts)
+### [[Kimura]] (10% of attempts)
 
 ### [[Arm Triangle]] (8% of attempts)
 
 ### [[Gift Wrap Transition]] (8% of attempts)
 
-### [[Loop Choke from Mount]] (10% of attempts)
+### [[Mounted Triangle]] (7% of attempts)
 
-### [[Monoplata from Mount]] (10% of attempts)
+### [[S-Mount Transition]] (8% of attempts)
+
+### [[Mounted Crucifix Entry]] (7% of attempts)
 
 
 
@@ -242,28 +242,28 @@ From a biomechanical perspective, High Mount achieves dominance by positioning t
 ## Decision Making from This Position
 
 **If opponent keeps arms extended for frames or defensive postures with straight arms:**
-- Execute **[[Armbar from Mount]]** → [[Armbar Control]] (Probability: 75%)
-- Execute **[[Kimura from Mount]]** → [[Kimura Trap]] (Probability: 60%)
+- Execute **[[Mount to Armbar]]** → [[Armbar Control]] (Probability: 75%)
+- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 60%)
 
 
 **If opponent tucks elbows tight to body and protects neck defensively with bent arms:**
-- Execute **[[Ezekiel from Mount]]** → [[Game Over]] (Probability: 65%)
-- Execute **[[Americana from Mount]]** → [[Game Over]] (Probability: 55%)
+- Execute **[[Cross Collar Choke]]** → [[Game Over]] (Probability: 65%)
+- Execute **[[Americana]]** → [[Game Over]] (Probability: 55%)
 
 
 **If opponent attempts to bridge or turn to side for escape with explosive movement:**
-- Execute **[[Transition to S Mount]]** → [[S Mount]] (Probability: 80%)
-- Execute **[[Transition to Technical Mount]]** → [[Technical Mount]] (Probability: 75%)
+- Execute **[[S-Mount Transition]]** → [[S Mount]] (Probability: 80%)
+- Execute **[[High Mount Transition]]** → [[Technical Mount]] (Probability: 75%)
 
 
 **If opponent creates frames and attempts to push on hips with both hands:**
-- Execute **[[Armbar from Mount]]** → [[Armbar Control]] (Probability: 70%)
+- Execute **[[Mount to Armbar]]** → [[Armbar Control]] (Probability: 70%)
 - Execute **[[Triangle from Mount]]** → [[Triangle Control]] (Probability: 60%)
 
 
 **If opponent exposes neck while defending arms or attempting to protect upper body:**
 - Execute **[[Cross Collar Choke]]** → [[Game Over]] (Probability: 70%)
-- Execute **[[Ezekiel from Mount]]** → [[Game Over]] (Probability: 65%)
+- Execute **[[Mounted Triangle]]** → [[Mounted Triangle]] (Probability: 65%)
 
 
 
@@ -326,7 +326,7 @@ Practice walking knees up from standard mount against progressive resistance (0%
 
 ### Submission Chains from High Mount
 
-Drill armbar to Ezekiel to collar choke sequences, practicing fluid transitions between attacks based on opponent's defensive reactions. Partner defends realistically, forcing attacker to read defenses and chain submissions appropriately.
+Drill armbar to cross collar choke to triangle sequences, practicing fluid transitions between attacks based on opponent's defensive reactions. Partner defends realistically, forcing attacker to read defenses and chain submissions appropriately.
 
 **Duration**: 3 minutes per round, 5 rounds
 
@@ -382,8 +382,8 @@ Hold high mount position for extended periods while partner attempts to survive 
 **Q7**: Your opponent creates frames on your hips and starts pushing - how do you capitalize on this?
 **A**: Frames on your hips are submission opportunities. Their arms are now extended and exposed. Options include: swim your hand under their elbow to break the frame and immediately attack armbar, step over to S-Mount making their frames useless while threatening the armbar, or secure a two-on-one grip on one of their framing arms and isolate it for americana or armbar. The key is recognizing that their frames, while creating momentary space, also commit their arms in predictable positions.
 
-**Q8**: How do you manage energy when holding High Mount for extended periods?
-**A**: Use positional efficiency rather than strength. Keep your core relaxed and let your skeletal structure carry the weight. Cycle through light submission threats to keep them defensive without committing fully to any one attack. Breathe steadily and avoid death-gripping any controls. When they rest, rest with them but maintain positional integrity. When they explode, use their movement to advance or attack rather than simply absorbing it. The goal is to tire them faster than you tire yourself.
+**Q8**: How do you recover position after your opponent partially escapes to half guard?
+**A**: If they manage to insert a knee and recover half guard, immediately establish crossface control and drive your shoulder into their jaw to flatten them. Underhook their far arm to prevent them from getting to their side. Work to free your trapped leg by applying a knee slice or backstep while maintaining heavy upper body pressure. The key is not to rush - maintain top pressure and systematically work to re-pass rather than frantically trying to re-establish mount, which often creates more scramble opportunities for them.
 
 
 
@@ -417,7 +417,7 @@ Hold high mount position for extended periods while partner attempts to survive 
 - **[[Triangle Control]]** - Submission option - available when opponent extends arms for defensive frames on hips
 - **[[Modified Mount]]** - Related variation - alternative mount position with different control mechanics and weight distribution
 - **[[North-South]]** - Transition option - available when opponent bridges and creates perpendicular angle
-- **[[Armbar from Mount]]** - Primary technique - transition connecting high mount to armbar finish sequence
+- **[[Mount to Armbar]]** - Primary technique - transition connecting high mount to armbar finish sequence
 - **[[Kimura Trap]]** - Submission control - shoulder lock option when opponent defends with bent arms tucked tight
 - **[[Mounted Crucifix]]** - Advanced control - arm isolation variation for submission attacks when opponent defends passively
 

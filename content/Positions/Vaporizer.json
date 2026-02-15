@@ -42,7 +42,7 @@
       "relationship": "Alternative half guard control approach"
     },
     {
-      "name": "Z-Guard",
+      "name": "Z-Lock Half Guard",
       "relationship": "Related half guard variant with leg control emphasis"
     }
   ],
@@ -134,7 +134,7 @@
             "probability": 55
           },
           {
-            "technique": "Base Widening",
+            "technique": "Lockdown Break and Pass",
             "target": "Combat Base",
             "probability": 45
           }
@@ -159,7 +159,7 @@
         "condition": "If opponent is threatening Electric Chair or attempting to roll to Truck",
         "actions": [
           {
-            "technique": "Base Widening",
+            "technique": "Lockdown Break and Pass",
             "target": "Combat Base",
             "probability": 60
           },
@@ -298,27 +298,35 @@
     "transitions": [
       {
         "transition": "Half Guard Pass",
-        "attempt_probability": 17
+        "attempt_probability": 22
       },
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 17
+        "attempt_probability": 15
       },
       {
         "transition": "Smash Pass",
-        "attempt_probability": 17
+        "attempt_probability": 13
       },
       {
         "transition": "Pressure Pass",
-        "attempt_probability": 17
+        "attempt_probability": 13
       },
       {
         "transition": "Lockdown Escape to Half Guard Pass",
-        "attempt_probability": 16
+        "attempt_probability": 13
       },
       {
         "transition": "Whizzer",
-        "attempt_probability": 16
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Defend Vaporizer Sweep",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Pass Vaporizer Position",
+        "attempt_probability": 4
       }
     ]
   },
@@ -405,7 +413,7 @@
         "condition": "If opponent maintains heavy pressure and resists whip-up motion with wide base",
         "actions": [
           {
-            "technique": "Electric Chair Submission",
+            "technique": "Electric Chair Transition",
             "target": "Electric Chair",
             "probability": 55
           },
@@ -425,7 +433,7 @@
             "probability": 60
           },
           {
-            "technique": "Lockdown Sweeps",
+            "technique": "Lockdown Recovery",
             "target": "Side Control",
             "probability": 40
           }
@@ -455,7 +463,7 @@
             "probability": 50
           },
           {
-            "technique": "Electric Chair Submission",
+            "technique": "Electric Chair Transition",
             "target": "Electric Chair",
             "probability": 50
           }
@@ -565,27 +573,35 @@
     "transitions": [
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 20
+        "attempt_probability": 26
       },
       {
         "transition": "Turtle to Truck",
-        "attempt_probability": 18
+        "attempt_probability": 16
       },
       {
-        "transition": "Electric Chair Submission",
+        "transition": "Electric Chair Transition",
         "attempt_probability": 18
       },
       {
         "transition": "Closed Guard to Omoplata",
-        "attempt_probability": 14
+        "attempt_probability": 8
       },
       {
         "transition": "Half Guard to Back Take",
-        "attempt_probability": 15
+        "attempt_probability": 13
       },
       {
-        "transition": "Lockdown Sweeps",
-        "attempt_probability": 15
+        "transition": "Lockdown Recovery",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Escape Vaporizer",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Roll from Vaporizer",
+        "attempt_probability": 2
       }
     ]
   }

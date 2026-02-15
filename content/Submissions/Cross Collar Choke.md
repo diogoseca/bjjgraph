@@ -4,147 +4,13 @@
 
 ---
 title: "Cross Collar Choke | BJJ Submission | BJJ Graph"
-description: "Master the Cross Collar Choke in BJJ. Complete guide covering gi grips, proper hand placement, and finishing mechanics. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
+description: "Master the Cross Collar Choke in BJJ. Complete guide covering gi grips, proper hand placement, finishing mechanics, and defense strategies for all levels."
 ---
 
 
-<body data-content-type="submissions">
+<body data-content-type="submissions-hub">
 
-<!-- Schema Markup - Auto-generated from JSON -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Execute Cross Collar Choke in BJJ",
-  "description": "Step-by-step guide for Cross Collar Choke with safety protocols.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Establish First Deep Grip",
-      "text": "Secure your first grip deep in the opponent's collar, driving your hand across their neck with your palm facing you and your knuckles against their carotid artery. Aim for second knuckle depth at minimum, ideally getting your entire hand past the collar seam. The thumb should be inside the collar while four fingers grip outside. This first grip is typically established on the opposite side collar (right hand to their left collar for orthodox grip).",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Break Posture and Control Head",
-      "text": "Using your first collar grip, pull the opponent's head down toward your chest while simultaneously using your legs (if in guard) or body position (if in mount/top position) to prevent them from creating distance. Breaking their posture is critical because an upright posture gives them defensive leverage and the ability to hand fight effectively. Pull them into a compromised position where their head is lower than their hips.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Secure Second Cross Collar Grip",
-      "text": "While maintaining the first grip and broken posture, snake your second hand underneath their defending arm to grab the opposite collar in a cross configuration. Your second hand should mirror the first—palm facing you, knuckles against their neck, achieving deep penetration. This is often the most technical step because you must thread past their defensive frames without losing the first grip. Use subtle movements and patience to work this grip into position.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Adjust Hand Position for Optimal Choking Angle",
-      "text": "With both grips established, make micro-adjustments to ensure your knuckles are positioned directly against the sides of their neck where the carotid arteries run. Your thumbs should be inside the collar pointing down toward their chest, and your knuckles should form a 'V' shape pointing toward their neck. The blade edge of your wrists (pinky side) should be what creates the primary choking pressure. Ensure you're attacking the arteries, not the trachea.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Scissoring Finish",
-      "text": "Drive your elbows outward and downward while simultaneously pulling your hands in opposite directions—one hand pulls toward your same-side shoulder while the other pulls toward the opposite shoulder. This scissoring action creates the compression on both carotid arteries. The key is not pulling straight back, but creating a rotational torque through your forearms. Your chest should drive forward as your hands pull apart, creating maximum pressure through the collar fabric against their neck.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Maintain Control Until Submission",
-      "text": "Hold the finishing position with consistent pressure, ensuring your grips don't slip and your body position remains tight. In training, maintain the pressure only until you feel the tap, then release immediately. The choke should force submission within 5-7 seconds of full application if properly executed. If the opponent doesn't tap after reasonable time, reassess your hand positioning and angle rather than increasing force. Never hold past the tap signal or past loss of consciousness.",
-      "position": 6
-    }
-  ],
-  "tool": ["BJJ Gi or No-Gi attire", "Training partner", "Mat space"],
-  "totalTime": "PT5M"
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the correct hand position depth needed for an effective Cross Collar Choke?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Your hands should achieve second knuckle depth at minimum, ideally getting the entire hand past the collar seam. The thumb should be inside the collar while four fingers grip outside. Shallow grips are the most common reason for choke failure, as they provide insufficient leverage and are easily stripped by a posturing opponent. Deep grips ensure you have mechanical control even when the opponent attempts to create distance or defend."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why must you immediately release the choke upon receiving a tap signal in training?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The Cross Collar Choke is a blood choke that can cause unconsciousness within seconds of proper application by restricting blood flow to the brain through carotid artery compression. Holding the choke past the tap signal risks causing your partner to lose consciousness, which can lead to injury from falling, seizure-like reactions, or potential brain damage if held extended periods. In training, partner safety is paramount, and developing the conditioned response to release immediately upon any tap signal is a critical safety practice that must be ingrained in every practitioner."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the difference between attacking the carotid arteries versus the trachea, and why does it matter?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Attacking the carotid arteries creates a blood choke that restricts blood flow to the brain, causing rapid loss of consciousness with minimal pain when properly applied. This is the correct target for the Cross Collar Choke. Attacking the trachea creates an air choke that is painful but less effective for forcing submission from skilled opponents, and more importantly, carries significant risk of trachea damage which can be a serious injury requiring medical attention. Proper Cross Collar Choke technique targets the sides of the neck where the carotid arteries run, using your knuckles and wrist blades to create pressure, not the front of the throat."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the correct finishing mechanic for the Cross Collar Choke—pulling straight back or scissoring?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The correct finishing mechanic is a scissoring action, not pulling straight back. Your elbows should drive outward and downward while your hands pull in opposite diagonal directions—one hand pulls toward your same-side shoulder while the other pulls toward the opposite shoulder. This scissoring action combined with rotating your forearms creates the rotational torque that compresses both carotid arteries effectively. Pulling straight back is ineffective because it allows the opponent to defend by tucking their chin or posturing up, and it wastes energy without creating proper choking pressure."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why is breaking your opponent's posture crucial before attempting to secure the second cross collar grip?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Breaking posture is crucial because an opponent with good upright posture has several defensive advantages: they can effectively frame on your arms to prevent the second grip, they can generate distance to strip your first grip, and they maintain visual awareness of your grip fighting. By breaking their posture and pulling their head down, you compromise their base, limit their ability to use their arms defensively, and create the angles necessary to thread your second grip past their defensive frames. Attempting the choke without breaking posture first has a very low success rate and telegraphs your intention, allowing prepared defense."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "From closed guard, what should you do if your opponent successfully creates distance and postures up before you can complete the choke?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "If the opponent successfully postures up before you complete the choke, you must prioritize maintaining your grips while immediately working to break them back down using your closed guard leg squeeze combined with pulling pressure on your established collar grips. If you cannot break them down immediately, consider transitioning to a different attack such as a sweep or triangle setup to force them to change their defensive focus, then return to breaking their posture and completing the collar choke. Never sacrifice your closed guard position by overcommitting to the choke when they have strong posture—this often results in guard passes. Maintain positional control first, attacks second."
-      }
-    }
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Cross Collar Choke",
-  "description": "Master the Cross Collar Choke in BJJ. Complete guide covering gi grips, proper hand placement, and finishing mechanics. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
-  "url": "https://bjjgraph.org/Submissions/Cross-Collar-Choke",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.org"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
-    {"@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/"},
-    {"@type": "ListItem", "position": 3, "name": "Cross Collar Choke", "item": "https://bjjgraph.org/Submissions/Cross-Collar-Choke"}
-  ]
-}
-</script>
-
-> ⚠️ **SAFETY**: Cross Collar Choke targets the Carotid arteries. Risk: Carotid artery compression leading to temporary loss of consciousness. Release immediately upon tap.
+> **SAFETY**: Cross Collar Choke targets the Carotid arteries. Risk: Carotid artery compression leading to temporary loss of consciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -157,6 +23,7 @@ The Cross Collar Choke represents one of the most fundamental and effective gi s
 **Type**: Blood Choke
 **Target Area**: Carotid arteries
 **Starting Position**: [[Closed Guard]]
+**From Position**: [[Closed Guard]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -200,142 +67,176 @@ The Cross Collar Choke represents one of the most fundamental and effective gi s
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="outcomes" class="content-section">
 
-## Key Principles
+## Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[game-over]] | 58% |
+| Failure | [[Closed Guard]] | 25% |
+| Counter | [[Open Guard]] | 17% |
+
+
+</section>
+
+<section class="content-section">
+
+## Attacker vs Defender
+
+| &nbsp; | Attacker | Defender |
+|--------|----------|----------|
+| **Focus** | Execute and finish | Escape and survive |
+| **Key Principles** | Deep collar grips are essential—second knuckle depth minimum... | Address the threat early—strip or prevent the first collar g... |
+| **Options** | 6 execution steps | 4 defensive options |
+
+</section>
+
+<section id="attacker-summary" class="content-section">
+
+## Playing as Attacker
+
+[[Cross Collar Choke/Attacker|→ Full Attacker Guide]]
+
+### Key Principles
+
+
 - Deep collar grips are essential—second knuckle depth minimum for effective control
+
 - Cross configuration creates mechanical advantage through forearm rotation and scissoring action
+
 - Elbow positioning determines choke angle—pulling elbows apart while driving knuckles together
+
 - Head control prevents escape—pulling opponent's head down eliminates space and defensive posture
+
 - Patience in setup allows disguising the attack within normal grip fighting sequences
+
 - Blood choke mechanics target carotid arteries, not the trachea—proper placement is critical for safety and effectiveness
 
 
-</section>
-
-<section id="setup-requirements" class="content-section">
-
-## Prerequisites
-- Establish first deep collar grip with at least second knuckle depth, preferably with thumb inside collar
-- Break opponent's posture by pulling their head down and breaking their defensive frames
-- Control opponent's ability to create distance—use guard retention or positional control to prevent escape
-- Secure second cross collar grip without telegraphing intention—disguise within grip fighting exchanges
-- Ensure both hands are positioned with knuckles facing opponent's neck for proper choking angle
-- Establish sufficient depth on both grips before initiating finishing mechanics
+### Execution Steps
 
 
-</section>
+- **Establish First Deep Grip**: Secure your first grip deep in the opponent's collar, driving your hand across their neck with your ...
 
-<section id="execution-steps" class="content-section">
+- **Break Posture and Control Head**: Using your first collar grip, pull the opponent's head down toward your chest while simultaneously u...
 
-## Execution Steps
-1. **Establish First Deep Grip**: Secure your first grip deep in the opponent's collar, driving your hand across their neck with your palm facing you and your knuckles against their carotid artery. Aim for second knuckle depth at minimum, ideally getting your entire hand past the collar seam. The thumb should be inside the collar while four fingers grip outside. This first grip is typically established on the opposite side collar (right hand to their left collar for orthodox grip). (Timing: Take 2-3 seconds to work the grip deep without rushing)
-2. **Break Posture and Control Head**: Using your first collar grip, pull the opponent's head down toward your chest while simultaneously using your legs (if in guard) or body position (if in mount/top position) to prevent them from creating distance. Breaking their posture is critical because an upright posture gives them defensive leverage and the ability to hand fight effectively. Pull them into a compromised position where their head is lower than their hips. (Timing: Continuous pressure over 3-5 seconds)
-3. **Secure Second Cross Collar Grip**: While maintaining the first grip and broken posture, snake your second hand underneath their defending arm to grab the opposite collar in a cross configuration. Your second hand should mirror the first—palm facing you, knuckles against their neck, achieving deep penetration. This is often the most technical step because you must thread past their defensive frames without losing the first grip. Use subtle movements and patience to work this grip into position. (Timing: Take 4-6 seconds to secure properly without forcing)
-4. **Adjust Hand Position for Optimal Choking Angle**: With both grips established, make micro-adjustments to ensure your knuckles are positioned directly against the sides of their neck where the carotid arteries run. Your thumbs should be inside the collar pointing down toward their chest, and your knuckles should form a 'V' shape pointing toward their neck. The blade edge of your wrists (pinky side) should be what creates the primary choking pressure. Ensure you're attacking the arteries, not the trachea. (Timing: 1-2 seconds for final positioning)
-5. **Execute Scissoring Finish**: Drive your elbows outward and downward while simultaneously pulling your hands in opposite directions—one hand pulls toward your same-side shoulder while the other pulls toward the opposite shoulder. This scissoring action creates the compression on both carotid arteries. The key is not pulling straight back, but creating a rotational torque through your forearms. Your chest should drive forward as your hands pull apart, creating maximum pressure through the collar fabric against their neck. (Timing: Apply pressure progressively over 3-5 seconds)
-6. **Maintain Control Until Submission**: Hold the finishing position with consistent pressure, ensuring your grips don't slip and your body position remains tight. In training, maintain the pressure only until you feel the tap, then release immediately. The choke should force submission within 5-7 seconds of full application if properly executed. If the opponent doesn't tap after reasonable time, reassess your hand positioning and angle rather than increasing force. Never hold past the tap signal or past loss of consciousness. (Timing: Hold for tap or maximum 5-7 seconds in training)
+- **Secure Second Cross Collar Grip**: While maintaining the first grip and broken posture, snake your second hand underneath their defendi...
+
+- **Adjust Hand Position for Optimal Choking Angle**: With both grips established, make micro-adjustments to ensure your knuckles are positioned directly ...
+
+- **Execute Scissoring Finish**: Drive your elbows outward and downward while simultaneously pulling your hands in opposite direction...
+
+- **Maintain Control Until Submission**: Hold the finishing position with consistent pressure, ensuring your grips don't slip and your body p...
 
 
-</section>
+### Common Mistakes
 
-<section id="opponent-defense-patterns" class="content-section">
 
-## Opponent Defenses
-- **Frames on biceps to prevent second grip** (Effectiveness: High) - Your Adjustment: Use your first grip to pull their head further down and off-angle, creating space to swim your second hand underneath their defensive frames. Alternatively, switch to a different attack like an armbar to force them to change their defense, then return to the collar grip.
-- **Tucks chin to chest to block collar access** (Effectiveness: Medium) - Your Adjustment: Use your first grip to lift and turn their head slightly, creating angles that expose the collar. You can also attack with other submissions like armbars or triangles to force them to abandon the chin tuck defense, then return to the collar attack.
-- **Grabs your sleeves or wrists to prevent grip depth** (Effectiveness: Medium) - Your Adjustment: Use constant grip fighting and fake attacks to other positions to occupy their hands. When they release even briefly to defend another threat, immediately work your collar grips deeper. Patience is key—wait for the moment they're distracted by another attack.
-- **Postures up aggressively to create distance** (Effectiveness: High) - Your Adjustment: If in closed guard, break them down immediately using leg squeeze combined with pulling motion on your established grip. If they successfully create distance, maintain your grips and transition to another attack temporarily, then return to breaking posture when opportunity presents.
-- **Attempts to strip grips by pulling on your sleeves** (Effectiveness: Low) - Your Adjustment: Tighten your grip and use your body weight or positional control to maintain grip security. Often their attempt to strip grips actually helps you work your hands deeper into the collar. Counter their pulling motion by pulling in the opposite direction, deepening your grips.
+- **Gripping too shallow on the collar**
+  - Consequence: Insufficient leverage to complete the choke; opponent easily escapes by posturing up or stripping weak grips
+  - Correction: Work your hands deep into the collar before attempting the finish—aim for second knuckle depth minimum. Take time during setup phase to achieve proper depth rather than rushing to the finish.
+
+- **Attacking the trachea instead of carotid arteries**
+  - Consequence: Creates painful but ineffective air choke that won't force submission from skilled opponents; risks serious trachea injury to training partners
+  - Correction: Ensure your knuckles and the blade of your wrists target the sides of the neck where arteries run, not the front of the throat. Proper blood choke should cause minimal pain but rapid loss of consciousness if held.
+
+- **Telegraphing the second grip too obviously**
+  - Consequence: Opponent easily defends by framing and preventing the cross collar configuration from being established
+  - Correction: Disguise your second grip within normal grip fighting exchanges. Threaten other attacks like sweeps or different submissions to occupy their defensive attention, then slip the second grip when they're focused elsewhere.
 
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="defender-summary" class="content-section">
 
-## Common Mistakes
-- **Mistake**: Gripping too shallow on the collar
-  - **Consequence**: Insufficient leverage to complete the choke; opponent easily escapes by posturing up or stripping weak grips
-  - **Correction**: Work your hands deep into the collar before attempting the finish—aim for second knuckle depth minimum. Take time during setup phase to achieve proper depth rather than rushing to the finish.
-- **Mistake**: Attacking the trachea instead of carotid arteries
-  - **Consequence**: Creates painful but ineffective air choke that won't force submission from skilled opponents; risks serious trachea injury to training partners
-  - **Correction**: Ensure your knuckles and the blade of your wrists target the sides of the neck where arteries run, not the front of the throat. Proper blood choke should cause minimal pain but rapid loss of consciousness if held.
-- **Mistake**: Telegraphing the second grip too obviously
-  - **Consequence**: Opponent easily defends by framing and preventing the cross collar configuration from being established
-  - **Correction**: Disguise your second grip within normal grip fighting exchanges. Threaten other attacks like sweeps or different submissions to occupy their defensive attention, then slip the second grip when they're focused elsewhere.
-- **Mistake**: Pulling straight back instead of scissoring
-  - **Consequence**: Weak choking pressure that opponent can defend by tucking chin or posturing; wastes energy without threatening submission
-  - **Correction**: Focus on the scissoring action—elbows go out and down while hands pull in opposite diagonal directions. The rotational torque through your forearms creates the effective choking pressure, not raw pulling strength.
-- **Mistake**: Losing positional control while focusing on grips
-  - **Consequence**: Opponent escapes position entirely, rendering the collar grips useless; reversal of position or loss of dominant position
-  - **Correction**: Maintain guard control with your legs or mount control with your hips while establishing grips. Never sacrifice positional control for grips—if necessary, abandon the choke attempt and re-establish position first.
-- **Mistake**: Holding the choke past the tap signal
-  - **Consequence**: Serious risk of causing unconsciousness or injury to training partner; creates unsafe training environment and loss of trust
-  - **Correction**: Develop conditioned response to release immediately upon any tap signal. In training, err on the side of releasing too early rather than too late. Never test how long partner can last—this is dangerous and unethical.
-- **Mistake**: Using arms only without engaging full body
-  - **Consequence**: Weak finishing pressure that fatigues your arms quickly; skilled opponent easily outlasts your strength and escapes
-  - **Correction**: Engage your entire upper body in the finish—chest drives forward, shoulders rotate, core engages to support arm action. The choke should feel effortless when your body mechanics are correct.
+## Playing as Defender
+
+[[Cross Collar Choke/Defender|→ Full Defender Guide]]
+
+### Key Principles
+
+
+- Address the threat early—strip or prevent the first collar grip before it reaches depth rather than defending the completed choke
+
+- Maintain strong upright posture to deny the angle and proximity needed for deep collar access
+
+- Fight grips with two-on-one breaks rather than passive resistance that the attacker can work through
+
+- Never let both hands establish cross collar depth simultaneously—prioritize preventing the second grip above all else
+
+- Keep chin tucked and elbows tight as secondary barriers, but never rely on these as primary defense
+
+- Recognize that defending collar grips with extended arms creates armbar vulnerability—keep elbows close to body
+
+- When the choke is locked at depth, escape the position entirely rather than attempting to pry grips from inside the choke
+
+
+### Recognition Cues
+
+
+- Opponent reaches across your neck to grip the far side of your collar with their thumb inside the lapel, working their hand deeper with small adjustments
+
+- Opponent breaks your posture aggressively while maintaining a deep collar grip, pulling your head toward their chest with combined arm and leg pressure
+
+- Opponent threads their second hand underneath your defending arm toward the opposite collar while maintaining their first grip—this is the critical moment before the choke locks in
+
+- You feel wrist blade pressure against the sides of your neck rather than direct throat pressure, indicating proper blood choke positioning
+
+- Opponent's elbows begin spreading outward while their knuckles drive inward against your neck, signaling the scissoring finish has begun
+
+
+### Escape Paths
+
+
+- Strip the weaker of the two collar grips using a two-on-one break while maintaining posture, then immediately posture up and begin guard opening sequence before opponent can re-establish the grip
+
+- If in closed guard top, stand up explosively while controlling opponent's hips to break guard open, using the distance created to strip collar grips from outside the guard
+
+- Turn perpendicular and drive into opponent's guard while stacking their hips to reduce their pulling leverage, creating space to work grips free from an angle they cannot effectively scissor from
 
 
 </section>
 
-<section id="variations-and-setups" class="content-section hide-minimal">
+
+<section id="variations" class="content-section hide-minimal">
 
 ## Variations
+
+
 **Cross Collar Choke from Mount**: From mount top position, establish cross collar grips while using your weight to control opponent's ability to bridge or escape. The mount variation often allows deeper grips because you can use your body weight to pin them while working your hands into position. Finish by driving your chest forward and down while executing the scissoring hand action. This version is particularly high percentage because opponent has limited mobility to defend. (When to use: When you've achieved mount and opponent is defensive, not actively trying to sweep or escape. Excellent finishing attack when opponent turtles their arms defensively.)
+
 
 **Cross Collar Choke from Closed Guard with High Guard**: From closed guard bottom, break opponent's posture severely and bring them into high guard position where their head is near your chest. Establish your first grip, then use your legs to climb higher up their back while threading your second grip. The high guard position makes it extremely difficult for them to posture up or create the distance needed to defend. This setup allows very deep grips and tight finishing mechanics. (When to use: When opponent is playing a low posture game in your closed guard and you've successfully broken them down. Particularly effective against opponents who refuse to engage from inside your guard.)
 
+
 **Single Collar Choke Variation**: A variation where you establish one deep cross collar grip and finish with your second arm going over their shoulder rather than under to establish a second collar grip. Your choking arm stays deep on the collar while your secondary arm creates pressure by pulling their head down and driving your shoulder into the opposite side of their neck. This creates an asymmetric choke that's harder to defend because it doesn't follow the standard pattern. (When to use: When opponent is effectively defending the second cross collar grip but you have one grip established very deep. Also useful when attacking from less traditional positions like half guard top.)
+
 
 **Standing Cross Collar Choke**: Applied when both practitioners are standing in a clinch position or when opponent pulls closed guard. Establish your cross collar grips while standing, then step back and sit down, using your body weight dropping to create massive choking pressure. The sudden weight drop combined with your grips often catches opponents by surprise and finishes the choke before they can defend properly. (When to use: During standup exchanges when opponent leaves their collar exposed, or when they attempt to pull closed guard and you catch their collar during the pulling motion. Particularly effective in gi competition when opponent is slower to establish their guard grips.)
 
 
+**Two-Handed Cross Collar from Closed Guard**: The fundamental version executed from bottom closed guard. Both hands grip opposite collars, one high near the neck and one low near the chest. Break opponent's posture by pulling them down with grips and squeezing with legs, then finish by spreading elbows horizontally while arching hips upward. This is the highest-percentage variation for beginners to learn. (When to use: When opponent is in your closed guard and you can break their posture down to your chest. Particularly effective when they're focused on passing or have their hands on the mat for base.)
 
-</section>
 
-<section id="knowledge-assessment" class="content-section">
+**Cross Collar from Mount**: From mounted position, slide one hand deep into opponent's far collar, then establish second grip on same side but different height. Drive your chest down toward their face while pulling grips in opposite directions. The mount provides excellent weight advantage for breaking posture and preventing escape. Can transition to high mount for even better angle. (When to use: From dominant mount position when opponent is defensive and not actively escaping. Excellent when they're focused on preventing other attacks like armbars, as the collar grips can be established while they defend other submissions.)
 
-## Test Your Knowledge
-**Q1**: What is the correct hand position depth needed for an effective Cross Collar Choke?
-**A**: Your hands should achieve second knuckle depth at minimum, ideally getting the entire hand past the collar seam. The thumb should be inside the collar while four fingers grip outside. Shallow grips are the most common reason for choke failure, as they provide insufficient leverage and are easily stripped by a posturing opponent. Deep grips ensure you have mechanical control even when the opponent attempts to create distance or defend.
 
-**Q2**: Why must you immediately release the choke upon receiving a tap signal in training? **[SAFETY-CRITICAL]**
-**A**: The Cross Collar Choke is a blood choke that can cause unconsciousness within seconds of proper application by restricting blood flow to the brain through carotid artery compression. Holding the choke past the tap signal risks causing your partner to lose consciousness, which can lead to injury from falling, seizure-like reactions, or potential brain damage if held extended periods. In training, partner safety is paramount, and developing the conditioned response to release immediately upon any tap signal is a critical safety practice that must be ingrained in every practitioner.
+**One-Handed Cross Collar Variation**: Uses only one hand gripping deep into opponent's collar while the other hand controls their head or shoulder. The single grip must be extremely deep (fingers reach around to opposite side of neck). Finish by pulling the single grip hand across while using your other hand or forearm to close the opposite side of the choke. More advanced technique requiring excellent grip strength. (When to use: When opponent is defending their second collar aggressively or you need your other hand for positional control. Common from side control or when transitioning between positions.)
 
-**Q3**: What is the difference between attacking the carotid arteries versus the trachea, and why does it matter? **[SAFETY-CRITICAL]**
-**A**: Attacking the carotid arteries creates a blood choke that restricts blood flow to the brain, causing rapid loss of consciousness with minimal pain when properly applied. This is the correct target for the Cross Collar Choke. Attacking the trachea creates an air choke that is painful but less effective for forcing submission from skilled opponents, and more importantly, carries significant risk of trachea damage which can be a serious injury requiring medical attention. Proper Cross Collar Choke technique targets the sides of the neck where the carotid arteries run, using your knuckles and wrist blades to create pressure, not the front of the throat.
 
-**Q4**: What is the correct finishing mechanic for the Cross Collar Choke—pulling straight back or scissoring?
-**A**: The correct finishing mechanic is a scissoring action, not pulling straight back. Your elbows should drive outward and downward while your hands pull in opposite diagonal directions—one hand pulls toward your same-side shoulder while the other pulls toward the opposite shoulder. This scissoring action combined with rotating your forearms creates the rotational torque that compresses both carotid arteries effectively. Pulling straight back is ineffective because it allows the opponent to defend by tucking their chin or posturing up, and it wastes energy without creating proper choking pressure.
+**Cross Collar from Back Control**: While holding back position with hooks in, reach around and establish cross collar grips from behind. This variation has different angles since you're behind opponent—focus on pulling one collar high and tight toward their ear while the other pulls low toward opposite shoulder. Can be combined with body triangle for maximum control. (When to use: From back control position when opponent is defending against rear naked choke by controlling your choking arm. The gi lapels provide alternative attack while maintaining dominant position.)
 
-**Q5**: Why is breaking your opponent's posture crucial before attempting to secure the second cross collar grip?
-**A**: Breaking posture is crucial because an opponent with good upright posture has several defensive advantages: they can effectively frame on your arms to prevent the second grip, they can generate distance to strip your first grip, and they maintain visual awareness of your grip fighting. By breaking their posture and pulling their head down, you compromise their base, limit their ability to use their arms defensively, and create the angles necessary to thread your second grip past their defensive frames. Attempting the choke without breaking posture first has a very low success rate and telegraphs your intention, allowing prepared defense.
 
-**Q6**: From closed guard, what should you do if your opponent successfully creates distance and postures up before you can complete the choke?
-**A**: If the opponent successfully postures up before you complete the choke, you must prioritize maintaining your grips while immediately working to break them back down using your closed guard leg squeeze combined with pulling pressure on your established collar grips. If you cannot break them down immediately, consider transitioning to a different attack such as a sweep or triangle setup to force them to change their defensive focus, then return to breaking their posture and completing the collar choke. Never sacrifice your closed guard position by overcommitting to the choke when they have strong posture—this often results in guard passes. Maintain positional control first, attacks second.
+**Loop Choke Connection**: Starts as a cross collar setup but when opponent defends by turning away from the choke, you convert to a loop choke by releasing one grip and feeding that collar across to create a loop around their neck. The turning defense actually helps tighten the modified choke. Requires understanding of grip transitions. (When to use: When opponent recognizes the cross collar attack early and turns their head away to defend. Their defensive movement actually sets up the loop choke finish, making this an excellent backup attack.)
 
-**Q7**: What are the indicators that your Cross Collar Choke is properly positioned on the carotid arteries rather than the trachea? **[SAFETY-CRITICAL]**
-**A**: A properly positioned blood choke on the carotid arteries will cause the opponent to feel lightheaded and experience visual disturbances (tunnel vision, seeing spots) within 3-5 seconds without significant pain or difficulty breathing. The opponent may not even feel significant discomfort before the choke takes effect. In contrast, a trachea-focused air choke causes immediate choking sensation, coughing, and panic while the opponent remains fully conscious and able to continue defending. If your partner can speak clearly or is experiencing primarily throat pain rather than lightheadedness, your hand position needs adjustment toward the sides of the neck.
 
-**Q8**: Your opponent begins tucking their chin firmly while you have your first collar grip established—what grip adjustment maximizes your finishing potential?
-**A**: When the opponent tucks their chin, use your established first grip to create rotational pressure that turns their head slightly to one side, breaking the straight chin tuck defense. Simultaneously, work your second grip deeper by threading underneath their chin rather than trying to go over it. The key adjustment is understanding that the chin tuck only blocks direct frontal access—by creating angles and attacking the collar from underneath or from an angle, you can still achieve sufficient depth for the choke. Your first grip should actively pull their head toward one of your shoulders while your second hand enters from the opposite angle.
-
-**Q9**: What is the point of no escape in the Cross Collar Choke, and how do you recognize when you've achieved it?
-**A**: The point of no escape occurs when both grips are established at second knuckle depth or deeper, your knuckles are positioned against both carotid arteries, and you've begun the scissoring finishing action. At this point, even if the opponent creates space or begins to posture, the compression on the arteries is sufficient to cause unconsciousness before they can effectively defend. You recognize this point by feeling your knuckles seated firmly against the sides of their neck with the collar fabric tight, your elbows have begun driving outward, and you feel the structural lock of the cross grip configuration. The opponent's defensive options become limited to tapping or going unconscious once this position is achieved.
-
-**Q10**: How should you adjust your grip angle when finishing the Cross Collar Choke from mount versus from closed guard bottom?
-**A**: From mount, gravity works in your favor, so you can finish by driving your chest forward and down while scissoring the grips—your body weight adds to the choking pressure. Your elbows drive toward the mat as you compress downward. From closed guard bottom, you must create the pressure by pulling the opponent into you while simultaneously driving your elbows toward your own hips and using your legs to prevent them from creating distance. The guard version requires more active pulling with your arms and engagement of your legs to maintain the broken posture, while the mount version allows you to use your body weight more passively for the finishing pressure.
-
-**Q11**: What control must be maintained before initiating the finishing squeeze to ensure the choke succeeds?
-**A**: Before initiating the finishing squeeze, you must have: both grips at minimum second knuckle depth with knuckles positioned against the carotid arteries; your opponent's posture broken so their head is lower than their hips; their defensive frames neutralized or bypassed; and your positional control secure (closed guard locked or mount hips heavy). Attempting the finish without these control elements results in the opponent creating space, stripping grips, or escaping position entirely. The control phase is more important than the finish—a properly controlled opponent with deep grips will tap quickly, while poor control leads to failed attempts regardless of grip depth.
-
-**Q12**: In competition, what strategy maximizes your finishing percentage when your opponent is actively defending the Cross Collar Choke?
-**A**: In competition, use the Cross Collar Choke as part of a submission chain rather than a standalone attack. When they defend the second grip by framing, immediately threaten an armbar on the extended arm. When they defend by tucking elbows tight, transition to mount or threaten an Ezekiel choke. The competition strategy involves establishing your first grip deep and using the threat of the choke to force defensive reactions that open other attacks. Return to the collar choke when their defensive attention shifts elsewhere. This chain-based approach has significantly higher finishing rates than repeatedly attempting the same attack against prepared defense.
+**Baseball Bat Choke Connection**: From top positions (side control, knee on belly, north-south), establish one grip deep in the collar then stack your second hand on the same collar like holding a baseball bat. Drive forward over opponent's head while pulling the collar grips in opposite directions. Creates tremendous pressure and is difficult to defend due to the stacking angle. (When to use: From top control positions when passing guard or controlling from side control. Particularly effective when opponent is turtled or on their side, as you can drive over their head to create the stacking pressure needed.)
 
 
 
 </section>
+
 
 <section id="from-positions" class="content-section">
 
@@ -369,7 +270,6 @@ The Cross Collar Choke represents one of the most fundamental and effective gi s
 - [[Kimura]]
 - [[Omoplata]]
 - [[Guillotine Choke]]
-- [[Cross Collar Variations]]
 - [[Arm Triangle]]
 
 
@@ -392,7 +292,6 @@ The Cross Collar Choke represents one of the most fundamental and effective gi s
 
 
 </section>
-
 
 <section id="terminal-state" class="content-section">
 

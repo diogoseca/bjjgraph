@@ -1,0 +1,401 @@
+{
+  "name": "Half Guard to Double Jump",
+  "description": "Master the Transition to Double Jump from Half Guard Top. Establish bilateral leg hooks for back control entries using explosive timing and systematic weight transfer.",
+  "tags": [
+    "bjj",
+    "transition",
+    "half-guard-top",
+    "double-jump",
+    "turtle-attack",
+    "back-control-entry",
+    "leg-hooks",
+    "advanced",
+    "positional-advancement"
+  ],
+  "from_position": "Half Guard/Top",
+  "outcomes": [
+    {
+      "to": "Double Jump/Top",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Half Guard/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Butterfly Guard/Bottom",
+      "probability": 20,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 50,
+  "conditions": [
+    "Opponent begins turtling from half guard bottom rather than fighting for underhook or guard recovery",
+    "Top player has freed or is freeing the trapped leg from half guard entanglement",
+    "Opponent's hips are accessible for bilateral hook insertion without strong frames blocking",
+    "Top player maintains upper body control through crossface, overhook, or head control during transition",
+    "Timing window exists where opponent is between half guard bottom and full turtle defensive posture"
+  ],
+  "overview": "The Transition to Double Jump is an advanced positional advancement from Half Guard Top that capitalizes on the opponent's turtling reaction to establish bilateral leg hooks for immediate back control entries. When the bottom player in half guard abandons guard retention and begins to turtle, either from failed sweep attempts or in response to passing pressure, a critical timing window opens for the top player to insert both legs as hooks inside the opponent's thighs rather than simply consolidating side control or continuing the pass.\n\nThis transition represents a paradigm shift in half guard passing strategy. Rather than viewing the opponent's turtle as merely a pass completion, the skilled practitioner recognizes it as an opportunity to bypass traditional turtle attack sequences entirely. By jumping both hooks simultaneously during the transitional moment between half guard and turtle, the top player establishes Double Jump control, which provides superior hip manipulation and creates immediate dilemmas between back exposure and sweep vulnerability.\n\nThe technique demands precise timing and committed execution. The transition window is brief, typically lasting only one to two seconds as the opponent rotates from half guard bottom toward turtle. Hesitation or partial commitment results in the opponent completing their turtle defense with hips protected, forcing the top player into conventional and less efficient turtle attack sequences. Successful execution requires reading the opponent's rotational intent early and matching their movement with explosive hook insertion while maintaining upper body connection throughout.",
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Progressive Hook Entry",
+      "description": "Insert one hook first while maintaining crossface control, then add the second hook once the first is secured and opponent's base is compromised. Lower risk approach that sacrifices speed for control.",
+      "when_to_use": "Against opponents with strong turtle defense who are likely to counter explosive entries, or when you have dominant upper body control and can afford the extra time."
+    },
+    {
+      "variant_name": "Explosive Simultaneous Entry",
+      "description": "Jump both hooks in simultaneously during the moment the opponent transitions from half guard to turtle. Requires precise timing but creates maximum destabilization by eliminating the opponent's base instantly.",
+      "when_to_use": "When the opponent is actively rotating to turtle and their hips are momentarily exposed during the transition. Best used when you have momentum and the element of surprise."
+    },
+    {
+      "variant_name": "Backstep to Double Jump",
+      "description": "From half guard top, perform a backstep motion to clear the trapped leg, then immediately redirect into bilateral hook insertion as the opponent reacts by turning away. Combines passing mechanics with turtle attack entry.",
+      "when_to_use": "When the opponent has a strong knee shield or lockdown that prevents direct forward progression, and they predictably turn away when you backstep around their guard."
+    }
+  ],
+  "position_integration": "The Transition to Double Jump occupies a critical junction in the half guard passing system where it intersects with turtle attack methodology. Rather than treating half guard passing and turtle attacks as separate phases, this transition bridges them into a continuous offensive chain. It connects the half guard top control ecosystem to the back control attack tree through the Double Jump intermediate position, which itself feeds into crab ride, truck, and traditional back control entries. Practitioners who develop this transition gain a significant tactical advantage by converting what opponents consider a safe defensive transition into an immediate attacking opportunity.",
+  "related_content": [
+    {
+      "name": "Half Guard",
+      "relationship": "Starting position - transition initiates from half guard top control"
+    },
+    {
+      "name": "Double Jump",
+      "relationship": "Target position - bilateral leg hook control achieved on success"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Opponent's intended destination that this transition intercepts"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Ultimate target - Double Jump serves as gateway to back control"
+    },
+    {
+      "name": "Crab Ride",
+      "relationship": "Alternative control position using similar leg hook mechanics from Double Jump"
+    },
+    {
+      "name": "Truck",
+      "relationship": "Advanced leg entanglement accessible from successful Double Jump establishment"
+    },
+    {
+      "name": "Back Step Pass",
+      "relationship": "Related passing technique that can flow into Double Jump entry"
+    },
+    {
+      "name": "Knee Slice Pass",
+      "relationship": "Alternative passing option when Double Jump entry is not available"
+    },
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Counter position opponent may achieve if Double Jump entry fails"
+    },
+    {
+      "name": "Crossface Pass",
+      "relationship": "Complementary technique providing upper body control needed for transition"
+    }
+  ],
+  "attacker": {
+    "name": "Half Guard to Double Jump Attacker",
+    "description": "How to execute the Transition to Double Jump from Half Guard Top. Step-by-step guide covering timing, hook insertion, and upper body control for bilateral leg hook establishment.",
+    "overview": "As the attacker executing the Transition to Double Jump, your objective is to convert the opponent's turtling reaction from half guard bottom into an immediate attacking position with bilateral leg hooks. This requires reading the opponent's rotational intent early, maintaining upper body connection throughout the transition, and inserting both hooks with committed explosive timing. The key insight is that the opponent's defensive rotation toward turtle creates a brief window where their hips are exposed and their base is compromised, making this the optimal moment to establish Double Jump control rather than allowing them to complete their turtle defense.\n\nSuccess depends on maintaining constant pressure throughout the transition phase. Many practitioners make the mistake of releasing pressure when the opponent begins to turtle, creating distance that allows defensive consolidation. Instead, you must follow their rotation with your chest glued to their back, using the momentum of their movement to facilitate your hook insertion. The upper body connection through crossface, overhook, or seatbelt grip provides the anchor that allows your legs to work independently for hook establishment.",
+    "key_principles": [
+      "Read the opponent's rotational intent toward turtle early and begin hook preparation before they complete the defensive transition",
+      "Maintain chest-to-back connection throughout the entire transition to prevent opponent from creating space or changing direction",
+      "Insert hooks with full commitment during the brief exposure window when opponent's hips are accessible between half guard and turtle",
+      "Prioritize upper body control establishment before or simultaneously with hook insertion to prevent opponent from sitting to guard",
+      "Use the opponent's own rotational momentum to facilitate your hook insertion rather than fighting against their movement direction",
+      "Treat the transition as a single continuous movement rather than a sequence of separate steps to maintain offensive initiative"
+    ],
+    "setup_requirements": [
+      "Established crossface, overhook, or head control from half guard top providing reliable upper body anchor throughout transition",
+      "Recognition that opponent is initiating rotation toward turtle position, indicated by turning away, posting on far hand, or pulling knees underneath",
+      "Trapped leg freed or nearly freed from half guard entanglement so both legs are available for hook insertion",
+      "Weight distributed forward on opponent's upper body to prevent them from sitting back into guard during transition",
+      "Sufficient hip mobility and leg dexterity to insert bilateral hooks in the compressed space between opponent's thighs and the mat"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Recognize the turtling trigger",
+        "description": "Identify when the opponent begins rotating toward turtle from half guard bottom. Key indicators include the opponent turning their shoulders away from you, posting their far hand on the mat, pulling their knees underneath their hips, or releasing their half guard hook. This recognition must happen early to capitalize on the transition window."
+      },
+      {
+        "step_number": 2,
+        "action": "Secure upper body control for the transition",
+        "description": "Before committing to hook insertion, confirm your upper body anchor is solid. If you have a crossface, drive your shoulder into their neck and jaw. If using an overhook, tighten the grip and pull their arm toward you. Begin transitioning to a seatbelt or harness grip if you can, as this will be the optimal control configuration for Double Jump."
+      },
+      {
+        "step_number": 3,
+        "action": "Free the trapped leg from half guard entanglement",
+        "description": "As the opponent rotates, their half guard hook naturally loosens. Assist this by driving your knee through their legs or performing a small hip switch to extract your leg. Do not pause after freeing the leg; the extraction and hook insertion should flow as one continuous movement to prevent the opponent from completing their turtle defense."
+      },
+      {
+        "step_number": 4,
+        "action": "Follow the rotation with chest-to-back pressure",
+        "description": "Match the opponent's rotational speed with your own movement, keeping your chest glued to their upper back throughout. Your weight should transition from pressing down on their torso to pressing forward into their back as they rotate. This constant pressure prevents them from creating space, changing direction, or settling into a strong turtle base."
+      },
+      {
+        "step_number": 5,
+        "action": "Insert bilateral leg hooks inside opponent's thighs",
+        "description": "With your chest driving into their back and upper body control secured, simultaneously shoot both legs to hook inside the opponent's thighs. Your feet should curl behind their legs with your knees driving toward their far hip. The insertion must be explosive and committed. Hook depth should reach at least mid-thigh to prevent easy extraction."
+      },
+      {
+        "step_number": 6,
+        "action": "Consolidate Double Jump control position",
+        "description": "Immediately after hook insertion, activate your hooks by pulling the opponent's hips toward you while maintaining chest pressure. Adjust your seatbelt or harness grip for optimal back-take positioning. Begin creating the offensive dilemma by threatening back control entry, forcing the opponent to choose between defending their back or addressing the hooks, which opens the other attack."
+      },
+      {
+        "step_number": 7,
+        "action": "Initiate attack chain from established Double Jump",
+        "description": "Do not hold Double Jump as a static position. Within five to ten seconds, commit to your primary attack: transition to full back control by walking hooks to traditional position, enter crab ride if opponent defends back exposure, or flow to truck if they attempt to roll away. The position is a launching pad, not a destination."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent immediately sits to butterfly guard instead of completing turtle",
+        "effectiveness": "High",
+        "your_response": "If you feel the opponent sitting back rather than continuing the turtle rotation, abandon the hook insertion and redirect to passing the newly created butterfly guard using over-under or body lock passing mechanics. Alternatively, if one hook is already in, use it to establish crab ride control.",
+        "targets_outcome": "Butterfly Guard/Bottom"
+      },
+      {
+        "counter": "Opponent sprawls legs back and flattens to belly-down position to prevent hook insertion",
+        "effectiveness": "Medium",
+        "your_response": "When the opponent sprawls, their back is fully exposed. Transition to traditional back control by sliding your chest over their back and establishing seatbelt grip, then work hooks in one at a time from a more dominant position. The sprawl actually helps your back-take by eliminating their base.",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Opponent posts strong arm and drives back into you, reversing direction to re-establish half guard or closed guard",
+        "effectiveness": "High",
+        "your_response": "Maintain your crossface pressure and use your free hand to block their posting arm. If they successfully drive back, accept the return to half guard top and reset your passing sequence. Do not chase the Double Jump against an opponent who has reversed their momentum.",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Opponent performs a Granby roll during transition to escape underneath and recover guard",
+        "effectiveness": "Medium",
+        "your_response": "If you recognize the Granby attempt early, disengage your hooks and redirect to a front headlock or sprawl to maintain top position. If the roll is already in motion, follow their movement and look to re-engage from the new angle rather than fighting against the rotational momentum.",
+        "targets_outcome": "Butterfly Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing chest-to-back pressure during the transition, creating space between you and the opponent",
+        "consequence": "Opponent completes full turtle defense with protected hips, making hook insertion significantly more difficult and allowing them to begin their own turtle escape sequences",
+        "correction": "Treat your chest as glued to the opponent's back throughout the entire transition. Follow their rotation with continuous forward pressure, never allowing daylight between your chest and their upper back"
+      },
+      {
+        "error": "Attempting hook insertion before freeing the trapped leg from half guard",
+        "consequence": "One leg remains entangled in half guard while the other attempts to hook, creating an unstable split position that the opponent easily exploits to recover guard or sweep",
+        "correction": "Ensure the trapped leg is freed or nearly freed before committing to bilateral hook insertion. The leg extraction and hook insertion should be a continuous flow, not separated phases"
+      },
+      {
+        "error": "Inserting hooks with insufficient depth, placing feet near opponent's knees rather than mid-thigh",
+        "consequence": "Shallow hooks are easily stripped by the opponent through knee extension or hip movement, immediately collapsing the position before any attack can be initiated",
+        "correction": "Drive hooks deep inside the opponent's thighs, aiming for mid-thigh depth with feet curling behind their legs. Deeper hooks provide mechanical advantage and resist extraction attempts"
+      },
+      {
+        "error": "Neglecting upper body control while focusing exclusively on hook insertion",
+        "consequence": "Opponent sits through to butterfly guard, turns into you to recover closed guard, or creates a scramble where your hooks have no anchor point",
+        "correction": "Upper body control must be maintained or established simultaneously with hook insertion. The seatbelt, crossface, or overhook provides the anchor that makes your hooks effective"
+      },
+      {
+        "error": "Hesitating during the transition window, attempting to assess whether the entry is available rather than committing",
+        "consequence": "The one-to-two-second window closes as the opponent completes their turtle defense. The opportunity is lost and you must resort to less efficient conventional turtle attacks",
+        "correction": "Train the recognition-to-action pathway until it becomes automatic. When you see the turtling trigger, commit immediately. The transition window does not reward deliberation"
+      },
+      {
+        "error": "Holding Double Jump as a static position instead of immediately initiating attack chains",
+        "consequence": "Opponent gradually extracts hooks, recovers defensive composure, or referee intervenes for stalling. The positional advantage decays rapidly with time",
+        "correction": "Treat Double Jump as a five-to-ten-second launching pad. Immediately commit to back control entry, crab ride transition, or truck entry upon establishing hooks"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Drilling",
+        "focus": "Identifying the turtling trigger from half guard top",
+        "description": "Partner cycles through half guard bottom reactions: fighting for underhook, attempting sweeps, and turtling. Top player calls out the turtle trigger each time without executing the transition. Develops pattern recognition for the specific body movements that signal the transition window is opening."
+      },
+      {
+        "phase": "Phase 2: Isolated Hook Insertion",
+        "focus": "Bilateral hook placement mechanics without resistance",
+        "description": "Partner holds static turtle position while you practice inserting both hooks from various angles and with progressive and simultaneous insertion methods. Focus on hook depth, foot placement, and maintaining chest-to-back pressure during insertion. Repeat until the motion is smooth and automatic."
+      },
+      {
+        "phase": "Phase 3: Full Transition Flow",
+        "focus": "Connecting half guard top to Double Jump with light resistance",
+        "description": "Partner starts in half guard bottom and turtles on command. Top player practices the complete sequence from recognition through hook insertion to initial attack. Partner provides 30-50% resistance, gradually increasing. Focus on the continuous flow without pauses between phases."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Applying the transition under realistic conditions",
+        "description": "Start from half guard top with full resistance. Bottom player has the option to turtle, fight for guard, or attempt sweeps. Top player must recognize genuine opportunities and execute the transition against active defense. Track success rate over multiple rounds to measure development."
+      },
+      {
+        "phase": "Phase 5: Chain Integration",
+        "focus": "Connecting Double Jump to back control, crab ride, and truck attack chains",
+        "description": "Begin from half guard top and execute the full sequence through Double Jump establishment into subsequent attacks. Practice the decision tree: back control entry when opponent defends hooks poorly, crab ride when they sit back, truck when they roll away. Develops automatic response patterns from established Double Jump."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for initiating the Transition to Double Jump?",
+        "answer": "The optimal window is the one-to-two-second period when the opponent begins rotating from half guard bottom toward turtle position. Key indicators include the opponent turning shoulders away, posting the far hand on the mat, pulling knees underneath their hips, or releasing the half guard hook. This window closes once the opponent completes their turtle defense with hips protected."
+      },
+      {
+        "question": "Why must upper body control be maintained throughout the entire transition?",
+        "answer": "Upper body control through crossface, overhook, or seatbelt grip provides the anchor that keeps you connected to the opponent during their rotation. Without it, the opponent can sit back to butterfly guard, change direction to recover closed guard, or create space that prevents hook insertion. The upper body connection also prevents the opponent from Granby rolling to escape."
+      },
+      {
+        "question": "Your opponent starts turtling from half guard bottom but your leg is still trapped. What do you do?",
+        "answer": "As the opponent rotates toward turtle, their half guard hook naturally loosens. Assist the extraction by driving your knee through their legs or performing a small hip switch. The leg extraction must flow directly into hook insertion as one continuous movement rather than two separate steps. If the leg cannot be freed quickly enough, maintain top pressure and pursue conventional turtle attacks instead."
+      },
+      {
+        "question": "What distinguishes the progressive hook entry from the explosive simultaneous entry?",
+        "answer": "The progressive entry inserts one hook first while maintaining crossface control, then adds the second hook once the first is secure. It sacrifices speed for control and is better against opponents with strong turtle defense. The explosive simultaneous entry jumps both hooks in at once during the transition window, creating maximum destabilization but requiring more precise timing. The choice depends on the opponent's defensive awareness and base strength."
+      },
+      {
+        "question": "How deep should the hooks be inserted, and why does depth matter?",
+        "answer": "Hooks should reach at least mid-thigh depth with feet curling behind the opponent's legs and knees driving toward their far hip. Shallow hooks placed near the knees are easily stripped through knee extension or hip movement, immediately collapsing the position. Deep hooks provide superior mechanical advantage for hip control and resist extraction, giving you the time needed to initiate attack chains."
+      },
+      {
+        "question": "Your opponent sits back toward butterfly guard as you attempt to insert hooks. How do you adjust?",
+        "answer": "If the opponent sits back rather than completing the turtle, abandon the bilateral hook insertion and redirect to passing the newly created butterfly guard using over-under or body lock mechanics. If one hook is already established, use it as an anchor for crab ride control. Do not force the second hook against an opponent who has reversed their direction, as this creates an unstable position they can exploit."
+      },
+      {
+        "question": "Why is Double Jump described as a launching pad rather than a destination position?",
+        "answer": "Double Jump requires active work to maintain and the opponent's defensive composure recovers rapidly with time. Holding the position statically allows hook extraction, defensive repositioning, or stalling calls. The position should be used within five to ten seconds to initiate back control entry, crab ride transition, or truck entry. The high energy expenditure is justified only when it leads to immediate positional advancement."
+      },
+      {
+        "question": "What are the three primary attack chains available after establishing Double Jump from this transition?",
+        "answer": "The three primary chains are: back control entry by walking hooks from inside thigh position to traditional over-under hook placement with seatbelt grip; crab ride transition when the opponent sits back or turns into you, using leg hook mechanics to maintain hip control from the side; and truck entry when the opponent rolls away, following their rotation to establish the leg entanglement for twister or calf slicer attacks."
+      }
+    ],
+    "safety_considerations": "The Transition to Double Jump involves explosive movement during a dynamic positional change and carries risk of knee strain for both practitioners. The top player should avoid forcing hooks against locked-out legs to prevent MCL or LCL stress on the opponent. During training, partners should communicate clearly about hook depth and pressure levels. Avoid explosive entries at full speed until both partners are comfortable with the movement pattern. The transition should be drilled progressively from zero resistance to full speed over multiple sessions."
+  },
+  "defender": {
+    "name": "Half Guard to Double Jump Defender",
+    "description": "How to defend against the Transition to Double Jump from Half Guard Bottom. Recognition cues, prevention strategies, and counter-techniques to avoid bilateral hook establishment.",
+    "overview": "Defending the Transition to Double Jump requires understanding that the danger begins the moment you initiate a turtle recovery from half guard bottom. The top player is looking for the rotational transition window to insert bilateral leg hooks, so your defense must either prevent the window from opening or close it before hooks can be established. The most effective defense is prevention: maintaining strong half guard retention or executing a controlled turtle transition that protects your hips from hook insertion.\n\nWhen caught mid-transition, the defender must act immediately. Once both hooks are fully established with depth, escape becomes significantly more difficult and you face the cascading threats of back control, crab ride, and truck entries. Early recognition of the attack and immediate defensive response during the hook insertion phase offers the highest probability of successful defense. The key defensive principle is controlling the space between your thighs and the mat to deny hook entry points.",
+    "key_principles": [
+      "Prevent the transition window by either maintaining half guard bottom position or executing turtle transition with protected hips and strong defensive posture",
+      "Recognize the attack early through tactile and positional cues before hooks achieve full depth and mechanical advantage",
+      "Control the space between your thighs and the mat by keeping knees tight together and hips low to deny hook entry points",
+      "Address hooks immediately upon feeling insertion rather than waiting for full establishment, as early extraction is significantly easier",
+      "Maintain strong base through wide hand posting and hip engagement to resist the destabilizing effect of bilateral hooks",
+      "When hooks are established, prioritize sitting to butterfly guard over staying in turtle, as butterfly guard offers better defensive structure"
+    ],
+    "recognition_cues": [
+      "Top player's chest pressure intensifies and follows your rotation closely rather than separating to consolidate side control as you begin turtling",
+      "You feel the top player's legs moving independently from their upper body, with knees or feet probing the space between your thighs",
+      "Top player transitions grip from crossface or underhook to seatbelt or harness configuration while you are rotating toward turtle",
+      "The trapped leg in half guard is freed unusually quickly or the top player performs a hip switch during your rotation, freeing both their legs",
+      "Top player's weight shifts from pressing down on your torso to driving forward into your upper back, indicating they are following your turtle transition"
+    ],
+    "defensive_options": [
+      {
+        "action": "Immediately sit back to butterfly guard by driving hips backward into the top player and establishing butterfly hooks before their legs can penetrate",
+        "when_to_use": "As soon as you feel the top player's legs probing inside your thighs during the turtle transition, before hooks achieve depth",
+        "targets_outcome": "Butterfly Guard/Bottom",
+        "if_successful": "You establish butterfly guard with sweep and submission opportunities, completely negating the Double Jump threat",
+        "risk": "If timed late, opponent may have one hook in and can transition to crab ride as you sit back"
+      },
+      {
+        "action": "Squeeze knees tightly together and drive hips to the mat to eliminate the space needed for hook insertion while maintaining strong turtle base",
+        "when_to_use": "When you are committed to turtling and feel the Double Jump attempt beginning but hooks have not yet achieved depth",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "Hooks are denied or extracted, opponent must reset to conventional turtle attacks, giving you time to recover guard or complete turtle defense",
+        "risk": "If opponent has strong upper body control, squeezing knees may not be sufficient against explosive insertion"
+      },
+      {
+        "action": "Perform a Granby roll underneath the top player during the transition to escape the hook insertion and recover guard",
+        "when_to_use": "When you have sufficient space and the top player is committed forward during their hook insertion attempt, creating momentum you can redirect",
+        "targets_outcome": "Butterfly Guard/Bottom",
+        "if_successful": "You rotate underneath and through, recovering to open guard or closed guard with the opponent forced to reset their attack",
+        "risk": "If the Granby roll is read, the top player can follow and establish even deeper control or take the back directly"
+      },
+      {
+        "action": "Post strong arm on the mat and drive backward into the top player, reversing direction to re-establish half guard bottom position",
+        "when_to_use": "Early in the transition before you have fully committed to turtle, when the top player begins following your rotation with hook intent",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "You recover half guard bottom with your opponent forced to restart their passing sequence from the beginning",
+        "risk": "Driving backward may expose your back if the opponent has already established partial hooks or strong seatbelt grip"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Butterfly Guard/Bottom",
+        "how": "Sit back immediately when you recognize the Double Jump attempt, driving your hips backward into the top player and establishing butterfly hooks before their legs can penetrate inside your thighs. This is the most reliable defense because it removes the positional context entirely."
+      },
+      {
+        "outcome": "Half Guard/Top",
+        "how": "Prevent the transition by maintaining strong half guard bottom position instead of turtling, or reverse direction early in the transition by posting an arm and driving backward to re-establish the half guard entanglement before hooks can be inserted."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Completing the turtle transition without protecting hips when you feel the top player following your rotation aggressively",
+        "consequence": "Opponent establishes full Double Jump control with deep bilateral hooks, creating immediate back control, crab ride, and truck threats that are very difficult to escape",
+        "correction": "When you feel the top player following your turtle rotation with unusual intensity or feel their legs probing, immediately address the threat by sitting to butterfly guard or squeezing knees together rather than completing the turtle"
+      },
+      {
+        "error": "Attempting to strip hooks one at a time after both are fully established with depth",
+        "consequence": "While you address one hook, the opponent uses the other to maintain control and re-inserts the stripped hook or advances to a more dominant position like back control",
+        "correction": "Address both hooks simultaneously by sitting to butterfly guard, which mechanically removes both hooks through hip repositioning, or drive hips to the mat to compress the space and deny hook leverage"
+      },
+      {
+        "error": "Staying in turtle and trying to weather the attack rather than taking immediate defensive action",
+        "consequence": "Double Jump is a transitional forcing position designed to create cascading threats. Passivity allows the attacker to initiate their back-take, crab ride, or truck attack chain without opposition",
+        "correction": "Take immediate defensive action upon recognizing the Double Jump. The position rewards passivity with submission exposure. Sitting to guard, rolling, or reversing direction are all preferable to static turtle defense"
+      },
+      {
+        "error": "Flattening to belly-down position to prevent hooks from controlling your hips",
+        "consequence": "Belly-down eliminates your base entirely and makes traditional back-take even easier, as the opponent can simply slide over your flattened body into full back control",
+        "correction": "Maintain strong turtle base with knees under hips and hands posted wide. If you need to deny hook space, drive hips to mat briefly while maintaining the ability to sit back to guard"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that a Transition to Double Jump is being attempted?",
+        "answer": "The earliest cue is the top player's chest pressure intensifying and closely following your rotation toward turtle rather than separating to consolidate side control. Additionally, feeling the trapped leg freed unusually quickly or a hip switch during your rotation signals that the top player is freeing both legs for hook insertion rather than continuing a conventional pass."
+      },
+      {
+        "question": "Why is sitting to butterfly guard considered the most reliable defense against the Double Jump attempt?",
+        "answer": "Sitting to butterfly guard removes the positional context entirely by changing the orientation from turtle to seated guard. This mechanically prevents bilateral hook insertion because your hips are no longer in the turtle position that exposes the thigh space needed for hooks. It also establishes your own offensive hooks that create sweep threats, forcing the opponent to address your attacks instead."
+      },
+      {
+        "question": "Your opponent has established one hook inside your thigh during the transition. What is your defensive priority?",
+        "answer": "Your immediate priority is preventing the second hook from being inserted, as a single hook is manageable but bilateral hooks create the full Double Jump dilemma. Address the single hook by sitting to butterfly guard, which mechanically displaces the hook through hip repositioning, or squeeze your knees together forcefully to deny space for the second hook. Do not try to strip the established hook while leaving space for the second one."
+      },
+      {
+        "question": "How can you prevent the Transition to Double Jump before it begins?",
+        "answer": "The most effective prevention is maintaining half guard bottom position rather than turtling when under passing pressure. If you must turtle, execute the transition with knees squeezed together and hips low, protecting the thigh space needed for hook insertion. Alternatively, transition directly to seated butterfly guard instead of turtle when abandoning half guard, bypassing the vulnerable transition phase entirely."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Training",
+        "focus": "Identifying Double Jump attempts during turtle transitions",
+        "description": "Partner alternates between conventional turtle attacks and Double Jump attempts from half guard top. Defender must call out which attack is being attempted based on tactile and positional cues. Develops the pattern recognition needed for early defensive response."
+      },
+      {
+        "phase": "Phase 2: Prevention Drilling",
+        "focus": "Executing protected turtle transitions that deny hook entry",
+        "description": "Practice transitioning from half guard bottom to turtle with knees squeezed, hips low, and strong arm posts while partner attempts Double Jump entry at 50% resistance. Focus on denying the thigh space needed for hook insertion through proper body positioning during the rotation."
+      },
+      {
+        "phase": "Phase 3: Escape Mechanics",
+        "focus": "Sitting to butterfly guard and Granby roll escapes from partial hook establishment",
+        "description": "Partner establishes one hook and attempts the second. Defender practices immediate sit-to-butterfly-guard and Granby roll escapes against progressive resistance. Track success rate of each escape method to identify which works best for your body type and flexibility."
+      },
+      {
+        "phase": "Phase 4: Live Defensive Sparring",
+        "focus": "Applying defenses under realistic rolling conditions",
+        "description": "Positional sparring starting from half guard bottom with the explicit agreement that the top player will attempt Double Jump when opportunities arise. Defender must recognize and address the threat while simultaneously managing the broader half guard passing battle. Full resistance rounds with scoring for successful prevention or escape."
+      }
+    ]
+  }
+}

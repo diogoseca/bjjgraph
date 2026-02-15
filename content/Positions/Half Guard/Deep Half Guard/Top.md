@@ -21,13 +21,13 @@ description: "Master Deep Half Guard Top with defensive counters, pressure maint
     {
       "@type": "HowToStep",
       "name": "Execute Crossface Pass",
-      "text": "From this position, attempt Crossface Pass. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Crossface Pass. This technique is attempted in 26% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,19 +39,19 @@ description: "Master Deep Half Guard Top with defensive counters, pressure maint
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard Pass",
-      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Pass",
-      "text": "From this position, attempt Underhook Pass. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Half Guard",
-      "text": "From this position, attempt Kimura from Half Guard. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Kimura from Half Guard. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,17 +208,23 @@ Success from top position requires understanding the sweep mechanics your oppone
 
 ## Available Attacks
 
-### [[Crossface Pass]] (18% of attempts)
+### [[Crossface Pass]] (26% of attempts)
 
-### [[Knee Slice Pass]] (17% of attempts)
+### [[Knee Slice Pass]] (10% of attempts)
 
 ### [[Smash Pass]] (16% of attempts)
 
-### [[Half Guard Pass]] (19% of attempts)
+### [[Half Guard Pass]] (13% of attempts)
 
-### [[Underhook Pass]] (17% of attempts)
+### [[Underhook Pass]] (10% of attempts)
 
-### [[Kimura from Half Guard]] (13% of attempts)
+### [[Kimura from Half Guard]] (9% of attempts)
+
+### [[Back Step Pass]] (10% of attempts)
+
+### [[Backstep from Deep Half]] (4% of attempts)
+
+### [[Whizzer from Deep Half]] (2% of attempts)
 
 
 

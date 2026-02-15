@@ -4,7 +4,7 @@
 
 ---
 title: "Kesa Gatame Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master Kesa Gatame Bottom position in BJJ. Complete escape guide covering defensive frames, hip escapes, and guard recovery. Essential defensive position with 40% escape rate."
+description: "Master Kesa Gatame Bottom escapes in BJJ. Complete guide covering defensive frames, bridge-and-turn mechanics, and guard recovery from scarf hold."
 ---
 
 
@@ -21,31 +21,31 @@ description: "Master Kesa Gatame Bottom position in BJJ. Complete escape guide c
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Elbow Escape",
-      "text": "From this position, attempt Elbow Escape. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Elbow Escape to Guard",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape",
-      "text": "From this position, attempt Hip Escape. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Hip Escape to Guard",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take Generic",
-      "text": "From this position, attempt Back Take Generic. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Back Take from Bottom",
+      "text": "From this position, attempt Back Take from Bottom. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Turtle Transition",
-      "text": "From this position, attempt Turtle Transition. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Bridge and Turn to Turtle",
+      "text": "From this position, attempt Bridge and Turn to Turtle. This technique is attempted in 17% of exchanges from this position.",
       "position": 5
     },
     {
@@ -115,7 +115,7 @@ description: "Master Kesa Gatame Bottom position in BJJ. Complete escape guide c
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Kesa Gatame Bottom",
-  "description": "Master Kesa Gatame Bottom position in BJJ. Complete escape guide covering defensive frames, hip escapes, and guard recovery. Essential defensive position with 40% escape rate.",
+  "description": "Master Kesa Gatame Bottom escapes in BJJ. Complete guide covering defensive frames, bridge-and-turn mechanics, and guard recovery from scarf hold.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -160,6 +160,8 @@ description: "Master Kesa Gatame Bottom position in BJJ. Complete escape guide c
 Kesa Gatame Bottom represents one of the most challenging defensive positions in Brazilian Jiu-Jitsu, where the bottom practitioner faces intense chest-to-chest pressure from an opponent controlling from the scarf hold position. This classical judo pin has been adapted for BJJ competition and presents unique escape challenges due to the opponent's ability to control both the head and near-side arm while applying crushing chest pressure. The position requires specific escape mechanics that differ significantly from standard side control escapes, as the top player's weight distribution and control points create a distinct defensive problem. Understanding the fundamental escape pathways from Kesa Gatame Bottom is essential for any practitioner, as this position appears frequently in both gi and no-gi competition, particularly against opponents with judo backgrounds or those who favor old-school control positions.
 
 The defensive challenge of Kesa Gatame Bottom centers on the opponent's ability to control your head and arm while sitting their hips back, making standard shrimping escapes ineffective. The top player's chest pressure restricts breathing and movement, while their cross-face and arm control prevent easy frame creation. Successful escape requires understanding the specific vulnerabilities in the top player's position: their exposed back, the potential to create space by attacking their far arm, and the opportunity to exploit their posted leg for sweeping mechanics. The position demands patience, systematic defensive progression, and the ability to recognize windows of opportunity when the top player adjusts their weight or attempts submissions.
+
+From a strategic perspective, the bottom player in Kesa Gatame must internalize that this is not a position to endure passively. Every second spent flat on the back under Kesa Gatame compounds the problem as the top player settles their weight and the bottom player's energy depletes. The escape mentality must be immediate and proactive, with the bottom player cycling through escape attempts while maintaining defensive integrity. The unique geometry of Kesa Gatame means that the top player's back is inherently exposed, creating reversal opportunities that do not exist in standard side control.
 
 </section>
 
@@ -208,19 +210,19 @@ The defensive challenge of Kesa Gatame Bottom centers on the opponent's ability 
 
 ## Available Escapes
 
-### [[Bridge and Roll]] (13% of attempts)
+### [[Bridge and Roll]] (15% of attempts)
 
-### [[Elbow Escape]] (16% of attempts)
+### [[Elbow Escape to Guard]] (16% of attempts)
 
-### [[Hip Escape]] (13% of attempts)
+### [[Hip Escape to Guard]] (12% of attempts)
 
-### [[Back Take Generic]] (11% of attempts)
+### [[Back Take from Bottom]] (10% of attempts)
 
-### [[Turtle Transition]] (17% of attempts)
+### [[Bridge and Turn to Turtle]] (17% of attempts)
 
 ### [[Ghost Escape]] (15% of attempts)
 
-### [[Frame and Shrimp]] (15% of attempts)
+### [[Frame and Shrimp to Guard]] (15% of attempts)
 
 
 
@@ -231,26 +233,26 @@ The defensive challenge of Kesa Gatame Bottom centers on the opponent's ability 
 ## Decision Making from This Position
 
 **If opponent maintains tight head control and heavy chest pressure without attacking submissions:**
-- Execute **[[Frame and Shrimp]]** → [[Half Guard]] (Probability: 40%)
-- Execute **[[Elbow Escape]]** → [[Half Guard]] (Probability: 45%)
-- Execute **[[Bridge and Roll]]** → [[Scarf Hold Position]] (Probability: 30%)
+- Execute **[[Frame and Shrimp to Guard]]** → [[Half Guard]] (Probability: 40%)
+- Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 45%)
+- Execute **[[Bridge and Roll]]** → [[Closed Guard]] (Probability: 30%)
 
 
 **If opponent shifts weight forward toward your head or attempts to transition to mount:**
-- Execute **[[Granby Roll]]** → [[Turtle]] (Probability: 50%)
+- Execute **[[Granby Roll to Guard]]** → [[Turtle]] (Probability: 50%)
 - Execute **[[Ghost Escape]]** → [[Turtle]] (Probability: 45%)
-- Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 35%)
+- Execute **[[Back Take from Bottom]]** → [[Back Control]] (Probability: 35%)
 
 
 **If opponent releases head control to attack far-side arm for Americana or other submissions:**
-- Execute **[[Hip Escape]]** → [[Closed Guard]] (Probability: 55%)
-- Execute **[[Guard Replacement]]** → [[Open Guard]] (Probability: 50%)
-- Execute **[[Re-Guard]]** → [[Half Guard]] (Probability: 45%)
+- Execute **[[Hip Escape to Guard]]** → [[Closed Guard]] (Probability: 55%)
+- Execute **[[Guard Recovery]]** → [[Open Guard]] (Probability: 50%)
+- Execute **[[Half Guard Recovery]]** → [[Half Guard]] (Probability: 45%)
 
 
 **If opponent's base becomes narrow or they post their far arm for stability:**
-- Execute **[[Bridge and Roll]]** → [[Scarf Hold Position]] (Probability: 50%)
-- Execute **[[Turtle Transition]]** → [[Turtle]] (Probability: 55%)
+- Execute **[[Bridge and Roll]]** → [[Closed Guard]] (Probability: 50%)
+- Execute **[[Bridge and Turn to Turtle]]** → [[Turtle]] (Probability: 55%)
 
 
 
@@ -389,7 +391,6 @@ Bottom player cycles through multiple escape attempts in sequence: attempt elbow
 
 ## Related Positions and Techniques
 
-- **[[Scarf Hold Position]]** - Opposite perspective - sibling variant
 - **[[Side Control]]** - Similar defensive position with different escape mechanics
 - **[[Kuzure Kesa-Gatame]]** - Variation with modified grip and weight distribution
 - **[[Reverse Kesa-Gatame]]** - Opposite-side variation of scarf hold
@@ -398,7 +399,8 @@ Bottom player cycles through multiple escape attempts in sequence: attempt elbow
 - **[[Turtle]]** - Primary escape target position
 - **[[Half Guard]]** - Primary guard recovery target
 - **[[Bridge and Roll]]** - Primary escape technique from this position
-- **[[Elbow Escape]]** - Fundamental escape movement pattern
+- **[[Elbow Escape to Guard]]** - Fundamental escape movement pattern
+- **[[Ghost Escape]]** - High-percentage escape exploiting back exposure
 
 
 </section>

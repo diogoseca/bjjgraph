@@ -186,19 +186,65 @@ Each position role (Top/Bottom) has a `transitions` array specifying what techni
 - Each transition references a Transition by name
 - Represents likelihood of attempting each technique from position
 
+### Transition & Submission "Playing As" Model
+
+Transitions and Submissions follow the same hub + role architecture as Positions, using **Attacker/Defender** roles:
+
+```
+Transition (Hub Page)    = Technique state (e.g., "Armbar from Mount")
+├── Attacker (Role Page) = Executing the technique (setup, steps, counters)
+└── Defender (Role Page)  = Resisting/escaping (recognition, defense, escapes)
+```
+
+**Graph nodes are hub pages only** - Attacker/Defender excluded from graph.
+
+**File structure example:**
+```
+Transitions/
+├── Armbar from Mount.json   # Source JSON with attacker/defender sections
+├── Armbar from Mount.md     # Generated hub page
+└── Armbar from Mount/
+    ├── Attacker.md          # Generated attacker perspective
+    └── Defender.md          # Generated defender perspective
+```
+
+**Templates:**
+- `templates/Transitions/TEMPLATE-TRANSITION.json` — JSON schema
+- `templates/Transitions/TEMPLATE-HUB.md.jinja2` — Hub page template
+- `templates/Transitions/TEMPLATE-ATTACKER.md.jinja2` — Attacker template
+- `templates/Transitions/TEMPLATE-DEFENDER.md.jinja2` — Defender template
+- Same structure exists in `templates/Submissions/`
+
 ### Transition Schema
 
-Transitions are technique nodes with `from_position` and `outcomes`:
+Transitions are technique nodes with `from_position`, `outcomes`, and `attacker`/`defender` sections:
 
 ```json
 {
   "name": "Armbar from Mount",
   "from_position": "Mount/Top",
   "outcomes": [
-    { "to": "Armbar Control", "probability": 55, "result": "success" },
-    { "to": "Mount", "probability": 30, "result": "failure" },
-    { "to": "Closed Guard", "probability": 15, "result": "counter" }
-  ]
+    { "to": "Armbar Control/Top", "probability": 55, "result": "success" },
+    { "to": "Mount/Top", "probability": 30, "result": "failure" },
+    { "to": "Closed Guard/Top", "probability": 15, "result": "counter" }
+  ],
+  "attacker": {
+    "name": "Armbar from Mount Attacker",
+    "execution_steps": [...],
+    "common_counters": [
+      { "counter": "Opponent clasps hands", "targets_outcome": "Mount/Top", "effectiveness": "High" }
+    ]
+  },
+  "defender": {
+    "name": "Armbar from Mount Defender",
+    "recognition_cues": ["Opponent grabs wrist and shifts weight"],
+    "defensive_options": [
+      { "action": "Clasp hands", "targets_outcome": "Mount/Top", "when_to_use": "..." }
+    ],
+    "favorable_outcomes": [
+      { "outcome": "Closed Guard/Top", "how": "Time bridge during leg swing" }
+    ]
+  }
 }
 ```
 

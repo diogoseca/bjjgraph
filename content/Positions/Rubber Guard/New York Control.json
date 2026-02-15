@@ -101,7 +101,7 @@
             "probability": 50
           },
           {
-            "technique": "Base Widening",
+            "technique": "Crossface to Combat Base",
             "target": "Combat Base",
             "probability": 45
           }
@@ -131,8 +131,8 @@
             "probability": 40
           },
           {
-            "technique": "Standing up",
-            "target": "Standing Position",
+            "technique": "Standing Escape",
+            "target": "Open Guard",
             "probability": 45
           }
         ]
@@ -223,33 +223,37 @@
     "transitions": [
       {
         "transition": "Overhook Escape",
-        "attempt_probability": 18
-      },
-      {
-        "transition": "Posture Recovery",
         "attempt_probability": 16
       },
       {
-        "transition": "Base Widening",
-        "attempt_probability": 20
+        "transition": "Posture Recovery",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Crossface to Combat Base",
+        "attempt_probability": 21
       },
       {
         "transition": "Stack Pass",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "Leg Extraction",
-        "attempt_probability": 18
+        "attempt_probability": 16
       },
       {
-        "transition": "Standing up",
-        "attempt_probability": 15
+        "transition": "Standing Escape",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "New York Control Escape",
+        "attempt_probability": 6
       }
     ],
     "knowledge_assessment": [
       {
         "question": "What is the correct priority sequence when escaping New York Control from top?",
-        "answer": "The overhook must be escaped before attempting to remove the leg control. Attempting to extract the leg while the overhook remains engaged leaves your arm trapped and allows the bottom player to transition between gogoplata, triangle, and omoplata threats freely. Only after the overhook is compromised can you safely address the leg control."
+        "answer": "The overhook must be escaped before attempting to remove the leg control. Attempting to extract the leg while the overhook remains engaged leaves your arm trapped and allows the bottom player to transition between gogoplata, triangle, and omoplata threats freely. Only after the overhook is compromised can you safely address the leg control without exposing yourself to chain submissions."
       },
       {
         "question": "Why does driving forward with pressure increase submission danger in New York Control?",
@@ -261,15 +265,15 @@
       },
       {
         "question": "How should you distribute your weight when stuck in New York Control from top?",
-        "answer": "Maintain a wide, low base with weight distributed laterally rather than forward. Keep hips close to the mat and spread knees wide for stability against sweeps. Avoid loading weight forward into the opponent, as this feeds their submission chains. Weight should feel centered over your knees with the ability to shift laterally quickly."
+        "answer": "Maintain a wide, low base with weight distributed laterally rather than forward. Keep hips close to the mat and spread knees wide for stability against sweeps. Avoid loading weight forward into the opponent, as this feeds their submission chains. Weight should feel centered over your knees with the ability to shift laterally quickly for escape attempts."
       },
       {
         "question": "What makes standard posture recovery ineffective against New York Control?",
         "answer": "The leg wrapped over your shoulder and across your back mechanically prevents vertical posture establishment. Attempting to straighten up only tightens their leg control and often drives your trapped arm deeper into their overhook. Instead, use circular base distribution and lateral movement to reduce leg effectiveness before any vertical posture attempts."
       },
       {
-        "question": "Your opponent adjusts their grip - what window does this create for escape?",
-        "answer": "Grip adjustments temporarily reduce overhook control depth and pulling pressure. This creates a brief window for arm extraction. Immediately rotate your shoulder forward and pull your elbow toward your hip while their grip is compromised. Time your posture recovery attempt to coincide with their grip transition, then establish defensive hand positioning before they can re-engage."
+        "question": "Your opponent adjusts their overhook grip - what window does this create for escape?",
+        "answer": "Grip adjustments temporarily reduce overhook control depth and pulling pressure. This creates a brief window for arm extraction. Immediately rotate your shoulder forward and pull your elbow toward your hip while their grip is compromised. Time your extraction to coincide with their grip transition, then establish defensive hand positioning before they can re-engage the overhook."
       },
       {
         "question": "How do you prevent the bottom player from transitioning to triangle when defending their overhook?",
@@ -391,7 +395,7 @@
             "probability": 60
           },
           {
-            "technique": "Armbar from Guard",
+            "technique": "Armbar Finish",
             "target": "Armbar Control",
             "probability": 50
           }
@@ -474,7 +478,7 @@
         "relationship": "High-percentage attack and sweep option"
       },
       {
-        "name": "Gogoplata",
+        "name": "Gogoplata Control",
         "relationship": "Signature submission finish from New York position"
       },
       {
@@ -501,51 +505,55 @@
     "transitions": [
       {
         "transition": "Gogoplata",
-        "attempt_probability": 7
+        "attempt_probability": 6
       },
       {
         "transition": "Triangle Setup",
-        "attempt_probability": 10
+        "attempt_probability": 18
       },
       {
         "transition": "Omoplata Sweep",
-        "attempt_probability": 9
+        "attempt_probability": 8
       },
       {
         "transition": "Triangle to Omoplata",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Omoplata to Back",
-        "attempt_probability": 7
+        "attempt_probability": 6
       },
       {
         "transition": "Triangle to Back",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Crackhead Control to Mission Control",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "New York to Invisible Collar",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "New York Control to Zombie",
         "attempt_probability": 9
       },
       {
-        "transition": "Armbar from Guard",
-        "attempt_probability": 7
+        "transition": "New York to Invisible Collar",
+        "attempt_probability": 9
       },
       {
-        "transition": "Kimura from Guard",
-        "attempt_probability": 7
+        "transition": "New York Control to Zombie",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Armbar Finish",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Kimura",
+        "attempt_probability": 6
       },
       {
         "transition": "Hip Bump Sweep",
-        "attempt_probability": 8
+        "attempt_probability": 7
+      },
+      {
+        "transition": "New York Control to Invisible Collar",
+        "attempt_probability": 3
       }
     ],
     "knowledge_assessment": [
@@ -559,7 +567,7 @@
       },
       {
         "question": "Your opponent begins posturing up aggressively - what adjustment maintains the position?",
-        "answer": "Increase active leg pressure by pulling your knee toward their far shoulder while simultaneously deepening the overhook and pulling their head down. Use your free hand to push their far shoulder away, breaking their structural alignment. If they persist, their posture attempt opens the gogoplata angle - shoot your shin across their throat as they create space."
+        "answer": "Increase active leg pressure by pulling your knee toward their far shoulder while simultaneously deepening the overhook and pulling their head down. Use your free hand to push their far shoulder away, breaking their structural alignment. If they persist, their posture attempt opens the gogoplata angle - shoot your shin across their throat as they create space between your bodies."
       },
       {
         "question": "What is the proper weight distribution for maintaining New York Control from bottom?",

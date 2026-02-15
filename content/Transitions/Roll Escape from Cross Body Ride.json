@@ -1,0 +1,13 @@
+{
+  "name": "Roll Escape from Cross Body Ride",
+  "description": "",
+  "tags": [],
+  "from_position": "Cross Body Ride/Bottom",
+  "outcomes": [
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

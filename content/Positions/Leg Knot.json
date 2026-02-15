@@ -134,7 +134,7 @@
         "condition": "If opponent rotates hip outward or straightens trapped leg defensively",
         "actions": [
           {
-            "technique": "Inside Heel Hook",
+            "technique": "Inside Heel Hook from Ushiro",
             "target": "Inside Ashi-Garami",
             "probability": 70
           },
@@ -241,7 +241,7 @@
         "relationship": "Alternative submission attack when heel is defended"
       },
       {
-        "name": "Kneebar",
+        "name": "Kneebar Control",
         "relationship": "Secondary submission option from leg knot configuration"
       },
       {
@@ -253,7 +253,7 @@
         "relationship": "Counter-entanglement option for bottom player"
       },
       {
-        "name": "Leg Weave Pass",
+        "name": "Leg Weave",
         "relationship": "Position advancement technique to escape leg entanglement exchange"
       }
     ],
@@ -271,36 +271,16 @@
     },
     "transitions": [
       {
-        "transition": "Heel Hook",
-        "attempt_probability": 13
+        "transition": "Backstep from Leg Knot",
+        "attempt_probability": 0
       },
       {
-        "transition": "Inside Heel Hook",
-        "attempt_probability": 12
+        "transition": "Leg Extraction from Leg Knot",
+        "attempt_probability": 0
       },
       {
-        "transition": "Toe Hold",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Kneebar",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Saddle Entry from Top",
-        "attempt_probability": 14
-      },
-      {
-        "transition": "Inside Ashi Entry",
-        "attempt_probability": 14
-      },
-      {
-        "transition": "Leg Weave Pass",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Straight Ankle Lock",
-        "attempt_probability": 12
+        "transition": "Pressure Pass from Leg Knot",
+        "attempt_probability": 0
       }
     ],
     "knowledge_assessment": [
@@ -579,52 +559,24 @@
     },
     "transitions": [
       {
-        "transition": "50-50 Entry",
-        "attempt_probability": 8
-      },
-      {
-        "transition": "Single Leg X Entry",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Granby Roll Escape",
-        "attempt_probability": 7
-      },
-      {
-        "transition": "Reverse X-Guard Entry",
-        "attempt_probability": 8
-      },
-      {
-        "transition": "50-50 Guard to Single Leg X-Guard",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Hip Escape to Guard",
-        "attempt_probability": 11
-      },
-      {
         "transition": "Clear leg and transition to X-Guard",
-        "attempt_probability": 8
+        "attempt_probability": 15
       },
       {
         "transition": "Counter-entangle to 50-50 Guard",
-        "attempt_probability": 8
+        "attempt_probability": 20
       },
       {
         "transition": "Extract leg and establish Single Leg X",
-        "attempt_probability": 8
-      },
-      {
-        "transition": "Granby roll to reverse position",
-        "attempt_probability": 8
+        "attempt_probability": 20
       },
       {
         "transition": "Limp leg extraction to Half Guard",
-        "attempt_probability": 8
+        "attempt_probability": 20
       },
       {
         "transition": "Reverse the entanglement to Outside Ashi",
-        "attempt_probability": 8
+        "attempt_probability": 25
       }
     ],
     "knowledge_assessment": [

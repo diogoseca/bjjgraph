@@ -1,0 +1,13 @@
+{
+  "name": "Frame from Shoulder of Justice",
+  "description": "",
+  "tags": [],
+  "from_position": "Shoulder of Justice/Bottom",
+  "outcomes": [
+    {
+      "to": "Side Control/Bottom",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

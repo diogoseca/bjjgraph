@@ -95,21 +95,23 @@ The strategic value of the Hindulotine lies in its ability to force defensive re
 ### Available Transitions
 
 
-- **[[Guillotine Choke]]** (14% of attempts)
+- **[[Guillotine Choke]]** (32% of attempts)
 
-- **[[Hindulotine to Darce Choke]]** (13% of attempts)
+- **[[Hindulotine to Darce Choke]]** (8% of attempts)
 
-- **[[Hindulotine to Anaconda Choke]]** (12% of attempts)
-
-- **[[Sweep to Mount]]** (12% of attempts)
+- **[[Hindulotine to Anaconda Choke]]** (6% of attempts)
 
 - **[[Back Take from Bottom]]** (13% of attempts)
 
-- **[[Arm Triangle Transition]]** (11% of attempts)
+- **[[High Elbow Guillotine Variation]]** (8% of attempts)
 
-- **[[High Elbow Guillotine Variation]]** (13% of attempts)
+- **[[Butterfly Sweep with Guillotine]]** (20% of attempts)
 
-- **[[Butterfly Sweep with Guillotine]]** (12% of attempts)
+- **[[Guard Recovery]]** (8% of attempts)
+
+- **[[Arm Triangle Transition]]** (3% of attempts)
+
+- **[[Sweep to Mount]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -166,21 +168,21 @@ The strategic value of the Hindulotine lies in its ability to force defensive re
 ### Available Transitions
 
 
-- **[[Guillotine Choke]]** (12% of attempts)
+- **[[Guillotine Choke]]** (26% of attempts)
 
-- **[[Hindulotine to Darce Choke]]** (13% of attempts)
+- **[[Hindulotine to Darce Choke]]** (11% of attempts)
 
-- **[[Hindulotine to Anaconda Choke]]** (12% of attempts)
+- **[[Hindulotine to Anaconda Choke]]** (9% of attempts)
 
 - **[[Back Take from Top]]** (14% of attempts)
 
-- **[[Side Control to Mount]]** (13% of attempts)
+- **[[Front Headlock to Back]]** (11% of attempts)
 
-- **[[Side Control to North-South]]** (12% of attempts)
+- **[[Arm Triangle from Top]]** (10% of attempts)
 
-- **[[Front Headlock to Back]]** (13% of attempts)
+- **[[Snap Down to Front Headlock]]** (14% of attempts)
 
-- **[[Arm Triangle from Top]]** (11% of attempts)
+- **[[Hindulotine Choke Finish]]** (5% of attempts)
 
 
 ### Common Mistakes

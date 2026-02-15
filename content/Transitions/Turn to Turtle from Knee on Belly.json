@@ -1,0 +1,13 @@
+{
+  "name": "Turn to Turtle from Knee on Belly",
+  "description": "",
+  "tags": [],
+  "from_position": "Knee on Belly/Bottom",
+  "outcomes": [
+    {
+      "to": "Turtle/Bottom",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

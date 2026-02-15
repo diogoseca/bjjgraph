@@ -1,0 +1,13 @@
+{
+  "name": "Escape Shoulder of Justice",
+  "description": "",
+  "tags": [],
+  "from_position": "Shoulder of Justice/Bottom",
+  "outcomes": [
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

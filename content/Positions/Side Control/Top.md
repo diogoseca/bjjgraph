@@ -21,37 +21,37 @@ description: "Master Side Control Top in BJJ. Complete guide to submissions, tra
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 79% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 3% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Americana from Side Control",
-      "text": "From this position, attempt Americana from Side Control. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Americana",
+      "text": "From this position, attempt Americana. This technique is attempted in 7% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura from Side Control",
-      "text": "From this position, attempt Kimura from Side Control. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Kimura",
+      "text": "From this position, attempt Kimura. This technique is attempted in 5% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Triangle",
-      "text": "From this position, attempt Arm Triangle. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Arm Triangle. This technique is attempted in 1% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar from Side Control",
-      "text": "From this position, attempt Armbar from Side Control. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Armbar Finish",
+      "text": "From this position, attempt Armbar Finish. This technique is attempted in 0% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -205,23 +205,39 @@ Side Control Top is one of the most fundamental and dominant positions in Brazil
 
 ## Available Attacks
 
-### [[Side Control to Mount]] (22% of attempts)
+### [[Side Control to Mount]] (79% of attempts)
 
-### [[Side Control to North-South]] (11% of attempts)
+### [[Side Control to North-South]] (3% of attempts)
 
-### [[Americana from Side Control]] (13% of attempts)
+### [[Americana]] (7% of attempts)
 
-### [[Kimura from Side Control]] (11% of attempts)
+### [[Kimura]] (5% of attempts)
 
-### [[Arm Triangle]] (9% of attempts)
+### [[Arm Triangle]] (1% of attempts)
 
-### [[Armbar from Side Control]] (7% of attempts)
+### [[Armbar Finish]] (0% of attempts)
 
-### [[Knee on Belly]] (12% of attempts)
+### [[Knee on Belly]] (4% of attempts)
 
-### [[North-South Choke]] (4% of attempts)
+### [[North-South Choke]] (0% of attempts)
 
-### [[Americana]] (11% of attempts)
+### [[Breadcutter Choke]] (0% of attempts)
+
+### [[Transition to Kesa Gatame]] (0% of attempts)
+
+### [[Transition to Scarf Hold Position]] (0% of attempts)
+
+### [[Transition to Shoulder of Justice]] (0% of attempts)
+
+### [[Transition to Side Control Consolidation]] (0% of attempts)
+
+### [[Side Control to Kesa Gatame]] (0% of attempts)
+
+### [[Side Control to Scarf Hold Position]] (0% of attempts)
+
+### [[Side Control to Shoulder of Justice]] (0% of attempts)
+
+### [[Side Control to Side Control Consolidation]] (1% of attempts)
 
 
 
@@ -232,8 +248,8 @@ Side Control Top is one of the most fundamental and dominant positions in Brazil
 ## Decision Making from This Position
 
 **If opponent's near arm is extended or pushing against your neck or head:**
-- Execute **[[Americana from Side Control]]** → [[Game Over]] (Probability: 50%)
-- Execute **[[Kimura from Side Control]]** → [[Game Over]] (Probability: 45%)
+- Execute **[[Americana]]** → [[Game Over]] (Probability: 50%)
+- Execute **[[Kimura]]** → [[Game Over]] (Probability: 45%)
 
 
 **If opponent creates space by bridging or frames with both arms:**
@@ -362,8 +378,8 @@ Partner attempts specific escape such as elbow escape, bridge and roll, or turni
 - **[[Scarf Hold Position]]** - Related holding position with head control emphasis
 - **[[Half Guard]]** - Common escape target for bottom player attempting guard recovery
 - **[[Back Control]]** - Advanced position when opponent turns incorrectly during escape
-- **[[Americana from Side Control]]** - Primary shoulder lock submission from this position
-- **[[Kimura from Side Control]]** - High-percentage shoulder lock with back take potential
+- **[[Americana]]** - Primary shoulder lock submission transition from this position
+- **[[Kimura]]** - High-percentage shoulder lock transition with back take potential
 - **[[Arm Triangle]]** - Head and arm choke available when opponent defends arms incorrectly
 - **[[Darce Choke]]** - Effective choke when opponent turns into you from bottom
 - **[[North-South Choke]]** - Powerful submission from north-south transition

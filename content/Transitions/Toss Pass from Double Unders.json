@@ -1,0 +1,13 @@
+{
+  "name": "Toss Pass from Double Unders",
+  "description": "",
+  "tags": [],
+  "from_position": "Double Unders/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Posture Defense from Rear Triangle",
+  "description": "",
+  "tags": [],
+  "from_position": "Rear Triangle/Bottom",
+  "outcomes": [
+    {
+      "to": "Back Control/Bottom",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

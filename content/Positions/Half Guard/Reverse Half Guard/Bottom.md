@@ -21,37 +21,37 @@ description: "Master Reverse Half Guard Bottom in BJJ. Inverted half guard posit
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard to Back Take",
-      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 34% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Underhook Sweep from Half",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Bump Sweep",
-      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Deep Half Entry",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Turtle to Truck",
-      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Half Guard Recovery",
+      "text": "From this position, attempt Half Guard Recovery. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Butterfly Hook Recovery",
-      "text": "From this position, attempt Butterfly Hook Recovery. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Kimura Sweep",
+      "text": "From this position, attempt Kimura Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,21 +209,23 @@ This position is more common in advanced BJJ and no-gi grappling where mobility 
 
 ## Available Escapes
 
-### [[Old School Sweep]] (14% of attempts)
+### [[Old School Sweep]] (10% of attempts)
 
-### [[Half Guard to Back Take]] (15% of attempts)
+### [[Half Guard to Back Take]] (34% of attempts)
 
-### [[Rolling Back Take]] (14% of attempts)
+### [[Underhook Sweep from Half]] (8% of attempts)
 
-### [[Hip Bump Sweep]] (12% of attempts)
+### [[Deep Half Entry]] (10% of attempts)
 
-### [[Turtle to Truck]] (13% of attempts)
+### [[Half Guard Recovery]] (14% of attempts)
 
-### [[Butterfly Hook Recovery]] (10% of attempts)
+### [[Kimura Sweep]] (10% of attempts)
 
-### [[Underhook Sweep from Half]] (10% of attempts)
+### [[Guard Recovery]] (8% of attempts)
 
-### [[Deep Half Entry]] (12% of attempts)
+### [[Escape Reverse Half Guard]] (4% of attempts)
+
+### [[Invert from Reverse Half Guard]] (2% of attempts)
 
 
 

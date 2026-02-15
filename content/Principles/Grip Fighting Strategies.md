@@ -364,7 +364,6 @@ Systematically adding grip fighting requirements to technique drilling, starting
 ### Related Content
 - [[Grip Strategy]] (Principle) - Parent concept covering overall grip strategy of which grip fighting represents the competitive application component
 - [[Grip Breaking]] (Principle) - Component skill that focuses specifically on the technical execution of breaking opponent's established grips
-- [[Hand Fighting]] (Principle) - Closely related concept emphasizing the dynamic hand exchanges that occur before grips are established
 - [[Control Point Hierarchy]] (Principle) - Broader concept that contextualizes grips as initial control points in the hierarchy of positional dominance
 - [[Guard Retention]] (Principle) - Heavily dependent on grip fighting as guard retention requires establishing retention grips while denying passing grips
 - [[Guard Passing]] (Principle) - Complementary concept where passing success depends significantly on winning the grip fight to neutralize guard retention

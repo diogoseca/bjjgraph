@@ -104,31 +104,39 @@
     "transitions": [
       {
         "transition": "Ashi Garami Escape",
-        "attempt_probability": 25
+        "attempt_probability": 38
       },
       {
         "transition": "Counter Ashi Entry",
-        "attempt_probability": 20
-      },
-      {
-        "transition": "Guard Pass",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Guillotine Setup",
-        "attempt_probability": 5
-      },
-      {
-        "transition": "Straight Ankle Lock",
-        "attempt_probability": 17
-      },
-      {
-        "transition": "Back Step Pass",
         "attempt_probability": 15
       },
       {
-        "transition": "Toe Hold",
+        "transition": "Pass to Side Control",
         "attempt_probability": 8
+      },
+      {
+        "transition": "Guillotine Setup",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Straight Ankle Lock Entry",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Back Step Pass",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Toe Hold",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Back Take from Ashi",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Ashi Garami to Leg Entanglement",
+        "attempt_probability": 2
       }
     ],
     "decision_tree": [
@@ -186,7 +194,7 @@
         "condition": "If opponent loses connection points during advancement attempt or transitional movement",
         "actions": [
           {
-            "technique": "Guard Pass",
+            "technique": "Pass to Side Control",
             "target": "Side Control",
             "probability": 55
           },
@@ -216,7 +224,7 @@
         "condition": "If opponent extends trapped leg straight while attempting heel hook from Outside Ashi",
         "actions": [
           {
-            "technique": "Straight Ankle Lock",
+            "technique": "Straight Ankle Lock Entry",
             "target": "Straight Ankle Lock Control",
             "probability": 55
           },
@@ -309,7 +317,7 @@
         "relationship": "Bilateral entanglement often reached during defensive scrambles requiring specialized escape sequences"
       },
       {
-        "name": "Straight Ankle Lock Control",
+        "name": "Straight Ankle Lock",
         "relationship": "Counter-submission opportunity when opponent extends leg during entanglement exchange"
       }
     ],
@@ -365,35 +373,55 @@
     "transitions": [
       {
         "transition": "Inside Ashi Entry",
-        "attempt_probability": 34
+        "attempt_probability": 62
       },
       {
         "transition": "Cross Ashi Transition",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Heel Hook",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Straight Ankle Lock",
-        "attempt_probability": 18
-      },
-      {
-        "transition": "50-50 Entry",
-        "attempt_probability": 8
-      },
-      {
-        "transition": "Toe Hold",
-        "attempt_probability": 8
-      },
-      {
-        "transition": "Kneebar Setup",
         "attempt_probability": 7
       },
       {
-        "transition": "Outside Ashi Entry",
+        "transition": "Heel Hook",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Straight Ankle Lock Entry",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "50-50 Entry",
         "attempt_probability": 5
+      },
+      {
+        "transition": "Toe Hold",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Kneebar Setup",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Single Leg X Transition",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Transition to Backside 50-50",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Back Take from Ashi",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Ashi Garami Maintenance",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Heel Strip from Ashi Garami",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Standing Up from Ashi Garami",
+        "attempt_probability": 1
       }
     ],
     "decision_tree": [
@@ -481,7 +509,7 @@
         "condition": "If opponent's base collapses and they fall flat with limited hip mobility during extraction",
         "actions": [
           {
-            "technique": "Straight Ankle Lock",
+            "technique": "Straight Ankle Lock Entry",
             "target": "Game Over",
             "probability": 45
           },

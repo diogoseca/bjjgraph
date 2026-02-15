@@ -97,7 +97,7 @@
         "condition": "If opponent is relatively flat and not actively defending, assess back control opportunity",
         "actions": [
           {
-            "technique": "Back Take Generic",
+            "technique": "Back Take",
             "target": "Back Control",
             "probability": 65
           },
@@ -127,7 +127,7 @@
         "condition": "If opponent turns to either side attempting hip escape",
         "actions": [
           {
-            "technique": "Back Take Generic",
+            "technique": "Back Take",
             "target": "Back Control",
             "probability": 70
           },
@@ -257,23 +257,31 @@
     "transitions": [
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": 35
+        "attempt_probability": 38
       },
       {
-        "transition": "Back Take Generic",
-        "attempt_probability": 30
+        "transition": "Back Take",
+        "attempt_probability": 27
       },
       {
         "transition": "Mount to Armbar",
-        "attempt_probability": 15
+        "attempt_probability": 13
       },
       {
         "transition": "Turtle to Truck",
-        "attempt_probability": 10
+        "attempt_probability": 8
       },
       {
         "transition": "Side Control to North-South",
-        "attempt_probability": 10
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Reverse Mount to Mount",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Reverse Mount to Side Control",
+        "attempt_probability": 2
       }
     ],
     "knowledge_assessment": [
@@ -286,7 +294,7 @@
         "answer": "Keep hips heavy and sink your weight directly onto the opponent's sternum or upper abdomen through your buttocks and lower back. Maintain forward lean with core engagement to eliminate space between your lower body and their chest. The weight should feel oppressive to the bottom player even without head control."
       },
       {
-        "question": "Your opponent starts bridging strongly while you're in reverse mount - what adjustment should you make?",
+        "question": "Your opponent starts bridging strongly while you're in reverse mount - what adjustment do you make?",
         "answer": "Ride the bridge by maintaining heavy hips and wide knee base while using your posted hands for balance. As they land from the bridge, immediately initiate your transition to standard mount by spinning toward their head, using their exhausted moment post-bridge as your window for smooth conversion."
       },
       {
@@ -325,7 +333,7 @@
     ],
     "overview": "Reverse Mount Bottom is a highly defensive position where the practitioner is mounted but facing away from their opponent, with the opponent's hips on their back or lower torso. This is an extremely vulnerable position that requires immediate defensive action to prevent submissions, particularly rear naked chokes and back takes. Unlike traditional mount bottom, the defender cannot use frames or visual cues as effectively, making this position particularly dangerous.\n\nThe primary objective is rapid escape to less compromising positions through systematic hip movement, turning, and re-guarding sequences. This position often occurs during scrambles, failed takedown defenses, or when an opponent successfully transitions from turtle or other positions. The defender's back is exposed, creating immediate submission threats and eliminating the visual feedback normally available in face-to-face defensive positions.\n\nUnderstanding the escape hierarchy and maintaining composure under pressure are critical for survival and eventual position improvement from this highly unfavorable state. The defender must balance immediate neck protection with continuous movement toward improved positions, never allowing the opponent to settle their weight and establish complete control.",
     "state_properties": {
-      "point_value": 0,
+      "point_value": -4,
       "position_type": "Defensive",
       "risk_level": "High",
       "energy_cost": "High",
@@ -357,13 +365,13 @@
         "condition": "If opponent is establishing seat belt control or attempting rear naked choke",
         "actions": [
           {
-            "technique": "RNC Defense",
+            "technique": "Hand Fighting from Back",
             "target": "Turtle",
             "probability": 40
           },
           {
-            "technique": "Hand Fighting from Back",
-            "target": "Side Control",
+            "technique": "Elbow Escape to Guard",
+            "target": "Half Guard",
             "probability": 30
           }
         ]
@@ -377,7 +385,7 @@
             "probability": 45
           },
           {
-            "technique": "Hip Escape",
+            "technique": "Hip Escape to Guard",
             "target": "Open Guard",
             "probability": 35
           }
@@ -387,27 +395,27 @@
         "condition": "If opponent is high on back with weight shifted forward",
         "actions": [
           {
-            "technique": "Forward Roll Escape",
+            "technique": "Guard Recovery",
             "target": "Turtle",
             "probability": 30
           },
           {
-            "technique": "Granby Roll",
+            "technique": "Frame and Shrimp to Guard",
             "target": "Deep Half Guard",
             "probability": 25
           }
         ]
       },
       {
-        "condition": "If opponent attempts to transition to traditional mount",
+        "condition": "If opponent attempts to transition to traditional mount by spinning",
         "actions": [
           {
-            "technique": "Guard Replacement",
+            "technique": "Guard Recovery",
             "target": "Half Guard",
             "probability": 35
           },
           {
-            "technique": "Frame and Shrimp",
+            "technique": "Frame and Shrimp to Guard",
             "target": "Closed Guard",
             "probability": 25
           }
@@ -494,12 +502,12 @@
         "relationship": "Key escape transition technique"
       },
       {
-        "name": "Elbow Escape",
-        "relationship": "Alternative escape technique to create space"
+        "name": "Elbow Escape to Guard",
+        "relationship": "Alternative escape technique to create space and recover guard"
       },
       {
-        "name": "Frame and Shrimp",
-        "relationship": "Foundational escape movement pattern"
+        "name": "Frame and Shrimp to Guard",
+        "relationship": "Foundational escape movement pattern for re-guarding"
       }
     ],
     "position_metrics": {
@@ -516,24 +524,32 @@
     },
     "transitions": [
       {
-        "transition": "Elbow Escape",
-        "attempt_probability": 25
+        "transition": "Elbow Escape to Guard",
+        "attempt_probability": 28
       },
       {
         "transition": "Bridge and Roll",
-        "attempt_probability": 25
+        "attempt_probability": 22
       },
       {
-        "transition": "Hip Escape",
-        "attempt_probability": 20
+        "transition": "Hip Escape to Guard",
+        "attempt_probability": 17
       },
       {
-        "transition": "Guard Replacement",
-        "attempt_probability": 15
+        "transition": "Guard Recovery",
+        "attempt_probability": 12
       },
       {
-        "transition": "Frame and Shrimp",
-        "attempt_probability": 15
+        "transition": "Frame and Shrimp to Guard",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Bridge from Reverse Mount",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Escape Reverse Mount",
+        "attempt_probability": 3
       }
     ],
     "knowledge_assessment": [

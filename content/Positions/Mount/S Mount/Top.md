@@ -20,8 +20,8 @@ description: "Dominate with S Mount attacks in BJJ. Master arm isolation, armbar
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar from Mount",
-      "text": "From this position, attempt Armbar from Mount. This technique is attempted in 29% of exchanges from this position.",
+      "name": "Execute Mount to Armbar",
+      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 29% of exchanges from this position.",
       "position": 1
     },
     {
@@ -32,14 +32,14 @@ description: "Dominate with S Mount attacks in BJJ. Master arm isolation, armbar
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Americana from Mount",
-      "text": "From this position, attempt Americana from Mount. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Americana",
+      "text": "From this position, attempt Americana. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura from Mount",
-      "text": "From this position, attempt Kimura from Mount. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Kimura",
+      "text": "From this position, attempt Kimura. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
@@ -212,13 +212,13 @@ S Mount appears throughout BJJ history as a signature position of submission spe
 
 ## Available Attacks
 
-### [[Armbar from Mount]] (29% of attempts)
+### [[Mount to Armbar]] (29% of attempts)
 
 ### [[Triangle from Mount]] (17% of attempts)
 
-### [[Americana from Mount]] (9% of attempts)
+### [[Americana]] (9% of attempts)
 
-### [[Kimura from Mount]] (9% of attempts)
+### [[Kimura]] (9% of attempts)
 
 ### [[Back Take]] (13% of attempts)
 
@@ -359,7 +359,7 @@ Start in S Mount top, partner starts in S Mount bottom. Full resistance sparring
 **Q1**: What hip adjustment should you make when your opponent starts to bridge explosively from S Mount bottom?
 **A**: Drop your hips lower and tighter against their shoulder while posting your near foot wider for stability. The bridge creates upward force, so you counter by driving your weight down and forward toward their trapped arm. Keep your center of gravity low and avoid sitting up, which would make you vulnerable to being displaced.
 
-**Q2**: What are the essential grip and leg positions for maintaining S Mount control?
+**Q2**: What are the essential grips and leg positions for maintaining S Mount control?
 **A**: Your near leg extends over their head with foot firmly planted on the mat beyond their far shoulder. Your far leg crosses their torso at chest level, creating a structural barrier. Hands grip their wrist and control the isolated arm - one hand on the wrist, the other securing the elbow or bicep. Your hips must stay glued to their shoulder to eliminate space.
 
 **Q3**: How do you shut down the primary escape where opponent tries to pull their arm back to their body?
@@ -409,7 +409,7 @@ Start in S Mount top, partner starts in S Mount bottom. Full resistance sparring
 - **[[High Mount]]** - Alternative attacking position - can flow between high mount and S Mount
 - **[[Mounted Triangle]]** - Alternative submission - common transition when armbar is defended
 - **[[Back Control]]** - Alternative advancement - take back when opponent turns away from S Mount
-- **[[Armbar from Mount]]** - Primary technique - the exact submission S Mount is designed to facilitate
+- **[[Mount to Armbar]]** - Primary technique - the transition that S Mount is designed to facilitate
 - **[[Triangle from Mount]]** - Alternative submission - common chain attack when armbar is defended
 - **[[Mounted Crucifix]]** - Alternative control - similar arm isolation with different configuration
 - **[[Gift Wrap]]** - Control transition - can lead to S Mount or back take

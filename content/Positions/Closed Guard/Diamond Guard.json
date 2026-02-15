@@ -1,0 +1,457 @@
+{
+  "name": "Diamond Guard",
+  "slug": "diamond-guard",
+  "description": "Master Diamond Guard in BJJ. Closed guard variation with overhook and head control creating a diamond shape for enhanced posture breaking, triangle setups, omoplatas, and kimura attacks.",
+  "variant_uniqueness": "Overhook plus head control creates diamond shape amplifying posture break and submission chains",
+  "overview": "Diamond Guard is a specialized closed guard variation where the bottom player establishes an overhook on one arm while simultaneously controlling the opponent's head with the other hand, creating a diamond-shaped frame between the arms, head, and chest. This configuration dramatically amplifies posture-breaking effectiveness and creates direct pathways to high-percentage submissions including triangles, omoplatas, and kimuras.\n\nThe position derives its name from the geometric shape formed when the overhook arm, the head-controlling arm, the opponent's trapped arm, and the opponent's head create a diamond-shaped enclosed space. This structure gives the bottom player exceptional control over the opponent's upper body posture and shoulder alignment, making it nearly impossible for the top player to posture up without first addressing both control points simultaneously.\n\nFrom the bottom perspective, Diamond Guard transforms the standard closed guard into an aggressive submission-hunting platform. The overhook eliminates the opponent's ability to post or frame with their trapped arm, while head control prevents posture recovery. Together, these controls create a series of submission chains: releasing head control opens triangle entries, switching to wrist control on the trapped arm opens omoplata rotations, and the overhook itself provides the foundation for kimura attacks. The position rewards patience and systematic combination work.\n\nFrom the top perspective, Diamond Guard presents an urgent escape scenario. The combined overhook and head control creates escalating danger—the longer you remain trapped, the more submission options the bottom player develops. Success requires immediately addressing either the overhook or head control before the bottom player can establish deep control and begin cycling through submission threats.",
+  "key_principles": [
+    "Overhook and head control work as a system—losing either element significantly reduces the position's effectiveness",
+    "The diamond shape creates a closed frame that amplifies posture-breaking force beyond standard collar grips",
+    "Bottom player's legs maintain closed guard structure while upper body creates the offensive diamond frame",
+    "Submission chains flow naturally from grip adjustments within the diamond: triangle, omoplata, kimura",
+    "Top player must address both control points simultaneously—solving one while ignoring the other is insufficient",
+    "Position requires active management of the overhook depth and head control angle to maintain offensive options",
+    "Energy advantage favors bottom player as maintaining the diamond shape requires less effort than escaping it"
+  ],
+  "related_positions": [
+    {
+      "name": "Closed Guard",
+      "relationship": "Parent position—Diamond Guard is a specialized variation of closed guard"
+    },
+    {
+      "name": "Triangle Control",
+      "relationship": "Primary submission destination from Diamond Guard bottom"
+    },
+    {
+      "name": "Rubber Guard",
+      "relationship": "Related control concept using leg flexibility instead of overhook for head control"
+    },
+    {
+      "name": "Overhook Control",
+      "relationship": "Shared control mechanism—Diamond Guard adds head control to overhook"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Fallback position if closed guard is opened during diamond control"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Common transition if top player partially escapes while diamond is maintained"
+    }
+  ],
+  "top": {
+    "name": "Diamond Guard Top",
+    "description": "Master Diamond Guard Top defense in BJJ. Strip overhook, recover posture, and escape diamond control with systematic grip fighting and base maintenance.",
+    "tags": [
+      "bjj",
+      "position",
+      "closed-guard",
+      "top",
+      "defensive",
+      "diamond-guard",
+      "posture-recovery"
+    ],
+    "overview": "Diamond Guard Top is a high-urgency defensive position where you find yourself trapped in your opponent's closed guard with their overhook on one arm and head control with the other hand creating a diamond-shaped frame. This is one of the most dangerous closed guard configurations because the combined controls prevent posture recovery and create direct submission pathways. Your primary objective is escaping this control configuration before the opponent can establish deep enough control to begin submission chains.\n\nThe urgency comes from the cumulative nature of the position—the longer you remain in the diamond, the deeper the opponent's controls become and the more submission options they develop. Early intervention is exponentially more effective than late intervention. Success requires addressing both control points (overhook and head control) through a systematic approach rather than panic-driven arm pulling or explosive posture attempts.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Defensive",
+      "risk_level": "High",
+      "energy_cost": "High",
+      "time_sustainability": "Short"
+    },
+    "state_invariants": [
+      "Opponent has one arm trapped in an overhook with their arm wrapping over your bicep or tricep and pulling it across their body, eliminating your ability to post or frame on that side",
+      "Opponent's other hand controls your head by gripping behind your neck, pulling your head down toward their chest, creating the diamond-shaped frame between their arms and your trapped body",
+      "Your posture is compromised with head pulled below your hip line, spine rounded, and weight driven forward by the combined pull of overhook and head control",
+      "Opponent's closed guard legs remain locked around your waist, restricting your hip movement and preventing you from creating distance while their upper body controls maintain the diamond shape"
+    ],
+    "prerequisites": [
+      "Understanding of posture recovery mechanics under extreme forward pressure",
+      "Grip fighting skills for stripping overhooks and breaking head control simultaneously",
+      "Recognition of triangle, omoplata, and kimura setups from diamond guard",
+      "Ability to maintain base and balance while one arm is compromised by overhook"
+    ],
+    "key_principles": [
+      "Address the overhook and head control simultaneously—escaping one while ignoring the other allows the opponent to recover",
+      "Use posture recovery through hip drive rather than arm strength to break the diamond frame",
+      "Maintain base with your free hand while working the trapped arm free of the overhook",
+      "Recognize submission threats early—the longer you stay in diamond, the more dangerous it becomes",
+      "Keep your trapped arm elbow connected to your body to prevent the overhook from deepening",
+      "Circle your head to the outside of the head-controlling arm to break the control angle"
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent has shallow overhook and light head control (early diamond establishment)",
+        "actions": [
+          {
+            "technique": "Posture Recovery",
+            "target": "Closed Guard",
+            "probability": 65
+          },
+          {
+            "technique": "Overhook Strip",
+            "target": "Closed Guard",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "If opponent has deep overhook with strong head pull creating full diamond frame",
+        "actions": [
+          {
+            "technique": "Head Circle Escape",
+            "target": "Closed Guard",
+            "probability": 45
+          },
+          {
+            "technique": "Standing up in Base",
+            "target": "Standing Position",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent begins releasing head control to set up triangle",
+        "actions": [
+          {
+            "technique": "Posture Recovery",
+            "target": "Closed Guard",
+            "probability": 55
+          },
+          {
+            "technique": "Stack Defense",
+            "target": "Stack Pass",
+            "probability": 50
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting to pull your trapped arm free by yanking backward without addressing head control",
+        "consequence": "The head control maintains your broken posture, making arm extraction nearly impossible. The pulling motion also opens space for triangle entry.",
+        "correction": "Address head control first by circling your head to the outside, then use hip drive to create space for arm recovery."
+      },
+      {
+        "error": "Staying static and hoping the opponent releases the diamond control",
+        "consequence": "The position only gets worse with time as the opponent deepens their grips and begins setting up submission chains",
+        "correction": "Act with urgency. Every second in the diamond favors the bottom player. Immediately begin working the escape sequence."
+      },
+      {
+        "error": "Posting your free hand on the mat instead of using it to fight the head control",
+        "consequence": "Your free hand is your primary tool for breaking the diamond. Posting it wastes your most important escape resource.",
+        "correction": "Use your free hand to push on the opponent's head-controlling wrist or to frame against their shoulder to create space for posture recovery."
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Diamond Escape Drilling",
+        "description": "Partner establishes diamond guard with progressive depth. Practice the escape sequence starting from shallow control and progressing to deep control. Focus on the head circle and hip drive mechanics that break the diamond frame.",
+        "duration": "15 minutes, 20 repetitions"
+      },
+      {
+        "name": "Submission Recognition from Diamond Top",
+        "description": "Partner cycles through triangle, omoplata, and kimura setups from diamond guard while you practice recognizing and defending each one. Develop early recognition that enables preemptive defense.",
+        "duration": "10 minutes"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Diamond Guard",
+        "relationship": "Inverse position—opponent's perspective from bottom"
+      },
+      {
+        "name": "Closed Guard",
+        "relationship": "Target position after escaping diamond control"
+      },
+      {
+        "name": "Triangle Choke",
+        "relationship": "Primary submission threat from this position"
+      },
+      {
+        "name": "Omoplata",
+        "relationship": "Secondary submission threat when head control is released"
+      },
+      {
+        "name": "Kimura from Guard",
+        "relationship": "Tertiary submission threat using the overhook"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "value": 40,
+        "description": "Ability to maintain position without being submitted or swept"
+      },
+      "advancement_probability": {
+        "value": 35,
+        "description": "Likelihood of recovering posture and advancing to neutral closed guard top"
+      },
+      "submission_probability": {
+        "value": 5,
+        "description": "Minimal submission opportunity from this defensive position"
+      },
+      "average_time": "30 seconds to 1 minute before position resolves"
+    },
+    "transitions": [
+      {
+        "transition": "Posture Recovery",
+        "attempt_probability": 40
+      },
+      {
+        "transition": "Standing up in Base",
+        "attempt_probability": 25
+      },
+      {
+        "transition": "Guard Opening Sequence",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Stack Defense",
+        "attempt_probability": 20
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Why must you address both the overhook and head control simultaneously rather than one at a time?",
+        "answer": "If you strip the overhook but leave head control intact, the opponent can immediately re-establish the overhook or transition to a different grip while your posture remains broken. If you break head control but leave the overhook, your arm is still trapped and the opponent can re-establish head control using the arm control as an anchor. The diamond frame works as an integrated system—each element reinforces the other, so you must dismantle both simultaneously through hip drive and grip fighting."
+      },
+      {
+        "question": "What is the most effective escape mechanic against a deep diamond guard?",
+        "answer": "Drive your hips backward forcefully while using your free hand to push on the opponent's head-controlling wrist. Simultaneously circle your head to the outside of their controlling arm. This combination of hip drive, hand fighting, and head movement addresses all three dimensions of the diamond frame. The hip drive creates the force to break posture control, the hand fighting removes the head anchor, and the head circle breaks the geometric structure. Attempting any single element alone is insufficient against deep control."
+      }
+    ]
+  },
+  "bottom": {
+    "name": "Diamond Guard Bottom",
+    "description": "Master Diamond Guard Bottom offensive position in BJJ. Use overhook plus head control to set up triangles, omoplatas, kimuras, and sweeps from the diamond frame.",
+    "tags": [
+      "bjj",
+      "position",
+      "closed-guard",
+      "bottom",
+      "offensive",
+      "diamond-guard",
+      "submissions",
+      "overhook"
+    ],
+    "overview": "Diamond Guard Bottom is an elite offensive closed guard configuration where you establish an overhook on one of the opponent's arms while controlling their head with your other hand, creating a diamond-shaped frame that breaks their posture and opens multiple submission pathways. This position represents one of the most dangerous closed guard configurations available, with direct chains to triangles, omoplatas, kimuras, and hip bump sweeps.\n\nThe position's offensive power comes from the dual control system. The overhook eliminates the opponent's ability to post or create frames on one side, while the head control prevents posture recovery. Together, these create a closed system where the opponent's defensive options are severely limited. By adjusting which grip you release or modify, you can flow between different submission setups while maintaining overall positional control.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive",
+      "risk_level": "Low",
+      "energy_cost": "Low",
+      "time_sustainability": "Long"
+    },
+    "state_invariants": [
+      "Your arm wraps over the opponent's bicep or tricep in a deep overhook, pulling their arm across your body and eliminating their posting ability on that side",
+      "Your other hand grips behind the opponent's neck or head, pulling them down toward your chest to break their posture and complete the diamond frame",
+      "Your legs maintain closed guard with ankles locked behind the opponent's back, heels pulling into their lower back to reinforce the posture break",
+      "The opponent's posture is broken with their head below their hips, weight driven forward, and one arm trapped and unable to post or frame"
+    ],
+    "prerequisites": [
+      "Ability to establish and maintain a deep overhook from closed guard against resistance",
+      "Understanding of triangle, omoplata, and kimura entries from overhook control",
+      "Hip mobility to create angles while maintaining closed guard and diamond controls",
+      "Grip strength and endurance to maintain the diamond frame under defensive pressure"
+    ],
+    "key_principles": [
+      "Establish the overhook first, then add head control—the overhook is the foundation of the diamond",
+      "Keep the overhook deep by pulling your elbow tight to your ribs and driving the opponent's arm across your body",
+      "Use head control to break posture completely before beginning submission chains",
+      "Create dilemmas by threatening multiple submissions that require different defensive responses",
+      "Release head control to open triangle entries, switch to wrist control for omoplata, use overhook for kimura",
+      "Maintain closed guard legs throughout to prevent the opponent from creating distance or posture"
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent keeps both arms inside and fights to recover posture",
+        "actions": [
+          {
+            "technique": "Triangle Setup",
+            "target": "Triangle Control",
+            "probability": 55
+          },
+          {
+            "technique": "Hip Bump Sweep",
+            "target": "Mount",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent posts free hand on mat to prevent being pulled forward",
+        "actions": [
+          {
+            "technique": "Kimura from Guard",
+            "target": "Kimura Trap",
+            "probability": 50
+          },
+          {
+            "technique": "Hip Bump Sweep",
+            "target": "Mount",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts to strip overhook by pulling arm back",
+        "actions": [
+          {
+            "technique": "Closed Guard to Omoplata",
+            "target": "Omoplata Control",
+            "probability": 45
+          },
+          {
+            "technique": "Triangle Setup",
+            "target": "Triangle Control",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent drives forward with shoulder pressure to pass",
+        "actions": [
+          {
+            "technique": "Pendulum Sweep",
+            "target": "Mount",
+            "probability": 50
+          },
+          {
+            "technique": "Armbar from Guard",
+            "target": "Armbar Control",
+            "probability": 45
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Establishing head control without a deep enough overhook",
+        "consequence": "A shallow overhook allows the opponent to strip it easily when you release head control for submission entries, breaking the diamond prematurely",
+        "correction": "Ensure the overhook is deep with your elbow past their tricep before adding head control. The overhook must be secure enough to maintain even when head control is released."
+      },
+      {
+        "error": "Maintaining the diamond passively without threatening submissions",
+        "consequence": "A static diamond gives the opponent time to systematically work their escape by addressing each control point. The diamond's value comes from its submission threats.",
+        "correction": "Constantly cycle between submission threats. The movement between triangle, omoplata, and kimura setups keeps the opponent reactive and prevents systematic escape."
+      },
+      {
+        "error": "Opening your guard legs while attacking from the diamond",
+        "consequence": "Opening guard removes the lower body anchor that prevents the opponent from creating distance. Without closed guard, the diamond frame is much weaker.",
+        "correction": "Keep your guard closed throughout diamond attacks. Only open guard when fully committing to a specific submission like a triangle where leg repositioning is required."
+      },
+      {
+        "error": "Attempting submissions before fully breaking the opponent's posture",
+        "consequence": "Submissions from diamond guard require broken posture to be effective. Attempting them with the opponent still partially upright results in failed entries and diamond loss.",
+        "correction": "Use the diamond frame to fully break posture first—head should be at chest level. Only then begin submission chains."
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Diamond Establishment Flow",
+        "description": "From standard closed guard, practice transitioning into diamond guard by securing overhook then adding head control. Focus on grip depth and posture breaking mechanics. 15 repetitions per side with partner at 30-50% resistance.",
+        "duration": "10 minutes"
+      },
+      {
+        "name": "Submission Chain Drilling from Diamond",
+        "description": "Establish diamond guard and cycle through triangle entry, omoplata rotation, and kimura attack in sequence. Partner defends one submission at a time, and you flow to the next available option. Focus on smooth transitions between attacks.",
+        "duration": "15 minutes"
+      },
+      {
+        "name": "Diamond Guard Retention",
+        "description": "Maintain diamond guard while partner attempts to escape at progressive resistance (40%, 60%, 80%). Focus on maintaining overhook depth and head control through their escape attempts. Track how long diamond can be maintained at each resistance level.",
+        "duration": "4 rounds of 2 minutes"
+      },
+      {
+        "name": "Hip Bump Sweep from Diamond",
+        "description": "Practice the hip bump sweep specifically from diamond guard setup. When opponent resists the posture break by driving back, use their resistance to sit up for the hip bump. Chain with triangle when they post. 10 repetitions per side.",
+        "duration": "10 minutes"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Diamond Guard",
+        "relationship": "Inverse position—opponent's perspective from top"
+      },
+      {
+        "name": "Closed Guard",
+        "relationship": "Parent position—Diamond Guard is built from closed guard"
+      },
+      {
+        "name": "Triangle Control",
+        "relationship": "Primary submission target from diamond guard"
+      },
+      {
+        "name": "Omoplata Control",
+        "relationship": "Secondary submission target from overhook adjustment"
+      },
+      {
+        "name": "Kimura from Guard",
+        "relationship": "Tertiary submission target using overhook control"
+      },
+      {
+        "name": "Hip Bump Sweep",
+        "relationship": "Primary sweep option when opponent resists posture break"
+      },
+      {
+        "name": "Rubber Guard",
+        "relationship": "Related concept using leg flexibility for similar head control objective"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "value": 72,
+        "description": "Ability to maintain diamond frame against escape attempts"
+      },
+      "advancement_probability": {
+        "value": 65,
+        "description": "Likelihood of achieving a sweep or submission from diamond guard"
+      },
+      "submission_probability": {
+        "value": 55,
+        "description": "High submission probability due to multiple chains from diamond control"
+      },
+      "average_time": "30 seconds to 2 minutes before submission or position change"
+    },
+    "transitions": [
+      {
+        "transition": "Triangle Setup",
+        "attempt_probability": 30
+      },
+      {
+        "transition": "Closed Guard to Omoplata",
+        "attempt_probability": 20
+      },
+      {
+        "transition": "Kimura from Guard",
+        "attempt_probability": 20
+      },
+      {
+        "transition": "Hip Bump Sweep",
+        "attempt_probability": 20
+      },
+      {
+        "transition": "Armbar from Guard",
+        "attempt_probability": 10
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "How do you establish the diamond guard from standard closed guard, and what is the correct order of operations?",
+        "answer": "First establish the overhook by swimming your arm over the opponent's bicep when they reach inside your guard or attempt to post. Pull your elbow tight to your ribs to deepen the overhook and drag their arm across your body. Only after the overhook is secure do you add head control by gripping behind their neck with your free hand and pulling their head toward your chest. The overhook must be established first because it is the foundation—head control without a deep overhook creates an incomplete frame that the opponent can strip."
+      },
+      {
+        "question": "What is the submission chain logic from diamond guard and how do you read which submission to attack?",
+        "answer": "The chain follows the opponent's defensive reactions: If they keep their head low and arms tight, release head control and shoot your leg over their shoulder for a triangle entry. If they try to strip the overhook by pulling their arm back, rotate your hips and redirect into an omoplata. If they post their free hand to prevent being pulled down, attack the posted arm with a kimura using the overhook side arm. If they drive forward to escape, use the forward momentum for a hip bump sweep. Each defensive reaction opens a specific offensive pathway."
+      },
+      {
+        "question": "Why does releasing head control open the triangle entry specifically?",
+        "answer": "When you release head control, the opponent's natural reaction is to try to recover posture by raising their head. This upward head movement creates space between their shoulder and your hip—the exact space you need to shoot your leg over their shoulder and behind their neck. The overhook keeps their trapped arm controlled throughout, so when your leg comes over their shoulder, their other arm is already inside the triangle frame. The release is strategic: you trade head control for a higher-value submission position."
+      },
+      {
+        "question": "How does diamond guard create an energy advantage for the bottom player?",
+        "answer": "Maintaining the diamond requires relatively low energy—the overhook and head control are structural controls that use bone and connective tissue rather than muscle. The closed guard legs reinforce the posture break passively. In contrast, escaping the diamond requires the top player to actively fight against multiple control points simultaneously, using significant muscular effort to strip grips, recover posture, and maintain base. This asymmetry means the bottom player can sustain the diamond for extended periods while the top player fatigues, progressively weakening their defense against submission attempts."
+      }
+    ]
+  }
+}

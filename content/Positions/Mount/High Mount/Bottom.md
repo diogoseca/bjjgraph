@@ -4,7 +4,7 @@
 
 ---
 title: "High Mount Bottom | BJJ Position Guide | BJJ Graph"
-description: "Survive and escape High Mount Bottom in BJJ. Emergency defensive strategies covering frame creation, bridge mechanics, and escape sequences with complete bottom perspective analysis. Success rates: Beginner 15%, Intermediate 25%, Advanced 40%."
+description: "Survive and escape High Mount Bottom in BJJ. Emergency defensive strategies covering frame creation, bridge timing, and escape sequences from bottom perspective."
 ---
 
 
@@ -26,8 +26,8 @@ description: "Survive and escape High Mount Bottom in BJJ. Emergency defensive s
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Elbow Escape",
-      "text": "From this position, attempt Elbow Escape. This technique is attempted in 21% of exchanges from this position.",
+      "name": "Execute Elbow Escape to Guard",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 22% of exchanges from this position.",
       "position": 2
     },
     {
@@ -44,8 +44,8 @@ description: "Survive and escape High Mount Bottom in BJJ. Emergency defensive s
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape",
-      "text": "From this position, attempt Hip Escape. This technique is attempted in 20% of exchanges from this position.",
+      "name": "Execute Hip Escape to Guard",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 19% of exchanges from this position.",
       "position": 5
     },
     {
@@ -115,7 +115,7 @@ description: "Survive and escape High Mount Bottom in BJJ. Emergency defensive s
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "High Mount Bottom",
-  "description": "Survive and escape High Mount Bottom in BJJ. Emergency defensive strategies covering frame creation, bridge mechanics, and escape sequences with complete bottom perspective analysis. Success rates: Beginner 15%, Intermediate 25%, Advanced 40%.",
+  "description": "Survive and escape High Mount Bottom in BJJ. Emergency defensive strategies covering frame creation, bridge timing, and escape sequences from bottom perspective.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -215,13 +215,13 @@ From a training perspective, High Mount Bottom teaches practitioners to remain c
 
 ### [[Upa Escape]] (15% of attempts)
 
-### [[Elbow Escape]] (21% of attempts)
+### [[Elbow Escape to Guard]] (22% of attempts)
 
 ### [[Bridge and Roll]] (12% of attempts)
 
 ### [[Shrimp Escape]] (15% of attempts)
 
-### [[Hip Escape]] (20% of attempts)
+### [[Hip Escape to Guard]] (19% of attempts)
 
 ### [[Frame Creation]] (17% of attempts)
 
@@ -239,18 +239,18 @@ From a training perspective, High Mount Bottom teaches practitioners to remain c
 
 
 **If opponent's knee slides away from armpit during transition or submission setup:**
-- Execute **[[Elbow Escape]]** → [[Half Guard]] (Probability: 35%)
-- Execute **[[Hip Escape]]** → [[Half Guard]] (Probability: 30%)
+- Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 35%)
+- Execute **[[Hip Escape to Guard]]** → [[Half Guard]] (Probability: 30%)
 
 
 **If opponent reaches for collar or attempts to isolate extended arm for attack:**
-- Execute **[[Frame and Shrimp]]** → [[Open Guard]] (Probability: 45%)
+- Execute **[[Frame and Shrimp to Guard]]** → [[Open Guard]] (Probability: 45%)
 - Execute **[[Armbar Defense]]** → [[High Mount]] (Probability: 40%)
 
 
 **If opponent maintains static control without immediate submission threat:**
 - Execute **[[Shrimp Escape]]** → [[Open Guard]] (Probability: 25%)
-- Execute **[[Frame and Shrimp]]** → [[Open Guard]] (Probability: 30%)
+- Execute **[[Frame Creation]]** → [[Open Guard]] (Probability: 30%)
 
 
 
@@ -320,7 +320,7 @@ Start in high mount bottom position and attempt escapes for 2-minute rounds. Par
 
 ### Submission Defense Reaction Drill
 
-Partner alternates between armbar, collar choke, and Ezekiel attempts from high mount while you practice appropriate defensive responses. Focus on recognizing setup grips early and defending before full control is established.
+Partner alternates between armbar, collar choke, and americana attempts from high mount while you practice appropriate defensive responses. Focus on recognizing setup grips early and defending before full control is established.
 
 **Duration**: 4 rounds of 3 minutes each
 
@@ -402,7 +402,7 @@ Drill all escape options (upa, elbow escape, frame and shrimp) against progressi
 - **[[Half Guard]]** - Escape target - realistic goal position when elbow escape succeeds
 - **[[Closed Guard]]** - Escape target - optimal goal position when upa or bridge escapes succeed
 - **[[Upa Escape]]** - Primary technique - bridge-based escape requiring perfect timing during opponent's transitions
-- **[[Elbow Escape]]** - Most realistic technique - frame and shrimp escape to recover half guard
+- **[[Elbow Escape to Guard]]** - Most realistic technique - frame and shrimp escape to recover half guard
 - **[[Open Guard]]** - Escape target - possible outcome when frames and shrimps create sufficient space
 
 

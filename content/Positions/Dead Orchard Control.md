@@ -89,15 +89,19 @@ Dead Orchard Control represents an advanced positional control within Brazilian 
 ### Available Transitions
 
 
-- **[[Hip Escape]]** (25% of attempts)
+- **[[Shrimp Escape]]** (28% of attempts)
 
-- **[[Rolling to Guard]]** (20% of attempts)
+- **[[Rolling to Guard]]** (19% of attempts)
 
-- **[[Granby Roll]]** (18% of attempts)
+- **[[Granby Roll to Guard]]** (12% of attempts)
 
 - **[[Arm Extraction]]** (20% of attempts)
 
-- **[[Technical Standup]]** (17% of attempts)
+- **[[Hip Escape to Guard]]** (12% of attempts)
+
+- **[[Escape Dead Orchard Control]]** (6% of attempts)
+
+- **[[Roll from Dead Orchard]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -162,15 +166,19 @@ Dead Orchard Control represents an advanced positional control within Brazilian 
 ### Available Transitions
 
 
-- **[[Anaconda Choke]]** (25% of attempts)
+- **[[Anaconda Choke]]** (37% of attempts)
 
-- **[[Side Control to Mount]]** (20% of attempts)
+- **[[Darce from Turtle]]** (13% of attempts)
 
-- **[[Side Control to North-South]]** (20% of attempts)
+- **[[Front Headlock to Back]]** (18% of attempts)
 
-- **[[Darce from Turtle]]** (15% of attempts)
+- **[[Side Control to Mount]]** (18% of attempts)
 
-- **[[Front Headlock to Back]]** (20% of attempts)
+- **[[Side Control to North-South]]** (8% of attempts)
+
+- **[[Dead Orchard to Anaconda Finish]]** (4% of attempts)
+
+- **[[Dead Orchard to Darce Switch]]** (2% of attempts)
 
 
 ### Common Mistakes

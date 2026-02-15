@@ -1,0 +1,13 @@
+{
+  "name": "Stack Pass from Meathook",
+  "description": "",
+  "tags": [],
+  "from_position": "Meathook/Top",
+  "outcomes": [
+    {
+      "to": "Half Guard/Top",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

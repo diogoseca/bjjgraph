@@ -89,19 +89,29 @@ The Rubber Guard is a specialized guard position developed and popularized withi
 ### Available Transitions
 
 
-- **[[Triangle Setup]]** (25% of attempts)
+- **[[Triangle Setup]]** (53% of attempts)
 
-- **[[Omoplata from Guard]]** (20% of attempts)
+- **[[Omoplata]]** (15% of attempts)
 
-- **[[Gogoplata]]** (10% of attempts)
+- **[[Gogoplata]]** (5% of attempts)
 
-- **[[Rubber Guard Maintenance]]** (15% of attempts)
+- **[[Rubber Guard Maintenance]]** (10% of attempts)
 
-- **[[Hip Bump Sweep]]** (10% of attempts)
+- **[[Hip Bump Sweep]]** (5% of attempts)
 
-- **[[Omoplata Sweep]]** (10% of attempts)
+- **[[Omoplata Sweep]]** (5% of attempts)
 
-- **[[Guard Recovery]]** (10% of attempts)
+- **[[Guard Recovery]]** (5% of attempts)
+
+- **[[Crackhead Control Entry]]** (1% of attempts)
+
+- **[[Mission Control Entry from Rubber Guard]]** (0% of attempts)
+
+- **[[New York Entry from Rubber Guard]]** (0% of attempts)
+
+- **[[Rubber Guard Sweep]]** (0% of attempts)
+
+- **[[Rubber Guard to Closed Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -164,13 +174,15 @@ The Rubber Guard is a specialized guard position developed and popularized withi
 
 - **[[Posture Recovery]]** (30% of attempts)
 
-- **[[Rubber Guard Clear to Pass]]** (25% of attempts)
+- **[[Rubber Guard Clear to Pass]]** (23% of attempts)
 
-- **[[Arm Extraction]]** (20% of attempts)
+- **[[Arm Extraction]]** (19% of attempts)
 
-- **[[Stack Pass]]** (15% of attempts)
+- **[[Stack Pass]]** (14% of attempts)
 
-- **[[Guard Pass]]** (10% of attempts)
+- **[[Pressure Pass]]** (9% of attempts)
+
+- **[[Rubber Guard Top Posture Escape]]** (5% of attempts)
 
 
 ### Common Mistakes

@@ -21,37 +21,37 @@ description: "Master Ashi Garami from bottom with systematic leg control, hierar
     {
       "@type": "HowToStep",
       "name": "Execute Inside Ashi Entry",
-      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 62% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Cross Ashi Transition",
-      "text": "From this position, attempt Cross Ashi Transition. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Cross Ashi Transition. This technique is attempted in 7% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Inside Ashi-Garami to Honey Hole",
-      "text": "From this position, attempt Inside Ashi-Garami to Honey Hole. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Heel Hook",
+      "text": "From this position, attempt Heel Hook. This technique is attempted in 4% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Heel Hook",
-      "text": "From this position, attempt Heel Hook. This technique is attempted in 20% of exchanges from this position.",
+      "name": "Execute Straight Ankle Lock Entry",
+      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Straight Ankle Lock",
-      "text": "From this position, attempt Straight Ankle Lock. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute 50-50 Entry",
+      "text": "From this position, attempt 50-50 Entry. This technique is attempted in 5% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute 50-50 Entry from Standing",
-      "text": "From this position, attempt 50-50 Entry from Standing. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Toe Hold",
+      "text": "From this position, attempt Toe Hold. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,21 +208,31 @@ Bottom Ashi Garami mastery requires extensive drilling of fundamental mechanics 
 
 ## Available Escapes
 
-### [[Inside Ashi Entry]] (20% of attempts)
+### [[Inside Ashi Entry]] (62% of attempts)
 
-### [[Cross Ashi Transition]] (15% of attempts)
+### [[Cross Ashi Transition]] (7% of attempts)
 
-### [[Inside Ashi-Garami to Honey Hole]] (10% of attempts)
+### [[Heel Hook]] (4% of attempts)
 
-### [[Heel Hook]] (20% of attempts)
+### [[Straight Ankle Lock Entry]] (12% of attempts)
 
-### [[Straight Ankle Lock]] (10% of attempts)
+### [[50-50 Entry]] (5% of attempts)
 
-### [[50-50 Entry from Standing]] (10% of attempts)
+### [[Toe Hold]] (5% of attempts)
 
-### [[X-Guard to Ashi Transition]] (5% of attempts)
+### [[Kneebar Setup]] (2% of attempts)
 
-### [[Inside Ashi-Garami to Cross Ashi]] (10% of attempts)
+### [[Single Leg X Transition]] (1% of attempts)
+
+### [[Transition to Backside 50-50]] (1% of attempts)
+
+### [[Back Take from Ashi]] (0% of attempts)
+
+### [[Ashi Garami Maintenance]] (0% of attempts)
+
+### [[Heel Strip from Ashi Garami]] (0% of attempts)
+
+### [[Standing Up from Ashi Garami]] (1% of attempts)
 
 
 
@@ -259,7 +269,7 @@ Bottom Ashi Garami mastery requires extensive drilling of fundamental mechanics 
 
 
 **If opponent's base collapses and they fall flat with limited hip mobility during extraction:**
-- Execute **[[Straight Ankle Lock]]** → [[Game Over]] (Probability: 45%)
+- Execute **[[Straight Ankle Lock Entry]]** → [[Game Over]] (Probability: 45%)
 - Execute **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]] (Probability: 55%)
 
 

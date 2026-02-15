@@ -20,32 +20,32 @@ description: "Defend against S Mount attacks in BJJ. Critical escape techniques,
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Elbow Escape",
-      "text": "From this position, attempt Elbow Escape. This technique is attempted in 30% of exchanges from this position.",
+      "name": "Execute Elbow Escape to Guard",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 28% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape",
-      "text": "From this position, attempt Hip Escape. This technique is attempted in 30% of exchanges from this position.",
+      "name": "Execute Hip Escape to Guard",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 27% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Standup",
-      "text": "From this position, attempt Technical Standup. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Technical Stand-up",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Frame and Shrimp",
-      "text": "From this position, attempt Frame and Shrimp. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Frame and Shrimp to Guard",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 17% of exchanges from this position.",
       "position": 5
     }
   ],
@@ -206,15 +206,15 @@ Mental composure under pressure is perhaps the most critical factor in S Mount b
 
 ## Available Escapes
 
-### [[Elbow Escape]] (30% of attempts)
+### [[Elbow Escape to Guard]] (28% of attempts)
 
-### [[Hip Escape]] (30% of attempts)
+### [[Hip Escape to Guard]] (27% of attempts)
 
-### [[Bridge and Roll]] (15% of attempts)
+### [[Bridge and Roll]] (18% of attempts)
 
-### [[Technical Standup]] (10% of attempts)
+### [[Technical Stand-up]] (10% of attempts)
 
-### [[Frame and Shrimp]] (15% of attempts)
+### [[Frame and Shrimp to Guard]] (17% of attempts)
 
 
 
@@ -225,27 +225,27 @@ Mental composure under pressure is perhaps the most critical factor in S Mount b
 ## Decision Making from This Position
 
 **If opponent has full S Mount control with leg over head but arm is still bent and protected:**
-- Execute **[[Grip own collar]]** → [[S Mount]] (Probability: 90%)
+- Execute **[[Grip own collar and maintain bent arm defense]]** → [[S Mount]] (Probability: 90%)
 - Execute **[[Control opponent's leg with free hand]]** → [[S Mount]] (Probability: 85%)
-- Execute **[[Hip escape toward legs]]** → [[Half Guard]] (Probability: 30%)
+- Execute **[[Hip escape toward legs while protecting arm]]** → [[Half Guard]] (Probability: 30%)
 
 
 **If opponent is transitioning to S Mount but hasn't fully stepped over head yet:**
-- Execute **[[Frame against hips immediately]]** → [[Mount]] (Probability: 45%)
-- Execute **[[Hook opponent's leg with free arm]]** → [[Mount]] (Probability: 40%)
-- Execute **[[Bridge explosively]]** → [[Mount]] (Probability: 35%)
+- Execute **[[Frame against hips immediately to prevent step-over]]** → [[Mount]] (Probability: 45%)
+- Execute **[[Hook opponent's leg with free arm to block transition]]** → [[Mount]] (Probability: 40%)
+- Execute **[[Bridge explosively to disrupt transition]]** → [[Mount]] (Probability: 35%)
 
 
 **If arm is partially extended and opponent is securing armbar grip:**
-- Execute **[[Pull arm back aggressively]]** → [[S Mount]] (Probability: 60%)
-- Execute **[[Roll toward opponent]]** → [[Turtle]] (Probability: 40%)
-- Execute **[[Tap if full extension achieved]]** → [[game-over]] (Probability: 100%)
+- Execute **[[Pull arm back aggressively and re-grip collar]]** → [[S Mount]] (Probability: 60%)
+- Execute **[[Roll toward opponent to relieve pressure]]** → [[Turtle]] (Probability: 40%)
+- Execute **[[Tap if full extension achieved with hips locked]]** → [[Game Over]] (Probability: 100%)
 
 
 **If opponent adjusts position to attack other arm or transition to different submission:**
-- Execute **[[Explosive hip escape]]** → [[Half Guard]] (Probability: 50%)
-- Execute **[[Establish frames and create space]]** → [[Open Guard]] (Probability: 45%)
-- Execute **[[Bridge and roll]]** → [[Mount]] (Probability: 25%)
+- Execute **[[Explosive hip escape during adjustment window]]** → [[Half Guard]] (Probability: 50%)
+- Execute **[[Establish frames and shrimp to create distance]]** → [[Open Guard]] (Probability: 45%)
+- Execute **[[Bridge and roll during positional instability]]** → [[Mount]] (Probability: 25%)
 
 
 
@@ -281,7 +281,7 @@ Mental composure under pressure is perhaps the most critical factor in S Mount b
 - ❌ **Consequence**: Opponent easily steps over head to complete armbar or transitions to mounted triangle
 - ✅ **Correction**: Always maintain control of opponent's near leg with free hand to prevent full armbar setup
 
-### 6. Turning away from opponent to protect trapped arm
+### 6. Turning away from opponent to protect trapped arm exposing back
 
 - ❌ **Consequence**: Gives up back control or allows opponent to establish rear mount with both hooks
 - ✅ **Correction**: Face opponent, keep shoulders square, use technical frames rather than turning away
@@ -303,7 +303,7 @@ Partner establishes S Mount control with 50% resistance. Practice defensive post
 
 ### Armbar Defense Flow Drill
 
-Partner attacks armbar from S Mount position repeatedly while you practice defensive frames and arm protection. Work through sequence: collar grip → leg control → frame creation → hip escape. Reset and repeat continuously to build muscle memory for defensive reactions under pressure.
+Partner attacks armbar from S Mount position repeatedly while you practice defensive frames and arm protection. Work through sequence: collar grip, leg control, frame creation, hip escape. Reset and repeat continuously to build muscle memory for defensive reactions under pressure.
 
 **Duration**: 3 minutes
 
@@ -383,9 +383,9 @@ Partner establishes S Mount, timer starts. Race to execute complete escape to gu
 - **[[Armbar Control]]** - Primary threat from this position - studying armbar mechanics improves defensive understanding
 - **[[Half Guard]]** - Primary escape destination - most successful escapes lead to half guard position
 - **[[Closed Guard]]** - Alternative escape destination - recovery target when full escape is possible
-- **[[Elbow Escape]]** - Core escape technique - fundamental movement pattern for creating space
-- **[[Hip Escape]]** - Essential movement - primary defensive motion for escaping S Mount
-- **[[Turtle]]** - Emergency escape option - sometimes necessary to escape arm attack
+- **[[Elbow Escape to Guard]]** - Core escape technique - fundamental movement pattern for creating space from mount
+- **[[Hip Escape to Guard]]** - Essential movement - primary defensive motion for escaping S Mount pressure
+- **[[Turtle]]** - Emergency escape option - sometimes necessary to escape arm attack by rolling
 
 
 </section>

@@ -1,0 +1,13 @@
+{
+  "name": "Pressure Through Squid Guard",
+  "description": "",
+  "tags": [],
+  "from_position": "Squid Guard/Top",
+  "outcomes": [
+    {
+      "to": "Half Guard/Top",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

@@ -369,9 +369,9 @@ Recording rolling sessions and analyzing transition attempts to evaluate timing 
 - [[Position Chains]] (Principle) - Represents advanced application of transition management through systematic position sequences
 - [[Control Maintenance]] (Principle) - Governs preservation of dominance and connection during transitional movements
 - [[Creating Reactions]] (Principle) - Provides methods for deliberately creating transition windows through opponent manipulation
-- [[Guard Pass]] (Transition) - Major category of transitions where management principles heavily influence success rates
-- [[Back Take Generic]] (Transition) - High-value transition category requiring sophisticated management due to vulnerability if failed
-- [[Hip Escape]] (Transition) - Fundamental defensive transition requiring careful timing and structural maintenance
+- [[Pass to Side Control]] (Transition) - Major category of transitions where management principles heavily influence success rates
+- [[Back Take]] (Transition) - High-value transition category requiring sophisticated management due to vulnerability if failed
+- [[Hip Escape to Guard]] (Transition) - Fundamental defensive transition requiring careful timing and structural maintenance
 - [[Bridge and Roll]] (Transition) - Classic transition demonstrating importance of timing recognition and momentum control
 
 

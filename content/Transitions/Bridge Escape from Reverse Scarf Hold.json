@@ -1,0 +1,141 @@
+{
+  "name": "Bridge Escape from Reverse Scarf Hold",
+  "description": "TODO: Write 150-160 character SEO description for Bridge Escape from Reverse Scarf Hold.",
+  "tags": [
+    "bjj",
+    "transition",
+    "escape",
+    "side-control",
+    "reverse-scarf-hold"
+  ],
+  "from_position": "Reverse Scarf Hold/Bottom",
+  "outcomes": [
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 40,
+      "result": "success"
+    },
+    {
+      "to": "Reverse Scarf Hold/Bottom",
+      "probability": 35,
+      "result": "failure"
+    },
+    {
+      "to": "Mount/Bottom",
+      "probability": 25,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 40,
+  "overview": "TODO: Write overview for Bridge Escape from Reverse Scarf Hold.",
+  "conditions": [
+    "TODO"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "TODO",
+      "description": "TODO",
+      "when_to_use": "TODO"
+    }
+  ],
+  "position_integration": "TODO: Write position integration for Bridge Escape from Reverse Scarf Hold.",
+  "related_content": [
+    {
+      "name": "TODO",
+      "relationship": "TODO"
+    }
+  ],
+  "attacker": {
+    "name": "Bridge Escape from Reverse Scarf Hold Attacker",
+    "description": "TODO: Write attacker description for Bridge Escape from Reverse Scarf Hold.",
+    "overview": "TODO: Write attacker overview for Bridge Escape from Reverse Scarf Hold.",
+    "key_principles": [
+      "TODO"
+    ],
+    "setup_requirements": [
+      "TODO"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "TODO",
+        "description": "TODO"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "TODO",
+        "effectiveness": "Medium",
+        "your_response": "TODO",
+        "targets_outcome": "Reverse Scarf Hold/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "TODO",
+        "description": "TODO"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "TODO",
+        "answer": "TODO"
+      }
+    ],
+    "safety_considerations": "TODO: Write safety considerations for Bridge Escape from Reverse Scarf Hold."
+  },
+  "defender": {
+    "name": "Bridge Escape from Reverse Scarf Hold Defender",
+    "description": "TODO: Write defender description for Bridge Escape from Reverse Scarf Hold.",
+    "overview": "TODO: Write defender overview for Bridge Escape from Reverse Scarf Hold.",
+    "key_principles": [
+      "TODO"
+    ],
+    "recognition_cues": [
+      "TODO"
+    ],
+    "defensive_options": [
+      {
+        "action": "TODO",
+        "when_to_use": "TODO",
+        "targets_outcome": "Reverse Scarf Hold/Bottom",
+        "if_successful": "TODO",
+        "risk": "TODO"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "TODO"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "TODO",
+        "answer": "TODO"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "TODO",
+        "description": "TODO"
+      }
+    ]
+  }
+}

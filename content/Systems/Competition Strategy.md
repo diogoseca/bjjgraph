@@ -362,7 +362,7 @@ Competition strategy development requires three-phase drilling methodology: isol
 - [[Guard Pull]] (Transition) - Strategic opening technique allowing immediate ground engagement and avoidance of takedown exchanges
 - [[Double Leg Entry]] (Transition) - High-percentage takedown for establishing top position and early point scoring in standing phase
 - [[Knee Slice Pass]] (Transition) - Fundamental guard pass providing reliable route to side control and point accumulation
-- [[Back Take Generic]] (Transition) - Highest-value positional advancement providing 4 points and dominant submission opportunities
+- [[Back Take]] (Transition) - Highest-value positional advancement providing 4 points and dominant submission opportunities
 - [[Closed Guard]] (Position) - Fundamental guard position offering strong control and multiple attacking options, commonly established after guard pull
 - [[Mount]] (Position) - Dominant top position worth 4 points providing excellent submission opportunities and positional stability
 - [[Back Control]] (Position) - Highest-value position providing 4 points and most dominant submission threats, ultimate positional objective

@@ -365,7 +365,7 @@ During rolling, verbally identify the primary lever system being used immediatel
 - [[Weight Distribution]] (Principle) - Practical application of pressure concentration and mass distribution physics
 - [[Posture Breaking]] (Principle) - Offensive application of structural collapse and moment arm manipulation
 - [[Sweep Mechanics]] (Principle) - Application of rotational biomechanics and base disruption principles
-- [[Hip Escape]] (Transition) - Classic example of rotational mechanics and leverage application in escapes
+- [[Hip Escape to Guard]] (Transition) - Classic example of rotational mechanics and leverage application in escapes
 - [[Armbar from Mount]] (Submission) - Demonstrates lever mechanics, fulcrum placement, and structural attack principles
 - [[Mount]] (Position) - Position where pressure distribution and base geometry principles are clearly demonstrated
 - [[Closed Guard]] (Position) - Position exemplifying leverage creation through positional configuration and force vector control

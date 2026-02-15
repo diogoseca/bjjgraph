@@ -93,21 +93,25 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 ### Available Transitions
 
 
-- **[[Guillotine Choke]]** (13% of attempts)
+- **[[Guillotine Choke]]** (50% of attempts)
 
-- **[[High Elbow Guillotine]]** (12% of attempts)
+- **[[High Elbow Guillotine Variation]]** (13% of attempts)
 
-- **[[Arm in Guillotine]]** (13% of attempts)
+- **[[Hip Bump Sweep]]** (10% of attempts)
 
-- **[[Hip Bump Sweep]]** (12% of attempts)
+- **[[Closed Guard to Omoplata]]** (4% of attempts)
 
-- **[[Guillotine Setup]]** (14% of attempts)
+- **[[Closed Guard to Triangle]]** (6% of attempts)
 
-- **[[Closed Guard to Omoplata]]** (10% of attempts)
+- **[[Guard Recovery]]** (6% of attempts)
 
-- **[[Switch to Triangle]]** (12% of attempts)
+- **[[Butterfly Sweep with Guillotine]]** (6% of attempts)
 
-- **[[Anaconda Choke]]** (14% of attempts)
+- **[[Guillotine Setup]]** (3% of attempts)
+
+- **[[Guillotine Escape to Von Flue]]** (1% of attempts)
+
+- **[[Guillotine Escape via Posture]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -172,23 +176,25 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 ### Available Transitions
 
 
-- **[[Guillotine Choke]]** (13% of attempts)
+- **[[Guillotine Choke]]** (44% of attempts)
 
-- **[[High Elbow Guillotine]]** (10% of attempts)
+- **[[High Elbow Guillotine Variation]]** (16% of attempts)
 
-- **[[Arm in Guillotine]]** (10% of attempts)
+- **[[Front Headlock to Anaconda]]** (7% of attempts)
 
-- **[[Front Headlock to Anaconda]]** (10% of attempts)
+- **[[Front Headlock to Darce]]** (7% of attempts)
 
-- **[[Front Headlock to Darce]]** (10% of attempts)
+- **[[Side Control to Mount]]** (7% of attempts)
 
-- **[[Side Control to Mount]]** (12% of attempts)
+- **[[Side Control to North-South]]** (5% of attempts)
 
-- **[[Side Control to North-South]]** (12% of attempts)
+- **[[Pass to Side Control]]** (10% of attempts)
 
-- **[[Guard Pass]]** (12% of attempts)
+- **[[Arm in Guillotine Variation]]** (2% of attempts)
 
-- **[[Guillotine Counter]]** (11% of attempts)
+- **[[Guillotine Counter]]** (1% of attempts)
+
+- **[[Ten Finger Guillotine Variation]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -248,8 +254,6 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 - **[[North-South]]** - Alternative advancement position maintaining head control
 
 - **[[Turtle]]** - Common entry position for securing guillotine grip
-
-- **[[Standing Position]]** - Primary entry context for guillotine from sprawls and clinch exchanges
 
 - **[[Side Control]]** - Advancement target when passing while maintaining guillotine grip
 

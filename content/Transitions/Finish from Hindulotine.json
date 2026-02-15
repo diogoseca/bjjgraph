@@ -1,0 +1,42 @@
+{
+  "name": "Finish from Hindulotine",
+  "description": "Master the Finish from Hindulotine in BJJ. Learn proper squeeze mechanics and body positioning to complete this unique guillotine variation.",
+  "tags": ["bjj", "transition", "submission-finish", "hindulotine", "choke", "guillotine"],
+  "from_position": "Hindulotine/Top",
+  "outcomes": [
+    {"to": "game-over", "probability": 55, "result": "success"},
+    {"to": "Hindulotine/Top", "probability": 30, "result": "failure"},
+    {"to": "Half Guard/Bottom", "probability": 15, "result": "counter"}
+  ],
+  "success_rate": 55,
+  "overview": "TODO",
+  "conditions": ["TODO"],
+  "variants_and_adaptations": [{"variant_name": "TODO", "description": "TODO", "when_to_use": "TODO"}],
+  "position_integration": "TODO",
+  "related_content": [{"name": "TODO", "relationship": "TODO"}],
+  "attacker": {
+    "name": "Finish from Hindulotine Attacker",
+    "description": "TODO",
+    "overview": "TODO",
+    "key_principles": ["TODO"],
+    "setup_requirements": ["TODO"],
+    "execution_steps": [{"step_number": 1, "action": "TODO", "description": "TODO"}],
+    "common_counters": [{"counter": "TODO", "effectiveness": "Medium", "your_response": "TODO", "targets_outcome": "Hindulotine/Top"}],
+    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
+    "training_progressions": [{"phase": "Phase 1: Mechanics", "focus": "TODO", "description": "TODO"}],
+    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
+    "safety_considerations": "TODO"
+  },
+  "defender": {
+    "name": "Finish from Hindulotine Defender",
+    "description": "TODO",
+    "overview": "TODO",
+    "key_principles": ["TODO"],
+    "recognition_cues": ["TODO"],
+    "defensive_options": [{"action": "TODO", "when_to_use": "TODO", "targets_outcome": "Hindulotine/Top", "if_successful": "TODO", "risk": "TODO"}],
+    "favorable_outcomes": [{"outcome": "Hindulotine/Top", "how": "TODO"}],
+    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
+    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
+    "training_progressions": [{"phase": "Phase 1: Recognition", "focus": "TODO", "description": "TODO"}]
+  }
+}

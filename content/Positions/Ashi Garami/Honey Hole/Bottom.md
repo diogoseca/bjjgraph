@@ -4,7 +4,7 @@
 
 ---
 title: "Honey Hole Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master Honey Hole defense in BJJ. Escape techniques, heel hook defense, and survival strategies. Success rates: Beginner 25%, Intermediate 40%, Advanced 55%."
+description: "Master Honey Hole defense in BJJ. Escape techniques, heel hook defense, counter-entanglement strategies, and survival protocols for inside leg entanglement."
 ---
 
 
@@ -21,37 +21,37 @@ description: "Master Honey Hole defense in BJJ. Escape techniques, heel hook def
     {
       "@type": "HowToStep",
       "name": "Execute Inversion Escape",
-      "text": "From this position, attempt Inversion Escape. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Inversion Escape. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape",
-      "text": "From this position, attempt Hip Escape. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Hip Escape to Guard",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 8% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Counter Sweep",
-      "text": "From this position, attempt Counter Sweep. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Saddle Defense",
+      "text": "From this position, attempt Saddle Defense. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling to Guard",
-      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Ashi Garami Escape",
+      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Standup",
-      "text": "From this position, attempt Technical Standup. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Counter-entangle to 50-50 Guard",
+      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 30% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Saddle Defense",
-      "text": "From this position, attempt Saddle Defense. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Counter heel hook",
+      "text": "From this position, attempt Counter heel hook. This technique is attempted in 4% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -115,7 +115,7 @@ description: "Master Honey Hole defense in BJJ. Escape techniques, heel hook def
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Honey Hole Bottom",
-  "description": "Master Honey Hole defense in BJJ. Escape techniques, heel hook defense, and survival strategies. Success rates: Beginner 25%, Intermediate 40%, Advanced 55%.",
+  "description": "Master Honey Hole defense in BJJ. Escape techniques, heel hook defense, counter-entanglement strategies, and survival protocols for inside leg entanglement.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -208,21 +208,23 @@ Strategically, being on bottom of Honey Hole is survival situation rather than c
 
 ## Available Escapes
 
-### [[Inversion Escape]] (13% of attempts)
+### [[Inversion Escape]] (15% of attempts)
 
-### [[Hip Escape]] (11% of attempts)
+### [[Hip Escape to Guard]] (8% of attempts)
 
-### [[Counter Sweep]] (15% of attempts)
+### [[Saddle Defense]] (10% of attempts)
 
-### [[Rolling to Guard]] (12% of attempts)
+### [[Ashi Garami Escape]] (8% of attempts)
 
-### [[Technical Standup]] (10% of attempts)
+### [[Counter-entangle to 50-50 Guard]] (30% of attempts)
 
-### [[Saddle Defense]] (14% of attempts)
+### [[Counter heel hook]] (4% of attempts)
 
-### [[Rolling Back Take]] (12% of attempts)
+### [[Reverse the entanglement to Outside Ashi]] (9% of attempts)
 
-### [[Ashi Garami Escape]] (13% of attempts)
+### [[Grip Break]] (14% of attempts)
+
+### [[Standing Escape]] (2% of attempts)
 
 
 
@@ -233,26 +235,26 @@ Strategically, being on bottom of Honey Hole is survival situation rather than c
 ## Decision Making from This Position
 
 **If opponent has not yet secured heel grip and triangle is forming:**
-- Execute **[[Hip Escape]]** → [[Open Guard]] (Probability: 35%)
-- Execute **[[Granby Roll]]** → [[Turtle]] (Probability: 30%)
+- Execute **[[Hip Escape to Guard]]** → [[Open Guard]] (Probability: 35%)
+- Execute **[[Granby Roll to Guard]]** → [[Turtle]] (Probability: 30%)
 - Execute **[[Counter Sweep]]** → [[50-50 Guard]] (Probability: 25%)
 
 
 **If opponent has heel grip but has not yet applied breaking pressure:**
-- Execute **[[Grip Break]]** → [[Defensive Position]] (Probability: 20%)
+- Execute **[[Grip Break]]** → [[Honey Hole]] (Probability: 20%)
 - Execute **[[Rolling to Guard]]** → [[Half Guard]] (Probability: 15%)
 - Execute **[[Saddle Defense]]** → [[Outside Ashi-Garami]] (Probability: 18%)
 
 
 **If opponent has locked heel hook grip with triangle secured and begins applying pressure:**
-- Execute **[[Tap Out]]** → [[game-over]] (Probability: 95%)
-- Execute **[[Rolling Back Take]]** → [[Defensive Position]] (Probability: 5%)
+- Execute **[[Tap Out]]** → [[Game Over]] (Probability: 95%)
+- Execute **[[Rolling Back Take]]** → [[Open Guard]] (Probability: 5%)
 
 
 **If opponent loses triangle momentarily during transition:**
-- Execute **[[Hip Escape]]** → [[Open Guard]] (Probability: 40%)
-- Execute **[[Technical Standup]]** → [[Standing Position]] (Probability: 25%)
-- Execute **[[Granby Roll]]** → [[Turtle]] (Probability: 30%)
+- Execute **[[Hip Escape to Guard]]** → [[Open Guard]] (Probability: 40%)
+- Execute **[[Standing Escape]]** → [[Clinch]] (Probability: 25%)
+- Execute **[[Granby Roll to Guard]]** → [[Turtle]] (Probability: 30%)
 
 
 

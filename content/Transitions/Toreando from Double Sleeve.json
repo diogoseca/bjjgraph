@@ -1,0 +1,13 @@
+{
+  "name": "Toreando from Double Sleeve",
+  "description": "",
+  "tags": [],
+  "from_position": "Double Sleeve Guard/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

@@ -23,10 +23,6 @@
       "relationship": "Target destination position for successful Matrix completion"
     },
     {
-      "name": "Scramble Position",
-      "relationship": "Dynamic environment where Matrix opportunities frequently arise"
-    },
-    {
       "name": "Crab Ride",
       "relationship": "Alternative back attack approach with similar timing windows"
     },
@@ -45,6 +41,10 @@
     {
       "name": "Gift Wrap",
       "relationship": "Alternative control when Matrix brings arm across body"
+    },
+    {
+      "name": "Front Headlock",
+      "relationship": "Alternative attacking position when Matrix is countered from top"
     }
   ],
   "top": {
@@ -142,13 +142,13 @@
         "condition": "Bottom player posts shoulder and initiates rotation",
         "actions": [
           {
-            "technique": "Base Widening",
-            "target": "Turtle",
+            "technique": "Crossface Pass",
+            "target": "Side Control",
             "probability": 60
           },
           {
-            "technique": "Weight Distribution Adjustment",
-            "target": "Turtle",
+            "technique": "Knee Slice Pass",
+            "target": "Side Control",
             "probability": 55
           }
         ]
@@ -162,7 +162,7 @@
             "probability": 60
           },
           {
-            "technique": "Turtle to Back Take",
+            "technique": "Back Take from Top",
             "target": "Back Control",
             "probability": 55
           }
@@ -260,16 +260,16 @@
         "relationship": "Offensive counter when opponent posts arm for Matrix entry"
       },
       {
-        "name": "Scramble Position",
-        "relationship": "Common result when Matrix attempts are partially defended"
+        "name": "Crossface Pass",
+        "relationship": "Pressure passing option after blocking Matrix rotation"
       },
       {
-        "name": "Base Maintenance",
-        "relationship": "Fundamental principle underlying effective Matrix defense"
-      },
-      {
-        "name": "Turtle to Back Take",
+        "name": "Back Take from Top",
         "relationship": "Alternative back attack approach when Matrix is defended"
+      },
+      {
+        "name": "Guillotine from Turtle",
+        "relationship": "Submission counter when opponent exposes neck during Matrix setup"
       }
     ],
     "position_metrics": {
@@ -290,35 +290,47 @@
     "transitions": [
       {
         "transition": "Sprawl Defense",
-        "attempt_probability": 15
-      },
-      {
-        "transition": "Crossface Pass",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "Back Step",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Knee Slice Pass",
-        "attempt_probability": 14
-      },
-      {
-        "transition": "Turtle to Back Take",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "Darce from Turtle",
         "attempt_probability": 11
       },
       {
+        "transition": "Crossface Pass",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Back Step",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Knee Slice Pass",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Back Take from Top",
+        "attempt_probability": 26
+      },
+      {
+        "transition": "Darce from Turtle",
+        "attempt_probability": 8
+      },
+      {
         "transition": "Guillotine from Turtle",
-        "attempt_probability": 12
+        "attempt_probability": 8
       },
       {
         "transition": "Anaconda from Turtle",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Turtle Flatten to Side Control",
         "attempt_probability": 10
+      },
+      {
+        "transition": "Matrix to Back Control",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Matrix to Side Control",
+        "attempt_probability": 2
       }
     ]
   },
@@ -382,7 +394,7 @@
       },
       {
         "question": "You're mid-rotation and feel your opponent beginning to follow and flatten you—what's your response?",
-        "answer": "Accelerate the rotation and commit harder rather than slowing down. Hesitation mid-rotation is the worst possible outcome—you're inverted with your back exposed and no defensive structure. Either complete the rotation explosively and race them to hook establishment, or if that's impossible, immediately transition to a granby roll to guard recovery. Never stop in the vulnerable inverted position."
+        "answer": "Accelerate the rotation and commit harder rather than slowing down. Hesitation mid-rotation is the worst possible outcome—you're inverted with your back exposed and no defensive structure. Either complete the rotation explosively and race them to hook establishment, or if that's impossible, immediately transition to a guard recovery using the rolling momentum to pull into closed guard. Never stop in the vulnerable inverted position."
       },
       {
         "question": "How do you recognize the optimal timing window for Matrix entry against a turtle opponent?",
@@ -432,12 +444,12 @@
         "condition": "Rotation is blocked mid-movement by weight pressure",
         "actions": [
           {
-            "technique": "Rolling to Guard",
+            "technique": "Granby Roll to Guard",
             "target": "Closed Guard",
             "probability": 60
           },
           {
-            "technique": "Granby Roll",
+            "technique": "Rolling to Guard",
             "target": "Closed Guard",
             "probability": 55
           }
@@ -447,7 +459,7 @@
         "condition": "Opponent actively scrambling or mobile",
         "actions": [
           {
-            "technique": "Turtle to Back Take",
+            "technique": "Arm Drag to Back",
             "target": "Back Control",
             "probability": 50
           },
@@ -531,7 +543,7 @@
         "relationship": "Shares inverted rolling mechanics and spatial awareness requirements"
       },
       {
-        "name": "Granby Roll",
+        "name": "Granby Roll to Guard",
         "relationship": "Backup transition when Matrix is defended, uses similar rolling mechanics"
       },
       {
@@ -543,8 +555,8 @@
         "relationship": "Comprehensive system integrating Matrix with other back take approaches"
       },
       {
-        "name": "Scramble Position",
-        "relationship": "Dynamic environment where Matrix opportunities frequently emerge"
+        "name": "Matrix Back Take",
+        "relationship": "Primary transition technique executed from this position"
       }
     ],
     "position_metrics": {
@@ -565,35 +577,43 @@
     "transitions": [
       {
         "transition": "Matrix Back Take",
-        "attempt_probability": 13
+        "attempt_probability": 44
       },
       {
         "transition": "Rolling Back Take",
-        "attempt_probability": 12
+        "attempt_probability": 8
       },
       {
         "transition": "Arm Drag to Back",
-        "attempt_probability": 13
+        "attempt_probability": 8
       },
       {
         "transition": "Chair Sit to Back",
-        "attempt_probability": 12
+        "attempt_probability": 6
       },
       {
-        "transition": "Granby Roll",
+        "transition": "Granby Roll to Guard",
         "attempt_probability": 14
       },
       {
         "transition": "Rolling to Guard",
-        "attempt_probability": 12
+        "attempt_probability": 8
       },
       {
         "transition": "Berimbolo Entry",
-        "attempt_probability": 11
+        "attempt_probability": 2
       },
       {
-        "transition": "Turtle to Back Take",
-        "attempt_probability": 13
+        "transition": "Turtle to Guard",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Counter Roll from Matrix",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Escape Matrix Position",
+        "attempt_probability": 1
       }
     ]
   }

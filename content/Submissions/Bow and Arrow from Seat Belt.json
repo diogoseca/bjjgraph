@@ -1,0 +1,151 @@
+{
+  "name": "Bow and Arrow from Seat Belt",
+  "description": "TODO: Write 150-160 character SEO description for Bow and Arrow from Seat Belt.",
+  "tags": [
+    "bjj",
+    "submission",
+    "TODO"
+  ],
+  "submission_category": "Choke",
+  "submission_type": "Choke",
+  "target_area": "Neck",
+  "starting_position": "Seat Belt Control Back",
+  "from_position": "Seat Belt Control Back/Top",
+  "from_positions": ["Seat Belt Control Back", "Back Control", "Body Triangle"],
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Seat Belt Control Back/Top",
+      "probability": 45,
+      "result": "failure"
+    }
+  ],
+  "success_rate": 50,
+  "overview": "TODO: Write overview for Bow and Arrow from Seat Belt.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "TODO",
+        "severity": "Medium",
+        "recovery_time": "TODO"
+      }
+    ],
+    "application_speed": "SLOW and progressive. Never spike or jerk the submission.",
+    "tap_signals": [
+      "Verbal tap (saying 'tap' or any distress signal)",
+      "Physical hand tap on partner or mat",
+      "Physical foot tap with free leg",
+      "Any unusual screaming or distress vocalization"
+    ],
+    "release_protocol": [
+      "Release immediately upon any tap signal",
+      "If in doubt, release - position can be re-established"
+    ],
+    "training_restrictions": [
+      "TODO"
+    ]
+  },
+  "related_content": [
+    {
+      "name": "TODO",
+      "relationship": "TODO"
+    }
+  ],
+  "attacker": {
+    "name": "Bow and Arrow from Seat Belt Attacker",
+    "description": "TODO: Write attacker description for Bow and Arrow from Seat Belt.",
+    "overview": "TODO: Write attacker overview for Bow and Arrow from Seat Belt.",
+    "key_principles": [
+      "TODO"
+    ],
+    "setup_requirements": [
+      "TODO"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "TODO",
+        "description": "TODO"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "TODO",
+        "effectiveness": "Medium",
+        "your_response": "TODO",
+        "targets_outcome": "Seat Belt Control Back/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "TODO",
+        "description": "TODO"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "TODO",
+        "answer": "TODO"
+      }
+    ],
+    "safety_considerations": "TODO: Write safety considerations for Bow and Arrow from Seat Belt."
+  },
+  "defender": {
+    "name": "Bow and Arrow from Seat Belt Defender",
+    "description": "TODO: Write defender description for Bow and Arrow from Seat Belt.",
+    "overview": "TODO: Write defender overview for Bow and Arrow from Seat Belt.",
+    "key_principles": [
+      "TODO"
+    ],
+    "recognition_cues": [
+      "TODO"
+    ],
+    "defensive_options": [
+      {
+        "action": "TODO",
+        "when_to_use": "TODO",
+        "targets_outcome": "Seat Belt Control Back/Top",
+        "if_successful": "TODO",
+        "risk": "TODO"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Seat Belt Control Back/Top",
+        "how": "TODO"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "TODO",
+        "answer": "TODO"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "TODO",
+        "description": "TODO"
+      }
+    ]
+  }
+}

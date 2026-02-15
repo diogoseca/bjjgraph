@@ -23,10 +23,6 @@
       "relationship": "Common transition target when knee shield is compromised"
     },
     {
-      "name": "Z-Guard",
-      "relationship": "Alternative knee shield system with different frame angle"
-    },
-    {
       "name": "Lockdown",
       "relationship": "Alternative half guard control method using leg entanglement"
     },
@@ -49,6 +45,10 @@
     {
       "name": "Dogfight Position",
       "relationship": "Common scramble when both players establish underhooks"
+    },
+    {
+      "name": "Flattened Half Guard",
+      "relationship": "Degraded position when knee shield collapses under pressure"
     }
   ],
   "top": {
@@ -273,14 +273,6 @@
         "relationship": "Alternative defensive structure from half guard"
       },
       {
-        "name": "Z-Guard",
-        "relationship": "Related knee shield variation with different framing angle"
-      },
-      {
-        "name": "Underhook Pass",
-        "relationship": "Advanced passing technique from this position"
-      },
-      {
         "name": "Long Step Pass",
         "relationship": "Alternative passing approach bypassing knee shield"
       },
@@ -308,35 +300,47 @@
     "transitions": [
       {
         "transition": "Knee Slice from Half",
-        "attempt_probability": 12
+        "attempt_probability": 29
       },
       {
         "transition": "Smash Pass",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "Long Step Pass",
-        "attempt_probability": 12
+        "attempt_probability": 8
       },
       {
         "transition": "Underhook Pass",
-        "attempt_probability": 11
+        "attempt_probability": 7
       },
       {
         "transition": "Crossface Pass",
-        "attempt_probability": 13
+        "attempt_probability": 9
       },
       {
         "transition": "Leg Weave Pass",
-        "attempt_probability": 12
+        "attempt_probability": 6
       },
       {
-        "transition": "Side Control to North-South",
-        "attempt_probability": 14
+        "transition": "Back Step Pass",
+        "attempt_probability": 8
       },
       {
-        "transition": "Knee on Belly",
-        "attempt_probability": 13
+        "transition": "Transition to Flattened Half Guard",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Body Lock Pass",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Knee Slice from Knee Shield",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Smash from Knee Shield",
+        "attempt_probability": 2
       }
     ]
   },
@@ -421,7 +425,7 @@
         "condition": "If opponent attempts to smash knee shield down and flatten position with heavy pressure",
         "actions": [
           {
-            "technique": "Frame and Hip Escape",
+            "technique": "Knee Shield Retention",
             "target": "Knee Shield Half Guard",
             "probability": 60
           },
@@ -441,9 +445,9 @@
             "probability": 65
           },
           {
-            "technique": "Single Leg X Entry",
-            "target": "Single Leg X-Guard",
-            "probability": 58
+            "technique": "Butterfly Guard to X-Guard",
+            "target": "X-Guard",
+            "probability": 55
           }
         ]
       },
@@ -452,12 +456,12 @@
         "actions": [
           {
             "technique": "Old School Sweep",
-            "target": "Mount",
+            "target": "Side Control",
             "probability": 52
           },
           {
             "technique": "Underhook Sweep from Half",
-            "target": "Mount",
+            "target": "Side Control",
             "probability": 48
           }
         ]
@@ -466,12 +470,12 @@
         "condition": "If opponent establishes underhook and attempts to consolidate position",
         "actions": [
           {
-            "technique": "Kimura from Half Guard",
+            "technique": "Kimura",
             "target": "Kimura Trap",
             "probability": 45
           },
           {
-            "technique": "Back Take Generic",
+            "technique": "Half Guard to Back Take",
             "target": "Back Control",
             "probability": 42
           }
@@ -546,10 +550,6 @@
         "relationship": "Common transition target from knee shield"
       },
       {
-        "name": "Z-Guard",
-        "relationship": "Alternative half guard frame system"
-      },
-      {
         "name": "Lockdown",
         "relationship": "Alternative half guard control method"
       },
@@ -568,6 +568,10 @@
       {
         "name": "Knee Slice from Half",
         "relationship": "Most common passing threat to defend"
+      },
+      {
+        "name": "Flattened Half Guard",
+        "relationship": "Degraded position to avoid through active shield management"
       }
     ],
     "position_metrics": {
@@ -585,31 +589,55 @@
     "transitions": [
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 16
+        "attempt_probability": 10
       },
       {
         "transition": "Underhook Sweep from Half",
-        "attempt_probability": 14
+        "attempt_probability": 7
       },
       {
         "transition": "Deep Half Entry",
-        "attempt_probability": 17
+        "attempt_probability": 9
       },
       {
-        "transition": "Back Take Generic",
-        "attempt_probability": 13
+        "transition": "Half Guard to Back Take",
+        "attempt_probability": 6
       },
       {
         "transition": "Single Leg X Entry",
-        "attempt_probability": 14
+        "attempt_probability": 7
       },
       {
         "transition": "Lumberjack Sweep",
-        "attempt_probability": 14
+        "attempt_probability": 6
       },
       {
-        "transition": "Kimura from Half Guard",
-        "attempt_probability": 12
+        "transition": "Kimura",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Transition to Z-Guard",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Knee Shield Retention",
+        "attempt_probability": 40
+      },
+      {
+        "transition": "Elevator Sweep",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Knee Shield Half Guard to Z-Guard",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Knee Shield to Closed Guard",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Underhook from Knee Shield",
+        "attempt_probability": 1
       }
     ]
   }

@@ -93,15 +93,17 @@ Understanding double unders from both perspectives is essential for developing c
 ### Available Transitions
 
 
-- **[[Deep Half Entry]]** (25% of attempts)
+- **[[Deep Half Entry]]** (41% of attempts)
 
-- **[[Granby Roll]]** (20% of attempts)
+- **[[Granby Roll to Guard]]** (16% of attempts)
 
-- **[[Butterfly Hook Recovery]]** (18% of attempts)
+- **[[Butterfly Hook Recovery]]** (13% of attempts)
 
-- **[[Hip Escape]]** (22% of attempts)
+- **[[Hip Escape to Guard]]** (13% of attempts)
 
-- **[[Shin to Shin Pull]]** (15% of attempts)
+- **[[Roll to Turtle]]** (11% of attempts)
+
+- **[[Guard Recovery from Double Unders]]** (6% of attempts)
 
 
 ### Common Mistakes
@@ -166,17 +168,25 @@ Understanding double unders from both perspectives is essential for developing c
 ### Available Transitions
 
 
-- **[[Double Under Pass]]** (25% of attempts)
+- **[[Double Under Pass]]** (33% of attempts)
 
-- **[[Stack Pass]]** (20% of attempts)
+- **[[Stack Pass]]** (14% of attempts)
 
-- **[[Leg Weave Pass]]** (18% of attempts)
+- **[[Leg Weave Pass]]** (10% of attempts)
 
-- **[[Back Take]]** (12% of attempts)
+- **[[Back Take]]** (8% of attempts)
 
-- **[[Knee Slice Pass]]** (15% of attempts)
+- **[[Over-Under Pass]]** (6% of attempts)
 
-- **[[Bullfighter Pass]]** (10% of attempts)
+- **[[Body Lock Pass]]** (10% of attempts)
+
+- **[[Knee Slice Pass]]** (8% of attempts)
+
+- **[[Smash Pass]]** (6% of attempts)
+
+- **[[Stack Pass from Double Unders]]** (3% of attempts)
+
+- **[[Toss Pass from Double Unders]]** (2% of attempts)
 
 
 ### Common Mistakes

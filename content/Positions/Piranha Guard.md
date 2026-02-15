@@ -93,21 +93,25 @@ While technically demanding and primarily applicable in gi competition, Piranha 
 ### Available Transitions
 
 
-- **[[Pendulum Sweep]]** (15% of attempts)
+- **[[Pendulum Sweep]]** (21% of attempts)
 
-- **[[Collar Drag]]** (12% of attempts)
+- **[[Collar Drag]]** (10% of attempts)
 
-- **[[Triangle Setup]]** (12% of attempts)
+- **[[Triangle Setup]]** (10% of attempts)
 
-- **[[Omoplata Sweep]]** (12% of attempts)
+- **[[Omoplata Sweep]]** (10% of attempts)
 
-- **[[De La Riva Sweep]]** (12% of attempts)
+- **[[De La Riva Sweep]]** (10% of attempts)
 
-- **[[Berimbolo Entry]]** (12% of attempts)
+- **[[Berimbolo Entry]]** (10% of attempts)
 
-- **[[Flower Sweep]]** (13% of attempts)
+- **[[Flower Sweep]]** (11% of attempts)
 
-- **[[Armbar from Guard]]** (12% of attempts)
+- **[[Armbar from Guard]]** (10% of attempts)
+
+- **[[Piranha Guard Sweep]]** (5% of attempts)
+
+- **[[Piranha to Worm Guard]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -172,19 +176,23 @@ While technically demanding and primarily applicable in gi competition, Piranha 
 ### Available Transitions
 
 
-- **[[Toreando Pass]]** (16% of attempts)
+- **[[Toreando Pass]]** (20% of attempts)
 
-- **[[Knee Slice Pass]]** (15% of attempts)
+- **[[Knee Slice Pass]]** (13% of attempts)
 
-- **[[Long Step Pass]]** (13% of attempts)
+- **[[Long Step Pass]]** (11% of attempts)
 
-- **[[Stack Pass]]** (12% of attempts)
+- **[[Stack Pass]]** (10% of attempts)
 
-- **[[Leg Drag Pass]]** (15% of attempts)
+- **[[Leg Drag Pass]]** (13% of attempts)
 
-- **[[Pressure Pass]]** (16% of attempts)
+- **[[Pressure Pass]]** (14% of attempts)
 
-- **[[X Pass]]** (13% of attempts)
+- **[[X Pass]]** (11% of attempts)
+
+- **[[Pass Piranha Guard]]** (5% of attempts)
+
+- **[[Strip Lapel from Piranha]]** (3% of attempts)
 
 
 ### Common Mistakes

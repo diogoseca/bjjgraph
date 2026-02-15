@@ -298,31 +298,43 @@
     "transitions": [
       {
         "transition": "Head Extraction to Posture",
-        "attempt_probability": 12
+        "attempt_probability": 24
       },
       {
         "transition": "Shin Removal to Pass",
-        "attempt_probability": 10
+        "attempt_probability": 4
       },
       {
         "transition": "Leg Extraction Escape",
-        "attempt_probability": 10
+        "attempt_probability": 4
       },
       {
         "transition": "Stack Defense",
-        "attempt_probability": 13
+        "attempt_probability": 9
       },
       {
         "transition": "Angle Change Escape",
-        "attempt_probability": 13
+        "attempt_probability": 14
       },
       {
         "transition": "Hand Control to Extract",
-        "attempt_probability": 12
+        "attempt_probability": 11
       },
       {
-        "transition": "Gogoplata",
-        "attempt_probability": 30
+        "transition": "Roll to Turtle",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Explosive Bridge to Guard Recovery",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Posture Recovery",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Gogoplata to Armbar",
+        "attempt_probability": 2
       }
     ]
   },
@@ -569,34 +581,22 @@
     "transitions": [
       {
         "transition": "Gogoplata",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Triangle Choke",
-        "attempt_probability": 13
+        "attempt_probability": 28
       },
       {
         "transition": "Closed Guard to Omoplata",
-        "attempt_probability": 12
+        "attempt_probability": 15
       },
       {
         "transition": "Back Take",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Armbar from Guard",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "High Mount Transition",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Mission Control Recovery",
         "attempt_probability": 14
       },
       {
-        "transition": "Rubber Guard Maintenance",
+        "transition": "Mission Control Recovery",
+        "attempt_probability": 25
+      },
+      {
+        "transition": "Switch to Triangle",
         "attempt_probability": 18
       }
     ]

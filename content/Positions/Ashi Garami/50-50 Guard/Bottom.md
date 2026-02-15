@@ -21,37 +21,37 @@ description: "Master 50-50 Guard Bottom defensive strategies. Learn heel protect
     {
       "@type": "HowToStep",
       "name": "Execute Position reversal sweep to top",
-      "text": "From this position, attempt Position reversal sweep to top. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Position reversal sweep to top. This technique is attempted in 22% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter heel hook",
-      "text": "From this position, attempt Counter heel hook. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Counter heel hook. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute 50-50 Guard to Single Leg X-Guard",
-      "text": "From this position, attempt 50-50 Guard to Single Leg X-Guard. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt 50-50 Guard to Single Leg X-Guard. This technique is attempted in 24% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Extract legs and stand up",
-      "text": "From this position, attempt Extract legs and stand up. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Extract legs and stand up. This technique is attempted in 23% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Straight Ankle Lock",
-      "text": "From this position, attempt Straight Ankle Lock. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Straight Ankle Lock. This technique is attempted in 4% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar entry",
-      "text": "From this position, attempt Kneebar entry. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Kneebar entry. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,17 +209,21 @@ From this position, you face multiple submission threats, primarily heel hook, a
 
 ## Available Escapes
 
-### [[Position reversal sweep to top]] (18% of attempts)
+### [[Position reversal sweep to top]] (22% of attempts)
 
-### [[Counter heel hook]] (14% of attempts)
+### [[Counter heel hook]] (12% of attempts)
 
-### [[50-50 Guard to Single Leg X-Guard]] (19% of attempts)
+### [[50-50 Guard to Single Leg X-Guard]] (24% of attempts)
 
-### [[Extract legs and stand up]] (20% of attempts)
+### [[Extract legs and stand up]] (23% of attempts)
 
-### [[Straight Ankle Lock]] (15% of attempts)
+### [[Straight Ankle Lock]] (4% of attempts)
 
-### [[Kneebar entry]] (14% of attempts)
+### [[Kneebar entry]] (5% of attempts)
+
+### [[Toe Hold]] (5% of attempts)
+
+### [[Counter-entangle to 50-50 Guard]] (5% of attempts)
 
 
 

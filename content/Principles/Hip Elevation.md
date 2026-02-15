@@ -367,8 +367,8 @@ Positional rounds from bottom positions with specific focus on integrating hip e
 ### Related Content
 - [[Bridge and Roll]] (Transition) - Primary technical application of explosive hip elevation for mount escape
 - [[Upa Escape]] (Transition) - Classic mount escape technique fundamentally dependent on hip elevation mechanics
-- [[Elbow Escape]] (Transition) - Side control escape combining hip elevation with lateral movement
-- [[Hip Escape]] (Transition) - Fundamental movement pattern often requiring initial elevation to create space for lateral movement
+- [[Elbow Escape to Guard]] (Transition) - Side control escape combining hip elevation with lateral movement
+- [[Hip Escape to Guard]] (Transition) - Fundamental movement pattern often requiring initial elevation to create space for lateral movement
 - [[Bridging Mechanics]] (Principle) - Core biomechanical concept providing technical framework for elevation execution
 - [[Hip Escape Mechanics]] (Principle) - Complementary concept working synergistically with elevation for space creation
 - [[Frame Management]] (Principle) - Essential coordination concept ensuring elevation creates preserved space

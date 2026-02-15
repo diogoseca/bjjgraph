@@ -1,0 +1,13 @@
+{
+  "name": "Pass Inverted Lasso Guard",
+  "description": "",
+  "tags": [],
+  "from_position": "Inverted Lasso Guard/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

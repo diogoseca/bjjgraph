@@ -112,39 +112,71 @@
     "transitions": [
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": 22
+        "attempt_probability": 79
       },
       {
         "transition": "Side Control to North-South",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Americana from Side Control",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "Kimura from Side Control",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Arm Triangle",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Armbar from Side Control",
-        "attempt_probability": 7
-      },
-      {
-        "transition": "Knee on Belly",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "North-South Choke",
-        "attempt_probability": 4
+        "attempt_probability": 3
       },
       {
         "transition": "Americana",
-        "attempt_probability": 11
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Kimura",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Arm Triangle",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Armbar Finish",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Knee on Belly",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "North-South Choke",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Breadcutter Choke",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Transition to Kesa Gatame",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Transition to Scarf Hold Position",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Transition to Shoulder of Justice",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Transition to Side Control Consolidation",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Side Control to Kesa Gatame",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Side Control to Scarf Hold Position",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Side Control to Shoulder of Justice",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Side Control to Side Control Consolidation",
+        "attempt_probability": 1
       }
     ],
     "decision_tree": [
@@ -152,12 +184,12 @@
         "condition": "If opponent's near arm is extended or pushing against your neck or head",
         "actions": [
           {
-            "technique": "Americana from Side Control",
+            "technique": "Americana",
             "target": "Game Over",
             "probability": 50
           },
           {
-            "technique": "Kimura from Side Control",
+            "technique": "Kimura",
             "target": "Game Over",
             "probability": 45
           }
@@ -308,12 +340,12 @@
         "relationship": "Advanced position when opponent turns incorrectly during escape"
       },
       {
-        "name": "Americana from Side Control",
-        "relationship": "Primary shoulder lock submission from this position"
+        "name": "Americana",
+        "relationship": "Primary shoulder lock submission transition from this position"
       },
       {
-        "name": "Kimura from Side Control",
-        "relationship": "High-percentage shoulder lock with back take potential"
+        "name": "Kimura",
+        "relationship": "High-percentage shoulder lock transition with back take potential"
       },
       {
         "name": "Arm Triangle",
@@ -387,28 +419,40 @@
     ],
     "transitions": [
       {
-        "transition": "Elbow Escape",
-        "attempt_probability": 28
+        "transition": "Elbow Escape to Guard",
+        "attempt_probability": 39
       },
       {
-        "transition": "Frame and Shrimp",
-        "attempt_probability": 22
+        "transition": "Frame and Shrimp to Guard",
+        "attempt_probability": 18
       },
       {
         "transition": "Bridge and Roll",
-        "attempt_probability": 10
+        "attempt_probability": 7
       },
       {
-        "transition": "Hip Escape",
-        "attempt_probability": 25
+        "transition": "Hip Escape to Guard",
+        "attempt_probability": 17
       },
       {
         "transition": "Ghost Escape",
-        "attempt_probability": 10
+        "attempt_probability": 7
       },
       {
         "transition": "Side Control Escape",
-        "attempt_probability": 5
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Ghost Escape from Side Control",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Sit Out from Side Control",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Turtle from Side Control Bottom",
+        "attempt_probability": 1
       }
     ],
     "decision_tree": [
@@ -431,12 +475,12 @@
         "condition": "If opponent transitions toward mount raising hips",
         "actions": [
           {
-            "technique": "Elbow Escape",
+            "technique": "Elbow Escape to Guard",
             "target": "Half Guard",
             "probability": 50
           },
           {
-            "technique": "Hip Escape",
+            "technique": "Hip Escape to Guard",
             "target": "Knee Shield Half Guard",
             "probability": 45
           }
@@ -451,7 +495,7 @@
             "probability": 40
           },
           {
-            "technique": "Frame and Shrimp",
+            "technique": "Frame and Shrimp to Guard",
             "target": "Closed Guard",
             "probability": 38
           }
@@ -461,7 +505,7 @@
         "condition": "If opponent transitions to north-south creating hip space",
         "actions": [
           {
-            "technique": "Hip Escape",
+            "technique": "Hip Escape to Guard",
             "target": "Knee Shield Half Guard",
             "probability": 45
           },
@@ -564,11 +608,11 @@
         "relationship": "Advanced recovery position with sweep potential"
       },
       {
-        "name": "Elbow Escape",
+        "name": "Elbow Escape to Guard",
         "relationship": "Primary escape technique for recovering half guard"
       },
       {
-        "name": "Frame and Shrimp",
+        "name": "Frame and Shrimp to Guard",
         "relationship": "Fundamental escape combining framing with hip movement"
       },
       {

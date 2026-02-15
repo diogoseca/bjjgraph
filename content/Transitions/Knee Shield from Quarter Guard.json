@@ -1,0 +1,13 @@
+{
+  "name": "Knee Shield from Quarter Guard",
+  "description": "",
+  "tags": [],
+  "from_position": "Quarter Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

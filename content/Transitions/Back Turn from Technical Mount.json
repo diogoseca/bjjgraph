@@ -1,0 +1,13 @@
+{
+  "name": "Back Turn from Technical Mount",
+  "description": "",
+  "tags": [],
+  "from_position": "Technical Mount/Bottom",
+  "outcomes": [
+    {
+      "to": "Back Control/Bottom",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

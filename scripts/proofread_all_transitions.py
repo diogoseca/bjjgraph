@@ -199,6 +199,24 @@ IMPORTANT: Only reference names from the lists above. If a transition you want t
 
 
 def build_transition_prompt(data: dict, refs: Dict[str, List[str]]) -> str:
+    attacker_section = ""
+    defender_section = ""
+    if 'attacker' in data:
+        attacker_section = """
+Audit attacker section:
+- Validate common_counters[].targets_outcome values match outcomes[].to
+- Flag missing counters or unrealistic effectiveness ratings
+- Check execution_steps are in logical order
+"""
+    if 'defender' in data:
+        defender_section = """
+Audit defender section:
+- Validate defensive_options[].targets_outcome values match outcomes[].to
+- Validate favorable_outcomes[].outcome values match outcomes[].to
+- Flag unrealistic recognition_cues
+- Check defensive_options cover the main defense scenarios
+"""
+
     return f"""{SYSTEM_PREAMBLE}
 
 ## Task: Audit TRANSITION file
@@ -210,6 +228,8 @@ Audit `from_position` and `outcomes`:
 - Validate result types (success/failure/counter) make sense for each outcome
 - Validate outcome probabilities are realistic and sum to 100
 - Consider: is this a high-percentage or low-percentage technique?
+- Outcomes[].to MUST use Position/Role format (e.g., "Mount/Top", not "Mount")
+{attacker_section}{defender_section}
 
 ## File content:
 ```json
@@ -229,14 +249,44 @@ IMPORTANT: Only reference names from the lists above. If an outcome position you
 
 
 def build_submission_prompt(data: dict, refs: Dict[str, List[str]]) -> str:
+    attacker_section = ""
+    defender_section = ""
+    if 'attacker' in data:
+        attacker_section = """
+Audit attacker section:
+- Validate common_counters[].targets_outcome values match outcomes[].to
+- Check execution_steps include timing information
+- Verify safety_critical knowledge_assessment questions exist
+"""
+    if 'defender' in data:
+        defender_section = """
+Audit defender section:
+- Validate defensive_options[].targets_outcome values match outcomes[].to
+- Validate favorable_outcomes[].outcome values match outcomes[].to
+- Check escape_paths are realistic
+- Verify recognition_cues are tactile/visual (not abstract)
+"""
+
+    outcomes_section = ""
+    if 'outcomes' not in data or not data.get('outcomes'):
+        outcomes_section = """
+CRITICAL: This submission has NO outcomes[] array. You MUST suggest outcomes:
+- At least one "success" outcome leading to "game-over"
+- At least one "failure" outcome returning to the starting position
+- Probabilities must sum to 100
+"""
+
     return f"""{SYSTEM_PREAMBLE}
 
 ## Task: Audit SUBMISSION file
 
-Audit `starting_position` and related content:
+Audit `starting_position`, `outcomes`, and related content:
 - Validate starting_position is accurate (can this submission actually be applied from here?)
 - Flag missing or wrong related submissions that commonly chain together
 - Validate from_positions list (are these positions where you'd realistically attempt this?)
+- Validate outcomes[] exist and probabilities sum to 100
+- Outcomes[].to MUST use Position/Role format (e.g., "Mount/Top", not "Mount")
+{outcomes_section}{attacker_section}{defender_section}
 
 ## File content:
 ```json
@@ -796,6 +846,13 @@ Interval: {'none (batch)' if args.batch else f'{args.interval}s between calls'}
 
     run_log: List[dict] = []
 
+    # Ensure CSV header exists before the loop (incremental writes)
+    if not args.dry_run:
+        SUGGESTIONS_CSV.parent.mkdir(parents=True, exist_ok=True)
+        if not SUGGESTIONS_CSV.exists() or SUGGESTIONS_CSV.stat().st_size == 0:
+            with open(SUGGESTIONS_CSV, "w", newline="", encoding="utf-8") as f:
+                csv.writer(f).writerow(["triggered_by", "category", "suggested_name", "reason"])
+
     # Sequential processing with tqdm progress bar
     pbar = tqdm(files, desc="Proofreading", unit="file",
                 bar_format="{l_bar}{bar}| {n_fmt}/{total_fmt} [{elapsed}<{remaining}, {rate_fmt}]")
@@ -822,6 +879,20 @@ Interval: {'none (batch)' if args.batch else f'{args.interval}s between calls'}
             for sf in result["suggested_new_files"]:
                 sf["triggered_by"] = str(fp)
             stats["all_suggested_new_files"].extend(result["suggested_new_files"])
+            # Write suggestions incrementally so they survive Ctrl+C
+            if not args.dry_run:
+                with open(SUGGESTIONS_CSV, "a", newline="", encoding="utf-8") as f:
+                    writer = csv.writer(f)
+                    for sf in result["suggested_new_files"]:
+                        writer.writerow([
+                            sf.get("triggered_by", ""),
+                            sf.get("category", ""),
+                            sf.get("name", ""),
+                            sf.get("reason", ""),
+                        ])
+                print(f"  >> {len(result['suggested_new_files'])} new file(s) suggested:", flush=True)
+                for sf in result["suggested_new_files"]:
+                    print(f"     [{sf.get('category', '?')}] {sf.get('name', '?')}", flush=True)
 
         # Wait between calls
         if fp != files[-1] and not args.dry_run and not args.batch:
@@ -842,22 +913,9 @@ Dry run:       {stats['dry_run']}
 Total changes: {stats['total_changes']}
 """, flush=True)
 
-    # Suggested new files -> CSV (append-safe for parallel runs)
+    # Suggested new files summary (already written incrementally during the loop)
     if stats["all_suggested_new_files"]:
-        SUGGESTIONS_CSV.parent.mkdir(parents=True, exist_ok=True)
-        write_header = not SUGGESTIONS_CSV.exists() or SUGGESTIONS_CSV.stat().st_size == 0
-        with open(SUGGESTIONS_CSV, "a", newline="", encoding="utf-8") as f:
-            writer = csv.writer(f)
-            if write_header:
-                writer.writerow(["triggered_by", "category", "suggested_name", "reason"])
-            for sf in stats["all_suggested_new_files"]:
-                writer.writerow([
-                    sf.get("triggered_by", ""),
-                    sf.get("category", ""),
-                    sf.get("name", ""),
-                    sf.get("reason", ""),
-                ])
-        print(f"Suggested new files: {SUGGESTIONS_CSV} ({len(stats['all_suggested_new_files'])} appended)")
+        print(f"Suggested new files: {SUGGESTIONS_CSV} ({len(stats['all_suggested_new_files'])} total)")
     else:
         print("No new files suggested.")
     print()

@@ -367,7 +367,6 @@ Advanced stretching methodology utilizing contract-relax protocols where muscles
 - [[Deep Half Guard]] (Position) - Benefits from hip and shoulder flexibility allowing deep positioning and effective control maintenance under pressure
 - [[Guard Retention]] (Principle) - Enhanced by flexibility training that enables greater defensive range in frames, hip movement, and leg positioning
 - [[Escape Fundamentals]] (Principle) - Directly supported by flexibility development enabling bridging, shrimping, and escape mechanics that require range of motion
-- [[Hip Movement]] (Principle) - Fundamentally dependent on hip flexibility for full range of guard retention and escape mechanics
 - [[Progressive Resistance Training]] (Principle) - Provides methodology framework that applies equally to flexibility development protocols
 
 

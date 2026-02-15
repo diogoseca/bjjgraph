@@ -21,37 +21,37 @@ description: "Master Zombie Top position in BJJ. Control and pass the opponent's
     {
       "@type": "HowToStep",
       "name": "Execute Crossface Pass",
-      "text": "From this position, attempt Crossface Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Crossface Pass. This technique is attempted in 27% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Weave Pass",
-      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Back Take",
-      "text": "From this position, attempt Turtle to Back Take. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Back Take. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crab Ride to Back",
-      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,23 +208,27 @@ Success in Zombie Top depends on recognizing the opponent's defensive structure 
 
 ## Available Attacks
 
-### [[Crossface Pass]] (12% of attempts)
+### [[Crossface Pass]] (27% of attempts)
 
-### [[Leg Weave Pass]] (11% of attempts)
+### [[Leg Weave Pass]] (10% of attempts)
 
-### [[Knee Slice Pass]] (12% of attempts)
+### [[Knee Slice Pass]] (11% of attempts)
 
-### [[Smash Pass]] (11% of attempts)
+### [[Smash Pass]] (9% of attempts)
 
-### [[Turtle to Back Take]] (14% of attempts)
+### [[Turtle to Back Take]] (12% of attempts)
 
-### [[Crab Ride to Back]] (12% of attempts)
+### [[Crab Ride to Back]] (10% of attempts)
 
-### [[Anaconda from Turtle]] (10% of attempts)
+### [[Anaconda from Turtle]] (8% of attempts)
 
-### [[Darce from Turtle]] (9% of attempts)
+### [[Darce from Turtle]] (6% of attempts)
 
-### [[Back Take Generic]] (9% of attempts)
+### [[Back Take]] (4% of attempts)
+
+### [[Posture Recovery from Zombie]] (2% of attempts)
+
+### [[Strip Grip from Zombie]] (1% of attempts)
 
 
 

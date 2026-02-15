@@ -21,37 +21,37 @@ description: "Master feet on hips guard top position in BJJ. Complete passing st
     {
       "@type": "HowToStep",
       "name": "Execute Toreando Pass",
-      "text": "From this position, attempt Toreando Pass. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Toreando Pass. This technique is attempted in 37% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Cut Pass",
-      "text": "From this position, attempt Knee Cut Pass. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Knee Cut Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Double Under Pass",
-      "text": "From this position, attempt Double Under Pass. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Double Under Pass. This technique is attempted in 3% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, attempt Long Step Pass. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute X Pass",
-      "text": "From this position, attempt X Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt X Pass. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -204,19 +204,29 @@ Feet on Hips Guard Top is the passing perspective when facing an opponent who ha
 
 ## Available Attacks
 
-### [[Toreando Pass]] (18% of attempts)
+### [[Toreando Pass]] (37% of attempts)
 
-### [[Knee Cut Pass]] (16% of attempts)
+### [[Knee Cut Pass]] (11% of attempts)
 
-### [[Leg Drag Pass]] (14% of attempts)
+### [[Leg Drag Pass]] (10% of attempts)
 
-### [[Double Under Pass]] (13% of attempts)
+### [[Double Under Pass]] (3% of attempts)
 
-### [[Long Step Pass]] (14% of attempts)
+### [[Long Step Pass]] (8% of attempts)
 
-### [[X Pass]] (12% of attempts)
+### [[X Pass]] (8% of attempts)
 
-### [[Stack Pass]] (13% of attempts)
+### [[Stack Pass]] (5% of attempts)
+
+### [[Body Lock Pass]] (5% of attempts)
+
+### [[Smash Pass]] (6% of attempts)
+
+### [[Leg Weave Pass]] (5% of attempts)
+
+### [[Knee Cut from Feet on Hips]] (1% of attempts)
+
+### [[Pass Feet on Hips Guard]] (1% of attempts)
 
 
 

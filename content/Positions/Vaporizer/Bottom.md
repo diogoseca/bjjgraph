@@ -21,37 +21,37 @@ description: "Master Vaporizer bottom position in BJJ. 10th Planet innovation fo
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 26% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Truck",
-      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Electric Chair Submission",
-      "text": "From this position, attempt Electric Chair Submission. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Electric Chair Transition",
+      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Closed Guard to Omoplata",
-      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard to Back Take",
-      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Lockdown Sweeps",
-      "text": "From this position, attempt Lockdown Sweeps. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Lockdown Recovery",
+      "text": "From this position, attempt Lockdown Recovery. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,17 +210,21 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 
 ## Available Escapes
 
-### [[Old School Sweep]] (20% of attempts)
+### [[Old School Sweep]] (26% of attempts)
 
-### [[Turtle to Truck]] (18% of attempts)
+### [[Turtle to Truck]] (16% of attempts)
 
-### [[Electric Chair Submission]] (18% of attempts)
+### [[Electric Chair Transition]] (18% of attempts)
 
-### [[Closed Guard to Omoplata]] (14% of attempts)
+### [[Closed Guard to Omoplata]] (8% of attempts)
 
-### [[Half Guard to Back Take]] (15% of attempts)
+### [[Half Guard to Back Take]] (13% of attempts)
 
-### [[Lockdown Sweeps]] (15% of attempts)
+### [[Lockdown Recovery]] (13% of attempts)
+
+### [[Escape Vaporizer]] (4% of attempts)
+
+### [[Roll from Vaporizer]] (2% of attempts)
 
 
 
@@ -231,13 +235,13 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 ## Decision Making from This Position
 
 **If opponent maintains heavy pressure and resists whip-up motion with wide base:**
-- Execute **[[Electric Chair Submission]]** → [[Electric Chair]] (Probability: 55%)
+- Execute **[[Electric Chair Transition]]** → [[Electric Chair]] (Probability: 55%)
 - Execute **[[Turtle to Truck]]** → [[Twister Control]] (Probability: 45%)
 
 
 **If opponent posts hand or attempts to create distance:**
 - Execute **[[Old School Sweep]]** → [[Mount]] (Probability: 60%)
-- Execute **[[Lockdown Sweeps]]** → [[Side Control]] (Probability: 40%)
+- Execute **[[Lockdown Recovery]]** → [[Side Control]] (Probability: 40%)
 
 
 **If opponent commits weight forward to counter lockdown pressure:**
@@ -247,7 +251,7 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 
 **If opponent successfully widens base and prevents whip-up:**
 - Execute **[[Turtle to Truck]]** → [[Twister Control]] (Probability: 50%)
-- Execute **[[Electric Chair Submission]]** → [[Electric Chair]] (Probability: 50%)
+- Execute **[[Electric Chair Transition]]** → [[Electric Chair]] (Probability: 50%)
 
 
 

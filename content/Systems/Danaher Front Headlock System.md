@@ -365,7 +365,7 @@ The front headlock system requires layered drilling that progressively builds fr
 - [[Standing Position]] (Position) - Starting position for snap down and sprawl entries
 - [[Combat Base]] (Position) - Defensive posture opponent may use against front headlock attacks
 - [[Gift Wrap]] (Position) - Back control variation accessible from front headlock spiral sequences
-- [[Snap Down]] (Transition) - Primary standing entry to front headlock system
+- [[Snap Down to Front Headlock]] (Transition) - Primary standing entry to front headlock system
 - [[Sprawl]] (Transition) - Defensive entry to front headlock from takedown attempts
 - [[Anaconda Setup]] (Transition) - Setup mechanics for anaconda pathway entry
 - [[Darce Setup]] (Transition) - Setup mechanics for darce pathway entry

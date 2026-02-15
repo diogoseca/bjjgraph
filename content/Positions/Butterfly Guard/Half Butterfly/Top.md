@@ -21,37 +21,37 @@ description: "Master Half Butterfly Top position in BJJ. Top player control agai
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 39% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Long Step Pass",
-      "text": "From this position, attempt Long Step Pass. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Underhook Pass",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Leg Drag Pass",
-      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Body Lock Pass",
+      "text": "From this position, attempt Body Lock Pass. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Transition to Flattened Half Guard",
+      "text": "From this position, attempt Transition to Flattened Half Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Underhook Pass",
-      "text": "From this position, attempt Underhook Pass. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Half Guard Pass",
+      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 4% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,17 +208,23 @@ The top player must establish upper body control first through crossface or unde
 
 ## Available Attacks
 
-### [[Knee Slice Pass]] (19% of attempts)
+### [[Knee Slice Pass]] (39% of attempts)
 
-### [[Smash Pass]] (18% of attempts)
+### [[Smash Pass]] (16% of attempts)
 
-### [[Long Step Pass]] (17% of attempts)
+### [[Underhook Pass]] (8% of attempts)
 
-### [[Leg Drag Pass]] (15% of attempts)
+### [[Body Lock Pass]] (8% of attempts)
 
-### [[Side Control to Mount]] (14% of attempts)
+### [[Transition to Flattened Half Guard]] (12% of attempts)
 
-### [[Underhook Pass]] (17% of attempts)
+### [[Half Guard Pass]] (4% of attempts)
+
+### [[Leg Weave Pass]] (10% of attempts)
+
+### [[Pass Half Butterfly]] (2% of attempts)
+
+### [[Smash Half Butterfly]] (1% of attempts)
 
 
 
@@ -244,8 +250,8 @@ The top player must establish upper body control first through crossface or unde
 
 
 **Else if bottom player turns to turtle to escape:**
-- Execute **[[Front Headlock Series]]** → [[Front Headlock]] (Probability: 50%)
-- Execute **[[Turtle to Back Take]]** → [[Back Control]] (Probability: 55%)
+- Execute **[[Front Headlock to Guillotine]]** → [[Front Headlock]] (Probability: 50%)
+- Execute **[[Back Take from Top]]** → [[Back Control]] (Probability: 55%)
 
 
 

@@ -97,19 +97,19 @@ Success in mounted triangle requires understanding the biomechanical principles 
 ### Available Transitions
 
 
-- **[[Bridge and Roll]]** (12% of attempts)
+- **[[Bridge and Roll]]** (14% of attempts)
 
-- **[[Elbow Escape]]** (18% of attempts)
+- **[[Elbow Escape to Guard]]** (18% of attempts)
 
-- **[[Granby Roll]]** (10% of attempts)
+- **[[Granby Roll to Guard]]** (8% of attempts)
 
-- **[[Hip Escape]]** (15% of attempts)
+- **[[Hip Escape to Guard]]** (16% of attempts)
 
 - **[[Upa Escape]]** (12% of attempts)
 
-- **[[Frame and Shrimp]]** (16% of attempts)
+- **[[Frame and Shrimp to Guard]]** (15% of attempts)
 
-- **[[Technical Stand Up]]** (8% of attempts)
+- **[[Shrimp Escape]]** (8% of attempts)
 
 - **[[Arm Extraction]]** (9% of attempts)
 
@@ -178,15 +178,15 @@ Success in mounted triangle requires understanding the biomechanical principles 
 
 - **[[Switch to Triangle]]** (10% of attempts)
 
-- **[[Back Take Generic]]** (10% of attempts)
+- **[[Back Take]]** (10% of attempts)
 
-- **[[Side Control to Mount]]** (11% of attempts)
+- **[[Consolidate Mount]]** (11% of attempts)
 
 - **[[Gift Wrap]]** (8% of attempts)
 
 - **[[Kimura to Back Take]]** (8% of attempts)
 
-- **[[S Mount Transition]]** (11% of attempts)
+- **[[S-Mount Transition]]** (11% of attempts)
 
 - **[[Triangle to Armbar]]** (11% of attempts)
 

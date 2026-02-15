@@ -288,39 +288,47 @@
     "transitions": [
       {
         "transition": "Crossface Pass",
-        "attempt_probability": 12
+        "attempt_probability": 27
       },
       {
         "transition": "Leg Weave Pass",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Knee Slice Pass",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Smash Pass",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Turtle to Back Take",
-        "attempt_probability": 14
-      },
-      {
-        "transition": "Crab Ride to Back",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Anaconda from Turtle",
         "attempt_probability": 10
       },
       {
-        "transition": "Darce from Turtle",
+        "transition": "Knee Slice Pass",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Smash Pass",
         "attempt_probability": 9
       },
       {
-        "transition": "Back Take Generic",
-        "attempt_probability": 9
+        "transition": "Turtle to Back Take",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Crab Ride to Back",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Anaconda from Turtle",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Darce from Turtle",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Back Take",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Posture Recovery from Zombie",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Strip Grip from Zombie",
+        "attempt_probability": 1
       }
     ],
     "knowledge_assessment": [
@@ -405,7 +413,7 @@
         "condition": "If opponent is heavy on your upper body with strong crossface pressure",
         "actions": [
           {
-            "technique": "Granby Roll",
+            "technique": "Granby Roll to Guard",
             "target": "Closed Guard",
             "probability": 55
           },
@@ -425,7 +433,7 @@
             "probability": 60
           },
           {
-            "technique": "Electric Chair Submission",
+            "technique": "Electric Chair Transition",
             "target": "Electric Chair",
             "probability": 50
           }
@@ -435,7 +443,7 @@
         "condition": "If opponent establishes strong chest-to-chest pressure attempting to flatten you",
         "actions": [
           {
-            "technique": "Turtle to Truck",
+            "technique": "Roll to Truck",
             "target": "Truck",
             "probability": 45
           },
@@ -455,8 +463,8 @@
             "probability": 65
           },
           {
-            "technique": "Lockdown Sweeps",
-            "target": "Half Guard",
+            "technique": "Lockdown Recovery",
+            "target": "Lockdown",
             "probability": 55
           }
         ]
@@ -578,35 +586,43 @@
     "transitions": [
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 15
+        "attempt_probability": 27
       },
       {
-        "transition": "Electric Chair Submission",
+        "transition": "Electric Chair Transition",
         "attempt_probability": 12
       },
       {
-        "transition": "Lockdown Sweeps",
-        "attempt_probability": 15
+        "transition": "Lockdown Recovery",
+        "attempt_probability": 11
       },
       {
         "transition": "Guard Recovery",
-        "attempt_probability": 16
+        "attempt_probability": 14
       },
       {
-        "transition": "Granby Roll",
-        "attempt_probability": 12
+        "transition": "Granby Roll to Guard",
+        "attempt_probability": 10
       },
       {
         "transition": "Rolling Back Take",
-        "attempt_probability": 10
+        "attempt_probability": 8
       },
       {
-        "transition": "Turtle to Truck",
-        "attempt_probability": 10
+        "transition": "Roll to Truck",
+        "attempt_probability": 7
       },
       {
         "transition": "Deep Half Entry",
-        "attempt_probability": 10
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Escape Zombie Control",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Turn to Face from Zombie",
+        "attempt_probability": 2
       }
     ],
     "knowledge_assessment": [

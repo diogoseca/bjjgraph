@@ -1,0 +1,42 @@
+{
+  "name": "Escape from Rodeo Ride",
+  "description": "Master the Escape from Rodeo Ride in BJJ. Learn how to dislodge the rider, clear hooks, and transition to side control top position.",
+  "tags": ["bjj", "transition", "escape", "rodeo-ride", "positional-escape", "defense"],
+  "from_position": "Rodeo Ride/Bottom",
+  "outcomes": [
+    {"to": "Side Control/Top", "probability": 40, "result": "success"},
+    {"to": "Rodeo Ride/Bottom", "probability": 35, "result": "failure"},
+    {"to": "Back Control/Bottom", "probability": 25, "result": "counter"}
+  ],
+  "success_rate": 40,
+  "overview": "TODO",
+  "conditions": ["TODO"],
+  "variants_and_adaptations": [{"variant_name": "TODO", "description": "TODO", "when_to_use": "TODO"}],
+  "position_integration": "TODO",
+  "related_content": [{"name": "TODO", "relationship": "TODO"}],
+  "attacker": {
+    "name": "Escape from Rodeo Ride Attacker",
+    "description": "TODO",
+    "overview": "TODO",
+    "key_principles": ["TODO"],
+    "setup_requirements": ["TODO"],
+    "execution_steps": [{"step_number": 1, "action": "TODO", "description": "TODO"}],
+    "common_counters": [{"counter": "TODO", "effectiveness": "Medium", "your_response": "TODO", "targets_outcome": "Rodeo Ride/Bottom"}],
+    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
+    "training_progressions": [{"phase": "Phase 1: Mechanics", "focus": "TODO", "description": "TODO"}],
+    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
+    "safety_considerations": "TODO"
+  },
+  "defender": {
+    "name": "Escape from Rodeo Ride Defender",
+    "description": "TODO",
+    "overview": "TODO",
+    "key_principles": ["TODO"],
+    "recognition_cues": ["TODO"],
+    "defensive_options": [{"action": "TODO", "when_to_use": "TODO", "targets_outcome": "Rodeo Ride/Bottom", "if_successful": "TODO", "risk": "TODO"}],
+    "favorable_outcomes": [{"outcome": "Rodeo Ride/Bottom", "how": "TODO"}],
+    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
+    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
+    "training_progressions": [{"phase": "Phase 1: Recognition", "focus": "TODO", "description": "TODO"}]
+  }
+}

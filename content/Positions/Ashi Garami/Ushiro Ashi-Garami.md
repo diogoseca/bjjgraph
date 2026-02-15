@@ -101,21 +101,19 @@ Understanding the biomechanical differences between ushiro ashi-garami and stand
 ### Available Transitions
 
 
-- **[[Ushiro Ashi-Garami Escape]]** (15% of attempts)
+- **[[Ushiro Ashi-Garami Escape]]** (12% of attempts)
 
-- **[[Inversion to Turtle]]** (17% of attempts)
-
-- **[[Counter Ashi Entry]]** (10% of attempts)
+- **[[Inversion to Turtle]]** (35% of attempts)
 
 - **[[Ushiro Ashi-Garami to Deep Half]]** (12% of attempts)
 
-- **[[Single Leg X Recovery]]** (11% of attempts)
+- **[[Single Leg X Recovery]]** (13% of attempts)
 
-- **[[Reverse Heel Hook Counter]]** (9% of attempts)
+- **[[Reverse Heel Hook Counter]]** (5% of attempts)
 
-- **[[Leg Extraction to Guard]]** (14% of attempts)
+- **[[Leg Extraction to Guard]]** (15% of attempts)
 
-- **[[Granby Roll Escape]]** (12% of attempts)
+- **[[Counter-entangle to 50-50 Guard]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -176,23 +174,23 @@ Understanding the biomechanical differences between ushiro ashi-garami and stand
 ### Available Transitions
 
 
-- **[[Inside Heel Hook from Ushiro]]** (11% of attempts)
+- **[[Inside Heel Hook from Ushiro]]** (13% of attempts)
 
-- **[[Estima Lock to Saddle]]** (12% of attempts)
+- **[[Follow to Back Control]]** (18% of attempts)
 
-- **[[Follow to Back Control]]** (16% of attempts)
-
-- **[[Ankle Lock Finish]]** (11% of attempts)
-
-- **[[Inside Ashi-Garami to Honey Hole]]** (10% of attempts)
+- **[[Ankle Lock Finish]]** (7% of attempts)
 
 - **[[Cross Ashi Transition]]** (10% of attempts)
 
-- **[[Outside Heel Hook Adjustment]]** (9% of attempts)
+- **[[Outside Heel Hook Adjustment]]** (5% of attempts)
 
-- **[[Return to Outside Ashi]]** (13% of attempts)
+- **[[Return to Outside Ashi]]** (12% of attempts)
 
-- **[[Kneebar from Ushiro]]** (8% of attempts)
+- **[[Kneebar from Ushiro]]** (15% of attempts)
+
+- **[[Saddle Entry from Top]]** (12% of attempts)
+
+- **[[Toe Hold]]** (8% of attempts)
 
 
 ### Common Mistakes

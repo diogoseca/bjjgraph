@@ -373,7 +373,6 @@ Cooperative flow drilling where partners alternate establishing and breaking gri
 - [[Grip Strategy]] (Principle) - Strategic approach to grip selection and sequencing in various contexts
 - [[Grip Break]] (Principle) - Specific mechanics and principles for efficiently breaking established grips
 - [[Grip Advantage]] (Principle) - Understanding and exploiting superior grip positions
-- [[Hand Fighting]] (Principle) - Broader concept encompassing grip fighting within overall hand engagement strategy
 - [[Control Maintenance]] (Principle) - Grip fighting establishes the initial controls that must then be maintained
 - [[Posture Breaking]] (Principle) - Grips established through grip fighting enable effective posture breaking mechanics
 - [[Guard Passing]] (Principle) - Winning grip fights is prerequisite for implementing effective passing strategies

@@ -1,6 +1,6 @@
 {
   "name": "Leg Recovery to De La Riva",
-  "description": "Master Leg Recovery to De La Riva from leg drag bottom. Extract trapped leg, insert DLR hook to re-establish guard. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "description": "Master Leg Recovery to De La Riva from leg drag bottom. Extract trapped leg, insert DLR hook to re-establish offensive guard with sweeps and back takes.",
   "tags": [
     "bjj",
     "transition",
@@ -12,225 +12,390 @@
   "from_position": "Leg Drag Control/Bottom",
   "outcomes": [
     {
-      "to": "De La Riva Guard",
-      "probability": 65,
+      "to": "De La Riva Guard/Bottom",
+      "probability": 58,
       "result": "success"
     },
     {
-      "to": "Leg Drag Control",
-      "probability": 25,
+      "to": "Leg Drag Control/Bottom",
+      "probability": 30,
       "result": "failure"
     },
     {
-      "to": "Side Control",
-      "probability": 10,
+      "to": "Side Control/Bottom",
+      "probability": 12,
       "result": "counter"
     }
   ],
+  "success_rate": 58,
   "overview": "Leg Recovery to De La Riva represents a critical defensive transition for practitioners caught in the compromised leg drag control position. When your opponent has successfully dragged your leg across your body and is threatening to advance to side control or take your back, this technique provides a pathway to re-establish an offensive guard position rather than merely surviving.\n\nThe fundamental challenge of leg drag recovery lies in the mechanical disadvantage created by the crossed leg configuration. Your trapped leg cannot simply be pulled back—it requires specific angles, timing, and coordinated movement to extract. The De La Riva hook insertion transforms what would be a desperate scramble into a calculated guard recovery that immediately puts you back on offense.\n\nStrategically, this transition exploits a fundamental vulnerability in the leg drag position: the opponent must maintain forward pressure while controlling both your leg and upper body. When they adjust their weight or reach for new grips, windows open for leg extraction. The key insight is recognizing that you are not escaping to a neutral position—you are transitioning directly to an attacking guard that gives you immediate sweep and submission threats. This mindset shift from defense to offense is what separates successful recoveries from those that merely delay the inevitable pass.",
-  "key_principles": [
-    "Create frames at shoulder and hip before attempting leg extraction",
-    "Use hip movement to create angle rather than pulling leg directly back",
-    "Insert DLR hook immediately upon leg extraction to prevent re-drag",
-    "Time extraction to opponent's weight shifts or grip adjustments",
-    "Maintain collar or sleeve grip throughout transition to establish guard attacks",
-    "Never turn away from opponent during extraction—stay facing them"
-  ],
-  "setup_requirements": [
-    "Opponent has established leg drag control with your leg crossed over your body",
-    "You have created at least one frame against opponent's shoulder or hip",
-    "Your free leg has mobility to assist extraction or block opponent's advance",
-    "Opponent's weight is distributed enough to allow hip movement"
-  ],
-  "execution_steps": [
-    {
-      "step_number": 1,
-      "action": "Establish frames",
-      "description": "Place your near-side hand on opponent's shoulder or bicep, creating a stiff arm frame. Your far-side hand controls their sleeve or collar to prevent them from settling weight or establishing crossface."
-    },
-    {
-      "step_number": 2,
-      "action": "Hip escape to angle",
-      "description": "Perform a hip escape away from opponent while keeping your shoulders relatively flat. This creates space between your hip and their controlling pressure without exposing your back."
-    },
-    {
-      "step_number": 3,
-      "action": "Free leg intervention",
-      "description": "Use your free leg to push against opponent's hip or hook behind their knee. This creates additional space and prevents them from following your hip escape with forward pressure."
-    },
-    {
-      "step_number": 4,
-      "action": "Extract trapped leg",
-      "description": "Pull your trapped leg back by driving your knee toward your chest in a circular motion, not straight back. The angle created by your hip escape allows the leg to clear their grip and body."
-    },
-    {
-      "step_number": 5,
-      "action": "Insert DLR hook",
-      "description": "Immediately thread your extracted leg around opponent's front leg, placing your foot behind their knee or thigh to establish the De La Riva hook. Your instep hooks their inner thigh."
-    },
-    {
-      "step_number": 6,
-      "action": "Establish guard grips",
-      "description": "Secure collar and sleeve grips appropriate for De La Riva attacks. Your non-hooking leg establishes contact on their hip or sleeve-controlled arm. Begin off-balancing immediately."
-    }
-  ],
-  "common_counters": [
-    {
-      "counter": "Opponent drives forward and re-establishes heavy shoulder pressure before you can extract",
-      "effectiveness": "High",
-      "your_response": "Maintain frames and wait for next weight shift; do not force extraction against settled pressure"
-    },
-    {
-      "counter": "Opponent releases leg drag to backstep into leg entanglement as you extract",
-      "effectiveness": "Medium",
-      "your_response": "Immediately pummel your free leg inside to prevent ashi garami entry and sit up to address the leg attack"
-    },
-    {
-      "counter": "Opponent transitions to knee slice as your leg comes free",
-      "effectiveness": "Medium",
-      "your_response": "Use extracted leg to establish knee shield before they can complete the slice; DLR hook prevents their hip from advancing"
-    },
-    {
-      "counter": "Opponent releases upper body control to re-drag your leg before hook is established",
-      "effectiveness": "Low",
-      "your_response": "Use the momentary lack of upper body control to sit up and face them, establishing open guard"
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Pulling trapped leg straight back without creating angle first",
-      "consequence": "Leg remains stuck against opponent's grip and body weight, wasting energy",
-      "correction": "Hip escape to create angle before attempting extraction; the leg must travel in an arc, not a straight line"
-    },
-    {
-      "error": "Turning away from opponent to extract leg, exposing back",
-      "consequence": "Opponent follows the rotation and takes back control instead of leg drag",
-      "correction": "Keep shoulders relatively square throughout; create space with hip movement while maintaining chest orientation"
-    },
-    {
-      "error": "Failing to insert DLR hook immediately after leg extraction",
-      "consequence": "Opponent re-drags the leg or transitions to another pass before guard is established",
-      "correction": "Treat leg extraction and hook insertion as a single continuous motion; the hook is the finish, not the extraction"
-    },
-    {
-      "error": "Attempting extraction while opponent has full weight settled",
-      "consequence": "Technique fails and you exhaust yourself fighting settled pressure",
-      "correction": "Wait for opponent to adjust position, reach for grip, or shift weight before initiating extraction sequence"
-    },
-    {
-      "error": "Neglecting upper body grips during transition",
-      "consequence": "Successfully establish DLR but opponent immediately passes or disengages the hook",
-      "correction": "Maintain at least one controlling grip throughout; secure full guard grips within two seconds of hook insertion"
-    }
-  ],
-  "training_progressions": [
-    {
-      "phase": "Week 1-2",
-      "focus": "Fundamentals",
-      "description": "Practice the hip escape to angle and leg extraction sequence against a stationary partner. Focus on the circular path of leg extraction and immediate hook insertion. Partner provides position but no resistance."
-    },
-    {
-      "phase": "Week 3-4",
-      "focus": "Timing",
-      "description": "Partner provides light pressure in leg drag and makes small weight shifts or grip adjustments. Bottom player identifies windows and executes extraction during these moments. Develop sensitivity to weight distribution."
-    },
-    {
-      "phase": "Week 5-6",
-      "focus": "Combinations",
-      "description": "Chain the DLR recovery with immediate attacks: sweeps, berimbolo entries, back takes. If recovery fails, transition to alternative escapes like technical standup or turtle. Build a complete defensive flowchart."
-    },
-    {
-      "phase": "Week 7+",
-      "focus": "Live application",
-      "description": "Full resistance guard passing rounds where partner actively attempts leg drag passes. Implement recovery in real time against opponents using counter-techniques and transitions. Stress-test timing and execution under pressure."
-    }
-  ],
-  "variants_and_adaptations": [
-    {
-      "variant_name": "Reverse De La Riva Recovery",
-      "description": "Instead of inserting a standard DLR hook, thread your leg to the outside and establish Reverse De La Riva. Particularly effective when opponent's stance is square or when they begin retreating.",
-      "when_to_use": "When opponent backs away during your extraction or has a very upright posture"
-    },
-    {
-      "variant_name": "Single Leg X Recovery",
-      "description": "As you extract your leg, immediately hook your instep behind their knee and establish your other leg on their hip for Single Leg X guard. This captures their leg and creates immediate sweep threats.",
-      "when_to_use": "When opponent drops their weight low during your extraction or when they step their dragging leg forward"
-    },
-    {
-      "variant_name": "K-Guard Entry",
-      "description": "During extraction, thread your outside leg across their body and establish K-Guard configuration. Requires more hip mobility but provides strong leg entanglement entries.",
-      "when_to_use": "When you have strong hip flexibility and want to threaten leg locks immediately upon recovery"
-    }
-  ],
-  "knowledge_assessment": [
-    {
-      "question": "What is the primary goal of Leg Recovery to De La Riva?",
-      "answer": "The primary goal is to transform a defensive, compromised position into an offensive guard where you have immediate sweep and submission threats. Rather than simply escaping to neutral or surviving, you are establishing De La Riva guard which gives you back the initiative."
-    },
-    {
-      "question": "What position do you start Leg Recovery to De La Riva from?",
-      "answer": "This technique starts from Leg Drag Control Bottom, where your opponent has pulled one of your legs across your body and is using it to control your hips while threatening to advance to side control, mount, or back control."
-    },
-    {
-      "question": "What are the key grips needed for Leg Recovery to De La Riva?",
-      "answer": "During extraction, you need a frame grip on the opponent's shoulder or bicep to create distance, plus a sleeve or collar grip to prevent them from settling weight. Upon establishing DLR, you need a collar grip and sleeve grip to control their posture and near arm for sweeps and attacks."
-    },
-    {
-      "question": "Your opponent maintains heavy shoulder pressure and won't shift their weight—how do you create an extraction window?",
-      "answer": "Use your free leg to push against their hip or hook behind their knee, forcing them to adjust their base. Alternatively, threaten with your collar grip or attempt to sit up, which forces them to address the upper body threat and momentarily reduces pressure on your trapped leg. Never force extraction against settled pressure."
-    },
-    {
-      "question": "When is the best time to attempt Leg Recovery to De La Riva?",
-      "answer": "The optimal window is when your opponent shifts their weight to reach for a new grip, adjusts their position to advance, or transitions toward another passing option. These moments create brief reductions in pressure on your trapped leg. Attempting against fully settled weight wastes energy and typically fails."
-    },
-    {
-      "question": "Why must the DLR hook be inserted immediately upon leg extraction?",
-      "answer": "The moment your leg is free, your opponent will attempt to re-drag it or transition to another pass. The DLR hook must be inserted within one second of extraction to prevent this. The hook creates a structural barrier that prevents them from re-establishing leg drag and immediately threatens their base."
-    },
-    {
-      "question": "Your opponent backsteps toward leg entanglement as you extract your leg—what is your response?",
-      "answer": "Immediately pummel your free leg to the inside to prevent them from securing inside ashi garami or saddle position. Sit up aggressively and face them to address the leg attack. If they already have leg entanglement, fight for inside position on your captured leg and work standard leg lock defense sequences."
-    },
-    {
-      "question": "What is the critical difference in hip movement between a failed and successful leg extraction?",
-      "answer": "Failed extractions attempt to pull the leg straight back against the opponent's grip and body weight. Successful extractions use hip escape to create an angle first, then extract the leg in a circular arc toward the chest. The angle created by the hip escape allows the leg to clear the controlling pressure that would otherwise block direct extraction."
-    }
-  ],
-  "safety_considerations": "Leg Recovery to De La Riva is generally a low-risk defensive transition with minimal injury potential when executed properly. The primary safety concern is avoiding the temptation to forcefully yank your trapped leg free, which can strain hip flexors or groin muscles if the opponent maintains strong control. Always create space through proper technique before extracting. During training, partners should provide progressive resistance and immediately release control if the bottom player signals discomfort. Be mindful of knee torque on the hooking leg once DLR is established—ensure the hook is placed correctly behind the knee or thigh rather than on the knee joint itself.",
-  "position_integration": "Leg Recovery to De La Riva fits within the broader guard retention and recovery system as a proactive defensive option from one of the most common modern passing positions. The leg drag has become a staple of high-level guard passing, making proficiency in this recovery essential. Once established in De La Riva, you have access to the complete DLR attack system: sweeps like the basic DLR sweep and berimbolo, back takes, and transitions to other guards like X-Guard or Single Leg X. This technique connects your defensive game to your offensive guard game, ensuring that surviving a pass attempt immediately returns you to a threatening position rather than a neutral scramble. Practitioners should drill this alongside other leg drag escapes (technical standup, turtle transition, half guard recovery) to develop a complete defensive flowchart.",
   "related_content": [
     {
       "name": "Leg Drag Control",
-      "relationship": "Starting position"
+      "relationship": "Starting position where opponent controls your leg across your body"
     },
     {
       "name": "De La Riva Guard",
-      "relationship": "Target position upon successful recovery"
+      "relationship": "Target position upon successful recovery with full DLR attack system"
     },
     {
       "name": "Leg Drag Counter to Half Guard",
-      "relationship": "Alternative escape from same starting position"
-    },
-    {
-      "name": "Technical Standup",
-      "relationship": "Alternative escape from same starting position"
-    },
-    {
-      "name": "Single Leg X-Guard",
-      "relationship": "Variant recovery option"
+      "relationship": "Alternative escape from same starting position when DLR hook is unavailable"
     },
     {
       "name": "Reverse De La Riva Guard",
-      "relationship": "Variant recovery option"
+      "relationship": "Variant recovery when opponent retreats or squares stance during extraction"
+    },
+    {
+      "name": "Single Leg X-Guard",
+      "relationship": "Variant recovery when opponent drops weight low during extraction"
     },
     {
       "name": "Berimbolo Entry",
-      "relationship": "Follow-up attack from DLR guard"
+      "relationship": "Primary follow-up attack from established DLR guard"
     },
     {
       "name": "Back Take from Bottom",
-      "relationship": "Follow-up attack from DLR guard"
+      "relationship": "Follow-up attack chain from DLR guard via inversion or berimbolo"
+    },
+    {
+      "name": "De La Riva Sweep",
+      "relationship": "Immediate sweep option once DLR guard is established"
+    },
+    {
+      "name": "Leg Drag Escape to Closed Guard",
+      "relationship": "Alternative escape path from leg drag bottom"
+    },
+    {
+      "name": "K-Guard",
+      "relationship": "Advanced variant recovery using outside leg thread for leg entanglement entries"
     }
   ],
-  "success_rate": 58
+  "conditions": [
+    "Opponent has established leg drag control with your leg crossed over your body",
+    "You have at least one frame established against opponent's shoulder or hip",
+    "Your free leg retains enough mobility to push or hook",
+    "Opponent has not yet fully consolidated to side control or taken your back"
+  ],
+  "attacker": {
+    "name": "Leg Recovery to De La Riva Attacker",
+    "description": "How to execute Leg Recovery to De La Riva in BJJ. Complete guide to extracting your trapped leg and inserting the DLR hook from leg drag bottom.",
+    "overview": "Executing Leg Recovery to De La Riva requires converting a compromised leg drag bottom position into an offensive De La Riva guard. The attacker in this context is the bottom player—you are the one initiating the recovery sequence. The technique demands precise coordination between framing, hip movement, leg extraction, and immediate hook insertion. Unlike reactive scrambles that leave you in neutral, this transition deposits you directly into one of the most attack-rich guard systems in modern grappling.\n\nThe biomechanical key is understanding that your trapped leg cannot travel in a straight line back to its starting position. The opponent's grip, body weight, and hip pressure all block direct retraction. Instead, you must create an angle through hip escape that allows the leg to travel in a circular arc, clearing the opponent's control points. This arc movement, combined with your free leg creating space by pushing on their hip or hooking their knee, generates the opening needed for extraction.\n\nOnce the leg is free, the window for re-drag is extremely small—typically under one second. The DLR hook must be inserted as a continuation of the extraction movement, not as a separate action. Treating extraction and hook insertion as one motion is the single most important technical detail that determines success or failure of this transition.",
+    "key_principles": [
+      "Create frames at shoulder and hip before attempting leg extraction to prevent opponent from settling",
+      "Use hip escape to create angle rather than pulling leg directly back against resistance",
+      "Insert DLR hook immediately upon leg extraction as one continuous motion to prevent re-drag",
+      "Time extraction to opponent's weight shifts, grip adjustments, or transition attempts",
+      "Maintain collar or sleeve grip throughout transition to establish guard attacks upon arrival",
+      "Never turn away from opponent during extraction—stay facing them to prevent back exposure"
+    ],
+    "setup_requirements": [
+      "Opponent has established leg drag control with your leg crossed over your body",
+      "You have created at least one frame against opponent's shoulder or hip to prevent them from settling",
+      "Your free leg has mobility to assist extraction or block opponent's forward advance",
+      "Opponent's weight is distributed enough to allow hip movement rather than fully pinned"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish frames",
+        "description": "Place your near-side hand on opponent's shoulder or bicep, creating a stiff arm frame. Your far-side hand controls their sleeve or collar to prevent them from settling weight or establishing crossface. These frames are your defense while you set up the extraction."
+      },
+      {
+        "step_number": 2,
+        "action": "Hip escape to create angle",
+        "description": "Perform a hip escape away from opponent while keeping your shoulders relatively flat. This creates space between your hip and their controlling pressure without exposing your back. The angle you generate is what makes leg extraction mechanically possible."
+      },
+      {
+        "step_number": 3,
+        "action": "Free leg intervention",
+        "description": "Use your free leg to push against opponent's hip or hook behind their knee on the dragging side. This creates additional separation and prevents them from following your hip escape with forward pressure. The push must be active and sustained."
+      },
+      {
+        "step_number": 4,
+        "action": "Extract trapped leg in circular arc",
+        "description": "Pull your trapped leg back by driving your knee toward your chest in a circular motion, not straight back. The angle created by your hip escape allows the leg to clear their grip and body. Think of drawing your knee in an arc toward your opposite shoulder rather than pulling it directly backward."
+      },
+      {
+        "step_number": 5,
+        "action": "Insert DLR hook immediately",
+        "description": "Without pausing, thread your extracted leg around opponent's front leg, placing your foot behind their knee or thigh to establish the De La Riva hook. Your instep hooks their inner thigh. This must happen within one second of extraction or the opponent will re-drag."
+      },
+      {
+        "step_number": 6,
+        "action": "Establish guard grips and off-balance",
+        "description": "Secure collar and sleeve grips appropriate for De La Riva attacks. Your non-hooking leg establishes contact on their hip or sleeve-controlled arm to manage distance. Begin off-balancing immediately by pulling with the hook and grips to prevent them from stripping the newly established guard."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent drives forward and re-establishes heavy shoulder pressure before you can extract",
+        "effectiveness": "High",
+        "your_response": "Maintain frames and wait for next weight shift; do not force extraction against settled pressure. Use your free leg to push their hip and create micro-adjustments that may force a weight shift.",
+        "targets_outcome": "Leg Drag Control/Bottom"
+      },
+      {
+        "counter": "Opponent releases leg drag to backstep into leg entanglement as you extract",
+        "effectiveness": "Medium",
+        "your_response": "Immediately pummel your free leg inside to prevent ashi garami entry and sit up to address the leg attack. If they commit to the backstep, your extracted leg should already be threading for the DLR hook which blocks their entry angle.",
+        "targets_outcome": "Leg Drag Control/Bottom"
+      },
+      {
+        "counter": "Opponent transitions to knee slice as your leg comes free",
+        "effectiveness": "Medium",
+        "your_response": "Use extracted leg to establish knee shield before they can complete the slice. If you get the DLR hook in first, it prevents their hip from advancing past your leg line and you can redirect into a standard DLR defense of the knee slice.",
+        "targets_outcome": "Leg Drag Control/Bottom"
+      },
+      {
+        "counter": "Opponent accelerates to side control consolidation during your extraction attempt",
+        "effectiveness": "High",
+        "your_response": "If they achieve crossface and hip control before your leg clears, abandon the DLR recovery and switch to standard side control escape sequences. Do not continue forcing extraction once they have consolidated.",
+        "targets_outcome": "Side Control/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Pulling trapped leg straight back without creating angle first",
+        "consequence": "Leg remains stuck against opponent's grip and body weight, wasting energy and achieving nothing",
+        "correction": "Hip escape to create angle before attempting extraction; the leg must travel in an arc, not a straight line"
+      },
+      {
+        "error": "Turning away from opponent to extract leg, exposing back",
+        "consequence": "Opponent follows the rotation and takes back control, which is far worse than leg drag",
+        "correction": "Keep shoulders relatively square throughout; create space with hip movement while maintaining chest orientation toward opponent"
+      },
+      {
+        "error": "Failing to insert DLR hook immediately after leg extraction",
+        "consequence": "Opponent re-drags the leg or transitions to another pass before guard is established",
+        "correction": "Treat leg extraction and hook insertion as a single continuous motion; the hook is the finish, not the extraction"
+      },
+      {
+        "error": "Attempting extraction while opponent has full weight settled on your hips",
+        "consequence": "Technique fails and you exhaust yourself fighting settled pressure with diminishing returns",
+        "correction": "Wait for opponent to adjust position, reach for grip, or shift weight before initiating extraction sequence"
+      },
+      {
+        "error": "Neglecting upper body grips during transition",
+        "consequence": "Successfully establish DLR but opponent immediately strips the hook or passes because you have no upper body control",
+        "correction": "Maintain at least one controlling grip throughout the entire sequence; secure full DLR guard grips within two seconds of hook insertion"
+      },
+      {
+        "error": "Using only arms to frame without engaging free leg",
+        "consequence": "Frames alone cannot create enough space against a heavy top player; extraction fails repeatedly",
+        "correction": "Your free leg pushing on their hip or hooking behind their knee is the primary space creator; arms frame while legs do the heavy work"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Mechanics",
+        "description": "Practice the hip escape to angle and leg extraction sequence against a stationary partner. Focus on the circular path of leg extraction and immediate hook insertion. Partner provides position but no resistance. Drill 20 repetitions per side per session."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Timing and sensitivity",
+        "description": "Partner provides light pressure in leg drag and makes small weight shifts or grip adjustments. Bottom player identifies windows and executes extraction during these moments. Develop sensitivity to weight distribution changes through the contact points."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Combinations and contingencies",
+        "description": "Chain the DLR recovery with immediate attacks: sweeps, berimbolo entries, back takes. If recovery fails, transition to alternative escapes like half guard recovery or turtle. Build a complete defensive flowchart from leg drag bottom."
+      },
+      {
+        "phase": "Week 7-8",
+        "focus": "Counter-recovery scenarios",
+        "description": "Partner actively counters your extraction attempts: re-dragging, backstepping to leg locks, transitioning to knee slice. Practice recognizing each counter and selecting the appropriate response. Develop the decision tree under moderate resistance."
+      },
+      {
+        "phase": "Week 9+",
+        "focus": "Live application",
+        "description": "Full resistance guard passing rounds where partner actively attempts leg drag passes. Implement recovery in real time against opponents using counter-techniques and transitions. Stress-test timing and execution under competition-level pressure."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary goal of Leg Recovery to De La Riva?",
+        "answer": "The primary goal is to transform a defensive, compromised leg drag bottom position into an offensive De La Riva guard where you have immediate sweep and submission threats. Rather than simply escaping to neutral or surviving, you are establishing a guard that gives you back the initiative and access to the full DLR attack system."
+      },
+      {
+        "question": "What is the critical hip movement that makes leg extraction mechanically possible?",
+        "answer": "A hip escape away from the opponent creates an angle that allows the trapped leg to travel in a circular arc toward the chest rather than attempting to pull straight back. This angle is essential because the opponent's grip and body weight block direct retraction. Without the hip escape creating this arc path, the leg cannot clear their control points regardless of how much force you apply."
+      },
+      {
+        "question": "What are the key grips needed during extraction and upon establishing DLR?",
+        "answer": "During extraction, you need a stiff arm frame on the opponent's shoulder or bicep to create distance, plus a sleeve or collar grip to prevent them from settling weight or establishing crossface. Upon establishing DLR, you transition to a collar grip and sleeve grip to control their posture and near arm for sweeps, berimbolo entries, and back take setups."
+      },
+      {
+        "question": "Your opponent maintains heavy shoulder pressure and refuses to shift weight—how do you create an extraction window?",
+        "answer": "Use your free leg to push against their hip or hook behind their knee, which forces them to adjust their base or risk losing balance. Alternatively, threaten with your collar grip by pulling them forward or attempt to sit up, which forces them to address the upper body threat and momentarily reduces pressure on your trapped leg. Never force extraction against fully settled pressure."
+      },
+      {
+        "question": "Why must the DLR hook be inserted within one second of leg extraction?",
+        "answer": "The moment your leg is free, your opponent will attempt to re-drag it or transition to another pass such as knee slice or backstep. The DLR hook must be inserted immediately because it creates a structural barrier behind their knee that prevents re-establishment of the leg drag. Treating extraction and hook insertion as separate actions creates a gap that skilled opponents exploit every time."
+      },
+      {
+        "question": "Your opponent backsteps toward leg entanglement as you extract your leg—what is your response?",
+        "answer": "Immediately pummel your free leg to the inside to prevent them from securing inside ashi garami or saddle position. Sit up aggressively and face them to address the leg attack rather than staying on your back. If the DLR hook is already partially inserted, it can actually block their backstep angle. If they already have leg entanglement established, fight for inside position on your captured leg and work standard leg lock defense."
+      },
+      {
+        "question": "What role does the free leg play during the extraction sequence and why is it essential?",
+        "answer": "The free leg is the primary space creator in this technique. It pushes against the opponent's hip or hooks behind their knee to generate the separation needed for extraction. Without active free leg involvement, your arm frames alone cannot create sufficient space against a heavy top player. The free leg also prevents the opponent from following your hip escape with forward pressure, maintaining the space you created."
+      },
+      {
+        "question": "When is the optimal timing window to attempt Leg Recovery to De La Riva?",
+        "answer": "The optimal window is when your opponent shifts their weight to reach for a new grip, adjusts their position to advance toward side control or back take, or transitions toward another passing option. These moments create brief reductions in pressure on your trapped leg. You must have frames already established so you can exploit the window immediately when it appears."
+      },
+      {
+        "question": "Your extraction attempt fails and the opponent re-settles into leg drag—what do you do?",
+        "answer": "Do not immediately attempt another extraction. Re-establish your frames at shoulder and hip, reset your breathing, and return to a defensive posture. Assess whether the failed attempt changed anything—did they adjust their grips, shift their weight distribution, or change their angle? Wait for the next natural window rather than forcing repeated attempts that drain your energy while the opponent remains stable."
+      },
+      {
+        "question": "How does the direction of force differ between a failed and successful leg extraction?",
+        "answer": "Failed extractions apply force in a straight line pulling the leg directly backward against the opponent's grip and body weight, which is their strongest control axis. Successful extractions apply force in a circular arc—the hip escape creates a lateral angle, then the knee drives toward the opposite shoulder in a curved path that bypasses the opponent's grip strength. The circular path exploits the weakness at the edges of their control rather than fighting the center."
+      }
+    ],
+    "safety_considerations": "Leg Recovery to De La Riva is generally a low-risk defensive transition with minimal injury potential when executed properly. The primary safety concern is avoiding the temptation to forcefully yank your trapped leg free, which can strain hip flexors or groin muscles if the opponent maintains strong control. Always create space through proper technique before extracting. During training, partners should provide progressive resistance and immediately release control if the bottom player signals discomfort. Be mindful of knee torque on the hooking leg once DLR is established—ensure the hook is placed correctly behind the knee or thigh rather than on the knee joint itself. If you feel sharp pain in your hip or knee during extraction, stop the attempt and reset rather than powering through."
+  },
+  "defender": {
+    "name": "Leg Recovery to De La Riva Defender",
+    "description": "How to defend against Leg Recovery to De La Riva in BJJ. Maintain leg drag control and prevent DLR hook insertion when opponent attempts guard recovery.",
+    "overview": "As the defender in Leg Recovery to De La Riva, you are the top player maintaining leg drag control while your opponent attempts to extract their trapped leg and establish De La Riva guard. Your objective is to prevent the extraction entirely, or if the leg comes free, to prevent the DLR hook from being inserted. The leg drag position is inherently transitional—you should be advancing toward side control, mount, or back take rather than passively holding the drag. When your opponent begins their recovery attempt, you must recognize it immediately and either shut it down with pressure and re-drags, or accelerate your own advancement to a consolidated position before they can complete the guard recovery.\n\nThe critical defensive window for you is the moment between their leg extraction and hook insertion. If you can prevent the hook from landing behind your knee, their recovery fails and you maintain the passing advantage. This requires constant hip pressure, active grip maintenance on their upper body, and the ability to re-drag their leg the instant it begins to clear. Understanding that your opponent needs both angle and space to extract means that denying either one—through forward pressure, weight settling, or crossface control—shuts down their recovery before it starts.",
+    "key_principles": [
+      "Maintain constant forward hip pressure to deny the space needed for leg extraction",
+      "Control the upper body with crossface or shoulder pressure to prevent the hip escape that creates extraction angle",
+      "Be prepared to re-drag the leg immediately if it begins to clear your control",
+      "Advance to consolidated positions rather than passively holding leg drag when opponent begins recovery attempts",
+      "Keep your weight distributed low on their hips rather than high on their chest to block leg movement"
+    ],
+    "recognition_cues": [
+      "Opponent begins hip escaping away from you while maintaining frames on your shoulder or bicep",
+      "Opponent's free leg actively pushes against your hip or hooks behind your knee to create space",
+      "Opponent's trapped leg knee starts driving upward toward their chest in a circular arc rather than remaining flat",
+      "Opponent establishes a strong sleeve or collar grip and begins pulling to disrupt your weight distribution"
+    ],
+    "defensive_options": [
+      {
+        "action": "Drive forward hip pressure and re-settle weight before extraction completes",
+        "when_to_use": "As soon as you feel opponent hip escaping or their free leg pushing your hip—the earliest stage of their recovery attempt",
+        "targets_outcome": "Leg Drag Control/Bottom",
+        "if_successful": "Opponent's extraction attempt fails and they remain trapped in leg drag with depleted energy from the failed escape",
+        "risk": "If you overcommit forward, opponent may use your momentum for a sweep or scramble to turtle"
+      },
+      {
+        "action": "Re-drag the freed leg before DLR hook is inserted by gripping the ankle or knee and pulling it back across their body",
+        "when_to_use": "When the opponent's leg has partially cleared but the DLR hook has not yet been established behind your knee",
+        "targets_outcome": "Leg Drag Control/Bottom",
+        "if_successful": "You re-establish leg drag control and the opponent must restart their entire extraction sequence",
+        "risk": "Reaching for the leg requires releasing upper body control momentarily, which may allow opponent to sit up or face you"
+      },
+      {
+        "action": "Accelerate to side control consolidation by driving crossface and sliding your hips past their guard recovery",
+        "when_to_use": "When you recognize the recovery attempt is underway and your leg drag control is compromised—race to consolidate rather than fight the extraction",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "You bypass the leg drag battle entirely and establish a dominant side control position worth 3 points",
+        "risk": "If the transition is too slow, opponent may establish DLR or half guard during your consolidation attempt"
+      },
+      {
+        "action": "Backstep to leg entanglement as opponent extracts, converting their guard recovery into your leg attack entry",
+        "when_to_use": "When opponent has created enough angle that re-dragging is unlikely to succeed and you have opportunity to capture their leg during extraction",
+        "targets_outcome": "Leg Drag Control/Bottom",
+        "if_successful": "You transition from a failing leg drag into an offensive leg entanglement position with heel hook or kneebar threats",
+        "risk": "Failed backstep may leave you in opponent's guard with no top control advantage"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Leg Drag Control/Bottom",
+        "how": "Maintain constant forward hip pressure and crossface control to deny the space and angle needed for extraction. When you feel their free leg pushing, drive your weight lower and tighter. If their leg partially clears, immediately re-drag it by gripping the ankle and pulling it back across their body before the DLR hook is inserted."
+      },
+      {
+        "outcome": "Side Control/Bottom",
+        "how": "When you recognize their recovery attempt is gaining traction and the leg drag is compromised, accelerate your passing sequence by driving a strong crossface while sliding your hips past their knee line. Prioritize consolidating side control over fighting to maintain the drag—a consolidated side control is better than a contested leg drag."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Passively holding leg drag without advancing when opponent begins recovery attempts",
+        "consequence": "Gives opponent repeated extraction windows until they eventually succeed in establishing DLR guard",
+        "correction": "Treat any recovery attempt as a signal to accelerate your own advancement—either re-settle aggressively or transition to side control, mount, or back take immediately"
+      },
+      {
+        "error": "Keeping weight high on opponent's chest instead of low on their hips",
+        "consequence": "Hip pressure is what prevents leg extraction; chest-level weight leaves their hips free to escape and create the angle needed for extraction",
+        "correction": "Drive your hips into their hips with your chest angled across their body. Your shoulder pressure should be a byproduct of hip-level control, not the primary control point"
+      },
+      {
+        "error": "Releasing crossface to reach for their extracting leg with both hands",
+        "consequence": "Without crossface control, opponent can sit up, face you, and establish any open guard configuration they choose",
+        "correction": "Maintain crossface with one arm while using your other hand and hip pressure to control the leg. Never sacrifice head control for leg control—address the extraction through pressure rather than gripping"
+      },
+      {
+        "error": "Allowing opponent's free leg to push on your hip without addressing it",
+        "consequence": "The free leg push is the primary space creator in their recovery sequence; ignoring it guarantees they create enough space to extract",
+        "correction": "Use your free hand to control or redirect their pushing leg, or drive your hip forward into their push to neutralize the space creation before it develops"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that your opponent is attempting Leg Recovery to De La Riva?",
+        "answer": "The earliest cue is feeling them hip escape away from you while simultaneously establishing a frame on your shoulder or bicep. This hip escape is the prerequisite for their leg extraction—without it, the leg cannot travel in the circular arc needed to clear your control. Feeling this movement should trigger immediate forward pressure or advancement."
+      },
+      {
+        "question": "Why is hip-level weight distribution more effective than chest-level pressure at preventing leg extraction?",
+        "answer": "Hip-level weight pins their pelvis to the mat, which directly prevents the hip escape that creates the angle needed for extraction. Chest-level pressure may feel heavy but leaves their hips mobile—they can shrimp away and create the arc path for their trapped leg. The extraction requires hip movement first, so controlling their hips addresses the root cause rather than a symptom."
+      },
+      {
+        "question": "Your opponent has partially freed their leg but the DLR hook is not yet established—what is the highest-percentage response?",
+        "answer": "Immediately re-drag their leg by gripping the ankle or knee and pulling it back across their body before the hook lands behind your knee. This window between extraction and hook insertion is typically under one second, so you must react instantly. If you are too slow for the re-drag, accelerate to side control consolidation rather than fighting a half-established DLR guard."
+      },
+      {
+        "question": "When should you abandon maintaining leg drag and accelerate to side control instead?",
+        "answer": "Abandon the leg drag when you feel the opponent has created significant angle through hip escape and their free leg is actively pushing your hip away. At this point, fighting to maintain the drag is a losing battle. Instead, use their movement as an opportunity to drive your crossface through and slide past their recovering legs into side control. A consolidated side control is far better than a contested leg drag."
+      },
+      {
+        "question": "How do you shut down the opponent's free leg from creating space during their recovery attempt?",
+        "answer": "Use your free hand to control or redirect their pushing leg—either grip their knee and pin it to the mat, or use your forearm to deflect the push laterally rather than letting it connect with your hip. Alternatively, drive your hip forward into their push to neutralize the space creation through pressure rather than grip. The free leg is their primary tool for space creation, so addressing it early shuts down the entire extraction sequence."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Recognition and pressure maintenance",
+        "description": "Partner attempts slow-speed leg extraction from leg drag bottom. Practice recognizing the hip escape and free leg push cues, then respond by driving forward hip pressure and re-settling weight. No counter-attacks yet, just maintaining position against progressive extraction attempts."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Re-drag and acceleration responses",
+        "description": "Partner attempts extraction at moderate speed. Practice both the re-drag response (gripping and pulling the leg back across) and the acceleration response (transitioning to side control when drag is compromised). Develop the decision-making for which response to use based on how far the extraction has progressed."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Transitional counter-attacks",
+        "description": "Partner attempts extraction with full technique. Practice converting failed prevention into offensive transitions: backstep to leg entanglement when leg clears, gift wrap to back take when they turn, or immediate knee slice when they create angle. Build a counter-attack flowchart from the leg drag position."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live competition scenarios",
+        "description": "Full resistance guard passing rounds where you establish leg drag and partner uses all available recovery tools. Practice maintaining passing pressure while shutting down extraction attempts in real time. Develop the instinct to advance rather than hold when recovery attempts begin."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Reverse De La Riva Recovery",
+      "description": "Instead of inserting a standard DLR hook, thread your leg to the outside and establish Reverse De La Riva. Particularly effective when opponent's stance is square or when they begin retreating during your extraction.",
+      "when_to_use": "When opponent backs away during your extraction or has a very upright posture that makes standard DLR hook insertion difficult"
+    },
+    {
+      "variant_name": "Single Leg X Recovery",
+      "description": "As you extract your leg, immediately hook your instep behind their knee and establish your other leg on their hip for Single Leg X guard. This captures their leg and creates immediate off-balancing and sweep threats without needing traditional DLR grips.",
+      "when_to_use": "When opponent drops their weight low during your extraction or when they step their dragging leg forward into your hip space"
+    },
+    {
+      "variant_name": "K-Guard Entry",
+      "description": "During extraction, thread your outside leg across their body and establish K-Guard configuration. Requires more hip mobility but provides strong leg entanglement entries including heel hook and kneebar setups immediately upon recovery.",
+      "when_to_use": "When you have strong hip flexibility and want to threaten leg locks immediately upon recovery rather than playing traditional DLR sweeps"
+    }
+  ],
+  "position_integration": "Leg Recovery to De La Riva fits within the broader guard retention and recovery system as a proactive defensive option from one of the most common modern passing positions. The leg drag has become a staple of high-level guard passing in both gi and no-gi, making proficiency in this recovery essential for any serious competitor. Once established in De La Riva, you have access to the complete DLR attack system: sweeps like the basic DLR sweep and berimbolo, back takes via kiss of the dragon, and transitions to other guards like X-Guard or Single Leg X. This technique connects your defensive game to your offensive guard game, ensuring that surviving a pass attempt immediately returns you to a threatening position rather than a neutral scramble. Practitioners should drill this alongside other leg drag escapes—half guard recovery, turtle transition, technical standup—to develop a complete defensive flowchart that accounts for all possible opponent reactions."
 }

@@ -93,17 +93,27 @@ The position's place in the BJJ positional hierarchy reflects its defensive natu
 ### Available Transitions
 
 
-- **[[Hip Escape]]** (25% of attempts)
+- **[[Frame and Shrimp to Guard]]** (47% of attempts)
 
-- **[[Deep Half Entry]]** (20% of attempts)
+- **[[Deep Half Entry]]** (16% of attempts)
 
-- **[[Elbow Escape]]** (22% of attempts)
+- **[[Elbow Escape to Guard]]** (16% of attempts)
 
-- **[[Granby Roll]]** (12% of attempts)
+- **[[Granby Roll to Guard]]** (1% of attempts)
 
-- **[[Lockdown Sweeps]]** (12% of attempts)
+- **[[Lockdown Recovery]]** (8% of attempts)
 
-- **[[Old School Sweep]]** (9% of attempts)
+- **[[Old School Sweep]]** (5% of attempts)
+
+- **[[Underhook Sweep from Half]]** (6% of attempts)
+
+- **[[Deep Half Entry from Flattened]]** (0% of attempts)
+
+- **[[Elbow Escape from Flattened Half]]** (0% of attempts)
+
+- **[[Recover Knee Shield from Flattened Half]]** (0% of attempts)
+
+- **[[Underhook Recovery from Flattened]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -156,19 +166,23 @@ The position's place in the BJJ positional hierarchy reflects its defensive natu
 ### Available Transitions
 
 
-- **[[Knee Slice from Half]]** (19% of attempts)
+- **[[Knee Slice from Half]]** (30% of attempts)
 
-- **[[Crossface Pass]]** (18% of attempts)
+- **[[Crossface Pass]]** (15% of attempts)
 
-- **[[Underhook Pass]]** (16% of attempts)
+- **[[Underhook Pass]]** (11% of attempts)
 
-- **[[Back Take Generic]]** (12% of attempts)
+- **[[Back Take]]** (10% of attempts)
 
-- **[[Kimura from Half Guard]]** (10% of attempts)
+- **[[Kimura]]** (6% of attempts)
 
-- **[[Side Control to Mount]]** (14% of attempts)
+- **[[Transition to Flattened Half Guard]]** (13% of attempts)
 
-- **[[Knee on Belly]]** (11% of attempts)
+- **[[Half Guard Pass]]** (10% of attempts)
+
+- **[[Complete Pass from Flattened Half]]** (3% of attempts)
+
+- **[[Knee Slide from Flattened Half]]** (2% of attempts)
 
 
 ### Common Mistakes

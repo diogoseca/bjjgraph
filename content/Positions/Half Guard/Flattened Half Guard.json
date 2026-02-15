@@ -102,7 +102,7 @@
         "condition": "If opponent turns away to escape crossface pressure or prevent pass completion",
         "actions": [
           {
-            "technique": "Back Take Generic",
+            "technique": "Back Take",
             "target": "Back Control",
             "probability": 50
           },
@@ -117,7 +117,7 @@
         "condition": "If opponent extends arm to establish underhook or create frame against crossface",
         "actions": [
           {
-            "technique": "Kimura from Half Guard",
+            "technique": "Kimura",
             "target": "Kimura Trap",
             "probability": 40
           },
@@ -221,31 +221,39 @@
     "transitions": [
       {
         "transition": "Knee Slice from Half",
-        "attempt_probability": 19
+        "attempt_probability": 30
       },
       {
         "transition": "Crossface Pass",
-        "attempt_probability": 18
+        "attempt_probability": 15
       },
       {
         "transition": "Underhook Pass",
-        "attempt_probability": 16
+        "attempt_probability": 11
       },
       {
-        "transition": "Back Take Generic",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Kimura from Half Guard",
+        "transition": "Back Take",
         "attempt_probability": 10
       },
       {
-        "transition": "Side Control to Mount",
-        "attempt_probability": 14
+        "transition": "Kimura",
+        "attempt_probability": 6
       },
       {
-        "transition": "Knee on Belly",
-        "attempt_probability": 11
+        "transition": "Transition to Flattened Half Guard",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Half Guard Pass",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Complete Pass from Flattened Half",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Knee Slide from Flattened Half",
+        "attempt_probability": 2
       }
     ],
     "knowledge_assessment": [
@@ -323,12 +331,12 @@
         "condition": "If opponent has crossface but you maintain underhook on far side",
         "actions": [
           {
-            "technique": "Hip Escape",
+            "technique": "Frame and Shrimp to Guard",
             "target": "Knee Shield Half Guard",
             "probability": 45
           },
           {
-            "technique": "Elbow Escape",
+            "technique": "Elbow Escape to Guard",
             "target": "Half Guard",
             "probability": 40
           }
@@ -343,7 +351,7 @@
             "probability": 30
           },
           {
-            "technique": "Granby Roll",
+            "technique": "Granby Roll to Guard",
             "target": "Turtle",
             "probability": 35
           }
@@ -353,12 +361,12 @@
         "condition": "If opponent posts hand or shifts weight to advance passing sequence",
         "actions": [
           {
-            "technique": "Elbow Escape",
+            "technique": "Elbow Escape to Guard",
             "target": "Knee Shield Half Guard",
             "probability": 50
           },
           {
-            "technique": "Hip Escape",
+            "technique": "Frame and Shrimp to Guard",
             "target": "Half Guard",
             "probability": 40
           }
@@ -423,11 +431,11 @@
         "relationship": "Alternative recovery position accessible by diving under opponent's hips when flattened"
       },
       {
-        "name": "Hip Escape",
+        "name": "Frame and Shrimp to Guard",
         "relationship": "Fundamental movement technique enabling space creation while under pressure"
       },
       {
-        "name": "Elbow Escape",
+        "name": "Elbow Escape to Guard",
         "relationship": "Core defensive movement for re-establishing structure from collapsed positions"
       },
       {
@@ -456,28 +464,48 @@
     },
     "transitions": [
       {
-        "transition": "Hip Escape",
-        "attempt_probability": 25
+        "transition": "Frame and Shrimp to Guard",
+        "attempt_probability": 47
       },
       {
         "transition": "Deep Half Entry",
-        "attempt_probability": 20
+        "attempt_probability": 16
       },
       {
-        "transition": "Elbow Escape",
-        "attempt_probability": 22
+        "transition": "Elbow Escape to Guard",
+        "attempt_probability": 16
       },
       {
-        "transition": "Granby Roll",
-        "attempt_probability": 12
+        "transition": "Granby Roll to Guard",
+        "attempt_probability": 1
       },
       {
-        "transition": "Lockdown Sweeps",
-        "attempt_probability": 12
+        "transition": "Lockdown Recovery",
+        "attempt_probability": 8
       },
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 9
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Underhook Sweep from Half",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Deep Half Entry from Flattened",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Elbow Escape from Flattened Half",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Recover Knee Shield from Flattened Half",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Underhook Recovery from Flattened",
+        "attempt_probability": 1
       }
     ],
     "knowledge_assessment": [

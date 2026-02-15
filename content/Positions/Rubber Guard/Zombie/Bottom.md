@@ -21,37 +21,37 @@ description: "Master Zombie Bottom position in BJJ. Defensive half guard variant
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 27% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Electric Chair Submission",
-      "text": "From this position, attempt Electric Chair Submission. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Electric Chair Transition",
+      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Lockdown Sweeps",
-      "text": "From this position, attempt Lockdown Sweeps. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Lockdown Recovery",
+      "text": "From this position, attempt Lockdown Recovery. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guard Recovery",
-      "text": "From this position, attempt Guard Recovery. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Guard Recovery. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll",
-      "text": "From this position, attempt Granby Roll. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Granby Roll to Guard",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,21 +208,25 @@ Unlike traditional turtle positions where the practitioner curls into a ball, th
 
 ## Available Escapes
 
-### [[Old School Sweep]] (15% of attempts)
+### [[Old School Sweep]] (27% of attempts)
 
-### [[Electric Chair Submission]] (12% of attempts)
+### [[Electric Chair Transition]] (12% of attempts)
 
-### [[Lockdown Sweeps]] (15% of attempts)
+### [[Lockdown Recovery]] (11% of attempts)
 
-### [[Guard Recovery]] (16% of attempts)
+### [[Guard Recovery]] (14% of attempts)
 
-### [[Granby Roll]] (12% of attempts)
+### [[Granby Roll to Guard]] (10% of attempts)
 
-### [[Rolling Back Take]] (10% of attempts)
+### [[Rolling Back Take]] (8% of attempts)
 
-### [[Turtle to Truck]] (10% of attempts)
+### [[Roll to Truck]] (7% of attempts)
 
-### [[Deep Half Entry]] (10% of attempts)
+### [[Deep Half Entry]] (6% of attempts)
+
+### [[Escape Zombie Control]] (3% of attempts)
+
+### [[Turn to Face from Zombie]] (2% of attempts)
 
 
 
@@ -233,23 +237,23 @@ Unlike traditional turtle positions where the practitioner curls into a ball, th
 ## Decision Making from This Position
 
 **If opponent is heavy on your upper body with strong crossface pressure:**
-- Execute **[[Granby Roll]]** → [[Closed Guard]] (Probability: 55%)
+- Execute **[[Granby Roll to Guard]]** → [[Closed Guard]] (Probability: 55%)
 - Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 45%)
 
 
 **If opponent is attempting to free their leg from lockdown by posting or pulling:**
 - Execute **[[Old School Sweep]]** → [[Half Guard]] (Probability: 60%)
-- Execute **[[Electric Chair Submission]]** → [[Electric Chair]] (Probability: 50%)
+- Execute **[[Electric Chair Transition]]** → [[Electric Chair]] (Probability: 50%)
 
 
 **If opponent establishes strong chest-to-chest pressure attempting to flatten you:**
-- Execute **[[Turtle to Truck]]** → [[Truck]] (Probability: 45%)
+- Execute **[[Roll to Truck]]** → [[Truck]] (Probability: 45%)
 - Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 40%)
 
 
 **If opponent creates distance trying to clear lockdown and establish passing grips:**
 - Execute **[[Guard Recovery]]** → [[Half Guard]] (Probability: 65%)
-- Execute **[[Lockdown Sweeps]]** → [[Half Guard]] (Probability: 55%)
+- Execute **[[Lockdown Recovery]]** → [[Lockdown]] (Probability: 55%)
 
 
 

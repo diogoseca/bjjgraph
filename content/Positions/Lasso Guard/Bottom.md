@@ -20,38 +20,38 @@ description: "Master Lasso Guard from bottom position. Learn sweep mechanics, su
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Lasso Guard Sweeps",
-      "text": "From this position, attempt Lasso Guard Sweeps. This technique is attempted in 25% of exchanges from this position.",
+      "name": "Execute Sickle Sweep",
+      "text": "From this position, attempt Sickle Sweep. This technique is attempted in 60% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute De La Riva Sweep",
-      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 7% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Spider Guard Sweeps",
-      "text": "From this position, attempt Spider Guard Sweeps. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Hook Sweep",
+      "text": "From this position, attempt Hook Sweep. This technique is attempted in 5% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard Sweep",
-      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 3% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -216,21 +216,37 @@ Training Lasso Guard Bottom develops several fundamental skills that transfer ac
 
 ## Available Escapes
 
-### [[Lasso Guard Sweeps]] (25% of attempts)
+### [[Sickle Sweep]] (60% of attempts)
 
-### [[Triangle Setup]] (18% of attempts)
+### [[Triangle Setup]] (13% of attempts)
 
-### [[Omoplata Sweep]] (15% of attempts)
+### [[Omoplata Sweep]] (10% of attempts)
 
-### [[De La Riva Sweep]] (12% of attempts)
+### [[De La Riva Sweep]] (7% of attempts)
 
-### [[Spider Guard Sweeps]] (10% of attempts)
+### [[Hook Sweep]] (5% of attempts)
 
-### [[X-Guard Sweep]] (8% of attempts)
+### [[X-Guard Sweep]] (3% of attempts)
 
-### [[Armbar from Guard]] (7% of attempts)
+### [[Armbar Finish]] (0% of attempts)
 
-### [[Kimura from Guard]] (5% of attempts)
+### [[Kimura Sweep]] (0% of attempts)
+
+### [[Transition to Russian Leg Lasso]] (0% of attempts)
+
+### [[Transition to Inverted Lasso Guard]] (1% of attempts)
+
+### [[Berimbolo Entry]] (0% of attempts)
+
+### [[Guard Recovery]] (0% of attempts)
+
+### [[Lasso Guard to Inverted Lasso Guard]] (0% of attempts)
+
+### [[Lasso Guard to Russian Leg Lasso]] (0% of attempts)
+
+### [[Lasso Sweep]] (0% of attempts)
+
+### [[Omoplata from Lasso]] (1% of attempts)
 
 
 
@@ -241,13 +257,13 @@ Training Lasso Guard Bottom develops several fundamental skills that transfer ac
 ## Decision Making from This Position
 
 **If opponent maintains upright posture and attempts to break the sleeve grip while staying at distance:**
-- Execute **[[Lasso Guard Sweeps]]** → [[Mount]] (Probability: 60%)
+- Execute **[[Sickle Sweep]]** → [[Mount]] (Probability: 60%)
 - Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 55%)
 
 
 **If opponent drives forward with pressure attempting to smash or stack the guard:**
 - Execute **[[Omoplata Sweep]]** → [[Omoplata Control]] (Probability: 50%)
-- Execute **[[Lasso Guard Variations]]** → [[Inverted Lasso Guard]] (Probability: 45%)
+- Execute **[[Transition to Inverted Lasso Guard]]** → [[Inverted Lasso Guard]] (Probability: 45%)
 
 
 **If opponent stands tall and attempts to disengage or pass from standing:**
@@ -256,13 +272,13 @@ Training Lasso Guard Bottom develops several fundamental skills that transfer ac
 
 
 **If opponent successfully begins to free their arm from the lasso control:**
-- Execute **[[Spider Guard Sweeps]]** → [[Side Control]] (Probability: 50%)
-- Execute **[[Armbar from Guard]]** → [[Armbar Control]] (Probability: 45%)
+- Execute **[[Hook Sweep]]** → [[Side Control]] (Probability: 50%)
+- Execute **[[Armbar Finish]]** → [[Armbar Control]] (Probability: 45%)
 
 
 **If opponent circles around the lasso leg toward your non-lasso side:**
-- Execute **[[Lasso Guard Variations]]** → [[De La Riva Guard]] (Probability: 60%)
-- Execute **[[Kimura from Guard]]** → [[Kimura Trap]] (Probability: 40%)
+- Execute **[[De La Riva Sweep]]** → [[De La Riva Guard]] (Probability: 60%)
+- Execute **[[Kimura Sweep]]** → [[Kimura Trap]] (Probability: 40%)
 
 
 
@@ -327,7 +343,7 @@ Establish lasso control while partner remains relatively static. Practice moving
 
 ### Lasso Sweep Flow Drill
 
-Partner provides progressive resistance starting at 30% intensity. Execute triangle sweep when they posture up, omoplata sweep when they drive forward, hook sweep when they try to circle. Partner gives appropriate reactions to create opportunities for each sweep variation. Increase resistance as technique improves. Develops timing and recognition of sweep opportunities.
+Partner provides progressive resistance starting at 30% intensity. Execute sickle sweep when they posture up, omoplata sweep when they drive forward, hook sweep when they try to circle. Partner gives appropriate reactions to create opportunities for each sweep variation. Increase resistance as technique improves. Develops timing and recognition of sweep opportunities.
 
 **Duration**: 10 minutes of continuous flow, gradually increasing resistance each round
 

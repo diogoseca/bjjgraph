@@ -93,21 +93,27 @@ At its core, Worm Guard is about creating a web of control using the gi that res
 ### Available Transitions
 
 
-- **[[Omoplata Sweep]]** (13% of attempts)
+- **[[Omoplata Sweep]]** (30% of attempts)
 
-- **[[Triangle Setup]]** (12% of attempts)
+- **[[Triangle Setup]]** (9% of attempts)
 
-- **[[Omoplata to Back]]** (12% of attempts)
+- **[[Omoplata to Back]]** (9% of attempts)
 
-- **[[Lasso Guard Sweeps]]** (13% of attempts)
+- **[[Lapel Elevator Sweep]]** (10% of attempts)
 
-- **[[X-Guard Sweep]]** (14% of attempts)
+- **[[X-Guard Sweep]]** (11% of attempts)
 
-- **[[De La Riva Sweep]]** (13% of attempts)
+- **[[De La Riva Sweep]]** (10% of attempts)
 
-- **[[Bolo Sweep]]** (11% of attempts)
+- **[[Bolo Sweep]]** (8% of attempts)
 
-- **[[Triangle from Guard]]** (12% of attempts)
+- **[[Triangle from Guard]]** (8% of attempts)
+
+- **[[Collar Drag from Worm Guard]]** (3% of attempts)
+
+- **[[Worm Guard Sweep]]** (1% of attempts)
+
+- **[[Worm to Squid Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -168,17 +174,21 @@ At its core, Worm Guard is about creating a web of control using the gi that res
 ### Available Transitions
 
 
-- **[[Leg Drag Pass]]** (19% of attempts)
+- **[[Leg Drag Pass]]** (24% of attempts)
 
-- **[[Toreando Pass]]** (18% of attempts)
+- **[[Toreando Pass]]** (15% of attempts)
 
-- **[[Smash Pass]]** (16% of attempts)
+- **[[Smash Pass]]** (13% of attempts)
 
-- **[[Knee Slice Pass]]** (17% of attempts)
+- **[[Knee Slice Pass]]** (14% of attempts)
 
-- **[[Long Step Pass]]** (16% of attempts)
+- **[[Long Step Pass]]** (13% of attempts)
 
-- **[[Stack Pass]]** (14% of attempts)
+- **[[Stack Pass]]** (12% of attempts)
+
+- **[[Backstep from Worm Guard]]** (6% of attempts)
+
+- **[[Lapel Strip from Worm Guard]]** (3% of attempts)
 
 
 ### Common Mistakes

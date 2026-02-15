@@ -363,9 +363,9 @@ Study escape concepts and techniques during instruction but deliberately apply t
 - [[Hip Escape Mechanics]] (Principle) - Primary movement pattern for converting created space into guard recovery—technical proficiency in hip escapes is essential for completing escape sequences
 - [[Energy Conservation]] (Principle) - Determines sustainability of defensive effort and ability to wait for optimal escape opportunities—energy conservation enables extended survival under pressure
 - [[Side Control]] (Position) - Primary positional context where side control escape concepts are applied—specific techniques and decision frameworks manifest within this position
-- [[Elbow Escape]] (Transition) - Fundamental escape technique embodying core concepts of frame creation, space generation, and hip escape execution—most common technical application of escape principles
+- [[Elbow Escape to Guard]] (Transition) - Fundamental escape technique embodying core concepts of frame creation, space generation, and hip escape execution—most common technical application of escape principles
 - [[Shrimp Escape]] (Transition) - Hip escape movement pattern that serves as primary mechanical tool for guard recovery—technical execution of conceptual space creation principles
-- [[Technical Standup]] (Transition) - Alternative escape pathway when standard hip escape routes are blocked—demonstrates conceptual principle of multiple solutions to same defensive problem
+- [[Technical Stand-up]] (Transition) - Alternative escape pathway when standard hip escape routes are blocked—demonstrates conceptual principle of multiple solutions to same defensive problem
 - [[Mount Escape Series]] (Principle) - Extension of side control escape concepts into more disadvantageous position—same principles of frame maintenance and progressive escape apply with position-specific modifications
 - [[Back Defense Protocol]] (System) - Parallel defensive framework for different pin position—comparison between side control and back escape systems reveals universal principles of defensive hierarchy
 

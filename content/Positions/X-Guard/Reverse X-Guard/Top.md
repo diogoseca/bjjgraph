@@ -21,37 +21,37 @@ description: "Master Reverse X-Guard Top in BJJ. Control leg attacks with 60% pa
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 30% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, attempt Long Step Pass. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Pass",
-      "text": "From this position, attempt Butterfly Pass. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Step",
-      "text": "From this position, attempt Back Step. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Back Step. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,17 +210,23 @@ Strategically, Reverse X-Guard Top represents a transitional state where the top
 
 ## Available Attacks
 
-### [[Smash Pass]] (19% of attempts)
+### [[Smash Pass]] (30% of attempts)
 
-### [[Knee Slice Pass]] (17% of attempts)
+### [[Knee Slice Pass]] (13% of attempts)
 
-### [[Long Step Pass]] (15% of attempts)
+### [[Long Step Pass]] (11% of attempts)
 
-### [[Leg Drag Pass]] (17% of attempts)
+### [[Leg Drag Pass]] (13% of attempts)
 
-### [[Butterfly Pass]] (18% of attempts)
+### [[Butterfly Pass]] (14% of attempts)
 
-### [[Back Step]] (14% of attempts)
+### [[Back Step]] (11% of attempts)
+
+### [[Backstep Pass from Reverse X-Guard]] (5% of attempts)
+
+### [[Knee Slice from Reverse X-Guard]] (2% of attempts)
+
+### [[Standing Escape from Reverse X-Guard]] (1% of attempts)
 
 
 
@@ -341,7 +347,7 @@ Positional sparring starting from Reverse X-Guard Top. Top player attempts to pa
 **Q5**: When the opponent starts transitioning toward leg lock entries, what is your immediate response?
 **A**: Immediately backstep with your entangled leg while clearing their control. This disengages you from the dangerous leg entanglement before they can secure heel hook or toe hold grips. As you backstep, maintain upper body control to prevent them from following your movement. Reset to a neutral passing position like headquarters rather than remaining in the compromised leg entanglement.
 
-**Q6**: Your opponent hooks are starting to weaken - how do you capitalize on this opening?
+**Q6**: Your opponent's hooks are starting to weaken - how do you capitalize on this opening?
 **A**: When hooks weaken, immediately initiate a passing sequence before they can re-establish control. The knee slice pass is highly effective as you can drive your knee through their weakened hook structure. Alternatively, execute a long step pass to create angle and clear the legs entirely. The key is immediate action - any hesitation allows them to reset their hooks and control.
 
 **Q7**: How do you manage energy expenditure while defending Reverse X-Guard?

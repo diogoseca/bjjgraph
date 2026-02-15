@@ -4,7 +4,7 @@
 
 ---
 title: "Crucifix Top | BJJ Position Guide | BJJ Graph"
-description: "Master Crucifix Top Position in BJJ. Dominant arm-trapping control with 85% submission rate. Complete guide covering entries, submissions, and control mechanics."
+description: "Master Crucifix Top in BJJ. Dominant arm-trapping control with systematic submission chains. Complete guide covering entries, control mechanics, and finishing sequences."
 ---
 
 
@@ -21,19 +21,19 @@ description: "Master Crucifix Top Position in BJJ. Dominant arm-trapping control
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke",
-      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Choke from Crucifix",
-      "text": "From this position, attempt Choke from Crucifix. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Neck Crank",
+      "text": "From this position, attempt Neck Crank. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar from Crucifix",
-      "text": "From this position, attempt Armbar from Crucifix. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Armbar on Free Arm",
+      "text": "From this position, attempt Armbar on Free Arm. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
@@ -50,8 +50,8 @@ description: "Master Crucifix Top Position in BJJ. Dominant arm-trapping control
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Control to Crucifix",
-      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Back Control Maintenance",
+      "text": "From this position, attempt Back Control Maintenance. This technique is attempted in 15% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -115,7 +115,7 @@ description: "Master Crucifix Top Position in BJJ. Dominant arm-trapping control
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Crucifix Top",
-  "description": "Master Crucifix Top Position in BJJ. Dominant arm-trapping control with 85% submission rate. Complete guide covering entries, submissions, and control mechanics.",
+  "description": "Master Crucifix Top in BJJ. Dominant arm-trapping control with systematic submission chains. Complete guide covering entries, control mechanics, and finishing sequences.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -159,7 +159,7 @@ description: "Master Crucifix Top Position in BJJ. Dominant arm-trapping control
 
 Crucifix Top Position represents the pinnacle of arm isolation control in Brazilian Jiu-Jitsu, where the practitioner has successfully trapped both of the opponent's arms while maintaining dominant positional control from the back or side. This position creates an extreme asymmetric advantage where the top player has complete offensive freedom while the bottom opponent's defensive capabilities are virtually eliminated. The position is characterized by using the legs to trap one arm through a figure-four or triangle configuration while the hands control the other arm, creating a two-point control system that is extraordinarily difficult to escape.
 
-From a strategic perspective, Crucifix Top represents the systematic application of weapons denial—by controlling both of the opponent's primary defensive tools simultaneously, the top player creates a scenario where submissions become virtually inevitable. The position offers access to high-percentage rear naked chokes, armbars, and various arm attacks while maintaining positional dominance that requires minimal energy to hold. In competition settings, achieving full crucifix control often signals the end of the match, as escape rates drop below twenty percent even at the highest levels.
+From a strategic perspective, Crucifix Top represents the systematic application of weapons denial—by controlling both of the opponent's primary defensive tools simultaneously, the top player creates a scenario where submissions become virtually inevitable. The position offers access to high-percentage rear naked chokes, armbars, and various arm attacks while maintaining positional dominance that requires minimal energy to hold. In competition settings, achieving full crucifix control often signals the end of the match, as escape rates drop significantly even at the highest levels.
 
 Mastery of Crucifix Top requires understanding precise weight distribution to prevent rolling escapes, maintaining constant pressure on both trapped arms, and the ability to transition smoothly between submission attempts without releasing core positional controls. The position can be entered from back control, turtle attacks, failed guard passes, or scrambles where arm isolation opportunities present themselves. Advanced practitioners use the crucifix not only as a finishing position but as a control platform that creates psychological pressure and forces opponents into defensive errors that open additional attack opportunities.
 
@@ -210,19 +210,19 @@ Mastery of Crucifix Top requires understanding precise weight distribution to pr
 
 ## Available Attacks
 
-### [[Rear Naked Choke]] (16% of attempts)
+### [[Rear Naked Choke]] (18% of attempts)
 
-### [[Choke from Crucifix]] (14% of attempts)
+### [[Neck Crank]] (12% of attempts)
 
-### [[Armbar from Crucifix]] (14% of attempts)
+### [[Armbar on Free Arm]] (15% of attempts)
 
 ### [[Kimura]] (13% of attempts)
 
 ### [[Side Control to Mount]] (14% of attempts)
 
-### [[Back Control to Crucifix]] (15% of attempts)
+### [[Back Control Maintenance]] (15% of attempts)
 
-### [[Side Control to North-South]] (14% of attempts)
+### [[Side Control to North-South]] (13% of attempts)
 
 
 
@@ -233,22 +233,22 @@ Mastery of Crucifix Top requires understanding precise weight distribution to pr
 ## Decision Making from This Position
 
 **If opponent is flat on back with both arms fully controlled and neck exposed:**
-- Execute **[[Rear Naked Choke]]** → [[game-over]] (Probability: 85%)
-- Execute **[[Choke from Crucifix]]** → [[game-over]] (Probability: 80%)
+- Execute **[[Rear Naked Choke]]** → [[Game Over]] (Probability: 85%)
+- Execute **[[Neck Crank]]** → [[Game Over]] (Probability: 80%)
 
 
 **If opponent tucks chin and defends neck aggressively:**
-- Execute **[[Armbar from Crucifix]]** → [[game-over]] (Probability: 75%)
-- Execute **[[Kimura]]** → [[game-over]] (Probability: 70%)
+- Execute **[[Armbar on Free Arm]]** → [[Game Over]] (Probability: 75%)
+- Execute **[[Kimura]]** → [[Game Over]] (Probability: 70%)
 
 
 **If opponent creates space and begins to extract trapped arm:**
 - Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 80%)
-- Execute **[[Back Control to Crucifix]]** → [[Back Control]] (Probability: 85%)
+- Execute **[[Back Control Maintenance]]** → [[Back Control]] (Probability: 85%)
 
 
 **If opponent attempts to roll or bridge explosively:**
-- Execute **[[Rear Naked Choke]]** → [[game-over]] (Probability: 70%)
+- Execute **[[Rear Naked Choke]]** → [[Game Over]] (Probability: 70%)
 - Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 75%)
 
 

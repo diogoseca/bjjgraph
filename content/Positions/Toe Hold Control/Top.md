@@ -4,7 +4,7 @@
 
 ---
 title: "Toe Hold Control Top | BJJ Position Guide | BJJ Graph"
-description: "Master Toe Hold Control Top position in BJJ. Complete guide covering ankle isolation, submission setup, and defensive counters. Advanced leg lock position with high finish rates."
+description: "Master Toe Hold Control Top position in BJJ. Complete guide covering ankle isolation, figure-four grip mechanics, and leg lock chain attacks from dominant top entanglement."
 ---
 
 
@@ -21,37 +21,37 @@ description: "Master Toe Hold Control Top position in BJJ. Complete guide coveri
     {
       "@type": "HowToStep",
       "name": "Execute Toe Hold",
-      "text": "From this position, attempt Toe Hold. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Toe Hold. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Outside Ashi Entry",
-      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 24% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Inside Ashi Entry",
-      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Saddle Entry from Top",
-      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Straight Ankle Lock",
-      "text": "From this position, attempt Straight Ankle Lock. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Ankle Lock Finish",
+      "text": "From this position, attempt Ankle Lock Finish. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kneebar from Top",
-      "text": "From this position, attempt Kneebar from Top. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Kneebar Finish",
+      "text": "From this position, attempt Kneebar Finish. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -115,7 +115,7 @@ description: "Master Toe Hold Control Top position in BJJ. Complete guide coveri
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Toe Hold Control Top",
-  "description": "Master Toe Hold Control Top position in BJJ. Complete guide covering ankle isolation, submission setup, and defensive counters. Advanced leg lock position with high finish rates.",
+  "description": "Master Toe Hold Control Top position in BJJ. Complete guide covering ankle isolation, figure-four grip mechanics, and leg lock chain attacks from dominant top entanglement.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -206,17 +206,21 @@ Toe Hold Control Top is an advanced leg entanglement position where the top prac
 
 ## Available Attacks
 
-### [[Toe Hold]] (17% of attempts)
+### [[Toe Hold]] (14% of attempts)
 
-### [[Outside Ashi Entry]] (19% of attempts)
+### [[Outside Ashi Entry]] (24% of attempts)
 
-### [[Inside Ashi Entry]] (17% of attempts)
+### [[Inside Ashi Entry]] (14% of attempts)
 
-### [[Saddle Entry from Top]] (16% of attempts)
+### [[Saddle Entry from Top]] (13% of attempts)
 
-### [[Straight Ankle Lock]] (17% of attempts)
+### [[Ankle Lock Finish]] (14% of attempts)
 
-### [[Kneebar from Top]] (14% of attempts)
+### [[Kneebar Finish]] (12% of attempts)
+
+### [[Toe Hold to Ashi Garami]] (6% of attempts)
+
+### [[Toe Hold to Straight Ankle Lock]] (3% of attempts)
 
 
 
@@ -227,7 +231,7 @@ Toe Hold Control Top is an advanced leg entanglement position where the top prac
 ## Decision Making from This Position
 
 **If opponent maintains flat posture and cannot sit up:**
-- Execute **[[Toe Hold]]** → [[game-over]] (Probability: 75%)
+- Execute **[[Toe Hold]]** → [[Game Over]] (Probability: 75%)
 - Execute **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]] (Probability: 65%)
 
 
@@ -237,13 +241,13 @@ Toe Hold Control Top is an advanced leg entanglement position where the top prac
 
 
 **If opponent extends leg and pushes away with straight leg:**
-- Execute **[[Kneebar from Top]]** → [[Kneebar Control]] (Probability: 65%)
-- Execute **[[Straight Ankle Lock]]** → [[Straight Ankle Lock Control]] (Probability: 60%)
+- Execute **[[Kneebar Finish]]** → [[Kneebar Control]] (Probability: 65%)
+- Execute **[[Ankle Lock Finish]]** → [[Ashi Garami]] (Probability: 60%)
 
 
 **If opponent rotates knee outward and attempts to clear entanglement:**
 - Execute **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]] (Probability: 70%)
-- Execute **[[Toe Hold]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Toe Hold]]** → [[Game Over]] (Probability: 55%)
 
 
 
@@ -382,9 +386,9 @@ Partner in bottom position performs specific escape attempts including hip escap
 - **[[Outside Ashi-Garami]]** - Common transition target when opponent rotates knee outward
 - **[[Inside Ashi-Garami]]** - Alternative ashi position accessed through knee line rotation
 - **[[Saddle]]** - Advanced transition when opponent sits up or attempts leg extraction
-- **[[Straight Ankle Lock Control]]** - Alternative submission control position with similar leg entanglement
 - **[[Kneebar Control]]** - Transition target when opponent straightens leg during defense
 - **[[Leg Entanglement]]** - Fundamental concept governing all ashi-based positions and controls
+- **[[Ashi Garami]]** - Parent positional category governing entry and control mechanics
 
 
 </section>

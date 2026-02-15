@@ -50,8 +50,8 @@ description: "Control twister side control from top position with systematic sub
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take Generic",
-      "text": "From this position, attempt Back Take Generic. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Back Take",
+      "text": "From this position, attempt Back Take. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -222,7 +222,7 @@ The learning progression for Twister Side Control top is significant, with begin
 
 ### [[Turtle to Truck]] (11% of attempts)
 
-### [[Back Take Generic]] (11% of attempts)
+### [[Back Take]] (11% of attempts)
 
 ### [[Side Control to North-South]] (12% of attempts)
 
@@ -251,7 +251,7 @@ The learning progression for Twister Side Control top is significant, with begin
 
 
 **If bottom player turns away exposing their back to escape shoulder pressure:**
-- Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 75%)
+- Execute **[[Back Take]]** → [[Back Control]] (Probability: 75%)
 - Execute **[[Turtle to Truck]]** → [[Truck]] (Probability: 70%)
 
 

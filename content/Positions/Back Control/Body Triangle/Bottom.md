@@ -4,7 +4,7 @@
 
 ---
 title: "Body Triangle Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master body triangle from bottom perspective. Powerful leg control creating breathing restriction and submission setups. Beginner 45%, Intermediate 60%, Advanced 75%."
+description: "Master body triangle from bottom perspective. Powerful leg control creating breathing restriction and submission setups with high retention and finishing rates."
 ---
 
 
@@ -21,37 +21,37 @@ description: "Master body triangle from bottom perspective. Powerful leg control
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke",
-      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 22% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar from Back with Legs",
-      "text": "From this position, attempt Armbar from Back with Legs. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Armbar from Back Transition",
+      "text": "From this position, attempt Armbar from Back Transition. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bow and Arrow Choke",
-      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Short Choke",
-      "text": "From this position, attempt Short Choke. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Short Choke. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle Choke Back",
-      "text": "From this position, attempt Triangle Choke Back. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Triangle from Back",
+      "text": "From this position, attempt Triangle from Back. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Control to Crucifix",
-      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 15% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -115,7 +115,7 @@ description: "Master body triangle from bottom perspective. Powerful leg control
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Body Triangle Bottom",
-  "description": "Master body triangle from bottom perspective. Powerful leg control creating breathing restriction and submission setups. Beginner 45%, Intermediate 60%, Advanced 75%.",
+  "description": "Master body triangle from bottom perspective. Powerful leg control creating breathing restriction and submission setups with high retention and finishing rates.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -208,21 +208,21 @@ From this bottom position, you maintain constant chest-to-back pressure while yo
 
 ## Available Escapes
 
-### [[Rear Naked Choke]] (15% of attempts)
+### [[Rear Naked Choke]] (22% of attempts)
 
-### [[Armbar from Back with Legs]] (13% of attempts)
+### [[Armbar from Back Transition]] (10% of attempts)
 
-### [[Bow and Arrow Choke]] (14% of attempts)
+### [[Bow and Arrow Choke]] (12% of attempts)
 
-### [[Short Choke]] (12% of attempts)
+### [[Short Choke]] (10% of attempts)
 
-### [[Triangle Choke Back]] (11% of attempts)
+### [[Triangle from Back]] (8% of attempts)
 
-### [[Back Control to Crucifix]] (12% of attempts)
+### [[Back Control to Crucifix]] (15% of attempts)
 
-### [[Turtle to Truck]] (10% of attempts)
+### [[Back Control Maintenance]] (15% of attempts)
 
-### [[Side Control to Mount]] (13% of attempts)
+### [[Kimura from Back]] (8% of attempts)
 
 
 
@@ -234,17 +234,17 @@ From this bottom position, you maintain constant chest-to-back pressure while yo
 
 **If opponent is defensive with hands protecting neck and not attempting to clear triangle:**
 - Execute **[[Increase squeeze pressure gradually]]** → [[Body Triangle]] (Probability: 70%)
-- Execute **[[Work for collar grips systematically]]** → [[game-over]] (Probability: 60%)
+- Execute **[[Work for collar grips systematically]]** → [[Game Over]] (Probability: 60%)
 
 
 **If opponent reaches back to attack triangle lock or grab your legs:**
-- Execute **[[Armbar from Back with Legs]]** → [[Armbar Control]] (Probability: 65%)
+- Execute **[[Armbar from Back Transition]]** → [[Armbar Control]] (Probability: 65%)
 - Execute **[[Back Control to Crucifix]]** → [[Crucifix]] (Probability: 55%)
 
 
 **If opponent attempts to turn into you to escape:**
-- Execute **[[Bow and Arrow Choke]]** → [[game-over]] (Probability: 70%)
-- Execute **[[Turtle to Truck]]** → [[Truck]] (Probability: 50%)
+- Execute **[[Bow and Arrow Choke]]** → [[Game Over]] (Probability: 70%)
+- Execute **[[Roll to Truck]]** → [[Truck]] (Probability: 50%)
 
 
 **If opponent turtles or rolls forward trying to clear position:**
@@ -384,13 +384,13 @@ In body triangle position, practice applying different levels of squeeze pressur
 ## Related Positions and Techniques
 
 - **[[Back Control]]** - Parent position - standard back control without triangle lock
-- **[[Seat Belt Control Back]]** - Upper body control variation commonly used with body triangle
-- **[[Rear Naked Choke]]** - Primary submission from this position
-- **[[Armbar from Back with Legs]]** - High-percentage submission when opponent defends neck
+- **[[Rear Naked Choke]]** - Primary submission transition from this position
+- **[[Armbar from Back Transition]]** - High-percentage submission when opponent defends neck
 - **[[Bow and Arrow Choke]]** - Gi-specific submission utilizing triangle control
 - **[[Crucifix]]** - Transition target when opponent reaches back
 - **[[Truck]]** - Advanced transition option from body triangle
 - **[[Body Triangle Lock]]** - Transition to establish this position from standard hooks
+- **[[Kimura from Back]]** - Alternative submission when opponent defends collar and neck
 
 
 </section>

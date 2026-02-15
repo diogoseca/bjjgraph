@@ -366,13 +366,12 @@ Perform high-intensity bridge intervals: 10 seconds maximum effort bridges, 20 s
 - [[Mount Escape Hierarchy]] (Principle) - Strategic framework that incorporates bridging as primary escape mechanism from mount
 - [[Bridge and Roll]] (Transition) - Specific application of bridging mechanics to achieve mount escape and reversal
 - [[Upa Escape]] (Transition) - Classic escape technique that depends entirely on proper bridging execution
-- [[Elbow Escape]] (Transition) - Side control escape that uses bridging to create initial space before shrimping movement
+- [[Elbow Escape to Guard]] (Transition) - Side control escape that uses bridging to create initial space before shrimping movement
 - [[Mount]] (Position) - Position where bridging mechanics are most commonly applied for escape and reversal
 - [[Side Control]] (Position) - Position requiring angled bridges combined with frames for effective escape
 - [[Back Control]] (Position) - Position where bridging maintains hip elevation and prevents opponent from flattening
 - [[Escape Fundamentals]] (Principle) - Broader principle that includes bridging as one of several essential escape movements
 - [[Shrimping]] (Principle) - Complementary escape movement that works with bridging to create complete defensive capability
-- [[Hip Movement]] (Principle) - Foundational principle that underlies all bridging mechanics and hip-based escapes
 
 
 </section>

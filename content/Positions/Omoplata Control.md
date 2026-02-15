@@ -89,17 +89,23 @@ Omoplata Control represents a sophisticated transitional position in Brazilian J
 ### Available Transitions
 
 
-- **[[Omoplata]]** (17% of attempts)
+- **[[Omoplata]]** (13% of attempts)
 
-- **[[Omoplata Sweep]]** (19% of attempts)
+- **[[Omoplata Sweep]]** (30% of attempts)
 
-- **[[Omoplata to Back]]** (15% of attempts)
+- **[[Omoplata to Back]]** (11% of attempts)
 
-- **[[Triangle Setup]]** (18% of attempts)
+- **[[Triangle Setup]]** (14% of attempts)
 
-- **[[Closed Guard to Omoplata]]** (17% of attempts)
+- **[[Closed Guard to Omoplata]]** (13% of attempts)
 
-- **[[Rolling Omoplata]]** (14% of attempts)
+- **[[Rolling Omoplata]]** (11% of attempts)
+
+- **[[Cartwheel Escape from Omoplata]]** (5% of attempts)
+
+- **[[Roll Forward from Omoplata]]** (2% of attempts)
+
+- **[[Stack Defense from Omoplata]]** (1% of attempts)
 
 
 ### Common Mistakes

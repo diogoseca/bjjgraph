@@ -27,31 +27,31 @@ description: "Master Reverse De La Riva Guard Bottom in BJJ. Complete guide cove
     {
       "@type": "HowToStep",
       "name": "Execute Kiss of the Dragon",
-      "text": "From this position, attempt Kiss of the Dragon. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Kiss of the Dragon. This technique is attempted in 31% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Berimbolo Entry",
-      "text": "From this position, attempt Berimbolo Entry. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Berimbolo Entry. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Crab Ride to Back",
-      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute De La Riva to X-Guard Transition",
+      "text": "From this position, attempt De La Riva to X-Guard Transition. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute De La Riva to X-Guard Transition",
-      "text": "From this position, attempt De La Riva to X-Guard Transition. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Single Leg X Entry",
+      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Single Leg X Entry",
-      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Omoplata Sweep",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 4% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -214,21 +214,23 @@ Strategically, Reverse De La Riva operates on the principle of creating rotation
 
 ### [[Waiter Sweep]] (12% of attempts)
 
-### [[Kiss of the Dragon]] (11% of attempts)
+### [[Kiss of the Dragon]] (31% of attempts)
 
-### [[Berimbolo Entry]] (10% of attempts)
+### [[Berimbolo Entry]] (13% of attempts)
 
-### [[Crab Ride to Back]] (12% of attempts)
+### [[De La Riva to X-Guard Transition]] (9% of attempts)
 
-### [[De La Riva to X-Guard Transition]] (12% of attempts)
+### [[Single Leg X Entry]] (10% of attempts)
 
-### [[Single Leg X Entry]] (12% of attempts)
+### [[Omoplata Sweep]] (4% of attempts)
 
-### [[Omoplata Sweep]] (10% of attempts)
+### [[Reverse De La Riva Recovery]] (12% of attempts)
 
-### [[Rolling Back Take]] (10% of attempts)
+### [[Tripod Sweep]] (6% of attempts)
 
-### [[Turtle to Truck]] (11% of attempts)
+### [[Kiss of the Dragon from RDLR]] (2% of attempts)
+
+### [[RDLR to Crab Ride]] (1% of attempts)
 
 
 

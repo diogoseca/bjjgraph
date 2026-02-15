@@ -367,7 +367,7 @@ Maintaining frames from bad positions during extended rounds or after exhaustive
 - [[Biomechanical Principles]] (Principle) - Fundamental mechanical concepts underlying effective frame construction through skeletal alignment
 - [[Energy Conservation]] (Principle) - Proper frames dramatically reduce energy expenditure in defensive situations
 - [[Escape Fundamentals]] (Principle) - Frame management provides critical distance control enabling escape execution from all bottom positions
-- [[Elbow Escape]] (Transition) - Classic escape sequence requiring proper frame maintenance for successful execution
+- [[Elbow Escape to Guard]] (Transition) - Classic escape sequence requiring proper frame maintenance for successful execution
 - [[Bridge and Roll]] (Transition) - Fundamental escape technique integrating frame management with bridging movement
 - [[Closed Guard]] (Position) - Primary guard position where frame management controls opponent posture and enables attacks
 - [[Half Guard]] (Position) - Position where frame management is critical for preventing flattening and enabling underhook recovery

@@ -21,37 +21,37 @@ description: "Master De La Riva Guard Top passing in BJJ. Complete guide coverin
     {
       "@type": "HowToStep",
       "name": "Execute Toreando Pass",
-      "text": "From this position, attempt Toreando Pass. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Toreando Pass. This technique is attempted in 49% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute X Pass",
-      "text": "From this position, attempt X Pass. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt X Pass. This technique is attempted in 6% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, attempt Long Step Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 4% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 3% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -206,17 +206,33 @@ The most effective DLR passers develop a systematic approach that addresses each
 
 ## Available Attacks
 
-### [[Toreando Pass]] (20% of attempts)
+### [[Toreando Pass]] (49% of attempts)
 
-### [[Knee Slice Pass]] (25% of attempts)
+### [[Knee Slice Pass]] (10% of attempts)
 
-### [[X Pass]] (15% of attempts)
+### [[X Pass]] (6% of attempts)
 
-### [[Leg Drag Pass]] (18% of attempts)
+### [[Leg Drag Pass]] (8% of attempts)
 
-### [[Long Step Pass]] (12% of attempts)
+### [[Long Step Pass]] (4% of attempts)
 
-### [[Smash Pass]] (10% of attempts)
+### [[Smash Pass]] (3% of attempts)
+
+### [[Back Step Pass]] (8% of attempts)
+
+### [[Body Lock Pass]] (6% of attempts)
+
+### [[Stack Pass]] (1% of attempts)
+
+### [[Bullfighter Pass]] (4% of attempts)
+
+### [[Backstep from De La Riva]] (0% of attempts)
+
+### [[Knee Slice from DLR]] (0% of attempts)
+
+### [[Leg Drag from DLR]] (0% of attempts)
+
+### [[Toreando Pass from De La Riva]] (1% of attempts)
 
 
 

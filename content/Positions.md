@@ -185,7 +185,7 @@ description: "Complete guide to all BJJ positions. Learn the positional hierarch
     {
       "@type": "ListItem",
       "position": 27,
-      "name": "D'arce Control",
+      "name": "Darce Control",
       "url": "https://bjjgraph.org/Positions/darce-control"
     },
     {
@@ -431,438 +431,426 @@ description: "Complete guide to all BJJ positions. Learn the positional hierarch
     {
       "@type": "ListItem",
       "position": 68,
-      "name": "Leg Drag Position",
-      "url": "https://bjjgraph.org/Positions/leg-drag-position"
-    },
-    {
-      "@type": "ListItem",
-      "position": 69,
       "name": "Leg Entanglement",
       "url": "https://bjjgraph.org/Positions/leg-entanglement"
     },
     {
       "@type": "ListItem",
-      "position": 70,
+      "position": 69,
       "name": "Leg Hook",
       "url": "https://bjjgraph.org/Positions/leg-hook"
     },
     {
       "@type": "ListItem",
-      "position": 71,
+      "position": 70,
       "name": "Leg Knot",
       "url": "https://bjjgraph.org/Positions/leg-knot"
     },
     {
       "@type": "ListItem",
-      "position": 72,
+      "position": 71,
       "name": "Leg Weave",
       "url": "https://bjjgraph.org/Positions/leg-weave"
     },
     {
       "@type": "ListItem",
-      "position": 73,
+      "position": 72,
       "name": "Lockdown",
       "url": "https://bjjgraph.org/Positions/lockdown"
     },
     {
       "@type": "ListItem",
-      "position": 74,
+      "position": 73,
       "name": "Matrix",
       "url": "https://bjjgraph.org/Positions/matrix"
     },
     {
       "@type": "ListItem",
-      "position": 75,
+      "position": 74,
       "name": "Meathook",
       "url": "https://bjjgraph.org/Positions/meathook"
     },
     {
       "@type": "ListItem",
-      "position": 76,
+      "position": 75,
       "name": "Mission Control",
       "url": "https://bjjgraph.org/Positions/mission-control"
     },
     {
       "@type": "ListItem",
-      "position": 77,
+      "position": 76,
       "name": "Modified Mount",
       "url": "https://bjjgraph.org/Positions/modified-mount"
     },
     {
       "@type": "ListItem",
-      "position": 78,
+      "position": 77,
       "name": "Modified Scarf Hold",
       "url": "https://bjjgraph.org/Positions/modified-scarf-hold"
     },
     {
       "@type": "ListItem",
-      "position": 79,
+      "position": 78,
       "name": "Mount",
       "url": "https://bjjgraph.org/Positions/mount"
     },
     {
       "@type": "ListItem",
-      "position": 80,
+      "position": 79,
       "name": "Mounted Crucifix",
       "url": "https://bjjgraph.org/Positions/mounted-crucifix"
     },
     {
       "@type": "ListItem",
-      "position": 81,
+      "position": 80,
       "name": "Mounted Triangle",
       "url": "https://bjjgraph.org/Positions/mounted-triangle"
     },
     {
       "@type": "ListItem",
-      "position": 82,
+      "position": 81,
       "name": "New York",
       "url": "https://bjjgraph.org/Positions/new-york"
     },
     {
       "@type": "ListItem",
-      "position": 83,
+      "position": 82,
       "name": "New York Control",
       "url": "https://bjjgraph.org/Positions/new-york-control"
     },
     {
       "@type": "ListItem",
-      "position": 84,
-      "name": "North South Control",
-      "url": "https://bjjgraph.org/Positions/north-south-control"
-    },
-    {
-      "@type": "ListItem",
-      "position": 85,
+      "position": 83,
       "name": "North-South",
       "url": "https://bjjgraph.org/Positions/north-south"
     },
     {
       "@type": "ListItem",
-      "position": 86,
+      "position": 84,
       "name": "Old School",
       "url": "https://bjjgraph.org/Positions/old-school"
     },
     {
       "@type": "ListItem",
-      "position": 87,
+      "position": 85,
       "name": "Omoplata Control",
       "url": "https://bjjgraph.org/Positions/omoplata-control"
     },
     {
       "@type": "ListItem",
-      "position": 88,
+      "position": 86,
       "name": "Open Guard",
       "url": "https://bjjgraph.org/Positions/open-guard"
     },
     {
       "@type": "ListItem",
-      "position": 89,
+      "position": 87,
       "name": "Outside Ashi-Garami",
       "url": "https://bjjgraph.org/Positions/outside-ashi-garami"
     },
     {
       "@type": "ListItem",
-      "position": 90,
+      "position": 88,
       "name": "Overhook Control",
       "url": "https://bjjgraph.org/Positions/overhook-control"
     },
     {
       "@type": "ListItem",
-      "position": 91,
+      "position": 89,
       "name": "Overhook Guard",
       "url": "https://bjjgraph.org/Positions/overhook-guard"
     },
     {
       "@type": "ListItem",
-      "position": 92,
+      "position": 90,
       "name": "Piranha Guard",
       "url": "https://bjjgraph.org/Positions/piranha-guard"
     },
     {
       "@type": "ListItem",
-      "position": 93,
+      "position": 91,
       "name": "Pocket Half Guard",
       "url": "https://bjjgraph.org/Positions/pocket-half-guard"
     },
     {
       "@type": "ListItem",
-      "position": 94,
+      "position": 92,
       "name": "Quarter Guard",
       "url": "https://bjjgraph.org/Positions/quarter-guard"
     },
     {
       "@type": "ListItem",
-      "position": 95,
+      "position": 93,
       "name": "Rear Triangle",
       "url": "https://bjjgraph.org/Positions/rear-triangle"
     },
     {
       "@type": "ListItem",
-      "position": 96,
+      "position": 94,
       "name": "Reverse De La Riva Guard",
       "url": "https://bjjgraph.org/Positions/reverse-de-la-riva-guard"
     },
     {
       "@type": "ListItem",
-      "position": 97,
+      "position": 95,
       "name": "Reverse Half Guard",
       "url": "https://bjjgraph.org/Positions/reverse-half-guard"
     },
     {
       "@type": "ListItem",
-      "position": 98,
+      "position": 96,
       "name": "Reverse Kesa-Gatame",
       "url": "https://bjjgraph.org/Positions/reverse-kesa-gatame"
     },
     {
       "@type": "ListItem",
-      "position": 99,
+      "position": 97,
       "name": "Reverse Mount",
       "url": "https://bjjgraph.org/Positions/reverse-mount"
     },
     {
       "@type": "ListItem",
-      "position": 100,
+      "position": 98,
       "name": "Reverse Scarf Hold",
       "url": "https://bjjgraph.org/Positions/reverse-scarf-hold"
     },
     {
       "@type": "ListItem",
-      "position": 101,
+      "position": 99,
       "name": "Reverse X-Guard",
       "url": "https://bjjgraph.org/Positions/reverse-x-guard"
     },
     {
       "@type": "ListItem",
-      "position": 102,
+      "position": 100,
       "name": "Ringworm Guard",
       "url": "https://bjjgraph.org/Positions/ringworm-guard"
     },
     {
       "@type": "ListItem",
-      "position": 103,
+      "position": 101,
       "name": "Rodeo Ride",
       "url": "https://bjjgraph.org/Positions/rodeo-ride"
     },
     {
       "@type": "ListItem",
-      "position": 104,
+      "position": 102,
       "name": "Rubber Guard",
       "url": "https://bjjgraph.org/Positions/rubber-guard"
     },
     {
       "@type": "ListItem",
-      "position": 105,
+      "position": 103,
       "name": "Russian Cowboy",
       "url": "https://bjjgraph.org/Positions/russian-cowboy"
     },
     {
       "@type": "ListItem",
-      "position": 106,
+      "position": 104,
       "name": "Russian Leg Lasso",
       "url": "https://bjjgraph.org/Positions/russian-leg-lasso"
     },
     {
       "@type": "ListItem",
-      "position": 107,
+      "position": 105,
       "name": "S Mount",
       "url": "https://bjjgraph.org/Positions/s-mount"
     },
     {
       "@type": "ListItem",
-      "position": 108,
+      "position": 106,
       "name": "Saddle",
       "url": "https://bjjgraph.org/Positions/saddle"
     },
     {
       "@type": "ListItem",
-      "position": 109,
+      "position": 107,
       "name": "Scarf Hold Position",
       "url": "https://bjjgraph.org/Positions/scarf-hold-position"
     },
     {
       "@type": "ListItem",
-      "position": 110,
+      "position": 108,
       "name": "Scramble Position",
       "url": "https://bjjgraph.org/Positions/scramble-position"
     },
     {
       "@type": "ListItem",
-      "position": 111,
+      "position": 109,
       "name": "Seat Belt Control Back",
       "url": "https://bjjgraph.org/Positions/seat-belt-control-back"
     },
     {
       "@type": "ListItem",
-      "position": 112,
+      "position": 110,
       "name": "Seated Guard",
       "url": "https://bjjgraph.org/Positions/seated-guard"
     },
     {
       "@type": "ListItem",
-      "position": 113,
+      "position": 111,
       "name": "Shin-to-Shin Guard",
       "url": "https://bjjgraph.org/Positions/shin-to-shin-guard"
     },
     {
       "@type": "ListItem",
-      "position": 114,
+      "position": 112,
       "name": "Shoulder of Justice",
       "url": "https://bjjgraph.org/Positions/shoulder-of-justice"
     },
     {
       "@type": "ListItem",
-      "position": 115,
+      "position": 113,
       "name": "Side Control",
       "url": "https://bjjgraph.org/Positions/side-control"
     },
     {
       "@type": "ListItem",
-      "position": 116,
+      "position": 114,
       "name": "Side Control Consolidation",
       "url": "https://bjjgraph.org/Positions/side-control-consolidation"
     },
     {
       "@type": "ListItem",
-      "position": 117,
+      "position": 115,
       "name": "Single Leg X-Guard",
       "url": "https://bjjgraph.org/Positions/single-leg-x-guard"
     },
     {
       "@type": "ListItem",
-      "position": 118,
+      "position": 116,
       "name": "Spider Guard",
       "url": "https://bjjgraph.org/Positions/spider-guard"
     },
     {
       "@type": "ListItem",
-      "position": 119,
+      "position": 117,
       "name": "Squid Guard",
       "url": "https://bjjgraph.org/Positions/squid-guard"
     },
     {
       "@type": "ListItem",
-      "position": 120,
+      "position": 118,
       "name": "Standing Back Control",
       "url": "https://bjjgraph.org/Positions/standing-back-control"
     },
     {
       "@type": "ListItem",
-      "position": 121,
+      "position": 119,
       "name": "Standing Guard",
       "url": "https://bjjgraph.org/Positions/standing-guard"
     },
     {
       "@type": "ListItem",
-      "position": 122,
+      "position": 120,
       "name": "Standing Position",
       "url": "https://bjjgraph.org/Positions/standing-position"
     },
     {
       "@type": "ListItem",
-      "position": 123,
+      "position": 121,
       "name": "Standing Rear Clinch",
       "url": "https://bjjgraph.org/Positions/standing-rear-clinch"
     },
     {
       "@type": "ListItem",
-      "position": 124,
+      "position": 122,
       "name": "Straight Ankle Lock Control",
       "url": "https://bjjgraph.org/Positions/straight-ankle-lock-control"
     },
     {
       "@type": "ListItem",
-      "position": 125,
+      "position": 123,
       "name": "Technical Mount",
       "url": "https://bjjgraph.org/Positions/technical-mount"
     },
     {
       "@type": "ListItem",
-      "position": 126,
+      "position": 124,
       "name": "Toe Hold Control",
       "url": "https://bjjgraph.org/Positions/toe-hold-control"
     },
     {
       "@type": "ListItem",
-      "position": 127,
+      "position": 125,
       "name": "Triangle Control",
       "url": "https://bjjgraph.org/Positions/triangle-control"
     },
     {
       "@type": "ListItem",
-      "position": 128,
+      "position": 126,
       "name": "Triangle Escape Position",
       "url": "https://bjjgraph.org/Positions/triangle-escape-position"
     },
     {
       "@type": "ListItem",
-      "position": 129,
+      "position": 127,
       "name": "Truck",
       "url": "https://bjjgraph.org/Positions/truck"
     },
     {
       "@type": "ListItem",
-      "position": 130,
+      "position": 128,
       "name": "Turtle",
       "url": "https://bjjgraph.org/Positions/turtle"
     },
     {
       "@type": "ListItem",
-      "position": 131,
+      "position": 129,
       "name": "Twister Control",
       "url": "https://bjjgraph.org/Positions/twister-control"
     },
     {
       "@type": "ListItem",
-      "position": 132,
+      "position": 130,
       "name": "Twister Side Control",
       "url": "https://bjjgraph.org/Positions/twister-side-control"
     },
     {
       "@type": "ListItem",
-      "position": 133,
+      "position": 131,
       "name": "Ushiro Ashi-Garami",
       "url": "https://bjjgraph.org/Positions/ushiro-ashi-garami"
     },
     {
       "@type": "ListItem",
-      "position": 134,
+      "position": 132,
       "name": "Vaporizer",
       "url": "https://bjjgraph.org/Positions/vaporizer"
     },
     {
       "@type": "ListItem",
-      "position": 135,
+      "position": 133,
       "name": "Williams Guard",
       "url": "https://bjjgraph.org/Positions/williams-guard"
     },
     {
       "@type": "ListItem",
-      "position": 136,
+      "position": 134,
       "name": "Worm Guard",
       "url": "https://bjjgraph.org/Positions/worm-guard"
     },
     {
       "@type": "ListItem",
-      "position": 137,
+      "position": 135,
       "name": "X-Guard",
       "url": "https://bjjgraph.org/Positions/x-guard"
     },
     {
       "@type": "ListItem",
-      "position": 138,
+      "position": 136,
       "name": "Z-Guard",
       "url": "https://bjjgraph.org/Positions/z-guard"
     },
     {
       "@type": "ListItem",
-      "position": 139,
+      "position": 137,
       "name": "Z-Lock Half Guard",
       "url": "https://bjjgraph.org/Positions/z-lock-half-guard"
     },
     {
       "@type": "ListItem",
-      "position": 140,
+      "position": 138,
       "name": "Zombie",
       "url": "https://bjjgraph.org/Positions/zombie"
     }
@@ -991,7 +979,7 @@ Master Deep Half Guard in BJJ. Strategic guide covering sweeps, back takes, and 
 
 ### [[Electric Chair]]
 
-Master Electric Chair position in BJJ. 10th Planet's lockdown sweep with hip pressure. Setup, execution, finish guide. Success: Beginner 45%, Intermediate 60%, Advanced 75%.
+Master Electric Chair position in BJJ. 10th Planet's lockdown sweep combining submission threat with positional control. Complete top and bottom guide with decision trees.
 
 ### [[Flattened Half Guard]]
 
@@ -1007,7 +995,7 @@ Master Knee Shield Half Guard in BJJ. Strategic guide covering setup, defensive 
 
 ### [[Lockdown]]
 
-Master Lockdown position in BJJ. 10th Planet's revolutionary half guard control system with leg entanglement. Complete guide covering bottom and top perspectives with 65% sweep success at advanced level.
+Master Lockdown position in BJJ. 10th Planet's revolutionary half guard control system with leg entanglement. Complete guide covering bottom sweeps and top defense strategies.
 
 ### [[Old School]]
 
@@ -1049,7 +1037,7 @@ Master 3-4 Mount position in BJJ. Complete guide covering asymmetric mount contr
 
 ### [[High Mount]]
 
-Master High Mount in BJJ. Strategic guide covering advanced mount control, submission chains, and position retention with complete top perspective analysis. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.
+Master High Mount in BJJ. Strategic guide covering advanced mount control, submission chains, and escape strategies from both top and bottom perspectives.
 
 ### [[Modified Mount]]
 
@@ -1073,7 +1061,7 @@ Master S Mount in BJJ - the ultimate armbar setup position. Complete technical g
 
 ### [[Technical Mount]]
 
-Master Technical Mount in BJJ. Advanced S-mount variation with stepped leg configuration creating optimal armbar angles. Complete guide covering top control, bottom escapes, and submission chains.
+Master Technical Mount in BJJ. Advanced mount variation with stepped leg creating optimal armbar and triangle angles. Complete guide covering top control, bottom escapes, and submission chains.
 
 
 ## Rubber Guard
@@ -1219,7 +1207,7 @@ Master Buggy Choke position in BJJ. Strategic guide covering turtle attacks, gri
 
 ### [[Clinch]]
 
-Master the clinch position in BJJ with comprehensive grip fighting, takedown setups, and standing control strategies. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+Master the clinch position in BJJ with comprehensive grip fighting, takedown setups, and standing control strategies for gi and no-gi grappling.
 
 ### [[Closed Guard]]
 
@@ -1247,11 +1235,11 @@ Master Cross Body Ride position in BJJ. Advanced back attack control with 70% ba
 
 ### [[Crucifix]]
 
-Master Crucifix position in BJJ. Dominant arm-trapping control with 85% submission rate. Complete guide covering both perspectives, entries, submissions, and escapes.
+Master Crucifix position in BJJ. Dominant arm-trapping control with high submission rate. Complete guide covering both perspectives, entries, submissions, and escapes.
 
-### [[D'arce Control]]
+### [[Darce Control]]
 
-Master D'arce Control position in BJJ. Dominant front headlock variant with 70% submission rate. Learn entries, arm triangle mechanics, transition chains, and defensive strategies for both offensive and defensive scenarios.
+Master Darce Control position in BJJ. Dominant front headlock variant with high submission rate. Learn entries, arm triangle mechanics, transition chains, and defensive strategies.
 
 ### [[Dead Orchard Control]]
 
@@ -1307,7 +1295,7 @@ Master Guillotine Control position in BJJ. Complete strategic guide covering set
 
 ### [[Harness]]
 
-Master Harness Position in BJJ - back control with seat belt grip. Complete strategic guide covering defensive bottom escape strategies and dominant top submission paths with expert analysis.
+Master Harness Position in BJJ - back control with seat belt grip. Complete strategic guide covering defensive escape strategies and dominant submission paths.
 
 ### [[Headquarters Position]]
 
@@ -1353,10 +1341,6 @@ Master lapel guard in BJJ with comprehensive strategies for control, sweeps, and
 
 Master leg drag control in BJJ. Complete analysis of this dominant passing position covering control mechanics, submission attacks, and strategic transitions from both perspectives.
 
-### [[Leg Drag Position]]
-
-Master the leg drag position in BJJ with comprehensive coverage of passing mechanics, pressure application, and back-taking opportunities for all skill levels.
-
 ### [[Leg Entanglement]]
 
 Master Leg Entanglement positions in BJJ. Complete guide to ashi garami variants, saddle, 50-50, control mechanics, and systematic leg lock attacks with expert progressions.
@@ -1371,15 +1355,11 @@ Master Leg Knot position in BJJ. Advanced leg entanglement creating systematic c
 
 ### [[Leg Weave]]
 
-Master leg weave position in BJJ. Advanced guard passing control with leg threading mechanics. Strategic guide covering both bottom defense and top passing perspectives with complete technical analysis.
+Master leg weave position in BJJ. Advanced guard passing control with leg threading mechanics, covering both bottom defense and top passing perspectives.
 
 ### [[Matrix]]
 
 Master the Matrix back take in BJJ. Complete guide to the dynamic rolling technique for taking the back from turtle or scrambles with expert analysis and drill progressions.
-
-### [[North South Control]]
-
-Master North-South control in BJJ. Complete strategic guide covering pressure mechanics, submission setups, and escape prevention with detailed analysis for both perspectives.
 
 ### [[North-South]]
 
@@ -1443,7 +1423,7 @@ Master Shoulder of Justice side control in BJJ. Strategic guide covering shoulde
 
 ### [[Spider Guard]]
 
-Master Spider Guard in BJJ. Strategic guide covering when to use spider guard, defensive escapes, and offensive attacks with complete perspective analysis.
+Master Spider Guard in BJJ. Strategic guide covering sleeve control, bicep hooks, sweeps, and submissions from bottom with passing strategies from top.
 
 ### [[Squid Guard]]
 

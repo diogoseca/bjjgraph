@@ -35,10 +35,6 @@
       "relationship": "Related back exposure position with different control mechanics"
     },
     {
-      "name": "Turtle",
-      "relationship": "Common starting position for entries into Twister Control system"
-    },
-    {
       "name": "Lockdown",
       "relationship": "Bottom position that can lead to truck and Twister Control entries"
     },
@@ -54,7 +50,7 @@
   "top": {
     "overview": "Twister Control Top represents one of the most unique and effective control positions in modern no-gi Brazilian Jiu-Jitsu, combining elements of back control with spinal manipulation to create an extremely uncomfortable and submission-rich position. This position has proven effective at the highest levels of competition when properly understood and applied. The fundamental concept revolves around controlling the opponent through rotational constraint of their spine, which simultaneously compromises their defensive capabilities while opening multiple offensive opportunities.\n\nThe position is characterized by the top player controlling one of the opponent's legs while simultaneously controlling their upper body in a way that creates and maintains spinal rotation. Unlike traditional back control where the focus is primarily on attacking the neck and arms, Twister Control emphasizes the creation of torque through the opponent's entire spinal column. This torque creates systemic mechanical failure where the opponent cannot effectively utilize their normal defensive structures.\n\nFrom a strategic standpoint, Twister Control offers several significant advantages over traditional back control positions. First, it is extremely difficult for the opponent to generate the explosive hip movements that typically enable escapes from back control. Second, the rotational constraint creates breathing difficulties for the opponent, accelerating their fatigue. Third, the position offers multiple submission pathways including the Twister itself, various guillotine variations, arm attacks, and transitions to more traditional back control. While the Twister finish itself may be lower percentage at elite levels, the control position creates reliable opportunities for other submissions and positional advancements.\n\nThe effectiveness of Twister Control scales significantly with technical understanding and practice. Beginners often struggle to coordinate the leg control with the upper body control, allowing opponents to simply turn into them and escape. Intermediate practitioners develop better mechanical understanding but may focus too heavily on the Twister submission itself, missing opportunities for higher-percentage attacks. Advanced practitioners understand Twister Control as a position from which multiple attacks flow naturally, with constant adjustments to maintain control while hunting for finishing opportunities.\n\nThe biomechanics of Twister Control require careful study. The leg control must prevent the opponent from turning into you, which means understanding angles and weight distribution. The upper body control must create and maintain rotation without allowing the opponent to simply roll through and escape. These two control systems must work in coordination - if the leg control is strong but the upper body control is weak, the opponent can hand-fight and eventually escape. If the upper body is controlled but the leg is free, the opponent can simply turn into you and escape the position entirely.\n\nOne critical aspect that differentiates elite-level Twister Control from intermediate level is the understanding of when to finish the Twister and when to transition to alternative attacks. The Twister submission itself requires specific circumstances - primarily that the opponent is still defending and creating resistance. If the opponent becomes defensive and stops moving, transitioning to a guillotine or arm attack may be more effective. This decision-making process requires experience and the ability to read the opponent's defensive reactions in real-time.",
     "state_properties": {
-      "point_value": 4,
+      "point_value": 0,
       "position_type": "Offensive/Controlling",
       "risk_level": "Medium",
       "energy_cost": "Medium",
@@ -81,28 +77,28 @@
     ],
     "transitions": [
       {
-        "transition": "Guillotine Choke",
-        "attempt_probability": 15
-      },
-      {
-        "transition": "Calf Slicer from Truck",
-        "attempt_probability": 9
+        "transition": "Twister Finish",
+        "attempt_probability": 30
       },
       {
         "transition": "Back Take",
         "attempt_probability": 23
       },
       {
-        "transition": "Neck Crank",
-        "attempt_probability": 9
+        "transition": "Guillotine Choke",
+        "attempt_probability": 15
       },
       {
-        "transition": "Banana Split",
-        "attempt_probability": 14
+        "transition": "Calf Slicer",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Neck Crank",
+        "attempt_probability": 11
       },
       {
         "transition": "Twister",
-        "attempt_probability": 30
+        "attempt_probability": 9
       }
     ],
     "decision_tree": [
@@ -202,7 +198,7 @@
       },
       {
         "name": "Submission Chain Flow",
-        "description": "From established Twister Control, flow between Twister attempt, guillotine, calf slicer, banana split, and back takes. Partner defends but does not escape. Build understanding of how each attack chains into the next.",
+        "description": "From established Twister Control, flow between Twister attempt, guillotine, calf slicer, and back takes. Partner defends but does not escape. Build understanding of how each attack chains into the next.",
         "duration": "4 minutes"
       },
       {
@@ -218,10 +214,6 @@
     ],
     "related_content": [
       {
-        "name": "Truck",
-        "relationship": "Primary entry position leading to Twister Control establishment"
-      },
-      {
         "name": "Back Control",
         "relationship": "Alternative control position to transition to when Twister Control breaks down"
       },
@@ -234,20 +226,12 @@
         "relationship": "Bottom position in 10th Planet system that leads to truck and Twister entries"
       },
       {
-        "name": "Turtle",
-        "relationship": "Common starting position for entries into Twister system via crab ride"
+        "name": "Front Headlock",
+        "relationship": "Alternative control when opponent turns into you escaping Twister rotation"
       },
       {
-        "name": "Twister Finish",
-        "relationship": "Primary submission technique from this position targeting spinal rotation"
-      },
-      {
-        "name": "Banana Split",
-        "relationship": "Alternative submission attack from same control configuration targeting groin"
-      },
-      {
-        "name": "Calf Slicer from Truck",
-        "relationship": "Lower body compression attack using the same leg entanglement"
+        "name": "Guillotine Control",
+        "relationship": "Submission control position accessible when opponent exposes neck during escape"
       }
     ],
     "position_metrics": {
@@ -303,36 +287,24 @@
     ],
     "transitions": [
       {
-        "transition": "Hip Escape to Guard Recovery",
+        "transition": "Roll Through Escape",
         "attempt_probability": 15
       },
       {
-        "transition": "Roll Through Escape",
-        "attempt_probability": 9
+        "transition": "Hip Escape to Guard",
+        "attempt_probability": 14
       },
       {
         "transition": "Bridge and Turn to Turtle",
-        "attempt_probability": 15
+        "attempt_probability": 14
       },
       {
-        "transition": "Granby Roll Escape",
-        "attempt_probability": 6
-      },
-      {
-        "transition": "Guard Replacement",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Shrimp Escape",
-        "attempt_probability": 6
-      },
-      {
-        "transition": "Address Leg Control",
-        "attempt_probability": 10
+        "transition": "Leg Extraction",
+        "attempt_probability": 12
       },
       {
         "transition": "Defensive Roll",
-        "attempt_probability": 10
+        "attempt_probability": 11
       },
       {
         "transition": "Frame and Turn",
@@ -341,6 +313,14 @@
       {
         "transition": "Scramble to Guard",
         "attempt_probability": 10
+      },
+      {
+        "transition": "Shrimp Escape",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Granby Roll to Guard",
+        "attempt_probability": 6
       }
     ],
     "decision_tree": [
@@ -349,12 +329,12 @@
         "actions": [
           {
             "technique": "Immediate Leg Defense",
-            "target": "Turtle",
+            "target": "Open Guard",
             "probability": 60
           },
           {
             "technique": "Turn Into Opponent",
-            "target": "Turtle",
+            "target": "Half Guard",
             "probability": 40
           }
         ]
@@ -384,7 +364,7 @@
           },
           {
             "technique": "Roll Through With Twist",
-            "target": "Half Guard",
+            "target": "Open Guard",
             "probability": 30
           },
           {
@@ -399,11 +379,11 @@
         "actions": [
           {
             "technique": "Explosive Escape Attempt",
-            "target": "Turtle",
+            "target": "Open Guard",
             "probability": 55
           },
           {
-            "technique": "Address Leg Control",
+            "technique": "Extract Trapped Leg",
             "target": "Half Guard",
             "probability": 45
           }
@@ -461,16 +441,8 @@
     ],
     "related_content": [
       {
-        "name": "Truck",
-        "relationship": "Primary preceding position that leads to Twister Control establishment"
-      },
-      {
         "name": "Back Control",
         "relationship": "Alternative position opponent may transition to from similar entry pathway"
-      },
-      {
-        "name": "Turtle",
-        "relationship": "Common escape destination when successfully defending Twister Control"
       },
       {
         "name": "Crab Ride",
@@ -481,16 +453,12 @@
         "relationship": "Bottom position that can lead to opponent's Twister Control entries via truck"
       },
       {
-        "name": "Roll Through Escape",
-        "relationship": "Primary rolling escape technique specifically designed for Twister Control"
+        "name": "Open Guard",
+        "relationship": "Primary recovery position after successful escape from Twister Control"
       },
       {
-        "name": "Hip Escape to Guard Recovery",
-        "relationship": "Fundamental escape mechanic applicable to reducing Twister Control rotation"
-      },
-      {
-        "name": "Bridge and Turn to Turtle",
-        "relationship": "Alternative escape route leading to turtle defensive position"
+        "name": "Half Guard",
+        "relationship": "Intermediate recovery position reachable through leg extraction escapes"
       }
     ],
     "position_metrics": {

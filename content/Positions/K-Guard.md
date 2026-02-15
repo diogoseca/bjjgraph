@@ -93,19 +93,27 @@ Strategically, K-Guard represents a transitional hub position where the bottom p
 ### Available Transitions
 
 
-- **[[X-Guard Sweep]]** (14% of attempts)
+- **[[X-Guard Sweep]]** (10% of attempts)
 
-- **[[Single Leg X Sweep]]** (15% of attempts)
+- **[[Single Leg X Sweep]]** (11% of attempts)
 
-- **[[Deep Half Entry]]** (18% of attempts)
+- **[[Deep Half Entry]]** (29% of attempts)
 
-- **[[Old School Sweep]]** (13% of attempts)
+- **[[Old School Sweep]]** (8% of attempts)
 
-- **[[Waiter Sweep]]** (12% of attempts)
+- **[[Waiter Sweep]]** (7% of attempts)
 
-- **[[Half Guard to Back Take]]** (14% of attempts)
+- **[[Half Guard to Back Take]]** (12% of attempts)
 
-- **[[Butterfly Sweep]]** (14% of attempts)
+- **[[Butterfly Sweep]]** (10% of attempts)
+
+- **[[50-50 Entry]]** (6% of attempts)
+
+- **[[Butterfly Hook Recovery]]** (4% of attempts)
+
+- **[[K-Guard Sweep]]** (2% of attempts)
+
+- **[[K-Guard to Single Leg X]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -166,21 +174,23 @@ Strategically, K-Guard represents a transitional hub position where the bottom p
 ### Available Transitions
 
 
-- **[[Knee Slice Pass]]** (14% of attempts)
+- **[[Knee Slice Pass]]** (25% of attempts)
 
-- **[[Smash Pass]]** (13% of attempts)
+- **[[Smash Pass]]** (14% of attempts)
 
 - **[[Leg Drag Pass]]** (12% of attempts)
 
 - **[[Half Guard Pass]]** (16% of attempts)
 
-- **[[Underhook Pass]]** (13% of attempts)
-
-- **[[Side Control to Mount]]** (11% of attempts)
-
-- **[[Side Control to North-South]]** (11% of attempts)
+- **[[Underhook Pass]]** (12% of attempts)
 
 - **[[Kimura from Half Guard]]** (10% of attempts)
+
+- **[[Guillotine Setup]]** (6% of attempts)
+
+- **[[Backstep from K-Guard]]** (3% of attempts)
+
+- **[[Pass K-Guard]]** (2% of attempts)
 
 
 ### Common Mistakes

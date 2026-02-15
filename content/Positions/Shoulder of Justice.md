@@ -91,17 +91,17 @@ This position is particularly effective in both gi and no-gi contexts, as it com
 ### Available Transitions
 
 
-- **[[Shrimp Escape]]** (19% of attempts)
+- **[[Shrimp Escape]]** (25% of attempts)
 
-- **[[Elbow Escape]]** (21% of attempts)
+- **[[Elbow Escape to Guard]]** (22% of attempts)
 
-- **[[Frame and Shrimp]]** (17% of attempts)
+- **[[Frame and Shrimp to Guard]]** (18% of attempts)
 
-- **[[Bridge and Roll]]** (11% of attempts)
+- **[[Bridge and Roll]]** (13% of attempts)
 
-- **[[Technical Standup]]** (16% of attempts)
+- **[[Technical Stand-up]]** (12% of attempts)
 
-- **[[Hip Escape]]** (16% of attempts)
+- **[[Hip Escape to Guard]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -166,9 +166,9 @@ This position is particularly effective in both gi and no-gi contexts, as it com
 ### Available Transitions
 
 
-- **[[Kimura from Side Control]]** (16% of attempts)
+- **[[Kimura]]** (16% of attempts)
 
-- **[[Americana from Side Control]]** (14% of attempts)
+- **[[Americana]]** (14% of attempts)
 
 - **[[Side Control to Mount]]** (15% of attempts)
 
@@ -178,7 +178,7 @@ This position is particularly effective in both gi and no-gi contexts, as it com
 
 - **[[North-South Choke]]** (12% of attempts)
 
-- **[[Position Change]]** (15% of attempts)
+- **[[Knee on Belly]]** (15% of attempts)
 
 
 ### Common Mistakes
@@ -237,7 +237,7 @@ This position is particularly effective in both gi and no-gi contexts, as it com
 
 - **[[Knee on Belly]]** - Transition option when opponent creates space while shrimping
 
-- **[[Scarf Hold Position]]** - Alternative pressure position with similar control objectives
+- **[[Kuzure Kesa-Gatame]]** - Alternative pressure position with similar control objectives
 
 - **[[Half Guard]]** - Common escape target for bottom player attempting guard recovery
 

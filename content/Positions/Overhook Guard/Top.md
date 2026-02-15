@@ -21,37 +21,37 @@ description: "Master Overhook Guard Top position in BJJ. Control opponent's arm 
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 24% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Over-Under Pass",
-      "text": "From this position, attempt Over-Under Pass. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Over-Under Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Guard",
-      "text": "From this position, attempt Kimura from Guard. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Kimura from Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Drag to Back",
-      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,17 +209,21 @@ This position is particularly effective in both gi and no-gi grappling, though t
 
 ## Available Attacks
 
-### [[Smash Pass]] (19% of attempts)
+### [[Smash Pass]] (24% of attempts)
 
-### [[Knee Slice Pass]] (18% of attempts)
+### [[Knee Slice Pass]] (15% of attempts)
 
-### [[Over-Under Pass]] (17% of attempts)
+### [[Over-Under Pass]] (14% of attempts)
 
-### [[Kimura from Guard]] (17% of attempts)
+### [[Kimura from Guard]] (14% of attempts)
 
-### [[Arm Drag to Back]] (15% of attempts)
+### [[Arm Drag to Back]] (12% of attempts)
 
-### [[Side Control to Mount]] (14% of attempts)
+### [[Side Control to Mount]] (12% of attempts)
+
+### [[Break Overhook Guard]] (6% of attempts)
+
+### [[Pass Overhook Guard]] (3% of attempts)
 
 
 

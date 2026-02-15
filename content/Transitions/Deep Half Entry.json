@@ -1,6 +1,6 @@
 {
   "name": "Deep Half Entry",
-  "description": "Learn Deep Half Entry in BJJ. Step-by-step execution from Half Guard to Deep Half Guard. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.",
+  "description": "Master the Deep Half Entry from Half Guard in BJJ. Complete guide with execution steps, counters, and defensive strategies for this high-percentage guard transition.",
   "tags": [
     "bjj",
     "transition",
@@ -10,188 +10,26 @@
     "guard-retention",
     "bottom-game"
   ],
-  "overview": "The Deep Half Entry is a fundamental transition from traditional half guard to the deep half guard position, representing a critical defensive recovery and offensive repositioning technique. This entry allows the bottom player to create powerful sweeping opportunities while simultaneously removing themselves from immediate passing danger. Deep half guard has become increasingly prevalent in modern competition BJJ, particularly at the highest levels, as it provides a systematic framework for dealing with pressure-based passing attempts. The position works by getting underneath your opponent's center of gravity, using their weight against them to create mechanical advantage for sweeps and back takes. The entry itself requires precise timing, proper hip mobility, and an understanding of how to manage space and frames during the transition. When executed correctly, the deep half entry transforms a potentially defensive situation into an offensive opportunity, allowing the practitioner to attack with various sweep options including the waiter sweep, Homer Simpson sweep, and electric chair variations.",
-  "key_principles": [
-    "Create space and angle with hip escape before initiating entry",
-    "Secure underhook on opponent's near leg as primary control",
-    "Keep head positioned below opponent's hips to prevent shoulder pressure",
-    "Maintain active frame with top arm to control distance and prevent crossface",
-    "Use bottom leg to hook opponent's far leg for structural control",
-    "Generate constant movement to prevent opponent from establishing strong base",
-    "Protect against the limp leg counter by securing leg control early"
-  ],
-  "setup_requirements": [
-    "Half guard bottom position established with inside leg controlling opponent's leg",
-    "Opponent applying forward pressure or attempting to flatten you out",
-    "Ability to create minimal space through shrimping or framing",
-    "Underhook on near side already secured or immediately available",
-    "Top arm free to create defensive frame against crossface attempts",
-    "Hip mobility sufficient to rotate underneath opponent's center of gravity",
-    "Understanding of opponent's base and weight distribution"
-  ],
-  "execution_steps": [
+  "from_position": "Half Guard/Bottom",
+  "outcomes": [
     {
-      "step_number": 1,
-      "action": "Create initial space",
-      "description": "From half guard bottom, use your top arm to create a strong frame against opponent's shoulder or hip. Simultaneously perform a small shrimp/hip escape to create just enough space to begin rotating your body. Your goal is to create 2-3 inches of space between your torso and opponent's chest."
+      "to": "Deep Half Guard/Bottom",
+      "probability": 60,
+      "result": "success"
     },
     {
-      "step_number": 2,
-      "action": "Secure underhook on near leg",
-      "description": "As you create space, slide your bottom arm (the arm closest to the mat) underneath opponent's near leg, securing a deep underhook around their thigh. Your shoulder should be positioned against the inside of their thigh, with your hand gripping behind their knee or reaching toward their far hip. This underhook is the foundational control for the entire position."
+      "to": "Half Guard/Bottom",
+      "probability": 25,
+      "result": "failure"
     },
     {
-      "step_number": 3,
-      "action": "Begin rotation underneath",
-      "description": "Using the underhook as an anchor point, begin rotating your entire body perpendicular to your opponent. Turn onto your side and continue rotating so that your back begins to face the mat. Your head should start moving toward a position underneath opponent's hips, while your hips rotate away from them. Think of creating a 'T' shape with your bodies."
-    },
-    {
-      "step_number": 4,
-      "action": "Establish head position",
-      "description": "Continue rotating until your head is positioned underneath opponent's hips, with your face looking toward their far hip. Your head should be below the line of their hips to prevent them from applying shoulder pressure downward. Keep your neck protected by maintaining good posture and not allowing your chin to be exposed."
-    },
-    {
-      "step_number": 5,
-      "action": "Hook far leg",
-      "description": "As you complete the rotation, use your bottom leg (the leg that was not originally controlling in half guard) to hook around opponent's far leg. Your foot should hook behind their knee or around their thigh, creating a second point of control. This hook prevents them from stepping over and also sets up sweeping mechanics."
-    },
-    {
-      "step_number": 6,
-      "action": "Complete deep half position",
-      "description": "Finish by adjusting your body position so you are completely underneath your opponent's base. Your near arm maintains the underhook on their near leg, your bottom leg hooks their far leg, your head is positioned safely below their hips, and your top arm is ready to control their far hip or create frames as needed. You should feel their weight distributed above you, with your body perpendicular to theirs in a stable deep half guard configuration."
+      "to": "Half Guard/Top",
+      "probability": 15,
+      "result": "counter"
     }
   ],
-  "common_counters": [
-    {
-      "counter": "Opponent sprawls back and limp legs out of underhook",
-      "effectiveness": "High",
-      "your_response": "Immediately transition to waiter sweep by releasing the far leg hook and sitting up to drive forward into their base, or switch to lockdown half guard if they pull their leg back into range"
-    },
-    {
-      "counter": "Opponent applies heavy crossface and shoulder pressure to prevent rotation",
-      "effectiveness": "High",
-      "your_response": "Create stronger frame with top arm, potentially switching to reverse half guard or using the pressure to facilitate a different sweep direction such as the old school sweep"
-    },
-    {
-      "counter": "Opponent bases out wide with far leg and circles away",
-      "effectiveness": "Medium",
-      "your_response": "Follow their movement by scooting your hips and maintaining underhook control, or release and transition to single leg X guard or butterfly guard recovery"
-    },
-    {
-      "counter": "Opponent drops weight and flattens you before entry completion",
-      "effectiveness": "Medium",
-      "your_response": "Use lockdown on their trapped leg to prevent them from advancing position, then work back to creating space for deep half entry or transition to electric chair position"
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Attempting to enter deep half without creating initial space",
-      "consequence": "Opponent's chest pressure pins you flat, preventing rotation and leaving you vulnerable to crossface and pass progression",
-      "correction": "Always establish frame and create at least minimal space before attempting to rotate underneath - even 2 inches of space is sufficient"
-    },
-    {
-      "error": "Failing to secure deep underhook on opponent's near leg",
-      "consequence": "Without proper underhook depth, opponent can easily sprawl back and remove their leg from your control, nullifying the position",
-      "correction": "Ensure your shoulder is against the inside of their thigh and your hand reaches behind their knee or toward their far hip for maximum control"
-    },
-    {
-      "error": "Keeping head too high during entry",
-      "consequence": "Opponent can apply shoulder pressure downward, flattening you out and preventing the completion of deep half entry",
-      "correction": "Rotate your head below the line of opponent's hips - your face should be looking toward their far hip, not up at their chest"
-    },
-    {
-      "error": "Neglecting to control far leg with bottom leg hook",
-      "consequence": "Opponent can easily step over, base out wide, or apply pressure to pass without the structural control provided by the far leg hook",
-      "correction": "As soon as your rotation brings you into range, hook their far leg behind the knee with your bottom leg to establish two points of control"
-    },
-    {
-      "error": "Remaining static after achieving deep half position",
-      "consequence": "Opponent has time to establish strong base, secure grips, and shut down your sweeping options",
-      "correction": "Deep half is a dynamic position - immediately begin working toward sweep attempts or back take opportunities rather than holding static position"
-    },
-    {
-      "error": "Crossing ankles or locking legs prematurely",
-      "consequence": "Reduces mobility and makes it difficult to adjust position or transition to different sweep variations",
-      "correction": "Keep legs active and independent until you are ready to commit to a specific sweep - maintain flexibility to adapt to opponent's reactions"
-    }
-  ],
-  "training_progressions": [
-    {
-      "phase": "Week 1-2: Entry Mechanics",
-      "focus": "Isolated movement drilling without resistance",
-      "description": "Practice the rotation and underhook mechanics from half guard with a cooperative partner. Focus on proper head position, smooth rotation, and establishing the far leg hook. Drill 20-30 repetitions per side at the beginning of each training session."
-    },
-    {
-      "phase": "Week 3-4: Timing Development",
-      "focus": "Recognizing entry opportunities against light pressure",
-      "description": "Partner applies 30% pressure in half guard while you identify windows to enter deep half. Practice reading opponent's weight distribution and timing your entry when they commit pressure forward. Begin chaining entry with basic waiter sweep."
-    },
-    {
-      "phase": "Week 5-8: Counter Recognition",
-      "focus": "Defending common counters and maintaining position",
-      "description": "Partner uses specific counters (limp leg, crossface, sprawl) at 50% intensity. Practice your responses to each counter and work on maintaining deep half position even when opponent attempts to escape. Include sweep attempts from secured deep half position."
-    },
-    {
-      "phase": "Week 9-12: Integration and Combinations",
-      "focus": "Combining deep half entry with sweep system",
-      "description": "Flow drill between half guard, deep half entry, and various sweep options (waiter, Homer Simpson, electric chair). Partner provides realistic resistance at 70% intensity. Work on reading opponent's defenses and selecting appropriate sweep based on their reactions."
-    },
-    {
-      "phase": "Month 4-6: Competition Application",
-      "focus": "Live implementation with full resistance",
-      "description": "Use deep half entry during regular positional sparring and live rolling. Focus on high-percentage entries from realistic half guard situations. Track success rate and identify specific scenarios where entry works best for your game."
-    }
-  ],
-  "variants_and_adaptations": [
-    {
-      "variant_name": "Lockdown to Deep Half Entry",
-      "description": "Enter deep half from lockdown position by releasing the lockdown, rotating underneath while maintaining underhook control. This variation is particularly effective when opponent is already dealing with lockdown pressure and their base is compromised.",
-      "when_to_use": "When already in lockdown half guard and opponent is driving forward pressure, or when transitioning from electric chair position"
-    },
-    {
-      "variant_name": "Reverse Deep Half Entry",
-      "description": "Enter deep half by facing the opposite direction, with your head near opponent's far hip rather than underneath their near hip. This entry is useful when opponent has shut down the standard entry but has left space on the far side.",
-      "when_to_use": "When opponent has strong crossface control preventing standard entry, or when coming from reverse half guard position"
-    },
-    {
-      "variant_name": "Dogfight to Deep Half",
-      "description": "From dogfight position where both players have underhooks, drop your level and rotate underneath opponent's hips while maintaining your underhook. This creates a quick entry when both players are engaged in the underhook battle.",
-      "when_to_use": "During scrambles from dogfight or when both players have established underhook control in half guard"
-    },
-    {
-      "variant_name": "Knee Shield to Deep Half",
-      "description": "From knee shield half guard, collapse the knee shield inward while simultaneously rotating underneath and securing the underhook. This entry works when opponent attempts to pressure through the knee shield.",
-      "when_to_use": "When playing knee shield half guard and opponent drives forward pressure attempting to flatten the shield"
-    }
-  ],
-  "knowledge_assessment": [
-    {
-      "question": "What is the primary control point that must be established first during deep half entry?",
-      "answer": "The deep underhook on the opponent's near leg is the primary control that must be established first. Your shoulder should be positioned against the inside of their thigh with your hand gripping behind their knee or reaching toward their far hip. This underhook serves as the anchor point for the entire rotation and provides the foundational control necessary to complete the entry safely."
-    },
-    {
-      "question": "Why is proper head position critical during deep half entry, and where should your head be positioned?",
-      "answer": "Proper head position is critical because it prevents the opponent from applying shoulder pressure that could flatten you out and shut down the entry. Your head should be positioned below the line of the opponent's hips, with your face looking toward their far hip rather than up at their chest. This low head position removes the angle they need to apply downward pressure and allows you to complete the rotation underneath their center of gravity."
-    },
-    {
-      "question": "How should you respond if your opponent limp legs and sprawls backward to counter your deep half entry?",
-      "answer": "If the opponent limp legs out of your underhook control, you should immediately transition to the waiter sweep by releasing the far leg hook and sitting up to drive forward into their base. Alternatively, if they pull their leg back into range, you can switch to lockdown half guard to recapture control. The key is to recognize the counter early and transition to an alternative attack rather than attempting to force the original entry against the sprawl."
-    },
-    {
-      "question": "What is the purpose of the far leg hook in deep half guard, and when should it be established?",
-      "answer": "The far leg hook serves multiple purposes: it provides a second point of control beyond the underhook, prevents the opponent from stepping over or basing out wide, and creates the mechanical structure necessary for various sweep options. The hook should be established as soon as your rotation brings you within range of their far leg, typically during step 5 of the entry sequence. The hook is placed behind their knee or around their thigh using your bottom leg."
-    },
-    {
-      "question": "Why must you create initial space before attempting to rotate into deep half, and how much space is required?",
-      "answer": "Creating initial space is essential because attempting to rotate while pinned flat under opponent's chest pressure is biomechanically impossible and leaves you vulnerable to crossface control. You must use frames and hip escapes to create separation between your torso and their chest. Interestingly, only 2-3 inches of space is required - just enough to allow your body to begin the rotation. This space is created using a strong frame with your top arm against their shoulder or hip while performing a small shrimp movement."
-    },
-    {
-      "question": "What are the three primary sweep options available immediately after establishing deep half guard?",
-      "answer": "The three primary sweep options from deep half guard are: (1) The waiter sweep, where you sit up and drive forward under their hips, (2) The Homer Simpson sweep, where you roll backward taking them overhead, and (3) The electric chair sweep, where you elevate and twist to sweep them to the side. Each sweep is selected based on the opponent's base and reactions. The waiter sweep works when they sprawl back, Homer Simpson when they pressure forward, and electric chair when they base out to the side."
-    }
-  ],
-  "safety_considerations": "Deep half entry is generally a low-risk technique when practiced with proper progression and control. The primary safety considerations include protecting your neck during rotation by maintaining good posture and not allowing your head to be pushed into dangerous angles. Beginners should avoid forcing the entry against heavy resistance until they have developed proper mechanics, as this can result in neck strain. When drilling, partners should apply gradual resistance rather than explosive movements to allow the practitioner to develop timing safely. Pay particular attention to your bottom shoulder during the rotation - ensure you are rotating on your shoulder blade rather than the tip of the shoulder to avoid joint stress. During live training, if you find yourself stuck mid-rotation with opponent applying heavy pressure, do not continue forcing the movement; instead, work back to half guard or accept the pass and focus on guard recovery. Practitioners with shoulder injuries should consult with their instructor before drilling deep half entries extensively, as the rotation places significant load through the bottom shoulder.",
-  "position_integration": "The deep half entry represents a critical junction in the half guard bottom game, connecting defensive half guard retention with offensive sweeping systems. Within the broader BJJ positional hierarchy, deep half serves as both an escape mechanism from passing pressure and a powerful offensive platform. The entry fits into multiple strategic frameworks: it can be used as a primary attacking system for players who build their game around deep half sweeps and back takes, or as a secondary option for those who primarily use other half guard variations (knee shield, lockdown, underhook) but need a bailout when those positions are compromised. The position integrates seamlessly with the guard recovery system - if your deep half sweep attempts are defended, you can use the position's mobility to reguard to butterfly, single leg X, or standard half guard. Conversely, deep half represents an excellent recovery option when you've lost other guard positions and need to get underneath your opponent's pressure. Modern competition strategy often employs deep half as part of a layered guard system where players flow between multiple half guard variations based on opponent reactions, with deep half serving as the deepest defensive layer before full guard recovery becomes necessary. The position also connects to leg entanglement systems, as the controls and body positioning share similarities with outside ashi garami and other leg attack positions.",
+  "success_rate": 55,
+  "overview": "The Deep Half Entry is a fundamental transition from traditional half guard to the deep half guard position, representing a critical defensive recovery and offensive repositioning technique. This entry allows the bottom player to create powerful sweeping opportunities while simultaneously removing themselves from immediate passing danger. Deep half guard has become increasingly prevalent in modern competition BJJ, particularly at the highest levels, as it provides a systematic framework for dealing with pressure-based passing attempts.\n\nThe position works by getting underneath your opponent's center of gravity, using their weight against them to create mechanical advantage for sweeps and back takes. The entry itself requires precise timing, proper hip mobility, and an understanding of how to manage space and frames during the transition. The critical mechanical detail is the deep underhook on the opponent's near leg combined with head positioning below their hip line, which creates the fulcrum necessary for all subsequent sweep mechanics.\n\nWhen executed correctly, the deep half entry transforms a potentially defensive situation into an offensive opportunity, allowing the practitioner to attack with various sweep options including the waiter sweep, Homer Simpson sweep, and electric chair variations. The entry is particularly effective against pressure-based top players who commit their weight forward, as their own momentum and weight distribution become the primary tools used against them.",
   "related_content": [
     {
       "name": "Half Guard",
@@ -226,12 +64,8 @@
       "relationship": "Alternative guard recovery option if deep half is denied"
     },
     {
-      "name": "X-Guard",
-      "relationship": "Related position with similar underhook and leg control concepts"
-    },
-    {
       "name": "Single Leg X-Guard",
-      "relationship": "Follow-up position option after waiter sweep"
+      "relationship": "Follow-up position option when opponent extracts leg"
     },
     {
       "name": "Dogfight Position",
@@ -248,25 +82,359 @@
     {
       "name": "Reverse Half Guard",
       "relationship": "Alternative half guard variation with different entry angles"
-    }
-  ],
-  "from_position": "Half Guard/Bottom",
-  "outcomes": [
-    {
-      "to": "Deep Half Guard/Bottom",
-      "probability": 70,
-      "result": "success"
     },
     {
-      "to": "Half Guard/Bottom",
-      "probability": 20,
-      "result": "failure"
-    },
-    {
-      "to": "Half Guard/Top",
-      "probability": 10,
-      "result": "counter"
+      "name": "Rolling Back Take",
+      "relationship": "High-percentage follow-up attack from established deep half"
     }
   ],
-  "success_rate": 62
+  "conditions": [
+    "Bottom player has half guard with inside leg controlling opponent's leg",
+    "Opponent is applying forward pressure or has committed weight over bottom player",
+    "Bottom player can create minimal space through framing or hip escape",
+    "Underhook on near side is available or can be established during entry",
+    "Opponent has not established strong crossface with sprawled hips"
+  ],
+  "attacker": {
+    "name": "Deep Half Entry Attacker",
+    "description": "How to execute Deep Half Entry in BJJ. Attacking perspective with setup, execution steps, and counters for transitioning from half guard to deep half.",
+    "overview": "The Deep Half Entry from the attacker's perspective is about converting a defensive half guard bottom position into an offensive deep half guard platform. As the attacker, your objective is to thread your body underneath your opponent's center of gravity, establishing a deep underhook on their near leg and positioning your head below their hip line. This creates a fulcrum-based leverage system where your opponent's own weight becomes the engine for your sweeps. The entry demands precise sequencing: frame to create space, secure the underhook, rotate underneath, establish head position, hook the far leg. Each step builds on the previous one, and skipping steps leads to failed entries or counters. Mastering the timing of when to initiate the entry is equally important as the mechanics themselves, with the ideal window occurring when your opponent commits forward pressure.",
+    "key_principles": [
+      "Create space and angle with hip escape before initiating entry - never attempt the rotation while pinned flat",
+      "Secure underhook on opponent's near leg as the foundational control before committing to the rotation",
+      "Keep head positioned below opponent's hip line to prevent shoulder pressure from shutting down the entry",
+      "Maintain active frame with top arm to control distance and prevent crossface during the initial phase",
+      "Use bottom leg to hook opponent's far leg for two-point structural control once rotation is complete",
+      "Generate constant movement after establishing position to prevent opponent from settling their base",
+      "Protect against the limp leg counter by securing deep underhook control early and pulling the leg tight to your chest"
+    ],
+    "setup_requirements": [
+      "Half guard bottom position established with inside leg controlling opponent's leg at or below the knee",
+      "Opponent applying forward pressure or attempting to flatten you, providing the weight commitment you need",
+      "Ability to create minimal space through shrimping or framing with at least 2-3 inches of separation",
+      "Underhook on near side already secured or immediately available as opponent drives forward",
+      "Top arm free to create defensive frame against crossface attempts during initial space creation",
+      "Hip mobility sufficient to rotate underneath opponent's center of gravity through the full entry arc",
+      "Understanding of opponent's base and weight distribution to time the entry correctly"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Create initial space",
+        "description": "From half guard bottom, use your top arm to create a strong frame against opponent's shoulder or hip. Simultaneously perform a small shrimp/hip escape to create just enough space to begin rotating your body. Your goal is to create 2-3 inches of space between your torso and opponent's chest. This is a small, precise movement rather than a large explosive shrimp."
+      },
+      {
+        "step_number": 2,
+        "action": "Secure underhook on near leg",
+        "description": "As you create space, slide your bottom arm (the arm closest to the mat) underneath opponent's near leg, securing a deep underhook around their thigh. Your shoulder should be positioned against the inside of their thigh, with your hand gripping behind their knee or reaching toward their far hip. This underhook is the foundational control for the entire position and must be deep before you commit to rotation."
+      },
+      {
+        "step_number": 3,
+        "action": "Begin rotation underneath",
+        "description": "Using the underhook as an anchor point, begin rotating your entire body perpendicular to your opponent. Turn onto your side and continue rotating so that your back begins to face the mat. Your head should start moving toward a position underneath opponent's hips, while your hips rotate away from them. Think of creating a T-shape with your bodies, using the underhook as the pivot point."
+      },
+      {
+        "step_number": 4,
+        "action": "Establish head position below hip line",
+        "description": "Continue rotating until your head is positioned underneath opponent's hips, with your face looking toward their far hip. Your head must be below the line of their hips to prevent them from applying shoulder pressure downward. Keep your neck protected by maintaining good posture and not allowing your chin to be exposed. This head position is the critical mechanical detail that makes the position defensible."
+      },
+      {
+        "step_number": 5,
+        "action": "Hook far leg for second control point",
+        "description": "As you complete the rotation, use your bottom leg to hook around opponent's far leg. Your foot should hook behind their knee or around their thigh, creating a second point of control beyond the underhook. This hook prevents them from stepping over your body to escape and also establishes the mechanical structure necessary for sweep initiation."
+      },
+      {
+        "step_number": 6,
+        "action": "Pull underhook tight and adjust body position",
+        "description": "Tighten your underhook by pulling opponent's near leg close to your chest, eliminating any slack. Adjust your body so you are fully underneath their base with your weight on your upper back and shoulders. Your near arm maintains the deep underhook, your bottom leg hooks their far leg, and your top arm is free to control their far hip or belt."
+      },
+      {
+        "step_number": 7,
+        "action": "Initiate immediate sweep threat",
+        "description": "Do not settle into a static deep half position. Immediately begin loading a sweep by elevating your hips or reaching for their belt or far pant leg with your free hand. This forces your opponent to react defensively to the sweep threat rather than methodically working to extract their leg and pass. The waiter sweep and old school sweep are your primary initial options depending on their weight distribution."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent sprawls back and limp legs out of underhook",
+        "effectiveness": "High",
+        "your_response": "Immediately follow the retreating leg by scooting your hips forward and re-securing the underhook. If the leg is fully extracted, transition to single leg X guard by hooking their leg with your feet, or sit up to pursue a single leg takedown on the retreating leg.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent applies heavy crossface and shoulder pressure to prevent rotation",
+        "effectiveness": "High",
+        "your_response": "Create stronger frame with top arm against their shoulder or bicep. If crossface is established before you begin rotating, abandon deep half entry and work back to knee shield half guard or use the pressure to transition into lockdown to control their posture before reattempting.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent bases out wide with far leg and circles away from your underhook",
+        "effectiveness": "Medium",
+        "your_response": "Follow their movement by scooting your hips and maintaining underhook control. If they create too much distance, release and transition to butterfly guard by inserting a hook, or pursue single leg X guard on their near leg as they back away.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent drops weight and flattens you before entry completion, driving chest-to-chest",
+        "effectiveness": "Medium",
+        "your_response": "Use lockdown on their trapped leg to prevent them from advancing position and to break their posture down. From lockdown, work back to creating space by whipping their leg to off-balance them, then reattempt the deep half entry or transition to electric chair.",
+        "targets_outcome": "Half Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting to enter deep half without creating initial space first",
+        "consequence": "Opponent's chest pressure pins you flat, preventing rotation and leaving you vulnerable to crossface and pass progression to side control",
+        "correction": "Always establish frame and create at least minimal space before attempting to rotate underneath. Even 2-3 inches of separation is sufficient to begin the rotation."
+      },
+      {
+        "error": "Failing to secure deep underhook on opponent's near leg before committing to rotation",
+        "consequence": "Without proper underhook depth, opponent can easily sprawl back and remove their leg from your control, leaving you flat on your back with no guard structure",
+        "correction": "Ensure your shoulder is against the inside of their thigh and your hand reaches behind their knee or toward their far hip before beginning the rotation. The underhook depth is non-negotiable."
+      },
+      {
+        "error": "Keeping head too high during entry instead of below opponent's hip line",
+        "consequence": "Opponent can apply shoulder pressure downward onto your face and chest, flattening you out and preventing the completion of the entry",
+        "correction": "Rotate your head below the line of opponent's hips. Your face should be looking toward their far hip, not up at their chest. Think of ducking under a low doorway."
+      },
+      {
+        "error": "Neglecting to hook opponent's far leg with bottom leg after completing rotation",
+        "consequence": "Opponent can easily step over your body, base out wide to neutralize your sweep angles, or circle away from your underhook control",
+        "correction": "As soon as your rotation brings you into range, hook their far leg behind the knee with your bottom leg to establish two-point control. This should happen within one second of completing the rotation."
+      },
+      {
+        "error": "Remaining static after achieving deep half position without threatening sweeps",
+        "consequence": "Opponent has time to establish strong base, secure crossface control, and methodically work to extract their leg and pass your guard",
+        "correction": "Deep half is a dynamic attacking position. Immediately begin loading a sweep attempt, whether waiter sweep, old school, or back take. Force your opponent to defend rather than attack."
+      },
+      {
+        "error": "Crossing ankles or locking legs prematurely during the entry",
+        "consequence": "Reduces hip mobility and makes it difficult to adjust position, change sweep angles, or transition to different sweep variations based on opponent reactions",
+        "correction": "Keep legs active and independent until you commit to a specific sweep. Maintain flexibility to adapt to opponent's reactions by keeping your feet free to adjust hook placement."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2: Entry Mechanics",
+        "focus": "Isolated movement drilling without resistance",
+        "description": "Practice the rotation and underhook mechanics from half guard with a cooperative partner. Focus on proper head position, smooth rotation, and establishing the far leg hook. Drill 20-30 repetitions per side at the beginning of each training session. Emphasize the frame-underhook-rotate-hook sequence."
+      },
+      {
+        "phase": "Week 3-4: Timing Development",
+        "focus": "Recognizing entry opportunities against light pressure",
+        "description": "Partner applies 30% pressure in half guard while you identify windows to enter deep half. Practice reading opponent's weight distribution and timing your entry when they commit pressure forward. Begin chaining entry with basic waiter sweep to build the complete attack sequence."
+      },
+      {
+        "phase": "Week 5-8: Counter Recognition",
+        "focus": "Defending common counters and maintaining position",
+        "description": "Partner uses specific counters (limp leg, crossface, sprawl) at 50% intensity. Practice your responses to each counter and work on maintaining deep half position even when opponent attempts to escape. Include sweep attempts from secured deep half position."
+      },
+      {
+        "phase": "Week 9-12: Integration and Combinations",
+        "focus": "Combining deep half entry with sweep system",
+        "description": "Flow drill between half guard, deep half entry, and various sweep options (waiter, old school, electric chair, back take). Partner provides realistic resistance at 70% intensity. Work on reading opponent's defenses and selecting appropriate sweep based on their reactions."
+      },
+      {
+        "phase": "Month 4-6: Competition Application",
+        "focus": "Live implementation with full resistance",
+        "description": "Use deep half entry during regular positional sparring and live rolling. Focus on high-percentage entries from realistic half guard situations. Track success rate and identify specific opponent body types and passing styles where entry works best for your game."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary control point that must be established first during deep half entry?",
+        "answer": "The deep underhook on the opponent's near leg is the primary control that must be established first. Your shoulder should be positioned against the inside of their thigh with your hand gripping behind their knee or reaching toward their far hip. This underhook serves as the anchor point for the entire rotation and provides the foundational control necessary to complete the entry safely."
+      },
+      {
+        "question": "Why is proper head position critical during deep half entry, and where should your head be positioned?",
+        "answer": "Proper head position is critical because it prevents the opponent from applying shoulder pressure that could flatten you out and shut down the entry. Your head should be positioned below the line of the opponent's hips, with your face looking toward their far hip rather than up at their chest. This low head position removes the angle they need to apply downward pressure and allows you to complete the rotation underneath their center of gravity."
+      },
+      {
+        "question": "Your opponent posts their hand on the mat and begins to limp leg backward out of your underhook - how do you adjust?",
+        "answer": "Immediately follow the retreating leg by scooting your hips forward to maintain connection. If you can re-secure the underhook, pull the leg tight and continue with the entry. If the leg is fully extracted, do not remain flat on your back. Transition to single leg X guard by hooking their remaining leg with your feet, or sit up aggressively to pursue a single leg takedown on the retreating leg. The key is recognizing the counter within the first second and transitioning rather than fighting to save a lost position."
+      },
+      {
+        "question": "What is the most critical hip movement in the deep half entry sequence?",
+        "answer": "The most critical hip movement is the initial shrimp/hip escape that creates the 2-3 inches of space needed to begin rotation. Without this space creation, the entire entry is impossible because your opponent's chest pressure pins you flat. The hip escape must be performed while maintaining frame contact with your top arm. The secondary critical hip movement is the rotation itself, where your hips swing away from your opponent as your upper body threads underneath them, creating the perpendicular T-shape body alignment."
+      },
+      {
+        "question": "What grip requirements must be met before you commit to the full rotation into deep half?",
+        "answer": "Before committing to rotation, you must have secured a deep underhook on opponent's near leg with your bottom arm, with your shoulder wedged against the inside of their thigh and your hand reaching at minimum behind their knee. Your top arm must be free and actively framing against their shoulder or hip to manage distance during rotation. No grips on opponent's upper body are needed for the entry itself, but the underhook depth is absolutely non-negotiable. A shallow underhook that only reaches their knee will fail against any sprawl counter."
+      },
+      {
+        "question": "What is the optimal timing window for initiating the deep half entry?",
+        "answer": "The optimal timing window is when your opponent commits their weight forward, either by driving pressure into your half guard or by reaching forward for a grip. When their weight shifts forward, their near leg becomes loaded and difficult to retract quickly, making the underhook easier to secure and the limp leg counter harder to execute. Conversely, attempting the entry when your opponent is sitting back on their heels or in a posting base makes the underhook shallow and easily defeated by sprawling."
+      },
+      {
+        "question": "Your opponent has established crossface control and is driving heavy shoulder pressure - should you still attempt deep half entry?",
+        "answer": "No. If the opponent has already established a strong crossface with shoulder pressure driving your head away, the deep half entry window has closed. Attempting the rotation against an established crossface will result in being flattened and having your back exposed. Instead, prioritize breaking the crossface first by using your frames to create space and recover a knee shield or transition to lockdown. Once you have neutralized the crossface and reestablished your defensive frames, you can look for the deep half entry window when they next commit forward pressure."
+      },
+      {
+        "question": "What direction of force should you apply with the underhook once deep half is established?",
+        "answer": "Once in deep half, the underhook should pull opponent's near leg tight toward your chest using a curling motion, drawing their thigh into your body and eliminating any slack between your arm and their leg. This inward pulling force removes their ability to extract the leg and loads their weight onto your shoulder and upper back, creating the fulcrum for sweeps. The direction is toward your own chest and slightly upward, never pushing the leg away or outward. Combined with hip elevation, this pull generates the leverage that makes all deep half sweeps effective."
+      },
+      {
+        "question": "If your initial waiter sweep attempt is blocked because your opponent widens their base, what chain attack should you pursue?",
+        "answer": "When the opponent widens their base to block the waiter sweep, their weight shifts laterally and their far leg moves away from your hook. This opens the old school sweep in the opposite direction: maintain your underhook and use the far leg hook to load their weight, then drive your hips upward and roll them over the near side. If they post that hand, the rolling back take becomes available by continuing the momentum underneath them. The key principle is that every defensive reaction to one sweep opens a different sweep angle. A widened base defends the waiter but exposes the old school and back take."
+      },
+      {
+        "question": "What are the entry requirements that must exist before attempting deep half from half guard bottom?",
+        "answer": "Four conditions must be present: first, you must have your inside leg controlling opponent's leg in half guard to maintain the fundamental entanglement. Second, your opponent must have their weight committed forward or at minimum distributed over their trapped leg, not sitting back in base. Third, you must have the ability to create at least minimal space through a frame or hip escape. Fourth, the near-side underhook must be available, meaning opponent has not established an overhook or whizzer that blocks your bottom arm from threading underneath their thigh. If any of these conditions is absent, work to create them before attempting the entry."
+      }
+    ],
+    "safety_considerations": "Deep half entry is generally a low-risk technique when practiced with proper progression and control. The primary safety considerations include protecting your neck during rotation by maintaining good posture and not allowing your head to be pushed into dangerous angles. Beginners should avoid forcing the entry against heavy resistance until they have developed proper mechanics, as this can result in neck strain. When drilling, partners should apply gradual resistance rather than explosive movements to allow the practitioner to develop timing safely. Pay particular attention to your bottom shoulder during the rotation: ensure you are rotating on your shoulder blade rather than the tip of the shoulder to avoid joint stress. During live training, if you find yourself stuck mid-rotation with opponent applying heavy pressure, do not continue forcing the movement. Instead, work back to half guard or accept the positional disadvantage and focus on guard recovery. Practitioners with shoulder injuries should consult with their instructor before drilling deep half entries extensively, as the rotation places significant load through the bottom shoulder."
+  },
+  "defender": {
+    "name": "Deep Half Entry Defender",
+    "description": "How to defend against Deep Half Entry in BJJ. Recognition cues, defensive options, and strategies to prevent opponents from establishing deep half guard.",
+    "overview": "Defending the Deep Half Entry requires the top player to recognize the attempt early and shut it down before the bottom player completes the rotation underneath. As the defender in half guard top, your primary objective is to prevent the bottom player from securing the deep underhook on your near leg and rotating their head below your hip line. Once both of those controls are established, defending becomes significantly harder and you are fighting from a disadvantaged position. Early recognition through tactile and visual cues is essential because the entry happens in a narrow time window. The defender must maintain forward pressure and crossface control to deny the space needed for the entry, while being prepared to sprawl, limp leg, or apply shoulder pressure to shut down any rotation attempt. Understanding the entry mechanics from the attacker's perspective is critical for effective defense, as each defensive action targets a specific phase of the entry sequence.",
+    "key_principles": [
+      "Maintain strong crossface and shoulder pressure to deny the space needed for rotation before the entry begins",
+      "Control opponent's bottom arm to prevent the underhook from being established on your near leg",
+      "Keep your hips heavy and low to reduce the space underneath you that the bottom player needs to thread through",
+      "Sprawl your trapped leg backward at the first sign of underhook establishment to deny the entry anchor point",
+      "Recognize the entry attempt within the first second and react immediately rather than waiting until the position is fully established",
+      "Use your free leg to widen your base and lower your center of gravity, making it harder for the bottom player to get underneath you"
+    ],
+    "recognition_cues": [
+      "Bottom player's inside arm begins threading underneath your near thigh instead of framing against your shoulder or hip, indicating underhook attempt",
+      "Bottom player performs a hip escape to create space between their torso and your chest, creating the gap needed to begin rotation",
+      "Bottom player's head begins moving downward toward your hip rather than staying at chest level, indicating they are starting the rotation underneath",
+      "You feel a pulling force on your near leg toward opponent's chest as they secure the underhook and begin to load your weight onto their shoulder",
+      "Bottom player's top frame disengages from your shoulder as they commit both arms to the underhook and rotation, abandoning defensive framing"
+    ],
+    "defensive_options": [
+      {
+        "action": "Sprawl trapped leg backward and apply shoulder pressure to flatten opponent",
+        "when_to_use": "At the earliest sign of the underhook attempt, before opponent has secured deep grip on your near leg and before they begin rotation",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Bottom player loses underhook contact and is flattened under your shoulder pressure, returning to standard half guard bottom where you maintain top control",
+        "risk": "If timed too late after underhook is deep, the sprawl creates space that can accelerate the entry rather than prevent it"
+      },
+      {
+        "action": "Establish strong crossface and drive shoulder into opponent's jaw to prevent head from dropping below hip line",
+        "when_to_use": "When opponent has begun creating space but has not yet completed the rotation or established head position below your hips",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Opponent cannot complete the rotation because their head is being driven away from your hips, forcing them back to flat half guard bottom",
+        "risk": "Over-committing weight forward for the crossface can be used by opponent to accelerate their entry if they already have the underhook secured"
+      },
+      {
+        "action": "Limp leg extraction by pulling your near leg backward while widening base with free leg",
+        "when_to_use": "When opponent has begun rotation and has a shallow underhook but has not yet fully committed to the deep half position",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "Your near leg is freed from the underhook control, allowing you to immediately advance to side control or reset to a stronger half guard passing position",
+        "risk": "If underhook is already deep and tight, the limp leg attempt fails and you lose your base momentarily, potentially accelerating the entry"
+      },
+      {
+        "action": "Whizzer overhook on opponent's underhooking arm to control their shoulder and prevent rotation",
+        "when_to_use": "When opponent has secured the underhook but has not yet completed the full rotation underneath your hips",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "The whizzer pins opponent's shoulder to the mat and prevents the rotation needed to complete the deep half entry, forcing them back to standard half guard",
+        "risk": "If opponent continues rotation despite the whizzer, you may end up in an awkward position with your arm trapped as they establish deep half"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Shut down the entry early by establishing crossface and shoulder pressure before the underhook is secured, or sprawl your trapped leg back to deny the anchor point. The goal is to return to standard half guard top where you maintain passing initiative."
+      },
+      {
+        "outcome": "Half Guard/Top",
+        "how": "Execute a successful limp leg extraction when opponent has only a shallow underhook, pulling your near leg completely free while maintaining base with your free leg. This can lead directly to a passing opportunity as your opponent is momentarily off-balance from the failed entry attempt."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Reacting too late to the deep half entry attempt after opponent has already established deep underhook and head position",
+        "consequence": "Once both the deep underhook and low head position are established, defensive options become limited and high-effort. You are now defending sweeps rather than preventing the position.",
+        "correction": "Train recognition of the earliest cues: the hip escape for space creation and the arm threading underneath your thigh. React to these precursor movements rather than waiting for the full position to develop."
+      },
+      {
+        "error": "Pulling trapped leg straight backward without maintaining base or crossface control",
+        "consequence": "Pulling the leg back without base creates a gap that the opponent fills by scooting forward, and you lose your crossface pressure which was preventing the rotation",
+        "correction": "When limp legging, maintain crossface pressure with your upper body while your leg extracts. Widen your base with the free leg first, then extract the trapped leg in a circular motion rather than straight back."
+      },
+      {
+        "error": "Driving weight too far forward in an attempt to flatten opponent when they already have the underhook secured",
+        "consequence": "Forward weight commitment with an established underhook loads your weight perfectly onto the opponent's fulcrum, making the waiter sweep trivially easy for them",
+        "correction": "If the underhook is already established, do not drive forward. Instead, sit your hips back slightly, establish crossface, and work the limp leg extraction or whizzer before committing any forward pressure."
+      },
+      {
+        "error": "Ignoring the near-side arm battle and allowing opponent to freely thread their arm under your thigh",
+        "consequence": "The underhook is the foundation of the entire deep half entry. Allowing it uncontested means the entry will succeed against you consistently.",
+        "correction": "Actively monitor and control opponent's bottom arm. Use your hip pressure and crossface to pin their arm, or use your near-side hand to block the path of their arm underneath your thigh."
+      },
+      {
+        "error": "Attempting to stand up or posture up as a defense against the deep half entry",
+        "consequence": "Standing creates space underneath you that the bottom player exploits to accelerate the entry, and also opens transition pathways to single leg X guard or X guard",
+        "correction": "Stay low and heavy. Drop your hips toward the mat and drive shoulder pressure into the opponent. The defense is about denying space and compressing, not about creating distance."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that your opponent is attempting a deep half entry?",
+        "answer": "The earliest cue is the opponent's hip escape creating space between their torso and your chest, combined with their bottom arm beginning to thread underneath your near thigh. These precursor movements happen before the rotation begins. Recognizing these cues gives you the largest defensive window. By the time their head drops below your hip line, you are already late in your defensive response."
+      },
+      {
+        "question": "Why is driving your weight forward dangerous when your opponent already has the deep underhook established?",
+        "answer": "Driving forward when the underhook is established loads your weight directly onto the fulcrum that the opponent has created with their shoulder against your inner thigh. This is exactly the weight distribution they need for the waiter sweep, where they sit up underneath you and dump you over their shoulder. Your forward pressure becomes the force that sweeps you. Instead, sit your hips back, establish crossface, and work to extract the trapped leg before committing any forward pressure."
+      },
+      {
+        "question": "What is the correct defensive sequence when you feel the underhook being established on your near leg?",
+        "answer": "The correct sequence is: first, immediately apply crossface pressure with your shoulder to prevent the head from dropping below your hip line. Second, widen your base by posting your free leg far to the side. Third, attempt to limp leg your trapped leg backward in a circular motion while maintaining upper body pressure. Fourth, if the limp leg fails, apply a whizzer overhook on their underhooking arm to pin their shoulder and prevent rotation. Speed matters more than force in this sequence."
+      },
+      {
+        "question": "Your opponent has established deep half and is loading the waiter sweep - what is your emergency defense?",
+        "answer": "If you are already in deep half and feeling the waiter sweep loading, immediately shift your weight backward and downward, driving your hips toward the mat. Widen your base dramatically with your free leg. Apply crossface pressure to flatten their upper body and prevent them from sitting up. Grab their far hip or belt with your free hand to anchor your position. If the sweep is imminent, post your hand on the mat behind you as a last resort to prevent being rolled over, then work back to extracting your trapped leg."
+      },
+      {
+        "question": "How should you manage your base when defending against an opponent who frequently uses deep half entry?",
+        "answer": "Against a known deep half player, maintain a wider base from the start in half guard top. Keep your free leg posted further from your body than normal, lowering your center of gravity. Apply constant crossface pressure to limit their ability to create space. Keep your hips heavy and avoid being drawn into forward-pressure passing that feeds their entry. Consider using a backstep passing approach that takes your near leg further from their reach rather than driving it forward into their underhook range."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2: Recognition Drilling",
+        "focus": "Identifying entry attempts through tactile and visual cues",
+        "description": "Partner attempts deep half entry at 30% speed while you focus on identifying the three main recognition cues: hip escape for space, arm threading for underhook, and head dropping for rotation. Call out each cue as you feel it. No defensive action yet, just recognition and timing awareness."
+      },
+      {
+        "phase": "Week 3-4: Individual Counter Techniques",
+        "focus": "Practicing each defensive option in isolation",
+        "description": "Drill each defensive option separately against a cooperative partner: sprawl and flatten, crossface prevention, limp leg extraction, and whizzer application. 15 repetitions of each per side. Partner initiates entry at 40% speed while you execute the specific counter being practiced."
+      },
+      {
+        "phase": "Week 5-8: Counter Selection and Timing",
+        "focus": "Choosing the correct defensive option based on entry phase",
+        "description": "Partner attempts deep half entry at 60% speed, varying their timing and approach. You must select the appropriate counter based on which phase of the entry they have reached. Early entry gets sprawl or crossface. Mid-entry gets limp leg or whizzer. Practice reading the situation and responding correctly rather than applying a single defense every time."
+      },
+      {
+        "phase": "Week 9-12: Live Positional Sparring",
+        "focus": "Defending deep half entry under full resistance",
+        "description": "Positional sparring from half guard top. Partner specifically targets deep half entry while you work to prevent it and pass. 3-minute rounds. Track how often the entry succeeds versus how often you shut it down. Identify which defensive timing gives you the best results against different body types and entry styles."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Lockdown to Deep Half Entry",
+      "description": "Enter deep half from lockdown position by releasing the lockdown, rotating underneath while maintaining underhook control. This variation is particularly effective when opponent is already dealing with lockdown pressure and their base is compromised from the whip-down mechanics.",
+      "when_to_use": "When already in lockdown half guard and opponent is driving forward pressure, or when transitioning from electric chair position"
+    },
+    {
+      "variant_name": "Reverse Deep Half Entry",
+      "description": "Enter deep half by facing the opposite direction, with your head near opponent's far hip rather than underneath their near hip. This entry is useful when opponent has shut down the standard entry but has left space on the far side of their body.",
+      "when_to_use": "When opponent has strong crossface control preventing standard entry, or when coming from reverse half guard position"
+    },
+    {
+      "variant_name": "Dogfight to Deep Half",
+      "description": "From dogfight position where both players have underhooks, drop your level and rotate underneath opponent's hips while maintaining your underhook. This creates a quick entry when both players are engaged in the underhook battle and your opponent has committed their weight forward.",
+      "when_to_use": "During scrambles from dogfight or when both players have established underhook control in half guard"
+    },
+    {
+      "variant_name": "Knee Shield to Deep Half",
+      "description": "From knee shield half guard, collapse the knee shield inward while simultaneously rotating underneath and securing the underhook on opponent's near leg. This entry works when opponent attempts to smash through the knee shield with forward pressure.",
+      "when_to_use": "When playing knee shield half guard and opponent drives forward pressure attempting to flatten the shield"
+    }
+  ],
+  "position_integration": "The deep half entry represents a critical junction in the half guard bottom game, connecting defensive half guard retention with offensive sweeping systems. Within the broader BJJ positional hierarchy, deep half serves as both an escape mechanism from passing pressure and a powerful offensive platform. The entry fits into multiple strategic frameworks: it can be used as a primary attacking system for players who build their game around deep half sweeps and back takes, or as a secondary option for those who primarily use other half guard variations (knee shield, lockdown, underhook) but need a recovery option when those positions are compromised. The position integrates seamlessly with the guard recovery system, as failed deep half sweep attempts can transition to butterfly guard, single leg X guard, or standard half guard. Modern competition strategy often employs deep half as part of a layered guard system where players flow between multiple half guard variations based on opponent reactions, with deep half serving as the deepest offensive layer that exploits forward pressure commitment."
 }

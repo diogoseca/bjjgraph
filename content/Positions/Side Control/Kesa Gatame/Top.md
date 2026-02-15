@@ -4,7 +4,7 @@
 
 ---
 title: "Kesa Gatame Top | BJJ Position Guide | BJJ Graph"
-description: "Master Kesa Gatame Top position in BJJ. Dominant scarf hold with 70% retention rate. Complete guide covering control, submissions, and transitions."
+description: "Master Kesa Gatame Top position in BJJ. Dominant scarf hold with 78% retention rate. Complete guide covering control, submissions, and transitions."
 ---
 
 
@@ -20,38 +20,38 @@ description: "Master Kesa Gatame Top position in BJJ. Dominant scarf hold with 7
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Americana from Side Control",
-      "text": "From this position, attempt Americana from Side Control. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Americana",
+      "text": "From this position, attempt Americana. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura from Side Control",
-      "text": "From this position, attempt Kimura from Side Control. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Kimura",
+      "text": "From this position, attempt Kimura. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar from Side Control",
-      "text": "From this position, attempt Armbar from Side Control. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Armbar Finish",
+      "text": "From this position, attempt Armbar Finish. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute North-South Choke",
-      "text": "From this position, attempt North-South Choke. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt North-South Choke. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 25% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -115,7 +115,7 @@ description: "Master Kesa Gatame Top position in BJJ. Dominant scarf hold with 7
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Kesa Gatame Top",
-  "description": "Master Kesa Gatame Top position in BJJ. Dominant scarf hold with 70% retention rate. Complete guide covering control, submissions, and transitions.",
+  "description": "Master Kesa Gatame Top position in BJJ. Dominant scarf hold with 78% retention rate. Complete guide covering control, submissions, and transitions.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -161,7 +161,9 @@ Kesa Gatame Top, also known as scarf hold, is a traditional judo pinning positio
 
 While less commonly emphasized in modern sport BJJ compared to traditional side control, Kesa Gatame offers unique advantages including superior weight distribution, excellent control of the opponent's upper body, and powerful submission opportunities. The position is particularly effective in no-gi and MMA contexts where the crossface and shoulder pressure can be devastating. Understanding Kesa Gatame enhances a practitioner's overall top game by providing an alternative pinning structure with distinct mechanical advantages.
 
-The position requires careful attention to weight distribution and hip positioning to prevent common escapes. When executed properly, Kesa Gatame can be one of the most oppressive positions in grappling, creating a sense of helplessness in the bottom player while offering the top player numerous attacking options.
+The position requires careful attention to weight distribution and hip positioning to prevent common escapes. When executed properly, Kesa Gatame can be one of the most oppressive positions in grappling, creating a sense of helplessness in the bottom player while offering the top player numerous attacking options. The key to sustainable control lies in using skeletal structure and gravity rather than muscular tension, allowing the top player to maintain crushing pressure while conserving energy for submission attacks.
+
+From a competitive standpoint, Kesa Gatame scores as a guard pass (3 points in IBJJF) and serves as both a controlling position and a launching pad for higher-value positions like mount. The transition from Kesa Gatame to mount is particularly natural when the bottom player turns into the top player, making their escape attempt the catalyst for positional advancement.
 
 </section>
 
@@ -210,19 +212,23 @@ The position requires careful attention to weight distribution and hip positioni
 
 ## Available Attacks
 
-### [[Americana from Side Control]] (15% of attempts)
+### [[Americana]] (13% of attempts)
 
-### [[Kimura from Side Control]] (14% of attempts)
+### [[Kimura]] (12% of attempts)
 
-### [[Armbar from Side Control]] (13% of attempts)
+### [[Armbar Finish]] (11% of attempts)
 
-### [[North-South Choke]] (12% of attempts)
+### [[North-South Choke]] (10% of attempts)
 
-### [[Side Control to Mount]] (16% of attempts)
+### [[Side Control to Mount]] (14% of attempts)
 
-### [[Side Control to North-South]] (19% of attempts)
+### [[Side Control to North-South]] (25% of attempts)
 
-### [[Arm Triangle]] (11% of attempts)
+### [[Arm Triangle]] (9% of attempts)
+
+### [[Transition to Modified Scarf Hold]] (4% of attempts)
+
+### [[Transition to Reverse Kesa-Gatame]] (2% of attempts)
 
 
 
@@ -234,7 +240,7 @@ The position requires careful attention to weight distribution and hip positioni
 
 **If opponent attempts to turn into you and recover guard:**
 - Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 70%)
-- Execute **[[Kimura from Side Control]]** → [[Kimura Trap]] (Probability: 60%)
+- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 60%)
 
 
 **If opponent creates space and attempts to shrimp away toward their feet:**
@@ -243,8 +249,8 @@ The position requires careful attention to weight distribution and hip positioni
 
 
 **If opponent extends trapped arm attempting to push or frame:**
-- Execute **[[Americana from Side Control]]** → [[Armbar Control]] (Probability: 65%)
-- Execute **[[Armbar from Side Control]]** → [[Armbar Control]] (Probability: 55%)
+- Execute **[[Americana]]** → [[Armbar Control]] (Probability: 65%)
+- Execute **[[Armbar Finish]]** → [[Armbar Control]] (Probability: 55%)
 
 
 **If opponent remains flat and defensive without creating movement:**
@@ -314,7 +320,7 @@ From Kesa Gatame Top, practice flowing between variations: standard Kesa Gatame,
 
 ### Submission Chain Drill
 
-Start in Kesa Gatame Top and flow through the submission chain: Americana attempt → opponent defends → switch to Kimura → opponent defends → transition to Armbar → opponent defends → secure North-South Choke. Partner provides realistic defensive reactions. Reset and repeat with different entry points.
+Start in Kesa Gatame Top and flow through the submission chain: Americana attempt, opponent defends, switch to Kimura, opponent defends, transition to Armbar, opponent defends, secure North-South Choke. Partner provides realistic defensive reactions. Reset and repeat with different entry points.
 
 **Duration**: 4 rounds of 3 minutes
 
@@ -383,14 +389,14 @@ Bottom player attempts one specific escape type (hip escape, bridge and roll, or
 
 ## Related Positions and Techniques
 
-- **[[Scarf Hold Position]]** - Identical position, alternative name
 - **[[Reverse Kesa-Gatame]]** - Mirror variation facing opposite direction
 - **[[Kuzure Kesa-Gatame]]** - Modified variation with different arm control
 - **[[Side Control]]** - Parent category, closely related pinning position
 - **[[North-South]]** - Common transition target for control maintenance
 - **[[Mount]]** - Common advancement target when opponent turns in
-- **[[Americana from Side Control]]** - Primary submission attack from this position
-- **[[Kimura from Side Control]]** - High-percentage submission option
+- **[[Americana]]** - Primary submission transition from this position
+- **[[Kimura]]** - High-percentage submission transition
+- **[[Arm Triangle]]** - Submission chain option from heavy pressure
 
 
 </section>

@@ -343,14 +343,14 @@ IBJJF competition preparation requires scenario-based positional sparring with s
 - [[X-Guard]] (Position) - Sweeping guard position effective for 2-point scoring sequences
 - [[Spider Guard]] (Position) - Sleeve-control guard offering distance management and sweep options
 - [[Turtle]] (Position) - Defensive position that doesn't concede points but limits offensive options
-- [[Guard Pass]] (Transition) - 3-point scoring transition fundamental to IBJJF competition success
+- [[Pass to Side Control]] (Transition) - 3-point scoring transition fundamental to IBJJF competition success
 - [[Toreando Pass]] (Transition) - High-percentage guard pass effective for scoring under time pressure
 - [[Knee Cut Pass]] (Transition) - Reliable passing technique that establishes clear 3-second stabilization criteria
 - [[Stack Pass]] (Transition) - Pressure-based pass offering clear scoring criteria when stabilized
-- [[Back Take Generic]] (Transition) - 4-point scoring transition offering maximum point value in single movement
+- [[Back Take]] (Transition) - 4-point scoring transition offering maximum point value in single movement
 - [[Double Leg Entry]] (Transition) - Wrestling-based takedown for 2-point opening exchanges
 - [[Guard Pull]] (Transition) - Strategic alternative to takedown exchange, avoiding scrambles while establishing guard
-- [[Hip Escape]] (Transition) - Fundamental defensive movement preventing opponent's 3-point guard passes
+- [[Hip Escape to Guard]] (Transition) - Fundamental defensive movement preventing opponent's 3-point guard passes
 - [[Bridge and Roll]] (Transition) - Mount escape preventing opponent's 4-point position retention
 - [[Positional Hierarchy]] (Principle) - Foundational principle underlying IBJJF point value assignments and strategic positioning
 - [[Position-Over-Submission Approach]] (Principle) - Core tactical principle for IBJJF competition where position secures points before submission attempts

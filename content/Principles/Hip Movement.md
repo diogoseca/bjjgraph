@@ -376,7 +376,7 @@ Systematic observation of high-level competitors demonstrating hip movement in v
 - [[Escape Fundamentals]] (Principle) - Broader defensive framework within which hip movement serves as primary mechanical component
 - [[Hip Elevation]] (Principle) - Specific hip movement pattern emphasizing vertical displacement for various technical purposes
 - [[Guard Retention]] (Principle) - Advanced defensive system built upon continuous hip movement and adjustment principles
-- [[Elbow Escape]] (Transition) - Classic escape technique demonstrating coordinated hip movement with framing and recovery sequence
+- [[Elbow Escape to Guard]] (Transition) - Classic escape technique demonstrating coordinated hip movement with framing and recovery sequence
 - [[Upa Escape]] (Transition) - Explosive bridging-based escape exemplifying hip elevation and rotation mechanics under pressure
 - [[Mount]] (Position) - Primary bottom position where hip movement quality determines escape success and defensive capability
 

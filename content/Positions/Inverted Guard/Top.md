@@ -21,37 +21,37 @@ description: "Master inverted guard from top perspective. Strategic passing appr
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 8% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass",
-      "text": "From this position, attempt Stack Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 6% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Pressure Pass",
-      "text": "From this position, attempt Pressure Pass. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Pressure Pass. This technique is attempted in 7% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Weave Pass",
-      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 4% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Headquarters Pass",
-      "text": "From this position, attempt Headquarters Pass. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Headquarters Pass. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -205,21 +205,29 @@ From the top perspective, facing an opponent in Inverted Guard requires strategi
 
 ## Available Attacks
 
-### [[Smash Pass]] (13% of attempts)
+### [[Smash Pass]] (8% of attempts)
 
-### [[Stack Pass]] (12% of attempts)
+### [[Stack Pass]] (6% of attempts)
 
-### [[Pressure Pass]] (13% of attempts)
+### [[Pressure Pass]] (7% of attempts)
 
-### [[Leg Weave Pass]] (12% of attempts)
+### [[Leg Weave Pass]] (4% of attempts)
 
-### [[Knee Slice Pass]] (13% of attempts)
+### [[Knee Slice Pass]] (6% of attempts)
 
-### [[Headquarters Pass]] (14% of attempts)
-
-### [[Knee on Belly]] (12% of attempts)
+### [[Headquarters Pass]] (8% of attempts)
 
 ### [[Toreando Pass]] (11% of attempts)
+
+### [[Back Step Pass]] (29% of attempts)
+
+### [[Leg Drag Pass]] (10% of attempts)
+
+### [[Stack Pass from Inversion]] (8% of attempts)
+
+### [[Stack from Inverted]] (2% of attempts)
+
+### [[Toreando from Inverted]] (1% of attempts)
 
 
 

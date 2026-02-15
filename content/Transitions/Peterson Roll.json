@@ -1,6 +1,6 @@
 {
   "name": "Peterson Roll",
-  "description": "Master the Peterson Roll escape from turtle in BJJ. Step-by-step execution for reversing position. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "description": "Master the Peterson Roll escape from turtle in BJJ. Step-by-step execution for reversing position and achieving top control with expert technique.",
   "tags": [
     "bjj",
     "transition",
@@ -13,150 +13,365 @@
   "from_position": "Turtle/Bottom",
   "outcomes": [
     {
-      "to": "Side Control",
+      "to": "Side Control/Top",
       "probability": 55,
       "result": "success"
     },
     {
-      "to": "Half Guard",
+      "to": "Half Guard/Top",
       "probability": 15,
       "result": "success"
     },
     {
-      "to": "Turtle",
+      "to": "Turtle/Bottom",
       "probability": 20,
       "result": "failure"
     },
     {
-      "to": "Back Control",
+      "to": "Back Control/Bottom",
       "probability": 10,
       "result": "counter"
     }
   ],
+  "success_rate": 58,
   "overview": "The Peterson Roll is a fundamental wrestling-based reversal adapted for BJJ that allows the bottom turtle player to reverse position and come out on top. Named after wrestler John Peterson, this technique exploits the opponent's weight commitment when they drive into you from behind. The roll uses the opponent's forward pressure against them, channeling their momentum into a rolling reversal that lands you in a dominant top position, typically side control or half guard top. The Peterson Roll is particularly effective against opponents who over-commit their weight forward while attempting to break down your turtle or establish back control. Unlike the granby roll which aims primarily for guard recovery, the Peterson Roll is an offensive reversal that puts you directly into a scoring position. The technique requires precise timing, proper arm positioning to capture the opponent's attacking limb, and explosive hip movement to generate the rotation needed to complete the roll. It forms an essential part of any complete turtle defense system, giving you a legitimate threatening option that forces opponents to respect your ability to reverse position rather than simply attacking freely.",
-  "key_principles": [
-    "Capture opponent's attacking arm at the wrist before initiating the roll to prevent them from posting and stopping your momentum",
-    "Timing is critical - execute when opponent drives forward and commits weight over your hips, using their pressure as fuel for the reversal",
-    "Hip positioning determines success - shoot your near hip through the space under your body while maintaining arm control throughout the rotation",
-    "Keep your head tight to your shoulder on the rolling side to protect your neck and maintain a compact rolling shape",
-    "Drive through the roll explosively rather than slowly rolling - half-committed attempts result in getting stuck mid-roll or losing position",
-    "Maintain tight elbow connection to your knee until the moment of execution to prevent opponent from establishing underhooks"
-  ],
-  "setup_requirements": [
-    "Opponent positioned behind you in turtle attacking position with forward weight pressure",
-    "Opponent's attacking arm within reach for wrist capture (typically reaching for underhook or harness)",
-    "Sufficient space to execute the rolling motion without hitting walls or other training partners",
-    "Your near arm free to reach back and capture opponent's wrist while maintaining base",
-    "Defensive turtle posture established with chin tucked and elbows tight before transitioning to attack"
-  ],
-  "execution_steps": [
+  "related_content": [
     {
-      "step_number": 1,
-      "action": "Identify attacking arm",
-      "description": "From defensive turtle position, recognize when opponent reaches for underhook or harness control with their near arm. This reaching motion creates the opening you need for the reversal."
+      "name": "Turtle",
+      "relationship": "Starting position"
     },
     {
-      "step_number": 2,
-      "action": "Capture the wrist",
-      "description": "Reach back with your near arm and grip opponent's attacking wrist firmly, pulling it tight to your hip. Maintain this grip throughout the entire roll - losing the wrist allows them to post and stop your reversal."
+      "name": "Side Control",
+      "relationship": "Primary outcome position after successful roll"
     },
     {
-      "step_number": 3,
-      "action": "Create posting arm",
-      "description": "Post your far arm firmly on the mat in front of you, creating a pivot point for the roll. Your posting hand should be positioned slightly forward and to the side, establishing the axis around which you will rotate."
+      "name": "Half Guard",
+      "relationship": "Alternative outcome position"
     },
     {
-      "step_number": 4,
-      "action": "Shoot hip through",
-      "description": "Explosively drive your near hip underneath your body and through to the far side, initiating the rolling motion. Your hips lead the technique while your trapped arm pulls opponent over with you. Think of threading your hip through a small gap."
+      "name": "Granby Roll to Guard",
+      "relationship": "Alternative turtle escape technique"
     },
     {
-      "step_number": 5,
-      "action": "Complete the rotation",
-      "description": "Continue the rolling momentum as you invert and come over the top of opponent. Keep the captured wrist tight to your body throughout, preventing opponent from extracting their arm or posting to stop the roll."
+      "name": "Back Control",
+      "relationship": "Position opponent threatens if roll fails"
     },
     {
-      "step_number": 6,
-      "action": "Establish top position",
-      "description": "As the roll completes, immediately establish chest-to-chest pressure in side control or secure half guard top position. Release the wrist grip and transition to standard top control grips (crossface, underhook) to consolidate the reversal."
+      "name": "Sit Through to Guard",
+      "relationship": "Chain option when Peterson is defended"
+    },
+    {
+      "name": "Rolling to Guard",
+      "relationship": "Related rolling escape concept"
+    },
+    {
+      "name": "Deep Half Entry",
+      "relationship": "Alternative turtle escape to leg entanglement"
+    },
+    {
+      "name": "Front Headlock",
+      "relationship": "Position opponent may transition to from turtle top"
     }
   ],
-  "common_counters": [
-    {
-      "counter": "Opponent posts with free hand to stop rolling momentum before you complete the rotation",
-      "effectiveness": "High",
-      "your_response": "Switch to granby roll in the opposite direction or immediately attempt technical standup while opponent is off-balance from defending"
-    },
-    {
-      "counter": "Opponent sprawls hips back and removes forward pressure, eliminating the momentum needed for the roll",
-      "effectiveness": "High",
-      "your_response": "If opponent removes pressure, immediately transition to technical standup or sit-through since their weight is no longer pinning you"
-    },
-    {
-      "counter": "Opponent circles toward your back as you initiate, maintaining back position despite the roll attempt",
-      "effectiveness": "Medium",
-      "your_response": "Chain immediately into a second roll in the same direction or hip escape to create separation for guard recovery"
-    },
-    {
-      "counter": "Opponent maintains tight seatbelt control and follows the roll, ending up in mounted back control",
-      "effectiveness": "Medium",
-      "your_response": "If opponent follows, continue rolling momentum and use the inertia to create a scramble rather than settling into bottom position"
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Attempting the roll without first capturing opponent's attacking wrist",
-      "consequence": "Opponent posts their free arm and completely stops your roll, often ending up in worse position with back exposed",
-      "correction": "Always secure wrist control before initiating any hip movement - the arm trap is the essential setup that makes the technique work"
-    },
-    {
-      "error": "Rolling too slowly or without explosive hip drive",
-      "consequence": "Getting stuck midway through the roll in an inverted position where opponent can establish back control or mount",
-      "correction": "Commit fully to the roll with explosive hip movement - once you start, drive through aggressively without hesitation"
-    },
-    {
-      "error": "Attempting Peterson Roll when opponent's weight is back rather than forward",
-      "consequence": "Roll fails because there's no momentum to channel, and you expend energy without improving position",
-      "correction": "Only execute when you feel opponent driving into you with forward pressure - if they're sitting back, use technical standup or sit-through instead"
-    },
-    {
-      "error": "Losing grip on captured wrist during the rolling motion",
-      "consequence": "Opponent extracts their arm and posts, stopping your roll and often immediately taking your back",
-      "correction": "Grip the wrist firmly and pull it tight against your hip throughout the entire rotation - treat it as non-negotiable"
-    },
-    {
-      "error": "Not tucking chin and exposing neck during the roll",
-      "consequence": "Vulnerable to guillotine or front headlock attacks as your neck becomes exposed during the rotation",
-      "correction": "Keep chin tucked tight to shoulder throughout the roll, presenting your back rather than your throat"
-    },
-    {
-      "error": "Failing to consolidate top position immediately after completing the roll",
-      "consequence": "Opponent recovers guard or creates scramble, wasting the successful reversal",
-      "correction": "Immediately establish heavy chest pressure and standard side control grips as soon as roll completes"
-    }
-  ],
-  "training_progressions": [
-    {
-      "phase": "Week 1-2",
-      "focus": "Mechanics and hip movement",
-      "description": "Drill the rolling motion without partner resistance, focusing on hip threading mechanics and maintaining compact body position. Practice wrist capture timing with compliant partner who allows the grip. Execute 20-30 repetitions per session on each side."
-    },
-    {
-      "phase": "Week 3-4",
-      "focus": "Timing and pressure recognition",
-      "description": "Partner applies forward pressure from turtle top position. Practice recognizing the correct moment to initiate based on weight commitment. Partner provides light resistance but allows technique completion. Focus on reading pressure and explosive initiation."
-    },
-    {
-      "phase": "Week 5-6",
-      "focus": "Chaining and combinations",
-      "description": "Combine Peterson Roll with other turtle escapes: if roll is defended, chain to granby roll, technical standup, or sit-through. Practice flowing between options based on opponent's defensive reactions. Partner increases resistance and begins defending actively."
-    },
-    {
-      "phase": "Week 7+",
-      "focus": "Live application and troubleshooting",
-      "description": "Apply Peterson Roll in positional sparring starting from turtle. Identify personal timing preferences and failure points. Adjust technique based on different opponent body types and defensive styles. Full resistance with realistic competition timing."
-    }
-  ],
+  "attacker": {
+    "name": "Peterson Roll Attacker",
+    "description": "How to execute Peterson Roll in BJJ. Attacking perspective with setup, execution steps, and counters.",
+    "overview": "The Peterson Roll is a fundamental wrestling-based reversal adapted for BJJ that allows the bottom turtle player to reverse position and come out on top. Named after wrestler John Peterson, this technique exploits the opponent's weight commitment when they drive into you from behind. The roll uses the opponent's forward pressure against them, channeling their momentum into a rolling reversal that lands you in a dominant top position, typically side control or half guard top. The Peterson Roll is particularly effective against opponents who over-commit their weight forward while attempting to break down your turtle or establish back control. Unlike the granby roll which aims primarily for guard recovery, the Peterson Roll is an offensive reversal that puts you directly into a scoring position. The technique requires precise timing, proper arm positioning to capture the opponent's attacking limb, and explosive hip movement to generate the rotation needed to complete the roll. It forms an essential part of any complete turtle defense system, giving you a legitimate threatening option that forces opponents to respect your ability to reverse position rather than simply attacking freely.",
+    "key_principles": [
+      "Capture opponent's attacking arm at the wrist before initiating the roll to prevent them from posting and stopping your momentum",
+      "Timing is critical - execute when opponent drives forward and commits weight over your hips, using their pressure as fuel for the reversal",
+      "Hip positioning determines success - shoot your near hip through the space under your body while maintaining arm control throughout the rotation",
+      "Keep your head tight to your shoulder on the rolling side to protect your neck and maintain a compact rolling shape",
+      "Drive through the roll explosively rather than slowly rolling - half-committed attempts result in getting stuck mid-roll or losing position",
+      "Maintain tight elbow connection to your knee until the moment of execution to prevent opponent from establishing underhooks"
+    ],
+    "setup_requirements": [
+      "Opponent positioned behind you in turtle attacking position with forward weight pressure",
+      "Opponent's attacking arm within reach for wrist capture (typically reaching for underhook or harness)",
+      "Sufficient space to execute the rolling motion without hitting walls or other training partners",
+      "Your near arm free to reach back and capture opponent's wrist while maintaining base",
+      "Defensive turtle posture established with chin tucked and elbows tight before transitioning to attack"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Identify attacking arm",
+        "description": "From defensive turtle position, recognize when opponent reaches for underhook or harness control with their near arm. This reaching motion creates the opening you need for the reversal."
+      },
+      {
+        "step_number": 2,
+        "action": "Capture the wrist",
+        "description": "Reach back with your near arm and grip opponent's attacking wrist firmly, pulling it tight to your hip. Maintain this grip throughout the entire roll - losing the wrist allows them to post and stop your reversal."
+      },
+      {
+        "step_number": 3,
+        "action": "Create posting arm",
+        "description": "Post your far arm firmly on the mat in front of you, creating a pivot point for the roll. Your posting hand should be positioned slightly forward and to the side, establishing the axis around which you will rotate."
+      },
+      {
+        "step_number": 4,
+        "action": "Shoot hip through",
+        "description": "Explosively drive your near hip underneath your body and through to the far side, initiating the rolling motion. Your hips lead the technique while your trapped arm pulls opponent over with you. Think of threading your hip through a small gap."
+      },
+      {
+        "step_number": 5,
+        "action": "Complete the rotation",
+        "description": "Continue the rolling momentum as you invert and come over the top of opponent. Keep the captured wrist tight to your body throughout, preventing opponent from extracting their arm or posting to stop the roll."
+      },
+      {
+        "step_number": 6,
+        "action": "Establish top position",
+        "description": "As the roll completes, immediately establish chest-to-chest pressure in side control or secure half guard top position. Release the wrist grip and transition to standard top control grips (crossface, underhook) to consolidate the reversal."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent posts with free hand to stop rolling momentum before you complete the rotation",
+        "effectiveness": "High",
+        "your_response": "Switch to granby roll in the opposite direction or immediately attempt technical standup while opponent is off-balance from defending",
+        "targets_outcome": "Turtle/Bottom"
+      },
+      {
+        "counter": "Opponent sprawls hips back and removes forward pressure, eliminating the momentum needed for the roll",
+        "effectiveness": "High",
+        "your_response": "If opponent removes pressure, immediately transition to technical standup or sit-through since their weight is no longer pinning you",
+        "targets_outcome": "Turtle/Bottom"
+      },
+      {
+        "counter": "Opponent circles toward your back as you initiate, maintaining back position despite the roll attempt",
+        "effectiveness": "Medium",
+        "your_response": "Chain immediately into a second roll in the same direction or hip escape to create separation for guard recovery",
+        "targets_outcome": "Back Control/Bottom"
+      },
+      {
+        "counter": "Opponent maintains tight seatbelt control and follows the roll, ending up in mounted back control",
+        "effectiveness": "Medium",
+        "your_response": "If opponent follows, continue rolling momentum and use the inertia to create a scramble rather than settling into bottom position",
+        "targets_outcome": "Back Control/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting the roll without first capturing opponent's attacking wrist",
+        "consequence": "Opponent posts their free arm and completely stops your roll, often ending up in worse position with back exposed",
+        "correction": "Always secure wrist control before initiating any hip movement - the arm trap is the essential setup that makes the technique work"
+      },
+      {
+        "error": "Rolling too slowly or without explosive hip drive",
+        "consequence": "Getting stuck midway through the roll in an inverted position where opponent can establish back control or mount",
+        "correction": "Commit fully to the roll with explosive hip movement - once you start, drive through aggressively without hesitation"
+      },
+      {
+        "error": "Attempting Peterson Roll when opponent's weight is back rather than forward",
+        "consequence": "Roll fails because there's no momentum to channel, and you expend energy without improving position",
+        "correction": "Only execute when you feel opponent driving into you with forward pressure - if they're sitting back, use technical standup or sit-through instead"
+      },
+      {
+        "error": "Losing grip on captured wrist during the rolling motion",
+        "consequence": "Opponent extracts their arm and posts, stopping your roll and often immediately taking your back",
+        "correction": "Grip the wrist firmly and pull it tight against your hip throughout the entire rotation - treat it as non-negotiable"
+      },
+      {
+        "error": "Not tucking chin and exposing neck during the roll",
+        "consequence": "Vulnerable to guillotine or front headlock attacks as your neck becomes exposed during the rotation",
+        "correction": "Keep chin tucked tight to shoulder throughout the roll, presenting your back rather than your throat"
+      },
+      {
+        "error": "Failing to consolidate top position immediately after completing the roll",
+        "consequence": "Opponent recovers guard or creates scramble, wasting the successful reversal",
+        "correction": "Immediately establish heavy chest pressure and standard side control grips as soon as roll completes"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Mechanics and hip movement",
+        "description": "Drill the rolling motion without partner resistance, focusing on hip threading mechanics and maintaining compact body position. Practice wrist capture timing with compliant partner who allows the grip. Execute 20-30 repetitions per session on each side."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Timing and pressure recognition",
+        "description": "Partner applies forward pressure from turtle top position. Practice recognizing the correct moment to initiate based on weight commitment. Partner provides light resistance but allows technique completion. Focus on reading pressure and explosive initiation."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Chaining and combinations",
+        "description": "Combine Peterson Roll with other turtle escapes: if roll is defended, chain to granby roll, technical standup, or sit-through. Practice flowing between options based on opponent's defensive reactions. Partner increases resistance and begins defending actively."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live application and troubleshooting",
+        "description": "Apply Peterson Roll in positional sparring starting from turtle. Identify personal timing preferences and failure points. Adjust technique based on different opponent body types and defensive styles. Full resistance with realistic competition timing."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary goal of the Peterson Roll?",
+        "answer": "The primary goal of the Peterson Roll is to reverse position from turtle bottom to a dominant top position (typically side control or half guard top) by using the opponent's forward weight commitment against them. Unlike guard recovery techniques, the Peterson Roll is an offensive reversal that scores points and puts you in an attacking position."
+      },
+      {
+        "question": "What are the key grips needed for Peterson Roll?",
+        "answer": "The essential grip is capturing opponent's attacking wrist (the arm reaching for underhook or harness) with your near-side hand. This wrist control must be maintained throughout the entire rolling motion to prevent opponent from posting and stopping your reversal. The grip should pull their wrist tight to your hip."
+      },
+      {
+        "question": "When is the optimal timing window to attempt the Peterson Roll?",
+        "answer": "The optimal timing is when opponent commits their weight forward while reaching for an underhook or harness grip. This forward pressure provides the momentum necessary for the roll. If opponent is sitting back or has heavy hip-to-hip contact without driving forward, the Peterson Roll will fail - choose technical standup or sit-through instead."
+      },
+      {
+        "question": "Your opponent posts their free hand as you initiate the Peterson Roll - what should you do?",
+        "answer": "If opponent successfully posts to stop your roll, immediately chain to an alternative escape. Switch to a granby roll in the opposite direction using their posting commitment against them, or if they've lifted their weight to post, explode into a technical standup. Never continue fighting for a Peterson Roll that has been defended - flow to the next option in your escape chain."
+      },
+      {
+        "question": "What is the critical hip movement that makes the Peterson Roll work?",
+        "answer": "The critical movement is explosively threading your near-side hip underneath your body and through to the far side. Your hip leads the technique while your trapped arm pulls the opponent over with you. Think of shooting your hip through a small gap between your body and the mat. This hip drive creates the rotational momentum that carries both you and your opponent through the roll."
+      },
+      {
+        "question": "How does the Peterson Roll differ from the Granby Roll in purpose and execution?",
+        "answer": "The Granby Roll aims for guard recovery by rolling away from the opponent and creating separation, typically landing in closed or open guard. The Peterson Roll is an offensive reversal that brings you to top position by rolling with the opponent trapped. The Peterson requires capturing opponent's arm and uses their forward pressure, while the Granby uses explosive shoulder roll mechanics to create distance. Peterson scores points; Granby escapes to neutral."
+      },
+      {
+        "question": "Your opponent has seatbelt control and is driving forward - should you attempt Peterson Roll or a different escape?",
+        "answer": "With seatbelt control established, the Peterson Roll becomes riskier because opponent can follow the roll and end up in back mount. Better options include hand fighting to break the seatbelt grip first, or executing a sit-through to the choking arm side. Only attempt Peterson Roll against seatbelt control if you can isolate and trap their arm during the capture phase, converting their control grip into your reversal grip."
+      },
+      {
+        "question": "What adjustments should you make to the Peterson Roll in no-gi situations?",
+        "answer": "In no-gi, wrist grips are less secure due to sweat. Use a two-on-one grip for additional control security, or trap opponent's arm in the crook of your elbow rather than relying on wrist grip alone. You can also use an overhook on their arm to secure the trap. Execute with even more explosive commitment since any slippage in grip will cause the technique to fail."
+      },
+      {
+        "question": "What direction of force must your hips generate during the Peterson Roll?",
+        "answer": "Your hips must generate force in a diagonal downward-and-through direction, threading your near hip underneath your torso toward the far side. The force direction is not purely lateral or purely forward - it is a combined motion that uses the ground as a surface to slide against while pulling the opponent's trapped arm across your center line. The hip drives perpendicular to the opponent's pressure vector, redirecting their forward energy into rotational momentum."
+      },
+      {
+        "question": "You attempt the Peterson Roll but get stuck halfway through the rotation - what went wrong and how do you recover?",
+        "answer": "Getting stuck mid-roll typically results from insufficient explosive commitment, attempting without adequate forward pressure from the opponent, or losing wrist control during rotation. To recover, do not try to complete the stalled roll. Instead, immediately abandon the attempt and use the inverted position to either granby roll the rest of the way through to guard recovery, or post and scramble back to turtle. Staying stuck mid-roll exposes your back and neck to attacks."
+      }
+    ],
+    "safety_considerations": "The Peterson Roll is generally a low-risk technique, but practitioners should be aware of several safety factors. During the rolling motion, protect your neck by keeping chin tucked tight to your shoulder - exposing the neck during rotation can allow guillotine or front headlock attacks. Practice the rolling mechanics slowly before adding speed to ensure you're not landing on your head or neck. When drilling with a partner, ensure they know to release grips if you get stuck mid-roll to prevent shoulder strain. Be cautious executing this technique near walls or other training pairs, as the roll requires space. If you have existing shoulder or neck injuries, modify training intensity and avoid this technique until cleared, as the rotation places stress on these areas."
+  },
+  "defender": {
+    "name": "Peterson Roll Defender",
+    "description": "How to defend against Peterson Roll in BJJ. Recognition cues, defensive options, and strategies for maintaining turtle top control.",
+    "overview": "Defending the Peterson Roll requires the turtle top player to recognize the early signs of the reversal attempt and respond with precise timing and proper weight management. The Peterson Roll exploits forward weight commitment, so the defender's primary task is managing their pressure distribution to avoid over-committing while maintaining attacking initiative from turtle top. The most dangerous moment is when the bottom player captures your wrist and begins threading their hip underneath - once the roll gains momentum, stopping it becomes extremely difficult. Effective defense therefore focuses on prevention through grip denial and pressure management, with secondary emphasis on following the roll to maintain back control if prevention fails. Understanding the Peterson Roll's mechanics from the defender's perspective transforms what could be a devastating reversal into a predictable, manageable threat that you can bait, counter, and punish to advance your own position.",
+    "key_principles": [
+      "Keep your attacking arms protected and difficult to capture - never extend a single arm without your other hand providing a secondary post or control point",
+      "Manage forward pressure carefully by distributing weight through your chest rather than driving straight forward, which provides the momentum the bottom player needs",
+      "Maintain hips low and behind your center of gravity so you can sprawl instantly when you feel the roll initiate rather than being carried over",
+      "Always have a posting hand available on the mat - if one arm is committed to an attack, the other must be free to post and stop any rolling attempt",
+      "Recognize the wrist capture as the critical trigger and immediately strip the grip or withdraw the arm before the bottom player can connect it to hip movement"
+    ],
+    "recognition_cues": [
+      "Bottom player reaches back with near arm to grab your wrist or sleeve instead of maintaining their standard defensive turtle posture with elbows tight to knees",
+      "You feel the bottom player's hips begin to shift and load toward one side, indicating they are preparing to thread their hip underneath for the rolling motion",
+      "Bottom player suddenly stops defending and becomes still or baits you to reach deeper for an underhook, deliberately creating the reaching arm they need to capture",
+      "The bottom player's weight shifts to their posting arm side while their near-side hip drops lower, creating the gap they need to initiate the roll"
+    ],
+    "defensive_options": [
+      {
+        "action": "Post free hand firmly on the mat and sprawl hips back the instant you feel wrist capture or hip loading",
+        "when_to_use": "As soon as you recognize wrist capture or the initial hip shift - this is the highest percentage defense and must be executed immediately",
+        "targets_outcome": "Turtle/Bottom",
+        "if_successful": "Bottom player's roll is completely stopped, they remain in turtle, and you maintain top position with the option to re-engage your attacks",
+        "risk": "If you sprawl too early before they commit, the bottom player may use the space created by your hip retreat to execute a technical standup instead"
+      },
+      {
+        "action": "Strip their grip on your wrist by pulling your arm sharply toward your own hip while circling your hand to break their fingers' purchase",
+        "when_to_use": "When you feel the wrist capture but before they connect it to hip movement - the window is small but this prevents the roll from starting entirely",
+        "targets_outcome": "Turtle/Bottom",
+        "if_successful": "The bottom player loses the essential grip that makes the Peterson Roll possible, leaving them in turtle with a failed escape attempt and exposed position",
+        "risk": "Fighting for the grip can delay your own attacks and if the strip fails, you've wasted time that could have been spent posting or sprawling"
+      },
+      {
+        "action": "Circle toward the opponent's back as they initiate, maintaining chest connection and following their rotation to secure or improve back control",
+        "when_to_use": "When the roll has already begun and posting will not stop it - following the roll allows you to end up in back control rather than being reversed",
+        "targets_outcome": "Back Control/Bottom",
+        "if_successful": "You follow the bottom player through the roll and end up with hooks in or seatbelt secured in back control, converting their escape attempt into your advancement",
+        "risk": "If you misjudge the timing or lose chest-to-back connection during the roll, you may end up underneath them in an inferior position"
+      },
+      {
+        "action": "Drive heavy shoulder pressure forward and lock a tight seatbelt before they can capture your wrist, making the arm trap impossible",
+        "when_to_use": "Proactively when you sense the bottom player setting up rather than defending - particularly effective against opponents who habitually attempt Peterson Rolls",
+        "targets_outcome": "Turtle/Bottom",
+        "if_successful": "Your seatbelt control removes the free arm they need to capture, and the heavy pressure pins them in turtle where you can work toward back control or submissions",
+        "risk": "Over-committing forward pressure is exactly what the Peterson Roll exploits - if they capture your arm before the seatbelt is locked, your pressure fuels their reversal"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Turtle/Bottom",
+        "how": "Post and sprawl immediately upon recognizing the wrist capture or strip their grip before they can connect it to hip movement. Maintain balanced weight distribution without over-committing forward, denying them the momentum they need. Once the attempt fails, immediately re-engage your turtle attacks before they can reset their defense."
+      },
+      {
+        "outcome": "Back Control/Bottom",
+        "how": "If the roll has already initiated and cannot be stopped, follow the bottom player's rotation by maintaining tight chest-to-back connection and threading your hooks as you both roll. Keep your seatbelt grip tight throughout the rotation and use the rolling momentum to end up in full back control with both hooks inserted. This converts their escape attempt into your positional advancement."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Over-committing weight forward by driving straight into the turtled opponent with heavy chest pressure",
+        "consequence": "Provides exactly the forward momentum the Peterson Roll needs to succeed, making the reversal easier and more explosive",
+        "correction": "Distribute weight through your chest at an angle rather than driving straight forward. Keep hips back and low so you can sprawl instantly, and use shoulder pressure rather than full body drives."
+      },
+      {
+        "error": "Reaching deep for underhooks or harness with a single arm while the other arm is not posted or controlling",
+        "consequence": "The reaching arm becomes the captured arm for the Peterson Roll, and without a posting hand you cannot stop the rolling momentum",
+        "correction": "Always maintain one hand available for posting when the other arm is committed to an attack. Use sequential grips rather than diving both arms in simultaneously."
+      },
+      {
+        "error": "Freezing or panicking when you feel the roll begin instead of immediately executing a trained defensive response",
+        "consequence": "The roll gains full momentum and you get reversed to bottom position, losing your dominant turtle top control entirely",
+        "correction": "Drill the sprawl-and-post response until it becomes automatic. When you feel any hip shift or wrist capture, your body should sprawl before your conscious mind has finished processing the situation."
+      },
+      {
+        "error": "Attempting to push or stiff-arm the bottom player down during the roll instead of posting on the mat or following the roll",
+        "consequence": "Pushing down on a rolling opponent does not stop the rotation and often extends your arm into an even more vulnerable position that gets trapped",
+        "correction": "Post on the mat for base rather than pushing on the opponent. The mat is a stable surface that gives you structural support; the opponent is a moving target that provides none."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that a Peterson Roll is being attempted?",
+        "answer": "The earliest cue is when the bottom player reaches back with their near arm to capture your wrist or sleeve instead of maintaining their standard defensive turtle posture with elbows tight to knees. This reaching motion indicates they are initiating the arm trap that is essential for the Peterson Roll. Recognizing this immediately allows you to either withdraw the targeted arm or post your free hand before the roll can develop."
+      },
+      {
+        "question": "Why is over-committing forward pressure the most common mistake when defending the Peterson Roll?",
+        "answer": "The Peterson Roll specifically exploits forward weight commitment by channeling that momentum into rotational force for the reversal. When you drive straight forward into a turtled opponent, you provide exactly the energy they need to fuel the roll. The more you push forward, the easier the roll becomes. Instead, distribute weight at an angle through shoulder pressure while keeping hips back and low, maintaining the ability to sprawl instantly without providing rollable momentum."
+      },
+      {
+        "question": "Your opponent captures your wrist and you feel their hip begin to load - is it too late to defend?",
+        "answer": "Not if you respond immediately. The critical window between wrist capture and full roll initiation is approximately one to two seconds. In that window, you can either strip the grip by sharply pulling your arm toward your own hip while circling your hand, or sprawl your hips back forcefully while posting your free hand on the mat. If you feel full rotational momentum already carrying you, switch to the follow strategy - maintain chest-to-back connection and follow the roll to secure back control rather than fighting the physics."
+      },
+      {
+        "question": "How should you modify your turtle top attacks to minimize Peterson Roll vulnerability?",
+        "answer": "Never extend a single arm for underhook or harness without maintaining a secondary post or control point with your other hand. Use sequential grips rather than diving both arms in simultaneously. Approach the seatbelt by first establishing one control point securely, then adding the second while the first provides your base. When attacking from turtle top against a Peterson Roll-aware opponent, consider using front headlock entries that control the head rather than reaching behind for harness, reducing the arm exposure that the Peterson Roll requires."
+      },
+      {
+        "question": "When is following the Peterson Roll to maintain back control a better option than trying to stop it?",
+        "answer": "Following the roll is the better option when the roll has already developed significant rotational momentum that posting alone cannot stop, typically when your wrist has been captured and the bottom player's hip has already threaded underneath. At this point, fighting the roll wastes energy and usually fails. By maintaining tight chest-to-back connection, keeping your seatbelt grip, and threading your hooks during the rotation, you can convert their reversal attempt into your advancement to full back control with hooks."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Recognition and sprawl response",
+        "description": "Partner executes Peterson Roll at slow speed from turtle bottom. Focus on recognizing the wrist capture and hip loading cues, then drilling the sprawl-and-post response until it becomes automatic. Execute 20-30 repetitions per session, gradually increasing partner's speed while maintaining clean defensive reactions."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Grip stripping and arm management",
+        "description": "Partner attempts wrist captures at moderate speed. Practice stripping grips using hand circling and arm withdrawal techniques. Develop the habit of maintaining one posting hand at all times when attacking from turtle top. Partner provides feedback on which arm management strategies work best."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Follow-the-roll back control recovery",
+        "description": "Partner executes full Peterson Rolls while you practice following the roll and maintaining back control through the rotation. Focus on keeping chest-to-back connection, threading hooks during movement, and ending in dominant back control. Alternate between stopping rolls early and following committed rolls."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live positional sparring integration",
+        "description": "Full resistance positional sparring from turtle top where partner actively attempts Peterson Rolls among other escapes. Practice reading which escape is being attempted and selecting the appropriate defensive response in real-time. Develop the ability to bait failed Peterson Roll attempts to advance your own position."
+      }
+    ]
+  },
   "variants_and_adaptations": [
     {
       "variant_name": "Switch Peterson Roll",
@@ -174,87 +389,11 @@
       "when_to_use": "No-gi situations where wrist grips are less secure due to sweat"
     }
   ],
-  "knowledge_assessment": [
-    {
-      "question": "What is the primary goal of the Peterson Roll?",
-      "answer": "The primary goal of the Peterson Roll is to reverse position from turtle bottom to a dominant top position (typically side control or half guard top) by using the opponent's forward weight commitment against them. Unlike guard recovery techniques, the Peterson Roll is an offensive reversal that scores points and puts you in an attacking position."
-    },
-    {
-      "question": "What position do you start Peterson Roll from?",
-      "answer": "The Peterson Roll is executed from turtle bottom position when an opponent is behind you attempting to break down your turtle or establish back control. You must be on hands and knees with the opponent driving forward pressure into your back."
-    },
-    {
-      "question": "What are the key grips needed for Peterson Roll?",
-      "answer": "The essential grip is capturing opponent's attacking wrist (the arm reaching for underhook or harness) with your near-side hand. This wrist control must be maintained throughout the entire rolling motion to prevent opponent from posting and stopping your reversal. The grip should pull their wrist tight to your hip."
-    },
-    {
-      "question": "How do you counter the Peterson Roll when you're on top?",
-      "answer": "The most effective counter is to post your free hand when you feel the roll initiating, sprawling your hips back to remove forward pressure. If you maintain tight seatbelt control and follow the roll, you can end up in back mount. Another counter is circling toward their back as they initiate to maintain dominant position throughout their movement."
-    },
-    {
-      "question": "When is the best time to attempt Peterson Roll?",
-      "answer": "The optimal timing is when opponent commits their weight forward while reaching for an underhook or harness grip. This forward pressure provides the momentum necessary for the roll. If opponent is sitting back or has heavy hip-to-hip contact without driving forward, the Peterson Roll will fail - choose technical standup or sit-through instead."
-    },
-    {
-      "question": "Your opponent posts their free hand as you initiate the Peterson Roll - what should you do?",
-      "answer": "If opponent successfully posts to stop your roll, immediately chain to an alternative escape. Switch to a granby roll in the opposite direction using their posting commitment against them, or if they've lifted their weight to post, explode into a technical standup. Never continue fighting for a Peterson Roll that has been defended - flow to the next option in your escape chain."
-    },
-    {
-      "question": "What is the critical hip movement that makes the Peterson Roll work?",
-      "answer": "The critical movement is explosively threading your near-side hip underneath your body and through to the far side. Your hip leads the technique while your trapped arm pulls the opponent over with you. Think of shooting your hip through a small gap between your body and the mat. This hip drive creates the rotational momentum that carries both you and your opponent through the roll."
-    },
-    {
-      "question": "How does the Peterson Roll differ from the Granby Roll in purpose and execution?",
-      "answer": "The Granby Roll aims for guard recovery by rolling away from the opponent and creating separation, typically landing in closed or open guard. The Peterson Roll is an offensive reversal that brings you to top position by rolling with the opponent trapped. The Peterson requires capturing opponent's arm and uses their forward pressure, while the Granby uses explosive shoulder roll mechanics to create distance. Peterson scores points; Granby escapes to neutral."
-    },
-    {
-      "question": "Your opponent has seatbelt control and is driving forward - should you attempt Peterson Roll or a different escape?",
-      "answer": "With seatbelt control established, the Peterson Roll becomes riskier because opponent can follow the roll and end up in back mount. Better options include hand fighting to break the seatbelt grip first, or executing a sit-through to the choking arm side. Only attempt Peterson Roll against seatbelt control if you can isolate and trap their arm during the capture phase, converting their control grip into your reversal grip."
-    },
-    {
-      "question": "What adjustments should you make to the Peterson Roll in no-gi situations?",
-      "answer": "In no-gi, wrist grips are less secure due to sweat. Use a two-on-one grip for additional control security, or trap opponent's arm in the crook of your elbow rather than relying on wrist grip alone. You can also use an overhook on their arm to secure the trap. Execute with even more explosive commitment since any slippage in grip will cause the technique to fail."
-    }
+  "conditions": [
+    "Opponent must be driving forward pressure from turtle top position",
+    "Opponent's attacking arm must be within reach for wrist capture",
+    "Bottom player must have at least one free arm to initiate the wrist trap",
+    "Sufficient forward momentum from opponent to fuel the rolling reversal"
   ],
-  "safety_considerations": "The Peterson Roll is generally a low-risk technique, but practitioners should be aware of several safety factors. During the rolling motion, protect your neck by keeping chin tucked tight to your shoulder - exposing the neck during rotation can allow guillotine or front headlock attacks. Practice the rolling mechanics slowly before adding speed to ensure you're not landing on your head or neck. When drilling with a partner, ensure they know to release grips if you get stuck mid-roll to prevent shoulder strain. Be cautious executing this technique near walls or other training pairs, as the roll requires space. If you have existing shoulder or neck injuries, modify training intensity and avoid this technique until cleared, as the rotation places stress on these areas.",
-  "position_integration": "The Peterson Roll occupies a critical role in a complete turtle defense system, providing an offensive reversal option that complements guard recovery techniques like the granby roll and sit-through. While most turtle escapes aim to reach neutral position or recover guard, the Peterson Roll puts you directly into dominant top position, making it tactically valuable for point-scoring situations. The technique chains naturally with other turtle escapes - if the Peterson Roll is defended, you can flow to granby roll, technical standup, or sit-through based on opponent's defensive reaction. Conversely, feinting Peterson Roll can create openings for other escapes as opponent moves to defend. The Peterson Roll also links forward to your top game, as successful execution typically lands you in side control or half guard top where you can continue attacking. For competitors, having Peterson Roll in your arsenal forces opponents to respect your turtle as a potentially offensive position rather than a safe attacking opportunity.",
-  "related_content": [
-    {
-      "name": "Turtle",
-      "relationship": "Starting position"
-    },
-    {
-      "name": "Side Control",
-      "relationship": "Primary outcome position after successful roll"
-    },
-    {
-      "name": "Half Guard",
-      "relationship": "Alternative outcome position"
-    },
-    {
-      "name": "Granby Roll",
-      "relationship": "Alternative turtle escape technique"
-    },
-    {
-      "name": "Technical Standup",
-      "relationship": "Alternative escape option when pressure is removed"
-    },
-    {
-      "name": "Back Control",
-      "relationship": "Position opponent threatens if roll fails"
-    },
-    {
-      "name": "Sit Through to Guard",
-      "relationship": "Chain option when Peterson is defended"
-    },
-    {
-      "name": "Rolling to Guard",
-      "relationship": "Related rolling escape concept"
-    },
-    {
-      "name": "Deep Half Entry",
-      "relationship": "Alternative turtle escape to leg entanglement"
-    }
-  ],
-  "success_rate": 58
+  "position_integration": "The Peterson Roll occupies a critical role in a complete turtle defense system, providing an offensive reversal option that complements guard recovery techniques like the granby roll and sit-through. While most turtle escapes aim to reach neutral position or recover guard, the Peterson Roll puts you directly into dominant top position, making it tactically valuable for point-scoring situations. The technique chains naturally with other turtle escapes - if the Peterson Roll is defended, you can flow to granby roll, technical standup, or sit-through based on opponent's defensive reaction. Conversely, feinting Peterson Roll can create openings for other escapes as opponent moves to defend. The Peterson Roll also links forward to your top game, as successful execution typically lands you in side control or half guard top where you can continue attacking. For competitors, having Peterson Roll in your arsenal forces opponents to respect your turtle as a potentially offensive position rather than a safe attacking opportunity."
 }

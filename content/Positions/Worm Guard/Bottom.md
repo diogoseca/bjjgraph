@@ -21,37 +21,37 @@ description: "Master Worm Guard Bottom in BJJ. Advanced lapel guard system with 
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 30% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata to Back",
-      "text": "From this position, attempt Omoplata to Back. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata to Back. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Lasso Guard Sweeps",
-      "text": "From this position, attempt Lasso Guard Sweeps. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Lapel Elevator Sweep",
+      "text": "From this position, attempt Lapel Elevator Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard Sweep",
-      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute De La Riva Sweep",
-      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,21 +208,27 @@ Worm Guard Bottom is an innovative lapel-based guard system developed by Keenan 
 
 ## Available Escapes
 
-### [[Omoplata Sweep]] (13% of attempts)
+### [[Omoplata Sweep]] (30% of attempts)
 
-### [[Triangle Setup]] (12% of attempts)
+### [[Triangle Setup]] (9% of attempts)
 
-### [[Omoplata to Back]] (12% of attempts)
+### [[Omoplata to Back]] (9% of attempts)
 
-### [[Lasso Guard Sweeps]] (13% of attempts)
+### [[Lapel Elevator Sweep]] (10% of attempts)
 
-### [[X-Guard Sweep]] (14% of attempts)
+### [[X-Guard Sweep]] (11% of attempts)
 
-### [[De La Riva Sweep]] (13% of attempts)
+### [[De La Riva Sweep]] (10% of attempts)
 
-### [[Bolo Sweep]] (11% of attempts)
+### [[Bolo Sweep]] (8% of attempts)
 
-### [[Triangle from Guard]] (12% of attempts)
+### [[Triangle from Guard]] (8% of attempts)
+
+### [[Collar Drag from Worm Guard]] (3% of attempts)
+
+### [[Worm Guard Sweep]] (1% of attempts)
+
+### [[Worm to Squid Guard]] (1% of attempts)
 
 
 
@@ -244,7 +250,7 @@ Worm Guard Bottom is an innovative lapel-based guard system developed by Keenan 
 
 **If opponent drives forward with pressure attempting to smash through guard structure:**
 - Execute **[[De La Riva Sweep]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Lasso Guard Sweeps]]** → [[Side Control]] (Probability: 60%)
+- Execute **[[Lapel Elevator Sweep]]** → [[Side Control]] (Probability: 60%)
 
 
 **If opponent attempts to clear lapel wrap by extracting their trapped leg:**
@@ -341,7 +347,7 @@ Start in neutral open guard. Both partners grip fight—you attempt to establish
 **Q2**: How do you properly feed the lapel to establish the worm guard configuration?
 **A**: Extract sufficient lapel material from the opponent's gi, then feed it deep under their leg from outside to inside, passing under their thigh rather than shallow across the surface. The lapel should travel a complete path under their leg before wrapping around your shin or foot. Shallow feeds create weak control that collapses under pressure. Practice pulling ample lapel material and feeding at proper depth to create tight, secure connection.
 
-**Q3**: Your opponent begins closing distance aggressively - what adjustment do you make to prevent the smash pass?
+**Q3**: Your opponent begins closing distance aggressively to initiate a smash pass - what adjustment do you make?
 **A**: Immediately engage your free leg to create frames against their hip or shoulder, pushing them back to optimal distance. If they continue advancing, extend your legs and use the lapel connection as a lever to off-balance them forward into a sweep opportunity. Never allow them to collapse distance without resistance, as close-range negates worm guard's off-balancing mechanics and enables smash passing sequences.
 
 **Q4**: Why is opposite side sleeve or pant control essential in worm guard?

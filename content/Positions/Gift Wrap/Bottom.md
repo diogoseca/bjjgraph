@@ -21,13 +21,13 @@ description: "Defensive concepts and escape strategies from Gift Wrap bottom pos
     {
       "@type": "HowToStep",
       "name": "Execute Gift Wrap Arm Recovery",
-      "text": "From this position, attempt Gift Wrap Arm Recovery. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Gift Wrap Arm Recovery. This technique is attempted in 20% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
@@ -38,8 +38,8 @@ description: "Defensive concepts and escape strategies from Gift Wrap bottom pos
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Stand Up",
-      "text": "From this position, attempt Technical Stand Up. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Technical Stand-up",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
@@ -50,8 +50,8 @@ description: "Defensive concepts and escape strategies from Gift Wrap bottom pos
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll Escape",
-      "text": "From this position, attempt Granby Roll Escape. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Granby Roll to Guard",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,19 +212,19 @@ From a training perspective, Gift Wrap Bottom should be practiced extensively be
 
 ## Available Escapes
 
-### [[Gift Wrap Arm Recovery]] (17% of attempts)
+### [[Gift Wrap Arm Recovery]] (20% of attempts)
 
-### [[Hip Escape to Guard]] (14% of attempts)
+### [[Hip Escape to Guard]] (17% of attempts)
 
 ### [[Roll to Turtle]] (16% of attempts)
 
-### [[Technical Stand Up]] (12% of attempts)
+### [[Technical Stand-up]] (10% of attempts)
 
 ### [[Counter Roll to Top]] (9% of attempts)
 
-### [[Granby Roll Escape]] (12% of attempts)
+### [[Granby Roll to Guard]] (12% of attempts)
 
-### [[Submission Escape Protocol]] (20% of attempts)
+### [[Shrimp Escape]] (16% of attempts)
 
 
 
@@ -237,7 +237,7 @@ From a training perspective, Gift Wrap Bottom should be practiced extensively be
 **If opponent is actively attacking rear naked choke with choking arm deep:**
 - Execute **[[Two-on-One Hand Defense]]** → [[Gift Wrap]] (Probability: 40%)
 - Execute **[[Chin Tuck and Turn]]** → [[Gift Wrap]] (Probability: 35%)
-- Execute **[[Accept submission]]** → [[game-over]] (Probability: 25%)
+- Execute **[[Accept submission]]** → [[Game Over]] (Probability: 25%)
 
 
 **If opponent is consolidating Gift Wrap control without immediate submission attack:**
@@ -393,9 +393,9 @@ Start each round from Gift Wrap Bottom position. Defender's goal is to escape to
 - **[[Crucifix]]** - Common advancement if Gift Wrap escape fails
 - **[[Turtle]]** - Emergency escape target from Gift Wrap Bottom
 - **[[Half Guard]]** - Positional recovery target via hip escape
-- **[[Back Escape Series]]** - Broader escape system that includes Gift Wrap defense
+- **[[Back Door Escape]]** - Broader escape system that includes Gift Wrap defense
 - **[[RNC Defense]]** - Critical defensive principle while trapped in Gift Wrap
-- **[[Hip Escape]]** - Essential movement for Gift Wrap Bottom escape
+- **[[Shrimp Escape]]** - Essential movement mechanic for Gift Wrap Bottom escape
 
 
 </section>

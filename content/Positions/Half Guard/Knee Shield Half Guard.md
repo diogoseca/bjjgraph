@@ -95,19 +95,31 @@ The knee shield half guard has become essential in modern competitive BJJ, with 
 ### Available Transitions
 
 
-- **[[Old School Sweep]]** (16% of attempts)
+- **[[Old School Sweep]]** (10% of attempts)
 
-- **[[Underhook Sweep from Half]]** (14% of attempts)
+- **[[Underhook Sweep from Half]]** (7% of attempts)
 
-- **[[Deep Half Entry]]** (17% of attempts)
+- **[[Deep Half Entry]]** (9% of attempts)
 
-- **[[Back Take Generic]]** (13% of attempts)
+- **[[Half Guard to Back Take]]** (6% of attempts)
 
-- **[[Single Leg X Entry]]** (14% of attempts)
+- **[[Single Leg X Entry]]** (7% of attempts)
 
-- **[[Lumberjack Sweep]]** (14% of attempts)
+- **[[Lumberjack Sweep]]** (6% of attempts)
 
-- **[[Kimura from Half Guard]]** (12% of attempts)
+- **[[Kimura]]** (5% of attempts)
+
+- **[[Transition to Z-Guard]]** (3% of attempts)
+
+- **[[Knee Shield Retention]]** (40% of attempts)
+
+- **[[Elevator Sweep]]** (5% of attempts)
+
+- **[[Knee Shield Half Guard to Z-Guard]]** (1% of attempts)
+
+- **[[Knee Shield to Closed Guard]]** (0% of attempts)
+
+- **[[Underhook from Knee Shield]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -168,21 +180,27 @@ The knee shield half guard has become essential in modern competitive BJJ, with 
 ### Available Transitions
 
 
-- **[[Knee Slice from Half]]** (12% of attempts)
+- **[[Knee Slice from Half]]** (29% of attempts)
 
-- **[[Smash Pass]]** (13% of attempts)
+- **[[Smash Pass]]** (12% of attempts)
 
-- **[[Long Step Pass]]** (12% of attempts)
+- **[[Long Step Pass]]** (8% of attempts)
 
-- **[[Underhook Pass]]** (11% of attempts)
+- **[[Underhook Pass]]** (7% of attempts)
 
-- **[[Crossface Pass]]** (13% of attempts)
+- **[[Crossface Pass]]** (9% of attempts)
 
-- **[[Leg Weave Pass]]** (12% of attempts)
+- **[[Leg Weave Pass]]** (6% of attempts)
 
-- **[[Side Control to North-South]]** (14% of attempts)
+- **[[Back Step Pass]]** (8% of attempts)
 
-- **[[Knee on Belly]]** (13% of attempts)
+- **[[Transition to Flattened Half Guard]]** (10% of attempts)
+
+- **[[Body Lock Pass]]** (6% of attempts)
+
+- **[[Knee Slice from Knee Shield]]** (3% of attempts)
+
+- **[[Smash from Knee Shield]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -225,8 +243,6 @@ The knee shield half guard has become essential in modern competitive BJJ, with 
 
 - **[[Deep Half Guard]]** - Common transition target when knee shield is compromised
 
-- **[[Z-Guard]]** - Alternative knee shield system with different frame angle
-
 - **[[Lockdown]]** - Alternative half guard control method using leg entanglement
 
 - **[[X-Guard]]** - Transition target when opponent stands to pass
@@ -238,6 +254,8 @@ The knee shield half guard has become essential in modern competitive BJJ, with 
 - **[[Overhook Control]]** - Key grip battle scenario in position
 
 - **[[Dogfight Position]]** - Common scramble when both players establish underhooks
+
+- **[[Flattened Half Guard]]** - Degraded position when knee shield collapses under pressure
 
 
 </section>

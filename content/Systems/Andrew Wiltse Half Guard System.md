@@ -356,14 +356,13 @@ Begin each training session with knee shield establishment drills from various p
 - [[Half Guard to Back Take]] (Transition) - Core back take pathway through dogfight conversion
 - [[Deep Half Entry]] (Transition) - Transition sequence when knee shield is flattened
 - [[Single Leg X Entry]] (Transition) - Entry pathway to leg entanglement positions
-- [[Technical Standup]] (Transition) - Alternative attack when opponent attempts to disengage
+- [[Technical Stand-up]] (Transition) - Alternative attack when opponent attempts to disengage
 - [[Knee Shield Retention]] (Transition) - Defensive transition maintaining knee shield positional integrity
 - [[Underhook Defense]] (Principle) - Battle for underhook control determining offensive access
 - [[Frame Management]] (Principle) - Essential skill for maintaining distance and creating angles
 - [[Guard Retention]] (Principle) - Overall defensive framework preventing guard passes
 - [[Sweep Mechanics]] (Principle) - Technical principles underlying all sweep executions
 - [[Creating Reactions]] (Principle) - Strategic principle for dilemma-based attack selection
-- [[Hip Movement]] (Principle) - Mobility principle enabling transitions between variations
 - [[Position Chains]] (Principle) - System-building principle for connecting positions seamlessly
 - [[10th Planet Half Guard Bottom System]] (System) - Alternative half guard system emphasizing lockdown control
 - [[Lockdown to Electric Chair System]] (System) - Complementary system focusing on lockdown variations

@@ -21,37 +21,37 @@ description: "Master top butterfly half guard defense and passing. Learn to coun
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard Pass",
-      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 23% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Pass",
-      "text": "From this position, attempt Underhook Pass. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, attempt Long Step Pass. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Pressure Pass",
-      "text": "From this position, attempt Pressure Pass. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Pressure Pass. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,17 +210,25 @@ The strategic approach from top butterfly half guard involves several key consid
 
 ## Available Attacks
 
-### [[Half Guard Pass]] (17% of attempts)
+### [[Half Guard Pass]] (10% of attempts)
 
-### [[Knee Slice Pass]] (16% of attempts)
+### [[Knee Slice Pass]] (10% of attempts)
 
-### [[Smash Pass]] (19% of attempts)
+### [[Smash Pass]] (23% of attempts)
 
-### [[Underhook Pass]] (17% of attempts)
+### [[Underhook Pass]] (11% of attempts)
 
-### [[Long Step Pass]] (16% of attempts)
+### [[Long Step Pass]] (10% of attempts)
 
-### [[Pressure Pass]] (15% of attempts)
+### [[Pressure Pass]] (8% of attempts)
+
+### [[Back Step Pass]] (12% of attempts)
+
+### [[Transition to Flattened Half Guard]] (10% of attempts)
+
+### [[Knee Slice from Butterfly Half]] (4% of attempts)
+
+### [[Smash from Butterfly Half]] (2% of attempts)
 
 
 
@@ -369,7 +377,7 @@ Start in top butterfly half guard and reset after each pass or sweep. Focus on m
 - **[[Side Control]]** - Primary passing target from successful pass completion
 - **[[Headquarters Position]]** - Transitional position during passing sequences
 - **[[Combat Base]]** - Base management concept essential for preventing sweeps
-- **[[Pressure Passing]]** - Fundamental passing principle applicable to this position
+- **[[Pressure Pass]]** - Fundamental passing technique applicable to this position
 
 
 </section>

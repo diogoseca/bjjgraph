@@ -21,37 +21,37 @@ description: "Master Z-Lock Half Guard Bottom in BJJ. Advanced lockdown variatio
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 30% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Electric Chair Submission",
-      "text": "From this position, attempt Electric Chair Submission. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Electric Chair Transition",
+      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Sweep",
-      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Lockdown Sweeps",
-      "text": "From this position, attempt Lockdown Sweeps. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Lockdown Recovery",
+      "text": "From this position, attempt Lockdown Recovery. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,17 +210,25 @@ Developed primarily within the 10th Planet Jiu-Jitsu system and refined by lockd
 
 ## Available Escapes
 
-### [[Old School Sweep]] (17% of attempts)
+### [[Old School Sweep]] (30% of attempts)
 
-### [[Electric Chair Submission]] (14% of attempts)
+### [[Electric Chair Transition]] (14% of attempts)
 
-### [[Butterfly Sweep]] (18% of attempts)
+### [[Butterfly Sweep]] (11% of attempts)
 
-### [[Deep Half Entry]] (19% of attempts)
+### [[Deep Half Entry]] (13% of attempts)
 
-### [[Lockdown Sweeps]] (15% of attempts)
+### [[Lockdown Recovery]] (8% of attempts)
 
-### [[Underhook Sweep from Half]] (17% of attempts)
+### [[Underhook Sweep from Half]] (8% of attempts)
+
+### [[Kimura Sweep]] (8% of attempts)
+
+### [[Transition to Z-Guard]] (5% of attempts)
+
+### [[Escape Z-Lock Half Guard]] (2% of attempts)
+
+### [[Sweep from Z-Lock Half Guard]] (1% of attempts)
 
 
 
@@ -232,12 +240,12 @@ Developed primarily within the 10th Planet Jiu-Jitsu system and refined by lockd
 
 **If opponent bases out wide with their free leg to counter butterfly hook attacks:**
 - Execute **[[Old School Sweep]]** → [[Mount]] (Probability: 55%)
-- Execute **[[Electric Chair Submission]]** → [[Electric Chair]] (Probability: 45%)
+- Execute **[[Electric Chair Transition]]** → [[Electric Chair]] (Probability: 45%)
 
 
 **If opponent drives forward with pressure attempting to flatten bottom player:**
 - Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 60%)
-- Execute **[[Lockdown Sweeps]]** → [[Side Control]] (Probability: 40%)
+- Execute **[[Lockdown Recovery]]** → [[Side Control]] (Probability: 40%)
 
 
 **If opponent remains centered and defensive with good posture:**
@@ -246,7 +254,7 @@ Developed primarily within the 10th Planet Jiu-Jitsu system and refined by lockd
 
 
 **If opponent attempts to clear lockdown by straightening their trapped leg:**
-- Execute **[[Electric Chair Submission]]** → [[Electric Chair]] (Probability: 65%)
+- Execute **[[Electric Chair Transition]]** → [[Electric Chair]] (Probability: 65%)
 - Execute **[[Old School Sweep]]** → [[Mount]] (Probability: 50%)
 
 
@@ -385,10 +393,10 @@ Positional sparring starting from Z-Lock Half Guard Bottom. Bottom player can on
 - **[[Deep Half Guard]]** - Common transition target when opponent applies forward pressure
 - **[[Electric Chair]]** - Primary submission threat from Z-Lock configuration
 - **[[Butterfly Half Guard]]** - Similar concept using butterfly hook in half guard context
-- **[[Old School]]** - High-percentage sweep from Z-Lock when opponent bases wide
 - **[[Half Guard]]** - Parent category - Z-Lock is specialized variation
 - **[[Dogfight Position]]** - Transition position when coming up from Z-Lock
 - **[[Old School Sweep]]** - Primary sweep transition from Z-Lock bottom
+- **[[Flattened Half Guard]]** - Worst-case position when Z-Lock retention fails under pressure
 
 
 </section>

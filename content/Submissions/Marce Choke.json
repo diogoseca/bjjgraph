@@ -1,6 +1,6 @@
 {
   "name": "Marce Choke",
-  "description": "Master the Marce Choke in BJJ - powerful lapel choke from top positions. Setup, execution, safety protocols. Success: Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "description": "Master the Marce Choke in BJJ - powerful lapel choke from top positions. Setup, execution, defense, and safety protocols for gi competition.",
   "tags": [
     "bjj",
     "submission",
@@ -14,7 +14,9 @@
   "submission_type": "Lapel Choke",
   "target_area": "Carotid arteries and trachea via lapel compression",
   "starting_position": "Side Control",
-  "overview": "The Marce Choke (also called the Marcelotine or Marcelo Choke) is a highly effective gi-specific submission that combines elements of the loop choke and cross collar choke mechanics. Named after multiple-time world champion Marcelo Garcia, this technique leverages the opponent's own lapel to create a powerful blood choke from dominant top positions, particularly side control and north-south. The Marce Choke is particularly effective because it uses the mechanical advantage of the lapel wrapped around the opponent's neck, creating compression on both carotid arteries simultaneously while controlling the opponent's upper body. Unlike traditional collar chokes that require both hands on the lapel, the Marce Choke uses one hand on the lapel and your body weight to apply pressure, making it extremely difficult to defend once properly set. The technique excels in gi competition because it can be applied from multiple top positions and often catches opponents by surprise as they focus on defending more common submissions. The choke works on a fundamental principle: using the lapel as a ligature around the neck while your body weight and positioning create the constricting force. This makes it a high-percentage technique for practitioners who master the proper setup and understand the mechanics of lapel manipulation.",
+  "from_position": "Side Control/Top",
+  "success_rate": 58,
+  "overview": "The Marce Choke is a highly effective gi-specific submission that combines elements of the loop choke and cross collar choke mechanics. This technique leverages the opponent's own lapel to create a powerful blood choke from dominant top positions, particularly side control and north-south. The Marce Choke is particularly effective because it uses the mechanical advantage of the lapel wrapped around the opponent's neck, creating compression on both carotid arteries simultaneously while controlling the opponent's upper body.\n\nUnlike traditional collar chokes that require both hands on the lapel, the Marce Choke uses one hand on the lapel and your body weight to apply pressure, making it extremely difficult to defend once properly set. The technique excels in gi competition because it can be applied from multiple top positions and often catches opponents by surprise as they focus on defending more common submissions.\n\nThe choke works on a fundamental principle: using the lapel as a ligature around the neck while your body weight and positioning create the constricting force. This makes it a high-percentage technique for practitioners who master the proper setup and understand the mechanics of lapel manipulation. The finishing mechanic relies on opposing forces - the lapel pulls from one direction while chest pressure drives from the other - creating a noose effect that is biomechanically efficient and extremely difficult to defend through strength alone.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -56,197 +58,21 @@
       "Stop immediately if partner shows any signs of distress beyond normal discomfort"
     ]
   },
-  "key_principles": [
-    "Lapel control must be established before attempting the choke to ensure proper setup",
-    "Body weight drives the choking pressure, not just arm strength",
-    "The lapel creates a noose effect that tightens as you apply pressure",
-    "Control the opponent's near arm to prevent defensive framing",
-    "Maintain chest-to-chest pressure to prevent escape",
-    "The angle of your body relative to opponent's neck determines choke effectiveness",
-    "Proper lapel depth (feeding deep across the neck) is crucial for finishing"
-  ],
-  "setup_requirements": [
-    "Secure dominant top position with chest pressure on opponent",
-    "Control opponent's near-side arm to prevent defensive frames",
-    "Access to opponent's far lapel with sufficient material to feed",
-    "Established base that prevents opponent from escaping to their side",
-    "Understanding of lapel grip mechanics and how to feed material across the neck",
-    "Ability to maintain position while manipulating the lapel"
-  ],
-  "execution_steps": [
+  "outcomes": [
     {
-      "step_number": 1,
-      "action": "Secure side control position",
-      "description": "Establish tight side control with your chest heavy on the opponent's chest. Control their near arm by pinning it to their body or trapping it with your hip. Your head should be positioned on the far side of their head to prevent them from turning into you. Maintain strong shoulder pressure into their face or neck to keep them flat.",
-      "timing": "Take 2-3 seconds to ensure solid control"
+      "to": "game-over",
+      "probability": 58,
+      "result": "success"
     },
     {
-      "step_number": 2,
-      "action": "Access the far lapel",
-      "description": "Using your hand closest to their head (typically your right hand if you're on their right side), reach across their neck and grip their far lapel deep - your grip should be at least 4-6 inches past their shoulder to ensure sufficient material. Your four fingers should go inside the lapel, thumb outside. The deeper your initial grip, the more effective the choke will be.",
-      "timing": "1-2 seconds while maintaining pressure"
+      "to": "Side Control/Top",
+      "probability": 27,
+      "result": "failure"
     },
     {
-      "step_number": 3,
-      "action": "Feed the lapel across the neck",
-      "description": "Pull the lapel across the opponent's throat toward their opposite shoulder, creating a diagonal line across their neck. The material should be tight against their neck, particularly targeting the carotid arteries on both sides. Ensure the lapel goes under their chin, not over it. As you feed, maintain your chest pressure to prevent them from turning or creating space.",
-      "timing": "2-3 seconds with controlled movement"
-    },
-    {
-      "step_number": 4,
-      "action": "Secure the lapel grip",
-      "description": "Once the lapel is fed across their neck, adjust your grip to ensure maximum control. Your gripping hand should now be positioned near their opposite shoulder with the lapel tight. The lapel should form a 'V' shape across their neck, with the apex of the V directly under their chin. This positioning ensures bilateral carotid compression.",
-      "timing": "1-2 seconds for grip adjustment"
-    },
-    {
-      "step_number": 5,
-      "action": "Transition body position for pressure",
-      "description": "Shift your body weight toward north-south position while maintaining your lapel grip. Your chest should drive into their face/neck area, and your hips should be positioned to prevent their hip escape. Some variations involve moving fully to north-south, while others maintain a modified side control. The key is that your body weight drives perpendicular pressure into their neck through the lapel.",
-      "timing": "2-3 seconds for smooth transition"
-    },
-    {
-      "step_number": 6,
-      "action": "Apply choking pressure",
-      "description": "Drive your chest downward into their face and neck area while maintaining the tight lapel grip. Your body weight should push down through the lapel, creating a noose effect that constricts around both carotid arteries. Pull your gripping hand slightly toward you while driving your chest down - this creates opposing forces that tighten the choke. The opponent should tap within 3-5 seconds if properly applied. Monitor constantly for the tap.",
-      "timing": "3-5 seconds maximum before expecting tap"
-    }
-  ],
-  "opponent_defense_patterns": [
-    {
-      "defense": "Frames against your chest to create space",
-      "effectiveness": "Medium",
-      "your_adjustment": "Transition to north-south or modified mount to remove their framing angles, maintaining lapel grip throughout. Use your head to control their frames."
-    },
-    {
-      "defense": "Turns into you to escape side control",
-      "effectiveness": "High",
-      "your_adjustment": "This is their best defense - prevent it by controlling their near arm and maintaining heavy shoulder pressure. If they start turning, you may need to transition to the back or abandon this submission for a different attack."
-    },
-    {
-      "defense": "Grabs your choking arm with both hands",
-      "effectiveness": "Low",
-      "your_adjustment": "Your lapel grip is extremely difficult to break once established. Simply maintain the grip and continue applying pressure with your body weight. Their grip strength will fade as the choke tightens."
-    },
-    {
-      "defense": "Tucks chin to protect neck",
-      "effectiveness": "Low",
-      "your_adjustment": "The Marce Choke works on the sides of the neck, not directly on the throat. A tucked chin provides minimal protection. Continue feeding the lapel deep and apply pressure - the choke will still work effectively."
-    },
-    {
-      "defense": "Bridges explosively to create space",
-      "effectiveness": "Medium",
-      "your_adjustment": "Anticipate the bridge by widening your base and dropping your hips low. Ride out the bridge while maintaining your lapel grip and chest pressure. As they return to the mat, immediately re-establish full pressure."
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Failing to feed the lapel deep enough across the neck",
-      "consequence": "The choke targets the front of the throat instead of the carotid arteries, making it painful but not a true blood choke, giving the opponent time to escape",
-      "correction": "Always feed the lapel at least 4-6 inches past their shoulder. The material should reach toward their opposite armpit. A shallow grip will never finish the submission."
-    },
-    {
-      "error": "Releasing chest pressure while setting up the lapel",
-      "consequence": "Opponent gains space to turn, escape, or defend the choke effectively",
-      "correction": "Maintain constant chest pressure throughout the entire setup. Use your weight to keep them pinned flat while your hands work the lapel. Never sacrifice positional control for the submission."
-    },
-    {
-      "error": "Relying solely on arm strength instead of body weight",
-      "consequence": "The choke lacks power and your arms fatigue quickly, allowing the opponent to outlast your attempt",
-      "correction": "Your arms simply maintain the lapel position - your chest and body weight create the actual choking pressure. Think of driving your chest through their neck, not pulling with your arms."
-    },
-    {
-      "error": "Applying excessive pressure too quickly in training",
-      "consequence": "Risk of causing unconsciousness before partner can tap, potential injury, and breakdown of training trust",
-      "correction": "Always apply progressive pressure in training, taking 3-5 seconds minimum. Give your partner clear opportunity to recognize the danger and tap. Save competition-speed application for competition only."
-    },
-    {
-      "error": "Failing to control the near-side arm during setup",
-      "consequence": "Opponent creates effective frames that prevent you from establishing the choke or escape the position entirely",
-      "correction": "Pin or trap their near arm before attempting to access the lapel. Use your hip, knee, or own arm to neutralize their defensive frames. Never give them free use of the near arm."
-    },
-    {
-      "error": "Continuing to apply pressure after tap or loss of consciousness",
-      "consequence": "Serious injury including brain damage from prolonged oxygen deprivation, potential death, and criminal liability",
-      "correction": "Release immediately upon any tap signal. If opponent goes limp or unresponsive, release instantly and check their condition. This is non-negotiable in training."
-    }
-  ],
-  "variations_and_setups": [
-    {
-      "variation_name": "North-South Marce Choke",
-      "description": "From north-south position, feed the far lapel across their neck and drive your chest straight down into their face while maintaining the lapel grip. This variation often provides better leverage and makes it harder for the opponent to turn into you.",
-      "when_to_use": "When opponent is defending well from side control or when you naturally transition to north-south during scrambles. Particularly effective against opponents who are good at recovering guard from side control."
-    },
-    {
-      "variation_name": "Marce Choke from Knee on Belly",
-      "description": "Establish knee on belly position, then reach across to grip the far lapel. Feed it across their neck, then transition your knee to the mat and drive your chest down to finish. The knee on belly provides excellent control during the setup phase.",
-      "when_to_use": "Against opponents who react strongly to side control pressure by trying to turn in. Knee on belly gives you more mobility to follow their movement while setting up the choke."
-    },
-    {
-      "variation_name": "Modified Kesa Gatame Marce Choke",
-      "description": "From kesa gatame (scarf hold), reach across with your far hand to grip their far lapel, feed it across their neck, then use your near-side arm to control their head while your body weight drives the choke. Your head positioning is crucial - it should be low and tight to their head.",
-      "when_to_use": "When you have a strong scarf hold position established. This variation is particularly effective in gi competition as it combines positional control with submission threat."
-    }
-  ],
-  "knowledge_assessment": [
-    {
-      "question": "What is the primary anatomical target of the Marce Choke and why is it more effective than targeting the trachea?",
-      "answer": "The primary target is the carotid arteries on both sides of the neck, which supply blood to the brain. Targeting the carotid arteries creates a blood choke that causes unconsciousness in 3-8 seconds by restricting blood flow to the brain, whereas tracheal compression (air choke) is more painful, takes longer, and gives the opponent more time to escape or defend. Blood chokes are also safer when properly applied and released promptly because they don't damage the windpipe structure.",
-      "safety_critical": true
-    },
-    {
-      "question": "Why is it critical to feed the lapel deep across the opponent's neck rather than gripping shallow near their collar?",
-      "answer": "Feeding the lapel deep (4-6 inches past their shoulder) ensures that the material crosses their neck at the optimal angle to compress both carotid arteries simultaneously. A shallow grip only affects the front of the throat, creating a painful but ineffective air choke that the opponent can defend much more easily. The deep feed creates a 'V' shape across the neck with the apex under the chin, which is the biomechanically sound position for bilateral carotid compression and successful completion of the technique.",
-      "safety_critical": false
-    },
-    {
-      "question": "What should you do immediately if your training partner goes limp or unresponsive during the Marce Choke?",
-      "answer": "Release the choke immediately by letting go of the lapel grip and removing all body weight from their torso and neck. Check their responsiveness and breathing. Typically, they will regain consciousness within seconds if they simply passed out from the blood choke. Ensure they are breathing normally and alert them to what happened. Never continue pressure after unconsciousness, and always allow adequate recovery time before resuming training. If they don't regain consciousness within 10-15 seconds, call for medical help immediately.",
-      "safety_critical": true
-    },
-    {
-      "question": "What is the mechanical principle that makes the Marce Choke effective, and how does body positioning contribute to this principle?",
-      "answer": "The Marce Choke uses the principle of creating a ligature (noose) around the neck using the lapel, with your body weight providing the constricting force rather than just arm strength. By driving your chest downward perpendicular to their neck while maintaining the lapel grip, you create opposing forces: the lapel pulls from one direction while your body weight pushes from another, tightening the noose effect around the carotid arteries. This mechanical advantage means less energy expenditure while generating maximum choking pressure, making it extremely difficult for the opponent to defend even if they're stronger than you.",
-      "safety_critical": false
-    },
-    {
-      "question": "What is the most effective defensive response from the bottom position against the Marce Choke, and how should the top player prevent this defense?",
-      "answer": "The most effective defense is for the bottom player to turn into the top player, escaping to their side or recovering guard before the choke is fully established. This works because it removes the perpendicular pressure angle that makes the choke effective. To prevent this defense, the top player must control the opponent's near arm (preventing frames), maintain heavy shoulder pressure to keep them flat, and establish the lapel grip quickly before they can initiate their turn. If the opponent begins turning successfully, it's often better to transition to back control or another submission rather than forcing the Marce Choke from a compromised position.",
-      "safety_critical": false
-    },
-    {
-      "question": "How should you progressively apply pressure during the Marce Choke in training, and why is this timing critical?",
-      "answer": "In training, you should apply pressure progressively over 3-5 seconds minimum, starting light and gradually increasing to give your partner clear awareness of the danger and adequate time to tap. This is critical because blood chokes can cause unconsciousness quickly - often within 3-8 seconds of full pressure - and if you apply maximum pressure instantly, your partner may not have time to recognize the danger and tap before losing consciousness. Progressive application builds trust in training, prevents injuries, allows learning of the technique and its defenses, and develops the sensitivity needed to control the submission effectively in competition.",
-      "safety_critical": true
-    },
-    {
-      "question": "Your opponent starts posturing up and creating frames as you attempt to feed the lapel - what adjustment prevents their escape?",
-      "answer": "When your opponent starts creating frames, immediately drive your shoulder into their face to collapse their posture before they can establish strong frames. Use your free hand to strip their grips or control their near arm. If they've already established frames, shift your hips lower and angle toward north-south position to change the pressure angle and remove their framing leverage. The key is recognizing the frame attempt early and addressing it before it becomes established - once strong frames are in place, you may need to abandon the Marce Choke attempt and maintain positional control for a different attack.",
-      "safety_critical": false
-    },
-    {
-      "question": "What indicates you have achieved the point of no return where the choke will finish if maintained?",
-      "answer": "The point of no return is reached when the lapel is fed deep across both sides of the neck forming a tight V-shape, your body weight is driving perpendicular pressure through the lapel, and you feel the opponent's defensive movements becoming weaker or more desperate. Physical indicators include their face changing color (reddening), their breathing becoming labored or stopping, and a noticeable decrease in the strength of their grip fighting. At this point, the carotid arteries are being compressed bilaterally and unconsciousness will occur within 3-8 seconds if maintained. In training, this is when you should expect an immediate tap - if it doesn't come, be prepared to release immediately as unconsciousness may be imminent.",
-      "safety_critical": true
-    },
-    {
-      "question": "How do you adjust your grip if the lapel starts slipping during the finishing sequence?",
-      "answer": "If the lapel begins slipping, immediately re-grip deeper on the material rather than trying to maintain the failing grip. Slide your hand further along the lapel toward their opposite armpit to secure more fabric. Simultaneously increase your chest pressure to prevent them from capitalizing on the momentary adjustment. If the slip is significant, you may need to restart the feed sequence - pull the lapel back across their neck while maintaining side control pressure. Never try to finish with a compromised grip as this converts the blood choke to an ineffective air choke that wastes energy and gives them escape opportunities.",
-      "safety_critical": false
-    },
-    {
-      "question": "In competition, when should you commit fully to finishing the Marce Choke versus transitioning to another attack?",
-      "answer": "Commit fully to finishing when all setup requirements are met: deep lapel grip across both carotids, opponent flat on their back, near arm controlled, and your body weight properly positioned. Transition to another attack when the opponent successfully turns to their side, establishes strong frames you cannot collapse, strips your lapel grip, or when the clock pressure requires points rather than submission hunting. In competition with limited time remaining, securing side control or mount points may be strategically superior to forcing a compromised choke attempt. The decision requires reading your opponent's defensive capability and the match situation.",
-      "safety_critical": false
-    },
-    {
-      "question": "What are the key differences between finishing the Marce Choke from side control versus north-south position?",
-      "answer": "From side control, your pressure angle is diagonal across their body, and you finish by driving your shoulder into their face while pulling the lapel. The opponent can more easily turn into you to escape. From north-south, your pressure is directly perpendicular to their neck, driving straight down through your chest, which creates more concentrated choking force and eliminates the turning escape. North-south also allows you to trap both of their arms more easily with your body. However, north-south requires more precise body positioning and is easier to lose if they hip escape effectively. Choose side control when you have excellent near-arm control; choose north-south when they're successfully defending by framing.",
-      "safety_critical": false
-    },
-    {
-      "question": "What recovery protocol should be followed after a training partner is briefly rendered unconscious by the Marce Choke?",
-      "answer": "Immediately release all pressure and position them on their side in the recovery position. Check for breathing and responsiveness - most people regain consciousness within 5-10 seconds after a blood choke is released. Do not shake them or slap their face. Speak calmly to them as they wake. Allow them to remain lying down for 30-60 seconds after regaining consciousness before attempting to sit up. They should not continue training for at least 5-10 minutes and should be monitored for headache, dizziness, or confusion. If unconsciousness lasts more than 10-15 seconds or they show any concerning symptoms, seek medical attention immediately. Document the incident and discuss what led to the unconsciousness to prevent recurrence.",
-      "safety_critical": true
+      "to": "Half Guard/Bottom",
+      "probability": 15,
+      "result": "counter"
     }
   ],
   "from_positions": [
@@ -304,5 +130,359 @@
       "relationship": "Alternative lapel choke from similar positions with different finishing mechanics"
     }
   ],
-  "success_rate": 58
+  "attacker": {
+    "name": "Marce Choke Attacker",
+    "description": "How to execute the Marce Choke in BJJ. Attacking perspective with setup, lapel feeding mechanics, finishing details, and competition strategies.",
+    "overview": "Executing the Marce Choke requires mastery of lapel manipulation from dominant top positions. The attacker must first establish heavy positional control in side control, north-south, or kesa gatame before beginning the lapel feed sequence. The critical attacking skill is the ability to access the opponent's far lapel, feed it deep across their neck to create bilateral carotid compression, and then use body weight to drive the finishing pressure through the lapel material. Unlike arm-powered chokes, the Marce Choke derives its finishing force from perpendicular chest pressure through the lapel, creating a noose effect that tightens as you drive your weight downward. This mechanical advantage means the choke is effective regardless of size disparity and is extremely energy-efficient when properly executed. The attacker must develop sensitivity to lapel depth, understand the relationship between body angle and choking pressure, and maintain positional control throughout the entire submission sequence to prevent defensive counters.",
+    "key_principles": [
+      "Lapel control must be established before attempting the choke - the depth of the initial feed determines finishing success",
+      "Body weight drives the choking pressure through perpendicular chest alignment, not arm strength",
+      "The lapel creates a noose effect that tightens as you apply downward pressure and pull simultaneously",
+      "Control the opponent's near arm to prevent defensive framing before initiating the lapel feed",
+      "Maintain chest-to-chest pressure throughout the entire setup to prevent the opponent from turning or creating space",
+      "The angle of your body relative to the opponent's neck determines whether you achieve blood choke versus air choke",
+      "Proper lapel depth (feeding deep across the neck past the opposite shoulder) is the single most critical factor for finishing"
+    ],
+    "setup_requirements": [
+      "Secure dominant top position with heavy chest pressure keeping opponent flat on their back",
+      "Control opponent's near-side arm to prevent defensive frames using hip, knee, or arm pin",
+      "Access to opponent's far lapel with sufficient material to feed at least 4-6 inches past their shoulder",
+      "Established base that prevents opponent from escaping to their side or recovering guard",
+      "Understanding of lapel grip mechanics and the four-fingers-in, thumb-out grip for maximum control",
+      "Ability to maintain positional pressure while one hand manipulates the lapel without creating escape space"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Secure side control position",
+        "description": "Establish tight side control with your chest heavy on the opponent's chest. Control their near arm by pinning it to their body or trapping it with your hip. Your head should be positioned on the far side of their head to prevent them from turning into you. Maintain strong shoulder pressure into their face or neck to keep them flat.",
+        "timing": "Take 2-3 seconds to ensure solid control"
+      },
+      {
+        "step_number": 2,
+        "action": "Access the far lapel",
+        "description": "Using your hand closest to their head (typically your right hand if you're on their right side), reach across their neck and grip their far lapel deep - your grip should be at least 4-6 inches past their shoulder to ensure sufficient material. Your four fingers should go inside the lapel, thumb outside. The deeper your initial grip, the more effective the choke will be.",
+        "timing": "1-2 seconds while maintaining pressure"
+      },
+      {
+        "step_number": 3,
+        "action": "Feed the lapel across the neck",
+        "description": "Pull the lapel across the opponent's throat toward their opposite shoulder, creating a diagonal line across their neck. The material should be tight against their neck, particularly targeting the carotid arteries on both sides. Ensure the lapel goes under their chin, not over it. As you feed, maintain your chest pressure to prevent them from turning or creating space.",
+        "timing": "2-3 seconds with controlled movement"
+      },
+      {
+        "step_number": 4,
+        "action": "Secure the lapel grip",
+        "description": "Once the lapel is fed across their neck, adjust your grip to ensure maximum control. Your gripping hand should now be positioned near their opposite shoulder with the lapel tight. The lapel should form a V-shape across their neck, with the apex of the V directly under their chin. This positioning ensures bilateral carotid compression when pressure is applied.",
+        "timing": "1-2 seconds for grip adjustment"
+      },
+      {
+        "step_number": 5,
+        "action": "Transition body position for pressure",
+        "description": "Shift your body weight toward north-south position while maintaining your lapel grip. Your chest should drive into their face and neck area, and your hips should be positioned to prevent their hip escape. Some variations involve moving fully to north-south, while others maintain a modified side control. The key is that your body weight drives perpendicular pressure into their neck through the lapel.",
+        "timing": "2-3 seconds for smooth transition"
+      },
+      {
+        "step_number": 6,
+        "action": "Apply choking pressure",
+        "description": "Drive your chest downward into their face and neck area while maintaining the tight lapel grip. Your body weight should push down through the lapel, creating a noose effect that constricts around both carotid arteries. Pull your gripping hand slightly toward you while driving your chest down - this creates opposing forces that tighten the choke. The opponent should tap within 3-5 seconds if properly applied. Monitor constantly for the tap.",
+        "timing": "3-5 seconds maximum before expecting tap"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Frames against your chest to create space",
+        "effectiveness": "Medium",
+        "your_response": "Transition to north-south or modified mount to remove their framing angles, maintaining lapel grip throughout. Use your head to control their frames and collapse them with shoulder pressure before they become structural.",
+        "targets_outcome": "Side Control/Top"
+      },
+      {
+        "counter": "Turns into you to escape side control",
+        "effectiveness": "High",
+        "your_response": "This is their best defense - prevent it by controlling their near arm and maintaining heavy shoulder pressure. If they start turning, transition to back control or switch to a darce choke rather than forcing the Marce Choke from a compromised angle.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Grabs your choking arm with both hands to strip the lapel grip",
+        "effectiveness": "Low",
+        "your_response": "Your lapel grip is extremely difficult to break once established deep. Maintain the grip and continue applying pressure with your body weight. Their grip strength will fade as the choke tightens and blood flow to the brain is restricted.",
+        "targets_outcome": "Side Control/Top"
+      },
+      {
+        "counter": "Tucks chin to protect neck from lapel feed",
+        "effectiveness": "Low",
+        "your_response": "The Marce Choke compresses the sides of the neck, not the front of the throat. A tucked chin provides minimal protection against a properly deep lapel feed. Continue feeding the lapel deep across both carotids and apply pressure - the choke will still work effectively.",
+        "targets_outcome": "game-over"
+      },
+      {
+        "counter": "Bridges explosively to create space and disrupt your base",
+        "effectiveness": "Medium",
+        "your_response": "Anticipate the bridge by widening your base and dropping your hips low. Ride out the bridge while maintaining your lapel grip and chest pressure. As they return to the mat, immediately re-establish full perpendicular pressure before they can capitalize on the momentary space.",
+        "targets_outcome": "Side Control/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Failing to feed the lapel deep enough across the neck",
+        "consequence": "The choke targets the front of the throat instead of the carotid arteries, making it painful but not a true blood choke, giving the opponent time to escape",
+        "correction": "Always feed the lapel at least 4-6 inches past their shoulder. The material should reach toward their opposite armpit. A shallow grip will never finish the submission."
+      },
+      {
+        "error": "Releasing chest pressure while setting up the lapel",
+        "consequence": "Opponent gains space to turn, escape, or defend the choke effectively",
+        "correction": "Maintain constant chest pressure throughout the entire setup. Use your weight to keep them pinned flat while your hands work the lapel. Never sacrifice positional control for the submission."
+      },
+      {
+        "error": "Relying solely on arm strength instead of body weight",
+        "consequence": "The choke lacks power and your arms fatigue quickly, allowing the opponent to outlast your attempt",
+        "correction": "Your arms simply maintain the lapel position - your chest and body weight create the actual choking pressure. Think of driving your chest through their neck, not pulling with your arms."
+      },
+      {
+        "error": "Applying excessive pressure too quickly in training",
+        "consequence": "Risk of causing unconsciousness before partner can tap, potential injury, and breakdown of training trust",
+        "correction": "Always apply progressive pressure in training, taking 3-5 seconds minimum. Give your partner clear opportunity to recognize the danger and tap. Save competition-speed application for competition only."
+      },
+      {
+        "error": "Failing to control the near-side arm during setup",
+        "consequence": "Opponent creates effective frames that prevent you from establishing the choke or escapes the position entirely",
+        "correction": "Pin or trap their near arm before attempting to access the lapel. Use your hip, knee, or own arm to neutralize their defensive frames. Never give them free use of the near arm."
+      },
+      {
+        "error": "Continuing to apply pressure after tap or loss of consciousness",
+        "consequence": "Serious injury including brain damage from prolonged oxygen deprivation, potential death, and criminal liability",
+        "correction": "Release immediately upon any tap signal. If opponent goes limp or unresponsive, release instantly and check their condition. This is non-negotiable in training."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Lapel Mechanics",
+        "focus": "Grip acquisition and lapel feeding technique",
+        "description": "Practice accessing the far lapel and feeding it across a cooperative partner's neck from side control. Focus on grip depth, four-fingers-in positioning, and smooth lapel manipulation without any choking pressure. Drill 50 repetitions per side to build muscle memory for the feed sequence."
+      },
+      {
+        "phase": "Phase 2: Positional Integration",
+        "focus": "Combining lapel setup with positional maintenance",
+        "description": "From side control with a lightly resisting partner, practice the complete setup sequence: establish control, pin the near arm, feed the lapel, and transition body position. Partner provides mild frames but does not attempt full escapes. Focus on maintaining chest pressure throughout the entire lapel manipulation."
+      },
+      {
+        "phase": "Phase 3: Progressive Finishing",
+        "focus": "Controlled pressure application and tap recognition",
+        "description": "Apply the complete Marce Choke sequence with slow, progressive pressure against a resisting partner. Practice recognizing the point where the choke becomes effective through tactile feedback. Drill sensitivity to your partner's tap signals and practice immediate release protocol. Alternate between side control and north-south finishing positions."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Competition application against full resistance",
+        "description": "Positional sparring rounds starting from side control where you hunt specifically for the Marce Choke against full defensive resistance. Develop recognition of when the setup is available versus when to chain to other attacks. Include rounds where you must transition between Marce Choke attempts and alternative submissions like the breadcutter choke or arm triangle when the lapel feed is defended."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary anatomical target of the Marce Choke and why is it more effective than targeting the trachea?",
+        "answer": "The primary target is the carotid arteries on both sides of the neck, which supply blood to the brain. Targeting the carotid arteries creates a blood choke that causes unconsciousness in 3-8 seconds by restricting blood flow to the brain, whereas tracheal compression (air choke) is more painful, takes longer, and gives the opponent more time to escape or defend. Blood chokes are also safer when properly applied and released promptly because they don't damage the windpipe structure.",
+        "safety_critical": true
+      },
+      {
+        "question": "Why is it critical to feed the lapel deep across the opponent's neck rather than gripping shallow near their collar?",
+        "answer": "Feeding the lapel deep (4-6 inches past their shoulder) ensures that the material crosses their neck at the optimal angle to compress both carotid arteries simultaneously. A shallow grip only affects the front of the throat, creating a painful but ineffective air choke that the opponent can defend much more easily. The deep feed creates a V-shape across the neck with the apex under the chin, which is the biomechanically sound position for bilateral carotid compression and successful completion of the technique.",
+        "safety_critical": false
+      },
+      {
+        "question": "What should you do immediately if your training partner goes limp or unresponsive during the Marce Choke?",
+        "answer": "Release the choke immediately by letting go of the lapel grip and removing all body weight from their torso and neck. Check their responsiveness and breathing. Typically, they will regain consciousness within seconds if they simply passed out from the blood choke. Ensure they are breathing normally and alert them to what happened. Never continue pressure after unconsciousness, and always allow adequate recovery time before resuming training. If they don't regain consciousness within 10-15 seconds, call for medical help immediately.",
+        "safety_critical": true
+      },
+      {
+        "question": "What is the mechanical principle that makes the Marce Choke effective, and how does body positioning contribute to this principle?",
+        "answer": "The Marce Choke uses the principle of creating a ligature (noose) around the neck using the lapel, with your body weight providing the constricting force rather than just arm strength. By driving your chest downward perpendicular to their neck while maintaining the lapel grip, you create opposing forces: the lapel pulls from one direction while your body weight pushes from another, tightening the noose effect around the carotid arteries. This mechanical advantage means less energy expenditure while generating maximum choking pressure, making it extremely difficult for the opponent to defend even if they're stronger than you.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the most effective defensive response from the bottom position against the Marce Choke, and how should the top player prevent this defense?",
+        "answer": "The most effective defense is for the bottom player to turn into the top player, escaping to their side or recovering guard before the choke is fully established. This works because it removes the perpendicular pressure angle that makes the choke effective. To prevent this defense, the top player must control the opponent's near arm (preventing frames), maintain heavy shoulder pressure to keep them flat, and establish the lapel grip quickly before they can initiate their turn. If the opponent begins turning successfully, it's often better to transition to back control or another submission rather than forcing the Marce Choke from a compromised position.",
+        "safety_critical": false
+      },
+      {
+        "question": "How should you progressively apply pressure during the Marce Choke in training, and why is this timing critical?",
+        "answer": "In training, you should apply pressure progressively over 3-5 seconds minimum, starting light and gradually increasing to give your partner clear awareness of the danger and adequate time to tap. This is critical because blood chokes can cause unconsciousness quickly - often within 3-8 seconds of full pressure - and if you apply maximum pressure instantly, your partner may not have time to recognize the danger and tap before losing consciousness. Progressive application builds trust in training, prevents injuries, allows learning of the technique and its defenses, and develops the sensitivity needed to control the submission effectively in competition.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your opponent starts posturing up and creating frames as you attempt to feed the lapel - what adjustment prevents their escape?",
+        "answer": "When your opponent starts creating frames, immediately drive your shoulder into their face to collapse their posture before they can establish strong frames. Use your free hand to strip their grips or control their near arm. If they've already established frames, shift your hips lower and angle toward north-south position to change the pressure angle and remove their framing leverage. The key is recognizing the frame attempt early and addressing it before it becomes established - once strong frames are in place, you may need to abandon the Marce Choke attempt and maintain positional control for a different attack.",
+        "safety_critical": false
+      },
+      {
+        "question": "What indicates you have achieved the point of no return where the choke will finish if maintained?",
+        "answer": "The point of no return is reached when the lapel is fed deep across both sides of the neck forming a tight V-shape, your body weight is driving perpendicular pressure through the lapel, and you feel the opponent's defensive movements becoming weaker or more desperate. Physical indicators include their face changing color (reddening), their breathing becoming labored or stopping, and a noticeable decrease in the strength of their grip fighting. At this point, the carotid arteries are being compressed bilaterally and unconsciousness will occur within 3-8 seconds if maintained. In training, this is when you should expect an immediate tap - if it doesn't come, be prepared to release immediately as unconsciousness may be imminent.",
+        "safety_critical": true
+      },
+      {
+        "question": "How do you adjust your grip if the lapel starts slipping during the finishing sequence?",
+        "answer": "If the lapel begins slipping, immediately re-grip deeper on the material rather than trying to maintain the failing grip. Slide your hand further along the lapel toward their opposite armpit to secure more fabric. Simultaneously increase your chest pressure to prevent them from capitalizing on the momentary adjustment. If the slip is significant, you may need to restart the feed sequence - pull the lapel back across their neck while maintaining side control pressure. Never try to finish with a compromised grip as this converts the blood choke to an ineffective air choke that wastes energy and gives them escape opportunities.",
+        "safety_critical": false
+      },
+      {
+        "question": "In competition, when should you commit fully to finishing the Marce Choke versus transitioning to another attack?",
+        "answer": "Commit fully to finishing when all setup requirements are met: deep lapel grip across both carotids, opponent flat on their back, near arm controlled, and your body weight properly positioned. Transition to another attack when the opponent successfully turns to their side, establishes strong frames you cannot collapse, strips your lapel grip, or when the clock pressure requires points rather than submission hunting. In competition with limited time remaining, securing side control or mount points may be strategically superior to forcing a compromised choke attempt. The decision requires reading your opponent's defensive capability and the match situation.",
+        "safety_critical": false
+      },
+      {
+        "question": "What are the key differences between finishing the Marce Choke from side control versus north-south position?",
+        "answer": "From side control, your pressure angle is diagonal across their body, and you finish by driving your shoulder into their face while pulling the lapel. The opponent can more easily turn into you to escape. From north-south, your pressure is directly perpendicular to their neck, driving straight down through your chest, which creates more concentrated choking force and eliminates the turning escape. North-south also allows you to trap both of their arms more easily with your body. However, north-south requires more precise body positioning and is easier to lose if they hip escape effectively. Choose side control when you have excellent near-arm control; choose north-south when they're successfully defending by framing.",
+        "safety_critical": false
+      },
+      {
+        "question": "What recovery protocol should be followed after a training partner is briefly rendered unconscious by the Marce Choke?",
+        "answer": "Immediately release all pressure and position them on their side in the recovery position. Check for breathing and responsiveness - most people regain consciousness within 5-10 seconds after a blood choke is released. Do not shake them or slap their face. Speak calmly to them as they wake. Allow them to remain lying down for 30-60 seconds after regaining consciousness before attempting to sit up. They should not continue training for at least 5-10 minutes and should be monitored for headache, dizziness, or confusion. If unconsciousness lasts more than 10-15 seconds or they show any concerning symptoms, seek medical attention immediately. Document the incident and discuss what led to the unconsciousness to prevent recurrence.",
+        "safety_critical": true
+      }
+    ]
+  },
+  "defender": {
+    "name": "Marce Choke Defender",
+    "description": "How to defend against the Marce Choke in BJJ. Recognition cues, escape timing, lapel grip defense, and guard recovery strategies from bottom position.",
+    "overview": "Defending the Marce Choke requires recognizing the attack in its earliest stages - specifically when the top player begins reaching across your neck to access your far lapel. The window for effective defense narrows rapidly once the lapel is fed deep across your neck, so early recognition and immediate action are essential. The defender's primary objective is to prevent the lapel from being fed across the neck in the first place, and failing that, to strip the grip or create enough space to turn into the attacker before the finishing pressure can be applied.\n\nThe defensive framework operates on a timeline: before the lapel grip is established, you have multiple high-percentage defensive options including framing, turning, and grip fighting. Once the lapel is partially fed, your options narrow to grip stripping and explosive positional escapes. After the lapel is fully set and pressure begins, your survival depends on recognizing the choke early enough to tap before unconsciousness. Understanding this defensive timeline is critical - the Marce Choke becomes nearly inescapable once all elements are in place, so prevention is far more effective than late-stage escape attempts.",
+    "key_principles": [
+      "Early recognition is the most important defensive skill - defend the lapel grip before it crosses your neck, not after pressure is applied",
+      "Never allow both your near arm to be pinned and your far lapel to be accessed simultaneously",
+      "Turn into the attacker aggressively to remove the perpendicular pressure angle required for the choke to work",
+      "Fight the hands and grip constantly - once the lapel feed is deep, escape probability drops dramatically",
+      "Create frames against the attacker's chest and shoulder to prevent them from settling their weight while accessing the lapel",
+      "If the lapel is already across your neck, address the grip immediately rather than trying to escape the position first",
+      "Maintain chin-to-chest posture to make the lapel feed more difficult and buy time for defensive actions"
+    ],
+    "recognition_cues": [
+      "Top player's hand closest to your head reaches across your neck toward your far lapel rather than maintaining normal side control grips",
+      "Feeling the gi material being pulled tight across your throat or the sides of your neck from the far side",
+      "Top player shifts their weight forward toward your head and away from your hips, indicating preparation for the north-south finishing angle",
+      "Top player pins or traps your near arm with unusual emphasis before their other hand moves toward your collar area",
+      "Sensation of increasing tightness around your neck combined with the top player driving chest pressure downward rather than laterally"
+    ],
+    "defensive_options": [
+      {
+        "action": "Turn into the attacker before the lapel is fed across the neck",
+        "when_to_use": "As soon as you recognize the top player reaching for your far lapel - this is the highest-percentage defense and must be executed before the grip is established",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You recover to half guard or closed guard, completely negating the Marce Choke threat and returning to a neutral guard position",
+        "risk": "If you turn too late after the lapel is already fed, the turning motion can actually tighten the choke. Must be executed early."
+      },
+      {
+        "action": "Two-on-one grip fight to strip the lapel grip before it crosses your neck",
+        "when_to_use": "When you detect the attacker gripping your far lapel but before they have fully fed it across your neck - use both hands to attack their gripping hand",
+        "targets_outcome": "Side Control/Top",
+        "if_successful": "You break the lapel grip and return to standard side control bottom position where you can work normal escapes without choke threat",
+        "risk": "Using both hands for grip fighting temporarily removes your defensive frames, potentially allowing the attacker to advance position"
+      },
+      {
+        "action": "Bridge explosively while blocking the lapel feed with your far hand",
+        "when_to_use": "When the attacker begins feeding the lapel but has not yet secured deep positioning across your neck - combine bridge with active hand defense",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "The bridge disrupts the attacker's base and the hand block prevents the lapel from being seated deep enough to finish, creating space to recover guard",
+        "risk": "If bridge timing is off, you expend significant energy without escaping and the attacker reestablishes pressure with the lapel partially fed"
+      }
+    ],
+    "escape_paths": [
+      "Turn into the attacker to flatten the choking angle, recover to half guard or closed guard by inserting your knee between bodies during the turn",
+      "Strip the lapel grip with both hands, immediately frame against the attacker's chest, and hip escape to recover guard before they can re-grip",
+      "Bridge toward the attacker's head to off-balance them, then shrimp away to create enough space for knee insertion and guard recovery"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Turn into the attacker early before the lapel crosses your neck, insert your inside knee to establish half guard, then work standard half guard retention to prevent the attacker from re-establishing side control and reattempting the choke"
+      },
+      {
+        "outcome": "Side Control/Top",
+        "how": "Strip the lapel grip using two-on-one grip fighting before the choke is set, then use frames and hip escapes to work standard side control escapes back to guard without the added submission threat"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Ignoring the lapel grip and focusing only on positional escaping",
+        "consequence": "The attacker feeds the lapel across your neck while you attempt hip escapes, and the choke tightens as you move, making both escape and defense impossible simultaneously",
+        "correction": "Address the lapel grip as the first priority. Strip the grip or prevent the feed before attempting any positional escape. The choke threat must be neutralized before normal side control defense applies."
+      },
+      {
+        "error": "Tucking the chin as the primary defense against the lapel feed",
+        "consequence": "The Marce Choke targets the carotid arteries on the sides of the neck, not the trachea. Tucking your chin does not prevent the lapel from being seated against your carotids and provides a false sense of security",
+        "correction": "Use active hand fighting and turning to defend, not passive chin tucking. Your hands must fight the grip and your body must change angle to remove the perpendicular pressure needed for the choke."
+      },
+      {
+        "error": "Attempting to escape after the lapel is fully fed and pressure is being applied",
+        "consequence": "At this stage the choke is nearly locked, and movement typically tightens the noose effect rather than creating escape. You risk losing consciousness before completing any escape",
+        "correction": "If the lapel is fully seated and pressure is mounting, tap immediately. The Marce Choke reaches the point of no return quickly once all elements are in place. Defense must happen during setup, not during finishing."
+      },
+      {
+        "error": "Extending arms to push the attacker away instead of creating structural frames",
+        "consequence": "Extended arms are vulnerable to kimura and americana attacks, and pushing wastes energy without creating lasting space since the attacker simply returns to pressure",
+        "correction": "Use forearm frames against the attacker's chest and shoulder with elbows tight to your body. Structural frames based on bone alignment are sustainable and don't expose your arms to submissions."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that your opponent is setting up a Marce Choke, and what should your immediate response be?",
+        "answer": "The earliest cue is feeling the top player's hand closest to your head reaching across your neck toward your far lapel rather than maintaining normal side control grips. Your immediate response should be to use your far hand to block their reaching arm while simultaneously beginning to turn into them. The goal is to prevent the lapel grip from being established in the first place, as defense becomes exponentially harder once the lapel is across your neck. If you can deny the initial grip, the entire Marce Choke sequence is shut down.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is it critical to tap early when you recognize the Marce Choke is fully locked rather than fighting to escape?",
+        "answer": "Blood chokes like the Marce Choke can cause unconsciousness in as little as 3-8 seconds once full bilateral carotid compression is achieved. If the lapel is deeply fed across both sides of your neck, the attacker's body weight is driving perpendicular pressure, and you feel the choke tightening with each breath, you have very limited time before losing consciousness. Attempting a late escape at this point risks going unconscious before completing the escape, which is dangerous and prevents you from tapping. Tapping early preserves your safety, allows continued training, and reflects mature understanding of when defense has failed.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your opponent has partially fed the lapel across your neck but has not yet applied full finishing pressure - what is your best escape option?",
+        "answer": "With the lapel partially fed, your best option is aggressive two-on-one grip fighting to strip the lapel grip combined with an immediate turn into the attacker. Use both hands to grab their gripping wrist and peel it away from your collar while simultaneously bridging and turning your body to face them. The turn removes the perpendicular angle needed for finishing pressure, and stripping the grip eliminates the choking mechanism. You must act decisively in this window because once the attacker secures a deep grip and begins transitioning to north-south, your escape percentage drops dramatically.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is turning into the attacker more effective than shrimping away when defending the Marce Choke?",
+        "answer": "Shrimping away is ineffective against the Marce Choke because hip escaping laterally does not address the lapel across your neck - in fact, moving away can tighten the noose effect as the lapel stretches across a wider angle. Turning into the attacker is more effective because it collapses the perpendicular body angle that creates the choking pressure, brings your body parallel to theirs which eliminates the mechanical advantage, and allows you to insert your knee for guard recovery. The turn also brings you closer to the attacker's back, which may create a back take opportunity if they don't adjust.",
+        "safety_critical": false
+      },
+      {
+        "question": "What physical sensations indicate you need to tap immediately rather than continue fighting the Marce Choke?",
+        "answer": "You should tap immediately when you feel tightness on both sides of your neck simultaneously (bilateral carotid compression), your vision begins to narrow or darken (early signs of blood flow restriction to the brain), you feel a rushing sensation in your head, or your grip strength suddenly weakens during your defensive efforts. Any of these sensations indicate that the blood choke is effective and unconsciousness may follow within seconds. Do not wait until you feel lightheaded or disoriented, as by that point you may not have the motor control to tap effectively. Training yourself to recognize early warning signs and tap promptly is a critical safety skill.",
+        "safety_critical": true
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Drilling",
+        "focus": "Identifying the Marce Choke setup in real time",
+        "description": "Partner alternates between normal side control grips and Marce Choke setup grips while you practice identifying the difference through tactile feedback alone (eyes closed). When you feel the lapel reach, call it out verbally. Build automatic recognition of the setup cues before learning any defensive responses."
+      },
+      {
+        "phase": "Phase 2: Grip Defense",
+        "focus": "Preventing and stripping the lapel grip",
+        "description": "Partner attempts to access and feed your far lapel from side control while you practice blocking the reach, two-on-one grip stripping, and redirecting their gripping hand. Start with cooperative resistance and gradually increase to full resistance. Drill 30 repetitions per round for 4 rounds per session."
+      },
+      {
+        "phase": "Phase 3: Escape Integration",
+        "focus": "Combining grip defense with positional escapes",
+        "description": "Partner sets up the Marce Choke with moderate resistance while you practice the complete defensive sequence: recognize the setup, fight the grip, turn into the attacker, and recover guard. Practice from different stages of the setup - before grip, during feed, and after partial feed. Each stage requires different defensive timing."
+      },
+      {
+        "phase": "Phase 4: Live Defensive Sparring",
+        "focus": "Defending under full resistance with tap awareness",
+        "description": "Positional sparring starting from side control bottom where the top player specifically hunts the Marce Choke. Practice full defensive sequences against committed attacks. Develop comfort with tapping when defense fails and resetting to try again. Build the judgment to know when defense is still viable versus when tapping is the correct response."
+      }
+    ]
+  },
+  "variations_and_setups": [
+    {
+      "variation_name": "North-South Marce Choke",
+      "description": "From north-south position, feed the far lapel across their neck and drive your chest straight down into their face while maintaining the lapel grip. This variation often provides better leverage and makes it harder for the opponent to turn into you.",
+      "when_to_use": "When opponent is defending well from side control or when you naturally transition to north-south during scrambles. Particularly effective against opponents who are good at recovering guard from side control."
+    },
+    {
+      "variation_name": "Marce Choke from Knee on Belly",
+      "description": "Establish knee on belly position, then reach across to grip the far lapel. Feed it across their neck, then transition your knee to the mat and drive your chest down to finish. The knee on belly provides excellent control during the setup phase.",
+      "when_to_use": "Against opponents who react strongly to side control pressure by trying to turn in. Knee on belly gives you more mobility to follow their movement while setting up the choke."
+    },
+    {
+      "variation_name": "Modified Kesa Gatame Marce Choke",
+      "description": "From kesa gatame (scarf hold), reach across with your far hand to grip their far lapel, feed it across their neck, then use your near-side arm to control their head while your body weight drives the choke. Your head positioning is crucial - it should be low and tight to their head.",
+      "when_to_use": "When you have a strong scarf hold position established. This variation is particularly effective in gi competition as it combines positional control with submission threat."
+    }
+  ]
 }

@@ -93,19 +93,27 @@ From the top perspective, deep half guard presents a deceptive challenge - while
 ### Available Transitions
 
 
-- **[[Waiter Sweep]]** (15% of attempts)
+- **[[Waiter Sweep]]** (14% of attempts)
 
-- **[[Deep Half Entry]]** (14% of attempts)
+- **[[Old School Sweep]]** (41% of attempts)
 
-- **[[Old School Sweep]]** (17% of attempts)
+- **[[Rolling Back Take]]** (11% of attempts)
 
-- **[[Rolling Back Take]]** (14% of attempts)
+- **[[Electric Chair Submission]]** (6% of attempts)
 
-- **[[Electric Chair Submission]]** (11% of attempts)
+- **[[Underhook Sweep from Half]]** (9% of attempts)
 
-- **[[Underhook Sweep from Half]]** (15% of attempts)
+- **[[X-Guard Sweep]]** (10% of attempts)
 
-- **[[X-Guard Sweep]]** (14% of attempts)
+- **[[Single Leg X Entry]]** (6% of attempts)
+
+- **[[Deep Half Sweep]]** (2% of attempts)
+
+- **[[Deep Half to X-Guard]]** (0% of attempts)
+
+- **[[Electric Chair Entry from Deep Half]]** (0% of attempts)
+
+- **[[Homer Simpson Sweep]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -162,17 +170,23 @@ From the top perspective, deep half guard presents a deceptive challenge - while
 ### Available Transitions
 
 
-- **[[Crossface Pass]]** (18% of attempts)
+- **[[Crossface Pass]]** (26% of attempts)
 
-- **[[Knee Slice Pass]]** (17% of attempts)
+- **[[Knee Slice Pass]]** (10% of attempts)
 
 - **[[Smash Pass]]** (16% of attempts)
 
-- **[[Half Guard Pass]]** (19% of attempts)
+- **[[Half Guard Pass]]** (13% of attempts)
 
-- **[[Underhook Pass]]** (17% of attempts)
+- **[[Underhook Pass]]** (10% of attempts)
 
-- **[[Kimura from Half Guard]]** (13% of attempts)
+- **[[Kimura from Half Guard]]** (9% of attempts)
+
+- **[[Back Step Pass]]** (10% of attempts)
+
+- **[[Backstep from Deep Half]]** (4% of attempts)
+
+- **[[Whizzer from Deep Half]]** (2% of attempts)
 
 
 ### Common Mistakes

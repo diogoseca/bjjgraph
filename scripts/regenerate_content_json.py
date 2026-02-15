@@ -26,6 +26,8 @@ import subprocess
 import sys
 import time
 import re
+import threading
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from datetime import datetime
 from typing import Optional, Tuple, List, Dict, Any
@@ -53,8 +55,10 @@ LOGS_PATH = Path("logs/regenerate_json")
 CLAUDE_MODEL = "claude-opus-4-6"
 
 # =============================================================================
-# STATS
+# STATS (thread-safe)
 # =============================================================================
+_stats_lock = threading.Lock()
+_print_lock = threading.Lock()
 stats = {
     "processed": 0,
     "fixed": 0,
@@ -64,6 +68,23 @@ stats = {
     "retries": 0,
     "errors": []
 }
+
+
+def stats_inc(key, n=1):
+    with _stats_lock:
+        stats[key] += n
+
+
+def stats_append_error(msg):
+    with _stats_lock:
+        stats["errors"].append(msg)
+
+
+def tprint(*args, **kwargs):
+    """Thread-safe print."""
+    kwargs.setdefault("flush", True)
+    with _print_lock:
+        print(*args, **kwargs)
 
 # =============================================================================
 # TEMPLATE DETECTION (ported from bash)
@@ -232,7 +253,7 @@ def run_validation(file_path: Path) -> Tuple[bool, bool, list, list]:
         if category == "Unknown":
             return False, True, [f"Unknown category for {file_path}"], []
 
-        schema = load_schema(category, file_path if category == "Positions" else None)
+        schema = load_schema(category, file_path)
         errors, warnings, categories = _validate_json_file(file_path, schema, category)
 
         is_valid = len(errors) == 0
@@ -287,16 +308,26 @@ def get_template_content(category: str, template_type: str = None) -> str:
             "DUAL": "templates/Positions/TEMPLATE-POSITION-DUAL.json",
             "FAMILY": "templates/Positions/TEMPLATE-POSITION-FAMILY.json",
         },
-        "Transitions": "templates/Transitions.json",
-        "Submissions": "templates/Submissions.json",
+        "Transitions": {
+            "SINGLE": "templates/Transitions.json",
+            "DUAL": "templates/Transitions/TEMPLATE-TRANSITION.json",
+        },
+        "Submissions": {
+            "SINGLE": "templates/Submissions.json",
+            "DUAL": "templates/Submissions/TEMPLATE-SUBMISSION.json",
+        },
         "Principles": "templates/Principles.json",
         "Systems": "templates/Systems.json",
     }
 
     if category == "Positions" and template_type:
         template_path = Path(template_map["Positions"].get(template_type, template_map["Positions"]["DUAL"]))
+    elif category in ("Transitions", "Submissions"):
+        # Prefer DUAL (attacker/defender) schema for new content
+        t_type = template_type or "DUAL"
+        template_path = Path(template_map[category].get(t_type, template_map[category]["DUAL"]))
     else:
-        template_path = Path(template_map.get(category, template_map["Transitions"]))
+        template_path = Path(template_map.get(category, template_map["Transitions"]["SINGLE"]))
 
     try:
         with open(template_path, 'r') as f:
@@ -313,15 +344,24 @@ def get_template_path(category: str, template_type: str = None) -> Path:
             "DUAL": "templates/Positions/TEMPLATE-POSITION-DUAL.json",
             "FAMILY": "templates/Positions/TEMPLATE-POSITION-FAMILY.json",
         },
-        "Transitions": "templates/Transitions.json",
-        "Submissions": "templates/Submissions.json",
+        "Transitions": {
+            "SINGLE": "templates/Transitions.json",
+            "DUAL": "templates/Transitions/TEMPLATE-TRANSITION.json",
+        },
+        "Submissions": {
+            "SINGLE": "templates/Submissions.json",
+            "DUAL": "templates/Submissions/TEMPLATE-SUBMISSION.json",
+        },
         "Principles": "templates/Principles.json",
         "Systems": "templates/Systems.json",
     }
 
     if category == "Positions" and template_type:
         return Path(template_map["Positions"].get(template_type, template_map["Positions"]["DUAL"]))
-    return Path(template_map.get(category, template_map["Transitions"]))
+    elif category in ("Transitions", "Submissions"):
+        t_type = template_type or "DUAL"
+        return Path(template_map[category].get(t_type, template_map[category]["DUAL"]))
+    return Path(template_map.get(category, "templates/Transitions.json"))
 
 
 def resolve_schema_refs(schema: dict) -> dict:
@@ -1041,10 +1081,11 @@ def build_prompt(file_path: Path, data: dict, validation_errors: str, refs: Dict
 # CLAUDE INTERACTION
 # =============================================================================
 
-def call_claude(prompt: str, response_schema: dict, timeout: int = 300) -> Tuple[Optional[str], Optional[str]]:
-    """Call Claude CLI with Opus 4.5 and structured JSON output."""
+def call_claude(prompt: str, response_schema: dict, timeout: int = 600) -> Tuple[Optional[str], Optional[str]]:
+    """Call Claude CLI with structured JSON output."""
+    proc = None
     try:
-        result = subprocess.run(
+        proc = subprocess.Popen(
             [
                 "claude",
                 "-p", prompt,
@@ -1052,20 +1093,22 @@ def call_claude(prompt: str, response_schema: dict, timeout: int = 300) -> Tuple
                 "--output-format", "json",
                 "--json-schema", json.dumps(response_schema)
             ],
-            capture_output=True,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
             text=True,
-            timeout=timeout,
             cwd=Path.cwd()
         )
 
-        if result.returncode != 0:
-            return None, f"Claude CLI error: {result.stderr}"
+        stdout, stderr = proc.communicate(timeout=timeout)
+
+        if proc.returncode != 0:
+            return None, f"Claude CLI error: {stderr}"
 
         # --output-format json wraps response in {"type":"result","result":"...","structured_output":...}
         # When using --json-schema, the schema-constrained JSON is in "structured_output"
         # The "result" field contains plain text explanation
         try:
-            cli_output = json.loads(result.stdout)
+            cli_output = json.loads(stdout)
             # Check structured_output first (for --json-schema), fall back to result
             structured = cli_output.get("structured_output")
             if structured is not None:
@@ -1073,12 +1116,20 @@ def call_claude(prompt: str, response_schema: dict, timeout: int = 300) -> Tuple
                 if isinstance(structured, dict):
                     return json.dumps(structured), None
                 return structured, None
-            return cli_output.get("result", result.stdout.strip()), None
+            return cli_output.get("result", stdout.strip()), None
         except (json.JSONDecodeError, KeyError):
-            return result.stdout.strip(), None
+            return stdout.strip(), None
 
     except subprocess.TimeoutExpired:
+        if proc:
+            proc.kill()
+            proc.wait()
         return None, "Claude CLI timeout"
+    except KeyboardInterrupt:
+        if proc:
+            proc.kill()
+            proc.wait()
+        raise
     except FileNotFoundError:
         return None, "Claude CLI not found - ensure 'claude' is in PATH"
     except Exception as e:
@@ -1143,32 +1194,96 @@ def transition_exists(name: str, from_position: str, refs: Dict[str, List[str]])
 
 
 def create_transition_stub(name: str, from_position: str, to_position: str = None) -> dict:
-    """Create a minimal transition stub."""
+    """Create a minimal transition stub with attacker/defender structure."""
+    failure_pos = from_position if '/' in from_position else f"{from_position}/Top"
     return {
         "name": name,
-        "description": f"TODO: Add description for {name}",
-        "tags": ["TODO"],
+        "description": f"TODO: Add description for {name} - must be 140-180 characters for SEO meta description validation requirements here.",
+        "tags": ["bjj", "technique", "TODO"],
         "from_position": from_position,
         "outcomes": [
             {"to": to_position or "TODO", "probability": 70, "result": "success"},
-            {"to": from_position.split("/")[0] if "/" in from_position else from_position, "probability": 20, "result": "failure"},
+            {"to": failure_pos, "probability": 20, "result": "failure"},
             {"to": "TODO", "probability": 10, "result": "counter"}
         ],
-        "success_rates": {
-            "beginner": 30,
-            "intermediate": 50,
-            "advanced": 70
+        "success_rate": 50,
+        "overview": "TODO: Add overview - this field requires at least 400 characters of content describing the technique with strategic context, biomechanical principles, and positional integration. The overview should cover the fundamental purpose of the technique, when it is most effective, common setups, and how it fits into the broader BJJ positional hierarchy. Include information about risk/reward tradeoffs and typical scenarios where this technique is applied at different skill levels.",
+        "related_content": [
+            {"name": "TODO", "relationship": "TODO"},
+            {"name": "TODO", "relationship": "TODO"},
+            {"name": "TODO", "relationship": "TODO"}
+        ],
+        "attacker": {
+            "name": f"{name} Attacker",
+            "description": f"How to execute {name} in BJJ. Attacking perspective with setup, execution steps, and counters.",
+            "overview": "TODO - attacker overview must be at least 200 characters describing the technique from the perspective of the person executing it.",
+            "key_principles": ["TODO", "TODO", "TODO", "TODO", "TODO"],
+            "setup_requirements": ["TODO", "TODO", "TODO", "TODO"],
+            "execution_steps": [
+                {"step_number": 1, "action": "TODO", "description": "TODO - each step description must be at least 50 characters long for validation"},
+                {"step_number": 2, "action": "TODO", "description": "TODO - each step description must be at least 50 characters long for validation"},
+                {"step_number": 3, "action": "TODO", "description": "TODO - each step description must be at least 50 characters long for validation"},
+                {"step_number": 4, "action": "TODO", "description": "TODO - each step description must be at least 50 characters long for validation"},
+                {"step_number": 5, "action": "TODO", "description": "TODO - each step description must be at least 50 characters long for validation"},
+                {"step_number": 6, "action": "TODO", "description": "TODO - each step description must be at least 50 characters long for validation"}
+            ],
+            "common_counters": [
+                {"counter": "TODO", "effectiveness": "Medium", "targets_outcome": "TODO"},
+                {"counter": "TODO", "effectiveness": "Medium", "targets_outcome": "TODO"},
+                {"counter": "TODO", "effectiveness": "Medium", "targets_outcome": "TODO"}
+            ],
+            "common_errors": [
+                {"error": "TODO", "consequence": "TODO", "correction": "TODO"},
+                {"error": "TODO", "consequence": "TODO", "correction": "TODO"},
+                {"error": "TODO", "consequence": "TODO", "correction": "TODO"},
+                {"error": "TODO", "consequence": "TODO", "correction": "TODO"},
+                {"error": "TODO", "consequence": "TODO", "correction": "TODO"}
+            ],
+            "training_progressions": [
+                {"phase": "TODO", "focus": "TODO", "description": "TODO"},
+                {"phase": "TODO", "focus": "TODO", "description": "TODO"},
+                {"phase": "TODO", "focus": "TODO", "description": "TODO"},
+                {"phase": "TODO", "focus": "TODO", "description": "TODO"}
+            ],
+            "knowledge_assessment": [
+                {"question": "TODO?", "answer": "TODO - this answer needs at least fifty characters to pass validation"},
+                {"question": "TODO?", "answer": "TODO - this answer needs at least fifty characters to pass validation"},
+                {"question": "TODO?", "answer": "TODO - this answer needs at least fifty characters to pass validation"},
+                {"question": "TODO?", "answer": "TODO - this answer needs at least fifty characters to pass validation"},
+                {"question": "TODO?", "answer": "TODO - this answer needs at least fifty characters to pass validation"}
+            ],
+            "safety_considerations": "TODO: Add safety considerations - this field requires at least 100 characters describing safety precautions for this technique."
         },
-        "overview": "TODO: Add overview",
-        "key_principles": ["TODO"],
-        "setup_requirements": ["TODO"],
-        "execution_steps": ["TODO"],
-        "common_counters": [{"counter": "TODO", "response": "TODO"}],
-        "common_errors": [{"error": "TODO", "correction": "TODO"}],
-        "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
-        "safety_considerations": "TODO: Add safety considerations",
-        "position_integration": "TODO: Add position integration",
-        "related_content": []
+        "defender": {
+            "name": f"{name} Defender",
+            "description": f"How to defend against {name} in BJJ. Recognition cues, defensive options, and escape strategies.",
+            "overview": "TODO - defender overview must be at least 200 characters describing the technique from the perspective of the person defending against it.",
+            "key_principles": ["TODO", "TODO", "TODO", "TODO", "TODO"],
+            "recognition_cues": ["TODO", "TODO", "TODO"],
+            "defensive_options": [
+                {"action": "TODO", "when_to_use": "TODO", "targets_outcome": "TODO", "if_successful": "TODO", "risk": "TODO"},
+                {"action": "TODO", "when_to_use": "TODO", "targets_outcome": "TODO", "if_successful": "TODO", "risk": "TODO"},
+                {"action": "TODO", "when_to_use": "TODO", "targets_outcome": "TODO", "if_successful": "TODO", "risk": "TODO"}
+            ],
+            "favorable_outcomes": [
+                {"outcome": "TODO", "how": "TODO"}
+            ],
+            "common_errors": [
+                {"error": "TODO", "consequence": "TODO", "correction": "TODO"},
+                {"error": "TODO", "consequence": "TODO", "correction": "TODO"},
+                {"error": "TODO", "consequence": "TODO", "correction": "TODO"}
+            ],
+            "knowledge_assessment": [
+                {"question": "TODO?", "answer": "TODO - this answer needs at least fifty characters to pass validation"},
+                {"question": "TODO?", "answer": "TODO - this answer needs at least fifty characters to pass validation"},
+                {"question": "TODO?", "answer": "TODO - this answer needs at least fifty characters to pass validation"}
+            ],
+            "training_progressions": [
+                {"phase": "TODO", "focus": "TODO", "description": "TODO"},
+                {"phase": "TODO", "focus": "TODO", "description": "TODO"},
+                {"phase": "TODO", "focus": "TODO", "description": "TODO"}
+            ]
+        }
     }
 
 
@@ -1186,7 +1301,7 @@ def save_transition_stub(stub: dict) -> bool:
             f.write('\n')
         return True
     except Exception as e:
-        stats["errors"].append(f"Failed to save stub {name}: {e}")
+        stats_append_error(f"Failed to save stub {name}: {e}")
         return False
 
 
@@ -1200,7 +1315,7 @@ def load_json(path: Path) -> Optional[dict]:
         with open(path, 'r', encoding='utf-8') as f:
             return json.load(f)
     except Exception as e:
-        stats["errors"].append(f"Failed to load {path}: {e}")
+        stats_append_error(f"Failed to load {path}: {e}")
         return None
 
 
@@ -1212,23 +1327,24 @@ def save_json(path: Path, data: dict) -> bool:
             f.write('\n')
         return True
     except Exception as e:
-        stats["errors"].append(f"Failed to save {path}: {e}")
+        stats_append_error(f"Failed to save {path}: {e}")
         return False
 
 
 def process_file(file_path: Path, refs: Dict[str, List[str]], dry_run: bool = False,
-                 max_retries: int = 2, verbose: bool = False) -> dict:
+                 max_retries: int = 2, verbose: bool = False, label: str = "") -> dict:
     """Process a single file with severity-aware validation loop.
 
     Returns:
         dict with keys: outcome ("success"|"failed"|"skipped"), attempts (int), remaining_errors (list)
     """
+    tag = f"[{label}] " if label else "  "
     result_info = {"outcome": "failed", "attempts": 0, "remaining_errors": []}
 
     # Load file
     data = load_json(file_path)
     if not data:
-        stats["failed"] += 1
+        stats_inc("failed")
         return result_info
 
     category = detect_category(file_path)
@@ -1242,19 +1358,19 @@ def process_file(file_path: Path, refs: Dict[str, List[str]], dry_run: bool = Fa
 
     # Check if needs work
     if is_valid and not has_todos(data) and not needs_enrichment(data, category):
-        print(f"  SKIP: Already valid and complete", flush=True)
-        stats["skipped"] += 1
+        tprint(f"{tag}SKIP: Already valid and complete")
+        stats_inc("skipped")
         result_info["outcome"] = "skipped"
         return result_info
 
     # Show what we're fixing
     if verbose and all_errors:
         summary = "; ".join(all_errors[:3])
-        print(f"  Errors: {summary}", flush=True)
+        tprint(f"{tag}Errors: {summary}")
 
     if dry_run:
-        print(f"  [DRY RUN] Would call Claude to fix/enrich", flush=True)
-        stats["fixed"] += 1
+        tprint(f"{tag}[DRY RUN] Would call Claude to fix/enrich")
+        stats_inc("fixed")
         result_info["outcome"] = "success"
         return result_info
 
@@ -1274,30 +1390,30 @@ def process_file(file_path: Path, refs: Dict[str, List[str]], dry_run: bool = Fa
         result_info["attempts"] = attempt_num
 
         if attempt > 0:
-            print(f"  Retry {attempt}/{max_retries}...", flush=True)
-            stats["retries"] += 1
+            tprint(f"{tag}Retry {attempt}/{max_retries}...")
+            stats_inc("retries")
 
         # Call Claude
-        print(f"  Calling Claude ({CLAUDE_MODEL})...", flush=True)
+        tprint(f"{tag}Calling Claude ({CLAUDE_MODEL})...")
         response, error = call_claude(prompt, response_schema)
 
         if error:
-            stats["errors"].append(f"{file_path.name}: {error}")
-            print(f"  Attempt {attempt_num}: API error - {error}", flush=True)
+            stats_append_error(f"{file_path.name}: {error}")
+            tprint(f"{tag}Attempt {attempt_num}: API error - {error}")
             # Log API error for debugging
             LOGS_PATH.mkdir(parents=True, exist_ok=True)
             debug_path = LOGS_PATH / f"{file_path.stem}_attempt{attempt_num}_{datetime.now().strftime('%H%M%S')}.txt"
             with open(debug_path, 'w', encoding='utf-8') as f:
                 f.write(f"=== API Error ===\n{error}\n")
-            print(f"  Debug log: {debug_path}", flush=True)
+            tprint(f"{tag}Debug log: {debug_path}")
             continue
 
         # Extract JSON
         result, extract_error = extract_json_from_response(response)
 
         if extract_error:
-            stats["errors"].append(f"{file_path.name}: {extract_error}")
-            print(f"  Attempt {attempt_num}: JSON extraction failed", flush=True)
+            stats_append_error(f"{file_path.name}: {extract_error}")
+            tprint(f"{tag}Attempt {attempt_num}: JSON extraction failed")
             # Log failed response for debugging
             LOGS_PATH.mkdir(parents=True, exist_ok=True)
             debug_path = LOGS_PATH / f"{file_path.stem}_attempt{attempt_num}_{datetime.now().strftime('%H%M%S')}.txt"
@@ -1306,7 +1422,7 @@ def process_file(file_path: Path, refs: Dict[str, List[str]], dry_run: bool = Fa
                 f.write(f"=== Response Type ===\n{type(response)}\n\n")
                 f.write(f"=== Response Length ===\n{len(response) if response else 0}\n\n")
                 f.write(f"=== Raw Response ===\n{response}\n")
-            print(f"  Debug log: {debug_path}", flush=True)
+            tprint(f"{tag}Debug log: {debug_path}")
             continue
 
         # --- Aggressive repair (safety nets) ---
@@ -1321,30 +1437,28 @@ def process_file(file_path: Path, refs: Dict[str, List[str]], dry_run: bool = Fa
             try:
                 fixed_content = json.loads(fixed_content)
             except json.JSONDecodeError:
-                stats["errors"].append(f"{file_path.name}: fixed_content is unparseable string")
-                print(f"  Attempt {attempt_num}: fixed_content is unparseable string", flush=True)
-                # Log for debugging
+                stats_append_error(f"{file_path.name}: fixed_content is unparseable string")
+                tprint(f"{tag}Attempt {attempt_num}: fixed_content is unparseable string")
                 LOGS_PATH.mkdir(parents=True, exist_ok=True)
                 debug_path = LOGS_PATH / f"{file_path.stem}_attempt{attempt_num}_{datetime.now().strftime('%H%M%S')}.txt"
                 with open(debug_path, 'w', encoding='utf-8') as f:
                     f.write(f"=== Error ===\nfixed_content is unparseable string\n\n")
                     f.write(f"=== fixed_content (string) ===\n{fixed_content}\n\n")
                     f.write(f"=== Full result ===\n{json.dumps(result, indent=2)}\n")
-                print(f"  Debug log: {debug_path}", flush=True)
+                tprint(f"{tag}Debug log: {debug_path}")
                 continue
 
         # Safety net 3: Not a dict -> skip
         if not isinstance(fixed_content, dict):
-            stats["errors"].append(f"{file_path.name}: fixed_content is {type(fixed_content).__name__}, not dict")
-            print(f"  Attempt {attempt_num}: fixed_content is not a dict", flush=True)
-            # Log for debugging
+            stats_append_error(f"{file_path.name}: fixed_content is {type(fixed_content).__name__}, not dict")
+            tprint(f"{tag}Attempt {attempt_num}: fixed_content is not a dict")
             LOGS_PATH.mkdir(parents=True, exist_ok=True)
             debug_path = LOGS_PATH / f"{file_path.stem}_attempt{attempt_num}_{datetime.now().strftime('%H%M%S')}.txt"
             with open(debug_path, 'w', encoding='utf-8') as f:
                 f.write(f"=== Error ===\nfixed_content is {type(fixed_content).__name__}, not dict\n\n")
                 f.write(f"=== fixed_content ===\n{fixed_content}\n\n")
                 f.write(f"=== Full result ===\n{json.dumps(result, indent=2, default=str)}\n")
-            print(f"  Debug log: {debug_path}", flush=True)
+            tprint(f"{tag}Debug log: {debug_path}")
             continue
 
         # Safety net 4: Inject/correct name
@@ -1352,12 +1466,12 @@ def process_file(file_path: Path, refs: Dict[str, List[str]], dry_run: bool = Fa
         if "name" not in fixed_content:
             fixed_content["name"] = expected_name
         elif fixed_content["name"] != expected_name:
-            print(f"  Correcting name '{fixed_content['name']}' -> '{expected_name}'", flush=True)
+            tprint(f"{tag}Correcting name '{fixed_content['name']}' -> '{expected_name}'")
             fixed_content["name"] = expected_name
 
         # Save to disk
         if not save_json(file_path, fixed_content):
-            print(f"  Attempt {attempt_num}: Failed to save file", flush=True)
+            tprint(f"{tag}Attempt {attempt_num}: Failed to save file")
             continue
 
         # Validate with severity
@@ -1367,9 +1481,9 @@ def process_file(file_path: Path, refs: Dict[str, List[str]], dry_run: bool = Fa
             # Fully valid
             final_data = load_json(file_path)
             if final_data and has_todos(final_data):
-                print(f"  SUCCESS (with remaining TODOs)", flush=True)
+                tprint(f"{tag}SUCCESS (with remaining TODOs)")
             else:
-                print(f"  SUCCESS", flush=True)
+                tprint(f"{tag}SUCCESS")
 
             # Handle stub creation
             created_stubs = result.get("created_stubs", [])
@@ -1379,16 +1493,17 @@ def process_file(file_path: Path, refs: Dict[str, List[str]], dry_run: bool = Fa
                 if stub_name and not transition_exists(stub_name, from_pos, refs):
                     stub_content = stub_info.get("content", create_transition_stub(stub_name, from_pos))
                     if save_transition_stub(stub_content):
-                        print(f"  Created stub: {stub_name}", flush=True)
-                        stats["stubs_created"] += 1
-                        refs["transitions"].append(stub_name)
+                        tprint(f"{tag}Created stub: {stub_name}")
+                        stats_inc("stubs_created")
+                        with _stats_lock:
+                            refs["transitions"].append(stub_name)
 
             # Log changes
             changes = result.get("changes_summary", [])
             if changes and verbose:
-                print(f"  Changes: {', '.join(changes[:3])}", flush=True)
+                tprint(f"{tag}Changes: {', '.join(changes[:3])}")
 
-            stats["fixed"] += 1
+            stats_inc("fixed")
             result_info["outcome"] = "success"
             result_info["remaining_errors"] = []
             return result_info
@@ -1397,8 +1512,8 @@ def process_file(file_path: Path, refs: Dict[str, List[str]], dry_run: bool = Fa
             # Blocking errors: revert file to pre-attempt state, retry
             save_json(file_path, current_data)
             error_summary = "; ".join(blocking_errs[:3])
-            print(f"  {len(blocking_errs)} blocking errors: {error_summary}", flush=True)
-            print(f"  Reverted. Retrying...", flush=True)
+            tprint(f"{tag}{len(blocking_errs)} blocking errors: {error_summary}")
+            tprint(f"{tag}Reverted. Retrying...")
             # Rebuild prompt with failed attempt + errors for retry
             all_retry_errors = blocking_errs + non_blocking_errs
             validation_summary = "\n".join(f"- {e}" for e in all_retry_errors)
@@ -1408,7 +1523,7 @@ def process_file(file_path: Path, refs: Dict[str, List[str]], dry_run: bool = Fa
 
         # Only non-blocking errors: file saved (structurally sound), update current_data, keep retrying
         current_data = copy.deepcopy(fixed_content)
-        print(f"  Saved ({len(non_blocking_errs)} non-blocking errors). Retrying for links...", flush=True)
+        tprint(f"{tag}Saved ({len(non_blocking_errs)} non-blocking errors). Retrying for links...")
         # Rebuild prompt with saved content + errors
         validation_summary = "\n".join(f"- {e}" for e in non_blocking_errs)
         prompt = build_prompt(file_path, fixed_content, validation_summary, refs)
@@ -1419,15 +1534,15 @@ def process_file(file_path: Path, refs: Dict[str, List[str]], dry_run: bool = Fa
     remaining = blocking_errs + non_blocking_errs
     result_info["remaining_errors"] = remaining
 
-    print(f"  FAILED after {max_retries + 1} attempts.", flush=True)
+    tprint(f"{tag}FAILED after {max_retries + 1} attempts.")
     if remaining:
-        print(f"  Remaining errors ({len(remaining)}):", flush=True)
+        tprint(f"{tag}Remaining errors ({len(remaining)}):")
         for err in remaining[:5]:
-            print(f"    - {err}", flush=True)
+            tprint(f"{tag}  - {err}")
         if len(remaining) > 5:
-            print(f"    ... +{len(remaining) - 5} more", flush=True)
+            tprint(f"{tag}  ... +{len(remaining) - 5} more")
 
-    stats["failed"] += 1
+    stats_inc("failed")
     return result_info
 
 
@@ -1520,6 +1635,8 @@ Examples:
                        help="Show what would be done without calling Claude")
     parser.add_argument("--batch", "-b", action="store_true",
                        help="Batch mode: process files without waiting (for CI/regenerate)")
+    parser.add_argument("--parallel", "-p", type=int, default=1,
+                       help="Number of parallel workers (default: 1, use with --batch)")
     parser.add_argument("--verbose", "-v", action="store_true",
                        help="Verbose output")
 
@@ -1532,7 +1649,8 @@ BJJ Graph Unified Content Fixer
 {'=' * 70}
 Mode: {'SINGLE FILE' if args.file else 'QUEUE'}
 Model: {CLAUDE_MODEL}
-{'File: ' + args.file if args.file else f'Interval: {args.interval}s ({86400 // args.interval} files/day)'}
+{'File: ' + args.file if args.file else ('Batch: no delay' if args.batch else f'Interval: {args.interval}s ({86400 // args.interval} files/day)')}
+Parallel: {args.parallel} worker{'s' if args.parallel > 1 else ''}
 Category: {args.category}
 Dry Run: {args.dry_run}
 {'=' * 70}
@@ -1591,20 +1709,51 @@ Domain-specific prompts:
             files = files[:args.max_files]
 
         # Process files
-        for i, file_path in enumerate(files):
-            print(f"\n[{i+1}/{len(files)}] {file_path.relative_to(CONTENT_PATH)}", flush=True)
-            stats["processed"] += 1
+        if args.parallel > 1 and args.batch:
+            # Parallel processing with thread pool
+            tprint(f"Processing with {args.parallel} parallel workers...\n")
 
-            file_result = process_file(file_path, refs, args.dry_run, args.max_retries, args.verbose)
-            run_summary["files"].append({"file": str(file_path), **file_result})
+            def _worker(idx_path):
+                idx, fp = idx_path
+                label = f"{idx+1}/{len(files)}"
+                tprint(f"\n[{label}] {fp.relative_to(CONTENT_PATH)}")
+                stats_inc("processed")
+                result = process_file(fp, refs, args.dry_run, args.max_retries, args.verbose, label=label)
+                return {"file": str(fp), **result}
 
-            # Wait between files (skip in batch mode)
-            if i < len(files) - 1 and not args.dry_run and not args.batch:
-                print(f"\nWaiting {args.interval}s before next file...", flush=True)
-                time.sleep(args.interval)
+            try:
+                with ThreadPoolExecutor(max_workers=args.parallel) as pool:
+                    futures = {pool.submit(_worker, (i, fp)): i for i, fp in enumerate(files)}
+                    for future in as_completed(futures):
+                        try:
+                            run_summary["files"].append(future.result())
+                        except KeyboardInterrupt:
+                            raise
+                        except Exception as e:
+                            stats_inc("failed")
+                            stats_append_error(f"Worker exception: {e}")
+            except KeyboardInterrupt:
+                tprint(f"\n\nInterrupted. Waiting for in-flight workers to finish...")
+        else:
+            # Sequential processing
+            try:
+                for i, file_path in enumerate(files):
+                    tprint(f"\n[{i+1}/{len(files)}] {file_path.relative_to(CONTENT_PATH)}")
+                    stats_inc("processed")
+
+                    file_result = process_file(file_path, refs, args.dry_run, args.max_retries, args.verbose,
+                                               label=f"{i+1}/{len(files)}")
+                    run_summary["files"].append({"file": str(file_path), **file_result})
+
+                    # Wait between files (skip in batch mode)
+                    if i < len(files) - 1 and not args.dry_run and not args.batch:
+                        tprint(f"\nWaiting {args.interval}s before next file...")
+                        time.sleep(args.interval)
+            except KeyboardInterrupt:
+                tprint(f"\n\nInterrupted after {i+1}/{len(files)} files.")
 
     # Summary
-    print(f"""
+    tprint(f"""
 {'=' * 70}
 SUMMARY
 {'=' * 70}
@@ -1615,14 +1764,14 @@ Failed:    {stats['failed']}
 Retries:   {stats['retries']}
 Stubs:     {stats['stubs_created']}
 Errors:    {len(stats['errors'])}
-""", flush=True)
+""")
 
     if stats["errors"]:
-        print("Errors:", flush=True)
+        tprint("Errors:")
         for e in stats["errors"][:10]:
-            print(f"  - {e}", flush=True)
+            tprint(f"  - {e}")
         if len(stats["errors"]) > 10:
-            print(f"  ... and {len(stats['errors']) - 10} more", flush=True)
+            tprint(f"  ... and {len(stats['errors']) - 10} more")
 
     # Write run-level summary log
     if stats["processed"] > 0 and not args.dry_run:

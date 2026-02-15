@@ -90,21 +90,37 @@ Understanding Lasso Guard requires appreciation for both its strengths and limit
 ### Available Transitions
 
 
-- **[[Lasso Guard Sweeps]]** (25% of attempts)
+- **[[Sickle Sweep]]** (60% of attempts)
 
-- **[[Triangle Setup]]** (18% of attempts)
+- **[[Triangle Setup]]** (13% of attempts)
 
-- **[[Omoplata Sweep]]** (15% of attempts)
+- **[[Omoplata Sweep]]** (10% of attempts)
 
-- **[[De La Riva Sweep]]** (12% of attempts)
+- **[[De La Riva Sweep]]** (7% of attempts)
 
-- **[[Spider Guard Sweeps]]** (10% of attempts)
+- **[[Hook Sweep]]** (5% of attempts)
 
-- **[[X-Guard Sweep]]** (8% of attempts)
+- **[[X-Guard Sweep]]** (3% of attempts)
 
-- **[[Armbar from Guard]]** (7% of attempts)
+- **[[Armbar Finish]]** (0% of attempts)
 
-- **[[Kimura from Guard]]** (5% of attempts)
+- **[[Kimura Sweep]]** (0% of attempts)
+
+- **[[Transition to Russian Leg Lasso]]** (0% of attempts)
+
+- **[[Transition to Inverted Lasso Guard]]** (1% of attempts)
+
+- **[[Berimbolo Entry]]** (0% of attempts)
+
+- **[[Guard Recovery]]** (0% of attempts)
+
+- **[[Lasso Guard to Inverted Lasso Guard]]** (0% of attempts)
+
+- **[[Lasso Guard to Russian Leg Lasso]]** (0% of attempts)
+
+- **[[Lasso Sweep]]** (0% of attempts)
+
+- **[[Omoplata from Lasso]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -163,21 +179,29 @@ Understanding Lasso Guard requires appreciation for both its strengths and limit
 ### Available Transitions
 
 
-- **[[Lasso Guard Pass]]** (20% of attempts)
+- **[[Lasso Guard Pass]]** (15% of attempts)
 
-- **[[Stack Pass]]** (12% of attempts)
+- **[[Stack Pass]]** (10% of attempts)
 
-- **[[Knee Cut Pass]]** (18% of attempts)
+- **[[Knee Cut Pass]]** (34% of attempts)
 
-- **[[Smash Pass]]** (12% of attempts)
+- **[[Smash Pass]]** (8% of attempts)
 
-- **[[Toreando Pass]]** (15% of attempts)
+- **[[Toreando Pass]]** (8% of attempts)
 
-- **[[Long Step Pass]]** (8% of attempts)
+- **[[Long Step Pass]]** (3% of attempts)
 
-- **[[Leg Weave Pass]]** (10% of attempts)
+- **[[Leg Weave Pass]]** (8% of attempts)
 
-- **[[Kimura from Standing]]** (5% of attempts)
+- **[[Kimura]]** (3% of attempts)
+
+- **[[Body Lock Pass]]** (6% of attempts)
+
+- **[[Spider Guard Pass]]** (3% of attempts)
+
+- **[[Lasso Guard Backstep Pass]]** (1% of attempts)
+
+- **[[Lasso Guard Stack Pass]]** (1% of attempts)
 
 
 ### Common Mistakes

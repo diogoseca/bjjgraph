@@ -12,7 +12,7 @@
   ],
   "system_type": "Attack System",
   "difficulty_level": "Advanced",
-  "overview": "The Garry Tonon Leg Lock to Back System represents one of the most sophisticated attack frameworks in modern no-gi Brazilian Jiu-Jitsu. This system creates a continuous threat cycle between lower body submissions and back control, forcing opponents into a constant state of defensive decision-making. When an opponent defends the leg attack, they expose pathways to the back. When they defend the back attack, they expose the legs again. The system is built on the principle that no position is terminal—every defensive movement creates an offensive opportunity. Tonon developed this approach through years of high-level competition, recognizing that opponents who successfully defend one attack category often do so by compromising their defense in another area. The beauty of this system lies in its adaptability: it works from standing exchanges, guard passing scenarios, and scrambles. Rather than viewing leg locks and back attacks as separate skillsets, this framework treats them as interconnected components of a unified offensive strategy. Practitioners learn to flow seamlessly between ashi garami variations, truck positions, and back control, maintaining offensive pressure regardless of which position they occupy.",
+  "overview": "The Garry Tonon Leg Lock to Back System represents one of the most sophisticated attack frameworks in modern no-gi Brazilian Jiu-Jitsu. This system creates a continuous threat cycle between lower body submissions and back control, forcing opponents into a constant state of defensive decision-making. When an opponent defends the leg attack, they expose pathways to the back. When they defend the back attack, they expose the legs again. The system is built on the principle that no position is terminal\u2014every defensive movement creates an offensive opportunity. Tonon developed this approach through years of high-level competition, recognizing that opponents who successfully defend one attack category often do so by compromising their defense in another area. The beauty of this system lies in its adaptability: it works from standing exchanges, guard passing scenarios, and scrambles. Rather than viewing leg locks and back attacks as separate skillsets, this framework treats them as interconnected components of a unified offensive strategy. Practitioners learn to flow seamlessly between ashi garami variations, truck positions, and back control, maintaining offensive pressure regardless of which position they occupy.",
   "key_principles": [
     "Attack cycling between lower body submissions and back control creates inescapable dilemmas",
     "Defensive movements against leg locks naturally expose back taking opportunities",
@@ -128,7 +128,7 @@
     },
     {
       "obstacle": "Insufficient finishing rate on individual submissions reduces system effectiveness as opponents become comfortable defending without consequence",
-      "solution": "Dedicate separate training time to isolated submission finishing mechanics. The system's transitions require legitimate submission threats—if opponents don't fear the finish, they won't make defensive movements that expose transitions."
+      "solution": "Dedicate separate training time to isolated submission finishing mechanics. The system's transitions require legitimate submission threats\u2014if opponents don't fear the finish, they won't make defensive movements that expose transitions."
     },
     {
       "obstacle": "Over-committing to one attack category allows opponent to specialize their defense and escape the system's dilemma structure",
@@ -182,7 +182,7 @@
     }
   ],
   "training_methodology": {
-    "drilling_approach": "The system requires both isolated component drilling and integrated flow training. Begin each session with 10-15 minutes of specific submission finishing mechanics from static positions—heel hooks from saddle, rear naked choke from back control, etc. Follow with transitional drilling where partner provides specific defensive responses: heel hook defense via forward turn, back escape via granby roll, etc. Practice the designated transition pathway 5-10 repetitions per side before switching defensive scenarios. Conclude with 15-20 minute flow rounds where you maintain the system's positions and transitions while partner provides 30-50% resistance, focusing on smooth transitions rather than submission finishes. This progression from static to dynamic training ensures both technical precision and adaptive flow development.",
+    "drilling_approach": "The system requires both isolated component drilling and integrated flow training. Begin each session with 10-15 minutes of specific submission finishing mechanics from static positions\u2014heel hooks from saddle, rear naked choke from back control, etc. Follow with transitional drilling where partner provides specific defensive responses: heel hook defense via forward turn, back escape via granby roll, etc. Practice the designated transition pathway 5-10 repetitions per side before switching defensive scenarios. Conclude with 15-20 minute flow rounds where you maintain the system's positions and transitions while partner provides 30-50% resistance, focusing on smooth transitions rather than submission finishes. This progression from static to dynamic training ensures both technical precision and adaptive flow development.",
     "progression_path": [
       {
         "stage": "Foundation Development",
@@ -297,7 +297,7 @@
       "relationship": "Back attack entry when opponent uses turtle as intermediate defensive position"
     },
     {
-      "name": "Back Take Generic",
+      "name": "Back Take",
       "content_type": "Transition",
       "relationship": "Collection of back taking methods utilized throughout system implementation"
     },

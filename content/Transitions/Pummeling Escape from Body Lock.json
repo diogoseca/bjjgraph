@@ -1,0 +1,13 @@
+{
+  "name": "Pummeling Escape from Body Lock",
+  "description": "",
+  "tags": [],
+  "from_position": "Body Lock/Bottom",
+  "outcomes": [
+    {
+      "to": "Standing Position/Top",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

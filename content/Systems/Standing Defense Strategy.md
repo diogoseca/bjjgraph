@@ -346,13 +346,12 @@ Standing defense training should integrate technical drilling, reaction training
 - [[Double Leg Entry]] (Transition) - Common attack this system defends against
 - [[Grip Break]] (Transition) - Essential technique within grip fighting framework
 - [[Whizzer]] (Transition) - Defensive control used in sprawl defense protocol
-- [[Technical Standup]] (Transition) - Offensive transition to return to standing when taken down
-- [[Snap Down]] (Transition) - Counter-offensive technique from standing defense exchanges
+- [[Technical Stand-up]] (Transition) - Offensive transition to return to standing when taken down
+- [[Snap Down to Front Headlock]] (Transition) - Counter-offensive technique from standing defense exchanges
 - [[Base Maintenance]] (Principle) - Fundamental principle for maintaining structural stability in standing defense
 - [[Defensive Posture]] (Principle) - Postural principles applied throughout standing defensive exchanges
 - [[Grip Fighting]] (Principle) - Essential skill for preventing takedown setups and controlling engagement
 - [[Distance Creation]] (Principle) - Strategic principle for controlling engagement distance
-- [[Hand Fighting]] (Principle) - Tactical hand fighting principles used in grip fighting component
 - [[Defensive Strategy]] (Principle) - Overarching strategic framework for defensive decision-making
 - [[Weight Distribution]] (Principle) - Biomechanical principle for maintaining balance and base in standing
 - [[Risk Assessment]] (Principle) - Decision-making framework for evaluating when to defend vs pull guard

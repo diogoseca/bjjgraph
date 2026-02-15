@@ -341,7 +341,6 @@ The Lachlan Giles framework emphasizes progressive resistance drilling that buil
 - [[Defensive Strategy]] (Principle) - Overarching strategic framework that informs all defensive decision-making
 - [[Submission Defense]] (Principle) - General defensive principles that apply specifically to leg lock scenarios
 - [[Leg Entanglement]] (Principle) - Core concept underlying understanding of how legs become trapped and controlled
-- [[Hip Movement]] (Principle) - Fundamental movement principle critical to maintaining proper hip alignment
 - [[Frame Creation]] (Principle) - Defensive framing concepts applied to preventing leg entanglement and maintaining escape pathways
 - [[Guard Retention]] (Principle) - Integration of guard retention principles with leg entanglement prevention strategies
 - [[Position-Over-Submission Approach]] (Principle) - Strategic philosophy emphasizing positional escape before attempting counter-attacks

@@ -44,18 +44,25 @@ REFERENCE_FIELDS = {
     "Transitions": {
         "starting_position": ["direct"],
         "ending_position": ["direct"],
-        "from_position": ["direct"],  # New: role-based format (e.g., "Mount/Bottom")
+        "from_position": ["direct"],  # Role-based format (e.g., "Mount/Bottom")
         "related_content": ["name"],
-        # New: outcomes array with position references
-        "outcomes": ["to"]
+        "outcomes": ["to"],
+        # Attacker/Defender role references
+        "attacker.common_counters": ["targets_outcome"],
+        "defender.defensive_options": ["targets_outcome"],
+        "defender.favorable_outcomes": ["outcome"]
     },
     "Submissions": {
         "starting_position": ["direct"],
         "from_positions": ["direct"],
-        "from_position": ["direct"],   # New: role-based format (e.g., "Mount/Top")
-        "outcomes": ["to"],            # New: outcomes position refs
+        "from_position": ["direct"],   # Role-based format (e.g., "Mount/Top")
+        "outcomes": ["to"],
         "related_submissions": ["direct"],
-        "related_content": ["name"]
+        "related_content": ["name"],
+        # Attacker/Defender role references
+        "attacker.common_counters": ["targets_outcome"],
+        "defender.defensive_options": ["targets_outcome"],
+        "defender.favorable_outcomes": ["outcome"]
     },
     "Principles": {
         "principle_relationships": ["principle_name"],
@@ -126,17 +133,16 @@ def extract_references_from_field(data, field_path, field_config):
 def normalize_reference(ref):
     """Normalize a reference to (category, name) tuple.
 
-    Handles two formats:
+    Handles formats:
     - Category/Name: e.g., "Positions/Mount" -> (category="Positions", name="Mount")
     - Position/Role: e.g., "Mount/Top" -> (category=None, name="Mount")
-      Role suffixes "Top" and "Bottom" indicate Position/Role format,
-      not Category/Name format.
+      Role suffixes "Top", "Bottom", "Attacker", "Defender" indicate Position/Role format.
     """
     if "/" in ref:
         parts = ref.split("/", 1)
-        # Check if this is Position/Role format (e.g., "Mount/Top", "Closed Guard/Bottom")
-        # The second part being "Top" or "Bottom" means it's a role, not a filename
-        if parts[1] in ('Top', 'Bottom'):
+        # Check if this is Position/Role format
+        # Role suffixes indicate the format, not Category/Name
+        if parts[1] in ('Top', 'Bottom', 'Attacker', 'Defender'):
             return (None, parts[0])
         return (parts[0], parts[1])
 
@@ -170,6 +176,10 @@ def validate_references(data, category, path=""):
         for ref in references:
             # Skip special terminal state references
             if isinstance(ref, str) and ref.lower() in {'game-over', 'won by submission', 'lost by submission'}:
+                continue
+
+            # Skip TODO placeholders
+            if isinstance(ref, str) and ref.strip().upper() == 'TODO':
                 continue
 
             # Normalize reference
@@ -245,6 +255,18 @@ def detect_position_template_type(json_file):
         # Folder without .json files = DUAL (just .md files)
         return 'DUAL'
 
+def detect_transition_template_type(json_file):
+    """Detect if a Transition/Submission uses DUAL (attacker/defender) or SINGLE (legacy) structure."""
+    try:
+        with open(json_file, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        if 'attacker' in data and 'defender' in data:
+            return 'DUAL'
+    except (json.JSONDecodeError, FileNotFoundError):
+        pass
+    return 'SINGLE'
+
+
 def load_schema(category_name, json_file=None):
     """Load TEMPLATE.json schema for category from templates/"""
     # For Positions, detect which template to use
@@ -254,6 +276,18 @@ def load_schema(category_name, json_file=None):
 
         template_type = detect_position_template_type(json_file)
         schema_path = Path(f"templates/Positions/TEMPLATE-POSITION-{template_type}.json")
+    elif category_name in ("Transitions", "Submissions"):
+        # Check if file uses new attacker/defender structure
+        if json_file:
+            template_type = detect_transition_template_type(json_file)
+        else:
+            template_type = 'SINGLE'
+
+        if template_type == 'DUAL':
+            schema_name = "TEMPLATE-TRANSITION.json" if category_name == "Transitions" else "TEMPLATE-SUBMISSION.json"
+            schema_path = Path(f"templates/{category_name}/{schema_name}")
+        else:
+            schema_path = Path("templates") / f"{category_name}.json"
     else:
         # Other categories use flat structure
         schema_path = Path("templates") / f"{category_name}.json"
@@ -554,6 +588,63 @@ def validate_role_consistency(data, category, path=""):
     return errors
 
 
+def validate_targets_outcome(data, category, path=""):
+    """Validate that targets_outcome values in attacker/defender match outcomes[].to values.
+
+    For files with attacker/defender structure, checks:
+    - attacker.common_counters[].targets_outcome must be in outcomes[].to
+    - defender.defensive_options[].targets_outcome must be in outcomes[].to
+    - defender.favorable_outcomes[].outcome must be in outcomes[].to
+    """
+    errors = []
+
+    if category not in ("Transitions", "Submissions"):
+        return errors
+
+    if 'attacker' not in data or 'defender' not in data:
+        return errors
+
+    # Build set of valid outcome targets
+    valid_targets = set()
+    for outcome in data.get('outcomes', []):
+        to_val = outcome.get('to', '')
+        if to_val:
+            valid_targets.add(to_val)
+
+    # Skip validation if all targets are TODO
+    if valid_targets == {'TODO'} or not valid_targets:
+        return errors
+
+    # Check attacker.common_counters[].targets_outcome
+    for i, counter in enumerate(data.get('attacker', {}).get('common_counters', [])):
+        target = counter.get('targets_outcome', '')
+        if target and target != 'TODO' and target not in valid_targets:
+            errors.append(
+                f"{path}attacker.common_counters[{i}].targets_outcome: "
+                f"'{target}' not found in outcomes[].to"
+            )
+
+    # Check defender.defensive_options[].targets_outcome
+    for i, option in enumerate(data.get('defender', {}).get('defensive_options', [])):
+        target = option.get('targets_outcome', '')
+        if target and target != 'TODO' and target not in valid_targets:
+            errors.append(
+                f"{path}defender.defensive_options[{i}].targets_outcome: "
+                f"'{target}' not found in outcomes[].to"
+            )
+
+    # Check defender.favorable_outcomes[].outcome
+    for i, fav in enumerate(data.get('defender', {}).get('favorable_outcomes', [])):
+        target = fav.get('outcome', '')
+        if target and target != 'TODO' and target not in valid_targets:
+            errors.append(
+                f"{path}defender.favorable_outcomes[{i}].outcome: "
+                f"'{target}' not found in outcomes[].to"
+            )
+
+    return errors
+
+
 def validate_name_matches_filename(data, json_file_path, category):
     """Validate that name field matches filename"""
     errors = []
@@ -741,6 +832,12 @@ def validate_json_file(json_path, schema, category, strict=False):
                 err = f"{json_path.name}:from_position: Role '{parts[1]}' not valid. Must be Top or Bottom"
                 errors.append(err)
                 categories["non_blocking"].append(err)
+
+    # Validate targets_outcome consistency for attacker/defender files
+    if category in ("Transitions", "Submissions") and isinstance(data, dict):
+        target_errors = validate_targets_outcome(data, category, json_path.name + ":")
+        errors.extend(target_errors)
+        categories["non_blocking"].extend(target_errors)
 
     return errors, warnings, categories
 

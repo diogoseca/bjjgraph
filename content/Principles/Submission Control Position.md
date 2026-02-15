@@ -370,7 +370,7 @@ Practice flowing between related submissions with emphasis on maintaining consis
 - [[Control Maintenance]] (Principle) - General control principle that applies specifically to submission scenarios
 - [[Escape Hierarchy]] (Principle) - Understanding defensive escape priorities informs which routes to block during submission control
 - [[Rear Naked Choke]] (Submission) - High-percentage submission requiring excellent back control throughout finishing sequence
-- [[Armbar Finish]] (Submission) - Common submission demonstrating importance of control during extension phase
+- [[Armbar from Guard]] (Submission) - Common submission demonstrating importance of control during extension phase
 
 
 </section>

@@ -43,8 +43,8 @@
       "relationship": "Alternative entanglement with different mechanical properties"
     },
     {
-      "name": "Straight Ankle Lock Control",
-      "relationship": "Lower-risk leg attack position with different finishing mechanics"
+      "name": "Backside 50-50",
+      "relationship": "Related entanglement offering outside heel hook opportunities"
     }
   ],
   "top": {
@@ -139,13 +139,13 @@
         "condition": "Opponent's heel is fully exposed and you have established figure-four grip",
         "actions": [
           {
-            "technique": "Inside Heel Hook",
-            "target": "game-over",
+            "technique": "Heel Hook",
+            "target": "Game Over",
             "probability": 80
           },
           {
             "technique": "Outside Heel Hook",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 20
           }
         ]
@@ -154,13 +154,13 @@
         "condition": "Opponent is hiding heel by rotating knee inward",
         "actions": [
           {
-            "technique": "Straight Ankle Lock",
-            "target": "game-over",
+            "technique": "Straight Ankle Lock Entry",
+            "target": "Game Over",
             "probability": 60
           },
           {
             "technique": "Toe Hold",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 40
           }
         ]
@@ -189,12 +189,12 @@
             "probability": 50
           },
           {
-            "technique": "Transition to Outside Ashi-Garami",
-            "target": "Outside Ashi-Garami",
+            "technique": "Cross Ashi Transition",
+            "target": "Cross Ashi-Garami",
             "probability": 35
           },
           {
-            "technique": "Elevate to 50-50",
+            "technique": "Counter-entangle to 50-50 Guard",
             "target": "50-50 Guard",
             "probability": 15
           }
@@ -205,7 +205,7 @@
       {
         "error": "Attempting to finish heel hook before establishing optimal control position",
         "consequence": "Opponent escapes by creating space or rotating away during your attack",
-        "correction": "Follow systematic hierarchy: perpendicular alignment → hip pressure → inside position → grip establishment → clearing frames → finish"
+        "correction": "Follow systematic hierarchy: perpendicular alignment, hip pressure, inside position, grip establishment, clearing frames, then finish"
       },
       {
         "error": "Losing inside position by allowing opponent to turn into you",
@@ -231,7 +231,7 @@
     "training_drills": [
       {
         "name": "Saddle Entry Progression Drill",
-        "description": "Start from Outside Ashi-Garami, Inside Ashi-Garami, 50-50, and Single Leg X. Practice systematic entries to Saddle with partner providing graduated resistance (none → light → moderate → full).",
+        "description": "Start from Outside Ashi-Garami, Inside Ashi-Garami, 50-50, and Single Leg X. Practice systematic entries to Saddle with partner providing graduated resistance (none, light, moderate, full).",
         "duration": "5 minutes"
       },
       {
@@ -241,7 +241,7 @@
       },
       {
         "name": "Submission Chain Flow",
-        "description": "Start with optimal Saddle control. Partner defends heel → attack straight ankle lock. Partner defends ankle → reattack heel. Flow between submissions based on opponent's defensive reactions.",
+        "description": "Start with optimal Saddle control. Partner defends heel then attack straight ankle lock. Partner defends ankle then reattack heel. Flow between submissions based on opponent's defensive reactions.",
         "duration": "3 minutes"
       },
       {
@@ -301,36 +301,56 @@
     },
     "transitions": [
       {
-        "transition": "Inside Heel Hook",
-        "attempt_probability": 27
+        "transition": "Heel Hook",
+        "attempt_probability": 54
       },
       {
         "transition": "Outside Heel Hook",
-        "attempt_probability": 13
+        "attempt_probability": 2
       },
       {
-        "transition": "Straight Ankle Lock",
-        "attempt_probability": 14
-      },
-      {
-        "transition": "Toe Hold",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Kneebar",
+        "transition": "Straight Ankle Lock Entry",
         "attempt_probability": 11
       },
       {
+        "transition": "Toe Hold",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Kneebar",
+        "attempt_probability": 2
+      },
+      {
         "transition": "Back Take from Ashi",
-        "attempt_probability": 10
+        "attempt_probability": 7
       },
       {
-        "transition": "Position Change",
-        "attempt_probability": 8
-      },
-      {
-        "transition": "Counter-entangle to 50-50 Guard",
+        "transition": "Cross Ashi Transition",
         "attempt_probability": 5
+      },
+      {
+        "transition": "Transition to Backside 50-50",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Calf Slicer",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Estima Lock",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Fallback to Inside Ashi-Garami",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Heel Hook from Saddle",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Saddle Fallback to Inside Ashi",
+        "attempt_probability": 1
       }
     ]
   },
@@ -411,7 +431,7 @@
         "actions": [
           {
             "technique": "Hide the heel by rotating knee inward",
-            "target": "Straight Ankle Lock Control",
+            "target": "Saddle",
             "probability": 40
           },
           {
@@ -421,7 +441,7 @@
           },
           {
             "technique": "Tap if rotation begins",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 25
           }
         ]
@@ -431,7 +451,7 @@
         "actions": [
           {
             "technique": "Tap immediately to prevent injury",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 90
           },
           {
@@ -450,7 +470,7 @@
             "probability": 55
           },
           {
-            "technique": "Technical Standup",
+            "technique": "Standing up in Base",
             "target": "Standing Position",
             "probability": 45
           }
@@ -460,7 +480,7 @@
         "condition": "You have created frame with free leg on opponent's hip",
         "actions": [
           {
-            "technique": "Hip Escape",
+            "technique": "Hip Escape to Guard",
             "target": "Half Guard",
             "probability": 50
           },
@@ -470,7 +490,7 @@
             "probability": 40
           },
           {
-            "technique": "Technical Standup",
+            "technique": "Standing up in Base",
             "target": "Standing Position",
             "probability": 10
           }
@@ -507,7 +527,7 @@
     "training_drills": [
       {
         "name": "Saddle Escape Hierarchy Drill",
-        "description": "Partner establishes saddle with progressively tighter control (loose → medium → tight). Practice systematic defense protocol: hide heel, clear hip, create frame, extract leg. Reset between each level.",
+        "description": "Partner establishes saddle with progressively tighter control (loose, medium, tight). Practice systematic defense protocol: hide heel, clear hip, create frame, extract leg. Reset between each level.",
         "duration": "5 minutes"
       },
       {
@@ -570,35 +590,51 @@
     "transitions": [
       {
         "transition": "Ashi Garami Escape",
-        "attempt_probability": 18
+        "attempt_probability": 46
       },
       {
-        "transition": "Hip Escape",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Technical Standup",
-        "attempt_probability": 5
+        "transition": "Standing up in Base",
+        "attempt_probability": 0
       },
       {
         "transition": "Guard Recovery",
-        "attempt_probability": 10
+        "attempt_probability": 8
       },
       {
-        "transition": "Frame and Shrimp",
-        "attempt_probability": 15
+        "transition": "Frame and Shrimp to Guard",
+        "attempt_probability": 3
       },
       {
         "transition": "Counter-entangle to 50-50 Guard",
-        "attempt_probability": 20
+        "attempt_probability": 8
       },
       {
         "transition": "Saddle Defense",
-        "attempt_probability": 12
+        "attempt_probability": 14
       },
       {
         "transition": "Inversion Escape",
-        "attempt_probability": 8
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Leg Extraction to Guard",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Boot Scoot Escape from Saddle",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Fight to Inside Ashi from Saddle",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Forward Roll from Saddle",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Leg Pummeling from Saddle",
+        "attempt_probability": 1
       }
     ]
   }

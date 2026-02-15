@@ -20,33 +20,39 @@ description: "Master escaping back control in BJJ. Learn defensive frames, hand 
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Back Escape Series",
-      "text": "From this position, attempt Back Escape Series. This technique is attempted in 30% of exchanges from this position.",
+      "name": "Execute Back Door Escape",
+      "text": "From this position, attempt Back Door Escape. This technique is attempted in 62% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Turtle",
-      "text": "From this position, attempt Hip Escape to Turtle. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Turtle. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll Escape",
-      "text": "From this position, attempt Granby Roll Escape. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Granby Roll to Guard",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 0% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Remove Hooks",
-      "text": "From this position, attempt Elbow Escape to Remove Hooks. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Remove Hooks. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hand Fighting from Back",
-      "text": "From this position, attempt Hand Fighting from Back. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Hand Fighting from Back. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Turn In and Face",
+      "text": "From this position, attempt Turn In and Face. This technique is attempted in 6% of exchanges from this position.",
+      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -205,15 +211,33 @@ The escape hierarchy follows a strict sequence: neck defense first through chin 
 
 ## Available Escapes
 
-### [[Back Escape Series]] (30% of attempts)
+### [[Back Door Escape]] (62% of attempts)
 
-### [[Hip Escape to Turtle]] (22% of attempts)
+### [[Hip Escape to Turtle]] (11% of attempts)
 
-### [[Granby Roll Escape]] (13% of attempts)
+### [[Granby Roll to Guard]] (0% of attempts)
 
-### [[Elbow Escape to Remove Hooks]] (15% of attempts)
+### [[Elbow Escape to Remove Hooks]] (11% of attempts)
 
-### [[Hand Fighting from Back]] (20% of attempts)
+### [[Hand Fighting from Back]] (9% of attempts)
+
+### [[Turn In and Face]] (6% of attempts)
+
+### [[Rolling Escape to Guard]] (0% of attempts)
+
+### [[Elbow Escape from Back]] (0% of attempts)
+
+### [[Hand Fight to Turtle from Back]] (0% of attempts)
+
+### [[Hip Escape from Back Control]] (0% of attempts)
+
+### [[Scoot Hips to Guard from Back]] (0% of attempts)
+
+### [[Shoulder Walk Escape from Back]] (0% of attempts)
+
+### [[Turn into Opponent from Back]] (0% of attempts)
+
+### [[Turtle from Back Control]] (1% of attempts)
 
 
 
@@ -347,8 +371,8 @@ Partner establishes back control with both hooks but does not attack submissions
 
 ## Related Positions and Techniques
 
-- **[[Back Escape Series]]** - Comprehensive escape system addressing all back control escape sequences
-- **[[Granby Roll Escape]]** - Alternative inversion-based escape movement for creating space and changing angles
+- **[[Back Door Escape]]** - Comprehensive escape system addressing back control escape through systematic positional improvement
+- **[[Granby Roll to Guard]]** - Alternative inversion-based escape movement for creating space and recovering guard from back control
 - **[[Turtle]]** - Common intermediate escape target offering better defensive options than back control
 - **[[Half Guard]]** - Improved position often achieved through partial back escape and rotation
 - **[[Rear Naked Choke]]** - Primary submission threat requiring constant defensive attention and hand fighting

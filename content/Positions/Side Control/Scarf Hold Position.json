@@ -57,7 +57,7 @@
   ],
   "top": {
     "name": "Scarf Hold Position Top",
-    "description": "Master Scarf Hold Top (Kesa Gatame) in BJJ. Traditional judo pinning position with perpendicular control, hip pressure, and arm isolation. Learn control mechanics, submissions, and transitions with 70% retention rate.",
+    "description": "Master Scarf Hold Top (Kesa Gatame) in BJJ. Traditional judo pinning position with perpendicular control, hip pressure, and arm isolation. Learn control mechanics, submissions, and transitions with 72% retention rate.",
     "tags": [
       "bjj",
       "position",
@@ -142,7 +142,7 @@
             "probability": 65
           },
           {
-            "technique": "Kimura from Side Control",
+            "technique": "Kimura",
             "target": "Kimura Trap",
             "probability": 45
           }
@@ -157,7 +157,7 @@
             "probability": 70
           },
           {
-            "technique": "Armbar from Side Control",
+            "technique": "Armbar Finish",
             "target": "Armbar Control",
             "probability": 50
           }
@@ -167,7 +167,7 @@
         "condition": "If opponent attempts to extract trapped near arm",
         "actions": [
           {
-            "technique": "Americana from Side Control",
+            "technique": "Americana",
             "target": "Armbar Control",
             "probability": 60
           },
@@ -182,12 +182,12 @@
         "condition": "If opponent is passive and not defending actively",
         "actions": [
           {
-            "technique": "Americana from Side Control",
+            "technique": "Americana",
             "target": "Armbar Control",
             "probability": 75
           },
           {
-            "technique": "Kimura from Side Control",
+            "technique": "Kimura",
             "target": "Kimura Trap",
             "probability": 65
           }
@@ -268,12 +268,12 @@
         "relationship": "Transition target - advancement option when opponent turns in"
       },
       {
-        "name": "Americana from Side Control",
-        "relationship": "Primary submission - highest percentage finish from this position"
+        "name": "Americana",
+        "relationship": "Primary submission transition - highest percentage finish from this position"
       },
       {
-        "name": "Kimura from Side Control",
-        "relationship": "Secondary submission when opponent defends americana"
+        "name": "Kimura",
+        "relationship": "Secondary submission transition when opponent defends americana"
       }
     ],
     "position_metrics": {
@@ -290,34 +290,42 @@
     },
     "transitions": [
       {
-        "transition": "Americana from Side Control",
-        "attempt_probability": 17
-      },
-      {
-        "transition": "Kimura from Side Control",
+        "transition": "Americana",
         "attempt_probability": 14
       },
       {
+        "transition": "Kimura",
+        "attempt_probability": 12
+      },
+      {
         "transition": "Side Control to Mount",
-        "attempt_probability": 18
+        "attempt_probability": 15
       },
       {
         "transition": "Side Control to North-South",
-        "attempt_probability": 22
+        "attempt_probability": 26
       },
       {
-        "transition": "Armbar from Side Control",
-        "attempt_probability": 13
+        "transition": "Armbar Finish",
+        "attempt_probability": 11
       },
       {
         "transition": "Arm Triangle",
-        "attempt_probability": 16
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Scarf Hold to Mount",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Scarf Hold to Side Control",
+        "attempt_probability": 3
       }
     ]
   },
   "bottom": {
     "name": "Scarf Hold Position Bottom",
-    "description": "Escape Scarf Hold Bottom (Kesa Gatame) in BJJ. Defensive position requiring bridge-and-turn mechanics, arm recovery, and backdoor escape timing. Learn systematic escapes with 45% success rate.",
+    "description": "Escape Scarf Hold Bottom (Kesa Gatame) in BJJ. Defensive position requiring bridge-and-turn mechanics, arm recovery, and backdoor escape timing. Learn systematic escapes with 55% advancement rate.",
     "tags": [
       "bjj",
       "position",
@@ -364,7 +372,7 @@
       }
     ],
     "state_properties": {
-      "point_value": 0,
+      "point_value": -3,
       "position_type": "Defensive",
       "risk_level": "High",
       "energy_cost": "Medium",
@@ -398,17 +406,17 @@
         "condition": "If opponent maintains tight control with heavy hip pressure and secure head control without attacking submissions",
         "actions": [
           {
-            "technique": "Frame and Shrimp",
+            "technique": "Frame and Shrimp to Guard",
             "target": "Half Guard",
             "probability": 45
           },
           {
-            "technique": "Elbow Escape",
+            "technique": "Elbow Escape to Guard",
             "target": "Half Guard",
             "probability": 50
           },
           {
-            "technique": "Create frames and establish breathing space",
+            "technique": "Shrimp Escape",
             "target": "Scarf Hold Position",
             "probability": 60
           }
@@ -418,7 +426,7 @@
         "condition": "If opponent shifts weight forward attempting to transition to mount or north-south",
         "actions": [
           {
-            "technique": "Granby Roll",
+            "technique": "Granby Roll to Guard",
             "target": "Turtle",
             "probability": 55
           },
@@ -428,7 +436,7 @@
             "probability": 50
           },
           {
-            "technique": "Turn into opponent exposing their back",
+            "technique": "Turtle Transition",
             "target": "Back Control",
             "probability": 40
           }
@@ -438,17 +446,17 @@
         "condition": "If opponent releases head control or loosens cross-face to attack far arm for americana or kimura",
         "actions": [
           {
-            "technique": "Hip Escape",
+            "technique": "Hip Escape to Guard",
             "target": "Closed Guard",
             "probability": 60
           },
           {
-            "technique": "Re-Guard",
+            "technique": "Elbow Escape to Guard",
             "target": "Half Guard",
             "probability": 55
           },
           {
-            "technique": "Frame and Shrimp",
+            "technique": "Frame and Shrimp to Guard",
             "target": "Open Guard",
             "probability": 50
           }
@@ -463,7 +471,7 @@
             "probability": 55
           },
           {
-            "technique": "Attack posted arm and execute bridge",
+            "technique": "Shrimp Escape",
             "target": "Scramble Position",
             "probability": 50
           }
@@ -478,7 +486,7 @@
             "probability": 60
           },
           {
-            "technique": "Turn into opponent and expose their back",
+            "technique": "Ghost Escape",
             "target": "Turtle",
             "probability": 55
           }
@@ -564,7 +572,7 @@
       },
       {
         "name": "Bridge and Roll",
-        "relationship": "Primary escape technique requiring explosive power"
+        "relationship": "Primary escape technique requiring explosive power and arm trapping"
       }
     ],
     "position_metrics": {
@@ -582,27 +590,35 @@
     "transitions": [
       {
         "transition": "Bridge and Roll",
-        "attempt_probability": 16
+        "attempt_probability": 13
       },
       {
-        "transition": "Elbow Escape",
-        "attempt_probability": 18
-      },
-      {
-        "transition": "Hip Escape",
+        "transition": "Elbow Escape to Guard",
         "attempt_probability": 15
       },
       {
-        "transition": "Ghost Escape",
-        "attempt_probability": 16
+        "transition": "Hip Escape to Guard",
+        "attempt_probability": 12
       },
       {
-        "transition": "Frame and Shrimp",
-        "attempt_probability": 16
+        "transition": "Ghost Escape",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Frame and Shrimp to Guard",
+        "attempt_probability": 13
       },
       {
         "transition": "Turtle Transition",
-        "attempt_probability": 19
+        "attempt_probability": 25
+      },
+      {
+        "transition": "Bridge from Scarf Hold Position",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Escape Scarf Hold Position",
+        "attempt_probability": 3
       }
     ]
   }

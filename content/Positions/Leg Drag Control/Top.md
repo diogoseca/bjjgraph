@@ -21,19 +21,19 @@ description: "Master leg drag control from top position. Complete strategic guid
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass to Side Control",
-      "text": "From this position, attempt Leg Drag Pass to Side Control. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Pass to Side Control. This technique is attempted in 24% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag to Back Take",
-      "text": "From this position, attempt Leg Drag to Back Take. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag to Back Take. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag to Mount",
-      "text": "From this position, attempt Leg Drag to Mount. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag to Mount. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
@@ -45,13 +45,13 @@ description: "Master leg drag control from top position. Complete strategic guid
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag to North-South",
-      "text": "From this position, attempt Leg Drag to North-South. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag to North-South. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag to Crucifix",
-      "text": "From this position, attempt Leg Drag to Crucifix. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag to Crucifix. This technique is attempted in 4% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,23 +209,23 @@ From a competitive perspective, mastering leg drag control has become essential 
 
 ## Available Attacks
 
-### [[Leg Drag Pass to Side Control]] (15% of attempts)
+### [[Leg Drag Pass to Side Control]] (24% of attempts)
 
-### [[Leg Drag to Back Take]] (18% of attempts)
+### [[Leg Drag to Back Take]] (20% of attempts)
 
-### [[Leg Drag to Mount]] (14% of attempts)
+### [[Leg Drag to Mount]] (12% of attempts)
 
 ### [[Leg Drag to Knee on Belly]] (12% of attempts)
 
-### [[Leg Drag to North-South]] (10% of attempts)
+### [[Leg Drag to North-South]] (7% of attempts)
 
-### [[Leg Drag to Crucifix]] (8% of attempts)
+### [[Leg Drag to Crucifix]] (4% of attempts)
 
-### [[Leg Drag to Inside Ashi]] (9% of attempts)
+### [[Leg Drag to Inside Ashi]] (6% of attempts)
 
 ### [[Leg Drag to Technical Mount]] (8% of attempts)
 
-### [[Leg Drag to Darce Setup]] (6% of attempts)
+### [[Leg Drag to Darce Setup]] (7% of attempts)
 
 
 

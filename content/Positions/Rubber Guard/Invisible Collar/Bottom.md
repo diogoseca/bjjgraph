@@ -21,37 +21,37 @@ description: "Defend Invisible Collar position from bottom with grip removal tac
     {
       "@type": "HowToStep",
       "name": "Execute Hand Fighting to Remove Collar Grip",
-      "text": "From this position, attempt Hand Fighting to Remove Collar Grip. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Hand Fighting to Remove Collar Grip. This technique is attempted in 22% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape to Guard Recovery",
-      "text": "From this position, attempt Hip Escape to Guard Recovery. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Hip Escape to Guard",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Remove Hooks",
-      "text": "From this position, attempt Elbow Escape to Remove Hooks. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Remove Hooks. This technique is attempted in 20% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Escape",
-      "text": "From this position, attempt Rolling Escape. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Rolling Escape to Guard",
+      "text": "From this position, attempt Rolling Escape to Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing Escape",
-      "text": "From this position, attempt Standing Escape. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Standing Escape. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll Escape",
-      "text": "From this position, attempt Granby Roll Escape. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Granby Roll to Guard",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 16% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,17 +210,17 @@ Successful escape from invisible collar bottom involves systematic approach to n
 
 ## Available Escapes
 
-### [[Hand Fighting to Remove Collar Grip]] (20% of attempts)
+### [[Hand Fighting to Remove Collar Grip]] (22% of attempts)
 
-### [[Hip Escape to Guard Recovery]] (17% of attempts)
+### [[Hip Escape to Guard]] (18% of attempts)
 
-### [[Elbow Escape to Remove Hooks]] (18% of attempts)
+### [[Elbow Escape to Remove Hooks]] (20% of attempts)
 
-### [[Rolling Escape]] (15% of attempts)
+### [[Rolling Escape to Guard]] (13% of attempts)
 
-### [[Standing Escape]] (13% of attempts)
+### [[Standing Escape]] (11% of attempts)
 
-### [[Granby Roll Escape]] (17% of attempts)
+### [[Granby Roll to Guard]] (16% of attempts)
 
 
 
@@ -242,7 +242,7 @@ Successful escape from invisible collar bottom involves systematic approach to n
 
 **If one hook is removed but collar grip remains:**
 - Execute **[[Turn into Opponent to Remove Second Hook]]** → [[Half Guard]] (Probability: 48%)
-- Execute **[[Stand Up Escape]]** → [[Standing Position]] (Probability: 30%)
+- Execute **[[Stand Up Escape]]** → [[Clinch]] (Probability: 30%)
 
 
 

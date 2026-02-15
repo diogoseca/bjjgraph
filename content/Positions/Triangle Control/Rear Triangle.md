@@ -97,7 +97,7 @@ The strategic significance of the rear triangle lies in its ability to create su
 
 - **[[Triangle Escape]]** (17% of attempts)
 
-- **[[Rolling Escape]]** (15% of attempts)
+- **[[Rolling Escape to Guard]]** (15% of attempts)
 
 - **[[Stack Defense]]** (16% of attempts)
 
@@ -168,9 +168,9 @@ The strategic significance of the rear triangle lies in its ability to create su
 ### Available Transitions
 
 
-- **[[Triangle Choke Back]]** (19% of attempts)
+- **[[Triangle Choke]]** (19% of attempts)
 
-- **[[Armbar from Back with Legs]]** (17% of attempts)
+- **[[Armbar from Back Transition]]** (17% of attempts)
 
 - **[[Rear Naked Choke]]** (19% of attempts)
 

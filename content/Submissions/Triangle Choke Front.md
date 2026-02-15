@@ -8,143 +8,9 @@ description: "Master Triangle Choke from front positions in BJJ. Complete guide 
 ---
 
 
-<body data-content-type="submissions">
+<body data-content-type="submissions-hub">
 
-<!-- Schema Markup - Auto-generated from JSON -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Execute Triangle Choke Front in BJJ",
-  "description": "Step-by-step guide for Triangle Choke Front with safety protocols.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Break opponent's posture",
-      "text": "From closed guard or open guard position, establish strong grips (collar and sleeve, or overhook and head control). Pull opponent's head and upper body down while using your legs to prevent them from posting back. The goal is to bring their head below the level of their hips, compromising their base and creating the opening for triangle entry. Use hip movement and grip pressure simultaneously.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Isolate one arm inside",
-      "text": "Using your grips and leg positioning, force one of the opponent's arms to be inside your guard while the other remains outside. This creates the essential triangle geometry - one arm trapped against their neck, one arm free. Common methods include pulling one arm across while blocking the other with your shin, or using collar-and-sleeve grips to manipulate arm position. The inside arm should be deep, ideally with their elbow past your hip.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Throw leg over shoulder",
-      "text": "With posture broken and arm isolated, uncross your ankles and bring one leg (same side as the trapped arm) across the opponent's back and over their shoulder. This leg should be high on the shoulder, with your knee pointing toward their opposite ear. Simultaneously, your other leg should maintain control on their hip to prevent them from posturing up during the transition. Execute this movement smoothly to prevent them from recovering posture.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Lock the triangle",
-      "text": "Bring your leg that's across their back down so your shin crosses behind their neck. Take your opposite leg and place the ankle (not the back of the knee) behind the knee of the choking leg. This creates the locked triangle position. Common error: placing the back of the knee behind the ankle, which is weaker. The proper lock has the ankle behind the knee, creating a more secure configuration. Your legs should form a figure-four shape.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Angle off and control trapped arm",
-      "text": "This step is critical for finishing effectiveness. Angle your body approximately 45 degrees away from centerline, toward the side of the trapped arm. At the same time, grab the opponent's trapped wrist and pull it across your body, preventing them from using that arm to create a frame or defend. Your hips should now be perpendicular to their body rather than square. This angle tightens the triangle geometry significantly.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Finish the choke",
-      "text": "With the triangle locked and angle established, finish by squeezing your knees together powerfully while simultaneously pulling opponent's head down with both hands (grip behind the head or their trapped arm). Extend your hips forward and up slightly to increase pressure on the carotid arteries. The finish should be a coordinated squeeze - knees together, hips extended, head pulled down. Apply pressure progressively over 3-5 seconds, releasing immediately upon tap.",
-      "position": 6
-    }
-  ],
-  "tool": ["BJJ Gi or No-Gi attire", "Training partner", "Mat space"],
-  "totalTime": "PT5M"
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What anatomical structures does the triangle choke attack and how does unconsciousness occur?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The triangle choke compresses both carotid arteries on the sides of the neck, restricting blood flow to the brain. One side is compressed by your leg (the choking leg shin across the neck), while the other side is compressed by the opponent's own shoulder being driven into their neck. This bilateral carotid compression causes unconsciousness in 8-12 seconds if the choke is properly applied. The jugular veins may also be compressed, but the primary mechanism is arterial restriction."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the proper configuration for locking the triangle - which leg's ankle goes behind which leg's knee?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The ankle of your bottom leg (the leg that comes across the back) should be placed behind the knee of your top leg (the choking leg). This creates a figure-four lock. Reversing this (putting the back of the knee behind the ankle) creates a weak triangle that is easily escaped. The proper lock creates a mechanical advantage that increases pressure when you squeeze your knees together."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why is angling off 45 degrees essential for finishing the triangle choke effectively?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Angling 45 degrees toward the trapped arm side tightens the triangle geometry by creating proper compression on the carotid arteries. When you remain square with the opponent, there is too much space between your legs and their neck. The angle also helps isolate the trapped arm and prevents the opponent from creating defensive frames or relieving pressure. This angle is often the difference between a tight finish and a loose triangle the opponent can survive."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the breaking point indicators that tell you the triangle is properly locked and the opponent will tap?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Key indicators include: opponent's face changing color (reddening or slight purple tinge), opponent's movements becoming desperate or erratic, feeling the pulse of their carotid against your leg, opponent's free hand stopping defensive activity, and their body beginning to relax. In training, you should feel the squeeze become complete with no space remaining between your legs and their neck. The choke should feel effortless once properly positioned."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What control requirements must be established before you can safely apply finishing pressure?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Before finishing, you must have: the triangle locked with ankle behind knee (not reversed), your body angled approximately 45 degrees toward the trapped arm, control of the opponent's trapped wrist pulling it across your body, your hips elevated and extended slightly, and the opponent's head controlled either by pulling it down or using their trapped arm to keep it in position. Without these controls, finishing attempts waste energy and create escape opportunities."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the point of no escape in a properly locked triangle and how do you recognize it?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The point of no escape occurs when the triangle is locked, properly angled, and you begin the coordinated squeeze with knees together and hips extended. At this point, the opponent cannot posture up (legs prevent it), cannot turn their head out (angle blocks it), cannot remove the trapped arm (your grip controls it), and cannot create space (squeeze eliminates gaps). You recognize it by feeling your legs form a complete seal around their neck with their shoulder driving into their own carotid."
-      }
-    }
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Triangle Choke Front",
-  "description": "Master Triangle Choke from front positions in BJJ. Complete guide with safety protocols, setup, execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
-  "url": "https://bjjgraph.org/Submissions/Triangle-Choke-Front",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.org"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
-    {"@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/"},
-    {"@type": "ListItem", "position": 3, "name": "Triangle Choke Front", "item": "https://bjjgraph.org/Submissions/Triangle-Choke-Front"}
-  ]
-}
-</script>
-
-> ⚠️ **SAFETY**: Triangle Choke Front targets the Carotid arteries and one shoulder. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
+> **SAFETY**: Triangle Choke Front targets the Carotid arteries and one shoulder. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -206,96 +72,156 @@ Historically, the triangle choke has been a cornerstone of guard-based jiu-jitsu
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="outcomes" class="content-section">
 
-## Key Principles
+## Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[game-over]] | 60% |
+| Failure | [[Closed Guard]] | 25% |
+| Counter | [[Open Guard]] | 15% |
+
+
+</section>
+
+<section class="content-section">
+
+## Attacker vs Defender
+
+| &nbsp; | Attacker | Defender |
+|--------|----------|----------|
+| **Focus** | Execute and finish | Escape and survive |
+| **Key Principles** | Posture disruption is prerequisite - opponent cannot be fini... | Posture is your primary defense - maintain head above hips a... |
+| **Options** | 6 execution steps | 4 defensive options |
+
+</section>
+
+<section id="attacker-summary" class="content-section">
+
+## Playing as Attacker
+
+[[Triangle Choke Front/Attacker|→ Full Attacker Guide]]
+
+### Key Principles
+
+
 - Posture disruption is prerequisite - opponent cannot be finished from good posture
+
 - Triangle geometry requires one arm inside, one arm outside the legs
+
 - Squeeze knees together, not just ankle behind knee, to properly compress carotids
+
 - Angle off 45 degrees from centerline to tighten the choke effectively
+
 - Control opponent's trapped arm to prevent escape and set up armbar threat
+
 - Hip extension and pulling the head down simultaneously creates finishing pressure
+
 - The opponent's own shoulder completes one side of the choke - use their structure against them
 
 
-</section>
-
-<section id="setup-requirements" class="content-section">
-
-## Prerequisites
-- Closed guard, spider guard, or open guard control established
-- Opponent's posture broken forward (head below hips)
-- One of opponent's arms isolated and controlled inside your guard
-- Ability to create angle and bring one leg across opponent's back
-- Hip mobility to bring leg over shoulder and lock triangle configuration
-- Opponent's weight committed forward or trapped in position
+### Execution Steps
 
 
-</section>
+- **Break opponent's posture**: From closed guard or open guard position, establish strong grips (collar and sleeve, or overhook and...
 
-<section id="execution-steps" class="content-section">
+- **Isolate one arm inside**: Using your grips and leg positioning, force one of the opponent's arms to be inside your guard while...
 
-## Execution Steps
-1. **Break opponent's posture**: From closed guard or open guard position, establish strong grips (collar and sleeve, or overhook and head control). Pull opponent's head and upper body down while using your legs to prevent them from posting back. The goal is to bring their head below the level of their hips, compromising their base and creating the opening for triangle entry. Use hip movement and grip pressure simultaneously. (Timing: 2-3 seconds)
-2. **Isolate one arm inside**: Using your grips and leg positioning, force one of the opponent's arms to be inside your guard while the other remains outside. This creates the essential triangle geometry - one arm trapped against their neck, one arm free. Common methods include pulling one arm across while blocking the other with your shin, or using collar-and-sleeve grips to manipulate arm position. The inside arm should be deep, ideally with their elbow past your hip. (Timing: 1-2 seconds)
-3. **Throw leg over shoulder**: With posture broken and arm isolated, uncross your ankles and bring one leg (same side as the trapped arm) across the opponent's back and over their shoulder. This leg should be high on the shoulder, with your knee pointing toward their opposite ear. Simultaneously, your other leg should maintain control on their hip to prevent them from posturing up during the transition. Execute this movement smoothly to prevent them from recovering posture. (Timing: 1 second - must be quick)
-4. **Lock the triangle**: Bring your leg that's across their back down so your shin crosses behind their neck. Take your opposite leg and place the ankle (not the back of the knee) behind the knee of the choking leg. This creates the locked triangle position. Common error: placing the back of the knee behind the ankle, which is weaker. The proper lock has the ankle behind the knee, creating a more secure configuration. Your legs should form a figure-four shape. (Timing: 1-2 seconds)
-5. **Angle off and control trapped arm**: This step is critical for finishing effectiveness. Angle your body approximately 45 degrees away from centerline, toward the side of the trapped arm. At the same time, grab the opponent's trapped wrist and pull it across your body, preventing them from using that arm to create a frame or defend. Your hips should now be perpendicular to their body rather than square. This angle tightens the triangle geometry significantly. (Timing: 1-2 seconds)
-6. **Finish the choke**: With the triangle locked and angle established, finish by squeezing your knees together powerfully while simultaneously pulling opponent's head down with both hands (grip behind the head or their trapped arm). Extend your hips forward and up slightly to increase pressure on the carotid arteries. The finish should be a coordinated squeeze - knees together, hips extended, head pulled down. Apply pressure progressively over 3-5 seconds, releasing immediately upon tap. (Timing: 3-5 seconds progressive tightening)
+- **Throw leg over shoulder**: With posture broken and arm isolated, uncross your ankles and bring one leg (same side as the trappe...
+
+- **Lock the triangle**: Bring your leg that's across their back down so your shin crosses behind their neck. Take your oppos...
+
+- **Angle off and control trapped arm**: This step is critical for finishing effectiveness. Angle your body approximately 45 degrees away fro...
+
+- **Finish the choke**: With the triangle locked and angle established, finish by squeezing your knees together powerfully w...
 
 
-</section>
+### Common Mistakes
 
-<section id="opponent-defense-patterns" class="content-section">
 
-## Opponent Defenses
-- **Opponent stands up to defend triangle** (Effectiveness: Medium) - Your Adjustment: Transition to armbar or omoplata as they stand, or hook their far leg with your free hand to prevent full standing posture and sweep them
-- **Opponent grabs their own ankle or knee to prevent triangle lock** (Effectiveness: High) - Your Adjustment: Establish temporary hold with legs unlocked, use hands to strip their defensive grip while maintaining posture control, then immediately lock triangle before they can reestablish defense
-- **Opponent tries to pull head straight back** (Effectiveness: Low) - Your Adjustment: Maintain angle and trapped arm control - pulling head straight back increases pressure on their own shoulder and typically fails if triangle is properly locked and angled
-- **Opponent attempts to stack and drive forward** (Effectiveness: Medium) - Your Adjustment: Swim your legs higher on their shoulders as they stack, maintain the lock, and be prepared to transition to omoplata if the stack becomes too severe
-- **Opponent tries to create space by pushing on hip or knee** (Effectiveness: Medium) - Your Adjustment: Squeeze knees tighter together, pull their head down harder, and consider switching to armbar on their posted arm if they commit significant pressure
+- **Attempting triangle from neutral or good opponent posture**
+  - Consequence: Opponent easily defends, maintains base, and can pass guard
+  - Correction: Always break posture first - opponent's head must be below hip level before attempting triangle entry
+
+- **Locking ankle behind the back of knee instead of knee behind ankle**
+  - Consequence: Weak, easily escaped triangle that lacks finishing pressure
+  - Correction: Always place the ankle of your bottom leg behind the knee of your top leg, creating the proper figure-four lock
+
+- **Remaining square with opponent instead of angling off**
+  - Consequence: Triangle feels loose, opponent can create space, choke lacks finishing power
+  - Correction: Always angle 45 degrees toward the trapped arm side - this tightens the triangle geometry significantly
 
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="defender-summary" class="content-section">
 
-## Common Mistakes
-- **Mistake**: Attempting triangle from neutral or good opponent posture
-  - **Consequence**: Opponent easily defends, maintains base, and can pass guard
-  - **Correction**: Always break posture first - opponent's head must be below hip level before attempting triangle entry
-- **Mistake**: Locking ankle behind the back of knee instead of knee behind ankle
-  - **Consequence**: Weak, easily escaped triangle that lacks finishing pressure
-  - **Correction**: Always place the ankle of your bottom leg behind the knee of your top leg, creating the proper figure-four lock
-- **Mistake**: Remaining square with opponent instead of angling off
-  - **Consequence**: Triangle feels loose, opponent can create space, choke lacks finishing power
-  - **Correction**: Always angle 45 degrees toward the trapped arm side - this tightens the triangle geometry significantly
-- **Mistake**: Releasing control of trapped arm
-  - **Consequence**: Opponent creates frame with freed arm, relieves pressure, and potentially escapes
-  - **Correction**: Maintain constant control of the trapped wrist throughout the finish, pulling it across your body
-- **Mistake**: Applying maximum pressure immediately without progressive tightening
-  - **Consequence**: High risk of injuring training partner or causing unconsciousness without warning
-  - **Correction**: Apply triangle pressure progressively over 3-5 seconds in training, allowing partner time to recognize the danger and tap safely
-- **Mistake**: Squeezing with ankles/feet instead of knees
-  - **Consequence**: Inefficient pressure, leg fatigue, opponent can often withstand or escape
-  - **Correction**: Focus squeezing pressure through the knees coming together, using larger muscle groups of the thighs rather than smaller calf muscles
-- **Mistake**: Not controlling opponent's posture during triangle lock transition
-  - **Consequence**: Opponent escapes by standing or posturing back up before lock is complete
-  - **Correction**: Use hands to maintain head/shoulder control throughout the locking sequence, only releasing to grab trapped arm once triangle is secure
+## Playing as Defender
+
+[[Triangle Choke Front/Defender|→ Full Defender Guide]]
+
+### Key Principles
+
+
+- Posture is your primary defense - maintain head above hips and spine alignment inside guard at all times
+
+- Never allow one arm in and one arm out of the guard - keep both arms together (both in or both out)
+
+- React immediately to any leg coming over your shoulder - every second of delay makes escape exponentially harder
+
+- Keep elbows tight to your body and hands fighting near your own chest to prevent arm isolation
+
+- Stack forward when caught to relieve pressure on carotids and create space for escape
+
+- Address the angle first - if attacker angles off, you must square back up before attempting to escape
+
+
+### Recognition Cues
+
+
+- Opponent pulls one of your arms across their body while controlling your posture with collar or head grip - this arm isolation is the primary setup signal
+
+- Opponent opens their guard and begins bringing one leg high across your back or over your shoulder while maintaining strong grip control on your sleeve or wrist
+
+- You feel your posture being broken down while one arm is being pushed or pulled across your centerline - the combined posture break and arm manipulation indicates imminent triangle entry
+
+- Opponent shifts their hips to one side while maintaining control of your head - this angular hip movement creates the space needed to throw a leg over
+
+- Sudden increase in opponent's leg activity combined with sleeve or wrist control - active hip movement with grip control indicates guard attack is being initiated
+
+
+### Escape Paths
+
+
+- Stack pass escape - drive forward stacking attacker onto their shoulders, walk knees forward, then work to extract head by turning it toward the trapped arm side while maintaining heavy top pressure
+
+- Posture and head extraction - regain upright posture by posting on their hips, then systematically work your head backward while controlling their legs to prevent them from following with hip adjustment
+
+- Standing escape to guard break - stand up with the triangle locked, use your height and base advantage to prevent angle control, then work to pry the lock apart or extract your head from the elevated position
+
+- Shoulder walk to guard recovery - turn your trapped shoulder inward and walk your body progressively around toward their head, creating incremental space until the triangle loosens enough to extract
 
 
 </section>
 
-<section id="variations-and-setups" class="content-section hide-minimal">
+
+<section id="variations" class="content-section hide-minimal">
 
 ## Variations
+
+
 **Triangle from Closed Guard with Overhook**: From closed guard, establish overhook on one arm while controlling the head. Use the overhook to trap that arm tight to your body as you throw the opposite leg over their back. This variation makes it easier to maintain arm isolation throughout the transition. (When to use: When opponent gives you an overhook opportunity, or when you want more control during the entry sequence)
+
 
 **Spider Guard Triangle**: From spider guard with sleeve and collar grips, use your foot on bicep to push opponent's arm across while simultaneously pulling with collar grip. Immediately bring that leg across their back into triangle position. The spider guard foot placement creates excellent angle and arm isolation. (When to use: Effective in gi when you have established spider guard control and opponent is pressuring forward)
 
+
 **Triangle from Failed Armbar**: When attempting armbar from guard, if opponent defends by stacking or pulling their arm out, immediately switch to triangle by bringing your leg from their hip over their back and locking the triangle. Their defensive posture often creates ideal triangle positioning. (When to use: As a backup when armbar attempts are defended - creates submission chain that keeps opponent on defensive)
 
+
 **Rubber Guard Triangle Entry**: From rubber guard (mission control or variations), use the extreme posture control to break them down, then transition by releasing rubber guard and immediately throwing that leg over into triangle. The rubber guard setup ensures deep posture break. (When to use: No-gi or flexible practitioners who use rubber guard system - provides superior posture control before triangle entry)
+
 
 **High Guard Triangle Setup**: From high closed guard position with legs on shoulders, rock opponent forward while opening guard and immediately throwing one leg over for triangle. The high positioning means less distance to travel for triangle entry. (When to use: When opponent is already defending deep in your closed guard and you have climbed to high position)
 
@@ -303,48 +229,6 @@ Historically, the triangle choke has been a cornerstone of guard-based jiu-jitsu
 
 </section>
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-**Q1**: What anatomical structures does the triangle choke attack and how does unconsciousness occur? **[SAFETY-CRITICAL]**
-**A**: The triangle choke compresses both carotid arteries on the sides of the neck, restricting blood flow to the brain. One side is compressed by your leg (the choking leg shin across the neck), while the other side is compressed by the opponent's own shoulder being driven into their neck. This bilateral carotid compression causes unconsciousness in 8-12 seconds if the choke is properly applied. The jugular veins may also be compressed, but the primary mechanism is arterial restriction.
-
-**Q2**: What is the proper configuration for locking the triangle - which leg's ankle goes behind which leg's knee?
-**A**: The ankle of your bottom leg (the leg that comes across the back) should be placed behind the knee of your top leg (the choking leg). This creates a figure-four lock. Reversing this (putting the back of the knee behind the ankle) creates a weak triangle that is easily escaped. The proper lock creates a mechanical advantage that increases pressure when you squeeze your knees together.
-
-**Q3**: Why is angling off 45 degrees essential for finishing the triangle choke effectively?
-**A**: Angling 45 degrees toward the trapped arm side tightens the triangle geometry by creating proper compression on the carotid arteries. When you remain square with the opponent, there is too much space between your legs and their neck. The angle also helps isolate the trapped arm and prevents the opponent from creating defensive frames or relieving pressure. This angle is often the difference between a tight finish and a loose triangle the opponent can survive.
-
-**Q4**: What are the breaking point indicators that tell you the triangle is properly locked and the opponent will tap? **[SAFETY-CRITICAL]**
-**A**: Key indicators include: opponent's face changing color (reddening or slight purple tinge), opponent's movements becoming desperate or erratic, feeling the pulse of their carotid against your leg, opponent's free hand stopping defensive activity, and their body beginning to relax. In training, you should feel the squeeze become complete with no space remaining between your legs and their neck. The choke should feel effortless once properly positioned.
-
-**Q5**: What control requirements must be established before you can safely apply finishing pressure?
-**A**: Before finishing, you must have: the triangle locked with ankle behind knee (not reversed), your body angled approximately 45 degrees toward the trapped arm, control of the opponent's trapped wrist pulling it across your body, your hips elevated and extended slightly, and the opponent's head controlled either by pulling it down or using their trapped arm to keep it in position. Without these controls, finishing attempts waste energy and create escape opportunities.
-
-**Q6**: What is the point of no escape in a properly locked triangle and how do you recognize it?
-**A**: The point of no escape occurs when the triangle is locked, properly angled, and you begin the coordinated squeeze with knees together and hips extended. At this point, the opponent cannot posture up (legs prevent it), cannot turn their head out (angle blocks it), cannot remove the trapped arm (your grip controls it), and cannot create space (squeeze eliminates gaps). You recognize it by feeling your legs form a complete seal around their neck with their shoulder driving into their own carotid.
-
-**Q7**: What grip adjustments during the finish maximize choking pressure?
-**A**: During the finish, grab behind the opponent's head with your hands clasped or grip your own shin, then pull their head toward your chest while squeezing knees together. Alternatively, control their trapped wrist with one hand and their head with the other, creating opposing forces that increase compression. Some practitioners grab their own ankle of the choking leg to prevent it from sliding, while others use an underhook on the opponent's leg. The key is combining head control with knee squeeze.
-
-**Q8**: What are the signs that your training partner may be going unconscious in a triangle, and what is the proper response? **[SAFETY-CRITICAL]**
-**A**: Signs include: sudden loss of resistance, body going limp, unusual sounds or snoring, or change in breathing pattern. Proper response: immediately release the triangle completely, place partner in recovery position on their side, alert your instructor, and monitor them until they fully recover. Never continue applying pressure if partner shows these signs even if they haven't tapped - safety always supersedes the tap.
-
-**Q9**: Your opponent starts to stack you hard during the finish - what adjustments prevent escape while maintaining the choke?
-**A**: When stacked, swim your legs higher onto their shoulders while maintaining the locked triangle. Keep squeezing your knees together and pull their head down into your hips rather than letting it rise with the stack. If the stack becomes severe, consider transitioning to omoplata by releasing the triangle and pivoting your hips. You can also use your free hand to push on their near hip to prevent full stacking while finishing with the other hand pulling the head.
-
-**Q10**: In competition, what finishing strategies maximize submission success against a defending opponent?
-**A**: Competition finishing strategies include: establishing the lock quickly before they can hand-fight, immediately angling off rather than trying to finish square, using the trapped arm control to threaten armbar which forces them to defend both attacks, maintaining constant pressure rather than giving them rest, and being patient with the squeeze rather than exploding which wastes energy. If they defend well, chain to armbar when they try to remove their head, or omoplata when they try to posture. The triangle creates a position where their defenses open other attacks.
-
-**Q11**: What common finishing errors allow the opponent to survive a locked triangle?
-**A**: Common errors include: staying square instead of angling 45 degrees, releasing the trapped arm which allows them to frame and create space, squeezing with feet and ankles instead of knees and thighs, not pulling the head down while squeezing, positioning the choking leg too low on their back rather than high on the shoulder, and not extending hips to increase pressure. Each of these errors creates space or reduces compression, allowing experienced opponents to weather the submission attempt.
-
-**Q12**: If your opponent stands up while you have them in a triangle, what are your two primary options?
-**A**: First option is to transition to armbar by releasing the triangle, posting on their hip, and extending their trapped arm. Second option is to hook their far leg with your free hand while pulling them down, preventing them from achieving full standing posture and potentially sweeping them. Standing triangles can be finished but require specific training and create higher injury risk for both practitioners.
-
-
-
-</section>
 
 <section id="from-positions" class="content-section">
 
@@ -370,14 +254,14 @@ Historically, the triangle choke has been a cornerstone of guard-based jiu-jitsu
 
 - [[Triangle Choke]]
 - [[Triangle from Closed Guard]]
-- [[Triangle from Guard]]
-- [[Triangle from Mount]]
+- [[Triangle from De La Riva]]
+- [[Triangle from Spider Guard]]
 - [[Armbar from Guard]]
 - [[Omoplata]]
+- [[Omoplata from Guard]]
 - [[Guillotine Choke]]
 - [[Kimura]]
 - [[Inverted Triangle]]
-- [[Mounted Triangle]]
 
 
 </section>
@@ -388,18 +272,17 @@ Historically, the triangle choke has been a cornerstone of guard-based jiu-jitsu
 
 - [[Triangle Choke]] - Parent submission - generic triangle technique encompassing all variations
 - [[Triangle from Closed Guard]] - Primary setup variation from closed guard bottom position
-- [[Triangle from Guard]] - Related setup variation from various guard positions
-- [[Triangle from Mount]] - Triangle applied from mounted position with different mechanics
+- [[Triangle from Spider Guard]] - Setup variation utilizing spider guard sleeve control for arm isolation
+- [[Triangle from De La Riva]] - Setup variation from De La Riva guard using hook control to create angle
 - [[Armbar from Guard]] - Primary transition when opponent defends triangle by pulling head back
 - [[Omoplata]] - Alternative submission when triangle is defended by posting or stacking
 - [[Closed Guard]] - Primary starting position for front triangle attacks
 - [[Spider Guard]] - Open guard variation offering effective triangle entry opportunities
-- [[Triangle Control]] - Control position established once triangle is locked
-- [[Mounted Triangle]] - Related triangle variation applied from mount position
+- [[Triangle Control]] - Control position established once triangle is locked before finishing
+- [[Inverted Triangle]] - Related triangle variation applied with inverted leg configuration
 
 
 </section>
-
 
 <section id="terminal-state" class="content-section">
 

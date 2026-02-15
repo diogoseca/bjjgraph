@@ -13,14 +13,14 @@
   "application_level": "Fundamental",
   "complexity_level": "Low",
   "development_timeline": "Beginner to Advanced",
-  "overview": "Bridging Mechanics represents one of the most fundamental movement patterns in Brazilian Jiu-Jitsu, serving as the foundation for countless escapes, reversals, and defensive maneuvers. At its core, bridging involves explosively elevating the hips while maintaining shoulder contact with the mat, creating a powerful arch in the body that generates force, disrupts opponent balance, and creates space. This seemingly simple movement is actually a sophisticated biomechanical action that, when properly executed, allows a practitioner to overcome significant weight disadvantages and escape from dominant positions.\n\nThe bridge is essentially a full-body tension system that converts the legs' powerful muscles into upward and rotational force. Unlike simple hip elevation, a proper bridge engages the entire posterior chain—glutes, hamstrings, lower back, and shoulders—to create a rigid, powerful structure. The feet provide the base of power, typically positioned close to the hips with knees bent at approximately 90 degrees, allowing maximum force generation. The shoulders remain grounded to create a stable pivot point, while the hips drive upward and often to one side, creating both vertical displacement and rotational momentum.\n\nMastery of bridging mechanics is non-negotiable for effective BJJ practice. It appears in fundamental escapes like the upa (bridge and roll) from mount, elbow escape from side control, and countless back escape sequences. Advanced practitioners utilize bridging in more subtle ways—creating micro-adjustments in position, generating explosive power for sweeps, and maintaining dynamic tension during scrambles. The bridge is also deeply connected to other fundamental movements like shrimping, with both forming the complete defensive movement vocabulary. Understanding and refining bridging mechanics accelerates progression at all levels, as it provides the physical foundation for escaping bad positions and the biomechanical understanding necessary for controlling opponents.",
+  "overview": "Bridging Mechanics represents one of the most fundamental movement patterns in Brazilian Jiu-Jitsu, serving as the foundation for countless escapes, reversals, and defensive maneuvers. At its core, bridging involves explosively elevating the hips while maintaining shoulder contact with the mat, creating a powerful arch in the body that generates force, disrupts opponent balance, and creates space. This seemingly simple movement is actually a sophisticated biomechanical action that, when properly executed, allows a practitioner to overcome significant weight disadvantages and escape from dominant positions.\n\nThe bridge is essentially a full-body tension system that converts the legs' powerful muscles into upward and rotational force. Unlike simple hip elevation, a proper bridge engages the entire posterior chain\u2014glutes, hamstrings, lower back, and shoulders\u2014to create a rigid, powerful structure. The feet provide the base of power, typically positioned close to the hips with knees bent at approximately 90 degrees, allowing maximum force generation. The shoulders remain grounded to create a stable pivot point, while the hips drive upward and often to one side, creating both vertical displacement and rotational momentum.\n\nMastery of bridging mechanics is non-negotiable for effective BJJ practice. It appears in fundamental escapes like the upa (bridge and roll) from mount, elbow escape from side control, and countless back escape sequences. Advanced practitioners utilize bridging in more subtle ways\u2014creating micro-adjustments in position, generating explosive power for sweeps, and maintaining dynamic tension during scrambles. The bridge is also deeply connected to other fundamental movements like shrimping, with both forming the complete defensive movement vocabulary. Understanding and refining bridging mechanics accelerates progression at all levels, as it provides the physical foundation for escaping bad positions and the biomechanical understanding necessary for controlling opponents.",
   "key_principles": [
     "**Hip Elevation First**: The bridge initiates with explosive hip drive upward, not with pushing through the shoulders or chest",
     "**Foot Positioning**: Feet must be positioned close to hips (heels near glutes) with weight on balls of feet for maximum power generation",
     "**Posterior Chain Activation**: Glutes, hamstrings, and lower back must engage simultaneously to create full-body tension and power",
     "**Shoulder Stability**: Shoulders remain grounded as pivot points; lifting shoulders dissipates force and breaks the arch structure",
     "**Timing and Explosiveness**: Bridging is most effective when executed explosively at opportune moments, not as slow, sustained pressure",
-    "**Directional Control**: Bridge direction (straight up, angled left/right) must align with tactical objective—creating space, breaking posture, or generating rotation",
+    "**Directional Control**: Bridge direction (straight up, angled left/right) must align with tactical objective\u2014creating space, breaking posture, or generating rotation",
     "**Core Tension**: Abdominal and core muscles maintain rigidity throughout the bridge to transfer leg power efficiently to upper body",
     "**Recovery and Repetition**: Ability to bridge multiple times in sequence is crucial; single bridges rarely achieve complete escapes",
     "**Integration with Other Movements**: Bridging must seamlessly combine with shrimping, framing, and re-guarding for complete defensive systems"
@@ -44,7 +44,7 @@
     },
     {
       "skill_name": "Directional Vectoring",
-      "description": "Controlling the angle of hip drive to direct force in tactically advantageous directions—straight vertical for space creation, angled for rotation, or asymmetric for positional escapes. This skill allows the same fundamental movement to serve multiple tactical purposes."
+      "description": "Controlling the angle of hip drive to direct force in tactically advantageous directions\u2014straight vertical for space creation, angled for rotation, or asymmetric for positional escapes. This skill allows the same fundamental movement to serve multiple tactical purposes."
     },
     {
       "skill_name": "Timing Recognition",
@@ -344,7 +344,7 @@
       "relationship": "Classic escape technique that depends entirely on proper bridging execution"
     },
     {
-      "name": "Elbow Escape",
+      "name": "Elbow Escape to Guard",
       "content_type": "Transition",
       "relationship": "Side control escape that uses bridging to create initial space before shrimping movement"
     },
@@ -372,11 +372,6 @@
       "name": "Shrimping",
       "content_type": "Principle",
       "relationship": "Complementary escape movement that works with bridging to create complete defensive capability"
-    },
-    {
-      "name": "Hip Movement",
-      "content_type": "Principle",
-      "relationship": "Foundational principle that underlies all bridging mechanics and hip-based escapes"
     }
   ]
 }

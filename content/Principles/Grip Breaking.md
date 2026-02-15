@@ -368,7 +368,6 @@ Practice translating gi-based grip breaking principles to no-gi contexts, workin
 ### Related Content
 - [[Grip Fighting]] (Principle) - Parent concept providing offensive perspective on grip exchanges and establishment strategies
 - [[Grip Fighting Strategies]] (Principle) - Strategic framework for grip exchange including both establishment and breaking components
-- [[Hand Fighting]] (Principle) - Complementary concept focusing on preventing grip establishment through active hand fighting
 - [[Grip Strategy]] (Principle) - Higher-level strategic thinking about grip prioritization and exchange patterns
 - [[Collar Control]] (Principle) - Specific application of grip concepts to collar grips and collar-based control systems
 - [[Defensive Frame]] (Principle) - Defensive structure often established immediately after successful grip breaking

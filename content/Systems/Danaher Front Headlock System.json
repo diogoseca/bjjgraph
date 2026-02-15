@@ -1,7 +1,18 @@
 {
   "name": "Danaher Front Headlock System",
   "description": "Master the Front Headlock System in BJJ. Comprehensive control framework with guillotine, anaconda, darce pathways and back attacks. Systematic methodology for dominant finishing.",
-  "tags": ["bjj", "system", "front-headlock", "danaher", "control-system", "submission-chain", "back-attack", "guillotine", "anaconda", "darce"],
+  "tags": [
+    "bjj",
+    "system",
+    "front-headlock",
+    "danaher",
+    "control-system",
+    "submission-chain",
+    "back-attack",
+    "guillotine",
+    "anaconda",
+    "darce"
+  ],
   "system_type": "Control System",
   "difficulty_level": "Advanced",
   "overview": "The Danaher Front Headlock System represents one of the most comprehensive and dominant control frameworks in modern Brazilian Jiu-Jitsu. Developed by John Danaher and proven at the highest levels of competition by his athletes, this system transforms the front headlock position from a transitional control into a complete offensive ecosystem. The system operates on the principle that the front headlock offers unparalleled control over an opponent's movement while simultaneously providing access to multiple high-percentage finishing sequences.\n\nAt its core, the front headlock system is built around three primary finishing pathways: the guillotine choke family, the anaconda/darce choke family, and back exposure sequences. Each pathway contains multiple variations and entries, creating a decision tree that forces opponents into continuous defensive dilemmas. The beauty of the system lies in its interconnectedness - defensive reactions to one attack directly feed into setups for others, creating a self-reinforcing cycle of offensive pressure.\n\nWhat distinguishes Danaher's approach is the emphasis on systematic progression through clearly defined stages: entry, consolidation, breaking structure, and finishing. This methodical framework removes guesswork and provides practitioners with clear decision points based on opponent reactions. The system has produced exceptional results in both gi and no-gi competition, with athletes like Gordon Ryan, Garry Tonon, and Gary Tonon using it to dominate opponents at the highest levels of the sport.",
@@ -289,7 +300,7 @@
       "relationship": "Back control variation accessible from front headlock spiral sequences"
     },
     {
-      "name": "Snap Down",
+      "name": "Snap Down to Front Headlock",
       "content_type": "Transition",
       "relationship": "Primary standing entry to front headlock system"
     },

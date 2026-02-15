@@ -99,29 +99,31 @@ Competition application demonstrates New York Control's effectiveness in both gi
 ### Available Transitions
 
 
-- **[[Gogoplata]]** (7% of attempts)
+- **[[Gogoplata]]** (6% of attempts)
 
-- **[[Triangle Setup]]** (10% of attempts)
+- **[[Triangle Setup]]** (18% of attempts)
 
-- **[[Omoplata Sweep]]** (9% of attempts)
+- **[[Omoplata Sweep]]** (8% of attempts)
 
-- **[[Triangle to Omoplata]]** (8% of attempts)
+- **[[Triangle to Omoplata]]** (7% of attempts)
 
-- **[[Omoplata to Back]]** (7% of attempts)
+- **[[Omoplata to Back]]** (6% of attempts)
 
-- **[[Triangle to Back]]** (8% of attempts)
+- **[[Triangle to Back]]** (7% of attempts)
 
-- **[[Crackhead Control to Mission Control]]** (10% of attempts)
+- **[[Crackhead Control to Mission Control]]** (9% of attempts)
 
-- **[[New York to Invisible Collar]]** (10% of attempts)
+- **[[New York to Invisible Collar]]** (9% of attempts)
 
-- **[[New York Control to Zombie]]** (9% of attempts)
+- **[[New York Control to Zombie]]** (8% of attempts)
 
-- **[[Armbar from Guard]]** (7% of attempts)
+- **[[Armbar Finish]]** (6% of attempts)
 
-- **[[Kimura from Guard]]** (7% of attempts)
+- **[[Kimura]]** (6% of attempts)
 
-- **[[Hip Bump Sweep]]** (8% of attempts)
+- **[[Hip Bump Sweep]]** (7% of attempts)
+
+- **[[New York Control to Invisible Collar]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -182,17 +184,19 @@ Competition application demonstrates New York Control's effectiveness in both gi
 ### Available Transitions
 
 
-- **[[Overhook Escape]]** (18% of attempts)
+- **[[Overhook Escape]]** (16% of attempts)
 
-- **[[Posture Recovery]]** (16% of attempts)
+- **[[Posture Recovery]]** (15% of attempts)
 
-- **[[Base Widening]]** (20% of attempts)
+- **[[Crossface to Combat Base]]** (21% of attempts)
 
-- **[[Stack Pass]]** (13% of attempts)
+- **[[Stack Pass]]** (12% of attempts)
 
-- **[[Leg Extraction]]** (18% of attempts)
+- **[[Leg Extraction]]** (16% of attempts)
 
-- **[[Standing up]]** (15% of attempts)
+- **[[Standing Escape]]** (14% of attempts)
+
+- **[[New York Control Escape]]** (6% of attempts)
 
 
 ### Common Mistakes

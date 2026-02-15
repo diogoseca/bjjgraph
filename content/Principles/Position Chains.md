@@ -365,7 +365,7 @@ Video analysis of high-level competition matches identifying successful position
 - [[Back Control]] (Position) - Common goal position for offensive chains from multiple starting positions due to dominant control and high submission success rates
 - [[Mount]] (Position) - Frequent intermediate position in chains advancing from side control or sweep positions toward back control or submissions
 - [[Half Guard]] (Position) - Strategic position in many bottom chains serving as recovery point when full guard is lost or entry point for sweeping sequences
-- [[Guard Pass]] (Transition) - Critical transition in top position chains, connecting open guard positions to dominant top control positions like side control or mount
+- [[Pass to Side Control]] (Transition) - Critical transition in top position chains, connecting open guard positions to dominant top control positions like side control or mount
 
 
 </section>

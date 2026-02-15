@@ -21,19 +21,19 @@ description: "Offensive guillotine variation from top position using body weight
     {
       "@type": "HowToStep",
       "name": "Execute Guillotine Choke",
-      "text": "From this position, attempt Guillotine Choke. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Guillotine Choke. This technique is attempted in 26% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hindulotine to Darce Choke",
-      "text": "From this position, attempt Hindulotine to Darce Choke. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Hindulotine to Darce Choke. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hindulotine to Anaconda Choke",
-      "text": "From this position, attempt Hindulotine to Anaconda Choke. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Hindulotine to Anaconda Choke. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
@@ -44,14 +44,14 @@ description: "Offensive guillotine variation from top position using body weight
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Front Headlock to Back",
+      "text": "From this position, attempt Front Headlock to Back. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Arm Triangle from Top",
+      "text": "From this position, attempt Arm Triangle from Top. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,21 +212,21 @@ Success from top Hindulotine requires understanding weight distribution and hip 
 
 ## Available Attacks
 
-### [[Guillotine Choke]] (12% of attempts)
+### [[Guillotine Choke]] (26% of attempts)
 
-### [[Hindulotine to Darce Choke]] (13% of attempts)
+### [[Hindulotine to Darce Choke]] (11% of attempts)
 
-### [[Hindulotine to Anaconda Choke]] (12% of attempts)
+### [[Hindulotine to Anaconda Choke]] (9% of attempts)
 
 ### [[Back Take from Top]] (14% of attempts)
 
-### [[Side Control to Mount]] (13% of attempts)
+### [[Front Headlock to Back]] (11% of attempts)
 
-### [[Side Control to North-South]] (12% of attempts)
+### [[Arm Triangle from Top]] (10% of attempts)
 
-### [[Front Headlock to Back]] (13% of attempts)
+### [[Snap Down to Front Headlock]] (14% of attempts)
 
-### [[Arm Triangle from Top]] (11% of attempts)
+### [[Hindulotine Choke Finish]] (5% of attempts)
 
 
 

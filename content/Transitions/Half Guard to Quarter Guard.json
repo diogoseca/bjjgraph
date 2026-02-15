@@ -1,0 +1,409 @@
+{
+  "name": "Half Guard to Quarter Guard",
+  "description": "Master the Transition to Quarter Guard from Half Guard Top. Learn systematic leg extraction, pressure application, and passing progression to advance position.",
+  "tags": [
+    "bjj",
+    "half guard passing",
+    "quarter guard",
+    "guard passing",
+    "pressure passing",
+    "leg extraction",
+    "transitional technique",
+    "positional advancement"
+  ],
+  "from_position": "Half Guard/Top",
+  "outcomes": [
+    {
+      "to": "Quarter Guard/Top",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Half Guard/Top",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Deep Half Guard/Bottom",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 70,
+  "overview": "The Transition to Quarter Guard is a systematic positional advancement technique executed from Half Guard Top, where the passer progressively extracts their trapped leg past the bottom player's hip line while maintaining upper body control. This technique represents the critical intermediate step between being stuck in half guard and completing a full pass to side control, mount, or knee on belly. Rather than a single explosive movement, this transition relies on methodical pressure application, systematic frame elimination, and precise weight distribution that gradually degrades the bottom player's guard retention capacity.\n\nStrategically, the Transition to Quarter Guard serves as the bridge between the guard passing battle and positional dominance. The technique succeeds when the top player establishes crossface control, neutralizes the bottom player's underhook, and drives their knee past the opponent's hip centerline while maintaining enough base to resist sweep attempts. The key insight is that this transition targets the bottom player's leg retention specifically—by isolating and extracting the trapped leg through progressive hip advancement rather than explosive pulling, the top player converts a contested position into one where they hold a decisive structural advantage.\n\nThis transition appears constantly in high-level competition because half guard is one of the most common defensive positions encountered during guard passing. Practitioners who master this systematic progression develop the ability to consistently advance through half guard rather than stalling in extended passing battles. The technique chains naturally into knee slice passes, smash passes, and crossface passes once quarter guard is established, making it a cornerstone of any pressure passing system.",
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Crossface Drive to Quarter Guard",
+      "description": "Emphasizes heavy shoulder pressure across opponent's face while walking hips forward incrementally. Uses crossface as primary control to prevent opponent from turning into you while knee slides past their hip. Most effective against opponents who rely on frames rather than underhooks for half guard defense.",
+      "when_to_use": "When you have established strong crossface and opponent is partially flattened without active underhook"
+    },
+    {
+      "variant_name": "Knee Wedge Extraction",
+      "description": "Uses the free leg's knee as a wedge against the inside of opponent's thigh to pry open their leg entanglement while maintaining chest pressure. The knee drives inward against their top leg while hips advance, creating progressive separation that breaks the half guard grip incrementally.",
+      "when_to_use": "When opponent has tight leg entanglement but weak upper body control, allowing you to focus on systematic leg extraction"
+    },
+    {
+      "variant_name": "Hip Switch Quarter Guard Entry",
+      "description": "Involves switching hip orientation from standard half guard top alignment to a perpendicular angle that naturally frees the trapped leg. The top player rotates their hips forty-five degrees while maintaining chest contact, using the angular change to slip past the bottom player's knee line without direct extraction force.",
+      "when_to_use": "When opponent has strong lockdown or deep leg entanglement that resists direct extraction attempts"
+    }
+  ],
+  "conditions": [
+    "Established half guard top position with upper body control through crossface or underhook",
+    "Bottom player's underhook has been neutralized or controlled via whizzer or shoulder pressure",
+    "Sufficient base established to resist sweep attempts during transition",
+    "Bottom player's knee shield has been at least partially collapsed or bypassed"
+  ],
+  "position_integration": "The Transition to Quarter Guard occupies a pivotal position in the guard passing hierarchy, functioning as the systematic bridge between contested half guard and completed passes. Within pressure passing systems, this transition represents the moment where the passer converts a fifty-fifty positional battle into a decisive structural advantage. It connects directly to knee slice pass, smash pass, crossface pass, and long step pass completion sequences, and integrates with submission threats like the Darce choke and Kimura that become available as the bottom player's defensive structure deteriorates during the transition.",
+  "related_content": [
+    {
+      "name": "Half Guard",
+      "relationship": "Starting position from which this transition is initiated by the top player"
+    },
+    {
+      "name": "Quarter Guard",
+      "relationship": "Target position achieved upon successful completion of this transition"
+    },
+    {
+      "name": "Knee Slice Pass",
+      "relationship": "Primary follow-up technique once quarter guard is established"
+    },
+    {
+      "name": "Smash Pass",
+      "relationship": "Alternative passing completion from established quarter guard position"
+    },
+    {
+      "name": "Crossface Pass",
+      "relationship": "Complementary passing technique using similar pressure mechanics"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Counter position bottom player may achieve if transition is executed poorly"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Ultimate target position following quarter guard pass completion"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Defensive structure that must be eliminated before initiating this transition"
+    },
+    {
+      "name": "Lockdown",
+      "relationship": "Leg entanglement that prevents this transition and requires specific counters"
+    },
+    {
+      "name": "Headquarters Position",
+      "relationship": "Related passing position that can precede or follow quarter guard establishment"
+    },
+    {
+      "name": "Darce Choke",
+      "relationship": "Submission opportunity that opens when bottom player turns during transition"
+    },
+    {
+      "name": "Kimura",
+      "relationship": "Submission threat available when bottom player overcommits to underhook recovery"
+    }
+  ],
+  "attacker": {
+    "name": "Half Guard to Quarter Guard Attacker",
+    "description": "Complete guide to executing the Transition to Quarter Guard from Half Guard Top. Learn systematic leg extraction, crossface pressure, and weight distribution for advancing past half guard.",
+    "overview": "As the attacker executing the Transition to Quarter Guard, your objective is to methodically advance your trapped leg past the bottom player's hip line while maintaining dominant upper body control. This is not an explosive technique but a systematic degradation of your opponent's guard retention through precise pressure application, frame elimination, and incremental hip advancement. The transition begins with establishing upper body dominance through crossface and underhook control, proceeds through isolating and weakening the bottom player's leg entanglement, and concludes with driving your knee past their hip centerline to establish quarter guard. Success requires patience, pressure sensitivity, and the ability to read when defensive structures have been sufficiently compromised to advance.",
+    "key_principles": [
+      "Establish crossface control before attempting any leg extraction to prevent bottom player from turning into you or recovering frames",
+      "Advance hips incrementally rather than explosively—each inch of forward pressure compounds your positional advantage while minimizing sweep risk",
+      "Neutralize the bottom player's underhook through whizzer, shoulder pressure, or arm pinning before committing to the transition",
+      "Use your free leg's knee as a wedge to progressively separate the bottom player's leg entanglement rather than pulling your trapped leg backward",
+      "Maintain seventy percent weight forward through chest and shoulder while keeping thirty percent on base leg for sweep defense throughout the transition",
+      "Control the bottom player's near-side knee to prevent knee shield re-insertion or angle creation that would stall your advancement",
+      "Recognize the completion point—when your knee passes their hip centerline, immediately shift to quarter guard passing sequences rather than consolidating"
+    ],
+    "setup_requirements": [
+      "Established half guard top position with weight distributed through chest and hips into opponent's upper body",
+      "Crossface or head control secured preventing bottom player from turning into you or creating defensive angles",
+      "Bottom player's underhook neutralized through whizzer, shoulder drive, or arm pinning—active underhook prevents this transition",
+      "Bottom player's knee shield collapsed or partially bypassed allowing forward hip progression past their defensive line",
+      "Sufficient base through posted free leg to resist sweep attempts during the transitional movement",
+      "Near-side arm controlling opponent's hip or knee to prevent them from creating space or recovering defensive frames"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish upper body dominance",
+        "description": "Secure crossface by driving your shoulder into the bottom player's far cheek or jaw, flattening their head away from you. Simultaneously control their near-side arm by pinning it with your chest weight or trapping it against your body. If they have an active underhook, apply a whizzer or heavy shoulder pressure to strip it before proceeding. Your chest should be heavy on their upper body with hips pressing forward."
+      },
+      {
+        "step_number": 2,
+        "action": "Collapse the knee shield",
+        "description": "Use your free hand to control the bottom player's top knee, pushing it toward the mat while driving your hip forward into the space created. If they maintain a knee shield, use your shin or knee to pressure it down rather than trying to go around it. The goal is to get your hip past the line of their knee shield so they can no longer generate effective frame pressure against your torso."
+      },
+      {
+        "step_number": 3,
+        "action": "Begin hip advancement",
+        "description": "With upper body control secured and knee shield collapsed, start walking your hips forward in small increments. Drive your trapped-side hip into their body while maintaining crossface pressure. Each forward movement should be two to three inches, using your free leg's foot posted on the mat to generate forward drive. Do not rush—each increment should feel controlled with weight transferring progressively forward."
+      },
+      {
+        "step_number": 4,
+        "action": "Wedge the knee past hip line",
+        "description": "As your hips advance, use your trapped knee as a wedge against the inside of their thigh to create progressive separation in their leg entanglement. Drive the knee forward and slightly outward, spreading their legs apart while your hip continues advancing. The moment your knee passes their hip centerline by four to six inches, you have achieved the structural breakthrough—their leg retention capacity drops dramatically at this point."
+      },
+      {
+        "step_number": 5,
+        "action": "Secure quarter guard control",
+        "description": "Once your knee has passed their hip line, immediately increase crossface pressure and drop your weight forward to prevent any recovery attempt. Your chest should now be angled thirty to forty-five degrees across their body toward their far shoulder. Pin their near-side arm or hip with your free hand to eliminate remaining defensive frames. The bottom player should now have only minimal ankle or lower leg contact on your trapped leg."
+      },
+      {
+        "step_number": 6,
+        "action": "Transition to passing sequence",
+        "description": "From established quarter guard, immediately initiate your preferred passing completion—knee slice by driving your knee across their thigh line, smash pass by flattening their remaining leg control with hip pressure, or crossface pass by walking your hips around while maintaining shoulder pressure. Do not hold quarter guard statically for more than five seconds. The transition momentum should carry directly into pass completion while the bottom player's defensive structure is still compromised."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Bottom player fights to recover underhook during hip advancement",
+        "effectiveness": "High",
+        "your_response": "Immediately apply heavy shoulder pressure or whizzer to strip the recovering underhook. If they secure it before you can counter, pause advancement and re-establish upper body dominance before continuing. An active underhook gives them sweep and back take options that make continued advancement dangerous.",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Bottom player hip escapes to create angle and recover knee shield",
+        "effectiveness": "Medium",
+        "your_response": "Follow their hip escape by adjusting your angle to match, maintaining chest contact throughout. Use your free hand to control their far hip and prevent further rotation. If they recover a partial knee shield, use smash pass pressure to re-collapse it before continuing the transition.",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Bottom player drops underneath for deep half guard entry during weight commitment",
+        "effectiveness": "High",
+        "your_response": "If you feel them diving underneath, immediately sprawl your hips back and apply downward pressure to prevent them from getting their head beneath your hips. Post your hand on the mat on the far side and drive weight down. If they achieve deep half, you must address that position specifically rather than continuing the quarter guard transition.",
+        "targets_outcome": "Deep Half Guard/Bottom"
+      },
+      {
+        "counter": "Bottom player uses lockdown to trap your advancing leg",
+        "effectiveness": "Medium",
+        "your_response": "If they catch your leg in lockdown during advancement, stop forward progress and apply heavy chest pressure to flatten them. Work to break the lockdown by straightening your trapped leg and driving your knee to the mat while maintaining upper body control. Do not try to advance through lockdown—break it first, then resume the transition.",
+        "targets_outcome": "Half Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting explosive leg extraction instead of systematic incremental advancement",
+        "consequence": "Creates space and momentum that the bottom player exploits for sweeps, guard recovery, or deep half entry. Explosive movement sacrifices the pressure and control that make this transition successful.",
+        "correction": "Advance hips in two to three inch increments with constant pressure. Each movement should feel heavy and controlled rather than fast. Let accumulated pressure break down their defense rather than trying to rip through it."
+      },
+      {
+        "error": "Neglecting crossface before starting hip advancement",
+        "consequence": "Bottom player turns into you, recovers underhook, establishes frames, or creates angles that stall or reverse your passing progress entirely.",
+        "correction": "Always establish crossface as the first step. Your shoulder should be driving into their far cheek before any hip movement begins. If crossface is lost during advancement, pause and re-establish it immediately."
+      },
+      {
+        "error": "Allowing bottom player to maintain active underhook throughout the transition",
+        "consequence": "Active underhook gives bottom player sweep paths, back take entries, and the ability to come up to dogfight position, converting your passing attempt into a scramble or positional loss.",
+        "correction": "Strip the underhook before advancing. Use whizzer, shoulder drive, or arm pin to neutralize it completely. If they recover it mid-transition, stop advancing and address the underhook before continuing."
+      },
+      {
+        "error": "Keeping weight on hands and knees instead of driving through chest and hips",
+        "consequence": "Insufficient pressure allows bottom player to maintain frames, create space, and recover defensive structures that you need to be systematically destroying through pressure.",
+        "correction": "Drive weight forward through chest and shoulder into opponent. Hands should be light and used for control rather than weight bearing. Seventy percent of your weight should transfer through your torso into their body."
+      },
+      {
+        "error": "Stalling in quarter guard once achieved instead of immediately initiating pass completion",
+        "consequence": "Bottom player uses the pause to recover defensive frames, re-insert knee shield, fight for underhook, or transition to deep half guard. Quarter guard is inherently unstable and deteriorates if not converted quickly.",
+        "correction": "Treat quarter guard as a checkpoint, not a destination. The moment your knee passes their hip line, immediately flow into your preferred passing sequence within three to five seconds maximum."
+      },
+      {
+        "error": "Ignoring the bottom player's far hip control allowing them to rotate and create defensive angles",
+        "consequence": "Rotation creates space for guard recovery, sweep attempts, and back exposure. The bottom player's ability to rotate their hips is their primary escape mechanism from this transition.",
+        "correction": "Control their far hip with your free hand throughout the transition. Pin their hip to the mat or control it with forearm pressure to prevent the rotation that enables defensive recovery."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Foundation - Static Pressure Drilling",
+        "focus": "Weight distribution and crossface mechanics",
+        "description": "Practice establishing and maintaining crossface pressure from half guard top with partner providing zero resistance. Focus on correct shoulder placement, weight transfer through chest, and hip positioning. Hold each position for thirty seconds while partner provides feedback on pressure quality and placement."
+      },
+      {
+        "phase": "Technique - Incremental Advancement",
+        "focus": "Systematic hip progression and knee wedge mechanics",
+        "description": "With partner providing twenty-five percent resistance, practice the complete six-step execution sequence focusing on incremental hip advancement. Emphasize the knee wedge technique and controlling opponent's far hip. Complete ten repetitions per side, resetting to half guard top after each successful quarter guard establishment."
+      },
+      {
+        "phase": "Integration - Passing Chain Completion",
+        "focus": "Connecting quarter guard establishment to pass completion",
+        "description": "With partner at fifty percent resistance, practice the full sequence from half guard top through quarter guard to completed pass. Chain into knee slice, smash pass, or crossface pass based on partner's defensive reactions. Focus on eliminating the pause between quarter guard establishment and pass initiation."
+      },
+      {
+        "phase": "Live Application - Positional Sparring",
+        "focus": "Applying technique against full resistance with counter-recognition",
+        "description": "Start from half guard top with partner at full competitive resistance. Work to establish quarter guard and complete pass within sixty seconds. Partner actively defends with underhook recovery, deep half entries, and knee shield retention. Track success rate and identify which defensive reactions cause the most difficulty for targeted improvement."
+      },
+      {
+        "phase": "Advanced - Counter-to-Counter Sequences",
+        "focus": "Reading and adapting to defensive reactions in real time",
+        "description": "Partner deliberately cycles through specific counters—underhook recovery, deep half entry, lockdown, and hip escape—while you practice recognizing each counter and applying the correct response without pausing. Develop automatic pattern recognition so counter-responses become reflexive rather than analytical."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What must be established before initiating hip advancement in the Transition to Quarter Guard?",
+        "answer": "Crossface control must be established first with your shoulder driving into the bottom player's far cheek, and their underhook must be neutralized through whizzer or shoulder pressure. Without these two prerequisites, hip advancement exposes you to sweeps, back takes, and guard recovery that make the transition fail. Upper body dominance is the foundation that makes leg extraction possible."
+      },
+      {
+        "question": "Your opponent recovers their underhook while you are mid-transition—what is the correct response?",
+        "answer": "Immediately stop hip advancement and address the underhook before continuing. Apply heavy shoulder pressure or whizzer to strip it. If the underhook is deeply established, you may need to retreat slightly to reset upper body control. Continuing to advance with an active opponent underhook exposes you to old school sweeps, back takes, and dogfight entries that convert your passing attempt into a defensive scramble."
+      },
+      {
+        "question": "What is the critical mechanical detail that determines whether the knee wedge technique succeeds or fails?",
+        "answer": "The knee must drive forward and slightly outward against the inside of the opponent's thigh to create progressive separation in their leg entanglement. Driving straight forward without the outward angle allows their legs to maintain grip strength. The outward wedge creates a prying action that mechanically weakens their leg control regardless of squeeze strength. The angle of the wedge should be approximately thirty degrees outward from the forward direction."
+      },
+      {
+        "question": "How should weight be distributed during the Transition to Quarter Guard to balance pressure and base?",
+        "answer": "Approximately seventy percent of weight should drive forward through your chest and shoulder into the opponent's upper body, creating the pressure that degrades their defensive structure. The remaining thirty percent stays on your base leg and posting hand to resist sweep attempts during the transitional movement. This ratio provides enough pressure to prevent defensive recovery while maintaining sufficient base to avoid being swept during the advancement."
+      },
+      {
+        "question": "Your opponent begins hip escaping to create angle during your advancement—how do you adjust?",
+        "answer": "Follow their hip escape by adjusting your angle to match their movement, maintaining chest-to-chest contact throughout the adjustment. Use your free hand to control their far hip and pin it to prevent further rotation. If they create significant angle, you may need to temporarily increase crossface pressure to flatten them before resuming hip advancement. The key is that you move with them rather than letting them escape to a new angle while you stay static."
+      },
+      {
+        "question": "Why is it critical to transition immediately to a passing sequence once quarter guard is established rather than consolidating?",
+        "answer": "Quarter guard is inherently unstable—the bottom player retains enough leg contact to recover knee shield, fight for underhook, or enter deep half within five to ten seconds. Pausing allows them to rebuild defensive structures that you just spent energy destroying. The momentum and pressure advantage from the transition should carry directly into pass completion while their defense is still compromised and disorganized."
+      },
+      {
+        "question": "What are the primary grip requirements for maintaining control throughout this transition?",
+        "answer": "The crossface shoulder against their far cheek is the primary control, requiring no grip but proper shoulder blade positioning. The free hand must control their near-side hip or knee to prevent rotation and angle creation. If available, an underhook on the far side provides additional control. Avoid gripping their gi or arms in ways that extend your own elbows away from your body, as this creates submission vulnerability and reduces pressure efficiency."
+      },
+      {
+        "question": "Your opponent drops underneath for a deep half guard entry as you commit weight forward—what went wrong and how do you respond?",
+        "answer": "The deep half entry indicates insufficient hip control—your weight was too far forward without controlling their ability to dive underneath. Immediately sprawl hips back and drive downward pressure to prevent them from completing the entry. If they achieve deep half, you must address that position specifically with whizzer and hip pressure rather than continuing the quarter guard transition. Prevention requires maintaining hip awareness and not overcommitting weight past the tipping point where they can get underneath you."
+      }
+    ],
+    "safety_considerations": "The Transition to Quarter Guard involves sustained pressure application that can be uncomfortable for the bottom player, particularly crossface pressure against the face and jaw. In training, modulate crossface intensity to avoid cervical spine strain or TMJ discomfort in your partner. Avoid explosive jerking movements during leg extraction that could torque the bottom player's knee or hip. Communicate with training partners about pressure levels and be prepared to ease off immediately if they indicate pain or discomfort in their knee, hip, or neck."
+  },
+  "defender": {
+    "name": "Half Guard to Quarter Guard Defender",
+    "description": "Complete defensive guide against the Transition to Quarter Guard. Learn recognition cues, guard retention techniques, sweep counters, and recovery options from compromised half guard.",
+    "overview": "Defending against the Transition to Quarter Guard requires recognizing the early warning signs of positional deterioration and responding with immediate, decisive action before the top player advances past the point of no return. As the bottom player in half guard, you must identify when the top player begins systematically extracting their trapped leg and respond by either reinforcing your guard retention, initiating offensive actions that force them to abandon the passing attempt, or transitioning to alternative guard positions that offer better defensive or offensive prospects. The critical window for effective defense is narrow—once the top player's knee passes your hip centerline, your guard retention capacity drops dramatically and recovery becomes exponentially more difficult. Proactive defense that disrupts the transition before it begins is vastly superior to reactive defense that tries to recover after the position is compromised.",
+    "key_principles": [
+      "Fight to maintain the underhook as your primary defensive and offensive anchor—without it, you have no leverage to prevent the transition or initiate sweeps",
+      "Recognize early warning signs of hip advancement and respond immediately rather than waiting until quarter guard is established",
+      "Maintain hip angle on your side rather than allowing yourself to be flattened—being flat eliminates all defensive and offensive options",
+      "Use your free leg actively as a frame, hook, or barrier rather than leaving it passive on the mat",
+      "Initiate offensive actions when you feel the top player committing weight forward—their passing commitment creates sweep and back take opportunities",
+      "Have predetermined escape routes planned before the transition begins—know whether you will fight for guard retention, sweep, or transition to alternative position",
+      "Time your defensive actions to the moment when the top player shifts weight for advancement—this is when their base is most vulnerable"
+    ],
+    "recognition_cues": [
+      "Top player establishes heavy crossface with shoulder driving into your far cheek, indicating they are setting up upper body dominance for the transition",
+      "You feel increasing forward hip pressure as the top player begins walking their hips toward your head, compressing the space in your half guard",
+      "Your knee shield loses effectiveness as the top player's knee begins wedging past your hip line, creating progressive separation in your leg entanglement",
+      "Top player strips or neutralizes your underhook through whizzer or shoulder pressure, removing your primary offensive tool and defensive anchor",
+      "Your leg grip on their trapped leg weakens as their knee drives outward against the inside of your thigh, prying open your entanglement"
+    ],
+    "defensive_options": [
+      {
+        "action": "Fight aggressively to recover or maintain underhook while hip escaping to create defensive angle",
+        "when_to_use": "Early in the transition when top player first begins advancing hips but has not yet passed your hip centerline",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "You recover full half guard with underhook control, resetting the positional battle to a contested half guard exchange",
+        "risk": "If underhook recovery fails, the delay may allow the top player to advance further, making subsequent defense more difficult"
+      },
+      {
+        "action": "Drop underneath for deep half guard entry by getting your head below their hips",
+        "when_to_use": "When the top player commits significant weight forward during hip advancement, creating space underneath their body",
+        "targets_outcome": "Deep Half Guard/Bottom",
+        "if_successful": "You establish deep half guard which offers superior sweeping angles and neutralizes their passing pressure",
+        "risk": "If the top player recognizes the deep half entry early, they can sprawl and flatten you, accelerating the pass completion"
+      },
+      {
+        "action": "Initiate old school sweep or underhook sweep exploiting their forward weight commitment",
+        "when_to_use": "When the top player posts a hand on the mat or shifts weight excessively forward during the transition",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "You sweep the top player and achieve a dominant top position, completely reversing the positional dynamic",
+        "risk": "Failed sweep attempt from compromised position may leave you flatter and more vulnerable to immediate pass completion"
+      },
+      {
+        "action": "Insert butterfly hook with free leg and elevate to disrupt their base and pressure",
+        "when_to_use": "When there is sufficient space between your bodies to insert the hook and your hips have not been fully pinned",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "You create enough space to recover full half guard or transition to butterfly half guard with improved defensive structure",
+        "risk": "If the hook insertion is too late, the top player may use the movement to accelerate past your hip line into quarter guard"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Half Guard/Top",
+        "how": "Recover underhook control and hip angle early in the transition before their knee passes your hip centerline. Use active hip escaping combined with underhook pulling to prevent flattening and re-establish the contested half guard dynamic."
+      },
+      {
+        "outcome": "Deep Half Guard/Bottom",
+        "how": "When the top player overcommits weight forward during advancement, use that momentum to dive underneath their body, getting your head below their hips and establishing deep half guard hooks. Their forward commitment makes it difficult to prevent the deep half entry if timed correctly."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Waiting passively until quarter guard is fully established before attempting to defend",
+        "consequence": "Once the top player's knee passes your hip centerline, your defensive options are severely limited and recovery requires significantly more energy and technical precision. The pass becomes nearly inevitable under competent pressure.",
+        "correction": "Recognize early warning signs of the transition—crossface establishment, underhook stripping, forward hip pressure—and respond immediately with underhook recovery, hip escape, or offensive action. Defense must begin in the first two seconds of the transition attempt."
+      },
+      {
+        "error": "Allowing yourself to be flattened on your back without fighting to maintain side angle",
+        "consequence": "Being flat eliminates hip mobility which is your primary escape and sweep mechanism. Without hip angle, you cannot generate the leverage needed for sweeps, guard recovery, or back takes, making pass completion a formality for the top player.",
+        "correction": "Constantly fight to maintain position on your side through hip escaping and underhook activity. If you feel your shoulders approaching flat on the mat, immediately bridge and hip escape to recover your side angle before the top player consolidates."
+      },
+      {
+        "error": "Abandoning the underhook without a planned alternative defensive structure",
+        "consequence": "The underhook is your primary offensive and defensive tool. Losing it without immediately establishing frames, butterfly hooks, or transitioning to an alternative guard removes all leverage and allows the top player to advance freely with overwhelming pressure.",
+        "correction": "If the underhook is being stripped, immediately transition to your backup plan—either fight to recover it with explosive hip movement, establish a strong knee shield frame, or commit to a deep half guard entry. Never exist in half guard without either an underhook or a strong frame."
+      },
+      {
+        "error": "Overcommitting to a single sweep attempt without proper angle creation",
+        "consequence": "A sweep attempted from a flat position without proper angle fails and leaves you more flattened and vulnerable. The energy expenditure on a failed sweep accelerates positional deterioration and the top player can capitalize on your compromised recovery position.",
+        "correction": "Always create proper angle through hip escape before committing to any sweep. The angle creation takes one to two seconds and dramatically increases sweep success probability while reducing the consequences of failure."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What are the earliest recognition cues that your opponent is initiating the Transition to Quarter Guard?",
+        "answer": "The earliest cues are heavy crossface establishment with their shoulder driving into your far cheek, active stripping of your underhook through whizzer or shoulder pressure, and incremental forward hip pressure that compresses your half guard space. These preparatory actions occur before any actual leg extraction begins and represent the optimal defensive window—responding to these early cues allows you to disrupt the transition before it gains momentum."
+      },
+      {
+        "question": "Your underhook has been stripped and the top player is advancing—what is your immediate priority?",
+        "answer": "Your immediate priority is establishing an alternative defensive structure within two seconds. The best options in order are: attempt to recover the underhook with an explosive hip escape and arm insertion, establish a strong knee shield frame by inserting your shin across their body, or commit to a deep half guard entry if their weight is forward. The worst option is remaining flat without any control structure, as this guarantees pass completion within seconds. Choose one option and commit fully rather than half-attempting multiple defenses."
+      },
+      {
+        "question": "When is the optimal timing window to attempt a sweep during the Transition to Quarter Guard defense?",
+        "answer": "The optimal sweep timing is when the top player shifts their weight forward to advance their hips, particularly when they post a hand on the mat for balance during the advancement. This forward weight commitment temporarily reduces their base and creates the mechanical conditions for successful sweep execution. Attempting sweeps before they commit forward means fighting against a stable base, while waiting until quarter guard is established means sweeping from a structurally compromised position with reduced leverage."
+      },
+      {
+        "question": "How do you determine whether to fight for guard retention or transition to deep half guard?",
+        "answer": "The decision depends on your underhook status and the degree of hip advancement. If your underhook is intact and their knee has not yet passed your hip centerline, fight for guard retention through underhook activity and hip escaping. If your underhook has been stripped and their weight is committed forward past your hip line, transition to deep half guard by diving underneath their body. The key decision point is whether you can realistically recover the underhook—if yes, retain guard; if no, transition immediately rather than fighting a losing battle."
+      },
+      {
+        "question": "What role does your free leg play in defending against this transition?",
+        "answer": "Your free leg serves as a critical defensive tool that should be actively employed rather than left passive. Use it to create knee shield frames against their chest to prevent forward advancement, push against their hip to create space for hip escaping, insert a butterfly hook to elevate and disrupt their base, or post on the mat to generate power for sweeping attempts. A passive free leg is wasted defensive potential that allows the top player to advance unopposed through your guard structure."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Recognition Training",
+        "focus": "Identifying transition initiation cues",
+        "description": "Partner slowly walks through the Transition to Quarter Guard while you practice identifying each warning cue—crossface establishment, underhook stripping, hip advancement, knee wedge insertion. Call out each cue verbally as you recognize it. Build pattern recognition so these cues trigger automatic defensive responses."
+      },
+      {
+        "phase": "Defensive Response Drilling",
+        "focus": "Executing specific defensive options against controlled resistance",
+        "description": "Partner initiates the transition at fifty percent speed and pressure. Practice each defensive option in isolation—underhook recovery, deep half entry, sweep initiation, knee shield recovery—completing ten repetitions of each. Focus on timing and mechanical precision before adding speed."
+      },
+      {
+        "phase": "Decision-Making Under Pressure",
+        "focus": "Selecting correct defensive response based on positional variables",
+        "description": "Partner initiates the transition at seventy-five percent intensity with random variations in their approach. You must read their attack and select the appropriate defensive response in real time. Partner provides feedback on whether your response was tactically correct for the specific situation they presented."
+      },
+      {
+        "phase": "Live Positional Sparring",
+        "focus": "Full resistance application with competitive intensity",
+        "description": "Start in half guard bottom with partner at full competitive resistance working the Transition to Quarter Guard. Your goal is to prevent the transition and either retain half guard, sweep, or achieve a back take within sixty seconds. Track success rates across multiple rounds to identify weak points requiring additional drilling."
+      }
+    ]
+  }
+}

@@ -21,37 +21,37 @@ description: "Master passing Shin-to-Shin Guard from top perspective. Learn clea
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, attempt Long Step Pass. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 22% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass",
-      "text": "From this position, attempt Stack Pass. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Pressure Pass",
-      "text": "From this position, attempt Pressure Pass. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Pressure Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute X Pass",
-      "text": "From this position, attempt X Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt X Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -207,21 +207,25 @@ Facing Shin-to-Shin Guard from the top position presents a unique set of challen
 
 ## Available Attacks
 
-### [[Knee Slice Pass]] (13% of attempts)
+### [[Knee Slice Pass]] (11% of attempts)
 
-### [[Long Step Pass]] (14% of attempts)
+### [[Long Step Pass]] (22% of attempts)
 
-### [[Leg Drag Pass]] (12% of attempts)
+### [[Leg Drag Pass]] (10% of attempts)
 
-### [[Stack Pass]] (11% of attempts)
+### [[Stack Pass]] (9% of attempts)
 
-### [[Pressure Pass]] (13% of attempts)
+### [[Pressure Pass]] (11% of attempts)
 
-### [[X Pass]] (12% of attempts)
+### [[X Pass]] (10% of attempts)
 
-### [[Knee Through]] (12% of attempts)
+### [[Knee Through]] (10% of attempts)
 
-### [[Smash Pass]] (13% of attempts)
+### [[Smash Pass]] (11% of attempts)
+
+### [[Pass Shin-to-Shin Guard]] (4% of attempts)
+
+### [[Pressure from Shin-to-Shin]] (2% of attempts)
 
 
 

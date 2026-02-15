@@ -346,10 +346,10 @@ MMA Crossover Strategy requires integrated training that combines striking and g
 - [[Sprawl]] (Transition) - Primary takedown defense leading to front headlock and guillotine opportunities
 - [[Double Leg Entry]] (Transition) - High-percentage takedown for establishing top position in MMA
 - [[Single Leg Entry]] (Transition) - Wrestling-based takedown adapted for MMA timing and cage work
-- [[Technical Standup]] (Transition) - Emergency escape sequence from bottom positions when strikes threaten
+- [[Technical Stand-up]] (Transition) - Emergency escape sequence from bottom positions when strikes threaten
 - [[Guillotine Setup]] (Transition) - Explosive submission entry from sprawl and front headlock positions
 - [[Darce Setup]] (Transition) - Front headlock submission alternative when guillotine unavailable
-- [[Snap Down]] (Transition) - Standing technique to establish front headlock control
+- [[Snap Down to Front Headlock]] (Transition) - Standing technique to establish front headlock control
 - [[Guillotine Choke]] (Submission) - Primary submission from sprawl and front headlock in MMA
 - [[Rear Naked Choke]] (Submission) - High-percentage finish from back control without strike exposure
 - [[Arm Triangle]] (Submission) - Side control submission that works with ground-and-pound integration

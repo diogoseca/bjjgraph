@@ -95,25 +95,33 @@ Both bottom and top perspectives of butterfly half guard require distinct strate
 ### Available Transitions
 
 
-- **[[100% Sweep]]** (11% of attempts)
+- **[[100% Sweep]]** (33% of attempts)
 
-- **[[Old School Sweep]]** (13% of attempts)
+- **[[Old School Sweep]]** (10% of attempts)
 
-- **[[Butterfly Sweep]]** (10% of attempts)
+- **[[Butterfly Sweep]]** (6% of attempts)
 
-- **[[Deep Half Entry]]** (12% of attempts)
+- **[[Deep Half Entry]]** (8% of attempts)
 
-- **[[Waiter Sweep]]** (9% of attempts)
+- **[[Waiter Sweep]]** (4% of attempts)
 
-- **[[Underhook Sweep from Half]]** (10% of attempts)
+- **[[Underhook Sweep from Half]]** (6% of attempts)
 
-- **[[Knee Tap]]** (9% of attempts)
+- **[[Knee Tap]]** (5% of attempts)
 
-- **[[Half Guard to Back Take]]** (9% of attempts)
+- **[[Half Guard to Back Take]]** (6% of attempts)
 
-- **[[Butterfly Guard to X-Guard]]** (8% of attempts)
+- **[[Butterfly Guard to X-Guard]]** (4% of attempts)
 
-- **[[Lockdown Sweeps]]** (9% of attempts)
+- **[[Lockdown Recovery]]** (4% of attempts)
+
+- **[[Kimura Sweep]]** (6% of attempts)
+
+- **[[Electric Chair Transition]]** (5% of attempts)
+
+- **[[Butterfly Half Guard Sweep]]** (2% of attempts)
+
+- **[[Reguard from Butterfly Half Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -178,17 +186,25 @@ Both bottom and top perspectives of butterfly half guard require distinct strate
 ### Available Transitions
 
 
-- **[[Half Guard Pass]]** (17% of attempts)
+- **[[Half Guard Pass]]** (10% of attempts)
 
-- **[[Knee Slice Pass]]** (16% of attempts)
+- **[[Knee Slice Pass]]** (10% of attempts)
 
-- **[[Smash Pass]]** (19% of attempts)
+- **[[Smash Pass]]** (23% of attempts)
 
-- **[[Underhook Pass]]** (17% of attempts)
+- **[[Underhook Pass]]** (11% of attempts)
 
-- **[[Long Step Pass]]** (16% of attempts)
+- **[[Long Step Pass]]** (10% of attempts)
 
-- **[[Pressure Pass]]** (15% of attempts)
+- **[[Pressure Pass]]** (8% of attempts)
+
+- **[[Back Step Pass]]** (12% of attempts)
+
+- **[[Transition to Flattened Half Guard]]** (10% of attempts)
+
+- **[[Knee Slice from Butterfly Half]]** (4% of attempts)
+
+- **[[Smash from Butterfly Half]]** (2% of attempts)
 
 
 ### Common Mistakes

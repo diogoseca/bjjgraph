@@ -93,21 +93,31 @@ From the top perspective, Half Butterfly Top represents a critical transitional 
 ### Available Transitions
 
 
-- **[[Basic Butterfly Sweep]]** (13% of attempts)
+- **[[Basic Butterfly Sweep]]** (11% of attempts)
 
-- **[[Old School Sweep]]** (14% of attempts)
+- **[[Old School Sweep]]** (59% of attempts)
 
-- **[[Hook Sweep]]** (12% of attempts)
+- **[[Hook Sweep]]** (6% of attempts)
 
-- **[[Underhook Sweep from Half]]** (13% of attempts)
+- **[[Underhook Sweep from Half]]** (8% of attempts)
 
-- **[[Back Take Generic]]** (11% of attempts)
+- **[[Deep Half Entry]]** (8% of attempts)
 
-- **[[Deep Half Entry]]** (13% of attempts)
+- **[[Butterfly Guard to X-Guard]]** (4% of attempts)
 
-- **[[Butterfly Guard to X-Guard]]** (12% of attempts)
+- **[[Elevator Sweep]]** (1% of attempts)
 
-- **[[Elevator Sweep]]** (12% of attempts)
+- **[[Kimura from Half Guard]]** (2% of attempts)
+
+- **[[Transition to Half Butterfly]]** (0% of attempts)
+
+- **[[Half Butterfly Sweep]]** (0% of attempts)
+
+- **[[Half Butterfly to Dogfight]]** (0% of attempts)
+
+- **[[Reguard from Half Butterfly]]** (0% of attempts)
+
+- **[[Rolling Back Take from Half Butterfly]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -168,17 +178,23 @@ From the top perspective, Half Butterfly Top represents a critical transitional 
 ### Available Transitions
 
 
-- **[[Knee Slice Pass]]** (19% of attempts)
+- **[[Knee Slice Pass]]** (39% of attempts)
 
-- **[[Smash Pass]]** (18% of attempts)
+- **[[Smash Pass]]** (16% of attempts)
 
-- **[[Long Step Pass]]** (17% of attempts)
+- **[[Underhook Pass]]** (8% of attempts)
 
-- **[[Leg Drag Pass]]** (15% of attempts)
+- **[[Body Lock Pass]]** (8% of attempts)
 
-- **[[Side Control to Mount]]** (14% of attempts)
+- **[[Transition to Flattened Half Guard]]** (12% of attempts)
 
-- **[[Underhook Pass]]** (17% of attempts)
+- **[[Half Guard Pass]]** (4% of attempts)
+
+- **[[Leg Weave Pass]]** (10% of attempts)
+
+- **[[Pass Half Butterfly]]** (2% of attempts)
+
+- **[[Smash Half Butterfly]]** (1% of attempts)
 
 
 ### Common Mistakes

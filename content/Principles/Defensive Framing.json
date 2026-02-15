@@ -49,7 +49,7 @@
     },
     {
       "skill_name": "Distance Management",
-      "description": "The ability to use frames to maintain optimal defensive distance—close enough to prevent opponent from generating momentum for attacks, far enough to create space for hip movement and escape execution. This includes recognizing when to extend frames versus when to pull them tighter to the body."
+      "description": "The ability to use frames to maintain optimal defensive distance\u2014close enough to prevent opponent from generating momentum for attacks, far enough to create space for hip movement and escape execution. This includes recognizing when to extend frames versus when to pull them tighter to the body."
     },
     {
       "skill_name": "Frame-to-Movement Integration",
@@ -74,7 +74,7 @@
     {
       "principle_name": "Hip Escape Mechanics",
       "relationship_type": "Complementary",
-      "description": "Hip escapes and defensive framing work synergistically—frames create the space necessary for hip movement, while hip movement allows for frame recovery and repositioning. Neither is fully effective without the other."
+      "description": "Hip escapes and defensive framing work synergistically\u2014frames create the space necessary for hip movement, while hip movement allows for frame recovery and repositioning. Neither is fully effective without the other."
     },
     {
       "principle_name": "Creating Space",
@@ -89,7 +89,7 @@
     {
       "principle_name": "Biomechanical Principles",
       "relationship_type": "Prerequisite",
-      "description": "Understanding biomechanical leverage is fundamental to effective framing—knowing why specific elbow angles and connection points create stronger frames than others requires comprehension of basic leverage and mechanical advantage principles."
+      "description": "Understanding biomechanical leverage is fundamental to effective framing\u2014knowing why specific elbow angles and connection points create stronger frames than others requires comprehension of basic leverage and mechanical advantage principles."
     },
     {
       "principle_name": "Guard Retention",
@@ -104,12 +104,12 @@
     {
       "principle_name": "Bridge and Shrimp",
       "relationship_type": "Complementary",
-      "description": "Bridge and shrimp movements work together with frames in an integrated system—frames hold space while bridges and shrimps create additional distance, and these movements also serve to recover collapsed frames."
+      "description": "Bridge and shrimp movements work together with frames in an integrated system\u2014frames hold space while bridges and shrimps create additional distance, and these movements also serve to recover collapsed frames."
     },
     {
       "principle_name": "Base Maintenance",
       "relationship_type": "Alternative",
-      "description": "While base maintenance focuses on preventing opponent from creating frames (top position perspective), defensive framing represents the bottom position counterpart—establishing frames despite opponent's base and pressure."
+      "description": "While base maintenance focuses on preventing opponent from creating frames (top position perspective), defensive framing represents the bottom position counterpart\u2014establishing frames despite opponent's base and pressure."
     },
     {
       "principle_name": "Distance Creation",
@@ -204,12 +204,12 @@
     {
       "step_number": 5,
       "decision_point": "Frame-Movement Coordination",
-      "action": "Time hip escapes, bridges, or shrimps to occur when frames create maximum distance. Frames should facilitate movement rather than exist independently—use frame extension to create space, then immediately execute escape movement into that space."
+      "action": "Time hip escapes, bridges, or shrimps to occur when frames create maximum distance. Frames should facilitate movement rather than exist independently\u2014use frame extension to create space, then immediately execute escape movement into that space."
     },
     {
       "step_number": 6,
       "decision_point": "Frame Recovery Protocol",
-      "action": "When frame collapses (elbow angles close or connection points lost), immediately initiate recovery through shrimp or bridge to recreate distance, then reestablish frame structure. Never accept collapsed frames as permanent—systematic recovery is essential."
+      "action": "When frame collapses (elbow angles close or connection points lost), immediately initiate recovery through shrimp or bridge to recreate distance, then reestablish frame structure. Never accept collapsed frames as permanent\u2014systematic recovery is essential."
     },
     {
       "step_number": 7,
@@ -219,7 +219,7 @@
     {
       "step_number": 8,
       "decision_point": "Adaptive Refinement",
-      "action": "Based on opponent's response patterns, adjust frame configuration—use longer extension against pressure passers, tighter frames against smash passers, more mobile frames against dynamic opponents. Continuously refine based on what opponent shows you."
+      "action": "Based on opponent's response patterns, adjust frame configuration\u2014use longer extension against pressure passers, tighter frames against smash passers, more mobile frames against dynamic opponents. Continuously refine based on what opponent shows you."
     }
   ],
   "common_errors": [
@@ -240,8 +240,8 @@
     },
     {
       "error": "Static Frame Maintenance Without Movement Integration",
-      "consequence": "Frames become isolated defensive tools that maintain space without progressing toward actual escape, leading to stalemates where opponent cannot advance but defender cannot escape—essentially wasting energy maintaining position without improvement.",
-      "correction": "Coordinate every frame with hip movement—use frame extension to create space, then immediately shrimp, bridge, or turn into that space. Frames should be dynamic launching points for movement rather than static barriers."
+      "consequence": "Frames become isolated defensive tools that maintain space without progressing toward actual escape, leading to stalemates where opponent cannot advance but defender cannot escape\u2014essentially wasting energy maintaining position without improvement.",
+      "correction": "Coordinate every frame with hip movement\u2014use frame extension to create space, then immediately shrimp, bridge, or turn into that space. Frames should be dynamic launching points for movement rather than static barriers."
     },
     {
       "error": "Late Frame Establishment After Pressure Consolidates",
@@ -251,12 +251,12 @@
     {
       "error": "Abandoning Collapsed Frames Rather Than Recovering",
       "consequence": "Once frames are lost, practitioners often give up on framing entirely and accept crushing pressure, leading to submission or mount transitions that could have been prevented with systematic frame recovery protocols.",
-      "correction": "Develop automatic frame recovery responses—when frames collapse, immediately shrimp or bridge to recreate distance, then reestablish frame structure. Frame recovery should be as instinctive as initial frame creation."
+      "correction": "Develop automatic frame recovery responses\u2014when frames collapse, immediately shrimp or bridge to recreate distance, then reestablish frame structure. Frame recovery should be as instinctive as initial frame creation."
     },
     {
       "error": "Using Same Frame Configuration Regardless of Context",
       "consequence": "Generic framing that doesn't adapt to specific positions, opponent body types, or pressure styles proves ineffective as different scenarios require different frame angles, connection points, and strategies for optimal defensive structure.",
-      "correction": "Learn position-specific framing configurations and adapt based on opponent characteristics—use longer frames against larger opponents, tighter frames in mount versus side control, more mobile frames against dynamic passers versus heavy pressure."
+      "correction": "Learn position-specific framing configurations and adapt based on opponent characteristics\u2014use longer frames against larger opponents, tighter frames in mount versus side control, more mobile frames against dynamic passers versus heavy pressure."
     }
   ],
   "training_approaches": [
@@ -282,7 +282,7 @@
     },
     {
       "approach_name": "Adaptive Framing Against Different Body Types",
-      "description": "Rotate through partners of various sizes and body types, adjusting frame strategies for each—longer extension against heavier opponents, tighter structure against lighter but more mobile opponents, modified connection points against different body proportions.",
+      "description": "Rotate through partners of various sizes and body types, adjusting frame strategies for each\u2014longer extension against heavier opponents, tighter structure against lighter but more mobile opponents, modified connection points against different body proportions.",
       "focus": "Developing adaptability and understanding that effective framing requires contextual adjustment based on opponent characteristics rather than one-size-fits-all approach."
     },
     {
@@ -298,7 +298,7 @@
         "Can establish basic two-arm frames in static side control but often overextends arms or frames on soft tissue rather than skeletal structures",
         "Frames collapse under moderate pressure (50-70%) and recovery is slow or absent, often accepting crushed position rather than systematically recovering structure",
         "Uses same generic frame configuration regardless of position or opponent characteristics, lacking contextual adaptation",
-        "Frames exist independently from movement—establishes frames but doesn't coordinate with hip escapes or bridges, creating static defensive stalemates"
+        "Frames exist independently from movement\u2014establishes frames but doesn't coordinate with hip escapes or bridges, creating static defensive stalemates"
       ]
     },
     {
@@ -326,7 +326,7 @@
       "level": "Expert",
       "observable_behaviors": [
         "Maintains optimal frame structure against elite-level pressure while simultaneously addressing submission threats and position advancement attempts",
-        "Frame recovery is instantaneous and automatic—frames never remain collapsed for more than one second even against world-class opponents",
+        "Frame recovery is instantaneous and automatic\u2014frames never remain collapsed for more than one second even against world-class opponents",
         "Demonstrates comprehensive framing systems with 3-4 different frame configurations per position, selecting optimal configuration based on subtle positional cues",
         "Uses frames to manipulate opponent's pressure direction and base stability, actively creating sweep and reversal opportunities rather than purely defending",
         "Teaches framing principles clearly to others, demonstrating deep conceptual understanding beyond technical execution",
@@ -356,12 +356,12 @@
       "relationship": "Strategic goal that defensive framing technically implements"
     },
     {
-      "name": "Elbow Escape",
+      "name": "Elbow Escape to Guard",
       "content_type": "Transition",
       "relationship": "Primary escape technique that depends fundamentally on effective framing"
     },
     {
-      "name": "Frame and Shrimp",
+      "name": "Frame and Shrimp to Guard",
       "content_type": "Transition",
       "relationship": "Core defensive movement directly integrating framing with hip escape"
     },

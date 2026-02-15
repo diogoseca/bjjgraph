@@ -1,0 +1,13 @@
+{
+  "name": "Escape Twister Side Control",
+  "description": "",
+  "tags": [],
+  "from_position": "Twister Side Control/Bottom",
+  "outcomes": [
+    {
+      "to": "Turtle/Bottom",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

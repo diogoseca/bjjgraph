@@ -4,7 +4,7 @@
 
 ---
 title: "Leg Weave | BJJ Position Guide | BJJ Graph"
-description: "Master leg weave position in BJJ. Advanced guard passing control with leg threading mechanics. Strategic guide covering both bottom defense and top passing perspectives with complete technical analysis."
+description: "Master leg weave position in BJJ. Advanced guard passing control with leg threading mechanics, covering both bottom defense and top passing perspectives."
 ---
 
 
@@ -93,19 +93,21 @@ Mastery of both perspectives is essential for modern grapplers, as the leg weave
 ### Available Transitions
 
 
-- **[[Frame and Shrimp]]** (16% of attempts)
+- **[[Frame and Shrimp to Guard]]** (16% of attempts)
 
-- **[[Underhook Sweep from Half]]** (13% of attempts)
+- **[[Underhook Sweep from Half]]** (12% of attempts)
 
 - **[[Deep Half Entry]]** (14% of attempts)
 
-- **[[Old School Sweep]]** (12% of attempts)
+- **[[Old School Sweep]]** (9% of attempts)
 
-- **[[Dogfight Position]]** (18% of attempts)
+- **[[Dogfight Position]]** (22% of attempts)
 
-- **[[Rolling to Guard]]** (14% of attempts)
+- **[[Lockdown Recovery]]** (16% of attempts)
 
-- **[[Lockdown Sweeps]]** (13% of attempts)
+- **[[Half Guard Recovery]]** (7% of attempts)
+
+- **[[Leg Weave Escape to Half Guard]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -162,21 +164,23 @@ Mastery of both perspectives is essential for modern grapplers, as the leg weave
 ### Available Transitions
 
 
-- **[[Leg Weave Pass]]** (14% of attempts)
+- **[[Leg Weave Pass]]** (16% of attempts)
 
-- **[[Knee Slice Pass]]** (17% of attempts)
+- **[[Knee Slice Pass]]** (25% of attempts)
 
-- **[[Leg Drag Pass]]** (13% of attempts)
+- **[[Leg Drag Pass]]** (11% of attempts)
 
 - **[[Smash Pass]]** (12% of attempts)
 
-- **[[Over-Under Pass]]** (13% of attempts)
+- **[[Over-Under Pass]]** (11% of attempts)
 
-- **[[Long Step Pass]]** (12% of attempts)
+- **[[Long Step Pass]]** (11% of attempts)
 
-- **[[Side Control to Mount]]** (10% of attempts)
+- **[[Back Step]]** (8% of attempts)
 
-- **[[Back Step]]** (9% of attempts)
+- **[[Backstep from Leg Weave]]** (4% of attempts)
+
+- **[[Complete Leg Weave Pass]]** (2% of attempts)
 
 
 ### Common Mistakes

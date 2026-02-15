@@ -97,15 +97,15 @@ Historically, S Mount has been a fundamental component of Japanese judo groundwo
 ### Available Transitions
 
 
-- **[[Elbow Escape]]** (30% of attempts)
+- **[[Elbow Escape to Guard]]** (28% of attempts)
 
-- **[[Hip Escape]]** (30% of attempts)
+- **[[Hip Escape to Guard]]** (27% of attempts)
 
-- **[[Bridge and Roll]]** (15% of attempts)
+- **[[Bridge and Roll]]** (18% of attempts)
 
-- **[[Technical Standup]]** (10% of attempts)
+- **[[Technical Stand-up]]** (10% of attempts)
 
-- **[[Frame and Shrimp]]** (15% of attempts)
+- **[[Frame and Shrimp to Guard]]** (17% of attempts)
 
 
 ### Common Mistakes
@@ -131,7 +131,7 @@ Historically, S Mount has been a fundamental component of Japanese judo groundwo
   - Consequence: Opponent easily steps over head to complete armbar or transitions to mounted triangle
   - ✅ Correction: Always maintain control of opponent's near leg with free hand to prevent full armbar setup
 
-- ❌ **Turning away from opponent to protect trapped arm**
+- ❌ **Turning away from opponent to protect trapped arm exposing back**
   - Consequence: Gives up back control or allows opponent to establish rear mount with both hooks
   - ✅ Correction: Face opponent, keep shoulders square, use technical frames rather than turning away
 
@@ -166,13 +166,13 @@ Historically, S Mount has been a fundamental component of Japanese judo groundwo
 ### Available Transitions
 
 
-- **[[Armbar from Mount]]** (29% of attempts)
+- **[[Mount to Armbar]]** (29% of attempts)
 
 - **[[Triangle from Mount]]** (17% of attempts)
 
-- **[[Americana from Mount]]** (9% of attempts)
+- **[[Americana]]** (9% of attempts)
 
-- **[[Kimura from Mount]]** (9% of attempts)
+- **[[Kimura]]** (9% of attempts)
 
 - **[[Back Take]]** (13% of attempts)
 

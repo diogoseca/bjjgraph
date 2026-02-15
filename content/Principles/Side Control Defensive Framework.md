@@ -363,7 +363,7 @@ Study high-level competitors escaping side control, identifying framework princi
 - [[Escape Hierarchy]] (Principle) - Foundational concept providing systematic escape prioritization structure
 - [[Frame Management]] (Principle) - Core defensive skill enabling space creation and escape execution
 - [[Hip Escape Mechanics]] (Principle) - Primary movement pattern for executing escapes from side control
-- [[Elbow Escape]] (Transition) - Fundamental escape technique implementing framework principles
+- [[Elbow Escape to Guard]] (Transition) - Fundamental escape technique implementing framework principles
 - [[Shrimp Escape]] (Transition) - Basic hip movement pattern central to framework execution
 - [[Guard Recovery]] (Principle) - Ultimate goal of defensive framework - returning to offensive guard positions
 - [[Kesa Gatame]] (Position) - Related pin position requiring framework adaptation to different pressure angles

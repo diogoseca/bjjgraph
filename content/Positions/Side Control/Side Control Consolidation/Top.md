@@ -4,7 +4,7 @@
 
 ---
 title: "Side Control Consolidation Top | BJJ Position Guide | BJJ Graph"
-description: "Master Side Control Consolidation Top position with 85% retention rate. Complete guide covering pressure mechanics, control establishment, and strategic advancement timing."
+description: "Master Side Control Consolidation Top position with 80% retention rate. Complete guide covering pressure mechanics, control establishment, and strategic advancement timing."
 ---
 
 
@@ -38,14 +38,14 @@ description: "Master Side Control Consolidation Top position with 85% retention 
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura from Side Control",
-      "text": "From this position, attempt Kimura from Side Control. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Kimura",
+      "text": "From this position, attempt Kimura. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Americana from Side Control",
-      "text": "From this position, attempt Americana from Side Control. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Americana",
+      "text": "From this position, attempt Americana. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
@@ -115,7 +115,7 @@ description: "Master Side Control Consolidation Top position with 85% retention 
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Side Control Consolidation Top",
-  "description": "Master Side Control Consolidation Top position with 85% retention rate. Complete guide covering pressure mechanics, control establishment, and strategic advancement timing.",
+  "description": "Master Side Control Consolidation Top position with 80% retention rate. Complete guide covering pressure mechanics, control establishment, and strategic advancement timing.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -216,13 +216,13 @@ Mastery of Side Control Consolidation Top separates intermediate from advanced p
 
 ### [[Knee on Belly]] (14% of attempts)
 
-### [[Kimura from Side Control]] (13% of attempts)
+### [[Kimura]] (13% of attempts)
 
-### [[Americana from Side Control]] (12% of attempts)
+### [[Americana]] (12% of attempts)
 
 ### [[Arm Triangle]] (12% of attempts)
 
-### [[Armbar from Side Control]] (11% of attempts)
+### [[Armbar Finish]] (11% of attempts)
 
 ### [[North-South Choke]] (10% of attempts)
 
@@ -237,12 +237,12 @@ Mastery of Side Control Consolidation Top separates intermediate from advanced p
 **If opponent maintains tight defensive posture with strong frames and active hip movement:**
 - Execute **[[Pressure Maintenance]]** → [[Side Control Consolidation]] (Probability: 70%)
 - Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 60%)
-- Execute **[[Americana from Side Control]]** → [[Americana]] (Probability: 45%)
+- Execute **[[Americana]]** → [[Americana]] (Probability: 45%)
 
 
 **If opponent begins to flatten and frames start collapsing from sustained pressure:**
 - Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 75%)
-- Execute **[[Kimura from Side Control]]** → [[Kimura Trap]] (Probability: 65%)
+- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 65%)
 - Execute **[[Arm Triangle]]** → [[Arm Triangle]] (Probability: 60%)
 
 
@@ -254,7 +254,7 @@ Mastery of Side Control Consolidation Top separates intermediate from advanced p
 **If opponent attempts explosive bridge or hip escape creating temporary space:**
 - Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 85%)
 - Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 65%)
-- Execute **[[Armbar from Side Control]]** → [[Armbar Control]] (Probability: 50%)
+- Execute **[[Armbar Finish]]** → [[Armbar Control]] (Probability: 50%)
 
 
 
@@ -399,10 +399,9 @@ Start in early side control with opponent maintaining defensive posture. Top par
 - **[[Knee on Belly]]** - Dynamic transition option when opponent turns into you
 - **[[Kesa Gatame]]** - Alternative side control variation with head control
 - **[[Side Control Consolidation Bottom]]** - Opposite perspective - defensive counterpart position
-- **[[Kimura from Side Control]]** - Primary submission option from consolidated control
-- **[[Americana from Side Control]]** - High-percentage submission when near arm isolated
+- **[[Kimura]]** - Primary submission option from consolidated control
+- **[[Americana]]** - High-percentage submission when near arm isolated
 - **[[Arm Triangle]]** - Choke attack when opponent brings arm across
-- **[[North-South]]** - Control position accessible through pressure transition
 
 
 </section>

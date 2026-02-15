@@ -21,37 +21,37 @@ description: "Master Z-Lock Half Guard Top in BJJ. Complete guide covering contr
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice from Half",
-      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 28% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Pass",
-      "text": "From this position, attempt Underhook Pass. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take Generic",
-      "text": "From this position, attempt Back Take Generic. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Back Take from Top",
+      "text": "From this position, attempt Back Take from Top. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Crossface Pass",
+      "text": "From this position, attempt Crossface Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Crossface Pass",
-      "text": "From this position, attempt Crossface Pass. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Half Guard Pass",
+      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,17 +209,25 @@ From a strategic perspective, Z-Lock Half Guard Top serves as a transitional con
 
 ## Available Attacks
 
-### [[Knee Slice from Half]] (19% of attempts)
+### [[Knee Slice from Half]] (28% of attempts)
 
-### [[Underhook Pass]] (17% of attempts)
+### [[Underhook Pass]] (12% of attempts)
 
-### [[Back Take Generic]] (15% of attempts)
+### [[Back Take from Top]] (13% of attempts)
 
-### [[Smash Pass]] (19% of attempts)
+### [[Smash Pass]] (14% of attempts)
 
-### [[Side Control to Mount]] (14% of attempts)
+### [[Crossface Pass]] (11% of attempts)
 
-### [[Crossface Pass]] (16% of attempts)
+### [[Half Guard Pass]] (8% of attempts)
+
+### [[Darce Setup]] (6% of attempts)
+
+### [[Lockdown Break and Pass]] (5% of attempts)
+
+### [[Lockdown Break from Z-Lock]] (2% of attempts)
+
+### [[Pass Z-Lock]] (1% of attempts)
 
 
 
@@ -235,7 +243,7 @@ From a strategic perspective, Z-Lock Half Guard Top serves as a transitional con
 
 
 **If opponent turns away from pressure to protect upper body:**
-- Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 60%)
+- Execute **[[Back Take from Top]]** → [[Back Control]] (Probability: 60%)
 - Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 50%)
 
 

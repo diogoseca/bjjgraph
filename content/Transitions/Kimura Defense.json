@@ -1,6 +1,6 @@
 {
   "name": "Kimura Defense",
-  "description": "Master Kimura Defense in BJJ. Complete defensive framework from multiple positions. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.",
+  "description": "Master Kimura Defense in BJJ. Complete defensive framework covering grip breaking, rolling escapes, and counter-attacks from Kimura Trap positions.",
   "tags": [
     "bjj",
     "defense",
@@ -13,157 +13,363 @@
   "from_position": "Kimura Trap/Top",
   "outcomes": [
     {
-      "to": "Half Guard",
+      "to": "Half Guard/Top",
       "probability": 70,
       "result": "success"
     },
     {
-      "to": "Kimura Trap",
+      "to": "Kimura Trap/Top",
       "probability": 20,
       "result": "failure"
     },
     {
-      "to": "Side Control",
+      "to": "Side Control/Bottom",
       "probability": 10,
       "result": "counter"
     }
   ],
-  "overview": "The Kimura Defense represents a critical defensive skill set against one of BJJ's most versatile submissions. The kimura presents danger from virtually every position, making defensive proficiency essential for survival. Understanding proper defensive mechanics protects the shoulder joint while creating opportunities to escape or counter-attack. The defense operates on three levels: prevention (hand fighting and grip denial), early escape (before full lock completion), and late-stage survival (managing locked positions). Success requires recognizing threat stages, maintaining defensive frames, and exploiting timing windows during opponent transitions. Unlike many submission defenses that focus purely on escape, kimura defense integrates offensive transitions, as the attacker's grip commitment creates vulnerabilities. Advanced practitioners transform defensive sequences into offensive opportunities, using the opponent's kimura grip against them through rolling escapes, back takes, or sweep reversals.",
-  "key_principles": [
-    "Prevent the figure-four lock - defend the wrist before completion",
-    "Keep elbow close to body to reduce leverage and shoulder stress",
-    "Circle the arm in direction of the lock to relieve pressure",
-    "Use rolling motion to create space and escape angles",
-    "Attack the opponent's base while defending to create escapes",
-    "Recognize early warning signs and defend proactively",
-    "Transform defensive positions into counter-offensive opportunities"
-  ],
-  "setup_requirements": [
-    "Opponent has established kimura grip (wrist control with figure-four)",
-    "Recognition of kimura threat before full shoulder torque applied",
-    "Awareness of body position relative to opponent's pressure direction",
-    "Identification of which stage of kimura lock is present",
-    "Assessment of available space and mobility options",
-    "Understanding of opponent's base and balance vulnerabilities"
-  ],
-  "execution_steps": [
+  "success_rate": 60,
+  "overview": "The Kimura Defense represents a critical defensive skill set against one of BJJ's most versatile submissions. The kimura presents danger from virtually every position, making defensive proficiency essential for survival. Understanding proper defensive mechanics protects the shoulder joint while creating opportunities to escape or counter-attack. The defense operates on three levels: prevention (hand fighting and grip denial), early escape (before full lock completion), and late-stage survival (managing locked positions). Success requires recognizing threat stages, maintaining defensive frames, and exploiting timing windows during opponent transitions.\n\nUnlike many submission defenses that focus purely on escape, kimura defense integrates offensive transitions, as the attacker's grip commitment creates vulnerabilities. Advanced practitioners transform defensive sequences into offensive opportunities, using the opponent's kimura grip against them through rolling escapes, back takes, or sweep reversals. The transition from Kimura Trap Top most commonly leads to Half Guard recovery when the defender successfully breaks control, but failed attempts leave you trapped in the same position, and poor execution can result in the attacker consolidating to Side Control.",
+  "related_content": [
     {
-      "step_number": 1,
-      "action": "Recognize threat early",
-      "description": "Identify kimura setup as soon as opponent secures wrist control. Monitor for figure-four grip formation before full lock completion. Early recognition provides maximum defensive options and prevents deep shoulder exposure."
+      "name": "Kimura Trap",
+      "relationship": "Offensive position being defended against"
     },
     {
-      "step_number": 2,
-      "action": "Secure defensive posture",
-      "description": "Pull trapped elbow tight to ribs, creating defensive frame. This reduces the lever arm length and prevents shoulder hyperextension. Keep shoulder internally rotated and elbow bent at 90 degrees minimum to maintain structural integrity."
+      "name": "Kimura",
+      "relationship": "Primary submission threat requiring this defense"
     },
     {
-      "step_number": 3,
-      "action": "Circle arm with the lock",
-      "description": "Rotate trapped arm in the direction of the lock (typically forward and down) to relieve shoulder joint stress. This swimming motion follows the natural shoulder rotation pattern and prevents ligament damage while buying time for escape execution."
+      "name": "Hitchhiker Escape",
+      "relationship": "Alternative escape variation when rolling is blocked"
     },
     {
-      "step_number": 4,
-      "action": "Attack opponent's base",
-      "description": "Use free hand to push opponent's hip, shoulder, or head to disrupt their base. Create off-balancing that forces them to release pressure or abandon position. Hip bridge simultaneously to amplify base disruption and create escape angles."
+      "name": "Kimura from Side Control",
+      "relationship": "Common attack scenario requiring positional defense"
     },
     {
-      "step_number": 5,
-      "action": "Execute rolling escape",
-      "description": "Roll forward over the trapped shoulder in direction of the lock, using momentum to spiral out of control position. The roll follows the arm circle direction, creating continuous motion that prevents opponent from resetting grip. Land in guard recovery or scramble position."
+      "name": "Kimura from Mount",
+      "relationship": "High-danger attack scenario with specific defensive adjustments"
     },
     {
-      "step_number": 6,
-      "action": "Extract wrist and recover",
-      "description": "As roll completes and pressure releases, pull wrist free from figure-four grip using hip rotation and arm extraction. Immediately establish defensive frames or guard position. Reset posture and re-establish control points before opponent can reset kimura attack."
+      "name": "Hip Escape to Guard",
+      "relationship": "Core defensive mechanic for creating escape space"
+    },
+    {
+      "name": "Bridge and Roll",
+      "relationship": "Base attack technique used in defense execution"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Target position after successful defense"
+    },
+    {
+      "name": "Americana",
+      "relationship": "Related shoulder lock requiring similar defensive principles"
+    },
+    {
+      "name": "Omoplata Control",
+      "relationship": "Counter-attack option from certain defensive positions"
+    },
+    {
+      "name": "Armbar Defense",
+      "relationship": "Related submission defense sharing escape timing principles"
+    },
+    {
+      "name": "Kimura to Back Take",
+      "relationship": "Offensive transition the kimura holder may attempt during defense"
     }
   ],
-  "common_counters": [
-    {
-      "counter": "Opponent follows the roll maintaining grip",
-      "effectiveness": "High",
-      "your_response": "Continue rolling motion multiple times or transition to technical standup. Use momentum to create separation even if grip remains. Attack with triangle or omoplata as they follow."
-    },
-    {
-      "counter": "Opponent switches to armbar during escape attempt",
-      "effectiveness": "Medium",
-      "your_response": "Recognize the transition immediately and defend armbar by keeping elbow inside and turning thumb up. Use the momentum of your roll to extract arm before armbar is secured."
-    },
-    {
-      "counter": "Opponent drives weight forward preventing roll",
-      "effectiveness": "Medium",
-      "your_response": "Switch to shrimping escape instead of forward roll. Create distance by moving hips away while continuing arm circle. Frame against opponent's head or chest to prevent follow."
-    },
-    {
-      "counter": "Opponent secures far side grip preventing arm circle",
-      "effectiveness": "High",
-      "your_response": "Focus on hip escape and creating space rather than arm movement. Use leg frames to push opponent away. Attempt hitchhiker escape or technical standup when space allows."
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Trying to pull arm straight out against the lock",
-      "consequence": "Increases shoulder stress and plays into opponent's leverage system, risking joint damage and making escape impossible",
-      "correction": "Circle arm with the lock direction, never against it. Use rotational movement following natural shoulder mechanics to relieve pressure while creating escape angles"
-    },
-    {
-      "error": "Allowing elbow to drift away from body",
-      "consequence": "Creates long lever arm giving opponent maximum leverage and shoulder torque, dramatically increasing submission danger",
-      "correction": "Keep elbow pinned tight to ribs throughout defense. This shortens the lever and reduces effective torque on shoulder joint while maintaining structural integrity"
-    },
-    {
-      "error": "Remaining static without movement",
-      "consequence": "Allows opponent to settle weight and increase pressure gradually, eliminating escape opportunities and ensuring submission completion",
-      "correction": "Maintain constant motion through rolling, shrimping, or hip movement. Movement prevents opponent from consolidating position and creates timing windows for escape"
-    },
-    {
-      "error": "Ignoring opponent's base during defense",
-      "consequence": "Focuses energy on arm alone rather than systemic escape, missing opportunities to off-balance and force grip release",
-      "correction": "Attack opponent's base with bridges, hip bumps, or pushing pressure using free limbs. Base disruption multiplies escape effectiveness exponentially"
-    },
-    {
-      "error": "Panicking and using explosive jerking motions",
-      "consequence": "Wastes energy, increases injury risk, and plays into opponent's grip strength rather than using technical leverage",
-      "correction": "Stay calm and execute smooth technical movements. Use timing and angles rather than raw strength. Efficient technique conserves energy for extended defense if needed"
-    },
-    {
-      "error": "Failing to recognize early warning signs",
-      "consequence": "Allows opponent to complete setup unopposed, making escape exponentially more difficult from fully locked position",
-      "correction": "Develop proactive grip fighting awareness. Defend hand and wrist control aggressively before figure-four completes. Prevention is ten times easier than escape"
-    }
-  ],
-  "training_progressions": [
-    {
-      "phase": "Phase 1: Recognition and Prevention (Weeks 1-2)",
-      "focus": "Identifying kimura setups and preventing completion",
-      "description": "Practice recognizing kimura threats from all positions. Drill hand fighting and wrist defense to prevent figure-four completion. Partner provides slow setup attempts while defender practices grip denial and early defensive frames."
-    },
-    {
-      "phase": "Phase 2: Basic Defensive Mechanics (Weeks 3-4)",
-      "focus": "Arm circling, elbow control, and rolling escape fundamentals",
-      "description": "Train core defensive movements with kimura locked but minimal pressure. Focus on proper arm rotation direction, maintaining elbow position, and smooth rolling mechanics. Build muscle memory for defensive postures without injury risk."
-    },
-    {
-      "phase": "Phase 3: Base Attacks and Off-Balancing (Weeks 5-6)",
-      "focus": "Disrupting opponent's control while defending",
-      "description": "Integrate offensive base attacks into defensive sequences. Practice bridging, hip bumping, and pushing while maintaining arm defense. Learn to create escape windows through opponent's balance disruption rather than arm strength alone."
-    },
-    {
-      "phase": "Phase 4: Position-Specific Defenses (Weeks 7-8)",
-      "focus": "Adapting defense to mount, side control, guard, and turtle kimuras",
-      "description": "Drill defensive variations for each common kimura position. Each position requires specific adjustments to rolling direction, base attacks, and escape paths. Build comprehensive defensive toolkit covering all kimura threats."
-    },
-    {
-      "phase": "Phase 5: Counter-Offensive Transitions (Weeks 9-10)",
-      "focus": "Converting defensive positions into attacks",
-      "description": "Learn to transform kimura defense into back takes, sweeps, and submission attempts. Practice using opponent's committed grips as vulnerabilities. Develop mindset of active defense leading to offensive opportunities."
-    },
-    {
-      "phase": "Phase 6: Live Resistance and Timing (Weeks 11-12)",
-      "focus": "Full-speed defense with competitive pressure",
-      "description": "Face progressive resistance from training partners applying full-intensity kimura attacks. Develop timing recognition under stress. Build confidence in defensive system through successful escapes against committed attacks."
-    }
-  ],
+  "attacker": {
+    "name": "Kimura Defense Attacker",
+    "description": "How to execute Kimura Defense in BJJ. Step-by-step escape mechanics covering grip breaking, arm circling, rolling escapes, and counter-attacks.",
+    "overview": "The Kimura Defense attacker is the practitioner escaping from an opponent's kimura grip. This defense operates on three levels: prevention through hand fighting and grip denial, early escape before full lock completion, and late-stage survival when the lock is deep. Success requires recognizing threat stages, maintaining defensive frames, and exploiting timing windows during opponent transitions. Unlike many submission defenses that focus purely on escape, kimura defense integrates offensive transitions, as the attacker's grip commitment creates vulnerabilities. Advanced practitioners transform defensive sequences into offensive opportunities, using the opponent's kimura grip against them through rolling escapes, back takes, or sweep reversals.",
+    "key_principles": [
+      "Prevent the figure-four lock by defending the wrist before completion",
+      "Keep elbow close to body to reduce leverage and shoulder stress",
+      "Circle the arm in direction of the lock to relieve pressure",
+      "Use rolling motion to create space and escape angles",
+      "Attack the opponent's base while defending to create escapes",
+      "Recognize early warning signs and defend proactively",
+      "Transform defensive positions into counter-offensive opportunities"
+    ],
+    "setup_requirements": [
+      "Opponent has established kimura grip (wrist control with figure-four)",
+      "Recognition of kimura threat before full shoulder torque applied",
+      "Awareness of body position relative to opponent's pressure direction",
+      "Identification of which stage of kimura lock is present",
+      "Assessment of available space and mobility options",
+      "Understanding of opponent's base and balance vulnerabilities"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Recognize threat early",
+        "description": "Identify kimura setup as soon as opponent secures wrist control. Monitor for figure-four grip formation before full lock completion. Early recognition provides maximum defensive options and prevents deep shoulder exposure."
+      },
+      {
+        "step_number": 2,
+        "action": "Secure defensive posture",
+        "description": "Pull trapped elbow tight to ribs, creating defensive frame. This reduces the lever arm length and prevents shoulder hyperextension. Keep shoulder internally rotated and elbow bent at 90 degrees minimum to maintain structural integrity."
+      },
+      {
+        "step_number": 3,
+        "action": "Circle arm with the lock",
+        "description": "Rotate trapped arm in the direction of the lock (typically forward and down) to relieve shoulder joint stress. This swimming motion follows the natural shoulder rotation pattern and prevents ligament damage while buying time for escape execution."
+      },
+      {
+        "step_number": 4,
+        "action": "Attack opponent's base",
+        "description": "Use free hand to push opponent's hip, shoulder, or head to disrupt their base. Create off-balancing that forces them to release pressure or abandon position. Hip bridge simultaneously to amplify base disruption and create escape angles."
+      },
+      {
+        "step_number": 5,
+        "action": "Execute rolling escape",
+        "description": "Roll forward over the trapped shoulder in direction of the lock, using momentum to spiral out of control position. The roll follows the arm circle direction, creating continuous motion that prevents opponent from resetting grip. Land in guard recovery or scramble position."
+      },
+      {
+        "step_number": 6,
+        "action": "Extract wrist and recover",
+        "description": "As roll completes and pressure releases, pull wrist free from figure-four grip using hip rotation and arm extraction. Immediately establish defensive frames or guard position. Reset posture and re-establish control points before opponent can reset kimura attack."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent follows the roll maintaining grip",
+        "effectiveness": "High",
+        "your_response": "Continue rolling motion multiple times or transition to technical standup. Use momentum to create separation even if grip remains. Attack with triangle or omoplata as they follow.",
+        "targets_outcome": "Kimura Trap/Top"
+      },
+      {
+        "counter": "Opponent switches to armbar during escape attempt",
+        "effectiveness": "Medium",
+        "your_response": "Recognize the transition immediately and defend armbar by keeping elbow inside and turning thumb up. Use the momentum of your roll to extract arm before armbar is secured.",
+        "targets_outcome": "Side Control/Bottom"
+      },
+      {
+        "counter": "Opponent drives weight forward preventing roll",
+        "effectiveness": "Medium",
+        "your_response": "Switch to shrimping escape instead of forward roll. Create distance by moving hips away while continuing arm circle. Frame against opponent's head or chest to prevent follow.",
+        "targets_outcome": "Kimura Trap/Top"
+      },
+      {
+        "counter": "Opponent secures far side grip preventing arm circle",
+        "effectiveness": "High",
+        "your_response": "Focus on hip escape and creating space rather than arm movement. Use leg frames to push opponent away. Attempt hitchhiker escape or technical standup when space allows.",
+        "targets_outcome": "Kimura Trap/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Trying to pull arm straight out against the lock",
+        "consequence": "Increases shoulder stress and plays into opponent's leverage system, risking joint damage and making escape impossible",
+        "correction": "Circle arm with the lock direction, never against it. Use rotational movement following natural shoulder mechanics to relieve pressure while creating escape angles"
+      },
+      {
+        "error": "Allowing elbow to drift away from body",
+        "consequence": "Creates long lever arm giving opponent maximum leverage and shoulder torque, dramatically increasing submission danger",
+        "correction": "Keep elbow pinned tight to ribs throughout defense. This shortens the lever and reduces effective torque on shoulder joint while maintaining structural integrity"
+      },
+      {
+        "error": "Remaining static without movement",
+        "consequence": "Allows opponent to settle weight and increase pressure gradually, eliminating escape opportunities and ensuring submission completion",
+        "correction": "Maintain constant motion through rolling, shrimping, or hip movement. Movement prevents opponent from consolidating position and creates timing windows for escape"
+      },
+      {
+        "error": "Ignoring opponent's base during defense",
+        "consequence": "Focuses energy on arm alone rather than systemic escape, missing opportunities to off-balance and force grip release",
+        "correction": "Attack opponent's base with bridges, hip bumps, or pushing pressure using free limbs. Base disruption multiplies escape effectiveness exponentially"
+      },
+      {
+        "error": "Panicking and using explosive jerking motions",
+        "consequence": "Wastes energy, increases injury risk, and plays into opponent's grip strength rather than using technical leverage",
+        "correction": "Stay calm and execute smooth technical movements. Use timing and angles rather than raw strength. Efficient technique conserves energy for extended defense if needed"
+      },
+      {
+        "error": "Failing to recognize early warning signs",
+        "consequence": "Allows opponent to complete setup unopposed, making escape exponentially more difficult from fully locked position",
+        "correction": "Develop proactive grip fighting awareness. Defend hand and wrist control aggressively before figure-four completes. Prevention is ten times easier than escape"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and Prevention (Weeks 1-2)",
+        "focus": "Identifying kimura setups and preventing completion",
+        "description": "Practice recognizing kimura threats from all positions. Drill hand fighting and wrist defense to prevent figure-four completion. Partner provides slow setup attempts while defender practices grip denial and early defensive frames."
+      },
+      {
+        "phase": "Phase 2: Basic Defensive Mechanics (Weeks 3-4)",
+        "focus": "Arm circling, elbow control, and rolling escape fundamentals",
+        "description": "Train core defensive movements with kimura locked but minimal pressure. Focus on proper arm rotation direction, maintaining elbow position, and smooth rolling mechanics. Build muscle memory for defensive postures without injury risk."
+      },
+      {
+        "phase": "Phase 3: Base Attacks and Off-Balancing (Weeks 5-6)",
+        "focus": "Disrupting opponent's control while defending",
+        "description": "Integrate offensive base attacks into defensive sequences. Practice bridging, hip bumping, and pushing while maintaining arm defense. Learn to create escape windows through opponent's balance disruption rather than arm strength alone."
+      },
+      {
+        "phase": "Phase 4: Position-Specific Defenses (Weeks 7-8)",
+        "focus": "Adapting defense to mount, side control, guard, and turtle kimuras",
+        "description": "Drill defensive variations for each common kimura position. Each position requires specific adjustments to rolling direction, base attacks, and escape paths. Build comprehensive defensive toolkit covering all kimura threats."
+      },
+      {
+        "phase": "Phase 5: Counter-Offensive Transitions (Weeks 9-10)",
+        "focus": "Converting defensive positions into attacks",
+        "description": "Learn to transform kimura defense into back takes, sweeps, and submission attempts. Practice using opponent's committed grips as vulnerabilities. Develop mindset of active defense leading to offensive opportunities."
+      },
+      {
+        "phase": "Phase 6: Live Resistance and Timing (Weeks 11-12)",
+        "focus": "Full-speed defense with competitive pressure",
+        "description": "Face progressive resistance from training partners applying full-intensity kimura attacks. Develop timing recognition under stress. Build confidence in defensive system through successful escapes against committed attacks."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Why must you circle your trapped arm in the direction of the lock rather than against it?",
+        "answer": "Circling with the lock follows natural shoulder joint mechanics and relieves stress on the ligaments and joint capsule. Moving against the lock increases torque and accelerates potential injury. The circular motion with the lock creates temporary pressure relief while maintaining structural integrity, buying time to execute escapes without damaging the shoulder. This principle applies to all shoulder locks - always move with the rotation, never against it."
+      },
+      {
+        "question": "What is the primary reason for keeping your elbow tight to your ribs during kimura defense?",
+        "answer": "Keeping the elbow close to the body shortens the lever arm that the opponent can use to apply torque. Basic leverage physics shows that longer levers multiply force, so allowing the elbow to drift away gives the opponent maximum mechanical advantage. A tight elbow against the ribs creates a shorter, stronger structure that requires exponentially more force to compromise. This also prevents the shoulder from reaching dangerous angles of hyperextension and rotation."
+      },
+      {
+        "question": "How does attacking the opponent's base improve kimura defense effectiveness?",
+        "answer": "Base disruption forces the opponent to choose between maintaining submission pressure and preserving their balance. When you bridge, bump, or push to off-balance them, they must either release some grip pressure to post and recover base, or risk being swept or scrambled. This creates timing windows where grip pressure temporarily decreases, allowing for arm extraction or escape execution. Additionally, off-balancing prevents them from settling their weight fully into the submission, maintaining dynamic rather than static pressure."
+      },
+      {
+        "question": "What are the key differences between defending a kimura from mount versus from side control?",
+        "answer": "From mount, the defender has bridge and hip bump mechanics available to disrupt base, making the rolling escape highly effective since the opponent sits high. From side control, the opponent's weight is lower and spread wider, making bridges less effective. Side control kimura defense requires more shrimping and hip escape to create space, and often needs the hitchhiker escape since rolling forward is blocked by the opponent's chest pressure. The mounting position also allows easier counter-attacks with legs while side control requires focusing on distance creation."
+      },
+      {
+        "question": "How can kimura defense be transformed into an offensive opportunity?",
+        "answer": "The opponent's kimura grip commits both their hands and often compromises their base. From bottom positions, this creates back take opportunities as they focus on the arm - you can use the trapped arm as a handle to pull yourself behind them. From guard, their committed grips prevent them from defending leg attacks like triangles or omoplatas. The rolling escape can be continued into a sweep or back take if they follow. Advanced practitioners see kimura defense not as pure survival but as entry points to offensive sequences."
+      },
+      {
+        "question": "Why is early recognition and prevention emphasized over late-stage escape in kimura defense?",
+        "answer": "Once the kimura is fully locked with figure-four completed and pressure applied, the defensive options reduce dramatically while injury risk increases substantially. Early grip fighting to prevent wrist control or break the figure-four grip before lock completion is exponentially easier and safer than escaping a finished kimura. Prevention requires less energy, involves less injury risk, and maintains better positional control. Late-stage escapes require precise technique, good timing, and some luck - they are survival tactics rather than reliable defenses."
+      },
+      {
+        "question": "What is the optimal timing window for initiating the rolling kimura escape?",
+        "answer": "The optimal window occurs when the opponent is transitioning their weight or adjusting their grip position. As they shift to increase shoulder pressure or walk their feet for a finishing angle, their base becomes temporarily compromised. This is when the bridge-and-roll motion has the highest success rate. Another key window opens when they attempt to switch from control mode to finishing mode - the mental and physical transition creates a brief vulnerability. Attempting the roll when opponent is stable and settled results in failed escapes and wasted energy."
+      },
+      {
+        "question": "Your opponent has a deep kimura from side control and starts walking their feet toward your head - what immediate adjustment must you make?",
+        "answer": "When the opponent walks their feet toward your head, they are creating a finishing angle that dramatically increases shoulder torque. Your immediate priority is to follow their movement by turning your body in the same direction they are walking. This rotation keeps your shoulder aligned with their pressure direction rather than perpendicular to it. Simultaneously, you must increase hip escape movement away from them to prevent the finishing angle from locking in. If they complete the angle walk without your response, the shoulder is in immediate danger."
+      },
+      {
+        "question": "What grip configurations indicate a shallow versus deep kimura threat?",
+        "answer": "A shallow grip is positioned near your wrist, with the attacker's figure-four grip loosely configured and space visible between your arm and their chest. This grip allows significant defensive movement and grip breaking opportunity. A deep grip positions the figure-four near your elbow, with the attacker's chest pressed tight against your tricep and no visible space. The deep grip eliminates arm extraction options and provides maximum finishing leverage. Recognizing grip depth determines whether to focus on grip breaking (shallow) or rolling and hitchhiker escapes (deep)."
+      },
+      {
+        "question": "How do you coordinate your free arm and legs during the rolling kimura escape?",
+        "answer": "Your free arm pushes against the opponent's hip or shoulder in the rolling direction to generate initial momentum and prevent them from blocking the roll. Your legs perform a bridging motion to elevate your hips and create rotational momentum, then tuck underneath you as the roll progresses. The sequence is: bridge to elevate, push with free arm to initiate rotation, tuck legs and roll over trapped shoulder, land with free arm posting to prevent being followed. Poor coordination stalls the roll and wastes the escape attempt."
+      }
+    ],
+    "safety_considerations": "Kimura defense requires controlled practice to prevent shoulder injuries. The shoulder joint has limited range of motion in the rotation and elevation patterns the kimura exploits, making it vulnerable to dislocation, rotator cuff tears, and labrum damage. Never force defensive movements explosively or jerk the arm against resistance. Tap early when learning, before reaching pain threshold. Partners must release immediately upon tap signal and avoid applying sudden or maximal pressure during training. Warm up shoulders thoroughly before drilling kimura defenses. If shoulder pain or clicking occurs, stop training and seek medical evaluation. Build shoulder mobility and strength gradually through progressive resistance training. Competition situations require higher risk tolerance, but training should prioritize long-term joint health over ego."
+  },
+  "defender": {
+    "name": "Kimura Defense Defender",
+    "description": "How to maintain Kimura control when your opponent defends. Grip retention, angle adjustments, and transition options to keep offensive pressure.",
+    "overview": "The Kimura Defense Defender is the practitioner who holds the kimura grip from top position and must maintain control while the bottom player attempts to escape. When your opponent begins defending your kimura through arm circling, rolling escapes, or base attacks, your priority shifts from finishing the submission to retaining grip integrity and positional control. The defender must read the escape attempts early and apply appropriate countermeasures: tightening the grip when the opponent circles, following rolls to maintain top position, and adjusting weight distribution when the opponent attacks your base. Skilled defenders treat each escape attempt as a transition opportunity rather than a crisis, flowing between kimura finishes, back takes, mount transitions, and positional consolidation based on how the bottom player defends.\n\nThe key challenge is maintaining the figure-four grip structure while the opponent generates movement and momentum. Rather than fighting every escape with static resistance, the defender uses dynamic pressure adjustments - walking feet for angle, switching between chest pressure and hip pressure, and leveraging the grip itself as a steering mechanism to guide the opponent into worse positions. The defender who reads escape timing and preempts defensive movement maintains offensive initiative throughout the exchange.",
+    "key_principles": [
+      "Maintain deep figure-four grip near the elbow rather than the wrist to maximize control retention during escape attempts",
+      "Keep chest pressure heavy on the opponent's torso to limit their bridging power and rolling momentum",
+      "Adjust weight distribution dynamically in response to escape direction rather than using static resistance",
+      "Use the kimura grip as a steering tool to redirect escape attempts into worse positions for the opponent",
+      "Anticipate the rolling escape timing and preemptively sprawl or follow to maintain top position",
+      "Treat each defensive reaction as a transition cue to advance position or switch submission angles"
+    ],
+    "recognition_cues": [
+      "Opponent begins pulling their elbow tight to their ribs and internally rotating their shoulder, indicating they are entering defensive posture before attempting an escape",
+      "Opponent's free hand starts pushing against your hip or shoulder while their hips load for a bridge, signaling an imminent rolling escape attempt",
+      "Opponent begins circling their trapped arm forward and down following the lock direction, indicating they are relieving pressure and setting up an arm extraction or roll"
+    ],
+    "defensive_options": [
+      {
+        "action": "Tighten grip and walk feet toward opponent's head to increase finishing angle",
+        "when_to_use": "When opponent begins arm circling but has not yet generated rolling momentum",
+        "targets_outcome": "Kimura Trap/Top",
+        "if_successful": "Maintains kimura control with improved finishing angle, forcing opponent back into survival mode",
+        "risk": "Walking feet reduces base stability, making you vulnerable to bridge-and-roll if timing is poor"
+      },
+      {
+        "action": "Follow the rolling escape and transition to back control or mount while maintaining grip",
+        "when_to_use": "When opponent commits to the forward roll and you cannot prevent the rotation",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "Convert the escape attempt into a positional advancement, arriving in mount or back control with arm still controlled",
+        "risk": "If you lose the grip during the follow, opponent recovers to neutral position"
+      },
+      {
+        "action": "Sprawl hips back and drive shoulder pressure down to flatten opponent and kill rolling momentum",
+        "when_to_use": "When you feel the opponent loading their bridge before they initiate the roll",
+        "targets_outcome": "Kimura Trap/Top",
+        "if_successful": "Kills the escape attempt entirely, pinning opponent flat and resetting to dominant kimura control",
+        "risk": "Sprawling shifts weight off hips, potentially allowing opponent to shrimp out the back door"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Kimura Trap/Top",
+        "how": "Maintain deep grip and heavy chest pressure throughout the escape attempt. When opponent circles their arm, tighten the figure-four and walk your feet to increase the finishing angle. Use your bodyweight to pin them flat and prevent rolling momentum from developing. Reset to stable control and re-threaten the submission."
+      },
+      {
+        "outcome": "Side Control/Bottom",
+        "how": "When the opponent successfully breaks your kimura grip through persistent rolling or arm extraction, immediately consolidate top position by establishing crossface and hip pressure. Transition to standard side control before they can recover guard. Your positional advantage remains even without the grip."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Squeezing the grip tighter using arm strength alone when opponent begins escaping",
+        "consequence": "Burns forearm and grip endurance rapidly, leading to eventual grip failure and loss of both submission and position. Static resistance also fails against technical rolling escapes.",
+        "correction": "Use body positioning and weight distribution to maintain control rather than grip strength alone. Walk feet for angle, drive chest pressure, and use hip positioning to reinforce the grip structure with skeletal alignment rather than muscular effort."
+      },
+      {
+        "error": "Refusing to follow the opponent's roll and trying to hold position statically",
+        "consequence": "Opponent's rolling momentum strips the grip or creates scramble situations where top position is lost entirely. The roll generates more force than static holding can resist.",
+        "correction": "Flow with the opponent's rolling motion while maintaining grip contact. Follow them over the roll to arrive in mount or back control. The grip is your anchor - use it to ride the transition rather than fight it."
+      },
+      {
+        "error": "Keeping weight centered on opponent's chest without adjusting to their escape direction",
+        "consequence": "Opponent finds consistent escape angles because your pressure remains predictable. They can time their bridge or roll against your static weight placement.",
+        "correction": "Shift weight dynamically to counter their escape direction. When they bridge right, drive your pressure left. When they load hips for a roll, sprawl and flatten. Read their body loading patterns and preempt their movement."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the most important grip adjustment when your opponent begins circling their trapped arm with the lock direction?",
+        "answer": "When the opponent circles their arm with the lock, you must immediately tighten the figure-four by pulling your elbows into your own body and closing any space between your chest and their tricep. Simultaneously walk your feet toward their head to increase the finishing angle, which counteracts the pressure relief they gain from the arm circle. The key is converting their defensive movement into a deeper finishing position rather than fighting the circle with static resistance."
+      },
+      {
+        "question": "Your opponent bridges explosively and begins rolling forward over their trapped shoulder - what is your immediate response?",
+        "answer": "Do not fight the roll statically. Maintain your grip connection and follow their rolling momentum by stepping over their body as they rotate. Your goal is to arrive in mount or back control on the other side of the roll with the kimura grip still intact. Plant your far foot wide for base during the transition and keep your chest connected to their back or shoulder throughout. Attempting to block the roll with dead weight usually results in grip failure and positional loss."
+      },
+      {
+        "question": "How do you prevent the opponent from using their free hand to attack your base during kimura defense?",
+        "answer": "Control their free arm through chest pressure that pins their far shoulder to the mat, limiting their reaching ability. Position your head low and tight against their ribcage on the opposite side, making it difficult for them to push your head or shoulder effectively. When you feel their free hand contacting your hip for a push, immediately sprawl your hips back to remove the leverage point they need for the bridge. Their free hand is only dangerous when combined with hip elevation, so denying the bridge neutralizes the pushing threat."
+      },
+      {
+        "question": "When should you abandon the kimura grip and transition to positional control instead?",
+        "answer": "Abandon the grip when the opponent has successfully broken the figure-four structure or when maintaining the grip forces you into a compromised base that risks a sweep or reversal. The critical decision point is when you feel your own balance deteriorating to chase the grip. At that moment, release immediately and consolidate side control or mount with crossface and hip control. A strong positional advantage without the grip is always preferable to losing position entirely while clinging to a degraded grip. Advanced practitioners recognize this transition point instinctively."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Grip Retention Under Movement",
+        "focus": "Maintaining figure-four structure while partner moves",
+        "description": "Partner performs progressive escape movements - arm circles, bridges, hip escapes - while you focus solely on keeping the kimura grip intact through body positioning rather than arm strength. Build awareness of which body adjustments reinforce grip structure. Start at 30% resistance and progress to 70%."
+      },
+      {
+        "phase": "Phase 2: Reading Escape Patterns",
+        "focus": "Identifying and preempting common escape sequences",
+        "description": "Partner cycles through the three primary escape patterns: arm circle, rolling escape, and base attack with bridge. Practice reading the loading signals for each escape and applying the correct counter before the escape develops momentum. Emphasize timing of weight shifts and angle adjustments."
+      },
+      {
+        "phase": "Phase 3: Transition Flow from Failed Kimura",
+        "focus": "Converting escape attempts into positional advancement",
+        "description": "Practice following rolling escapes to mount and back control. Drill the decision tree for when to maintain grip versus release and consolidate position. Train smooth transitions between kimura control, mount, back take, and side control consolidation based on partner's defensive reactions at full resistance."
+      }
+    ]
+  },
   "variants_and_adaptations": [
     {
       "variant_name": "Rolling Kimura Escape",
@@ -186,107 +392,11 @@
       "when_to_use": "When opponent's grip is shallow or not fully locked, particularly from guard positions where mobility allows counter-gripping"
     }
   ],
-  "knowledge_assessment": [
-    {
-      "question": "Why must you circle your trapped arm in the direction of the lock rather than against it?",
-      "answer": "Circling with the lock follows natural shoulder joint mechanics and relieves stress on the ligaments and joint capsule. Moving against the lock increases torque and accelerates potential injury. The circular motion with the lock creates temporary pressure relief while maintaining structural integrity, buying time to execute escapes without damaging the shoulder. This principle applies to all shoulder locks - always move with the rotation, never against it."
-    },
-    {
-      "question": "What is the primary reason for keeping your elbow tight to your ribs during kimura defense?",
-      "answer": "Keeping the elbow close to the body shortens the lever arm that the opponent can use to apply torque. Basic leverage physics shows that longer levers multiply force, so allowing the elbow to drift away gives the opponent maximum mechanical advantage. A tight elbow against the ribs creates a shorter, stronger structure that requires exponentially more force to compromise. This also prevents the shoulder from reaching dangerous angles of hyperextension and rotation."
-    },
-    {
-      "question": "How does attacking the opponent's base improve kimura defense effectiveness?",
-      "answer": "Base disruption forces the opponent to choose between maintaining submission pressure and preserving their balance. When you bridge, bump, or push to off-balance them, they must either release some grip pressure to post and recover base, or risk being swept or scrambled. This creates timing windows where grip pressure temporarily decreases, allowing for arm extraction or escape execution. Additionally, off-balancing prevents them from settling their weight fully into the submission, maintaining dynamic rather than static pressure."
-    },
-    {
-      "question": "What are the key differences between defending a kimura from mount versus from side control?",
-      "answer": "From mount, the defender has bridge and hip bump mechanics available to disrupt base, making the rolling escape highly effective since the opponent sits high. From side control, the opponent's weight is lower and spread wider, making bridges less effective. Side control kimura defense requires more shrimping and hip escape to create space, and often needs the hitchhiker escape since rolling forward is blocked by the opponent's chest pressure. The mounting position also allows easier counter-attacks with legs (triangles, high guard recovery) while side control requires focusing on distance creation."
-    },
-    {
-      "question": "How can kimura defense be transformed into an offensive opportunity?",
-      "answer": "The opponent's kimura grip commits both their hands and often compromises their base. From bottom positions, this creates back take opportunities as they focus on the arm - you can use the trapped arm as a handle to pull yourself behind them. From guard, their committed grips prevent them from defending leg attacks like triangles or omoplatas. The rolling escape can be continued into a sweep or back take if they follow. From top positions being kimura'd, the grip commitment makes them vulnerable to guard passes or position improvements as their hands are occupied. Advanced practitioners see kimura defense not as pure survival but as entry points to offensive sequences."
-    },
-    {
-      "question": "Why is early recognition and prevention emphasized over late-stage escape in kimura defense?",
-      "answer": "Once the kimura is fully locked with figure-four completed and pressure applied, the defensive options reduce dramatically while injury risk increases substantially. Early grip fighting to prevent wrist control or break the figure-four grip before lock completion is exponentially easier and safer than escaping a finished kimura. Prevention requires less energy, involves less injury risk, and maintains better positional control. Late-stage escapes require precise technique, good timing, and some luck - they're survival tactics rather than reliable defenses. Proactive defense at the grip level represents superior technical understanding and risk management."
-    },
-    {
-      "question": "What is the optimal timing window for initiating the rolling kimura escape?",
-      "answer": "The optimal window occurs when the opponent is transitioning their weight or adjusting their grip position. As they shift to increase shoulder pressure or walk their feet for a finishing angle, their base becomes temporarily compromised. This is when the bridge-and-roll motion has the highest success rate. Another key window opens when they attempt to switch from control mode to finishing mode - the mental and physical transition creates a brief vulnerability. Attempting the roll when opponent is stable and settled results in failed escapes and wasted energy."
-    },
-    {
-      "question": "Your opponent has a deep kimura from side control and starts walking their feet toward your head - what immediate adjustment must you make?",
-      "answer": "When the opponent walks their feet toward your head, they are creating a finishing angle that dramatically increases shoulder torque. Your immediate priority is to follow their movement by turning your body in the same direction they are walking. This rotation keeps your shoulder aligned with their pressure direction rather than perpendicular to it. Simultaneously, you must increase hip escape movement away from them to prevent the finishing angle from locking in. If they complete the angle walk without your response, the shoulder is in immediate danger."
-    },
-    {
-      "question": "What grip configurations indicate a shallow versus deep kimura threat?",
-      "answer": "A shallow grip is positioned near your wrist, with the attacker's figure-four grip loosely configured and space visible between your arm and their chest. This grip allows significant defensive movement and grip breaking opportunity. A deep grip positions the figure-four near your elbow, with the attacker's chest pressed tight against your tricep and no visible space. The deep grip eliminates arm extraction options and provides maximum finishing leverage. Recognizing grip depth determines whether to focus on grip breaking (shallow) or rolling/hitchhiker escapes (deep)."
-    },
-    {
-      "question": "How do you coordinate your free arm and legs during the rolling kimura escape?",
-      "answer": "Your free arm pushes against the opponent's hip or shoulder in the rolling direction to generate initial momentum and prevent them from blocking the roll. Your legs perform a bridging motion to elevate your hips and create rotational momentum, then tuck underneath you as the roll progresses. The sequence is: bridge to elevate, push with free arm to initiate rotation, tuck legs and roll over trapped shoulder, land with free arm posting to prevent being followed. Poor coordination - such as pushing the wrong direction or failing to bridge - stalls the roll and wastes the escape attempt."
-    },
-    {
-      "question": "What is your response if the opponent maintains the kimura grip through your rolling escape and follows you to top position?",
-      "answer": "If they maintain grip through the roll, continue the rolling momentum for a second or third rotation rather than stopping. Each roll degrades their control and eventually breaks their grip structure. Alternatively, use the roll to come to a seated position facing them, then attack their compromised arm with your own kimura counter-grip or transition to standing technical standup. The key is avoiding a static position where they can reset - continuous motion eventually defeats grip retention. Their commitment to following creates triangles or omoplata opportunities if they over-rotate."
-    },
-    {
-      "question": "What physical conditioning elements support effective kimura defense?",
-      "answer": "Shoulder mobility and rotator cuff strength are paramount - the ability to safely move through shoulder rotation ranges determines survival margin. Hip mobility enables effective bridging and shrimping for escape generation. Core strength supports the rolling mechanics and body control during escapes. Grip endurance allows sustained hand fighting during the prevention phase. Practitioners should train shoulder external rotation, horizontal abduction, and overhead mobility while building rotator cuff stability through controlled resistance exercises. Flexibility training should include shoulder circles and active range of motion work."
-    }
+  "conditions": [
+    "Opponent has established kimura grip with figure-four configuration on your arm",
+    "You are in bottom position (Kimura Trap Bottom) with arm compromised",
+    "Sufficient awareness to recognize kimura threat stage and available defensive options",
+    "Shoulder joint not yet at maximum rotation where tapping is the only safe response"
   ],
-  "safety_considerations": "Kimura defense requires controlled practice to prevent shoulder injuries. The shoulder joint has limited range of motion in the rotation and elevation patterns the kimura exploits, making it vulnerable to dislocation, rotator cuff tears, and labrum damage. Never force defensive movements explosively or jerk the arm against resistance. Tap early when learning, before reaching pain threshold. Partners must release immediately upon tap signal and avoid applying sudden or maximal pressure during training. Warm up shoulders thoroughly before drilling kimura defenses. If shoulder pain or clicking occurs, stop training and seek medical evaluation. Build shoulder mobility and strength gradually through progressive resistance training. Competition situations require higher risk tolerance, but training should prioritize long-term joint health over ego.",
-  "position_integration": "Kimura defense represents a universal defensive skill that applies across virtually all positional contexts in BJJ. The kimura appears from mount, side control, north-south, turtle, guard (both top and bottom), and standing positions, making defensive competency essential at all belt levels. The transition from defensive to offensive mindset distinguishes advanced practitioners - using the defense as a gateway to guard recovery, sweeps, back takes, or counter-submissions. Kimura defense integrates into broader submission defense frameworks, sharing principles with americana, omoplata, and other shoulder attack defenses. The rolling escape mechanics connect directly to granby roll systems and wrestling-based scrambles. Understanding kimura defense improves overall grip fighting, base attack concepts, and positional awareness since recognizing kimura setups requires monitoring opponent hand positioning constantly.",
-  "related_content": [
-    {
-      "name": "Kimura Trap",
-      "relationship": "Offensive position being defended against"
-    },
-    {
-      "name": "Kimura",
-      "relationship": "Primary submission threat requiring this defense"
-    },
-    {
-      "name": "Rolling Kimura Escape",
-      "relationship": "Specific technique variation"
-    },
-    {
-      "name": "Kimura from Side Control",
-      "relationship": "Common attack scenario requiring positional defense"
-    },
-    {
-      "name": "Kimura from Mount",
-      "relationship": "High-danger attack scenario with specific defensive adjustments"
-    },
-    {
-      "name": "Hip Escape",
-      "relationship": "Core defensive mechanic for creating escape space"
-    },
-    {
-      "name": "Bridge and Roll",
-      "relationship": "Base attack technique used in defense execution"
-    },
-    {
-      "name": "Half Guard",
-      "relationship": "Target position after successful defense"
-    },
-    {
-      "name": "Americana",
-      "relationship": "Related shoulder lock requiring similar defensive principles"
-    },
-    {
-      "name": "Omoplata Control",
-      "relationship": "Counter-attack option from certain defensive positions"
-    },
-    {
-      "name": "Hitchhiker Escape",
-      "relationship": "Alternative escape variation when rolling is blocked"
-    },
-    {
-      "name": "Closed Guard",
-      "relationship": "Defensive recovery position after successful escape"
-    }
-  ],
-  "success_rate": 60
+  "position_integration": "Kimura defense represents a universal defensive skill that applies across virtually all positional contexts in BJJ. The kimura appears from mount, side control, north-south, turtle, guard (both top and bottom), and standing positions, making defensive competency essential at all belt levels. The transition from defensive to offensive mindset distinguishes advanced practitioners - using the defense as a gateway to guard recovery, sweeps, back takes, or counter-submissions. Kimura defense integrates into broader submission defense frameworks, sharing principles with americana, omoplata, and other shoulder attack defenses. The rolling escape mechanics connect directly to granby roll systems and wrestling-based scrambles. Understanding kimura defense improves overall grip fighting, base attack concepts, and positional awareness since recognizing kimura setups requires monitoring opponent hand positioning constantly."
 }

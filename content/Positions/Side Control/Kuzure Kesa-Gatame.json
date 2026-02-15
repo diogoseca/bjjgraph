@@ -83,7 +83,7 @@
     "knowledge_assessment": [
       {
         "question": "Your opponent begins bridging explosively toward your posting leg - what adjustment do you make to maintain position?",
-        "answer": "Immediately widen your base leg further from their body while simultaneously dropping your head past their far shoulder. This redirects the bridge force harmlessly across your body rather than over your base. Keep your hip pressure constant and let their bridge exhaust their energy while you remain structurally sound."
+        "answer": "Immediately widen your base leg further from their body while simultaneously dropping your head past their far shoulder. This redirects the bridge force harmlessly across your body rather than over your base. Keep your hip pressure constant and let their bridge exhaust their energy while you remain structurally sound. If the bridge is particularly powerful, momentarily shift more weight onto your posting knee to anchor against the rolling direction."
       },
       {
         "question": "What are the two critical control points for the trapped arm and why are both necessary?",
@@ -106,12 +106,12 @@
         "answer": "Their turn into you opens the mount transition. As they turn, slide your near knee across their belly while maintaining arm control. Their own turning motion helps you advance. If they stop turning to prevent mount, they return to the original position under your control. This creates a lose-lose dilemma where their escape attempt enables your advancement."
       },
       {
-        "question": "What mistake causes rapid fatigue in this position and how do you correct it?",
-        "answer": "Using muscular tension in your arms and chest to maintain control causes rapid fatigue. The correction is to completely relax your upper body musculature while maintaining structural positioning. Your body weight does the work, not your muscles. Focus on skeletal alignment and letting gravity create pressure. If you feel your arms or chest burning, you're working too hard and need to adjust your structure."
+        "question": "What are the essential grips for maintaining this position against a strong opponent?",
+        "answer": "The primary grip is your armpit clamp on their trapped upper arm, reinforced by your same-side hand controlling their wrist or forearm. Your free hand posts on the mat near their far hip for base, or controls their far-side lapel in gi to prevent turning. In no-gi, your free hand can crossface or underhook their far-side neck. The grip hierarchy prioritizes armpit clamp first, wrist control second, and far-side control third."
       },
       {
-        "question": "How do you recognize when your opponent is about to attempt a hip escape and preemptively shut it down?",
-        "answer": "Watch for them positioning their far foot flat on the mat (generating pushing power), slight tension in their hip flexors, or their free arm beginning to frame against your shoulder. When you sense these preparatory movements, immediately increase hip pressure and make a small adjustment - shift your hip angle slightly or pulse your pressure. This disrupts their timing and forces them to reset their escape attempt."
+        "question": "How do you recover position after your opponent partially escapes by inserting a knee shield between your bodies?",
+        "answer": "Do not fight the knee shield directly by trying to smash through it. Instead, maintain your arm control and use your hip to backstep around the knee shield, re-angling your body to re-establish chest-to-chest contact from a new angle. Alternatively, transition to North-South to bypass the knee entirely while keeping arm control. The knee shield only works if you engage it head-on - lateral movement defeats it while preserving your dominant grip on the trapped arm."
       }
     ],
     "decision_tree": [
@@ -134,12 +134,12 @@
         "condition": "Else if opponent extends trapped arm attempting to create frame or push",
         "actions": [
           {
-            "technique": "Armbar from Side Control",
+            "technique": "Armbar Finish",
             "target": "Armbar Control",
             "probability": 75
           },
           {
-            "technique": "Americana from Side Control",
+            "technique": "Americana",
             "target": "Kimura Trap",
             "probability": 68
           }
@@ -149,7 +149,7 @@
         "condition": "Else if opponent bridges and attempts to roll you over posting leg",
         "actions": [
           {
-            "technique": "Kimura from Side Control",
+            "technique": "Kimura",
             "target": "Kimura Trap",
             "probability": 65
           },
@@ -169,7 +169,7 @@
             "probability": 80
           },
           {
-            "technique": "Back Take Generic",
+            "technique": "Back Take",
             "target": "Back Control",
             "probability": 72
           }
@@ -250,16 +250,16 @@
         "relationship": "Position family sharing control principles"
       },
       {
-        "name": "Americana from Side Control",
-        "relationship": "Primary submission attack from trapped arm"
+        "name": "Americana",
+        "relationship": "Primary submission transition from trapped arm"
       },
       {
-        "name": "Armbar from Side Control",
+        "name": "Armbar Finish",
         "relationship": "High-percentage submission when arm extends"
       },
       {
-        "name": "Kimura from Side Control",
-        "relationship": "Alternative shoulder lock from same arm control"
+        "name": "Kimura",
+        "relationship": "Alternative shoulder lock transition from same arm control"
       },
       {
         "name": "Mount",
@@ -291,15 +291,15 @@
     },
     "transitions": [
       {
-        "transition": "Americana from Side Control",
+        "transition": "Americana",
         "attempt_probability": 11
       },
       {
-        "transition": "Armbar from Side Control",
+        "transition": "Armbar Finish",
         "attempt_probability": 10
       },
       {
-        "transition": "Kimura from Side Control",
+        "transition": "Kimura",
         "attempt_probability": 10
       },
       {
@@ -323,7 +323,7 @@
         "attempt_probability": 8
       },
       {
-        "transition": "Far Side Armbar",
+        "transition": "Armbar on Free Arm",
         "attempt_probability": 9
       },
       {
@@ -344,7 +344,7 @@
     ],
     "overview": "Defending Kuzure Kesa-Gatame from bottom represents one of the most technically demanding escape scenarios in Brazilian Jiu-Jitsu. The combination of hip pressure, arm isolation, and base distribution creates a control system that is simultaneously difficult to escape and fraught with submission danger. Unlike standard side control where both arms can frame and create space, the trapped arm in Kuzure Kesa-Gatame severely limits defensive options, forcing the bottom practitioner to rely on precise timing, hip movement, and strategic arm recovery techniques.\n\nThe fundamental challenge of bottom position lies in managing multiple simultaneous threats while working toward escape. The trapped arm creates immediate armbar, americana, and kimura threats that demand constant attention and defensive awareness. Meanwhile, the top practitioner's hip pressure restricts breathing, limits hip mobility, and prevents the creation of frames necessary for most escape sequences. This dual pressure—submission threat combined with positional control—creates a hierarchy of defensive priorities where preventing submissions must take precedence over positional escapes, yet focusing solely on submission defense allows the top practitioner to consolidate control indefinitely.\n\nSuccessful escape from bottom Kuzure Kesa-Gatame requires understanding the position's structural weaknesses. The top practitioner's commitment to arm isolation creates vulnerabilities in their base, particularly to their far side where their posting leg provides the primary stability. The bottom practitioner must exploit these vulnerabilities through precise hip escapes, arm recovery sequences, and bridging techniques that capitalize on the top practitioner's weight distribution. The key insight is that most effective escapes don't fight the pressure directly but rather redirect it, using the top practitioner's commitment to arm control against their base stability.\n\nThe position also demands exceptional conditioning and mental resilience. The constant pressure, restricted breathing, and submission threats create significant psychological stress that can lead to panic and poor decision-making. Developing the ability to remain calm under pressure, maintain awareness of escape timing windows, and execute techniques precisely despite fatigue and discomfort represents a critical aspect of high-level defensive grappling. Training positional sparring from this position, gradually building tolerance for pressure and refining escape mechanics under realistic resistance, forms the foundation of effective defensive development.",
     "state_properties": {
-      "point_value": 0,
+      "point_value": -3,
       "position_type": "Defensive",
       "risk_level": "High",
       "energy_cost": "High",
@@ -396,7 +396,7 @@
       },
       {
         "question": "When should you attempt to recover your trapped arm versus accepting its position and working other escapes?",
-        "answer": "Prioritize arm recovery when your opponent shifts weight forward for submissions or makes adjustments - these moments reduce armpit pressure on your shoulder. If they maintain constant heavy pressure on your arm, attempting recovery wastes energy and may create submission openings. In high-pressure scenarios, work escapes like the Granby roll that don't require arm recovery first, then recover the arm once you've changed the positional dynamic."
+        "answer": "Prioritize arm recovery when your opponent shifts weight forward for submissions or makes adjustments - these moments reduce armpit pressure on your shoulder. If they maintain constant heavy pressure on your arm, attempting recovery wastes energy and may create submission openings. In high-pressure scenarios, work escapes like the Granby Roll that don't require arm recovery first, then recover the arm once you've changed the positional dynamic."
       },
       {
         "question": "Your escape attempt fails and your opponent recaptures heavy control - what should your immediate response be?",
@@ -408,12 +408,12 @@
         "condition": "If opponent maintains constant hip pressure and low chest position preventing arm recovery",
         "actions": [
           {
-            "technique": "Granby Roll",
+            "technique": "Granby Roll to Guard",
             "target": "Turtle",
             "probability": 45
           },
           {
-            "technique": "Elbow Escape",
+            "technique": "Elbow Escape to Guard",
             "target": "Half Guard",
             "probability": 35
           }
@@ -443,7 +443,7 @@
             "probability": 50
           },
           {
-            "technique": "Technical Standup",
+            "technique": "Technical Stand-up",
             "target": "Standing Position",
             "probability": 30
           }
@@ -510,11 +510,11 @@
         "relationship": "Parent position family with shared escape principles"
       },
       {
-        "name": "Elbow Escape",
+        "name": "Elbow Escape to Guard",
         "relationship": "Primary escape technique from this position"
       },
       {
-        "name": "Granby Roll",
+        "name": "Granby Roll to Guard",
         "relationship": "Advanced escape option when standard escapes are denied"
       },
       {
@@ -547,28 +547,32 @@
     },
     "transitions": [
       {
-        "transition": "Elbow Escape",
-        "attempt_probability": 21
+        "transition": "Elbow Escape to Guard",
+        "attempt_probability": 22
       },
       {
         "transition": "Arm Recovery to Guard",
-        "attempt_probability": 18
+        "attempt_probability": 16
       },
       {
         "transition": "Bridge and Roll",
-        "attempt_probability": 14
+        "attempt_probability": 13
       },
       {
-        "transition": "Granby Roll",
-        "attempt_probability": 19
+        "transition": "Granby Roll to Guard",
+        "attempt_probability": 17
       },
       {
-        "transition": "Technical Standup",
-        "attempt_probability": 12
+        "transition": "Technical Stand-up",
+        "attempt_probability": 11
       },
       {
         "transition": "Re-Guard from Headquarters",
-        "attempt_probability": 16
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Frame Escape from Kuzure Kesa",
+        "attempt_probability": 6
       }
     ]
   }

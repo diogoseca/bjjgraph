@@ -20,38 +20,38 @@ description: "Master top kneebar control in BJJ. Complete technical guide coveri
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Knee Cut Pass",
-      "text": "From this position, attempt Knee Cut Pass. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Straight Ankle Lock",
+      "text": "From this position, attempt Straight Ankle Lock. This technique is attempted in 9% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Toe Hold",
+      "text": "From this position, attempt Toe Hold. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Knee on Belly",
+      "text": "From this position, attempt Knee on Belly. This technique is attempted in 7% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Straight Ankle Lock",
-      "text": "From this position, attempt Straight Ankle Lock. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Kneebar",
+      "text": "From this position, attempt Kneebar. This technique is attempted in 63% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Toe Hold",
-      "text": "From this position, attempt Toe Hold. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Kneebar Finish",
+      "text": "From this position, attempt Kneebar Finish. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Half Guard Pass",
-      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Kneebar Control Maintenance",
+      "text": "From this position, attempt Kneebar Control Maintenance. This technique is attempted in 3% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,23 +212,21 @@ Defensively, the top practitioner must be aware that committing fully to a kneeb
 
 ## Available Attacks
 
-### [[Knee Cut Pass]] (12% of attempts)
+### [[Straight Ankle Lock]] (9% of attempts)
 
-### [[Side Control to Mount]] (8% of attempts)
+### [[Toe Hold]] (9% of attempts)
 
-### [[Side Control to North-South]] (9% of attempts)
+### [[Knee on Belly]] (7% of attempts)
 
-### [[Straight Ankle Lock]] (8% of attempts)
+### [[Kneebar]] (63% of attempts)
 
-### [[Toe Hold]] (8% of attempts)
+### [[Kneebar Finish]] (7% of attempts)
 
-### [[Half Guard Pass]] (9% of attempts)
+### [[Kneebar Control Maintenance]] (3% of attempts)
 
-### [[Knee on Belly]] (8% of attempts)
+### [[Kneebar to 50-50 Transition]] (1% of attempts)
 
-### [[Armbar from Mount]] (8% of attempts)
-
-### [[Kneebar]] (30% of attempts)
+### [[Kneebar to Ashi Garami]] (1% of attempts)
 
 
 

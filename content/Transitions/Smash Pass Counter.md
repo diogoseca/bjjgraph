@@ -2,148 +2,13 @@
 
 
 
-
 ---
 title: "Smash Pass Counter | BJJ Technique | BJJ Graph"
-description: "Master Smash Pass Counter from Ringworm Guard Top. Extract leg from lapel wrap and drive to Side Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%."
+description: "Master Smash Pass Counter from Ringworm Guard Top. Extract leg from lapel wrap and drive to Side Control with pressure-based passing technique."
 ---
 
 
-<body data-content-type="transitions">
-
-<!-- Schema Markup - Auto-generated from JSON -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Execute Smash Pass Counter in BJJ",
-  "description": "Step-by-step guide for Smash Pass Counter from Ringworm Guard/Top. Possible outcomes: Side Control (65%), Ringworm Guard (25%), Back Control (10%).",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Collapse forward",
-      "text": "Drop your weight forward into the guard, driving your shoulder into the opponent's sternum. Keep your head on the side opposite the trapped leg to prevent guillotine attempts while establishing crossface pressure against their jaw.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Secure crossface",
-      "text": "Drive your forearm across the opponent's face and neck, turning their head away from you. This prevents them from turning into you and taking your back while you work the lapel extraction. Keep constant pressure - this is your primary defensive anchor.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Locate lapel grip",
-      "text": "With your free hand, locate where the opponent is gripping the lapel tail near their hip or chest. You must strip this grip to free your leg - the wrap will loosen once the tail is no longer under tension from their hand.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Strip lapel grip",
-      "text": "Peel the opponent's grip finger by finger starting with the pinky, or drive your hand into the gap between their wrist and your lapel to lever the grip open. Keep your weight committed forward throughout this sequence to prevent them from re-establishing control elsewhere.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Extract trapped leg",
-      "text": "Once the grip is broken, immediately extract your leg from the loosened lapel wrap by circling it backward and upward. The lapel should slide off naturally once tension is released. Do not pull straight back - this re-tensions the wrap.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Establish side control",
-      "text": "As your leg clears the wrap, immediately sprawl your hips back and drop into standard side control position. Drive your hip into theirs to prevent guard recovery, maintain the crossface, and consolidate the dominant position before attempting any submissions.",
-      "position": 6
-    }
-  ],
-  "tool": ["BJJ Gi or No-Gi attire", "Training partner", "Mat space"],
-  "totalTime": "PT5M"
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the primary goal of Smash Pass Counter from Ringworm Guard?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The primary goal is to nullify the guard player's leverage by collapsing forward with heavy pressure rather than creating distance, extracting the trapped leg from the lapel wrap through systematic grip-breaking, and transitioning to side control while maintaining constant forward pressure throughout."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What position do you start Smash Pass Counter from?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "This technique starts from Ringworm Guard/Top, specifically when you are the passer caught with your leg trapped in the opponent's lapel wrap configuration. The technique is designed for the scenario where the guard player has established the ring configuration but hasn't yet secured multiple secondary control points."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the key grips needed for Smash Pass Counter?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The primary control is crossface pressure with your forearm across the opponent's face and neck rather than traditional grips. Your free hand works to strip the opponent's lapel grip, initially locating where they hold the lapel tail and then breaking that grip finger by finger or through wrist levering. Grip fighting is secondary to body pressure and positioning."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does the opponent most effectively counter Smash Pass Counter?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The highest percentage counter is elevating hips and loading for a sweep the moment you begin collapsing forward, using your committed weight against you. Another effective counter is abandoning the lapel grip to attack your collar or underhook while your hands are occupied with the pass, or turning aggressively toward you to initiate back take before crossface is established."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "When is the best time to attempt Smash Pass Counter?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The optimal timing window is after the opponent has established the lapel wrap around your leg but before they secure secondary controls on your sleeves, collar, or hips. If attempted too early, there's no guard to pass. If attempted too late, the opponent has too many control points making smash pressure insufficient to neutralize their offensive options."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Your opponent loads their hips as you collapse forward - how do you adjust?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Immediately widen your base by stepping your free leg out to the side, drop your hips lower toward the mat rather than staying elevated, and drive your shoulder weight into their sternum rather than their hips. This lowers your center of gravity below theirs and removes the elevation they need to complete the sweep. Do not pull away - this gives them the space to execute."
-      }
-    }
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Smash Pass Counter",
-  "description": "Master Smash Pass Counter from Ringworm Guard Top. Extract leg from lapel wrap and drive to Side Control. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
-  "url": "https://bjjgraph.org/Transitions/Smash-Pass-Counter",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.org"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
-    {"@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/"},
-    {"@type": "ListItem", "position": 3, "name": "Smash Pass Counter", "item": "https://bjjgraph.org/Transitions/Smash-Pass-Counter"}
-  ]
-}
-</script>
+<body data-content-type="transitions-hub">
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -156,7 +21,7 @@ This technique is particularly effective against guard players who rely heavily 
 
 Strategically, this pass represents the aggressive response to Ringworm Guard and works best when the opponent has already committed to the lapel wrap but hasn't yet established secondary controls on your upper body. The timing window is narrow - attempt this too early and the guard isn't established enough to pass, too late and the opponent has too many control points for smash passing to succeed.
 
-**From Position**: [[Ringworm Guard/Top]]
+**From Position**: [[Ringworm Guard]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -174,103 +39,129 @@ Strategically, this pass represents the aggressive response to Ringworm Guard an
 
 </section>
 
+<section class="content-section">
+
+## Attacker vs Defender
+
+| &nbsp; | Attacker | Defender |
+|--------|----------|----------|
+| **Focus** | Execute technique | Prevent or counter |
+| **Key Principles** | Collapse forward into the guard rather than pulling away, re... | Recognize the collapse early by monitoring the passer's shou... |
+| **Options** | 6 execution steps | 4 defensive options |
+
+</section>
+
+<section id="attacker-summary" class="content-section">
+
+## Playing as Attacker
+
+[[Smash Pass Counter/Attacker|→ Full Attacker Guide]]
+
+### Key Principles
 
 
-<section id="key-principles" class="content-section">
-
-## Key Principles
 - Collapse forward into the guard rather than pulling away, removing the space the bottom player needs for sweeps and transitions
+
 - Drive your shoulder into the opponent's sternum while simultaneously working to strip the lapel grip with your hands
+
 - Keep your hips heavy and low to prevent any elevation or off-balancing from the bottom player
+
 - Address the lapel grip systematically - the pass cannot complete while the wrap remains tight around your leg
+
 - Use crossface pressure to turn the opponent's head away, preventing them from creating angles for back takes
+
 - Maintain constant forward pressure throughout the extraction sequence to prevent guard recovery
 
 
-</section>
-
-<section id="setup-requirements" class="content-section">
-
-## Prerequisites
-- Opponent has established Ringworm Guard with lapel wrapped around your leg but has not yet secured multiple secondary grips
-- You have identified that the opponent's lapel grip is the primary control point rather than sleeve or collar controls
-- Your posture allows you to collapse forward without immediately exposing your back to attacks
-- The opponent's hips are relatively flat on the mat rather than elevated or angled aggressively
-- You have at least one hand free to begin grip-fighting the lapel tail
+### Execution Steps
 
 
-</section>
+- **Collapse forward**: Drop your weight forward into the guard, driving your shoulder into the opponent's sternum. Keep you...
 
-<section id="execution-steps" class="content-section">
+- **Secure crossface**: Drive your forearm across the opponent's face and neck, turning their head away from you. This preve...
 
-## Execution Steps
-1. **Collapse forward**: Drop your weight forward into the guard, driving your shoulder into the opponent's sternum. Keep your head on the side opposite the trapped leg to prevent guillotine attempts while establishing crossface pressure against their jaw.
-2. **Secure crossface**: Drive your forearm across the opponent's face and neck, turning their head away from you. This prevents them from turning into you and taking your back while you work the lapel extraction. Keep constant pressure - this is your primary defensive anchor.
-3. **Locate lapel grip**: With your free hand, locate where the opponent is gripping the lapel tail near their hip or chest. You must strip this grip to free your leg - the wrap will loosen once the tail is no longer under tension from their hand.
-4. **Strip lapel grip**: Peel the opponent's grip finger by finger starting with the pinky, or drive your hand into the gap between their wrist and your lapel to lever the grip open. Keep your weight committed forward throughout this sequence to prevent them from re-establishing control elsewhere.
-5. **Extract trapped leg**: Once the grip is broken, immediately extract your leg from the loosened lapel wrap by circling it backward and upward. The lapel should slide off naturally once tension is released. Do not pull straight back - this re-tensions the wrap.
-6. **Establish side control**: As your leg clears the wrap, immediately sprawl your hips back and drop into standard side control position. Drive your hip into theirs to prevent guard recovery, maintain the crossface, and consolidate the dominant position before attempting any submissions.
+- **Locate lapel grip**: With your free hand, locate where the opponent is gripping the lapel tail near their hip or chest. Y...
+
+- **Strip lapel grip**: Peel the opponent's grip finger by finger starting with the pinky, or drive your hand into the gap b...
+
+- **Extract trapped leg**: Once the grip is broken, immediately extract your leg from the loosened lapel wrap by circling it ba...
+
+- **Establish side control**: As your leg clears the wrap, immediately sprawl your hips back and drop into standard side control p...
 
 
-</section>
+### Common Mistakes
 
-<section id="common-counters" class="content-section">
 
-## Opponent Counters
-- **Bottom player elevates hips and loads for sweep as you collapse forward** (Effectiveness: High) - Your Response: Widen your base immediately by stepping your free leg out, drop your hips lower, and drive your weight into their chest rather than staying elevated where they can redirect you
-- **Bottom player abandons lapel grip and transitions to collar grip for choke attempts** (Effectiveness: Medium) - Your Response: Continue forward pressure and immediately secure head position - if their hand goes to your collar, your head should be past their shoulder making chokes difficult. Proceed with pass without needing to strip lapel
-- **Bottom player turns toward you and begins back take sequence as you work crossface** (Effectiveness: Medium) - Your Response: Drive crossface harder and sprawl your hips back - if they continue turning, disengage completely and reset to standing guard rather than chasing the pass into back exposure
+- **Collapsing forward without securing crossface first**
+  - Consequence: Opponent turns into you and establishes underhook or begins back take sequence, converting your passing attempt into positional loss
+  - Correction: Always establish crossface as your first action when collapsing, ensuring the opponent cannot turn their head toward you before committing weight forward
+
+- **Attempting to strip lapel grip with one hand while postured up**
+  - Consequence: Insufficient leverage to break grip, opponent can use your elevation to generate sweeping momentum, and you remain vulnerable to attacks
+  - Correction: Commit your weight forward before grip-fighting, using body pressure to limit opponent's options while creating better angles for grip breaking
+
+- **Pulling trapped leg straight backward to extract from wrap**
+  - Consequence: This re-tensions the lapel wrap and makes extraction harder, burning energy on ineffective movement while opponent re-establishes control
+  - Correction: Circle the leg backward and upward in an arc rather than pulling straight back, allowing the lapel to slide off the knee rather than fighting against the wrap
 
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="defender-summary" class="content-section">
 
-## Common Mistakes
-- **Mistake**: Collapsing forward without securing crossface first
-  - **Consequence**: Opponent turns into you and establishes underhook or begins back take sequence, converting your passing attempt into positional loss
-  - **Correction**: Always establish crossface as your first action when collapsing, ensuring the opponent cannot turn their head toward you before committing weight forward
-- **Mistake**: Attempting to strip lapel grip with one hand while postured up
-  - **Consequence**: Insufficient leverage to break grip, opponent can use your elevation to generate sweeping momentum, and you remain vulnerable to attacks
-  - **Correction**: Commit your weight forward before grip-fighting, using body pressure to limit opponent's options while creating better angles for grip breaking
-- **Mistake**: Pulling trapped leg straight backward to extract from wrap
-  - **Consequence**: This re-tensions the lapel wrap and makes extraction harder, burning energy on ineffective movement while opponent re-establishes control
-  - **Correction**: Circle the leg backward and upward in an arc rather than pulling straight back, allowing the lapel to slide off the knee rather than fighting against the wrap
-- **Mistake**: Releasing crossface pressure to use both hands on lapel grip
-  - **Consequence**: Opponent immediately turns into you and takes your back or establishes new guard configuration, wasting all passing progress
-  - **Correction**: Maintain crossface throughout the entire extraction sequence, accepting slower grip-breaking with one hand rather than sacrificing positional control
-- **Mistake**: Rushing to side control before leg is fully extracted from wrap
-  - **Consequence**: Remaining lapel contact allows opponent to re-establish guard or create sweeping opportunity during your transition, negating the pass
-  - **Correction**: Ensure leg is completely clear of lapel wrap before transitioning to side control, taking extra moment to verify extraction is complete
+## Playing as Defender
+
+[[Smash Pass Counter/Defender|→ Full Defender Guide]]
+
+### Key Principles
+
+
+- Recognize the collapse early by monitoring the passer's shoulder angle and weight shift, reacting before crossface is established
+
+- Maintain lapel wrap tension throughout the defense to preserve your primary control mechanism and restrict the passer's leg mobility
+
+- Elevate hips immediately when the passer commits weight forward, using their momentum against them for sweep attempts
+
+- Establish secondary grips on the collar or sleeve before the passer's collapse removes your grip-fighting range
+
+- Create angles by hip escaping laterally as the passer drives forward, turning their linear pressure into back-taking opportunities
+
+
+### Recognition Cues
+
+
+- Passer drops their shoulder level and begins driving chest forward toward your sternum rather than maintaining upright posture or backing away
+
+- Passer's free hand reaches toward your face or jaw line, indicating they are about to establish crossface pressure as their primary anchor
+
+- Passer stops attempting to stand or create distance and instead lowers their hips and base, committing to forward pressure rather than extraction
+
+- Passer's weight shifts dramatically forward onto their toes and front knee, indicating imminent collapse into your guard structure
+
+
+### Defensive Options
+
+
+- **Elevate hips and load for sweep as passer commits weight forward, using butterfly hook or shin frame to redirect their momentum over your head** - When: The moment you feel the passer's weight shifting forward before their crossface is established - this is the highest percentage window
+
+- **Turn toward the passer aggressively, abandoning bottom guard position to initiate back take before crossface is secured, threading arm for underhook** - When: When the passer collapses but fails to secure crossface as their first action, leaving a brief window to turn into them and attack the back
+
+- **Release lapel grip and immediately transition to collar grip, pulling the passer's posture down while inserting a knee shield to manage distance** - When: When the passer has begun stripping your lapel grip and continued holding provides diminishing returns - transition to a new guard configuration before control is lost
 
 
 </section>
 
-<section id="training-progressions" class="content-section hide-minimal">
 
-## Training Progressions
-**Week 1-2** - Collapse and crossface mechanics
-Practice the initial collapse into Ringworm Guard with partner providing no resistance. Focus on proper shoulder drive placement, crossface angle, and head positioning to prevent guillotine exposure. Drill the collapse entry fifty times per side.
-
-**Week 3-4** - Grip-breaking sequences
-Partner establishes Ringworm Guard and maintains grip with moderate resistance while you practice various grip-breaking methods. Work finger peels, wrist levers, and pressure-based breaks. Partner does not attempt sweeps or transitions.
-
-**Week 5-6** - Complete extraction with defense
-Partner attempts to maintain guard and execute sweeps while you work through complete smash pass sequence. Focus on recognizing when opponent is loading for sweeps and adjusting base accordingly. Practice aborting pass when back exposure becomes likely.
-
-**Week 7+** - Live positional sparring
-Full resistance rounds starting from Ringworm Guard position. Partner works full offensive arsenal while you apply smash pass counter. Track success rate and identify specific failure points for targeted drilling.
-
-
-
-</section>
-
-<section id="variants-and-adaptations" class="content-section hide-minimal">
+<section id="variants" class="content-section hide-minimal">
 
 ## Variations
+
+
 **Standing Smash Pass Hybrid**: Begin with standing posture to break initial grip tension, then immediately collapse into smash pass rather than continuing standing extraction. Useful when opponent has very tight initial grip that resists ground-based breaking. (When to use: When opponent's lapel grip is too strong to break from collapsed position)
 
+
 **Knee Slice Conversion**: After breaking lapel grip and extracting leg, convert to knee slice pass rather than dropping to standard side control. Useful when opponent is actively framing and creating space during extraction. (When to use: When opponent creates significant distance during extraction sequence)
+
 
 **Stack Pass Finish**: Rather than extracting leg laterally, drive forward into a stacking position that folds opponent and releases the lapel wrap through compression. Continue to pass over the stack to side control. (When to use: Against flexible opponents who maintain wrap tension despite grip-breaking)
 
@@ -278,44 +169,7 @@ Full resistance rounds starting from Ringworm Guard position. Partner works full
 
 </section>
 
-<section id="knowledge-assessment" class="content-section">
 
-## Test Your Knowledge
-**Q1**: What is the primary goal of Smash Pass Counter from Ringworm Guard?
-**A**: The primary goal is to nullify the guard player's leverage by collapsing forward with heavy pressure rather than creating distance, extracting the trapped leg from the lapel wrap through systematic grip-breaking, and transitioning to side control while maintaining constant forward pressure throughout.
-
-**Q2**: What position do you start Smash Pass Counter from?
-**A**: This technique starts from Ringworm Guard/Top, specifically when you are the passer caught with your leg trapped in the opponent's lapel wrap configuration. The technique is designed for the scenario where the guard player has established the ring configuration but hasn't yet secured multiple secondary control points.
-
-**Q3**: What are the key grips needed for Smash Pass Counter?
-**A**: The primary control is crossface pressure with your forearm across the opponent's face and neck rather than traditional grips. Your free hand works to strip the opponent's lapel grip, initially locating where they hold the lapel tail and then breaking that grip finger by finger or through wrist levering. Grip fighting is secondary to body pressure and positioning.
-
-**Q4**: How does the opponent most effectively counter Smash Pass Counter?
-**A**: The highest percentage counter is elevating hips and loading for a sweep the moment you begin collapsing forward, using your committed weight against you. Another effective counter is abandoning the lapel grip to attack your collar or underhook while your hands are occupied with the pass, or turning aggressively toward you to initiate back take before crossface is established.
-
-**Q5**: When is the best time to attempt Smash Pass Counter?
-**A**: The optimal timing window is after the opponent has established the lapel wrap around your leg but before they secure secondary controls on your sleeves, collar, or hips. If attempted too early, there's no guard to pass. If attempted too late, the opponent has too many control points making smash pressure insufficient to neutralize their offensive options.
-
-**Q6**: Your opponent loads their hips as you collapse forward - how do you adjust?
-**A**: Immediately widen your base by stepping your free leg out to the side, drop your hips lower toward the mat rather than staying elevated, and drive your shoulder weight into their sternum rather than their hips. This lowers your center of gravity below theirs and removes the elevation they need to complete the sweep. Do not pull away - this gives them the space to execute.
-
-**Q7**: Why is crossface the first priority when collapsing into Ringworm Guard?
-**A**: The crossface prevents the opponent from turning their head and shoulders toward you, which is the prerequisite for all back-taking sequences from Ringworm Guard. Without crossface, your collapse forward actually assists their back take by bringing you closer. The crossface also creates psychological pressure and discomfort that disrupts their ability to coordinate complex guard attacks.
-
-**Q8**: What is the correct motion for extracting your leg from the lapel wrap?
-**A**: Circle the leg backward and upward in an arc rather than pulling straight back. Pulling straight backward re-tensions the wrap against your knee, making extraction harder. The circular motion allows the lapel to slide off naturally once the opponent's grip is broken and tension is released. Think of stepping over an obstacle behind you rather than dragging through resistance.
-
-
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Considerations
-
-This technique involves significant forward pressure and crossface contact, which can create neck strain for training partners if applied explosively. When drilling, collapse with controlled speed and apply crossface pressure gradually rather than slamming your weight forward. Partners should tap immediately if neck becomes compromised during the collapse phase. The grip-breaking portion carries risk of finger injuries - if partner's grip doesn't release with moderate pressure, reset rather than forcing the break. Both practitioners should communicate clearly about pressure levels, especially when training the stacking variant which can compress the spine.
-
-</section>
 
 <section id="position-integration" class="content-section">
 
@@ -325,18 +179,31 @@ Smash Pass Counter fits within the broader passing framework as the pressure-bas
 
 </section>
 
+
 <section id="related-content" class="content-section">
 
 ## Related Techniques
 
+
 - [[Ringworm Guard]] - Starting position - the lapel guard configuration this pass defeats
+
 - [[Side Control]] - Target position upon successful execution
+
 - [[Worm Guard]] - Related guard in the lapel system requiring similar pressure responses
+
 - [[Knee Slice from Half]] - Alternative passing finish when opponent creates distance during extraction
+
 - [[Backstep Around Worm Guard]] - Alternative passing method for similar lapel guard configurations
+
 - [[Leg Drag Pass]] - Follow-up option if side control proves difficult to consolidate
+
 - [[Back Control]] - Risk position if crossface fails and opponent turns during collapse
+
 - [[Double Under Pass]] - Related pressure passing concept using forward drive rather than distance
+
+- [[Pressure Pass]] - Parent concept sharing the forward-drive passing philosophy
+
+- [[Squid Guard]] - Sister lapel guard position where similar smash passing principles apply
 
 
 </section>

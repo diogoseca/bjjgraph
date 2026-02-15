@@ -15,7 +15,7 @@
   "application_level": "Fundamental",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "overview": "Space Creation is one of the most fundamental defensive concepts in Brazilian Jiu-Jitsu, representing the practitioner's ability to generate distance between their body and an opponent's controlling position. This concept forms the foundation of virtually all escape sequences, as creating space is the prerequisite for recovering guard, changing positions, or executing technical stand-ups. The principle operates on a simple biomechanical reality: compression equals control, and space equals opportunity for movement.\n\nAt its core, Space Creation involves understanding how to use frames, hip movement, bridging mechanics, and timing to generate gaps in the opponent's pressure system. The concept is not merely about pushing away or using strength; rather, it requires sophisticated understanding of leverage points, weight distribution, and the opponent's base structure. Effective space creation exploits moments when the opponent's weight is transitioning, their base is compromised, or their grips are being adjusted.\n\nThe mastery of Space Creation fundamentally changes a practitioner's defensive capabilities. Beginners often make the mistake of accepting compression and trying to escape from completely flattened positions, which is biomechanically nearly impossible against skilled opponents. Advanced practitioners understand that space must be created in increments—first creating breathing room, then hip mobility, then full body movement—and that each increment requires different techniques and timing. This concept underlies every escape in BJJ, from simple elbow escapes from side control to complex granby rolls from back control.",
+  "overview": "Space Creation is one of the most fundamental defensive concepts in Brazilian Jiu-Jitsu, representing the practitioner's ability to generate distance between their body and an opponent's controlling position. This concept forms the foundation of virtually all escape sequences, as creating space is the prerequisite for recovering guard, changing positions, or executing technical stand-ups. The principle operates on a simple biomechanical reality: compression equals control, and space equals opportunity for movement.\n\nAt its core, Space Creation involves understanding how to use frames, hip movement, bridging mechanics, and timing to generate gaps in the opponent's pressure system. The concept is not merely about pushing away or using strength; rather, it requires sophisticated understanding of leverage points, weight distribution, and the opponent's base structure. Effective space creation exploits moments when the opponent's weight is transitioning, their base is compromised, or their grips are being adjusted.\n\nThe mastery of Space Creation fundamentally changes a practitioner's defensive capabilities. Beginners often make the mistake of accepting compression and trying to escape from completely flattened positions, which is biomechanically nearly impossible against skilled opponents. Advanced practitioners understand that space must be created in increments\u2014first creating breathing room, then hip mobility, then full body movement\u2014and that each increment requires different techniques and timing. This concept underlies every escape in BJJ, from simple elbow escapes from side control to complex granby rolls from back control.",
   "key_principles": [
     "Frames must be established before hip movement can occur - structural integrity precedes mobility",
     "Space is created in increments, not all at once - progressive distance generation is more effective than explosive attempts",
@@ -54,7 +54,7 @@
     },
     {
       "skill_name": "Progressive Distance Generation",
-      "description": "The systematic approach of creating space in stages—first breathing room, then hip mobility, then full escape paths—rather than attempting to generate all necessary distance in a single movement. Each stage builds upon the previous, with frames being adjusted and hips continuing to escape as incremental distance is secured. This prevents exhaustion and increases escape success rates."
+      "description": "The systematic approach of creating space in stages\u2014first breathing room, then hip mobility, then full escape paths\u2014rather than attempting to generate all necessary distance in a single movement. Each stage builds upon the previous, with frames being adjusted and hips continuing to escape as incremental distance is secured. This prevents exhaustion and increases escape success rates."
     },
     {
       "skill_name": "Connection Breaking",
@@ -90,7 +90,7 @@
     {
       "principle_name": "Defensive Strategy",
       "relationship_type": "Complementary",
-      "description": "Space Creation is a core component of overall Defensive Strategy. It represents the proactive approach to defense—generating opportunities for escape rather than simply enduring pressure and waiting for opponent mistakes."
+      "description": "Space Creation is a core component of overall Defensive Strategy. It represents the proactive approach to defense\u2014generating opportunities for escape rather than simply enduring pressure and waiting for opponent mistakes."
     },
     {
       "principle_name": "Bridging Mechanics",
@@ -182,7 +182,7 @@
     },
     {
       "context": "Open Guard",
-      "how_applied": "Space creation in open guard involves using frames with hands and feet to maintain distance and prevent the opponent from settling into passing positions. The guard player constantly adjusts hip position to maintain optimal distance—close enough to threaten sweeps and submissions, far enough to prevent being smashed flat."
+      "how_applied": "Space creation in open guard involves using frames with hands and feet to maintain distance and prevent the opponent from settling into passing positions. The guard player constantly adjusts hip position to maintain optimal distance\u2014close enough to threaten sweeps and submissions, far enough to prevent being smashed flat."
     }
   ],
   "decision_framework": [
@@ -194,7 +194,7 @@
     {
       "step_number": 2,
       "decision_point": "Determine which frames are immediately available",
-      "action": "Establish any frames possible with current position—forearms against neck/chest, knees against hips, feet against legs. Priority is creating initial structural barriers even if small."
+      "action": "Establish any frames possible with current position\u2014forearms against neck/chest, knees against hips, feet against legs. Priority is creating initial structural barriers even if small."
     },
     {
       "step_number": 3,
@@ -204,7 +204,7 @@
     {
       "step_number": 4,
       "decision_point": "Execute primary space creation movement (bridge or shrimp)",
-      "action": "During the identified window, execute appropriate space creation—bridge if under mount/north-south, shrimp if under side control/knee on belly. Commit fully to the movement."
+      "action": "During the identified window, execute appropriate space creation\u2014bridge if under mount/north-south, shrimp if under side control/knee on belly. Commit fully to the movement."
     },
     {
       "step_number": 5,
@@ -359,7 +359,7 @@
       "relationship": "The primary engine for executing space creation in most bottom positions"
     },
     {
-      "name": "Elbow Escape",
+      "name": "Elbow Escape to Guard",
       "content_type": "Transition",
       "relationship": "Fundamental transition that applies space creation concept from mount bottom position"
     },
@@ -389,7 +389,7 @@
       "relationship": "Complementary concept that often must occur before or during space creation attempts"
     },
     {
-      "name": "Technical Standup",
+      "name": "Technical Stand-up",
       "content_type": "Transition",
       "relationship": "Often the end goal of space creation from ground positions - getting back to standing"
     },

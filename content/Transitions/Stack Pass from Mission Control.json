@@ -1,0 +1,13 @@
+{
+  "name": "Stack Pass from Mission Control",
+  "description": "",
+  "tags": [],
+  "from_position": "Mission Control/Top",
+  "outcomes": [
+    {
+      "to": "Half Guard/Top",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

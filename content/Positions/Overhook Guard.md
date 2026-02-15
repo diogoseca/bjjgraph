@@ -93,19 +93,23 @@ Overhook Guard represents a fundamental control concept that appears throughout 
 ### Available Transitions
 
 
-- **[[Overhook Sweep]]** (15% of attempts)
+- **[[Overhook Sweep]]** (13% of attempts)
 
-- **[[Hip Bump Sweep]]** (17% of attempts)
+- **[[Hip Bump Sweep]]** (21% of attempts)
 
-- **[[Omoplata from Guard]]** (13% of attempts)
+- **[[Omoplata from Guard]]** (11% of attempts)
 
-- **[[Arm Drag to Back]]** (12% of attempts)
+- **[[Arm Drag to Back]]** (10% of attempts)
 
-- **[[Triangle Setup]]** (15% of attempts)
+- **[[Triangle Setup]]** (13% of attempts)
 
-- **[[Kimura from Guard]]** (13% of attempts)
+- **[[Kimura from Guard]]** (11% of attempts)
 
-- **[[Armbar from Guard]]** (15% of attempts)
+- **[[Armbar from Guard]]** (13% of attempts)
+
+- **[[Overhook Guard Sweep]]** (5% of attempts)
+
+- **[[Overhook to Closed Guard]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -166,17 +170,21 @@ Overhook Guard represents a fundamental control concept that appears throughout 
 ### Available Transitions
 
 
-- **[[Smash Pass]]** (19% of attempts)
+- **[[Smash Pass]]** (24% of attempts)
 
-- **[[Knee Slice Pass]]** (18% of attempts)
+- **[[Knee Slice Pass]]** (15% of attempts)
 
-- **[[Over-Under Pass]]** (17% of attempts)
+- **[[Over-Under Pass]]** (14% of attempts)
 
-- **[[Kimura from Guard]]** (17% of attempts)
+- **[[Kimura from Guard]]** (14% of attempts)
 
-- **[[Arm Drag to Back]]** (15% of attempts)
+- **[[Arm Drag to Back]]** (12% of attempts)
 
-- **[[Side Control to Mount]]** (14% of attempts)
+- **[[Side Control to Mount]]** (12% of attempts)
+
+- **[[Break Overhook Guard]]** (6% of attempts)
+
+- **[[Pass Overhook Guard]]** (3% of attempts)
 
 
 ### Common Mistakes

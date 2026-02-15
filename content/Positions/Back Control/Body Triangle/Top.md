@@ -4,7 +4,7 @@
 
 ---
 title: "Body Triangle Top | BJJ Position Guide | BJJ Graph"
-description: "Defend and escape body triangle position in BJJ. Strategic guide covering breathing management, triangle clearing, and systematic escape sequences. Beginner 25%, Intermediate 40%, Advanced 55%."
+description: "Defend and escape body triangle position in BJJ. Strategic guide covering breathing management, triangle clearing, and systematic escape sequences."
 ---
 
 
@@ -21,37 +21,37 @@ description: "Defend and escape body triangle position in BJJ. Strategic guide c
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Turtle",
-      "text": "From this position, attempt Hip Escape to Turtle. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Turtle. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Frame and Shrimp",
-      "text": "From this position, attempt Frame and Shrimp. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Frame and Shrimp to Guard",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll",
-      "text": "From this position, attempt Granby Roll. This technique is attempted in 19% of exchanges from this position.",
+      "name": "Execute Granby Roll to Guard",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Back Take Reversal",
-      "text": "From this position, attempt Rolling Back Take Reversal. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Triangle Clear to Side",
+      "text": "From this position, attempt Triangle Clear to Side. This technique is attempted in 23% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle Clear to Side",
-      "text": "From this position, attempt Triangle Clear to Side. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Standing up in Base",
+      "text": "From this position, attempt Standing up in Base. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Standup",
-      "text": "From this position, attempt Technical Standup. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Back Door Escape",
+      "text": "From this position, attempt Back Door Escape. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -115,7 +115,7 @@ description: "Defend and escape body triangle position in BJJ. Strategic guide c
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Body Triangle Top",
-  "description": "Defend and escape body triangle position in BJJ. Strategic guide covering breathing management, triangle clearing, and systematic escape sequences. Beginner 25%, Intermediate 40%, Advanced 55%.",
+  "description": "Defend and escape body triangle position in BJJ. Strategic guide covering breathing management, triangle clearing, and systematic escape sequences.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -208,17 +208,19 @@ Successful defense from body triangle top requires calm breathing management, sy
 
 ## Available Attacks
 
-### [[Hip Escape to Turtle]] (20% of attempts)
+### [[Hip Escape to Turtle]] (18% of attempts)
 
-### [[Frame and Shrimp]] (18% of attempts)
+### [[Frame and Shrimp to Guard]] (16% of attempts)
 
-### [[Granby Roll]] (19% of attempts)
+### [[Granby Roll to Guard]] (12% of attempts)
 
-### [[Rolling Back Take Reversal]] (14% of attempts)
+### [[Triangle Clear to Side]] (23% of attempts)
 
-### [[Triangle Clear to Side]] (16% of attempts)
+### [[Standing up in Base]] (12% of attempts)
 
-### [[Technical Standup]] (13% of attempts)
+### [[Back Door Escape]] (13% of attempts)
+
+### [[Rolling Back Take Reversal]] (6% of attempts)
 
 
 
@@ -240,12 +242,12 @@ Successful defense from body triangle top requires calm breathing management, sy
 
 **If opponent's triangle lock is loosening or not optimally positioned:**
 - Execute **[[Hip Escape to Turtle]]** → [[Turtle]] (Probability: 50%)
-- Execute **[[Granby Roll escape]]** → [[Open Guard]] (Probability: 48%)
+- Execute **[[Granby Roll to Guard]]** → [[Open Guard]] (Probability: 48%)
 
 
 **If you have cleared triangle completely but opponent maintains upper body control:**
-- Execute **[[Frame and Shrimp to Half Guard]]** → [[Half Guard]] (Probability: 55%)
-- Execute **[[Technical Standup]]** → [[Standing Position]] (Probability: 45%)
+- Execute **[[Frame and Shrimp to Guard]]** → [[Half Guard]] (Probability: 55%)
+- Execute **[[Standing up in Base]]** → [[Standing Position]] (Probability: 45%)
 
 
 
@@ -382,10 +384,10 @@ Partner maintains body triangle while you focus exclusively on optimal defensive
 - **[[Back Control]]** - Parent position opponent is controlling you from
 - **[[Turtle]]** - Common escape target position from body triangle
 - **[[Half Guard]]** - Alternative escape target achieving guard recovery
-- **[[Frame and Shrimp]]** - Key escape movement pattern for creating space
-- **[[Granby Roll]]** - Advanced escape technique from body triangle control
+- **[[Frame and Shrimp to Guard]]** - Key escape movement pattern for creating space and recovering guard
+- **[[Granby Roll to Guard]]** - Advanced escape technique from body triangle control
 - **[[Hip Escape to Turtle]]** - Primary escape transition from body triangle
-- **[[Technical Standup]]** - Alternative escape path to standing position
+- **[[Standing up in Base]]** - Alternative escape path to standing position
 - **[[Rear Naked Choke]]** - Primary submission threat you must defend during escape
 
 

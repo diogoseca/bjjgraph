@@ -368,7 +368,7 @@ Allow training partner to actively attempt submissions from back control while d
 - [[Back Control]] (Position) - Primary defensive context - the position from which all back escape series techniques are applied
 - [[Escape Fundamentals]] (Principle) - Foundational concept providing core principles that back escape series applies to specific back control scenarios
 - [[Hand Fighting from Back]] (Principle) - Critical component skill - specific hand fighting techniques that form the foundation of submission prevention during back escape
-- [[Elbow Escape]] (Transition) - Key technical movement used within back escape sequences to create space and improve position progressively
+- [[Elbow Escape to Guard]] (Transition) - Key technical movement used within back escape sequences to create space and improve position progressively
 - [[Defensive Strategy]] (Principle) - Broader strategic framework that back escape series exemplifies through prioritized defensive sequences and threat management
 - [[Hip Escape Mechanics]] (Principle) - Fundamental movement pattern adapted and applied specifically within back escape protocols for creating space while maintaining neck protection
 - [[Seat Belt Control Back]] (Position) - Specific back control configuration requiring specialized hand fighting and grip breaking within back escape series

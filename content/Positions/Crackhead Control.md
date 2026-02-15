@@ -95,17 +95,21 @@ The name itself reflects the frenetic, unpredictable energy characteristic of th
 ### Available Transitions
 
 
-- **[[Turtle to Guard]]** (18% of attempts)
+- **[[Granby Roll to Guard]]** (14% of attempts)
 
-- **[[Granby Roll]]** (15% of attempts)
+- **[[Standing up in Base]]** (12% of attempts)
 
-- **[[Technical Standup]]** (17% of attempts)
+- **[[Sit Through Escape]]** (26% of attempts)
 
-- **[[Sit Through Escape]]** (19% of attempts)
+- **[[Peterson Roll]]** (12% of attempts)
 
-- **[[Deep Half Entry]]** (14% of attempts)
+- **[[Crackhead Control to Carni]]** (12% of attempts)
 
-- **[[Hip Escape]]** (17% of attempts)
+- **[[Crackhead Control to Mission Control]]** (10% of attempts)
+
+- **[[Crackhead Control to New York]]** (8% of attempts)
+
+- **[[Posture Recovery to Closed Guard]]** (6% of attempts)
 
 
 ### Common Mistakes
@@ -166,19 +170,25 @@ The name itself reflects the frenetic, unpredictable energy characteristic of th
 ### Available Transitions
 
 
-- **[[Turtle to Back Take]]** (17% of attempts)
+- **[[Turtle to Truck]]** (12% of attempts)
 
-- **[[Turtle to Truck]]** (15% of attempts)
+- **[[Crucifix from Turtle]]** (10% of attempts)
 
-- **[[Crucifix from Turtle]]** (13% of attempts)
+- **[[Crab Ride to Back]]** (10% of attempts)
 
-- **[[Crab Ride to Back]]** (16% of attempts)
+- **[[Anaconda from Turtle]]** (8% of attempts)
 
-- **[[Anaconda from Turtle]]** (12% of attempts)
+- **[[Darce from Turtle]]** (8% of attempts)
 
-- **[[Darce from Turtle]]** (12% of attempts)
+- **[[Rolling Back Take]]** (10% of attempts)
 
-- **[[Rolling Back Take]]** (15% of attempts)
+- **[[Guillotine from Turtle]]** (6% of attempts)
+
+- **[[Back Take]]** (22% of attempts)
+
+- **[[Arm Extraction and Pass]]** (8% of attempts)
+
+- **[[Double Underhook Pass]]** (6% of attempts)
 
 
 ### Common Mistakes

@@ -21,37 +21,37 @@ description: "Offensive guillotine variation from bottom guard using rotational 
     {
       "@type": "HowToStep",
       "name": "Execute Guillotine Choke",
-      "text": "From this position, attempt Guillotine Choke. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Guillotine Choke. This technique is attempted in 32% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hindulotine to Darce Choke",
-      "text": "From this position, attempt Hindulotine to Darce Choke. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Hindulotine to Darce Choke. This technique is attempted in 8% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hindulotine to Anaconda Choke",
-      "text": "From this position, attempt Hindulotine to Anaconda Choke. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Hindulotine to Anaconda Choke. This technique is attempted in 6% of exchanges from this position.",
       "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Sweep to Mount",
-      "text": "From this position, attempt Sweep to Mount. This technique is attempted in 12% of exchanges from this position.",
-      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take from Bottom",
       "text": "From this position, attempt Back Take from Bottom. This technique is attempted in 13% of exchanges from this position.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute High Elbow Guillotine Variation",
+      "text": "From this position, attempt High Elbow Guillotine Variation. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Triangle Transition",
-      "text": "From this position, attempt Arm Triangle Transition. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Butterfly Sweep with Guillotine",
+      "text": "From this position, attempt Butterfly Sweep with Guillotine. This technique is attempted in 20% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,21 +212,23 @@ Success from bottom Hindulotine requires understanding the interplay between you
 
 ## Available Escapes
 
-### [[Guillotine Choke]] (14% of attempts)
+### [[Guillotine Choke]] (32% of attempts)
 
-### [[Hindulotine to Darce Choke]] (13% of attempts)
+### [[Hindulotine to Darce Choke]] (8% of attempts)
 
-### [[Hindulotine to Anaconda Choke]] (12% of attempts)
-
-### [[Sweep to Mount]] (12% of attempts)
+### [[Hindulotine to Anaconda Choke]] (6% of attempts)
 
 ### [[Back Take from Bottom]] (13% of attempts)
 
-### [[Arm Triangle Transition]] (11% of attempts)
+### [[High Elbow Guillotine Variation]] (8% of attempts)
 
-### [[High Elbow Guillotine Variation]] (13% of attempts)
+### [[Butterfly Sweep with Guillotine]] (20% of attempts)
 
-### [[Butterfly Sweep with Guillotine]] (12% of attempts)
+### [[Guard Recovery]] (8% of attempts)
+
+### [[Arm Triangle Transition]] (3% of attempts)
+
+### [[Sweep to Mount]] (2% of attempts)
 
 
 

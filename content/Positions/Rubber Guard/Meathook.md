@@ -182,15 +182,19 @@ Understanding Meathook requires grasping its place in the larger Rubber Guard ec
 ### Available Transitions
 
 
-- **[[Arm Extraction]]** (25% of attempts)
+- **[[Arm Extraction]]** (28% of attempts)
 
-- **[[Posture Recovery]]** (20% of attempts)
+- **[[Posture Recovery]]** (17% of attempts)
 
-- **[[Stack Defense]]** (20% of attempts)
+- **[[Stack Defense]]** (17% of attempts)
 
-- **[[Sprawl]]** (15% of attempts)
+- **[[Sprawl]]** (12% of attempts)
 
-- **[[Guard Opening Sequence]]** (20% of attempts)
+- **[[Guard Opening Sequence]]** (17% of attempts)
+
+- **[[Posture Recovery from Meathook]]** (6% of attempts)
+
+- **[[Stack Pass from Meathook]]** (3% of attempts)
 
 
 ### Common Mistakes

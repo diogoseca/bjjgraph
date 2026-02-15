@@ -261,27 +261,35 @@
     "transitions": [
       {
         "transition": "Stack Pass",
-        "attempt_probability": 17
+        "attempt_probability": 14
       },
       {
         "transition": "Leg Drag Pass",
-        "attempt_probability": 16
+        "attempt_probability": 13
       },
       {
         "transition": "Back Step",
-        "attempt_probability": 15
+        "attempt_probability": 12
       },
       {
         "transition": "Toreando Pass",
-        "attempt_probability": 17
+        "attempt_probability": 14
       },
       {
         "transition": "Pressure Pass",
-        "attempt_probability": 18
+        "attempt_probability": 24
       },
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 17
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Pass Squid Guard",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Pressure Through Squid Guard",
+        "attempt_probability": 3
       }
     ],
     "knowledge_assessment": [
@@ -399,7 +407,7 @@
         "condition": "If opponent turns away from threading leg to escape tension",
         "actions": [
           {
-            "technique": "Back Take Generic",
+            "technique": "Back Take",
             "target": "Back Control",
             "probability": 65
           },
@@ -414,12 +422,12 @@
         "condition": "If opponent attempts to disengage and create distance",
         "actions": [
           {
-            "technique": "Technical Stand Up",
-            "target": "Standing Position",
+            "technique": "Guard Recovery",
+            "target": "Open Guard",
             "probability": 70
           },
           {
-            "technique": "Re-Guard",
+            "technique": "Shin to Shin Pull",
             "target": "Spider Guard",
             "probability": 60
           }
@@ -514,12 +522,12 @@
         "relationship": "Primary advancement via back takes"
       },
       {
-        "name": "Triangle Control",
+        "name": "Omoplata Control",
         "relationship": "Submission threat from position"
       },
       {
-        "name": "Guard Retention",
-        "relationship": "Core principle for maintaining position"
+        "name": "Inverted Guard",
+        "relationship": "Related guard used during retention and transitions"
       }
     ],
     "position_metrics": {
@@ -537,39 +545,47 @@
     "transitions": [
       {
         "transition": "Kiss of the Dragon",
-        "attempt_probability": 11
+        "attempt_probability": 22
       },
       {
         "transition": "X-Guard Sweep",
-        "attempt_probability": 12
+        "attempt_probability": 10
       },
       {
         "transition": "Single Leg X Sweep",
-        "attempt_probability": 12
+        "attempt_probability": 9
       },
       {
         "transition": "Berimbolo Entry",
-        "attempt_probability": 11
+        "attempt_probability": 9
       },
       {
         "transition": "De La Riva Sweep",
-        "attempt_probability": 11
+        "attempt_probability": 9
       },
       {
-        "transition": "Technical Stand Up",
-        "attempt_probability": 12
+        "transition": "Guard Recovery",
+        "attempt_probability": 10
       },
       {
         "transition": "Omoplata Sweep",
-        "attempt_probability": 10
+        "attempt_probability": 8
       },
       {
         "transition": "Triangle Setup",
-        "attempt_probability": 10
+        "attempt_probability": 8
       },
       {
         "transition": "Omoplata to Back",
-        "attempt_probability": 11
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Squid Guard Sweep",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Squid to Ringworm Guard",
+        "attempt_probability": 2
       }
     ],
     "knowledge_assessment": [

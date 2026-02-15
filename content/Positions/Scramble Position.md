@@ -32,14 +32,14 @@ description: "Master scramble position dynamics in BJJ with expert techniques fo
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll",
-      "text": "From this position, attempt Granby Roll. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Granby Roll to Guard",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Front Headlock Series",
-      "text": "From this position, attempt Front Headlock Series. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Snap Down to Front Headlock",
+      "text": "From this position, attempt Snap Down to Front Headlock. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
@@ -62,8 +62,8 @@ description: "Master scramble position dynamics in BJJ with expert techniques fo
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guard Replacement",
-      "text": "From this position, attempt Guard Replacement. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Guard Recovery",
+      "text": "From this position, attempt Guard Recovery. This technique is attempted in 8% of exchanges from this position.",
       "position": 8
     }
   ],
@@ -230,9 +230,9 @@ The Scramble Position refers to a highly dynamic transitional state in BJJ where
 
 ### [[Technical Stand-up]] (15% of attempts)
 
-### [[Granby Roll]] (14% of attempts)
+### [[Granby Roll to Guard]] (14% of attempts)
 
-### [[Front Headlock Series]] (12% of attempts)
+### [[Snap Down to Front Headlock]] (12% of attempts)
 
 ### [[Deep Half Entry]] (10% of attempts)
 
@@ -240,7 +240,7 @@ The Scramble Position refers to a highly dynamic transitional state in BJJ where
 
 ### [[Single Leg to Back Take]] (8% of attempts)
 
-### [[Guard Replacement]] (8% of attempts)
+### [[Guard Recovery]] (8% of attempts)
 
 ### [[Darce Setup]] (5% of attempts)
 
@@ -258,24 +258,24 @@ The Scramble Position refers to a highly dynamic transitional state in BJJ where
 
 
 **If opponent drops head forward or shoots takedown unsuccessfully:**
-- Execute **[[Front Headlock Series]]** → [[Front Headlock]] (Probability: 60%)
+- Execute **[[Snap Down to Front Headlock]]** → [[Front Headlock]] (Probability: 60%)
 - Execute **[[Guillotine Setup]]** → [[Guillotine Control]] (Probability: 55%)
 - Execute **[[Darce Setup]]** → [[Darce Control]] (Probability: 50%)
 
 
 **If opponent attempts to establish top position with poor base:**
-- Execute **[[Granby Roll]]** → [[Closed Guard]] (Probability: 55%)
+- Execute **[[Granby Roll to Guard]]** → [[Closed Guard]] (Probability: 55%)
 - Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 50%)
 
 
 **If opponent commits to leg entanglement during scramble:**
 - Execute **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]] (Probability: 60%)
-- Execute **[[Guard Replacement]]** → [[Ashi Garami]] (Probability: 50%)
+- Execute **[[Guard Recovery]]** → [[Ashi Garami]] (Probability: 50%)
 
 
 **If scramble extends beyond 5-7 seconds without clear advantage:**
 - Execute **[[Technical Stand-up]]** → [[Standing Position]] (Probability: 55%)
-- Execute **[[Guard Replacement]]** → [[Open Guard]] (Probability: 50%)
+- Execute **[[Guard Recovery]]** → [[Open Guard]] (Probability: 50%)
 
 
 

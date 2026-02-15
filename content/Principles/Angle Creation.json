@@ -39,7 +39,7 @@
     },
     {
       "skill_name": "Multi-Plane Angular Coordination",
-      "description": "Advanced skill of simultaneously creating angles in multiple directions—lateral movement combined with vertical elevation or rotation—to compound defensive disruption and create complex problems opponent cannot address simultaneously."
+      "description": "Advanced skill of simultaneously creating angles in multiple directions\u2014lateral movement combined with vertical elevation or rotation\u2014to compound defensive disruption and create complex problems opponent cannot address simultaneously."
     },
     {
       "skill_name": "Progressive Angle Accumulation",
@@ -55,7 +55,7 @@
     },
     {
       "skill_name": "Position-Specific Angular Pathways",
-      "description": "Knowledge of optimal angular directions for each position—understanding where angles create maximum advantage in closed guard differs from half guard, side control, or mount scenarios. Requires extensive positional experience."
+      "description": "Knowledge of optimal angular directions for each position\u2014understanding where angles create maximum advantage in closed guard differs from half guard, side control, or mount scenarios. Requires extensive positional experience."
     }
   ],
   "principle_relationships": [
@@ -67,7 +67,7 @@
     {
       "principle_name": "Off-Balancing",
       "relationship_type": "Complementary",
-      "description": "Angle creation and off-balancing work synergistically—angles compromise opponent's base making them easier to off-balance, while off-balancing creates opportunities for angular movements."
+      "description": "Angle creation and off-balancing work synergistically\u2014angles compromise opponent's base making them easier to off-balance, while off-balancing creates opportunities for angular movements."
     },
     {
       "principle_name": "Creating Reactions",
@@ -77,17 +77,17 @@
     {
       "principle_name": "Grip Strategy",
       "relationship_type": "Complementary",
-      "description": "Grips and angle creation function as interdependent elements—grips enable angle creation by anchoring opponent while preventing their realignment during angular movements."
+      "description": "Grips and angle creation function as interdependent elements\u2014grips enable angle creation by anchoring opponent while preventing their realignment during angular movements."
     },
     {
       "principle_name": "Leverage Principles",
       "relationship_type": "Prerequisite",
-      "description": "Understanding leverage mechanics explains why angles multiply force effectiveness—angles position practitioner's force perpendicular to opponent's defensive structure where it has maximum mechanical advantage."
+      "description": "Understanding leverage mechanics explains why angles multiply force effectiveness\u2014angles position practitioner's force perpendicular to opponent's defensive structure where it has maximum mechanical advantage."
     },
     {
       "principle_name": "Timing and Rhythm",
       "relationship_type": "Complementary",
-      "description": "Proper timing determines angle creation effectiveness—same angular movement succeeds or fails based on whether it coincides with opponent's weight commitment or transition moments."
+      "description": "Proper timing determines angle creation effectiveness\u2014same angular movement succeeds or fails based on whether it coincides with opponent's weight commitment or transition moments."
     },
     {
       "principle_name": "Frame Management",
@@ -97,7 +97,7 @@
     {
       "principle_name": "Creating Space",
       "relationship_type": "Extension",
-      "description": "Angle creation is primary mechanism for space generation—perpendicular movements create gaps in opponent's control while linear movements often compress space."
+      "description": "Angle creation is primary mechanism for space generation\u2014perpendicular movements create gaps in opponent's control while linear movements often compress space."
     },
     {
       "principle_name": "Guard Passing",
@@ -204,7 +204,7 @@
     {
       "step_number": 7,
       "decision_point": "Assess opponent's defensive response to angle",
-      "action": "Recognize whether opponent attempts to follow angle, reset position, or commit to counter—each response creates different subsequent opportunities"
+      "action": "Recognize whether opponent attempts to follow angle, reset position, or commit to counter\u2014each response creates different subsequent opportunities"
     },
     {
       "step_number": 8,
@@ -221,7 +221,7 @@
     {
       "error": "Moving in small incremental angles without commitment or exploitation",
       "consequence": "Opponent recognizes angular threat and preemptively adjusts base or position, closing window for effective angle utilization",
-      "correction": "Make decisive angular movements and immediately attack or advance—hesitation between creation and exploitation allows opponent defensive adjustment"
+      "correction": "Make decisive angular movements and immediately attack or advance\u2014hesitation between creation and exploitation allows opponent defensive adjustment"
     },
     {
       "error": "Creating angles directly into opponent's strength or prepared defenses",
@@ -236,7 +236,7 @@
     {
       "error": "Attempting large angular changes when opponent has stable base and good alignment",
       "consequence": "Strong opponent resistance prevents significant movement, expending high energy for minimal positional gain",
-      "correction": "Time angular movements for moments when opponent's base is compromised—during transitions, weight shifts, or when they commit to actions"
+      "correction": "Time angular movements for moments when opponent's base is compromised\u2014during transitions, weight shifts, or when they commit to actions"
     },
     {
       "error": "Creating angles only with upper body while hips remain stationary",
@@ -318,11 +318,6 @@
     }
   ],
   "related_content": [
-    {
-      "name": "Hip Movement",
-      "content_type": "Principle",
-      "relationship": "Fundamental physical capability enabling angle creation through hip escape mechanics"
-    },
     {
       "name": "Off-Balancing",
       "content_type": "Principle",

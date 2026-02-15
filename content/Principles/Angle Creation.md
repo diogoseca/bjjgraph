@@ -352,7 +352,6 @@ Full-intensity sparring with coaching feedback specifically highlighting success
 
 
 ### Related Content
-- [[Hip Movement]] (Principle) - Fundamental physical capability enabling angle creation through hip escape mechanics
 - [[Off-Balancing]] (Principle) - Complementary concept that works synergistically with angles to compromise opponent structure
 - [[Leverage Principles]] (Principle) - Theoretical framework explaining why perpendicular angles multiply force effectiveness
 - [[Creating Reactions]] (Principle) - Advanced application where angles intentionally provoke responses that create additional opportunities

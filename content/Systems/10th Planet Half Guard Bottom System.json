@@ -257,7 +257,7 @@
       "relationship": "Connected 10th Planet system that shares control principles and can be accessed from half guard transitions"
     },
     {
-      "name": "Lockdown Sweeps",
+      "name": "Lockdown Recovery",
       "content_type": "Transition",
       "relationship": "Family of sweep techniques executed from the Lockdown position"
     },
@@ -315,11 +315,6 @@
       "name": "Sweep Mechanics",
       "content_type": "Principle",
       "relationship": "Fundamental principles underlying all Lockdown-based sweeps"
-    },
-    {
-      "name": "Hip Movement",
-      "content_type": "Principle",
-      "relationship": "Essential for generating power in whip-ups and maintaining dynamic bottom position"
     },
     {
       "name": "Frame Creation",

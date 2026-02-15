@@ -338,9 +338,9 @@ The Lockdown to Electric Chair System requires progressive drilling that builds 
 - [[Truck]] (Position) - Advanced transition destination from lockdown scrambles
 - [[Twister Side Control]] (Position) - Back exposure position accessible from lockdown attacks
 - [[Dogfight Position]] (Position) - Transitional position when lockdown is partially broken
-- [[Lockdown Sweeps]] (Transition) - Collection of sweeping techniques enabled by lockdown control
+- [[Lockdown Recovery]] (Transition) - Collection of sweeping techniques enabled by lockdown control
 - [[Old School Sweep]] (Transition) - Primary sweep execution from Electric Chair defense
-- [[Half Guard Sweeps]] (Transition) - Broader category of techniques that lockdown system enhances
+- [[Half Guard Pass]] (Transition) - Broader category of techniques that lockdown system enhances
 - [[Half Guard to Back Take]] (Transition) - Back attack opportunities created by Electric Chair pressure
 - [[Turtle to Truck]] (Transition) - Advanced progression when opponent defends lockdown attacks
 - [[Underhook Sweep from Half]] (Transition) - Related sweeping mechanics utilizing underhook control
@@ -350,7 +350,6 @@ The Lockdown to Electric Chair System requires progressive drilling that builds 
 - [[Twister]] (Submission) - Advanced spine lock accessible from lockdown transitions
 - [[Sweep Mechanics]] (Principle) - Fundamental principle governing all sweeping techniques in system
 - [[Guard Retention]] (Principle) - Defensive foundation that lockdown control enhances
-- [[Hip Movement]] (Principle) - Essential mechanic for lockdown extension and Electric Chair pressure
 - [[Underhook Defense]] (Principle) - Critical battle that determines system success
 - [[Whizzer Control]] (Principle) - Understanding both using and defeating overhook control
 - [[Submission Chains]] (Principle) - Chaining attacks from lockdown creates submission opportunities

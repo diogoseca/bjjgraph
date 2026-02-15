@@ -1,6 +1,6 @@
 {
   "name": "Limp leg extraction to Half Guard",
-  "description": "Master Limp Leg Extraction to Half Guard in BJJ. Escape leg entanglements using relaxation and hip movement. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "description": "Master Limp Leg Extraction to Half Guard in BJJ. Escape leg entanglements using strategic relaxation and precise hip movement to reach guard safety.",
   "tags": [
     "bjj",
     "transition",
@@ -13,146 +13,380 @@
   "from_position": "Leg Knot/Bottom",
   "outcomes": [
     {
-      "to": "Half Guard",
+      "to": "Half Guard/Top",
       "probability": 55,
       "result": "success"
     },
     {
-      "to": "Leg Knot",
+      "to": "Leg Knot/Bottom",
       "probability": 30,
       "result": "failure"
     },
     {
-      "to": "Saddle",
+      "to": "Saddle/Bottom",
       "probability": 15,
       "result": "counter"
     }
   ],
+  "success_rate": 55,
   "overview": "The Limp Leg Extraction to Half Guard represents one of the most reliable escapes from compromised leg entanglement positions, using strategic relaxation rather than explosive strength to free the trapped limb. This technique exploits a fundamental principle of grappling physics: a completely relaxed, limp leg becomes significantly harder to grip and control than one that is tensed and resisting. When executed properly, the extraction creates a momentary window where the opponent's control breaks down, allowing immediate transition to the safety of Half Guard.\n\nThe strategic importance of this escape lies in its energy efficiency and reliability under pressure. Unlike explosive extraction attempts that can worsen entanglements or create submission opportunities for the opponent, the limp leg method works systematically by removing the muscle tension that opponents rely on to maintain their control grips. The technique requires precise timing—initiating the relaxation as the opponent adjusts their grip or weight distribution creates the optimal extraction window.\n\nAdvanced practitioners recognize this escape as part of a larger defensive system within leg entanglement warfare. The transition to Half Guard provides immediate safety from leg lock submissions while establishing a stable platform for guard recovery or offensive sweeps. The position choice is deliberate: Half Guard offers superior hip mobility and framing options compared to other escape destinations, while keeping one leg engaged to prevent immediate passing attempts.",
-  "key_principles": [
-    "Complete leg relaxation removes the resistance that opponents need to maintain grip control on the trapped limb",
-    "Hip movement away from the entanglement creates the extraction angle while preventing opponent from following",
-    "Timing the extraction during opponent's grip adjustment or weight shift maximizes success probability",
-    "The free leg must actively frame against opponent's hip to create space and prevent advancement during extraction",
-    "Immediate transition to Half Guard prevents opponent from re-engaging the leg before establishing defensive position",
-    "Protect the heel throughout extraction by keeping toes pointed toward opponent to prevent heel hook exposure",
-    "Upper body frames must maintain distance control to prevent opponent from stacking during the escape sequence"
+  "related_content": [
+    {
+      "name": "Leg Knot",
+      "relationship": "Starting position - the entanglement configuration you're escaping from"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Primary destination - stable defensive position after successful extraction"
+    },
+    {
+      "name": "Granby Roll to Guard",
+      "relationship": "Alternative escape - when opponent has tighter control or forward pressure"
+    },
+    {
+      "name": "Ashi Garami Escape",
+      "relationship": "Related defensive technique for similar leg entanglement scenarios"
+    },
+    {
+      "name": "50-50 Entry",
+      "relationship": "Counter-entanglement option when extraction to Half Guard fails"
+    },
+    {
+      "name": "Hip Escape to Guard",
+      "relationship": "Core movement mechanic used during extraction sequence"
+    },
+    {
+      "name": "Saddle",
+      "relationship": "Position to prevent - opponent's advancement target if extraction fails"
+    },
+    {
+      "name": "Inside Ashi-Garami",
+      "relationship": "Related leg entanglement position with similar escape principles"
+    },
+    {
+      "name": "Heel Hook",
+      "relationship": "Primary submission threat being defended during extraction"
+    },
+    {
+      "name": "Counter-entangle to 50-50 Guard",
+      "relationship": "Alternative defensive option when extraction is blocked"
+    }
   ],
-  "setup_requirements": [
+  "conditions": [
     "Leg is entangled in Leg Knot configuration but opponent has not achieved full Saddle or breaking mechanics",
-    "Free leg is available for framing and can reach opponent's hip or shoulder",
-    "Upper body mobility is sufficient to hip escape during the extraction sequence",
-    "Opponent's grip on the trapped leg is not fully locked with interlaced fingers or deep heel control",
+    "Free leg is available for framing and can reach opponent's hip",
+    "Opponent's grip on the trapped leg is not fully locked with deep heel control",
     "Hip positioning allows for lateral movement away from the entanglement direction"
   ],
-  "execution_steps": [
-    {
-      "step_number": 1,
-      "action": "Establish frames",
-      "description": "Position your free leg with the foot planted firmly on opponent's hip, creating a pushing frame that will generate space during extraction. Simultaneously establish upper body frames with your hands on opponent's shoulder and bicep to control distance."
-    },
-    {
-      "step_number": 2,
-      "action": "Assess grip status",
-      "description": "Identify exactly where opponent is gripping your trapped leg and wait for a grip adjustment moment—watch for them repositioning hands, shifting weight, or reaching for a deeper control. This transition moment is your extraction window."
-    },
-    {
-      "step_number": 3,
-      "action": "Complete leg relaxation",
-      "description": "Consciously relax every muscle in your trapped leg from hip to toes, allowing it to become completely limp and heavy. This removes the structural tension opponent relies on for grip maintenance and makes the leg slippery and difficult to control."
-    },
-    {
-      "step_number": 4,
-      "action": "Hip escape with push",
-      "description": "Simultaneously push off opponent's hip with your free leg while executing a strong hip escape movement away from the entanglement. The combination of the push and hip movement creates significant space while your relaxed leg offers no resistance to extraction."
-    },
-    {
-      "step_number": 5,
-      "action": "Extract and retract",
-      "description": "As space opens from the hip escape, slide your limp leg out through the gap created. Keep the leg completely relaxed throughout extraction—any tension will allow opponent to re-grip. Immediately retract the knee toward your chest once free."
-    },
-    {
-      "step_number": 6,
-      "action": "Establish Half Guard",
-      "description": "Once the leg clears, immediately insert it between opponent's legs to establish Half Guard with a knee shield or lockdown configuration. Secure underhook or frame on the near side to prevent immediate passing attempts and stabilize the position."
-    }
-  ],
-  "common_counters": [
-    {
-      "counter": "Opponent follows the hip escape and maintains entanglement by moving with you",
-      "effectiveness": "High",
-      "your_response": "Use your free leg frame more aggressively to push them away as you escape, creating distance they cannot close. If they follow, transition to Single Leg X-Guard instead of Half Guard."
-    },
-    {
-      "counter": "Opponent tightens grip anticipating extraction and secures deeper heel control",
-      "effectiveness": "High",
-      "your_response": "Abort the extraction attempt and address heel safety first. Hide the heel by turning into opponent before attempting extraction again. Consider Granby roll escape if heel is exposed."
-    },
-    {
-      "counter": "Opponent transitions to Saddle position as you begin relaxing the leg",
-      "effectiveness": "Medium",
-      "your_response": "If Saddle is being established, stop extraction and immediately address knee line. Use your free leg to block their leg from crossing over. Counter-entangle to 50-50 if necessary."
-    },
-    {
-      "counter": "Opponent stacks forward during extraction to maintain control",
-      "effectiveness": "Medium",
-      "your_response": "Use upper body frames to prevent stack. If stacking succeeds, the space created behind their hips becomes your escape route—hip escape out the back door while their weight is committed forward."
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Keeping the trapped leg tense and fighting against the entanglement",
-      "consequence": "Opponent maintains strong grip control and the leg cannot slip through gaps, exhausting your energy while position remains unchanged",
-      "correction": "Consciously relax the entire leg from hip to toes before attempting extraction. A limp leg is much harder to grip than a tense one."
-    },
-    {
-      "error": "Attempting extraction without establishing free leg frame first",
-      "consequence": "No space is created for extraction, and opponent can follow your hip escape maintaining full control",
-      "correction": "Always establish foot-on-hip frame with free leg before initiating any extraction attempt. The frame creates the space that makes extraction possible."
-    },
-    {
-      "error": "Exposing heel during extraction by turning away from opponent",
-      "consequence": "Creates immediate heel hook opportunity as the heel becomes accessible during the escape attempt",
-      "correction": "Keep toes pointed toward opponent throughout extraction. Turn into opponent if heel becomes exposed rather than continuing extraction."
-    },
-    {
-      "error": "Stopping after leg extraction without immediately establishing Half Guard",
-      "consequence": "Opponent re-engages the freed leg or immediately passes to side control through the open space",
-      "correction": "Treat extraction and Half Guard establishment as a single continuous movement. The leg should go directly from entanglement to Half Guard position."
-    },
-    {
-      "error": "Attempting extraction during opponent's strongest control phase",
-      "consequence": "Escape fails and energy is wasted fighting maximum resistance, potentially worsening position",
-      "correction": "Wait for grip adjustment or transition moments when opponent's control temporarily weakens. Patience in timing dramatically increases success rate."
-    },
-    {
-      "error": "Neglecting upper body frames and allowing opponent to stack",
-      "consequence": "Opponent drives weight forward eliminating hip mobility needed for extraction, potentially advancing to mount",
-      "correction": "Maintain active upper body frames on opponent's shoulder and bicep throughout the escape sequence to prevent stacking."
-    }
-  ],
-  "training_progressions": [
-    {
-      "phase": "Week 1-2",
-      "focus": "Relaxation mechanics",
-      "description": "Practice the conscious relaxation of the trapped leg without resistance. Partner holds leg in entanglement position while you focus on achieving complete limpness. Drill the feeling difference between tense and relaxed states. Practice hip escape movements separately."
-    },
-    {
-      "phase": "Week 3-4",
-      "focus": "Timing and coordination",
-      "description": "Combine relaxation with hip escape and free leg frame in flowing sequence. Partner provides light static control while you practice the complete extraction sequence. Focus on smooth coordination between leg relaxation, push, and hip escape happening simultaneously."
-    },
-    {
-      "phase": "Week 5-6",
-      "focus": "Reaction to counters",
-      "description": "Partner adds specific counters: following hip escape, tightening grip, attempting stack. Practice identifying each counter and applying appropriate response. Add immediate Half Guard establishment after successful extractions. Begin positional sparring from Leg Knot Bottom."
-    },
-    {
-      "phase": "Week 7+",
-      "focus": "Live integration",
-      "description": "Full resistance positional sparring starting from Leg Knot Bottom. Practice identifying extraction windows under pressure. Integrate with overall leg entanglement defense system including Granby rolls and counter-entanglements. Track success rate and refine timing based on failures."
-    }
-  ],
+  "attacker": {
+    "name": "Limp leg extraction to Half Guard Attacker",
+    "description": "How to execute Limp Leg Extraction to Half Guard in BJJ. Complete guide to escaping leg entanglements through strategic relaxation, hip movement, and immediate guard establishment.",
+    "overview": "The Limp Leg Extraction to Half Guard represents one of the most reliable escapes from compromised leg entanglement positions, using strategic relaxation rather than explosive strength to free the trapped limb. This technique exploits a fundamental principle of grappling physics: a completely relaxed, limp leg becomes significantly harder to grip and control than one that is tensed and resisting. When executed properly, the extraction creates a momentary window where the opponent's control breaks down, allowing immediate transition to the safety of Half Guard.\n\nThe strategic importance of this escape lies in its energy efficiency and reliability under pressure. Unlike explosive extraction attempts that can worsen entanglements or create submission opportunities for the opponent, the limp leg method works systematically by removing the muscle tension that opponents rely on to maintain their control grips. The technique requires precise timing—initiating the relaxation as the opponent adjusts their grip or weight distribution creates the optimal extraction window.\n\nAdvanced practitioners recognize this escape as part of a larger defensive system within leg entanglement warfare. The transition to Half Guard provides immediate safety from leg lock submissions while establishing a stable platform for guard recovery or offensive sweeps. The position choice is deliberate: Half Guard offers superior hip mobility and framing options compared to other escape destinations, while keeping one leg engaged to prevent immediate passing attempts.",
+    "key_principles": [
+      "Complete leg relaxation removes the resistance that opponents need to maintain grip control on the trapped limb",
+      "Hip movement away from the entanglement creates the extraction angle while preventing opponent from following",
+      "Timing the extraction during opponent's grip adjustment or weight shift maximizes success probability",
+      "The free leg must actively frame against opponent's hip to create space and prevent advancement during extraction",
+      "Immediate transition to Half Guard prevents opponent from re-engaging the leg before establishing defensive position",
+      "Protect the heel throughout extraction by keeping toes pointed toward opponent to prevent heel hook exposure",
+      "Upper body frames must maintain distance control to prevent opponent from stacking during the escape sequence"
+    ],
+    "setup_requirements": [
+      "Leg is entangled in Leg Knot configuration but opponent has not achieved full Saddle or breaking mechanics",
+      "Free leg is available for framing and can reach opponent's hip or shoulder",
+      "Upper body mobility is sufficient to hip escape during the extraction sequence",
+      "Opponent's grip on the trapped leg is not fully locked with interlaced fingers or deep heel control",
+      "Hip positioning allows for lateral movement away from the entanglement direction"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish frames",
+        "description": "Position your free leg with the foot planted firmly on opponent's hip, creating a pushing frame that will generate space during extraction. Simultaneously establish upper body frames with your hands on opponent's shoulder and bicep to control distance."
+      },
+      {
+        "step_number": 2,
+        "action": "Assess grip status",
+        "description": "Identify exactly where opponent is gripping your trapped leg and wait for a grip adjustment moment—watch for them repositioning hands, shifting weight, or reaching for a deeper control. This transition moment is your extraction window."
+      },
+      {
+        "step_number": 3,
+        "action": "Complete leg relaxation",
+        "description": "Consciously relax every muscle in your trapped leg from hip to toes, allowing it to become completely limp and heavy. This removes the structural tension opponent relies on for grip maintenance and makes the leg slippery and difficult to control."
+      },
+      {
+        "step_number": 4,
+        "action": "Hip escape with push",
+        "description": "Simultaneously push off opponent's hip with your free leg while executing a strong hip escape movement away from the entanglement. The combination of the push and hip movement creates significant space while your relaxed leg offers no resistance to extraction."
+      },
+      {
+        "step_number": 5,
+        "action": "Extract and retract",
+        "description": "As space opens from the hip escape, slide your limp leg out through the gap created. Keep the leg completely relaxed throughout extraction—any tension will allow opponent to re-grip. Immediately retract the knee toward your chest once free."
+      },
+      {
+        "step_number": 6,
+        "action": "Establish Half Guard",
+        "description": "Once the leg clears, immediately insert it between opponent's legs to establish Half Guard with a knee shield or lockdown configuration. Secure underhook or frame on the near side to prevent immediate passing attempts and stabilize the position."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent follows the hip escape and maintains entanglement by moving with you",
+        "effectiveness": "High",
+        "your_response": "Use your free leg frame more aggressively to push them away as you escape, creating distance they cannot close. If they follow, transition to Single Leg X-Guard instead of Half Guard.",
+        "targets_outcome": "Leg Knot/Bottom"
+      },
+      {
+        "counter": "Opponent tightens grip anticipating extraction and secures deeper heel control",
+        "effectiveness": "High",
+        "your_response": "Abort the extraction attempt and address heel safety first. Hide the heel by turning into opponent before attempting extraction again. Consider Granby roll escape if heel is exposed.",
+        "targets_outcome": "Saddle/Bottom"
+      },
+      {
+        "counter": "Opponent transitions to Saddle position as you begin relaxing the leg",
+        "effectiveness": "Medium",
+        "your_response": "If Saddle is being established, stop extraction and immediately address knee line. Use your free leg to block their leg from crossing over. Counter-entangle to 50-50 if necessary.",
+        "targets_outcome": "Saddle/Bottom"
+      },
+      {
+        "counter": "Opponent stacks forward during extraction to maintain control",
+        "effectiveness": "Medium",
+        "your_response": "Use upper body frames to prevent stack. If stacking succeeds, the space created behind their hips becomes your escape route—hip escape out the back door while their weight is committed forward.",
+        "targets_outcome": "Leg Knot/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Keeping the trapped leg tense and fighting against the entanglement",
+        "consequence": "Opponent maintains strong grip control and the leg cannot slip through gaps, exhausting your energy while position remains unchanged",
+        "correction": "Consciously relax the entire leg from hip to toes before attempting extraction. A limp leg is much harder to grip than a tense one."
+      },
+      {
+        "error": "Attempting extraction without establishing free leg frame first",
+        "consequence": "No space is created for extraction, and opponent can follow your hip escape maintaining full control",
+        "correction": "Always establish foot-on-hip frame with free leg before initiating any extraction attempt. The frame creates the space that makes extraction possible."
+      },
+      {
+        "error": "Exposing heel during extraction by turning away from opponent",
+        "consequence": "Creates immediate heel hook opportunity as the heel becomes accessible during the escape attempt",
+        "correction": "Keep toes pointed toward opponent throughout extraction. Turn into opponent if heel becomes exposed rather than continuing extraction."
+      },
+      {
+        "error": "Stopping after leg extraction without immediately establishing Half Guard",
+        "consequence": "Opponent re-engages the freed leg or immediately passes to side control through the open space",
+        "correction": "Treat extraction and Half Guard establishment as a single continuous movement. The leg should go directly from entanglement to Half Guard position."
+      },
+      {
+        "error": "Attempting extraction during opponent's strongest control phase",
+        "consequence": "Escape fails and energy is wasted fighting maximum resistance, potentially worsening position",
+        "correction": "Wait for grip adjustment or transition moments when opponent's control temporarily weakens. Patience in timing dramatically increases success rate."
+      },
+      {
+        "error": "Neglecting upper body frames and allowing opponent to stack",
+        "consequence": "Opponent drives weight forward eliminating hip mobility needed for extraction, potentially advancing to mount",
+        "correction": "Maintain active upper body frames on opponent's shoulder and bicep throughout the escape sequence to prevent stacking."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Relaxation mechanics",
+        "description": "Practice the conscious relaxation of the trapped leg without resistance. Partner holds leg in entanglement position while you focus on achieving complete limpness. Drill the feeling difference between tense and relaxed states. Practice hip escape movements separately."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Timing and coordination",
+        "description": "Combine relaxation with hip escape and free leg frame in flowing sequence. Partner provides light static control while you practice the complete extraction sequence. Focus on smooth coordination between leg relaxation, push, and hip escape happening simultaneously."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Reaction to counters",
+        "description": "Partner adds specific counters: following hip escape, tightening grip, attempting stack. Practice identifying each counter and applying appropriate response. Add immediate Half Guard establishment after successful extractions. Begin positional sparring from Leg Knot Bottom."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live integration",
+        "description": "Full resistance positional sparring starting from Leg Knot Bottom. Practice identifying extraction windows under pressure. Integrate with overall leg entanglement defense system including Granby rolls and counter-entanglements. Track success rate and refine timing based on failures."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary biomechanical principle that makes limp leg extraction effective?",
+        "answer": "A completely relaxed leg removes the structural tension that opponents rely on to maintain grip control. When muscles are tensed, they create resistance points that grips can lock onto. A limp leg becomes slippery and difficult to control because there's no muscular engagement for the opponent to grip against. This is counterintuitive because our instinct is to fight and resist, but relaxation creates the extraction window."
+      },
+      {
+        "question": "What position do you start Limp Leg Extraction to Half Guard from?",
+        "answer": "This technique starts from Leg Knot Bottom, where your leg is entangled with the opponent's legs in a knotted configuration but they have not yet achieved a dominant attacking position like full Saddle or complete Ashi Garami with breaking mechanics established. The position must allow for hip mobility and free leg framing."
+      },
+      {
+        "question": "Your opponent tightens their grip as you begin relaxing your leg - how do you adjust?",
+        "answer": "Abort the immediate extraction attempt and reassess. If they've secured deeper control, particularly on the heel, address that threat first by hiding the heel (turning toes toward their hip). Wait for another grip adjustment moment rather than forcing through increased resistance. Consider whether a different escape (Granby roll, counter-entangle to 50-50) is now more appropriate given their improved control."
+      },
+      {
+        "question": "What is the optimal timing window for initiating the extraction?",
+        "answer": "The optimal window occurs when the opponent adjusts their grip, shifts their weight, or reaches for deeper control. These transition moments create brief gaps in their control structure. Watch for hand repositioning, weight shifts toward one side, or attempts to secure the heel—each creates a moment where their grip strength temporarily decreases and extraction success probability increases."
+      },
+      {
+        "question": "Why do we transition specifically to Half Guard rather than another position after extraction?",
+        "answer": "Half Guard provides optimal combination of safety and offensive potential after leg extraction. It immediately prevents leg re-engagement by placing your freed leg between opponent's legs. The position offers superior hip mobility for guard recovery or sweeps compared to other destinations. Half Guard also maintains distance control through knee shield options while preventing immediate passing attempts that could occur in open guard transitions."
+      },
+      {
+        "question": "What role does the free leg play during the extraction sequence?",
+        "answer": "The free leg serves as the primary space-creation mechanism through a foot-on-hip pushing frame. This frame generates the distance needed for extraction by pushing the opponent away while you hip escape. Without this active frame, the opponent can follow your hip movement and maintain entanglement. The free leg also prevents forward advancement and potential stacking during the extraction sequence."
+      },
+      {
+        "question": "How do you protect against heel hook exposure during the extraction?",
+        "answer": "Keep your toes pointed toward the opponent throughout the entire extraction sequence. This anatomical positioning protects the heel by keeping it hidden against your own body or the ground. If the heel becomes exposed at any point, stop the extraction and turn into the opponent to re-hide it before continuing. Never sacrifice heel safety for extraction speed."
+      },
+      {
+        "question": "What common error causes practitioners to remain stuck despite attempting extraction?",
+        "answer": "The most common error is maintaining muscle tension in the trapped leg while attempting to extract. Our instinct is to fight and resist, but this tension gives the opponent exactly what they need to maintain control. The leg must be consciously, completely relaxed—limp from hip to toes—for the extraction mechanics to work. Many practitioners think they're relaxed when significant tension remains."
+      },
+      {
+        "question": "Your opponent follows your hip escape and maintains the entanglement - what is the proper response?",
+        "answer": "Increase the aggressiveness of your free leg frame, pushing them away more forcefully as you escape. If they continue following effectively, abort the Half Guard destination and transition to Single Leg X-Guard instead, which allows you to maintain offensive leg engagement while they're extended from following you. The key is recognizing early that they're successfully following and adapting your destination rather than repeatedly failing the same escape."
+      },
+      {
+        "question": "What determines whether to use standard extraction versus Granby-assisted extraction?",
+        "answer": "Standard extraction works when hip escape creates sufficient space and opponent stays relatively stationary. Choose Granby-assisted extraction when opponent applies strong forward pressure or effectively follows your hip escape—the rotational momentum of the Granby creates extraction force that's harder to counter. Also use Granby variant when you need faster extraction due to imminent submission threat."
+      },
+      {
+        "question": "Your extraction succeeds but you fail to establish Half Guard and end up in open guard - what happens next?",
+        "answer": "Without the Half Guard anchor, your opponent can re-engage leg attacks or initiate a guard pass immediately. Prioritize getting one leg between their legs to establish at least a basic Half Guard hook. If they drive forward, use a knee shield to create distance. If they reach for your legs again, pummel your feet to their hips for distance control. The critical principle is never remaining in open guard against a leg locker—commit to a specific guard configuration within seconds of extraction."
+      },
+      {
+        "question": "What grip on your trapped leg should you address first before attempting extraction?",
+        "answer": "Address the heel grip first because it represents the most immediate submission threat. If the opponent controls your heel with an interlaced grip or cupping hand, no extraction should be attempted until that grip is stripped or neutralized. Use two-on-one grip fighting to break their heel control, then address ankle and shin grips secondarily. Only attempt extraction once the submission-threatening grips are cleared and only positional control grips remain."
+      }
+    ],
+    "safety_considerations": "The Limp Leg Extraction carries moderate risk primarily related to knee and heel safety during the extraction process. The trapped leg's knee is vulnerable to hyperextension if opponent applies sudden pressure during extraction—never fully extend the leg during escape, keeping slight knee flexion throughout. Heel exposure during extraction creates heel hook risk; if heel becomes accessible, immediately stop extraction and address heel safety before continuing. Practice extraction movements slowly initially to develop body awareness of safe angles. In training, communicate clearly with partners about resistance levels during leg entanglement drilling. If any sharp knee pain or unusual joint sensation occurs during extraction attempt, stop immediately and assess before continuing."
+  },
+  "defender": {
+    "name": "Limp leg extraction to Half Guard Defender",
+    "description": "How to defend against Limp Leg Extraction to Half Guard in BJJ. Maintain leg entanglement control, counter extraction attempts, and advance to dominant positions.",
+    "overview": "Defending against the Limp Leg Extraction requires the Leg Knot Top player to maintain systematic entanglement control while denying the bottom player the space and timing needed for extraction. The defender's primary objective is to prevent the opponent from creating the hip escape distance that enables leg withdrawal, while simultaneously advancing toward more dominant positions like the Saddle. This demands constant grip maintenance, proactive pressure application, and the ability to recognize early extraction attempts before they develop momentum.\n\nThe fundamental defensive challenge lies in controlling a limb that has been deliberately relaxed. When the bottom player goes limp, traditional grip strength becomes less effective because there is no muscular structure to anchor against. The defender must shift from relying on grip tension to using structural body positioning—hip pressure, leg triangulation, and proximity control—to maintain entanglement regardless of the trapped leg's tension state. Understanding this shift is essential for neutralizing the extraction mechanic.\n\nAdvanced defenders treat extraction attempts as offensive opportunities rather than purely defensive scenarios. Each extraction attempt requires the bottom player to commit to specific hip movement patterns, temporarily reducing their heel protection and creating windows for submission advancement or positional improvement to Saddle.",
+    "key_principles": [
+      "Maintain constant hip pressure into the trapped leg to eliminate the space needed for extraction regardless of whether the leg is tense or limp",
+      "Use structural body positioning rather than grip strength alone to control the entanglement since a limp leg neutralizes friction-based grips",
+      "Follow the opponent's hip escape movement rather than staying stationary to prevent distance creation during extraction attempts",
+      "Recognize early extraction signals and immediately tighten control or advance position before the escape sequence develops momentum",
+      "Capitalize on extraction attempts as submission opportunities since the bottom player temporarily compromises heel protection during hip escape",
+      "Control the free leg's framing ability by positioning your body to prevent effective foot-on-hip push frames"
+    ],
+    "recognition_cues": [
+      "Opponent's trapped leg suddenly loses all muscle tension and becomes noticeably limp and heavy in your grip, indicating deliberate relaxation preceding extraction",
+      "Opponent plants their free foot on your hip and begins loading weight into a pushing frame, signaling imminent hip escape movement",
+      "Opponent's upper body frames shift from passive defense to active pushing against your shoulder or bicep, creating distance for the escape angle",
+      "Opponent's hips begin lateral movement away from the entanglement combined with the free leg extending into your hip, indicating the coordinated extraction sequence has begun"
+    ],
+    "defensive_options": [
+      {
+        "action": "Follow the hip escape by moving your body with theirs while maintaining leg entanglement pressure",
+        "when_to_use": "As soon as you feel the opponent begin lateral hip movement away from the entanglement",
+        "targets_outcome": "Leg Knot/Bottom",
+        "if_successful": "Opponent's hip escape creates no usable distance and the extraction fails, returning to Leg Knot position with their energy depleted",
+        "risk": "If you follow too aggressively, opponent may redirect into a Single Leg X-Guard entry using your forward momentum against you"
+      },
+      {
+        "action": "Tighten grip and advance to Saddle by crossing the knee line during the relaxation phase",
+        "when_to_use": "When you recognize the opponent has relaxed their leg but before the hip escape begins, use the temporary vulnerability to advance control",
+        "targets_outcome": "Saddle/Bottom",
+        "if_successful": "Transition from Leg Knot to dominant Saddle position with full submission access, converting their escape attempt into a worse position for them",
+        "risk": "If timing is off and they've already begun hip escape, you may overcommit and lose the entanglement entirely"
+      },
+      {
+        "action": "Strip the free leg frame by clearing their foot off your hip before they can generate pushing force",
+        "when_to_use": "When opponent plants their free foot on your hip but has not yet committed to the hip escape push",
+        "targets_outcome": "Leg Knot/Bottom",
+        "if_successful": "Opponent loses the primary space-creation mechanism, making extraction impossible without re-establishing the frame",
+        "risk": "Momentarily removes one of your hands from leg control to address the frame, creating brief grip vulnerability"
+      },
+      {
+        "action": "Drive forward with stacking pressure to pin opponent's hips and eliminate escape angles",
+        "when_to_use": "When opponent begins the extraction sequence but has not yet created significant distance through hip escape",
+        "targets_outcome": "Leg Knot/Bottom",
+        "if_successful": "Opponent's hips are pinned to the mat, eliminating the lateral movement needed for extraction and allowing you to re-consolidate control",
+        "risk": "Heavy forward commitment can be redirected if opponent uses your momentum for a back-door escape behind your hips"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Leg Knot/Bottom",
+        "how": "Maintain entanglement by following hip escape movement, stripping free leg frames, and applying constant pressure that denies the distance needed for extraction. Keep structural body positioning tight regardless of whether the trapped leg is tense or limp."
+      },
+      {
+        "outcome": "Saddle/Bottom",
+        "how": "Capitalize on the opponent's relaxation phase by immediately advancing to Saddle configuration. When they relax the trapped leg, their defensive knee line weakens—cross your leg over their thigh to establish Saddle before they can hip escape. The extraction attempt itself opens the pathway to a more dominant entanglement."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Relying solely on grip strength to hold a limp leg rather than using structural body positioning",
+        "consequence": "The relaxed leg slides through your grips because there is no muscular tension to anchor against, and the extraction succeeds with minimal effort from the bottom player",
+        "correction": "Shift from grip-dependent control to structural control using hip pressure, leg triangulation, and body proximity. Your legs and hips should be the primary retention mechanism, not your hands."
+      },
+      {
+        "error": "Staying stationary when opponent hip escapes instead of following their movement",
+        "consequence": "Opponent creates the distance needed for extraction because your control diminishes as they move away while you remain in place",
+        "correction": "Follow the opponent's hip movement immediately, maintaining the same body-to-body distance throughout their escape attempt. Move as a unit with them rather than trying to hold static position."
+      },
+      {
+        "error": "Ignoring the free leg frame and allowing opponent to establish a strong foot-on-hip push",
+        "consequence": "Opponent generates significant pushing force that accelerates their hip escape, creating more than enough space for a clean extraction",
+        "correction": "Address the free leg frame proactively by either controlling it before it reaches your hip or stripping it immediately once planted. Use your near-side hand or leg positioning to prevent effective framing."
+      },
+      {
+        "error": "Attempting to advance to Saddle without proper timing during the opponent's extraction attempt",
+        "consequence": "Overcommitting to advancement while the opponent is actively escaping creates a gap that allows clean extraction and guard recovery",
+        "correction": "Time the Saddle advancement to the relaxation phase before the hip escape begins. If the hip escape is already in motion, prioritize maintaining current entanglement over advancing position."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "You feel your opponent's trapped leg suddenly go completely limp - what does this signal and how do you respond?",
+        "answer": "This signals the initiation of a limp leg extraction attempt. The opponent is deliberately removing muscle tension to make their leg harder to grip. Respond by immediately shifting from grip-dependent control to structural control—increase hip pressure into their leg, tighten your leg entanglement, and prepare to follow their impending hip escape. Do not try to squeeze harder with your hands as this wastes energy against a relaxed limb. Instead, consider whether to advance to Saddle during this brief vulnerability window before their hip escape begins."
+      },
+      {
+        "question": "What is the most critical body positioning adjustment to prevent successful limp leg extraction?",
+        "answer": "Maintaining constant hip pressure into the opponent's trapped thigh is the most critical adjustment. Unlike hand grips which lose effectiveness against a limp leg, hip pressure creates structural control that works regardless of the trapped leg's tension state. Your hips should act as a wedge against their thigh, and you must follow any lateral hip movement they make to maintain this pressure point. This single adjustment counters the core mechanic of the limp leg extraction."
+      },
+      {
+        "question": "Your opponent establishes a strong foot-on-hip frame with their free leg before you can strip it - how do you adapt?",
+        "answer": "If the frame is already established, avoid trying to remove it with your hands as this compromises your leg control. Instead, angle your body to reduce the effectiveness of their push by moving offline from the pushing direction. You can also drive your weight forward into a stacking position that pins their hips before the push generates full force. If neither option works, accept that they will create some distance but focus on following their movement to maintain entanglement rather than losing the position entirely."
+      },
+      {
+        "question": "How does the defender convert a failed extraction attempt into an offensive opportunity?",
+        "answer": "During extraction attempts, the bottom player temporarily compromises their heel protection because hip escape movement can rotate the foot and expose the heel. If you recognize that the extraction is failing and the opponent has committed to the hip escape, use that moment to advance your grip toward heel control or transition to Saddle. Their defensive priorities shift from joint protection to positional escape during extraction, creating a window where submission threats become significantly higher percentage."
+      },
+      {
+        "question": "What distinguishes a standard limp leg extraction from the Granby-assisted variant, and how should your defense differ?",
+        "answer": "The Granby-assisted variant adds rotational momentum to the extraction, making it faster and harder to follow with lateral hip movement alone. Recognize the Granby variant when you see the opponent begin inverting or curling their shoulders rather than simply hip escaping laterally. Against the Granby variant, drive forward with stacking pressure before the rotation develops momentum rather than trying to follow the rotational path. Your hip pressure should pin them before inversion begins, because once the Granby roll has momentum, following it becomes significantly more difficult."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Recognition and grip retention",
+        "description": "Partner performs slow extraction attempts while you practice recognizing the relaxation signal and maintaining control through structural positioning. Focus on feeling the difference when a leg goes limp and immediately increasing hip pressure rather than grip strength. Alternate between static holds and light extraction attempts."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Following hip escape movement",
+        "description": "Partner performs extraction sequence at moderate speed. Practice following their hip escape movement while maintaining entanglement. Develop sensitivity to lateral hip movement and the coordination to move your entire body as a unit with the escaping player. Add free leg frame stripping as a secondary skill."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Counter-advancement to Saddle",
+        "description": "Practice timing the advancement to Saddle during the opponent's relaxation phase. Partner signals extraction intent through relaxation and you must decide whether to maintain Leg Knot or advance to Saddle based on the available window. Add resistance progression and practice reading the timing for safe advancement versus maintaining current position."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live positional sparring with extraction scenarios",
+        "description": "Full resistance positional sparring where the bottom player's goal is extraction to Half Guard and the top player's goal is either maintaining Leg Knot or advancing to Saddle. Track success rates for both players and refine defensive responses. Integrate against all three extraction variants: standard, Granby-assisted, and sit-up."
+      }
+    ]
+  },
   "variants_and_adaptations": [
     {
       "variant_name": "Granby-Assisted Extraction",
@@ -170,91 +404,5 @@
       "when_to_use": "When you want to maintain leg attack options rather than playing defensive guard. Effective when opponent over-commits to maintaining entanglement control."
     }
   ],
-  "knowledge_assessment": [
-    {
-      "question": "What is the primary biomechanical principle that makes limp leg extraction effective?",
-      "answer": "A completely relaxed leg removes the structural tension that opponents rely on to maintain grip control. When muscles are tensed, they create resistance points that grips can lock onto. A limp leg becomes slippery and difficult to control because there's no muscular engagement for the opponent to grip against. This is counterintuitive because our instinct is to fight and resist, but relaxation creates the extraction window."
-    },
-    {
-      "question": "What position do you start Limp Leg Extraction to Half Guard from?",
-      "answer": "This technique starts from Leg Knot Bottom, where your leg is entangled with the opponent's legs in a knotted configuration but they have not yet achieved a dominant attacking position like full Saddle or complete Ashi Garami with breaking mechanics established. The position must allow for hip mobility and free leg framing."
-    },
-    {
-      "question": "Your opponent tightens their grip as you begin relaxing your leg - how do you adjust?",
-      "answer": "Abort the immediate extraction attempt and reassess. If they've secured deeper control, particularly on the heel, address that threat first by hiding the heel (turning toes toward their hip). Wait for another grip adjustment moment rather than forcing through increased resistance. Consider whether a different escape (Granby roll, counter-entangle to 50-50) is now more appropriate given their improved control."
-    },
-    {
-      "question": "What is the optimal timing window for initiating the extraction?",
-      "answer": "The optimal window occurs when the opponent adjusts their grip, shifts their weight, or reaches for deeper control. These transition moments create brief gaps in their control structure. Watch for hand repositioning, weight shifts toward one side, or attempts to secure the heel—each creates a moment where their grip strength temporarily decreases and extraction success probability increases."
-    },
-    {
-      "question": "Why do we transition specifically to Half Guard rather than another position after extraction?",
-      "answer": "Half Guard provides optimal combination of safety and offensive potential after leg extraction. It immediately prevents leg re-engagement by placing your freed leg between opponent's legs. The position offers superior hip mobility for guard recovery or sweeps compared to other destinations. Half Guard also maintains distance control through knee shield options while preventing immediate passing attempts that could occur in open guard transitions."
-    },
-    {
-      "question": "What role does the free leg play during the extraction sequence?",
-      "answer": "The free leg serves as the primary space-creation mechanism through a foot-on-hip pushing frame. This frame generates the distance needed for extraction by pushing the opponent away while you hip escape. Without this active frame, the opponent can follow your hip movement and maintain entanglement. The free leg also prevents forward advancement and potential stacking during the extraction sequence."
-    },
-    {
-      "question": "How do you protect against heel hook exposure during the extraction?",
-      "answer": "Keep your toes pointed toward the opponent throughout the entire extraction sequence. This anatomical positioning protects the heel by keeping it hidden against your own body or the ground. If the heel becomes exposed at any point, stop the extraction and turn into the opponent to re-hide it before continuing. Never sacrifice heel safety for extraction speed."
-    },
-    {
-      "question": "What common error causes practitioners to remain stuck despite attempting extraction?",
-      "answer": "The most common error is maintaining muscle tension in the trapped leg while attempting to extract. Our instinct is to fight and resist, but this tension gives the opponent exactly what they need to maintain control. The leg must be consciously, completely relaxed—limp from hip to toes—for the extraction mechanics to work. Many practitioners think they're relaxed when significant tension remains."
-    },
-    {
-      "question": "Your opponent follows your hip escape and maintains the entanglement - what is the proper response?",
-      "answer": "Increase the aggressiveness of your free leg frame, pushing them away more forcefully as you escape. If they continue following effectively, abort the Half Guard destination and transition to Single Leg X-Guard instead, which allows you to maintain offensive leg engagement while they're extended from following you. The key is recognizing early that they're successfully following and adapting your destination rather than repeatedly failing the same escape."
-    },
-    {
-      "question": "What determines whether to use standard extraction versus Granby-assisted extraction?",
-      "answer": "Standard extraction works when hip escape creates sufficient space and opponent stays relatively stationary. Choose Granby-assisted extraction when opponent applies strong forward pressure or effectively follows your hip escape—the rotational momentum of the Granby creates extraction force that's harder to counter. Also use Granby variant when you need faster extraction due to imminent submission threat."
-    }
-  ],
-  "safety_considerations": "The Limp Leg Extraction carries moderate risk primarily related to knee and heel safety during the extraction process. The trapped leg's knee is vulnerable to hyperextension if opponent applies sudden pressure during extraction—never fully extend the leg during escape, keeping slight knee flexion throughout. Heel exposure during extraction creates heel hook risk; if heel becomes accessible, immediately stop extraction and address heel safety before continuing. Practice extraction movements slowly initially to develop body awareness of safe angles. In training, communicate clearly with partners about resistance levels during leg entanglement drilling. If any sharp knee pain or unusual joint sensation occurs during extraction attempt, stop immediately and assess before continuing.",
-  "position_integration": "Limp Leg Extraction to Half Guard serves as a cornerstone defensive technique within the leg entanglement defensive system. It provides a reliable escape from compromised positions before opponents achieve dominant leg lock configurations like Saddle or Honey Hole. The technique integrates with other leg entanglement defenses including Granby Roll Escape and counter-entanglement to 50-50, creating a complete defensive hierarchy. From the resulting Half Guard position, practitioners have access to the full Half Guard offensive system including sweeps, back takes, and leg lock entries of their own. This positions the technique as a transitional tool that converts defensive crisis into offensive opportunity through systematic position improvement.",
-  "related_content": [
-    {
-      "name": "Leg Knot",
-      "relationship": "Starting position - the entanglement configuration you're escaping from"
-    },
-    {
-      "name": "Half Guard",
-      "relationship": "Primary destination - stable defensive position after successful extraction"
-    },
-    {
-      "name": "Granby Roll Escape",
-      "relationship": "Alternative escape - when opponent has tighter control or forward pressure"
-    },
-    {
-      "name": "Ashi Garami Escape",
-      "relationship": "Related defensive technique for similar leg entanglement scenarios"
-    },
-    {
-      "name": "50-50 Entry",
-      "relationship": "Counter-entanglement option when extraction to Half Guard fails"
-    },
-    {
-      "name": "Single Leg X Entry",
-      "relationship": "Offensive alternative destination maintaining leg attack capability"
-    },
-    {
-      "name": "Hip Escape to Guard",
-      "relationship": "Core movement mechanic used during extraction sequence"
-    },
-    {
-      "name": "Saddle",
-      "relationship": "Position to prevent - opponent's advancement target if extraction fails"
-    },
-    {
-      "name": "Inside Ashi-Garami",
-      "relationship": "Related leg entanglement position with similar escape principles"
-    },
-    {
-      "name": "Heel Hook",
-      "relationship": "Primary submission threat being defended during extraction"
-    }
-  ],
-  "success_rate": 58
+  "position_integration": "Limp Leg Extraction to Half Guard serves as a cornerstone defensive technique within the leg entanglement defensive system. It provides a reliable escape from compromised positions before opponents achieve dominant leg lock configurations like Saddle or Honey Hole. The technique integrates with other leg entanglement defenses including Granby Roll Escape and counter-entanglement to 50-50, creating a complete defensive hierarchy. From the resulting Half Guard position, practitioners have access to the full Half Guard offensive system including sweeps, back takes, and leg lock entries of their own. This positions the technique as a transitional tool that converts defensive crisis into offensive opportunity through systematic position improvement."
 }

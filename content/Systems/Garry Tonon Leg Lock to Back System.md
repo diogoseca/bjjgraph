@@ -344,7 +344,7 @@ The system requires both isolated component drilling and integrated flow trainin
 - [[Kiss of the Dragon]] (Transition) - Dynamic back taking technique when opponent defends leg attacks with forward pressure
 - [[X-Guard to Ashi Transition]] (Transition) - Conversion pathway from guard position to leg entanglement positions
 - [[Turtle to Back Take]] (Transition) - Back attack entry when opponent uses turtle as intermediate defensive position
-- [[Back Take Generic]] (Transition) - Collection of back taking methods utilized throughout system implementation
+- [[Back Take]] (Transition) - Collection of back taking methods utilized throughout system implementation
 - [[Heel Hook]] (Submission) - Primary leg submission that forces defensive movements exposing back attacks
 - [[Inside Heel Hook]] (Submission) - Specific finishing mechanic from inside ashi-garami position
 - [[Rear Naked Choke]] (Submission) - Primary back attack submission when leg defenses expose upper body

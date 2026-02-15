@@ -20,38 +20,38 @@ description: "Master defensive strategies from Harness Bottom Position in BJJ. L
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Elbow Escape",
-      "text": "From this position, attempt Elbow Escape. This technique is attempted in 21% of exchanges from this position.",
+      "name": "Execute Elbow Escape to Guard",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 20% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape",
-      "text": "From this position, attempt Hip Escape. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Hip Escape to Turtle",
+      "text": "From this position, attempt Hip Escape to Turtle. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand Up to Single Leg",
-      "text": "From this position, attempt Technical Stand Up to Single Leg. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand Up to Single Leg. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Roll to Guard",
-      "text": "From this position, attempt Roll to Guard. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Roll to Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll",
-      "text": "From this position, attempt Granby Roll. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Granby Roll to Guard",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Standing up in Base",
-      "text": "From this position, attempt Standing up in Base. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Elbow Escape to Remove Hooks",
+      "text": "From this position, attempt Elbow Escape to Remove Hooks. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,17 +209,19 @@ The strategic priority from Harness Bottom Position is threefold: first, prevent
 
 ## Available Escapes
 
-### [[Elbow Escape]] (21% of attempts)
+### [[Elbow Escape to Guard]] (20% of attempts)
 
-### [[Hip Escape]] (18% of attempts)
+### [[Hip Escape to Turtle]] (17% of attempts)
 
-### [[Technical Stand Up to Single Leg]] (17% of attempts)
+### [[Technical Stand Up to Single Leg]] (15% of attempts)
 
-### [[Roll to Guard]] (15% of attempts)
+### [[Roll to Guard]] (14% of attempts)
 
-### [[Granby Roll]] (14% of attempts)
+### [[Granby Roll to Guard]] (12% of attempts)
 
-### [[Standing up in Base]] (15% of attempts)
+### [[Elbow Escape to Remove Hooks]] (12% of attempts)
+
+### [[Hip Escape to Guard]] (10% of attempts)
 
 
 
@@ -231,26 +233,26 @@ The strategic priority from Harness Bottom Position is threefold: first, prevent
 
 **If opponent has tight harness grip but no hooks established yet:**
 - Execute **[[Control choking arm with both hands]]** → [[Harness]] (Probability: 90%)
-- Execute **[[Hip Escape to create space]]** → [[Turtle]] (Probability: 50%)
-- Execute **[[Standing up in Base]]** → [[Standing Position]] (Probability: 45%)
+- Execute **[[Hip Escape to Turtle]]** → [[Turtle]] (Probability: 50%)
+- Execute **[[Technical Stand Up to Single Leg]]** → [[Clinch]] (Probability: 45%)
 
 
 **If opponent attempts rear naked choke by bringing arm across neck:**
 - Execute **[[Two-on-one grip fight on choking arm]]** → [[Harness]] (Probability: 85%)
 - Execute **[[Chin down and turn into choking arm]]** → [[Half Guard]] (Probability: 60%)
-- Execute **[[Emergency elbow escape]]** → [[Turtle]] (Probability: 40%)
+- Execute **[[Elbow Escape to Guard]]** → [[Turtle]] (Probability: 40%)
 
 
 **If opponent establishes one or both hooks while maintaining harness:**
-- Execute **[[Clear hooks while controlling hands]]** → [[Harness]] (Probability: 55%)
-- Execute **[[Granby Roll escape]]** → [[Open Guard]] (Probability: 35%)
-- Execute **[[Hip escape and scoot]]** → [[Half Guard]] (Probability: 45%)
+- Execute **[[Elbow Escape to Remove Hooks]]** → [[Harness]] (Probability: 55%)
+- Execute **[[Granby Roll to Guard]]** → [[Open Guard]] (Probability: 35%)
+- Execute **[[Hip Escape to Guard]]** → [[Half Guard]] (Probability: 45%)
 
 
 **If opponent's chest pressure reduces or weight shifts to one side:**
-- Execute **[[Technical Stand Up to Single Leg]]** → [[Standing Position]] (Probability: 60%)
-- Execute **[[Forward roll to guard]]** → [[Closed Guard]] (Probability: 50%)
-- Execute **[[Elbow escape to turtle]]** → [[Turtle]] (Probability: 65%)
+- Execute **[[Technical Stand Up to Single Leg]]** → [[Clinch]] (Probability: 60%)
+- Execute **[[Roll to Guard]]** → [[Closed Guard]] (Probability: 50%)
+- Execute **[[Elbow Escape to Guard]]** → [[Turtle]] (Probability: 65%)
 
 
 
@@ -392,7 +394,7 @@ Start from harness bottom with no hooks. Work through complete escape sequence: 
 - **[[Rear Naked Choke]]** - Primary submission threat from this position
 - **[[Open Guard]]** - Possible escape destination after granby roll or forward roll
 - **[[Closed Guard]]** - Escape destination if successful turn to face opponent
-- **[[Standing Position]]** - Escape destination via technical standup
+- **[[Clinch]]** - Escape destination via technical standup
 - **[[Armbar Control]]** - Secondary submission threat if defending choke exposes arm
 
 

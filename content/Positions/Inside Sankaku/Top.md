@@ -20,38 +20,38 @@ description: "Master Inside Sankaku top perspective. Complete control mechanics,
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Inside Heel Hook",
-      "text": "From this position, attempt Inside Heel Hook. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Heel Hook",
+      "text": "From this position, attempt Heel Hook. This technique is attempted in 42% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toe Hold",
-      "text": "From this position, attempt Toe Hold. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Toe Hold. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Outside Ashi Entry",
-      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Saddle Entry from Top",
-      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute 50-50 Entry",
-      "text": "From this position, attempt 50-50 Entry. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt 50-50 Entry. This technique is attempted in 3% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kneebar from Top",
-      "text": "From this position, attempt Kneebar from Top. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Kneebar Finish",
+      "text": "From this position, attempt Kneebar Finish. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,25 +208,27 @@ Inside Sankaku from the top perspective represents one of the most dominant and 
 
 ## Available Attacks
 
-### [[Inside Heel Hook]] (12% of attempts)
+### [[Heel Hook]] (42% of attempts)
 
-### [[Toe Hold]] (9% of attempts)
+### [[Toe Hold]] (10% of attempts)
 
-### [[Outside Ashi Entry]] (12% of attempts)
+### [[Outside Ashi Entry]] (8% of attempts)
 
-### [[Saddle Entry from Top]] (11% of attempts)
+### [[Saddle Entry from Top]] (8% of attempts)
 
-### [[50-50 Entry]] (11% of attempts)
+### [[50-50 Entry]] (3% of attempts)
 
-### [[Kneebar from Top]] (9% of attempts)
+### [[Kneebar Finish]] (8% of attempts)
 
-### [[Calf Slicer]] (8% of attempts)
+### [[Calf Slicer]] (3% of attempts)
 
 ### [[Rolling Back Take]] (10% of attempts)
 
-### [[Outside Heel Hook]] (9% of attempts)
+### [[Inside Ashi-Garami to Honey Hole]] (6% of attempts)
 
-### [[Side Control to Mount]] (9% of attempts)
+### [[Inside Sankaku Heel Hook]] (1% of attempts)
+
+### [[Inside Sankaku to Saddle]] (1% of attempts)
 
 
 

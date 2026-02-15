@@ -20,38 +20,38 @@ description: "Defensive strategies and escape techniques when opponent has estab
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape",
-      "text": "From this position, attempt Hip Escape. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Grip Break",
+      "text": "From this position, attempt Grip Break. This technique is attempted in 32% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Grip Break",
-      "text": "From this position, attempt Grip Break. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Sitting Guard Pull",
+      "text": "From this position, attempt Sitting Guard Pull. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Sitting Guard Pull",
-      "text": "From this position, attempt Sitting Guard Pull. This technique is attempted in 21% of exchanges from this position.",
+      "name": "Execute Rolling to Guard",
+      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Standup",
-      "text": "From this position, attempt Technical Standup. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Whizzer",
+      "text": "From this position, attempt Whizzer. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Sprawl Defense",
-      "text": "From this position, attempt Sprawl Defense. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Takedown Defense",
+      "text": "From this position, attempt Takedown Defense. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling to Guard",
-      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Turn In and Face",
+      "text": "From this position, attempt Turn In and Face. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -169,11 +169,11 @@ The body lock bottom position appears frequently in no-gi competition when oppon
 
 ## Position Definition
 
-- Opponent's arms wrapped completely around your torso with their hands locked behind your back or at your centerline, creating unified grip that restricts your movement
-- Opponent's chest pressed against your back or side torso, eliminating space and preventing you from turning to face them or creating distance
-- Opponent's head positioned tight to your shoulder or upper back area, controlling your upper body and preventing you from establishing head control or frames
-- Your posture compromised with spine curved forward or to the side as opponent drives hip pressure into you, breaking your upright stance
-- Your defensive frames either not yet established or actively being broken by opponent's chest and hip pressure
+- Opponent's arms wrapped completely around your torso with their hands locked behind your back or at your centerline, creating unified grip that restricts your movement in all directions
+- Opponent's chest pressed against your back or side torso, eliminating space and preventing you from turning to face them or creating distance through frames or hip movement
+- Opponent's head positioned tight to your shoulder or upper back area, controlling your upper body and preventing you from establishing head control or effective defensive frames
+- Your posture compromised with spine curved forward or to the side as opponent drives hip pressure into you, breaking your upright stance and loading your weight onto your toes
+- Your defensive frames either not yet established or actively being broken by opponent's chest and hip pressure, leaving you without structural barriers between your body and theirs
 
 
 </section>
@@ -210,17 +210,23 @@ The body lock bottom position appears frequently in no-gi competition when oppon
 
 ## Available Escapes
 
-### [[Hip Escape]] (17% of attempts)
+### [[Grip Break]] (32% of attempts)
 
-### [[Grip Break]] (15% of attempts)
+### [[Sitting Guard Pull]] (20% of attempts)
 
-### [[Sitting Guard Pull]] (21% of attempts)
+### [[Rolling to Guard]] (13% of attempts)
 
-### [[Technical Standup]] (14% of attempts)
+### [[Whizzer]] (8% of attempts)
 
-### [[Sprawl Defense]] (15% of attempts)
+### [[Takedown Defense]] (8% of attempts)
 
-### [[Rolling to Guard]] (18% of attempts)
+### [[Turn In and Face]] (8% of attempts)
+
+### [[Standing up in Base]] (6% of attempts)
+
+### [[Escape Body Lock]] (3% of attempts)
+
+### [[Pummeling Escape from Body Lock]] (2% of attempts)
 
 
 
@@ -231,18 +237,23 @@ The body lock bottom position appears frequently in no-gi competition when oppon
 ## Decision Making from This Position
 
 **If opponent has locked grip but hasn't yet driven hip pressure:**
-- Execute **[[Post on hips and create distance]]** → [[Standing Position]] (Probability: 45%)
+- Execute **[[Post on hips and create distance]]** → [[Clinch]] (Probability: 45%)
 - Execute **[[Grip Break]]** → [[Clinch]] (Probability: 40%)
 
 
 **Else if opponent is driving forward pressure and breaking posture:**
 - Execute **[[Sitting Guard Pull]]** → [[Closed Guard]] (Probability: 55%)
-- Execute **[[Sprawl and widen base]]** → [[Front Headlock]] (Probability: 35%)
+- Execute **[[Whizzer and sprawl to widen base]]** → [[Front Headlock]] (Probability: 35%)
 
 
 **Else if opponent is lifting or attempting throw:**
 - Execute **[[Rolling to Guard]]** → [[Closed Guard]] (Probability: 50%)
-- Execute **[[Hook opponent's leg]]** → [[Clinch]] (Probability: 30%)
+- Execute **[[Hook opponent's leg and block throw]]** → [[Clinch]] (Probability: 30%)
+
+
+**Else if opponent momentarily loosens grip or shifts weight:**
+- Execute **[[Standing up in Base]]** → [[Clinch]] (Probability: 45%)
+- Execute **[[Turn In and Face]]** → [[Clinch]] (Probability: 35%)
 
 
 
@@ -307,6 +318,13 @@ Partner establishes body lock and begins driving or lifting. Practice recognizin
 **Duration**: 10 repetitions, focus on timing
 
 
+### Escape Chain Flow
+
+Partner maintains body lock while you chain together multiple escape attempts: grip break to whizzer to guard pull. Work on flowing between options based on partner's reactions rather than committing to single escape. Build recognition of which escape is available in each moment.
+
+**Duration**: 5 rounds x 2 minutes, switch roles
+
+
 
 
 </section>
@@ -353,7 +371,7 @@ Partner establishes body lock and begins driving or lifting. Practice recognizin
 |--------|------|
 | Retention Rate | 38% |
 | Advancement Probability | 48% |
-| Submission Probability | 28% |
+| Submission Probability | 5% |
 
 **Average Time in Position**: 3-8 seconds before opponent transitions to next position
 
@@ -364,13 +382,13 @@ Partner establishes body lock and begins driving or lifting. Practice recognizin
 
 ## Related Positions and Techniques
 
-- **[[Standing Position]]** - Target escape position - primary goal from body lock bottom
-- **[[Clinch]]** - Intermediate position after breaking body lock but before full separation
-- **[[Closed Guard]]** - Alternative escape via controlled guard pull
+- **[[Clinch]]** - Target escape position - primary goal from body lock bottom is return to neutral clinch
+- **[[Closed Guard]]** - Alternative escape via controlled guard pull when standing escape fails
 - **[[Turtle]]** - Common bad outcome if opponent drives you down without complete escape
 - **[[Back Control]]** - Most dangerous threat from opponent's body lock position
-- **[[Sprawl Defense]]** - Defensive technique useful against body lock pressure
-- **[[Hip Escape]]** - Primary escape movement for creating space and breaking connection
+- **[[Half Guard]]** - Possible recovery position after partial mat return defense
+- **[[Overhook Control]]** - Whizzer defense connects to overhook control for creating space
+- **[[Front Headlock]]** - Possible resulting position if you sprawl and opponent loses back control angle
 
 
 </section>

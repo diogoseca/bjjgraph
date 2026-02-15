@@ -254,22 +254,22 @@
       "relationship": "Core movement pattern used in hip escape sequences"
     },
     {
-      "name": "Elbow Escape",
+      "name": "Elbow Escape to Guard",
       "content_type": "Transition",
       "relationship": "Alternative escape technique from back control"
     },
     {
-      "name": "Hip Escape",
+      "name": "Hip Escape to Guard",
       "content_type": "Transition",
       "relationship": "Fundamental movement for creating space during escapes"
     },
     {
-      "name": "Granby Roll",
+      "name": "Granby Roll to Guard",
       "content_type": "Transition",
       "relationship": "Advanced escape option when hooks are partially cleared"
     },
     {
-      "name": "Technical Standup",
+      "name": "Technical Stand-up",
       "content_type": "Transition",
       "relationship": "Recovery option when opponent creates distance during escape"
     },

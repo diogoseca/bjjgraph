@@ -91,21 +91,31 @@ Inside Ashi-Garami has become essential in modern competition grappling, particu
 ### Available Transitions
 
 
-- **[[Inside Heel Hook]]** (10% of attempts)
+- **[[Heel Hook]]** (5% of attempts)
 
-- **[[Straight Ankle Lock]]** (13% of attempts)
+- **[[Straight Ankle Lock Entry]]** (41% of attempts)
 
-- **[[Saddle Entry from Top]]** (16% of attempts)
+- **[[Saddle Entry from Top]]** (12% of attempts)
 
-- **[[Outside Ashi Entry]]** (14% of attempts)
+- **[[Outside Ashi Entry]]** (7% of attempts)
 
-- **[[50-50 Entry from Standing]]** (13% of attempts)
+- **[[Kneebar Finish]]** (4% of attempts)
 
-- **[[Kneebar Finish]]** (11% of attempts)
+- **[[Toe Hold]]** (6% of attempts)
 
-- **[[Toe Hold]]** (10% of attempts)
+- **[[50-50 Entry]]** (4% of attempts)
 
-- **[[X-Guard to Ashi Transition]]** (13% of attempts)
+- **[[Inside Ashi-Garami to Honey Hole]]** (9% of attempts)
+
+- **[[Inside Ashi-Garami to Cross Ashi]]** (4% of attempts)
+
+- **[[Guard Recovery]]** (6% of attempts)
+
+- **[[Counter Entangle to 50-50 from Ashi]]** (1% of attempts)
+
+- **[[Leg Extraction from Inside Ashi]]** (0% of attempts)
+
+- **[[Standing Up from Inside Ashi]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -164,23 +174,31 @@ Inside Ashi-Garami has become essential in modern competition grappling, particu
 ### Available Transitions
 
 
-- **[[Straight Ankle Lock]]** (13% of attempts)
+- **[[Straight Ankle Lock Entry]]** (43% of attempts)
 
-- **[[Inside Heel Hook]]** (12% of attempts)
+- **[[Heel Hook]]** (6% of attempts)
 
-- **[[Toe Hold]]** (12% of attempts)
+- **[[Toe Hold]]** (9% of attempts)
 
-- **[[Kneebar Finish]]** (11% of attempts)
+- **[[Kneebar Finish]]** (4% of attempts)
 
-- **[[Inside Ashi-Garami to Honey Hole]]** (11% of attempts)
+- **[[Inside Ashi-Garami to Honey Hole]]** (9% of attempts)
 
-- **[[50-50 Guard to Outside Ashi]]** (13% of attempts)
+- **[[Back Take from Ashi]]** (2% of attempts)
 
-- **[[Back Take from Ashi]]** (8% of attempts)
+- **[[Inside Ashi-Garami to Cross Ashi]]** (5% of attempts)
 
-- **[[Sweep to Top Position]]** (10% of attempts)
+- **[[Outside Ashi Entry]]** (9% of attempts)
 
-- **[[Inside Ashi-Garami to Cross Ashi]]** (10% of attempts)
+- **[[Saddle Entry from Top]]** (9% of attempts)
+
+- **[[50-50 Entry]]** (3% of attempts)
+
+- **[[Backside 50-50 Entry from Ashi]]** (0% of attempts)
+
+- **[[Inside Ashi to Outside Ashi]]** (0% of attempts)
+
+- **[[Inside Ashi-Garami to Ushiro Ashi]]** (1% of attempts)
 
 
 ### Common Mistakes

@@ -372,7 +372,6 @@ Systematic study of high-level competition footage focusing exclusively on grip 
 - [[Sleeve Control]] (Principle) - Strategic use of sleeve grips to create distance management and positional leverage
 - [[Control Point Hierarchy]] (Principle) - Framework for understanding relative value of different control points that informs grip prioritization
 - [[Grip Break]] (Principle) - Defensive application of grip advantage focusing on neutralizing opponent's established controls
-- [[Hand Fighting]] (Principle) - Active contest for establishing and denying grips that determines grip advantage outcomes
 - [[Spider Guard]] (Position) - Guard position heavily dependent on establishing grip advantage through sleeve controls and feet placement
 - [[Closed Guard]] (Position) - Fundamental guard position where grip advantage determines offensive opportunity and defensive security
 - [[Reverse De La Riva Guard]] (Position) - Guard system built on specific grip configurations that create asymmetric leverage advantages

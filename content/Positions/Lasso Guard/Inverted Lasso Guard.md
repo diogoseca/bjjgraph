@@ -99,25 +99,27 @@ Inverted lasso guard fits into broader guard systems as a transitional position 
 ### Available Transitions
 
 
-- **[[Berimbolo Entry]]** (12% of attempts)
+- **[[Berimbolo Entry]]** (37% of attempts)
 
-- **[[Hip Bump Sweep V2]]** (11% of attempts)
+- **[[Kiss of the Dragon]]** (11% of attempts)
 
-- **[[Kiss of the Dragon]]** (10% of attempts)
+- **[[Triangle Setup]]** (6% of attempts)
 
-- **[[Triangle Setup]]** (9% of attempts)
+- **[[Omoplata Sweep]]** (8% of attempts)
 
-- **[[Omoplata Sweep]]** (10% of attempts)
+- **[[Sickle Sweep]]** (4% of attempts)
 
-- **[[Lasso Guard Sweeps]]** (9% of attempts)
+- **[[Single Leg X Entry]]** (8% of attempts)
 
-- **[[Single Leg X Entry]]** (11% of attempts)
+- **[[De La Riva Sweep]]** (6% of attempts)
 
-- **[[De La Riva Sweep]]** (9% of attempts)
+- **[[Balloon Sweep]]** (12% of attempts)
 
-- **[[Armbar from Guard]]** (8% of attempts)
+- **[[Tomoe Nage]]** (5% of attempts)
 
-- **[[Lasso Guard Variations]]** (11% of attempts)
+- **[[Inverted Lasso Sweep]]** (2% of attempts)
+
+- **[[Inverted Lasso to Lasso Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -182,21 +184,25 @@ Inverted lasso guard fits into broader guard systems as a transitional position 
 ### Available Transitions
 
 
-- **[[Lasso Guard Pass]]** (13% of attempts)
+- **[[Lasso Guard Pass]]** (11% of attempts)
 
-- **[[Stack Pass]]** (12% of attempts)
+- **[[Stack Pass]]** (11% of attempts)
 
-- **[[Arm Extraction]]** (14% of attempts)
+- **[[Arm Extraction]]** (22% of attempts)
 
 - **[[Cartwheel Pass]]** (11% of attempts)
 
-- **[[Pressure Pass]]** (12% of attempts)
+- **[[Pressure Pass]]** (10% of attempts)
 
-- **[[Knee Cut Pass]]** (13% of attempts)
+- **[[Knee Cut Pass]]** (8% of attempts)
 
-- **[[Smash Pass]]** (11% of attempts)
+- **[[Smash Pass]]** (9% of attempts)
 
-- **[[Toreando Pass]]** (14% of attempts)
+- **[[Back Step Pass]]** (12% of attempts)
+
+- **[[Pass Inverted Lasso Guard]]** (4% of attempts)
+
+- **[[Stack from Inverted Lasso]]** (2% of attempts)
 
 
 ### Common Mistakes

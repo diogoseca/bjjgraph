@@ -20,38 +20,38 @@ description: "Master defensive Chill Dog position from bottom. Learn compact tur
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll",
-      "text": "From this position, attempt Granby Roll. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Granby Roll to Guard",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby to Closed Guard",
-      "text": "From this position, attempt Granby to Closed Guard. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Granby to Closed Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Standup",
-      "text": "From this position, attempt Technical Standup. This technique is attempted in 20% of exchanges from this position.",
+      "name": "Execute Technical Stand-up",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 26% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling to Guard",
-      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Guard",
-      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape",
-      "text": "From this position, attempt Hip Escape. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Hip Escape to Guard",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -215,17 +215,21 @@ In the 10th Planet system, Chill Dog Bottom serves as a gateway back to offensiv
 
 ## Available Escapes
 
-### [[Granby Roll]] (18% of attempts)
+### [[Granby Roll to Guard]] (15% of attempts)
 
-### [[Granby to Closed Guard]] (15% of attempts)
+### [[Granby to Closed Guard]] (12% of attempts)
 
-### [[Technical Standup]] (20% of attempts)
+### [[Technical Stand-up]] (26% of attempts)
 
-### [[Rolling to Guard]] (15% of attempts)
+### [[Rolling to Guard]] (12% of attempts)
 
-### [[Turtle to Guard]] (17% of attempts)
+### [[Turtle to Guard]] (14% of attempts)
 
-### [[Hip Escape]] (15% of attempts)
+### [[Hip Escape to Guard]] (12% of attempts)
+
+### [[Escape Chill Dog]] (6% of attempts)
+
+### [[Roll from Chill Dog]] (3% of attempts)
 
 
 
@@ -243,11 +247,11 @@ In the 10th Planet system, Chill Dog Bottom serves as a gateway back to offensiv
 **If opponent circles to attack back or attempts to establish hooks:**
 - Execute **[[Turn into opponent]]** → [[Butterfly Guard]] (Probability: 40%)
 - Execute **[[Granby Roll]]** → [[Closed Guard]] (Probability: 35%)
-- Execute **[[Technical Standup]]** → [[Clinch]] (Probability: 50%)
+- Execute **[[Technical Stand-up]]** → [[Clinch]] (Probability: 50%)
 
 
 **If opponent attempts front headlock control or guillotine setup:**
-- Execute **[[Technical Standup]]** → [[Clinch]] (Probability: 55%)
+- Execute **[[Technical Stand-up]]** → [[Clinch]] (Probability: 55%)
 - Execute **[[Pull head free and sit to guard]]** → [[Open Guard]] (Probability: 40%)
 
 
@@ -256,7 +260,7 @@ In the 10th Planet system, Chill Dog Bottom serves as a gateway back to offensiv
 - Execute **[[Post on isolated arm and stand]]** → [[Clinch]] (Probability: 40%)
 
 
-**If opponent attempts to establish truck or twister control:**
+**If opponent attempts to establish truck or cross-body ride control:**
 - Execute **[[Rolling to Guard]]** → [[Open Guard]] (Probability: 50%)
 - Execute **[[Straighten bottom leg and turn in]]** → [[Half Guard]] (Probability: 45%)
 
@@ -359,26 +363,26 @@ Start every round in Chill Dog with partner behind attempting any legal attack. 
 **Q1**: What are the three critical elements that must be maintained simultaneously in Chill Dog Bottom?
 **A**: The three critical elements are: tight elbow-to-knee connection (creates closed defensive frame preventing hooks and harness), rounded back with tucked head (removes leverage points and protects neck), and forward weight distribution on hands (prevents rolling or flipping). When any of these elements breaks down, you become vulnerable to back takes, arm isolation, or front headlock controls. All three must be maintained continuously until you execute your escape.
 
-**Q2**: How do you use breathing and feel to identify escape windows?
-**A**: Maintain controlled, rhythmic breathing to stay calm and avoid fatigue. Use your sense of feel through your back and hips to track opponent's weight distribution and grip positions without looking. When you feel their weight shift forward (preparing to flatten you), it's time for a Granby roll. When weight shifts backward or they release grips to change position, it's time for technical stand-up. When they overcommit to one side, escape to the opposite side. The key is staying patient and alert rather than reacting to pressure with panic.
+**Q2**: Your opponent suddenly increases chest pressure and drives you toward the mat - what adjustment do you make?
+**A**: This increased forward pressure is actually the ideal trigger for a Granby roll. Their forward weight commitment means their base is compromised backward. Widen your knees slightly to absorb the initial pressure spike, then explosively tuck your inside shoulder and roll diagonally away from the pressure direction. Their committed weight helps accelerate your roll. If the Granby angle is blocked, hip escape laterally to prevent flattening while keeping your defensive frame intact, then immediately work to recover guard.
 
 **Q3**: Why is the elbow-to-knee connection considered non-negotiable in Chill Dog?
 **A**: The elbow-to-knee connection creates a closed defensive frame that prevents all primary turtle attacks. With elbows tight to knees, opponents cannot insert hooks for back control, cannot establish the harness grip needed for seatbelt control, cannot isolate your arms for crucifix, and cannot drive wedges to flatten you. The moment your elbow separates from your knee, you create a gap that skilled opponents will immediately exploit. This connection is the foundation of the entire defensive structure.
 
-**Q4**: What determines which escape you should attempt from Chill Dog Bottom?
-**A**: The escape choice depends on opponent's weight distribution and attack direction. Execute Granby roll when opponent drives forward with chest pressure (use their forward momentum). Use technical stand-up when opponent's weight is back or they attempt front headlock (space to stand). Sit-through to butterfly when opponent circles to your far side (turn into them). Roll to open guard when committed to crucifix or truck setup (escape before controls solidify). The key is reading their attack and choosing the escape that uses their commitment against them.
+**Q4**: You feel the opponent's weight shift to your left side as they begin circling - which escape do you prioritize?
+**A**: When the opponent shifts weight to one side, you have two primary options based on distance. If they are close and their weight is committed laterally, turn into them on the opposite side and sit through to butterfly guard, using their lateral commitment against them. If they are creating distance as they circle, execute a technical stand-up on the open side where their pressure is lightest. The key is escaping toward the side they have vacated - their weight commitment to one side necessarily weakens control on the other.
 
 **Q5**: How do you recover if the opponent begins to establish back control hooks?
 **A**: If one hook is inserted, immediately turn your hips toward that hook to prevent the second hook and begin escaping to half guard by framing against their choking arm and shrimping. If they're establishing the harness grip, grab the choking arm with both hands before the grip is locked and work to strip it while creating space. If both hooks are in, the Chill Dog position is lost - transition to back escape protocols by protecting your neck, creating frames, and working to remove hooks one at a time while turning into them.
 
-**Q6**: What is the proper timing for executing an escape attempt?
-**A**: The escape must be explosive and committed once initiated - hesitation allows the opponent to readjust and shut down your movement. Time the escape when the opponent overcommits their weight or loosens their grips for repositioning. Signs of the right moment include: weight shifting to one side (escape opposite), forward pressure increasing (Granby roll), grip release or adjustment (stand-up), or commitment to a specific attack (escape before it's established). Never attempt escapes when the opponent is balanced and fully gripped.
+**Q6**: What determines which escape you should attempt from Chill Dog Bottom?
+**A**: The escape choice depends on opponent's weight distribution and attack direction. Execute Granby roll when opponent drives forward with chest pressure (use their forward momentum). Use technical stand-up when opponent's weight is back or they attempt front headlock (space to stand). Sit-through to butterfly when opponent circles to your far side (turn into them). Roll to open guard when committed to crucifix or truck setup (escape before controls solidify). The key is reading their attack and choosing the escape that uses their commitment against them.
 
-**Q7**: Why is Chill Dog considered a transitional rather than sustainable position?
-**A**: Chill Dog is designed for survival and escape, not extended defense. The position allows you to weather immediate attacks but does not give you offensive options and slowly drains your energy as you maintain the defensive frame. Staying in Chill Dog for extended periods (beyond 20-45 seconds) allows the opponent to systematically break down your defenses. The goal is always to escape to guard (where you have offensive options) or standing (where you can reset the engagement). Treat it as a temporary shelter, not a destination.
+**Q7**: How do you manage energy while maintaining the defensive frame under sustained pressure?
+**A**: Use selective tension - keep the defensive frame tight with elbows pressed to knees and back rounded, but keep non-essential muscles relaxed. Breathe rhythmically through your nose, exhaling during pressure spikes rather than holding your breath. Your arms and frame should be structurally strong through proper positioning rather than muscular effort. Avoid pushing back against the opponent's pressure, which wastes energy. Instead, let the compact shape distribute their weight while you wait for the right moment to escape. Sustained tension drains your gas tank in under a minute, while structural framing can last several minutes.
 
-**Q8**: How should you respond if the opponent attempts to flatten you with heavy chest pressure?
-**A**: When you feel heavy chest pressure attempting to flatten you, this is actually the ideal trigger for a Granby roll. The opponent's forward commitment of weight means their base is compromised backward. Explosively initiate the Granby roll by tucking your shoulder and rolling diagonally away from the pressure. Their forward momentum helps you complete the roll. If the Granby isn't available, hip escape laterally while keeping your defensive frame to prevent being fully flattened, then immediately work to recover guard or stand.
+**Q8**: Your opponent grabs your far wrist and starts pulling it across your body - what is happening and how do you respond?
+**A**: This is the setup for a crucifix or arm isolation attack. Immediately pull the threatened arm back toward your body and press the elbow tight to your ribs. If the grip is already established, roll your body toward the trapped arm (not away from it) to prevent them from completing the arm isolation. Simultaneously, use your free hand to fight their grip on your wrist. If you cannot strip the grip, commit to a forward roll toward the trapped arm side to scramble out before they establish full crucifix control. Never let them extend your arm away from your centerline.
 
 
 
@@ -405,15 +409,15 @@ Start every round in Chill Dog with partner behind attempting any legal attack. 
 ## Related Positions and Techniques
 
 - **[[Turtle]]** - Parent position - Chill Dog is a specific variant of turtle
-- **[[Granby Roll]]** - Primary escape technique from Chill Dog to guard
-- **[[Technical Standup]]** - Alternative escape method when space is available
+- **[[Granby Roll to Guard]]** - Primary rolling escape technique from Chill Dog
+- **[[Granby to Closed Guard]]** - Specific Granby escape targeting closed guard recovery
+- **[[Technical Stand-up]]** - Alternative escape method when space is available
 - **[[Back Control]]** - Primary opponent objective from this position
 - **[[Crucifix]]** - Common opponent attack if arm is isolated
 - **[[Closed Guard]]** - Target position after successful Granby escape
 - **[[Half Guard]]** - Common intermediate position during escape sequences
-- **[[Twister Control]]** - 10th Planet-specific attack opponent may attempt from this position
-- **[[Rubber Guard]]** - 10th Planet guard system to recover after escape
 - **[[Lockdown]]** - 10th Planet half guard option after escape
+- **[[Advance to Chill Dog]]** - Entry transition into this defensive position
 
 
 </section>

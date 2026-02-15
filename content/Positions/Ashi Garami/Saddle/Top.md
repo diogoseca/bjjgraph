@@ -20,38 +20,38 @@ description: "Master saddle position mechanics with systematic entries, control 
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Inside Heel Hook",
-      "text": "From this position, attempt Inside Heel Hook. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Heel Hook",
+      "text": "From this position, attempt Heel Hook. This technique is attempted in 54% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Outside Heel Hook",
-      "text": "From this position, attempt Outside Heel Hook. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Outside Heel Hook. This technique is attempted in 2% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Straight Ankle Lock",
-      "text": "From this position, attempt Straight Ankle Lock. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Straight Ankle Lock Entry",
+      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toe Hold",
-      "text": "From this position, attempt Toe Hold. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Toe Hold. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar",
-      "text": "From this position, attempt Kneebar. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Kneebar. This technique is attempted in 2% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take from Ashi",
-      "text": "From this position, attempt Back Take from Ashi. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Back Take from Ashi. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -70,7 +70,7 @@ description: "Master saddle position mechanics with systematic entries, control 
       "name": "What happens if you attempting to finish heel hook before establishing optimal control position?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Opponent escapes by creating space or rotating away during your attack The correct approach is: Follow systematic hierarchy: perpendicular alignment → hip pressure → inside position → grip establishment → clearing frames → finish"
+        "text": "Opponent escapes by creating space or rotating away during your attack The correct approach is: Follow systematic hierarchy: perpendicular alignment, hip pressure, inside position, grip establishment, clearing frames, then finish"
       }
     },
     {
@@ -211,21 +211,31 @@ From a strategic perspective, the Saddle functions differently depending on rule
 
 ## Available Attacks
 
-### [[Inside Heel Hook]] (18% of attempts)
+### [[Heel Hook]] (54% of attempts)
 
-### [[Outside Heel Hook]] (15% of attempts)
+### [[Outside Heel Hook]] (2% of attempts)
 
-### [[Straight Ankle Lock]] (14% of attempts)
+### [[Straight Ankle Lock Entry]] (11% of attempts)
 
-### [[Toe Hold]] (12% of attempts)
+### [[Toe Hold]] (9% of attempts)
 
-### [[Kneebar]] (11% of attempts)
+### [[Kneebar]] (2% of attempts)
 
-### [[Back Take from Ashi]] (10% of attempts)
+### [[Back Take from Ashi]] (7% of attempts)
 
-### [[Position Change]] (12% of attempts)
+### [[Cross Ashi Transition]] (5% of attempts)
 
-### [[Back Step]] (8% of attempts)
+### [[Transition to Backside 50-50]] (5% of attempts)
+
+### [[Calf Slicer]] (2% of attempts)
+
+### [[Estima Lock]] (2% of attempts)
+
+### [[Fallback to Inside Ashi-Garami]] (0% of attempts)
+
+### [[Heel Hook from Saddle]] (0% of attempts)
+
+### [[Saddle Fallback to Inside Ashi]] (1% of attempts)
 
 
 
@@ -241,13 +251,13 @@ From a strategic perspective, the Saddle functions differently depending on rule
 
 
 **Opponent's heel is fully exposed and you have established figure-four grip:**
-- Execute **[[Inside Heel Hook]]** → [[game-over]] (Probability: 80%)
-- Execute **[[Outside Heel Hook]]** → [[game-over]] (Probability: 20%)
+- Execute **[[Heel Hook]]** → [[Game Over]] (Probability: 80%)
+- Execute **[[Outside Heel Hook]]** → [[Game Over]] (Probability: 20%)
 
 
 **Opponent is hiding heel by rotating knee inward:**
-- Execute **[[Straight Ankle Lock]]** → [[game-over]] (Probability: 60%)
-- Execute **[[Toe Hold]]** → [[game-over]] (Probability: 40%)
+- Execute **[[Straight Ankle Lock Entry]]** → [[Game Over]] (Probability: 60%)
+- Execute **[[Toe Hold]]** → [[Game Over]] (Probability: 40%)
 
 
 **Opponent is attempting to turn into you to escape:**
@@ -257,8 +267,8 @@ From a strategic perspective, the Saddle functions differently depending on rule
 
 **You have loose control with space between your bodies:**
 - Execute **[[Reestablish hip pressure and perpendicular alignment]]** → [[Saddle]] (Probability: 50%)
-- Execute **[[Transition to Outside Ashi-Garami]]** → [[Outside Ashi-Garami]] (Probability: 35%)
-- Execute **[[Elevate to 50-50]]** → [[50-50 Guard]] (Probability: 15%)
+- Execute **[[Cross Ashi Transition]]** → [[Cross Ashi-Garami]] (Probability: 35%)
+- Execute **[[Counter-entangle to 50-50 Guard]]** → [[50-50 Guard]] (Probability: 15%)
 
 
 
@@ -272,7 +282,7 @@ From a strategic perspective, the Saddle functions differently depending on rule
 ### 1. Attempting to finish heel hook before establishing optimal control position
 
 - ❌ **Consequence**: Opponent escapes by creating space or rotating away during your attack
-- ✅ **Correction**: Follow systematic hierarchy: perpendicular alignment → hip pressure → inside position → grip establishment → clearing frames → finish
+- ✅ **Correction**: Follow systematic hierarchy: perpendicular alignment, hip pressure, inside position, grip establishment, clearing frames, then finish
 
 ### 2. Losing inside position by allowing opponent to turn into you
 
@@ -304,7 +314,7 @@ From a strategic perspective, the Saddle functions differently depending on rule
 
 ### Saddle Entry Progression Drill
 
-Start from Outside Ashi-Garami, Inside Ashi-Garami, 50-50, and Single Leg X. Practice systematic entries to Saddle with partner providing graduated resistance (none → light → moderate → full).
+Start from Outside Ashi-Garami, Inside Ashi-Garami, 50-50, and Single Leg X. Practice systematic entries to Saddle with partner providing graduated resistance (none, light, moderate, full).
 
 **Duration**: 5 minutes
 
@@ -318,7 +328,7 @@ Partner gives you loose Saddle position. Systematically establish: perpendicular
 
 ### Submission Chain Flow
 
-Start with optimal Saddle control. Partner defends heel → attack straight ankle lock. Partner defends ankle → reattack heel. Flow between submissions based on opponent's defensive reactions.
+Start with optimal Saddle control. Partner defends heel then attack straight ankle lock. Partner defends ankle then reattack heel. Flow between submissions based on opponent's defensive reactions.
 
 **Duration**: 3 minutes
 

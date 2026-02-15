@@ -21,37 +21,37 @@ description: "Master Standing Guard Top position in BJJ. Complete guide covering
     {
       "@type": "HowToStep",
       "name": "Execute Toreando Pass",
-      "text": "From this position, attempt Toreando Pass. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Toreando Pass. This technique is attempted in 22% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Double Under Pass",
-      "text": "From this position, attempt Double Under Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Double Under Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute X Pass",
-      "text": "From this position, attempt X Pass. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt X Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, attempt Long Step Pass. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,21 +208,25 @@ The position is particularly valuable in competition settings where maintaining 
 
 ## Available Attacks
 
-### [[Toreando Pass]] (14% of attempts)
+### [[Toreando Pass]] (22% of attempts)
 
-### [[Leg Drag Pass]] (13% of attempts)
+### [[Leg Drag Pass]] (11% of attempts)
 
-### [[Knee Slice Pass]] (13% of attempts)
+### [[Knee Slice Pass]] (11% of attempts)
 
-### [[Double Under Pass]] (12% of attempts)
+### [[Double Under Pass]] (10% of attempts)
 
-### [[X Pass]] (13% of attempts)
+### [[X Pass]] (11% of attempts)
 
-### [[Long Step Pass]] (14% of attempts)
+### [[Long Step Pass]] (12% of attempts)
 
-### [[Stack Pass]] (11% of attempts)
+### [[Stack Pass]] (9% of attempts)
 
-### [[Back Step]] (10% of attempts)
+### [[Back Step]] (8% of attempts)
+
+### [[Guard Pass from Standing Guard]] (4% of attempts)
+
+### [[Takedown from Standing Guard]] (2% of attempts)
 
 
 

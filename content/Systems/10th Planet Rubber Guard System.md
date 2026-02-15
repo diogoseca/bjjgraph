@@ -356,7 +356,6 @@ Begin with positional isolation drilling, spending dedicated time on each contro
 - [[Flexibility Training]] (Principle) - Essential physical prerequisite for effective system use
 - [[Posture Breaking]] (Principle) - Core mechanical principle enabling all Rubber Guard positions
 - [[Submission Chains]] (Principle) - Strategic framework connecting all system submissions
-- [[Hip Movement]] (Principle) - Technical requirement for position entries and maintenance
 - [[10th Planet No-Gi Guard System]] (System) - Broader system framework containing Rubber Guard as component
 - [[Rubber Guard to Triangle System]] (System) - Specific subsystem focusing on Triangle pathways
 - [[Rubber Guard to Omoplata System]] (System) - Specific subsystem focusing on Omoplata pathways

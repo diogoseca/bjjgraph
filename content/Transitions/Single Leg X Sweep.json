@@ -1,6 +1,6 @@
 {
   "name": "Single Leg X Sweep",
-  "description": "Master the Single Leg X Sweep in BJJ. Step-by-step execution from Single Leg X-Guard to top position. Success rates: Beginner 50%, Intermediate 70%, Advanced 85%.",
+  "description": "Master the Single Leg X Sweep in BJJ. Complete guide to executing and defending sweeps from Single Leg X-Guard to top position with expert analysis.",
   "tags": [
     "bjj",
     "transition",
@@ -11,158 +11,408 @@
     "x_guard_system",
     "open_guard"
   ],
+  "from_position": "Single Leg X-Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Standing Position/Top",
+      "probability": 75,
+      "result": "success"
+    },
+    {
+      "to": "Single Leg X-Guard/Bottom",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Single Leg X-Guard/Top",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 78,
   "overview": "The Single Leg X Sweep is a fundamental sweeping technique from the Single Leg X Guard position that creates powerful off-balancing mechanics through elevation and extension. This sweep capitalizes on the opponent's isolated leg while using your entire body as a lever system to destabilize and invert their base. The technique is particularly effective because it combines upper body control (typically a sleeve or collar grip) with lower body mechanics (the X-frame created by your legs) to create a two-directional force that opponents find difficult to counter.\n\nUnlike traditional sweeps that rely primarily on hip movement or timing, the Single Leg X Sweep uses biomechanical advantage through leg extension and elevation. Your bottom leg hooks behind the opponent's knee while your top leg extends across their hip or lower abdomen, creating an X-configuration that allows you to control their posture and balance simultaneously. This positioning gives you multiple sweep variations depending on the opponent's reaction and weight distribution.\n\nThe Single Leg X Sweep is a cornerstone technique in modern leg entanglement systems and connects seamlessly to various offensive sequences including back takes, other leg attacks, and transitional positions. Its high success rate across skill levels makes it an essential technique for any guard player, particularly those who favor open guard systems and leg-based guards. The sweep's effectiveness comes from its ability to work against standing or kneeling opponents and its natural progression into dominant positions or submission opportunities.",
-  "key_principles": [
-    "Maintain constant tension on the captured leg through active leg frames",
-    "Create elevation by extending your top leg into opponent's hip or core",
-    "Control opponent's upper body to prevent posting and base recovery",
-    "Use your entire body as a lever system with your shoulders as the fulcrum",
-    "Generate sweeping force through leg extension rather than pulling with arms",
-    "Keep your hips mobile and ready to follow opponent's movement patterns",
-    "Establish the X-frame structure before initiating the sweep motion"
-  ],
-  "setup_requirements": [
-    "Single Leg X Guard established with one leg captured between your legs",
-    "Bottom leg hooked behind opponent's knee in a deep position",
-    "Top leg positioned across opponent's hip or lower abdomen creating extension",
-    "Upper body control secured (sleeve grip, collar grip, or overhook)",
-    "Opponent's weight distributed on the captured leg",
-    "Your hips positioned underneath and slightly to the side of opponent",
-    "Active frames preventing opponent from stepping over or crushing forward"
-  ],
-  "execution_steps": [
+  "related_content": [
     {
-      "step_number": 1,
-      "action": "Secure X-frame structure",
-      "description": "From Single Leg X Guard, ensure your bottom leg is deeply hooked behind opponent's knee with your shin tight to their hamstring. Your top leg should be extended across their hip or lower abdomen, creating maximum distance. Your upper body should have control of their sleeve, collar, or maintain an overhook on the far arm. Your shoulders should be aligned perpendicular to their base leg."
+      "name": "Single Leg X Entry",
+      "relationship": "Primary entry technique to establish the position"
     },
     {
-      "step_number": 2,
-      "action": "Break opponent's posture",
-      "description": "Pull with your upper body grip while simultaneously extending your top leg forcefully into their hip or core. This creates a two-directional force that breaks their upright posture and brings their upper body forward and down. Your bottom leg maintains the hook behind their knee, preventing them from stepping back to recover."
+      "name": "X-Guard Sweep",
+      "relationship": "Related sweep from connected position"
     },
     {
-      "step_number": 3,
-      "action": "Elevate the captured leg",
-      "description": "Drive your bottom leg upward and forward, lifting their captured leg off the mat while maintaining the knee hook. Simultaneously, your top leg continues to extend, pushing their hips away from you. This creates an inverted position where their weight shifts over their shoulders and they lose all base on the captured side."
+      "name": "Technical Stand Up to Single Leg",
+      "relationship": "Alternative completion method from same position"
     },
     {
-      "step_number": 4,
-      "action": "Generate rotational force",
-      "description": "While maintaining elevation, begin rotating your entire body toward the direction of the sweep (typically toward their captured leg side). Your shoulders should drive in an arc toward the mat on that side, using your body weight to amplify the sweeping force. Keep constant extension through your top leg while your bottom leg maintains the lift."
+      "name": "Waiter Sweep",
+      "relationship": "Variation that uses similar mechanics with different angle"
     },
     {
-      "step_number": 5,
-      "action": "Follow through with hip movement",
-      "description": "As the opponent begins to fall, your hips should follow their movement by rotating and shifting in the direction of the sweep. Release your top leg frame and begin to come up on your side or shoulder. Your bottom leg continues to control their captured leg, guiding them to the mat and preventing them from rolling through or recovering guard."
+      "name": "Kneebar",
+      "relationship": "Follow-up submission opportunity from sweep completion"
     },
     {
-      "step_number": 6,
-      "action": "Establish top position",
-      "description": "As the opponent lands on their back or side, immediately begin coming up to your knees while maintaining control of the captured leg. Drive forward and upward, using your grip to control their upper body. You should arrive in a top position with their leg still controlled, allowing you to choose between passing to side control, maintaining leg entanglement, or pursuing back exposure depending on their defensive reaction."
+      "name": "Elevator Sweep",
+      "relationship": "Alternative sweep using similar elevation principles"
     },
     {
-      "step_number": 7,
-      "action": "Secure dominant position or submission",
-      "description": "Once in top position, immediately consolidate control by establishing your base, advancing your position past their legs, or transitioning to a leg attack if they are still entangled. Your priority should be preventing them from re-guarding while capitalizing on the advantageous position you've created. Drive your weight forward, control their hips, and advance methodically to side control, mount, or back position."
+      "name": "De La Riva Sweep",
+      "relationship": "Related guard sweep that often precedes Single Leg X entry"
+    },
+    {
+      "name": "Butterfly Sweep",
+      "relationship": "Complementary sweep in open guard system"
+    },
+    {
+      "name": "Standing to Single Leg X",
+      "relationship": "Entry pathway from standing guard"
+    },
+    {
+      "name": "Ankle Pick Sweep",
+      "relationship": "Alternative sweep targeting similar positions"
     }
   ],
-  "common_counters": [
-    {
-      "counter": "Opponent steps captured leg back and creates distance",
-      "effectiveness": "High",
-      "your_response": "Maintain connection with bottom leg hook, follow their movement by scooting hips forward, and immediately re-establish frames. If they create too much distance, transition to standing guard or technical stand-up."
-    },
-    {
-      "counter": "Opponent drives forward with heavy pressure to flatten guard",
-      "effectiveness": "Medium",
-      "your_response": "Use top leg frame to create barrier, redirect their pressure to the side, and transition to X-Guard or Deep Half Guard. Alternatively, release bottom hook and invert under them to attack the back."
-    },
-    {
-      "counter": "Opponent circles away from sweep direction and clears top leg",
-      "effectiveness": "Medium",
-      "your_response": "Follow their rotation with your hips, maintain bottom hook integrity, and switch sweep direction or transition to Technical Stand-Up. You can also convert to traditional X-Guard if they step the free leg forward."
-    },
-    {
-      "counter": "Opponent grabs your top leg and attempts to pass",
-      "effectiveness": "Low",
-      "your_response": "This creates opportunity for reverse sweep or back take. Pull them forward with upper body control, elevate with bottom leg, and rotate under them as they commit weight to controlling your top leg."
-    },
-    {
-      "counter": "Opponent posts far hand on mat to prevent sweep",
-      "effectiveness": "Medium",
-      "your_response": "Attack the posted arm with upper body control, transition to kiss of the dragon back take, or switch to waiter sweep mechanics using their post as an anchor point."
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Attempting sweep without proper X-frame structure established",
-      "consequence": "Opponent easily steps over or crushes guard, sweep has no leverage and fails immediately",
-      "correction": "Always establish solid bottom hook and top leg extension before initiating sweep. Ensure both legs are actively creating frames and tension on opponent's body."
-    },
-    {
-      "error": "Pulling only with arms instead of using leg extension",
-      "consequence": "Sweep becomes arm-wrestling match, exhausts grip strength, and gives opponent time to base out or pass",
-      "correction": "Focus on generating force through leg extension into opponent's hips while arms only guide and control. Legs do 80% of the work, arms do 20%."
-    },
-    {
-      "error": "Releasing bottom hook too early during sweep",
-      "consequence": "Opponent recovers base by stepping back, sweep loses all control and momentum",
-      "correction": "Maintain bottom hook throughout entire sweep until opponent is completely inverted and falling. Only release when transitioning to top position."
-    },
-    {
-      "error": "Failing to follow through with hip rotation",
-      "consequence": "Sweep stalls midway, opponent recovers and passes or stands up to reset",
-      "correction": "Your entire body must rotate in the sweep direction. Come up on your shoulder and allow your hips to follow the sweeping arc completely."
-    },
-    {
-      "error": "Keeping hips static instead of mobile during setup",
-      "consequence": "Cannot adjust to opponent's movement, sweep timing is off, position becomes predictable",
-      "correction": "Keep hips mobile and ready to scoot, angle, or rotate. Match opponent's movement with your own positional adjustments before initiating sweep."
-    },
-    {
-      "error": "Not breaking opponent's posture before sweeping",
-      "consequence": "Opponent maintains upright base, can post hands or shift weight, sweep has minimal success",
-      "correction": "Always break posture first by pulling their upper body forward and down. They cannot maintain base without upright posture."
-    },
-    {
-      "error": "Abandoning control after successful sweep",
-      "consequence": "Opponent re-guards or scrambles to better position, losing advantage gained from sweep",
-      "correction": "Immediately establish top position, maintain leg control, and advance position before opponent can recover. Chain sweep into pass or back take."
-    }
-  ],
-  "training_progressions": [
-    {
-      "phase": "Phase 1: Fundamental Structure (Weeks 1-2)",
-      "focus": "Building proper X-frame and understanding leverage points",
-      "description": "Practice establishing Single Leg X Guard from various entries and maintaining the position against stationary opponent. Focus on proper leg placement, hip positioning, and upper body grips. Drill the basic sweep motion slowly with cooperative partner to understand the biomechanics of elevation and rotation."
-    },
-    {
-      "phase": "Phase 2: Timing and Execution (Weeks 3-4)",
-      "focus": "Developing sweep timing against light resistance",
-      "description": "Partner provides light resistance by attempting to maintain base but not actively defending. Practice recognizing the proper moment to initiate sweep based on opponent's weight distribution. Work on coordinating upper body pull with lower body extension and rotation. Focus on smooth, flowing execution rather than explosive force."
-    },
-    {
-      "phase": "Phase 3: Counter Defense (Weeks 5-6)",
-      "focus": "Handling common defensive reactions and counters",
-      "description": "Partner actively defends with prescribed reactions (stepping back, driving forward, circling away). Drill appropriate responses to each counter and practice chaining to alternative techniques when sweep is defended. Develop ability to maintain position and threaten sweep continuously."
-    },
-    {
-      "phase": "Phase 4: Position Integration (Weeks 7-8)",
-      "focus": "Connecting sweep to broader guard system and finishes",
-      "description": "Practice entering Single Leg X from various guards and positions. Chain sweep to top position advancement, leg attacks, and back takes. Work on recognizing which finish is appropriate based on opponent's defensive posture and your positional hierarchy goals."
-    },
-    {
-      "phase": "Phase 5: Live Drilling (Weeks 9-12)",
-      "focus": "Execution under full resistance and sparring conditions",
-      "description": "Positional sparring from Single Leg X Guard with opponent trying to pass or stand while you work for the sweep. Integrate technique into live rolling situations. Focus on maintaining composure under pressure and executing technique with proper mechanics despite resistance."
-    },
-    {
-      "phase": "Phase 6: Competition Application (Week 13+)",
-      "focus": "High-level execution and strategic implementation",
-      "description": "Refine technique for competition scenarios including grip fighting, timing against experienced opponents, and strategic decision-making about when to sweep versus when to transition. Study competition footage and analyze successful applications by high-level competitors."
-    }
-  ],
+  "attacker": {
+    "name": "Single Leg X Sweep Attacker",
+    "description": "How to execute Single Leg X Sweep in BJJ. Attacking perspective with setup, execution steps, and counters.",
+    "overview": "The Single Leg X Sweep is a fundamental sweeping technique from the Single Leg X Guard position that creates powerful off-balancing mechanics through elevation and extension. This sweep capitalizes on the opponent's isolated leg while using your entire body as a lever system to destabilize and invert their base. The technique is particularly effective because it combines upper body control (typically a sleeve or collar grip) with lower body mechanics (the X-frame created by your legs) to create a two-directional force that opponents find difficult to counter.\n\nUnlike traditional sweeps that rely primarily on hip movement or timing, the Single Leg X Sweep uses biomechanical advantage through leg extension and elevation. Your bottom leg hooks behind the opponent's knee while your top leg extends across their hip or lower abdomen, creating an X-configuration that allows you to control their posture and balance simultaneously. This positioning gives you multiple sweep variations depending on the opponent's reaction and weight distribution.\n\nThe Single Leg X Sweep is a cornerstone technique in modern leg entanglement systems and connects seamlessly to various offensive sequences including back takes, other leg attacks, and transitional positions. Its high success rate across skill levels makes it an essential technique for any guard player, particularly those who favor open guard systems and leg-based guards. The sweep's effectiveness comes from its ability to work against standing or kneeling opponents and its natural progression into dominant positions or submission opportunities.",
+    "key_principles": [
+      "Maintain constant tension on the captured leg through active leg frames",
+      "Create elevation by extending your top leg into opponent's hip or core",
+      "Control opponent's upper body to prevent posting and base recovery",
+      "Use your entire body as a lever system with your shoulders as the fulcrum",
+      "Generate sweeping force through leg extension rather than pulling with arms",
+      "Keep your hips mobile and ready to follow opponent's movement patterns",
+      "Establish the X-frame structure before initiating the sweep motion"
+    ],
+    "setup_requirements": [
+      "Single Leg X Guard established with one leg captured between your legs",
+      "Bottom leg hooked behind opponent's knee in a deep position",
+      "Top leg positioned across opponent's hip or lower abdomen creating extension",
+      "Upper body control secured (sleeve grip, collar grip, or overhook)",
+      "Opponent's weight distributed on the captured leg",
+      "Your hips positioned underneath and slightly to the side of opponent",
+      "Active frames preventing opponent from stepping over or crushing forward"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Secure X-frame structure",
+        "description": "From Single Leg X Guard, ensure your bottom leg is deeply hooked behind opponent's knee with your shin tight to their hamstring. Your top leg should be extended across their hip or lower abdomen, creating maximum distance. Your upper body should have control of their sleeve, collar, or maintain an overhook on the far arm. Your shoulders should be aligned perpendicular to their base leg."
+      },
+      {
+        "step_number": 2,
+        "action": "Break opponent's posture",
+        "description": "Pull with your upper body grip while simultaneously extending your top leg forcefully into their hip or core. This creates a two-directional force that breaks their upright posture and brings their upper body forward and down. Your bottom leg maintains the hook behind their knee, preventing them from stepping back to recover."
+      },
+      {
+        "step_number": 3,
+        "action": "Elevate the captured leg",
+        "description": "Drive your bottom leg upward and forward, lifting their captured leg off the mat while maintaining the knee hook. Simultaneously, your top leg continues to extend, pushing their hips away from you. This creates an inverted position where their weight shifts over their shoulders and they lose all base on the captured side."
+      },
+      {
+        "step_number": 4,
+        "action": "Generate rotational force",
+        "description": "While maintaining elevation, begin rotating your entire body toward the direction of the sweep (typically toward their captured leg side). Your shoulders should drive in an arc toward the mat on that side, using your body weight to amplify the sweeping force. Keep constant extension through your top leg while your bottom leg maintains the lift."
+      },
+      {
+        "step_number": 5,
+        "action": "Follow through with hip movement",
+        "description": "As the opponent begins to fall, your hips should follow their movement by rotating and shifting in the direction of the sweep. Release your top leg frame and begin to come up on your side or shoulder. Your bottom leg continues to control their captured leg, guiding them to the mat and preventing them from rolling through or recovering guard."
+      },
+      {
+        "step_number": 6,
+        "action": "Establish top position",
+        "description": "As the opponent lands on their back or side, immediately begin coming up to your knees while maintaining control of the captured leg. Drive forward and upward, using your grip to control their upper body. You should arrive in a top position with their leg still controlled, allowing you to choose between passing to side control, maintaining leg entanglement, or pursuing back exposure depending on their defensive reaction."
+      },
+      {
+        "step_number": 7,
+        "action": "Secure dominant position or submission",
+        "description": "Once in top position, immediately consolidate control by establishing your base, advancing your position past their legs, or transitioning to a leg attack if they are still entangled. Your priority should be preventing them from re-guarding while capitalizing on the advantageous position you've created. Drive your weight forward, control their hips, and advance methodically to side control, mount, or back position."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent steps captured leg back and creates distance",
+        "effectiveness": "High",
+        "your_response": "Maintain connection with bottom leg hook, follow their movement by scooting hips forward, and immediately re-establish frames. If they create too much distance, transition to standing guard or technical stand-up.",
+        "targets_outcome": "Single Leg X-Guard/Bottom"
+      },
+      {
+        "counter": "Opponent drives forward with heavy pressure to flatten guard",
+        "effectiveness": "Medium",
+        "your_response": "Use top leg frame to create barrier, redirect their pressure to the side, and transition to X-Guard or Deep Half Guard. Alternatively, release bottom hook and invert under them to attack the back.",
+        "targets_outcome": "Single Leg X-Guard/Bottom"
+      },
+      {
+        "counter": "Opponent circles away from sweep direction and clears top leg",
+        "effectiveness": "Medium",
+        "your_response": "Follow their rotation with your hips, maintain bottom hook integrity, and switch sweep direction or transition to Technical Stand-Up. You can also convert to traditional X-Guard if they step the free leg forward.",
+        "targets_outcome": "Single Leg X-Guard/Bottom"
+      },
+      {
+        "counter": "Opponent grabs your top leg and attempts to pass",
+        "effectiveness": "Low",
+        "your_response": "This creates opportunity for reverse sweep or back take. Pull them forward with upper body control, elevate with bottom leg, and rotate under them as they commit weight to controlling your top leg.",
+        "targets_outcome": "Single Leg X-Guard/Top"
+      },
+      {
+        "counter": "Opponent posts far hand on mat to prevent sweep",
+        "effectiveness": "Medium",
+        "your_response": "Attack the posted arm with upper body control, transition to kiss of the dragon back take, or switch to waiter sweep mechanics using their post as an anchor point.",
+        "targets_outcome": "Single Leg X-Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting sweep without proper X-frame structure established",
+        "consequence": "Opponent easily steps over or crushes guard, sweep has no leverage and fails immediately",
+        "correction": "Always establish solid bottom hook and top leg extension before initiating sweep. Ensure both legs are actively creating frames and tension on opponent's body."
+      },
+      {
+        "error": "Pulling only with arms instead of using leg extension",
+        "consequence": "Sweep becomes arm-wrestling match, exhausts grip strength, and gives opponent time to base out or pass",
+        "correction": "Focus on generating force through leg extension into opponent's hips while arms only guide and control. Legs do 80% of the work, arms do 20%."
+      },
+      {
+        "error": "Releasing bottom hook too early during sweep",
+        "consequence": "Opponent recovers base by stepping back, sweep loses all control and momentum",
+        "correction": "Maintain bottom hook throughout entire sweep until opponent is completely inverted and falling. Only release when transitioning to top position."
+      },
+      {
+        "error": "Failing to follow through with hip rotation",
+        "consequence": "Sweep stalls midway, opponent recovers and passes or stands up to reset",
+        "correction": "Your entire body must rotate in the sweep direction. Come up on your shoulder and allow your hips to follow the sweeping arc completely."
+      },
+      {
+        "error": "Keeping hips static instead of mobile during setup",
+        "consequence": "Cannot adjust to opponent's movement, sweep timing is off, position becomes predictable",
+        "correction": "Keep hips mobile and ready to scoot, angle, or rotate. Match opponent's movement with your own positional adjustments before initiating sweep."
+      },
+      {
+        "error": "Not breaking opponent's posture before sweeping",
+        "consequence": "Opponent maintains upright base, can post hands or shift weight, sweep has minimal success",
+        "correction": "Always break posture first by pulling their upper body forward and down. They cannot maintain base without upright posture."
+      },
+      {
+        "error": "Abandoning control after successful sweep",
+        "consequence": "Opponent re-guards or scrambles to better position, losing advantage gained from sweep",
+        "correction": "Immediately establish top position, maintain leg control, and advance position before opponent can recover. Chain sweep into pass or back take."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Fundamental Structure (Weeks 1-2)",
+        "focus": "Building proper X-frame and understanding leverage points",
+        "description": "Practice establishing Single Leg X Guard from various entries and maintaining the position against stationary opponent. Focus on proper leg placement, hip positioning, and upper body grips. Drill the basic sweep motion slowly with cooperative partner to understand the biomechanics of elevation and rotation."
+      },
+      {
+        "phase": "Phase 2: Timing and Execution (Weeks 3-4)",
+        "focus": "Developing sweep timing against light resistance",
+        "description": "Partner provides light resistance by attempting to maintain base but not actively defending. Practice recognizing the proper moment to initiate sweep based on opponent's weight distribution. Work on coordinating upper body pull with lower body extension and rotation. Focus on smooth, flowing execution rather than explosive force."
+      },
+      {
+        "phase": "Phase 3: Counter Defense (Weeks 5-6)",
+        "focus": "Handling common defensive reactions and counters",
+        "description": "Partner actively defends with prescribed reactions (stepping back, driving forward, circling away). Drill appropriate responses to each counter and practice chaining to alternative techniques when sweep is defended. Develop ability to maintain position and threaten sweep continuously."
+      },
+      {
+        "phase": "Phase 4: Position Integration (Weeks 7-8)",
+        "focus": "Connecting sweep to broader guard system and finishes",
+        "description": "Practice entering Single Leg X from various guards and positions. Chain sweep to top position advancement, leg attacks, and back takes. Work on recognizing which finish is appropriate based on opponent's defensive posture and your positional hierarchy goals."
+      },
+      {
+        "phase": "Phase 5: Live Drilling (Weeks 9-12)",
+        "focus": "Execution under full resistance and sparring conditions",
+        "description": "Positional sparring from Single Leg X Guard with opponent trying to pass or stand while you work for the sweep. Integrate technique into live rolling situations. Focus on maintaining composure under pressure and executing technique with proper mechanics despite resistance."
+      },
+      {
+        "phase": "Phase 6: Competition Application (Week 13+)",
+        "focus": "High-level execution and strategic implementation",
+        "description": "Refine technique for competition scenarios including grip fighting, timing against experienced opponents, and strategic decision-making about when to sweep versus when to transition. Study competition footage and analyze successful applications by high-level competitors."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What are the two primary components that create the X-frame structure in Single Leg X Guard?",
+        "answer": "The bottom leg hooked behind the opponent's knee and the top leg extended across their hip or lower abdomen. These two legs create opposing forces that form an X-configuration, allowing you to control both the captured leg and the opponent's posture simultaneously."
+      },
+      {
+        "question": "Why is it important to break the opponent's posture before initiating the sweep?",
+        "answer": "Breaking posture eliminates the opponent's ability to maintain an upright base and post their hands effectively. When their upper body is pulled forward and down, their weight shifts forward over the captured leg, making it impossible for them to maintain balance when you elevate that leg. An upright opponent can easily step back or base out to counter the sweep."
+      },
+      {
+        "question": "Your opponent successfully steps their captured leg back to create distance - how do you respond?",
+        "answer": "Maintain connection with your bottom leg hook and immediately scoot your hips forward to follow their movement, re-establishing your frames and tension. If they create too much distance to maintain Single Leg X, transition to standing guard, technical stand-up, or convert to a different guard retention system rather than losing the position entirely."
+      },
+      {
+        "question": "How does the Single Leg X Sweep differ biomechanically from arm-drag based sweeps?",
+        "answer": "The Single Leg X Sweep generates force primarily through leg extension and elevation rather than pulling with the upper body. Your legs create approximately 80% of the sweeping force by extending into the opponent's hips and elevating their captured leg, while your arms serve mainly to guide and control posture. This creates a more powerful lever system that doesn't rely on grip strength or arm strength, making it effective even against larger opponents."
+      },
+      {
+        "question": "When should you release your bottom hook during the sweep execution?",
+        "answer": "The bottom hook should be maintained throughout the entire sweep motion until the opponent is completely inverted and falling. Only release the hook when transitioning to top position after they've landed. Releasing too early allows the opponent to step back and recover their base, causing the sweep to fail."
+      },
+      {
+        "question": "What are the primary follow-up options after successfully completing the Single Leg X Sweep?",
+        "answer": "After sweeping, you can advance to side control or mount by passing their guard, maintain leg entanglement to attack kneebar or other leg locks, transition to back control if they turn away, or establish top half guard if they recover partial guard. The choice depends on your positional hierarchy priorities, the ruleset, and how the opponent defends during the sweep completion."
+      },
+      {
+        "question": "How should your hips move during the sweep execution to maximize effectiveness?",
+        "answer": "Your hips must be mobile and follow the sweeping motion by rotating in the direction of the sweep. As you elevate and extend, your hips should shift and rotate, allowing you to come up on your shoulder and use your entire body weight to amplify the sweeping force. Static hips result in a weak sweep that stalls midway and gives the opponent time to recover."
+      },
+      {
+        "question": "Your opponent posts their far hand on the mat as you initiate the sweep - what is the optimal adjustment?",
+        "answer": "The posted hand creates an anchor point you can exploit. Attack their posted arm with your free hand to strip the post, or switch to a kiss-of-the-dragon style inversion by ducking under their base to emerge behind them for back control. Alternatively, redirect the sweep angle toward the posted hand side using waiter sweep mechanics, turning their defensive post into a liability by sweeping them over their own arm."
+      },
+      {
+        "question": "What grip configuration maximizes your sweeping power from Single Leg X Guard?",
+        "answer": "The highest-percentage grip configuration is same-side sleeve control combined with a cross-collar or far-shoulder grip. The sleeve grip prevents your opponent from posting their near hand to defend the sweep, while the collar or shoulder grip allows you to pull their upper body forward and down to break posture. In no-gi, a wrist grip on the near side combined with an overhook or collar tie on the far side achieves similar two-point control."
+      },
+      {
+        "question": "What is the optimal timing window to initiate the sweep, and what cues should you look for?",
+        "answer": "The optimal timing window is when the opponent shifts their weight onto the captured leg, typically as they attempt to step back, adjust their base, or initiate a passing sequence. Key cues include feeling increased pressure on your bottom hook (indicating weight loading), seeing their free leg lift or shift, or sensing them pull their upper body backward to create posture. Initiating the sweep during these weight-transfer moments means the opponent is already committed in a direction that the sweep exploits."
+      },
+      {
+        "question": "Your opponent drives heavy forward pressure and begins to flatten your guard - how do you chain to an alternative attack?",
+        "answer": "When the opponent drives forward, their weight commitment creates vulnerability to inversion-based attacks. Use your top leg frame as a barrier to redirect their pressure laterally rather than absorbing it. From there, you can invert underneath them for a kiss-of-the-dragon back take, transition to deep half guard by releasing the top hook and threading underneath, or convert to ashi garami by controlling the ankle and rotating your hips to entangle their leg in a submission-oriented position."
+      }
+    ],
+    "safety_considerations": "The Single Leg X Sweep is generally safe to practice at all experience levels when executed with control and awareness. Primary safety concerns include maintaining control during the opponent's fall to prevent awkward landings and ensuring smooth transitions that don't create sudden jerking motions on the captured leg. When practicing, both partners should communicate and the person being swept should be prepared to breakfall appropriately. Avoid yanking or explosively jerking the hooked leg, as this can create knee torque. Instead, focus on smooth, controlled elevation and rotation. Advanced practitioners should be especially mindful when transitioning to leg attacks after the sweep, ensuring proper progression and control before applying submissions. Always tap early when being swept into compromised positions, and release immediately when partner taps during follow-up submissions."
+  },
+  "defender": {
+    "name": "Single Leg X Sweep Defender",
+    "description": "How to defend against Single Leg X Sweep in BJJ. Recognition cues, defensive options, and escape strategies.",
+    "overview": "Defending the Single Leg X Sweep requires understanding the biomechanical principles that make this sweep effective and systematically dismantling them before the sweeper can generate momentum. As the person caught in Single Leg X Guard, your primary objective is to neutralize the two-directional force created by the bottom player's X-frame configuration. This means addressing both the elevation threat from their bottom hook and the extension pressure from their top leg while maintaining your base and posture. Effective defense begins with early recognition and proactive grip fighting to deny the upper body control that amplifies the sweep.\n\nThe defender's strategic framework centers on base management, hook neutralization, and counterattack timing. Unlike defending against traditional sweeps where you can simply post a hand or widen your base, defending the Single Leg X Sweep demands systematic removal of the hooks that create the lever system. The bottom hook behind your knee is the primary threat, as it provides the elevation that makes all sweep variations possible. Addressing this hook first while maintaining upper body posture gives you the strongest defensive foundation. Experienced defenders also recognize that every defensive action creates offensive opportunity, as the sweeper must commit their body to the sweep motion, potentially exposing themselves to passing sequences or counter leg attacks.",
+    "key_principles": [
+      "Maintain low center of gravity with wide base on your free leg to resist off-balancing forces in any direction",
+      "Prioritize clearing the bottom hook behind your knee as it provides the primary elevation for all sweep variations",
+      "Control opponent's upper body grips to deny the posture-breaking pulls that amplify sweep effectiveness",
+      "Keep your trapped knee aligned toward the opponent to prevent full leg extension that maximizes their leverage",
+      "Use your free hand to post on the mat or control opponent's hip to create structural support against sweep direction",
+      "Maintain hip mobility to follow opponent's angle changes rather than becoming a static target",
+      "Recognize transition opportunities to pass or attack when the sweeper overcommits to a sweep direction"
+    ],
+    "recognition_cues": [
+      "Feeling increased upward pressure on your captured leg as opponent extends their hips and drives bottom hook upward, indicating elevation phase has begun",
+      "Opponent's upper body grip tightens and pulls downward or laterally, signaling the posture-breaking component of the sweep is being initiated",
+      "Sensing your weight shifting over your captured leg as opponent extends their top leg into your hip, creating the off-balancing angle that precedes the sweep",
+      "Opponent's shoulders begin rotating toward the mat on one side, indicating they are generating the rotational force that completes the sweep",
+      "Your free leg feels lighter or begins to lift off the mat as the opponent's elevation removes your base from the captured side"
+    ],
+    "defensive_options": [
+      {
+        "action": "Step captured leg back and circle away to disengage the X-frame",
+        "when_to_use": "Early in the sweep attempt before opponent has generated significant elevation or rotational momentum",
+        "targets_outcome": "Single Leg X-Guard/Bottom",
+        "if_successful": "You break the X-frame structure, reset to a neutral standing position, and can re-engage on your terms or initiate a passing sequence",
+        "risk": "If opponent maintains bottom hook and scoots forward to follow, you remain in their guard with less base than before"
+      },
+      {
+        "action": "Drive forward with heavy crossface pressure to flatten opponent and neutralize elevation",
+        "when_to_use": "When opponent begins elevating but has not yet generated rotational force, and you have upper body control available",
+        "targets_outcome": "Single Leg X-Guard/Top",
+        "if_successful": "You collapse their guard structure, flatten their hips to the mat, and create passing opportunities through smash or leg weave mechanics",
+        "risk": "If opponent redirects your forward pressure laterally, they can use your momentum for an even more powerful sweep or inversion to back take"
+      },
+      {
+        "action": "Post far hand on mat and lower base while stripping opponent's upper body grips",
+        "when_to_use": "When sweep is already in motion and you need to prevent being toppled while working to recover position",
+        "targets_outcome": "Single Leg X-Guard/Bottom",
+        "if_successful": "You stabilize your base, prevent the sweep completion, and create time to systematically clear the hooks and pass",
+        "risk": "Posting hand creates an arm that opponent can attack or use as anchor point for waiter sweep variation"
+      },
+      {
+        "action": "Counter-attack with kneebar or leg entanglement as opponent extends for sweep",
+        "when_to_use": "When opponent fully extends their legs during sweep attempt, exposing their knee line and creating submission opportunity",
+        "targets_outcome": "Single Leg X-Guard/Top",
+        "if_successful": "You transition from defense to offense by attacking opponent's exposed legs, potentially securing a dominant leg entanglement or submission",
+        "risk": "Failed counter-attack leaves you off-balance and vulnerable to immediate sweep completion"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Single Leg X-Guard/Bottom",
+        "how": "Step your captured leg back early while stripping opponent's upper body grips. Circle away from the sweep direction to break the X-frame angle. Follow by immediately re-engaging with a passing sequence before opponent can re-establish hooks."
+      },
+      {
+        "outcome": "Single Leg X-Guard/Top",
+        "how": "Drive forward with crossface pressure to flatten opponent's guard while systematically clearing the bottom hook first. Use your free leg to base out wide and your hands to control their shoulders, then transition to a headquarters or leg weave passing position as you disengage from the entanglement."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Standing upright with narrow base and locked knees when caught in Single Leg X",
+        "consequence": "Creates the ideal biomechanical conditions for the sweep by raising your center of gravity and reducing your ability to resist lateral force",
+        "correction": "Immediately lower your center of gravity by bending your knees, widen your base with your free leg positioned diagonally, and keep your hips mobile to absorb off-balancing forces"
+      },
+      {
+        "error": "Attempting to forcefully rip your trapped leg free without clearing hooks systematically",
+        "consequence": "Wastes energy rapidly, often tightens opponent's hooks through reactive tension, and creates momentum they can redirect into the sweep",
+        "correction": "Address the bottom hook first through strategic angle creation and pressure, then clear the top hook before extracting your leg. Systematic removal is more efficient than brute force extraction."
+      },
+      {
+        "error": "Ignoring opponent's upper body grips while focusing only on leg entanglement defense",
+        "consequence": "Opponent uses sleeve or collar control to amplify sweep power, break your posture, and prevent you from posting effectively",
+        "correction": "Prioritize grip fighting to deny or strip their upper body controls before addressing the leg entanglement. Without pulling grips, their sweep loses significant power."
+      },
+      {
+        "error": "Leaning too far forward without upper body control in an attempt to smash the guard",
+        "consequence": "Opponent redirects your forward momentum to execute an even more powerful sweep, or inverts underneath you for a back take",
+        "correction": "Only drive forward when you have established crossface or shoulder control that prevents them from redirecting your weight. Balance forward pressure with structural control at all times."
+      },
+      {
+        "error": "Remaining completely static and reactive instead of proactively disrupting opponent's position",
+        "consequence": "Gives opponent unlimited time to optimize their angle, establish perfect grips, and choose the ideal moment to sweep",
+        "correction": "Maintain constant motion through hip adjustments, grip fighting, and positional changes that prevent the sweeper from settling into their ideal sweep setup"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Which hook should you prioritize clearing first when defending Single Leg X Sweep, and why?",
+        "answer": "Clear the bottom hook behind your knee first because it provides the primary elevation that makes all sweep variations possible. The bottom hook is the foundation of the X-frame lever system. Without it, the sweeper cannot lift your captured leg or generate the off-balancing force needed to complete the sweep. Once the bottom hook is neutralized, the top leg alone cannot generate sufficient sweep power."
+      },
+      {
+        "question": "Your opponent has established Single Leg X and begins pulling your upper body forward - what is your immediate priority?",
+        "answer": "Your immediate priority is to strip or break their upper body grip before they can combine the pull with leg extension. Use your free hand to peel their sleeve grip or break the collar tie, then re-establish your posture by driving your hips back and lowering your base. If the grip cannot be broken quickly, post your far hand on the mat for stability while lowering your center of gravity to resist the combined pull-and-extend mechanics of the sweep."
+      },
+      {
+        "question": "How can you convert a defensive position in Single Leg X into an offensive counter-attack?",
+        "answer": "When the sweeper fully extends their legs to generate sweep power, their knee line becomes exposed and vulnerable to kneebar or leg entanglement attacks. As they commit to the sweep direction, their bottom leg is extended and their hips are committed, creating a window to attack their exposed knee by sitting back into a kneebar control position. Alternatively, when they overcommit to elevation, drive forward with crossface pressure to collapse their guard and transition immediately into a passing sequence before they can recover their hooks."
+      },
+      {
+        "question": "What base adjustments should you make when you feel the sweep beginning to succeed despite your initial defense?",
+        "answer": "When the sweep is gaining momentum, immediately widen your base by stepping your free leg as far as possible in the direction opposite the sweep, post your near hand firmly on the mat for structural support, and lower your hips as much as possible to reduce the leverage advantage. If these measures are insufficient, consider tactically sitting to guard rather than being swept completely, which allows you to recover guard position on your terms rather than conceding the full sweep and top position."
+      },
+      {
+        "question": "What are the key visual and tactile cues that distinguish a Single Leg X Sweep from a transition to leg lock?",
+        "answer": "A sweep attempt is characterized by strong upward elevation through the bottom hook, rotational force through the sweeper's shoulders, and their upper body pulling you forward and to the side. In contrast, a leg lock transition shows the opponent's hips rotating away from you rather than driving upward, their hands releasing upper body grips to control your ankle or heel, and their body dropping lower rather than elevating. Recognizing this distinction early allows you to choose the appropriate defense: base and posture for sweeps versus leg extraction and defensive boot for leg attacks."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and Base Fundamentals",
+        "focus": "Identifying sweep initiation cues and establishing defensive posture",
+        "description": "Practice maintaining proper base with lowered center of gravity and wide free leg when placed in Single Leg X Guard. Partner performs the sweep slowly while you focus on recognizing each phase: grip establishment, posture breaking, elevation, and rotation. No active defense yet, just building awareness of the forces and timing involved."
+      },
+      {
+        "phase": "Phase 2: Hook Clearing Mechanics",
+        "focus": "Systematic removal of bottom and top hooks under controlled conditions",
+        "description": "Drill the specific mechanics of clearing the bottom hook through angle creation and downward knee pressure, then addressing the top hook through hip positioning. Partner maintains hooks with moderate tension while you work through the clearing sequence. Build muscle memory for the systematic approach rather than explosive ripping."
+      },
+      {
+        "phase": "Phase 3: Grip Fighting and Counter-Timing",
+        "focus": "Denying upper body controls and recognizing counter-attack windows",
+        "description": "Partner attempts to establish full sweep setup including upper body grips while you actively grip fight and work to strip their controls. Practice recognizing the moment when their sweep commitment creates vulnerability for passing or leg attacks. Chain defensive actions into immediate offensive responses."
+      },
+      {
+        "phase": "Phase 4: Live Positional Defense",
+        "focus": "Full resistance defense and transition to passing or counter-attacks",
+        "description": "Positional sparring starting in Single Leg X Guard with partner working full-speed sweep attempts. Defend using all learned techniques and immediately transition to passing when sweeps are neutralized. Track success rate and identify which defensive patterns work best against different sweep timing and angles."
+      }
+    ]
+  },
   "variants_and_adaptations": [
     {
       "variant_name": "Waiter Sweep Variation",
@@ -190,97 +440,11 @@
       "when_to_use": "When opponent successfully circles away from initial sweep attempt but remains standing in range"
     }
   ],
-  "knowledge_assessment": [
-    {
-      "question": "What are the two primary components that create the X-frame structure in Single Leg X Guard?",
-      "answer": "The bottom leg hooked behind the opponent's knee and the top leg extended across their hip or lower abdomen. These two legs create opposing forces that form an X-configuration, allowing you to control both the captured leg and the opponent's posture simultaneously."
-    },
-    {
-      "question": "Why is it important to break the opponent's posture before initiating the sweep?",
-      "answer": "Breaking posture eliminates the opponent's ability to maintain an upright base and post their hands effectively. When their upper body is pulled forward and down, their weight shifts forward over the captured leg, making it impossible for them to maintain balance when you elevate that leg. An upright opponent can easily step back or base out to counter the sweep."
-    },
-    {
-      "question": "What should you do if your opponent successfully steps their captured leg back to create distance?",
-      "answer": "Maintain connection with your bottom leg hook and immediately scoot your hips forward to follow their movement, re-establishing your frames and tension. If they create too much distance to maintain Single Leg X, transition to standing guard, technical stand-up, or convert to a different guard retention system rather than losing the position entirely."
-    },
-    {
-      "question": "How does the Single Leg X Sweep differ biomechanically from arm-drag based sweeps?",
-      "answer": "The Single Leg X Sweep generates force primarily through leg extension and elevation rather than pulling with the upper body. Your legs create approximately 80% of the sweeping force by extending into the opponent's hips and elevating their captured leg, while your arms serve mainly to guide and control posture. This creates a more powerful lever system that doesn't rely on grip strength or arm strength, making it effective even against larger opponents."
-    },
-    {
-      "question": "When should you release your bottom hook during the sweep execution?",
-      "answer": "The bottom hook should be maintained throughout the entire sweep motion until the opponent is completely inverted and falling. Only release the hook when transitioning to top position after they've landed. Releasing too early allows the opponent to step back and recover their base, causing the sweep to fail."
-    },
-    {
-      "question": "What are the primary follow-up options after successfully completing the Single Leg X Sweep?",
-      "answer": "After sweeping, you can advance to side control or mount by passing their guard, maintain leg entanglement to attack kneebar or other leg locks, transition to back control if they turn away, or establish top half guard if they recover partial guard. The choice depends on your positional hierarchy priorities, the ruleset, and how the opponent defends during the sweep completion."
-    },
-    {
-      "question": "How should your hips move during the sweep execution to maximize effectiveness?",
-      "answer": "Your hips must be mobile and follow the sweeping motion by rotating in the direction of the sweep. As you elevate and extend, your hips should shift and rotate, allowing you to come up on your shoulder and use your entire body weight to amplify the sweeping force. Static hips result in a weak sweep that stalls midway and gives the opponent time to recover."
-    }
-  ],
-  "safety_considerations": "The Single Leg X Sweep is generally safe to practice at all experience levels when executed with control and awareness. Primary safety concerns include maintaining control during the opponent's fall to prevent awkward landings and ensuring smooth transitions that don't create sudden jerking motions on the captured leg. When practicing, both partners should communicate and the person being swept should be prepared to breakfall appropriately. Avoid yanking or explosively jerking the hooked leg, as this can create knee torque. Instead, focus on smooth, controlled elevation and rotation. Advanced practitioners should be especially mindful when transitioning to leg attacks after the sweep, ensuring proper progression and control before applying submissions. Always tap early when being swept into compromised positions, and release immediately when partner taps during follow-up submissions.",
   "position_integration": "The Single Leg X Sweep is a cornerstone technique within the broader X-Guard and leg entanglement system, serving as both an offensive sweep and a gateway to multiple positional transitions. It connects seamlessly to the traditional X-Guard through the addition of the second underhook, to Ashi Garami variations by maintaining leg control after the sweep, and to back attack systems through inversion and rotation under the opponent. The position naturally flows from De La Riva Guard, Reverse De La Riva Guard, and Butterfly Guard entries, making it an essential bridge technique in modern open guard systems. Within a comprehensive guard strategy, Single Leg X serves as a mid-range control position that allows you to attack standing or kneeling opponents while maintaining the option to stand yourself via technical stand-up. The sweep's effectiveness across skill levels and its high success rate make it a reliable technique for both defensive guard retention and offensive point-scoring in competition. Advanced players often use Single Leg X as a hub position, threatening the sweep while reading the opponent's defensive reactions to chain into leg locks, back takes, or alternative sweep variations, embodying the principle of creating dilemmas where every defensive option leads to a different offensive opportunity.",
-  "related_content": [
-    {
-      "name": "Single Leg X Entry",
-      "relationship": "Primary entry technique to establish the position"
-    },
-    {
-      "name": "X-Guard Sweep",
-      "relationship": "Related sweep from connected position"
-    },
-    {
-      "name": "Technical Stand Up to Single Leg",
-      "relationship": "Alternative completion method from same position"
-    },
-    {
-      "name": "Waiter Sweep",
-      "relationship": "Variation that uses similar mechanics with different angle"
-    },
-    {
-      "name": "Kneebar from Guard",
-      "relationship": "Follow-up submission from sweep completion"
-    },
-    {
-      "name": "Elevator Sweep",
-      "relationship": "Alternative sweep using similar elevation principles"
-    },
-    {
-      "name": "De La Riva Sweep",
-      "relationship": "Related guard sweep that often precedes Single Leg X entry"
-    },
-    {
-      "name": "Butterfly Sweep",
-      "relationship": "Complementary sweep in open guard system"
-    },
-    {
-      "name": "Standing to Single Leg X",
-      "relationship": "Entry pathway from standing guard"
-    },
-    {
-      "name": "Ankle Pick Sweep",
-      "relationship": "Alternative sweep targeting similar positions"
-    }
-  ],
-  "from_position": "Single Leg X-Guard/Bottom",
-  "outcomes": [
-    {
-      "to": "Standing Position/Top",
-      "probability": 75,
-      "result": "success"
-    },
-    {
-      "to": "Single Leg X-Guard/Bottom",
-      "probability": 15,
-      "result": "failure"
-    },
-    {
-      "to": "Single Leg X-Guard/Top",
-      "probability": 10,
-      "result": "counter"
-    }
-  ],
-  "success_rate": 78
+  "conditions": [
+    "Single Leg X Guard must be fully established with both hooks engaged",
+    "Upper body control through sleeve, collar, or overhook grip must be secured",
+    "Opponent's weight must be loaded onto the captured leg",
+    "Sufficient hip positioning underneath opponent's center of gravity"
+  ]
 }

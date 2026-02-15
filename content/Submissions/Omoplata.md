@@ -4,154 +4,24 @@
 
 ---
 title: "Omoplata | BJJ Submission | BJJ Graph"
-description: "Master the Omoplata shoulder lock in BJJ. Complete guide covering setup, execution, safety protocols, and variations. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%."
+description: "Master the Omoplata shoulder lock in BJJ. Complete guide covering setup, execution, safety protocols, and variations from guard positions with sweep options."
 ---
 
 
-<body data-content-type="submissions">
+<body data-content-type="submissions-hub">
 
-<!-- Schema Markup - Auto-generated from JSON -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Execute Omoplata in BJJ",
-  "description": "Step-by-step guide for Omoplata with safety protocols.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Initial arm isolation",
-      "text": "From guard position, secure a grip on the opponent's wrist or sleeve on the target side. Simultaneously grip their opposite collar or sleeve to control posture. Break their posture by pulling them forward while opening your guard slightly to create the angle needed for leg insertion. The key is preventing them from posting their trapped arm back or pulling it free.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Leg insertion over shoulder",
-      "text": "Pivot your hips at a 90-degree angle to the opponent while maintaining wrist control. Swing your leg (same side as trapped arm) up and over their shoulder, positioning your calf or shin across their upper back. Your other leg should hook under their armpit or wrap around their torso for additional control. Ensure your hips are elevated and mobile, not flat on the mat.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Hip rotation and shoulder trap",
-      "text": "Rotate your hips further while pulling the opponent's trapped arm tight to your body. Your top leg should press down on their shoulder blade while your bottom leg maintains torso control. The opponent's arm should now be straightened and trapped between your legs with their shoulder beginning to rotate internally. Adjust your angle so your hips are perpendicular to their body.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Posture control and base breaking",
-      "text": "Sit up and establish a strong seated posture while maintaining leg pressure. Use your grips to prevent the opponent from posturing up or rolling forward (their primary escapes). Your body weight should be forward, driving their shoulder toward the mat. Control their far hip or leg to prevent them from turning into you or spinning out of the position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Angle adjustment",
-      "text": "Fine-tune your hip angle to be approximately 45-90 degrees from the opponent's centerline. This angle prevents their forward roll escape while maximizing shoulder rotation. Pinch your knees together to secure the arm trap. Your top leg should create downward pressure on their shoulder while your chest drives forward, creating the rotational force on their shoulder joint.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Progressive shoulder rotation to finish",
-      "text": "Maintaining all controls, slowly and progressively lean your chest forward over their trapped shoulder. This creates internal rotation of their shoulder joint. The finishing pressure comes from your chest driving forward and down, not from jerking or yanking. Simultaneously, pinch your legs tighter and pull their wrist toward your chest. Apply pressure SLOWLY over 4-6 seconds, stopping immediately upon tap. The leverage comes from your entire body weight, not arm strength.",
-      "position": 6
-    }
-  ],
-  "tool": ["BJJ Gi or No-Gi attire", "Training partner", "Mat space"],
-  "totalTime": "PT5M"
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the primary reason you must release the omoplata immediately if your opponent attempts a forward roll escape?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The forward roll escape creates a dangerous situation where the opponent's body weight combines with your applied pressure, potentially causing catastrophic shoulder injury including dislocation or severe labrum tear. The momentum and weight of their rolling body multiplies the force on their shoulder joint beyond safe limits. You must release all pressure instantly to prevent serious injury. This is one of the few emergency release situations in BJJ where position preservation is completely secondary to partner safety."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What anatomical structures does the omoplata specifically attack, and what causes the tap?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The omoplata primarily attacks the shoulder joint complex, specifically targeting the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the shoulder capsule, the AC (acromioclavicular) joint, and the labrum. The tap occurs due to forced internal rotation of the humerus beyond the shoulder's natural range of motion. As you drive your chest forward, you rotate the shoulder internally while the arm is extended and trapped, creating progressive strain on all these structures. The pain begins as stretching in the capsule and rotator cuff, escalating to impending damage that forces the tap."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the correct pressure application timeline for finishing the omoplata in training?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The finishing pressure must be applied SLOWLY and progressively over a minimum of 4-6 seconds, never suddenly or explosively. This gradual application allows your training partner to recognize when they are in danger and tap before injury occurs. The pressure should feel like slowly turning a dial, with each second adding incrementally more shoulder rotation. Competition-speed finishes, which may be faster, should never be practiced in training. The slow application also allows you to feel the position more clearly and understand the mechanics, making you ultimately better at the technique while keeping your partners safe for long-term training."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Your opponent starts to posture up and pull their arm back during your omoplata attempt - what adjustment secures the finish?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When they posture, immediately pull hard on their far collar or sleeve to break their posture back down while simultaneously using your legs to pull their shoulder forward. Adjust your angle to be more perpendicular to their body, which increases the rotational leverage on their shoulder. If they're getting their arm free, circle your top leg tighter over their shoulder and drive your heel toward their far hip. The key is maintaining the far-side grip - without it, they can posture. If they successfully posture despite these adjustments, immediately transition to triangle by bringing your top leg over their head, using their arm positioning against them."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Explain the biomechanical principle of why sitting up is crucial for finishing the omoplata?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Sitting up allows you to use your entire body weight and forward chest pressure to create rotational force on the opponent's shoulder, rather than relying on arm strength alone. When flat on your back, you lose the leverage advantage and cannot generate sufficient pressure. The seated position creates a mechanical advantage where your chest driving forward over their trapped shoulder produces internal rotation of the shoulder joint. Additionally, sitting up prevents the opponent from posturing up or creating the angle needed for their forward roll escape. The upright posture also allows you to control their far side more effectively and adjust angles as they attempt to defend."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the four primary injury risks associated with the omoplata and why is progressive pressure critical for each?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The four primary injuries are: 1) Rotator cuff tears - the small muscles stabilizing the shoulder can tear when rotated beyond capacity; 2) AC joint separation - the connection between clavicle and scapula can separate under rotational stress; 3) Shoulder capsule damage - the connective tissue surrounding the joint can tear; 4) Labrum tears - the cartilage rim of the shoulder socket can detach, often requiring surgery. Progressive pressure is critical because shoulder injuries often occur suddenly once tissue capacity is exceeded, but the person being submitted can feel increasing pressure and tap before reaching that threshold. Sudden or jerking application gives no warning and can cause injury before a tap is possible. The shoulder is a mobile but vulnerable joint that must be respected in training."
-      }
-    }
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Omoplata",
-  "description": "Master the Omoplata shoulder lock in BJJ. Complete guide covering setup, execution, safety protocols, and variations. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.",
-  "url": "https://bjjgraph.org/Submissions/Omoplata",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.org"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
-    {"@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/"},
-    {"@type": "ListItem", "position": 3, "name": "Omoplata", "item": "https://bjjgraph.org/Submissions/Omoplata"}
-  ]
-}
-</script>
-
-> ⚠️ **SAFETY**: Omoplata targets the Shoulder joint (rotator cuff, capsule, AC joint). Risk: Rotator cuff tear or strain. Release immediately upon tap.
+> **SAFETY**: Omoplata targets the Shoulder joint (rotator cuff, capsule, AC joint). Risk: Rotator cuff tear or strain. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-The Omoplata is a sophisticated shoulder lock that attacks the opponent's shoulder joint through controlled rotation and leverage. Originating from Brazilian Jiu-Jitsu, this technique involves trapping the opponent's arm with your legs while controlling their posture, then rotating their shoulder beyond its natural range of motion. The Omoplata is unique among submissions because it functions as both a finishing technique and a powerful positional control system, offering numerous sweep and transition opportunities even when the submission itself is defended. The technique is particularly effective from guard positions, where the bottom player can use their legs to control distance and angle while isolating the opponent's arm. Modern competition has elevated the Omoplata from a low-percentage novelty to a high-level control position that creates multiple offensive dilemmas for the opponent.
+The Omoplata is a sophisticated shoulder lock that attacks the opponent's shoulder joint through controlled rotation and leverage. This technique involves trapping the opponent's arm with your legs while controlling their posture, then rotating their shoulder beyond its natural range of motion. The Omoplata is unique among submissions because it functions as both a finishing technique and a powerful positional control system, offering numerous sweep and transition opportunities even when the submission itself is defended.
+
+The technique is particularly effective from guard positions, where the bottom player can use their legs to control distance and angle while isolating the opponent's arm. The finishing mechanics rely on sitting up tall, establishing a perpendicular angle to the opponent's body, and progressively driving your chest forward over their trapped shoulder to create internal rotation. Far-side control of the opponent's hip or collar prevents the two primary escapes: posturing up and rolling forward.
+
+Modern competition has elevated the Omoplata from a low-percentage novelty to a high-level control position that creates multiple offensive dilemmas for the opponent. When the finish is defended, the position naturally feeds into sweeps to top position, back takes from the opponent's roll escape, and transitions to triangle or armbar when posture is recovered. This versatility makes the omoplata a cornerstone technique in any guard player's arsenal.
 
 **Category**: Joint Lock
 **Type**: Shoulder Lock
@@ -205,148 +75,170 @@ The Omoplata is a sophisticated shoulder lock that attacks the opponent's should
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="outcomes" class="content-section">
 
-## Key Principles
+## Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[game-over]] | 45% |
+| Failure | [[Omoplata Control]] | 40% |
+| Counter | [[Closed Guard]] | 15% |
+
+
+</section>
+
+<section class="content-section">
+
+## Attacker vs Defender
+
+| &nbsp; | Attacker | Defender |
+|--------|----------|----------|
+| **Focus** | Execute and finish | Escape and survive |
+| **Key Principles** | Hip positioning controls opponent's posture and base... | Posture is your primary defense - maintain upright spine and... |
+| **Options** | 6 execution steps | 4 defensive options |
+
+</section>
+
+<section id="attacker-summary" class="content-section">
+
+## Playing as Attacker
+
+[[Omoplata/Attacker|→ Full Attacker Guide]]
+
+### Key Principles
+
+
 - Hip positioning controls opponent's posture and base
+
 - Leg control isolates and traps the attacking arm
+
 - Shoulder rotation must be progressive and controlled
+
 - Forward pressure drives opponent's shoulder into dangerous rotation
+
 - The position creates sweep opportunities even without the finish
+
 - Angle management prevents opponent's roll escape
+
 - Body weight distribution controls finishing leverage
 
 
-</section>
-
-<section id="setup-requirements" class="content-section">
-
-## Prerequisites
-- Opponent's arm must be isolated and extended
-- Your hips must be mobile and elevated off the mat
-- Opponent's posture must be broken or compromised
-- Your leg must be positioned to swing over opponent's shoulder
-- Grip control on opponent's far side to prevent posture recovery
-- Sufficient hip flexibility to rotate into finishing position
-- Opponent's weight must be forward or neutral (not posted back)
+### Execution Steps
 
 
-</section>
+- **Initial arm isolation**: From guard position, secure a grip on the opponent's wrist or sleeve on the target side. Simultaneou...
 
-<section id="execution-steps" class="content-section">
+- **Leg insertion over shoulder**: Pivot your hips at a 90-degree angle to the opponent while maintaining wrist control. Swing your leg...
 
-## Execution Steps
-1. **Initial arm isolation**: From guard position, secure a grip on the opponent's wrist or sleeve on the target side. Simultaneously grip their opposite collar or sleeve to control posture. Break their posture by pulling them forward while opening your guard slightly to create the angle needed for leg insertion. The key is preventing them from posting their trapped arm back or pulling it free. (Timing: 2-3 seconds)
-2. **Leg insertion over shoulder**: Pivot your hips at a 90-degree angle to the opponent while maintaining wrist control. Swing your leg (same side as trapped arm) up and over their shoulder, positioning your calf or shin across their upper back. Your other leg should hook under their armpit or wrap around their torso for additional control. Ensure your hips are elevated and mobile, not flat on the mat. (Timing: 3-4 seconds)
-3. **Hip rotation and shoulder trap**: Rotate your hips further while pulling the opponent's trapped arm tight to your body. Your top leg should press down on their shoulder blade while your bottom leg maintains torso control. The opponent's arm should now be straightened and trapped between your legs with their shoulder beginning to rotate internally. Adjust your angle so your hips are perpendicular to their body. (Timing: 3-4 seconds)
-4. **Posture control and base breaking**: Sit up and establish a strong seated posture while maintaining leg pressure. Use your grips to prevent the opponent from posturing up or rolling forward (their primary escapes). Your body weight should be forward, driving their shoulder toward the mat. Control their far hip or leg to prevent them from turning into you or spinning out of the position. (Timing: 2-3 seconds)
-5. **Angle adjustment**: Fine-tune your hip angle to be approximately 45-90 degrees from the opponent's centerline. This angle prevents their forward roll escape while maximizing shoulder rotation. Pinch your knees together to secure the arm trap. Your top leg should create downward pressure on their shoulder while your chest drives forward, creating the rotational force on their shoulder joint. (Timing: 2-3 seconds)
-6. **Progressive shoulder rotation to finish**: Maintaining all controls, slowly and progressively lean your chest forward over their trapped shoulder. This creates internal rotation of their shoulder joint. The finishing pressure comes from your chest driving forward and down, not from jerking or yanking. Simultaneously, pinch your legs tighter and pull their wrist toward your chest. Apply pressure SLOWLY over 4-6 seconds, stopping immediately upon tap. The leverage comes from your entire body weight, not arm strength. (Timing: 4-6 seconds minimum)
+- **Hip rotation and shoulder trap**: Rotate your hips further while pulling the opponent's trapped arm tight to your body. Your top leg s...
+
+- **Posture control and base breaking**: Sit up and establish a strong seated posture while maintaining leg pressure. Use your grips to preve...
+
+- **Angle adjustment**: Fine-tune your hip angle to be approximately 45-90 degrees from the opponent's centerline. This angl...
+
+- **Progressive shoulder rotation to finish**: Maintaining all controls, slowly and progressively lean your chest forward over their trapped should...
 
 
-</section>
+### Common Mistakes
 
-<section id="opponent-defense-patterns" class="content-section">
 
-## Opponent Defenses
-- **Posture up and pull arm back** (Effectiveness: High) - Your Adjustment: Maintain strong collar or far-side grip to prevent posture recovery. Use your legs to pull them forward while adjusting your angle. If they succeed in posturing, transition to triangle or armbar.
-- **Roll forward over trapped shoulder** (Effectiveness: High) - Your Adjustment: Adjust your angle to be more perpendicular to their body. Control their far hip to prevent rotation. If they commit to the roll, release and take the back or sweep to top position.
-- **Stack and pressure into you** (Effectiveness: Medium) - Your Adjustment: Maintain hip mobility and don't let them flatten you. Use your bottom leg to create a frame and technical standup. Transition to sweep by using their forward pressure against them.
-- **Turn palm up and hitchhiker escape** (Effectiveness: Medium) - Your Adjustment: Immediately adjust your grip to control their wrist in the new position. Circle your top leg over their head to switch to triangle or armbar. The key is recognizing the escape early and transitioning.
-- **Sit back and create distance** (Effectiveness: Low) - Your Adjustment: Follow their movement by sitting up and maintaining leg pressure. Use the momentum to sweep them or take their back. Their attempt to create distance often opens multiple transition opportunities.
+- **Applying sudden jerking or spiking motion to shoulder**
+  - Consequence: Immediate severe injury to training partner's rotator cuff or labrum
+  - Correction: Always apply progressive pressure over 4-6 seconds minimum. Think of slowly turning a dial, not flipping a switch. Competition finishes should never be practiced in training.
+
+- **Lying flat on back instead of sitting up**
+  - Consequence: Loss of leverage and control, allowing opponent to posture up or escape easily
+  - Correction: Sit up tall with strong posture. Your chest should be over their shoulder, not parallel to the mat. Use your abs to maintain seated position throughout the finish.
+
+- **Poor angle management (too parallel to opponent)**
+  - Consequence: Opponent can easily roll forward to escape or stack you
+  - Correction: Maintain 45-90 degree angle to opponent's centerline. Your hips should be perpendicular to their body. Constantly adjust angle based on their escape attempts.
 
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="defender-summary" class="content-section">
 
-## Common Mistakes
-- **Mistake**: Applying sudden jerking or spiking motion to shoulder
-  - **Consequence**: Immediate severe injury to training partner's rotator cuff or labrum
-  - **Correction**: Always apply progressive pressure over 4-6 seconds minimum. Think of slowly turning a dial, not flipping a switch. Competition finishes should never be practiced in training.
-- **Mistake**: Lying flat on back instead of sitting up
-  - **Consequence**: Loss of leverage and control, allowing opponent to posture up or escape easily
-  - **Correction**: Sit up tall with strong posture. Your chest should be over their shoulder, not parallel to the mat. Use your abs to maintain seated position throughout the finish.
-- **Mistake**: Poor angle management (too parallel to opponent)
-  - **Consequence**: Opponent can easily roll forward to escape or stack you
-  - **Correction**: Maintain 45-90 degree angle to opponent's centerline. Your hips should be perpendicular to their body. Constantly adjust angle based on their escape attempts.
-- **Mistake**: Failing to control opponent's far side
-  - **Consequence**: Opponent can posture up, turn into you, or base out to escape
-  - **Correction**: Always maintain a grip on their far collar, sleeve, or hip. This control is equally important as the trapped arm control. The far-side grip prevents all major escapes.
-- **Mistake**: Continuing to apply pressure during forward roll escape
-  - **Consequence**: Can cause catastrophic shoulder dislocation or labrum tear as opponent's body weight combines with your pressure
-  - **Correction**: Release ALL pressure immediately if opponent commits to forward roll. This is an emergency release situation. Better to lose position than injure your partner.
-- **Mistake**: Crossing ankles or improper leg position
-  - **Consequence**: Weak control that allows arm extraction or escape
-  - **Correction**: Bottom leg should hook under armpit or around torso. Top leg should be over shoulder with calf/shin across upper back. Never cross ankles. Pinch knees together to trap arm.
-- **Mistake**: Attempting finish without proper hip mobility
-  - **Consequence**: Ineffective pressure and easy escape for opponent
-  - **Correction**: Your hips must be elevated and mobile throughout. If you lack flexibility, focus on the sweep or transition options rather than forcing a finish. Improve hip flexibility through specific drilling.
+## Playing as Defender
+
+[[Omoplata/Defender|→ Full Defender Guide]]
+
+### Key Principles
+
+
+- Posture is your primary defense - maintain upright spine and strong base to prevent the attacker from inserting their leg and establishing angle
+
+- Recognize the setup early by feeling for hip pivoting and arm isolation, defending during entry is far more effective than escaping once locked in
+
+- Keep your elbows tight to your body to prevent arm isolation that creates the opening for the omoplata entry
+
+- When caught, address the attacker's far-side control first because without it their angle and finishing pressure are significantly reduced
+
+- Never resist a locked omoplata with explosive movements as this can cause your own shoulder injury through sudden force multiplication
+
+- The forward roll escape must be committed and executed before the attacker establishes perpendicular angle and seated posture
+
+
+### Recognition Cues
+
+
+- Opponent pivots their hips laterally beneath you while maintaining a grip on your wrist or sleeve, creating the angle needed for leg insertion
+
+- One of your arms becomes isolated with opponent gripping your wrist while their opposite leg begins swinging upward toward your shoulder or head
+
+- Opponent opens their guard and shifts to one hip while pulling your posture down and to one side, creating asymmetric control of your upper body
+
+- You feel your opponent's shin or calf crossing over your shoulder blade or the back of your neck while your arm is pinned against their body
+
+- Opponent releases collar grip to grab your far hip or belt while maintaining wrist control and leg pressure on your shoulder
+
+
+### Escape Paths
+
+
+- Forward roll escape: Commit to rolling forward over your trapped shoulder when the attacker has not yet established seated posture and perpendicular angle. Tuck your chin, post your free hand, and roll forward explosively. End facing the opponent and immediately work to pass or reset.
+
+- Posture recovery to arm extraction: Drive your hips back and chest up while pulling your trapped elbow tight to your ribs. If you can recover enough posture, strip their wrist grip with your free hand and extract your arm backward. Follow immediately with guard passing pressure.
+
+- Turn-in escape to guard: Rotate your entire body toward the attacker, turning the trapped shoulder away from the dangerous rotation angle. As you face them, work to free your arm while establishing a neutral guard position or half guard.
 
 
 </section>
 
-<section id="variations-and-setups" class="content-section hide-minimal">
+
+<section id="variations" class="content-section hide-minimal">
 
 ## Variations
+
+
+**Standard Omoplata from Closed Guard**: Classic entry from closed guard using collar and sleeve control. Break posture, create angle, swing leg over shoulder, sit up and finish with progressive chest-forward pressure. The foundational variation that all others build upon. (When to use: Against opponents who maintain heavy top pressure in closed guard and commit their weight forward. Works best in gi with collar and sleeve grips for maximum control.)
+
+
 **Omoplata from Spider Guard**: Using spider guard foot positioning, create the angle by pushing with your foot on their bicep while pulling with the other foot on their hip. Swing your leg over as they try to pass. (When to use: When opponent is attempting to pass your spider guard with forward pressure. The foot on bicep creates perfect positioning for leg insertion.)
+
 
 **Omoplata from Triangle Defense**: When opponent defends triangle by posturing or tucking arm, transition by releasing the triangle position and rotating your hips to insert the leg over their shoulder. (When to use: When triangle is defended and opponent has their posture up with one arm trapped. Creates seamless transition between two shoulder attacks.)
 
-**Rolling Omoplata**: From standing or when opponent has good posture, jump and swing your legs around their arm while doing a forward roll, ending in omoplata position. (When to use: Against standing opponents or when you need to create a dynamic entry. Common in competition when opponent is defending statically. Requires significant practice for safety.)
 
-**Omoplata from Closed Guard with Collar Grip**: Establish deep cross-collar grip, use it to break posture and control angle as you open guard and insert leg. The collar grip prevents posture recovery. (When to use: In gi against opponent attempting to break your closed guard. The deep collar grip makes the setup much tighter and more controlled.)
-
-**Omoplata to Back Take**: When opponent defends by rolling forward or turning into you, release the shoulder attack and use their momentum to take back control. (When to use: When the submission is well-defended but opponent's escape gives you their back. This is why omoplata is considered more of a control position than pure submission.)
-
-**Baratoplata Variation**: From omoplata control, thread your arm under their trapped arm and grip your own shin, creating a modified finishing angle with increased shoulder rotation. (When to use: When standard omoplata is defended but you maintain the position. Provides different leverage angle and attacks shoulder from new direction. Higher risk, so apply even more slowly.)
+**Rolling Omoplata**: From standing or when opponent has good posture, jump and swing your legs around their arm while doing a forward roll, ending in omoplata position. (When to use: Against standing opponents or when you need a dynamic entry. Common in competition when opponent is defending statically. Requires significant practice for safety.)
 
 
+**Omoplata from Closed Guard with Collar Grip**: Establish deep cross-collar grip, use it to break posture and control angle as you open guard and insert leg. The collar grip prevents posture recovery throughout the entry. (When to use: In gi against opponent attempting to break your closed guard. The deep collar grip makes the setup much tighter and more controlled.)
 
-</section>
 
-<section id="knowledge-assessment" class="content-section">
+**Omoplata to Back Take**: When opponent defends by rolling forward or turning into you, release the shoulder attack and use their momentum to take back control with hooks. (When to use: When the submission is well-defended but opponent's escape gives you their back. This is why omoplata is considered more of a control position than pure submission.)
 
-## Test Your Knowledge
-**Q1**: What is the primary reason you must release the omoplata immediately if your opponent attempts a forward roll escape? **[SAFETY-CRITICAL]**
-**A**: The forward roll escape creates a dangerous situation where the opponent's body weight combines with your applied pressure, potentially causing catastrophic shoulder injury including dislocation or severe labrum tear. The momentum and weight of their rolling body multiplies the force on their shoulder joint beyond safe limits. You must release all pressure instantly to prevent serious injury. This is one of the few emergency release situations in BJJ where position preservation is completely secondary to partner safety.
 
-**Q2**: What anatomical structures does the omoplata specifically attack, and what causes the tap?
-**A**: The omoplata primarily attacks the shoulder joint complex, specifically targeting the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the shoulder capsule, the AC (acromioclavicular) joint, and the labrum. The tap occurs due to forced internal rotation of the humerus beyond the shoulder's natural range of motion. As you drive your chest forward, you rotate the shoulder internally while the arm is extended and trapped, creating progressive strain on all these structures. The pain begins as stretching in the capsule and rotator cuff, escalating to impending damage that forces the tap.
+**Baratoplata**: From omoplata control, thread your arm under their trapped arm and grip your own shin, creating a figure-four configuration with modified finishing angle that attacks the shoulder from a different direction than the standard omoplata. (When to use: When standard omoplata is defended by opponent turning into you, or from spider guard positions. Particularly effective against wrestlers who defend by facing you. Higher risk so apply even more slowly.)
 
-**Q3**: What is the correct pressure application timeline for finishing the omoplata in training? **[SAFETY-CRITICAL]**
-**A**: The finishing pressure must be applied SLOWLY and progressively over a minimum of 4-6 seconds, never suddenly or explosively. This gradual application allows your training partner to recognize when they are in danger and tap before injury occurs. The pressure should feel like slowly turning a dial, with each second adding incrementally more shoulder rotation. Competition-speed finishes, which may be faster, should never be practiced in training. The slow application also allows you to feel the position more clearly and understand the mechanics, making you ultimately better at the technique while keeping your partners safe for long-term training.
 
-**Q4**: Your opponent starts to posture up and pull their arm back during your omoplata attempt - what adjustment secures the finish?
-**A**: When they posture, immediately pull hard on their far collar or sleeve to break their posture back down while simultaneously using your legs to pull their shoulder forward. Adjust your angle to be more perpendicular to their body, which increases the rotational leverage on their shoulder. If they're getting their arm free, circle your top leg tighter over their shoulder and drive your heel toward their far hip. The key is maintaining the far-side grip - without it, they can posture. If they successfully posture despite these adjustments, immediately transition to triangle by bringing your top leg over their head, using their arm positioning against them.
-
-**Q5**: Explain the biomechanical principle of why sitting up is crucial for finishing the omoplata?
-**A**: Sitting up allows you to use your entire body weight and forward chest pressure to create rotational force on the opponent's shoulder, rather than relying on arm strength alone. When flat on your back, you lose the leverage advantage and cannot generate sufficient pressure. The seated position creates a mechanical advantage where your chest driving forward over their trapped shoulder produces internal rotation of the shoulder joint. Additionally, sitting up prevents the opponent from posturing up or creating the angle needed for their forward roll escape. The upright posture also allows you to control their far side more effectively and adjust angles as they attempt to defend.
-
-**Q6**: What are the four primary injury risks associated with the omoplata and why is progressive pressure critical for each? **[SAFETY-CRITICAL]**
-**A**: The four primary injuries are: 1) Rotator cuff tears - the small muscles stabilizing the shoulder can tear when rotated beyond capacity; 2) AC joint separation - the connection between clavicle and scapula can separate under rotational stress; 3) Shoulder capsule damage - the connective tissue surrounding the joint can tear; 4) Labrum tears - the cartilage rim of the shoulder socket can detach, often requiring surgery. Progressive pressure is critical because shoulder injuries often occur suddenly once tissue capacity is exceeded, but the person being submitted can feel increasing pressure and tap before reaching that threshold. Sudden or jerking application gives no warning and can cause injury before a tap is possible. The shoulder is a mobile but vulnerable joint that must be respected in training.
-
-**Q7**: What is the point of no escape in the omoplata, and what control elements must be established to reach it?
-**A**: The point of no escape occurs when you have: seated posture with chest driving forward over their shoulder, a 45-90 degree perpendicular angle to their body preventing forward roll, strong far-side grip eliminating their ability to posture or turn, legs pinching tight with knees together trapping the arm, and their face driven toward the mat breaking their base. Once all five elements are established, even explosive athletes cannot escape without risking injury. The control must be sequential - angle first, then far-side grip, then seat up, then pinch legs - because establishing these out of order allows specific escapes during transitions.
-
-**Q8**: How does controlling the opponent's far side hip or grip contribute to the omoplata's effectiveness?
-**A**: Far-side control prevents all three major escapes: posturing up, turning into you, and spinning out. When you control their far collar, sleeve, or hip, you remove their ability to post and create the base needed to resist your rotation. This control also prevents them from turning their body into yours to alleviate pressure or escape the arm trap. Additionally, far-side control helps break their base, making it difficult for them to generate the explosive movement needed for the forward roll escape. Without this control, even perfect leg positioning and angle management will fail because the opponent retains too much mobility and defensive options. The omoplata requires simultaneous control of both sides of the opponent's body to be effective.
-
-**Q9**: What angle should your hips maintain relative to the opponent's centerline and why does this matter?
-**A**: Your hips should maintain approximately 45-90 degrees relative to the opponent's centerline, with perpendicular being ideal for finishing. This angle is critical for two reasons: First, it maximizes the rotational force on their shoulder by creating the optimal leverage angle for internal rotation. Second, it prevents their forward roll escape by making it mechanically difficult for them to generate the momentum needed to roll over their trapped shoulder. If you're too parallel to their body, they can easily roll forward. If you're at too wide an angle, you lose finishing leverage and they can turn into you. The 45-90 degree window provides the best combination of finishing power and escape prevention, though you must constantly adjust this angle as they attempt to defend.
-
-**Q10**: What grip adjustments should you make during the final phase of finishing to maximize pressure while maintaining safety?
-**A**: During the finish, transition your primary grip to control their wrist or forearm of the trapped arm, pulling it tight toward your chest. This prevents them from creating slack in their shoulder. Your other hand should control their far hip, belt, or collar to prevent rotation and posture recovery. As you lean forward, the wrist grip should tighten progressively - never jerk. If they begin turning their palm up for a hitchhiker escape, immediately re-grip to maintain wrist control in the new orientation. The finishing grip sequence is: far-side control established, wrist control secured, then progressive forward lean. Never release far-side control to adjust wrist grip during the finish as this opens escape windows.
-
-**Q11**: What are common finishing errors that allow escape even when position looks secure?
-**A**: Three finishing errors commonly allow escape: 1) Insufficient knee pinch - loose legs allow arm extraction even with perfect angle and seated posture; 2) Driving pressure downward instead of forward - downward pressure allows them to flatten and spin, while forward pressure creates true shoulder rotation; 3) Releasing far-side control during the finish to adjust grips - this brief window is enough for explosive athletes to posture and escape. Additionally, finishing too slowly against flexible opponents gives them time to incrementally adjust position and eventually escape. The fix is recognizing when incremental adjustment is occurring and either accelerating the finish (in competition) or transitioning to sweep/back take (recognizing their flexibility means the submission may not be available).
-
-**Q12**: In competition, what indicators tell you the opponent will tap versus continue defending, and how does this change your finishing approach? **[SAFETY-CRITICAL]**
-**A**: Tap indicators include: verbal sounds of distress, hand searching frantically for your body to tap, stopping all escape attempts and going limp, and face showing pain rather than concentration. Defense indicators include: maintaining posture attempts, controlled breathing, hand fighting your grips rather than searching to tap, and hip movement seeking escape angles. When you see tap indicators, maintain steady progressive pressure - never spike. When you see defense indicators in competition, you must accelerate the finish before they find an escape, which means driving your chest forward more decisively while maintaining all control points. The critical distinction: in training, always apply slowly regardless of indicators. Competition finishing speed should only be used in actual competition, never practice.
+**Tarikoplata**: Advanced variation combining omoplata mechanics with wrist control and opposite-side leg pressure. Your near-side leg controls the head while your opposite leg creates pressure across their back, with the finish coming from isolating the trapped arm and rotating their shoulder. (When to use: From rubber guard positions or when opponent is defending with strong posture. Works well when you have deep overhook control and want to attack the shoulder from unconventional angles.)
 
 
 
 </section>
+
 
 <section id="from-positions" class="content-section">
 
@@ -380,7 +272,7 @@ The Omoplata is a sophisticated shoulder lock that attacks the opponent's should
 - [[Americana]]
 - [[Kimura from Side Control]]
 - [[Armbar from Mount]]
-- [[Triangle from Guard]]
+- [[Triangle from Closed Guard]]
 
 
 </section>
@@ -404,20 +296,6 @@ The Omoplata is a sophisticated shoulder lock that attacks the opponent's should
 
 
 </section>
-
-
-<section id="outcomes" class="content-section">
-
-## Outcomes
-
-| Result | Position | Probability |
-|--------|----------|------------|
-| Success | [[game-over]] | 50% |
-| Failure | [[Omoplata Control]] | 50% |
-
-
-</section>
-
 
 <section id="terminal-state" class="content-section">
 

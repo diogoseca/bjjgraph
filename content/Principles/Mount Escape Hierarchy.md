@@ -368,7 +368,7 @@ Live sparring specifically restarted from mount position repeatedly, with defend
 - [[Escape Hierarchy]] (Principle) - Parent concept - Mount Escape Hierarchy is position-specific application of broader escape framework
 - [[Mount]] (Position) - Primary application position where hierarchy is most directly applied
 - [[Bridge and Roll]] (Transition) - High-priority escape technique within hierarchy when opponent's weight is forward and base is narrow
-- [[Elbow Escape]] (Transition) - Most universally applicable escape technique across different mount types and weight distributions
+- [[Elbow Escape to Guard]] (Transition) - Most universally applicable escape technique across different mount types and weight distributions
 - [[Frame Creation]] (Principle) - Foundational skill required before any escape attempts from hierarchy can be effective
 - [[Hip Escape Mechanics]] (Principle) - Biomechanical foundation for executing escapes identified through hierarchical decision-making
 - [[High Mount]] (Position) - Critical position variation that requires hierarchy adjustment - prevention becomes highest priority

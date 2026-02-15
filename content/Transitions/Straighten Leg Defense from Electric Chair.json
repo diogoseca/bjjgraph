@@ -1,0 +1,13 @@
+{
+  "name": "Straighten Leg Defense from Electric Chair",
+  "description": "",
+  "tags": [],
+  "from_position": "Electric Chair/Bottom",
+  "outcomes": [
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

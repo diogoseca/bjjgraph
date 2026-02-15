@@ -21,37 +21,37 @@ description: "Master Outside Ashi-Garami Bottom in BJJ. Complete guide covering 
     {
       "@type": "HowToStep",
       "name": "Execute Outside Heel Hook",
-      "text": "From this position, attempt Outside Heel Hook. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Outside Heel Hook. This technique is attempted in 30% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Straight Ankle Lock",
-      "text": "From this position, attempt Straight Ankle Lock. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Inside Ashi Entry",
+      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 27% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Saddle Entry from Top",
-      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Straight Ankle Lock Entry",
+      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Inside Ashi Entry",
-      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 19% of exchanges from this position.",
+      "name": "Execute Saddle Entry from Top",
+      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Inside Ashi-Garami to Cross Ashi",
-      "text": "From this position, attempt Inside Ashi-Garami to Cross Ashi. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Kneebar Setup",
+      "text": "From this position, attempt Kneebar Setup. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute 50-50 Entry from Standing",
-      "text": "From this position, attempt 50-50 Entry from Standing. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Cross Ashi Transition",
+      "text": "From this position, attempt Cross Ashi Transition. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,19 +209,17 @@ From this position, the practitioner has access to outside heel hooks, straight 
 
 ## Available Escapes
 
-### [[Outside Heel Hook]] (12% of attempts)
+### [[Outside Heel Hook]] (30% of attempts)
 
-### [[Straight Ankle Lock]] (13% of attempts)
+### [[Inside Ashi Entry]] (27% of attempts)
 
-### [[Saddle Entry from Top]] (17% of attempts)
+### [[Straight Ankle Lock Entry]] (15% of attempts)
 
-### [[Inside Ashi Entry]] (19% of attempts)
+### [[Saddle Entry from Top]] (10% of attempts)
 
-### [[Inside Ashi-Garami to Cross Ashi]] (16% of attempts)
+### [[Kneebar Setup]] (10% of attempts)
 
-### [[50-50 Entry from Standing]] (12% of attempts)
-
-### [[Kneebar Setup]] (11% of attempts)
+### [[Cross Ashi Transition]] (8% of attempts)
 
 
 

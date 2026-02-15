@@ -39,12 +39,8 @@
       "relationship": "Advanced leg entanglement target position accessible through Estima Lock transitions"
     },
     {
-      "name": "Straight Ankle Lock Control",
-      "relationship": "Related footlock position offering similar control but different pressure vectors"
-    },
-    {
-      "name": "Toe Hold Control",
-      "relationship": "Alternative foot attack position with natural transitions from Estima Lock grip changes"
+      "name": "Kneebar Control",
+      "relationship": "Related leg attack position with natural transitions from Estima Lock grip changes"
     },
     {
       "name": "Leg Entanglement",
@@ -96,12 +92,12 @@
         "actions": [
           {
             "technique": "Estima Lock",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 50
           },
           {
             "technique": "Toe Hold",
-            "target": "Toe Hold Control",
+            "target": "Game Over",
             "probability": 50
           }
         ]
@@ -115,7 +111,7 @@
             "probability": 55
           },
           {
-            "technique": "Backstep to Saddle",
+            "technique": "Estima Lock to Saddle",
             "target": "Saddle",
             "probability": 45
           }
@@ -130,8 +126,8 @@
             "probability": 55
           },
           {
-            "technique": "Standing Pass",
-            "target": "Standing Position",
+            "technique": "Standing Escape",
+            "target": "Open Guard",
             "probability": 45
           }
         ]
@@ -140,12 +136,12 @@
         "condition": "If opponent attempts to counter with their own leg attack",
         "actions": [
           {
-            "technique": "Clear the Leg",
+            "technique": "Counter Leg Attack",
             "target": "Half Guard",
             "probability": 50
           },
           {
-            "technique": "Transition to 50-50",
+            "technique": "50-50 Entry",
             "target": "50-50 Guard",
             "probability": 50
           }
@@ -181,7 +177,7 @@
       {
         "error": "Failing to adjust when opponent defends by turning their foot or changing angles",
         "consequence": "Stalled position with no submission threat and wasted energy maintaining ineffective control",
-        "correction": "Be prepared to transition to alternative attacks like toe hold, straight ankle lock, or ashi garami when the opponent adjusts their defensive positioning"
+        "correction": "Be prepared to transition to alternative attacks like toe hold, ankle lock finish, or ashi garami when the opponent adjusts their defensive positioning"
       }
     ],
     "training_drills": [
@@ -197,7 +193,7 @@
       },
       {
         "name": "Submission Transition Chain",
-        "description": "Begin with Estima Lock setup. When partner defends specific ways, flow through alternative attacks: Toe Hold when they turn foot, Straight Ankle Lock when they pull back, Transition to Ashi Garami when they sit up. Build muscle memory for seamless transitions between leg attacks without losing control.",
+        "description": "Begin with Estima Lock setup. When partner defends specific ways, flow through alternative attacks: Toe Hold when they turn foot, Ankle Lock Finish when they pull back, Transition to Ashi Garami when they sit up. Build muscle memory for seamless transitions between leg attacks without losing control.",
         "duration": "8 minutes per partner"
       },
       {
@@ -212,8 +208,8 @@
         "relationship": "Primary submission technique from this position"
       },
       {
-        "name": "Toe Hold Control",
-        "relationship": "Alternative leg attack position with natural transitions"
+        "name": "Toe Hold",
+        "relationship": "Alternative leg attack transition with natural grip changes"
       },
       {
         "name": "Ashi Garami",
@@ -236,8 +232,8 @@
         "relationship": "Core conceptual framework for understanding position in broader context"
       },
       {
-        "name": "Straight Ankle Lock Control",
-        "relationship": "Related footlock position with similar control principles"
+        "name": "Ankle Lock Finish",
+        "relationship": "Related footlock transition with similar finishing mechanics"
       },
       {
         "name": "Inside Ashi-Garami",
@@ -250,18 +246,21 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 58
+        "value": 58,
+        "description": "Moderate retention due to opponent's free leg providing escape leverage"
       },
       "advancement_probability": {
-        "value": 48
+        "value": 48,
+        "description": "Strong transition options to saddle, ashi garami, or toe hold when primary lock is defended"
       },
       "submission_probability": {
-        "value": 42
+        "value": 42,
+        "description": "High submission rate when lock is fully consolidated with hip pressure established"
       },
       "average_time": "30-60 seconds"
     },
     "name": "Estima Lock Top",
-    "description": "Master Estima Lock Top Position in BJJ. Control opponent's foot and ankle from top position. Advanced leg lock setup with 50% submission rate for advanced practitioners.",
+    "description": "Master Estima Lock Top Position in BJJ. Control opponent's foot and ankle from top position. Advanced leg lock setup with inverted grip mechanics and chain attack options.",
     "tags": [
       "bjj",
       "position",
@@ -274,27 +273,31 @@
     "transitions": [
       {
         "transition": "Estima Lock",
-        "attempt_probability": 25
+        "attempt_probability": 37
       },
       {
         "transition": "Toe Hold",
-        "attempt_probability": 20
-      },
-      {
-        "transition": "Straight Ankle Lock",
-        "attempt_probability": 15
+        "attempt_probability": 18
       },
       {
         "transition": "Estima Lock to Saddle",
-        "attempt_probability": 15
+        "attempt_probability": 13
       },
       {
         "transition": "Kneebar",
-        "attempt_probability": 10
+        "attempt_probability": 8
       },
       {
         "transition": "Estima Lock to Ashi Garami",
-        "attempt_probability": 15
+        "attempt_probability": 18
+      },
+      {
+        "transition": "Kneebar from Estima Lock",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Toe Hold from Estima Lock",
+        "attempt_probability": 2
       }
     ],
     "knowledge_assessment": [
@@ -319,15 +322,15 @@
         "answer": "When the opponent turns their foot away from the Estima Lock angle, their toes become exposed for a toe hold attack. This is a natural transition opportunity where you maintain control while adjusting your grip configuration to attack the now-available toe hold angle. The defensive movement that defeats one attack often opens another."
       },
       {
-        "question": "How do you manage energy expenditure while maintaining Estima Lock control for extended periods?",
-        "answer": "Energy management relies on using structural positioning rather than muscular effort. Keep your body weight working through the grip rather than squeezing, use your hip pressure against their calf rather than arm pulling, and maintain a stable base that requires minimal adjustment. If control requires constant muscular effort, the position is likely not properly established."
+        "question": "How do you distribute your weight to maintain Estima Lock control without excessive muscular effort?",
+        "answer": "Weight distribution relies on structural positioning rather than muscular effort. Keep your body weight working through the grip by letting gravity assist control rather than squeezing with arms. Use hip pressure against their calf as the primary anchoring mechanism, and maintain a stable base that requires minimal postural adjustment. If you are burning forearm energy to hold the grip, your hip placement needs correction."
       },
       {
         "question": "What signals indicate you should transition to an alternative attack rather than continuing the Estima Lock?",
         "answer": "Transition signals include: the opponent successfully creating hip space despite your pressure, their free leg establishing strong defensive frames you cannot neutralize, foot positioning changes that reduce rotational pressure effectiveness, or the opponent sitting up with good posture. These indicate the position is compromised and transitioning to toe hold, ashi garami, or saddle preserves offensive momentum."
       },
       {
-        "question": "How do you recover position after the opponent partially extracts their foot but remains in range?",
+        "question": "Your opponent partially extracts their foot but remains within grip range—how do you recover control?",
         "answer": "When partial extraction occurs but they remain in range, immediately re-address the foot control by clearing any defensive frames with your legs, re-establishing the figure-four grip before they can complete extraction, and adjusting hip pressure to prevent further foot retraction. The key is recognizing the partial escape early and addressing it before full extraction occurs."
       }
     ]
@@ -369,13 +372,13 @@
         "condition": "If opponent has shallow grip on foot without full inversion control",
         "actions": [
           {
-            "technique": "Immediate Leg Extraction",
+            "technique": "Leg Extraction",
             "target": "Open Guard",
             "probability": 55
           },
           {
-            "technique": "Counter Rotation Escape",
-            "target": "Seated Guard",
+            "technique": "Ashi Garami Escape",
+            "target": "Open Guard",
             "probability": 45
           }
         ]
@@ -384,13 +387,13 @@
         "condition": "If opponent has deep grip with full inversion and hip pressure established",
         "actions": [
           {
-            "technique": "Frame and Hip Escape Sequence",
-            "target": "Half Guard",
+            "technique": "Counter Sweep",
+            "target": "Estima Lock",
             "probability": 35
           },
           {
-            "technique": "Tactical Tap",
-            "target": "game-over",
+            "technique": "Saddle Defense",
+            "target": "Half Guard",
             "probability": 65
           }
         ]
@@ -399,12 +402,12 @@
         "condition": "If free leg can establish hooks or frames on opponent's body",
         "actions": [
           {
-            "technique": "Leverage Sweep to Top",
+            "technique": "Counter Sweep",
             "target": "Estima Lock",
             "probability": 45
           },
           {
-            "technique": "Push and Extract",
+            "technique": "Leg Extraction",
             "target": "Open Guard",
             "probability": 55
           }
@@ -414,13 +417,13 @@
         "condition": "If opponent transitions grip toward toe hold or other submission",
         "actions": [
           {
-            "technique": "Capitalize on Grip Change",
+            "technique": "Ashi Garami Escape",
             "target": "Ashi Garami",
             "probability": 60
           },
           {
-            "technique": "Technical Standup Escape",
-            "target": "Standing Position",
+            "technique": "Standing Escape",
+            "target": "Open Guard",
             "probability": 40
           }
         ]
@@ -493,16 +496,16 @@
         "relationship": "Similar defensive leg entanglement requiring comparable escape mechanics"
       },
       {
-        "name": "Straight Ankle Lock Control",
-        "relationship": "Related footlock bottom position with overlapping defensive concepts"
-      },
-      {
-        "name": "Toe Hold Control",
-        "relationship": "Alternative foot attack bottom position requiring similar awareness"
-      },
-      {
         "name": "Ashi Garami Escape",
         "relationship": "Primary escape transition technique from leg entanglements"
+      },
+      {
+        "name": "Leg Extraction",
+        "relationship": "Core escape technique for freeing trapped foot from inverted lock"
+      },
+      {
+        "name": "Counter Sweep",
+        "relationship": "Offensive counter option when opponent over-commits to finishing"
       },
       {
         "name": "Half Guard",
@@ -519,18 +522,21 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 30
+        "value": 30,
+        "description": "Low retention as bottom player actively seeks escape rather than maintaining position"
       },
       "advancement_probability": {
-        "value": 42
+        "value": 42,
+        "description": "Moderate escape rate when proper counter-rotation and framing techniques are applied early"
       },
       "submission_probability": {
-        "value": 14
+        "value": 14,
+        "description": "Limited offensive options from bottom but counter sweeps possible against over-committed attackers"
       },
       "average_time": "15-45 seconds before tap or escape"
     },
     "name": "Estima Lock Bottom",
-    "description": "Master the Estima Lock Bottom Position in BJJ. Defensive leg entanglement with 35% escape rate. Learn control breaks, counters, and escape sequences from this submission threat.",
+    "description": "Master the Estima Lock Bottom Position in BJJ. Defensive leg entanglement requiring counter-rotation, framing, and systematic escape sequences from this dangerous submission threat.",
     "tags": [
       "bjj",
       "position",
@@ -543,27 +549,31 @@
     "transitions": [
       {
         "transition": "Ashi Garami Escape",
-        "attempt_probability": 25
+        "attempt_probability": 24
       },
       {
         "transition": "Leg Extraction",
-        "attempt_probability": 25
+        "attempt_probability": 33
       },
       {
         "transition": "Counter Sweep",
-        "attempt_probability": 15
+        "attempt_probability": 4
       },
       {
         "transition": "Saddle Defense",
-        "attempt_probability": 15
+        "attempt_probability": 14
       },
       {
-        "transition": "Technical Standup",
-        "attempt_probability": 10
+        "transition": "Standing Escape",
+        "attempt_probability": 14
       },
       {
-        "transition": "Rolling Back Take",
-        "attempt_probability": 10
+        "transition": "50-50 Entry",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Estima Lock Counter Roll",
+        "attempt_probability": 2
       }
     ],
     "knowledge_assessment": [
@@ -589,7 +599,7 @@
       },
       {
         "question": "Why is it a mistake to grab the opponent's hands directly when trying to escape?",
-        "answer": "Grabbing hands without addressing body position wastes energy on grip fighting while the opponent maintains superior positional control. They can simply re-grip or finish the submission because you have not changed the fundamental positional dynamic. The correct approach prioritizes creating frames on their hips or torso to generate space first, then systematically addressing grips while maintaining your defensive structure."
+        "answer": "Grabbing hands without addressing body position wastes energy on grip fighting while the opponent maintains superior positional control. They can simply re-grip while maintaining the same structural advantage because you have not changed the fundamental positional dynamic. The correct approach prioritizes creating frames on their hips or torso to generate space first, then systematically addressing grips while maintaining your defensive structure."
       },
       {
         "question": "What happens if you attempt an explosive roll or spin without first establishing proper frames?",

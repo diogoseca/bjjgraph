@@ -35,7 +35,7 @@
       "relationship": "Common transition target from reverse scarf hold"
     },
     {
-      "name": "Side Control",
+      "name": "Side Control Consolidation",
       "relationship": "Entry position for reverse scarf hold transitions"
     },
     {
@@ -108,12 +108,12 @@
         "condition": "If opponent remains flat and passive without bridging attempts",
         "actions": [
           {
-            "technique": "Americana from Side Control",
+            "technique": "Americana",
             "target": "Armbar Control",
             "probability": 55
           },
           {
-            "technique": "Kimura from Side Control",
+            "technique": "Kimura",
             "target": "Kimura Trap",
             "probability": 50
           }
@@ -154,7 +154,7 @@
         "actions": [
           {
             "technique": "Knee Slice Pass",
-            "target": "Side Control",
+            "target": "Side Control Consolidation",
             "probability": 60
           },
           {
@@ -233,7 +233,7 @@
         "relationship": "Primary transition target - common advancement when opponent creates space or bridges"
       },
       {
-        "name": "Side Control",
+        "name": "Side Control Consolidation",
         "relationship": "Entry position - reverse scarf hold typically entered from side control when opponent turns in"
       },
       {
@@ -249,11 +249,11 @@
         "relationship": "Judo variation - broken scarf hold position with modified arm control"
       },
       {
-        "name": "Americana from Side Control",
+        "name": "Americana",
         "relationship": "Primary submission - high-percentage finish from reverse scarf hold arm trap"
       },
       {
-        "name": "Kimura from Side Control",
+        "name": "Kimura",
         "relationship": "Alternative submission - available when opponent extends trapped arm"
       },
       {
@@ -276,31 +276,39 @@
     "transitions": [
       {
         "transition": "Side Control to North-South",
-        "attempt_probability": 18
+        "attempt_probability": 24
       },
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": 15
-      },
-      {
-        "transition": "Americana from Side Control",
         "attempt_probability": 13
       },
       {
-        "transition": "Kimura from Side Control",
-        "attempt_probability": 14
+        "transition": "Americana",
+        "attempt_probability": 11
       },
       {
-        "transition": "Back Step",
+        "transition": "Kimura",
         "attempt_probability": 12
       },
       {
+        "transition": "Back Step",
+        "attempt_probability": 10
+      },
+      {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 17
+        "attempt_probability": 15
       },
       {
         "transition": "Arm Triangle",
-        "attempt_probability": 11
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Reverse Scarf to North-South",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Reverse Scarf to Side Control",
+        "attempt_probability": 2
       }
     ],
     "knowledge_assessment": [
@@ -352,7 +360,7 @@
     ],
     "overview": "Reverse Scarf Hold Bottom (Reverse Kesa Gatame Bottom) represents one of the more challenging defensive positions in Brazilian Jiu-Jitsu, where the practitioner finds themselves on their back with the opponent controlling from a reverse scarf hold position. Unlike traditional scarf hold where the top player faces toward the bottom player's legs, reverse scarf hold has the top player facing toward the head, creating unique control mechanics and escape challenges. This position is particularly difficult because the top player's weight distribution and control points create significant pressure on the chest and shoulders while limiting hip mobility.\n\nThe bottom player in reverse scarf hold faces several interconnected problems: restricted breathing due to chest compression, limited hip movement preventing standard shrimping escapes, and the constant threat of arm attacks including kimura, americana, and straight armbar variations. The position demands patience, precise framing, and systematic escape sequences rather than explosive movements. Understanding the biomechanics of how the top player maintains control is essential for developing effective defensive responses.\n\nSuccess in this position requires prioritizing survival first, then creating frames and space, and finally executing technical escapes to better positions such as guard recovery or reversal to top position. The defensive strategy emphasizes breath control under pressure, maintaining composure, and exploiting the top player's positional weaknesses when they attempt to advance or submit. While challenging, systematic approach to this position can transform it from a desperate situation into an opportunity for calculated escape and potential reversal.",
     "state_properties": {
-      "point_value": 0,
+      "point_value": -3,
       "position_type": "Defensive",
       "risk_level": "High",
       "energy_cost": "High",
@@ -386,12 +394,12 @@
         "condition": "If opponent maintains heavy chest pressure without attempting submissions",
         "actions": [
           {
-            "technique": "Frame Creation",
+            "technique": "Frame and Shrimp to Guard",
             "target": "Half Guard",
             "probability": 70
           },
           {
-            "technique": "Hip Escape",
+            "technique": "Hip Escape to Guard",
             "target": "Half Guard",
             "probability": 60
           }
@@ -421,7 +429,7 @@
             "probability": 65
           },
           {
-            "technique": "Elbow Escape",
+            "technique": "Elbow Escape to Guard",
             "target": "Half Guard",
             "probability": 50
           }
@@ -436,8 +444,8 @@
             "probability": 55
           },
           {
-            "technique": "Technical Standup",
-            "target": "Standing Position",
+            "technique": "Technical Stand-up",
+            "target": "Clinch",
             "probability": 35
           }
         ]
@@ -511,7 +519,7 @@
         "relationship": "Similar defensive position with traditional scarf hold orientation"
       },
       {
-        "name": "Side Control",
+        "name": "Side Control Consolidation",
         "relationship": "Related defensive position with similar escape principles"
       },
       {
@@ -519,7 +527,7 @@
         "relationship": "Related position with traditional forward-facing scarf hold"
       },
       {
-        "name": "Elbow Escape",
+        "name": "Elbow Escape to Guard",
         "relationship": "Primary escape transition from bottom pins"
       },
       {
@@ -553,28 +561,36 @@
     },
     "transitions": [
       {
-        "transition": "Elbow Escape",
-        "attempt_probability": 20
+        "transition": "Elbow Escape to Guard",
+        "attempt_probability": 25
       },
       {
         "transition": "Bridge and Roll",
-        "attempt_probability": 15
-      },
-      {
-        "transition": "Hip Escape",
-        "attempt_probability": 17
-      },
-      {
-        "transition": "Frame and Shrimp",
-        "attempt_probability": 17
-      },
-      {
-        "transition": "Technical Standup",
         "attempt_probability": 13
       },
       {
+        "transition": "Hip Escape to Guard",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Frame and Shrimp to Guard",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Technical Stand-up",
+        "attempt_probability": 11
+      },
+      {
         "transition": "Shrimp Escape",
-        "attempt_probability": 18
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Escape Reverse Scarf Hold",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Frame from Reverse Scarf Hold",
+        "attempt_probability": 3
       }
     ],
     "knowledge_assessment": [

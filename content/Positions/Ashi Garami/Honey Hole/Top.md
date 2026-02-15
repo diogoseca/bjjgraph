@@ -4,7 +4,7 @@
 
 ---
 title: "Honey Hole Top | BJJ Position Guide | BJJ Graph"
-description: "Master Honey Hole Position Top in BJJ. Advanced leg entanglement control with direct heel hook access. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%."
+description: "Master Honey Hole Top in BJJ. Advanced leg entanglement control with direct heel hook access, kneebar chains, and systematic submission progressions."
 ---
 
 
@@ -21,37 +21,37 @@ description: "Master Honey Hole Position Top in BJJ. Advanced leg entanglement c
     {
       "@type": "HowToStep",
       "name": "Execute Outside Heel Hook",
-      "text": "From this position, attempt Outside Heel Hook. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Outside Heel Hook. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Inside Heel Hook",
-      "text": "From this position, attempt Inside Heel Hook. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Heel Hook",
+      "text": "From this position, attempt Heel Hook. This technique is attempted in 42% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar Finish",
-      "text": "From this position, attempt Kneebar Finish. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Kneebar Finish. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Toe Hold from Top",
-      "text": "From this position, attempt Toe Hold from Top. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Toe Hold",
+      "text": "From this position, attempt Toe Hold. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Saddle Entry from Top",
-      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Back Take from Ashi",
+      "text": "From this position, attempt Back Take from Ashi. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Turtle to Back Take",
-      "text": "From this position, attempt Turtle to Back Take. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Estima Lock",
+      "text": "From this position, attempt Estima Lock. This technique is attempted in 3% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -115,7 +115,7 @@ description: "Master Honey Hole Position Top in BJJ. Advanced leg entanglement c
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Honey Hole Top",
-  "description": "Master Honey Hole Position Top in BJJ. Advanced leg entanglement control with direct heel hook access. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.",
+  "description": "Master Honey Hole Top in BJJ. Advanced leg entanglement control with direct heel hook access, kneebar chains, and systematic submission progressions.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -209,21 +209,25 @@ This position excels in no-gi grappling and submission-only rulesets where leg a
 
 ## Available Attacks
 
-### [[Outside Heel Hook]] (16% of attempts)
+### [[Outside Heel Hook]] (12% of attempts)
 
-### [[Inside Heel Hook]] (13% of attempts)
+### [[Heel Hook]] (42% of attempts)
 
-### [[Kneebar Finish]] (12% of attempts)
+### [[Kneebar Finish]] (14% of attempts)
 
-### [[Toe Hold from Top]] (12% of attempts)
+### [[Toe Hold]] (8% of attempts)
 
-### [[Saddle Entry from Top]] (14% of attempts)
+### [[Back Take from Ashi]] (14% of attempts)
 
-### [[Turtle to Back Take]] (11% of attempts)
+### [[Estima Lock]] (3% of attempts)
 
-### [[Inside Ashi Entry]] (12% of attempts)
+### [[Transition to Backside 50-50]] (3% of attempts)
 
-### [[Calf Slicer from Truck]] (10% of attempts)
+### [[Calf Slicer]] (2% of attempts)
+
+### [[Honey Hole to Saddle]] (1% of attempts)
+
+### [[Inside Heel Hook from Honey Hole]] (1% of attempts)
 
 
 
@@ -236,24 +240,24 @@ This position excels in no-gi grappling and submission-only rulesets where leg a
 **If opponent attempts hip rotation to escape entanglement:**
 - Execute **[[Hip Pressure]]** → [[Honey Hole]] (Probability: 70%)
 - Execute **[[Turtle to Back Take]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Outside Heel Hook]]** → [[game-over]] (Probability: 75%)
+- Execute **[[Outside Heel Hook]]** → [[Game Over]] (Probability: 75%)
 
 
 **If opponent tries to extract trapped leg by pulling knee to chest:**
 - Execute **[[Saddle Entry from Top]]** → [[Saddle]] (Probability: 80%)
 - Execute **[[Kneebar Finish]]** → [[Kneebar Control]] (Probability: 65%)
-- Execute **[[Inside Heel Hook]]** → [[game-over]] (Probability: 60%)
+- Execute **[[Heel Hook]]** → [[Game Over]] (Probability: 60%)
 
 
 **If opponent attempts to establish inside position for reversal:**
 - Execute **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]] (Probability: 65%)
-- Execute **[[Outside Heel Hook]]** → [[game-over]] (Probability: 70%)
+- Execute **[[Outside Heel Hook]]** → [[Game Over]] (Probability: 70%)
 - Execute **[[50-50 Entry from Standing]]** → [[50-50 Guard]] (Probability: 50%)
 
 
 **If opponent defends heel by hiding foot deep in armpit:**
 - Execute **[[Kneebar Finish]]** → [[Kneebar Control]] (Probability: 75%)
-- Execute **[[Toe Hold from Top]]** → [[Toe Hold Control]] (Probability: 60%)
+- Execute **[[Toe Hold]]** → [[Game Over]] (Probability: 60%)
 - Execute **[[Saddle Entry from Top]]** → [[Saddle]] (Probability: 70%)
 
 

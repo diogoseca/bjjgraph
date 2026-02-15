@@ -299,23 +299,31 @@
     "transitions": [
       {
         "transition": "Arm Extraction",
-        "attempt_probability": 25
+        "attempt_probability": 28
       },
       {
         "transition": "Posture Recovery",
-        "attempt_probability": 20
+        "attempt_probability": 17
       },
       {
         "transition": "Stack Defense",
-        "attempt_probability": 20
+        "attempt_probability": 17
       },
       {
         "transition": "Sprawl",
-        "attempt_probability": 15
+        "attempt_probability": 12
       },
       {
         "transition": "Guard Opening Sequence",
-        "attempt_probability": 20
+        "attempt_probability": 17
+      },
+      {
+        "transition": "Posture Recovery from Meathook",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Stack Pass from Meathook",
+        "attempt_probability": 3
       }
     ]
   },

@@ -23,7 +23,7 @@ From a systematic perspective, grasshopper guard functions as both a transitiona
 
 The position gained popularity in modern no-gi competition, where the absence of gi grips makes inverted guards more viable. Without collar and sleeve controls to worry about, practitioners can focus entirely on leg positioning and hip movement. The grasshopper configuration particularly shines when opponents attempt to back step or circle away from leg attacks, as the inverted player can chase and adjust angles more freely than from traditional seated guards.
 
-Strategically, grasshopper guard creates what systematic describes as "asymmetric engagement" - the bottom player invests heavily in leg control while sacrificing upper body connection. This trade-off works when the practitioner has superior leg entanglement skills and can transition faster than the opponent can establish passing pressure. The guard becomes dangerous when the bottom player can seamlessly flow between inversion angles, preventing the top player from settling into stable passing positions.
+Strategically, grasshopper guard creates asymmetric engagement - the bottom player invests heavily in leg control while sacrificing upper body connection. This trade-off works when the practitioner has superior leg entanglement skills and can transition faster than the opponent can establish passing pressure. The guard becomes dangerous when the bottom player can seamlessly flow between inversion angles, preventing the top player from settling into stable passing positions.
 
 The energy dynamics of grasshopper guard differ significantly from traditional guards. Maintaining inverted positioning requires considerable core strength and flexibility, making it unsustainable for extended periods. Successful grasshopper guard players treat it as a transitional hunting ground rather than a resting position, constantly looking to convert the inversion into submission attempts or sweeps before fatigue sets in.
 
@@ -67,7 +67,7 @@ Defensively, grasshopper guard can serve as an emergency response when tradition
 | **Energy Cost** | High | Low |
 | **Time** | Short | Medium to Long |
 
-**Key Difference:** Inverted posture for leg attacks and sweeps
+**Key Difference:** Inverted posture trades stability for leg access
 
 
 
@@ -101,29 +101,33 @@ Defensively, grasshopper guard can serve as an emergency response when tradition
 ### Available Transitions
 
 
-- **[[Kneebar from Grasshopper]]** (8% of attempts)
+- **[[Kneebar from Grasshopper]]** (9% of attempts)
 
-- **[[Straight Ankle Lock Entry]]** (8% of attempts)
+- **[[Straight Ankle Lock Entry]]** (7% of attempts)
 
-- **[[Single Leg X Transition]]** (9% of attempts)
+- **[[Single Leg X Transition]]** (8% of attempts)
 
-- **[[X-Guard Sweep]]** (8% of attempts)
+- **[[Inside Ashi Entry]]** (9% of attempts)
 
-- **[[Inside Ashi Entry]]** (8% of attempts)
+- **[[Rolling Kneebar]]** (5% of attempts)
 
-- **[[Rolling Kneebar]]** (7% of attempts)
+- **[[Grasshopper Sweep]]** (7% of attempts)
 
-- **[[Grasshopper Sweep]]** (8% of attempts)
+- **[[Granby to Closed Guard]]** (13% of attempts)
 
-- **[[Technical Standup]]** (12% of attempts)
+- **[[50-50 Entry]]** (4% of attempts)
 
-- **[[50-50 Entry]]** (8% of attempts)
+- **[[Reverse De La Riva Recovery]]** (6% of attempts)
 
-- **[[Reverse De La Riva Recovery]]** (8% of attempts)
+- **[[Technical Standup from Inversion]]** (5% of attempts)
 
-- **[[Technical Standup from Inversion]]** (8% of attempts)
+- **[[X-Guard Elevation Sweep]]** (10% of attempts)
 
-- **[[X-Guard Elevation Sweep]]** (8% of attempts)
+- **[[Heel Hook]]** (3% of attempts)
+
+- **[[Outside Ashi Entry]]** (9% of attempts)
+
+- **[[Transition to K-Guard]]** (5% of attempts)
 
 
 ### Common Mistakes
@@ -184,23 +188,27 @@ Defensively, grasshopper guard can serve as an emergency response when tradition
 ### Available Transitions
 
 
-- **[[Back Step Pass]]** (11% of attempts)
+- **[[Back Step Pass]]** (15% of attempts)
 
 - **[[Leg Drag Pass]]** (12% of attempts)
 
 - **[[Stack Pass from Inversion]]** (10% of attempts)
 
-- **[[Step Over to Mount]]** (10% of attempts)
+- **[[Step Over to Mount]]** (5% of attempts)
 
-- **[[Knee Slice Pass]]** (12% of attempts)
+- **[[Knee Slice Pass]]** (8% of attempts)
 
 - **[[Sprawl and Disengage]]** (14% of attempts)
 
-- **[[Toreando Pass]]** (11% of attempts)
+- **[[Toreando Pass]]** (12% of attempts)
 
-- **[[Cartwheel Pass]]** (10% of attempts)
+- **[[Cartwheel Pass]]** (3% of attempts)
 
-- **[[Pressure Pass through Center]]** (10% of attempts)
+- **[[Pressure Pass through Center]]** (5% of attempts)
+
+- **[[Counter Ashi Entry]]** (8% of attempts)
+
+- **[[Double Under Pass]]** (8% of attempts)
 
 
 ### Common Mistakes

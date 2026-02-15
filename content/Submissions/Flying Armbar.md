@@ -4,153 +4,13 @@
 
 ---
 title: "Flying Armbar | BJJ Submission | BJJ Graph"
-description: "Master the Flying Armbar technique in BJJ. High-risk aerial submission targeting elbow joint with dynamic entry. Success rates: Beginner 15%, Intermediate 30%, Advanced 50%."
+description: "Master the Flying Armbar technique in BJJ. High-risk aerial submission targeting elbow joint with dynamic entry. Complete guide with safety protocols and defense."
 ---
 
 
-<body data-content-type="submissions">
+<body data-content-type="submissions-hub">
 
-<!-- Schema Markup - Auto-generated from JSON -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Execute Flying Armbar in BJJ",
-  "description": "Step-by-step guide for Flying Armbar with safety protocols.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Establish two-on-one grip control",
-      "text": "From guard bottom position with opponent standing or posting, secure a strong two-on-one grip on their arm. One hand controls the wrist, the other grips the sleeve above the elbow. Pull the arm across your centerline to begin isolating it from their body. Ensure this grip is tight and your elbows are pulled to your ribs to maximize control before any dynamic movement.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Break opponent's posture and create extension",
-      "text": "While maintaining grip control, use your legs to push against opponent's hips or knees to create distance and force them to extend forward to maintain balance. This extension is critical - you want their arm reaching forward and their base compromised. Their weight should shift slightly forward as they try to stabilize. This creates the window for your entry.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Initiate jumping motion",
-      "text": "Explosively swing your hips up and toward the controlled arm while maintaining your two-on-one grip. Your body should rotate 90-180 degrees as you elevate. The jumping motion is more of a swing than a vertical jump - think of swinging your legs up and around their arm rather than jumping straight up. Your head should pass close to their hip on the same side as the controlled arm.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Secure leg position mid-flight",
-      "text": "As your body rotates through the air, thread your top leg (furthest from opponent's body) across their face and neck area. Your bottom leg swings under their armpit on the trapped arm side. This creates the armbar frame before you land. Keep your knees pinched together throughout the rotation to maintain arm isolation. The trapped arm should be pulled tightly across your pelvis.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Control the landing",
-      "text": "Land on your back/shoulders with proper breakfall technique, distributing impact across your shoulder blades rather than your spine. Your hips should land across opponent's chest/shoulder line. As you land, immediately squeeze your knees together and pull the controlled arm tight to your chest. Your training partner should be allowed to base with their free hand and lower themselves in a controlled manner - never pull them down violently.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Establish armbar control position",
-      "text": "Once on the ground, adjust your hips perpendicular to opponent's body. Ensure their thumb is pointing up (arm internally rotated) and their elbow is centered on your hips. Top leg presses across their face to control head movement, bottom leg wraps under their armpit to prevent them turning into you. Knees remain pinched together. This is standard armbar position achieved through aerial entry.",
-      "position": 6
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Apply finishing pressure (SLOWLY in training)",
-      "text": "With position secured, lift your hips while pulling opponent's wrist down toward your chest. The elbow joint is bent backward over your hip bones. In training, apply this pressure extremely slowly over 3-5 seconds minimum, giving partner ample time to tap. In competition, pressure is applied more quickly but still controlled. Stop immediately upon feeling tap or any resistance that suggests joint stress.",
-      "position": 7
-    }
-  ],
-  "tool": ["BJJ Gi or No-Gi attire", "Training partner", "Mat space"],
-  "totalTime": "PT5M"
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the absolute priority when landing a flying armbar in training, even above securing the submission?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The absolute priority is controlling your landing to avoid injuring your training partner. You must land gently, allow your partner to base with their free hand, and never spike or slam onto their extended arm. Partner safety takes complete precedence over submission success in training. This means consciously controlling your descent and being prepared to release the technique entirely if the landing becomes uncontrolled. A successful tap means nothing if your partner is injured in the process."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What anatomical structure does the flying armbar attack, and what are the specific indicators that the breaking point is being reached?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The flying armbar attacks the elbow joint, specifically hyperextending the elbow by applying force against the natural bending direction. The breaking point indicators include: the opponent's arm becoming fully extended with no remaining slack, feeling increasing tension in the ligaments as you apply hip pressure, the opponent's body beginning to rise off the mat as they try to relieve pressure, and visible straightening of the arm beyond its natural range. In training, you must recognize these signs and apply pressure slowly enough that your partner can tap before injury occurs."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why is two-on-one grip control essential before initiating the jumping motion, and what can happen if this grip is insufficient?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Two-on-one grip control (one hand on wrist, one on sleeve) is essential because once you leave the ground, you cannot re-establish control if the arm slips free. Insufficient grip allows the opponent to pull their arm back during your aerial rotation, resulting in a failed technique where you land without control, vulnerable to being passed or mounted. The grip must be tested by pulling before jumping - if the arm moves easily, the grip is inadequate for an aerial attack. Strong grip control is the foundation that makes the entire technique possible."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the correct leg configuration during the aerial phase, and why is this positioning critical?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The correct leg configuration is top leg threading across opponent's face/neck and bottom leg wrapping under their armpit on the trapped arm side, with knees pinched together throughout. This positioning is critical because it creates the frame that isolates the arm and prevents the opponent from turning into you or escaping. The legs must be positioned before landing, not after - attempting to adjust leg position after hitting the ground is too late and allows easy escape. The pinched knees ensure the arm stays captured at your centerline where you can control it."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the minimum application time for finishing pressure in training, and why is this timeframe non-negotiable?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The minimum application time for finishing pressure in training is 5-7 seconds from initial pressure to full extension. This timeframe is non-negotiable because the elbow joint is extremely vulnerable when already loaded by your body weight from the aerial entry. Rapid application can cause catastrophic ligament tears before your partner can tap. The slow application allows your partner to feel the pressure building, make a conscious decision to tap, and signal that tap clearly. Even if they don't tap immediately, the slow pressure gives you time to feel resistance and stop before causing injury. Competition speed has no place in drilling flying submissions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Your opponent begins posturing up and stacking you forward after you've landed - what immediate adjustment prevents escape and maintains submission control?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When being stacked, immediately angle your body 45 degrees toward your outside shoulder rather than staying flat. This creates space for your hips and prevents compression. Simultaneously, pull their wrist strongly toward your opposite shoulder to maintain arm isolation and angle the elbow away from their centerline. If the stack is severe, consider releasing the submission and transitioning to triangle or omoplata rather than fighting from a compromised position where control is diminishing and injury risk to both parties increases."
-      }
-    }
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Flying Armbar",
-  "description": "Master the Flying Armbar technique in BJJ. High-risk aerial submission targeting elbow joint with dynamic entry. Success rates: Beginner 15%, Intermediate 30%, Advanced 50%.",
-  "url": "https://bjjgraph.org/Submissions/Flying-Armbar",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.org"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
-    {"@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/"},
-    {"@type": "ListItem", "position": 3, "name": "Flying Armbar", "item": "https://bjjgraph.org/Submissions/Flying-Armbar"}
-  ]
-}
-</script>
-
-> ⚠️ **SAFETY**: Flying Armbar targets the Elbow joint and shoulder. Risk: Elbow hyperextension or ligament tears (opponent). Release immediately upon tap.
+> **SAFETY**: Flying Armbar targets the Elbow joint and shoulder. Risk: Elbow hyperextension or ligament tears (opponent). Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -215,97 +75,155 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="outcomes" class="content-section">
 
-## Key Principles
+## Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[game-over]] | 60% |
+| Failure | [[Closed Guard]] | 25% |
+| Counter | [[Side Control]] | 15% |
+
+
+</section>
+
+<section class="content-section">
+
+## Attacker vs Defender
+
+| &nbsp; | Attacker | Defender |
+|--------|----------|----------|
+| **Focus** | Execute and finish | Escape and survive |
+| **Key Principles** | Timing and opponent reaction: Success depends on reading opp... | Prevention over reaction: Deny the conditions for the flying... |
+| **Options** | 7 execution steps | 4 defensive options |
+
+</section>
+
+<section id="attacker-summary" class="content-section">
+
+## Playing as Attacker
+
+[[Flying Armbar/Attacker|→ Full Attacker Guide]]
+
+### Key Principles
+
+
 - Timing and opponent reaction: Success depends on reading opponent's base and timing your jump when they're extended or off-balance
+
 - Arm isolation before flight: Secure sleeve and wrist control before initiating the jumping motion to ensure proper arm capture
+
 - Hip placement is critical: Your hips must land across opponent's chest/shoulder line to create proper breaking angle
+
 - Leg configuration controls posture: Top leg over face, bottom leg under armpit creates the frame that prevents opponent escape
+
 - Commitment to the technique: Half-committed attempts fail and create dangerous positions - once initiated, follow through completely
+
 - Falling mechanics protect both practitioners: Proper breakfall technique prevents injury to yourself and allows controlled descent
+
 - Immediate arm extension: Once airborne, pull the arm across your centerline and extend hips to create finishing pressure
 
 
-</section>
-
-<section id="setup-requirements" class="content-section">
-
-## Prerequisites
-- Strong sleeve and wrist control (preferably two-on-one grip) to prevent opponent pulling arm free during jump
-- Opponent standing in your guard or attempting to stand from guard
-- Sufficient space and clear mat area to safely execute aerial technique
-- Opponent's arm extended or reaching (never attempt when arm is retracted close to body)
-- Good base and positioning to generate upward jumping momentum
-- Opponent's weight slightly forward or neutral (not leaning back which makes jump difficult)
-- Clear understanding of breakfall mechanics to land safely
-- Partner consent and awareness of technique being practiced in training environment
+### Execution Steps
 
 
-</section>
+- **Establish two-on-one grip control**: From guard bottom position with opponent standing or posting, secure a strong two-on-one grip on the...
 
-<section id="execution-steps" class="content-section">
+- **Break opponent's posture and create extension**: While maintaining grip control, use your legs to push against opponent's hips or knees to create dis...
 
-## Execution Steps
-1. **Establish two-on-one grip control**: From guard bottom position with opponent standing or posting, secure a strong two-on-one grip on their arm. One hand controls the wrist, the other grips the sleeve above the elbow. Pull the arm across your centerline to begin isolating it from their body. Ensure this grip is tight and your elbows are pulled to your ribs to maximize control before any dynamic movement. (Timing: 2-3 seconds of solid grip establishment)
-2. **Break opponent's posture and create extension**: While maintaining grip control, use your legs to push against opponent's hips or knees to create distance and force them to extend forward to maintain balance. This extension is critical - you want their arm reaching forward and their base compromised. Their weight should shift slightly forward as they try to stabilize. This creates the window for your entry. (Timing: 1-2 seconds of posture disruption)
-3. **Initiate jumping motion**: Explosively swing your hips up and toward the controlled arm while maintaining your two-on-one grip. Your body should rotate 90-180 degrees as you elevate. The jumping motion is more of a swing than a vertical jump - think of swinging your legs up and around their arm rather than jumping straight up. Your head should pass close to their hip on the same side as the controlled arm. (Timing: Explosive 1-second movement)
-4. **Secure leg position mid-flight**: As your body rotates through the air, thread your top leg (furthest from opponent's body) across their face and neck area. Your bottom leg swings under their armpit on the trapped arm side. This creates the armbar frame before you land. Keep your knees pinched together throughout the rotation to maintain arm isolation. The trapped arm should be pulled tightly across your pelvis. (Timing: Simultaneous with jump, less than 1 second airborne)
-5. **Control the landing**: Land on your back/shoulders with proper breakfall technique, distributing impact across your shoulder blades rather than your spine. Your hips should land across opponent's chest/shoulder line. As you land, immediately squeeze your knees together and pull the controlled arm tight to your chest. Your training partner should be allowed to base with their free hand and lower themselves in a controlled manner - never pull them down violently. (Timing: Controlled landing over 1-2 seconds in training)
-6. **Establish armbar control position**: Once on the ground, adjust your hips perpendicular to opponent's body. Ensure their thumb is pointing up (arm internally rotated) and their elbow is centered on your hips. Top leg presses across their face to control head movement, bottom leg wraps under their armpit to prevent them turning into you. Knees remain pinched together. This is standard armbar position achieved through aerial entry. (Timing: 1-2 seconds of position adjustment)
-7. **Apply finishing pressure (SLOWLY in training)**: With position secured, lift your hips while pulling opponent's wrist down toward your chest. The elbow joint is bent backward over your hip bones. In training, apply this pressure extremely slowly over 3-5 seconds minimum, giving partner ample time to tap. In competition, pressure is applied more quickly but still controlled. Stop immediately upon feeling tap or any resistance that suggests joint stress. (Timing: 5-7 seconds minimum application in training)
+- **Initiate jumping motion**: Explosively swing your hips up and toward the controlled arm while maintaining your two-on-one grip....
+
+- **Secure leg position mid-flight**: As your body rotates through the air, thread your top leg (furthest from opponent's body) across the...
+
+- **Control the landing**: Land on your back/shoulders with proper breakfall technique, distributing impact across your shoulde...
+
+- **Establish armbar control position**: Once on the ground, adjust your hips perpendicular to opponent's body. Ensure their thumb is pointin...
+
+- **Apply finishing pressure (SLOWLY in training)**: With position secured, lift your hips while pulling opponent's wrist down toward your chest. The elb...
 
 
-</section>
+### Common Mistakes
 
-<section id="opponent-defense-patterns" class="content-section">
 
-## Opponent Defenses
-- **Pulling arm back and stepping away when they feel the grip** (Effectiveness: High) - Your Adjustment: Maintain grip and follow their movement, using their backward motion to help your jumping entry. If they fully retract arm, abandon technique and return to guard.
-- **Sprawling back and lowering hips to avoid the jump** (Effectiveness: High) - Your Adjustment: Do not attempt the flying armbar if opponent sprawls - this is the primary defensive response. Instead, transition to standard guard or sweep attempts.
-- **Stacking you forward during your aerial rotation** (Effectiveness: Medium) - Your Adjustment: If stacked during flight, release the submission attempt and establish guard. Never fight from inferior stacked position with joint lock - injury risk is too high.
-- **Locking hands together in defensive grip (RNC grip or Gable grip)** (Effectiveness: Medium) - Your Adjustment: Before initiating jump, break any defensive hand configurations. If opponent locks hands during your entry, land in guard position and attack grip break rather than forcing armbar.
-- **Posturing up aggressively to create space** (Effectiveness: Low) - Your Adjustment: This is actually the ideal defensive reaction - strong posture with extended arms creates perfect entry opportunity. Time your jump as they extend upward.
+- **Jumping without secure grip control on opponent's arm**
+  - Consequence: Arm slips free during aerial rotation, resulting in failed technique and vulnerable position upon landing
+  - Correction: Always establish strong two-on-one control before any jumping motion. Test the grip by pulling - if arm moves easily, grip is insufficient for aerial technique.
+
+- **Landing with excessive force or spiking onto opponent's arm**
+  - Consequence: Immediate elbow injury to training partner, catastrophic joint damage possible
+  - Correction: In training, control your descent and allow partner to base with free hand. Think 'land gently' not 'slam down'. This is absolute priority over securing the submission.
+
+- **Poor breakfall technique resulting in neck/spine compression**
+  - Consequence: Serious injury to yourself including neck strain, spine compression, or head impact
+  - Correction: Practice breakfalls extensively before attempting flying submissions. Land on shoulder blades with chin tucked, never flat on your back or neck. Consider using crash pads during initial learning.
 
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="defender-summary" class="content-section">
 
-## Common Mistakes
-- **Mistake**: Jumping without secure grip control on opponent's arm
-  - **Consequence**: Arm slips free during aerial rotation, resulting in failed technique and vulnerable position upon landing
-  - **Correction**: Always establish strong two-on-one control before any jumping motion. Test the grip by pulling - if arm moves easily, grip is insufficient for aerial technique.
-- **Mistake**: Landing with excessive force or spiking onto opponent's arm
-  - **Consequence**: Immediate elbow injury to training partner, catastrophic joint damage possible
-  - **Correction**: In training, control your descent and allow partner to base with free hand. Think 'land gently' not 'slam down'. This is absolute priority over securing the submission.
-- **Mistake**: Poor breakfall technique resulting in neck/spine compression
-  - **Consequence**: Serious injury to yourself including neck strain, spine compression, or head impact
-  - **Correction**: Practice breakfalls extensively before attempting flying submissions. Land on shoulder blades with chin tucked, never flat on your back or neck. Consider using crash pads during initial learning.
-- **Mistake**: Attempting technique when opponent is too close or not extended
-  - **Consequence**: Insufficient space to complete rotation, awkward landing, potential injury to both practitioners
-  - **Correction**: Only attempt when opponent is standing with arm extended. Create distance first by pushing with your feet. If they're too close, use different attacks.
-- **Mistake**: Not committing fully to the rotation
-  - **Consequence**: Incomplete technique leaves you in poor position, potential for awkward falls or failed entry
-  - **Correction**: Once initiated, commit completely to the rotation. Half-attempts are more dangerous than full commitment. If you hesitate mid-jump, abort and return to guard.
-- **Mistake**: Failing to secure leg position before landing
-  - **Consequence**: Opponent easily escapes armbar, you land in poor position without control
-  - **Correction**: Thread top leg across face and bottom leg under armpit while still airborne. This must be simultaneous with the jump, not after landing. Practice the coordination slowly first.
-- **Mistake**: Pulling opponent down violently during landing
-  - **Consequence**: Both practitioners land dangerously, high injury risk from uncontrolled falls
-  - **Correction**: Your landing should not drag opponent down. They should maintain base with free hand. If you feel yourself pulling them off balance, release the grip and prioritize safe landing.
+## Playing as Defender
+
+[[Flying Armbar/Defender|→ Full Defender Guide]]
+
+### Key Principles
+
+
+- Prevention over reaction: Deny the conditions for the flying armbar by keeping elbows retracted and maintaining strong upright posture at all times when standing in opponent's guard
+
+- Grip awareness is paramount: Recognize and immediately address two-on-one grip control on your arm, as this is the primary setup indicator for aerial submissions
+
+- Base and posture defeat aerial attacks: A wide, stable stance with hips back makes it extremely difficult for the attacker to generate the leverage needed for the jumping entry
+
+- Timing determines your response: Defend the grip before the jump, defend the rotation during the jump, or defend the arm position after landing - each window requires different technical responses
+
+- Never allow arm isolation while standing: Keep elbows connected to your torso and never reach forward with extended arms when in your opponent's guard range
+
+- Stack immediately if caught mid-flight: Driving forward and stacking the attacker during their rotation is the highest-percentage defense once the jump has been initiated
+
+- Protect yourself during chaotic landings: If you cannot prevent the technique, prioritize protecting your arm by tucking your elbow and turning into the attacker rather than away
+
+
+### Recognition Cues
+
+
+- Opponent secures a strong two-on-one grip on your arm, pulling your wrist and sleeve toward their centerline while their legs push against your hips to create distance
+
+- Opponent's hips begin elevating off the mat while they maintain sleeve control, indicating they are loading their body for the swinging jump motion
+
+- Sudden explosive hip movement upward and toward your arm combined with their legs leaving your body entirely, signaling the aerial rotation has begun
+
+- Opponent shifts their angle to be perpendicular to your standing position while maintaining arm control, creating the alignment needed for the armbar rotation
+
+- Feet leave your hips or biceps simultaneously rather than sequentially, which distinguishes a flying submission entry from a standard guard transition
+
+
+### Escape Paths
+
+
+- Stack and drive forward: Once the attacker has landed, drive your weight forward onto their chest and shoulders while keeping your trapped arm bent. Walk your feet toward their head to increase stacking pressure. As they compress, extract your elbow by pulling it toward your own hip while maintaining forward pressure.
+
+- Hitchhiker escape: If the attacker has secured a strong armbar position, rotate your body by turning your thumb toward the ceiling and rolling over your trapped shoulder toward the attacker's legs. This rotation relieves the hyperextension pressure and allows you to extract your arm as you come to a kneeling position on the far side.
+
+- Turn and stack to guard: Rotate your body 90 degrees toward the attacker while clasping your hands together. Drive your weight forward to stack them, then use the stacking pressure to free your elbow and drive it to the mat beside their hip. Once your arm clears their hip line, immediately pass to side control or re-establish guard top position.
 
 
 </section>
 
-<section id="variations-and-setups" class="content-section hide-minimal">
+
+<section id="variations" class="content-section hide-minimal">
 
 ## Variations
+
+
 **Flying Armbar from Closed Guard Break**: When opponent stands to break your closed guard, use their standing motion as the setup. As they rise and begin to open your guard, secure two-on-one control and initiate the flying entry before they fully establish standing base. The transition from closed guard to flying armbar is fluid and uses their upward momentum. (When to use: When opponent is predictable in their guard breaking method and consistently stands with arms extended. Works best against opponents who stand but remain bent at waist.)
+
 
 **Flying Armbar from Failed Guard Pull**: If you attempt a guard pull and opponent remains standing, immediately chain into flying armbar. From your seated guard position, secure sleeve control as they stand, then execute the flying entry using their stable standing base. This variation requires less jumping force since you're already partially elevated. (When to use: In sport jiu-jitsu when guard pulls are common. Creates attacking opportunity from what would otherwise be neutral position. Excellent surprise technique in competition.)
 
+
 **Flying Armbar to Triangle Transition**: If the flying armbar entry is defended by opponent pulling their elbow free, immediately transition to triangle choke. Your leg position is already across their neck, and you can quickly adjust to triangle configuration. This combination increases overall success rate as it creates a dilemma for the defender. (When to use: When opponent successfully defends the arm but you've achieved superior position with legs around head/shoulder. Especially effective against strong wrestlers who defend armbars well.)
+
 
 **Flying Armbar from Spider Guard**: From spider guard with strong sleeve control and foot on bicep, use the leverage of your foot to help generate jumping momentum. The foot-on-bicep connection provides additional control during the aerial phase. Remove foot just before landing to avoid knee injury. (When to use: When playing spider guard against standing opponents. The foot-on-bicep provides extra insurance against arm escape during rotation.)
 
@@ -313,48 +231,6 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 
 </section>
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-**Q1**: What is the absolute priority when landing a flying armbar in training, even above securing the submission? **[SAFETY-CRITICAL]**
-**A**: The absolute priority is controlling your landing to avoid injuring your training partner. You must land gently, allow your partner to base with their free hand, and never spike or slam onto their extended arm. Partner safety takes complete precedence over submission success in training. This means consciously controlling your descent and being prepared to release the technique entirely if the landing becomes uncontrolled. A successful tap means nothing if your partner is injured in the process.
-
-**Q2**: What anatomical structure does the flying armbar attack, and what are the specific indicators that the breaking point is being reached? **[SAFETY-CRITICAL]**
-**A**: The flying armbar attacks the elbow joint, specifically hyperextending the elbow by applying force against the natural bending direction. The breaking point indicators include: the opponent's arm becoming fully extended with no remaining slack, feeling increasing tension in the ligaments as you apply hip pressure, the opponent's body beginning to rise off the mat as they try to relieve pressure, and visible straightening of the arm beyond its natural range. In training, you must recognize these signs and apply pressure slowly enough that your partner can tap before injury occurs.
-
-**Q3**: Why is two-on-one grip control essential before initiating the jumping motion, and what can happen if this grip is insufficient?
-**A**: Two-on-one grip control (one hand on wrist, one on sleeve) is essential because once you leave the ground, you cannot re-establish control if the arm slips free. Insufficient grip allows the opponent to pull their arm back during your aerial rotation, resulting in a failed technique where you land without control, vulnerable to being passed or mounted. The grip must be tested by pulling before jumping - if the arm moves easily, the grip is inadequate for an aerial attack. Strong grip control is the foundation that makes the entire technique possible.
-
-**Q4**: What is the correct leg configuration during the aerial phase, and why is this positioning critical?
-**A**: The correct leg configuration is top leg threading across opponent's face/neck and bottom leg wrapping under their armpit on the trapped arm side, with knees pinched together throughout. This positioning is critical because it creates the frame that isolates the arm and prevents the opponent from turning into you or escaping. The legs must be positioned before landing, not after - attempting to adjust leg position after hitting the ground is too late and allows easy escape. The pinched knees ensure the arm stays captured at your centerline where you can control it.
-
-**Q5**: What is the minimum application time for finishing pressure in training, and why is this timeframe non-negotiable? **[SAFETY-CRITICAL]**
-**A**: The minimum application time for finishing pressure in training is 5-7 seconds from initial pressure to full extension. This timeframe is non-negotiable because the elbow joint is extremely vulnerable when already loaded by your body weight from the aerial entry. Rapid application can cause catastrophic ligament tears before your partner can tap. The slow application allows your partner to feel the pressure building, make a conscious decision to tap, and signal that tap clearly. Even if they don't tap immediately, the slow pressure gives you time to feel resistance and stop before causing injury. Competition speed has no place in drilling flying submissions.
-
-**Q6**: Your opponent begins posturing up and stacking you forward after you've landed - what immediate adjustment prevents escape and maintains submission control?
-**A**: When being stacked, immediately angle your body 45 degrees toward your outside shoulder rather than staying flat. This creates space for your hips and prevents compression. Simultaneously, pull their wrist strongly toward your opposite shoulder to maintain arm isolation and angle the elbow away from their centerline. If the stack is severe, consider releasing the submission and transitioning to triangle or omoplata rather than fighting from a compromised position where control is diminishing and injury risk to both parties increases.
-
-**Q7**: What should you do if your opponent sprawls backward or pulls their arm back as you attempt to initiate the flying armbar?
-**A**: If your opponent sprawls backward or pulls their arm back, you should immediately abandon the flying armbar attempt and return to guard position or pursue a different attack. Fighting against a sprawl or trying to jump on a retracted arm is extremely low percentage and creates dangerous positions where injury risk is high. The flying armbar requires specific conditions - extended arm and compromised base - and attempting it without these conditions present leads to failure. Recognizing when the technique is not available is as important as executing it properly when conditions are right.
-
-**Q8**: What is the proper breakfall technique for landing the flying armbar safely? **[SAFETY-CRITICAL]**
-**A**: Proper breakfall technique involves landing on your shoulder blades and upper back, distributing impact across a wide area rather than concentrating force on your spine or neck. Your chin should be tucked to protect your neck, and you should land with a slight rounding of your upper back. Never land flat on your back or with your neck extended, as this can cause serious spinal compression injuries. The landing should be controlled and relatively gentle, not a violent slam. In initial learning phases, practice the aerial rotation and landing separately using crash pads or extra mats. Your ability to breakfall correctly determines whether you can train this technique safely.
-
-**Q9**: What hip and wrist mechanics create the actual breaking pressure in the flying armbar finish?
-**A**: The breaking pressure is created through coordinated hip elevation and wrist control. Your hips drive upward like a bridge, creating a fulcrum point across the opponent's elbow joint using your hip bones or lower pelvis. Simultaneously, you pull their wrist down toward your chest, creating opposing forces that hyperextend the elbow. The arm must be positioned with the thumb pointing upward (internal rotation) so the elbow bends against your hip line. Control their wrist close to your sternum rather than letting it drift toward your shoulder, as this maintains optimal breaking angle and prevents them from rotating to relieve pressure.
-
-**Q10**: When is the point of no escape reached in a properly executed flying armbar, and what control elements must be established?
-**A**: The point of no escape is reached when: your hips are perpendicular to their body with their elbow centered on your pelvis, their thumb is pointing upward ensuring proper arm rotation, your top leg is firmly across their face preventing posture recovery, your bottom leg is tight under their armpit preventing them from turning into you, and your knees are pinched together eliminating any gap for arm extraction. Once all five elements are secured, the opponent cannot escape without you making an error. This is why the aerial entry must establish leg position before landing - achieving this configuration after landing against a defending opponent is nearly impossible.
-
-**Q11**: What are the most common finishing errors that allow escape from an otherwise secured flying armbar position?
-**A**: The most common finishing errors include: allowing their elbow to drift off-center from your hips which reduces breaking leverage, letting their thumb rotate outward which allows them to stack and relieve pressure, relaxing knee squeeze which creates space for arm extraction, positioning hips too high on their arm near the shoulder which reduces mechanical advantage, and rushing the finish before position is fully secured which telegraphs the submission and allows defensive reactions. Additionally, pulling their wrist toward your shoulder instead of your chest changes the breaking angle and makes escape easier through rotation.
-
-**Q12**: In competition, how do you adjust your finishing grip and pressure application compared to training while still prioritizing opponent safety? **[SAFETY-CRITICAL]**
-**A**: In competition, you apply pressure more quickly once position is secured, but you must still recognize tap signals immediately and release without hesitation. Use a tighter wrist grip with your forearms rather than just hands, and elevate hips more decisively. However, never crank or jerk the submission - even in competition, controlled progressive pressure is both more effective and safer. The key difference is the time between establishing control and applying pressure, not the nature of the pressure itself. A controlled 2-3 second finish in competition is still fundamentally different from the dangerous jerking motion that causes injuries.
-
-
-
-</section>
 
 <section id="from-positions" class="content-section">
 
@@ -364,12 +240,11 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 - [[Open Guard]]
 - [[Spider Guard]]
 - [[De La Riva Guard]]
-- [[Seated Guard]]
-- [[Standing Guard]]
+- [[Collar Sleeve Guard]]
 - [[Butterfly Guard]]
 - [[Rubber Guard]]
 - [[Lasso Guard]]
-- [[X-Guard]]
+- [[Inverted Guard]]
 
 
 </section>
@@ -409,7 +284,6 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 
 
 </section>
-
 
 <section id="terminal-state" class="content-section">
 

@@ -9,157 +9,407 @@
     "ashiwaza",
     "footsweep"
   ],
+  "from_position": "Standing Position/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 70,
+      "result": "success"
+    },
+    {
+      "to": "Standing Position/Top",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Standing Position/Bottom",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 60,
   "overview": "Deashi Harai, also known as the advanced foot sweep, is a foundational Judo technique that has been successfully integrated into modern Brazilian Jiu-Jitsu standup game. This technique exploits the opponent's forward momentum and weight transfer, using precise timing to sweep their leading leg as it advances. Unlike more forceful throws, Deashi Harai relies on perfect synchronization between grip control, body positioning, and the sweeping action of your foot against the opponent's ankle or lower shin.\n\nThe technique is particularly effective in BJJ because it requires minimal strength and maximum timing, making it accessible to practitioners of all sizes. When executed correctly, Deashi Harai creates an immediate off-balancing effect that sends the opponent backward and to the side, allowing the thrower to maintain superior grips and establish dominant top position as they follow through to the ground. The beauty of this technique lies in its subtlety—rather than forcing the opponent down, you're simply removing their base at the exact moment they commit their weight forward.\n\nIn the BJJ context, Deashi Harai serves as both a scoring takedown and a strategic tool for controlling the pace of engagement. It works exceptionally well against opponents who use aggressive forward pressure or attempt to establish collar-and-sleeve grips, as these actions naturally create the weight transfer necessary for the sweep to succeed. The technique also chains effectively with other foot sweeps and throws, creating a comprehensive standup system that keeps opponents defensive and hesitant.",
-  "key_principles": [
-    "Execute the sweep when opponent's weight commits forward onto their lead leg",
-    "Maintain strong grip control to direct opponent's upper body backward while sweeping their base",
-    "Use minimal force on the sweeping action—timing and placement matter more than power",
-    "Create the proper angle by positioning your body at 45 degrees to your opponent",
-    "Follow through completely to establish top position rather than just achieving the takedown",
-    "Coordinate upper body pulling action with lower body sweeping action simultaneously",
-    "Keep your base stable and weight centered to avoid being countered during execution"
+  "conditions": [
+    "Both practitioners standing with active grip engagement",
+    "Opponent moving forward or shifting weight onto their lead leg",
+    "At least one dominant grip established (sleeve, collar, or collar tie)",
+    "Sufficient mat space behind opponent for safe fall trajectory",
+    "Proper 45-degree angle achieved relative to opponent's centerline"
   ],
-  "setup_requirements": [
-    "Establish standard grips: one hand controlling opponent's sleeve, other hand on collar or lapel",
-    "Maintain upright posture with stable base and centered weight distribution",
-    "Position yourself at approximately 45-degree angle to opponent's stance",
-    "Ensure opponent is moving forward or has weight on their lead leg",
-    "Keep constant tension in your grips to control opponent's upper body movement",
-    "Maintain appropriate distance—close enough to sweep but far enough to have sweep angle"
-  ],
-  "execution_steps": [
+  "related_content": [
     {
-      "step_number": 1,
-      "action": "Establish and test grips",
-      "description": "Secure a same-side sleeve grip with your lead hand and a collar or lapel grip with your rear hand. Apply light pulling pressure to test opponent's reaction and weight distribution. Your sleeve grip should be firm but not telegraphing, positioned near the elbow or mid-forearm for maximum control."
+      "name": "Kosoto Gari",
+      "relationship": "Alternative sweep targeting rear leg when Deashi Harai is defended"
     },
     {
-      "step_number": 2,
-      "action": "Create forward movement",
-      "description": "Use subtle pulling motions with both grips to encourage your opponent to step forward with their lead leg. This can be achieved through small circular movements or by taking a slight backstep yourself, inviting them to pursue. The goal is to get them to commit weight onto their advancing foot without making your intention obvious."
+      "name": "Kouchi Gari",
+      "relationship": "Combination technique that works inside while Deashi Harai works outside"
     },
     {
-      "step_number": 3,
-      "action": "Position for sweep angle",
-      "description": "As opponent steps forward, pivot slightly on your rear foot to create a 45-degree angle to their centerline. Your body should be positioned so your sweeping leg (typically the leg on the same side as your collar grip) has a clear path to their advancing ankle. Maintain upright posture throughout this adjustment."
+      "name": "Sasae Tsurikomi Ashi",
+      "relationship": "Similar foot sweep with blocking action rather than sweeping motion"
     },
     {
-      "step_number": 4,
-      "action": "Execute coordinated sweep",
-      "description": "Simultaneously pull upward and backward with your collar grip while driving their sleeve grip across their body. At the exact moment their lead foot makes contact with the mat and begins accepting weight, sweep the sole or edge of your foot across their ankle or lower shin in an arc-like motion. The sweep should feel like brushing their leg away rather than kicking through it."
+      "name": "Osoto Gari",
+      "relationship": "Follow-up technique when opponent steps back to defend Deashi Harai"
     },
     {
-      "step_number": 5,
-      "action": "Break opponent's structure",
-      "description": "Continue the upward and backward pulling motion with your grips as your sweeping foot removes their base. Your collar hand should lift while your sleeve hand drives downward and across, creating a rotational force that prevents them from posting or recovering balance. Keep your own base solid by maintaining weight on your support leg."
+      "name": "Single Leg Entry",
+      "relationship": "Alternative takedown when foot sweeps are consistently defended"
     },
     {
-      "step_number": 6,
-      "action": "Control the fall",
-      "description": "Maintain grip connection as opponent falls backward. Your grips allow you to control the speed and direction of their fall while positioning yourself to land in a dominant position. Keep your feet mobile and ready to adjust your base."
+      "name": "Snap Down to Front Headlock",
+      "relationship": "Setup technique that creates forward pressure for Deashi Harai opportunity"
     },
     {
-      "step_number": 7,
-      "action": "Establish top position",
-      "description": "Follow opponent to the ground while using your grips to prevent them from recovering guard. As they land, immediately work to secure side control by driving your shoulder into their chest, controlling their near hip, and establishing crossface pressure. Your grips transition from standup controls to ground control points."
+      "name": "Guard Pull",
+      "relationship": "Alternative engagement strategy that can be facilitated by Deashi Harai off-balancing"
     },
     {
-      "step_number": 8,
-      "action": "Consolidate position",
-      "description": "Once on top, distribute your weight properly across their torso, secure your grips into side control configurations (crossface and hip control), and establish stable base with your legs spread wide. This completes the transition from standing to dominant ground position."
+      "name": "Side Control",
+      "relationship": "Primary position to establish after successful Deashi Harai execution"
+    },
+    {
+      "name": "Front Headlock",
+      "relationship": "Backup position when opponent sprawls in defense of sweep"
+    },
+    {
+      "name": "Takedown Defense",
+      "relationship": "Understanding defensive principles helps recognize when opponent is vulnerable to Deashi Harai"
+    },
+    {
+      "name": "Standing Position",
+      "relationship": "Starting position and reset point when sweep attempt fails"
     }
   ],
-  "common_counters": [
-    {
-      "counter": "Opponent pulls their lead leg back as you attempt sweep",
-      "effectiveness": "High",
-      "your_response": "Immediately transition to alternative foot sweep (Kosoto Gari or Kouchi Gari) on their now-weighted rear leg, or follow their backward movement with forward pressure to break their balance backward"
-    },
-    {
-      "counter": "Opponent sprawls and drops weight down as they feel sweep",
-      "effectiveness": "Medium",
-      "your_response": "Abandon the sweep and immediately transition to front headlock position, using their lowered posture to secure guillotine control or snap them down to turtle position"
-    },
-    {
-      "counter": "Opponent steps through with opposite leg to recover base",
-      "effectiveness": "Medium",
-      "your_response": "Maintain grip control and either execute a second sweep on the recovery leg (Deashi Harai on opposite side) or use their forward momentum to pull them into closed guard"
-    },
-    {
-      "counter": "Opponent breaks your sleeve grip before sweep execution",
-      "effectiveness": "High",
-      "your_response": "Do not attempt the sweep without proper grip control—instead, immediately re-establish grips or switch to collar drag or arm drag to take the back"
-    },
-    {
-      "counter": "Opponent counters with their own throw as you commit",
-      "effectiveness": "Low",
-      "your_response": "If you maintain proper posture and don't overcommit, counter-throws are difficult—if sensed early, release grips and establish defensive posture or pull guard to reset"
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Sweeping too hard or kicking through opponent's leg with excessive force",
-      "consequence": "Telegraphs your intention, allows opponent to adjust their base, and can result in you losing your own balance or getting countered",
-      "correction": "Focus on timing over power—the sweep should be a light brushing motion that catches the ankle just as weight transfers onto it. Think of removing a support rather than knocking it away"
-    },
-    {
-      "error": "Attempting sweep when opponent's weight is not committed forward",
-      "consequence": "Sweep has no effect as their leg is already light and mobile, wasting energy and exposing your intention for future attempts",
-      "correction": "Be patient and create the weight transfer through grip manipulation—pull them forward slightly or take a backstep to invite their advance, then sweep as their foot plants"
-    },
-    {
-      "error": "Poor upper body control during sweep execution",
-      "consequence": "Opponent can post with their hands, recover balance mid-throw, or even counter-attack effectively",
-      "correction": "Your grips must actively lift and pull backward throughout the sweep—the upper body control is what prevents them from adjusting once their leg is swept"
-    },
-    {
-      "error": "Standing too far away or too close during setup",
-      "consequence": "Incorrect distance makes the sweeping angle impossible or causes you to overreach and lose balance during execution",
-      "correction": "Maintain optimal distance where your sweeping leg can reach their ankle with a comfortable arc motion while keeping your support leg stable—approximately one step away"
-    },
-    {
-      "error": "Failing to follow opponent to ground or releasing grips after throw",
-      "consequence": "Opponent can recover quickly, potentially pulling guard or scrambling back to feet, negating your successful takedown",
-      "correction": "Maintain grip connection throughout the entire technique and actively follow them down, using your grips to guide yourself into side control or other dominant position"
-    },
-    {
-      "error": "Sweeping with toes instead of sole or edge of foot",
-      "consequence": "Creates point contact instead of surface contact, making sweep less effective and potentially injuring your toes",
-      "correction": "Use the sole or inside edge of your foot to make broad contact with opponent's ankle/lower shin—this provides better control and more effective base removal"
-    },
-    {
-      "error": "Leaning or falling backward during sweep execution",
-      "consequence": "Compromises your own base, makes it impossible to follow through to top position, and creates counter-throw opportunities",
-      "correction": "Maintain upright posture throughout the technique—your grips should pull them backward while you remain balanced and ready to advance forward into top position"
-    }
-  ],
-  "training_progressions": [
-    {
-      "phase": "Week 1-2: Static Drilling",
-      "focus": "Basic mechanics and foot placement",
-      "description": "Partner stands in static position while you practice grip establishment, footwork pattern, and sweeping motion. Focus on finding correct angle, proper foot contact point, and coordination between upper and lower body. Repeat 20-30 repetitions per training session, alternating sides."
-    },
-    {
-      "phase": "Week 3-4: Movement Drilling",
-      "focus": "Timing the sweep with partner's steps",
-      "description": "Partner takes slow, deliberate forward steps while you practice timing your sweep to their weight transfer. Partner provides minimal resistance, allowing you to develop feel for when their weight commits. Focus on reading their movement and executing at optimal moment. Practice 15-20 successful repetitions per session."
-    },
-    {
-      "phase": "Week 5-6: Active Response Drilling",
-      "focus": "Dealing with basic defensive reactions",
-      "description": "Partner now actively tries to maintain balance by pulling back leg or adjusting base, but doesn't counter-attack. Practice creating setups, feinting, and adjusting your timing based on their reactions. Begin chaining with other foot sweeps when primary attempt is defended. Execute 10-15 attempts with varied reactions."
-    },
-    {
-      "phase": "Week 7-8: Live Stand-up Sparring",
-      "focus": "Application in dynamic environment",
-      "description": "Attempt technique during positional sparring focused on takedowns (standup only, reset when someone goes to ground). Partner provides realistic resistance and attempts their own takedowns. Focus on recognizing opportunities, setting up technique through grip fighting, and maintaining safety. Success rate less important than recognition of proper moments."
-    },
-    {
-      "phase": "Month 3+: Competition Integration",
-      "focus": "Combining with complete BJJ game",
-      "description": "Integrate Deashi Harai into your overall standup strategy, using it as part of combination attack with other throws and guard pulls. Practice transitioning smoothly from successful takedown into ground control and submission attacks. Use in regular sparring and eventually competition when opportunities arise naturally."
-    }
-  ],
+  "attacker": {
+    "name": "Deashi Harai Attacker",
+    "description": "How to execute Deashi Harai in BJJ. Attacking perspective with setup, execution steps, and counters.",
+    "overview": "Deashi Harai, also known as the advanced foot sweep, is a foundational Judo technique that has been successfully integrated into modern Brazilian Jiu-Jitsu standup game. This technique exploits the opponent's forward momentum and weight transfer, using precise timing to sweep their leading leg as it advances. Unlike more forceful throws, Deashi Harai relies on perfect synchronization between grip control, body positioning, and the sweeping action of your foot against the opponent's ankle or lower shin.\n\nThe technique is particularly effective in BJJ because it requires minimal strength and maximum timing, making it accessible to practitioners of all sizes. When executed correctly, Deashi Harai creates an immediate off-balancing effect that sends the opponent backward and to the side, allowing the thrower to maintain superior grips and establish dominant top position as they follow through to the ground. The beauty of this technique lies in its subtlety—rather than forcing the opponent down, you're simply removing their base at the exact moment they commit their weight forward.\n\nIn the BJJ context, Deashi Harai serves as both a scoring takedown and a strategic tool for controlling the pace of engagement. It works exceptionally well against opponents who use aggressive forward pressure or attempt to establish collar-and-sleeve grips, as these actions naturally create the weight transfer necessary for the sweep to succeed. The technique also chains effectively with other foot sweeps and throws, creating a comprehensive standup system that keeps opponents defensive and hesitant.",
+    "key_principles": [
+      "Execute the sweep when opponent's weight commits forward onto their lead leg",
+      "Maintain strong grip control to direct opponent's upper body backward while sweeping their base",
+      "Use minimal force on the sweeping action—timing and placement matter more than power",
+      "Create the proper angle by positioning your body at 45 degrees to your opponent",
+      "Follow through completely to establish top position rather than just achieving the takedown",
+      "Coordinate upper body pulling action with lower body sweeping action simultaneously",
+      "Keep your base stable and weight centered to avoid being countered during execution"
+    ],
+    "setup_requirements": [
+      "Establish standard grips: one hand controlling opponent's sleeve, other hand on collar or lapel",
+      "Maintain upright posture with stable base and centered weight distribution",
+      "Position yourself at approximately 45-degree angle to opponent's stance",
+      "Ensure opponent is moving forward or has weight on their lead leg",
+      "Keep constant tension in your grips to control opponent's upper body movement",
+      "Maintain appropriate distance—close enough to sweep but far enough to have sweep angle"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish and test grips",
+        "description": "Secure a same-side sleeve grip with your lead hand and a collar or lapel grip with your rear hand. Apply light pulling pressure to test opponent's reaction and weight distribution. Your sleeve grip should be firm but not telegraphing, positioned near the elbow or mid-forearm for maximum control."
+      },
+      {
+        "step_number": 2,
+        "action": "Create forward movement",
+        "description": "Use subtle pulling motions with both grips to encourage your opponent to step forward with their lead leg. This can be achieved through small circular movements or by taking a slight backstep yourself, inviting them to pursue. The goal is to get them to commit weight onto their advancing foot without making your intention obvious."
+      },
+      {
+        "step_number": 3,
+        "action": "Position for sweep angle",
+        "description": "As opponent steps forward, pivot slightly on your rear foot to create a 45-degree angle to their centerline. Your body should be positioned so your sweeping leg (typically the leg on the same side as your collar grip) has a clear path to their advancing ankle. Maintain upright posture throughout this adjustment."
+      },
+      {
+        "step_number": 4,
+        "action": "Execute coordinated sweep",
+        "description": "Simultaneously pull upward and backward with your collar grip while driving their sleeve grip across their body. At the exact moment their lead foot makes contact with the mat and begins accepting weight, sweep the sole or edge of your foot across their ankle or lower shin in an arc-like motion. The sweep should feel like brushing their leg away rather than kicking through it."
+      },
+      {
+        "step_number": 5,
+        "action": "Break opponent's structure",
+        "description": "Continue the upward and backward pulling motion with your grips as your sweeping foot removes their base. Your collar hand should lift while your sleeve hand drives downward and across, creating a rotational force that prevents them from posting or recovering balance. Keep your own base solid by maintaining weight on your support leg."
+      },
+      {
+        "step_number": 6,
+        "action": "Control the fall",
+        "description": "Maintain grip connection as opponent falls backward. Your grips allow you to control the speed and direction of their fall while positioning yourself to land in a dominant position. Keep your feet mobile and ready to adjust your base."
+      },
+      {
+        "step_number": 7,
+        "action": "Establish top position",
+        "description": "Follow opponent to the ground while using your grips to prevent them from recovering guard. As they land, immediately work to secure side control by driving your shoulder into their chest, controlling their near hip, and establishing crossface pressure. Your grips transition from standup controls to ground control points."
+      },
+      {
+        "step_number": 8,
+        "action": "Consolidate position",
+        "description": "Once on top, distribute your weight properly across their torso, secure your grips into side control configurations (crossface and hip control), and establish stable base with your legs spread wide. This completes the transition from standing to dominant ground position."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent pulls their lead leg back as you attempt sweep",
+        "effectiveness": "High",
+        "your_response": "Immediately transition to alternative foot sweep (Kosoto Gari or Kouchi Gari) on their now-weighted rear leg, or follow their backward movement with forward pressure to break their balance backward",
+        "targets_outcome": "Standing Position/Top"
+      },
+      {
+        "counter": "Opponent sprawls and drops weight down as they feel sweep",
+        "effectiveness": "Medium",
+        "your_response": "Abandon the sweep and immediately transition to front headlock position, using their lowered posture to secure guillotine control or snap them down to turtle position",
+        "targets_outcome": "Standing Position/Top"
+      },
+      {
+        "counter": "Opponent steps through with opposite leg to recover base",
+        "effectiveness": "Medium",
+        "your_response": "Maintain grip control and either execute a second sweep on the recovery leg (Deashi Harai on opposite side) or use their forward momentum to pull them into closed guard",
+        "targets_outcome": "Standing Position/Top"
+      },
+      {
+        "counter": "Opponent breaks your sleeve grip before sweep execution",
+        "effectiveness": "High",
+        "your_response": "Do not attempt the sweep without proper grip control—instead, immediately re-establish grips or switch to collar drag or arm drag to take the back",
+        "targets_outcome": "Standing Position/Top"
+      },
+      {
+        "counter": "Opponent counters with their own throw as you commit to the sweep",
+        "effectiveness": "Low",
+        "your_response": "If you maintain proper posture and don't overcommit, counter-throws are difficult—if sensed early, release grips and establish defensive posture or pull guard to reset",
+        "targets_outcome": "Standing Position/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Sweeping too hard or kicking through opponent's leg with excessive force",
+        "consequence": "Telegraphs your intention, allows opponent to adjust their base, and can result in you losing your own balance or getting countered",
+        "correction": "Focus on timing over power—the sweep should be a light brushing motion that catches the ankle just as weight transfers onto it. Think of removing a support rather than knocking it away"
+      },
+      {
+        "error": "Attempting sweep when opponent's weight is not committed forward",
+        "consequence": "Sweep has no effect as their leg is already light and mobile, wasting energy and exposing your intention for future attempts",
+        "correction": "Be patient and create the weight transfer through grip manipulation—pull them forward slightly or take a backstep to invite their advance, then sweep as their foot plants"
+      },
+      {
+        "error": "Poor upper body control during sweep execution",
+        "consequence": "Opponent can post with their hands, recover balance mid-throw, or even counter-attack effectively",
+        "correction": "Your grips must actively lift and pull backward throughout the sweep—the upper body control is what prevents them from adjusting once their leg is swept"
+      },
+      {
+        "error": "Standing too far away or too close during setup",
+        "consequence": "Incorrect distance makes the sweeping angle impossible or causes you to overreach and lose balance during execution",
+        "correction": "Maintain optimal distance where your sweeping leg can reach their ankle with a comfortable arc motion while keeping your support leg stable—approximately one step away"
+      },
+      {
+        "error": "Failing to follow opponent to ground or releasing grips after throw",
+        "consequence": "Opponent can recover quickly, potentially pulling guard or scrambling back to feet, negating your successful takedown",
+        "correction": "Maintain grip connection throughout the entire technique and actively follow them down, using your grips to guide yourself into side control or other dominant position"
+      },
+      {
+        "error": "Sweeping with toes instead of sole or edge of foot",
+        "consequence": "Creates point contact instead of surface contact, making sweep less effective and potentially injuring your toes",
+        "correction": "Use the sole or inside edge of your foot to make broad contact with opponent's ankle/lower shin—this provides better control and more effective base removal"
+      },
+      {
+        "error": "Leaning or falling backward during sweep execution",
+        "consequence": "Compromises your own base, makes it impossible to follow through to top position, and creates counter-throw opportunities",
+        "correction": "Maintain upright posture throughout the technique—your grips should pull them backward while you remain balanced and ready to advance forward into top position"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2: Static Drilling",
+        "focus": "Basic mechanics and foot placement",
+        "description": "Partner stands in static position while you practice grip establishment, footwork pattern, and sweeping motion. Focus on finding correct angle, proper foot contact point, and coordination between upper and lower body. Repeat 20-30 repetitions per training session, alternating sides."
+      },
+      {
+        "phase": "Week 3-4: Movement Drilling",
+        "focus": "Timing the sweep with partner's steps",
+        "description": "Partner takes slow, deliberate forward steps while you practice timing your sweep to their weight transfer. Partner provides minimal resistance, allowing you to develop feel for when their weight commits. Focus on reading their movement and executing at optimal moment. Practice 15-20 successful repetitions per session."
+      },
+      {
+        "phase": "Week 5-6: Active Response Drilling",
+        "focus": "Dealing with basic defensive reactions",
+        "description": "Partner now actively tries to maintain balance by pulling back leg or adjusting base, but doesn't counter-attack. Practice creating setups, feinting, and adjusting your timing based on their reactions. Begin chaining with other foot sweeps when primary attempt is defended. Execute 10-15 attempts with varied reactions."
+      },
+      {
+        "phase": "Week 7-8: Live Stand-up Sparring",
+        "focus": "Application in dynamic environment",
+        "description": "Attempt technique during positional sparring focused on takedowns (standup only, reset when someone goes to ground). Partner provides realistic resistance and attempts their own takedowns. Focus on recognizing opportunities, setting up technique through grip fighting, and maintaining safety. Success rate less important than recognition of proper moments."
+      },
+      {
+        "phase": "Month 3+: Competition Integration",
+        "focus": "Combining with complete BJJ game",
+        "description": "Integrate Deashi Harai into your overall standup strategy, using it as part of combination attack with other throws and guard pulls. Practice transitioning smoothly from successful takedown into ground control and submission attacks. Use in regular sparring and eventually competition when opportunities arise naturally."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the most critical timing element for successful execution of Deashi Harai?",
+        "answer": "The most critical timing element is catching the opponent's lead foot at the exact moment it plants and begins accepting their weight. If you sweep too early (while the foot is still in the air), there's no base to remove. If you sweep too late (after weight is fully settled), they can adjust and maintain balance. The optimal moment is the instant of contact when their commitment is irreversible but their structure is still vulnerable."
+      },
+      {
+        "question": "Why is the 45-degree angle positioning important for Deashi Harai execution?",
+        "answer": "The 45-degree angle is crucial because it creates the optimal mechanical advantage for both the sweeping action and the directional control with your grips. This angle allows your sweeping leg to move in a natural arc across their ankle while your grips can pull them backward and slightly to the side, creating a rotational force they cannot counter. Being square to them (0 degrees) or perpendicular (90 degrees) makes the sweep mechanically awkward and less effective."
+      },
+      {
+        "question": "How should the sweeping action feel during proper execution?",
+        "answer": "The sweeping action should feel like a light brushing or wiping motion rather than a forceful kick. You're using timing and placement to remove their base at the vulnerable moment, not overpowering their structure with force. Many practitioners describe it as feeling effortless when timed correctly—the opponent almost seems to fall on their own because you've simply removed the support their weight was committing to."
+      },
+      {
+        "question": "What should you do with your grips if the opponent successfully defends the sweep by pulling their leg back?",
+        "answer": "Maintain your grips and immediately flow to an alternative technique that capitalizes on their backward movement and now-weighted rear leg. Options include Kosoto Gari or Kouchi Gari on the rear leg, or using their backward momentum to break their balance directly backward with forward pressure from your grips. The key is not to abandon your grips and start over, but to maintain connection and adapt to their defensive movement."
+      },
+      {
+        "question": "How does Deashi Harai differ from more forceful Judo throws in terms of technical execution?",
+        "answer": "Deashi Harai relies on precise timing, minimal force, and perfect synchronization rather than explosive power or body commitment. Unlike throws like Seoi Nage or Harai Goshi where you turn in and load the opponent onto your body, Deashi Harai keeps you in a relatively upright, balanced position throughout. This makes it safer for BJJ practitioners who may not have extensive ukemi (breakfall) training and allows easier transition to ground control after the takedown."
+      },
+      {
+        "question": "What are the primary grip responsibilities during the execution phase of Deashi Harai?",
+        "answer": "The collar grip's primary responsibility is to lift upward and pull backward, creating elevation that prevents the opponent from lowering their center of gravity or posting with their hands. The sleeve grip drives downward and across their body, creating rotational force and preventing them from using that arm for balance recovery. These actions must occur simultaneously with the foot sweep, creating a coordinated three-point disruption of their structure that makes recovery impossible."
+      },
+      {
+        "question": "Your opponent posts their hand on the mat as they begin to fall from your Deashi Harai—how do you adjust?",
+        "answer": "If the opponent posts their hand, your upper body grip work was insufficient. Increase the lifting and backward pull with your collar grip to elevate their posture and deny the posting hand access to the mat. If the post is already established, maintain your grips and immediately circle toward the posted arm side to collapse it, or transition to a second sweep attempt on their remaining base leg. The post indicates you need to emphasize the tsurikomi (lifting-pulling) action more aggressively in your grip work."
+      },
+      {
+        "question": "What specific grip configuration gives you the best control for chaining Deashi Harai with Kouchi Gari?",
+        "answer": "A standard collar-and-sleeve configuration works best for this combination because it allows rapid directional changes in your kuzushi (off-balancing). For Deashi Harai, you pull backward and to the side with the collar grip. When the opponent defends by pulling their lead foot back and weighting their rear leg, you maintain the same grips but redirect the pull forward and downward toward the now-weighted rear foot for Kouchi Gari. The sleeve grip prevents them from posting throughout both attempts, making it a seamless two-attack sequence."
+      },
+      {
+        "question": "How do you create the forward weight transfer in an opponent who is being defensive and keeping their weight back?",
+        "answer": "Against a backward-leaning opponent, use a sequence of grip manipulations rather than a single pull. First, apply strong forward pushing pressure through both grips to force them to brace backward, then abruptly switch to a sharp backward pull. The opponent's reflexive forward correction to regain balance after your push creates the weight transfer onto the lead foot. You can also take a deliberate backstep to create space they instinctively step forward to close. The key is creating a push-pull rhythm that eventually catches their forward step."
+      },
+      {
+        "question": "What should your support leg be doing during the sweeping phase of Deashi Harai?",
+        "answer": "Your support leg must remain firmly planted with a slight knee bend, bearing your full body weight on the ball of the foot. It serves as the stable axis around which the entire technique rotates. The knee should be slightly bent to lower your center of gravity and absorb any balance disruption. Never allow your support leg to drift, lock straight, or lift onto the toes, as this compromises your base and makes you vulnerable to counter-throws. After the sweep connects, the support leg becomes your lead leg for following the opponent to the ground."
+      }
+    ],
+    "safety_considerations": "Deashi Harai is generally one of the safer takedown techniques for both the thrower and the person being thrown, but several safety considerations remain important. First, maintain grip connection throughout the entire technique to control the speed and direction of your partner's fall—never execute the sweep and then release grips, as this can result in uncontrolled backward falls that risk head injury. Second, ensure adequate mat space behind the opponent before attempting the technique in training. Third, both practitioners should have basic understanding of breakfall techniques (ukemi), particularly the backward breakfall, as this is the primary falling pattern from this throw. When first learning, practice on soft mats or crash pads until the mechanics are reliable. For the person being thrown, resist the urge to post backward with your hands during the fall, as this can result in wrist or elbow injuries—instead, execute proper breakfall by slapping the mat with your arms. Finally, when drilling with newer partners, control the speed and force of the throw to match their skill level and falling ability."
+  },
+  "defender": {
+    "name": "Deashi Harai Defender",
+    "description": "How to defend against Deashi Harai in BJJ. Recognition cues, defensive options, and escape strategies.",
+    "overview": "Defending against Deashi Harai requires an understanding of the biomechanical principles that make foot sweeps effective and the ability to recognize the setup phase before the sweep arrives. Because Deashi Harai depends entirely on timing and weight distribution, the defender's primary advantage lies in disrupting the attacker's timing window and denying the weight transfer conditions that make the technique possible. Unlike defending against powerful throws where you must absorb force, Deashi Harai defense is about denying the precise conditions your opponent needs.\n\nThe defensive framework for Deashi Harai operates on three levels: prevention through grip denial and stance management, reaction through base recovery and weight redistribution when the sweep is initiated, and counter-offense through capitalizing on the attacker's commitment to create your own offensive opportunities. At the prevention level, maintaining a low athletic stance with active footwork prevents the static weight transfer the attacker needs. At the reaction level, developing the proprioceptive awareness to feel when your base is being attacked and instantly lighten or retract the targeted leg is essential. At the counter level, recognizing that the attacker's sweeping leg is temporarily non-weight-bearing creates windows for your own throws or takedowns.\n\nFor experienced practitioners, Deashi Harai defense also involves understanding the common combinations your opponent will chain when the initial sweep fails. Knowing that a defended Deashi Harai often leads to Kosoto Gari, Kouchi Gari, or Osoto Gari allows you to prepare secondary defenses and avoid being caught by follow-up attacks that exploit your defensive adjustments.",
+    "key_principles": [
+      "Maintain a low, dynamic stance with weight distributed across both feet to deny the single-leg weight commitment your opponent needs",
+      "Keep active footwork with short steps rather than long strides that create exploitable weight transfer windows",
+      "Control the grip battle to deny your opponent the collar and sleeve configuration required for coordinated upper-lower body attacks",
+      "Develop proprioceptive awareness in your lead leg to detect the sweep contact early and react before your weight fully commits",
+      "When a sweep is initiated, redirect your weight immediately to your rear leg rather than trying to resist the sweeping force directly",
+      "Recognize that defending one foot sweep often creates vulnerability to another, so prepare for combination attacks rather than treating each sweep in isolation"
+    ],
+    "recognition_cues": [
+      "Opponent establishes a strong collar grip and begins applying subtle upward-backward pulling pressure, combined with a sleeve grip that drives across your body—this tsurikomi action is the primary setup for the sweep",
+      "Opponent pivots their body to create a 45-degree angle to your centerline while maintaining grips, positioning their sweeping-side leg within arc distance of your lead ankle—this angular repositioning is the clearest telegraphing cue",
+      "Opponent takes a deliberate backstep or applies push-pull rhythm through their grips to encourage you to step forward—any deliberate provocation of forward movement when they hold strong grips signals a foot sweep attempt",
+      "Opponent's eyes track your feet or their weight shifts onto their rear support leg as they prepare to extend the sweeping leg—this momentary weight redistribution is a late but reliable indicator"
+    ],
+    "defensive_options": [
+      {
+        "action": "Retract lead leg and redistribute weight to rear foot as you feel the sweep contact approaching your ankle",
+        "when_to_use": "When you detect the sweep early enough that your weight has not yet fully committed to the lead foot—typically when you feel the opponent's grips tighten and their body angle shifts",
+        "targets_outcome": "Standing Position/Top",
+        "if_successful": "You remain standing with your opponent having committed to a failed technique, creating an opening to attack with your own grip advantages or takedown while they recover position",
+        "risk": "Your rear leg becomes heavily weighted during the retraction, making you vulnerable to follow-up attacks like Kosoto Gari or Kouchi Gari on that leg"
+      },
+      {
+        "action": "Break the controlling sleeve grip before the sweep can be coordinated, then immediately re-engage with your own dominant grips",
+        "when_to_use": "During the setup phase when you recognize the opponent establishing the grip configuration needed for the sweep—before they have initiated any sweeping action",
+        "targets_outcome": "Standing Position/Top",
+        "if_successful": "The opponent cannot coordinate the upper and lower body actions needed for an effective sweep, forcing them to re-establish grips before any further attack attempts",
+        "risk": "Momentary loss of your own grips during the break leaves both players in neutral grip-fighting position, which a skilled opponent may exploit"
+      },
+      {
+        "action": "Counter-throw by driving forward into your opponent as they lift their sweeping leg off the ground, exploiting their single-leg base with Ouchi Gari or a body lock takedown",
+        "when_to_use": "When the opponent has already committed to the sweep and their sweeping foot is off the mat—they are momentarily on one leg and vulnerable to forward pressure",
+        "targets_outcome": "Standing Position/Bottom",
+        "if_successful": "You achieve a takedown or reversal by capitalizing on their compromised single-leg base, potentially scoring points and establishing top position",
+        "risk": "If your timing is off and you drive forward into a sweep that is already connecting, you accelerate your own fall and make the takedown worse for yourself"
+      },
+      {
+        "action": "Lower your center of gravity by bending your knees and widening your stance while pulling your opponent's upper body down with your grips to deny the lifting action",
+        "when_to_use": "When you feel the upward lift through the collar grip that precedes the sweep—this is a late-stage defense when retraction is no longer possible",
+        "targets_outcome": "Standing Position/Top",
+        "if_successful": "Your lowered base absorbs the sweep without losing balance, and the opponent must abandon the technique and reset",
+        "risk": "The lowered stance may create opportunities for the opponent to transition to a different throw like Harai Goshi or snap you down to a front headlock"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Standing Position/Top",
+        "how": "Break the opponent's controlling grips early in the setup phase or retract your lead leg as soon as you detect the sweep initiation. Immediately re-establish your own dominant grips and capitalize on their failed technique by attacking with your own takedown while they are recovering their stance and position. The key is maintaining composure and using their failed attempt as your offensive opportunity rather than simply resetting to neutral."
+      },
+      {
+        "outcome": "Standing Position/Bottom",
+        "how": "Time a counter-throw such as Ouchi Gari or a forward body lock drive at the exact moment the opponent commits their sweeping leg off the ground. Their single-leg base during the sweep execution is their most vulnerable moment. Drive your weight forward into their support leg while they cannot adjust, using their own commitment against them to achieve a takedown reversal."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Taking long forward strides while engaged in grips, creating predictable weight transfer patterns",
+        "consequence": "Each long stride creates an extended window where your full weight commits to the advancing foot, giving the opponent a large timing window to execute the sweep with high success probability",
+        "correction": "Use short, shuffling steps that keep your weight centered between both feet. Never fully commit your weight to a single foot while an opponent has collar and sleeve grips established. Move with your hips underneath you rather than reaching forward with your lead leg."
+      },
+      {
+        "error": "Attempting to resist the sweep by stiffening the targeted leg against the sweeping force",
+        "consequence": "Bracing against the sweep anchors your foot to the mat and makes the opponent's technique more effective, as your rigid leg provides a fixed point for them to sweep against rather than a moving target",
+        "correction": "Allow the targeted leg to be light and mobile. If you feel sweep contact, immediately lift and retract the foot rather than pressing it down into the mat. Think of making your leg feel like sweeping through air rather than giving them something solid to push against."
+      },
+      {
+        "error": "Ignoring the grip setup and only reacting to the actual sweep motion",
+        "consequence": "By the time you feel the sweep on your ankle, the opponent's upper body control has already compromised your balance, making last-second defensive reactions far less effective",
+        "correction": "Address the grips first—the sweep cannot work without coordinated upper body control. Strip the sleeve grip or neutralize the collar grip's lifting action before the sweep is ever attempted. The grip fight is where Deashi Harai is actually won or lost."
+      },
+      {
+        "error": "Leaning backward away from the opponent when sensing a sweep attempt",
+        "consequence": "Backward lean shifts your weight onto your heels and removes your ability to retract the lead leg, actually making the sweep easier to complete as your balance is already compromised backward",
+        "correction": "Maintain a slight forward lean with your weight on the balls of your feet. If you need to create distance, step backward with active footwork rather than leaning. Your posture should stay athletic and centered regardless of the opponent's attack."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Why is breaking the sleeve grip more important than breaking the collar grip when defending against Deashi Harai?",
+        "answer": "The sleeve grip controls the rotational force that prevents you from posting or recovering balance once the sweep connects. Without the sleeve grip, the opponent cannot drive your arm across your body or prevent you from using that arm for balance recovery. While the collar grip provides the lifting action, a sweep with only a collar grip gives you a free arm to post, step through, or push away. Removing the sleeve grip eliminates the coordinated three-point attack that makes the technique effective."
+      },
+      {
+        "question": "Your opponent has attempted Deashi Harai and you successfully retracted your lead leg—what should you expect next and how do you prepare?",
+        "answer": "Expect an immediate follow-up attack on your now heavily-weighted rear leg, most likely Kosoto Gari or Kouchi Gari. When you retract your lead leg, all your weight shifts to the rear foot, creating the exact weight-commitment condition your opponent needs for a different sweep. Prepare by immediately redistributing your weight back to center, stepping your retracted foot down quickly to re-establish a balanced base, and maintaining your grip control to limit their ability to redirect their kuzushi. Anticipating the combination is more important than celebrating your successful defense."
+      },
+      {
+        "question": "At what point in the Deashi Harai sequence is counter-attacking most viable, and what makes this timing window effective?",
+        "answer": "The optimal counter-attack window is the instant the opponent lifts their sweeping foot from the mat to initiate the arc toward your ankle. At this moment, they are standing on a single support leg with their weight committed to the sweep direction, making them highly vulnerable to forward pressure. A well-timed Ouchi Gari or forward drive into their support leg exploits their compromised base. This window is narrow—too early and they haven't committed, too late and the sweep has already connected. Reading the angular positioning and grip tightening that precede the sweep helps you anticipate this moment."
+      },
+      {
+        "question": "How does stance width affect your vulnerability to Deashi Harai, and what is the optimal defensive stance?",
+        "answer": "A stance that is too narrow makes you unstable and easy to off-balance with grip manipulation, while a stance that is too wide creates long, committed weight transfers between steps that give the opponent large timing windows. The optimal defensive stance is approximately shoulder-width with a slight stagger, knees bent to lower center of gravity, and weight distributed 50/50 between both feet on the balls of your feet. This allows rapid weight redistribution without committing fully to either leg. Crucially, avoid locking into any single stance configuration—keep your feet alive with subtle adjustments."
+      },
+      {
+        "question": "What is the difference between defending Deashi Harai in gi versus no-gi, and how should your defensive priorities shift?",
+        "answer": "In gi, the opponent has persistent sleeve and collar grips that allow sustained kuzushi control, meaning the threat is ongoing as long as grips are maintained. Your primary defense is grip fighting to deny the controlling configuration. In no-gi, the opponent relies on collar ties, wrist control, and overhooks that are more transient and easier to break but require closer distance. No-gi Deashi Harai typically comes from clinch range with less warning. Your defensive priorities shift from grip breaking (gi) to distance management and head position (no-gi), since the collar tie is the primary control mechanism that replaces the gi collar grip."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2: Recognition and Base Awareness",
+        "focus": "Identifying Deashi Harai setups and maintaining defensive stance",
+        "description": "Partner slowly demonstrates the full Deashi Harai setup sequence while you practice recognizing each phase: grip establishment, angle creation, and sweep initiation. Focus on feeling the grip changes and weight manipulation through your body rather than watching their feet. Practice maintaining athletic stance with active footwork while partner applies progressive grip pressure. 15-20 repetitions per session of partner setting up the sweep while you call out the phase you detect."
+      },
+      {
+        "phase": "Week 3-4: Reactive Defense Drilling",
+        "focus": "Executing defensive responses to live sweep attempts",
+        "description": "Partner attempts Deashi Harai at moderate speed while you practice the three defensive responses: lead leg retraction, grip breaking, and base widening. Partner provides feedback on which defense was appropriate for the timing of your reaction. Begin practicing weight redistribution after successful defense to avoid combination attacks. 10-15 attempts per session with partner varying timing and setup intensity."
+      },
+      {
+        "phase": "Week 5-6: Combination Defense and Counter-Offense",
+        "focus": "Defending sweep chains and initiating counter-attacks",
+        "description": "Partner chains Deashi Harai with follow-up attacks (Kosoto Gari, Kouchi Gari, Osoto Gari) based on your defensive reaction. Practice reading which follow-up is coming based on your own defensive movement and the opponent's grip adjustments. Begin timing counter-throws during opponent's single-leg phase. 8-12 full combination exchanges per session with increasing speed and resistance."
+      },
+      {
+        "phase": "Week 7+: Live Standup Sparring with Defensive Focus",
+        "focus": "Applying Deashi Harai defense in fully live training",
+        "description": "Engage in full standup sparring rounds where you specifically monitor for foot sweep setups while maintaining your own offensive game. Track how often you successfully identify and defend sweep attempts versus being caught. Partner does not limit their attacks to Deashi Harai alone, requiring you to integrate this defense into your overall standup awareness. Review after each round which sweeps were defended and which succeeded, and why."
+      }
+    ]
+  },
   "variants_and_adaptations": [
     {
       "variant_name": "No-Gi Deashi Harai",
@@ -182,97 +432,5 @@
       "when_to_use": "As backup option when guard pull is defended and opponent pursues you to ground"
     }
   ],
-  "knowledge_assessment": [
-    {
-      "question": "What is the most critical timing element for successful execution of Deashi Harai?",
-      "answer": "The most critical timing element is catching the opponent's lead foot at the exact moment it plants and begins accepting their weight. If you sweep too early (while the foot is still in the air), there's no base to remove. If you sweep too late (after weight is fully settled), they can adjust and maintain balance. The optimal moment is the instant of contact when their commitment is irreversible but their structure is still vulnerable."
-    },
-    {
-      "question": "Why is the 45-degree angle positioning important for Deashi Harai execution?",
-      "answer": "The 45-degree angle is crucial because it creates the optimal mechanical advantage for both the sweeping action and the directional control with your grips. This angle allows your sweeping leg to move in a natural arc across their ankle while your grips can pull them backward and slightly to the side, creating a rotational force they cannot counter. Being square to them (0 degrees) or perpendicular (90 degrees) makes the sweep mechanically awkward and less effective."
-    },
-    {
-      "question": "How should the sweeping action feel during proper execution?",
-      "answer": "The sweeping action should feel like a light brushing or wiping motion rather than a forceful kick. You're using timing and placement to remove their base at the vulnerable moment, not overpowering their structure with force. Many practitioners describe it as feeling effortless when timed correctly—the opponent almost seems to fall on their own because you've simply removed the support their weight was committing to."
-    },
-    {
-      "question": "What should you do with your grips if the opponent successfully defends the sweep by pulling their leg back?",
-      "answer": "Maintain your grips and immediately flow to an alternative technique that capitalizes on their backward movement and now-weighted rear leg. Options include Kosoto Gari or Kouchi Gari on the rear leg, or using their backward momentum to break their balance directly backward with forward pressure from your grips. The key is not to abandon your grips and start over, but to maintain connection and adapt to their defensive movement."
-    },
-    {
-      "question": "How does Deashi Harai differ from more forceful Judo throws in terms of technical execution?",
-      "answer": "Deashi Harai relies on precise timing, minimal force, and perfect synchronization rather than explosive power or body commitment. Unlike throws like Seoi Nage or Harai Goshi where you turn in and load the opponent onto your body, Deashi Harai keeps you in a relatively upright, balanced position throughout. This makes it safer for BJJ practitioners who may not have extensive ukemi (breakfall) training and allows easier transition to ground control after the takedown."
-    },
-    {
-      "question": "What are the primary grip responsibilities during the execution phase of Deashi Harai?",
-      "answer": "The collar grip's primary responsibility is to lift upward and pull backward, creating elevation that prevents the opponent from lowering their center of gravity or posting with their hands. The sleeve grip drives downward and across their body, creating rotational force and preventing them from using that arm for balance recovery. These actions must occur simultaneously with the foot sweep, creating a coordinated three-point disruption of their structure that makes recovery impossible."
-    }
-  ],
-  "safety_considerations": "Deashi Harai is generally one of the safer takedown techniques for both the thrower and the person being thrown, but several safety considerations remain important. First, maintain grip connection throughout the entire technique to control the speed and direction of your partner's fall—never execute the sweep and then release grips, as this can result in uncontrolled backward falls that risk head injury. Second, ensure adequate mat space behind the opponent before attempting the technique in training. Third, both practitioners should have basic understanding of breakfall techniques (ukemi), particularly the backward breakfall, as this is the primary falling pattern from this throw. When first learning, practice on soft mats or crash pads until the mechanics are reliable. For the person being thrown, resist the urge to post backward with your hands during the fall, as this can result in wrist or elbow injuries—instead, execute proper breakfall by slapping the mat with your arms. Finally, when drilling with newer partners, control the speed and force of the throw to match their skill level and falling ability.",
-  "position_integration": "Deashi Harai serves as a fundamental component of a complete BJJ standup system, bridging the gap between pure Judo throwing techniques and the ground-focused strategy of Brazilian Jiu-Jitsu. Unlike more physically demanding throws, Deashi Harai's minimal strength requirement makes it accessible across all body types and ages, fitting perfectly into BJJ's emphasis on technique over athleticism. The technique integrates seamlessly with guard pulling strategies—practitioners can use the threat of Deashi Harai to create defensive reactions that make guard pulls more successful, or execute the sweep partially to facilitate controlled guard entries. In the broader context of position hierarchy, Deashi Harai represents an offensive takedown option that scores points in competition while establishing the top position that BJJ strategy prioritizes. The technique chains naturally with other foot sweeps (Kosoto Gari, Kouchi Gari, Sasae Tsurikomi Ashi) creating a comprehensive ashi-waza (foot technique) system where each technique sets up the others. Additionally, failed Deashi Harai attempts often create opportunities for front headlock positions, arm drags, or snap-downs, meaning it remains productive even when not completed successfully. For practitioners building a complete game, Deashi Harai fills the critical niche of a high-percentage, low-risk takedown that doesn't require extensive Judo background or exceptional athletic ability to execute effectively.",
-  "related_content": [
-    {
-      "name": "Kosoto Gari",
-      "relationship": "Alternative sweep targeting rear leg when Deashi Harai is defended"
-    },
-    {
-      "name": "Kouchi Gari",
-      "relationship": "Combination technique that works inside while Deashi Harai works outside"
-    },
-    {
-      "name": "Sasae Tsurikomi Ashi",
-      "relationship": "Similar foot sweep with blocking action rather than sweeping motion"
-    },
-    {
-      "name": "Osoto Gari",
-      "relationship": "Follow-up technique when opponent steps back to defend Deashi Harai"
-    },
-    {
-      "name": "Single Leg Takedown",
-      "relationship": "Alternative takedown when foot sweeps are consistently defended"
-    },
-    {
-      "name": "Snap Down",
-      "relationship": "Setup technique that creates forward pressure for Deashi Harai opportunity"
-    },
-    {
-      "name": "Guard Pull",
-      "relationship": "Alternative engagement strategy that can be facilitated by Deashi Harai off-balancing"
-    },
-    {
-      "name": "Side Control",
-      "relationship": "Primary position to establish after successful Deashi Harai execution"
-    },
-    {
-      "name": "Front Headlock",
-      "relationship": "Backup position when opponent sprawls in defense of sweep"
-    },
-    {
-      "name": "Takedown Defense",
-      "relationship": "Understanding defensive principles helps recognize when opponent is vulnerable to Deashi Harai"
-    },
-    {
-      "name": "Timing and Rhythm",
-      "relationship": "Core concept that determines success or failure of this timing-dependent technique"
-    }
-  ],
-  "from_position": "Standing Position/Top",
-  "outcomes": [
-    {
-      "to": "Side Control/Top",
-      "probability": 70,
-      "result": "success"
-    },
-    {
-      "to": "Standing Position/Top",
-      "probability": 20,
-      "result": "failure"
-    },
-    {
-      "to": "Standing Position/Bottom",
-      "probability": 10,
-      "result": "counter"
-    }
-  ],
-  "success_rate": 60
+  "position_integration": "Deashi Harai serves as a fundamental component of a complete BJJ standup system, bridging the gap between pure Judo throwing techniques and the ground-focused strategy of Brazilian Jiu-Jitsu. Unlike more physically demanding throws, Deashi Harai's minimal strength requirement makes it accessible across all body types and ages, fitting perfectly into BJJ's emphasis on technique over athleticism. The technique integrates seamlessly with guard pulling strategies—practitioners can use the threat of Deashi Harai to create defensive reactions that make guard pulls more successful, or execute the sweep partially to facilitate controlled guard entries. In the broader context of position hierarchy, Deashi Harai represents an offensive takedown option that scores points in competition while establishing the top position that BJJ strategy prioritizes. The technique chains naturally with other foot sweeps (Kosoto Gari, Kouchi Gari, Sasae Tsurikomi Ashi) creating a comprehensive ashi-waza (foot technique) system where each technique sets up the others. Additionally, failed Deashi Harai attempts often create opportunities for front headlock positions, arm drags, or snap-downs, meaning it remains productive even when not completed successfully. For practitioners building a complete game, Deashi Harai fills the critical niche of a high-percentage, low-risk takedown that doesn't require extensive Judo background or exceptional athletic ability to execute effectively."
 }

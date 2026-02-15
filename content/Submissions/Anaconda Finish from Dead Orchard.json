@@ -1,0 +1,151 @@
+{
+  "name": "Anaconda Finish from Dead Orchard",
+  "description": "TODO: Write 150-160 character SEO description for Anaconda Finish from Dead Orchard.",
+  "tags": [
+    "bjj",
+    "submission",
+    "TODO"
+  ],
+  "submission_category": "Choke",
+  "submission_type": "Choke",
+  "target_area": "Neck",
+  "starting_position": "Dead Orchard Control",
+  "from_position": "Dead Orchard Control/Top",
+  "from_positions": ["Dead Orchard Control", "Front Headlock", "Turtle"],
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Dead Orchard Control/Top",
+      "probability": 45,
+      "result": "failure"
+    }
+  ],
+  "success_rate": 50,
+  "overview": "TODO: Write overview for Anaconda Finish from Dead Orchard.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "TODO",
+        "severity": "Medium",
+        "recovery_time": "TODO"
+      }
+    ],
+    "application_speed": "SLOW and progressive. Never spike or jerk the submission.",
+    "tap_signals": [
+      "Verbal tap (saying 'tap' or any distress signal)",
+      "Physical hand tap on partner or mat",
+      "Physical foot tap with free leg",
+      "Any unusual screaming or distress vocalization"
+    ],
+    "release_protocol": [
+      "Release immediately upon any tap signal",
+      "If in doubt, release - position can be re-established"
+    ],
+    "training_restrictions": [
+      "TODO"
+    ]
+  },
+  "related_content": [
+    {
+      "name": "TODO",
+      "relationship": "TODO"
+    }
+  ],
+  "attacker": {
+    "name": "Anaconda Finish from Dead Orchard Attacker",
+    "description": "TODO: Write attacker description for Anaconda Finish from Dead Orchard.",
+    "overview": "TODO: Write attacker overview for Anaconda Finish from Dead Orchard.",
+    "key_principles": [
+      "TODO"
+    ],
+    "setup_requirements": [
+      "TODO"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "TODO",
+        "description": "TODO"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "TODO",
+        "effectiveness": "Medium",
+        "your_response": "TODO",
+        "targets_outcome": "Dead Orchard Control/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "TODO",
+        "description": "TODO"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "TODO",
+        "answer": "TODO"
+      }
+    ],
+    "safety_considerations": "TODO: Write safety considerations for Anaconda Finish from Dead Orchard."
+  },
+  "defender": {
+    "name": "Anaconda Finish from Dead Orchard Defender",
+    "description": "TODO: Write defender description for Anaconda Finish from Dead Orchard.",
+    "overview": "TODO: Write defender overview for Anaconda Finish from Dead Orchard.",
+    "key_principles": [
+      "TODO"
+    ],
+    "recognition_cues": [
+      "TODO"
+    ],
+    "defensive_options": [
+      {
+        "action": "TODO",
+        "when_to_use": "TODO",
+        "targets_outcome": "Dead Orchard Control/Top",
+        "if_successful": "TODO",
+        "risk": "TODO"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Dead Orchard Control/Top",
+        "how": "TODO"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "TODO",
+        "answer": "TODO"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "TODO",
+        "description": "TODO"
+      }
+    ]
+  }
+}

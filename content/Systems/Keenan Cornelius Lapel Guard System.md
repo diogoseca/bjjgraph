@@ -336,8 +336,8 @@ The lapel guard system requires a structured drilling progression that builds fr
 - [[Triangle Setup]] (Transition) - Submission attack available from specific lapel entanglement positions
 - [[Omoplata Sweep]] (Transition) - Alternative attacking option when opponent defends primary lapel sweeps
 - [[Guard Pull]] (Transition) - Entry method for establishing lapel guards from standing positions
-- [[Lasso Guard Sweeps]] (Transition) - Similar mechanical principles that complement lapel-based sweep mechanics
-- [[Back Take Generic]] (Transition) - General back taking principles applied through lapel control advantages
+- [[Lasso Guard Pass]] (Transition) - Similar mechanical principles that complement lapel-based sweep mechanics
+- [[Back Take]] (Transition) - General back taking principles applied through lapel control advantages
 - [[Triangle to Back]] (Transition) - Secondary attacking sequence available from certain lapel entanglements
 - [[Grip Strategy]] (Principle) - Fundamental principle governing all lapel control and fighting sequences
 - [[Collar Control]] (Principle) - Core control principle that extends to lapel manipulation and grip fighting

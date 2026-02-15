@@ -276,35 +276,43 @@
     "transitions": [
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "Long Step Pass",
-        "attempt_probability": 14
-      },
-      {
-        "transition": "Leg Drag Pass",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Stack Pass",
         "attempt_probability": 11
       },
       {
+        "transition": "Long Step Pass",
+        "attempt_probability": 22
+      },
+      {
+        "transition": "Leg Drag Pass",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Stack Pass",
+        "attempt_probability": 9
+      },
+      {
         "transition": "Pressure Pass",
-        "attempt_probability": 13
+        "attempt_probability": 11
       },
       {
         "transition": "X Pass",
-        "attempt_probability": 12
+        "attempt_probability": 10
       },
       {
         "transition": "Knee Through",
-        "attempt_probability": 12
+        "attempt_probability": 10
       },
       {
         "transition": "Smash Pass",
-        "attempt_probability": 13
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Pass Shin-to-Shin Guard",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Pressure from Shin-to-Shin",
+        "attempt_probability": 2
       }
     ],
     "knowledge_assessment": [
@@ -579,43 +587,51 @@
     "transitions": [
       {
         "transition": "Single Leg X Entry",
-        "attempt_probability": 11
+        "attempt_probability": 24
       },
       {
         "transition": "X-Guard Sweep",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Butterfly Sweep",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Outside Ashi Entry",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "De La Riva Sweep",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Technical Stand Up to Single Leg",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Omoplata Sweep",
         "attempt_probability": 8
       },
       {
+        "transition": "Butterfly Sweep",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Outside Ashi Entry",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "De La Riva Sweep",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Technical Stand Up to Single Leg",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Omoplata Sweep",
+        "attempt_probability": 6
+      },
+      {
         "transition": "Shin to Shin Pull",
-        "attempt_probability": 10
+        "attempt_probability": 8
       },
       {
         "transition": "Hook Sweep",
-        "attempt_probability": 10
+        "attempt_probability": 8
       },
       {
         "transition": "Tripod Sweep",
-        "attempt_probability": 10
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Shin-to-Shin Sweep",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Shin-to-Shin to Single Leg X",
+        "attempt_probability": 2
       }
     ],
     "knowledge_assessment": [

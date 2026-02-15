@@ -4,7 +4,7 @@
 
 ---
 title: "Scarf Hold Position Bottom | BJJ Position Guide | BJJ Graph"
-description: "Escape Scarf Hold Bottom (Kesa Gatame) in BJJ. Defensive position requiring bridge-and-turn mechanics, arm recovery, and backdoor escape timing. Learn systematic escapes with 45% success rate."
+description: "Escape Scarf Hold Bottom (Kesa Gatame) in BJJ. Defensive position requiring bridge-and-turn mechanics, arm recovery, and backdoor escape timing. Learn systematic escapes with 55% advancement rate."
 ---
 
 
@@ -26,14 +26,14 @@ description: "Escape Scarf Hold Bottom (Kesa Gatame) in BJJ. Defensive position 
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Elbow Escape",
-      "text": "From this position, attempt Elbow Escape. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Elbow Escape to Guard",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape",
-      "text": "From this position, attempt Hip Escape. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Hip Escape to Guard",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
@@ -44,8 +44,8 @@ description: "Escape Scarf Hold Bottom (Kesa Gatame) in BJJ. Defensive position 
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Frame and Shrimp",
-      "text": "From this position, attempt Frame and Shrimp. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Frame and Shrimp to Guard",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 16% of exchanges from this position.",
       "position": 5
     },
     {
@@ -115,7 +115,7 @@ description: "Escape Scarf Hold Bottom (Kesa Gatame) in BJJ. Defensive position 
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Scarf Hold Position Bottom",
-  "description": "Escape Scarf Hold Bottom (Kesa Gatame) in BJJ. Defensive position requiring bridge-and-turn mechanics, arm recovery, and backdoor escape timing. Learn systematic escapes with 45% success rate.",
+  "description": "Escape Scarf Hold Bottom (Kesa Gatame) in BJJ. Defensive position requiring bridge-and-turn mechanics, arm recovery, and backdoor escape timing. Learn systematic escapes with 55% advancement rate.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -212,13 +212,13 @@ Scarf Hold Bottom presents both immediate submission dangers through arm locks (
 
 ### [[Bridge and Roll]] (16% of attempts)
 
-### [[Elbow Escape]] (18% of attempts)
+### [[Elbow Escape to Guard]] (18% of attempts)
 
-### [[Hip Escape]] (15% of attempts)
+### [[Hip Escape to Guard]] (15% of attempts)
 
 ### [[Ghost Escape]] (16% of attempts)
 
-### [[Frame and Shrimp]] (16% of attempts)
+### [[Frame and Shrimp to Guard]] (16% of attempts)
 
 ### [[Turtle Transition]] (19% of attempts)
 
@@ -231,31 +231,31 @@ Scarf Hold Bottom presents both immediate submission dangers through arm locks (
 ## Decision Making from This Position
 
 **If opponent maintains tight control with heavy hip pressure and secure head control without attacking submissions:**
-- Execute **[[Frame and Shrimp]]** → [[Half Guard]] (Probability: 45%)
-- Execute **[[Elbow Escape]]** → [[Half Guard]] (Probability: 50%)
-- Execute **[[Create frames and establish breathing space]]** → [[Scarf Hold Position]] (Probability: 60%)
+- Execute **[[Frame and Shrimp to Guard]]** → [[Half Guard]] (Probability: 45%)
+- Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 50%)
+- Execute **[[Shrimp Escape]]** → [[Scarf Hold Position]] (Probability: 60%)
 
 
 **If opponent shifts weight forward attempting to transition to mount or north-south:**
-- Execute **[[Granby Roll]]** → [[Turtle]] (Probability: 55%)
+- Execute **[[Granby Roll to Guard]]** → [[Turtle]] (Probability: 55%)
 - Execute **[[Ghost Escape]]** → [[Turtle]] (Probability: 50%)
-- Execute **[[Turn into opponent exposing their back]]** → [[Back Control]] (Probability: 40%)
+- Execute **[[Turtle Transition]]** → [[Back Control]] (Probability: 40%)
 
 
 **If opponent releases head control or loosens cross-face to attack far arm for americana or kimura:**
-- Execute **[[Hip Escape]]** → [[Closed Guard]] (Probability: 60%)
-- Execute **[[Re-Guard]]** → [[Half Guard]] (Probability: 55%)
-- Execute **[[Frame and Shrimp]]** → [[Open Guard]] (Probability: 50%)
+- Execute **[[Hip Escape to Guard]]** → [[Closed Guard]] (Probability: 60%)
+- Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 55%)
+- Execute **[[Frame and Shrimp to Guard]]** → [[Open Guard]] (Probability: 50%)
 
 
 **If opponent posts their far arm wide for base or extends back leg creating narrow base:**
 - Execute **[[Bridge and Roll]]** → [[Scramble Position]] (Probability: 55%)
-- Execute **[[Attack posted arm and execute bridge]]** → [[Scramble Position]] (Probability: 50%)
+- Execute **[[Shrimp Escape]]** → [[Scramble Position]] (Probability: 50%)
 
 
 **If opponent sits back heavily on their hip creating space between their chest and your hips:**
 - Execute **[[Turtle Transition]]** → [[Turtle]] (Probability: 60%)
-- Execute **[[Turn into opponent and expose their back]]** → [[Turtle]] (Probability: 55%)
+- Execute **[[Ghost Escape]]** → [[Turtle]] (Probability: 55%)
 
 
 
@@ -385,7 +385,7 @@ Specific training for transitioning from scarf hold bottom to turtle position. P
 - **[[Mount]]** - Higher-risk position opponent may advance to
 - **[[Turtle]]** - Primary escape target offering defensive stability
 - **[[Half Guard]]** - Primary guard recovery target for partial escape
-- **[[Bridge and Roll]]** - Primary escape technique requiring explosive power
+- **[[Bridge and Roll]]** - Primary escape technique requiring explosive power and arm trapping
 
 
 </section>

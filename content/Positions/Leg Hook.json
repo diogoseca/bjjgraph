@@ -157,7 +157,7 @@
         "condition": "Else if bottom player extends arms to push or frame",
         "actions": [
           {
-            "technique": "Kimura from Half Guard",
+            "technique": "Kimura",
             "target": "Kimura Trap",
             "probability": 50
           },
@@ -172,7 +172,7 @@
         "condition": "Else if bottom player attempts to turn away or go to turtle",
         "actions": [
           {
-            "technique": "Back Take Generic",
+            "technique": "Back Take from Top",
             "target": "Back Control",
             "probability": 65
           },
@@ -289,7 +289,7 @@
         "relationship": "Related passing position - similar control concepts with different leg configuration"
       },
       {
-        "name": "Kimura from Half Guard",
+        "name": "Kimura",
         "relationship": "Submission threat - opportunistic submission from this position"
       },
       {
@@ -320,35 +320,35 @@
     "transitions": [
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 18
-      },
-      {
-        "transition": "Leg Drag Pass",
-        "attempt_probability": 14
+        "attempt_probability": 29
       },
       {
         "transition": "Leg Weave Pass",
+        "attempt_probability": 18
+      },
+      {
+        "transition": "Smash Pass",
+        "attempt_probability": 16
+      },
+      {
+        "transition": "Half Guard Pass",
         "attempt_probability": 13
       },
       {
-        "transition": "Side Control to Mount",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Back Take Generic",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Knee on Belly",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "Kimura from Half Guard",
+        "transition": "Pressure Pass",
         "attempt_probability": 10
       },
       {
-        "transition": "Darce Setup",
-        "attempt_probability": 9
+        "transition": "Transition to Flattened Half Guard",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Leg Hook to Half Guard",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Leg Hook to Side Control",
+        "attempt_probability": 2
       }
     ]
   },
@@ -439,7 +439,7 @@
             "probability": 60
           },
           {
-            "technique": "Frame and Shrimp",
+            "technique": "Frame and Shrimp to Guard",
             "target": "Half Guard",
             "probability": 55
           }
@@ -464,7 +464,7 @@
         "condition": "Else if opponent establishes strong crossface and tries to flatten you completely",
         "actions": [
           {
-            "technique": "Lockdown Sweeps",
+            "technique": "Lockdown Recovery",
             "target": "Lockdown",
             "probability": 50
           },
@@ -602,35 +602,43 @@
     "transitions": [
       {
         "transition": "Deep Half Entry",
-        "attempt_probability": 14
+        "attempt_probability": 26
       },
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "Underhook Sweep from Half",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Single Leg X Entry",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "X-Guard to Ashi Transition",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Rolling Back Take",
         "attempt_probability": 10
       },
       {
-        "transition": "Lockdown Sweeps",
-        "attempt_probability": 12
+        "transition": "Underhook Sweep from Half",
+        "attempt_probability": 8
       },
       {
         "transition": "Shin Shield Recovery",
-        "attempt_probability": 15
+        "attempt_probability": 16
+      },
+      {
+        "transition": "Half Guard Recovery",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Guard Recovery",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Butterfly Hook Recovery",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Frame and Shrimp to Guard",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Counter Leg Hook",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Escape Leg Hook",
+        "attempt_probability": 2
       }
     ]
   }

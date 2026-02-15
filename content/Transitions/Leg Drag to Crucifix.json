@@ -14,212 +14,23 @@
   "from_position": "Leg Drag Control/Top",
   "outcomes": [
     {
-      "to": "Crucifix",
+      "to": "Crucifix/Top",
       "probability": 55,
       "result": "success"
     },
     {
-      "to": "Leg Drag Control",
+      "to": "Leg Drag Control/Top",
       "probability": 30,
       "result": "failure"
     },
     {
-      "to": "Half Guard",
+      "to": "Half Guard/Bottom",
       "probability": 15,
       "result": "counter"
     }
   ],
+  "success_rate": 55,
   "overview": "The Leg Drag to Crucifix transition represents an advanced positional advancement that punishes a common defensive error from leg drag bottom. When the opponent attempts to turn into you to recover guard rather than accepting the pass, they often expose their far arm by posting or reaching. This creates the opportunity to capture that arm while simultaneously isolating the near arm with your leg position, resulting in the devastating crucifix control.\n\nThis transition exploits the mechanical vulnerabilities created when someone turns toward you from leg drag bottom. The act of turning requires them to commit weight and create frames, which extends at least one arm away from their centerline. By recognizing this moment and acting decisively, you convert their escape attempt into a worse position. The crucifix that results offers near-certain submission opportunities since both arms are isolated and the neck is completely exposed.\n\nStrategically, this transition creates a powerful dilemma for opponents in leg drag control. If they turn away, you take their back. If they stay flat, you consolidate side control or mount. If they turn into you to recover guard, you threaten crucifix. This three-way fork makes leg drag control particularly oppressive because every defensive choice opens a different attacking pathway. Advanced practitioners use the crucifix threat to force opponents into accepting worse positions rather than risk the arm trap.\n\nThe technique requires sensitivity to feel when the opponent commits to turning in, and the coordination to capture their arm while maintaining leg control and transitioning your body perpendicular to theirs. The entry window is brief, typically lasting only one to two seconds while they're in transition, making timing critical for success.",
-  "key_principles": [
-    "Recognize the turn-in defense early by feeling for hip rotation and arm extension from the bottom player",
-    "Capture the far arm above the elbow before opponent can retract it, using speed and timing rather than strength",
-    "Maintain control of the dragged leg throughout the transition to prevent guard recovery during the capture",
-    "Commit fully once you initiate the arm capture since hesitation allows opponent to withdraw and reset defense",
-    "Transition your body perpendicular to opponent as you capture the arm to establish optimal crucifix angle",
-    "Use the captured arm as a lever to break down opponent's base and complete the positional transition",
-    "Keep constant pressure through your chest and hips to prevent opponent from creating space during the capture"
-  ],
-  "setup_requirements": [
-    "Established leg drag control with opponent's near leg pulled across their body and controlled",
-    "Opponent begins turning into you to recover guard rather than defending the back take",
-    "Far arm extends away from opponent's body as they post or frame during their turn-in attempt",
-    "Your weight positioned to follow their rotation and transition perpendicular to their body",
-    "Free hand available to capture the extended arm while leg maintains control of dragged leg"
-  ],
-  "execution_steps": [
-    {
-      "step_number": 1,
-      "action": "Recognize turn-in",
-      "description": "Feel for the opponent beginning to rotate their hips toward you and extend their far arm to post or frame. This typically occurs when they try to turn in to recover guard rather than accepting the pass or defending the back take."
-    },
-    {
-      "step_number": 2,
-      "action": "Follow rotation",
-      "description": "As opponent turns, follow their movement by shifting your weight and beginning to transition your body perpendicular to theirs. Maintain pressure on their upper body while keeping your leg control of their dragged leg. Do not resist their turn but flow with it."
-    },
-    {
-      "step_number": 3,
-      "action": "Capture far arm",
-      "description": "As their far arm extends for posting or framing, reach over their body and secure control above the elbow using your hand or overhook. Pull the arm toward you while continuing your perpendicular movement. The arm capture must happen while they are committed to the turn."
-    },
-    {
-      "step_number": 4,
-      "action": "Step leg over",
-      "description": "Step your lead leg over their captured arm and torso, placing your foot on the far side of their body. Your thigh should trap their arm against your hip, creating the initial arm isolation that defines the crucifix entry."
-    },
-    {
-      "step_number": 5,
-      "action": "Secure near arm",
-      "description": "Release the dragged leg and use your other leg to triangle around their near arm and torso. The near arm, which was previously defending the leg drag, becomes trapped between your legs. Now both arms are isolated through different mechanisms."
-    },
-    {
-      "step_number": 6,
-      "action": "Consolidate crucifix",
-      "description": "Drive your weight onto opponent's upper body, flattening them or positioning them on their side. Secure wrist control on the far arm with your hands while your legs maintain the near arm trap. Adjust hip position perpendicular to their body for optimal control."
-    },
-    {
-      "step_number": 7,
-      "action": "Establish submission position",
-      "description": "Once both arms are controlled and your weight is settled, begin attacking the exposed neck or either arm. Keep constant pressure to prevent escape while systematically threatening submissions from the crucifix position."
-    }
-  ],
-  "common_counters": [
-    {
-      "counter": "Opponent keeps elbows tight and does not extend arm during turn-in, denying the capture opportunity",
-      "effectiveness": "High",
-      "your_response": "If they turn with tight elbows, take their back since they cannot defend both threats. Their tight arm position actually helps your back take by preventing them from creating distance."
-    },
-    {
-      "counter": "Opponent immediately reverses direction when they feel the arm capture beginning, turning away instead of in",
-      "effectiveness": "Medium",
-      "your_response": "Follow their direction change and pursue the back take which was your alternative anyway. Their reversal exposes the back they were trying to protect."
-    },
-    {
-      "counter": "Opponent explosively frames against your chest during the capture to create separation",
-      "effectiveness": "Medium",
-      "your_response": "Use their frame as additional arm exposure. If they straighten the arm to frame, capture it instead of the original target arm and proceed with the crucifix entry."
-    },
-    {
-      "counter": "Opponent turtles quickly to prevent the crucifix consolidation after you capture the first arm",
-      "effectiveness": "Low",
-      "your_response": "Follow them to turtle and attack crucifix from turtle top instead. Turtle position also offers alternative attacks like clock choke and back takes."
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Releasing leg drag control too early to reach for the arm capture",
-      "consequence": "Opponent recovers guard before you can secure the crucifix, negating the passing progress you had achieved",
-      "correction": "Maintain leg control until the arm capture is secure and you have begun the perpendicular transition"
-    },
-    {
-      "error": "Attempting the capture when opponent's arm is not sufficiently extended",
-      "consequence": "Opponent easily retracts arm and becomes aware of the threat, making them more likely to keep elbows tight",
-      "correction": "Wait for clear arm extension during active turn-in attempt before committing to the capture"
-    },
-    {
-      "error": "Losing chest-to-back pressure during the transition to perpendicular position",
-      "consequence": "Creates space for opponent to escape, recover guard, or reverse position entirely",
-      "correction": "Stay heavy on opponent throughout the transition, driving your weight into them as you change angle"
-    },
-    {
-      "error": "Capturing only one arm and attempting to finish without securing the second arm",
-      "consequence": "Opponent uses free arm to defend submissions and create escapes, reducing crucifix effectiveness dramatically",
-      "correction": "Complete the full crucifix with both arms trapped before attacking submissions"
-    },
-    {
-      "error": "Rushing to attack submissions before consolidating crucifix control",
-      "consequence": "Opponent escapes during your submission attempt because positional control was not secured first",
-      "correction": "Follow position-before-submission principle and fully establish crucifix before attacking"
-    },
-    {
-      "error": "Not following opponent's rotation and fighting against their turn-in movement",
-      "consequence": "Creates scramble situation where opponent may recover guard or escape to turtle",
-      "correction": "Flow with their turn rather than resisting it, using their momentum to achieve perpendicular position"
-    }
-  ],
-  "training_progressions": [
-    {
-      "phase": "Week 1-2",
-      "focus": "Movement pattern",
-      "description": "Practice the transition from leg drag to perpendicular crucifix position without resistance. Partner provides static turn-in position with extended arm. Focus on the body mechanics of releasing the leg, capturing the arm, and stepping over while maintaining connection."
-    },
-    {
-      "phase": "Week 3-4",
-      "focus": "Timing recognition",
-      "description": "Partner actively attempts to turn in from leg drag bottom with light resistance. You practice recognizing the window when their arm extends and capturing it with proper timing. Partner does not retract arm once you initiate capture to allow completion."
-    },
-    {
-      "phase": "Week 5-6",
-      "focus": "Counter integration",
-      "description": "Partner provides realistic defensive reactions including keeping elbows tight, reversing direction, and framing. Practice reading their response and either completing the crucifix or transitioning to back take or side control based on their defense."
-    },
-    {
-      "phase": "Week 7+",
-      "focus": "Live application",
-      "description": "Incorporate the crucifix transition into live rolling from leg drag positions. Work on creating the dilemma by threatening multiple attacks and capitalizing on whichever defense they choose. Practice finishing from completed crucifix."
-    }
-  ],
-  "variants_and_adaptations": [
-    {
-      "variant_name": "Gi Lapel Crucifix Entry",
-      "description": "In gi, use opponent's far lapel to reinforce the arm capture. As you capture their arm, feed the lapel under their arm and around their neck to create additional control points that prevent arm escape during consolidation.",
-      "when_to_use": "When training or competing in gi where lapel grips provide additional security for the arm trap"
-    },
-    {
-      "variant_name": "Step-Over Crucifix",
-      "description": "Instead of flowing with opponent's turn, step completely over their body while capturing the arm, landing in crucifix on the opposite side. This works when opponent commits heavily to the turn and creates significant momentum.",
-      "when_to_use": "When opponent's turn-in is aggressive and their momentum can be used to complete the transition faster"
-    },
-    {
-      "variant_name": "Mounted Crucifix Finish",
-      "description": "If opponent manages to get their back flat to the mat during your crucifix entry, transition to mounted crucifix instead of standard crucifix. This combines mount pressure with arm isolation for enhanced control.",
-      "when_to_use": "When opponent successfully defends standard crucifix angle but you maintain arm control"
-    }
-  ],
-  "knowledge_assessment": [
-    {
-      "question": "What is the primary goal of Leg Drag to Crucifix?",
-      "answer": "The primary goal is to capitalize on opponent's turn-in defense from leg drag bottom by capturing their extended arm and transitioning to crucifix position. This punishes a common defensive error where they try to face you rather than accepting the pass or defending the back take, resulting in both arms isolated and the neck exposed for submissions."
-    },
-    {
-      "question": "What position do you start Leg Drag to Crucifix from?",
-      "answer": "This technique starts from Leg Drag Control/Top position, where you have pulled opponent's near leg across their body and established upper body control. The opportunity arises when the opponent attempts to turn into you to recover guard rather than defending the back take or accepting the pass to side control."
-    },
-    {
-      "question": "What creates the opportunity to attempt the crucifix transition from leg drag?",
-      "answer": "The opportunity arises when the opponent turns into you to recover guard and extends their far arm for posting or framing. This arm extension, which is a natural part of their turn-in defense, creates the window for capture. If they keep elbows tight while turning, take the back instead since they cannot defend both threats simultaneously."
-    },
-    {
-      "question": "What are the essential grips needed for Leg Drag to Crucifix?",
-      "answer": "Initially you need your standard leg drag grips controlling the dragged leg and their upper body. For the crucifix capture, you need to secure their extended far arm above the elbow with your hand or overhook, then transition to controlling their wrist while your legs trap both arms. The near arm gets trapped in a leg triangle while you maintain wrist control on the far arm."
-    },
-    {
-      "question": "How do you shut down the primary counter of opponent keeping elbows tight during turn-in?",
-      "answer": "If opponent keeps elbows tight while turning in, immediately transition to the back take since their tight arm position actually helps you by preventing them from creating distance or frames. The crucifix threat forces them to choose between defending arm exposure and defending back exposure, and tight elbows concedes the back. This creates the dilemma that makes leg drag so effective."
-    },
-    {
-      "question": "When is the optimal timing window to attempt the arm capture?",
-      "answer": "The optimal window is during the one to two seconds when opponent commits to turning in and their far arm extends for posting or framing. Before this, the arm is protected by their body position. After this, they may have completed the turn and retracted the arm. You must recognize the commitment to turn and act while they are in transition, not before they start or after they finish."
-    },
-    {
-      "question": "Your opponent begins to turtle after you capture one arm - how do you adjust?",
-      "answer": "Follow them to turtle and attack the crucifix from turtle top position. The arm you already captured remains controlled, and turtle actually makes it easier to isolate their other arm since they have less mobility. From turtle, you can complete the crucifix or transition to alternative attacks like clock choke, back control, or front headlock if the crucifix entry becomes blocked."
-    },
-    {
-      "question": "What is the correct body positioning as you transition from leg drag to crucifix?",
-      "answer": "You must transition from your leg drag position, which is diagonal to opponent, to a perpendicular position for the crucifix. This requires following their turn rather than fighting it, releasing the dragged leg once the arm is captured, and stepping your leg over their body. Your chest stays connected to their upper back throughout, and your hips end up perpendicular to their torso with weight distributed to prevent bridging escapes."
-    },
-    {
-      "question": "How do you create the dilemma that forces opponent into the crucifix opportunity?",
-      "answer": "From leg drag control, you create a three-way dilemma: if they turn away, you take the back; if they stay flat, you consolidate to side control or mount; if they turn in, you threaten the crucifix. By actively threatening the back take, you force them to turn in for guard recovery. By maintaining pressure that makes staying flat uncomfortable, you force movement. This systematic pressure creates the arm extension that opens the crucifix."
-    },
-    {
-      "question": "What is the correct sequence if opponent frames against your chest during the capture?",
-      "answer": "An extended framing arm is actually an opportunity. If they straighten their arm to push against your chest, capture that arm instead of your original target. The straighter frame arm is often easier to capture than a bent posting arm. Immediately redirect your capture to the framing arm, secure above the elbow, and proceed with the crucifix entry. Their frame becomes your entry point."
-    }
-  ],
-  "safety_considerations": "The Leg Drag to Crucifix transition itself is relatively safe to practice since it involves positional movement rather than joint manipulation. However, the crucifix position that results offers submissions that can cause injury if applied too quickly. When drilling, communicate with your partner about the pace of transitions and allow time for tapping when practicing finishes from the completed crucifix. The arm trapped in the leg triangle is particularly vulnerable to shoulder injuries if the bottom player attempts explosive escapes while fully trapped. Train the escape sequences gradually with increasing resistance rather than having bottom players explode from consolidated crucifix positions. Partners should tap early when practicing submissions from crucifix since the arm isolation makes defense extremely difficult.",
-  "position_integration": "The Leg Drag to Crucifix transition fits into the leg drag passing system as the third fork of a powerful dilemma structure. When you establish leg drag control, you threaten three directions: back take if they turn away, side control or mount if they stay flat, and crucifix if they turn in. This creates a no-win scenario for the bottom player where every defensive choice opens a different attack. The crucifix position connects to submission chains including rear naked choke variations, armbars on both arms, and neck attacks. From crucifix, you can also transition to mount or back control if escapes occur. This makes the leg drag not just a passing position but a complete offensive system where the crucifix serves as the punishment for turn-in defense attempts.",
   "related_content": [
     {
       "name": "Leg Drag Control",
@@ -262,5 +73,326 @@
       "relationship": "Alternative consolidation if crucifix is fully defended"
     }
   ],
-  "success_rate": 55
+  "attacker": {
+    "name": "Leg Drag to Crucifix Attacker",
+    "description": "How to execute Leg Drag to Crucifix in BJJ. Attacking perspective with setup, execution steps, and counters.",
+    "overview": "The Leg Drag to Crucifix transition represents an advanced positional advancement that punishes a common defensive error from leg drag bottom. When the opponent attempts to turn into you to recover guard rather than accepting the pass, they often expose their far arm by posting or reaching. This creates the opportunity to capture that arm while simultaneously isolating the near arm with your leg position, resulting in the devastating crucifix control.\n\nThis transition exploits the mechanical vulnerabilities created when someone turns toward you from leg drag bottom. The act of turning requires them to commit weight and create frames, which extends at least one arm away from their centerline. By recognizing this moment and acting decisively, you convert their escape attempt into a worse position. The crucifix that results offers near-certain submission opportunities since both arms are isolated and the neck is completely exposed.\n\nStrategically, this transition creates a powerful dilemma for opponents in leg drag control. If they turn away, you take their back. If they stay flat, you consolidate side control or mount. If they turn into you to recover guard, you threaten crucifix. This three-way fork makes leg drag control particularly oppressive because every defensive choice opens a different attacking pathway. Advanced practitioners use the crucifix threat to force opponents into accepting worse positions rather than risk the arm trap.\n\nThe technique requires sensitivity to feel when the opponent commits to turning in, and the coordination to capture their arm while maintaining leg control and transitioning your body perpendicular to theirs. The entry window is brief, typically lasting only one to two seconds while they're in transition, making timing critical for success.",
+    "key_principles": [
+      "Recognize the turn-in defense early by feeling for hip rotation and arm extension from the bottom player",
+      "Capture the far arm above the elbow before opponent can retract it, using speed and timing rather than strength",
+      "Maintain control of the dragged leg throughout the transition to prevent guard recovery during the capture",
+      "Commit fully once you initiate the arm capture since hesitation allows opponent to withdraw and reset defense",
+      "Transition your body perpendicular to opponent as you capture the arm to establish optimal crucifix angle",
+      "Use the captured arm as a lever to break down opponent's base and complete the positional transition",
+      "Keep constant pressure through your chest and hips to prevent opponent from creating space during the capture"
+    ],
+    "setup_requirements": [
+      "Established leg drag control with opponent's near leg pulled across their body and controlled",
+      "Opponent begins turning into you to recover guard rather than defending the back take",
+      "Far arm extends away from opponent's body as they post or frame during their turn-in attempt",
+      "Your weight positioned to follow their rotation and transition perpendicular to their body",
+      "Free hand available to capture the extended arm while leg maintains control of dragged leg"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Recognize turn-in",
+        "description": "Feel for the opponent beginning to rotate their hips toward you and extend their far arm to post or frame. This typically occurs when they try to turn in to recover guard rather than accepting the pass or defending the back take."
+      },
+      {
+        "step_number": 2,
+        "action": "Follow rotation",
+        "description": "As opponent turns, follow their movement by shifting your weight and beginning to transition your body perpendicular to theirs. Maintain pressure on their upper body while keeping your leg control of their dragged leg. Do not resist their turn but flow with it."
+      },
+      {
+        "step_number": 3,
+        "action": "Capture far arm",
+        "description": "As their far arm extends for posting or framing, reach over their body and secure control above the elbow using your hand or overhook. Pull the arm toward you while continuing your perpendicular movement. The arm capture must happen while they are committed to the turn."
+      },
+      {
+        "step_number": 4,
+        "action": "Step leg over",
+        "description": "Step your lead leg over their captured arm and torso, placing your foot on the far side of their body. Your thigh should trap their arm against your hip, creating the initial arm isolation that defines the crucifix entry."
+      },
+      {
+        "step_number": 5,
+        "action": "Secure near arm",
+        "description": "Release the dragged leg and use your other leg to triangle around their near arm and torso. The near arm, which was previously defending the leg drag, becomes trapped between your legs. Now both arms are isolated through different mechanisms."
+      },
+      {
+        "step_number": 6,
+        "action": "Consolidate crucifix",
+        "description": "Drive your weight onto opponent's upper body, flattening them or positioning them on their side. Secure wrist control on the far arm with your hands while your legs maintain the near arm trap. Adjust hip position perpendicular to their body for optimal control."
+      },
+      {
+        "step_number": 7,
+        "action": "Establish submission position",
+        "description": "Once both arms are controlled and your weight is settled, begin attacking the exposed neck or either arm. Keep constant pressure to prevent escape while systematically threatening submissions from the crucifix position."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent keeps elbows tight and does not extend arm during turn-in, denying the capture opportunity",
+        "effectiveness": "High",
+        "your_response": "If they turn with tight elbows, take their back since they cannot defend both threats. Their tight arm position actually helps your back take by preventing them from creating distance.",
+        "targets_outcome": "Leg Drag Control/Top"
+      },
+      {
+        "counter": "Opponent immediately reverses direction when they feel the arm capture beginning, turning away instead of in",
+        "effectiveness": "Medium",
+        "your_response": "Follow their direction change and pursue the back take which was your alternative anyway. Their reversal exposes the back they were trying to protect.",
+        "targets_outcome": "Leg Drag Control/Top"
+      },
+      {
+        "counter": "Opponent explosively frames against your chest during the capture to create separation",
+        "effectiveness": "Medium",
+        "your_response": "Use their frame as additional arm exposure. If they straighten the arm to frame, capture it instead of the original target arm and proceed with the crucifix entry.",
+        "targets_outcome": "Leg Drag Control/Top"
+      },
+      {
+        "counter": "Opponent turtles quickly to prevent the crucifix consolidation after you capture the first arm",
+        "effectiveness": "Low",
+        "your_response": "Follow them to turtle and attack crucifix from turtle top instead. Turtle position also offers alternative attacks like clock choke and back takes.",
+        "targets_outcome": "Crucifix/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing leg drag control too early to reach for the arm capture",
+        "consequence": "Opponent recovers guard before you can secure the crucifix, negating the passing progress you had achieved",
+        "correction": "Maintain leg control until the arm capture is secure and you have begun the perpendicular transition"
+      },
+      {
+        "error": "Attempting the capture when opponent's arm is not sufficiently extended",
+        "consequence": "Opponent easily retracts arm and becomes aware of the threat, making them more likely to keep elbows tight",
+        "correction": "Wait for clear arm extension during active turn-in attempt before committing to the capture"
+      },
+      {
+        "error": "Losing chest-to-back pressure during the transition to perpendicular position",
+        "consequence": "Creates space for opponent to escape, recover guard, or reverse position entirely",
+        "correction": "Stay heavy on opponent throughout the transition, driving your weight into them as you change angle"
+      },
+      {
+        "error": "Capturing only one arm and attempting to finish without securing the second arm",
+        "consequence": "Opponent uses free arm to defend submissions and create escapes, reducing crucifix effectiveness dramatically",
+        "correction": "Complete the full crucifix with both arms trapped before attacking submissions"
+      },
+      {
+        "error": "Rushing to attack submissions before consolidating crucifix control",
+        "consequence": "Opponent escapes during your submission attempt because positional control was not secured first",
+        "correction": "Follow position-before-submission principle and fully establish crucifix before attacking"
+      },
+      {
+        "error": "Not following opponent's rotation and fighting against their turn-in movement",
+        "consequence": "Creates scramble situation where opponent may recover guard or escape to turtle",
+        "correction": "Flow with their turn rather than resisting it, using their momentum to achieve perpendicular position"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Movement pattern",
+        "description": "Practice the transition from leg drag to perpendicular crucifix position without resistance. Partner provides static turn-in position with extended arm. Focus on the body mechanics of releasing the leg, capturing the arm, and stepping over while maintaining connection."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Timing recognition",
+        "description": "Partner actively attempts to turn in from leg drag bottom with light resistance. You practice recognizing the window when their arm extends and capturing it with proper timing. Partner does not retract arm once you initiate capture to allow completion."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Counter integration",
+        "description": "Partner provides realistic defensive reactions including keeping elbows tight, reversing direction, and framing. Practice reading their response and either completing the crucifix or transitioning to back take or side control based on their defense."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live application",
+        "description": "Incorporate the crucifix transition into live rolling from leg drag positions. Work on creating the dilemma by threatening multiple attacks and capitalizing on whichever defense they choose. Practice finishing from completed crucifix."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary goal of Leg Drag to Crucifix?",
+        "answer": "The primary goal is to capitalize on opponent's turn-in defense from leg drag bottom by capturing their extended arm and transitioning to crucifix position. This punishes a common defensive error where they try to face you rather than accepting the pass or defending the back take, resulting in both arms isolated and the neck exposed for submissions."
+      },
+      {
+        "question": "What position do you start Leg Drag to Crucifix from?",
+        "answer": "This technique starts from Leg Drag Control/Top position, where you have pulled opponent's near leg across their body and established upper body control. The opportunity arises when the opponent attempts to turn into you to recover guard rather than defending the back take or accepting the pass to side control."
+      },
+      {
+        "question": "What creates the opportunity to attempt the crucifix transition from leg drag?",
+        "answer": "The opportunity arises when the opponent turns into you to recover guard and extends their far arm for posting or framing. This arm extension, which is a natural part of their turn-in defense, creates the window for capture. If they keep elbows tight while turning, take the back instead since they cannot defend both threats simultaneously."
+      },
+      {
+        "question": "What are the essential grips needed for Leg Drag to Crucifix?",
+        "answer": "Initially you need your standard leg drag grips controlling the dragged leg and their upper body. For the crucifix capture, you need to secure their extended far arm above the elbow with your hand or overhook, then transition to controlling their wrist while your legs trap both arms. The near arm gets trapped in a leg triangle while you maintain wrist control on the far arm."
+      },
+      {
+        "question": "How do you shut down the primary counter of opponent keeping elbows tight during turn-in?",
+        "answer": "If opponent keeps elbows tight while turning in, immediately transition to the back take since their tight arm position actually helps you by preventing them from creating distance or frames. The crucifix threat forces them to choose between defending arm exposure and defending back exposure, and tight elbows concedes the back. This creates the dilemma that makes leg drag so effective."
+      },
+      {
+        "question": "When is the optimal timing window to attempt the arm capture?",
+        "answer": "The optimal window is during the one to two seconds when opponent commits to turning in and their far arm extends for posting or framing. Before this, the arm is protected by their body position. After this, they may have completed the turn and retracted the arm. You must recognize the commitment to turn and act while they are in transition, not before they start or after they finish."
+      },
+      {
+        "question": "Your opponent begins to turtle after you capture one arm - how do you adjust?",
+        "answer": "Follow them to turtle and attack the crucifix from turtle top position. The arm you already captured remains controlled, and turtle actually makes it easier to isolate their other arm since they have less mobility. From turtle, you can complete the crucifix or transition to alternative attacks like clock choke, back control, or front headlock if the crucifix entry becomes blocked."
+      },
+      {
+        "question": "What is the correct body positioning as you transition from leg drag to crucifix?",
+        "answer": "You must transition from your leg drag position, which is diagonal to opponent, to a perpendicular position for the crucifix. This requires following their turn rather than fighting it, releasing the dragged leg once the arm is captured, and stepping your leg over their body. Your chest stays connected to their upper back throughout, and your hips end up perpendicular to their torso with weight distributed to prevent bridging escapes."
+      },
+      {
+        "question": "How do you create the dilemma that forces opponent into the crucifix opportunity?",
+        "answer": "From leg drag control, you create a three-way dilemma: if they turn away, you take the back; if they stay flat, you consolidate to side control or mount; if they turn in, you threaten the crucifix. By actively threatening the back take, you force them to turn in for guard recovery. By maintaining pressure that makes staying flat uncomfortable, you force movement. This systematic pressure creates the arm extension that opens the crucifix."
+      },
+      {
+        "question": "What is the correct sequence if opponent frames against your chest during the capture?",
+        "answer": "An extended framing arm is actually an opportunity. If they straighten their arm to push against your chest, capture that arm instead of your original target. The straighter frame arm is often easier to capture than a bent posting arm. Immediately redirect your capture to the framing arm, secure above the elbow, and proceed with the crucifix entry. Their frame becomes your entry point."
+      }
+    ],
+    "safety_considerations": "The Leg Drag to Crucifix transition itself is relatively safe to practice since it involves positional movement rather than joint manipulation. However, the crucifix position that results offers submissions that can cause injury if applied too quickly. When drilling, communicate with your partner about the pace of transitions and allow time for tapping when practicing finishes from the completed crucifix. The arm trapped in the leg triangle is particularly vulnerable to shoulder injuries if the bottom player attempts explosive escapes while fully trapped. Train the escape sequences gradually with increasing resistance rather than having bottom players explode from consolidated crucifix positions. Partners should tap early when practicing submissions from crucifix since the arm isolation makes defense extremely difficult."
+  },
+  "defender": {
+    "name": "Leg Drag to Crucifix Defender",
+    "description": "How to defend against Leg Drag to Crucifix in BJJ. Recognition cues, defensive options, and escape strategies.",
+    "overview": "Defending the Leg Drag to Crucifix transition requires understanding that your turn-in defense from leg drag bottom is exactly what creates the crucifix opportunity. The attacker is waiting for you to rotate toward them and extend an arm for posting or framing, which gives them the capture point they need to initiate the arm trap. Your defensive strategy must address this fundamental tension: you need to turn in to recover guard, but turning in carelessly exposes you to the crucifix.\n\nThe critical defensive window is narrow. Once the attacker captures your far arm and begins stepping over, escape becomes exponentially more difficult with each passing second. Effective defense focuses on two phases: prevention during the turn-in by controlling arm exposure, and emergency recovery if the capture begins. Prevention is always preferable since the crucifix is one of the hardest positions to escape once fully consolidated. Your arm positioning, hip alignment, and timing of the turn-in all determine whether your guard recovery attempt succeeds or lands you in a worse position than where you started.\n\nFrom a strategic perspective, your awareness of the crucifix threat should shape your entire defensive approach from leg drag bottom. Rather than committing blindly to the turn-in, you must read the attacker's positioning and choose between turning in with protected arms, turning away to concede back exposure, or staying flat and working leg extraction. Each choice carries risk, but an informed choice based on the attacker's weight distribution and grip position is far better than a reflexive turn-in that walks directly into the arm trap.",
+    "key_principles": [
+      "Keep elbows tight to your body during any turn-in attempt from leg drag bottom, never extending arms to post or frame where the attacker can capture them",
+      "Recognize the crucifix threat early by monitoring whether the attacker is following your rotation and reaching over your body for the far arm",
+      "Maintain hip connection to the mat during turn-in rather than lifting hips, which creates space for the attacker to step their leg over for the arm trap",
+      "If the arm capture begins, immediately retract the captured arm by pulling elbow to ribcage before the attacker can step over and lock the position",
+      "Accept a less favorable outcome like conceding back exposure or staying flat rather than completing a turn-in that feeds directly into a fully consolidated crucifix"
+    ],
+    "recognition_cues": [
+      "Attacker follows your turn-in rotation rather than resisting it, shifting their weight perpendicular to your body as you rotate toward them",
+      "Attacker's hand reaches over your torso toward your far arm or far shoulder, abandoning their standard leg drag upper body control in favor of the arm capture",
+      "Attacker releases pressure on your near shoulder or head control to free their hand for the arm capture, creating a momentary lightness in their upper body pressure",
+      "Attacker's lead leg begins to lift or step over your torso and captured arm, signaling the transition from leg drag control to crucifix entry"
+    ],
+    "defensive_options": [
+      {
+        "action": "Retract arms and turn away to concede back exposure instead of completing the turn-in",
+        "when_to_use": "When you feel the attacker following your rotation and reaching for your far arm during early stages of the turn-in before arm capture is secured",
+        "targets_outcome": "Leg Drag Control/Top",
+        "if_successful": "You avoid the crucifix entirely and force the attacker to pursue back take from leg drag, which you can defend with standard back defense and may recover to leg drag bottom or turtle",
+        "risk": "Conceding back exposure means the attacker may secure back control with hooks, trading one bad position for another though crucifix is significantly worse"
+      },
+      {
+        "action": "Explosively shrimp hips away and insert knee shield before the attacker can step over for the arm trap",
+        "when_to_use": "When the attacker has begun the arm capture but has not yet stepped their leg over your body, creating a brief window where distance creation can prevent consolidation",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You recover to half guard with knee shield, completely negating the crucifix entry and returning to a defensible guard position with sweep opportunities",
+        "risk": "If the shrimp is too slow, the attacker catches your arm during the movement and you end up in a worse position with your back further exposed"
+      },
+      {
+        "action": "Stay flat on back with elbows pinched tight and work to free the dragged leg rather than turning in at all",
+        "when_to_use": "When you recognize the attacker is baiting the turn-in by positioning to follow your rotation, indicating they want you to turn into the crucifix setup",
+        "targets_outcome": "Leg Drag Control/Top",
+        "if_successful": "You deny the crucifix entry entirely by refusing to provide the turn-in that creates the opportunity, forcing the attacker to pursue side control or mount instead which are more escapable",
+        "risk": "Staying flat allows the attacker to consolidate to side control or mount, but both are preferable to crucifix and offer higher-percentage escape options"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Leg Drag Control/Top",
+        "how": "Deny the crucifix by keeping elbows tight during turn-in or refusing to turn in entirely. If the attacker commits to the crucifix setup but you retract your arm before capture, they lose their original leg drag pressure and must re-establish control, giving you a window to reset your defensive frames."
+      },
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Time a strong hip escape as the attacker releases leg drag control to pursue the crucifix. The moment they release your dragged leg to step over for the arm trap, explosively shrimp and insert your knee to recover half guard. Their commitment to the crucifix entry creates the opening for your leg to escape the drag."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Extending the far arm to post on the mat during the turn-in attempt from leg drag bottom",
+        "consequence": "Provides the attacker with the exact arm exposure they need to initiate the crucifix capture, turning your guard recovery attempt into a direct entry to one of the worst positions in grappling",
+        "correction": "Keep both elbows pinched tight to your ribcage during any turn-in from leg drag. Use your shoulder and hip rotation to generate the turn rather than posting with your hands. If you must post, use a closed fist tight to your body rather than an extended open hand."
+      },
+      {
+        "error": "Committing fully to the turn-in without checking whether the attacker is following your rotation",
+        "consequence": "You rotate directly into the crucifix setup without awareness, giving the attacker maximum time and angle to capture the arm and step over before you can react",
+        "correction": "Turn in incrementally rather than as a single explosive movement. Pause after initial rotation to assess whether the attacker is following you perpendicular or maintaining standard leg drag pressure. If they are following, abort the turn-in and choose an alternative defensive path."
+      },
+      {
+        "error": "Trying to fight the arm capture by pulling the arm straight back against the attacker's grip after they have secured control above the elbow",
+        "consequence": "Wastes energy against a mechanically superior grip position and delays your escape response while the attacker consolidates the step-over and leg trap",
+        "correction": "Instead of pulling straight back, rotate the captured arm by turning your elbow toward the mat and circling the arm downward. This breaks the grip angle rather than fighting it directly. If the grip holds, immediately address the leg step-over by hip escaping rather than continuing to fight the arm."
+      },
+      {
+        "error": "Panicking and using explosive bridging movements once the crucifix entry begins",
+        "consequence": "Explosive movements without technical direction typically tighten the crucifix rather than loosening it, and exhaust your energy reserves needed for a systematic escape",
+        "correction": "Stay calm and address each control point systematically. Focus first on preventing the second arm from being trapped, then work on creating angle through controlled hip movement rather than explosive bridging that the attacker can ride."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the most dangerous arm position to have during a turn-in from leg drag bottom?",
+        "answer": "The most dangerous position is having the far arm extended away from your body for posting or framing during the turn-in. This extended arm is exactly what the attacker needs to initiate the crucifix capture. The arm is vulnerable because it is away from your centerline, making it easy to overhook or grip above the elbow. Keep elbows pinched tight to your ribcage during any turning movement from leg drag bottom."
+      },
+      {
+        "question": "Your opponent follows your rotation instead of resisting your turn-in from leg drag - what does this indicate?",
+        "answer": "This indicates they are setting up the crucifix transition rather than maintaining standard leg drag control. In normal leg drag top play, the passer resists your turn-in to maintain their passing angle. When they follow your rotation and shift perpendicular to your body, they are positioning to capture your arm and step over for the crucifix. Immediately abort the turn-in, retract your arms, and either stay flat or turn the opposite direction."
+      },
+      {
+        "question": "Why is the crucifix a worse outcome than conceding back control from leg drag bottom?",
+        "answer": "In back control, both arms remain relatively free to defend chokes, create frames, and work escape sequences. In crucifix, both arms are isolated through different mechanisms, eliminating virtually all defensive capability. Escape rates from back control are significantly higher than from consolidated crucifix. Back control also has more established escape pathways and the position degrades naturally over time as hooks shift, while crucifix maintains its control advantage until actively escaped."
+      },
+      {
+        "question": "What is the correct defensive response if the attacker has captured your far arm but has not yet stepped their leg over?",
+        "answer": "This is the critical last-chance window. Immediately perform a strong hip escape away from the attacker while simultaneously pulling your captured elbow toward your ribcage using a circular motion rather than a straight pull. The hip escape creates distance that may break the grip or prevent the step-over. If the arm remains captured, address the leg step-over by keeping your near elbow tight and your body angled to block their leg from crossing over your torso."
+      },
+      {
+        "question": "How should you modify your turn-in defense from leg drag when you know your opponent has a strong crucifix game?",
+        "answer": "Against a known crucifix player, bias your defensive choices away from the turn-in entirely. Prioritize staying flat and working leg extraction, or turning away to accept back exposure which is more escapable than crucifix. If you must turn in, do so incrementally with elbows glued to your ribs, checking after each micro-rotation whether the attacker is following. Use closed fists rather than open hands for any necessary posting, and keep your far arm across your own chest rather than reaching toward the mat."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Recognition and arm discipline",
+        "description": "Partner establishes leg drag control and slowly initiates the crucifix entry. Practice recognizing the four recognition cues: following rotation, reaching over torso, releasing upper body pressure, and leg lifting. Focus on maintaining tight elbows during turn-in attempts without worrying about escape. Build the habit of arm protection as an automatic response."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Defensive option selection",
+        "description": "From leg drag bottom, partner threatens the crucifix at moderate speed. Practice choosing between the three defensive options based on the attacker's positioning: retract and turn away, hip escape to half guard, or stay flat and deny the turn-in. Partner provides feedback on which option was correct for each scenario. Develop decision-making speed."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Emergency recovery under pressure",
+        "description": "Partner begins the crucifix entry at realistic speed with partial arm capture achieved. Practice the last-chance hip escape and arm extraction sequences when prevention has failed. Work on maintaining composure when the capture begins and executing the correct escape mechanics under time pressure before full consolidation occurs."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live integration",
+        "description": "Incorporate crucifix defense into live positional sparring from leg drag bottom. Partner has full freedom to pursue crucifix, back take, or pass consolidation. Practice reading their intentions and selecting the correct defensive path in real time. Track success rate of crucifix prevention versus times caught to measure improvement."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Gi Lapel Crucifix Entry",
+      "description": "In gi, use opponent's far lapel to reinforce the arm capture. As you capture their arm, feed the lapel under their arm and around their neck to create additional control points that prevent arm escape during consolidation.",
+      "when_to_use": "When training or competing in gi where lapel grips provide additional security for the arm trap"
+    },
+    {
+      "variant_name": "Step-Over Crucifix",
+      "description": "Instead of flowing with opponent's turn, step completely over their body while capturing the arm, landing in crucifix on the opposite side. This works when opponent commits heavily to the turn and creates significant momentum.",
+      "when_to_use": "When opponent's turn-in is aggressive and their momentum can be used to complete the transition faster"
+    },
+    {
+      "variant_name": "Mounted Crucifix Finish",
+      "description": "If opponent manages to get their back flat to the mat during your crucifix entry, transition to mounted crucifix instead of standard crucifix. This combines mount pressure with arm isolation for enhanced control.",
+      "when_to_use": "When opponent successfully defends standard crucifix angle but you maintain arm control"
+    }
+  ],
+  "position_integration": "The Leg Drag to Crucifix transition fits into the leg drag passing system as the third fork of a powerful dilemma structure. When you establish leg drag control, you threaten three directions: back take if they turn away, side control or mount if they stay flat, and crucifix if they turn in. This creates a no-win scenario for the bottom player where every defensive choice opens a different attack. The crucifix position connects to submission chains including rear naked choke variations, armbars on both arms, and neck attacks. From crucifix, you can also transition to mount or back control if escapes occur. This makes the leg drag not just a passing position but a complete offensive system where the crucifix serves as the punishment for turn-in defense attempts.",
+  "conditions": [
+    "Established leg drag control with opponent's near leg dragged across their body",
+    "Opponent begins turning into you to attempt guard recovery rather than defending back take",
+    "Opponent's far arm extends away from their body for posting or framing during the turn-in",
+    "Attacker has free hand available to initiate the arm capture while maintaining leg control"
+  ]
 }

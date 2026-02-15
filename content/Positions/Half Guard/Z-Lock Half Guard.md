@@ -91,17 +91,25 @@ Developed primarily within the 10th Planet system and refined by lockdown specia
 ### Available Transitions
 
 
-- **[[Old School Sweep]]** (17% of attempts)
+- **[[Old School Sweep]]** (30% of attempts)
 
-- **[[Electric Chair Submission]]** (14% of attempts)
+- **[[Electric Chair Transition]]** (14% of attempts)
 
-- **[[Butterfly Sweep]]** (18% of attempts)
+- **[[Butterfly Sweep]]** (11% of attempts)
 
-- **[[Deep Half Entry]]** (19% of attempts)
+- **[[Deep Half Entry]]** (13% of attempts)
 
-- **[[Lockdown Sweeps]]** (15% of attempts)
+- **[[Lockdown Recovery]]** (8% of attempts)
 
-- **[[Underhook Sweep from Half]]** (17% of attempts)
+- **[[Underhook Sweep from Half]]** (8% of attempts)
+
+- **[[Kimura Sweep]]** (8% of attempts)
+
+- **[[Transition to Z-Guard]]** (5% of attempts)
+
+- **[[Escape Z-Lock Half Guard]]** (2% of attempts)
+
+- **[[Sweep from Z-Lock Half Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -162,17 +170,25 @@ Developed primarily within the 10th Planet system and refined by lockdown specia
 ### Available Transitions
 
 
-- **[[Knee Slice from Half]]** (19% of attempts)
+- **[[Knee Slice from Half]]** (28% of attempts)
 
-- **[[Underhook Pass]]** (17% of attempts)
+- **[[Underhook Pass]]** (12% of attempts)
 
-- **[[Back Take Generic]]** (15% of attempts)
+- **[[Back Take from Top]]** (13% of attempts)
 
-- **[[Smash Pass]]** (19% of attempts)
+- **[[Smash Pass]]** (14% of attempts)
 
-- **[[Side Control to Mount]]** (14% of attempts)
+- **[[Crossface Pass]]** (11% of attempts)
 
-- **[[Crossface Pass]]** (16% of attempts)
+- **[[Half Guard Pass]]** (8% of attempts)
+
+- **[[Darce Setup]]** (6% of attempts)
+
+- **[[Lockdown Break and Pass]]** (5% of attempts)
+
+- **[[Lockdown Break from Z-Lock]]** (2% of attempts)
+
+- **[[Pass Z-Lock]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -217,15 +233,15 @@ Developed primarily within the 10th Planet system and refined by lockdown specia
 
 - **[[Butterfly Half Guard]]** - Similar concept using butterfly hook in half guard context
 
-- **[[Z-Guard]]** - Related position utilizing Z-configuration leg geometry with different upper body strategies
-
 - **[[Electric Chair]]** - Primary submission threat directly available from Z-Lock configuration
 
 - **[[Dogfight Position]]** - Frequent transition position when opponent attempts to disengage from Z-Lock
 
-- **[[Old School]]** - Classic sweep position accessed from Z-Lock when opponent bases wide
-
 - **[[Half Guard]]** - Parent category - Z-Lock is specialized variation
+
+- **[[Knee Shield Half Guard]]** - Alternative half guard framework with different defensive philosophy
+
+- **[[Flattened Half Guard]]** - Worst-case scenario when Z-Lock retention fails against heavy pressure
 
 
 </section>

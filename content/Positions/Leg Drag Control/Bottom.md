@@ -21,25 +21,25 @@ description: "Navigate leg drag control from bottom position. Master defensive t
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Escape to Closed Guard",
-      "text": "From this position, attempt Leg Drag Escape to Closed Guard. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Escape to Closed Guard. This technique is attempted in 4% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Standup",
-      "text": "From this position, attempt Technical Standup. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Technical Stand-up",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Counter to Half Guard",
-      "text": "From this position, attempt Leg Drag Counter to Half Guard. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Counter to Half Guard. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Roll to Turtle",
-      "text": "From this position, attempt Roll to Turtle. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Roll to Turtle. This technique is attempted in 18% of exchanges from this position.",
       "position": 4
     },
     {
@@ -50,8 +50,8 @@ description: "Navigate leg drag control from bottom position. Master defensive t
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll Escape",
-      "text": "From this position, attempt Granby Roll Escape. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Granby Roll to Guard",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,23 +209,23 @@ Defensive success in this position requires recognizing the leg drag early in th
 
 ## Available Escapes
 
-### [[Leg Drag Escape to Closed Guard]] (11% of attempts)
+### [[Leg Drag Escape to Closed Guard]] (4% of attempts)
 
-### [[Technical Standup]] (12% of attempts)
+### [[Technical Stand-up]] (9% of attempts)
 
-### [[Leg Drag Counter to Half Guard]] (15% of attempts)
+### [[Leg Drag Counter to Half Guard]] (18% of attempts)
 
-### [[Roll to Turtle]] (15% of attempts)
+### [[Roll to Turtle]] (18% of attempts)
 
 ### [[Inside Position Recovery]] (10% of attempts)
 
-### [[Granby Roll Escape]] (8% of attempts)
+### [[Granby Roll to Guard]] (6% of attempts)
 
 ### [[Leg Recovery to De La Riva]] (9% of attempts)
 
-### [[Frame and Shrimp to Guard]] (9% of attempts)
+### [[Frame and Shrimp to Guard]] (12% of attempts)
 
-### [[Half Guard Recovery]] (11% of attempts)
+### [[Half Guard Recovery]] (14% of attempts)
 
 
 
@@ -241,8 +241,8 @@ Defensive success in this position requires recognizing the leg drag early in th
 
 
 **If opponent's weight shifts forward toward head control:**
-- Execute **[[Technical Standup]]** → [[Standing Position]] (Probability: 55%)
-- Execute **[[Granby Roll Escape]]** → [[Open Guard]] (Probability: 45%)
+- Execute **[[Technical Stand-up]]** → [[Standing Position]] (Probability: 55%)
+- Execute **[[Granby Roll to Guard]]** → [[Open Guard]] (Probability: 45%)
 
 
 **If opponent loosens leg control to adjust grip:**

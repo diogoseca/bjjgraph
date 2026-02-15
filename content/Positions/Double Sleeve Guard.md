@@ -91,23 +91,33 @@ Double Sleeve Guard is characterized by its emphasis on grip fighting dominance 
 ### Available Transitions
 
 
-- **[[Scissor Sweep]]** (12% of attempts)
+- **[[Tripod Sweep]]** (69% of attempts)
 
-- **[[Flower Sweep]]** (11% of attempts)
+- **[[Omoplata Sweep]]** (4% of attempts)
 
-- **[[Pendulum Sweep]]** (10% of attempts)
+- **[[Triangle Setup]]** (8% of attempts)
 
-- **[[Spider Guard Sweeps]]** (15% of attempts)
+- **[[Omoplata]]** (4% of attempts)
 
-- **[[Lasso Guard Sweeps]]** (12% of attempts)
+- **[[Guard Recovery]]** (4% of attempts)
 
-- **[[Omoplata Sweep]]** (9% of attempts)
+- **[[Sickle Sweep]]** (6% of attempts)
 
-- **[[Triangle Setup]]** (10% of attempts)
+- **[[Flower Sweep]]** (2% of attempts)
 
-- **[[Elevator Sweep]]** (11% of attempts)
+- **[[Pendulum Sweep]]** (2% of attempts)
 
-- **[[De La Riva Sweep]]** (10% of attempts)
+- **[[Armbar Setup from Double Sleeve]]** (0% of attempts)
+
+- **[[Double Sleeve Sweep]]** (0% of attempts)
+
+- **[[Double Sleeve to De La Riva]]** (0% of attempts)
+
+- **[[Double Sleeve to Lasso]]** (0% of attempts)
+
+- **[[Double Sleeve to Spider]]** (0% of attempts)
+
+- **[[Double Sleeve to Spider Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -168,19 +178,25 @@ Double Sleeve Guard is characterized by its emphasis on grip fighting dominance 
 ### Available Transitions
 
 
-- **[[Toreando Pass]]** (16% of attempts)
+- **[[Toreando Pass]]** (10% of attempts)
 
-- **[[Knee Slice Pass]]** (15% of attempts)
+- **[[Knee Slice Pass]]** (10% of attempts)
 
-- **[[Leg Drag Pass]]** (14% of attempts)
+- **[[Leg Drag Pass]]** (10% of attempts)
 
-- **[[Stack Pass]]** (13% of attempts)
+- **[[Long Step Pass]]** (8% of attempts)
 
-- **[[Long Step Pass]]** (14% of attempts)
+- **[[X Pass]]** (8% of attempts)
 
-- **[[X Pass]]** (15% of attempts)
+- **[[Double Under Pass]]** (6% of attempts)
 
-- **[[Double Under Pass]]** (13% of attempts)
+- **[[Grip Break]]** (35% of attempts)
+
+- **[[Stack Pass]]** (8% of attempts)
+
+- **[[Pass Double Sleeve Guard]]** (3% of attempts)
+
+- **[[Toreando from Double Sleeve]]** (2% of attempts)
 
 
 ### Common Mistakes

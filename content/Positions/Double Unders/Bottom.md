@@ -21,32 +21,38 @@ description: "Master Double Unders Bottom defensive position in BJJ. Complete su
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 41% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll",
-      "text": "From this position, attempt Granby Roll. This technique is attempted in 20% of exchanges from this position.",
+      "name": "Execute Granby Roll to Guard",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Hook Recovery",
-      "text": "From this position, attempt Butterfly Hook Recovery. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Hook Recovery. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape",
-      "text": "From this position, attempt Hip Escape. This technique is attempted in 22% of exchanges from this position.",
+      "name": "Execute Hip Escape to Guard",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Shin to Shin Pull",
-      "text": "From this position, attempt Shin to Shin Pull. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Roll to Turtle",
+      "text": "From this position, attempt Roll to Turtle. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Guard Recovery from Double Unders",
+      "text": "From this position, attempt Guard Recovery from Double Unders. This technique is attempted in 6% of exchanges from this position.",
+      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -200,15 +206,17 @@ Double Unders Bottom Position occurs when an opponent has established underhooks
 
 ## Available Escapes
 
-### [[Deep Half Entry]] (25% of attempts)
+### [[Deep Half Entry]] (41% of attempts)
 
-### [[Granby Roll]] (20% of attempts)
+### [[Granby Roll to Guard]] (16% of attempts)
 
-### [[Butterfly Hook Recovery]] (18% of attempts)
+### [[Butterfly Hook Recovery]] (13% of attempts)
 
-### [[Hip Escape]] (22% of attempts)
+### [[Hip Escape to Guard]] (13% of attempts)
 
-### [[Shin to Shin Pull]] (15% of attempts)
+### [[Roll to Turtle]] (11% of attempts)
+
+### [[Guard Recovery from Double Unders]] (6% of attempts)
 
 
 
@@ -220,16 +228,16 @@ Double Unders Bottom Position occurs when an opponent has established underhooks
 
 **If opponent drives heavy pressure forward and down attempting to flatten you completely onto your back:**
 - Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 55%)
-- Execute **[[Granby Roll]]** → [[Turtle]] (Probability: 45%)
+- Execute **[[Granby Roll to Guard]]** → [[Turtle]] (Probability: 45%)
 
 
 **If opponent pauses pressure to consolidate position or adjust grips and base structure:**
-- Execute **[[Hip Escape]]** → [[Half Guard]] (Probability: 65%)
+- Execute **[[Hip Escape to Guard]]** → [[Half Guard]] (Probability: 65%)
 - Execute **[[Butterfly Hook Recovery]]** → [[Butterfly Guard]] (Probability: 50%)
 
 
 **If opponent lifts weight or shifts laterally to clear your legs and complete passing sequence:**
-- Execute **[[Hip Escape]]** → [[Open Guard]] (Probability: 60%)
+- Execute **[[Hip Escape to Guard]]** → [[Open Guard]] (Probability: 60%)
 - Execute **[[Shin to Shin Pull]]** → [[Shin-to-Shin Guard]] (Probability: 40%)
 
 
@@ -381,7 +389,7 @@ Partner continuously seeks double underhooks while you work to maintain frames, 
 - **[[Butterfly Guard]]** - Guard position to recover through butterfly hook insertion
 - **[[Turtle]]** - Alternative escape position via granby roll
 - **[[Deep Half Entry]]** - Primary escape transition from this position
-- **[[Granby Roll]]** - Alternative escape using opponent's forward momentum
+- **[[Granby Roll to Guard]]** - Alternative escape using opponent's forward momentum
 
 
 </section>

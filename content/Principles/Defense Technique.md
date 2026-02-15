@@ -373,7 +373,7 @@ Specific drilling where partner in top position works to collapse defender's fra
 - [[Mount]] (Position) - Primary inferior position where defensive technique application is critical for survival and escape
 - [[Side Control]] (Position) - Common dominant position requiring specific defensive responses including framing and hip escape mechanics
 - [[Back Control]] (Position) - Most dangerous inferior position where defense technique must prioritize submission defense before positional improvement
-- [[Elbow Escape]] (Transition) - Fundamental defensive technique used to escape mount and side control positions through systematic hip movement
+- [[Elbow Escape to Guard]] (Transition) - Fundamental defensive technique used to escape mount and side control positions through systematic hip movement
 - [[Bridge and Roll]] (Transition) - Essential defensive technique for escaping mount that exemplifies proper timing and mechanical efficiency
 - [[Shrimp Escape]] (Transition) - Core hip escape movement fundamental to most defensive sequences and guard recovery attempts
 

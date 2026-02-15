@@ -21,37 +21,37 @@ description: "Master Jailbreak Top Position in BJJ. Advanced half guard passing 
     {
       "@type": "HowToStep",
       "name": "Execute Leg Weave Pass",
-      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 33% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice from Half",
-      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 17% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Step",
-      "text": "From this position, attempt Back Step. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Underhook Pass",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 17% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Underhook Pass",
-      "text": "From this position, attempt Underhook Pass. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Darce Setup",
+      "text": "From this position, attempt Darce Setup. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Headquarters Pass",
-      "text": "From this position, attempt Headquarters Pass. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Front Headlock to Back",
+      "text": "From this position, attempt Front Headlock to Back. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,21 +210,23 @@ The position is particularly relevant in modern no-gi competition where dynamic 
 
 ## Available Attacks
 
-### [[Leg Weave Pass]] (13% of attempts)
+### [[Leg Weave Pass]] (12% of attempts)
 
-### [[Smash Pass]] (15% of attempts)
+### [[Smash Pass]] (33% of attempts)
 
-### [[Knee Slice from Half]] (12% of attempts)
+### [[Knee Slice from Half]] (17% of attempts)
 
-### [[Back Step]] (12% of attempts)
+### [[Underhook Pass]] (17% of attempts)
 
-### [[Underhook Pass]] (13% of attempts)
+### [[Darce Setup]] (9% of attempts)
 
-### [[Headquarters Pass]] (12% of attempts)
+### [[Front Headlock to Back]] (7% of attempts)
 
-### [[Toreando Pass]] (12% of attempts)
+### [[Knee Slide from Jailbreak]] (3% of attempts)
 
-### [[X Pass]] (11% of attempts)
+### [[North-South Recovery from Jailbreak]] (1% of attempts)
+
+### [[Reestablish Side Control from Jailbreak]] (1% of attempts)
 
 
 

@@ -4,7 +4,7 @@
 
 ---
 title: "Old School Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master Old School Bottom position in BJJ half guard. Classic 10th Planet sweep with 60% intermediate success rate. Control opponent's head and arm for powerful sweep to mount or back."
+description: "Master Old School Bottom position in BJJ half guard. Classic 10th Planet sweep with lockdown control. Secure underhook and head control for powerful sweep to mount or back."
 ---
 
 
@@ -21,32 +21,38 @@ description: "Master Old School Bottom position in BJJ half guard. Classic 10th 
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 35% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 41% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Lockdown Sweeps",
-      "text": "From this position, attempt Lockdown Sweeps. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Electric Chair Transition",
+      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Electric Chair Submission",
-      "text": "From this position, attempt Electric Chair Submission. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Half Guard to Back Take",
+      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Deep Half Entry",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Half Guard to Back Take",
-      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Dogfight Position",
+      "text": "From this position, attempt Dogfight Position. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Old School Sweep from Bottom",
+      "text": "From this position, attempt Old School Sweep from Bottom. This technique is attempted in 5% of exchanges from this position.",
+      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -109,7 +115,7 @@ description: "Master Old School Bottom position in BJJ half guard. Classic 10th 
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Old School Bottom",
-  "description": "Master Old School Bottom position in BJJ half guard. Classic 10th Planet sweep with 60% intermediate success rate. Control opponent's head and arm for powerful sweep to mount or back.",
+  "description": "Master Old School Bottom position in BJJ half guard. Classic 10th Planet sweep with lockdown control. Secure underhook and head control for powerful sweep to mount or back.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -204,15 +210,19 @@ Old School Bottom is considered a transitional attacking position rather than a 
 
 ## Available Escapes
 
-### [[Old School Sweep]] (35% of attempts)
+### [[Old School Sweep]] (41% of attempts)
 
-### [[Lockdown Sweeps]] (18% of attempts)
+### [[Electric Chair Transition]] (15% of attempts)
 
-### [[Electric Chair Submission]] (15% of attempts)
+### [[Half Guard to Back Take]] (13% of attempts)
 
-### [[Underhook Sweep from Half]] (17% of attempts)
+### [[Deep Half Entry]] (13% of attempts)
 
-### [[Half Guard to Back Take]] (15% of attempts)
+### [[Dogfight Position]] (10% of attempts)
+
+### [[Old School Sweep from Bottom]] (5% of attempts)
+
+### [[Old School to Half Guard]] (3% of attempts)
 
 
 
@@ -228,7 +238,7 @@ Old School Bottom is considered a transitional attacking position rather than a 
 
 
 **If opponent extends their trapped leg to clear the lockdown while maintaining forward pressure:**
-- Execute **[[Electric Chair Submission]]** → [[Electric Chair]] (Probability: 60%)
+- Execute **[[Electric Chair Transition]]** → [[Electric Chair]] (Probability: 60%)
 - Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 55%)
 
 
@@ -239,7 +249,7 @@ Old School Bottom is considered a transitional attacking position rather than a 
 
 **If opponent turns away from underhook or attempts to remove head control:**
 - Execute **[[Half Guard to Back Take]]** → [[Back Control]] (Probability: 70%)
-- Execute **[[Lockdown Sweeps]]** → [[Half Guard]] (Probability: 50%)
+- Execute **[[Lockdown Recovery]]** → [[Half Guard]] (Probability: 50%)
 
 
 

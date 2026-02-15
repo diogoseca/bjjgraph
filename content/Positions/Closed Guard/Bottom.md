@@ -21,37 +21,37 @@ description: "Master closed guard bottom position with comprehensive offensive t
     {
       "@type": "HowToStep",
       "name": "Execute Hip Bump Sweep",
-      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 17% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Scissor Sweep",
-      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 6% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Pendulum Sweep",
-      "text": "From this position, attempt Pendulum Sweep. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Pendulum Sweep. This technique is attempted in 6% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Flower Sweep",
-      "text": "From this position, attempt Flower Sweep. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Flower Sweep. This technique is attempted in 5% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura to Back Take",
-      "text": "From this position, attempt Kimura to Back Take. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Kimura to Back Take. This technique is attempted in 5% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 4% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,31 +208,41 @@ Master practitioners understand that closed guard is not a passive holding posit
 
 ## Available Escapes
 
-### [[Hip Bump Sweep]] (8% of attempts)
+### [[Hip Bump Sweep]] (17% of attempts)
 
-### [[Scissor Sweep]] (8% of attempts)
+### [[Scissor Sweep]] (6% of attempts)
 
-### [[Pendulum Sweep]] (8% of attempts)
+### [[Pendulum Sweep]] (6% of attempts)
 
-### [[Flower Sweep]] (8% of attempts)
+### [[Flower Sweep]] (5% of attempts)
 
-### [[Kimura to Back Take]] (8% of attempts)
+### [[Kimura to Back Take]] (5% of attempts)
 
-### [[Omoplata Sweep]] (7% of attempts)
+### [[Omoplata Sweep]] (4% of attempts)
 
-### [[Triangle Setup]] (8% of attempts)
+### [[Triangle Setup]] (6% of attempts)
 
-### [[Closed Guard to Triangle]] (7% of attempts)
+### [[Omoplata to Back]] (3% of attempts)
 
-### [[Omoplata to Back]] (6% of attempts)
+### [[Elevator Sweep]] (4% of attempts)
 
-### [[Elevator Sweep]] (8% of attempts)
+### [[Overhook Sweep]] (4% of attempts)
 
-### [[Overhook Sweep]] (8% of attempts)
+### [[Kimura Sweep]] (5% of attempts)
 
-### [[Kimura Sweep]] (8% of attempts)
+### [[Muscle Sweep]] (3% of attempts)
 
-### [[Muscle Sweep]] (8% of attempts)
+### [[Transition to Overhook Guard]] (3% of attempts)
+
+### [[Lumberjack Sweep]] (4% of attempts)
+
+### [[Guillotine Setup]] (5% of attempts)
+
+### [[Armbar from Guard]] (10% of attempts)
+
+### [[Cross Collar Choke]] (6% of attempts)
+
+### [[Closed Guard to Omoplata]] (4% of attempts)
 
 
 

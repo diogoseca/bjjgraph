@@ -21,37 +21,37 @@ description: "Master 50-50 Guard Top position in BJJ. Complete guide covering le
     {
       "@type": "HowToStep",
       "name": "Execute Inside Heel Hook",
-      "text": "From this position, attempt Inside Heel Hook. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Inside Heel Hook. This technique is attempted in 35% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar from 50-50",
-      "text": "From this position, attempt Kneebar from 50-50. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Kneebar from 50-50. This technique is attempted in 7% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Straight Ankle Lock",
-      "text": "From this position, attempt Straight Ankle Lock. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Straight Ankle Lock. This technique is attempted in 2% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Calf Slicer from 50-50",
-      "text": "From this position, attempt Calf Slicer from 50-50. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Calf Slicer from 50-50. This technique is attempted in 2% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take from 50-50",
-      "text": "From this position, attempt Back Take from 50-50. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Back Take from 50-50. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute 50-50 Guard to Outside Ashi",
-      "text": "From this position, attempt 50-50 Guard to Outside Ashi. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt 50-50 Guard to Outside Ashi. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,21 +209,31 @@ The 50-50 Guard Top is particularly effective in no-gi competition where heel ho
 
 ## Available Attacks
 
-### [[Inside Heel Hook]] (11% of attempts)
+### [[Inside Heel Hook]] (35% of attempts)
 
-### [[Kneebar from 50-50]] (10% of attempts)
+### [[Kneebar from 50-50]] (7% of attempts)
 
-### [[Straight Ankle Lock]] (11% of attempts)
+### [[Straight Ankle Lock]] (2% of attempts)
 
-### [[Calf Slicer from 50-50]] (8% of attempts)
+### [[Calf Slicer from 50-50]] (2% of attempts)
 
-### [[Back Take from 50-50]] (17% of attempts)
+### [[Back Take from 50-50]] (12% of attempts)
 
-### [[50-50 Guard to Outside Ashi]] (16% of attempts)
+### [[50-50 Guard to Outside Ashi]] (6% of attempts)
 
-### [[50-50 Guard to Inside Ashi]] (15% of attempts)
+### [[50-50 Guard to Inside Ashi]] (7% of attempts)
 
-### [[Pass to Side Control]] (12% of attempts)
+### [[Outside Heel Hook]] (4% of attempts)
+
+### [[50-50 Pass]] (8% of attempts)
+
+### [[Toe Hold]] (3% of attempts)
+
+### [[Transition to Backside 50-50]] (4% of attempts)
+
+### [[Saddle Entry from Top]] (9% of attempts)
+
+### [[50-50 Guard to Backside 50-50]] (1% of attempts)
 
 
 

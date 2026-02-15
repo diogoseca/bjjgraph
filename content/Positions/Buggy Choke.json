@@ -337,43 +337,51 @@
     "transitions": [
       {
         "transition": "Finish Buggy Choke",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Aoki Lock to Back Control",
-        "attempt_probability": 11
+        "attempt_probability": 45
       },
       {
         "transition": "Hook Leg and Take Back",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Aoki Lock to Crucifix",
-        "attempt_probability": 10
+        "attempt_probability": 17
       },
       {
         "transition": "Roll to Truck",
-        "attempt_probability": 9
+        "attempt_probability": 7
       },
       {
         "transition": "Switch to Darce Configuration",
-        "attempt_probability": 8
+        "attempt_probability": 4
       },
       {
         "transition": "Switch to Anaconda Configuration",
-        "attempt_probability": 8
-      },
-      {
-        "transition": "Buggy Choke to Side Control",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Rolling Back Take",
-        "attempt_probability": 10
+        "attempt_probability": 2
       },
       {
         "transition": "Buggy Choke to Front Headlock",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Turtle Flatten to Side Control",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Guillotine from Turtle",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Crucifix from Turtle",
         "attempt_probability": 10
+      },
+      {
+        "transition": "Buggy Choke to North-South",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Buggy Choke to Side Control",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Grip Strip from Buggy Choke",
+        "attempt_probability": 1
       }
     ]
   },
@@ -619,27 +627,35 @@
     "transitions": [
       {
         "transition": "Sit to Half Guard",
-        "attempt_probability": 18
+        "attempt_probability": 25
       },
       {
         "transition": "Granby Roll to Guard",
-        "attempt_probability": 18
+        "attempt_probability": 5
       },
       {
-        "transition": "Technical Stand Up",
-        "attempt_probability": 16
+        "transition": "Technical Stand-up",
+        "attempt_probability": 6
       },
       {
         "transition": "Turn In and Face",
-        "attempt_probability": 18
-      },
-      {
-        "transition": "Roll to Deep Half Guard",
         "attempt_probability": 14
       },
       {
-        "transition": "Elbow Escape to Guard",
-        "attempt_probability": 16
+        "transition": "Turtle to Guard",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Back Door Escape",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Roll to Deep Half Guard",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Turtle to Back Control",
+        "attempt_probability": 18
       }
     ]
   }

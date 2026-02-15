@@ -21,37 +21,37 @@ description: "Master offensive strategies for standing back control top position
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke",
-      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Takedown to Grounded Back Control",
-      "text": "From this position, attempt Takedown to Grounded Back Control. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Takedown to Grounded Back Control. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Bow and Arrow Choke",
-      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Body Triangle Lock",
+      "text": "From this position, attempt Body Triangle Lock. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Body Triangle Lock",
-      "text": "From this position, attempt Body Triangle Lock. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Armbar from Back Transition",
+      "text": "From this position, attempt Armbar from Back Transition. This technique is attempted in 7% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar from Back Transition",
-      "text": "From this position, attempt Armbar from Back Transition. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Crucifix Transition",
+      "text": "From this position, attempt Crucifix Transition. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Mat Return to Back Mount",
-      "text": "From this position, attempt Mat Return to Back Mount. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Truck Position Entry",
+      "text": "From this position, attempt Truck Position Entry. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,21 +209,21 @@ Success from Standing Back Control Top requires understanding several key mechan
 
 ## Available Attacks
 
-### [[Rear Naked Choke]] (14% of attempts)
+### [[Rear Naked Choke]] (18% of attempts)
 
-### [[Takedown to Grounded Back Control]] (15% of attempts)
+### [[Takedown to Grounded Back Control]] (18% of attempts)
 
-### [[Bow and Arrow Choke]] (12% of attempts)
+### [[Body Triangle Lock]] (14% of attempts)
 
-### [[Body Triangle Lock]] (13% of attempts)
-
-### [[Armbar from Back Transition]] (11% of attempts)
-
-### [[Mat Return to Back Mount]] (14% of attempts)
+### [[Armbar from Back Transition]] (7% of attempts)
 
 ### [[Crucifix Transition]] (10% of attempts)
 
-### [[Truck Position Entry]] (11% of attempts)
+### [[Truck Position Entry]] (13% of attempts)
+
+### [[Snap Down to Front Headlock]] (8% of attempts)
+
+### [[Follow to Back Control]] (12% of attempts)
 
 
 
@@ -234,7 +234,7 @@ Success from Standing Back Control Top requires understanding several key mechan
 ## Decision Making from This Position
 
 **If opponent's posture is broken forward and neck is exposed:**
-- Execute **[[Rear Naked Choke attack]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Rear Naked Choke attack]]** → [[Game Over]] (Probability: 55%)
 - Execute **[[Maintain control and break down to ground]]** → [[Back Control]] (Probability: 60%)
 
 
@@ -258,7 +258,7 @@ Success from Standing Back Control Top requires understanding several key mechan
 **If opponent drops to their knees defensively:**
 - Execute **[[Follow to grounded back control]]** → [[Back Control]] (Probability: 70%)
 - Execute **[[Transition to truck position]]** → [[Truck]] (Probability: 45%)
-- Execute **[[Attack choke during transition]]** → [[game-over]] (Probability: 50%)
+- Execute **[[Attack choke during transition]]** → [[Game Over]] (Probability: 50%)
 
 
 
@@ -396,7 +396,6 @@ Start with compliant partner, establish standing back control. Every 30 seconds 
 - **[[Rear Naked Choke]]** - Primary submission finish from this position, can be attempted standing or after takedown
 - **[[Seat Belt Control Back]]** - Specific grip configuration that defines harness control essential for maintaining this position
 - **[[Body Triangle]]** - Advanced leg control option to compromise opponent's base and secure position
-- **[[Standing Rear Clinch]]** - Common entry position - standing back control develops from successful rear clinch
 - **[[Crucifix]]** - Alternative control position when opponent fights grips aggressively
 - **[[Truck]]** - Transition option when opponent drops to knees defensively
 - **[[Mount]]** - Alternative dominant position if you take opponent down forward instead of to back control

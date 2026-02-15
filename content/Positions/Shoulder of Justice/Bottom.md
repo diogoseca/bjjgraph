@@ -21,37 +21,37 @@ description: "Defend against intense shoulder pressure in Shoulder of Justice Bo
     {
       "@type": "HowToStep",
       "name": "Execute Shrimp Escape",
-      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Elbow Escape",
-      "text": "From this position, attempt Elbow Escape. This technique is attempted in 21% of exchanges from this position.",
+      "name": "Execute Elbow Escape to Guard",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 22% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Frame and Shrimp",
-      "text": "From this position, attempt Frame and Shrimp. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Frame and Shrimp to Guard",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Standup",
-      "text": "From this position, attempt Technical Standup. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Technical Stand-up",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape",
-      "text": "From this position, attempt Hip Escape. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Hip Escape to Guard",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,17 +208,17 @@ From the bottom perspective, your primary objective is to relieve the shoulder p
 
 ## Available Escapes
 
-### [[Shrimp Escape]] (19% of attempts)
+### [[Shrimp Escape]] (25% of attempts)
 
-### [[Elbow Escape]] (21% of attempts)
+### [[Elbow Escape to Guard]] (22% of attempts)
 
-### [[Frame and Shrimp]] (17% of attempts)
+### [[Frame and Shrimp to Guard]] (18% of attempts)
 
-### [[Bridge and Roll]] (11% of attempts)
+### [[Bridge and Roll]] (13% of attempts)
 
-### [[Technical Standup]] (16% of attempts)
+### [[Technical Stand-up]] (12% of attempts)
 
-### [[Hip Escape]] (16% of attempts)
+### [[Hip Escape to Guard]] (10% of attempts)
 
 
 
@@ -230,17 +230,17 @@ From the bottom perspective, your primary objective is to relieve the shoulder p
 
 **If you can create micro-frame with bottom forearm without extending arm fully:**
 - Execute **[[Shrimp Escape]]** → [[Half Guard]] (Probability: 35%)
-- Execute **[[Frame and Shrimp]]** → [[Closed Guard]] (Probability: 28%)
+- Execute **[[Frame and Shrimp to Guard]]** → [[Closed Guard]] (Probability: 28%)
 
 
 **If opponent shifts weight toward your head to increase pressure intensity:**
 - Execute **[[Bridge and Roll]]** → [[Side Control]] (Probability: 22%)
-- Execute **[[Technical Standup]]** → [[Standing Position]] (Probability: 18%)
+- Execute **[[Technical Stand-up]]** → [[Standing Position]] (Probability: 18%)
 
 
 **If opponent begins stepping over for mount transition creating space:**
-- Execute **[[Elbow Escape]]** → [[Half Guard]] (Probability: 42%)
-- Execute **[[Hip Escape]]** → [[Open Guard]] (Probability: 32%)
+- Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 42%)
+- Execute **[[Hip Escape to Guard]]** → [[Open Guard]] (Probability: 32%)
 
 
 
@@ -340,7 +340,7 @@ Partner increases shoulder pressure incrementally. You must avoid all reactive m
 **A**: First, relieve the shoulder pressure through proper positioning and micro-frames. Second, create space through well-timed shrimping when opponent's weight shifts. Third, recover guard by inserting knee shields or returning to closed guard. Attempting to recover guard without first relieving pressure and creating space results in failed escapes and wasted energy.
 
 **Q6**: Your opponent shifts weight toward your head to increase pressure - what escape opportunity does this create?
-**A**: When opponent shifts weight toward your head, their hips become lighter on your hip line, creating a potential bridge and roll opportunity. Their forward weight shift also makes them vulnerable if you can time a coordinated bridge that disrupts their base. Additionally, you may be able to sneak your hips out toward your feet for a technical standup attempt if you can create the initial angle.
+**A**: When opponent shifts weight toward your head, their hips become lighter on your hip line, creating a potential bridge and roll opportunity. Their forward weight shift also makes them vulnerable if you can time a coordinated bridge that disrupts their base. Additionally, you may be able to sneak your hips out toward your feet for a technical stand-up attempt if you can create the initial angle.
 
 **Q7**: What happens if you turn your face into the pressure to relieve jaw discomfort?
 **A**: Turning into the pressure opens north-south transition pathways and potential back-take opportunities for your opponent. They can follow your turn, spin to north-south control, or take your back as you expose it. Instead, maintain your head turned away from the pressure while working on hip escape and space creation - accept the jaw discomfort as temporary.
@@ -380,7 +380,7 @@ Partner increases shoulder pressure incrementally. You must avoid all reactive m
 - **[[North-South]]** - Position advancement threat when turning into pressure
 - **[[Mount]]** - Position advancement threat when shrimping creates space
 - **[[Shrimp Escape]]** - Primary escape technique from this position
-- **[[Elbow Escape]]** - Secondary escape technique for guard recovery
+- **[[Elbow Escape to Guard]]** - Secondary escape technique for guard recovery
 
 
 </section>

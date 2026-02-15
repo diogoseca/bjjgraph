@@ -21,37 +21,37 @@ description: "Master Reverse De La Riva Guard Top passing in BJJ. Complete guide
     {
       "@type": "HowToStep",
       "name": "Execute RDLR Pass",
-      "text": "From this position, attempt RDLR Pass. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt RDLR Pass. This technique is attempted in 20% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 7% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 7% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toreando Pass",
-      "text": "From this position, attempt Toreando Pass. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Toreando Pass. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Step",
-      "text": "From this position, attempt Back Step. This technique is attempted in 19% of exchanges from this position.",
+      "name": "Execute Long Step Pass",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,19 +210,25 @@ The top player must navigate multiple decision points throughout the passing seq
 
 ## Available Attacks
 
-### [[RDLR Pass]] (14% of attempts)
+### [[RDLR Pass]] (20% of attempts)
 
-### [[Leg Drag Pass]] (15% of attempts)
+### [[Leg Drag Pass]] (13% of attempts)
 
-### [[Knee Slice Pass]] (13% of attempts)
+### [[Knee Slice Pass]] (7% of attempts)
 
-### [[Smash Pass]] (12% of attempts)
+### [[Smash Pass]] (7% of attempts)
 
-### [[Toreando Pass]] (14% of attempts)
+### [[Toreando Pass]] (6% of attempts)
 
-### [[Back Step]] (19% of attempts)
+### [[Long Step Pass]] (9% of attempts)
 
-### [[Long Step Pass]] (13% of attempts)
+### [[Body Lock Pass]] (8% of attempts)
+
+### [[Headquarters Pass]] (14% of attempts)
+
+### [[Back Step Pass]] (13% of attempts)
+
+### [[RDLR Backstep Counter]] (3% of attempts)
 
 
 

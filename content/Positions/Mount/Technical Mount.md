@@ -4,7 +4,7 @@
 
 ---
 title: "Technical Mount | BJJ Position Guide | BJJ Graph"
-description: "Master Technical Mount in BJJ. Advanced S-mount variation with stepped leg configuration creating optimal armbar angles. Complete guide covering top control, bottom escapes, and submission chains."
+description: "Master Technical Mount in BJJ. Advanced mount variation with stepped leg creating optimal armbar and triangle angles. Complete guide covering top control, bottom escapes, and submission chains."
 ---
 
 
@@ -93,13 +93,13 @@ Technical Mount is most commonly entered from regular mount during armbar attemp
 ### Available Transitions
 
 
-- **[[Elbow Escape]]** (28% of attempts)
+- **[[Elbow Escape to Guard]]** (28% of attempts)
 
 - **[[Upa Escape]]** (20% of attempts)
 
-- **[[Hip Escape]]** (22% of attempts)
+- **[[Hip Escape to Guard]]** (22% of attempts)
 
-- **[[Frame and Shrimp]]** (20% of attempts)
+- **[[Shrimp Escape]]** (20% of attempts)
 
 - **[[Bridge and Roll]]** (10% of attempts)
 
@@ -158,17 +158,17 @@ Technical Mount is most commonly entered from regular mount during armbar attemp
 ### Available Transitions
 
 
-- **[[Mount to Armbar]]** (25% of attempts)
+- **[[Mount to Armbar]]** (30% of attempts)
 
-- **[[Back Take Generic]]** (22% of attempts)
+- **[[Back Take]]** (25% of attempts)
 
-- **[[Side Control to Mount]]** (15% of attempts)
+- **[[Consolidate Mount]]** (15% of attempts)
 
-- **[[Triangle Setup]]** (15% of attempts)
+- **[[Triangle Setup]]** (12% of attempts)
 
-- **[[Gift Wrap Control]]** (13% of attempts)
+- **[[Gift Wrap Control]]** (10% of attempts)
 
-- **[[High Mount Transition]]** (10% of attempts)
+- **[[High Mount Transition]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -205,17 +205,15 @@ Technical Mount is most commonly entered from regular mount during armbar attemp
 
 - **[[Mount]]** - Parent position from which technical mount is most commonly entered
 
-- **[[S Mount]]** - Alternative name for technical mount position
+- **[[S Mount]]** - Alternative name and closely related mount variation sharing leg configuration
 
 - **[[High Mount]]** - Related mount variation sharing high positioning and increased submission threats
 
 - **[[Armbar Control]]** - Primary finishing position from technical mount transitions
 
-- **[[Triangle Control]]** - Secondary submission target when opponent defends armbar by pulling arm back
+- **[[Mounted Triangle]]** - Secondary submission target when opponent defends armbar by pulling arm back
 
 - **[[Back Control]]** - Common advancement when opponent turns away to escape submission threats
-
-- **[[Mounted Triangle]]** - Alternative submission maintaining mount structure while attacking neck
 
 - **[[Gift Wrap]]** - Control position available when opponent uses free arm to defend
 
@@ -224,6 +222,8 @@ Technical Mount is most commonly entered from regular mount during armbar attemp
 - **[[Turtle]]** - Emergency escape option from bottom often leading to further transitions
 
 - **[[Side Control]]** - Alternative top control position if technical mount cannot be maintained
+
+- **[[Mounted Crucifix]]** - Alternative controlling mount variation accessible from similar arm isolation setups
 
 
 </section>

@@ -21,37 +21,37 @@ description: "Attacking perspective in reversed leg entanglement. Master control
     {
       "@type": "HowToStep",
       "name": "Execute Inside Heel Hook from Ushiro",
-      "text": "From this position, attempt Inside Heel Hook from Ushiro. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Inside Heel Hook from Ushiro. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Estima Lock to Saddle",
-      "text": "From this position, attempt Estima Lock to Saddle. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Follow to Back Control",
+      "text": "From this position, attempt Follow to Back Control. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Follow to Back Control",
-      "text": "From this position, attempt Follow to Back Control. This technique is attempted in 16% of exchanges from this position.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Ankle Lock Finish",
-      "text": "From this position, attempt Ankle Lock Finish. This technique is attempted in 11% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Inside Ashi-Garami to Honey Hole",
-      "text": "From this position, attempt Inside Ashi-Garami to Honey Hole. This technique is attempted in 10% of exchanges from this position.",
-      "position": 5
+      "text": "From this position, attempt Ankle Lock Finish. This technique is attempted in 7% of exchanges from this position.",
+      "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Cross Ashi Transition",
       "text": "From this position, attempt Cross Ashi Transition. This technique is attempted in 10% of exchanges from this position.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Outside Heel Hook Adjustment",
+      "text": "From this position, attempt Outside Heel Hook Adjustment. This technique is attempted in 5% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Return to Outside Ashi",
+      "text": "From this position, attempt Return to Outside Ashi. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,23 +212,23 @@ Control maintenance in ushiro ashi-garami requires constant adjustment to the op
 
 ## Available Attacks
 
-### [[Inside Heel Hook from Ushiro]] (11% of attempts)
+### [[Inside Heel Hook from Ushiro]] (13% of attempts)
 
-### [[Estima Lock to Saddle]] (12% of attempts)
+### [[Follow to Back Control]] (18% of attempts)
 
-### [[Follow to Back Control]] (16% of attempts)
-
-### [[Ankle Lock Finish]] (11% of attempts)
-
-### [[Inside Ashi-Garami to Honey Hole]] (10% of attempts)
+### [[Ankle Lock Finish]] (7% of attempts)
 
 ### [[Cross Ashi Transition]] (10% of attempts)
 
-### [[Outside Heel Hook Adjustment]] (9% of attempts)
+### [[Outside Heel Hook Adjustment]] (5% of attempts)
 
-### [[Return to Outside Ashi]] (13% of attempts)
+### [[Return to Outside Ashi]] (12% of attempts)
 
-### [[Kneebar from Ushiro]] (8% of attempts)
+### [[Kneebar from Ushiro]] (15% of attempts)
+
+### [[Saddle Entry from Top]] (12% of attempts)
+
+### [[Toe Hold]] (8% of attempts)
 
 
 
@@ -239,13 +239,13 @@ Control maintenance in ushiro ashi-garami requires constant adjustment to the op
 ## Decision Making from This Position
 
 **If opponent's inversion is shallow and leg clearing has not progressed significantly:**
-- Execute **[[Immediate Heel Hook Attempt]]** → [[game-over]] (Probability: 50%)
+- Execute **[[Immediate Heel Hook Attempt]]** → [[Game Over]] (Probability: 50%)
 - Execute **[[Estima Lock to Saddle]]** → [[Saddle]] (Probability: 55%)
 
 
 **If opponent is actively rotating toward turtle with committed movement:**
 - Execute **[[Follow to Back Control]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Ankle Lock During Transition]]** → [[game-over]] (Probability: 45%)
+- Execute **[[Ankle Lock During Transition]]** → [[Game Over]] (Probability: 45%)
 
 
 **If opponent has cleared outside leg and is working to clear inside leg:**
@@ -254,7 +254,7 @@ Control maintenance in ushiro ashi-garami requires constant adjustment to the op
 
 
 **If opponent is attempting counter-attack on attacker's legs:**
-- Execute **[[Accelerate Heel Hook Finish]]** → [[game-over]] (Probability: 50%)
+- Execute **[[Accelerate Heel Hook Finish]]** → [[Game Over]] (Probability: 50%)
 - Execute **[[Cross Ashi Defense]]** → [[Cross Ashi-Garami]] (Probability: 45%)
 
 
@@ -359,8 +359,8 @@ Begin in ushiro ashi-garami with both practitioners working at 60% intensity. De
 **Q6**: When is following to back control the superior option compared to maintaining ushiro ashi-garami?
 **A**: Follow to back control when your opponent commits fully to turtle rotation and turns their back to escape, when your leg entanglement has degraded to the point where submission attempts have low success probability, or when they've cleared both legs but their turtle position exposes back access. The back take becomes optimal when their rotation momentum is too strong to reverse for leg attacks.
 
-**Q7**: How do you manage energy expenditure in the dynamic ushiro position?
-**A**: Allow controlled inversion rather than exhausting yourself trying to prevent the inevitable rotation through pure strength. Conserve energy by using technical leg positioning and grip fighting rather than muscular holding. Focus energy expenditure on the critical moments: grip establishment, submission finishing, or transition timing rather than sustained resistance throughout the entire scramble sequence.
+**Q7**: How do you maintain weight distribution to keep your opponent pinned while attacking from ushiro?
+**A**: Keep your hips heavy and connected to the opponent's trapped leg, distributing weight through your inside leg control on their thigh. Avoid lifting your hips to reach for grips, as this creates space for escape. Instead, angle your torso toward the trapped leg while maintaining constant downward pressure through your figure-four. Your weight should feel like it is driving through your inside leg into their thigh rather than floating above them.
 
 **Q8**: What are the key indicators that your opponent is about to attempt a counter-attack on your legs?
 **A**: Watch for their free hand reaching toward your legs rather than defending their heel, hip movement that creates angle toward your lower body rather than away, attempts to square their hips back toward you during the inversion, or deliberate slowing of their escape rotation. These indicate they're shifting from escape to counter-attack, requiring you to either accelerate your finish or address their leg entanglement attempt.

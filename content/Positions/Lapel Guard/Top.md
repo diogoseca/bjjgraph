@@ -21,37 +21,37 @@ description: "Navigate and pass lapel guard configurations with technical precis
     {
       "@type": "HowToStep",
       "name": "Execute Lapel Clear to Toreando Pass",
-      "text": "From this position, attempt Lapel Clear to Toreando Pass. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Lapel Clear to Toreando Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Backstep Around Worm Guard",
-      "text": "From this position, attempt Backstep Around Worm Guard. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Backstep Around Worm Guard. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Pressure Pass Through Squid",
-      "text": "From this position, attempt Pressure Pass Through Squid. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Pressure Pass Through Squid. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Despite Lapel",
-      "text": "From this position, attempt Knee Slice Despite Lapel. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Despite Lapel. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Around Ringworm",
-      "text": "From this position, attempt Long Step Around Ringworm. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Long Step Around Ringworm. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass Over Lapel Barrier",
-      "text": "From this position, attempt Stack Pass Over Lapel Barrier. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Stack Pass Over Lapel Barrier. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -214,21 +214,23 @@ Developing lapel guard top competency requires specific drilling and study. Gene
 
 ## Available Attacks
 
-### [[Lapel Clear to Toreando Pass]] (13% of attempts)
+### [[Lapel Clear to Toreando Pass]] (12% of attempts)
 
-### [[Backstep Around Worm Guard]] (14% of attempts)
+### [[Backstep Around Worm Guard]] (16% of attempts)
 
-### [[Pressure Pass Through Squid]] (12% of attempts)
+### [[Pressure Pass Through Squid]] (11% of attempts)
 
-### [[Knee Slice Despite Lapel]] (13% of attempts)
+### [[Knee Slice Despite Lapel]] (12% of attempts)
 
-### [[Long Step Around Ringworm]] (12% of attempts)
+### [[Long Step Around Ringworm]] (11% of attempts)
 
-### [[Stack Pass Over Lapel Barrier]] (11% of attempts)
+### [[Stack Pass Over Lapel Barrier]] (9% of attempts)
 
-### [[Distance Creation to Reset]] (13% of attempts)
+### [[Distance Creation to Reset]] (8% of attempts)
 
-### [[Leg Drag While Clearing Lapel]] (12% of attempts)
+### [[Leg Drag While Clearing Lapel]] (11% of attempts)
+
+### [[Leg Extraction from Lapel Wrap]] (10% of attempts)
 
 
 

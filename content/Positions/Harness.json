@@ -1,7 +1,7 @@
 {
   "name": "Harness",
   "slug": "harness",
-  "description": "Master Harness Position in BJJ - back control with seat belt grip. Complete strategic guide covering defensive bottom escape strategies and dominant top submission paths with expert analysis.",
+  "description": "Master Harness Position in BJJ - back control with seat belt grip. Complete strategic guide covering defensive escape strategies and dominant submission paths.",
   "variant_uniqueness": "Seat belt grip prioritizes submission proximity",
   "overview": "The Harness Position, also known as the Seat Belt or Seatbelt Control, is a fundamental back control configuration where the attacking practitioner secures one arm over the opponent's shoulder and the other under the opposite armpit, creating a powerful control mechanism that resembles a seat belt. This grip structure is the cornerstone of modern back attack systems and provides exceptional control while maintaining multiple offensive pathways to submissions, particularly the rear naked choke.\n\nThe harness grip creates a mechanical advantage by connecting the attacker's hands at the opponent's centerline, typically with a grip over grip connection or a more advanced rear naked choke grip configuration. This control structure allows the top practitioner to maintain proximity to the opponent's back, control their posture, and prevent effective escape attempts. The position is distinguished from other back control variations by the specific grip configuration rather than hook placement, making it applicable from standing, seated, or fully established back control positions.\n\nStrategically, the harness position serves as a transitional control point and a submission platform for the top player, while presenting a critical defensive challenge for the bottom player. From this configuration, top practitioners can attack the neck directly, transition to other control positions like the gift wrap or crucifix, or use the grip structure to maintain control while adjusting hook placement. Bottom practitioners face the challenge of defending submissions while working systematic escapes to turtle, guard, or standing positions. The harness is particularly effective in no-gi grappling where gi-based grips are unavailable, and it forms the technical foundation for virtually all modern back attack and defense systems.",
   "key_principles": [
@@ -144,7 +144,7 @@
         "condition": "If opponent is defending choke with both hands high, protecting neck",
         "actions": [
           {
-            "technique": "Armbar from Back with Legs",
+            "technique": "Armbar from Back Transition",
             "target": "Armbar Control",
             "probability": 70
           },
@@ -165,7 +165,7 @@
           },
           {
             "technique": "Rear Naked Choke",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 75
           }
         ]
@@ -190,12 +190,12 @@
         "actions": [
           {
             "technique": "Bow and Arrow Choke",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 70
           },
           {
             "technique": "Rear Naked Choke",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 80
           }
         ]
@@ -209,8 +209,8 @@
             "probability": 65
           },
           {
-            "technique": "Choke from Crucifix",
-            "target": "game-over",
+            "technique": "Short Choke",
+            "target": "Game Over",
             "probability": 60
           }
         ]
@@ -345,35 +345,51 @@
     "transitions": [
       {
         "transition": "Rear Naked Choke",
-        "attempt_probability": 15
+        "attempt_probability": 30
       },
       {
-        "transition": "Armbar from Back with Legs",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Back Control to Crucifix",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Triangle from Back",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Bow and Arrow Choke",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "Armbar from Back",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Choke from Crucifix",
+        "transition": "Armbar from Back Transition",
         "attempt_probability": 14
       },
       {
+        "transition": "Back Control to Crucifix",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Triangle from Back",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Bow and Arrow Choke",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Short Choke",
+        "attempt_probability": 6
+      },
+      {
         "transition": "Rolling Back Take",
-        "attempt_probability": 12
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Transition to Body Lock",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Kimura from Back",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Gift Wrap Transition",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Hand Fighting from Back",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Harness to Body Lock",
+        "attempt_probability": 2
       }
     ]
   },
@@ -392,7 +408,7 @@
     ],
     "overview": "Harness Bottom Position represents the defensive perspective when an opponent has secured back control with a harness (seatbelt) grip configuration. This position is characterized by the opponent wrapping one arm over the shoulder and the other under the armpit, establishing a strong controlling mechanism. The harness grip is one of the most fundamental and effective control systems in Brazilian Jiu-Jitsu, as it provides the top player with both offensive submission opportunities and positional dominance while severely limiting the bottom player's mobility and defensive options.\n\nFrom this position, the bottom player faces significant challenges including defending against rear naked chokes, preventing hooks from being inserted, and managing the constant threat of positional advancement to fully secured back control with hooks. The harness grip creates a dilemma where defending the choke often exposes the neck, while protecting the neck can allow deeper positional control. Success in this position requires systematic defensive strategies including hand fighting, proper posture management, hip positioning, and timely escaping techniques.\n\nThe strategic priority from Harness Bottom Position is threefold: first, prevent the rear naked choke by controlling the choking arm and protecting the neck; second, prevent or remove hooks to maintain mobility; and third, create space and angles to escape back to more favorable positions such as turtle, guard, or standing positions. Understanding the mechanics of the harness grip and the opponent's offensive threats is essential for developing effective defensive responses and escape pathways.",
     "state_properties": {
-      "point_value": 0,
+      "point_value": -4,
       "position_type": "Defensive",
       "risk_level": "High",
       "energy_cost": "Medium",
@@ -464,13 +480,13 @@
             "probability": 90
           },
           {
-            "technique": "Hip Escape to create space",
+            "technique": "Hip Escape to Turtle",
             "target": "Turtle",
             "probability": 50
           },
           {
-            "technique": "Standing up in Base",
-            "target": "Standing Position",
+            "technique": "Technical Stand Up to Single Leg",
+            "target": "Clinch",
             "probability": 45
           }
         ]
@@ -489,7 +505,7 @@
             "probability": 60
           },
           {
-            "technique": "Emergency elbow escape",
+            "technique": "Elbow Escape to Guard",
             "target": "Turtle",
             "probability": 40
           }
@@ -499,17 +515,17 @@
         "condition": "If opponent establishes one or both hooks while maintaining harness",
         "actions": [
           {
-            "technique": "Clear hooks while controlling hands",
+            "technique": "Elbow Escape to Remove Hooks",
             "target": "Harness",
             "probability": 55
           },
           {
-            "technique": "Granby Roll escape",
+            "technique": "Granby Roll to Guard",
             "target": "Open Guard",
             "probability": 35
           },
           {
-            "technique": "Hip escape and scoot",
+            "technique": "Hip Escape to Guard",
             "target": "Half Guard",
             "probability": 45
           }
@@ -520,16 +536,16 @@
         "actions": [
           {
             "technique": "Technical Stand Up to Single Leg",
-            "target": "Standing Position",
+            "target": "Clinch",
             "probability": 60
           },
           {
-            "technique": "Forward roll to guard",
+            "technique": "Roll to Guard",
             "target": "Closed Guard",
             "probability": 50
           },
           {
-            "technique": "Elbow escape to turtle",
+            "technique": "Elbow Escape to Guard",
             "target": "Turtle",
             "probability": 65
           }
@@ -624,7 +640,7 @@
         "relationship": "Escape destination if successful turn to face opponent"
       },
       {
-        "name": "Standing Position",
+        "name": "Clinch",
         "relationship": "Escape destination via technical standup"
       },
       {
@@ -646,28 +662,40 @@
     },
     "transitions": [
       {
-        "transition": "Elbow Escape",
+        "transition": "Elbow Escape to Guard",
         "attempt_probability": 21
       },
       {
-        "transition": "Hip Escape",
-        "attempt_probability": 18
-      },
-      {
-        "transition": "Technical Stand Up to Single Leg",
+        "transition": "Hip Escape to Turtle",
         "attempt_probability": 17
       },
       {
+        "transition": "Technical Stand Up to Single Leg",
+        "attempt_probability": 8
+      },
+      {
         "transition": "Roll to Guard",
-        "attempt_probability": 15
+        "attempt_probability": 12
       },
       {
-        "transition": "Granby Roll",
-        "attempt_probability": 14
+        "transition": "Granby Roll to Guard",
+        "attempt_probability": 11
       },
       {
-        "transition": "Standing up in Base",
-        "attempt_probability": 15
+        "transition": "Hip Escape to Guard",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Shrimp Escape",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Hand Fighting from Back",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Harness Escape to Half Guard",
+        "attempt_probability": 4
       }
     ]
   }

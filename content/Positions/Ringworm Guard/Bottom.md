@@ -21,37 +21,37 @@ description: "Master Ringworm Guard Bottom in BJJ. Advanced lapel guard with pow
     {
       "@type": "HowToStep",
       "name": "Execute Ringworm Sweep to Back Control",
-      "text": "From this position, attempt Ringworm Sweep to Back Control. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Ringworm Sweep to Back Control. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata to Sweep",
-      "text": "From this position, attempt Omoplata to Sweep. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata to Sweep. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Lapel Guard Sweeps",
-      "text": "From this position, attempt Lapel Guard Sweeps. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Lapel Sweep to Back",
+      "text": "From this position, attempt Lapel Sweep to Back. This technique is attempted in 16% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Berimbolo Entry",
-      "text": "From this position, attempt Berimbolo Entry. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Berimbolo Entry. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Ringworm Guard to Worm Guard",
-      "text": "From this position, attempt Ringworm Guard to Worm Guard. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Ringworm Guard to Worm Guard. This technique is attempted in 23% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,17 +208,19 @@ Strategically, Ringworm Guard Bottom sits within the broader lapel guard ecosyst
 
 ## Available Escapes
 
-### [[Ringworm Sweep to Back Control]] (17% of attempts)
+### [[Ringworm Sweep to Back Control]] (15% of attempts)
 
-### [[Triangle Setup]] (15% of attempts)
+### [[Triangle Setup]] (13% of attempts)
 
-### [[Omoplata to Sweep]] (14% of attempts)
+### [[Omoplata to Sweep]] (13% of attempts)
 
-### [[Lapel Guard Sweeps]] (18% of attempts)
+### [[Lapel Sweep to Back]] (16% of attempts)
 
-### [[Berimbolo Entry]] (14% of attempts)
+### [[Berimbolo Entry]] (13% of attempts)
 
-### [[Ringworm Guard to Worm Guard]] (22% of attempts)
+### [[Ringworm Guard to Worm Guard]] (23% of attempts)
+
+### [[Ringworm to Spider Guard]] (7% of attempts)
 
 
 
@@ -229,7 +231,7 @@ Strategically, Ringworm Guard Bottom sits within the broader lapel guard ecosyst
 ## Decision Making from This Position
 
 **If opponent stands upright and attempts to back away from the guard:**
-- Execute **[[Lapel Guard Sweeps]]** → [[Mount]] (Probability: 55%)
+- Execute **[[Lapel Sweep to Back]]** → [[Mount]] (Probability: 55%)
 - Execute **[[Ringworm Sweep to Back Control]]** → [[Back Control]] (Probability: 50%)
 
 

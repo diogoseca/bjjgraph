@@ -93,25 +93,29 @@ Modern BJJ competition has elevated the importance of Standing Guard mastery, as
 ### Available Transitions
 
 
-- **[[Pull guard]]** (13% of attempts)
+- **[[Pull guard]]** (26% of attempts)
 
-- **[[Sitting Guard Pull]]** (13% of attempts)
+- **[[Sitting Guard Pull]]** (11% of attempts)
 
-- **[[Shin to Shin Pull]]** (11% of attempts)
+- **[[Shin to Shin Pull]]** (9% of attempts)
 
-- **[[Standing to Single Leg X]]** (10% of attempts)
+- **[[Standing to Single Leg X]]** (8% of attempts)
 
-- **[[Ankle Pick]]** (10% of attempts)
+- **[[Ankle Pick]]** (8% of attempts)
 
-- **[[Arm Drag to Back]]** (9% of attempts)
+- **[[Arm Drag to Back]]** (7% of attempts)
 
-- **[[Rolling Guard Pull]]** (8% of attempts)
+- **[[Rolling Guard Pull]]** (6% of attempts)
 
-- **[[Double Leg Entry]]** (9% of attempts)
+- **[[Double Leg Entry]]** (7% of attempts)
 
-- **[[Single Leg Entry]]** (9% of attempts)
+- **[[Single Leg Entry]]** (7% of attempts)
 
-- **[[Snap Down to Front Headlock]]** (8% of attempts)
+- **[[Snap Down to Front Headlock]]** (6% of attempts)
+
+- **[[Pull Guard from Ground]]** (3% of attempts)
+
+- **[[Technical Stand Up from Ground]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -176,21 +180,25 @@ Modern BJJ competition has elevated the importance of Standing Guard mastery, as
 ### Available Transitions
 
 
-- **[[Toreando Pass]]** (14% of attempts)
+- **[[Toreando Pass]]** (22% of attempts)
 
-- **[[Leg Drag Pass]]** (13% of attempts)
+- **[[Leg Drag Pass]]** (11% of attempts)
 
-- **[[Knee Slice Pass]]** (13% of attempts)
+- **[[Knee Slice Pass]]** (11% of attempts)
 
-- **[[Double Under Pass]]** (12% of attempts)
+- **[[Double Under Pass]]** (10% of attempts)
 
-- **[[X Pass]]** (13% of attempts)
+- **[[X Pass]]** (11% of attempts)
 
-- **[[Long Step Pass]]** (14% of attempts)
+- **[[Long Step Pass]]** (12% of attempts)
 
-- **[[Stack Pass]]** (11% of attempts)
+- **[[Stack Pass]]** (9% of attempts)
 
-- **[[Back Step]]** (10% of attempts)
+- **[[Back Step]]** (8% of attempts)
+
+- **[[Guard Pass from Standing Guard]]** (4% of attempts)
+
+- **[[Takedown from Standing Guard]]** (2% of attempts)
 
 
 ### Common Mistakes

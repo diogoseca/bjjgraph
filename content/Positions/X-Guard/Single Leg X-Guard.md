@@ -89,25 +89,29 @@ Single Leg X-Guard (SLX) is a specialized open guard variation where the bottom 
 ### Available Transitions
 
 
-- **[[Single Leg X Sweep]]** (10% of attempts)
+- **[[Single Leg X Sweep]]** (8% of attempts)
 
-- **[[X-Guard to Ashi Transition]]** (10% of attempts)
+- **[[X-Guard to Ashi Transition]]** (8% of attempts)
 
-- **[[Single Leg X Entry]]** (10% of attempts)
+- **[[Single Leg X Entry]]** (8% of attempts)
 
-- **[[Technical Stand Up to Single Leg]]** (9% of attempts)
+- **[[Technical Stand Up to Single Leg]]** (7% of attempts)
 
-- **[[Butterfly Guard to X-Guard]]** (11% of attempts)
+- **[[Butterfly Guard to X-Guard]]** (24% of attempts)
 
-- **[[De La Riva to X-Guard Transition]]** (10% of attempts)
+- **[[De La Riva to X-Guard Transition]]** (8% of attempts)
 
-- **[[Ankle Pick Sweep]]** (11% of attempts)
+- **[[Ankle Pick Sweep]]** (9% of attempts)
 
-- **[[Inside Ashi Entry]]** (9% of attempts)
+- **[[Inside Ashi Entry]]** (7% of attempts)
 
-- **[[Standing to Single Leg X]]** (10% of attempts)
+- **[[Standing to Single Leg X]]** (8% of attempts)
 
-- **[[Heel Grab Sweep]]** (10% of attempts)
+- **[[Heel Grab Sweep]]** (8% of attempts)
+
+- **[[SLX to Ashi Garami]]** (3% of attempts)
+
+- **[[SLX to X-Guard]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -172,17 +176,21 @@ Single Leg X-Guard (SLX) is a specialized open guard variation where the bottom 
 ### Available Transitions
 
 
-- **[[Headquarters Pass]]** (19% of attempts)
+- **[[Headquarters Pass]]** (16% of attempts)
 
-- **[[Knee Slice Pass]]** (18% of attempts)
+- **[[Knee Slice Pass]]** (15% of attempts)
 
-- **[[Leg Weave Pass]]** (16% of attempts)
+- **[[Leg Weave Pass]]** (14% of attempts)
 
-- **[[Standing up in Base]]** (20% of attempts)
+- **[[Standing up in Base]]** (24% of attempts)
 
-- **[[Smash Pass]]** (15% of attempts)
+- **[[Smash Pass]]** (13% of attempts)
 
-- **[[Kneebar]]** (12% of attempts)
+- **[[Kneebar]]** (10% of attempts)
+
+- **[[Backstep from Single Leg X]]** (5% of attempts)
+
+- **[[Standing Escape from SLX]]** (3% of attempts)
 
 
 ### Common Mistakes

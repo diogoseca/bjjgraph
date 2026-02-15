@@ -20,20 +20,20 @@ description: "Offensive guide for controlling and attacking from modified scarf 
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Americana from Side Control",
-      "text": "From this position, attempt Americana from Side Control. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Americana",
+      "text": "From this position, attempt Americana. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar from Side Control",
-      "text": "From this position, attempt Armbar from Side Control. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Armbar Finish",
+      "text": "From this position, attempt Armbar Finish. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura from Side Control",
-      "text": "From this position, attempt Kimura from Side Control. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Kimura",
+      "text": "From this position, attempt Kimura. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
@@ -208,11 +208,11 @@ The position also serves a critical strategic role in competition and training s
 
 ## Available Attacks
 
-### [[Americana from Side Control]] (11% of attempts)
+### [[Americana]] (11% of attempts)
 
-### [[Armbar from Side Control]] (10% of attempts)
+### [[Armbar Finish]] (10% of attempts)
 
-### [[Kimura from Side Control]] (10% of attempts)
+### [[Kimura]] (10% of attempts)
 
 ### [[Side Control to Mount]] (11% of attempts)
 
@@ -224,7 +224,7 @@ The position also serves a critical strategic role in competition and training s
 
 ### [[Breadcutter Choke]] (8% of attempts)
 
-### [[Far Side Armbar]] (9% of attempts)
+### [[Armbar on Free Arm]] (9% of attempts)
 
 ### [[Gift Wrap Control]] (10% of attempts)
 
@@ -242,18 +242,18 @@ The position also serves a critical strategic role in competition and training s
 
 
 **Else if opponent extends trapped arm attempting to create frame or push:**
-- Execute **[[Armbar from Side Control]]** → [[Armbar Control]] (Probability: 75%)
-- Execute **[[Americana from Side Control]]** → [[Kimura Trap]] (Probability: 68%)
+- Execute **[[Armbar Finish]]** → [[Armbar Control]] (Probability: 75%)
+- Execute **[[Americana]]** → [[Kimura Trap]] (Probability: 68%)
 
 
 **Else if opponent bridges and attempts to roll you over posting leg:**
-- Execute **[[Kimura from Side Control]]** → [[Kimura Trap]] (Probability: 65%)
+- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 65%)
 - Execute **[[Gift Wrap Control]]** → [[Gift Wrap]] (Probability: 58%)
 
 
 **Else if opponent turns away exposing their back to escape pressure:**
 - Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 80%)
-- Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 72%)
+- Execute **[[Back Take]]** → [[Back Control]] (Probability: 72%)
 
 
 
@@ -352,7 +352,7 @@ Start with compliant partner, increase their resistance by 20% every minute unti
 ## Test Your Knowledge
 
 **Q1**: Your opponent begins bridging explosively toward your posting leg - what adjustment do you make to maintain position?
-**A**: Immediately widen your base leg further from their body while simultaneously dropping your head past their far shoulder. This redirects the bridge force harmlessly across your body rather than over your base. Keep your hip pressure constant and let their bridge exhaust their energy while you remain structurally sound.
+**A**: Immediately widen your base leg further from their body while simultaneously dropping your head past their far shoulder. This redirects the bridge force harmlessly across your body rather than over your base. Keep your hip pressure constant and let their bridge exhaust their energy while you remain structurally sound. If the bridge is particularly powerful, momentarily shift more weight onto your posting knee to anchor against the rolling direction.
 
 **Q2**: What are the two critical control points for the trapped arm and why are both necessary?
 **A**: You must control both the shoulder (through armpit pressure clamping down on their upper arm) and the wrist (through grip or arm positioning). Controlling only the wrist allows them to rotate their shoulder and thread the arm free during hip escapes. Controlling only the shoulder permits them to extend the arm and create pushing frames. Both points together create a closed kinetic chain that prevents arm recovery.
@@ -369,11 +369,11 @@ Start with compliant partner, increase their resistance by 20% every minute unti
 **Q6**: Your opponent starts attempting to recover guard by turning into you - what immediate action prevents this while creating offensive opportunity?
 **A**: Their turn into you opens the mount transition. As they turn, slide your near knee across their belly while maintaining arm control. Their own turning motion helps you advance. If they stop turning to prevent mount, they return to the original position under your control. This creates a lose-lose dilemma where their escape attempt enables your advancement.
 
-**Q7**: What mistake causes rapid fatigue in this position and how do you correct it?
-**A**: Using muscular tension in your arms and chest to maintain control causes rapid fatigue. The correction is to completely relax your upper body musculature while maintaining structural positioning. Your body weight does the work, not your muscles. Focus on skeletal alignment and letting gravity create pressure. If you feel your arms or chest burning, you're working too hard and need to adjust your structure.
+**Q7**: What are the essential grips for maintaining this position against a strong opponent?
+**A**: The primary grip is your armpit clamp on their trapped upper arm, reinforced by your same-side hand controlling their wrist or forearm. Your free hand posts on the mat near their far hip for base, or controls their far-side lapel in gi to prevent turning. In no-gi, your free hand can crossface or underhook their far-side neck. The grip hierarchy prioritizes armpit clamp first, wrist control second, and far-side control third.
 
-**Q8**: How do you recognize when your opponent is about to attempt a hip escape and preemptively shut it down?
-**A**: Watch for them positioning their far foot flat on the mat (generating pushing power), slight tension in their hip flexors, or their free arm beginning to frame against your shoulder. When you sense these preparatory movements, immediately increase hip pressure and make a small adjustment - shift your hip angle slightly or pulse your pressure. This disrupts their timing and forces them to reset their escape attempt.
+**Q8**: How do you recover position after your opponent partially escapes by inserting a knee shield between your bodies?
+**A**: Do not fight the knee shield directly by trying to smash through it. Instead, maintain your arm control and use your hip to backstep around the knee shield, re-angling your body to re-establish chest-to-chest contact from a new angle. Alternatively, transition to North-South to bypass the knee entirely while keeping arm control. The knee shield only works if you engage it head-on - lateral movement defeats it while preserving your dominant grip on the trapped arm.
 
 
 
@@ -401,9 +401,9 @@ Start with compliant partner, increase their resistance by 20% every minute unti
 
 - **[[Kesa Gatame]]** - Parent position—traditional scarf hold without arm isolation
 - **[[Side Control]]** - Position family sharing control principles
-- **[[Americana from Side Control]]** - Primary submission attack from trapped arm
-- **[[Armbar from Side Control]]** - High-percentage submission when arm extends
-- **[[Kimura from Side Control]]** - Alternative shoulder lock from same arm control
+- **[[Americana]]** - Primary submission transition from trapped arm
+- **[[Armbar Finish]]** - High-percentage submission when arm extends
+- **[[Kimura]]** - Alternative shoulder lock transition from same arm control
 - **[[Mount]]** - Common advancement when opponent turns in
 - **[[North-South]]** - Transitional position for maintaining control
 - **[[Gift Wrap]]** - Alternative control when arm trapping opportunities arise

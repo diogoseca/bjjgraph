@@ -4,7 +4,7 @@
 
 ---
 title: "Butterfly Hook Control Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master Butterfly Hook Control Bottom in BJJ. Complete guide covering butterfly hooks, sweeps, and back takes. Success rates: Beginner 40%, Intermediate 60%, Advanced 75%."
+description: "Master Butterfly Hook Control Bottom in BJJ. Complete guide covering butterfly hooks, sweeps, back takes, and guard transitions for offensive guard play."
 ---
 
 
@@ -21,37 +21,37 @@ description: "Master Butterfly Hook Control Bottom in BJJ. Complete guide coveri
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Sweep",
-      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 42% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Butterfly Sweep Variations",
-      "text": "From this position, attempt Butterfly Sweep Variations. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Arm Drag to Back",
+      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Drag to Back",
-      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Butterfly Guard to X-Guard",
+      "text": "From this position, attempt Butterfly Guard to X-Guard. This technique is attempted in 6% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Butterfly Guard to X-Guard",
-      "text": "From this position, attempt Butterfly Guard to X-Guard. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Hook Sweep",
+      "text": "From this position, attempt Hook Sweep. This technique is attempted in 5% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hook Sweep",
-      "text": "From this position, attempt Hook Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Elevator Sweep",
+      "text": "From this position, attempt Elevator Sweep. This technique is attempted in 5% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Elevator Sweep",
-      "text": "From this position, attempt Elevator Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Guillotine Setup",
+      "text": "From this position, attempt Guillotine Setup. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -115,7 +115,7 @@ description: "Master Butterfly Hook Control Bottom in BJJ. Complete guide coveri
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Butterfly Hook Control Bottom",
-  "description": "Master Butterfly Hook Control Bottom in BJJ. Complete guide covering butterfly hooks, sweeps, and back takes. Success rates: Beginner 40%, Intermediate 60%, Advanced 75%.",
+  "description": "Master Butterfly Hook Control Bottom in BJJ. Complete guide covering butterfly hooks, sweeps, back takes, and guard transitions for offensive guard play.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -208,25 +208,39 @@ The fundamental mechanics rely on creating a lever system where your hooks act a
 
 ## Available Escapes
 
-### [[Butterfly Sweep]] (13% of attempts)
+### [[Butterfly Sweep]] (42% of attempts)
 
-### [[Butterfly Sweep Variations]] (10% of attempts)
+### [[Arm Drag to Back]] (9% of attempts)
 
-### [[Arm Drag to Back]] (10% of attempts)
+### [[Butterfly Guard to X-Guard]] (6% of attempts)
 
-### [[Butterfly Guard to X-Guard]] (10% of attempts)
+### [[Hook Sweep]] (5% of attempts)
 
-### [[Hook Sweep]] (10% of attempts)
+### [[Elevator Sweep]] (5% of attempts)
 
-### [[Elevator Sweep]] (10% of attempts)
+### [[Guillotine Setup]] (5% of attempts)
 
-### [[Guillotine Setup]] (9% of attempts)
+### [[Deep Half Entry]] (6% of attempts)
 
-### [[Deep Half Entry]] (10% of attempts)
+### [[Single Leg X Entry]] (5% of attempts)
 
-### [[Single Leg X Entry]] (10% of attempts)
+### [[Butterfly Sweep with Guillotine]] (2% of attempts)
 
-### [[Omoplata Sweep]] (8% of attempts)
+### [[Butterfly Hook Recovery]] (3% of attempts)
+
+### [[Kimura Sweep]] (4% of attempts)
+
+### [[Collar Drag]] (1% of attempts)
+
+### [[John Wayne Sweep]] (1% of attempts)
+
+### [[Sumi Gaeshi]] (3% of attempts)
+
+### [[Arm Drag Sweep]] (2% of attempts)
+
+### [[Butterfly Hook Sweep]] (0% of attempts)
+
+### [[Reguard to Butterfly Guard]] (1% of attempts)
 
 
 

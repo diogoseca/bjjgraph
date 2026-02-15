@@ -14,7 +14,7 @@
   "application_level": "Fundamental",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "overview": "Knee on Belly Escape represents a critical defensive concept addressing one of the most pressure-intensive positions in Brazilian Jiu-Jitsu. The position creates exceptional discomfort for the bottom player while offering the top player high mobility and submission threats. Effective escape requires understanding the mechanics of frame creation, hip mobility, and timing to exploit the inherent instability of the position.\n\nThe concept integrates multiple fundamental principles: defensive framing to manage pressure points, hip escape mechanics to create distance, and base disruption to capitalize on the top player's elevated center of gravity. Unlike escaping from more stable pins like Side Control, Knee on Belly escapes leverage the position's mobility against itself. The top player's weight concentrated on one knee creates opportunities for timing-based reversals and guard recoveries.\n\nMastery of this concept develops through understanding the hierarchy of escape options—from immediate frame-based defenses to prevent submissions, through hip escapes to create space, to offensive reversals that capitalize on the opponent's commitment to maintaining pressure. This systematic approach transforms a highly disadvantageous position into a manageable defensive scenario with clear pathways to recovery.",
+  "overview": "Knee on Belly Escape represents a critical defensive concept addressing one of the most pressure-intensive positions in Brazilian Jiu-Jitsu. The position creates exceptional discomfort for the bottom player while offering the top player high mobility and submission threats. Effective escape requires understanding the mechanics of frame creation, hip mobility, and timing to exploit the inherent instability of the position.\n\nThe concept integrates multiple fundamental principles: defensive framing to manage pressure points, hip escape mechanics to create distance, and base disruption to capitalize on the top player's elevated center of gravity. Unlike escaping from more stable pins like Side Control, Knee on Belly escapes leverage the position's mobility against itself. The top player's weight concentrated on one knee creates opportunities for timing-based reversals and guard recoveries.\n\nMastery of this concept develops through understanding the hierarchy of escape options\u2014from immediate frame-based defenses to prevent submissions, through hip escapes to create space, to offensive reversals that capitalize on the opponent's commitment to maintaining pressure. This systematic approach transforms a highly disadvantageous position into a manageable defensive scenario with clear pathways to recovery.",
   "key_principles": [
     "Immediate frame establishment to prevent submission attacks and manage pressure distribution",
     "Hip escape mechanics to create distance between hips and opponent's base",
@@ -33,7 +33,7 @@
     },
     {
       "skill_name": "Hip Escape Timing",
-      "description": "Precise timing of shrimp movements to coincide with opponent's weight shifts or adjustments. Understanding when the opponent is most vulnerable—typically during grip changes, submission attempts, or transitions—and executing explosive hip movement to create critical distance."
+      "description": "Precise timing of shrimp movements to coincide with opponent's weight shifts or adjustments. Understanding when the opponent is most vulnerable\u2014typically during grip changes, submission attempts, or transitions\u2014and executing explosive hip movement to create critical distance."
     },
     {
       "skill_name": "Far Hip Protection",
@@ -49,7 +49,7 @@
     },
     {
       "skill_name": "Reversal Timing Recognition",
-      "description": "Identifying moments when aggressive escapes can transition to offensive reversals—typically when opponent overcommits to maintaining the position or attempts submissions. Developing the awareness to capitalize on these windows with techniques like ankle picks or elevator sweeps."
+      "description": "Identifying moments when aggressive escapes can transition to offensive reversals\u2014typically when opponent overcommits to maintaining the position or attempts submissions. Developing the awareness to capitalize on these windows with techniques like ankle picks or elevator sweeps."
     }
   ],
   "principle_relationships": [
@@ -71,7 +71,7 @@
     {
       "principle_name": "Mount Escape Hierarchy",
       "relationship_type": "Complementary",
-      "description": "Shares defensive hierarchy concepts—preventing worse positions before attempting full escapes. Both emphasize systematic progression through defensive layers."
+      "description": "Shares defensive hierarchy concepts\u2014preventing worse positions before attempting full escapes. Both emphasize systematic progression through defensive layers."
     },
     {
       "principle_name": "Base Maintenance",
@@ -117,7 +117,7 @@
   "application_contexts": [
     {
       "context": "Knee on Belly",
-      "how_applied": "Primary application context where all escape mechanics are directly utilized—establishing frames, creating distance, recovering guard while preventing submission attacks and mount transitions."
+      "how_applied": "Primary application context where all escape mechanics are directly utilized\u2014establishing frames, creating distance, recovering guard while preventing submission attacks and mount transitions."
     },
     {
       "context": "Side Control",
@@ -177,7 +177,7 @@
     {
       "step_number": 6,
       "decision_point": "Guard recovery pathway selected",
-      "action": "Execute systematic guard establishment—closed guard if close distance, half guard if knee shield inserted, butterfly or seated guard if at medium distance"
+      "action": "Execute systematic guard establishment\u2014closed guard if close distance, half guard if knee shield inserted, butterfly or seated guard if at medium distance"
     },
     {
       "step_number": 7,
@@ -194,7 +194,7 @@
     {
       "error": "Pushing directly against the knee without hip movement",
       "consequence": "Wastes energy in a strength battle against opponent's entire bodyweight, fails to create meaningful distance, and positions hands poorly for preventing submissions",
-      "correction": "Combine frame pressure with explosive hip escape mechanics—frames create temporary space while hip movement generates actual distance. Use frames to prevent attacks while hips do the escaping work"
+      "correction": "Combine frame pressure with explosive hip escape mechanics\u2014frames create temporary space while hip movement generates actual distance. Use frames to prevent attacks while hips do the escaping work"
     },
     {
       "error": "Attempting to sit up or crunch forward against the pressure",
@@ -214,12 +214,12 @@
     {
       "error": "Gripping opponent's gi or body instead of framing",
       "consequence": "Allows opponent to control both your arms with grips, eliminates structural frames that manage distance, and leaves you vulnerable to submission attacks and positional transitions",
-      "correction": "Maintain frames on opponent's knee and hip using palm pressure and elbow structure—these create barriers and manage distance better than grips while keeping hands free to defend submissions"
+      "correction": "Maintain frames on opponent's knee and hip using palm pressure and elbow structure\u2014these create barriers and manage distance better than grips while keeping hands free to defend submissions"
     },
     {
       "error": "Giving up mentally due to discomfort and pressure",
       "consequence": "Stops defending effectively, allows opponent to establish dominant grips and submission setups without resistance, and often taps to pressure rather than actual submissions",
-      "correction": "Recognize that discomfort is temporary and the position is inherently unstable for the top player. Focus on systematic defensive responses—frame, time the escape, recover guard—rather than the immediate discomfort"
+      "correction": "Recognize that discomfort is temporary and the position is inherently unstable for the top player. Focus on systematic defensive responses\u2014frame, time the escape, recover guard\u2014rather than the immediate discomfort"
     }
   ],
   "training_approaches": [
@@ -236,7 +236,7 @@
     {
       "approach_name": "Scenario-Based Escape Training",
       "description": "Training specific scenarios: opponent attempting collar choke, opponent transitioning to mount, opponent establishing far-side control. Each scenario requires different prioritization of defensive actions and escape timing.",
-      "focus": "Decision-making under pressure—recognizing which threats require immediate response versus which allow time for systematic escape execution"
+      "focus": "Decision-making under pressure\u2014recognizing which threats require immediate response versus which allow time for systematic escape execution"
     },
     {
       "approach_name": "Reversal Opportunity Recognition",
@@ -300,12 +300,12 @@
     {
       "name": "Knee on Belly",
       "content_type": "Position",
-      "relationship": "Primary position being escaped—understanding top player's perspective improves defensive responses"
+      "relationship": "Primary position being escaped\u2014understanding top player's perspective improves defensive responses"
     },
     {
       "name": "Side Control",
       "content_type": "Position",
-      "relationship": "Common preceding position from which Knee on Belly is established—preemptive framing prevents transition"
+      "relationship": "Common preceding position from which Knee on Belly is established\u2014preemptive framing prevents transition"
     },
     {
       "name": "Half Guard",
@@ -313,7 +313,7 @@
       "relationship": "Frequent guard recovery target when escaping Knee on Belly by inserting knee shield"
     },
     {
-      "name": "Elbow Escape",
+      "name": "Elbow Escape to Guard",
       "content_type": "Transition",
       "relationship": "Core escape technique utilizing hip escape mechanics and framing principles central to this concept"
     },
@@ -330,7 +330,7 @@
     {
       "name": "Mount Escape Hierarchy",
       "content_type": "Principle",
-      "relationship": "Shares systematic defensive approach—preventing worse positions before attempting full escapes"
+      "relationship": "Shares systematic defensive approach\u2014preventing worse positions before attempting full escapes"
     },
     {
       "name": "Guard Retention",

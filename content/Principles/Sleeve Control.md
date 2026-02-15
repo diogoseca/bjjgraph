@@ -378,7 +378,7 @@ Studying high-level competition footage specifically focusing on sleeve grip pat
 - [[Closed Guard]] (Position) - Foundational position where cross-sleeve and collar control creates primary closed guard control system
 - [[De La Riva Guard]] (Position) - Open guard position using far-side sleeve control combined with DLR hook to prevent guard passing
 - [[Grip Break]] (Transition) - Defensive technique for breaking opponent's sleeve control on your arms to regain freedom of movement
-- [[Guard Pass]] (Transition) - Opponent's primary goal when you have sleeve control - your grips prevent passing by controlling their arms
+- [[Pass to Side Control]] (Transition) - Opponent's primary goal when you have sleeve control - your grips prevent passing by controlling their arms
 - [[Guard Retention]] (Principle) - Defensive framework where sleeve control plays critical role in preventing opponent from establishing passing grips
 - [[Grip Fighting]] (Principle) - Hand fighting framework that determines success in establishing and maintaining sleeve grips against resistance
 

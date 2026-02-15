@@ -4,7 +4,7 @@
 
 ---
 title: "Open Guard Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master Open Guard Bottom in BJJ. Complete guide covering setup, control, sweeps, and submissions. Dynamic position with 70% sweep success for advanced players."
+description: "Master Open Guard Bottom in BJJ. Complete guide covering setup, control, sweeps, and submissions. Dynamic position with diverse attack systems."
 ---
 
 
@@ -21,37 +21,37 @@ description: "Master Open Guard Bottom in BJJ. Complete guide covering setup, co
     {
       "@type": "HowToStep",
       "name": "Execute Scissor Sweep",
-      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 0% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Bump Sweep",
-      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 0% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Sweep",
-      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 99% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute De La Riva Sweep",
-      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 0% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute X-Guard Sweep",
-      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Sickle Sweep",
+      "text": "From this position, attempt Sickle Sweep. This technique is attempted in 0% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Spider Guard Sweeps",
-      "text": "From this position, attempt Spider Guard Sweeps. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Tripod Sweep",
+      "text": "From this position, attempt Tripod Sweep. This technique is attempted in 0% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -115,7 +115,7 @@ description: "Master Open Guard Bottom in BJJ. Complete guide covering setup, co
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Open Guard Bottom",
-  "description": "Master Open Guard Bottom in BJJ. Complete guide covering setup, control, sweeps, and submissions. Dynamic position with 70% sweep success for advanced players.",
+  "description": "Master Open Guard Bottom in BJJ. Complete guide covering setup, control, sweeps, and submissions. Dynamic position with diverse attack systems.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -206,33 +206,55 @@ Open Guard Bottom is a dynamic family of guard positions where the bottom player
 
 ## Available Escapes
 
-### [[Scissor Sweep]] (8% of attempts)
+### [[Scissor Sweep]] (0% of attempts)
 
-### [[Hip Bump Sweep]] (8% of attempts)
+### [[Hip Bump Sweep]] (0% of attempts)
 
-### [[Butterfly Sweep]] (8% of attempts)
+### [[Butterfly Sweep]] (99% of attempts)
 
-### [[De La Riva Sweep]] (8% of attempts)
+### [[De La Riva Sweep]] (0% of attempts)
 
-### [[X-Guard Sweep]] (9% of attempts)
+### [[Sickle Sweep]] (0% of attempts)
 
-### [[Spider Guard Sweeps]] (8% of attempts)
+### [[Tripod Sweep]] (0% of attempts)
 
-### [[Lasso Guard Sweeps]] (8% of attempts)
+### [[Elevator Sweep]] (0% of attempts)
 
-### [[Omoplata Sweep]] (7% of attempts)
+### [[Omoplata Sweep]] (0% of attempts)
 
-### [[Triangle from Guard]] (6% of attempts)
+### [[Closed Guard to Triangle]] (0% of attempts)
 
-### [[Armbar from Guard]] (5% of attempts)
+### [[Armbar Finish]] (0% of attempts)
 
-### [[Kimura from Guard]] (6% of attempts)
+### [[Kimura Sweep]] (0% of attempts)
 
-### [[Omoplata from Guard]] (5% of attempts)
+### [[Closed Guard to Omoplata]] (0% of attempts)
 
-### [[Float Passing]] (7% of attempts)
+### [[Float Passing]] (0% of attempts)
 
-### [[Open Guard to Deep Half]] (7% of attempts)
+### [[Open Guard to Deep Half]] (0% of attempts)
+
+### [[Transition to Collar Sleeve Guard]] (0% of attempts)
+
+### [[Transition to Double Sleeve Guard]] (0% of attempts)
+
+### [[Transition to Feet on Hips Guard]] (0% of attempts)
+
+### [[Collar Drag from Open Guard]] (0% of attempts)
+
+### [[Open Guard to Collar Sleeve Guard]] (0% of attempts)
+
+### [[Open Guard to De La Riva]] (0% of attempts)
+
+### [[Open Guard to Double Sleeve Guard]] (0% of attempts)
+
+### [[Open Guard to Feet on Hips Guard]] (0% of attempts)
+
+### [[Scissor Sweep from Open Guard]] (0% of attempts)
+
+### [[Scramble from Failed Sweep]] (0% of attempts)
+
+### [[Technical Stand Up from Open Guard]] (1% of attempts)
 
 
 
@@ -244,25 +266,25 @@ Open Guard Bottom is a dynamic family of guard positions where the bottom player
 
 **If opponent is standing or on knees with upright posture:**
 - Execute **[[De La Riva Sweep]]** → [[Standing Position]] (Probability: 55%)
-- Execute **[[X-Guard Sweep]]** → [[Mount]] (Probability: 60%)
-- Execute **[[Spider Guard Sweeps]]** → [[Mount]] (Probability: 55%)
+- Execute **[[Sickle Sweep]]** → [[Mount]] (Probability: 55%)
+- Execute **[[Tripod Sweep]]** → [[Mount]] (Probability: 50%)
 
 
 **If opponent attempts to pass with knee cut or slice:**
-- Execute **[[Lasso Guard Sweeps]]** → [[Side Control]] (Probability: 50%)
-- Execute **[[Open Guard to Deep Half]]** → [[Deep Half Guard]] (Probability: 45%)
 - Execute **[[Shin Shield Recovery]]** → [[Knee Shield Half Guard]] (Probability: 50%)
+- Execute **[[Open Guard to Deep Half]]** → [[Deep Half Guard]] (Probability: 45%)
+- Execute **[[Berimbolo Entry]]** → [[Back Control]] (Probability: 40%)
 
 
 **If opponent drives forward with pressure passing:**
 - Execute **[[Hip Bump Sweep]]** → [[Mount]] (Probability: 50%)
 - Execute **[[Butterfly Sweep]]** → [[Mount]] (Probability: 60%)
-- Execute **[[Triangle from Guard]]** → [[Triangle Control]] (Probability: 45%)
+- Execute **[[Elevator Sweep]]** → [[Mount]] (Probability: 50%)
 
 
 **If opponent establishes strong grips and attempts toreando:**
 - Execute **[[Reverse De La Riva Recovery]]** → [[Reverse De La Riva Guard]] (Probability: 50%)
-- Execute **[[Technical Stand-up]]** → [[Standing Guard]] (Probability: 45%)
+- Execute **[[Granby to Closed Guard]]** → [[Closed Guard]] (Probability: 45%)
 
 
 **If opponent postures up and creates distance:**
@@ -396,7 +418,7 @@ Positional sparring focused exclusively on establishing and breaking grips from 
 |--------|------|
 | Retention Rate | 60% |
 | Advancement Probability | 60% |
-| Submission Probability | 42% |
+| Submission Probability | 25% |
 
 **Average Time in Position**: 30-90 seconds in competition, 2-5 minutes in training
 

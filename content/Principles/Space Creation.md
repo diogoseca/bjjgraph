@@ -377,13 +377,13 @@ Partner in top position is instructed to transition between different pressure a
 ### Related Content
 - [[Frame Creation]] (Principle) - Provides the structural foundation for space creation - frames create separation points from which hips can escape
 - [[Hip Escape Mechanics]] (Principle) - The primary engine for executing space creation in most bottom positions
-- [[Elbow Escape]] (Transition) - Fundamental transition that applies space creation concept from mount bottom position
+- [[Elbow Escape to Guard]] (Transition) - Fundamental transition that applies space creation concept from mount bottom position
 - [[Shrimp Escape]] (Transition) - Core transition demonstrating space creation principles from side control
 - [[Mount]] (Position) - Primary position where bridging-based space creation is essential for escape
 - [[Side Control]] (Position) - Position requiring shrimping-based space creation for escape and guard recovery
 - [[Escape Hierarchy]] (Principle) - Space creation represents the first critical phase in the systematic escape framework
 - [[Pressure Reduction]] (Principle) - Complementary concept that often must occur before or during space creation attempts
-- [[Technical Standup]] (Transition) - Often the end goal of space creation from ground positions - getting back to standing
+- [[Technical Stand-up]] (Transition) - Often the end goal of space creation from ground positions - getting back to standing
 - [[Guard Retention]] (Principle) - The natural progression after successful space creation from inferior positions
 - [[Back Control]] (Position) - Critical defensive position where space creation prevents choking sequences
 - [[Bridge and Roll]] (Transition) - Explosive space creation technique from mount using bridging mechanics

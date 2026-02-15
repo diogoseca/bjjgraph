@@ -21,13 +21,13 @@ description: "Master Triangle Escape from bottom position in BJJ. Complete guide
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass",
-      "text": "From this position, attempt Stack Pass. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 24% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Escape",
-      "text": "From this position, attempt Triangle Escape. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Escape. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
@@ -38,20 +38,20 @@ description: "Master Triangle Escape from bottom position in BJJ. Complete guide
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guard Pass",
-      "text": "From this position, attempt Guard Pass. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Pass to Side Control",
+      "text": "From this position, attempt Pass to Side Control. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction",
-      "text": "From this position, attempt Arm Extraction. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Arm Extraction. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing up in Base",
-      "text": "From this position, attempt Standing up in Base. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Standing up in Base. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -67,7 +67,7 @@ description: "Master Triangle Escape from bottom position in BJJ. Complete guide
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What happens if you pulling trapped arm straight out with force?",
+      "name": "What happens if you pulling trapped arm straight out with force instead of using circular extraction?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Accelerates choke completion and creates immediate armbar vulnerability as opponent isolates the arm The correct approach is: Keep elbow tight to ribs, rotate shoulder and use circular motion to extract arm while maintaining defensive posture"
@@ -75,7 +75,7 @@ description: "Master Triangle Escape from bottom position in BJJ. Complete guide
     },
     {
       "@type": "Question",
-      "name": "What happens if you staying in broken posture with head down?",
+      "name": "What happens if you staying in broken posture with head down against opponent's chest?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Allows opponent to perfect triangle angle and depth, making escape exponentially more difficult The correct approach is: Immediately work to stand or create vertical base, using legs to drive upward and reduce choking pressure"
@@ -83,7 +83,7 @@ description: "Master Triangle Escape from bottom position in BJJ. Complete guide
     },
     {
       "@type": "Question",
-      "name": "What happens if you using free hand to push on opponent's leg crossing neck?",
+      "name": "What happens if you using free hand to push on opponent's leg crossing neck rather than controlling hips?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Wastes energy, exposes second arm to capture, and does not address root cause of triangle structure The correct approach is: Use free hand to post on mat for base or control opponent's hip to prevent angle adjustment"
@@ -91,7 +91,7 @@ description: "Master Triangle Escape from bottom position in BJJ. Complete guide
     },
     {
       "@type": "Question",
-      "name": "What happens if you attempting to jump or sprawl backward to escape?",
+      "name": "What happens if you attempting to jump or sprawl backward to escape the triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Increases choking pressure dramatically and often results in immediate unconsciousness The correct approach is: Move forward and upward, stacking opponent's weight onto their shoulders to compromise their structure"
@@ -99,7 +99,7 @@ description: "Master Triangle Escape from bottom position in BJJ. Complete guide
     },
     {
       "@type": "Question",
-      "name": "What happens if you neglecting to protect free arm during escape attempts?",
+      "name": "What happens if you neglecting to protect free arm during escape attempts by extending it into guard space?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Opponent easily transitions to armbar on free arm, switching submission threats The correct approach is: Keep free arm tight to body or posted on mat, never extending it into opponent's guard space"
@@ -210,17 +210,21 @@ Success from the bottom perspective typically leads directly to guard passing po
 
 ## Available Escapes
 
-### [[Stack Pass]] (18% of attempts)
+### [[Stack Pass]] (24% of attempts)
 
-### [[Triangle Escape]] (19% of attempts)
+### [[Triangle Escape]] (18% of attempts)
 
 ### [[Posture Recovery]] (18% of attempts)
 
-### [[Guard Pass]] (15% of attempts)
+### [[Pass to Side Control]] (8% of attempts)
 
-### [[Arm Extraction]] (16% of attempts)
+### [[Arm Extraction]] (14% of attempts)
 
-### [[Standing up in Base]] (14% of attempts)
+### [[Standing up in Base]] (12% of attempts)
+
+### [[Complete Triangle Escape]] (4% of attempts)
+
+### [[Posture in Triangle Escape]] (2% of attempts)
 
 
 
@@ -241,8 +245,13 @@ Success from the bottom perspective typically leads directly to guard passing po
 
 
 **If opponent transitions to armbar while maintaining triangle pressure:**
-- Execute **[[Stack Defense]]** → [[Side Control]] (Probability: 40%)
+- Execute **[[Armbar Defense]]** → [[Closed Guard]] (Probability: 45%)
 - Execute **[[Posture Recovery]]** → [[Combat Base]] (Probability: 35%)
+
+
+**If opponent loosens triangle momentarily to readjust figure-four lock:**
+- Execute **[[Arm Extraction]]** → [[Closed Guard]] (Probability: 55%)
+- Execute **[[Standing up in Base]]** → [[Open Guard]] (Probability: 45%)
 
 
 
@@ -253,30 +262,35 @@ Success from the bottom perspective typically leads directly to guard passing po
 
 ## Common Defensive Mistakes
 
-### 1. Pulling trapped arm straight out with force
+### 1. Pulling trapped arm straight out with force instead of using circular extraction
 
 - ❌ **Consequence**: Accelerates choke completion and creates immediate armbar vulnerability as opponent isolates the arm
 - ✅ **Correction**: Keep elbow tight to ribs, rotate shoulder and use circular motion to extract arm while maintaining defensive posture
 
-### 2. Staying in broken posture with head down
+### 2. Staying in broken posture with head down against opponent's chest
 
 - ❌ **Consequence**: Allows opponent to perfect triangle angle and depth, making escape exponentially more difficult
 - ✅ **Correction**: Immediately work to stand or create vertical base, using legs to drive upward and reduce choking pressure
 
-### 3. Using free hand to push on opponent's leg crossing neck
+### 3. Using free hand to push on opponent's leg crossing neck rather than controlling hips
 
 - ❌ **Consequence**: Wastes energy, exposes second arm to capture, and does not address root cause of triangle structure
 - ✅ **Correction**: Use free hand to post on mat for base or control opponent's hip to prevent angle adjustment
 
-### 4. Attempting to jump or sprawl backward to escape
+### 4. Attempting to jump or sprawl backward to escape the triangle
 
 - ❌ **Consequence**: Increases choking pressure dramatically and often results in immediate unconsciousness
 - ✅ **Correction**: Move forward and upward, stacking opponent's weight onto their shoulders to compromise their structure
 
-### 5. Neglecting to protect free arm during escape attempts
+### 5. Neglecting to protect free arm during escape attempts by extending it into guard space
 
 - ❌ **Consequence**: Opponent easily transitions to armbar on free arm, switching submission threats
 - ✅ **Correction**: Keep free arm tight to body or posted on mat, never extending it into opponent's guard space
+
+### 6. Failing to maintain forward stacking pressure while attempting circular escape movement
+
+- ❌ **Consequence**: Opponent recovers hip mobility and re-establishes optimal choking angle during the escape attempt
+- ✅ **Correction**: Combine heavy forward weight pressure with lateral circular stepping - never sacrifice the stack for the circle
 
 
 
@@ -305,6 +319,13 @@ From established triangle position, practice stacking opponent's weight onto the
 Partner attempts all triangle variations: armbar switches, omoplata transitions, angle adjustments. Goal is to recognize transitions early and maintain defensive posture and frames throughout.
 
 **Duration**: 5 minutes
+
+
+### Circular Escape Pattern Drill
+
+Partner locks triangle at moderate pressure while defender practices stepping in circular patterns toward trapped arm side. Focus on maintaining stack pressure while moving laterally, developing coordination between forward drive and lateral stepping.
+
+**Duration**: 4 minutes
 
 
 
@@ -371,6 +392,7 @@ Partner attempts all triangle variations: armbar switches, omoplata transitions,
 - **[[Frame Creation]]** - Fundamental defensive skill required for all triangle escapes
 - **[[Escape Hierarchy]]** - Conceptual framework for prioritizing escape objectives
 - **[[Posture Recovery]]** - Essential transition technique for triangle escape success
+- **[[Armbar Defense]]** - Required defensive skill when opponent transitions from triangle to armbar
 
 
 </section>

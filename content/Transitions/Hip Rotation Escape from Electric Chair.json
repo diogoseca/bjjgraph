@@ -1,0 +1,13 @@
+{
+  "name": "Hip Rotation Escape from Electric Chair",
+  "description": "",
+  "tags": [],
+  "from_position": "Electric Chair/Bottom",
+  "outcomes": [
+    {
+      "to": "Turtle/Bottom",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

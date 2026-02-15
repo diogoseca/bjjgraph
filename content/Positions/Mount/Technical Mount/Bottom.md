@@ -4,7 +4,7 @@
 
 ---
 title: "Technical Mount Bottom | BJJ Position Guide | BJJ Graph"
-description: "Technical Mount Bottom defensive position in BJJ. Complete guide covering armbar defense, escape mechanics, and guard recovery. High-risk position requiring immediate escape response with success rates varying by skill level."
+description: "Technical Mount Bottom escape guide in BJJ. Comprehensive defense covering armbar prevention, hip escape timing, guard recovery, and survival principles from this high-risk position."
 ---
 
 
@@ -20,8 +20,8 @@ description: "Technical Mount Bottom defensive position in BJJ. Complete guide c
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Elbow Escape",
-      "text": "From this position, attempt Elbow Escape. This technique is attempted in 28% of exchanges from this position.",
+      "name": "Execute Elbow Escape to Guard",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 28% of exchanges from this position.",
       "position": 1
     },
     {
@@ -32,14 +32,14 @@ description: "Technical Mount Bottom defensive position in BJJ. Complete guide c
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape",
-      "text": "From this position, attempt Hip Escape. This technique is attempted in 22% of exchanges from this position.",
+      "name": "Execute Hip Escape to Guard",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 22% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Frame and Shrimp",
-      "text": "From this position, attempt Frame and Shrimp. This technique is attempted in 20% of exchanges from this position.",
+      "name": "Execute Shrimp Escape",
+      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 20% of exchanges from this position.",
       "position": 4
     },
     {
@@ -109,7 +109,7 @@ description: "Technical Mount Bottom defensive position in BJJ. Complete guide c
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Technical Mount Bottom",
-  "description": "Technical Mount Bottom defensive position in BJJ. Complete guide covering armbar defense, escape mechanics, and guard recovery. High-risk position requiring immediate escape response with success rates varying by skill level.",
+  "description": "Technical Mount Bottom escape guide in BJJ. Comprehensive defense covering armbar prevention, hip escape timing, guard recovery, and survival principles from this high-risk position.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -153,7 +153,7 @@ description: "Technical Mount Bottom defensive position in BJJ. Complete guide c
 
 Technical Mount Bottom is a highly disadvantageous defensive position where the opponent has achieved a hybrid control position between standard mount and side control. The top player has one leg stepped over your body (typically near your head or shoulder) while maintaining chest-to-chest pressure, creating an asymmetrical pin that severely limits your defensive options. This position represents a critical escape scenario as the top player has multiple high-percentage submission threats (primarily armbars and triangles) while maintaining the ability to transition to full mount or take the back.
 
-From the bottom perspective, Technical Mount represents one of the most precarious positions in BJJ, as the stepped leg creates an immediate armbar threat while the chest pressure prevents effective hip escape. The position requires immediate defensive framing to protect the arms and create enough space to begin escape sequences. Understanding the specific vulnerabilities of this position - particularly arm exposure and limited hip mobility - is essential for survival and recovery to more favorable defensive positions like half guard or closed guard. The defensive strategy must balance protecting the threatened arm while generating explosive movement to create escape windows during the brief moments when the top player commits weight to submission attempts.
+From the bottom perspective, Technical Mount represents one of the most precarious positions in BJJ, as the stepped leg creates an immediate armbar threat while the chest pressure prevents effective hip escape. The position requires immediate defensive framing to protect the arms and create enough space to begin escape sequences. Understanding the specific vulnerabilities of this position—particularly arm exposure and limited hip mobility—is essential for survival and recovery to more favorable defensive positions like half guard or closed guard. The defensive strategy must balance protecting the threatened arm while generating explosive movement to create escape windows during the brief moments when the top player commits weight to submission attempts.
 
 </section>
 
@@ -161,8 +161,8 @@ From the bottom perspective, Technical Mount represents one of the most precario
 
 ## Position Definition
 
-- Opponent has one leg stepped over your body (typically near head/shoulder area) with knee posted on mat, creating asymmetrical mount position with immediate armbar threat and preventing effective bridging
-- Your back is flat on the mat with opponent's chest maintaining heavy pressure on your torso, restricting breathing and limiting hip movement while controlling upper body positioning
+- Opponent has one leg stepped over your body (typically near head/shoulder area) with knee posted on mat, creating asymmetrical mount position with immediate armbar threat and preventing effective bridging on that side
+- Your back is flat on the mat with opponent's chest maintaining heavy pressure on your torso, restricting breathing and limiting hip movement while controlling upper body positioning through weight distribution
 - Opponent's other leg remains on the opposite side of your body in traditional mount configuration, controlling your hip and preventing bridging movements that would normally disrupt mount control
 - Your arms are at high risk of exposure with the stepped-over leg creating an immediate pathway to armbar control if defensive frames collapse or arms extend beyond bent elbow position
 
@@ -200,13 +200,13 @@ From the bottom perspective, Technical Mount represents one of the most precario
 
 ## Available Escapes
 
-### [[Elbow Escape]] (28% of attempts)
+### [[Elbow Escape to Guard]] (28% of attempts)
 
 ### [[Upa Escape]] (20% of attempts)
 
-### [[Hip Escape]] (22% of attempts)
+### [[Hip Escape to Guard]] (22% of attempts)
 
-### [[Frame and Shrimp]] (20% of attempts)
+### [[Shrimp Escape]] (20% of attempts)
 
 ### [[Bridge and Roll]] (10% of attempts)
 
@@ -219,8 +219,8 @@ From the bottom perspective, Technical Mount represents one of the most precario
 ## Decision Making from This Position
 
 **If opponent is stepping leg over to isolate arm for armbar and arm control is being established:**
-- Execute **[[Elbow Escape]]** → [[Half Guard]] (Probability: 40%)
-- Execute **[[Frame and Shrimp]]** → [[Turtle]] (Probability: 35%)
+- Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 40%)
+- Execute **[[Shrimp Escape]]** → [[Turtle]] (Probability: 35%)
 
 
 **If opponent maintains heavy chest pressure but hasn't secured armbar grip yet:**
@@ -229,13 +229,13 @@ From the bottom perspective, Technical Mount represents one of the most precario
 
 
 **If opponent is transitioning weight to set up triangle or switch to full mount:**
-- Execute **[[Hip Escape]]** → [[Open Guard]] (Probability: 45%)
-- Execute **[[Guard Replacement]]** → [[Half Guard]] (Probability: 35%)
+- Execute **[[Hip Escape to Guard]]** → [[Open Guard]] (Probability: 45%)
+- Execute **[[Guard Recovery]]** → [[Half Guard]] (Probability: 35%)
 
 
 **If opponent's base is compromised during transition with weight shifting off posted leg:**
 - Execute **[[Bridge and Roll]]** → [[Mount]] (Probability: 40%)
-- Execute **[[Stand Up in Base]]** → [[Standing Position]] (Probability: 25%)
+- Execute **[[Standing up in Base]]** → [[Clinch]] (Probability: 25%)
 
 
 
@@ -295,7 +295,7 @@ Partner repeatedly attempts armbar from technical mount while you practice keepi
 
 ### Progressive Resistance Escapes
 
-Start with partner giving 50% resistance in technical mount, allowing you to work escape sequences. Gradually increase resistance to 75% and then 90% as technique improves. Focus on one escape path per round (elbow escape, upa, or shrimp to guard). Document which escapes work best for your body type and timing.
+Start with partner giving 50% resistance in technical mount, allowing you to work escape sequences. Gradually increase resistance to 75% and then 90% as technique improves. Focus on one escape path per round (elbow escape to guard, upa, or shrimp to guard). Document which escapes work best for your body type and timing.
 
 **Duration**: 5 x 3-minute rounds
 
@@ -358,12 +358,12 @@ Start with partner giving 50% resistance in technical mount, allowing you to wor
 ## Related Positions and Techniques
 
 - **[[Mount]]** - Parent position - Technical Mount is a specialized variation of standard mount bottom
-- **[[Technical Mount]]** - Opposing perspective - Understanding top perspective helps inform bottom defense
 - **[[Armbar Control]]** - Primary threat position - Most common transition if defense fails
 - **[[Half Guard]]** - Primary escape target - Most achievable defensive recovery position
 - **[[S Mount]]** - Similar position - Another mount variation with stepped leg creating submission threats
-- **[[Elbow Escape]]** - Primary escape technique - Core movement pattern for recovering guard
-- **[[Frame and Shrimp]]** - Essential escape concept - Fundamental defensive movement from pins
+- **[[Elbow Escape to Guard]]** - Primary escape technique - Core movement pattern for recovering guard from mount
+- **[[Frame and Shrimp to Guard]]** - Essential escape concept - Fundamental defensive movement from pins
+- **[[Upa Escape]]** - Complementary escape - Bridge and roll reversal when base is compromised
 
 
 </section>

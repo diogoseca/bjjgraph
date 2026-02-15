@@ -21,32 +21,38 @@ description: "Master Pocket Half Guard Top in BJJ. Complete guide covering contr
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 39% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Underhook Pass",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Underhook Pass",
-      "text": "From this position, attempt Underhook Pass. This technique is attempted in 20% of exchanges from this position.",
+      "name": "Execute Back Step Pass",
+      "text": "From this position, attempt Back Step Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take Generic",
-      "text": "From this position, attempt Back Take Generic. This technique is attempted in 20% of exchanges from this position.",
+      "name": "Execute Darce Setup",
+      "text": "From this position, attempt Darce Setup. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Transition to Flattened Half Guard",
+      "text": "From this position, attempt Transition to Flattened Half Guard. This technique is attempted in 8% of exchanges from this position.",
+      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -201,15 +207,21 @@ From this position, the top player enjoys significant control advantages, includ
 
 ## Available Attacks
 
-### [[Knee Slice Pass]] (22% of attempts)
+### [[Knee Slice Pass]] (39% of attempts)
 
-### [[Smash Pass]] (20% of attempts)
+### [[Smash Pass]] (13% of attempts)
 
-### [[Side Control to Mount]] (18% of attempts)
+### [[Underhook Pass]] (13% of attempts)
 
-### [[Underhook Pass]] (20% of attempts)
+### [[Back Step Pass]] (13% of attempts)
 
-### [[Back Take Generic]] (20% of attempts)
+### [[Darce Setup]] (8% of attempts)
+
+### [[Transition to Flattened Half Guard]] (8% of attempts)
+
+### [[Pass Pocket Half]] (4% of attempts)
+
+### [[Smash Pocket Half]] (2% of attempts)
 
 
 

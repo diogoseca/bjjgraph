@@ -21,37 +21,37 @@ description: "Master offensive New York Control from bottom position. Complete g
     {
       "@type": "HowToStep",
       "name": "Execute Gogoplata",
-      "text": "From this position, attempt Gogoplata. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Gogoplata. This technique is attempted in 6% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle to Omoplata",
-      "text": "From this position, attempt Triangle to Omoplata. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Triangle to Omoplata. This technique is attempted in 7% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata to Back",
-      "text": "From this position, attempt Omoplata to Back. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata to Back. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle to Back",
-      "text": "From this position, attempt Triangle to Back. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Triangle to Back. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -214,29 +214,31 @@ Competition application demonstrates particular effectiveness in no-gi contexts 
 
 ## Available Escapes
 
-### [[Gogoplata]] (7% of attempts)
+### [[Gogoplata]] (6% of attempts)
 
-### [[Triangle Setup]] (10% of attempts)
+### [[Triangle Setup]] (18% of attempts)
 
-### [[Omoplata Sweep]] (9% of attempts)
+### [[Omoplata Sweep]] (8% of attempts)
 
-### [[Triangle to Omoplata]] (8% of attempts)
+### [[Triangle to Omoplata]] (7% of attempts)
 
-### [[Omoplata to Back]] (7% of attempts)
+### [[Omoplata to Back]] (6% of attempts)
 
-### [[Triangle to Back]] (8% of attempts)
+### [[Triangle to Back]] (7% of attempts)
 
-### [[Crackhead Control to Mission Control]] (10% of attempts)
+### [[Crackhead Control to Mission Control]] (9% of attempts)
 
-### [[New York to Invisible Collar]] (10% of attempts)
+### [[New York to Invisible Collar]] (9% of attempts)
 
-### [[New York Control to Zombie]] (9% of attempts)
+### [[New York Control to Zombie]] (8% of attempts)
 
-### [[Armbar from Guard]] (7% of attempts)
+### [[Armbar Finish]] (6% of attempts)
 
-### [[Kimura from Guard]] (7% of attempts)
+### [[Kimura]] (6% of attempts)
 
-### [[Hip Bump Sweep]] (8% of attempts)
+### [[Hip Bump Sweep]] (7% of attempts)
+
+### [[New York Control to Invisible Collar]] (3% of attempts)
 
 
 
@@ -268,7 +270,7 @@ Competition application demonstrates particular effectiveness in no-gi contexts 
 
 **If opponent begins extracting leg from shoulder control:**
 - Execute **[[New York Control to Zombie]]** → [[Zombie]] (Probability: 60%)
-- Execute **[[Armbar from Guard]]** → [[Armbar Control]] (Probability: 50%)
+- Execute **[[Armbar Finish]]** → [[Armbar Control]] (Probability: 50%)
 
 
 
@@ -361,7 +363,7 @@ Dedicated stretching routine focusing on hip external rotation, hamstring flexib
 **A**: Drive your arm as deep as possible under their armpit until your hand can clasp your own leg, their shoulder, or their neck. Keep your elbow tight to your body and actively pull their trapped arm across your centerline. If they begin rotating their shoulder to escape, immediately tighten leg pressure and transition to a submission threat, making the escape attempt cost them positionally.
 
 **Q3**: Your opponent begins posturing up aggressively - what adjustment maintains the position?
-**A**: Increase active leg pressure by pulling your knee toward their far shoulder while simultaneously deepening the overhook and pulling their head down. Use your free hand to push their far shoulder away, breaking their structural alignment. If they persist, their posture attempt opens the gogoplata angle - shoot your shin across their throat as they create space.
+**A**: Increase active leg pressure by pulling your knee toward their far shoulder while simultaneously deepening the overhook and pulling their head down. Use your free hand to push their far shoulder away, breaking their structural alignment. If they persist, their posture attempt opens the gogoplata angle - shoot your shin across their throat as they create space between your bodies.
 
 **Q4**: What is the proper weight distribution for maintaining New York Control from bottom?
 **A**: Weight should be distributed through your upper back and shoulders while keeping hips elevated and mobile. Avoid lying flat, which reduces leg pressure effectiveness. Stay slightly on your side toward the overhook to maximize control depth. Your hips need to remain free to adjust angle for submissions while your upper body provides the anchor point for all controls.
@@ -407,7 +409,7 @@ Dedicated stretching routine focusing on hip external rotation, hamstring flexib
 - **[[Zombie]]** - Advanced rubber guard position for continued offense
 - **[[Triangle Control]]** - Primary submission position from New York transitions
 - **[[Omoplata Control]]** - High-percentage attack and sweep option
-- **[[Gogoplata]]** - Signature submission finish from New York position
+- **[[Gogoplata Control]]** - Signature submission finish from New York position
 - **[[Back Control]]** - Common transition target when opponent defends submissions
 - **[[Closed Guard]]** - Recovery position and rubber guard entry point
 

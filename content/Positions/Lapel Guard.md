@@ -99,25 +99,33 @@ The energy dynamics of lapel guard favor the bottom player in extended exchanges
 ### Available Transitions
 
 
-- **[[Worm Guard Entry]]** (11% of attempts)
+- **[[Worm Guard Entry]]** (7% of attempts)
 
-- **[[Squid Guard Entry]]** (10% of attempts)
+- **[[Squid Guard Entry]]** (6% of attempts)
 
-- **[[Ringworm Guard Entry]]** (9% of attempts)
+- **[[Ringworm Guard Entry]]** (5% of attempts)
 
-- **[[Lapel Sweep to Back]]** (10% of attempts)
+- **[[Lapel Sweep to Back]]** (43% of attempts)
 
-- **[[Lapel Omoplata Entry]]** (9% of attempts)
+- **[[Lapel Omoplata Entry]]** (6% of attempts)
 
-- **[[Lapel Triangle Setup]]** (8% of attempts)
+- **[[Lapel Triangle Setup]]** (5% of attempts)
 
-- **[[Lapel to Lasso Transition]]** (11% of attempts)
+- **[[Lapel to Lasso Transition]]** (6% of attempts)
 
-- **[[Lapel to Spider Transition]]** (12% of attempts)
+- **[[Lapel to Spider Transition]]** (8% of attempts)
 
-- **[[Lapel to De La Riva]]** (11% of attempts)
+- **[[Lapel to De La Riva]]** (6% of attempts)
 
-- **[[Lapel Elevator Sweep]]** (9% of attempts)
+- **[[Lapel Elevator Sweep]]** (6% of attempts)
+
+- **[[Transition to Piranha Guard]]** (1% of attempts)
+
+- **[[Lapel Guard to Piranha Guard]]** (0% of attempts)
+
+- **[[Lapel to Lasso Guard]]** (0% of attempts)
+
+- **[[Lapel to Spider Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -178,21 +186,23 @@ The energy dynamics of lapel guard favor the bottom player in extended exchanges
 ### Available Transitions
 
 
-- **[[Lapel Clear to Toreando Pass]]** (13% of attempts)
+- **[[Lapel Clear to Toreando Pass]]** (12% of attempts)
 
-- **[[Backstep Around Worm Guard]]** (14% of attempts)
+- **[[Backstep Around Worm Guard]]** (16% of attempts)
 
-- **[[Pressure Pass Through Squid]]** (12% of attempts)
+- **[[Pressure Pass Through Squid]]** (11% of attempts)
 
-- **[[Knee Slice Despite Lapel]]** (13% of attempts)
+- **[[Knee Slice Despite Lapel]]** (12% of attempts)
 
-- **[[Long Step Around Ringworm]]** (12% of attempts)
+- **[[Long Step Around Ringworm]]** (11% of attempts)
 
-- **[[Stack Pass Over Lapel Barrier]]** (11% of attempts)
+- **[[Stack Pass Over Lapel Barrier]]** (9% of attempts)
 
-- **[[Distance Creation to Reset]]** (13% of attempts)
+- **[[Distance Creation to Reset]]** (8% of attempts)
 
-- **[[Leg Drag While Clearing Lapel]]** (12% of attempts)
+- **[[Leg Drag While Clearing Lapel]]** (11% of attempts)
+
+- **[[Leg Extraction from Lapel Wrap]]** (10% of attempts)
 
 
 ### Common Mistakes

@@ -97,19 +97,19 @@ The position demands different strategic approaches based on whether you're esta
 ### Available Transitions
 
 
-- **[[Elbow Escape]]** (14% of attempts)
+- **[[Elbow Escape to Guard]]** (14% of attempts)
 
 - **[[Bridge and Roll]]** (12% of attempts)
 
 - **[[Turtle Transition]]** (17% of attempts)
 
-- **[[Hip Escape]]** (14% of attempts)
+- **[[Hip Escape to Guard]]** (14% of attempts)
 
 - **[[North-South Escape]]** (13% of attempts)
 
-- **[[Frame and Shrimp]]** (12% of attempts)
+- **[[Frame and Shrimp to Guard]]** (12% of attempts)
 
-- **[[Granby Roll]]** (11% of attempts)
+- **[[Granby Roll to Guard]]** (11% of attempts)
 
 - **[[Technical Stand-up]]** (7% of attempts)
 
@@ -176,29 +176,25 @@ The position demands different strategic approaches based on whether you're esta
 ### Available Transitions
 
 
-- **[[North-South Choke]]** (9% of attempts)
+- **[[North-South Choke]]** (14% of attempts)
 
-- **[[Side Control to Mount]]** (11% of attempts)
+- **[[Side Control to Mount]]** (12% of attempts)
 
-- **[[North-South to Kimura]]** (9% of attempts)
+- **[[North-South to Kimura]]** (14% of attempts)
 
-- **[[Armbar from Side Control]]** (8% of attempts)
+- **[[Armbar from North-South]]** (12% of attempts)
 
-- **[[Side Control to North-South]]** (10% of attempts)
+- **[[Side Control to North-South]]** (8% of attempts)
 
-- **[[Americana from Side Control]]** (8% of attempts)
+- **[[Americana]]** (10% of attempts)
 
 - **[[Knee on Belly]]** (8% of attempts)
 
-- **[[Spinning Armbar]]** (6% of attempts)
-
-- **[[Reverse Armbar]]** (7% of attempts)
-
 - **[[Arm Triangle Setup]]** (8% of attempts)
 
-- **[[Armbar from North-South]]** (8% of attempts)
+- **[[Reverse Mount Transition]]** (7% of attempts)
 
-- **[[Reverse Mount Transition]]** (8% of attempts)
+- **[[Back Take from Top]]** (7% of attempts)
 
 
 ### Common Mistakes

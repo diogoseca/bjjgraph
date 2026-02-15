@@ -91,21 +91,25 @@ This position requires precise understanding of weight distribution, hip positio
 ### Available Transitions
 
 
-- **[[Deep Half Entry]]** (14% of attempts)
+- **[[Deep Half Entry]]** (26% of attempts)
 
-- **[[Old School Sweep]]** (13% of attempts)
+- **[[Old School Sweep]]** (10% of attempts)
 
-- **[[Underhook Sweep from Half]]** (12% of attempts)
+- **[[Underhook Sweep from Half]]** (8% of attempts)
 
-- **[[Single Leg X Entry]]** (13% of attempts)
+- **[[Shin Shield Recovery]]** (16% of attempts)
 
-- **[[X-Guard to Ashi Transition]]** (11% of attempts)
+- **[[Half Guard Recovery]]** (10% of attempts)
 
-- **[[Rolling Back Take]]** (10% of attempts)
+- **[[Guard Recovery]]** (8% of attempts)
 
-- **[[Lockdown Sweeps]]** (12% of attempts)
+- **[[Butterfly Hook Recovery]]** (8% of attempts)
 
-- **[[Shin Shield Recovery]]** (15% of attempts)
+- **[[Frame and Shrimp to Guard]]** (8% of attempts)
+
+- **[[Counter Leg Hook]]** (4% of attempts)
+
+- **[[Escape Leg Hook]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -166,21 +170,21 @@ This position requires precise understanding of weight distribution, hip positio
 ### Available Transitions
 
 
-- **[[Knee Slice Pass]]** (18% of attempts)
+- **[[Knee Slice Pass]]** (29% of attempts)
 
-- **[[Leg Drag Pass]]** (14% of attempts)
+- **[[Leg Weave Pass]]** (18% of attempts)
 
-- **[[Leg Weave Pass]]** (13% of attempts)
+- **[[Smash Pass]]** (16% of attempts)
 
-- **[[Side Control to Mount]]** (12% of attempts)
+- **[[Half Guard Pass]]** (13% of attempts)
 
-- **[[Back Take Generic]]** (11% of attempts)
+- **[[Pressure Pass]]** (10% of attempts)
 
-- **[[Knee on Belly]]** (13% of attempts)
+- **[[Transition to Flattened Half Guard]]** (8% of attempts)
 
-- **[[Kimura from Half Guard]]** (10% of attempts)
+- **[[Leg Hook to Half Guard]]** (4% of attempts)
 
-- **[[Darce Setup]]** (9% of attempts)
+- **[[Leg Hook to Side Control]]** (2% of attempts)
 
 
 ### Common Mistakes

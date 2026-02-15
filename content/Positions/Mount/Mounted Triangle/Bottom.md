@@ -21,25 +21,25 @@ description: "Defensive strategies and escape fundamentals from mounted triangle
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Elbow Escape",
-      "text": "From this position, attempt Elbow Escape. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Elbow Escape to Guard",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll",
-      "text": "From this position, attempt Granby Roll. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Granby Roll to Guard",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape",
-      "text": "From this position, attempt Hip Escape. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Hip Escape to Guard",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 16% of exchanges from this position.",
       "position": 4
     },
     {
@@ -50,8 +50,8 @@ description: "Defensive strategies and escape fundamentals from mounted triangle
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Frame and Shrimp",
-      "text": "From this position, attempt Frame and Shrimp. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Frame and Shrimp to Guard",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,19 +208,19 @@ Escape pathways generally involve either explosive bridging to disrupt the trian
 
 ## Available Escapes
 
-### [[Bridge and Roll]] (12% of attempts)
+### [[Bridge and Roll]] (14% of attempts)
 
-### [[Elbow Escape]] (18% of attempts)
+### [[Elbow Escape to Guard]] (18% of attempts)
 
-### [[Granby Roll]] (10% of attempts)
+### [[Granby Roll to Guard]] (8% of attempts)
 
-### [[Hip Escape]] (15% of attempts)
+### [[Hip Escape to Guard]] (16% of attempts)
 
 ### [[Upa Escape]] (12% of attempts)
 
-### [[Frame and Shrimp]] (16% of attempts)
+### [[Frame and Shrimp to Guard]] (15% of attempts)
 
-### [[Technical Stand Up]] (8% of attempts)
+### [[Shrimp Escape]] (8% of attempts)
 
 ### [[Arm Extraction]] (9% of attempts)
 
@@ -234,22 +234,22 @@ Escape pathways generally involve either explosive bridging to disrupt the trian
 
 **If opponent has loose triangle structure without full lock:**
 - Execute **[[Arm Extraction]]** → [[Mount]] (Probability: 40%)
-- Execute **[[Hip Escape]]** → [[Half Guard]] (Probability: 35%)
+- Execute **[[Hip Escape to Guard]]** → [[Half Guard]] (Probability: 35%)
 
 
 **If opponent commits heavily to triangle finish with hips high:**
 - Execute **[[Bridge and Roll]]** → [[Closed Guard]] (Probability: 30%)
-- Execute **[[Granby Roll]]** → [[Turtle]] (Probability: 25%)
+- Execute **[[Granby Roll to Guard]]** → [[Turtle]] (Probability: 25%)
 
 
 **If opponent transitions to armbar attempt from mounted triangle:**
 - Execute **[[Arm Extraction]]** → [[Mount]] (Probability: 35%)
-- Execute **[[Elbow Escape]]** → [[Half Guard]] (Probability: 30%)
+- Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 30%)
 
 
 **If opponent maintains stable mounted triangle with moderate pressure:**
-- Execute **[[Frame and Shrimp]]** → [[Open Guard]] (Probability: 35%)
-- Execute **[[Hip Escape]]** → [[Open Guard]] (Probability: 30%)
+- Execute **[[Frame and Shrimp to Guard]]** → [[Open Guard]] (Probability: 35%)
+- Execute **[[Hip Escape to Guard]]** → [[Open Guard]] (Probability: 30%)
 
 
 
@@ -388,7 +388,7 @@ Partner establishes mounted triangle and signals commitment to finishing angle. 
 - **[[Armbar Control]]** - Common transition threat requiring parallel defensive awareness
 - **[[Turtle]]** - Recovery position during escape attempts from mounted triangle
 - **[[Bridge and Roll]]** - Primary explosive escape technique for disrupting mounted triangle structure
-- **[[Hip Escape]]** - Fundamental movement pattern for creating space and escaping mounted triangle
+- **[[Hip Escape to Guard]]** - Fundamental movement pattern for creating space and escaping mounted triangle
 - **[[Half Guard]]** - Common escape destination when creating space from mounted triangle
 
 

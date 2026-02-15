@@ -93,19 +93,21 @@ From the top perspective, Williams Guard presents significant challenges requiri
 ### Available Transitions
 
 
-- **[[Williams Shoulder Lock]]** (14% of attempts)
+- **[[Williams Shoulder Lock]]** (13% of attempts)
 
-- **[[Omoplata Sweep]]** (16% of attempts)
+- **[[Omoplata Sweep]]** (15% of attempts)
 
-- **[[Triangle Setup]]** (13% of attempts)
+- **[[Triangle Setup]]** (12% of attempts)
 
 - **[[Closed Guard to Omoplata]]** (18% of attempts)
 
-- **[[Back Take Generic]]** (12% of attempts)
+- **[[Back Take from Bottom]]** (11% of attempts)
 
-- **[[Kimura to Back Take]]** (13% of attempts)
+- **[[Kimura to Back Take]]** (12% of attempts)
 
-- **[[Rolling Armbar]]** (14% of attempts)
+- **[[Armbar Finish]]** (13% of attempts)
+
+- **[[Williams Guard Sweep]]** (6% of attempts)
 
 
 ### Common Mistakes
@@ -166,17 +168,21 @@ From the top perspective, Williams Guard presents significant challenges requiri
 ### Available Transitions
 
 
-- **[[Arm Extraction]]** (18% of attempts)
+- **[[Arm Extraction]]** (15% of attempts)
 
-- **[[Stack Pass]]** (16% of attempts)
+- **[[Stack Pass]]** (13% of attempts)
 
-- **[[Pressure Pass]]** (14% of attempts)
+- **[[Pressure Pass]]** (12% of attempts)
 
-- **[[Guard Pass]]** (17% of attempts)
+- **[[Knee Cut Pass]]** (14% of attempts)
 
-- **[[Posture Recovery]]** (19% of attempts)
+- **[[Posture Recovery]]** (24% of attempts)
 
-- **[[Knee Slice Pass]]** (16% of attempts)
+- **[[Knee Slice Pass]]** (13% of attempts)
+
+- **[[Posture from Williams Guard]]** (6% of attempts)
+
+- **[[Stack from Williams Guard]]** (3% of attempts)
 
 
 ### Common Mistakes

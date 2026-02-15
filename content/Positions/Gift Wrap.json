@@ -98,7 +98,7 @@
       },
       {
         "question": "What are the essential grip mechanics for maintaining the Gift Wrap arm trap?",
-        "answer": "Thread your control arm under the opponent's armpit from the outside and secure their wrist or forearm on the opposite side. Your grip should be on their wrist or lower forearm for maximum leverage. The arm forms a diagonal line across their chest. Your other arm typically controls their neck area or reinforces the trap. The threading action creates a mechanical lock that requires minimal strength to maintain."
+        "answer": "Thread your control arm under the opponent's armpit from the outside and secure their wrist or lower forearm on the opposite side. Your grip should be on their wrist or lower forearm for maximum leverage. The arm forms a diagonal line across their chest. Your other arm typically controls their neck area or reinforces the trap. The threading action creates a mechanical lock that requires minimal strength to maintain."
       },
       {
         "question": "How do you shut down the primary arm recovery escape attempt from Gift Wrap?",
@@ -113,8 +113,8 @@
         "answer": "When opponent turns toward you, follow their rotation and transition to technical mount while maintaining the Gift Wrap arm control. This hip turn is actually an opportunity rather than an escape, as it opens the path to mounted positions. Use your hooks to guide the rotation while keeping the trapped arm secured, ending in technical mount with the Gift Wrap still intact."
       },
       {
-        "question": "How do you manage energy expenditure while maintaining Gift Wrap for extended periods?",
-        "answer": "Use mechanical positioning rather than muscular strength to maintain control. Keep your chest connected to their back through body weight rather than squeezing. Let your arm threading create the control angle rather than gripping with maximum force. Relax between submission attempts while maintaining structural control. The arm trap itself should feel effortless when properly positioned."
+        "question": "How do you distribute your weight optimally to maintain Gift Wrap without excessive energy expenditure?",
+        "answer": "Settle your chest weight directly onto the opponent's upper back through gravity rather than active squeezing. Your hips should drive forward into their lower back creating a wedge effect. Let the arm threading create the control angle through proper positioning rather than gripping with maximum force. Keep your body relaxed between submission attempts while maintaining structural alignment. The arm trap itself should feel nearly effortless when the diagonal line across their chest is correctly angled."
       },
       {
         "question": "What is the immediate threat hierarchy you should address when your opponent partially recovers their trapped arm?",
@@ -127,7 +127,7 @@
         "actions": [
           {
             "technique": "Rear Naked Choke Attack",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 60
           },
           {
@@ -147,7 +147,7 @@
         "actions": [
           {
             "technique": "Rear Naked Choke as Arm Recovery Creates Opening",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 65
           },
           {
@@ -177,7 +177,7 @@
           },
           {
             "technique": "Maintain Gift Wrap and Attack Neck",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 50
           }
         ]
@@ -207,7 +207,7 @@
         "actions": [
           {
             "technique": "Short Choke or Rear Naked Choke",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 70
           },
           {
@@ -217,7 +217,7 @@
           },
           {
             "technique": "Bow and Arrow Choke Setup",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 50
           }
         ]
@@ -338,39 +338,39 @@
     "transitions": [
       {
         "transition": "Rear Naked Choke",
-        "attempt_probability": 12
+        "attempt_probability": 36
       },
       {
         "transition": "Armbar on Free Arm",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Aoki Lock to Crucifix",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Gift Wrap to Technical Mount",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Short Choke Attack",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Bow and Arrow Choke Setup",
         "attempt_probability": 9
       },
       {
-        "transition": "Body Triangle Lock",
-        "attempt_probability": 13
+        "transition": "Gift Wrap to Technical Mount",
+        "attempt_probability": 14
       },
       {
-        "transition": "Side Control to Mount",
-        "attempt_probability": 12
+        "transition": "Short Choke Attack",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Bow and Arrow Choke Setup",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Body Triangle Lock",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Back Control to Crucifix",
+        "attempt_probability": 9
       },
       {
         "transition": "Kimura on Trapped Arm",
-        "attempt_probability": 10
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Gift Wrap Maintenance",
+        "attempt_probability": 3
       }
     ]
   },
@@ -387,7 +387,7 @@
     ],
     "overview": "Gift Wrap Bottom represents one of the most precarious defensive positions in Brazilian Jiu-Jitsu. With one arm trapped and back control established, the defender faces a situation where traditional defensive tools are severely compromised. The trapped arm eliminates half of the defensive capability while the back position itself places the defender in immediate submission danger.\n\nThe primary challenge from Gift Wrap Bottom is the fundamental asymmetry of defensive options. With one arm trapped across the body, the defender cannot effectively use both hands for critical defensive tasks: protecting the neck from rear naked choke attacks, creating frames to generate escape space, or hand fighting to break grips. This creates a cascading series of defensive problems where each defensive action leaves another area vulnerable.\n\nSuccessful defense from Gift Wrap Bottom requires a systematic approach focused on immediate priorities: first, preventing submission attempts (especially the rear naked choke); second, recovering the trapped arm to restore defensive capability; third, addressing the back position itself through hip escapes or guard recovery. Attempting these actions out of sequence typically results in either submission or advancement to even worse positions like the mounted crucifix.\n\nThe position demands exceptional awareness of submission threats. The trapped arm position makes the defender particularly vulnerable to rear naked chokes (reduced hand fighting ability), straight armbars on the free arm (isolated limb), and mounted attacks if the top player advances position. Understanding these threat hierarchies is essential for intelligent defensive decision-making.\n\nFrom a training perspective, Gift Wrap Bottom should be practiced extensively because it represents a common result of failed back escape attempts. Many practitioners find themselves in this position after unsuccessfully attempting to remove the choking hand or escape the back, making it a critical skill set for comprehensive defensive capability.",
     "state_properties": {
-      "point_value": 4,
+      "point_value": -4,
       "position_type": "Defensive",
       "risk_level": "High",
       "energy_cost": "High",
@@ -464,7 +464,7 @@
           },
           {
             "technique": "Accept submission",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 25
           }
         ]
@@ -606,7 +606,7 @@
         "relationship": "Positional recovery target via hip escape"
       },
       {
-        "name": "Back Escape Series",
+        "name": "Back Door Escape",
         "relationship": "Broader escape system that includes Gift Wrap defense"
       },
       {
@@ -614,8 +614,8 @@
         "relationship": "Critical defensive principle while trapped in Gift Wrap"
       },
       {
-        "name": "Hip Escape",
-        "relationship": "Essential movement for Gift Wrap Bottom escape"
+        "name": "Shrimp Escape",
+        "relationship": "Essential movement mechanic for Gift Wrap Bottom escape"
       }
     ],
     "position_metrics": {
@@ -635,31 +635,31 @@
     "transitions": [
       {
         "transition": "Gift Wrap Arm Recovery",
-        "attempt_probability": 17
+        "attempt_probability": 28
       },
       {
         "transition": "Hip Escape to Guard",
-        "attempt_probability": 14
+        "attempt_probability": 18
       },
       {
         "transition": "Roll to Turtle",
-        "attempt_probability": 16
+        "attempt_probability": 15
       },
       {
-        "transition": "Technical Stand Up",
+        "transition": "Granby Roll to Guard",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Shrimp Escape",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Elbow Escape to Remove Hooks",
         "attempt_probability": 12
       },
       {
-        "transition": "Counter Roll to Top",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Granby Roll Escape",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Submission Escape Protocol",
-        "attempt_probability": 20
+        "transition": "Back Door Escape",
+        "attempt_probability": 8
       }
     ]
   }

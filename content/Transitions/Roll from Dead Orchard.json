@@ -1,0 +1,13 @@
+{
+  "name": "Roll from Dead Orchard",
+  "description": "",
+  "tags": [],
+  "from_position": "Dead Orchard Control/Bottom",
+  "outcomes": [
+    {
+      "to": "Turtle/Bottom",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

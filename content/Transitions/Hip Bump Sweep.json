@@ -1,6 +1,6 @@
 {
   "name": "Hip Bump Sweep",
-  "description": "Master the Hip Bump Sweep from Closed Guard. Step-by-step execution and common errors. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "description": "Master the Hip Bump Sweep from Closed Guard. Step-by-step execution, chain attacks to Kimura and Guillotine, and defensive counters for BJJ practitioners.",
   "tags": [
     "bjj",
     "transition",
@@ -10,147 +10,392 @@
     "guard_attack",
     "mount_transition"
   ],
+  "from_position": "Closed Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Mount/Top",
+      "probability": 60,
+      "result": "success"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Top",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 60,
   "overview": "The Hip Bump Sweep is a fundamental and high-percentage sweep from closed guard that capitalizes on the opponent's forward posture and broken base. This technique is particularly effective when the opponent attempts to establish strong posture or begins to stand in your guard. By controlling one arm, bumping your hips explosively toward the same side, and using your opponent's reaction, you can reverse position and establish mount.\n\nThe beauty of the Hip Bump Sweep lies in its versatility and chain attack potential. It works seamlessly with other closed guard attacks like the Kimura and Guillotine, creating a systematic approach where each technique feeds into the next. When opponents defend the Hip Bump by posting their free hand, they immediately expose themselves to the Kimura. When they pull their arm back, the Guillotine becomes available. This creates the fundamental closed guard attack triangle that every practitioner should master.\n\nThe Hip Bump Sweep is also an excellent technique for developing timing, hip mobility, and the ability to off-balance opponents. It teaches practitioners to feel weight distribution and exploit moments of vulnerability. While beginners often struggle with the explosive hip movement and timing required, intermediate and advanced practitioners can execute this sweep with remarkable consistency, especially when integrated into a comprehensive guard attack system.",
-  "key_principles": [
-    "Control the opponent's arm on the side you're sweeping toward to prevent posting",
-    "Break opponent's posture forward before initiating the sweep to compromise their base",
-    "Generate explosive hip bump at a 45-degree angle toward the controlled arm",
-    "Maintain close connection throughout the movement to prevent opponent's escape",
-    "Use your free hand to pull opponent's head down and prevent posture recovery",
-    "Time the sweep when opponent's weight is distributed forward or they attempt to stand",
-    "Chain this technique with Kimura and Guillotine attacks for maximum effectiveness"
+  "conditions": [
+    "Closed guard must be established with ankles locked behind opponent's back",
+    "Opponent's posture must be broken or breaking forward with weight shifting onto you",
+    "You must have wrist or sleeve control on the side you intend to sweep toward",
+    "Opponent must not have already achieved a passing angle or begun standing with full base"
   ],
-  "setup_requirements": [
-    "Closed guard established with ankles locked behind opponent's back",
-    "Opponent's posture broken forward with head pulled down toward your chest",
-    "Strong grip on opponent's same-side wrist or sleeve (the side you'll sweep toward)",
-    "Opponent's weight shifted forward or attempting to establish strong posture",
-    "Your hips mobile and ready to generate explosive movement",
-    "Free hand controlling opponent's head or collar to prevent posture recovery"
-  ],
-  "execution_steps": [
+  "related_content": [
     {
-      "step_number": 1,
-      "action": "Establish control and break posture",
-      "description": "From closed guard, secure a firm grip on your opponent's right wrist or sleeve with your left hand. Simultaneously, use your right hand to grip behind their head or collar. Pull their head down and forward, breaking their posture completely. Your ankles should remain locked, and you should feel their weight distributed forward onto you."
+      "name": "Kimura from Guard",
+      "relationship": "Primary chain attack - used when opponent posts to defend Hip Bump"
     },
     {
-      "step_number": 2,
-      "action": "Open guard and plant posting hand",
-      "description": "Unlock your ankles and open your closed guard. Immediately plant your right hand on the mat approximately 6-12 inches away from your hip, fingers pointing away from your body. This hand will serve as the base for your explosive hip movement. Keep your left hand firmly controlling their right wrist, preventing them from posting on that side."
+      "name": "Guillotine Choke",
+      "relationship": "Secondary chain attack - used when opponent pulls arm back to defend Kimura"
     },
     {
-      "step_number": 3,
-      "action": "Hip escape and angle creation",
-      "description": "Shrimp your hips slightly to the left, creating a 30-45 degree angle with your body relative to your opponent. This angle is crucial - if you stay square, the sweep becomes much more difficult. Your right foot should come to the mat with your knee bent, ready to drive. Your left leg should begin to swing out wide to the left side."
+      "name": "Scissor Sweep",
+      "relationship": "Alternative sweep from closed guard with different mechanics and timing"
     },
     {
-      "step_number": 4,
-      "action": "Execute explosive hip bump",
-      "description": "Drive explosively off your right foot and right hand simultaneously, bumping your left hip and shoulder into your opponent's right side (the side where you control their arm). The force should be directed diagonally upward at approximately 45 degrees. Your entire left side should make contact with their right side. Keep their right arm pinned to your body throughout this movement."
+      "name": "Pendulum Sweep",
+      "relationship": "Alternative sweep - works when opponent's weight is distributed differently"
     },
     {
-      "step_number": 5,
-      "action": "Follow through and establish base",
-      "description": "As your opponent tips over from the hip bump, continue driving through the movement. Your left shoulder should drive into their chest as they fall to their left side. Immediately begin to establish your base by getting your left knee to the mat on the far side of their body. Your right leg follows through, and you begin to stack their position."
+      "name": "Triangle from Closed Guard",
+      "relationship": "Alternative attack from broken posture sharing similar setup conditions"
     },
     {
-      "step_number": 6,
-      "action": "Secure mount position",
-      "description": "Complete the sweep by bringing your right knee over their body to establish mount. Keep your weight forward and your hips low as you settle into the mount position. Maintain control of their right arm if possible, as this prevents them from using it to escape. Establish your posture in mount with your head up, back straight, and base wide."
+      "name": "Omoplata from Guard",
+      "relationship": "Alternative attack - can be chained when Hip Bump is defended"
+    },
+    {
+      "name": "Armbar from Guard",
+      "relationship": "Alternative attack - works from similar posture-broken position"
+    },
+    {
+      "name": "Flower Sweep",
+      "relationship": "Related sweep sharing mechanical principles with the Hip Bump"
+    },
+    {
+      "name": "Elevator Sweep",
+      "relationship": "Related sweep exploiting similar timing windows from closed guard"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Starting position - the guard from which this sweep is executed"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Target position achieved on successful sweep completion"
     }
   ],
-  "common_counters": [
-    {
-      "counter": "Opponent posts their free hand on the mat to prevent being swept",
-      "effectiveness": "High",
-      "your_response": "Immediately transition to Kimura attack on the posted arm. The posting motion places their arm in perfect Kimura position. This is why the Hip Bump, Kimura, and Guillotine form the fundamental closed guard attack triangle."
-    },
-    {
-      "counter": "Opponent pulls their controlled arm back forcefully to break your grip",
-      "effectiveness": "Medium",
-      "your_response": "Follow their arm back and transition to Guillotine choke or High Elbow Guillotine. As they pull back, their head comes forward into perfect guillotine position. Wrap your arm around their neck and lock up the choke."
-    },
-    {
-      "counter": "Opponent establishes extremely strong posture before you can execute the sweep",
-      "effectiveness": "High",
-      "your_response": "Abandon the Hip Bump temporarily and work to break their posture again using collar grips, overhooks, or by threatening other attacks like Triangle or Armbar. Strong posture makes the Hip Bump significantly less effective."
-    },
-    {
-      "counter": "Opponent sprawls their hips back as you begin the hip bump motion",
-      "effectiveness": "Medium",
-      "your_response": "If they sprawl early, you can often still complete the sweep with more emphasis on pulling their head down and driving through. Alternatively, transition to Technical Stand-up or Sit-up Sweep variations."
-    },
-    {
-      "counter": "Opponent steps over into mount as you open your guard",
-      "effectiveness": "Low",
-      "your_response": "This rarely happens if you maintain proper control, but if they attempt it, keep your grips tight and use their forward momentum to assist your hip bump. Their stepping motion actually loads their weight forward, making them easier to sweep."
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Attempting the sweep without properly breaking opponent's posture first",
-      "consequence": "Opponent's strong base makes the sweep nearly impossible. You waste energy and telegraph your intentions, allowing them to defend easily.",
-      "correction": "Always establish posture control before opening your guard. Use collar grips, head control, and closed guard pressure to break them forward. Their head should be below their hips before you initiate the sweep."
-    },
-    {
-      "error": "Bumping straight forward instead of at a 45-degree angle",
-      "consequence": "You drive into their strongest base rather than their weakest point. The sweep fails and you end up in an inferior position with your guard open.",
-      "correction": "Create proper angle with hip escape first. Bump diagonally toward the controlled arm side, not straight forward. Visualize knocking them over sideways, not backward."
-    },
-    {
-      "error": "Releasing the controlled arm during the hip bump",
-      "consequence": "Opponent posts with the free arm and easily prevents the sweep. You lose the chain attack option to Kimura.",
-      "correction": "Maintain a death grip on their wrist or sleeve throughout the entire technique. Pin their arm to your body as you bump. This arm control is absolutely critical to success."
-    },
-    {
-      "error": "Insufficient explosive power in the hip bump",
-      "consequence": "The sweep becomes a slow pushing match that gives opponent time to establish base and counter. Lower success rate and higher energy expenditure.",
-      "correction": "Commit fully to the explosive hip drive. Use your posting hand and driving foot to generate maximum power. The movement should be sharp and sudden, not slow and grinding."
-    },
-    {
-      "error": "Failing to follow through to mount after the sweep",
-      "consequence": "Opponent recovers guard or you end up in a scramble. You complete the sweep but fail to establish dominant position, negating your advantage.",
-      "correction": "As soon as opponent tips, immediately drive your knee through to the far side and establish mount. Don't pause to celebrate - the sweep isn't complete until you have secure mount position."
-    },
-    {
-      "error": "Attempting the sweep when opponent has already passed guard angle",
-      "consequence": "You're sweeping from a compromised position where they already have angle on you. Very low success rate and high risk of giving up position.",
-      "correction": "Only attempt Hip Bump when you have square or advantageous position. If they've already achieved passing angle, focus on guard retention first, then look for sweep opportunities."
-    }
-  ],
-  "training_progressions": [
-    {
-      "phase": "Week 1-2: Fundamental Movement Pattern",
-      "focus": "Developing proper hip bump mechanics and angle creation",
-      "description": "Practice the hip bump motion solo and with compliant partner. Focus on creating the 45-degree angle, generating explosive hip drive, and maintaining arm control throughout. Partner provides minimal resistance. Drill 20-30 repetitions per session, alternating sides. Emphasis on feeling the proper angle and explosive hip movement."
-    },
-    {
-      "phase": "Week 3-4: Posture Breaking Integration",
-      "focus": "Combining posture control with sweep execution",
-      "description": "Partner begins with good posture. Practice breaking their posture first, then executing the sweep. Partner provides light resistance to posture breaking but allows sweep once posture is broken. Drill 15-20 repetitions per session. Learn to feel when posture is sufficiently broken before attempting sweep."
-    },
-    {
-      "phase": "Week 5-8: Adding Chain Attacks",
-      "focus": "Hip Bump to Kimura to Guillotine triangle system",
-      "description": "Partner provides medium resistance and can post their free hand or pull their arm back. Practice transitioning smoothly to Kimura when they post, or Guillotine when they pull back. 10-15 repetitions per session of the full sequence. Focus on reading opponent's defensive reactions and flowing between techniques."
-    },
-    {
-      "phase": "Week 9-12: Timing and Reactive Drilling",
-      "focus": "Executing sweep in response to opponent's movements",
-      "description": "Partner moves randomly between attempting to stand, establishing posture, and breaking grips. Practitioner must recognize optimal timing windows and execute sweep or transition to alternative attacks. 5-10 minutes of continuous flow drilling per session. Developing timing awareness and reaction speed."
-    },
-    {
-      "phase": "Month 4-6: Positional Sparring",
-      "focus": "Full resistance application from closed guard",
-      "description": "Start in closed guard with full resistance. Partner attempts to maintain posture, pass guard, and defend sweeps using their full skill set. Practitioner works to create opportunities for Hip Bump Sweep and chain attacks. 5-minute rounds, multiple rounds per session. Real-time problem solving and adaptation."
-    },
-    {
-      "phase": "Month 6+: Competition Integration",
-      "focus": "Applying technique in live rolling and competition",
-      "description": "Regular live rolling with focus on creating and recognizing Hip Bump opportunities. Competition-level drilling where partner knows the technique is coming and defends accordingly. Video review of execution to identify technical deficiencies. Refinement of timing, setups, and chain attacks under maximum pressure."
-    }
-  ],
+  "attacker": {
+    "name": "Hip Bump Sweep Attacker",
+    "description": "How to execute the Hip Bump Sweep in BJJ. Attacking perspective with setup, execution steps, chain attacks, and counters from closed guard.",
+    "overview": "The Hip Bump Sweep is a fundamental and high-percentage sweep from closed guard that capitalizes on the opponent's forward posture and broken base. This technique is particularly effective when the opponent attempts to establish strong posture or begins to stand in your guard. By controlling one arm, bumping your hips explosively toward the same side, and using your opponent's reaction, you can reverse position and establish mount.\n\nThe beauty of the Hip Bump Sweep lies in its versatility and chain attack potential. It works seamlessly with other closed guard attacks like the Kimura and Guillotine, creating a systematic approach where each technique feeds into the next. When opponents defend the Hip Bump by posting their free hand, they immediately expose themselves to the Kimura. When they pull their arm back, the Guillotine becomes available. This creates the fundamental closed guard attack triangle that every practitioner should master.\n\nThe Hip Bump Sweep is also an excellent technique for developing timing, hip mobility, and the ability to off-balance opponents. It teaches practitioners to feel weight distribution and exploit moments of vulnerability. While beginners often struggle with the explosive hip movement and timing required, intermediate and advanced practitioners can execute this sweep with remarkable consistency, especially when integrated into a comprehensive guard attack system.",
+    "key_principles": [
+      "Control the opponent's arm on the side you're sweeping toward to prevent posting",
+      "Break opponent's posture forward before initiating the sweep to compromise their base",
+      "Generate explosive hip bump at a 45-degree angle toward the controlled arm side",
+      "Maintain close connection throughout the movement to prevent opponent's escape",
+      "Use your free hand to pull opponent's head down and prevent posture recovery",
+      "Time the sweep when opponent's weight is distributed forward or they attempt to stand",
+      "Chain this technique with Kimura and Guillotine attacks for maximum effectiveness"
+    ],
+    "setup_requirements": [
+      "Closed guard established with ankles locked behind opponent's back",
+      "Opponent's posture broken forward with head pulled down toward your chest",
+      "Strong grip on opponent's same-side wrist or sleeve (the side you will sweep toward)",
+      "Opponent's weight shifted forward or attempting to establish strong posture",
+      "Your hips mobile and ready to generate explosive movement",
+      "Free hand controlling opponent's head or collar to prevent posture recovery"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish control and break posture",
+        "description": "From closed guard, secure a firm grip on your opponent's right wrist or sleeve with your left hand. Simultaneously, use your right hand to grip behind their head or collar. Pull their head down and forward, breaking their posture completely. Your ankles should remain locked, and you should feel their weight distributed forward onto you."
+      },
+      {
+        "step_number": 2,
+        "action": "Open guard and plant posting hand",
+        "description": "Unlock your ankles and open your closed guard. Immediately plant your right hand on the mat approximately 6-12 inches away from your hip, fingers pointing away from your body. This hand will serve as the base for your explosive hip movement. Keep your left hand firmly controlling their right wrist, preventing them from posting on that side."
+      },
+      {
+        "step_number": 3,
+        "action": "Hip escape and angle creation",
+        "description": "Shrimp your hips slightly to the left, creating a 30-45 degree angle with your body relative to your opponent. This angle is crucial - if you stay square, the sweep becomes much more difficult. Your right foot should come to the mat with your knee bent, ready to drive. Your left leg should begin to swing out wide to the left side."
+      },
+      {
+        "step_number": 4,
+        "action": "Execute explosive hip bump",
+        "description": "Drive explosively off your right foot and right hand simultaneously, bumping your left hip and shoulder into your opponent's right side (the side where you control their arm). The force should be directed diagonally upward at approximately 45 degrees. Your entire left side should make contact with their right side. Keep their right arm pinned to your body throughout this movement."
+      },
+      {
+        "step_number": 5,
+        "action": "Follow through and establish base",
+        "description": "As your opponent tips over from the hip bump, continue driving through the movement. Your left shoulder should drive into their chest as they fall to their left side. Immediately begin to establish your base by getting your left knee to the mat on the far side of their body. Your right leg follows through, and you begin to stack their position."
+      },
+      {
+        "step_number": 6,
+        "action": "Secure mount position",
+        "description": "Complete the sweep by bringing your right knee over their body to establish mount. Keep your weight forward and your hips low as you settle into the mount position. Maintain control of their right arm if possible, as this prevents them from using it to escape. Establish your posture in mount with your head up, back straight, and base wide."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent posts their free hand on the mat to prevent being swept",
+        "effectiveness": "High",
+        "your_response": "Immediately transition to Kimura attack on the posted arm. The posting motion places their arm in perfect Kimura position with their hand on the mat and elbow exposed. This is the most common and highest-percentage chain attack from a defended Hip Bump.",
+        "targets_outcome": "Closed Guard/Bottom"
+      },
+      {
+        "counter": "Opponent pulls their controlled arm back forcefully to break your grip",
+        "effectiveness": "Medium",
+        "your_response": "Follow their arm back and transition to Guillotine choke or High Elbow Guillotine. As they pull back, their head comes forward into perfect guillotine position. Wrap your arm around their neck and lock up the choke before they can re-establish posture.",
+        "targets_outcome": "Closed Guard/Bottom"
+      },
+      {
+        "counter": "Opponent establishes extremely strong posture before you can execute the sweep",
+        "effectiveness": "High",
+        "your_response": "Abandon the Hip Bump temporarily and work to break their posture again using collar grips, overhooks, or by threatening other attacks like Triangle or Armbar. Strong posture makes the Hip Bump significantly less effective - re-break posture before reattempting.",
+        "targets_outcome": "Closed Guard/Bottom"
+      },
+      {
+        "counter": "Opponent sprawls their hips back as you begin the hip bump motion",
+        "effectiveness": "Medium",
+        "your_response": "If they sprawl early, you can often still complete the sweep with more emphasis on pulling their head down and driving through at a steeper angle. Alternatively, transition to a Sit-Up Sweep variation or use the forward momentum to set up a Guillotine.",
+        "targets_outcome": "Closed Guard/Bottom"
+      },
+      {
+        "counter": "Opponent drives forward aggressively to flatten you back down during the bump",
+        "effectiveness": "Low",
+        "your_response": "Their forward drive actually loads weight onto you, which you can redirect laterally with the 45-degree angle bump. Use their forward momentum against them by timing the bump as they commit their weight forward. This often makes the sweep easier rather than harder.",
+        "targets_outcome": "Closed Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting the sweep without properly breaking opponent's posture first",
+        "consequence": "Opponent's strong base makes the sweep nearly impossible. You waste energy and telegraph your intentions, allowing them to defend easily.",
+        "correction": "Always establish posture control before opening your guard. Use collar grips, head control, and closed guard pressure to break them forward. Their head should be below their hips before you initiate the sweep."
+      },
+      {
+        "error": "Bumping straight forward instead of at a 45-degree angle",
+        "consequence": "You drive into their strongest base rather than their weakest point. The sweep fails and you end up in an inferior position with your guard open.",
+        "correction": "Create proper angle with hip escape first. Bump diagonally toward the controlled arm side, not straight forward. Visualize knocking them over sideways, not backward."
+      },
+      {
+        "error": "Releasing the controlled arm during the hip bump",
+        "consequence": "Opponent posts with the free arm and easily prevents the sweep. You lose the chain attack option to Kimura.",
+        "correction": "Maintain a death grip on their wrist or sleeve throughout the entire technique. Pin their arm to your body as you bump. This arm control is absolutely critical to success."
+      },
+      {
+        "error": "Insufficient explosive power in the hip bump",
+        "consequence": "The sweep becomes a slow pushing match that gives opponent time to establish base and counter. Lower success rate and higher energy expenditure.",
+        "correction": "Commit fully to the explosive hip drive. Use your posting hand and driving foot to generate maximum power. The movement should be sharp and sudden, not slow and grinding."
+      },
+      {
+        "error": "Failing to follow through to mount after the sweep",
+        "consequence": "Opponent recovers guard or you end up in a scramble. You complete the sweep but fail to establish dominant position, negating your advantage.",
+        "correction": "As soon as opponent tips, immediately drive your knee through to the far side and establish mount. The sweep is not complete until you have secure mount position with hips settled and base established."
+      },
+      {
+        "error": "Planting the posting hand too close to the hip or too far away",
+        "consequence": "Too close reduces leverage and power generation. Too far creates an unstable base that collapses under load, potentially injuring the wrist.",
+        "correction": "Plant your hand 6-12 inches from your hip with fingers pointing away from your body. The arm should form a strong structural post at roughly 45 degrees to the mat, giving you a stable platform to drive from."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2: Fundamental Movement Pattern",
+        "focus": "Developing proper hip bump mechanics and angle creation",
+        "description": "Practice the hip bump motion solo and with compliant partner. Focus on creating the 45-degree angle, generating explosive hip drive, and maintaining arm control throughout. Partner provides minimal resistance. Drill 20-30 repetitions per session, alternating sides. Emphasis on feeling the proper angle and explosive hip movement."
+      },
+      {
+        "phase": "Week 3-4: Posture Breaking Integration",
+        "focus": "Combining posture control with sweep execution",
+        "description": "Partner begins with good posture. Practice breaking their posture first, then executing the sweep. Partner provides light resistance to posture breaking but allows sweep once posture is broken. Drill 15-20 repetitions per session. Learn to feel when posture is sufficiently broken before attempting sweep."
+      },
+      {
+        "phase": "Week 5-8: Adding Chain Attacks",
+        "focus": "Hip Bump to Kimura to Guillotine triangle system",
+        "description": "Partner provides medium resistance and can post their free hand or pull their arm back. Practice transitioning smoothly to Kimura when they post, or Guillotine when they pull back. 10-15 repetitions per session of the full sequence. Focus on reading opponent's defensive reactions and flowing between techniques."
+      },
+      {
+        "phase": "Week 9-12: Timing and Reactive Drilling",
+        "focus": "Executing sweep in response to opponent's movements",
+        "description": "Partner moves randomly between attempting to stand, establishing posture, and breaking grips. Practitioner must recognize optimal timing windows and execute sweep or transition to alternative attacks. 5-10 minutes of continuous flow drilling per session. Developing timing awareness and reaction speed."
+      },
+      {
+        "phase": "Month 4-6: Positional Sparring",
+        "focus": "Full resistance application from closed guard",
+        "description": "Start in closed guard with full resistance. Partner attempts to maintain posture, pass guard, and defend sweeps using their full skill set. Practitioner works to create opportunities for Hip Bump Sweep and chain attacks. 5-minute rounds, multiple rounds per session. Real-time problem solving and adaptation."
+      },
+      {
+        "phase": "Month 6+: Competition Integration",
+        "focus": "Applying technique in live rolling and competition",
+        "description": "Regular live rolling with focus on creating and recognizing Hip Bump opportunities. Competition-level drilling where partner knows the technique is coming and defends accordingly. Video review of execution to identify technical deficiencies. Refinement of timing, setups, and chain attacks under maximum pressure."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary purpose of controlling your opponent's arm during the Hip Bump Sweep?",
+        "answer": "Controlling the opponent's arm serves two critical purposes: first, it prevents them from posting that arm to stop the sweep, and second, it creates the chain attack opportunity to Kimura if they post with their other arm. The arm control is the linchpin that makes the entire closed guard attack system work together."
+      },
+      {
+        "question": "Why must you create a 45-degree angle before executing the hip bump?",
+        "answer": "The 45-degree angle directs your force into the opponent's weakest base point rather than their strongest. Bumping straight forward attacks their strongest base, while bumping at an angle exploits the diagonal weakness in their structure. This angle also allows you to generate more power from your posting hand and driving leg while maintaining better control of their upper body."
+      },
+      {
+        "question": "How do the Hip Bump Sweep, Kimura, and Guillotine form an attack triangle in closed guard?",
+        "answer": "These three techniques form a chain attack system where defending one technique opens another. When you attempt the Hip Bump, if the opponent posts their free hand, that arm is perfectly positioned for a Kimura. If they defend the Kimura by pulling their arm back, their head comes forward into Guillotine position. If they defend the Guillotine by pulling back, you return to Hip Bump opportunity. This creates a continuous cycle with no safe defensive option."
+      },
+      {
+        "question": "Your opponent posts their hand on the mat as you initiate the Hip Bump - how do you adjust mid-technique?",
+        "answer": "The moment you feel them post, abandon the sweep and immediately transition to the Kimura. Their posting hand is planted on the mat with elbow exposed, which is the ideal Kimura setup. Release their other wrist, reach over their posting arm to secure the figure-four grip on their wrist, and rotate the Kimura by driving their hand toward their back. The key is recognizing the post instantly and switching without hesitation."
+      },
+      {
+        "question": "What is the most critical hip movement in the Hip Bump Sweep and how should force be directed?",
+        "answer": "The critical movement is an explosive diagonal hip drive at approximately 45 degrees toward the controlled arm side, not straight forward. Force must be generated simultaneously from the posting hand pushing off the mat and the driving foot pushing into the mat. The hip and shoulder on the sweeping side make contact with the opponent's torso, creating a unified driving force. The diagonal direction exploits the structural weakness in their base where they cannot post because you control that arm."
+      },
+      {
+        "question": "What grip adjustments are necessary when performing the Hip Bump Sweep in no-gi compared to gi?",
+        "answer": "In no-gi, you cannot grip sleeves or collar, so you must control the opponent's wrist directly with a C-grip or monkey grip. The free hand wraps around the back of their head in an overhook style or controls their tricep for posture breaking. The mechanics of the bump remain identical, but the explosive commitment must be greater because no-gi grips are inherently less secure due to sweat. Timing becomes even more critical since you cannot sustain prolonged grip control."
+      },
+      {
+        "question": "Your opponent sprawls their hips backward as you begin sitting up for the Hip Bump - what options remain available?",
+        "answer": "When they sprawl back, several options exist depending on how far they retreat. If they sprawl but keep their upper body forward, you can emphasize pulling their head down aggressively while driving through at a steeper angle. If they create significant distance, transition to a Guillotine by wrapping their neck as they lean forward to sprawl. You can also use the sit-up motion to transition to a technical stand-up and reset to a neutral standing position. The sprawl defense creates distance but often compromises their upper body posture."
+      },
+      {
+        "question": "What conditions must exist before you should open your guard to attempt the Hip Bump Sweep?",
+        "answer": "Four conditions should be met: their posture must be broken with head below hip level, you must have firm control of their same-side wrist or sleeve, their weight should be distributed forward rather than sitting back on their heels, and you should have a clear path to plant your posting hand without obstruction. Opening the guard without these conditions exposes you to guard passes and gives up the defensive security of closed guard for a low-percentage sweep attempt."
+      },
+      {
+        "question": "Why is the Hip Bump Sweep particularly effective as a reaction to your opponent attempting to establish strong posture?",
+        "answer": "When the opponent drives upward to establish posture, they momentarily shift their weight onto their knees and back, creating a transitional moment where their base is not fully settled. The act of posturing up often requires them to release grips or shift hand position, giving you a window to control their arm. Their upward momentum also makes them vulnerable to being redirected laterally by your diagonal hip bump. The timing of catching them mid-posture-recovery is the highest-percentage window for this sweep."
+      },
+      {
+        "question": "After completing the sweep and landing in mount, what are the first three things you should establish?",
+        "answer": "First, settle your hips low onto their solar plexus area with heavy downward pressure to prevent immediate bridge escapes. Second, establish a wide base by spreading your knees to the mat on either side of their torso to absorb any bridging or hip escape attempts. Third, secure upper body control through collar grips, crossface pressure, or maintaining the arm control you carried from the sweep. Rushing to submissions before consolidating mount is a common error that leads to losing the position you just earned."
+      }
+    ],
+    "safety_considerations": "The Hip Bump Sweep is generally a very safe technique for both practitioners when executed with proper control. The primary safety concern is ensuring you do not land with excessive force on your opponent after the sweep - control your descent to mount rather than slamming down. When practicing, ensure adequate mat space for the sweeping motion, as you need room to hip bump and roll through. Partners should communicate clearly, especially during initial learning phases with minimal resistance. Avoid cranking the Kimura or Guillotine during chain attack drilling unless both partners are prepared for submission attempts. For beginners, it is important to drill the explosive hip movement gradually, building power over time rather than attempting maximum force immediately, which could lead to muscle strains. The posting hand should be placed carefully to avoid wrist injuries - fingers pointed away from the body with a strong, flat palm base."
+  },
+  "defender": {
+    "name": "Hip Bump Sweep Defender",
+    "description": "How to defend against Hip Bump Sweep in BJJ. Recognition cues, defensive options, posture maintenance, and counter strategies from closed guard top.",
+    "overview": "Defending the Hip Bump Sweep requires understanding the attacker's mechanics and recognizing the setup before full commitment. As the top player in closed guard, you are the defender in this scenario, and the Hip Bump represents one of the most common and dangerous sweeps you will face. The sweep exploits broken posture and forward weight distribution, so your primary defensive strategy centers on maintaining structural integrity through proper spinal alignment and base width.\n\nThe critical defensive window occurs between the moment the bottom player opens their guard and the moment they generate the explosive hip bump. During this window, you must recognize the threat and execute one of several defensive responses: re-establishing posture by driving hips back, posting your free hand to block the sweep angle, or sprawling your hips to deny the bumping surface. Each response carries different risks, as the attacker's chain attack system (Kimura off the post, Guillotine off the arm retraction) is specifically designed to punish predictable defensive reactions.\n\nAdvanced defense against the Hip Bump requires understanding the entire attack triangle rather than just the sweep itself. Posting your hand stops the sweep but opens the Kimura. Pulling your arm back avoids the Kimura but feeds the Guillotine. The highest-percentage defense avoids entering this triangle entirely by maintaining posture so strong that the bottom player cannot generate sufficient angle or momentum for the initial bump. When posture is compromised and the sweep is initiated, the defender must choose their counter carefully, understanding which chain attack each defensive response invites and preparing accordingly.",
+    "key_principles": [
+      "Maintain strong upright posture with head over hips to deny the fundamental setup condition for the sweep",
+      "Keep wide base with knees spread to resist lateral displacement from the diagonal hip bump angle",
+      "Fight wrist and sleeve grips immediately - the attacker needs arm control to prevent your post",
+      "Recognize guard opening as the primary danger signal and immediately re-establish defensive posture",
+      "Understand the full attack triangle (sweep, Kimura, Guillotine) to avoid falling into chain attack traps",
+      "Drive hips backward rather than forward when feeling the bump initiation to counter the sweep angle"
+    ],
+    "recognition_cues": [
+      "Bottom player breaks your posture forward and secures a strong grip on your wrist or sleeve on one side while their other hand controls your head or collar",
+      "Bottom player unlocks their ankles and opens their guard while simultaneously planting one hand on the mat behind their hip as a posting base",
+      "Bottom player creates a visible angle by shrimping their hips to one side, with their body no longer square to yours but rotated 30-45 degrees",
+      "You feel a sudden explosive upward and diagonal force driving into your chest or shoulder from the bottom player's hip and shoulder on the controlled-arm side"
+    ],
+    "defensive_options": [
+      {
+        "action": "Drive hips back and re-establish strong upright posture before the bump reaches full power",
+        "when_to_use": "Early recognition - as soon as you feel the bottom player open their guard and begin angling their hips, before the explosive bump is initiated",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "You return to closed guard top with strong posture, denying the sweep entirely and forcing the bottom player to re-establish their setup from scratch",
+        "risk": "If you react too slowly and the bump has already committed, driving hips back may not generate enough counter-force and you lose position anyway"
+      },
+      {
+        "action": "Post your free hand on the mat at a 45-degree angle behind you to create a tripod base against the sweep direction",
+        "when_to_use": "Mid-sweep - when the hip bump has been initiated and you cannot recover posture in time, but you still have one free arm to post with",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "The posted hand absorbs the sweep momentum and prevents you from being toppled, allowing you to settle back into closed guard top position",
+        "risk": "The posted arm is now in perfect Kimura position - the attacker will likely immediately transition to Kimura on your posting arm, so you must be ready to defend the follow-up"
+      },
+      {
+        "action": "Sprawl hips backward explosively while driving chest forward and down to flatten the bottom player",
+        "when_to_use": "When you feel the guard open and the angle being created but before the explosive bump, especially effective against slower or more telegraphed attempts",
+        "targets_outcome": "Closed Guard/Top",
+        "if_successful": "Your sprawl denies the bumping angle entirely and your forward chest pressure may create a guard passing opportunity as their guard is now open",
+        "risk": "If the bottom player reads the sprawl, they can use your forward momentum to set up a Guillotine or switch to a different sweep that exploits your lowered posture"
+      },
+      {
+        "action": "Strip the controlling grip on your wrist by rotating your forearm and pulling sharply through their thumb",
+        "when_to_use": "Preventive defense - before the sweep is initiated, when you recognize the bottom player has secured the critical wrist control that enables the Hip Bump",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "Without arm control, the bottom player cannot prevent you from posting and the sweep becomes very low percentage, forcing them to re-establish grips",
+        "risk": "Grip fighting temporarily occupies your hands and may create openings for other attacks if the bottom player transitions to Triangle or Armbar setups"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Closed Guard/Bottom",
+        "how": "Maintain strong posture throughout by keeping head over hips, fighting grips immediately when they attempt to secure your wrist, and driving hips backward the moment you feel the guard open. Prevention through posture is the highest-percentage defense that avoids entering the chain attack triangle entirely."
+      },
+      {
+        "outcome": "Closed Guard/Top",
+        "how": "When the bottom player opens their guard to attempt the sweep, use the opening to initiate your own guard passing sequence. Sprawl your hips back, control their legs before they can re-close guard, and begin working toward a passing position. Their failed sweep attempt gives you the guard opening you needed."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing posture to be broken and staying hunched forward without attempting to recover before the sweep is initiated",
+        "consequence": "Broken posture is the fundamental prerequisite for the Hip Bump Sweep. Remaining in broken posture gives the attacker an easy setup with high success probability and access to the full chain attack system.",
+        "correction": "The moment you feel your posture being pulled down, immediately drive your hips backward while pushing your chest forward and up. Use both hands on their hips or biceps to create frames that prevent them from closing the distance. Posture recovery must be an automatic, trained response."
+      },
+      {
+        "error": "Posting the free hand predictably every time the Hip Bump is attempted without varying defensive responses",
+        "consequence": "A predictable post directly feeds the Kimura chain attack. Experienced bottom players will bait the Hip Bump specifically to get you to post, then immediately attack the Kimura on the posted arm.",
+        "correction": "Vary your defensive responses between posture recovery, sprawling, grip stripping, and posting. When you do post, immediately retract the posting arm after absorbing the sweep momentum rather than leaving it planted on the mat where it is vulnerable to Kimura attack."
+      },
+      {
+        "error": "Keeping a narrow base with knees close together while in closed guard, making lateral displacement easy",
+        "consequence": "A narrow base provides minimal resistance to the diagonal hip bump force. You tip over easily because your center of gravity has a small base of support, exactly what the sweep exploits.",
+        "correction": "Maintain a wide base with knees spread at least shoulder-width apart or wider. This creates a stable platform that resists the lateral force of the hip bump. Widen your base further when you sense the sweep setup beginning."
+      },
+      {
+        "error": "Leaning forward into the bottom player when feeling the sweep initiation instead of driving hips backward",
+        "consequence": "Leaning forward adds your weight to the sweeping momentum, making the sweep easier for the attacker rather than harder. Your forward weight shift is exactly what the Hip Bump capitalizes on.",
+        "correction": "When you feel the sweep initiating, drive your hips backward rather than forward. Sit back on your heels while maintaining chest posture. This removes your weight from the attacker's leverage point and makes the diagonal bump significantly less effective."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Why is maintaining strong posture the most important defensive principle against the Hip Bump Sweep?",
+        "answer": "Strong posture denies the fundamental prerequisite for the Hip Bump Sweep. The sweep requires the attacker to have broken your posture forward so your weight is distributed onto them, giving them something to bump against and redirect. With strong upright posture and hips back, there is insufficient forward weight to redirect, the bump angle becomes ineffective, and the attacker cannot generate the leverage needed. Posture maintenance prevents the entire attack triangle from being initiated."
+      },
+      {
+        "question": "Your opponent opens their guard and you see them plant a hand behind their hip - what should your immediate reaction be?",
+        "answer": "This is the primary recognition cue that a Hip Bump Sweep is being initiated. Your immediate reaction should be to drive your hips backward while simultaneously widening your base and fighting to strip their grip on your wrist or sleeve. Do not wait for the explosive bump before reacting. The posting hand behind their hip means they are committing to the sweep, and you have a narrow window between guard opening and full bump commitment to neutralize the threat through posture recovery."
+      },
+      {
+        "question": "How should you defend differently against the Hip Bump when you know the attacker chains it with Kimura and Guillotine?",
+        "answer": "Against an attacker who uses the full chain attack system, avoid predictable single-response defenses. If you always post your hand, they will exploit the Kimura. If you always pull your arm back, they will attack the Guillotine. The optimal defense is preventing the sweep from being initiated through posture maintenance. When the sweep is already in motion, vary between posting (but retracting quickly), sprawling, and grip stripping. The key is unpredictability - never give them the same defensive pattern twice in a row, and always be prepared for the follow-up attack corresponding to your chosen defense."
+      },
+      {
+        "question": "What base adjustments should you make when you recognize the Hip Bump Sweep setup is being established?",
+        "answer": "Immediately widen your knees beyond shoulder width to increase your base of support against the diagonal sweep force. Shift your weight slightly toward your heels rather than forward onto your knees. Drop your hips slightly to lower your center of gravity. If possible, angle your body so you are not perfectly square to the attacker, reducing the effectiveness of their diagonal bump angle. These adjustments transform your base from a narrow target easily displaced laterally into a wide, stable platform that absorbs the hip bump force."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2: Recognition and Posture Maintenance",
+        "focus": "Identifying Hip Bump setups and maintaining defensive posture",
+        "description": "Partner telegraphs Hip Bump Sweep attempts at 30% speed while you practice recognizing the cues: guard opening, hand posting, hip angling, wrist grip establishment. Focus on maintaining strong posture and driving hips back as primary defense. 20-30 repetitions per session with partner increasing speed gradually."
+      },
+      {
+        "phase": "Week 3-4: Defensive Response Drilling",
+        "focus": "Practicing multiple defensive options against committed sweep attempts",
+        "description": "Partner commits to Hip Bump Sweep at 50-60% speed and power. Practice cycling through all four defensive responses: posture recovery, hand posting, sprawling, and grip stripping. 10-15 repetitions of each response per session. Develop the ability to select the appropriate defense based on timing and positioning."
+      },
+      {
+        "phase": "Week 5-8: Chain Attack Defense",
+        "focus": "Defending the full Hip Bump to Kimura to Guillotine attack triangle",
+        "description": "Partner uses the complete chain attack system at 60-70% intensity. When you post, they attack Kimura. When you retract, they attack Guillotine. Practice varying your defensive responses and defending the follow-up attacks. Develop unpredictable defensive patterns that prevent the attacker from entering their chain attack flow."
+      },
+      {
+        "phase": "Month 3+: Live Positional Sparring",
+        "focus": "Full resistance defense from closed guard top against all sweeps",
+        "description": "Start in closed guard with full resistance. Partner uses Hip Bump Sweep as part of their complete closed guard offense including other sweeps and submissions. Develop real-time recognition and defense under competitive pressure. 5-minute rounds, multiple rounds per session."
+      }
+    ]
+  },
   "variants_and_adaptations": [
     {
       "variant_name": "No-Gi Hip Bump Sweep",
@@ -165,7 +410,7 @@
     {
       "variant_name": "Sit-Up Sweep Variation",
       "description": "Instead of bumping from your back, sit up completely as you execute the sweep, creating a more vertical angle. This variation works well when opponent is very heavy or when you need extra leverage. The sit-up motion also disguises your intentions slightly better than the traditional hip bump.",
-      "when_to_use": "Against larger, heavier opponents, or when traditional hip bump angle isn't working due to opponent's defensive posture"
+      "when_to_use": "Against larger, heavier opponents, or when traditional hip bump angle is not generating sufficient force due to opponent's defensive posture"
     },
     {
       "variant_name": "Hip Bump to Back Take",
@@ -173,89 +418,5 @@
       "when_to_use": "When opponent defends the Kimura strongly by pulling their arm back, creating opportunity for back exposure"
     }
   ],
-  "knowledge_assessment": [
-    {
-      "question": "What is the primary purpose of controlling your opponent's arm during the Hip Bump Sweep?",
-      "answer": "Controlling the opponent's arm serves two critical purposes: first, it prevents them from posting that arm to stop the sweep, and second, it creates the chain attack opportunity to Kimura if they post with their other arm. The arm control is the linchpin that makes the entire closed guard attack system work together."
-    },
-    {
-      "question": "Why must you create a 45-degree angle before executing the hip bump?",
-      "answer": "The 45-degree angle directs your force into the opponent's weakest base point rather than their strongest. Bumping straight forward attacks their strongest base, while bumping at an angle exploits the diagonal weakness in their structure. This angle also allows you to generate more power from your posting hand and driving leg while maintaining better control of their upper body."
-    },
-    {
-      "question": "How do the Hip Bump Sweep, Kimura, and Guillotine form an attack triangle in closed guard?",
-      "answer": "These three techniques form a perfect chain attack system where defending one technique opens up another. When you attempt the Hip Bump, if the opponent posts their free hand, that arm is perfectly positioned for a Kimura. If they defend the Kimura by pulling their arm back, their head comes forward into Guillotine position. If they defend the Guillotine by pulling back, you return to Hip Bump opportunity. This creates a continuous attack cycle with no safe defensive option."
-    },
-    {
-      "question": "What should you do if your opponent establishes very strong posture before you can execute the Hip Bump Sweep?",
-      "answer": "You should not force the Hip Bump Sweep against strong posture as it has a very low success rate and wastes energy. Instead, abandon the sweep temporarily and focus on breaking their posture again using collar grips, overhooks, threatening triangles or armbars, or attacking their base with off-balancing movements. Only attempt the sweep once their posture is compromised and their weight is forward."
-    },
-    {
-      "question": "Why is the Hip Bump Sweep considered a fundamental technique for guard players?",
-      "answer": "The Hip Bump Sweep is fundamental because it teaches essential guard concepts including posture breaking, angle creation, explosive hip movement, and chain attacking. It works at all skill levels from white belt to black belt when executed properly. It forms the foundation of the closed guard attack system and helps develop the timing and sensitivity needed for more advanced guard work. Additionally, it's effective in both gi and no-gi, making it a universally applicable technique."
-    },
-    {
-      "question": "What is the most common timing error when attempting the Hip Bump Sweep and how can it be corrected?",
-      "answer": "The most common timing error is attempting the sweep too early, before the opponent's posture is sufficiently broken or their weight is forward. This results in bumping against a strong base with predictably low success. The correction is to be patient and wait for clear indicators: opponent's head below their hips, weight distributed forward, or the moment they attempt to stand or establish strong posture. The sweep should feel like you're capitalizing on a moment of vulnerability, not forcing a movement against resistance."
-    }
-  ],
-  "safety_considerations": "The Hip Bump Sweep is generally a very safe technique for both practitioners when executed with proper control. The primary safety concern is ensuring you don't land with excessive force on your opponent after the sweep - control your descent to mount rather than slamming down. When practicing, ensure adequate mat space for the sweeping motion, as you need room to hip bump and roll through. Partners should communicate clearly, especially during initial learning phases with minimal resistance. Avoid cranking the Kimura or Guillotine during chain attack drilling unless both partners are prepared for submission attempts. For beginners, it's important to drill the explosive hip movement gradually, building power over time rather than attempting maximum force immediately, which could lead to muscle strains. The posting hand should be placed carefully to avoid wrist injuries - fingers pointed away from the body with a strong, flat palm base.",
-  "position_integration": "The Hip Bump Sweep is part of the fundamental closed guard attack system and serves as the cornerstone technique that connects to multiple other attacks. It integrates seamlessly with the Kimura and Guillotine to form what many instructors call the 'closed guard triangle' - a three-technique chain attack where each technique naturally flows into the next based on opponent reactions. This sweep also connects to the broader closed guard retention and attack framework, working in conjunction with techniques like the Scissor Sweep, Pendulum Sweep, and various submission attacks. From a systematic perspective, the Hip Bump Sweep represents the offensive transition from guard bottom to top control (mount), making it a critical component in the positional hierarchy. It teaches practitioners to recognize and exploit moments when the opponent's base is compromised, a skill that transfers to all areas of guard work. Advanced practitioners use the Hip Bump as both a legitimate attack and a setup technique, threatening it to create reactions that open up other attacks. In the context of overall BJJ strategy, mastering this sweep and its chain attacks is considered essential for any guard player, as it provides a reliable method to reverse position against opponents who attempt to establish strong posture in closed guard.",
-  "related_content": [
-    {
-      "name": "Kimura from Guard",
-      "relationship": "Primary chain attack - used when opponent posts to defend Hip Bump"
-    },
-    {
-      "name": "Guillotine Choke",
-      "relationship": "Secondary chain attack - used when opponent pulls arm back to defend Kimura"
-    },
-    {
-      "name": "Scissor Sweep",
-      "relationship": "Alternative sweep - similar setup but different mechanics and timing"
-    },
-    {
-      "name": "Pendulum Sweep",
-      "relationship": "Alternative sweep - works when opponent's weight is distributed differently"
-    },
-    {
-      "name": "Triangle from Closed Guard",
-      "relationship": "Alternative attack - another option when posture is broken"
-    },
-    {
-      "name": "Omoplata from Guard",
-      "relationship": "Alternative attack - can be chained when Hip Bump is defended"
-    },
-    {
-      "name": "Armbar from Guard",
-      "relationship": "Alternative attack - works from similar posture-broken position"
-    },
-    {
-      "name": "Flower Sweep",
-      "relationship": "Related sweep - shares some mechanical principles with Hip Bump"
-    },
-    {
-      "name": "Elevator Sweep",
-      "relationship": "Related sweep - exploits similar timing windows"
-    }
-  ],
-  "from_position": "Closed Guard/Bottom",
-  "outcomes": [
-    {
-      "to": "Mount/Top",
-      "probability": 70,
-      "result": "success"
-    },
-    {
-      "to": "Closed Guard/Bottom",
-      "probability": 20,
-      "result": "failure"
-    },
-    {
-      "to": "Closed Guard/Top",
-      "probability": 10,
-      "result": "counter"
-    }
-  ],
-  "success_rate": 60
+  "position_integration": "The Hip Bump Sweep is part of the fundamental closed guard attack system and serves as the cornerstone technique that connects to multiple other attacks. It integrates seamlessly with the Kimura and Guillotine to form the closed guard attack triangle - a three-technique chain where each technique naturally flows into the next based on opponent reactions. This sweep also connects to the broader closed guard retention and attack framework, working in conjunction with techniques like the Scissor Sweep, Pendulum Sweep, and various submission attacks. From a systematic perspective, the Hip Bump Sweep represents the offensive transition from guard bottom to top control (mount), making it a critical component in the positional hierarchy. It teaches practitioners to recognize and exploit moments when the opponent's base is compromised, a skill that transfers to all areas of guard work. Advanced practitioners use the Hip Bump as both a legitimate attack and a setup technique, threatening it to create reactions that open up other attacks. In the context of overall BJJ strategy, mastering this sweep and its chain attacks is considered essential for any guard player, as it provides a reliable method to reverse position against opponents who attempt to establish strong posture in closed guard."
 }

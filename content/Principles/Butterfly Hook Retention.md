@@ -354,7 +354,6 @@ Extended duration hook retention rounds emphasizing minimal energy expenditure w
 - [[Butterfly Sweep]] (Transition) - Primary offensive application of butterfly hook retention where same hook mechanics used for retention generate sweeping momentum
 - [[Basic Butterfly Sweep]] (Transition) - Fundamental sweep technique that shares identical hook positioning and pressure application with retention mechanics
 - [[Guard Retention]] (Principle) - Broader conceptual framework that encompasses hook retention as specific application of general retention principles
-- [[Hip Movement]] (Principle) - Foundational movement concept that enables effective hook retention through hip elevation and dynamic positioning capability
 - [[Sweep Mechanics]] (Principle) - Complementary concept that shares mechanical requirements with hook retention, creating synergy between defensive retention and offensive sweeping
 - [[X-Guard]] (Position) - Related guard position where similar hook retention principles apply to different hook configuration and leg entanglement structure
 - [[Frame Management]] (Principle) - Complementary retention concept that coordinates with hook retention to create comprehensive guard maintenance system

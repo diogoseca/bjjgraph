@@ -1,0 +1,13 @@
+{
+  "name": "Pass Z-Guard",
+  "description": "",
+  "tags": [],
+  "from_position": "Z-Guard/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

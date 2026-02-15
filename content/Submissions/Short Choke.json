@@ -1,6 +1,6 @@
 {
   "name": "Short Choke",
-  "description": "Master the Short Choke in BJJ. Devastating lapel strangle from top positions with minimal space. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%. Complete safety guide.",
+  "description": "Master the Short Choke in BJJ. Devastating lapel strangle from top positions with minimal space. Complete guide with finishing mechanics, defense, and safety.",
   "tags": [
     "bjj",
     "submission",
@@ -8,13 +8,16 @@
     "gi",
     "lapel-choke",
     "blood-choke",
-    "top-position"
+    "top-position",
+    "finishing-guide"
   ],
   "submission_category": "Choke",
   "submission_type": "Blood Choke",
   "target_area": "Carotid arteries",
   "starting_position": "Side Control",
-  "overview": "The Short Choke is a highly effective gi-based blood choke executed from top positions, particularly side control and north-south. Unlike traditional collar chokes that require deep grips, the Short Choke capitalizes on minimal space and opponent defensive reactions. The technique involves threading your own lapel or the opponent's lapel behind their neck while maintaining superior top position control, then applying pressure through a combination of wrist rotation and shoulder pressure. This choke is particularly effective when opponents defend aggressively against more common submissions like the Americana or Kimura, creating the exact spacing needed for lapel manipulation. The Short Choke exemplifies economy of motion - once the lapel is positioned correctly, the finish requires minimal energy expenditure while creating maximum discomfort. The technique is especially valuable in gi competition because it can be concealed within normal top position pressure, making it difficult for opponents to recognize and defend until the submission is deeply locked. Advanced practitioners use the Short Choke as both a primary finish and a setup for transitioning to mount or taking the back when opponents attempt to escape.",
+  "from_position": "Side Control/Top",
+  "success_rate": 58,
+  "overview": "The Short Choke is a highly effective gi-based blood choke executed from top positions, particularly side control and north-south. Unlike traditional collar chokes that require deep grips, the Short Choke capitalizes on minimal space and opponent defensive reactions. The technique involves threading your own lapel or the opponent's lapel behind their neck while maintaining superior top position control, then applying pressure through a combination of wrist rotation and shoulder pressure.\n\nThis choke is particularly effective when opponents defend aggressively against more common submissions like the Americana or Kimura, creating the exact spacing needed for lapel manipulation. The Short Choke exemplifies economy of motion - once the lapel is positioned correctly, the finish requires minimal energy expenditure while creating maximum discomfort. The technique is especially valuable in gi competition because it can be concealed within normal top position pressure, making it difficult for opponents to recognize and defend until the submission is deeply locked.\n\nAdvanced practitioners use the Short Choke as both a primary finish and a setup for transitioning to mount or taking the back when opponents attempt to escape. The choke creates a powerful dilemma: defending the lapel threading exposes the arms to joint locks, while protecting the arms leaves the neck vulnerable to the choke.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -55,212 +58,25 @@
       "Never use competition speed during initial learning phases"
     ]
   },
-  "key_principles": [
-    "Lapel positioning must be established before applying finishing pressure",
-    "Control opponent's near arm to prevent defensive framing",
-    "Maintain heavy chest pressure throughout setup and finish",
-    "Use wrist rotation rather than raw strength for choking pressure",
-    "Shoulder pressure into opponent's jaw creates secondary pressure point",
-    "Hip positioning prevents opponent from turning into you during finish",
-    "Proper angle of attack targets carotid arteries, not windpipe"
-  ],
-  "setup_requirements": [
-    "Established top position control in side control or north-south",
-    "Opponent's near arm controlled or isolated to prevent framing",
-    "Access to your own lapel or opponent's collar/lapel",
-    "Heavy chest pressure preventing opponent's ability to create space",
-    "Proper head positioning with your head near opponent's far shoulder",
-    "Your hips positioned to prevent opponent from turning into guard"
-  ],
-  "execution_steps": [
+  "outcomes": [
     {
-      "step_number": 1,
-      "action": "Secure dominant side control position",
-      "description": "Establish tight side control with your chest heavy on opponent's chest. Control their near arm using either an underhook or by pinning it to the mat with your hip. Position your head near their far shoulder while maintaining crossface pressure. Your hips should be low and heavy, preventing any bridging or turning attempts.",
-      "timing": "Take 5-10 seconds to establish solid control before proceeding"
+      "to": "game-over",
+      "probability": 58,
+      "result": "success"
     },
     {
-      "step_number": 2,
-      "action": "Feed lapel behind opponent's neck",
-      "description": "Using your free hand (typically the hand nearest their legs), grip your own lapel at chest level or slightly lower. Maintain pressure with your chest and crossface while threading the lapel behind opponent's neck from the far side. The lapel should pass behind their neck like a scarf, with the material positioned against the side of their neck closest to you. This requires precise hand positioning and often involves slight adjustments to your body angle.",
-      "timing": "3-5 seconds for lapel placement"
+      "to": "Side Control/Top",
+      "probability": 27,
+      "result": "failure"
     },
     {
-      "step_number": 3,
-      "action": "Secure lapel grip on opposite side",
-      "description": "Once the lapel has been threaded behind their neck, reach under their head with your opposite hand and grip the lapel material. Your grip should be palm-down with fingers curled around the lapel fabric. The key is to have minimal slack in the material while maintaining top position control. Some practitioners prefer gripping their own gi material for additional control.",
-      "timing": "2-3 seconds to establish secure grip"
-    },
-    {
-      "step_number": 4,
-      "action": "Consolidate position and remove slack",
-      "description": "Before applying finishing pressure, ensure your body position is optimized. Your chest should remain heavy on opponent's torso, your hips should be positioned to prevent them from turning, and both hands should have secure grips on the lapel. Slowly remove any slack in the lapel material by pulling your grips in opposite directions. The lapel should now form a tight band across the side of opponent's neck.",
-      "timing": "2-4 seconds to remove slack"
-    },
-    {
-      "step_number": 5,
-      "action": "Apply rotational choking pressure",
-      "description": "The finish comes from rotating your wrists and forearms in opposite directions while maintaining downward pressure with your shoulder into opponent's jaw. The hand holding your lapel (or their collar) rotates palm-up, while the other hand pulls the threaded lapel tight. Simultaneously, drive your shoulder into the side of their jaw, which both creates additional choking pressure and prevents them from turning their head. The combination of lapel tightness and shoulder pressure compresses the carotid artery.",
-      "timing": "Apply pressure slowly over 3-5 seconds in training"
-    },
-    {
-      "step_number": 6,
-      "action": "Adjust angle if needed and maintain until tap",
-      "description": "If opponent attempts to defend by tucking their chin or creating frames, make micro-adjustments to your shoulder angle and lapel positioning. Small changes in your body angle can dramatically increase effectiveness. Once proper compression is achieved, maintain consistent pressure until tap. Never increase pressure suddenly or jerk the lapel. If no tap occurs within 5-7 seconds of firm pressure, the setup likely needs adjustment rather than more force.",
-      "timing": "Hold finishing pressure for 3-7 seconds maximum in training"
-    },
-    {
-      "step_number": 7,
-      "action": "Release immediately upon tap",
-      "description": "The moment you feel or see the tap signal, immediately release all choking pressure by opening your grips and removing lapel tension. Maintain top position briefly to ensure partner is conscious and recovering normally. If practicing with a new partner, verbally confirm they are okay before continuing training."
-    }
-  ],
-  "opponent_defense_patterns": [
-    {
-      "defense": "Tucking chin to chest to block lapel access",
-      "effectiveness": "Medium",
-      "your_adjustment": "Use crossface pressure to create slight gap, or transition to near-side collar grip variation. Patience is key - maintain pressure and wait for opponent to fatigue and create space."
-    },
-    {
-      "defense": "Framing with near arm against your hips",
-      "effectiveness": "High",
-      "your_adjustment": "Switch to Americana or Kimura attack on the framing arm, forcing them to retract. Once arm is controlled, return to Short Choke setup with better isolation."
-    },
-    {
-      "defense": "Bridging explosively to create space",
-      "effectiveness": "Medium",
-      "your_adjustment": "Allow slight bridge while maintaining grips, then ride their hips back to mat with increased pressure. Use their energy expenditure to tighten the choke during the descent."
-    },
-    {
-      "defense": "Turning into you to recover guard",
-      "effectiveness": "Low",
-      "your_adjustment": "Maintain lapel grips and transition to north-south position as they turn. The turning motion often tightens the choke automatically. Follow to mount if they complete the turn."
-    },
-    {
-      "defense": "Grabbing your choking hand/wrist",
-      "effectiveness": "Low",
-      "your_adjustment": "Your leverage from shoulder pressure and body position overwhelms grip fighting on the wrist. Simply maintain pressure and wait for their grip to fatigue, or use their focus on your hand to improve body position."
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Applying choking pressure before properly positioning the lapel behind the neck",
-      "consequence": "Creates a crushing pressure on the trachea instead of blood choke on carotid arteries, causing pain rather than effective submission and potential injury",
-      "correction": "Take time to properly thread lapel behind neck, ensuring material sits on the side of the neck. Feel for the carotid pulse point with your hand before applying pressure."
-    },
-    {
-      "error": "Losing top position control while focusing on lapel manipulation",
-      "consequence": "Opponent escapes to guard or worse position before choke can be finished",
-      "correction": "Maintain heavy chest pressure and crossface throughout entire setup. If you feel opponent creating space, pause lapel work and re-establish positional control first."
-    },
-    {
-      "error": "Using excessive pulling strength rather than proper rotation mechanics",
-      "consequence": "Fatigues your arms, telegraphs the submission, and reduces effectiveness of the choke",
-      "correction": "Focus on wrist rotation and shoulder pressure rather than pulling the lapel. The choke should feel effortless when properly positioned."
-    },
-    {
-      "error": "Allowing too much slack in the lapel material",
-      "consequence": "Opponent has time to defend, insert hands, or escape before choke takes effect",
-      "correction": "Before applying finishing pressure, ensure lapel is snug around neck with minimal slack. Take up all slack first, then apply rotational pressure."
-    },
-    {
-      "error": "Positioning your head too high or too low relative to opponent",
-      "consequence": "Reduces shoulder pressure and gives opponent ability to turn their head away from the choke",
-      "correction": "Keep your head near opponent's far shoulder, creating downward angle with your shoulder into their near-side jaw. This prevents head movement and increases choke effectiveness."
-    },
-    {
-      "error": "Continuing to apply pressure after feeling tap signal",
-      "consequence": "Risk of causing unconsciousness or injury to training partner; builds dangerous training habits",
-      "correction": "Develop instant release reflex when feeling tap. Practice releasing immediately even in drilling scenarios to build muscle memory."
-    }
-  ],
-  "variations_and_setups": [
-    {
-      "variation_name": "North-South Short Choke",
-      "description": "Executed from north-south position using similar lapel threading mechanics but with your body perpendicular to opponent. Particularly effective when opponent defends the traditional north-south choke.",
-      "when_to_use": "When transitioning from side control to north-south, or when opponent is successfully defending standard north-south attacks"
-    },
-    {
-      "variation_name": "Reverse Short Choke (Paper Cutter variation)",
-      "description": "Instead of using your own lapel, grip opponent's far collar deep and apply pressure by driving your forearm across their neck while maintaining shoulder pressure. Creates similar carotid compression with different mechanics.",
-      "when_to_use": "When opponent's defensive posture prevents access to your own lapel, or when their gi collar offers better gripping opportunities"
-    },
-    {
-      "variation_name": "Mounted Short Choke",
-      "description": "Applied from mount position by threading lapel while controlling opponent's arms. Requires excellent mount maintenance but offers higher success rate due to superior position.",
-      "when_to_use": "When in high mount with good arm control; excellent finishing option when opponent defends the armbar by pulling their elbow tight to their body"
-    },
-    {
-      "variation_name": "Short Choke to Back Take Transition",
-      "description": "Use the Short Choke as a feint - when opponent defends by turning away from the pressure, maintain lapel grips and take the back, immediately transitioning to rear naked choke.",
-      "when_to_use": "Against experienced opponents who recognize and defend the Short Choke early; creates excellent back exposure"
-    }
-  ],
-  "knowledge_assessment": [
-    {
-      "question": "What are the primary blood vessels targeted by the Short Choke, and why is proper positioning critical?",
-      "answer": "The Short Choke targets the carotid arteries on the side of the neck. Proper positioning is critical because if the lapel is placed incorrectly (over the front of the throat), you create a painful air choke on the trachea rather than an effective blood choke. The lapel must sit on the side of the neck, allowing the combination of lapel pressure and shoulder drive to compress the carotid artery. Blood chokes are safer and more effective than air chokes in training.",
-      "safety_critical": true
-    },
-    {
-      "question": "What should you do immediately if your training partner goes unconscious during the Short Choke?",
-      "answer": "Immediately release all pressure from the neck and remove your weight from their torso. Check their breathing and consciousness level. Elevate their legs to improve blood flow to the brain. Monitor their airway and be prepared to call for medical assistance. Never shake them or apply stimulation to their neck. Most practitioners regain consciousness within seconds, but should not continue training for the remainder of that session. Document the incident and ensure your instructor is aware.",
-      "safety_critical": true
-    },
-    {
-      "question": "Why is controlling the opponent's near arm essential for successful Short Choke execution?",
-      "answer": "Controlling the near arm prevents the opponent from creating defensive frames that would push your body away and create space. If their near arm is free, they can insert it between your chest and theirs, or push against your hips to prevent you from maintaining the pressure needed for lapel manipulation and finishing. The near arm must be controlled via underhook, pinned with your hip, or otherwise isolated before attempting the choke. Without this control, the opponent can easily disrupt your setup and potentially escape to a better position.",
-      "safety_critical": false
-    },
-    {
-      "question": "What is the mechanical difference between using pulling strength versus rotational pressure in finishing the Short Choke?",
-      "answer": "Pulling strength relies on arm muscle endurance and often creates uneven pressure that allows defensive opportunities. Rotational pressure, achieved by rotating the wrists in opposite directions while driving the shoulder, creates a more complete circular compression around the carotid artery. This rotation is mechanically stronger, less fatiguing, and harder to defend because it uses leverage and body weight rather than arm strength alone. The finish should feel almost effortless when proper rotation and shoulder pressure are combined with correct lapel positioning.",
-      "safety_critical": false
-    },
-    {
-      "question": "How should your body position change when transitioning from the Short Choke setup to the finishing mechanics?",
-      "answer": "During setup, your chest remains heavy and square to the opponent with mobile hips to prevent their escape. As you transition to finishing, you should slightly angle your body to optimize shoulder pressure into their jaw while maintaining chest weight. Your hips may need to shift slightly away to create the proper shoulder angle, but you must maintain enough pressure to prevent them from turning into you. The key is finding the balance between maintaining positional control and creating the optimal angle for shoulder drive and lapel compression.",
-      "safety_critical": false
-    },
-    {
-      "question": "What are the key indicators that your lapel positioning is correct before applying finishing pressure?",
-      "answer": "First, the lapel material should sit on the side of the neck, not across the front of the throat. Second, you should be able to feel the lapel band is snug with minimal slack when you pull your grips in opposite directions. Third, your shoulder should be positioned to drive into the opponent's jaw from an angle, not straight down. Fourth, the opponent's near arm should be controlled and unable to create defensive frames. Finally, you should feel stable in your top position with no risk of being swept or reversed. Only when all these indicators are present should you begin applying finishing pressure.",
-      "safety_critical": true
-    },
-    {
-      "question": "Your opponent bridges explosively while you are threading the lapel - what is your immediate response?",
-      "answer": "Pause the lapel threading and immediately base out with your hands and feet to ride the bridge without losing position. Keep your hips heavy and sprawl slightly to absorb their power. Do not fight the bridge directly - ride it and let them expend energy. Once they return to the mat, reestablish your chest pressure and crossface before continuing the lapel setup. Attempting to finish the choke during an active bridge typically results in losing position entirely.",
-      "safety_critical": false
-    },
-    {
-      "question": "What sensations should prompt an immediate tap from the person being choked, even before full unconsciousness is imminent?",
-      "answer": "You should tap immediately when you feel blood choke pressure building on the sides of your neck, not just when you feel like you are about to go unconscious. Key indicators include: vision starting to narrow or gray around the edges, a rushing sound in your ears, feeling your face flush or a sensation of pressure in your head, or feeling the characteristic 'tight band' sensation around your carotid arteries. In training, tap early when you recognize the position is locked - waiting until the last moment builds bad habits and increases injury risk.",
-      "safety_critical": true
-    },
-    {
-      "question": "How do you recognize when the Short Choke is properly compressing the carotid arteries versus applying tracheal pressure?",
-      "answer": "A proper carotid compression creates a tight, constricting sensation on both sides of the neck without significant pain or difficulty breathing. The recipient may feel their face flush and vision narrow. Tracheal pressure, in contrast, causes immediate difficulty breathing, a crushing sensation at the front of the throat, and sharp pain. If your opponent coughs, gags, or indicates throat pain, you have misplaced the lapel and should immediately release and reposition. The lapel must contact the side of the neck, not the front.",
-      "safety_critical": true
-    },
-    {
-      "question": "What is the point of no escape for the Short Choke, and how do you recognize when you have reached it?",
-      "answer": "The point of no escape occurs when the lapel is fully threaded behind the neck with all slack removed, your shoulder is driving into their jaw preventing head movement, and their near arm is trapped or controlled. At this point, even if they realize the choke is coming, they cannot create the space needed to defend. You recognize this point when you feel the lapel band tight on both sides of the grip, your shoulder is in firm contact with their jaw, and you feel stable enough to begin rotational pressure without risk of losing position.",
-      "safety_critical": false
-    },
-    {
-      "question": "In competition, how does finishing speed differ from training, and what safety considerations remain constant?",
-      "answer": "In competition, once the position is secured and the point of no escape is reached, finishing pressure can be applied more quickly - within 1-2 seconds rather than the 3-5 second training protocol. However, certain safety principles remain constant: never jerk or spike the lapel, maintain proper blood choke positioning rather than attacking the trachea, and release immediately upon tap or referee stoppage. The fundamental mechanics remain identical; only the application speed changes. Developing proper technique in slow training ensures safe execution at competition speed.",
-      "safety_critical": true
-    },
-    {
-      "question": "How do you adjust your grip and pressure when the opponent's defensive response is to turn away from you rather than bridge?",
-      "answer": "When the opponent turns away, maintain your lapel grips but allow the turn to happen - this actually tightens the choke in many cases. Follow their movement by walking your hips toward their head, transitioning to a north-south orientation as they turn. The lapel naturally cinches tighter as they rotate into it. If the turn is significant, you can transition to back control while maintaining the lapel pressure, potentially finishing from the back or switching to a rear naked choke. Never fight their turn directly; use it to advance your attack.",
-      "safety_critical": false
+      "to": "Half Guard/Bottom",
+      "probability": 15,
+      "result": "counter"
     }
   ],
   "from_positions": [
     "Side Control",
-    "North-South",
     "North-South",
     "Kesa Gatame",
     "Scarf Hold Position",
@@ -293,7 +109,7 @@
     },
     {
       "name": "North-South",
-      "relationship": "Alternative position for Short Choke variation"
+      "relationship": "Alternative top position for Short Choke variation with perpendicular alignment"
     },
     {
       "name": "Kesa Gatame",
@@ -309,7 +125,7 @@
     },
     {
       "name": "Ezekiel Choke",
-      "relationship": "Similar lapel-based choke with different mechanics"
+      "relationship": "Similar sleeve-based choke with different mechanics from top positions"
     },
     {
       "name": "Paper Cutter Choke",
@@ -320,21 +136,391 @@
       "relationship": "Position to transition to when opponent turns away from Short Choke pressure"
     },
     {
-      "name": "North-South",
-      "relationship": "Alternate top control position for Short Choke setup"
-    },
-    {
       "name": "Kimura from Side Control",
       "relationship": "Complementary submission that opens Short Choke opportunities when defended"
     },
     {
       "name": "Breadcutter Choke",
-      "relationship": "Related lapel choke with similar pressure mechanics"
+      "relationship": "Related lapel choke with similar cross-collar pressure mechanics"
     },
     {
       "name": "High Mount",
-      "relationship": "Superior mounted position for Short Choke variation"
+      "relationship": "Superior mounted position for Short Choke variation with better arm isolation"
     }
   ],
-  "success_rate": 58
+  "attacker": {
+    "name": "Short Choke Attacker",
+    "description": "How to execute Short Choke in BJJ. Attacking perspective with setup, execution, and finishing mechanics.",
+    "overview": "The Short Choke is a highly effective gi-based blood choke executed from top positions, particularly side control and north-south. Unlike traditional collar chokes that require deep grips, the Short Choke capitalizes on minimal space and opponent defensive reactions. The technique involves threading your own lapel or the opponent's lapel behind their neck while maintaining superior top position control, then applying pressure through a combination of wrist rotation and shoulder pressure. This choke is particularly effective when opponents defend aggressively against more common submissions like the Americana or Kimura, creating the exact spacing needed for lapel manipulation. The Short Choke exemplifies economy of motion - once the lapel is positioned correctly, the finish requires minimal energy expenditure while creating maximum discomfort. The technique is especially valuable in gi competition because it can be concealed within normal top position pressure, making it difficult for opponents to recognize and defend until the submission is deeply locked. Advanced practitioners use the Short Choke as both a primary finish and a setup for transitioning to mount or taking the back when opponents attempt to escape.",
+    "key_principles": [
+      "Lapel positioning must be established before applying finishing pressure",
+      "Control opponent's near arm to prevent defensive framing",
+      "Maintain heavy chest pressure throughout setup and finish",
+      "Use wrist rotation rather than raw strength for choking pressure",
+      "Shoulder pressure into opponent's jaw creates secondary pressure point",
+      "Hip positioning prevents opponent from turning into you during finish",
+      "Proper angle of attack targets carotid arteries, not windpipe"
+    ],
+    "setup_requirements": [
+      "Established top position control in side control or north-south",
+      "Opponent's near arm controlled or isolated to prevent framing",
+      "Access to your own lapel or opponent's collar/lapel",
+      "Heavy chest pressure preventing opponent's ability to create space",
+      "Proper head positioning with your head near opponent's far shoulder",
+      "Your hips positioned to prevent opponent from turning into guard"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Secure dominant side control position",
+        "description": "Establish tight side control with your chest heavy on opponent's chest. Control their near arm using either an underhook or by pinning it to the mat with your hip. Position your head near their far shoulder while maintaining crossface pressure. Your hips should be low and heavy, preventing any bridging or turning attempts.",
+        "timing": "Take 5-10 seconds to establish solid control before proceeding"
+      },
+      {
+        "step_number": 2,
+        "action": "Feed lapel behind opponent's neck",
+        "description": "Using your free hand (typically the hand nearest their legs), grip your own lapel at chest level or slightly lower. Maintain pressure with your chest and crossface while threading the lapel behind opponent's neck from the far side. The lapel should pass behind their neck like a scarf, with the material positioned against the side of their neck closest to you. This requires precise hand positioning and often involves slight adjustments to your body angle.",
+        "timing": "3-5 seconds for lapel placement"
+      },
+      {
+        "step_number": 3,
+        "action": "Secure lapel grip on opposite side",
+        "description": "Once the lapel has been threaded behind their neck, reach under their head with your opposite hand and grip the lapel material. Your grip should be palm-down with fingers curled around the lapel fabric. The key is to have minimal slack in the material while maintaining top position control. Some practitioners prefer gripping their own gi material for additional control.",
+        "timing": "2-3 seconds to establish secure grip"
+      },
+      {
+        "step_number": 4,
+        "action": "Consolidate position and remove slack",
+        "description": "Before applying finishing pressure, ensure your body position is optimized. Your chest should remain heavy on opponent's torso, your hips should be positioned to prevent them from turning, and both hands should have secure grips on the lapel. Slowly remove any slack in the lapel material by pulling your grips in opposite directions. The lapel should now form a tight band across the side of opponent's neck.",
+        "timing": "2-4 seconds to remove slack"
+      },
+      {
+        "step_number": 5,
+        "action": "Apply rotational choking pressure",
+        "description": "The finish comes from rotating your wrists and forearms in opposite directions while maintaining downward pressure with your shoulder into opponent's jaw. The hand holding your lapel (or their collar) rotates palm-up, while the other hand pulls the threaded lapel tight. Simultaneously, drive your shoulder into the side of their jaw, which both creates additional choking pressure and prevents them from turning their head. The combination of lapel tightness and shoulder pressure compresses the carotid artery.",
+        "timing": "Apply pressure slowly over 3-5 seconds in training"
+      },
+      {
+        "step_number": 6,
+        "action": "Adjust angle if needed and maintain until tap",
+        "description": "If opponent attempts to defend by tucking their chin or creating frames, make micro-adjustments to your shoulder angle and lapel positioning. Small changes in your body angle can dramatically increase effectiveness. Once proper compression is achieved, maintain consistent pressure until tap. Never increase pressure suddenly or jerk the lapel. If no tap occurs within 5-7 seconds of firm pressure, the setup likely needs adjustment rather than more force.",
+        "timing": "Hold finishing pressure for 3-7 seconds maximum in training"
+      },
+      {
+        "step_number": 7,
+        "action": "Release immediately upon tap",
+        "description": "The moment you feel or see the tap signal, immediately release all choking pressure by opening your grips and removing lapel tension. Maintain top position briefly to ensure partner is conscious and recovering normally. If practicing with a new partner, verbally confirm they are okay before continuing training."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Tucking chin to chest to block lapel access",
+        "effectiveness": "Medium",
+        "your_response": "Use crossface pressure to create slight gap, or transition to near-side collar grip variation. Patience is key - maintain pressure and wait for opponent to fatigue and create space.",
+        "targets_outcome": "Side Control/Top"
+      },
+      {
+        "counter": "Framing with near arm against your hips",
+        "effectiveness": "High",
+        "your_response": "Switch to Americana or Kimura attack on the framing arm, forcing them to retract. Once arm is controlled, return to Short Choke setup with better isolation.",
+        "targets_outcome": "Side Control/Top"
+      },
+      {
+        "counter": "Bridging explosively to create space",
+        "effectiveness": "Medium",
+        "your_response": "Allow slight bridge while maintaining grips, then ride their hips back to mat with increased pressure. Use their energy expenditure to tighten the choke during the descent.",
+        "targets_outcome": "Side Control/Top"
+      },
+      {
+        "counter": "Turning into you to recover guard",
+        "effectiveness": "Low",
+        "your_response": "Maintain lapel grips and transition to north-south position as they turn. The turning motion often tightens the choke automatically. Follow to mount if they complete the turn.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Grabbing your choking hand/wrist",
+        "effectiveness": "Low",
+        "your_response": "Your leverage from shoulder pressure and body position overwhelms grip fighting on the wrist. Simply maintain pressure and wait for their grip to fatigue, or use their focus on your hand to improve body position.",
+        "targets_outcome": "Side Control/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Applying choking pressure before properly positioning the lapel behind the neck",
+        "consequence": "Creates a crushing pressure on the trachea instead of blood choke on carotid arteries, causing pain rather than effective submission and potential injury",
+        "correction": "Take time to properly thread lapel behind neck, ensuring material sits on the side of the neck. Feel for the carotid pulse point with your hand before applying pressure."
+      },
+      {
+        "error": "Losing top position control while focusing on lapel manipulation",
+        "consequence": "Opponent escapes to guard or worse position before choke can be finished",
+        "correction": "Maintain heavy chest pressure and crossface throughout entire setup. If you feel opponent creating space, pause lapel work and re-establish positional control first."
+      },
+      {
+        "error": "Using excessive pulling strength rather than proper rotation mechanics",
+        "consequence": "Fatigues your arms, telegraphs the submission, and reduces effectiveness of the choke",
+        "correction": "Focus on wrist rotation and shoulder pressure rather than pulling the lapel. The choke should feel effortless when properly positioned."
+      },
+      {
+        "error": "Allowing too much slack in the lapel material",
+        "consequence": "Opponent has time to defend, insert hands, or escape before choke takes effect",
+        "correction": "Before applying finishing pressure, ensure lapel is snug around neck with minimal slack. Take up all slack first, then apply rotational pressure."
+      },
+      {
+        "error": "Positioning your head too high or too low relative to opponent",
+        "consequence": "Reduces shoulder pressure and gives opponent ability to turn their head away from the choke",
+        "correction": "Keep your head near opponent's far shoulder, creating downward angle with your shoulder into their near-side jaw. This prevents head movement and increases choke effectiveness."
+      },
+      {
+        "error": "Continuing to apply pressure after feeling tap signal",
+        "consequence": "Risk of causing unconsciousness or injury to training partner; builds dangerous training habits",
+        "correction": "Develop instant release reflex when feeling tap. Practice releasing immediately even in drilling scenarios to build muscle memory."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Lapel Mechanics Isolation",
+        "focus": "Lapel threading and grip placement",
+        "description": "Practice lapel feeding and grip acquisition from static side control with a compliant partner. Focus exclusively on threading the lapel behind the neck, securing the grip on the opposite side, and removing slack. No finishing pressure applied. Build muscle memory for the hand path and grip depth. Perform 20-30 repetitions per side per session."
+      },
+      {
+        "phase": "Phase 2: Positional Integration",
+        "focus": "Combining top control with choke setup",
+        "description": "Drill the complete sequence from establishing side control through lapel threading to grip consolidation against a partner providing light defensive movement (bridging, framing). Emphasis on maintaining chest pressure and crossface while manipulating the lapel. Practice pausing the choke setup to re-establish position when partner creates space, then resuming. Include finishing pressure at training speed."
+      },
+      {
+        "phase": "Phase 3: Counter-Defense Drilling",
+        "focus": "Responding to common defensive reactions",
+        "description": "Partner actively defends using chin tucks, arm frames, bridges, and guard recovery attempts at 60-70% resistance. Practice recognizing each defense and applying the correct counter: switching to Americana on framing arms, riding bridges, following turns to north-south. Develop the decision tree for when to persist with the choke versus transition to an alternative attack."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Full resistance application and chaining",
+        "description": "Positional rounds starting from side control with full resistance. Hunt the Short Choke as a primary attack while integrating it into your submission chain with Americana, Kimura, and mount transitions. Track success rate and identify which defensive responses still give you trouble. Include competition-paced rounds where you must secure the choke within 30 seconds of establishing side control."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What are the primary blood vessels targeted by the Short Choke, and why is proper positioning critical?",
+        "answer": "The Short Choke targets the carotid arteries on the side of the neck. Proper positioning is critical because if the lapel is placed incorrectly (over the front of the throat), you create a painful air choke on the trachea rather than an effective blood choke. The lapel must sit on the side of the neck, allowing the combination of lapel pressure and shoulder drive to compress the carotid artery. Blood chokes are safer and more effective than air chokes in training.",
+        "safety_critical": true
+      },
+      {
+        "question": "What should you do immediately if your training partner goes unconscious during the Short Choke?",
+        "answer": "Immediately release all pressure from the neck and remove your weight from their torso. Check their breathing and consciousness level. Elevate their legs to improve blood flow to the brain. Monitor their airway and be prepared to call for medical assistance. Never shake them or apply stimulation to their neck. Most practitioners regain consciousness within seconds, but should not continue training for the remainder of that session. Document the incident and ensure your instructor is aware.",
+        "safety_critical": true
+      },
+      {
+        "question": "Why is controlling the opponent's near arm essential for successful Short Choke execution?",
+        "answer": "Controlling the near arm prevents the opponent from creating defensive frames that would push your body away and create space. If their near arm is free, they can insert it between your chest and theirs, or push against your hips to prevent you from maintaining the pressure needed for lapel manipulation and finishing. The near arm must be controlled via underhook, pinned with your hip, or otherwise isolated before attempting the choke. Without this control, the opponent can easily disrupt your setup and potentially escape to a better position.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the mechanical difference between using pulling strength versus rotational pressure in finishing the Short Choke?",
+        "answer": "Pulling strength relies on arm muscle endurance and often creates uneven pressure that allows defensive opportunities. Rotational pressure, achieved by rotating the wrists in opposite directions while driving the shoulder, creates a more complete circular compression around the carotid artery. This rotation is mechanically stronger, less fatiguing, and harder to defend because it uses leverage and body weight rather than arm strength alone. The finish should feel almost effortless when proper rotation and shoulder pressure are combined with correct lapel positioning.",
+        "safety_critical": false
+      },
+      {
+        "question": "How should your body position change when transitioning from the Short Choke setup to the finishing mechanics?",
+        "answer": "During setup, your chest remains heavy and square to the opponent with mobile hips to prevent their escape. As you transition to finishing, you should slightly angle your body to optimize shoulder pressure into their jaw while maintaining chest weight. Your hips may need to shift slightly away to create the proper shoulder angle, but you must maintain enough pressure to prevent them from turning into you. The key is finding the balance between maintaining positional control and creating the optimal angle for shoulder drive and lapel compression.",
+        "safety_critical": false
+      },
+      {
+        "question": "What are the key indicators that your lapel positioning is correct before applying finishing pressure?",
+        "answer": "First, the lapel material should sit on the side of the neck, not across the front of the throat. Second, you should be able to feel the lapel band is snug with minimal slack when you pull your grips in opposite directions. Third, your shoulder should be positioned to drive into the opponent's jaw from an angle, not straight down. Fourth, the opponent's near arm should be controlled and unable to create defensive frames. Finally, you should feel stable in your top position with no risk of being swept or reversed. Only when all these indicators are present should you begin applying finishing pressure.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your opponent bridges explosively while you are threading the lapel - what is your immediate response?",
+        "answer": "Pause the lapel threading and immediately base out with your hands and feet to ride the bridge without losing position. Keep your hips heavy and sprawl slightly to absorb their power. Do not fight the bridge directly - ride it and let them expend energy. Once they return to the mat, reestablish your chest pressure and crossface before continuing the lapel setup. Attempting to finish the choke during an active bridge typically results in losing position entirely.",
+        "safety_critical": false
+      },
+      {
+        "question": "What sensations should prompt an immediate tap from the person being choked, even before full unconsciousness is imminent?",
+        "answer": "You should tap immediately when you feel blood choke pressure building on the sides of your neck, not just when you feel like you are about to go unconscious. Key indicators include: vision starting to narrow or gray around the edges, a rushing sound in your ears, feeling your face flush or a sensation of pressure in your head, or feeling the characteristic 'tight band' sensation around your carotid arteries. In training, tap early when you recognize the position is locked - waiting until the last moment builds bad habits and increases injury risk.",
+        "safety_critical": true
+      },
+      {
+        "question": "How do you recognize when the Short Choke is properly compressing the carotid arteries versus applying tracheal pressure?",
+        "answer": "A proper carotid compression creates a tight, constricting sensation on both sides of the neck without significant pain or difficulty breathing. The recipient may feel their face flush and vision narrow. Tracheal pressure, in contrast, causes immediate difficulty breathing, a crushing sensation at the front of the throat, and sharp pain. If your opponent coughs, gags, or indicates throat pain, you have misplaced the lapel and should immediately release and reposition. The lapel must contact the side of the neck, not the front.",
+        "safety_critical": true
+      },
+      {
+        "question": "What is the point of no escape for the Short Choke, and how do you recognize when you have reached it?",
+        "answer": "The point of no escape occurs when the lapel is fully threaded behind the neck with all slack removed, your shoulder is driving into their jaw preventing head movement, and their near arm is trapped or controlled. At this point, even if they realize the choke is coming, they cannot create the space needed to defend. You recognize this point when you feel the lapel band tight on both sides of the grip, your shoulder is in firm contact with their jaw, and you feel stable enough to begin rotational pressure without risk of losing position.",
+        "safety_critical": false
+      },
+      {
+        "question": "In competition, how does finishing speed differ from training, and what safety considerations remain constant?",
+        "answer": "In competition, once the position is secured and the point of no escape is reached, finishing pressure can be applied more quickly - within 1-2 seconds rather than the 3-5 second training protocol. However, certain safety principles remain constant: never jerk or spike the lapel, maintain proper blood choke positioning rather than attacking the trachea, and release immediately upon tap or referee stoppage. The fundamental mechanics remain identical; only the application speed changes. Developing proper technique in slow training ensures safe execution at competition speed.",
+        "safety_critical": true
+      },
+      {
+        "question": "How do you adjust your grip and pressure when the opponent's defensive response is to turn away from you rather than bridge?",
+        "answer": "When the opponent turns away, maintain your lapel grips but allow the turn to happen - this actually tightens the choke in many cases. Follow their movement by walking your hips toward their head, transitioning to a north-south orientation as they turn. The lapel naturally cinches tighter as they rotate into it. If the turn is significant, you can transition to back control while maintaining the lapel pressure, potentially finishing from the back or switching to a rear naked choke. Never fight their turn directly; use it to advance your attack.",
+        "safety_critical": false
+      }
+    ]
+  },
+  "defender": {
+    "name": "Short Choke Defender",
+    "description": "How to defend against Short Choke in BJJ. Recognition, escape paths, and defensive strategies from bottom side control.",
+    "overview": "Defending the Short Choke requires early recognition and immediate action because once the lapel is fully threaded behind your neck with slack removed, escape becomes extremely difficult. The choke is uniquely dangerous because it develops within the normal pressure of top-position control, often without obvious telegraphing until the lapel is already positioned. Your primary defensive window occurs during the lapel threading phase, when the attacker must momentarily adjust their weight distribution and hand positioning to feed the material behind your neck.\n\nThe defensive hierarchy against the Short Choke prioritizes preventing lapel access first, disrupting the grip second, and creating positional escapes third. Unlike defending traditional collar chokes where you can fight grips at your own collar, the Short Choke often uses the attacker's own lapel, meaning you must control their hand movement and body positioning rather than simply stripping collar grips. Understanding that the attacker needs both hands engaged in the lapel while maintaining top pressure reveals the inherent tension in their position - exploiting moments when they compromise control to manipulate the lapel is the key to successful defense.",
+    "key_principles": [
+      "Deny lapel access by maintaining tight defensive frames against the attacker's chest and controlling their near hand before it can reach their lapel",
+      "Recognize the choke setup during the threading phase when defense is still viable, not after the lapel is locked behind your neck",
+      "Keep your chin tucked and turned toward the attacker to close the space needed for lapel placement on the near side of your neck",
+      "Prioritize creating distance through hip escapes during the attacker's grip transitions when their weight distribution shifts",
+      "Fight for inside wrist control on the hand threading the lapel to disrupt the feeding motion before it completes",
+      "Use the attacker's momentary positional compromise during lapel manipulation as your escape window"
+    ],
+    "recognition_cues": [
+      "Attacker's near hand releases hip control or crossface and moves toward their own lapel at chest level, indicating the beginning of the lapel feed",
+      "Feeling the attacker's hand sliding behind your neck with fabric, accompanied by a slight shift in their chest pressure as they angle to thread material",
+      "Attacker adjusts from standard crossface to a position where their shoulder drives into your jaw while their hands work near your neck",
+      "Sensation of gi material gathering or tightening on one side of your neck that was not present during normal side control pressure"
+    ],
+    "defensive_options": [
+      {
+        "action": "Frame against attacker's chest and hip escape to recover half guard",
+        "when_to_use": "Early phase when attacker releases hip control or crossface to reach for their lapel, creating a momentary gap in their control",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Recover half guard or knee shield, completely negating the Short Choke threat and resetting to a guard position",
+        "risk": "If timed poorly, the frame may be too weak to prevent the attacker from re-consolidating and you waste energy without meaningful escape"
+      },
+      {
+        "action": "Control attacker's feeding hand at the wrist to prevent lapel threading",
+        "when_to_use": "When you feel the attacker's hand moving toward their lapel or beginning to thread fabric behind your neck",
+        "targets_outcome": "Side Control/Top",
+        "if_successful": "Stalls the choke setup entirely, forcing attacker to either abandon the choke or fight for hand control, buying time for positional escape",
+        "risk": "Extending your arm to grip their wrist may expose your arm to Americana or Kimura if the attacker abandons the choke attempt and capitalizes"
+      },
+      {
+        "action": "Bridge explosively and turn into attacker to disrupt lapel positioning",
+        "when_to_use": "During or immediately after the attacker threads the lapel but before they remove all slack and establish the finishing grip",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Disrupts the lapel positioning, potentially loosens the material, and creates space for guard recovery or forces attacker to re-establish control",
+        "risk": "If the choke is already locked, bridging can tighten the lapel and accelerate the submission rather than disrupting it"
+      },
+      {
+        "action": "Insert two hands inside the lapel loop and push outward to create space",
+        "when_to_use": "When the lapel is already threaded but finishing pressure has not yet been fully applied",
+        "targets_outcome": "Side Control/Top",
+        "if_successful": "Creates enough slack in the lapel to prevent effective carotid compression, buying time for positional escape",
+        "risk": "Both hands committed to fighting the lapel leaves you vulnerable to positional advancement to mount if the attacker changes strategy"
+      }
+    ],
+    "escape_paths": [
+      "Hip escape to half guard during the lapel threading phase when attacker's hip pressure is momentarily compromised",
+      "Bridge and turn into the attacker before the grip is consolidated, using the momentum to recover closed guard or create a scramble",
+      "Ghost escape to turtle position when the attacker overcommits weight to the choking side, then immediately work to stand or recover guard"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Time your hip escape to coincide with the attacker reaching for their lapel. As they lift their near hand off your hip to grab the gi material, immediately shrimp your hips away and insert your knee to establish half guard, completely negating the choke threat."
+      },
+      {
+        "outcome": "Side Control/Top",
+        "how": "When the attacker has both hands committed to lapel manipulation and their base is compromised, execute an explosive bridge toward the choking side. Their inability to post with their hands creates a reversal opportunity, especially if you can trap their near arm during the bridge."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Ignoring the lapel threading and focusing only on general side control escape",
+        "consequence": "The choke becomes fully locked before you address it, leaving you in a situation where the finish is nearly inevitable and your only option is to tap",
+        "correction": "Treat any hand movement toward the attacker's own lapel as an immediate threat. Prioritize disrupting the lapel feed before working general escape sequences."
+      },
+      {
+        "error": "Extending arms to push the attacker away while the lapel is being threaded",
+        "consequence": "Exposes your arms to Americana and Kimura attacks while failing to address the primary choke threat, potentially losing on a different submission entirely",
+        "correction": "Keep elbows tight to your body. Use forearm frames against their chest rather than extended arm pushes. Control their wrist with short, tight grips."
+      },
+      {
+        "error": "Bridging after the choke is already fully locked with slack removed",
+        "consequence": "The bridging motion often tightens the lapel further as your neck moves against the locked material, accelerating unconsciousness rather than escaping",
+        "correction": "If the choke is fully locked, fight the grips first by inserting hands inside the lapel loop. Only bridge once you have created slack in the material, or tap immediately if you feel blood choke pressure building."
+      },
+      {
+        "error": "Turning away from the attacker in panic when feeling neck pressure",
+        "consequence": "Turning away exposes your back and often tightens the lapel choke simultaneously, putting you in a worse position while accelerating the submission",
+        "correction": "Turn toward the attacker if you must turn, as this reduces the choking angle. Better yet, address the lapel and grips directly before attempting any turning escape."
+      },
+      {
+        "error": "Waiting too long to tap when the choke is fully locked",
+        "consequence": "Blood chokes can cause unconsciousness within 4-6 seconds of full compression. Waiting for the 'last possible moment' risks going to sleep and potential injury",
+        "correction": "Tap immediately when you recognize the position is locked and you have no viable escape. In training, tapping early to a well-executed choke preserves your health and allows more productive training time."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that a Short Choke is being set up, and why is early detection critical?",
+        "answer": "The earliest cue is the attacker's near hand releasing hip control or crossface and moving toward their own lapel at chest level. Early detection is critical because the Short Choke has a narrow defensive window - once the lapel is fully threaded behind your neck with slack removed, the choke becomes nearly inescapable. During the threading phase, the attacker must compromise their positional control to manipulate the fabric, creating your best escape opportunity. Missing this window means your only remaining options are grip fighting against a locked position or tapping.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is bridging after the choke is fully locked a dangerous defensive mistake, and what should you do instead?",
+        "answer": "Bridging with a locked Short Choke often tightens the lapel material as your neck moves against the fixed loop, actually accelerating the carotid compression rather than relieving it. The mechanical reality is that the lapel acts as a fixed band around your neck, and any movement that increases the distance between the anchor points tightens the squeeze. Instead, you should first create slack by inserting your fingers inside the lapel loop and pushing outward, or fight to strip the attacker's grip. Only bridge once slack has been created. If you cannot create slack, tap immediately - attempting to bridge through a locked blood choke risks unconsciousness.",
+        "safety_critical": true
+      },
+      {
+        "question": "What defensive position should your chin be in during the Short Choke setup, and how does chin position affect the choke's effectiveness?",
+        "answer": "Your chin should be tucked tightly and turned toward the attacker throughout the defense. Tucking your chin closes the space on the near side of your neck where the lapel needs to sit for effective carotid compression. Turning toward the attacker makes it harder for them to thread the lapel behind your neck from the far side, as your jaw and chin create a physical barrier. If your chin is up or turned away, you create the exact space the attacker needs to position the lapel optimally. Even small changes in chin position significantly affect whether the choke compresses the carotid arteries or merely applies uncomfortable pressure.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent has threaded the lapel but has not yet removed all the slack - what is your best defensive action at this specific moment?",
+        "answer": "This is your last high-percentage defensive window. Insert both hands inside the lapel loop between the fabric and your neck, then push outward to create maximum slack. Simultaneously, execute a sharp hip escape to create distance and attempt to recover half guard. The combination of hand fighting inside the loop and hip movement disrupts both the grip consolidation and the attacker's positional base. If you can only do one thing, prioritize the hip escape - the positional change forces the attacker to choose between maintaining the choke setup and maintaining top control, and most practitioners cannot do both simultaneously during an active escape attempt.",
+        "safety_critical": false
+      },
+      {
+        "question": "When should you tap to a Short Choke in training, and what are the warning signs that unconsciousness is imminent?",
+        "answer": "Tap immediately when you recognize the position is locked and your defensive options are exhausted. Do not wait for the sensation of approaching unconsciousness. Warning signs that unconsciousness is imminent include: narrowing or graying of peripheral vision, a rushing or whooshing sound in your ears, a warm flushing sensation in your face, feeling lightheaded, or any sensation of your awareness dimming. Blood chokes can render you unconscious in as little as 4-6 seconds of full compression. In training, the correct response is always to tap early when you recognize the choke is structurally sound, preserving your health for continued training.",
+        "safety_critical": true
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and Awareness",
+        "focus": "Identifying Short Choke setups",
+        "description": "Partner slowly demonstrates each phase of the Short Choke from side control while you practice identifying the recognition cues. Focus on feeling the weight shifts, hand movements, and lapel contact that signal the choke is being initiated. Practice calling out each phase verbally as it occurs. No escape attempts yet - pure sensory awareness development."
+      },
+      {
+        "phase": "Phase 2: Early Disruption Drilling",
+        "focus": "Preventing lapel access and grip establishment",
+        "description": "Partner attempts the Short Choke at moderate speed while you practice specific disruption techniques: controlling the feeding hand, maintaining chin tuck, and hip escaping during the threading phase. Reset each time the partner successfully locks the choke or you successfully escape. Track which disruption technique works best for your body type and flexibility."
+      },
+      {
+        "phase": "Phase 3: Late-Stage Defense and Grip Fighting",
+        "focus": "Defending after the lapel is partially threaded",
+        "description": "Partner establishes the lapel behind your neck with varying amounts of slack. Practice inserting hands inside the loop, creating slack, and combining grip fighting with positional escapes. Include scenarios where you must decide between continuing to fight the grips versus tapping. Build the habit of tapping early when the position is locked rather than fighting through a fully locked choke."
+      },
+      {
+        "phase": "Phase 4: Live Positional Defense",
+        "focus": "Full resistance defense integration",
+        "description": "Positional sparring rounds starting from side control where the attacker is actively hunting the Short Choke. Defend at full resistance while integrating all defensive layers: early recognition, disruption, grip fighting, and positional escapes. Track your success rate at each defensive phase and identify where your defense breaks down most frequently."
+      }
+    ]
+  },
+  "variations_and_setups": [
+    {
+      "variation_name": "North-South Short Choke",
+      "description": "Executed from north-south position using similar lapel threading mechanics but with your body perpendicular to opponent. Particularly effective when opponent defends the traditional north-south choke.",
+      "when_to_use": "When transitioning from side control to north-south, or when opponent is successfully defending standard north-south attacks"
+    },
+    {
+      "variation_name": "Reverse Short Choke (Paper Cutter variation)",
+      "description": "Instead of using your own lapel, grip opponent's far collar deep and apply pressure by driving your forearm across their neck while maintaining shoulder pressure. Creates similar carotid compression with different mechanics.",
+      "when_to_use": "When opponent's defensive posture prevents access to your own lapel, or when their gi collar offers better gripping opportunities"
+    },
+    {
+      "variation_name": "Mounted Short Choke",
+      "description": "Applied from mount position by threading lapel while controlling opponent's arms. Requires excellent mount maintenance but offers higher success rate due to superior position.",
+      "when_to_use": "When in high mount with good arm control; excellent finishing option when opponent defends the armbar by pulling their elbow tight to their body"
+    },
+    {
+      "variation_name": "Short Choke to Back Take Transition",
+      "description": "Use the Short Choke as a feint - when opponent defends by turning away from the pressure, maintain lapel grips and take the back, immediately transitioning to rear naked choke.",
+      "when_to_use": "Against experienced opponents who recognize and defend the Short Choke early; creates excellent back exposure"
+    }
+  ]
 }

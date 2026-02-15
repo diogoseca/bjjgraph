@@ -87,19 +87,23 @@ Russian Leg Lasso is an advanced variation of the traditional lasso guard that i
 ### Available Transitions
 
 
-- **[[Lasso Guard Sweeps]]** (22% of attempts)
+- **[[Overhook Sweep]]** (35% of attempts)
 
-- **[[Triangle Setup]]** (16% of attempts)
+- **[[Triangle Setup]]** (11% of attempts)
 
-- **[[Omoplata Sweep]]** (14% of attempts)
+- **[[Omoplata Sweep]]** (12% of attempts)
 
-- **[[De La Riva Sweep]]** (13% of attempts)
+- **[[Back Take from Bottom]]** (6% of attempts)
 
-- **[[Balloon Sweep]]** (12% of attempts)
+- **[[Sickle Sweep]]** (13% of attempts)
 
-- **[[Armbar from Guard]]** (11% of attempts)
+- **[[Transition to Inverted Lasso Guard]]** (8% of attempts)
 
-- **[[Back Take Generic]]** (12% of attempts)
+- **[[Omoplata]]** (10% of attempts)
+
+- **[[Russian Lasso Sweep]]** (3% of attempts)
+
+- **[[Russian Lasso to De La Riva]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -160,19 +164,23 @@ Russian Leg Lasso is an advanced variation of the traditional lasso guard that i
 ### Available Transitions
 
 
-- **[[Lasso Guard Pass]]** (18% of attempts)
+- **[[Lasso Guard Pass]]** (24% of attempts)
 
-- **[[Knee Slice Pass]]** (16% of attempts)
+- **[[Knee Slice Pass]]** (12% of attempts)
 
-- **[[Toreando Pass]]** (15% of attempts)
+- **[[Toreando Pass]]** (12% of attempts)
 
 - **[[Long Step Pass]]** (12% of attempts)
 
-- **[[Leg Drag Pass]]** (14% of attempts)
+- **[[Leg Drag Pass]]** (12% of attempts)
 
-- **[[Pressure Pass]]** (13% of attempts)
+- **[[Pressure Pass]]** (10% of attempts)
 
-- **[[Double Under Pass]]** (12% of attempts)
+- **[[Back Step Pass]]** (10% of attempts)
+
+- **[[Pass Russian Leg Lasso]]** (5% of attempts)
+
+- **[[Strip Russian Leg Lasso]]** (3% of attempts)
 
 
 ### Common Mistakes

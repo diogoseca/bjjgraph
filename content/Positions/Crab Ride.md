@@ -93,17 +93,21 @@ From the defensive perspective, Crab Ride Bottom is a high-pressure situation th
 ### Available Transitions
 
 
-- **[[Hip Escape]]** (22% of attempts)
+- **[[Hip Escape to Guard]]** (32% of attempts)
 
-- **[[Granby Roll]]** (20% of attempts)
+- **[[Granby Roll to Guard]]** (19% of attempts)
 
-- **[[Technical Standup]]** (18% of attempts)
+- **[[Turtle to Standing]]** (14% of attempts)
 
-- **[[Turtle to Guard]]** (15% of attempts)
+- **[[Guard Recovery]]** (9% of attempts)
 
-- **[[Rolling Back Take]]** (10% of attempts)
+- **[[Peterson Roll]]** (9% of attempts)
 
-- **[[Guard Replacement]]** (15% of attempts)
+- **[[Sit Through Escape]]** (11% of attempts)
+
+- **[[Rolling Back Take]]** (4% of attempts)
+
+- **[[Crab Ride Escape to Guard]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -164,19 +168,25 @@ From the defensive perspective, Crab Ride Bottom is a high-pressure situation th
 ### Available Transitions
 
 
-- **[[Crab Ride to Back]]** (25% of attempts)
+- **[[Crab Ride to Back]]** (39% of attempts)
 
-- **[[Back Control to Crucifix]]** (15% of attempts)
+- **[[Darce from Turtle]]** (7% of attempts)
 
-- **[[Darce from Turtle]]** (15% of attempts)
+- **[[Anaconda from Turtle]]** (6% of attempts)
 
-- **[[Anaconda from Turtle]]** (15% of attempts)
+- **[[Guillotine from Turtle]]** (3% of attempts)
 
-- **[[Guillotine from Turtle]]** (10% of attempts)
+- **[[Truck Entry]]** (12% of attempts)
 
-- **[[Kimura from Turtle]]** (10% of attempts)
+- **[[Crucifix from Turtle]]** (11% of attempts)
 
-- **[[Truck Entry]]** (10% of attempts)
+- **[[Transition to Cross Body Ride]]** (7% of attempts)
+
+- **[[Transition to Rodeo Ride]]** (9% of attempts)
+
+- **[[Rolling Back Take]]** (4% of attempts)
+
+- **[[Kimura from Crab Ride]]** (2% of attempts)
 
 
 ### Common Mistakes

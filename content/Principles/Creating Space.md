@@ -365,8 +365,8 @@ From heavily consolidated positions, systematically create space through multipl
 - [[Side Control]] (Position) - Primary position requiring horizontal space creation for escape execution
 - [[Mount]] (Position) - Position requiring vertical space through bridging followed by horizontal escape movements
 - [[Shrimp Escape]] (Transition) - Fundamental escape technique directly applying space creation principles
-- [[Hip Escape]] (Transition) - Core escape movement demonstrating coordinated space generation and utilization
-- [[Elbow Escape]] (Transition) - Mount escape specifically requiring vertical space creation through bridge before horizontal escape
+- [[Hip Escape to Guard]] (Transition) - Core escape movement demonstrating coordinated space generation and utilization
+- [[Elbow Escape to Guard]] (Transition) - Mount escape specifically requiring vertical space creation through bridge before horizontal escape
 - [[Frame Management]] (Principle) - Continuous adjustment system preserving created space during technical execution
 
 

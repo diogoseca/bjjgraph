@@ -185,7 +185,7 @@
         "condition": "Trapped arm is successfully extracted and shoulder isolation is eliminated",
         "actions": [
           {
-            "technique": "Guard Pass",
+            "technique": "Arm Extraction and Pass",
             "target": "Side Control",
             "probability": 55
           },
@@ -283,8 +283,8 @@
         "relationship": "Counter position - stacking pressure can lead to this passing position"
       },
       {
-        "name": "Standing Guard",
-        "relationship": "Alternative escape - standing can break high guard control"
+        "name": "Open Guard",
+        "relationship": "Alternative escape destination - arm extraction often leads here"
       },
       {
         "name": "Side Control",
@@ -317,27 +317,35 @@
     "transitions": [
       {
         "transition": "Posture Recovery",
-        "attempt_probability": 19
-      },
-      {
-        "transition": "Guard Pass",
         "attempt_probability": 16
       },
       {
+        "transition": "Arm Extraction and Pass",
+        "attempt_probability": 14
+      },
+      {
         "transition": "Stack Defense",
-        "attempt_probability": 17
+        "attempt_probability": 14
       },
       {
         "transition": "Standing up in Base",
-        "attempt_probability": 20
+        "attempt_probability": 24
       },
       {
         "transition": "Arm Extraction",
-        "attempt_probability": 15
+        "attempt_probability": 13
       },
       {
         "transition": "Guard Opening Sequence",
-        "attempt_probability": 13
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Posture Break from Mission Control",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Stack Pass from Mission Control",
+        "attempt_probability": 3
       }
     ]
   },
@@ -438,13 +446,13 @@
         "condition": "Opponent attempts to posture up by driving weight back and lifting head",
         "actions": [
           {
-            "technique": "Triangle from Guard",
+            "technique": "Closed Guard to Triangle",
             "target": "Triangle Control",
             "probability": 70
           },
           {
-            "technique": "New York Transition",
-            "target": "New York",
+            "technique": "Progression to Zombie",
+            "target": "Zombie",
             "probability": 55
           }
         ]
@@ -453,7 +461,7 @@
         "condition": "Opponent drives forward with stacking pressure attempting to collapse high guard",
         "actions": [
           {
-            "technique": "Zombie Transition",
+            "technique": "Progression to Zombie",
             "target": "Zombie",
             "probability": 60
           },
@@ -473,7 +481,7 @@
             "probability": 68
           },
           {
-            "technique": "Invisible Collar Transition",
+            "technique": "New York to Invisible Collar",
             "target": "Invisible Collar",
             "probability": 45
           }
@@ -488,7 +496,7 @@
             "probability": 50
           },
           {
-            "technique": "Guard Replacement",
+            "technique": "Rubber Guard Maintenance",
             "target": "Closed Guard",
             "probability": 45
           }
@@ -630,11 +638,11 @@
         "attempt_probability": 12
       },
       {
-        "transition": "Triangle from Guard",
+        "transition": "Closed Guard to Triangle",
         "attempt_probability": 14
       },
       {
-        "transition": "Armbar from Guard",
+        "transition": "Armbar Finish",
         "attempt_probability": 10
       },
       {
@@ -646,11 +654,11 @@
         "attempt_probability": 10
       },
       {
-        "transition": "Closed Guard to Triangle",
+        "transition": "Progression to Zombie",
         "attempt_probability": 8
       },
       {
-        "transition": "Triangle to Omoplata",
+        "transition": "Rubber Guard Maintenance",
         "attempt_probability": 9
       }
     ]

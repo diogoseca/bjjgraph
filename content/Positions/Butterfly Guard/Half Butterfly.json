@@ -154,12 +154,12 @@
         "condition": "Else if bottom player turns to turtle to escape",
         "actions": [
           {
-            "technique": "Front Headlock Series",
+            "technique": "Front Headlock to Guillotine",
             "target": "Front Headlock",
             "probability": 50
           },
           {
-            "technique": "Turtle to Back Take",
+            "technique": "Back Take from Top",
             "target": "Back Control",
             "probability": 55
           }
@@ -269,27 +269,39 @@
     "transitions": [
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 19
+        "attempt_probability": 39
       },
       {
         "transition": "Smash Pass",
-        "attempt_probability": 18
-      },
-      {
-        "transition": "Long Step Pass",
-        "attempt_probability": 17
-      },
-      {
-        "transition": "Leg Drag Pass",
-        "attempt_probability": 15
-      },
-      {
-        "transition": "Side Control to Mount",
-        "attempt_probability": 14
+        "attempt_probability": 16
       },
       {
         "transition": "Underhook Pass",
-        "attempt_probability": 17
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Body Lock Pass",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Transition to Flattened Half Guard",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Half Guard Pass",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Leg Weave Pass",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Pass Half Butterfly",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Smash Half Butterfly",
+        "attempt_probability": 1
       }
     ],
     "knowledge_assessment": [
@@ -396,7 +408,7 @@
             "probability": 65
           },
           {
-            "technique": "Granby Roll",
+            "technique": "Granby to Closed Guard",
             "target": "Closed Guard",
             "probability": 50
           }
@@ -421,7 +433,7 @@
         "condition": "Else if opponent's weight shifts to free-leg side defending butterfly hook",
         "actions": [
           {
-            "technique": "Back Take Generic",
+            "technique": "Back Take from Bottom",
             "target": "Back Control",
             "probability": 45
           },
@@ -536,35 +548,55 @@
     "transitions": [
       {
         "transition": "Basic Butterfly Sweep",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "Old School Sweep",
-        "attempt_probability": 14
-      },
-      {
-        "transition": "Hook Sweep",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Underhook Sweep from Half",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "Back Take Generic",
         "attempt_probability": 11
       },
       {
+        "transition": "Old School Sweep",
+        "attempt_probability": 59
+      },
+      {
+        "transition": "Hook Sweep",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Underhook Sweep from Half",
+        "attempt_probability": 8
+      },
+      {
         "transition": "Deep Half Entry",
-        "attempt_probability": 13
+        "attempt_probability": 8
       },
       {
         "transition": "Butterfly Guard to X-Guard",
-        "attempt_probability": 12
+        "attempt_probability": 4
       },
       {
         "transition": "Elevator Sweep",
-        "attempt_probability": 12
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Kimura from Half Guard",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Transition to Half Butterfly",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Half Butterfly Sweep",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Half Butterfly to Dogfight",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Reguard from Half Butterfly",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Rolling Back Take from Half Butterfly",
+        "attempt_probability": 1
       }
     ],
     "knowledge_assessment": [

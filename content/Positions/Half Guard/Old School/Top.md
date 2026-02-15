@@ -4,7 +4,7 @@
 
 ---
 title: "Old School Top | BJJ Position Guide | BJJ Graph"
-description: "Master Old School Top in BJJ half guard. Control opponent's lockdown with whizzer and crossface pressure. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%."
+description: "Master Old School Top in BJJ half guard. Control opponent's lockdown with whizzer and crossface pressure while working systematic passes to side control or mount."
 ---
 
 
@@ -21,37 +21,37 @@ description: "Master Old School Top in BJJ half guard. Control opponent's lockdo
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard Pass",
-      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 28% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crossface Pass",
-      "text": "From this position, attempt Crossface Pass. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Crossface Pass. This technique is attempted in 22% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Lockdown Break and Pass",
+      "text": "From this position, attempt Lockdown Break and Pass. This technique is attempted in 18% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take Generic",
-      "text": "From this position, attempt Back Take Generic. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Darce from Lockdown Counter",
+      "text": "From this position, attempt Darce from Lockdown Counter. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura from Half Guard",
-      "text": "From this position, attempt Kimura from Half Guard. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Crossface from Old School",
+      "text": "From this position, attempt Crossface from Old School. This technique is attempted in 4% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -115,7 +115,7 @@ description: "Master Old School Top in BJJ half guard. Control opponent's lockdo
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Old School Top",
-  "description": "Master Old School Top in BJJ half guard. Control opponent's lockdown with whizzer and crossface pressure. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
+  "description": "Master Old School Top in BJJ half guard. Control opponent's lockdown with whizzer and crossface pressure while working systematic passes to side control or mount.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -210,17 +210,19 @@ From Old School Top, the practitioner can transition to passing positions like s
 
 ## Available Attacks
 
-### [[Half Guard Pass]] (22% of attempts)
+### [[Half Guard Pass]] (28% of attempts)
 
-### [[Knee Slice Pass]] (20% of attempts)
+### [[Knee Slice Pass]] (18% of attempts)
 
-### [[Crossface Pass]] (18% of attempts)
+### [[Crossface Pass]] (22% of attempts)
 
-### [[Side Control to Mount]] (14% of attempts)
+### [[Lockdown Break and Pass]] (18% of attempts)
 
-### [[Back Take Generic]] (14% of attempts)
+### [[Darce from Lockdown Counter]] (8% of attempts)
 
-### [[Kimura from Half Guard]] (12% of attempts)
+### [[Crossface from Old School]] (4% of attempts)
+
+### [[Defend Old School Sweep]] (2% of attempts)
 
 
 
@@ -246,7 +248,7 @@ From Old School Top, the practitioner can transition to passing positions like s
 
 
 **If opponent extends whizzered arm to create frames:**
-- Execute **[[Kimura from Half Guard]]** → [[Kimura Trap]] (Probability: 50%)
+- Execute **[[Kimura on Trapped Arm]]** → [[Kimura Trap]] (Probability: 50%)
 - Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 40%)
 
 

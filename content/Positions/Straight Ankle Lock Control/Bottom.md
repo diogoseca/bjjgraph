@@ -20,38 +20,38 @@ description: "Master the attacking perspective of straight ankle lock control. C
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Straight Ankle Lock",
-      "text": "From this position, attempt Straight Ankle Lock. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Ankle Lock Finish",
+      "text": "From this position, attempt Ankle Lock Finish. This technique is attempted in 31% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Inside Ashi Entry",
-      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Outside Ashi Entry",
-      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard to Ashi Transition",
-      "text": "From this position, attempt X-Guard to Ashi Transition. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt X-Guard to Ashi Transition. This technique is attempted in 6% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute 50-50 Entry from Standing",
-      "text": "From this position, attempt 50-50 Entry from Standing. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt 50-50 Entry from Standing. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Entry",
-      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -215,23 +215,25 @@ The technical execution requires precise coordination of grips, leg positioning,
 
 ## Available Escapes
 
-### [[Straight Ankle Lock]] (11% of attempts)
+### [[Ankle Lock Finish]] (31% of attempts)
 
-### [[Inside Ashi Entry]] (12% of attempts)
+### [[Inside Ashi Entry]] (13% of attempts)
 
-### [[Outside Ashi Entry]] (12% of attempts)
+### [[Outside Ashi Entry]] (11% of attempts)
 
-### [[X-Guard to Ashi Transition]] (11% of attempts)
+### [[X-Guard to Ashi Transition]] (6% of attempts)
 
-### [[50-50 Entry from Standing]] (12% of attempts)
+### [[50-50 Entry from Standing]] (8% of attempts)
 
-### [[Single Leg X Entry]] (13% of attempts)
+### [[Single Leg X Entry]] (10% of attempts)
 
-### [[Straight Footlock]] (10% of attempts)
+### [[Kneebar Finish]] (8% of attempts)
 
-### [[Kneebar Finish]] (9% of attempts)
+### [[Ankle Pick Sweep]] (8% of attempts)
 
-### [[Ankle Pick Sweep]] (10% of attempts)
+### [[Straight Footlock]] (3% of attempts)
+
+### [[Ankle Lock Escape to Standing]] (2% of attempts)
 
 
 
@@ -252,8 +254,8 @@ The technical execution requires precise coordination of grips, leg positioning,
 
 
 **If defender straightens leg completely attempting to pull foot out of grip:**
-- Execute **[[Straight Ankle Lock]]** → [[game-over]] (Probability: 70%)
-- Execute **[[Kneebar Finish]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Ankle Lock Finish]]** → [[Game Over]] (Probability: 70%)
+- Execute **[[Kneebar Finish]]** → [[Game Over]] (Probability: 55%)
 
 
 **If defender attempts to stand and creates vertical pressure on trapped leg:**
@@ -263,7 +265,7 @@ The technical execution requires precise coordination of grips, leg positioning,
 
 **If defender secures grip on attacker's opposite leg attempting symmetrical entanglement:**
 - Execute **[[50-50 Entry from Standing]]** → [[50-50 Guard]] (Probability: 70%)
-- Execute **[[Race to finish ankle lock before defender secures their control]]** → [[game-over]] (Probability: 45%)
+- Execute **[[Race to finish ankle lock before defender secures their control]]** → [[Game Over]] (Probability: 45%)
 
 
 

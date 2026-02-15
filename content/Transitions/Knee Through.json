@@ -1,262 +1,429 @@
 {
   "name": "Knee Through",
-  "description": "Master the Knee Through pass in BJJ. Systematic half guard passing technique using knee insertion and pressure. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
+  "description": "Master the Knee Through pass in BJJ. Systematic half guard passing technique using knee insertion and forward pressure to achieve side control.",
   "tags": [
     "bjj",
     "guard passing",
     "half guard",
     "pressure passing",
     "knee through",
-    "top position"
+    "top position",
+    "side control entry"
   ],
-  "overview": "The Knee Through pass is a fundamental half guard passing technique that involves systematically inserting the trapped knee through the opponent's guard while maintaining upper body control. This pass is particularly effective against defensive half guard players who rely on the knee shield or traditional half guard frames. The technique exploits the natural weakness in the half guard structure when proper shoulder pressure and knee positioning combine to create an overwhelming passing sequence. The Knee Through differs from the Knee Slice in that it emphasizes driving the knee completely through the guard rather than cutting across, making it especially effective when the opponent has a strong underhook or is attempting to recover full guard. This pass forms the cornerstone of pressure-based passing systems and serves as a critical transition between standing passes and consolidated top positions.",
-  "key_principles": [
-    "Establish dominant shoulder pressure before initiating knee movement",
-    "Control the opponent's near side arm to prevent underhook defense",
-    "Drive the knee through in a straight line rather than cutting across",
-    "Maintain connection between hip and shoulder pressure throughout",
-    "Use opponent's guard retention attempts to accelerate the pass",
-    "Consolidate position immediately after passing to prevent re-guard"
-  ],
-  "setup_requirements": [
-    "Top position in half guard with one leg trapped",
-    "Dominant crossface or shoulder pressure established",
-    "Control of opponent's near arm (wrist, sleeve, or underhook denial)",
-    "Posture allowing forward pressure without compromising base",
-    "Hip positioned to begin knee extraction",
-    "Opponent's far leg isolated or controlled to prevent full guard recovery"
-  ],
-  "execution_steps": [
+  "from_position": "Half Guard/Top",
+  "outcomes": [
     {
-      "step_number": 1,
-      "action": "Establish crossface control",
-      "description": "Secure a strong crossface across the opponent's face using your near shoulder, driving their head to the mat while maintaining pressure. Your crossfacing arm can either underhook their far arm or post on the mat for base. This crossface is the anchor point for all subsequent movements."
+      "to": "Side Control/Top",
+      "probability": 68,
+      "result": "success"
     },
     {
-      "step_number": 2,
-      "action": "Control near side arm",
-      "description": "With your free hand, control the opponent's near wrist or sleeve to prevent them from establishing an underhook. Alternatively, secure your own underhook first, completely denying their primary defensive frame. This arm control is critical as the underhook is the half guard player's main defensive weapon."
+      "to": "Half Guard/Top",
+      "probability": 20,
+      "result": "failure"
     },
     {
-      "step_number": 3,
-      "action": "Align hip and shoulder",
-      "description": "Position your hips so they are aligned with your shoulders, creating a straight line of pressure from shoulder through hip into the opponent's chest. Your trapped leg should be slightly externally rotated to begin creating space for knee extraction. Avoid allowing your hips to lag behind your shoulders."
-    },
-    {
-      "step_number": 4,
-      "action": "Drive knee forward and through",
-      "description": "Begin driving the trapped knee forward in a straight line through the opponent's guard, not across their body. The motion is similar to a knee slide but with more forward drive. Your knee should track toward the mat on the far side of the opponent's body, punching through their half guard structure."
-    },
-    {
-      "step_number": 5,
-      "action": "Clear the bottom leg",
-      "description": "As your knee drives through, use small circular motions or a slight hop to clear your foot over the opponent's bottom leg. Maintain constant forward pressure with your upper body so they cannot use this moment to recover guard. Your shin may briefly drag across their thigh before clearing completely."
-    },
-    {
-      "step_number": 6,
-      "action": "Consolidate side control",
-      "description": "Once your leg is free, immediately bring your knee to the mat and establish side control position. Your chest should drop to their chest, crossface maintains, and your hips settle into position before they can turn into you or initiate an escape sequence. Secure far arm control or underhook to complete the position."
+      "to": "Half Guard/Bottom",
+      "probability": 12,
+      "result": "counter"
     }
   ],
-  "common_counters": [
+  "success_rate": 68,
+  "overview": "The Knee Through pass is a fundamental half guard passing technique that involves systematically inserting the trapped knee through the opponent's guard while maintaining upper body control. This pass is particularly effective against defensive half guard players who rely on the knee shield or traditional half guard frames. The technique exploits the natural weakness in the half guard structure when proper shoulder pressure and knee positioning combine to create an overwhelming passing sequence.\n\nThe Knee Through differs from the Knee Slice in that it emphasizes driving the knee completely through the guard rather than cutting across, making it especially effective when the opponent has a strong underhook or is attempting to recover full guard. Where the Knee Slice uses lateral hip movement and an angular cutting motion, the Knee Through relies on forward drive and sustained pressure along a straight line. This distinction matters because opponents who defend well against the lateral cut of the Knee Slice often leave themselves vulnerable to the direct penetration of the Knee Through.\n\nThis pass forms the cornerstone of pressure-based passing systems and serves as a critical transition between standing passes and consolidated top positions. Its high success rate at advanced levels stems from the difficulty of defending simultaneous upper body pressure and forward knee drive. The technique chains naturally with the Knee Slice Pass and Long Step Pass, creating a three-option passing framework that covers the primary defensive reactions from half guard bottom.",
+  "related_content": [
     {
-      "counter": "Opponent establishes underhook on near side and drives you away from the pass",
-      "effectiveness": "High",
-      "your_response": "Switch to Knee Slice Pass variation or fight to regain underhook control before continuing. Consider stepping over into mount if underhook creates space."
+      "name": "Knee Slice Pass",
+      "relationship": "Alternative half guard pass using lateral cutting motion rather than straight-line drive"
     },
     {
-      "counter": "Bottom player extends knee shield frame to create distance and prevent shoulder pressure",
-      "effectiveness": "High",
-      "your_response": "Address the knee shield first by driving it down to the mat with your free hand, or transition to Long Step Pass to bypass the frame entirely."
+      "name": "Long Step Pass",
+      "relationship": "Complementary pass when opponent extends knee shield and prevents forward pressure"
     },
     {
-      "counter": "Opponent hip escapes away from the pass direction, creating space for guard recovery",
-      "effectiveness": "Medium",
-      "your_response": "Follow their hip movement with your body, maintaining shoulder pressure throughout. Use their escape motion to accelerate your knee through."
+      "name": "Half Guard Pass",
+      "relationship": "General passing category containing this specific technique"
     },
     {
-      "counter": "Bottom player locks deep half guard as you attempt to extract your leg",
-      "effectiveness": "Medium",
-      "your_response": "Abandon the Knee Through and address Deep Half Guard with appropriate counters, or back step to free your leg before re-entering the pass."
+      "name": "Crossface Pass",
+      "relationship": "Related pressure pass sharing crossface control mechanics"
     },
     {
-      "counter": "Opponent rolls to turtle position as you pass, denying side control",
-      "effectiveness": "Low",
-      "your_response": "Accept the turtle position and attack with back takes, front headlock attacks, or reestablish top pressure in turtle."
+      "name": "Back Step Pass",
+      "relationship": "Alternative direction pass when forward drive is blocked"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary ending position after successful pass completion"
+    },
+    {
+      "name": "Knee on Belly",
+      "relationship": "Alternative consolidation position after pass clears the legs"
+    },
+    {
+      "name": "Kimura from Side Control",
+      "relationship": "Common submission follow-up after establishing side control"
+    },
+    {
+      "name": "Darce Choke",
+      "relationship": "Submission opportunity when opponent turns into you during pass"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Counter position opponent may attempt during leg extraction phase"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Starting position from which this pass is initiated"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Half guard variation requiring specific adjustments before initiating pass"
     }
   ],
-  "common_errors": [
-    {
-      "error": "Attempting to drive knee through before establishing sufficient shoulder pressure",
-      "consequence": "Opponent easily frames against your hips and prevents the pass, or recovers full guard",
-      "correction": "Prioritize crossface and shoulder pressure first. Your upper body controls should be locked in before any leg movement begins."
-    },
-    {
-      "error": "Allowing opponent to establish underhook during the pass",
-      "consequence": "Opponent uses underhook to create distance, come to knees, or sweep you",
-      "correction": "Maintain constant awareness of near side arm control. If you lose the underhook battle, address it immediately before continuing."
-    },
-    {
-      "error": "Driving knee at an angle instead of straight through",
-      "consequence": "Your leg cuts across their body instead of clearing, leaving you vulnerable to sweeps or re-guard",
-      "correction": "Focus on driving your knee in a straight line toward the far side of the mat, not across their centerline."
-    },
-    {
-      "error": "Rising up on your base to extract the leg",
-      "consequence": "Loss of pressure allows opponent to create frames, recover guard, or initiate escapes",
-      "correction": "Stay heavy and connected throughout the pass. Use hip rotation and small movements rather than lifting your body weight."
-    },
-    {
-      "error": "Failing to consolidate immediately after passing",
-      "consequence": "Opponent recovers guard or escapes before you establish secure top position",
-      "correction": "The pass is not complete until side control is fully established. Drop your weight and secure position instantly upon clearing the legs."
-    },
-    {
-      "error": "Neglecting far leg control during the pass",
-      "consequence": "Opponent uses far leg to recompose butterfly guard or full guard",
-      "correction": "Monitor and control the far leg with your free hand or body position to prevent guard recovery."
-    }
+  "conditions": [
+    "Top position in half guard with one leg trapped between opponent's legs",
+    "Ability to establish crossface or dominant shoulder pressure",
+    "Near side arm control achieved or opponent's underhook denied",
+    "Opponent not actively in deep half guard or lockdown configuration"
   ],
-  "training_progressions": [
-    {
-      "phase": "Phase 1: Static Position Work (Weeks 1-2)",
-      "focus": "Crossface and arm control mechanics",
-      "description": "Start in established half guard top position with partner holding light frames. Practice achieving dominant crossface and near arm control without attempting the pass. Focus on pressure distribution and maintaining connection."
-    },
-    {
-      "phase": "Phase 2: Slow Motion Pass (Weeks 2-4)",
-      "focus": "Knee insertion and leg extraction",
-      "description": "Execute the complete Knee Through pass at 25% speed with cooperative partner. Emphasize proper angles, maintaining pressure while moving, and correct clearing mechanics. Partner provides light resistance."
-    },
-    {
-      "phase": "Phase 3: Progressive Resistance (Weeks 4-6)",
-      "focus": "Problem solving against defensive frames",
-      "description": "Partner actively attempts to prevent the pass using knee shields, hip escapes, and underhook attempts at 50-75% intensity. Practice adapting the technique to different defensive reactions."
-    },
-    {
-      "phase": "Phase 4: Combination Passing (Weeks 6-8)",
-      "focus": "Chaining with other passes",
-      "description": "Practice transitioning between Knee Through, Knee Slice, and Long Step Pass based on opponent's reactions. Develop flow between techniques rather than forcing a single option."
-    },
-    {
-      "phase": "Phase 5: Positional Sparring (Weeks 8-10)",
-      "focus": "Live application with full resistance",
-      "description": "Start from half guard top position and attempt to pass with full resistance. Reset and repeat multiple rounds. Bottom player works full defensive repertoire."
-    },
-    {
-      "phase": "Phase 6: Open Sparring Integration (Weeks 10+)",
-      "focus": "Technique in live rolling context",
-      "description": "Apply Knee Through pass during regular training rolls when opportunities arise. Focus on recognizing the correct timing and situations for this particular pass."
-    }
-  ],
+  "attacker": {
+    "name": "Knee Through Attacker",
+    "description": "How to execute the Knee Through pass in BJJ. Complete attacking guide with setup requirements, step-by-step execution, and counter responses.",
+    "overview": "The Knee Through pass attacks from half guard top by driving the trapped knee forward in a straight line through the opponent's guard structure while maintaining crushing upper body pressure. This pass rewards patience and systematic control establishment over explosive movement. The key mechanical principle is that forward knee drive combined with aligned shoulder pressure creates a unified force vector that the bottom player cannot redirect with frames or hip escapes. Unlike passes that require you to create angles or change levels, the Knee Through succeeds through direct, relentless forward pressure that compresses the opponent's defensive structure until it collapses. Mastery requires understanding the precise sequence of upper body control, hip alignment, knee insertion, leg clearing, and immediate consolidation that transforms half guard top into dominant side control.",
+    "key_principles": [
+      "Establish dominant shoulder pressure before initiating any knee movement to compress defensive frames",
+      "Control the opponent's near side arm to prevent their primary defensive weapon, the underhook",
+      "Drive the knee through in a straight line rather than cutting across to maintain pressure alignment",
+      "Maintain continuous connection between hip pressure and shoulder pressure throughout the entire pass",
+      "Use the opponent's guard retention attempts as energy to accelerate your knee through their structure",
+      "Consolidate side control immediately after clearing the legs before opponent can re-guard"
+    ],
+    "setup_requirements": [
+      "Top position in half guard with one leg trapped between opponent's legs at knee or thigh level",
+      "Dominant crossface or shoulder pressure established across opponent's face driving their head to the mat",
+      "Control of opponent's near arm through wrist control, sleeve grip, or complete underhook denial",
+      "Hip positioned directly behind shoulder pressure to begin knee extraction with aligned force vector",
+      "Opponent's far leg monitored or controlled to prevent full guard recovery during extraction"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish crossface control",
+        "description": "Secure a strong crossface across the opponent's face using your near shoulder, driving their head away from you and pinning it to the mat. Your crossfacing arm can either underhook their far arm or post on the mat for base. This crossface is the anchor point for all subsequent movements and must remain heavy throughout the entire passing sequence."
+      },
+      {
+        "step_number": 2,
+        "action": "Control near side arm",
+        "description": "With your free hand, control the opponent's near wrist or sleeve to prevent them from establishing an underhook. Alternatively, secure your own underhook first, completely denying their primary defensive frame. This arm control is critical because the underhook is the half guard player's most powerful defensive and offensive weapon, enabling sweeps and back takes."
+      },
+      {
+        "step_number": 3,
+        "action": "Align hip and shoulder pressure",
+        "description": "Position your hips directly behind your shoulders, creating a straight line of pressure from shoulder through hip into the opponent's chest and torso. Your trapped leg should be slightly externally rotated to begin creating space for knee extraction. Avoid allowing your hips to lag behind your shoulders, as this gap is immediately exploitable by the bottom player."
+      },
+      {
+        "step_number": 4,
+        "action": "Drive knee forward and through",
+        "description": "Begin driving the trapped knee forward in a straight line through the opponent's guard structure, not across their body. The motion punches your knee directly toward the mat on the far side of the opponent's body. Unlike the Knee Slice which cuts laterally, this drive is linear and relies on your aligned body weight to force the knee past their leg entanglement."
+      },
+      {
+        "step_number": 5,
+        "action": "Clear the bottom leg",
+        "description": "As your knee drives through, use small circular motions or a slight hop to clear your foot over the opponent's bottom leg. Maintain constant forward pressure with your upper body so they cannot exploit this transitional moment to recover guard. Your shin may briefly drag across their thigh before clearing completely. Keep your weight committed forward throughout this phase."
+      },
+      {
+        "step_number": 6,
+        "action": "Consolidate side control",
+        "description": "Once your leg is free, immediately bring your knee to the mat and establish side control position. Your chest should drop directly onto their chest, crossface maintains its pressure, and your hips settle low against their hips before they can turn into you or initiate any escape sequence. Secure far arm control or establish an underhook to complete the positional consolidation."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent establishes underhook on near side and drives into you, creating space and threatening to come to knees",
+        "effectiveness": "High",
+        "your_response": "Switch to Knee Slice Pass variation that accommodates their underhook, or fight to regain underhook control with a whizzer before continuing. If their underhook creates upward space, consider stepping over into mount.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Bottom player extends knee shield frame to create distance and prevent shoulder pressure from landing",
+        "effectiveness": "High",
+        "your_response": "Address the knee shield first by driving it to the mat with your free hand or hip weight. Alternatively, transition to Long Step Pass to bypass the frame entirely by stepping around it.",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Opponent hip escapes away from the pass direction, creating space for guard recovery or re-composition",
+        "effectiveness": "Medium",
+        "your_response": "Follow their hip movement with your body, maintaining shoulder pressure throughout. Use their escape motion to accelerate your knee through as their hip escape actually opens the path for your knee.",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Bottom player locks deep half guard as you attempt to extract your leg, diving underneath your base",
+        "effectiveness": "Medium",
+        "your_response": "Abandon the Knee Through and address the Deep Half Guard position with a backstep or whizzer to free your leg. Do not continue driving forward as this feeds their sweep mechanics.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent rolls to turtle position as you clear the legs, denying side control consolidation",
+        "effectiveness": "Low",
+        "your_response": "Accept the turtle position and immediately attack with back takes, front headlock entries, or clock choke setups. Turtle is a worse position for them than half guard.",
+        "targets_outcome": "Side Control/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting to drive knee through before establishing sufficient shoulder pressure",
+        "consequence": "Opponent easily frames against your hips and prevents the pass, or recovers full guard through the space created by your movement",
+        "correction": "Prioritize crossface and shoulder pressure first. Your upper body controls should be locked in and heavy before any leg movement begins."
+      },
+      {
+        "error": "Allowing opponent to establish underhook during the pass",
+        "consequence": "Opponent uses underhook to create distance, come to their knees in dogfight, or execute sweeps",
+        "correction": "Maintain constant awareness of near side arm control. If you lose the underhook battle, stop the pass and address it immediately before continuing."
+      },
+      {
+        "error": "Driving knee at an angle instead of straight through",
+        "consequence": "Your leg cuts across their body instead of clearing, leaving you vulnerable to leg recapture, sweeps, or re-guard",
+        "correction": "Focus on driving your knee in a straight line toward the far side of the mat. Your knee should track forward, not laterally across their centerline."
+      },
+      {
+        "error": "Rising up on your base to extract the trapped leg",
+        "consequence": "Loss of pressure allows opponent to create frames, recover guard, insert butterfly hooks, or initiate escapes",
+        "correction": "Stay heavy and connected throughout the pass. Use hip rotation and small circular motions rather than lifting your body weight off the opponent."
+      },
+      {
+        "error": "Failing to consolidate side control immediately after clearing the legs",
+        "consequence": "Opponent recovers guard or escapes before you establish secure top position, wasting the entire pass",
+        "correction": "The pass is not complete until side control is fully established. Drop your weight and secure position instantly upon clearing the legs."
+      },
+      {
+        "error": "Neglecting far leg control during the pass",
+        "consequence": "Opponent uses far leg to recompose butterfly guard, insert a knee shield, or recover full closed guard",
+        "correction": "Monitor and control the far leg with your free hand or body positioning throughout the pass to prevent guard recovery attempts."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Static Position Work (Weeks 1-2)",
+        "focus": "Crossface and arm control mechanics",
+        "description": "Start in established half guard top position with partner holding light frames. Practice achieving dominant crossface and near arm control without attempting the pass. Focus on pressure distribution, maintaining connection, and denying the underhook."
+      },
+      {
+        "phase": "Phase 2: Slow Motion Pass (Weeks 2-4)",
+        "focus": "Knee insertion and leg extraction mechanics",
+        "description": "Execute the complete Knee Through pass at 25% speed with cooperative partner. Emphasize proper hip-shoulder alignment, maintaining pressure while moving, and correct leg clearing mechanics. Partner provides light resistance only."
+      },
+      {
+        "phase": "Phase 3: Progressive Resistance (Weeks 4-6)",
+        "focus": "Problem solving against defensive frames",
+        "description": "Partner actively attempts to prevent the pass using knee shields, hip escapes, and underhook attempts at 50-75% intensity. Practice adapting the technique to different defensive reactions and recognizing when to abort."
+      },
+      {
+        "phase": "Phase 4: Combination Passing (Weeks 6-8)",
+        "focus": "Chaining with complementary passes",
+        "description": "Practice transitioning between Knee Through, Knee Slice, and Long Step Pass based on opponent's reactions. Develop automatic flow between techniques rather than forcing a single passing option against effective defense."
+      },
+      {
+        "phase": "Phase 5: Positional Sparring (Weeks 8-10)",
+        "focus": "Live application with full resistance",
+        "description": "Start from half guard top position and attempt to pass with full resistance. Reset and repeat multiple rounds. Bottom player works full defensive repertoire including underhooks, knee shields, and deep half entries."
+      },
+      {
+        "phase": "Phase 6: Open Sparring Integration (Weeks 10+)",
+        "focus": "Technique recognition and timing in live rolling",
+        "description": "Apply Knee Through pass during regular training rolls when opportunities arise. Focus on recognizing the correct timing and positional conditions for this particular pass versus alternatives."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Why must shoulder pressure be established before attempting to extract the trapped leg in the Knee Through pass?",
+        "answer": "Shoulder pressure compresses the opponent's defensive frames and limits their ability to create space for guard recovery. Without proper upper body control, the opponent can easily use their hands and knee shield to prevent the pass or execute sweeps. The pressure also prevents them from sitting up or establishing an effective underhook. Attempting to pass with just leg movement allows the opponent to maintain active frames and control the distance, making the pass almost impossible against a competent bottom player."
+      },
+      {
+        "question": "What is the primary mechanical difference between the Knee Through pass and the Knee Slice pass?",
+        "answer": "The Knee Through drives the trapped knee forward in a straight line through the opponent's guard structure, punching directly toward the far side of the mat with linear force. The Knee Slice cuts the knee across the opponent's body at an angle, slicing through their guard laterally with hip rotation. The Knee Through is more pressure-based and direct, relying on aligned body weight, while the Knee Slice incorporates lateral movement and is often combined with leg weave or hip switching mechanics."
+      },
+      {
+        "question": "Your opponent establishes a strong underhook on your near side while you are setting up the Knee Through. How do you respond?",
+        "answer": "The underhook must be addressed immediately because it is the half guard player's most dangerous offensive tool. You can apply a strong whizzer to neutralize the underhook and fight to re-establish your own, switch to a Knee Slice Pass variation that works with their underhook rather than against it, or exploit the space their underhook creates by stepping over into mount. Continuing to force the Knee Through against a strong underhook typically results in being driven to your back or swept because the underhook gives them the leverage to off-balance your passing structure."
+      },
+      {
+        "question": "Why is it critical to drive the knee in a straight line rather than cutting across the body during the Knee Through?",
+        "answer": "Driving straight through penetrates directly into the opponent's guard structure along the same vector as your shoulder pressure, creating a unified force that is extremely difficult to redirect. Cutting across at an angle separates your knee movement from your pressure line, exposing your leg to recapture and putting you off-balance for sweeps. The straight-line drive also allows you to maintain better shoulder connection throughout the movement, while an angled cut often requires you to rise up and sacrifice the pressure that makes the pass work."
+      },
+      {
+        "question": "What conditions must exist before you should attempt the Knee Through pass rather than an alternative half guard pass?",
+        "answer": "The Knee Through requires dominant upper body control with crossface established, the opponent's underhook denied or controlled, and the opponent playing a relatively static defensive half guard. It excels when you can negate their frames with sustained pressure. Choose alternative passes when the opponent has an established underhook, is using dynamic leg configurations like Deep Half Guard or Lockdown, has an active knee shield creating significant distance, or is actively threatening sweeps that require immediate defensive attention before you can commit to passing."
+      },
+      {
+        "question": "How does proper hip-to-shoulder alignment contribute to the success of the Knee Through pass?",
+        "answer": "Hip-shoulder alignment creates a unified line of pressure that prevents the opponent from creating angles of escape. When hips lag behind shoulders, a gap opens between your upper and lower body that the opponent can exploit with frames, hip escapes, or knee shield re-insertion. Proper alignment positions the trapped leg optimally for extraction because the hip angle determines the knee's forward path. Aligned hips also allow you to drive pressure efficiently through your core structure rather than relying on arm strength or compromised leverage angles."
+      },
+      {
+        "question": "You are midway through the Knee Through and your opponent begins diving underneath you for deep half guard. What do you do?",
+        "answer": "You must immediately stop the forward knee drive because continuing feeds directly into their deep half sweep mechanics. Apply a strong whizzer or overhook on their underhook side to prevent them from completing the entry underneath you. Backstep your free leg to create a wider base that makes their deep half entry more difficult. If they have already secured deep half position, abandon the Knee Through entirely and address the deep half guard with appropriate counters such as backstep pass or cross-face pressure to flatten them before they can initiate their sweeping sequence."
+      },
+      {
+        "question": "What is the optimal grip configuration for the near side arm control during the Knee Through, and why?",
+        "answer": "The strongest configuration is securing your own underhook on the near side while maintaining crossface with the opposite arm, completely denying the opponent's primary defensive tool. If you cannot secure the underhook, wrist control on their near hand is the next best option because it prevents them from initiating the underhook fight. Sleeve control works in gi but provides less positional dominance. The near arm control is critical because every half guard offensive system begins with the underhook, so denying it removes their ability to sweep, take the back, or create the frames needed to prevent the pass."
+      },
+      {
+        "question": "During leg extraction, you feel your opponent beginning to recompose butterfly guard with their far leg. How do you adjust?",
+        "answer": "Immediately address the far leg threat by driving your hip weight into their far thigh to pin it to the mat, or use your free hand to control their far knee and push it away from your body. If the butterfly hook is already partially inserted, flatten your hips down heavily to smother the hook before it becomes active. You can also accelerate your knee extraction and immediately consolidate side control before the butterfly hook becomes effective. The key is recognizing the threat early and addressing it before the opponent can elevate you with the hook, which would completely reverse your passing momentum."
+      },
+      {
+        "question": "What are the key directional forces at play during the Knee Through pass and how do they interact?",
+        "answer": "Three primary force vectors work together in the Knee Through. First, downward shoulder pressure through the crossface pins the opponent's upper body and prevents them from sitting up or turning. Second, forward hip drive pushes your knee through the guard in a straight line toward the far side mat. Third, lateral crossface pressure drives the opponent's head away from the passing direction, making it difficult for them to face you and establish defensive frames. These three vectors converge to create a compound pressure that the bottom player cannot address simultaneously, as defending one vector exposes them to the other two."
+      }
+    ],
+    "safety_considerations": "The Knee Through pass is a relatively safe technique for both practitioners when performed correctly. The primary safety concern is excessive crossface pressure on the opponent's neck and jaw, which should be firm but controlled to avoid cervical strain. Avoid driving the crossface upward into the throat, keeping pressure lateral across the face instead. When extracting your leg, be mindful not to drag your shin forcefully across the opponent's thigh or knee, which can cause bruising or ligament stress. If the pass is not working after two or three attempts, reset rather than forcing movement, as forcing can lead to awkward leg positions where knee injuries occur. Practitioners with existing knee injuries should communicate with their partner about controlling the extraction phase."
+  },
+  "defender": {
+    "name": "Knee Through Defender",
+    "description": "How to defend the Knee Through pass in BJJ. Recognition cues, defensive options, escape strategies, and guard recovery techniques.",
+    "overview": "Defending the Knee Through pass requires recognizing the attack early and disrupting the passer's control sequence before they align their pressure and begin driving the knee forward. The Knee Through is most dangerous when the top player has established dominant crossface pressure, denied your underhook, and aligned their hips behind their shoulders. Your defensive priority is to prevent this alignment from forming, and if it does form, to disrupt it before the knee begins its forward drive. The window for effective defense narrows dramatically once the knee is actively moving through your guard structure, so early recognition and immediate response are essential. Your primary defensive weapons are the underhook on the near side, the knee shield to create distance, hip escape movement to create angles, and deep half guard entry to completely change the positional dynamic. Each defensive option targets a different phase of the pass and becomes more or less available depending on how far the pass has progressed.",
+    "key_principles": [
+      "Win the underhook battle early because the near side underhook is your most powerful tool for preventing the pass and creating offensive opportunities",
+      "Maintain an active knee shield or frames to prevent the top player from achieving chest-to-chest pressure alignment",
+      "Never allow your hips to become flat on the mat, as staying on your side preserves hip mobility for escapes and guard recovery",
+      "Recognize the Knee Through setup early and respond before the knee begins its forward drive, when defense is still high-percentage",
+      "Create angles through hip escape movement that force the passer to realign before continuing, buying time and disrupting their pressure sequence",
+      "Have a backup plan for each phase of the pass, transitioning from prevention to disruption to guard recovery as the pass progresses"
+    ],
+    "recognition_cues": [
+      "Top player establishes heavy crossface pressure and begins driving your head away from them while controlling your near arm or denying your underhook",
+      "You feel the top player's hips align directly behind their shoulders, creating a unified forward pressure vector rather than angled or offset weight",
+      "The trapped knee begins subtle forward movement or external rotation, indicating the passer is preparing to drive through rather than cut across",
+      "Top player's free hand moves to control your far hip or far knee, indicating they are addressing potential guard recovery before committing to the pass",
+      "Increasing forward pressure through your chest combined with the passer's weight shifting toward the trapped leg side"
+    ],
+    "defensive_options": [
+      {
+        "action": "Establish near side underhook and drive into the passer, creating space and threatening to come to knees for dogfight or back take",
+        "when_to_use": "Early in the pass sequence before the passer has established dominant crossface and before the knee drive begins. This is the highest-percentage defense when timed correctly.",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You retain half guard with an offensive underhook, putting you in position for sweeps, back takes, or guard improvements",
+        "risk": "If the passer has strong whizzer control, your underhook attempt may be stuffed and you expend energy without improving position"
+      },
+      {
+        "action": "Insert knee shield across the passer's chest or hip line to create distance and prevent shoulder pressure from landing",
+        "when_to_use": "When you feel the passer beginning to settle their weight and align pressure but before the knee drive has started. The knee shield must be inserted before chest-to-chest contact is established.",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "You create distance that forces the passer to restart their passing sequence, and the knee shield position offers its own sweep and submission threats",
+        "risk": "A strong passer may smash the knee shield flat or step around it with a long step pass variation"
+      },
+      {
+        "action": "Hip escape away from the passer while maintaining leg entanglement, creating an angle that disrupts their aligned pressure",
+        "when_to_use": "During the knee drive phase when the passer is committed to forward movement. The hip escape redirects their force and can create enough space for guard recovery or knee shield re-insertion.",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "You recover half guard with improved angle and framing, forcing the passer to re-establish their control sequence from the beginning",
+        "risk": "If your hip escape is too slow or shallow, the passer follows your movement and uses it to accelerate their knee through your guard"
+      },
+      {
+        "action": "Dive underneath for deep half guard entry by getting your head below the passer's hips as they commit weight forward",
+        "when_to_use": "When the passer has committed heavy forward pressure and their weight is loaded onto your upper body. Their forward commitment creates the space underneath for the deep half entry.",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You completely change the positional dynamic to deep half guard where you have superior sweeping mechanics and the passer's forward pressure works against them",
+        "risk": "Failed deep half entry can leave you flattened underneath with the passer advancing to side control or mount"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Establish the near side underhook early and use it to create space and prevent the passer from aligning their pressure. Maintain active hips on your side and threaten sweeps or back takes that force the passer to abandon the Knee Through and defend. Alternatively, successfully enter deep half guard to completely reset the positional exchange with superior sweeping angles."
+      },
+      {
+        "outcome": "Half Guard/Top",
+        "how": "Time a sweep during the passer's knee extraction phase when their base is momentarily compromised. The best opportunity comes when they lift their hips to clear the bottom leg, as this is the moment of lowest stability. An underhook sweep, Kimura sweep, or well-timed bridge during this phase can reverse the position entirely."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Remaining flat on your back without turning to your side or establishing any frames",
+        "consequence": "The passer achieves full chest-to-chest pressure alignment unopposed, making the Knee Through nearly unstoppable and eliminating your ability to create space or establish defensive structures",
+        "correction": "Immediately turn to your side facing the passer and establish frames with your forearms against their shoulder and hip. Staying on your side preserves hip mobility for escapes and prevents the crushing flat pressure that makes the pass easy."
+      },
+      {
+        "error": "Conceding the underhook without fighting for it or immediately establishing an alternative frame",
+        "consequence": "The passer controls your near arm completely, removes your primary offensive and defensive tool, and can proceed with the pass without resistance from your upper body",
+        "correction": "Fight aggressively for the underhook from the moment the passer establishes half guard top. If you cannot win the underhook, immediately transition to knee shield or deep half guard to establish an alternative defensive structure."
+      },
+      {
+        "error": "Attempting to push the passer away with extended arms rather than using proper frames",
+        "consequence": "Extended arms are easily isolated for kimura or americana submissions, and pushing without hip movement wastes energy while creating submission opportunities for the passer",
+        "correction": "Keep elbows tight to your body and frame against the passer's shoulder and hip with your forearms. Combine frames with hip escape movement rather than relying on arm strength to create distance."
+      },
+      {
+        "error": "Reacting too late to the knee drive, attempting defense only after the knee is already through the guard",
+        "consequence": "Once the knee has cleared your guard structure, defensive options are minimal and the passer will consolidate side control within seconds",
+        "correction": "Respond to the early recognition cues immediately. The moment you feel hip-shoulder alignment and forward pressure increasing, begin your defensive response. Waiting until the knee is moving makes successful defense exponentially harder."
+      },
+      {
+        "error": "Focusing only on the trapped leg battle while ignoring upper body control dynamics",
+        "consequence": "Even if you temporarily stall the knee drive, the passer maintains dominant crossface and arm control, allowing them to simply re-attempt the pass from a superior position",
+        "correction": "Address the upper body control battle as the primary defensive priority. Winning the underhook or establishing effective frames neutralizes the entire pass, while leg fighting alone only delays it temporarily."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the single most important defensive action when you recognize the Knee Through pass is being initiated?",
+        "answer": "Establishing the near side underhook is the highest-priority defensive action because it simultaneously prevents the passer from aligning their pressure, creates offensive threats through sweeps and back takes, and forces the passer to address your underhook before continuing the pass. The underhook battle determines the outcome of most half guard exchanges, and winning it early essentially prevents the Knee Through from ever reaching its execution phase. Without the underhook, you are reduced to reactive frame-based defense with lower success rates."
+      },
+      {
+        "question": "Why does staying on your side rather than flat on your back dramatically improve your defensive options against the Knee Through?",
+        "answer": "Staying on your side preserves hip mobility for hip escapes, angle creation, and guard recovery movements that are impossible when flat on your back. The side position also reduces the surface area available for the passer's chest pressure, making their crossface less effective and their weight distribution less dominant. From your side, you can generate the rotational force needed for sweeps and can more easily insert a knee shield or transition to deep half guard. Being flat eliminates all of these options and allows the passer to apply maximum crushing pressure."
+      },
+      {
+        "question": "At what point during the Knee Through pass does your defensive window effectively close, and what should you do if you reach that point?",
+        "answer": "The defensive window closes once the passer's knee has driven past your thigh line and they are actively clearing their foot over your bottom leg. At this point, prevention and disruption defenses are no longer viable. Your only remaining option is to immediately begin working side control escape sequences, focusing on creating frames against their settling weight and beginning the hip escape to half guard recovery before they fully consolidate the position. Attempting to re-guard during the clearing phase typically fails and wastes energy that would be better spent on early side control defense."
+      },
+      {
+        "question": "How can you use the passer's forward commitment during the Knee Through to set up a deep half guard entry?",
+        "answer": "When the passer commits heavy forward pressure and aligns their weight for the knee drive, their center of gravity shifts forward and upward relative to your body. This creates space underneath their hips that you can exploit by diving your head and upper body below their waist line while maintaining your leg entanglement. The passer's own forward pressure actually assists your entry because they cannot quickly reverse their weight direction. The key is timing the dive to coincide with their pressure commitment rather than attempting it when they have neutral base. Once in deep half, their forward pressure works against them as it feeds your sweeping mechanics."
+      },
+      {
+        "question": "Your opponent has established crossface and is beginning to align their hips for the Knee Through, but you cannot win the underhook. What is your best alternative defense?",
+        "answer": "Insert a knee shield across their chest or hip line before they can close the distance completely. The knee shield creates a structural barrier that prevents chest-to-chest contact and forces the passer to address the frame before continuing the knee drive. From the knee shield position, you can threaten sweeps, create angles through hip movement, and potentially re-establish the underhook fight from a better angle. If the knee shield is also being defeated, transition immediately to deep half guard entry before the passer achieves full alignment, using their forward pressure to assist the entry underneath their base."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and Response Drilling (Weeks 1-2)",
+        "focus": "Identifying Knee Through setup cues and immediate defensive reactions",
+        "description": "Partner slowly sets up the Knee Through pass from half guard top. Practice recognizing the crossface establishment, hip alignment, and early knee movement cues. Drill immediate underhook fight, knee shield insertion, and hip escape responses at low speed until reactions become automatic."
+      },
+      {
+        "phase": "Phase 2: Underhook Battle Isolation (Weeks 2-4)",
+        "focus": "Winning the underhook against progressive resistance",
+        "description": "Isolate the underhook battle from half guard bottom against a partner who is specifically trying to deny your underhook and establish crossface. Practice hand fighting, timing, and body positioning for underhook establishment. Increase resistance from 25% to 75% over the training period."
+      },
+      {
+        "phase": "Phase 3: Multi-Option Defense (Weeks 4-6)",
+        "focus": "Chaining defensive options based on pass progression",
+        "description": "Practice flowing between defensive options as the Knee Through pass progresses. If underhook fails, insert knee shield. If knee shield is smashed, hip escape to create angle. If angle is followed, dive for deep half. Partner advances the pass at moderate pace while you practice the defensive chain."
+      },
+      {
+        "phase": "Phase 4: Positional Sparring with Specific Starts (Weeks 6+)",
+        "focus": "Live defense against committed Knee Through attempts",
+        "description": "Start in half guard bottom against a partner who specifically hunts the Knee Through pass at full intensity. Work all defensive options including sweeps and guard recovery under live conditions. Track success rate and identify which defensive options work best against different body types and passing styles."
+      }
+    ]
+  },
   "variants_and_adaptations": [
     {
       "variant_name": "Knee Through with Underhook Control",
-      "description": "Variation where you secure a deep underhook on the far arm while maintaining crossface. This creates maximum pressure and control but requires excellent hip positioning to extract the leg. The underhook prevents opponent from turning away and makes the pass more secure.",
+      "description": "Variation where you secure a deep underhook on the far arm while maintaining crossface. This creates maximum pressure and control but requires excellent hip positioning to extract the leg. The underhook prevents the opponent from turning away and makes the pass significantly more secure against experienced guard players.",
       "when_to_use": "When opponent is defensive and not actively attempting to sweep or recover guard. Best against players who rely on frames rather than dynamic movement."
     },
     {
       "variant_name": "Knee Through to Knee on Belly",
-      "description": "After clearing the half guard, instead of settling into side control, immediately transition to knee on belly position. This variation is useful for maintaining mobility and preventing opponent from turning into you during the consolidation phase.",
+      "description": "After clearing the half guard, instead of settling into side control, immediately transition to knee on belly position. This maintains mobility and prevents the opponent from turning into you during consolidation. The immediate knee on belly also scores additional points in competition and creates stronger submission angles.",
       "when_to_use": "Against opponents who are very good at side control escapes or when you want to maintain a more dominant scoring position in competition."
     },
     {
       "variant_name": "Step Over Knee Through",
-      "description": "If opponent's half guard is particularly stubborn, step your free leg completely over their body before driving the trapped knee through. This creates an asymmetric pressure angle that makes their guard retention much more difficult.",
-      "when_to_use": "When the standard Knee Through is being successfully defended, particularly against very flexible opponents with strong leg control."
+      "description": "If the opponent's half guard is particularly stubborn, step your free leg completely over their body before driving the trapped knee through. This creates an asymmetric pressure angle from a near-mount position that makes their guard retention much more difficult because their legs must now work against gravity.",
+      "when_to_use": "When the standard Knee Through is being successfully defended, particularly against very flexible opponents with strong leg control who can repeatedly recompose their guard."
     }
   ],
-  "knowledge_assessment": [
-    {
-      "question": "Why must shoulder pressure be established before attempting to extract the trapped leg in the Knee Through pass?",
-      "answer": "Shoulder pressure compresses the opponent's defensive frames and limits their ability to create space for guard recovery. Without proper upper body control, the opponent can easily use their hands and knee shield to prevent the pass or even sweep. The pressure also prevents them from sitting up or establishing an effective underhook. Attempting to pass with just leg movement allows the opponent to maintain active frames and control the distance."
-    },
-    {
-      "question": "What is the primary difference between the Knee Through pass and the Knee Slice pass?",
-      "answer": "The Knee Through drives the trapped knee forward in a straight line through the opponent's guard structure, punching directly toward the far side of the mat. The Knee Slice cuts the knee across the opponent's body at an angle, slicing through their guard laterally. The Knee Through is generally more pressure-based and direct, while the Knee Slice incorporates more lateral movement and is often combined with leg weave mechanics."
-    },
-    {
-      "question": "How should you respond if your opponent establishes an underhook on your near side during the Knee Through pass?",
-      "answer": "The underhook represents a critical defensive frame that must be addressed immediately. You can either switch to alternative passes like the Knee Slice that accommodate the underhook, fight to regain dominant underhook position yourself, or use the space created by their underhook to step over into mount. Continuing to force the Knee Through against a strong underhook typically results in being driven back or swept. The underhook battle must be won before continuing the pass."
-    },
-    {
-      "question": "Why is it critical to drive the knee in a straight line rather than cutting across the body?",
-      "answer": "Driving straight through penetrates directly into the opponent's guard structure and makes it difficult for them to follow your movement or maintain their guard. Cutting across at an angle exposes your leg to being recaptured and puts you off-balance, making you vulnerable to sweeps. The straight-line drive also allows you to maintain better shoulder pressure and connection throughout the movement, while an angled cut often requires you to rise up and lose pressure."
-    },
-    {
-      "question": "What tactical considerations determine when to use the Knee Through versus other half guard passing options?",
-      "answer": "The Knee Through is most effective when you have established dominant upper body control and the opponent is playing a relatively static, defensive half guard. It excels against knee shield and traditional half guard when you can negate their frames with pressure. Choose alternative passes when: opponent has established an underhook (use Knee Slice), they are using dynamic leg configurations like Deep Half Guard (use backstep or leg weave), or they are actively attempting sweeps (address the sweep threat first). The Knee Through requires a pressure-dominant position as a prerequisite."
-    },
-    {
-      "question": "How does proper hip alignment contribute to the success of the Knee Through pass?",
-      "answer": "Hip alignment with the shoulders creates a unified line of pressure that prevents the opponent from creating angles of escape. If hips lag behind shoulders, a gap opens that the opponent can exploit with frames, hip escapes, or re-guard attempts. Proper alignment also positions the trapped leg optimally for extraction, as the hip angle determines the path of the knee. Additionally, aligned hips allow you to drive forward pressure efficiently through your core rather than relying on arm strength or poor leverage."
-    }
-  ],
-  "safety_considerations": "The Knee Through pass is a relatively safe technique for both practitioners when performed correctly. The primary safety concern is excessive crossface pressure on the opponent's neck and jaw, which should be firm but controlled to avoid neck strain. Avoid driving the crossface upward into the throat, keeping pressure lateral across the face instead. When extracting your leg, be mindful not to drag your shin forcefully across the opponent's thigh or knee, which can cause bruising or ligament stress. If the pass is not working, reset rather than forcing movement, as forcing can lead to awkward positions where injuries occur. Practitioners with knee injuries should be cautious about having their legs twisted during the opponent's extraction phase.",
-  "position_integration": "The Knee Through pass represents a fundamental element in the pressure passing system and serves as a critical transitional technique between standing passes and consolidated top control. It integrates seamlessly with the broader half guard passing framework, complementing techniques like the Knee Slice, Long Step Pass, and Underhook Pass. The technique is particularly valuable because it maintains constant pressure throughout the passing sequence, preventing the opponent from generating offensive attacks or transitions. As part of a complete passing system, the Knee Through serves as the default option when shoulder pressure dominates and the opponent lacks dynamic defensive structures. It connects naturally to Side Control consolidation, which then opens the entire top control progression system including transitions to Mount, North-South, and submission attacks.",
-  "related_content": [
-    {
-      "name": "Knee Slice Pass",
-      "relationship": "Alternative half guard pass with lateral cutting motion"
-    },
-    {
-      "name": "Long Step Pass",
-      "relationship": "Complementary pass when opponent extends knee shield"
-    },
-    {
-      "name": "Half Guard Pass",
-      "relationship": "General category containing this specific technique"
-    },
-    {
-      "name": "Underhook Pass",
-      "relationship": "Alternative when you secure dominant underhook"
-    },
-    {
-      "name": "Smash Pass",
-      "relationship": "Pressure-based alternative with leg weave"
-    },
-    {
-      "name": "Side Control",
-      "relationship": "Primary ending position after successful pass"
-    },
-    {
-      "name": "Knee on Belly",
-      "relationship": "Alternative consolidation position after pass"
-    },
-    {
-      "name": "Kimura from Side Control",
-      "relationship": "Common submission after establishing position"
-    },
-    {
-      "name": "Darce Choke",
-      "relationship": "Submission opportunity if opponent turns into you during pass"
-    },
-    {
-      "name": "Deep Half Guard",
-      "relationship": "Counter position opponent may attempt during pass"
-    },
-    {
-      "name": "Pressure Passing",
-      "relationship": "Foundational principle underlying technique"
-    }
-  ],
-  "from_position": "Half Guard/Bottom",
-  "outcomes": [
-    {
-      "to": "Side Control/Top",
-      "probability": 75,
-      "result": "success"
-    },
-    {
-      "to": "Half Guard/Bottom",
-      "probability": 15,
-      "result": "failure"
-    },
-    {
-      "to": "Half Guard/Top",
-      "probability": 10,
-      "result": "counter"
-    }
-  ],
-  "success_rate": 68
+  "position_integration": "The Knee Through pass represents a fundamental element in the pressure passing system and serves as a critical transitional technique between half guard top control and consolidated side control. It integrates seamlessly with the broader half guard passing framework, complementing techniques like the Knee Slice Pass, Long Step Pass, and Back Step Pass. When the opponent defends the Knee Through by establishing an underhook, the Knee Slice becomes available. When they extend a knee shield, the Long Step Pass bypasses it. This three-option framework creates a passing dilemma where defending one pass opens vulnerability to another. The technique is particularly valuable because it maintains constant pressure throughout the passing sequence, preventing the opponent from generating offensive attacks or transitions. As part of a complete passing system, the Knee Through connects naturally to Side Control consolidation, which then opens the entire top control progression including transitions to Mount, North-South, Knee on Belly, and submission attacks."
 }

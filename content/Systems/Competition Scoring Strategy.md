@@ -346,9 +346,9 @@ Competition scoring strategy development requires specific drilling protocols th
 - [[X-Guard]] (Position) - High-percentage sweep position for recovering point deficits
 - [[Butterfly Guard]] (Position) - Explosive sweep position for rapid point accumulation
 - [[North-South]] (Position) - Control position for lead preservation and submission threats
-- [[Guard Pass]] (Transition) - Primary 3-point scoring action from top position
+- [[Pass to Side Control]] (Transition) - Primary 3-point scoring action from top position
 - [[Guard Pull]] (Transition) - Strategic opening that sacrifices takedown points for guard game
-- [[Back Take Generic]] (Transition) - 4-point scoring transition to highest value position
+- [[Back Take]] (Transition) - 4-point scoring transition to highest value position
 - [[Side Control to Mount]] (Transition) - 4-point scoring advancement from side control or knee on belly
 - [[Single Leg Takedown]] (Transition) - 2-point opening strategy with lower energy investment
 - [[Positional Hierarchy]] (Principle) - Understanding of position value system underlying all scoring strategy

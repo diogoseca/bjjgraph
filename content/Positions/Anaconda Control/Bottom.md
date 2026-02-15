@@ -20,38 +20,38 @@ description: "Master defensive strategies for surviving Anaconda Control from bo
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape",
-      "text": "From this position, attempt Hip Escape. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Hip Escape to Guard",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Standup",
-      "text": "From this position, attempt Technical Standup. This technique is attempted in 20% of exchanges from this position.",
+      "name": "Execute Defensive Roll",
+      "text": "From this position, attempt Defensive Roll. This technique is attempted in 58% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling to Guard",
-      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Frame Creation",
+      "text": "From this position, attempt Frame Creation. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Frame and Shrimp",
-      "text": "From this position, attempt Frame and Shrimp. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Anaconda Grip Break to Front Headlock",
+      "text": "From this position, attempt Anaconda Grip Break to Front Headlock. This technique is attempted in 7% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Escape",
-      "text": "From this position, attempt Rolling Escape. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Frame and Posture from Anaconda",
+      "text": "From this position, attempt Frame and Posture from Anaconda. This technique is attempted in 3% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Movement",
-      "text": "From this position, attempt Hip Movement. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Roll Defense from Anaconda",
+      "text": "From this position, attempt Roll Defense from Anaconda. This technique is attempted in 1% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,17 +209,19 @@ This position often occurs during scrambles from turtle, failed takedown attempt
 
 ## Available Escapes
 
-### [[Hip Escape]] (17% of attempts)
+### [[Hip Escape to Guard]] (15% of attempts)
 
-### [[Technical Standup]] (20% of attempts)
+### [[Defensive Roll]] (58% of attempts)
 
-### [[Rolling to Guard]] (15% of attempts)
+### [[Frame Creation]] (15% of attempts)
 
-### [[Frame and Shrimp]] (18% of attempts)
+### [[Anaconda Grip Break to Front Headlock]] (7% of attempts)
 
-### [[Rolling Escape]] (16% of attempts)
+### [[Frame and Posture from Anaconda]] (3% of attempts)
 
-### [[Hip Movement]] (14% of attempts)
+### [[Roll Defense from Anaconda]] (1% of attempts)
+
+### [[Rolling Escape from Anaconda]] (1% of attempts)
 
 
 
@@ -231,26 +233,26 @@ This position often occurs during scrambles from turtle, failed takedown attempt
 
 **If opponent has secured anaconda grip but hasn't stepped over or rolled yet:**
 - Execute **[[Grip Break]]** → [[Front Headlock]] (Probability: 40%)
-- Execute **[[Hip Escape]]** → [[Turtle]] (Probability: 35%)
+- Execute **[[Hip Escape to Guard]]** → [[Turtle]] (Probability: 35%)
 - Execute **[[Frame Creation]]** → [[Scramble Position]] (Probability: 25%)
 
 
 **If opponent begins stepping over your head to finish the choke:**
 - Execute **[[Rolling to Guard]]** → [[Half Guard]] (Probability: 30%)
-- Execute **[[Bridge and Shrimp]]** → [[Half Guard]] (Probability: 25%)
+- Execute **[[Bridge and Roll]]** → [[Half Guard]] (Probability: 25%)
 - Execute **[[Counter Sweep]]** → [[Scramble Position]] (Probability: 20%)
 
 
 **If opponent attempts to roll you to complete the choke:**
-- Execute **[[Rolling Escape]]** → [[Turtle]] (Probability: 35%)
+- Execute **[[Rolling Escape to Guard]]** → [[Turtle]] (Probability: 35%)
 - Execute **[[Frame Creation]]** → [[Front Headlock]] (Probability: 30%)
 - Execute **[[Guard Pull]]** → [[Closed Guard]] (Probability: 25%)
 
 
 **If the choke is partially locked but opponent hasn't finished:**
-- Execute **[[Creating Space]]** → [[Defensive Position]] (Probability: 45%)
-- Execute **[[Hip Escape]]** → [[Turtle]] (Probability: 30%)
-- Execute **[[Grip Fighting]]** → [[Half Guard]] (Probability: 25%)
+- Execute **[[Grip Break]]** → [[Defensive Position]] (Probability: 45%)
+- Execute **[[Hip Escape to Guard]]** → [[Turtle]] (Probability: 30%)
+- Execute **[[Rolling to Guard]]** → [[Half Guard]] (Probability: 25%)
 
 
 
@@ -391,7 +393,7 @@ Partner has anaconda grip with moderate tightness. Bottom player focuses solely 
 - **[[Turtle]]** - Common starting position before anaconda control is established
 - **[[Anaconda from Turtle]]** - Transition that creates this position - understanding entry helps prevention
 - **[[Front Headlock to Anaconda]]** - Offensive transition path that leads to this position
-- **[[Anaconda Variations]]** - Different finishing mechanics to defend against
+- **[[Rolling Escape to Guard]]** - Key escape transition for recovering guard from anaconda bottom
 
 
 </section>

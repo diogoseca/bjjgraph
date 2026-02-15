@@ -1,0 +1,13 @@
+{
+  "name": "Escape Side Control Consolidation",
+  "description": "",
+  "tags": [],
+  "from_position": "Side Control Consolidation/Bottom",
+  "outcomes": [
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

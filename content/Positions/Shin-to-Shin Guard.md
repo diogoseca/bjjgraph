@@ -89,25 +89,29 @@ Shin-to-Shin Guard represents a sophisticated intersection between traditional o
 ### Available Transitions
 
 
-- **[[Single Leg X Entry]]** (11% of attempts)
+- **[[Single Leg X Entry]]** (24% of attempts)
 
-- **[[X-Guard Sweep]]** (10% of attempts)
+- **[[X-Guard Sweep]]** (8% of attempts)
 
-- **[[Butterfly Sweep]]** (11% of attempts)
+- **[[Butterfly Sweep]]** (9% of attempts)
 
-- **[[Outside Ashi Entry]]** (10% of attempts)
+- **[[Outside Ashi Entry]]** (8% of attempts)
 
-- **[[De La Riva Sweep]]** (10% of attempts)
+- **[[De La Riva Sweep]]** (8% of attempts)
 
-- **[[Technical Stand Up to Single Leg]]** (10% of attempts)
+- **[[Technical Stand Up to Single Leg]]** (8% of attempts)
 
-- **[[Omoplata Sweep]]** (8% of attempts)
+- **[[Omoplata Sweep]]** (6% of attempts)
 
-- **[[Shin to Shin Pull]]** (10% of attempts)
+- **[[Shin to Shin Pull]]** (8% of attempts)
 
-- **[[Hook Sweep]]** (10% of attempts)
+- **[[Hook Sweep]]** (8% of attempts)
 
-- **[[Tripod Sweep]]** (10% of attempts)
+- **[[Tripod Sweep]]** (8% of attempts)
+
+- **[[Shin-to-Shin Sweep]]** (3% of attempts)
+
+- **[[Shin-to-Shin to Single Leg X]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -172,21 +176,25 @@ Shin-to-Shin Guard represents a sophisticated intersection between traditional o
 ### Available Transitions
 
 
-- **[[Knee Slice Pass]]** (13% of attempts)
+- **[[Knee Slice Pass]]** (11% of attempts)
 
-- **[[Long Step Pass]]** (14% of attempts)
+- **[[Long Step Pass]]** (22% of attempts)
 
-- **[[Leg Drag Pass]]** (12% of attempts)
+- **[[Leg Drag Pass]]** (10% of attempts)
 
-- **[[Stack Pass]]** (11% of attempts)
+- **[[Stack Pass]]** (9% of attempts)
 
-- **[[Pressure Pass]]** (13% of attempts)
+- **[[Pressure Pass]]** (11% of attempts)
 
-- **[[X Pass]]** (12% of attempts)
+- **[[X Pass]]** (10% of attempts)
 
-- **[[Knee Through]]** (12% of attempts)
+- **[[Knee Through]]** (10% of attempts)
 
-- **[[Smash Pass]]** (13% of attempts)
+- **[[Smash Pass]]** (11% of attempts)
+
+- **[[Pass Shin-to-Shin Guard]]** (4% of attempts)
+
+- **[[Pressure from Shin-to-Shin]]** (2% of attempts)
 
 
 ### Common Mistakes

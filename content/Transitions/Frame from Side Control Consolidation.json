@@ -1,0 +1,13 @@
+{
+  "name": "Frame from Side Control Consolidation",
+  "description": "",
+  "tags": [],
+  "from_position": "Side Control Consolidation/Bottom",
+  "outcomes": [
+    {
+      "to": "Side Control/Bottom",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

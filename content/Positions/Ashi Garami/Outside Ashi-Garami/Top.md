@@ -21,37 +21,37 @@ description: "Master Outside Ashi-Garami Top defense in BJJ. Complete guide cove
     {
       "@type": "HowToStep",
       "name": "Execute Ashi Garami Escape",
-      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 59% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Outside Ashi Entry",
-      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Back Step",
+      "text": "From this position, attempt Back Step. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Inside Ashi Entry",
-      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Counter heel hook",
+      "text": "From this position, attempt Counter heel hook. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Saddle Entry from Top",
-      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 4% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Standing to Single Leg X",
-      "text": "From this position, attempt Standing to Single Leg X. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Kneebar Setup",
+      "text": "From this position, attempt Kneebar Setup. This technique is attempted in 4% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Leg Weave Pass",
-      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Standing Escape",
+      "text": "From this position, attempt Standing Escape. This technique is attempted in 3% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,19 +210,25 @@ This position represents a defensive challenge where understanding leg lock mech
 
 ## Available Attacks
 
-### [[Ashi Garami Escape]] (15% of attempts)
+### [[Ashi Garami Escape]] (59% of attempts)
 
-### [[Outside Ashi Entry]] (14% of attempts)
+### [[Back Step]] (18% of attempts)
 
-### [[Inside Ashi Entry]] (13% of attempts)
+### [[Counter heel hook]] (11% of attempts)
 
-### [[Saddle Entry from Top]] (12% of attempts)
+### [[Saddle Entry from Top]] (4% of attempts)
 
-### [[Standing to Single Leg X]] (16% of attempts)
+### [[Kneebar Setup]] (4% of attempts)
 
-### [[Leg Weave Pass]] (14% of attempts)
+### [[Standing Escape]] (3% of attempts)
 
-### [[Technical Stand-up]] (16% of attempts)
+### [[Outside Ashi to Inside Ashi]] (0% of attempts)
+
+### [[Outside to Ushiro Ashi]] (0% of attempts)
+
+### [[Saddle Entry from Outside Ashi]] (0% of attempts)
+
+### [[Toe Hold from Outside Ashi]] (1% of attempts)
 
 
 

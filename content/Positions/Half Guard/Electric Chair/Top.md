@@ -4,7 +4,7 @@
 
 ---
 title: "Electric Chair Top | BJJ Position Guide | BJJ Graph"
-description: "Master Electric Chair Top position in BJJ. Control opponent's lockdown and threaten back takes, passes, and submissions. Advanced half guard top control with 60% pass rate."
+description: "Master Electric Chair Top defense in BJJ. Escape the lockdown, counter sweeps, and advance position. Systematic lockdown breaking with 52% advancement probability."
 ---
 
 
@@ -21,38 +21,26 @@ description: "Master Electric Chair Top position in BJJ. Control opponent's lock
     {
       "@type": "HowToStep",
       "name": "Execute Lockdown Break and Pass",
-      "text": "From this position, attempt Lockdown Break and Pass. This technique is attempted in 21% of exchanges from this position.",
+      "text": "From this position, attempt Lockdown Break and Pass. This technique is attempted in 28% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Limp Leg Escape to Pass",
-      "text": "From this position, attempt Limp Leg Escape to Pass. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Limp Leg Escape to Pass. This technique is attempted in 24% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take from Lockdown Defense",
-      "text": "From this position, attempt Back Take from Lockdown Defense. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Back Take from Lockdown Defense. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 17% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 18% of exchanges from this position.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Darce from Lockdown Counter",
-      "text": "From this position, attempt Darce from Lockdown Counter. This technique is attempted in 12% of exchanges from this position.",
-      "position": 6
+      "text": "From this position, attempt Darce from Lockdown Counter. This technique is attempted in 30% of exchanges from this position.",
+      "position": 4
     }
   ],
   "totalTime": "PT2M"
@@ -115,7 +103,7 @@ description: "Master Electric Chair Top position in BJJ. Control opponent's lock
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Electric Chair Top",
-  "description": "Master Electric Chair Top position in BJJ. Control opponent's lockdown and threaten back takes, passes, and submissions. Advanced half guard top control with 60% pass rate.",
+  "description": "Master Electric Chair Top defense in BJJ. Escape the lockdown, counter sweeps, and advance position. Systematic lockdown breaking with 52% advancement probability.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -210,17 +198,13 @@ The Electric Chair Top position is particularly common in 10th Planet Jiu-Jitsu 
 
 ## Available Attacks
 
-### [[Lockdown Break and Pass]] (21% of attempts)
+### [[Lockdown Break and Pass]] (28% of attempts)
 
-### [[Limp Leg Escape to Pass]] (18% of attempts)
+### [[Limp Leg Escape to Pass]] (24% of attempts)
 
-### [[Back Take from Lockdown Defense]] (14% of attempts)
+### [[Back Take from Lockdown Defense]] (18% of attempts)
 
-### [[Knee Slice Pass]] (17% of attempts)
-
-### [[Smash Pass]] (18% of attempts)
-
-### [[Darce from Lockdown Counter]] (12% of attempts)
+### [[Darce from Lockdown Counter]] (30% of attempts)
 
 
 
@@ -390,7 +374,6 @@ Partner attempts Old School sweep from lockdown while you defend with proper bas
 - **[[Back Control]]** - Counter-attack option if opponent overextends
 - **[[Truck]]** - Counter option when opponent exposes back
 - **[[Deep Half Guard]]** - Position opponent may transition to
-- **[[Vaporizer]]** - Alternative threat from lockdown system
 
 
 </section>

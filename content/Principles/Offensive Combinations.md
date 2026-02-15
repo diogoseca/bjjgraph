@@ -362,7 +362,7 @@ Long-term focus on building comprehensive position-specific offensive systems wi
 - [[Action and Reaction]] (Principle) - Theoretical foundation explaining why combinations work through reaction exploitation
 - [[Transition Management]] (Principle) - Integration of positional movement with submission attempts creating compound offensive pressure
 - [[System Building]] (Principle) - Advanced development organizing multiple combinations into comprehensive offensive frameworks
-- [[Armbar Finish]] (Submission) - Core submission appearing in numerous combination sequences across multiple positions
+- [[Armbar from Guard]] (Submission) - Core submission appearing in numerous combination sequences across multiple positions
 - [[Kimura]] (Submission) - Versatile submission enabling combination paths from multiple positions with numerous connected attacks
 
 

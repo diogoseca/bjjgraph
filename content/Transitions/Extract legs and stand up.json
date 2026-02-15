@@ -12,201 +12,23 @@
   "from_position": "50-50 Guard/Bottom",
   "outcomes": [
     {
-      "to": "Open Guard",
+      "to": "Open Guard/Top",
       "probability": 65,
       "result": "success"
     },
     {
-      "to": "50-50 Guard",
+      "to": "50-50 Guard/Bottom",
       "probability": 25,
       "result": "failure"
     },
     {
-      "to": "Ashi Garami",
+      "to": "Ashi Garami/Bottom",
       "probability": 10,
       "result": "counter"
     }
   ],
+  "success_rate": 58,
   "overview": "Extract Legs and Stand Up is the fundamental escape pathway from bottom 50-50 Guard when submission threats exceed your ability to reverse or counter-attack. This technique prioritizes positional safety over positional advancement, recognizing that escaping a dangerous leg entanglement to reset standing creates better opportunities than remaining in a compromised bottom position against a skilled leg locker.\n\nThe extraction sequence requires precise timing, explosive hip movement, and coordinated grip breaks to clear your leg from the entanglement while preventing opponent from immediately re-establishing control or finishing a submission. Unlike reversal attempts that require inside position parity, the standing escape can be executed regardless of inside control hierarchy, making it the highest-percentage defensive option when outmatched in the leg lock game.\n\nStrategically, this escape reflects modern competitive reality: when facing a superior leg lock practitioner, the intelligent choice is often disengagement rather than engagement. Standing up resets the exchange on neutral terms where takedown wrestling and guard passing become the primary battlegrounds instead of leg lock exchanges that favor your opponent.",
-  "key_principles": [
-    "Heel protection must be maintained throughout the entire extraction sequence - never expose your heel to finish the escape",
-    "Explosive hip movement creates the initial space needed to begin freeing your trapped leg from the entanglement",
-    "Grip breaks must precede leg extraction - opponent cannot control your leg without gripping it",
-    "Posting hand provides essential base and leverage for the standing motion while preventing guard pull attempts",
-    "Timing the escape when opponent overcommits to attacks creates maximum extraction opportunity",
-    "Maintain defensive awareness during standing phase as opponent may shoot for single leg or guard pull"
-  ],
-  "setup_requirements": [
-    "Your heel must be hidden and protected before initiating extraction sequence",
-    "Break or control opponent's grips on your ankle, heel, and knee areas",
-    "Create initial hip space through shrimping or bridging motion away from opponent",
-    "Establish a strong posting hand on the mat behind your hips for leverage",
-    "Identify the timing window when opponent is not actively attacking your leg"
-  ],
-  "execution_steps": [
-    {
-      "step_number": 1,
-      "action": "Protect heel",
-      "description": "Rotate your knee inward toward your opposite hip to hide your heel from heel hook exposure. Maintain this protective knee angle throughout the entire extraction sequence."
-    },
-    {
-      "step_number": 2,
-      "action": "Break grips",
-      "description": "Use two-on-one grip fighting to strip opponent's control from your ankle and heel area. Prioritize breaking the cupping hand on your heel first, then the ankle control grip."
-    },
-    {
-      "step_number": 3,
-      "action": "Create hip space",
-      "description": "Explosively shrimp your hips away from opponent while simultaneously pushing off with your free leg. Create 6-12 inches of hip separation to enable leg extraction."
-    },
-    {
-      "step_number": 4,
-      "action": "Post and elevate",
-      "description": "Plant your posting hand firmly on the mat behind your hips with fingers pointing away. Use this post to elevate your hips and begin transferring weight toward standing position."
-    },
-    {
-      "step_number": 5,
-      "action": "Extract trapped leg",
-      "description": "Pull your trapped leg out of the entanglement by retracting your knee toward your chest while maintaining the protective inward rotation. Use your free leg to push off opponent's hip for additional extraction force."
-    },
-    {
-      "step_number": 6,
-      "action": "Technical stand up",
-      "description": "Complete the standing motion using technical stand up mechanics: posting hand stays planted, drive through your base leg, bring extracted leg underneath you, rise to athletic stance with hands ready to defend takedown."
-    }
-  ],
-  "common_counters": [
-    {
-      "counter": "Opponent maintains heel grip during extraction attempt and finishes heel hook",
-      "effectiveness": "High",
-      "your_response": "Abort extraction immediately if heel grip is not broken. Return to defensive shell position and re-establish heel protection before reattempting extraction with proper grip breaks"
-    },
-    {
-      "counter": "Opponent shoots for single leg as you stand up",
-      "effectiveness": "Medium",
-      "your_response": "Sprawl immediately upon feeling contact, use crossface to drive opponent's head down, circle toward their back or establish front headlock control"
-    },
-    {
-      "counter": "Opponent pulls guard during standing phase to re-establish leg entanglement",
-      "effectiveness": "Medium",
-      "your_response": "Maintain strong posture and base, keep hips back, establish grips before engaging, pass standing rather than entering guard where leg attacks resume"
-    },
-    {
-      "counter": "Opponent transitions to ankle lock as you create space",
-      "effectiveness": "Low",
-      "your_response": "Continue extraction - ankle lock from bottom 50-50 with you creating distance has very low finish rate. Your extraction momentum defeats their grip establishment"
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Attempting extraction before breaking opponent's grips on heel and ankle",
-      "consequence": "Opponent finishes heel hook during extraction when your leg is most vulnerable and extended",
-      "correction": "Never begin extraction until grips are broken. Spend the necessary time on grip fighting before any leg movement. If grips cannot be broken, do not attempt extraction"
-    },
-    {
-      "error": "Exposing heel by rotating knee outward during extraction",
-      "consequence": "Creates direct heel hook finishing opportunity as knee rotation exposes the heel mechanism to breaking force",
-      "correction": "Maintain constant inward knee rotation throughout extraction. The knee should point toward your opposite hip at all times until your leg is completely free"
-    },
-    {
-      "error": "Standing up without proper posting hand placement",
-      "consequence": "Unstable base leads to being swept back down or opponent re-establishing leg entanglement during failed stand up",
-      "correction": "Plant posting hand firmly before any elevation. Use technical stand up mechanics with hand remaining planted until you are fully upright with stable base"
-    },
-    {
-      "error": "Rushing the extraction without creating adequate hip space first",
-      "consequence": "Leg remains trapped as there is insufficient space for extraction, wasting energy and potentially worsening position",
-      "correction": "Create 6-12 inches of hip separation through explosive shrimp before attempting leg extraction. The space creation is prerequisite to extraction"
-    },
-    {
-      "error": "Relaxing defensive awareness immediately after standing up",
-      "consequence": "Opponent successfully shoots takedown or pulls guard, negating the escape and potentially returning to worse position",
-      "correction": "Maintain athletic stance with hands ready immediately upon standing. Expect takedown attempt or guard pull and be prepared to sprawl or disengage"
-    }
-  ],
-  "training_progressions": [
-    {
-      "phase": "Week 1-2",
-      "focus": "Grip breaking mechanics",
-      "description": "Practice two-on-one grip breaks from bottom 50-50 without attempting full extraction. Partner holds grips at 50% strength. Master the sequence of breaking heel cup first, then ankle control."
-    },
-    {
-      "phase": "Week 3-4",
-      "focus": "Extraction sequence",
-      "description": "Add hip escape, posting, and leg extraction after successful grip breaks. Partner allows grip breaks but provides light resistance during extraction phase. Focus on maintaining heel protection throughout."
-    },
-    {
-      "phase": "Week 5-6",
-      "focus": "Complete standing sequence",
-      "description": "Execute full extraction to standing with partner providing medium resistance including attempting to re-grip during extraction and light takedown attempts as you stand."
-    },
-    {
-      "phase": "Week 7+",
-      "focus": "Live application",
-      "description": "Apply technique during positional sparring from bottom 50-50. Partner attacks with full intent to submit. Recognize when extraction is appropriate versus when reversal or counter-attack is better option."
-    }
-  ],
-  "variants_and_adaptations": [
-    {
-      "variant_name": "Backstep extraction",
-      "description": "Instead of technical stand up, backstep over opponent's body after extracting leg to immediately establish passing position rather than neutral standing. Higher risk but creates offensive opportunity.",
-      "when_to_use": "When opponent is flattened out and you have clear inside position advantage during extraction"
-    },
-    {
-      "variant_name": "Collar tie extraction",
-      "description": "In gi, establish collar tie grip before standing to control opponent's posture and prevent them from shooting or pulling guard during standing phase.",
-      "when_to_use": "Gi competition when opponent has strong wrestling or guard pulling habits"
-    },
-    {
-      "variant_name": "Explosive jump extraction",
-      "description": "Rather than sequential hip escape and stand, explosively jump both feet clear of entanglement in single motion. Requires exceptional timing and athleticism.",
-      "when_to_use": "When opponent momentarily releases all grips or is distracted by failed submission attempt"
-    }
-  ],
-  "knowledge_assessment": [
-    {
-      "question": "What is the primary goal of Extract Legs and Stand Up?",
-      "answer": "The primary goal is to safely disengage from a dangerous bottom 50-50 leg entanglement position and reset to standing where you can re-engage on more favorable terms through takedowns or guard passing rather than remaining in a compromised leg lock exchange."
-    },
-    {
-      "question": "What position do you start Extract Legs and Stand Up from?",
-      "answer": "This technique starts from 50-50 Guard Bottom, specifically when you are in the disadvantageous bottom position of the symmetrical leg entanglement and need to escape rather than attempt reversal or counter-submission."
-    },
-    {
-      "question": "What must happen before you begin extracting your trapped leg?",
-      "answer": "You must break opponent's grips on your heel and ankle before any extraction attempt. Beginning extraction with opponent's grips intact creates maximum heel hook finishing opportunity as your leg extends and becomes vulnerable. Grip fighting is the prerequisite to extraction."
-    },
-    {
-      "question": "Your opponent maintains strong heel grip despite your grip fighting - what should you do?",
-      "answer": "Do not attempt extraction. Return to or maintain defensive shell position with heel hidden through inward knee rotation. Continue grip fighting until successful, consider alternative escapes like reversal, or recognize that forcing extraction against maintained grips leads to submission."
-    },
-    {
-      "question": "How should your knee be positioned throughout the extraction sequence?",
-      "answer": "Your knee should be rotated inward toward your opposite hip throughout the entire extraction, from initial defensive position through final standing. This inward rotation hides your heel from heel hook exposure and must be maintained even as you create space and extract the leg."
-    },
-    {
-      "question": "What is the proper posting hand placement during the standing sequence?",
-      "answer": "Plant your posting hand firmly on the mat behind your hips with fingers pointing away from your body. This hand provides the base and leverage for hip elevation and the technical stand up motion. The hand should remain planted until you are fully upright with stable athletic stance."
-    },
-    {
-      "question": "Your opponent shoots for a single leg as you complete the standing motion - how do you respond?",
-      "answer": "Immediately sprawl upon feeling contact, driving your hips down and back while using crossface pressure to drive opponent's head toward the mat. From the sprawl, either circle toward their back to establish back control or secure front headlock control for submission or positional advancement."
-    },
-    {
-      "question": "When should you choose extraction versus attempting reversal from bottom 50-50?",
-      "answer": "Choose extraction when opponent has clear inside position control that you cannot quickly match, when facing a superior leg lock practitioner, when your heel protection is compromised, or when energy expenditure of reversal attempts exceeds benefit. Reversal requires inside position parity; extraction does not."
-    },
-    {
-      "question": "What common error causes most failed extraction attempts to result in submission?",
-      "answer": "Attempting extraction before breaking opponent's grips is the most dangerous error. When you begin extracting with opponent's heel grip intact, your leg extends and becomes maximally vulnerable to the heel hook finish. The grip breaks must precede any extraction movement."
-    },
-    {
-      "question": "How much hip space should you create before attempting to extract your trapped leg?",
-      "answer": "Create 6-12 inches of hip separation through explosive shrimping motion before attempting leg extraction. Insufficient space means the leg cannot clear the entanglement and the extraction fails, wasting energy and potentially worsening your position as opponent recognizes your intent."
-    }
-  ],
-  "safety_considerations": "Extract Legs and Stand Up is generally a low-risk defensive technique, but several safety factors require attention. Never attempt extraction with opponent's heel grip intact as this creates maximum submission vulnerability during the extended leg phase. If you feel heel hook pressure at any point during extraction, immediately stop the movement, return to defensive position, and address the threat before continuing. Training partners should communicate clearly about heel hook danger and tap early during drilling to prevent knee injuries. When practicing the standing sequence, ensure adequate mat space behind you to prevent falling off elevated surfaces. Beginners should master grip breaks at slow speeds before adding extraction movement to avoid developing dangerous habits of extracting against grips.",
-  "position_integration": "Extract Legs and Stand Up functions as the primary escape valve from the 50-50 Guard Bottom position when offensive options are exhausted or inappropriate. Within the broader leg lock defense system, this technique represents the strategic choice to disengage from unfavorable leg entanglement exchanges rather than continuing to play a game where your opponent has advantage. The escape connects bottom 50-50 to standing positions including takedown wrestling and guard passing sequences. It pairs with counter heel hook attempts and reversal sweeps as the three primary responses from bottom 50-50: attack, reverse, or escape. Advanced practitioners use the extraction threat to create opportunities for counter-attacks, as opponent's defensive reactions to prevent standing often expose their own legs for submissions.",
   "related_content": [
     {
       "name": "50-50 Guard",
@@ -241,5 +63,331 @@
       "relationship": "Secondary leg lock threat during extraction phase"
     }
   ],
-  "success_rate": 58
+  "attacker": {
+    "name": "Extract legs and stand up Attacker",
+    "description": "How to execute Extract legs and stand up in BJJ. Attacking perspective with setup, execution steps, and counters.",
+    "overview": "Extract Legs and Stand Up is the fundamental escape pathway from bottom 50-50 Guard when submission threats exceed your ability to reverse or counter-attack. This technique prioritizes positional safety over positional advancement, recognizing that escaping a dangerous leg entanglement to reset standing creates better opportunities than remaining in a compromised bottom position against a skilled leg locker.\n\nThe extraction sequence requires precise timing, explosive hip movement, and coordinated grip breaks to clear your leg from the entanglement while preventing opponent from immediately re-establishing control or finishing a submission. Unlike reversal attempts that require inside position parity, the standing escape can be executed regardless of inside control hierarchy, making it the highest-percentage defensive option when outmatched in the leg lock game.\n\nStrategically, this escape reflects modern competitive reality: when facing a superior leg lock practitioner, the intelligent choice is often disengagement rather than engagement. Standing up resets the exchange on neutral terms where takedown wrestling and guard passing become the primary battlegrounds instead of leg lock exchanges that favor your opponent.",
+    "key_principles": [
+      "Heel protection must be maintained throughout the entire extraction sequence - never expose your heel to finish the escape",
+      "Explosive hip movement creates the initial space needed to begin freeing your trapped leg from the entanglement",
+      "Grip breaks must precede leg extraction - opponent cannot control your leg without gripping it",
+      "Posting hand provides essential base and leverage for the standing motion while preventing guard pull attempts",
+      "Timing the escape when opponent overcommits to attacks creates maximum extraction opportunity",
+      "Maintain defensive awareness during standing phase as opponent may shoot for single leg or guard pull"
+    ],
+    "setup_requirements": [
+      "Your heel must be hidden and protected before initiating extraction sequence",
+      "Break or control opponent's grips on your ankle, heel, and knee areas",
+      "Create initial hip space through shrimping or bridging motion away from opponent",
+      "Establish a strong posting hand on the mat behind your hips for leverage",
+      "Identify the timing window when opponent is not actively attacking your leg"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Protect heel",
+        "description": "Rotate your knee inward toward your opposite hip to hide your heel from heel hook exposure. Maintain this protective knee angle throughout the entire extraction sequence."
+      },
+      {
+        "step_number": 2,
+        "action": "Break grips",
+        "description": "Use two-on-one grip fighting to strip opponent's control from your ankle and heel area. Prioritize breaking the cupping hand on your heel first, then the ankle control grip."
+      },
+      {
+        "step_number": 3,
+        "action": "Create hip space",
+        "description": "Explosively shrimp your hips away from opponent while simultaneously pushing off with your free leg. Create 6-12 inches of hip separation to enable leg extraction."
+      },
+      {
+        "step_number": 4,
+        "action": "Post and elevate",
+        "description": "Plant your posting hand firmly on the mat behind your hips with fingers pointing away. Use this post to elevate your hips and begin transferring weight toward standing position."
+      },
+      {
+        "step_number": 5,
+        "action": "Extract trapped leg",
+        "description": "Pull your trapped leg out of the entanglement by retracting your knee toward your chest while maintaining the protective inward rotation. Use your free leg to push off opponent's hip for additional extraction force."
+      },
+      {
+        "step_number": 6,
+        "action": "Technical stand up",
+        "description": "Complete the standing motion using technical stand up mechanics: posting hand stays planted, drive through your base leg, bring extracted leg underneath you, rise to athletic stance with hands ready to defend takedown."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent maintains heel grip during extraction attempt and finishes heel hook",
+        "effectiveness": "High",
+        "your_response": "Abort extraction immediately if heel grip is not broken. Return to defensive shell position and re-establish heel protection before reattempting extraction with proper grip breaks",
+        "targets_outcome": "50-50 Guard/Bottom"
+      },
+      {
+        "counter": "Opponent shoots for single leg as you stand up",
+        "effectiveness": "Medium",
+        "your_response": "Sprawl immediately upon feeling contact, use crossface to drive opponent's head down, circle toward their back or establish front headlock control",
+        "targets_outcome": "Open Guard/Top"
+      },
+      {
+        "counter": "Opponent pulls guard during standing phase to re-establish leg entanglement",
+        "effectiveness": "Medium",
+        "your_response": "Maintain strong posture and base, keep hips back, establish grips before engaging, pass standing rather than entering guard where leg attacks resume",
+        "targets_outcome": "Ashi Garami/Bottom"
+      },
+      {
+        "counter": "Opponent transitions to ankle lock as you create space",
+        "effectiveness": "Low",
+        "your_response": "Continue extraction - ankle lock from bottom 50-50 with you creating distance has very low finish rate. Your extraction momentum defeats their grip establishment",
+        "targets_outcome": "50-50 Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting extraction before breaking opponent's grips on heel and ankle",
+        "consequence": "Opponent finishes heel hook during extraction when your leg is most vulnerable and extended",
+        "correction": "Never begin extraction until grips are broken. Spend the necessary time on grip fighting before any leg movement. If grips cannot be broken, do not attempt extraction"
+      },
+      {
+        "error": "Exposing heel by rotating knee outward during extraction",
+        "consequence": "Creates direct heel hook finishing opportunity as knee rotation exposes the heel mechanism to breaking force",
+        "correction": "Maintain constant inward knee rotation throughout extraction. The knee should point toward your opposite hip at all times until your leg is completely free"
+      },
+      {
+        "error": "Standing up without proper posting hand placement",
+        "consequence": "Unstable base leads to being swept back down or opponent re-establishing leg entanglement during failed stand up",
+        "correction": "Plant posting hand firmly before any elevation. Use technical stand up mechanics with hand remaining planted until you are fully upright with stable base"
+      },
+      {
+        "error": "Rushing the extraction without creating adequate hip space first",
+        "consequence": "Leg remains trapped as there is insufficient space for extraction, wasting energy and potentially worsening position",
+        "correction": "Create 6-12 inches of hip separation through explosive shrimp before attempting leg extraction. The space creation is prerequisite to extraction"
+      },
+      {
+        "error": "Relaxing defensive awareness immediately after standing up",
+        "consequence": "Opponent successfully shoots takedown or pulls guard, negating the escape and potentially returning to worse position",
+        "correction": "Maintain athletic stance with hands ready immediately upon standing. Expect takedown attempt or guard pull and be prepared to sprawl or disengage"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Grip breaking mechanics",
+        "description": "Practice two-on-one grip breaks from bottom 50-50 without attempting full extraction. Partner holds grips at 50% strength. Master the sequence of breaking heel cup first, then ankle control."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Extraction sequence",
+        "description": "Add hip escape, posting, and leg extraction after successful grip breaks. Partner allows grip breaks but provides light resistance during extraction phase. Focus on maintaining heel protection throughout."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Complete standing sequence",
+        "description": "Execute full extraction to standing with partner providing medium resistance including attempting to re-grip during extraction and light takedown attempts as you stand."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live application",
+        "description": "Apply technique during positional sparring from bottom 50-50. Partner attacks with full intent to submit. Recognize when extraction is appropriate versus when reversal or counter-attack is better option."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary goal of Extract Legs and Stand Up?",
+        "answer": "The primary goal is to safely disengage from a dangerous bottom 50-50 leg entanglement position and reset to standing where you can re-engage on more favorable terms through takedowns or guard passing rather than remaining in a compromised leg lock exchange."
+      },
+      {
+        "question": "What position do you start Extract Legs and Stand Up from?",
+        "answer": "This technique starts from 50-50 Guard Bottom, specifically when you are in the disadvantageous bottom position of the symmetrical leg entanglement and need to escape rather than attempt reversal or counter-submission."
+      },
+      {
+        "question": "What must happen before you begin extracting your trapped leg?",
+        "answer": "You must break opponent's grips on your heel and ankle before any extraction attempt. Beginning extraction with opponent's grips intact creates maximum heel hook finishing opportunity as your leg extends and becomes vulnerable. Grip fighting is the prerequisite to extraction."
+      },
+      {
+        "question": "Your opponent maintains strong heel grip despite your grip fighting - what should you do?",
+        "answer": "Do not attempt extraction. Return to or maintain defensive shell position with heel hidden through inward knee rotation. Continue grip fighting until successful, consider alternative escapes like reversal, or recognize that forcing extraction against maintained grips leads to submission."
+      },
+      {
+        "question": "How should your knee be positioned throughout the extraction sequence?",
+        "answer": "Your knee should be rotated inward toward your opposite hip throughout the entire extraction, from initial defensive position through final standing. This inward rotation hides your heel from heel hook exposure and must be maintained even as you create space and extract the leg."
+      },
+      {
+        "question": "What is the proper posting hand placement during the standing sequence?",
+        "answer": "Plant your posting hand firmly on the mat behind your hips with fingers pointing away from your body. This hand provides the base and leverage for hip elevation and the technical stand up motion. The hand should remain planted until you are fully upright with stable athletic stance."
+      },
+      {
+        "question": "Your opponent shoots for a single leg as you complete the standing motion - how do you respond?",
+        "answer": "Immediately sprawl upon feeling contact, driving your hips down and back while using crossface pressure to drive opponent's head toward the mat. From the sprawl, either circle toward their back to establish back control or secure front headlock control for submission or positional advancement."
+      },
+      {
+        "question": "When should you choose extraction versus attempting reversal from bottom 50-50?",
+        "answer": "Choose extraction when opponent has clear inside position control that you cannot quickly match, when facing a superior leg lock practitioner, when your heel protection is compromised, or when energy expenditure of reversal attempts exceeds benefit. Reversal requires inside position parity; extraction does not."
+      },
+      {
+        "question": "What common error causes most failed extraction attempts to result in submission?",
+        "answer": "Attempting extraction before breaking opponent's grips is the most dangerous error. When you begin extracting with opponent's heel grip intact, your leg extends and becomes maximally vulnerable to the heel hook finish. The grip breaks must precede any extraction movement."
+      },
+      {
+        "question": "How much hip space should you create before attempting to extract your trapped leg?",
+        "answer": "Create 6-12 inches of hip separation through explosive shrimping motion before attempting leg extraction. Insufficient space means the leg cannot clear the entanglement and the extraction fails, wasting energy and potentially worsening your position as opponent recognizes your intent."
+      },
+      {
+        "question": "What is the critical direction of force during the shrimping phase of extraction?",
+        "answer": "The shrimping force must be directed away from your opponent along the line of your spine, not laterally. Shrimping sideways fails to create the linear hip separation needed for extraction and can expose your heel to a different angle of attack. Push off opponent's hip with your free foot while driving your hips directly away to maximize the space created per unit of effort."
+      },
+      {
+        "question": "Your opponent begins transitioning to Inside Ashi-Garami as you start creating space - how do you adjust your extraction?",
+        "answer": "Accelerate the extraction immediately because Inside Ashi-Garami provides far superior control and heel exposure than standard 50-50. If their transition is incomplete, you have a window where their hooks are loose during reconfiguration. If they complete the transition, abort extraction and address the more dangerous position first by re-establishing heel defense and grip fighting from the new configuration before reattempting."
+      }
+    ],
+    "safety_considerations": "Extract Legs and Stand Up is generally a low-risk defensive technique, but several safety factors require attention. Never attempt extraction with opponent's heel grip intact as this creates maximum submission vulnerability during the extended leg phase. If you feel heel hook pressure at any point during extraction, immediately stop the movement, return to defensive position, and address the threat before continuing. Training partners should communicate clearly about heel hook danger and tap early during drilling to prevent knee injuries. When practicing the standing sequence, ensure adequate mat space behind you to prevent falling off elevated surfaces. Beginners should master grip breaks at slow speeds before adding extraction movement to avoid developing dangerous habits of extracting against grips."
+  },
+  "defender": {
+    "name": "Extract legs and stand up Defender",
+    "description": "How to defend against Extract legs and stand up in BJJ. Recognition cues, defensive options, and escape strategies.",
+    "overview": "As the top player in 50-50 Guard, your opponent's extraction attempt represents a critical moment where you must balance between maintaining leg entanglement control and capitalizing on offensive opportunities created by their movement. The defender's role here is actually the offensive position holder - you are the top 50-50 player who benefits from keeping the entanglement intact because you have superior inside control, heel access, or submission setups that favor extended engagement.\n\nWhen your opponent initiates extraction, they create predictable movement patterns and temporary vulnerabilities. Their grip fighting telegraphs intent, their hip escape creates momentary heel exposure during transition, and their standing sequence divides their attention between extraction mechanics and defensive awareness. Each phase of their escape offers distinct windows for counter-offense. The grip fighting phase is your best opportunity to secure deeper heel control while their hands are occupied. The hip escape phase momentarily extends their leg, creating submission finishing opportunities. The standing phase leaves them vulnerable to re-engagement through guard pulls, single leg attacks, or immediate transitions to alternative leg entanglements.\n\nThe strategic calculus is straightforward: if you can prevent the extraction, you maintain a position where your leg lock offense operates with full capability. Every second your opponent spends in bottom 50-50 against your superior position drains their defensive energy and increases your submission probability. Your primary objective is maintaining the entanglement, with offensive finishing as the secondary reward when their escape attempts create openings.",
+    "key_principles": [
+      "Grip maintenance on the heel and ankle is your single most important retention tool - without grips, you cannot prevent extraction regardless of leg positioning",
+      "Recognize extraction intent early from grip fighting patterns and hip pre-loading, allowing you to preemptively tighten control before they create space",
+      "Counter their hip escape by following their hip movement with your own hips, closing the space they create rather than remaining static",
+      "Use their extraction movement against them by attacking submissions during the transitional phases when their leg extends or rotates",
+      "Maintain constant offensive pressure through submission threats that force them to defend rather than focus exclusively on extraction mechanics",
+      "Have a contingency plan for when extraction succeeds - immediately transition to single leg, guard pull, or standing engagement rather than accepting neutral reset"
+    ],
+    "recognition_cues": [
+      "Opponent begins aggressive two-on-one grip fighting targeting your heel cup and ankle control, attempting to peel your fingers or strip your wrist position",
+      "Opponent loads their free leg against your hip or thigh and pre-loads hip escape by turning their shoulders away from you, signaling imminent shrimping motion",
+      "Opponent posts their hand behind their hips on the mat, establishing the base point needed for technical stand up after extraction",
+      "Opponent rotates their trapped knee inward more aggressively than normal defensive positioning, indicating they are preparing the protective angle for extraction rather than just defending"
+    ],
+    "defensive_options": [
+      {
+        "action": "Deepen heel grip and attack heel hook during their grip fighting phase",
+        "when_to_use": "When opponent begins two-on-one grip breaks on your heel control, creating a race between their grip break and your submission finish",
+        "targets_outcome": "50-50 Guard/Bottom",
+        "if_successful": "Opponent must abandon extraction and return to full defensive mode, resetting their escape attempt from zero",
+        "risk": "If your heel hook attempt fails and they complete the grip break simultaneously, you lose both offensive position and grip control"
+      },
+      {
+        "action": "Follow their hip escape with your own hip drive to close the space they create",
+        "when_to_use": "Immediately when you feel opponent shrimping away, before they achieve the 6-12 inches of separation needed for extraction",
+        "targets_outcome": "50-50 Guard/Bottom",
+        "if_successful": "Space is denied, opponent remains trapped in 50-50 with reduced energy from failed escape attempt, and you maintain all control points",
+        "risk": "Aggressive hip following can compromise your own base if opponent uses your forward momentum to sweep"
+      },
+      {
+        "action": "Transition to Inside Ashi-Garami or Saddle as they begin creating space",
+        "when_to_use": "When you sense extraction is likely to succeed and maintaining 50-50 is becoming untenable, use their movement to advance your own position",
+        "targets_outcome": "Ashi Garami/Bottom",
+        "if_successful": "You achieve a superior leg entanglement position with better control and submission percentage than 50-50, converting their escape energy into your advancement",
+        "risk": "Transitional movement creates a window where both your control and their extraction could succeed, potentially resulting in complete disengagement"
+      },
+      {
+        "action": "Shoot for single leg takedown as they complete the standing motion",
+        "when_to_use": "When extraction succeeds and opponent reaches standing position, immediately close distance before they establish defensive athletic stance",
+        "targets_outcome": "Open Guard/Top",
+        "if_successful": "You take opponent down and establish top position, converting their successful extraction into your own offensive opportunity",
+        "risk": "Opponent may sprawl effectively and establish front headlock or use your forward momentum to snap you down"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "50-50 Guard/Bottom",
+        "how": "Maintain heel and ankle grips through aggressive re-gripping whenever opponent strips control. Follow their hip escape with your own hip drive to deny space. Keep constant submission pressure to force them into defensive mode rather than extraction mode. The longer they remain in bottom 50-50 against your superior control, the more their defensive energy depletes."
+      },
+      {
+        "outcome": "Ashi Garami/Bottom",
+        "how": "When 50-50 retention becomes difficult, use opponent's extraction movement to transition to Inside Ashi-Garami or Saddle. As they create space by shrimping, reposition your inside hook deeper and rotate your hips to achieve cross-body control. Their extraction momentum actually assists your positional advancement if you redirect it into a superior entanglement rather than fighting to maintain 50-50."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Passively holding grips without actively attacking while opponent executes systematic grip breaks",
+        "consequence": "Opponent methodically strips all control points and completes extraction without any offensive threat to interrupt their sequence",
+        "correction": "Maintain constant offensive pressure through heel hook attempts, ankle lock threats, or positional advancement during their grip fighting. Force them to choose between grip breaking and submission defense simultaneously"
+      },
+      {
+        "error": "Remaining stationary when opponent shrimps away, allowing them to freely create extraction space",
+        "consequence": "Opponent achieves the 6-12 inches of hip separation needed for extraction without resistance, making the escape nearly guaranteed",
+        "correction": "Follow their hip escape immediately with your own hip drive, maintaining zero separation distance. Your hips should track their hips like a shadow, closing every inch of space they create"
+      },
+      {
+        "error": "Allowing extraction to succeed without any contingency plan for the standing phase",
+        "consequence": "Opponent completes full technical stand up and establishes athletic stance with defensive readiness, achieving a complete neutral reset that negates all your previous positional advantage",
+        "correction": "Prepare contingency responses before extraction occurs. If extraction succeeds, immediately execute single leg attack, guard pull to re-establish entanglement, or standing clinch engagement rather than accepting the neutral reset"
+      },
+      {
+        "error": "Over-committing to heel hook finish during extraction attempt and losing all positional control",
+        "consequence": "Failed heel hook with compromised grip position leaves you with no control as opponent completes extraction during your recovery",
+        "correction": "Balance offensive attempts with positional retention. If heel hook is not finishing within 2-3 seconds, abandon the submission and focus on grip and position maintenance to deny the extraction"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the single most important factor for preventing your opponent's leg extraction from 50-50?",
+        "answer": "Maintaining grip control on the heel and ankle is the most critical factor. Without grips, your leg entanglement alone cannot prevent extraction because the opponent can retract their knee and pull free. The heel cup and ankle grip create the mechanical connection that keeps their leg trapped, so all defensive effort should prioritize grip maintenance and re-gripping over any other control point."
+      },
+      {
+        "question": "Your opponent begins aggressive two-on-one grip breaks on your heel control - what is the optimal response?",
+        "answer": "Immediately escalate your offensive threat by tightening your heel hook finishing position while they dedicate both hands to grip breaking. This creates a race condition: they must break your grip before you finish the submission. Their two-on-one commitment to grip fighting means they have zero hands defending the heel hook, making this your highest-percentage finishing window during the entire exchange."
+      },
+      {
+        "question": "When should you transition from maintaining 50-50 to pursuing Inside Ashi-Garami during opponent's extraction?",
+        "answer": "Transition when you recognize that 50-50 retention is failing despite your best grip fighting and hip following efforts. The key indicator is when opponent has broken your primary heel grip and achieved partial hip separation. Rather than fighting to re-establish a compromised 50-50, use their extraction momentum to reposition your hooks into Inside Ashi-Garami configuration, converting a losing retention battle into a positional advancement."
+      },
+      {
+        "question": "What contingency should you prepare for when opponent successfully reaches standing position?",
+        "answer": "Have an immediate re-engagement plan ready before the extraction even begins. The best options in order of priority are: single leg attack while they are still completing the stand up and before athletic stance is established, guard pull to immediately re-establish leg entanglement from open guard, or standing clinch to prevent them from creating distance and resetting completely. Accepting a neutral standing reset wastes all the positional advantage you built."
+      },
+      {
+        "question": "How does maintaining offensive pressure throughout the extraction attempt benefit your retention strategy?",
+        "answer": "Constant submission threats force opponent to split their attention between extraction mechanics and submission defense, significantly slowing or preventing the escape. An opponent who must simultaneously break grips, protect their heel, create space, and maintain defensive knee rotation cannot execute the extraction sequence with full efficiency. Each submission threat they must address costs them time, energy, and focus that would otherwise go toward escaping."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Grip retention under pressure",
+        "description": "Partner attempts systematic two-on-one grip breaks from bottom 50-50 while you practice maintaining and re-establishing heel and ankle grips. Start at 50% resistance, progressing to 80%. Focus on re-gripping speed and alternative grip positions when primary grips are stripped."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Hip following and space denial",
+        "description": "Partner performs hip escape sequences while you practice following their hip movement to maintain zero separation. Add grip fighting to the hip escape so you must simultaneously retain grips and deny space. Develop the reflexive hip drive response to any hip movement from your opponent."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Counter-offense during extraction",
+        "description": "Partner executes full extraction sequences while you practice timing heel hook attacks during grip breaks, transitioning to Inside Ashi-Garami during space creation, and shooting single legs during the standing phase. Medium resistance with emphasis on recognizing optimal counter-timing."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live positional sparring",
+        "description": "Full resistance positional rounds starting in top 50-50. Objective is to either submit or maintain entanglement while partner attempts extraction. Track success rates and identify which extraction phase creates your best offensive or retention opportunities."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Backstep extraction",
+      "description": "Instead of technical stand up, backstep over opponent's body after extracting leg to immediately establish passing position rather than neutral standing. Higher risk but creates offensive opportunity.",
+      "when_to_use": "When opponent is flattened out and you have clear inside position advantage during extraction"
+    },
+    {
+      "variant_name": "Collar tie extraction",
+      "description": "In gi, establish collar tie grip before standing to control opponent's posture and prevent them from shooting or pulling guard during standing phase.",
+      "when_to_use": "Gi competition when opponent has strong wrestling or guard pulling habits"
+    },
+    {
+      "variant_name": "Explosive jump extraction",
+      "description": "Rather than sequential hip escape and stand, explosively jump both feet clear of entanglement in single motion. Requires exceptional timing and athleticism.",
+      "when_to_use": "When opponent momentarily releases all grips or is distracted by failed submission attempt"
+    }
+  ],
+  "conditions": [
+    "You are in bottom 50-50 Guard with opponent maintaining top position and inside control advantage",
+    "Your heel is currently protected through inward knee rotation and not under immediate finishing threat",
+    "You have assessed that reversal or counter-attack options are lower percentage than disengagement",
+    "You have sufficient energy remaining to execute explosive hip escape and technical stand up sequence"
+  ],
+  "position_integration": "Extract Legs and Stand Up functions as the primary escape valve from the 50-50 Guard Bottom position when offensive options are exhausted or inappropriate. Within the broader leg lock defense system, this technique represents the strategic choice to disengage from unfavorable leg entanglement exchanges rather than continuing to play a game where your opponent has advantage. The escape connects bottom 50-50 to standing positions including takedown wrestling and guard passing sequences. It pairs with counter heel hook attempts and reversal sweeps as the three primary responses from bottom 50-50: attack, reverse, or escape. Advanced practitioners use the extraction threat to create opportunities for counter-attacks, as opponent's defensive reactions to prevent standing often expose their own legs for submissions."
 }

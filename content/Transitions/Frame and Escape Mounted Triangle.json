@@ -1,0 +1,13 @@
+{
+  "name": "Frame and Escape Mounted Triangle",
+  "description": "",
+  "tags": [],
+  "from_position": "Mounted Triangle/Bottom",
+  "outcomes": [
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

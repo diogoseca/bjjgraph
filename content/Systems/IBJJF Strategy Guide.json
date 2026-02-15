@@ -284,7 +284,7 @@
       "relationship": "Defensive position that doesn't concede points but limits offensive options"
     },
     {
-      "name": "Guard Pass",
+      "name": "Pass to Side Control",
       "content_type": "Transition",
       "relationship": "3-point scoring transition fundamental to IBJJF competition success"
     },
@@ -304,7 +304,7 @@
       "relationship": "Pressure-based pass offering clear scoring criteria when stabilized"
     },
     {
-      "name": "Back Take Generic",
+      "name": "Back Take",
       "content_type": "Transition",
       "relationship": "4-point scoring transition offering maximum point value in single movement"
     },
@@ -319,7 +319,7 @@
       "relationship": "Strategic alternative to takedown exchange, avoiding scrambles while establishing guard"
     },
     {
-      "name": "Hip Escape",
+      "name": "Hip Escape to Guard",
       "content_type": "Transition",
       "relationship": "Fundamental defensive movement preventing opponent's 3-point guard passes"
     },

@@ -1,7 +1,7 @@
 {
   "name": "Darce Control",
   "slug": "darce-control",
-  "description": "Master Darce Control position in BJJ. Dominant front headlock variant with 70% submission rate. Learn entries, arm triangle mechanics, transition chains, and defensive strategies for both offensive and defensive scenarios.",
+  "description": "Master Darce Control position in BJJ. Dominant front headlock variant with high submission rate. Learn entries, arm triangle mechanics, transition chains, and defensive strategies.",
   "variant_uniqueness": "Arm-in choke trades mobility for submission threat",
   "overview": "Darce Control is a highly effective front headlock variation where the attacking practitioner secures a figure-four grip around the opponent's neck and shoulder, creating intense pressure on the carotid arteries. Named after its popularizer Joe D'Arce, this position combines elements of the arm triangle and anaconda choke, offering both submission threat and positional dominance. The position is characterized by the attacker threading their arm under the opponent's near armpit, across the back of their neck, and catching their own bicep with the opposite hand to complete the choke.\n\nDarce Control serves as both a submission position and a controlling platform for advancing position. It is most commonly entered from turtle, front headlock, failed single leg attempts, or scrambles where the opponent's posture is compromised. The position creates an immediate submission threat while maintaining strong control over the opponent's upper body, making it difficult for them to escape or counter. Advanced practitioners use Darce Control as a hub position, flowing between submission attempts and positional advances.\n\nThe effectiveness of Darce Control lies in its ability to create multiple dilemmas for the opponent. Defensive movements that alleviate neck pressure often expose the back or create opportunities for positional advancement, while attempts to improve position typically tighten the choking mechanism. This makes Darce Control particularly valuable in both gi and no-gi grappling, though it sees more frequent application in no-gi contexts where the absence of collar grips makes front headlock positions especially potent. From the bottom perspective, escaping Darce Control requires immediate recognition, systematic defensive sequences, and precise timing to prevent submission while recovering to safer positions.",
   "key_principles": [
@@ -40,15 +40,11 @@
     {
       "name": "Back Control",
       "relationship": "High-percentage transition when opponent rolls to escape"
-    },
-    {
-      "name": "Scramble Position",
-      "relationship": "Common context where darce opportunities arise"
     }
   ],
   "top": {
     "name": "Darce Control Top",
-    "description": "Master Darce Control Top in BJJ. Dominant front headlock variation with 70% submission rate. Learn control mechanics, finishing sequences, and competition-proven strategies.",
+    "description": "Master Darce Control Top in BJJ. Dominant front headlock variation with high submission rate. Learn control mechanics, finishing sequences, and competition-proven strategies.",
     "tags": [
       "bjj",
       "position",
@@ -113,7 +109,7 @@
           },
           {
             "technique": "Darce Choke",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 60
           }
         ]
@@ -123,7 +119,7 @@
         "actions": [
           {
             "technique": "Darce Choke",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 80
           },
           {
@@ -186,23 +182,23 @@
     "related_content": [
       {
         "name": "Darce Control",
-        "relationship": "Hub position - both perspectives"
+        "relationship": "Hub position covering both perspectives"
       },
       {
         "name": "Front Headlock",
-        "relationship": "Precursor position - common entry point"
+        "relationship": "Precursor position and common entry point"
       },
       {
         "name": "Anaconda Control",
-        "relationship": "Similar position - alternative front headlock choke"
+        "relationship": "Similar position with alternative front headlock choke configuration"
       },
       {
         "name": "Darce Choke",
-        "relationship": "Primary submission - main finishing technique"
+        "relationship": "Primary submission finishing technique from this position"
       },
       {
         "name": "Turtle",
-        "relationship": "Common preceding position"
+        "relationship": "Common preceding position where darce opportunities arise"
       },
       {
         "name": "Mount",
@@ -210,45 +206,56 @@
       },
       {
         "name": "Back Control",
-        "relationship": "High-percentage transition on opponent roll"
+        "relationship": "High-percentage transition when opponent rolls to escape"
       },
       {
         "name": "North-South",
-        "relationship": "Alternative transition when choke blocked"
+        "relationship": "Alternative transition when choke is blocked"
       }
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 80
+        "value": 80,
+        "description": "High retention due to tight grip configuration and chest pressure limiting escape routes"
       },
       "advancement_probability": {
-        "value": 75
+        "value": 75,
+        "description": "Strong advancement options to mount, back control, or north-south when choke is defended"
       },
       "submission_probability": {
-        "value": 68
+        "value": 68,
+        "description": "High submission rate reflecting the immediate choke threat from properly locked darce grip"
       },
       "average_time": "45-90 seconds"
     },
     "transitions": [
       {
         "transition": "Darce Choke",
-        "attempt_probability": 26
-      },
-      {
-        "transition": "Side Control to Mount",
-        "attempt_probability": 20
+        "attempt_probability": 48
       },
       {
         "transition": "Turtle to Back Take",
-        "attempt_probability": 20
+        "attempt_probability": 18
       },
       {
-        "transition": "Anaconda from Turtle",
-        "attempt_probability": 14
+        "transition": "Switch to Anaconda Configuration",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Side Control to Mount",
+        "attempt_probability": 10
       },
       {
         "transition": "Side Control to North-South",
-        "attempt_probability": 20
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Darce Control Maintenance",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Darce to Anaconda Switch",
+        "attempt_probability": 2
       }
     ],
     "knowledge_assessment": [
@@ -338,7 +345,7 @@
             "probability": 55
           },
           {
-            "technique": "Granby Roll",
+            "technique": "Granby Roll to Guard",
             "target": "Open Guard",
             "probability": 45
           }
@@ -363,12 +370,12 @@
         "condition": "If choke is locked deep and opponent has strong positional control",
         "actions": [
           {
-            "technique": "Granby Roll",
+            "technique": "Granby Roll to Guard",
             "target": "Closed Guard",
             "probability": 40
           },
           {
-            "technique": "Counter Roll",
+            "technique": "Counter Roll to Top",
             "target": "Side Control",
             "probability": 30
           }
@@ -430,14 +437,14 @@
       },
       {
         "name": "Escape Route Options Drill",
-        "description": "Partner holds Darce Control position with moderate resistance. Practice each escape option (arm extraction, step over, rolling to guard, back door, granby roll) individually with proper mechanics. Partner provides feedback on effectiveness of frames, hip movement, and timing. Build muscle memory for multiple escape pathways.",
+        "description": "Partner holds Darce Control position with moderate resistance. Practice each escape option (arm extraction, step over, rolling to guard, back door, granby roll to guard) individually with proper mechanics. Partner provides feedback on effectiveness of frames, hip movement, and timing. Build muscle memory for multiple escape pathways.",
         "duration": "8 minutes cycling through all escapes"
       }
     ],
     "related_content": [
       {
         "name": "Darce Control",
-        "relationship": "Hub position - both perspectives"
+        "relationship": "Hub position covering both perspectives"
       },
       {
         "name": "Darce Choke",
@@ -470,40 +477,47 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 42
+        "value": 42,
+        "description": "Low retention reflecting the urgency to escape before choke tightens"
       },
       "advancement_probability": {
-        "value": 48
+        "value": 48,
+        "description": "Moderate probability of escaping to neutral or guard position through systematic defense"
       },
       "submission_probability": {
-        "value": 12
+        "value": 12,
+        "description": "Minimal offensive threat from bottom - focus is entirely on survival and escape"
       },
       "average_time": "10-30 seconds before escape or submission"
     },
     "transitions": [
       {
         "transition": "Arm Extraction",
-        "attempt_probability": 20
+        "attempt_probability": 25
       },
       {
-        "transition": "Rolling to Guard",
-        "attempt_probability": 21
-      },
-      {
-        "transition": "Granby Roll",
-        "attempt_probability": 17
-      },
-      {
-        "transition": "Back Door Escape",
+        "transition": "Granby Roll to Guard",
         "attempt_probability": 15
       },
       {
-        "transition": "Counter Roll",
-        "attempt_probability": 10
+        "transition": "Back Door Escape",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Counter Roll to Top",
+        "attempt_probability": 8
       },
       {
         "transition": "Step Over Escape",
-        "attempt_probability": 17
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Hip Escape to Guard",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Rolling to Guard",
+        "attempt_probability": 10
       }
     ],
     "knowledge_assessment": [
@@ -528,7 +542,7 @@
         "answer": "Arm extraction is the primary escape because it eliminates the arm-in choke structure that makes the Darce effective. Use your free hand to grip your trapped arm's wrist or forearm and pull it toward your body while simultaneously turning into your opponent. The extraction works because the Darce requires your arm trapped against your neck to create the compression - once the arm is free, the choke mechanics fail and you can recover to turtle or guard positions."
       },
       {
-        "question": "How do you apply pressure correctly as the defender to prevent the choke from tightening?",
+        "question": "How do you apply outward pressure correctly as the defender to prevent the choke from tightening?",
         "answer": "Apply outward pressure with your trapped shoulder by rotating it away from your neck, creating space between your neck and opponent's choking arm. Push into opponent's body with your free hand frame to prevent them from settling their weight and closing the space. Drive your hips away from opponent while keeping your shoulders turned into them. This combination of outward shoulder rotation and frame pressure prevents the compression needed to finish the choke."
       },
       {

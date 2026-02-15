@@ -276,11 +276,11 @@
     "transitions": [
       {
         "transition": "Crossface Pass",
-        "attempt_probability": 18
+        "attempt_probability": 26
       },
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 17
+        "attempt_probability": 10
       },
       {
         "transition": "Smash Pass",
@@ -288,15 +288,27 @@
       },
       {
         "transition": "Half Guard Pass",
-        "attempt_probability": 19
+        "attempt_probability": 13
       },
       {
         "transition": "Underhook Pass",
-        "attempt_probability": 17
+        "attempt_probability": 10
       },
       {
         "transition": "Kimura from Half Guard",
-        "attempt_probability": 13
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Back Step Pass",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Backstep from Deep Half",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Whizzer from Deep Half",
+        "attempt_probability": 2
       }
     ]
   },
@@ -533,31 +545,47 @@
     "transitions": [
       {
         "transition": "Waiter Sweep",
-        "attempt_probability": 15
-      },
-      {
-        "transition": "Deep Half Entry",
         "attempt_probability": 14
       },
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 17
+        "attempt_probability": 41
       },
       {
         "transition": "Rolling Back Take",
-        "attempt_probability": 14
-      },
-      {
-        "transition": "Electric Chair Submission",
         "attempt_probability": 11
       },
       {
+        "transition": "Electric Chair Submission",
+        "attempt_probability": 6
+      },
+      {
         "transition": "Underhook Sweep from Half",
-        "attempt_probability": 15
+        "attempt_probability": 9
       },
       {
         "transition": "X-Guard Sweep",
-        "attempt_probability": 14
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Single Leg X Entry",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Deep Half Sweep",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Deep Half to X-Guard",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Electric Chair Entry from Deep Half",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Homer Simpson Sweep",
+        "attempt_probability": 1
       }
     ]
   }

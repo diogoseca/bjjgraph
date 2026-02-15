@@ -504,27 +504,39 @@
     "transitions": [
       {
         "transition": "Omoplata",
-        "attempt_probability": 17
+        "attempt_probability": 13
       },
       {
         "transition": "Omoplata Sweep",
-        "attempt_probability": 19
+        "attempt_probability": 30
       },
       {
         "transition": "Omoplata to Back",
-        "attempt_probability": 15
+        "attempt_probability": 11
       },
       {
         "transition": "Triangle Setup",
-        "attempt_probability": 18
+        "attempt_probability": 14
       },
       {
         "transition": "Closed Guard to Omoplata",
-        "attempt_probability": 17
+        "attempt_probability": 13
       },
       {
         "transition": "Rolling Omoplata",
-        "attempt_probability": 14
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Cartwheel Escape from Omoplata",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Roll Forward from Omoplata",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Stack Defense from Omoplata",
+        "attempt_probability": 1
       }
     ],
     "knowledge_assessment": [

@@ -20,20 +20,20 @@ description: "Offensive guide for Modified Scarf Hold top position. Master press
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Americana from Side Control",
-      "text": "From this position, attempt Americana from Side Control. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Americana",
+      "text": "From this position, attempt Americana. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura from Side Control",
-      "text": "From this position, attempt Kimura from Side Control. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Kimura",
+      "text": "From this position, attempt Kimura. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar from Side Control",
-      "text": "From this position, attempt Armbar from Side Control. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Armbar Finish",
+      "text": "From this position, attempt Armbar Finish. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
@@ -213,11 +213,11 @@ The learning progression for Modified Scarf Hold top follows predictable stages.
 
 ## Available Attacks
 
-### [[Americana from Side Control]] (14% of attempts)
+### [[Americana]] (14% of attempts)
 
-### [[Kimura from Side Control]] (13% of attempts)
+### [[Kimura]] (13% of attempts)
 
-### [[Armbar from Side Control]] (12% of attempts)
+### [[Armbar Finish]] (12% of attempts)
 
 ### [[Side Control to Mount]] (15% of attempts)
 
@@ -225,7 +225,7 @@ The learning progression for Modified Scarf Hold top follows predictable stages.
 
 ### [[North-South Choke]] (11% of attempts)
 
-### [[Far Side Armbar]] (10% of attempts)
+### [[Armbar on Free Arm]] (10% of attempts)
 
 ### [[Arm Triangle]] (11% of attempts)
 
@@ -238,14 +238,14 @@ The learning progression for Modified Scarf Hold top follows predictable stages.
 ## Decision Making from This Position
 
 **If opponent's near arm is isolated and extended:**
-- Execute **[[Americana from Side Control]]** → [[Americana Control]] (Probability: 65%)
-- Execute **[[Kimura from Side Control]]** → [[Kimura Trap]] (Probability: 55%)
-- Execute **[[Armbar from Side Control]]** → [[Armbar Control]] (Probability: 50%)
+- Execute **[[Americana]]** → [[Americana Control]] (Probability: 65%)
+- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 55%)
+- Execute **[[Armbar Finish]]** → [[Armbar Control]] (Probability: 50%)
 
 
 **If opponent attempts to bridge or turn away from pressure:**
 - Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 70%)
-- Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 55%)
+- Execute **[[Back Take from Top]]** → [[Back Control]] (Probability: 55%)
 
 
 **If opponent turns into you to escape chest pressure:**
@@ -376,10 +376,10 @@ Partner attempts specific escape (bridge, turtle, turn-in) and you counter with 
 - **[[Kesa Gatame]]** - Traditional scarf hold variant
 - **[[North-South]]** - Common transition destination
 - **[[Mount]]** - Advancement position
-- **[[Americana from Side Control]]** - Primary submission attack
-- **[[Kimura from Side Control]]** - High-percentage submission
+- **[[Americana]]** - Primary submission attack transition
+- **[[Kimura]]** - High-percentage submission transition
 - **[[Arm Triangle]]** - Core choke submission
-- **[[Shoulder of Justice]]** - Specific pressure technique
+- **[[Reverse Scarf Hold]]** - Related scarf hold variation
 
 
 </section>

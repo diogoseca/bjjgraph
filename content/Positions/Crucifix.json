@@ -1,7 +1,7 @@
 {
   "name": "Crucifix",
   "slug": "crucifix",
-  "description": "Master Crucifix position in BJJ. Dominant arm-trapping control with 85% submission rate. Complete guide covering both perspectives, entries, submissions, and escapes.",
+  "description": "Master Crucifix position in BJJ. Dominant arm-trapping control with high submission rate. Complete guide covering both perspectives, entries, submissions, and escapes.",
   "variant_uniqueness": "Bilateral arm isolation creates asymmetric control",
   "overview": "The Crucifix position represents one of the most dominant and devastating control positions in Brazilian Jiu-Jitsu, characterized by the systematic isolation and control of both of the opponent's arms simultaneously. The position derives its name from the cross-like appearance created when both arms are trapped and extended away from the body, rendering the opponent virtually defenseless against submissions and positional advances.\n\nFrom a strategic perspective, the Crucifix embodies the principle of weapons denial—by controlling both arms through different mechanisms (typically one arm trapped with the legs and the other controlled with the hands), the position eliminates the opponent's primary defensive tools. This creates an extreme asymmetric advantage where the controlling practitioner has complete offensive freedom while the trapped opponent cannot defend their neck, create frames, or generate escape momentum.\n\nThe position can be entered from multiple contexts including back control, turtle attacks, failed guard passes, and scrambles where arm isolation opportunities present themselves. In competition, the Crucifix is particularly valued for its high submission rate and the psychological pressure it creates, as opponents immediately recognize the severity of their predicament. The position serves as both a control platform and a submission hub, offering access to rear naked chokes, armbars, and various arm attacks while maintaining positional dominance that is extraordinarily difficult to escape.\n\nMastery of the Crucifix from both perspectives—understanding how to establish and maintain control from top, and how to survive and escape from bottom—represents advanced technical knowledge in Brazilian Jiu-Jitsu. The position teaches critical lessons about arm positioning awareness, the importance of preventing compound control structures, and the systematic approach required for both attacking and defending in high-stakes positional scenarios.",
   "key_principles": [
@@ -48,7 +48,7 @@
     }
   ],
   "top": {
-    "overview": "Crucifix Top Position represents the pinnacle of arm isolation control in Brazilian Jiu-Jitsu, where the practitioner has successfully trapped both of the opponent's arms while maintaining dominant positional control from the back or side. This position creates an extreme asymmetric advantage where the top player has complete offensive freedom while the bottom opponent's defensive capabilities are virtually eliminated. The position is characterized by using the legs to trap one arm through a figure-four or triangle configuration while the hands control the other arm, creating a two-point control system that is extraordinarily difficult to escape.\n\nFrom a strategic perspective, Crucifix Top represents the systematic application of weapons denial—by controlling both of the opponent's primary defensive tools simultaneously, the top player creates a scenario where submissions become virtually inevitable. The position offers access to high-percentage rear naked chokes, armbars, and various arm attacks while maintaining positional dominance that requires minimal energy to hold. In competition settings, achieving full crucifix control often signals the end of the match, as escape rates drop below twenty percent even at the highest levels.\n\nMastery of Crucifix Top requires understanding precise weight distribution to prevent rolling escapes, maintaining constant pressure on both trapped arms, and the ability to transition smoothly between submission attempts without releasing core positional controls. The position can be entered from back control, turtle attacks, failed guard passes, or scrambles where arm isolation opportunities present themselves. Advanced practitioners use the crucifix not only as a finishing position but as a control platform that creates psychological pressure and forces opponents into defensive errors that open additional attack opportunities.",
+    "overview": "Crucifix Top Position represents the pinnacle of arm isolation control in Brazilian Jiu-Jitsu, where the practitioner has successfully trapped both of the opponent's arms while maintaining dominant positional control from the back or side. This position creates an extreme asymmetric advantage where the top player has complete offensive freedom while the bottom opponent's defensive capabilities are virtually eliminated. The position is characterized by using the legs to trap one arm through a figure-four or triangle configuration while the hands control the other arm, creating a two-point control system that is extraordinarily difficult to escape.\n\nFrom a strategic perspective, Crucifix Top represents the systematic application of weapons denial—by controlling both of the opponent's primary defensive tools simultaneously, the top player creates a scenario where submissions become virtually inevitable. The position offers access to high-percentage rear naked chokes, armbars, and various arm attacks while maintaining positional dominance that requires minimal energy to hold. In competition settings, achieving full crucifix control often signals the end of the match, as escape rates drop significantly even at the highest levels.\n\nMastery of Crucifix Top requires understanding precise weight distribution to prevent rolling escapes, maintaining constant pressure on both trapped arms, and the ability to transition smoothly between submission attempts without releasing core positional controls. The position can be entered from back control, turtle attacks, failed guard passes, or scrambles where arm isolation opportunities present themselves. Advanced practitioners use the crucifix not only as a finishing position but as a control platform that creates psychological pressure and forces opponents into defensive errors that open additional attack opportunities.",
     "state_properties": {
       "point_value": 4,
       "position_type": "Offensive/Controlling",
@@ -85,12 +85,12 @@
         "actions": [
           {
             "technique": "Rear Naked Choke",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 85
           },
           {
-            "technique": "Choke from Crucifix",
-            "target": "game-over",
+            "technique": "Neck Crank",
+            "target": "Game Over",
             "probability": 80
           }
         ]
@@ -99,13 +99,13 @@
         "condition": "If opponent tucks chin and defends neck aggressively",
         "actions": [
           {
-            "technique": "Armbar from Crucifix",
-            "target": "game-over",
+            "technique": "Armbar on Free Arm",
+            "target": "Game Over",
             "probability": 75
           },
           {
             "technique": "Kimura",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 70
           }
         ]
@@ -119,7 +119,7 @@
             "probability": 80
           },
           {
-            "technique": "Back Control to Crucifix",
+            "technique": "Back Control Maintenance",
             "target": "Back Control",
             "probability": 85
           }
@@ -130,7 +130,7 @@
         "actions": [
           {
             "technique": "Rear Naked Choke",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 70
           },
           {
@@ -250,7 +250,7 @@
       "average_time": "30-90 seconds"
     },
     "name": "Crucifix Top",
-    "description": "Master Crucifix Top Position in BJJ. Dominant arm-trapping control with 85% submission rate. Complete guide covering entries, submissions, and control mechanics.",
+    "description": "Master Crucifix Top in BJJ. Dominant arm-trapping control with systematic submission chains. Complete guide covering entries, control mechanics, and finishing sequences.",
     "tags": [
       "bjj",
       "position",
@@ -265,31 +265,35 @@
     "transitions": [
       {
         "transition": "Rear Naked Choke",
-        "attempt_probability": 16
-      },
-      {
-        "transition": "Choke from Crucifix",
-        "attempt_probability": 14
-      },
-      {
-        "transition": "Armbar from Crucifix",
-        "attempt_probability": 14
+        "attempt_probability": 8
       },
       {
         "transition": "Kimura",
-        "attempt_probability": 13
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Back Control Maintenance",
+        "attempt_probability": 19
+      },
+      {
+        "transition": "Choke from Crucifix",
+        "attempt_probability": 40
+      },
+      {
+        "transition": "Armbar from Crucifix",
+        "attempt_probability": 16
       },
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": 14
+        "attempt_probability": 6
       },
       {
-        "transition": "Back Control to Crucifix",
-        "attempt_probability": 15
+        "transition": "Crucifix Maintenance",
+        "attempt_probability": 3
       },
       {
-        "transition": "Side Control to North-South",
-        "attempt_probability": 14
+        "transition": "Crucifix to Mount",
+        "attempt_probability": 2
       }
     ],
     "knowledge_assessment": [
@@ -330,7 +334,7 @@
   "bottom": {
     "overview": "Crucifix Bottom Position represents one of the most disadvantaged and vulnerable defensive positions in Brazilian Jiu-Jitsu, where the practitioner finds themselves trapped with both arms controlled—one arm typically trapped behind the opponent's leg while the other is controlled by the opponent's grip or trapped under their own body. This asymmetric arm control severely limits defensive options and exposes the neck to multiple choke attacks, particularly the rear naked choke and various arm-in chokes.\n\nFrom a positional hierarchy standpoint, Crucifix Bottom sits near the absolute bottom of defensive positions, comparable only to fully mounted back control with both hooks. The fundamental challenge lies in the complete elimination of frames and the inability to create defensive barriers with the arms. Unlike standard back control where both arms remain somewhat mobile, the crucifix's defining characteristic is the systematic removal of arm functionality, creating what can be described as a structural collapse of defensive architecture.\n\nSurvival from this position requires immediate recognition, calm systematic defense, and precise technical execution under extreme pressure. The window for escape narrows rapidly as the top player consolidates control and advances toward submissions. Understanding the hierarchy of threats, maintaining defensive posture of the neck and remaining free arm, and executing precise escape sequences represent the core competencies required for position recovery. Competition statistics show that practitioners who recognize crucifix entry early and act decisively have significantly higher escape rates than those who allow full consolidation of the position.",
     "state_properties": {
-      "point_value": 0,
+      "point_value": -4,
       "position_type": "Defensive",
       "risk_level": "High",
       "energy_cost": "High",
@@ -375,7 +379,7 @@
           },
           {
             "technique": "Tap Out",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 10
           }
         ]
@@ -384,17 +388,17 @@
         "condition": "If trapped arm begins to free from leg trap with space creation",
         "actions": [
           {
-            "technique": "Arm Extraction",
+            "technique": "Arm Extraction to Turtle",
             "target": "Turtle",
             "probability": 55
           },
           {
-            "technique": "Hip Escape to Guard Recovery",
+            "technique": "Hip Escape to Guard",
             "target": "Closed Guard",
             "probability": 30
           },
           {
-            "technique": "Roll to Back Control",
+            "technique": "Roll to Guard",
             "target": "Back Control",
             "probability": 15
           }
@@ -409,7 +413,7 @@
             "probability": 45
           },
           {
-            "technique": "Elbow Escape",
+            "technique": "Elbow Escape to Guard",
             "target": "Half Guard",
             "probability": 35
           },
@@ -429,12 +433,12 @@
             "probability": 50
           },
           {
-            "technique": "Hip shift and elbow escape",
+            "technique": "Shrimp Escape",
             "target": "Side Control",
             "probability": 35
           },
           {
-            "technique": "Technical Standup",
+            "technique": "Standing Escape",
             "target": "Clinch",
             "probability": 15
           }
@@ -470,7 +474,7 @@
       {
         "error": "Giving up mentally when crucifix is secured, assuming position is inescapable",
         "consequence": "Self-fulfilling prophecy where lack of defensive effort leads to inevitable submission when escapes were technically possible",
-        "correction": "Maintain aggressive defensive mindset—statistics show significant escape rates even from consolidated crucifix with proper technique"
+        "correction": "Maintain aggressive defensive mindset—significant escape rates exist even from consolidated crucifix with proper technique"
       }
     ],
     "training_drills": [
@@ -521,15 +525,15 @@
         "relationship": "Ideal escape destination—return to guard game"
       },
       {
-        "name": "Hip Escape",
+        "name": "Shrimp Escape",
         "relationship": "Primary escape mechanism from crucifix"
       },
       {
-        "name": "Elbow Escape",
+        "name": "Elbow Escape to Guard",
         "relationship": "Alternative escape when hip escape is blocked"
       },
       {
-        "name": "Back Escape",
+        "name": "Back Door Escape",
         "relationship": "Broader defensive system containing crucifix escapes"
       }
     ],
@@ -559,28 +563,40 @@
     ],
     "transitions": [
       {
-        "transition": "Hip Escape to Guard Recovery",
-        "attempt_probability": 17
-      },
-      {
         "transition": "Arm Extraction",
-        "attempt_probability": 21
+        "attempt_probability": 40
       },
       {
-        "transition": "Back Take from Bottom",
+        "transition": "Shrimp Escape",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Defensive Roll",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Explosive Bridge to Turtle",
         "attempt_probability": 15
       },
       {
-        "transition": "Elbow Escape",
-        "attempt_probability": 16
+        "transition": "Roll to Guard",
+        "attempt_probability": 9
       },
       {
-        "transition": "Hip Escape",
-        "attempt_probability": 19
+        "transition": "Hip Escape to Guard",
+        "attempt_probability": 7
       },
       {
-        "transition": "Technical Standup",
-        "attempt_probability": 12
+        "transition": "Arm Recovery from Crucifix",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Crucifix Choke Defense",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Hip Escape from Crucifix",
+        "attempt_probability": 1
       }
     ],
     "knowledge_assessment": [

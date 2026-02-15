@@ -1,0 +1,13 @@
+{
+  "name": "Hip Escape from Russian Cowboy",
+  "description": "",
+  "tags": [],
+  "from_position": "Russian Cowboy/Bottom",
+  "outcomes": [
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

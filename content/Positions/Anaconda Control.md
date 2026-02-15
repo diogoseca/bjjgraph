@@ -91,17 +91,19 @@ The effectiveness of Anaconda Control stems from its multi-layered control mecha
 ### Available Transitions
 
 
-- **[[Hip Escape]]** (17% of attempts)
+- **[[Hip Escape to Guard]]** (15% of attempts)
 
-- **[[Technical Standup]]** (20% of attempts)
+- **[[Defensive Roll]]** (58% of attempts)
 
-- **[[Rolling to Guard]]** (15% of attempts)
+- **[[Frame Creation]]** (15% of attempts)
 
-- **[[Frame and Shrimp]]** (18% of attempts)
+- **[[Anaconda Grip Break to Front Headlock]]** (7% of attempts)
 
-- **[[Rolling Escape]]** (16% of attempts)
+- **[[Frame and Posture from Anaconda]]** (3% of attempts)
 
-- **[[Hip Movement]]** (14% of attempts)
+- **[[Roll Defense from Anaconda]]** (1% of attempts)
+
+- **[[Rolling Escape from Anaconda]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -162,17 +164,17 @@ The effectiveness of Anaconda Control stems from its multi-layered control mecha
 ### Available Transitions
 
 
-- **[[Anaconda Choke]]** (19% of attempts)
+- **[[Transition to Dead Orchard Control]]** (29% of attempts)
 
-- **[[Anaconda from Turtle]]** (20% of attempts)
+- **[[Anaconda Choke]]** (55% of attempts)
 
-- **[[Front Headlock to Anaconda]]** (17% of attempts)
+- **[[Switch to Darce Configuration]]** (9% of attempts)
 
-- **[[Front Headlock to Darce]]** (16% of attempts)
+- **[[Anaconda Control to Dead Orchard Control]]** (4% of attempts)
 
-- **[[Back Take Generic]]** (14% of attempts)
+- **[[Anaconda to Side Control]]** (2% of attempts)
 
-- **[[Side Control to Mount]]** (14% of attempts)
+- **[[Back Take from Anaconda]]** (1% of attempts)
 
 
 ### Common Mistakes

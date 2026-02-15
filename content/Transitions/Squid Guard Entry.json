@@ -1,6 +1,6 @@
 {
   "name": "Squid Guard Entry",
-  "description": "Learn Squid Guard Entry in BJJ. Step-by-step lapel wrap around opponent's arm from guard. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "description": "Learn Squid Guard Entry in BJJ. Step-by-step lapel wrap around opponent's arm from guard. Complete guide with setup, execution, and defense.",
   "tags": [
     "bjj",
     "transition",
@@ -8,198 +8,36 @@
     "lapel-guard",
     "gi-specific",
     "guard-retention",
-    "arm-control"
+    "arm-control",
+    "open-guard",
+    "modern-bjj"
   ],
   "from_position": "Lapel Guard/Bottom",
   "outcomes": [
     {
-      "to": "Squid Guard",
-      "probability": 65,
+      "to": "Squid Guard/Bottom",
+      "probability": 58,
       "result": "success"
     },
     {
-      "to": "Lapel Guard",
-      "probability": 25,
+      "to": "Lapel Guard/Bottom",
+      "probability": 27,
       "result": "failure"
     },
     {
-      "to": "Half Guard",
-      "probability": 10,
+      "to": "Half Guard/Bottom",
+      "probability": 15,
       "result": "counter"
     }
   ],
+  "success_rate": 58,
   "overview": "Squid Guard Entry represents a critical transition within the modern lapel guard system, establishing arm control that fundamentally changes the guard passing equation. Unlike worm guard which wraps the lapel around the opponent's leg, squid guard redirects the fabric around their posting arm, creating a persistent barrier that neutralizes their ability to base and pressure pass.\n\nThe strategic value of squid guard lies in its ability to shut down pressure passers who drive forward with heavy upper body weight. When the opponent commits to smashing through your guard, the arm wrap converts their forward momentum into vulnerability—their posting arm becomes trapped, eliminating their ability to maintain balance or frame against sweeps. This makes squid guard particularly effective against larger, stronger opponents who rely on top pressure.\n\nFrom a systems perspective, squid guard serves as both an offensive platform and a defensive refuge. When worm guard configurations are being cleared, transitioning to squid guard maintains lapel control while changing the control point. The arm wrap also opens unique submission pathways including omoplata entries and triangle setups that exploit the opponent's compromised posture. Mastery of squid guard entry dramatically expands your lapel guard game by adding a complementary configuration that addresses worm guard's weaknesses.",
-  "key_principles": [
-    "Redirect lapel fabric to the posting arm when opponent drives forward with pressure",
-    "Maintain hip angle toward the lapel grip side throughout the entry sequence",
-    "Use opponent's forward commitment against them by timing the arm wrap with their pressure",
-    "Keep secondary grip on collar or sleeve to prevent posture recovery during transition",
-    "Create mechanical barrier around arm before opponent can retract or change angle",
-    "Combine arm wrap with active leg frames to prevent pass completion during entry"
+  "conditions": [
+    "Lapel fabric already extracted from opponent's gi and controlled by bottom player",
+    "Opponent committing to forward pressure with posting arm extended",
+    "Bottom player maintains at least one secondary grip on collar or sleeve",
+    "Sufficient slack in lapel to complete the arm wrap configuration"
   ],
-  "setup_requirements": [
-    "Established lapel grip with fabric already extracted from opponent's gi",
-    "Opponent driving forward with pressure passing approach using posting arm",
-    "Secondary grip controlling collar or far sleeve to limit opponent's options",
-    "Hip angle oriented toward lapel grip side with active leg frames in place",
-    "Sufficient slack in lapel fabric to complete wrap around opponent's arm"
-  ],
-  "execution_steps": [
-    {
-      "step_number": 1,
-      "action": "Recognize trigger",
-      "description": "Identify when opponent commits to pressure passing by driving forward with their posting arm extended toward your hip or shoulder—this forward commitment is the essential trigger for squid guard entry."
-    },
-    {
-      "step_number": 2,
-      "action": "Feed lapel under arm",
-      "description": "Thread the lapel fabric under opponent's posting arm from inside to outside, passing the fabric beneath their tricep while maintaining your grip on the lapel end—use your elbow to create space for the feed."
-    },
-    {
-      "step_number": 3,
-      "action": "Secure arm wrap",
-      "description": "Complete the wrap by pulling the lapel over opponent's arm and securing a deep grip on the fabric behind their shoulder, creating a figure-four configuration around their tricep and shoulder joint."
-    },
-    {
-      "step_number": 4,
-      "action": "Establish collar control",
-      "description": "With free hand, secure cross collar grip or same-side collar grip to control opponent's posture and prevent them from creating distance or changing angle to escape the arm wrap."
-    },
-    {
-      "step_number": 5,
-      "action": "Set leg frames",
-      "description": "Position your outside leg as a frame against opponent's hip while your inside leg hooks behind their knee or establishes lasso-style control, creating redundant defensive barriers."
-    },
-    {
-      "step_number": 6,
-      "action": "Angle hips",
-      "description": "Rotate your hips to face the trapped arm side at approximately 45 degrees, loading sweeping mechanics and preventing opponent from simply driving straight through the guard despite the arm entanglement."
-    }
-  ],
-  "common_counters": [
-    {
-      "counter": "Opponent retracts arm before wrap completes and creates distance to reset",
-      "effectiveness": "High",
-      "your_response": "Maintain collar grip and immediately transition to spider or lasso guard using the same lapel fabric, preventing complete disengagement"
-    },
-    {
-      "counter": "Opponent circles arm to strip lapel wrap before configuration sets",
-      "effectiveness": "Medium",
-      "your_response": "Follow their circular motion with your hips, maintaining tension on the lapel while transitioning to worm guard around their lead leg"
-    },
-    {
-      "counter": "Opponent backsteps to change angle and avoid arm wrap completion",
-      "effectiveness": "Medium",
-      "your_response": "Sit up aggressively and pursue back take as their backstep opens the path behind them, using lapel grip to maintain connection"
-    },
-    {
-      "counter": "Opponent posts opposite arm and attempts to pressure through despite wrap",
-      "effectiveness": "Low",
-      "your_response": "Use their committed posture to load omoplata entry on the wrapped arm, as their pressure prevents escape once rotation begins"
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Attempting squid guard entry against opponent with retracted arms and good posture",
-      "consequence": "Lapel cannot reach around arm, leaving you in compromised open guard with lapel grip but no configuration",
-      "correction": "Wait for opponent to commit forward with pressure passing or bait the posting arm by threatening sweep in opposite direction"
-    },
-    {
-      "error": "Releasing collar control while feeding lapel around arm",
-      "consequence": "Opponent creates distance and retracts arm before wrap completes, resetting the exchange",
-      "correction": "Maintain secondary grip throughout entry sequence—the collar grip anchors opponent in place while lapel hand works"
-    },
-    {
-      "error": "Staying flat on back during entry without angling hips toward wrapped arm",
-      "consequence": "Opponent can still complete pressure pass despite arm wrap by smashing through flat guard structure",
-      "correction": "Angle hips at least 45 degrees toward trapped arm side, loading sweep mechanics and creating structural resistance"
-    },
-    {
-      "error": "Using excessive grip strength on lapel rather than structural body positioning",
-      "consequence": "Rapid forearm fatigue compromises grip within minutes, causing configuration to fail in extended exchanges",
-      "correction": "Hook fingers through lapel and use hip angle plus leg frames to maintain tension structurally rather than muscularly"
-    },
-    {
-      "error": "Neglecting leg frames while focusing exclusively on arm wrap",
-      "consequence": "Opponent can knee cut through legs while arm is wrapped, passing guard despite upper body entanglement",
-      "correction": "Establish active leg frames concurrent with arm wrap—outside leg frames hip while inside leg hooks or lassos for redundant defense"
-    }
-  ],
-  "training_progressions": [
-    {
-      "phase": "Week 1-2",
-      "focus": "Fundamentals",
-      "description": "Practice lapel feeding mechanics with compliant partner. Focus on threading lapel under arm from inside to outside, securing deep grip, and establishing basic hip angle. No resistance—emphasize smooth, efficient motion."
-    },
-    {
-      "phase": "Week 3-4",
-      "focus": "Timing",
-      "description": "Partner applies light forward pressure while you time the entry. Recognize the trigger of their posting arm extending forward and execute entry during their commitment. Practice transitioning between worm and squid guard based on opponent's posture."
-    },
-    {
-      "phase": "Week 5-6",
-      "focus": "Combinations",
-      "description": "Chain squid guard entry with follow-up attacks. Partner defends with moderate resistance. Practice sweep entries, omoplata setups, and triangle transitions from established squid guard. Work recovery when entry fails."
-    },
-    {
-      "phase": "Week 7+",
-      "focus": "Live application",
-      "description": "Integrate squid guard entry into full sparring. Start from open guard and work to establish lapel configurations against fully resisting opponents. Track success rate and identify patterns where entry succeeds or fails."
-    }
-  ],
-  "variants_and_adaptations": [
-    {
-      "variant_name": "Deep Squid Entry",
-      "description": "Thread lapel deeper around arm, passing under both the tricep and bicep before securing grip behind opponent's shoulder blade. Creates tighter configuration that is harder to strip but requires more time to establish.",
-      "when_to_use": "When opponent is committed to heavy pressure and unlikely to retract arm quickly"
-    },
-    {
-      "variant_name": "Quick Switch Squid",
-      "description": "Rapid transition from worm guard when opponent begins backstep escape. Instead of pursuing back take, redirect lapel around their posting arm as they change angle. Uses their backstep momentum to facilitate arm wrap.",
-      "when_to_use": "When opponent recognizes worm guard and attempts to backstep but leaves posting arm extended"
-    },
-    {
-      "variant_name": "Standing Squid Entry",
-      "description": "Enter squid guard from seated guard against standing opponent by pulling them forward with collar grip and threading lapel around their lead arm as they post to prevent fall. Requires excellent timing and collar control.",
-      "when_to_use": "Against standing passers who post arm when pulled off balance"
-    }
-  ],
-  "knowledge_assessment": [
-    {
-      "question": "What is the primary trigger that indicates the optimal moment for squid guard entry?",
-      "answer": "The primary trigger is when the opponent commits to pressure passing by driving forward with their posting arm extended toward your hip or shoulder. This forward commitment traps them in the path of the lapel wrap and prevents quick retraction. Attempting entry against a postured opponent with retracted arms will fail because the lapel cannot reach around the arm."
-    },
-    {
-      "question": "How does squid guard entry differ mechanically from worm guard entry?",
-      "answer": "Worm guard wraps the lapel around opponent's leg, typically threading behind the knee to control their base. Squid guard redirects the lapel around the opponent's posting arm, threading under the tricep. Worm guard neutralizes leg-based passing while squid guard neutralizes pressure passing. The choice depends on whether opponent is attacking with their legs or driving forward with upper body pressure."
-    },
-    {
-      "question": "Your opponent begins to retract their posting arm as you initiate the lapel feed—what adjustment maintains guard?",
-      "answer": "Maintain your collar grip to prevent them from creating distance, then immediately transition to spider guard or lasso guard using the same lapel fabric. Feed the lapel into a bicep wrap instead of completing the squid configuration. This converts their defensive retraction into a different guard configuration rather than losing all control."
-    },
-    {
-      "question": "Why is hip angle critical during squid guard entry and what is the optimal position?",
-      "answer": "Hip angle of approximately 45 degrees toward the trapped arm side is essential because it loads sweeping mechanics and creates structural resistance to pressure passing. A flat hip position allows the opponent to smash through the guard despite the arm wrap. The angled hips use skeletal structure rather than muscular effort to maintain the configuration."
-    },
-    {
-      "question": "What secondary grip must be maintained throughout squid guard entry and why?",
-      "answer": "Collar grip (cross collar or same-side) must be maintained throughout the entry because it anchors the opponent in position while your lapel hand works. Without this grip, opponents can create distance and retract their arm before the wrap completes. The collar grip also prevents posture recovery after the arm wrap is established."
-    },
-    {
-      "question": "How do you prevent the opponent from completing a knee cut pass while establishing squid guard?",
-      "answer": "Establish active leg frames concurrent with the arm wrap. Your outside leg frames against their hip to block forward advancement, while your inside leg hooks behind their knee or establishes lasso-style control around their arm. These redundant leg defenses prevent leg-based passing while you complete the upper body configuration."
-    },
-    {
-      "question": "When should you transition from worm guard to squid guard during a guard exchange?",
-      "answer": "Transition when the opponent shifts from standing or leg-based passing to pressure passing with forward drive. If they begin smashing forward with upper body weight rather than working around your worm guard, redirect the lapel to their posting arm. Also transition when they successfully clear the leg wrap but leave their posting arm exposed."
-    },
-    {
-      "question": "What submission becomes immediately available once squid guard is fully established?",
-      "answer": "Omoplata becomes immediately available because the opponent's arm is already wrapped and their posture is compromised. Rotate your hips under their trapped arm while maintaining the lapel wrap, threading your leg over their shoulder. Their arm is pre-positioned for the shoulder lock and the lapel grip prevents them from posturing out of the attack."
-    }
-  ],
-  "safety_considerations": "Squid guard entry is a relatively low-risk technique focused on control rather than joint manipulation. The primary safety concern is maintaining proper finger alignment when gripping the lapel fabric to prevent finger injuries during grip fighting. Avoid death-gripping the lapel with excessive force, which can strain the forearm and lead to repetitive stress injuries. When drilling, ensure partners communicate about shoulder discomfort as the arm wrap can place stress on the shoulder joint when combined with aggressive sweeping attempts. During live training, be prepared to release the configuration if your partner taps or indicates discomfort. The arm wrap itself does not create submission danger, but follow-up attacks like omoplata require standard joint lock protocols.",
-  "position_integration": "Squid guard entry serves as a critical node in the lapel guard system, providing an alternative configuration when worm guard is being cleared or when opponents choose pressure passing over leg-based approaches. The technique integrates with the broader open guard game by offering a gi-specific solution to pressure passers that no-gi guards cannot replicate. From squid guard, practitioners can access sweeps, back takes, and submissions including omoplata and triangle entries. The position also transitions fluidly to spider guard and lasso guard if the arm wrap fails, maintaining guard retention through configuration changes. Understanding squid guard dramatically expands offensive options from lapel guard bottom while providing defensive answers to common passing approaches.",
   "related_content": [
     {
       "name": "Lapel Guard",
@@ -240,7 +78,348 @@
     {
       "name": "Lapel Sweep to Back",
       "relationship": "Primary sweep option using squid guard configuration"
+    },
+    {
+      "name": "Ringworm Guard",
+      "relationship": "Advanced lapel configuration that can incorporate squid guard elements"
     }
   ],
-  "success_rate": 58
+  "attacker": {
+    "name": "Squid Guard Entry Attacker",
+    "description": "How to execute Squid Guard Entry in BJJ. Attacking perspective with setup, execution steps, and counters for lapel arm wrap.",
+    "overview": "Squid Guard Entry represents a critical transition within the modern lapel guard system, establishing arm control that fundamentally changes the guard passing equation. Unlike worm guard which wraps the lapel around the opponent's leg, squid guard redirects the fabric around their posting arm, creating a persistent barrier that neutralizes their ability to base and pressure pass.\n\nThe strategic value of squid guard lies in its ability to shut down pressure passers who drive forward with heavy upper body weight. When the opponent commits to smashing through your guard, the arm wrap converts their forward momentum into vulnerability—their posting arm becomes trapped, eliminating their ability to maintain balance or frame against sweeps. This makes squid guard particularly effective against larger, stronger opponents who rely on top pressure.\n\nFrom a systems perspective, squid guard serves as both an offensive platform and a defensive refuge. When worm guard configurations are being cleared, transitioning to squid guard maintains lapel control while changing the control point. The arm wrap also opens unique submission pathways including omoplata entries and triangle setups that exploit the opponent's compromised posture. Mastery of squid guard entry dramatically expands your lapel guard game by adding a complementary configuration that addresses worm guard's weaknesses.",
+    "key_principles": [
+      "Redirect lapel fabric to the posting arm when opponent drives forward with pressure",
+      "Maintain hip angle toward the lapel grip side throughout the entry sequence",
+      "Use opponent's forward commitment against them by timing the arm wrap with their pressure",
+      "Keep secondary grip on collar or sleeve to prevent posture recovery during transition",
+      "Create mechanical barrier around arm before opponent can retract or change angle",
+      "Combine arm wrap with active leg frames to prevent pass completion during entry"
+    ],
+    "setup_requirements": [
+      "Established lapel grip with fabric already extracted from opponent's gi",
+      "Opponent driving forward with pressure passing approach using posting arm",
+      "Secondary grip controlling collar or far sleeve to limit opponent's options",
+      "Hip angle oriented toward lapel grip side with active leg frames in place",
+      "Sufficient slack in lapel fabric to complete wrap around opponent's arm"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Recognize trigger",
+        "description": "Identify when opponent commits to pressure passing by driving forward with their posting arm extended toward your hip or shoulder—this forward commitment is the essential trigger for squid guard entry."
+      },
+      {
+        "step_number": 2,
+        "action": "Feed lapel under arm",
+        "description": "Thread the lapel fabric under opponent's posting arm from inside to outside, passing the fabric beneath their tricep while maintaining your grip on the lapel end—use your elbow to create space for the feed."
+      },
+      {
+        "step_number": 3,
+        "action": "Secure arm wrap",
+        "description": "Complete the wrap by pulling the lapel over opponent's arm and securing a deep grip on the fabric behind their shoulder, creating a figure-four configuration around their tricep and shoulder joint."
+      },
+      {
+        "step_number": 4,
+        "action": "Establish collar control",
+        "description": "With free hand, secure cross collar grip or same-side collar grip to control opponent's posture and prevent them from creating distance or changing angle to escape the arm wrap."
+      },
+      {
+        "step_number": 5,
+        "action": "Set leg frames",
+        "description": "Position your outside leg as a frame against opponent's hip while your inside leg hooks behind their knee or establishes lasso-style control, creating redundant defensive barriers."
+      },
+      {
+        "step_number": 6,
+        "action": "Angle hips",
+        "description": "Rotate your hips to face the trapped arm side at approximately 45 degrees, loading sweeping mechanics and preventing opponent from simply driving straight through the guard despite the arm entanglement."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent retracts arm before wrap completes and creates distance to reset",
+        "effectiveness": "High",
+        "your_response": "Maintain collar grip and immediately transition to spider or lasso guard using the same lapel fabric, preventing complete disengagement",
+        "targets_outcome": "Lapel Guard/Bottom"
+      },
+      {
+        "counter": "Opponent circles arm to strip lapel wrap before configuration sets",
+        "effectiveness": "Medium",
+        "your_response": "Follow their circular motion with your hips, maintaining tension on the lapel while transitioning to worm guard around their lead leg",
+        "targets_outcome": "Lapel Guard/Bottom"
+      },
+      {
+        "counter": "Opponent backsteps to change angle and avoid arm wrap completion",
+        "effectiveness": "Medium",
+        "your_response": "Sit up aggressively and pursue back take as their backstep opens the path behind them, using lapel grip to maintain connection",
+        "targets_outcome": "Lapel Guard/Bottom"
+      },
+      {
+        "counter": "Opponent posts opposite arm and attempts to pressure through despite wrap",
+        "effectiveness": "Low",
+        "your_response": "Use their committed posture to load omoplata entry on the wrapped arm, as their pressure prevents escape once rotation begins",
+        "targets_outcome": "Squid Guard/Bottom"
+      },
+      {
+        "counter": "Opponent drives knee through your legs attempting knee cut pass while you feed lapel",
+        "effectiveness": "Medium",
+        "your_response": "Abandon the arm wrap and use inside leg to block the knee cut, establishing knee shield half guard as a fallback defensive position",
+        "targets_outcome": "Half Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting squid guard entry against opponent with retracted arms and good posture",
+        "consequence": "Lapel cannot reach around arm, leaving you in compromised open guard with lapel grip but no configuration",
+        "correction": "Wait for opponent to commit forward with pressure passing or bait the posting arm by threatening sweep in opposite direction"
+      },
+      {
+        "error": "Releasing collar control while feeding lapel around arm",
+        "consequence": "Opponent creates distance and retracts arm before wrap completes, resetting the exchange",
+        "correction": "Maintain secondary grip throughout entry sequence—the collar grip anchors opponent in place while lapel hand works"
+      },
+      {
+        "error": "Staying flat on back during entry without angling hips toward wrapped arm",
+        "consequence": "Opponent can still complete pressure pass despite arm wrap by smashing through flat guard structure",
+        "correction": "Angle hips at least 45 degrees toward trapped arm side, loading sweep mechanics and creating structural resistance"
+      },
+      {
+        "error": "Using excessive grip strength on lapel rather than structural body positioning",
+        "consequence": "Rapid forearm fatigue compromises grip within minutes, causing configuration to fail in extended exchanges",
+        "correction": "Hook fingers through lapel and use hip angle plus leg frames to maintain tension structurally rather than muscularly"
+      },
+      {
+        "error": "Neglecting leg frames while focusing exclusively on arm wrap",
+        "consequence": "Opponent can knee cut through legs while arm is wrapped, passing guard despite upper body entanglement",
+        "correction": "Establish active leg frames concurrent with arm wrap—outside leg frames hip while inside leg hooks or lassos for redundant defense"
+      },
+      {
+        "error": "Threading lapel from outside to inside instead of inside to outside",
+        "consequence": "Wrap does not lock around the arm properly and opponent can easily shrug the fabric off with a simple elbow flare",
+        "correction": "Always feed the lapel under the arm from inside (between your bodies) to outside, ensuring the wrap catches the tricep and locks behind the shoulder"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Fundamentals",
+        "description": "Practice lapel feeding mechanics with compliant partner. Focus on threading lapel under arm from inside to outside, securing deep grip, and establishing basic hip angle. No resistance—emphasize smooth, efficient motion."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Timing",
+        "description": "Partner applies light forward pressure while you time the entry. Recognize the trigger of their posting arm extending forward and execute entry during their commitment. Practice transitioning between worm and squid guard based on opponent's posture."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Combinations",
+        "description": "Chain squid guard entry with follow-up attacks. Partner defends with moderate resistance. Practice sweep entries, omoplata setups, and triangle transitions from established squid guard. Work recovery when entry fails."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live application",
+        "description": "Integrate squid guard entry into full sparring. Start from open guard and work to establish lapel configurations against fully resisting opponents. Track success rate and identify patterns where entry succeeds or fails."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary trigger that indicates the optimal moment for squid guard entry?",
+        "answer": "The primary trigger is when the opponent commits to pressure passing by driving forward with their posting arm extended toward your hip or shoulder. This forward commitment traps them in the path of the lapel wrap and prevents quick retraction. Attempting entry against a postured opponent with retracted arms will fail because the lapel cannot reach around the arm."
+      },
+      {
+        "question": "How does squid guard entry differ mechanically from worm guard entry?",
+        "answer": "Worm guard wraps the lapel around opponent's leg, typically threading behind the knee to control their base. Squid guard redirects the lapel around the opponent's posting arm, threading under the tricep. Worm guard neutralizes leg-based passing while squid guard neutralizes pressure passing. The choice depends on whether opponent is attacking with their legs or driving forward with upper body pressure."
+      },
+      {
+        "question": "Your opponent begins to retract their posting arm as you initiate the lapel feed—what adjustment maintains guard?",
+        "answer": "Maintain your collar grip to prevent them from creating distance, then immediately transition to spider guard or lasso guard using the same lapel fabric. Feed the lapel into a bicep wrap instead of completing the squid configuration. This converts their defensive retraction into a different guard configuration rather than losing all control."
+      },
+      {
+        "question": "Why is hip angle critical during squid guard entry and what is the optimal position?",
+        "answer": "Hip angle of approximately 45 degrees toward the trapped arm side is essential because it loads sweeping mechanics and creates structural resistance to pressure passing. A flat hip position allows the opponent to smash through the guard despite the arm wrap. The angled hips use skeletal structure rather than muscular effort to maintain the configuration."
+      },
+      {
+        "question": "What secondary grip must be maintained throughout squid guard entry and why?",
+        "answer": "Collar grip (cross collar or same-side) must be maintained throughout the entry because it anchors the opponent in position while your lapel hand works. Without this grip, opponents can create distance and retract their arm before the wrap completes. The collar grip also prevents posture recovery after the arm wrap is established."
+      },
+      {
+        "question": "How do you prevent the opponent from completing a knee cut pass while establishing squid guard?",
+        "answer": "Establish active leg frames concurrent with the arm wrap. Your outside leg frames against their hip to block forward advancement, while your inside leg hooks behind their knee or establishes lasso-style control around their arm. These redundant leg defenses prevent leg-based passing while you complete the upper body configuration."
+      },
+      {
+        "question": "When should you transition from worm guard to squid guard during a guard exchange?",
+        "answer": "Transition when the opponent shifts from standing or leg-based passing to pressure passing with forward drive. If they begin smashing forward with upper body weight rather than working around your worm guard, redirect the lapel to their posting arm. Also transition when they successfully clear the leg wrap but leave their posting arm exposed."
+      },
+      {
+        "question": "What submission becomes immediately available once squid guard is fully established?",
+        "answer": "Omoplata becomes immediately available because the opponent's arm is already wrapped and their posture is compromised. Rotate your hips under their trapped arm while maintaining the lapel wrap, threading your leg over their shoulder. Their arm is pre-positioned for the shoulder lock and the lapel grip prevents them from posturing out of the attack."
+      },
+      {
+        "question": "Your opponent drives a knee cut while you are mid-feed on the lapel—what is the correct response?",
+        "answer": "Abandon the squid guard entry and immediately address the passing threat. Use your inside leg to establish a knee shield blocking the knee cut, while maintaining your collar grip to prevent them from flattening you. Transition to knee shield half guard as a defensive fallback, then re-extract the lapel once you have stabilized the position."
+      },
+      {
+        "question": "What direction of force should the lapel feed travel relative to the opponent's arm?",
+        "answer": "The lapel must travel from inside to outside, threading under the opponent's arm from between your bodies outward past their tricep. This direction ensures the wrap catches behind the shoulder and locks around the arm mechanically. Feeding from outside to inside creates a loose wrap that the opponent can shrug off by simply flaring their elbow."
+      },
+      {
+        "question": "How do you chain squid guard entry with a back take when the opponent backsteps to avoid the wrap?",
+        "answer": "When the opponent backsteps, their rotation opens the path behind them. Maintain your lapel grip as an anchor and sit up aggressively, following their rotation. Use the lapel tension to prevent them from fully disengaging while your free hand reaches for their far hip or belt. Their backstep momentum combined with your pursuit creates the back take angle."
+      },
+      {
+        "question": "What grip endurance strategy prevents forearm fatigue during extended squid guard exchanges?",
+        "answer": "Hook fingers through the lapel fabric rather than squeezing it in a fist grip. Use your hip angle and leg frames to maintain structural tension on the lapel rather than relying on muscular forearm contraction. This allows the skeletal system and body positioning to do the work, preserving grip endurance for the duration of a competitive match."
+      }
+    ],
+    "safety_considerations": "Squid guard entry is a relatively low-risk technique focused on control rather than joint manipulation. The primary safety concern is maintaining proper finger alignment when gripping the lapel fabric to prevent finger injuries during grip fighting. Avoid death-gripping the lapel with excessive force, which can strain the forearm and lead to repetitive stress injuries. When drilling, ensure partners communicate about shoulder discomfort as the arm wrap can place stress on the shoulder joint when combined with aggressive sweeping attempts. During live training, be prepared to release the configuration if your partner taps or indicates discomfort. The arm wrap itself does not create submission danger, but follow-up attacks like omoplata require standard joint lock protocols."
+  },
+  "defender": {
+    "name": "Squid Guard Entry Defender",
+    "description": "How to defend against Squid Guard Entry in BJJ. Recognition cues, defensive options, and escape strategies for top players facing lapel arm wrap.",
+    "overview": "Defending against squid guard entry requires the top player to recognize the threat early and prevent the lapel from completing its wrap around their posting arm. The critical window for defense is during the feeding phase—once the lapel locks behind the shoulder, escaping becomes significantly more difficult and energy-intensive. The top player's primary defensive strategy centers on arm retraction, posture maintenance, and preventing the bottom player from achieving the hip angle necessary for the configuration to function.\n\nFrom the defender's perspective, the greatest danger is not the squid guard itself but the cascading attacks it enables. An established squid guard creates omoplata entries, triangle setups, and powerful sweeps that exploit the trapped arm. Therefore, prevention is vastly preferable to escape. Recognizing the bottom player's lapel extraction and intent to feed the fabric around your arm should trigger immediate defensive protocols: retract the posting arm, create distance, or change your passing angle to deny the feed path.\n\nWhen prevention fails and the arm wrap is partially or fully established, the defender must choose between stripping the lapel configuration through technical unwinding, changing angle through backstep to reduce the wrap's effectiveness, or driving heavy pressure to compress the bottom player and limit their offensive options. Each approach carries different risks, and the correct choice depends on the depth of the wrap and the bottom player's hip positioning.",
+    "key_principles": [
+      "Recognize lapel extraction early and deny the feed path before the wrap begins",
+      "Retract the posting arm immediately when you feel lapel fabric threading underneath",
+      "Maintain upright posture to deny the bottom player the angle needed for effective arm wrap",
+      "Control the bottom player's lapel-gripping hand to prevent fabric manipulation",
+      "Change passing angle through backstep or lateral movement when direct retraction fails",
+      "Never allow the bottom player to establish both the arm wrap and collar grip simultaneously"
+    ],
+    "recognition_cues": [
+      "Bottom player extracts your lapel from your gi and begins feeding it toward your posting arm rather than your leg",
+      "You feel lapel fabric threading underneath your tricep from the inside while your arm is extended forward in pressure passing",
+      "Bottom player shifts their hips toward your posting arm side and establishes a collar grip anchoring you in place",
+      "Your posting arm feels progressively restricted as fabric tightens around the shoulder and tricep region",
+      "Bottom player abandons worm guard leg wrap and redirects the lapel upward toward your arm"
+    ],
+    "defensive_options": [
+      {
+        "action": "Retract posting arm and create distance before wrap completes",
+        "when_to_use": "Early in the entry when lapel is being threaded but has not locked behind shoulder",
+        "targets_outcome": "Lapel Guard/Bottom",
+        "if_successful": "Bottom player remains in lapel guard without squid configuration, resetting the exchange to neutral lapel guard",
+        "risk": "If too slow, partial wrap may still catch the arm; pulling back without stripping collar grip leaves you in range for re-attempt"
+      },
+      {
+        "action": "Circle arm in windshield-wiper motion to strip lapel before it sets",
+        "when_to_use": "When lapel has partially wrapped but has not locked behind the shoulder with a deep grip",
+        "targets_outcome": "Lapel Guard/Bottom",
+        "if_successful": "Lapel falls free from arm, returning exchange to standard lapel guard passing scenario",
+        "risk": "Circular motion temporarily compromises your base and posting ability, creating sweep vulnerability during the strip attempt"
+      },
+      {
+        "action": "Backstep to change angle and reduce wrap effectiveness",
+        "when_to_use": "When arm wrap is established but bottom player has not yet angled hips for full configuration",
+        "targets_outcome": "Lapel Guard/Bottom",
+        "if_successful": "Changes the geometry so the wrap loses tension and can be cleared, and may open passing angle around the guard",
+        "risk": "Backstep exposes your back if bottom player follows your rotation aggressively for a back take"
+      },
+      {
+        "action": "Drive heavy knee cut pass through the legs to advance position despite the arm wrap",
+        "when_to_use": "When arm wrap is set but bottom player has neglected leg frames and you have clear path for knee cut",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Pass through the legs into half guard or side control, making the arm wrap irrelevant once you consolidate top position",
+        "risk": "If bottom player has active leg frames, the knee cut stalls and you are stuck with trapped arm and no base"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Lapel Guard/Bottom",
+        "how": "Strip the lapel wrap before it locks by retracting the arm early, circling the arm to shed the fabric, or creating distance that breaks the bottom player's secondary collar grip. Return to standard lapel guard passing where you can address the lapel configuration with your preferred approach."
+      },
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Drive a decisive knee cut pass through the bottom player's legs before they establish leg frames. The arm wrap becomes less relevant once you advance past their legs and consolidate in half guard or side control. Requires committing forward pressure at the right moment when their legs are not blocking."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Leaving posting arm extended forward while bottom player has extracted lapel",
+        "consequence": "Provides the exact target the bottom player needs to complete the arm wrap, essentially feeding them the squid guard entry",
+        "correction": "As soon as you see the opponent extract your lapel and orient toward your arm, retract the posting arm to your body and change to a different passing posture that does not require an extended post"
+      },
+      {
+        "error": "Attempting to rip the lapel free with brute force after the wrap is established",
+        "consequence": "Rapid forearm fatigue without clearing the wrap, since the fabric is mechanically locked around your arm rather than simply gripped",
+        "correction": "Use technical unwinding through backstep or circular arm motion rather than pulling straight back against the wrap, which works with the fabric's lock rather than against it"
+      },
+      {
+        "error": "Ignoring the collar grip and focusing only on stripping the lapel arm wrap",
+        "consequence": "Bottom player uses the collar grip to anchor you in place and prevent the distance creation needed to escape the wrap",
+        "correction": "Address the collar grip first or simultaneously—strip it with your free hand before attempting to clear the arm wrap, as removing the anchor point makes escape dramatically easier"
+      },
+      {
+        "error": "Dropping your weight forward into the bottom player while arm is trapped",
+        "consequence": "Loads the bottom player's sweeping mechanics perfectly, as your forward pressure combined with the trapped arm creates ideal leverage for off-balancing",
+        "correction": "Maintain upright posture with hips back when arm is trapped—drive forward only if you have a clear path for knee cut pass with no leg frames blocking"
+      },
+      {
+        "error": "Standing still and trying to problem-solve the wrap without moving",
+        "consequence": "Allows the bottom player to fine-tune their hip angle, establish all secondary grips, and set up follow-up attacks from a static target",
+        "correction": "Stay in constant motion through angle changes, level changes, or lateral movement to prevent the bottom player from optimizing their configuration"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that your opponent is attempting squid guard entry rather than worm guard?",
+        "answer": "The key distinction is the direction of the lapel feed. For worm guard, the lapel threads downward toward your lead leg and behind the knee. For squid guard, the lapel feeds upward toward your posting arm, threading under the tricep. Additionally, squid guard entry typically coincides with your forward pressure passing, while worm guard is established against standing or kneeling passers."
+      },
+      {
+        "question": "Why is it critical to address the collar grip before attempting to strip the arm wrap?",
+        "answer": "The collar grip serves as an anchor that prevents you from creating the distance needed to escape the arm wrap. Without the collar grip, the bottom player cannot maintain the tension needed to keep the wrap effective—you can simply posture away and the fabric falls slack. Stripping the arm wrap while the collar grip remains means the bottom player can immediately re-feed the lapel."
+      },
+      {
+        "question": "Your arm is already wrapped but the bottom player has not yet angled their hips—what defensive window exists?",
+        "answer": "This is the critical intermediate window where the wrap is set but the configuration is not yet functional. Without angled hips, the bottom player cannot generate sweep leverage or load submissions effectively. Backstep immediately to change the geometry, or drive a quick knee cut pass while their legs are still flat. Once they angle their hips to 45 degrees, the configuration activates and escaping becomes much harder."
+      },
+      {
+        "question": "When is driving a knee cut pass through squid guard entry the correct defensive choice?",
+        "answer": "Drive the knee cut when the bottom player has committed to the arm wrap but neglected their leg frames—meaning their legs are not actively blocking your knee from cutting through. If you have a clear path between their legs and they are focused on completing the upper body wrap, advancing past their legs makes the arm wrap irrelevant. Never attempt this when they have an active knee shield or lasso hook blocking the pass."
+      },
+      {
+        "question": "What is the primary risk of backstep defense against squid guard entry?",
+        "answer": "The backstep rotates your body and can expose your back to the bottom player. If they recognize the backstep early and follow your rotation aggressively, they can pursue a back take using the lapel grip as an anchor. To mitigate this risk, maintain shoulder pressure during the backstep and strip the lapel grip as you rotate to prevent them from following you to your back."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Recognition and early prevention",
+        "description": "Partner attempts squid guard entry at slow speed. Focus on recognizing the lapel feed direction and trigger. Practice immediate arm retraction and posture recovery the moment you feel fabric threading under your arm. Build the reflexive response to withdraw the posting arm."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Stripping techniques",
+        "description": "Partner establishes partial squid guard wraps at varying depths. Practice the windshield-wiper arm circle to strip shallow wraps and backstep technique to address deeper wraps. Work collar grip stripping with the free hand before addressing the arm wrap."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Counter-passing integration",
+        "description": "Partner establishes full squid guard entry with moderate resistance. Practice knee cut pass through neglected leg frames and backstep to passing angle. Chain defensive responses with immediate passing attempts rather than simply escaping to neutral."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live defensive sparring",
+        "description": "Start with partner in established lapel guard with instruction to enter squid guard. Defend the entry and immediately pass or reset. Track prevention rate and identify which defensive response works best against your training partners' specific squid guard styles."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Deep Squid Entry",
+      "description": "Thread lapel deeper around arm, passing under both the tricep and bicep before securing grip behind opponent's shoulder blade. Creates tighter configuration that is harder to strip but requires more time to establish.",
+      "when_to_use": "When opponent is committed to heavy pressure and unlikely to retract arm quickly"
+    },
+    {
+      "variant_name": "Quick Switch Squid",
+      "description": "Rapid transition from worm guard when opponent begins backstep escape. Instead of pursuing back take, redirect lapel around their posting arm as they change angle. Uses their backstep momentum to facilitate arm wrap.",
+      "when_to_use": "When opponent recognizes worm guard and attempts to backstep but leaves posting arm extended"
+    },
+    {
+      "variant_name": "Standing Squid Entry",
+      "description": "Enter squid guard from seated guard against standing opponent by pulling them forward with collar grip and threading lapel around their lead arm as they post to prevent fall. Requires excellent timing and collar control.",
+      "when_to_use": "Against standing passers who post arm when pulled off balance"
+    }
+  ],
+  "position_integration": "Squid guard entry serves as a critical node in the lapel guard system, providing an alternative configuration when worm guard is being cleared or when opponents choose pressure passing over leg-based approaches. The technique integrates with the broader open guard game by offering a gi-specific solution to pressure passers that no-gi guards cannot replicate. From squid guard, practitioners can access sweeps, back takes, and submissions including omoplata and triangle entries. The position also transitions fluidly to spider guard and lasso guard if the arm wrap fails, maintaining guard retention through configuration changes. Understanding squid guard dramatically expands offensive options from lapel guard bottom while providing defensive answers to common passing approaches."
 }

@@ -359,17 +359,16 @@ The Caio Terra guard retention system requires extensive solo drilling to build 
 - [[Single Leg X-Guard]] (Position) - Leg entanglement guard utilizing retention principles for hook maintenance
 - [[Seated Guard]] (Position) - Starting position for many retention sequences when standing opponent applies pressure
 - [[Knee Shield Half Guard]] (Position) - Half guard variation emphasizing frame-based retention with knee shield structure
-- [[Guard Replacement]] (Transition) - Core transition technique for recovering guard structure after partial pass attempts
-- [[Hip Escape]] (Transition) - Fundamental movement pattern essential for all guard retention sequences
+- [[Guard Recovery]] (Transition) - Core transition technique for recovering guard structure after partial pass attempts
+- [[Hip Escape to Guard]] (Transition) - Fundamental movement pattern essential for all guard retention sequences
 - [[Shrimp Escape]] (Transition) - Primary hip movement technique used throughout retention system
-- [[Frame and Shrimp]] (Transition) - Combined technique integrating frames with hip escapes for effective retention
+- [[Frame and Shrimp to Guard]] (Transition) - Combined technique integrating frames with hip escapes for effective retention
 - [[Technical Stand Up to Single Leg]] (Transition) - Emergency retention technique used when bottom retention fails
-- [[Granby Roll]] (Transition) - Advanced retention recovery technique for desperate guard replacement scenarios
+- [[Granby Roll to Guard]] (Transition) - Advanced retention recovery technique for desperate guard replacement scenarios
 - [[Guard Recovery]] (Transition) - Family of techniques for returning to guard from compromised positions
-- [[Elbow Escape]] (Transition) - Alternative hip escape method used in retention when opponent controls near-side space
+- [[Elbow Escape to Guard]] (Transition) - Alternative hip escape method used in retention when opponent controls near-side space
 - [[Guard Retention]] (Principle) - Core principle that this system operationalizes into specific techniques and sequences
 - [[Frame Creation]] (Principle) - Fundamental defensive principle applied throughout retention system
-- [[Hip Movement]] (Principle) - Essential movement principle underlying all retention mechanics
 - [[Connection Breaking]] (Principle) - Critical principle for eliminating opponent control during retention battles
 - [[Defensive Framing]] (Principle) - Structural principle for creating barriers and managing distance
 - [[Space Management]] (Principle) - Foundational principle for controlling distance and preventing position consolidation

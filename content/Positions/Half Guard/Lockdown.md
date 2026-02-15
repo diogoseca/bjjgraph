@@ -4,7 +4,7 @@
 
 ---
 title: "Lockdown | BJJ Position Guide | BJJ Graph"
-description: "Master Lockdown position in BJJ. 10th Planet's revolutionary half guard control system with leg entanglement. Complete guide covering bottom and top perspectives with 65% sweep success at advanced level."
+description: "Master Lockdown position in BJJ. 10th Planet's revolutionary half guard control system with leg entanglement. Complete guide covering bottom sweeps and top defense strategies."
 ---
 
 
@@ -89,23 +89,31 @@ Lockdown is 10th Planet's revolutionary half guard variation that transforms tra
 ### Available Transitions
 
 
-- **[[Whip-up Sweep]]** (12% of attempts)
+- **[[Whip-up Sweep]]** (28% of attempts)
 
-- **[[Old School Sweep]]** (11% of attempts)
-
-- **[[Electric Chair Submission]]** (11% of attempts)
-
-- **[[Lockdown Sweeps]]** (11% of attempts)
-
-- **[[Rolling Back Take]]** (10% of attempts)
-
-- **[[Turtle to Truck]]** (11% of attempts)
-
-- **[[Deep Half Entry]]** (12% of attempts)
-
-- **[[Kimura from Half Guard]]** (11% of attempts)
+- **[[Old School Sweep]]** (9% of attempts)
 
 - **[[Electric Chair Transition]]** (11% of attempts)
+
+- **[[Underhook Sweep from Half]]** (7% of attempts)
+
+- **[[Rolling Back Take]]** (7% of attempts)
+
+- **[[Roll to Truck]]** (8% of attempts)
+
+- **[[Deep Half Entry]]** (9% of attempts)
+
+- **[[Kimura]]** (4% of attempts)
+
+- **[[Lockdown Recovery]]** (4% of attempts)
+
+- **[[Transition to Vaporizer]]** (2% of attempts)
+
+- **[[Transition to Old School]]** (6% of attempts)
+
+- **[[Back Take from Lockdown Defense]]** (4% of attempts)
+
+- **[[Lockdown to Vaporizer]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -166,17 +174,27 @@ Lockdown is 10th Planet's revolutionary half guard variation that transforms tra
 ### Available Transitions
 
 
-- **[[Half Guard Pass]]** (16% of attempts)
+- **[[Half Guard Pass]]** (6% of attempts)
 
-- **[[Knee Slice from Half]]** (17% of attempts)
+- **[[Knee Slice from Half]]** (9% of attempts)
 
-- **[[Smash Pass]]** (14% of attempts)
+- **[[Smash Pass]]** (8% of attempts)
 
-- **[[Underhook Pass]]** (16% of attempts)
+- **[[Underhook Pass]]** (8% of attempts)
 
-- **[[Crossface Pass]]** (17% of attempts)
+- **[[Crossface Pass]]** (9% of attempts)
 
-- **[[Leg Extraction to Combat Base]]** (20% of attempts)
+- **[[Leg Extraction to Combat Base]]** (37% of attempts)
+
+- **[[Transition to Z-Lock Half Guard]]** (8% of attempts)
+
+- **[[Lockdown Break and Pass]]** (10% of attempts)
+
+- **[[Darce from Lockdown Counter]]** (3% of attempts)
+
+- **[[Lockdown Whizzer Pass]]** (1% of attempts)
+
+- **[[Lockdown to Z-Lock Half Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -229,11 +247,7 @@ Lockdown is 10th Planet's revolutionary half guard variation that transforms tra
 
 - **[[Back Control]]** - Ultimate position goal - accessible via multiple lockdown paths
 
-- **[[Old School]]** - Classic sweep position - direct lockdown attack option
-
 - **[[Butterfly Half Guard]]** - Related half guard variation - combines butterfly hook with half guard
-
-- **[[Z-Guard]]** - Alternative half guard structure - different knee shield configuration
 
 
 </section>

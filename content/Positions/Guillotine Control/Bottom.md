@@ -21,37 +21,37 @@ description: "Master Guillotine Control Bottom in BJJ. Complete guide covering s
     {
       "@type": "HowToStep",
       "name": "Execute Guillotine Choke",
-      "text": "From this position, attempt Guillotine Choke. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Guillotine Choke. This technique is attempted in 50% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute High Elbow Guillotine",
-      "text": "From this position, attempt High Elbow Guillotine. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute High Elbow Guillotine Variation",
+      "text": "From this position, attempt High Elbow Guillotine Variation. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm in Guillotine",
-      "text": "From this position, attempt Arm in Guillotine. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Hip Bump Sweep",
+      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Bump Sweep",
-      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Closed Guard to Omoplata",
+      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 4% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guillotine Setup",
-      "text": "From this position, attempt Guillotine Setup. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Closed Guard to Triangle",
+      "text": "From this position, attempt Closed Guard to Triangle. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Closed Guard to Omoplata",
-      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Guard Recovery",
+      "text": "From this position, attempt Guard Recovery. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,21 +210,25 @@ From a positional hierarchy perspective, Guillotine Control Bottom represents a 
 
 ## Available Escapes
 
-### [[Guillotine Choke]] (13% of attempts)
+### [[Guillotine Choke]] (50% of attempts)
 
-### [[High Elbow Guillotine]] (12% of attempts)
+### [[High Elbow Guillotine Variation]] (13% of attempts)
 
-### [[Arm in Guillotine]] (13% of attempts)
+### [[Hip Bump Sweep]] (10% of attempts)
 
-### [[Hip Bump Sweep]] (12% of attempts)
+### [[Closed Guard to Omoplata]] (4% of attempts)
 
-### [[Guillotine Setup]] (14% of attempts)
+### [[Closed Guard to Triangle]] (6% of attempts)
 
-### [[Closed Guard to Omoplata]] (10% of attempts)
+### [[Guard Recovery]] (6% of attempts)
 
-### [[Switch to Triangle]] (12% of attempts)
+### [[Butterfly Sweep with Guillotine]] (6% of attempts)
 
-### [[Anaconda Choke]] (14% of attempts)
+### [[Guillotine Setup]] (3% of attempts)
+
+### [[Guillotine Escape to Von Flue]] (1% of attempts)
+
+### [[Guillotine Escape via Posture]] (1% of attempts)
 
 
 
@@ -236,17 +240,17 @@ From a positional hierarchy perspective, Guillotine Control Bottom represents a 
 
 **If opponent drives weight forward and attempts to flatten bottom player to relieve choke pressure:**
 - Execute **[[Hip Bump Sweep]]** → [[Mount]] (Probability: 55%)
-- Execute **[[Switch to Triangle]]** → [[Triangle Control]] (Probability: 40%)
+- Execute **[[Closed Guard to Triangle]]** → [[Mounted Triangle]] (Probability: 40%)
 
 
 **If opponent postures up and attempts to create space by extending arms or lifting torso:**
-- Execute **[[High Elbow Guillotine]]** → [[game-over]] (Probability: 65%)
+- Execute **[[High Elbow Guillotine Variation]]** → [[Game Over]] (Probability: 65%)
 - Execute **[[Guillotine Setup]]** → [[Closed Guard]] (Probability: 50%)
 
 
 **If opponent turns head and shoulders away from choking arm to escape:**
-- Execute **[[Anaconda Choke]]** → [[game-over]] (Probability: 60%)
-- Execute **[[Darce Choke]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Anaconda Choke]]** → [[Game Over]] (Probability: 60%)
+- Execute **[[Darce Choke]]** → [[Game Over]] (Probability: 55%)
 
 
 **If opponent successfully creates significant space and begins extracting head:**
@@ -255,7 +259,7 @@ From a positional hierarchy perspective, Guillotine Control Bottom represents a 
 
 
 **If opponent keeps head down and attempts to drive forward while defending neck:**
-- Execute **[[Arm in Guillotine]]** → [[game-over]] (Probability: 70%)
+- Execute **[[Guillotine Choke]]** → [[Game Over]] (Probability: 70%)
 - Execute **[[Hip Bump Sweep]]** → [[Mount]] (Probability: 45%)
 
 
@@ -409,7 +413,7 @@ Start each round with bottom player establishing guillotine control in guard. Bo
 - **[[Arm in Guillotine]]** - Variation technique - arm-trapped finishing method
 - **[[Chin Strap Guillotine]]** - Variation technique - alternative finishing mechanics with chin control
 - **[[Anaconda Choke]]** - Alternative submission - counter when opponent turns
-- **[[Triangle Control]]** - Chain submission - transition when arm crosses
+- **[[Mounted Triangle]]** - Chain submission - transition when arm crosses during defense
 - **[[Omoplata Control]]** - Chain submission - transition when opponent posts hand
 - **[[Butterfly Guard]]** - Guard variation - alternative leg positioning for control
 

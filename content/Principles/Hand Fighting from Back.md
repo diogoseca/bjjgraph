@@ -372,7 +372,7 @@ Defender maintains position against multiple attackers who rotate in fresh, simu
 - [[Defensive Strategy]] (Principle) - Broader strategic framework within which hand fighting from back represents a specific tactical application
 - [[RNC Defense]] (Principle) - Hand fighting constitutes the primary active component of rear naked choke defensive protocols
 - [[Harness]] (Position) - Compromised back control position requiring emergency hand fighting protocols
-- [[Back Escape Series]] (Principle) - Hand fighting provides the defensive time and space necessary for systematic escape implementation
+- [[Back Door Escape]] (Principle) - Hand fighting provides the defensive time and space necessary for systematic escape implementation
 
 
 </section>

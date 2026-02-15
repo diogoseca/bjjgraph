@@ -350,7 +350,7 @@ Flow drilling where partner can transition between Side Control, Knee on Belly, 
 - [[Knee on Belly]] (Position) - Primary position being escaped—understanding top player's perspective improves defensive responses
 - [[Side Control]] (Position) - Common preceding position from which Knee on Belly is established—preemptive framing prevents transition
 - [[Half Guard]] (Position) - Frequent guard recovery target when escaping Knee on Belly by inserting knee shield
-- [[Elbow Escape]] (Transition) - Core escape technique utilizing hip escape mechanics and framing principles central to this concept
+- [[Elbow Escape to Guard]] (Transition) - Core escape technique utilizing hip escape mechanics and framing principles central to this concept
 - [[Frame Creation]] (Principle) - Foundational principle that enables all Knee on Belly escape mechanics
 - [[Hip Escape Mechanics]] (Principle) - Essential movement pattern that generates distance and enables guard recovery
 - [[Mount Escape Hierarchy]] (Principle) - Shares systematic defensive approach—preventing worse positions before attempting full escapes

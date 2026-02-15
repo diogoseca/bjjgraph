@@ -20,38 +20,38 @@ description: "Foundational leg entanglement attacking position with heel control
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Inside Heel Hook",
-      "text": "From this position, attempt Inside Heel Hook. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Heel Hook",
+      "text": "From this position, attempt Heel Hook. This technique is attempted in 5% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Straight Ankle Lock",
-      "text": "From this position, attempt Straight Ankle Lock. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Straight Ankle Lock Entry",
+      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 41% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Saddle Entry from Top",
-      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Outside Ashi Entry",
-      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 7% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute 50-50 Entry from Standing",
-      "text": "From this position, attempt 50-50 Entry from Standing. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Kneebar Finish",
+      "text": "From this position, attempt Kneebar Finish. This technique is attempted in 4% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kneebar Finish",
-      "text": "From this position, attempt Kneebar Finish. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Toe Hold",
+      "text": "From this position, attempt Toe Hold. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,21 +211,31 @@ This position has become increasingly prominent in modern no-gi competition, ser
 
 ## Available Escapes
 
-### [[Inside Heel Hook]] (10% of attempts)
+### [[Heel Hook]] (5% of attempts)
 
-### [[Straight Ankle Lock]] (13% of attempts)
+### [[Straight Ankle Lock Entry]] (41% of attempts)
 
-### [[Saddle Entry from Top]] (16% of attempts)
+### [[Saddle Entry from Top]] (12% of attempts)
 
-### [[Outside Ashi Entry]] (14% of attempts)
+### [[Outside Ashi Entry]] (7% of attempts)
 
-### [[50-50 Entry from Standing]] (13% of attempts)
+### [[Kneebar Finish]] (4% of attempts)
 
-### [[Kneebar Finish]] (11% of attempts)
+### [[Toe Hold]] (6% of attempts)
 
-### [[Toe Hold]] (10% of attempts)
+### [[50-50 Entry]] (4% of attempts)
 
-### [[X-Guard to Ashi Transition]] (13% of attempts)
+### [[Inside Ashi-Garami to Honey Hole]] (9% of attempts)
+
+### [[Inside Ashi-Garami to Cross Ashi]] (4% of attempts)
+
+### [[Guard Recovery]] (6% of attempts)
+
+### [[Counter Entangle to 50-50 from Ashi]] (1% of attempts)
+
+### [[Leg Extraction from Inside Ashi]] (0% of attempts)
+
+### [[Standing Up from Inside Ashi]] (1% of attempts)
 
 
 
@@ -241,23 +251,23 @@ This position has become increasingly prominent in modern no-gi competition, ser
 
 
 **If opponent extends leg to create distance and escape:**
-- Execute **[[Straight Ankle Lock]]** → [[Straight Ankle Lock Control]] (Probability: 60%)
+- Execute **[[Straight Ankle Lock Entry]]** → [[Straight Ankle Lock Control]] (Probability: 60%)
 - Execute **[[Kneebar]]** → [[Kneebar Control]] (Probability: 50%)
 
 
 **If opponent's heel is exposed and knee line is controlled:**
-- Execute **[[Inside Heel Hook]]** → [[Saddle]] (Probability: 55%)
+- Execute **[[Heel Hook]]** → [[Saddle]] (Probability: 55%)
 - Execute **[[Toe Hold]]** → [[Toe Hold Control]] (Probability: 45%)
 
 
 **If opponent attempts to establish mirror entanglement:**
 - Execute **[[50-50 Entry from Standing]]** → [[50-50 Guard]] (Probability: 60%)
-- Execute **[[X-Guard to Ashi Transition]]** → [[Cross Ashi-Garami]] (Probability: 50%)
+- Execute **[[Cross Ashi Transition]]** → [[Cross Ashi-Garami]] (Probability: 50%)
 
 
 **If opponent successfully begins extracting heel:**
 - Execute **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]] (Probability: 55%)
-- Execute **[[Re-Guard]]** → [[Open Guard]] (Probability: 40%)
+- Execute **[[Guard Recovery]]** → [[Open Guard]] (Probability: 40%)
 
 
 

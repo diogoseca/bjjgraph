@@ -26,8 +26,8 @@ description: "Master Knee on Belly Top control in BJJ. Dynamic offensive positio
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar from Side Control",
-      "text": "From this position, attempt Armbar from Side Control. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Armbar Finish",
+      "text": "From this position, attempt Armbar Finish. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
@@ -44,14 +44,14 @@ description: "Master Knee on Belly Top control in BJJ. Dynamic offensive positio
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura from Side Control",
-      "text": "From this position, attempt Kimura from Side Control. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Kimura",
+      "text": "From this position, attempt Kimura. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take Generic",
-      "text": "From this position, attempt Back Take Generic. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Back Take from Top",
+      "text": "From this position, attempt Back Take from Top. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,17 +208,17 @@ Knee on Belly Top is a highly effective transitional control position where the 
 
 ### [[Side Control to Mount]] (22% of attempts)
 
-### [[Armbar from Side Control]] (14% of attempts)
+### [[Armbar Finish]] (14% of attempts)
 
 ### [[Baseball Bat Choke]] (16% of attempts)
 
 ### [[Side Control to North-South]] (15% of attempts)
 
-### [[Kimura from Side Control]] (12% of attempts)
+### [[Kimura]] (12% of attempts)
 
-### [[Back Take Generic]] (10% of attempts)
+### [[Back Take from Top]] (10% of attempts)
 
-### [[S Mount Transition]] (11% of attempts)
+### [[S-Mount Transition]] (11% of attempts)
 
 
 
@@ -234,17 +234,17 @@ Knee on Belly Top is a highly effective transitional control position where the 
 
 
 **If opponent pushes against knee or creates frames with arms:**
-- Execute **[[Armbar from Side Control]]** → [[Armbar Control]] (Probability: 60%)
-- Execute **[[Kimura from Side Control]]** → [[Kimura Trap]] (Probability: 55%)
+- Execute **[[Armbar Finish]]** → [[Armbar Control]] (Probability: 60%)
+- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 55%)
 
 
 **If opponent turns to side attempting to escape:**
-- Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 50%)
+- Execute **[[Back Take from Top]]** → [[Back Control]] (Probability: 50%)
 - Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 70%)
 
 
 **If opponent successfully creates space by shrimping away:**
-- Execute **[[Side Control Maintenance]]** → [[Side Control]] (Probability: 75%)
+- Execute **[[Knee on Belly]]** → [[Side Control]] (Probability: 75%)
 - Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 65%)
 
 
@@ -335,25 +335,25 @@ Partner gives feedback on pressure levels as you experiment with different weigh
 **A**: The knee should be positioned directly on the opponent's solar plexus or lower ribs, with the shin perpendicular to their centerline. This placement creates direct downward pressure on the diaphragm, disrupting breathing and limiting their ability to generate power for escapes. Placing the knee too high on the chest reduces pressure effectiveness and makes it easier for the opponent to frame.
 
 **Q2**: How should weight be distributed to maintain both pressure and mobility from Knee on Belly Top?
-**A**: Weight should be distributed forward through the knee contact point while keeping the feet light and mobile. The hips stay high and mobile, allowing quick weight shifts. The opposite leg extends wide with the foot planted firmly, creating a stable tripod structure. Avoid committing full weight to the knee as this sacrifices mobility and makes you vulnerable to sweeps.
+**A**: Weight should be distributed forward through the knee contact point while keeping the feet light and mobile. The hips stay high and mobile, allowing quick weight shifts. The opposite leg extends wide with the foot planted firmly, creating a stable tripod structure. Avoid committing full weight to the knee as this sacrifices mobility and makes you vulnerable to sweeps. Think of pressing down through the knee like a piston while your body remains ready to spring in any direction.
 
 **Q3**: Your opponent starts creating frames by placing their hands on your knee - what adjustment do you make?
-**A**: When the opponent extends their arms to frame, this creates an immediate submission opportunity. Their extended arms become vulnerable to armbars and kimuras. You should capitalize by attacking the extended arm with an armbar from side control or trapping the far arm for a kimura. Alternatively, use their pushing reaction to slide your knee through and transition to mount.
+**A**: When the opponent extends their arms to frame, this creates an immediate submission opportunity. Their extended arms become vulnerable to armbars and kimuras. Capitalize by attacking the extended arm with an armbar finish or trapping the far arm for a kimura. Alternatively, use their pushing reaction to slide your knee through and transition to mount. Never allow them to frame for free — punish every arm extension.
 
 **Q4**: What are the essential grips for maintaining Knee on Belly control?
-**A**: The primary grips are near-side collar control and far-side pants or belt grip. The collar grip controls the opponent's upper body and prevents them from sitting up or turning toward you. The far-side pants/belt grip prevents them from turning away and creates control of their hip movement. Together these grips establish the control framework that enables pressure application and submission setups.
+**A**: The primary grips are near-side collar control and far-side pants or belt grip. The collar grip controls the opponent's upper body and prevents them from sitting up or turning toward you. The far-side pants/belt grip prevents them from turning away and creates control of their hip movement. Together these grips establish the control framework that enables pressure application and submission setups. In no-gi, replace collar with head/neck control and belt with hip cupping.
 
 **Q5**: Why is Knee on Belly considered a transitional rather than settling position?
-**A**: Knee on Belly's value comes from its mobility and attack versatility rather than static control. The position creates multiple dilemmas - defend submissions, prevent mount transition, or escape pressure - but prolonged stillness allows the opponent to solve these problems. Maintaining offensive momentum through constant threats keeps the opponent reactive and prevents them from executing coordinated defense.
+**A**: Knee on Belly's value comes from its mobility and attack versatility rather than static control. The position creates multiple dilemmas — defend submissions, prevent mount transition, or escape pressure — but prolonged stillness allows the opponent to solve these problems sequentially. Maintaining offensive momentum through constant threats keeps the opponent reactive and prevents them from executing coordinated defense. The position degrades quickly when you stop attacking.
 
 **Q6**: Your opponent begins to bridge and turn away from you - how do you respond?
-**A**: When the opponent turns away, follow their movement and look for back control. Their turning motion exposes their back, creating an opportunity to transition to back control or take the seat belt grip. Alternatively, use their turning motion to slide into north-south position if back control isn't available. Never fight their turning momentum - use it to advance position.
+**A**: When the opponent turns away, follow their movement and look for back control. Their turning motion exposes their back, creating an opportunity to transition to back control by inserting hooks or taking the seat belt grip. Alternatively, use their turning motion to slide into north-south position if back control isn't available. Never fight their turning momentum directly — redirect it into a positional advancement that benefits you.
 
 **Q7**: How do you recover position when an opponent partially escapes by creating space with hip movement?
-**A**: When the opponent creates space through shrimping, immediately transition back to side control rather than fighting to maintain Knee on Belly. Use your grips to follow their movement and re-establish chest-to-chest pressure. From solid side control, you can re-establish Knee on Belly once they're flattened again. Chasing a compromised Knee on Belly often leads to guard recovery.
+**A**: When the opponent creates space through shrimping, immediately transition back to side control rather than fighting to maintain Knee on Belly. Use your grips to follow their movement and re-establish chest-to-chest pressure. From solid side control, you can re-establish Knee on Belly once they're flattened again. Chasing a compromised Knee on Belly often leads to guard recovery by the opponent.
 
 **Q8**: What role does the base leg play in effective Knee on Belly control?
-**A**: The base leg provides the stable platform that enables both pressure application and rapid transitions. It should be extended wide with toes pointing away from the opponent, creating a tripod structure with your knee and posting hand. This wide base prevents sweeps, enables quick directional changes, and allows you to post and recover if the opponent disrupts your balance. A narrow base makes the position unstable and easily countered.
+**A**: The base leg provides the stable platform that enables both pressure application and rapid transitions. It should be extended wide with toes pointing away from the opponent, creating a tripod structure with your knee and posting hand. This wide base prevents sweeps, enables quick directional changes, and allows you to post and recover if the opponent disrupts your balance. A narrow base makes the position unstable and easily countered by even basic escape attempts.
 
 
 
@@ -385,8 +385,8 @@ Partner gives feedback on pressure levels as you experiment with different weigh
 - **[[Baseball Bat Choke]]** - Primary submission - high-percentage attack from this position in gi
 - **[[S Mount]]** - Advanced variation - evolution of Knee on Belly toward mount
 - **[[Back Control]]** - Opportunistic target when opponent turns away from pressure
-- **[[Armbar from Side Control]]** - Primary arm attack when opponent extends frames
-- **[[Kimura from Side Control]]** - Alternative arm attack targeting opponent's far arm
+- **[[Armbar Finish]]** - Primary arm attack when opponent extends frames against knee
+- **[[Kimura]]** - Alternative arm attack targeting opponent's far arm from top control
 
 
 </section>

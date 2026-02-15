@@ -97,15 +97,15 @@ The position's moderate risk level reflects its transitional nature - dominant e
 ### Available Transitions
 
 
-- **[[Elbow Escape]]** (25% of attempts)
+- **[[Elbow Escape to Guard]]** (25% of attempts)
 
 - **[[Bridge and Roll]]** (25% of attempts)
 
-- **[[Hip Escape]]** (20% of attempts)
+- **[[Hip Escape to Guard]]** (20% of attempts)
 
-- **[[Guard Replacement]]** (15% of attempts)
+- **[[Guard Recovery]]** (15% of attempts)
 
-- **[[Frame and Shrimp]]** (15% of attempts)
+- **[[Frame and Shrimp to Guard]]** (15% of attempts)
 
 
 ### Common Mistakes
@@ -168,7 +168,7 @@ The position's moderate risk level reflects its transitional nature - dominant e
 
 - **[[Side Control to Mount]]** (35% of attempts)
 
-- **[[Back Take Generic]]** (30% of attempts)
+- **[[Back Take]]** (30% of attempts)
 
 - **[[Mount to Armbar]]** (15% of attempts)
 

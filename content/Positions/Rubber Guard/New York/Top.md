@@ -21,37 +21,37 @@ description: "Defend and escape New York control from top position. Master postu
     {
       "@type": "HowToStep",
       "name": "Execute Posture Recovery",
-      "text": "From this position, attempt Posture Recovery. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Posture Recovery. This technique is attempted in 19% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Overhook Extraction",
-      "text": "From this position, attempt Overhook Extraction. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Overhook Extraction. This technique is attempted in 19% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guard Opening Sequence",
-      "text": "From this position, attempt Guard Opening Sequence. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Guard Opening Sequence. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Base Widening",
-      "text": "From this position, attempt Base Widening. This technique is attempted in 20% of exchanges from this position.",
+      "name": "Execute Stack Defense",
+      "text": "From this position, attempt Stack Defense. This technique is attempted in 25% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Stack Defense",
-      "text": "From this position, attempt Stack Defense. This technique is attempted in 21% of exchanges from this position.",
+      "name": "Execute Pressure Pass",
+      "text": "From this position, attempt Pressure Pass. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Pressure Pass",
-      "text": "From this position, attempt Pressure Pass. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Posture Recovery to Closed Guard",
+      "text": "From this position, attempt Posture Recovery to Closed Guard. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -217,17 +217,19 @@ From a learning progression standpoint, developing effective New York Top defens
 
 ## Available Attacks
 
-### [[Posture Recovery]] (18% of attempts)
+### [[Posture Recovery]] (19% of attempts)
 
-### [[Overhook Extraction]] (16% of attempts)
+### [[Overhook Extraction]] (19% of attempts)
 
-### [[Guard Opening Sequence]] (15% of attempts)
+### [[Guard Opening Sequence]] (14% of attempts)
 
-### [[Base Widening]] (20% of attempts)
+### [[Stack Defense]] (25% of attempts)
 
-### [[Stack Defense]] (21% of attempts)
+### [[Pressure Pass]] (9% of attempts)
 
-### [[Pressure Pass]] (10% of attempts)
+### [[Posture Recovery to Closed Guard]] (9% of attempts)
+
+### [[New York Pass to Side Control]] (5% of attempts)
 
 
 
@@ -238,8 +240,8 @@ From a learning progression standpoint, developing effective New York Top defens
 ## Decision Making from This Position
 
 **If opponent maintains static New York control without immediate attack:**
-- Execute **[[Base Widening]]** → [[Closed Guard]] (Probability: 55%)
-- Execute **[[Posture Recovery]]** → [[Closed Guard]] (Probability: 45%)
+- Execute **[[Posture Recovery]]** → [[Closed Guard]] (Probability: 55%)
+- Execute **[[Overhook Extraction]]** → [[Closed Guard]] (Probability: 45%)
 
 
 **If opponent begins transition to Invisible Collar or Zombie:**
@@ -248,8 +250,8 @@ From a learning progression standpoint, developing effective New York Top defens
 
 
 **If opponent attempts triangle setup or other arm-based submission:**
-- Execute **[[Spin to Side Control]]** → [[Side Control]] (Probability: 50%)
-- Execute **[[Stack Defense]]** → [[Closed Guard]] (Probability: 45%)
+- Execute **[[Stack Defense]]** → [[Closed Guard]] (Probability: 50%)
+- Execute **[[Pressure Pass]]** → [[Side Control]] (Probability: 50%)
 
 
 **If opponent's grip on shin momentarily weakens or releases:**

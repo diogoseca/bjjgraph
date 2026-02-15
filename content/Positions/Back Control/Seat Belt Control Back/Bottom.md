@@ -20,39 +20,33 @@ description: "Master seat belt control escape strategies from bottom back positi
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Elbow Escape",
-      "text": "From this position, attempt Elbow Escape. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Hand Fighting from Back",
+      "text": "From this position, attempt Hand Fighting from Back. This technique is attempted in 30% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape",
-      "text": "From this position, attempt Hip Escape. This technique is attempted in 19% of exchanges from this position.",
+      "name": "Execute Back Door Escape",
+      "text": "From this position, attempt Back Door Escape. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Escape",
-      "text": "From this position, attempt Rolling Escape. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Granby Roll to Guard",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Escape Series",
-      "text": "From this position, attempt Back Escape Series. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Elbow Escape to Remove Hooks",
+      "text": "From this position, attempt Elbow Escape to Remove Hooks. This technique is attempted in 20% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hand Fighting",
-      "text": "From this position, attempt Hand Fighting. This technique is attempted in 21% of exchanges from this position.",
+      "name": "Execute Hip Escape to Turtle",
+      "text": "From this position, attempt Hip Escape to Turtle. This technique is attempted in 20% of exchanges from this position.",
       "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Technical Standup",
-      "text": "From this position, attempt Technical Standup. This technique is attempted in 13% of exchanges from this position.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -169,11 +163,11 @@ The seat belt grip itself creates a powerful control mechanism that must be syst
 
 ## Position Definition
 
-- Opponent positioned behind you with chest against your back, establishing deep back control with weight distribution through their hips and torso creating constant forward pressure that limits your mobility
-- One opponent arm wrapped over your shoulder (typically your non-dominant side) while the other threads under your opposite armpit, creating the characteristic seat belt or harness grip configuration with diagonal force distribution
-- Opponent's hands clasped together across your chest or upper torso, forming a tight control loop that restricts your upper body movement and creates leverage for choking attacks and positional control
-- Your body positioned with opponent behind, facing away from them with limited ability to see their movements, creating tactical disadvantage requiring defensive awareness through feel and anticipation
-- Opponent typically has one or both hooks inserted (feet inside your thighs) or is working to establish hooks, though seat belt control can exist without hooks in transitional moments where grip control compensates
+- Opponent positioned behind you with chest against your back, establishing deep back control with weight distribution through their hips and torso creating constant forward pressure that limits your mobility and prevents you from turning to face them
+- One opponent arm wrapped over your shoulder (typically your non-dominant side) while the other threads under your opposite armpit, creating the characteristic seat belt or harness grip configuration with diagonal force distribution across your entire torso
+- Opponent's hands clasped together across your chest or upper torso, forming a tight control loop that restricts your upper body movement and creates leverage for choking attacks and positional adjustments against your defensive frames
+- Your body positioned with opponent behind, facing away from them with limited ability to see their movements, creating tactical disadvantage requiring defensive awareness through feel and anticipation of their weight shifts and grip changes
+- Opponent typically has one or both hooks inserted inside your thighs or is working to establish hooks, though seat belt control can exist without hooks in transitional moments where their grip control temporarily compensates for missing leg control
 
 
 </section>
@@ -200,7 +194,7 @@ The seat belt grip itself creates a powerful control mechanism that must be syst
 - Create space through hip movement - use hip escapes and shrimping to generate distance between your back and opponent's chest
 - Stay calm and methodical - panicked movements waste energy and create submission opportunities for skilled opponents
 - Work toward side position - turning to face opponent converts back control into more manageable positions like turtle or half guard
-- Prevent hooks from being established or maintained if already in - control opponent's legs to limit their base and mobility
+- Prevent hooks from being established or maintained - control opponent's legs to limit their base and mobility
 - Use strategic gripping - control opponent's wrists, sleeves, or hands to limit their ability to complete choke attacks
 
 
@@ -210,17 +204,15 @@ The seat belt grip itself creates a powerful control mechanism that must be syst
 
 ## Available Escapes
 
-### [[Elbow Escape]] (17% of attempts)
+### [[Hand Fighting from Back]] (30% of attempts)
 
-### [[Hip Escape]] (19% of attempts)
+### [[Back Door Escape]] (18% of attempts)
 
-### [[Rolling Escape]] (16% of attempts)
+### [[Granby Roll to Guard]] (12% of attempts)
 
-### [[Back Escape Series]] (14% of attempts)
+### [[Elbow Escape to Remove Hooks]] (20% of attempts)
 
-### [[Hand Fighting]] (21% of attempts)
-
-### [[Technical Standup]] (13% of attempts)
+### [[Hip Escape to Turtle]] (20% of attempts)
 
 
 
@@ -230,24 +222,24 @@ The seat belt grip itself creates a powerful control mechanism that must be syst
 
 ## Decision Making from This Position
 
-**If opponent has seat belt grip but no hooks established:**
-- Execute **[[Hip Escape]]** → [[Turtle]] (Probability: 50%)
-- Execute **[[Technical Standup]]** → [[Standing Position]] (Probability: 30%)
+**If opponent has seat belt grip but no hooks established yet:**
+- Execute **[[Hip Escape to Turtle]]** → [[Turtle]] (Probability: 50%)
+- Execute **[[Standing up in Base]]** → [[Clinch]] (Probability: 30%)
 
 
 **If opponent has both hooks and seat belt with choking hand near neck:**
-- Execute **[[Hand Fighting]]** → [[Seat Belt Control Back]] (Probability: 60%)
-- Execute **[[Chin Tuck Defense]]** → [[Seat Belt Control Back]] (Probability: 70%)
+- Execute **[[Hand Fighting from Back]]** → [[Seat Belt Control Back]] (Probability: 60%)
+- Execute **[[Elbow Escape to Remove Hooks]]** → [[Turtle]] (Probability: 40%)
 
 
-**If opponent's over-shoulder grip is loose or broken:**
-- Execute **[[Elbow Escape]]** → [[Turtle]] (Probability: 55%)
-- Execute **[[Rolling Escape]]** → [[Closed Guard]] (Probability: 40%)
+**If opponent's over-shoulder grip is loose or broken temporarily:**
+- Execute **[[Back Door Escape]]** → [[Turtle]] (Probability: 55%)
+- Execute **[[Granby Roll to Guard]]** → [[Closed Guard]] (Probability: 40%)
 
 
-**If opponent is high on your back with weight forward:**
-- Execute **[[Back Escape Series]]** → [[Turtle]] (Probability: 45%)
-- Execute **[[Hip Escape]]** → [[Turtle]] (Probability: 50%)
+**If opponent is high on your back with weight forward and hooks shallow:**
+- Execute **[[Hip Escape to Turtle]]** → [[Turtle]] (Probability: 45%)
+- Execute **[[Elbow Escape to Remove Hooks]]** → [[Half Guard]] (Probability: 40%)
 
 
 
@@ -345,7 +337,7 @@ Start in seat belt control bottom position. Execute hip escapes repeatedly to cr
 **Q4**: Your opponent has established both hooks - what is your priority order for escape?
 **A**: Priority order: 1) Protect neck from immediate submission threat, 2) Control opponent's choking hand to prevent RNC setup, 3) Address the bottom hook first by bringing your knee up and using hip movement to slide your hip to the mat on that side, 4) Once hips are to mat with bottom hook cleared, work to face opponent and recover guard. The bottom hook must be addressed first because it prevents you from sliding your hips to the mat - without that foundation movement, no escape is possible.
 
-**Q5**: Opponent is applying heavy chest pressure - how do you create space to initiate escape?
+**Q5**: Opponent is applying heavy chest pressure making it hard to breathe - how do you create space to initiate escape?
 **A**: Use explosive bridge-and-shrimp combinations to create momentary space. Bridge your hips up forcefully while simultaneously turning your shoulders toward the direction you want to escape. As your hips come down, immediately shrimp away from opponent, creating 4-6 inches of separation. Time your escapes when opponent shifts weight for attacks - their commitment to submissions creates windows where their control is momentarily weaker.
 
 **Q6**: What defensive anticipation cues indicate opponent is about to attack the rear naked choke?
@@ -381,14 +373,14 @@ Start in seat belt control bottom position. Execute hip escapes repeatedly to cr
 
 ## Related Positions and Techniques
 
-- **[[Back Control]]** - Related defensive position with hooks established
-- **[[Turtle]]** - Primary escape target position
-- **[[Half Guard]]** - Transitional defensive state during escape attempts
-- **[[Rear Naked Choke]]** - Primary submission threat from this position
-- **[[Hand Fighting]]** - Essential defensive concept for this position
-- **[[Back Escape Series]]** - Systematic escape methodology
-- **[[Elbow Escape]]** - Critical escape technique from back control
-- **[[Closed Guard]]** - Alternative escape target position
+- **[[Back Control]]** - Parent position - seat belt back bottom is a specific configuration within back control defense
+- **[[Turtle]]** - Primary escape target position when successfully breaking free from back control
+- **[[Half Guard]]** - Transitional defensive state during escape attempts when partially recovering guard
+- **[[Rear Naked Choke]]** - Primary submission threat from this position requiring constant defensive awareness
+- **[[Hand Fighting from Back]]** - Essential defensive transition for grip management from bottom back control
+- **[[Elbow Escape to Remove Hooks]]** - Critical escape technique for removing hooks and beginning escape sequence
+- **[[Closed Guard]]** - Alternative escape target position when rolling through to face opponent
+- **[[Back Door Escape]]** - Key escape transition when opponent's grip is compromised
 
 
 </section>

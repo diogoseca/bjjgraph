@@ -20,38 +20,38 @@ description: "Learn defensive tactics for surviving and escaping flattened half 
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape",
-      "text": "From this position, attempt Hip Escape. This technique is attempted in 25% of exchanges from this position.",
+      "name": "Execute Frame and Shrimp to Guard",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 47% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Elbow Escape",
-      "text": "From this position, attempt Elbow Escape. This technique is attempted in 22% of exchanges from this position.",
+      "name": "Execute Elbow Escape to Guard",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 16% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll",
-      "text": "From this position, attempt Granby Roll. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Granby Roll to Guard",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 1% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Lockdown Sweeps",
-      "text": "From this position, attempt Lockdown Sweeps. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Lockdown Recovery",
+      "text": "From this position, attempt Lockdown Recovery. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,17 +208,27 @@ Understanding the position's risks is equally important. The primary danger is n
 
 ## Available Escapes
 
-### [[Hip Escape]] (25% of attempts)
+### [[Frame and Shrimp to Guard]] (47% of attempts)
 
-### [[Deep Half Entry]] (20% of attempts)
+### [[Deep Half Entry]] (16% of attempts)
 
-### [[Elbow Escape]] (22% of attempts)
+### [[Elbow Escape to Guard]] (16% of attempts)
 
-### [[Granby Roll]] (12% of attempts)
+### [[Granby Roll to Guard]] (1% of attempts)
 
-### [[Lockdown Sweeps]] (12% of attempts)
+### [[Lockdown Recovery]] (8% of attempts)
 
-### [[Old School Sweep]] (9% of attempts)
+### [[Old School Sweep]] (5% of attempts)
+
+### [[Underhook Sweep from Half]] (6% of attempts)
+
+### [[Deep Half Entry from Flattened]] (0% of attempts)
+
+### [[Elbow Escape from Flattened Half]] (0% of attempts)
+
+### [[Recover Knee Shield from Flattened Half]] (0% of attempts)
+
+### [[Underhook Recovery from Flattened]] (1% of attempts)
 
 
 
@@ -229,18 +239,18 @@ Understanding the position's risks is equally important. The primary danger is n
 ## Decision Making from This Position
 
 **If opponent has crossface but you maintain underhook on far side:**
-- Execute **[[Hip Escape]]** → [[Knee Shield Half Guard]] (Probability: 45%)
-- Execute **[[Elbow Escape]]** → [[Half Guard]] (Probability: 40%)
+- Execute **[[Frame and Shrimp to Guard]]** → [[Knee Shield Half Guard]] (Probability: 45%)
+- Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 40%)
 
 
 **If opponent controls both crossface and underhook with heavy chest pressure:**
 - Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 30%)
-- Execute **[[Granby Roll]]** → [[Turtle]] (Probability: 35%)
+- Execute **[[Granby Roll to Guard]]** → [[Turtle]] (Probability: 35%)
 
 
 **If opponent posts hand or shifts weight to advance passing sequence:**
-- Execute **[[Elbow Escape]]** → [[Knee Shield Half Guard]] (Probability: 50%)
-- Execute **[[Hip Escape]]** → [[Half Guard]] (Probability: 40%)
+- Execute **[[Elbow Escape to Guard]]** → [[Knee Shield Half Guard]] (Probability: 50%)
+- Execute **[[Frame and Shrimp to Guard]]** → [[Half Guard]] (Probability: 40%)
 
 
 
@@ -365,8 +375,8 @@ Begin flattened with partner controlling crossface. Fight to establish underhook
 - **[[Half Guard]]** - Parent position with active frames that flattened half guard attempts to recover to
 - **[[Knee Shield Half Guard]]** - Primary target position for frame recovery from flattened half guard
 - **[[Deep Half Guard]]** - Alternative recovery position accessible by diving under opponent's hips when flattened
-- **[[Hip Escape]]** - Fundamental movement technique enabling space creation while under pressure
-- **[[Elbow Escape]]** - Core defensive movement for re-establishing structure from collapsed positions
+- **[[Frame and Shrimp to Guard]]** - Fundamental movement technique enabling space creation while under pressure
+- **[[Elbow Escape to Guard]]** - Core defensive movement for re-establishing structure from collapsed positions
 - **[[Lockdown]]** - Leg control system that can stabilize flattened position and create sweep opportunities
 - **[[Old School Sweep]]** - Sweep option accessible when recovering underhook from flattened position
 

@@ -21,37 +21,37 @@ description: "Master offensive control from 3-4 Mount Top. Complete guide with t
     {
       "@type": "HowToStep",
       "name": "Execute Mount to Armbar",
-      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 20% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Americana from Mount",
-      "text": "From this position, attempt Americana from Mount. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Americana",
+      "text": "From this position, attempt Americana. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Ezekiel from Mount",
-      "text": "From this position, attempt Ezekiel from Mount. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Mounted Triangle",
+      "text": "From this position, attempt Mounted Triangle. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle from Mount",
-      "text": "From this position, attempt Triangle from Mount. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Kimura",
+      "text": "From this position, attempt Kimura. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura from Mount",
-      "text": "From this position, attempt Kimura from Mount. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute S-Mount Transition",
+      "text": "From this position, attempt S-Mount Transition. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,21 +210,21 @@ Strategically, 3-4 Mount Top excels as both a finishing position and a transitio
 
 ## Available Attacks
 
-### [[Mount to Armbar]] (18% of attempts)
+### [[Mount to Armbar]] (20% of attempts)
 
-### [[Side Control to Mount]] (15% of attempts)
+### [[Side Control to Mount]] (14% of attempts)
 
-### [[Americana from Mount]] (14% of attempts)
+### [[Americana]] (14% of attempts)
 
-### [[Ezekiel from Mount]] (12% of attempts)
+### [[Mounted Triangle]] (12% of attempts)
 
-### [[Triangle from Mount]] (10% of attempts)
+### [[Kimura]] (12% of attempts)
 
-### [[Kimura from Mount]] (11% of attempts)
+### [[S-Mount Transition]] (8% of attempts)
 
 ### [[Side Control to North-South]] (8% of attempts)
 
-### [[Back Take Generic]] (12% of attempts)
+### [[Back Take]] (12% of attempts)
 
 
 
@@ -235,27 +235,27 @@ Strategically, 3-4 Mount Top excels as both a finishing position and a transitio
 ## Decision Making from This Position
 
 **If opponent remains flat and passive, accepting bottom position without immediate escape attempts:**
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 75%)
+- Execute **[[Consolidate Mount]]** → [[Mount]] (Probability: 75%)
 - Execute **[[Mount to Armbar]]** → [[Armbar Control]] (Probability: 60%)
-- Execute **[[Ezekiel from Mount]]** → [[Armbar Control]] (Probability: 50%)
+- Execute **[[Americana]]** → [[Kimura Trap]] (Probability: 50%)
 
 
 **Else if opponent attempts to bridge explosively or turn into the mounted side to escape:**
-- Execute **[[Americana from Mount]]** → [[Kimura Trap]] (Probability: 65%)
-- Execute **[[Kimura from Mount]]** → [[Kimura Trap]] (Probability: 60%)
-- Execute **[[Knee Cut Pass]]** → [[Side Control]] (Probability: 70%)
+- Execute **[[Americana]]** → [[Kimura Trap]] (Probability: 65%)
+- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 60%)
+- Execute **[[Side Control to Mount]]** → [[Side Control]] (Probability: 70%)
 
 
 **Else if opponent turns away from posted leg or exposes their back during escape attempt:**
+- Execute **[[Back Take]]** → [[Back Control]] (Probability: 75%)
 - Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 70%)
-- Execute **[[Knee Cut Pass]]** → [[Side Control]] (Probability: 65%)
-- Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 75%)
+- Execute **[[S-Mount Transition]]** → [[S Mount]] (Probability: 65%)
 
 
 **Else if opponent successfully frames and begins creating space on the mounted side:**
 - Execute **[[Mount to Armbar]]** → [[Armbar Control]] (Probability: 55%)
-- Execute **[[Triangle from Mount]]** → [[Mounted Triangle]] (Probability: 45%)
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 60%)
+- Execute **[[Mounted Triangle]]** → [[Mounted Triangle]] (Probability: 45%)
+- Execute **[[Consolidate Mount]]** → [[Mount]] (Probability: 60%)
 
 
 

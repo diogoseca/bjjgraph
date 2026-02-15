@@ -153,7 +153,7 @@
     },
     {
       "context": "Technical Mount",
-      "how_applied": "Against technical mount, hierarchy treats position as mount variant requiring similar priorities—frame creation, prevention of upper body attacks, then either bridge-and-roll or elbow escape based on opponent's base, accepting side control as successful outcome."
+      "how_applied": "Against technical mount, hierarchy treats position as mount variant requiring similar priorities\u2014frame creation, prevention of upper body attacks, then either bridge-and-roll or elbow escape based on opponent's base, accepting side control as successful outcome."
     },
     {
       "context": "S Mount",
@@ -363,7 +363,7 @@
       "relationship": "Position-specific hierarchy for mount escapes demonstrating detailed application of general principles"
     },
     {
-      "name": "Back Escape Series",
+      "name": "Back Door Escape",
       "content_type": "Principle",
       "relationship": "Systematic approach to escaping highest-danger position, exemplifying urgent escape priorities"
     },
@@ -393,7 +393,7 @@
       "relationship": "Intermediate-priority position allowing methodical energy-efficient escape selection"
     },
     {
-      "name": "Elbow Escape",
+      "name": "Elbow Escape to Guard",
       "content_type": "Transition",
       "relationship": "High-percentage escape from mount demonstrating proper hierarchy application"
     }

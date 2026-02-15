@@ -333,10 +333,10 @@ Begin with static positional drilling where partner has back control but doesn't
 - [[Closed Guard]] (Position) - Primary target position when recovering from back control
 - [[Crucifix]] (Position) - Position to avoid when escaping back control improperly
 - [[Shrimp Escape]] (Transition) - Core movement pattern used in hip escape sequences
-- [[Elbow Escape]] (Transition) - Alternative escape technique from back control
-- [[Hip Escape]] (Transition) - Fundamental movement for creating space during escapes
-- [[Granby Roll]] (Transition) - Advanced escape option when hooks are partially cleared
-- [[Technical Standup]] (Transition) - Recovery option when opponent creates distance during escape
+- [[Elbow Escape to Guard]] (Transition) - Alternative escape technique from back control
+- [[Hip Escape to Guard]] (Transition) - Fundamental movement for creating space during escapes
+- [[Granby Roll to Guard]] (Transition) - Advanced escape option when hooks are partially cleared
+- [[Technical Stand-up]] (Transition) - Recovery option when opponent creates distance during escape
 - [[Turtle Transition]] (Transition) - Transitional position during back escape sequence
 - [[Guard Recovery]] (Transition) - Final phase of escape protocol returning to guard
 - [[Hand Fighting from Back]] (Principle) - Critical defensive skill for preventing chokes from back control

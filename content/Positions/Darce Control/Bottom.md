@@ -21,37 +21,37 @@ description: "Master Darce Control from bottom position in BJJ. Learn defensive 
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction",
-      "text": "From this position, attempt Arm Extraction. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Arm Extraction. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling to Guard",
-      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 21% of exchanges from this position.",
+      "name": "Execute Granby Roll to Guard",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll",
-      "text": "From this position, attempt Granby Roll. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Back Door Escape",
+      "text": "From this position, attempt Back Door Escape. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Door Escape",
-      "text": "From this position, attempt Back Door Escape. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Counter Roll to Top",
+      "text": "From this position, attempt Counter Roll to Top. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Counter Roll",
-      "text": "From this position, attempt Counter Roll. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Step Over Escape",
+      "text": "From this position, attempt Step Over Escape. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Step Over Escape",
-      "text": "From this position, attempt Step Over Escape. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Hip Escape to Guard",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -207,17 +207,19 @@ While extremely dangerous, Darce Control Bottom is not an inescapable position. 
 
 ## Available Escapes
 
-### [[Arm Extraction]] (20% of attempts)
+### [[Arm Extraction]] (25% of attempts)
 
-### [[Rolling to Guard]] (21% of attempts)
+### [[Granby Roll to Guard]] (15% of attempts)
 
-### [[Granby Roll]] (17% of attempts)
+### [[Back Door Escape]] (12% of attempts)
 
-### [[Back Door Escape]] (15% of attempts)
+### [[Counter Roll to Top]] (8% of attempts)
 
-### [[Counter Roll]] (10% of attempts)
+### [[Step Over Escape]] (15% of attempts)
 
-### [[Step Over Escape]] (17% of attempts)
+### [[Hip Escape to Guard]] (15% of attempts)
+
+### [[Rolling to Guard]] (10% of attempts)
 
 
 
@@ -229,7 +231,7 @@ While extremely dangerous, Darce Control Bottom is not an inescapable position. 
 
 **If opponent has shallow grip and choke is not yet tight:**
 - Execute **[[Arm Extraction]]** → [[Turtle]] (Probability: 55%)
-- Execute **[[Granby Roll]]** → [[Open Guard]] (Probability: 45%)
+- Execute **[[Granby Roll to Guard]]** → [[Open Guard]] (Probability: 45%)
 
 
 **If opponent is driving forward to flatten you and tighten choke:**
@@ -238,8 +240,8 @@ While extremely dangerous, Darce Control Bottom is not an inescapable position. 
 
 
 **If choke is locked deep and opponent has strong positional control:**
-- Execute **[[Granby Roll]]** → [[Closed Guard]] (Probability: 40%)
-- Execute **[[Counter Roll]]** → [[Side Control]] (Probability: 30%)
+- Execute **[[Granby Roll to Guard]]** → [[Closed Guard]] (Probability: 40%)
+- Execute **[[Counter Roll to Top]]** → [[Side Control]] (Probability: 30%)
 
 
 **If opponent switches to anaconda configuration or loosens Darce grip:**
@@ -304,7 +306,7 @@ Start in turtle position. Partner attempts Darce entry while you defend the unde
 
 ### Escape Route Options Drill
 
-Partner holds Darce Control position with moderate resistance. Practice each escape option (arm extraction, step over, rolling to guard, back door, granby roll) individually with proper mechanics. Partner provides feedback on effectiveness of frames, hip movement, and timing. Build muscle memory for multiple escape pathways.
+Partner holds Darce Control position with moderate resistance. Practice each escape option (arm extraction, step over, rolling to guard, back door, granby roll to guard) individually with proper mechanics. Partner provides feedback on effectiveness of frames, hip movement, and timing. Build muscle memory for multiple escape pathways.
 
 **Duration**: 8 minutes cycling through all escapes
 
@@ -333,7 +335,7 @@ Partner holds Darce Control position with moderate resistance. Practice each esc
 **Q5**: What is the primary escape you should attempt and what makes it effective?
 **A**: Arm extraction is the primary escape because it eliminates the arm-in choke structure that makes the Darce effective. Use your free hand to grip your trapped arm's wrist or forearm and pull it toward your body while simultaneously turning into your opponent. The extraction works because the Darce requires your arm trapped against your neck to create the compression - once the arm is free, the choke mechanics fail and you can recover to turtle or guard positions.
 
-**Q6**: How do you apply pressure correctly as the defender to prevent the choke from tightening?
+**Q6**: How do you apply outward pressure correctly as the defender to prevent the choke from tightening?
 **A**: Apply outward pressure with your trapped shoulder by rotating it away from your neck, creating space between your neck and opponent's choking arm. Push into opponent's body with your free hand frame to prevent them from settling their weight and closing the space. Drive your hips away from opponent while keeping your shoulders turned into them. This combination of outward shoulder rotation and frame pressure prevents the compression needed to finish the choke.
 
 **Q7**: Your opponent attempts to flatten you completely - what adjustment should you make?
@@ -366,7 +368,7 @@ Partner holds Darce Control position with moderate resistance. Practice each esc
 
 ## Related Positions and Techniques
 
-- **[[Darce Control]]** - Hub position - both perspectives
+- **[[Darce Control]]** - Hub position covering both perspectives
 - **[[Darce Choke]]** - Primary submission threat from this position
 - **[[Turtle]]** - Common entry position and primary escape target
 - **[[Front Headlock]]** - Related defensive position with similar escape mechanics

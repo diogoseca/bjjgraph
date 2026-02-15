@@ -13,151 +13,372 @@
   "from_position": "Invisible Collar/Bottom",
   "outcomes": [
     {
-      "to": "Open Guard",
+      "to": "Open Guard/Top",
       "probability": 65,
       "result": "success"
     },
     {
-      "to": "Invisible Collar",
+      "to": "Invisible Collar/Bottom",
       "probability": 25,
       "result": "failure"
     },
     {
-      "to": "Invisible Collar",
+      "to": "Invisible Collar/Bottom",
       "probability": 10,
       "result": "counter"
     }
   ],
+  "success_rate": 58,
   "overview": "The Standing Escape from Invisible Collar is a high-commitment defensive technique that exploits gravity and posture change to neutralize one of the most deceptive gi chokes in modern back attack systems. The invisible collar grip disguises lethal choking pressure as passive control, making early recognition and decisive action essential. By standing and creating vertical separation, you fundamentally alter the mechanics that make the invisible collar dangerous—the attacker loses chest-to-back connection and the downward angle that powers the collar choke.\n\nThis escape requires a two-phase approach: first neutralizing the immediate collar threat through grip fighting and chin defense, then committing fully to standing while managing the attacker's hooks and weight. The standing component forces the attacker into a difficult choice—maintain hooks and get lifted awkwardly, or release hooks and lose back control entirely. Either scenario degrades their attacking position and opens recovery pathways for the defender.\n\nStrategically, the Standing Escape is most effective when combined with other escape threats from Invisible Collar bottom. If the attacker is focused on defending your hip escape or rolling escape attempts, the sudden posture change to standing catches them out of position. The escape integrates into a layered defensive system where each escape attempt creates openings for others, making the defender unpredictable and forcing the attacker to address multiple threats simultaneously.",
-  "key_principles": [
-    "Neutralize collar grip depth before committing to the stand—standing with a deep collar grip accelerates the choke rather than escaping it",
-    "Control the choking wrist with two-on-one grip throughout the standing sequence to prevent grip deepening during transition",
-    "Drive upward explosively through your legs while maintaining chin tuck—vertical displacement breaks the chest-to-back connection that powers all back attacks",
-    "Peel hooks sequentially rather than simultaneously—address the bottom hook first as it bears your combined weight when standing",
-    "Create forward angle as you stand so your weight drives into the attacker's hooks rather than allowing them to hang freely on your back",
-    "Transition immediately to guard retention upon reaching feet—standing without establishing defensive frames creates vulnerability to takedowns"
-  ],
-  "setup_requirements": [
-    "Two-on-one grip control established on opponent's choking wrist, preventing further collar penetration",
-    "Chin tucked tightly to chest, limiting the mechanical effectiveness of the invisible collar choke",
-    "At least partial weight shifted to one hip, creating the base angle needed to begin standing sequence",
-    "Opponent's top hook partially controlled or loosened through prior hip movement, reducing their ability to maintain riding position during stand-up",
-    "Sufficient energy reserves remaining for explosive stand-up—this technique demands a committed burst rather than gradual movement",
-    "Mental recognition that collar grip is shallow enough to survive the standing transition without being choked during the movement"
-  ],
-  "execution_steps": [
+  "related_content": [
     {
-      "step_number": 1,
-      "action": "Secure choking wrist",
-      "description": "Establish two-on-one grip on opponent's collar-gripping wrist using both hands. Your top hand grabs their wrist while your bottom hand reinforces by gripping their forearm just below the wrist. Pull their hand away from your neck to create slack in the collar material."
+      "name": "Invisible Collar",
+      "relationship": "Starting position—the deceptive collar grip this escape neutralizes"
     },
     {
-      "step_number": 2,
-      "action": "Tuck chin and strip collar depth",
-      "description": "Drive your chin aggressively into your chest while pulling their wrist downward and away from the collar. Rotate your head slightly toward the choking side to compress the space between your chin and collarbone, making it mechanically impossible for them to tighten the choke during your escape sequence."
+      "name": "Open Guard",
+      "relationship": "Primary target position after successful escape completion"
     },
     {
-      "step_number": 3,
-      "action": "Hip escape to base",
-      "description": "While maintaining two-on-one wrist control, execute a strong hip escape toward the non-choking side. Post your free-side foot flat on the mat with knee bent at approximately 90 degrees. Your other knee drives into the mat, creating a combat base position that serves as the launch platform for standing."
+      "name": "Back Control",
+      "relationship": "Parent position system that Invisible Collar derives from"
     },
     {
-      "step_number": 4,
-      "action": "Drive to standing",
-      "description": "Push explosively through your posted foot and drive your hips upward and forward, standing up while keeping your back angled forward at roughly 45 degrees. This forward lean prevents the attacker from sitting back and using their body weight to pull you down. Maintain the two-on-one wrist control throughout the standing motion."
+      "name": "Hip Escape to Guard",
+      "relationship": "Alternative lateral escape from same starting position"
     },
     {
-      "step_number": 5,
-      "action": "Peel bottom hook",
-      "description": "Once standing, the bottom hook bears significant weight. Use your free hand to grab their bottom foot at the instep and peel it off your hip by driving it downward toward the mat. Their own body weight hanging from your back assists this removal. Keep your hips driving forward to prevent them from reestablishing the hook."
+      "name": "Rolling Escape to Guard",
+      "relationship": "Alternative forward escape that chains with standing attempts"
     },
     {
-      "step_number": 6,
-      "action": "Remove top hook and separate",
-      "description": "With the bottom hook removed, the top hook loses its structural support. Strip it using the same hand that removed the bottom hook while maintaining collar wrist control with your other hand. As hooks release, immediately turn to face your opponent and establish distance with frames on their shoulders or collar ties."
+      "name": "Granby Roll to Guard",
+      "relationship": "Alternative inverted escape from Invisible Collar bottom"
     },
     {
-      "step_number": 7,
-      "action": "Establish open guard",
-      "description": "As you turn to face your opponent, sit back into open guard with feet on their hips and at least one controlling grip on their sleeve or collar. Do not remain standing facing away—the transition to open guard gives you immediate offensive options and prevents them from retaking the back during the scramble."
+      "name": "Elbow Escape to Remove Hooks",
+      "relationship": "Complementary escape focusing on hook removal before standing"
+    },
+    {
+      "name": "Hand Fighting to Remove Collar Grip",
+      "relationship": "Prerequisite grip fighting technique that enables standing escape"
+    },
+    {
+      "name": "Back Door Escape",
+      "relationship": "Broader escape system framework this technique belongs to"
+    },
+    {
+      "name": "Rear Naked Choke",
+      "relationship": "Alternative submission opponent may transition to during escape"
     }
   ],
-  "common_counters": [
-    {
-      "counter": "Attacker deepens collar grip and applies immediate choking pressure when they feel you initiating the stand-up, attempting to finish before you can complete the escape",
-      "effectiveness": "High",
-      "your_response": "Abort the standing attempt if collar grip depth increases significantly. Return to two-on-one wrist fighting and chin tuck defense. Only reattempt when grip is sufficiently shallow. Attempting to stand through a deep collar grip is the fastest path to being choked."
-    },
-    {
-      "counter": "Attacker locks body triangle or tightens hooks aggressively when they feel you shifting weight to stand, preventing the hip escape to base position",
-      "effectiveness": "Medium",
-      "your_response": "If body triangle locks before you stand, address the triangle first by angling your trapped leg and working to unlock the figure-four. Switch to hip escape or rolling escape attempts that work better against body triangle than standing. Return to standing escape after breaking the triangle lock."
-    },
-    {
-      "counter": "Attacker transitions to rear naked choke by releasing collar grip and shooting arm under chin as you focus on collar defense during stand-up",
-      "effectiveness": "Medium",
-      "your_response": "The moment you feel collar pressure release, immediately tuck chin and trap their transitioning arm under your armpit. The grip switch creates a brief window where neither choke is set—exploit this by accelerating your standing sequence during the transition gap."
-    },
-    {
-      "counter": "Attacker mat returns you by driving their hips forward and hooking your far leg as you attempt to stand, collapsing you back to the mat in a controlled manner",
-      "effectiveness": "High",
-      "your_response": "Widen your base as you stand and keep your hips lower than the attacker's center of gravity. If they drive forward for the mat return, use their forward momentum to execute a forward roll that creates separation. Immediately transition to turtle and work for guard recovery from there."
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Attempting to stand while opponent maintains deep collar grip penetration with all four fingers inside the gi material",
-      "consequence": "The vertical movement actually tightens the collar choke by creating additional pressure on the carotid arteries as gravity pulls you away from the grip. Can result in rapid unconsciousness during the escape attempt.",
-      "correction": "Never commit to standing until you have verified the collar grip is shallow through active two-on-one wrist control. If you cannot pull their wrist away from your neck, the grip is too deep for standing escape—use hand fighting and hip escape alternatives first."
-    },
-    {
-      "error": "Standing straight up with an upright torso rather than maintaining forward lean during the stand-up sequence",
-      "consequence": "Opponent's weight pulls you backward, causing you to sit back down directly into their lap with hooks reinserted and potentially improved collar grip position",
-      "correction": "Maintain 45-degree forward lean throughout the standing phase. Think about driving your chest toward the ground rather than the ceiling. Your forward angle makes it mechanically difficult for the attacker to pull you backward."
-    },
-    {
-      "error": "Releasing two-on-one wrist control prematurely to use both hands for hook removal",
-      "consequence": "Opponent immediately re-establishes deep collar grip or transitions to rear naked choke with their now-free hand, creating a worse situation than the original position",
-      "correction": "Maintain wrist control with at least one hand throughout the entire escape sequence. Use your free hand for hook removal while the other hand keeps the choking wrist controlled. Only release after you have fully turned to face your opponent."
-    },
-    {
-      "error": "Trying to remove both hooks simultaneously rather than addressing them sequentially",
-      "consequence": "Neither hook is fully removed, and the divided effort allows opponent to re-seat both hooks while you struggle with ineffective hand fighting on two targets",
-      "correction": "Remove the bottom hook first—it bears the most weight and is the structural foundation. Once the bottom hook is gone, the top hook becomes easy to clear. Sequential approach is faster and more reliable than simultaneous."
-    },
-    {
-      "error": "Remaining standing after hook removal instead of immediately establishing guard position",
-      "consequence": "Opponent recovers to their feet and either retakes the back from standing or executes a takedown, negating the escape effort entirely",
-      "correction": "Transition immediately to open guard as you turn to face your opponent. Sit back with feet on their hips and grips established. The standing escape succeeds when you reach a playable guard position, not simply when you reach your feet."
-    },
-    {
-      "error": "Using slow, grinding effort to stand rather than an explosive burst through the legs",
-      "consequence": "Gives opponent time to adjust hooks, deepen grips, and counter the standing attempt with body triangle or mat return before you reach your feet",
-      "correction": "The stand-up must be explosive and committed. Once you have verified grip safety and established base position, drive through your legs with maximum power. Hesitation allows the opponent to adapt."
-    }
-  ],
-  "training_progressions": [
-    {
-      "phase": "Week 1-2",
-      "focus": "Grip assessment and chin defense",
-      "description": "Practice identifying invisible collar grip depth and establishing two-on-one wrist control from back control bottom. Drill the chin tuck and wrist pull sequence 20 repetitions per side. Partner provides zero resistance on grip but maintains hooks. Focus on developing the tactile sensitivity to assess whether the collar grip is shallow enough for standing escape."
-    },
-    {
-      "phase": "Week 3-4",
-      "focus": "Standing mechanics and hook removal",
-      "description": "Drill the full standing sequence from combat base to feet with partner maintaining hooks at 30% resistance. Practice the bottom hook peel and top hook strip in isolation, then combine with the standing motion. Emphasize the forward lean angle and explosive drive through the posted foot. Add the guard establishment finish."
-    },
-    {
-      "phase": "Week 5-6",
-      "focus": "Counter recognition and chain escapes",
-      "description": "Partner applies 50-60% resistance and actively counters the standing escape with mat returns, grip deepening, and RNC transitions. Practice aborting the standing attempt when collar depth increases and flowing to alternative escapes. Develop the decision-making framework for when to commit and when to switch techniques."
-    },
-    {
-      "phase": "Week 7+",
-      "focus": "Competition integration",
-      "description": "Full resistance positional sparring from invisible collar bottom. Standing escape becomes one option within a complete escape system including hip escapes, rolling escapes, and Granby rolls. Track success rates and identify personal timing windows. Drill under fatigue conditions to simulate competition scenarios where energy management becomes critical."
-    }
-  ],
+  "attacker": {
+    "name": "Standing Escape Attacker",
+    "description": "How to execute Standing Escape in BJJ. Attacking perspective with setup, execution steps, and counters.",
+    "overview": "The Standing Escape from Invisible Collar is a high-commitment defensive technique that exploits gravity and posture change to neutralize one of the most deceptive gi chokes in modern back attack systems. The invisible collar grip disguises lethal choking pressure as passive control, making early recognition and decisive action essential. By standing and creating vertical separation, you fundamentally alter the mechanics that make the invisible collar dangerous—the attacker loses chest-to-back connection and the downward angle that powers the collar choke.\n\nThis escape requires a two-phase approach: first neutralizing the immediate collar threat through grip fighting and chin defense, then committing fully to standing while managing the attacker's hooks and weight. The standing component forces the attacker into a difficult choice—maintain hooks and get lifted awkwardly, or release hooks and lose back control entirely. Either scenario degrades their attacking position and opens recovery pathways for the defender.\n\nStrategically, the Standing Escape is most effective when combined with other escape threats from Invisible Collar bottom. If the attacker is focused on defending your hip escape or rolling escape attempts, the sudden posture change to standing catches them out of position. The escape integrates into a layered defensive system where each escape attempt creates openings for others, making the defender unpredictable and forcing the attacker to address multiple threats simultaneously.",
+    "key_principles": [
+      "Neutralize collar grip depth before committing to the stand—standing with a deep collar grip accelerates the choke rather than escaping it",
+      "Control the choking wrist with two-on-one grip throughout the standing sequence to prevent grip deepening during transition",
+      "Drive upward explosively through your legs while maintaining chin tuck—vertical displacement breaks the chest-to-back connection that powers all back attacks",
+      "Peel hooks sequentially rather than simultaneously—address the bottom hook first as it bears your combined weight when standing",
+      "Create forward angle as you stand so your weight drives into the attacker's hooks rather than allowing them to hang freely on your back",
+      "Transition immediately to guard retention upon reaching feet—standing without establishing defensive frames creates vulnerability to takedowns"
+    ],
+    "setup_requirements": [
+      "Two-on-one grip control established on opponent's choking wrist, preventing further collar penetration",
+      "Chin tucked tightly to chest, limiting the mechanical effectiveness of the invisible collar choke",
+      "At least partial weight shifted to one hip, creating the base angle needed to begin standing sequence",
+      "Opponent's top hook partially controlled or loosened through prior hip movement, reducing their ability to maintain riding position during stand-up",
+      "Sufficient energy reserves remaining for explosive stand-up—this technique demands a committed burst rather than gradual movement",
+      "Mental recognition that collar grip is shallow enough to survive the standing transition without being choked during the movement"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Secure choking wrist",
+        "description": "Establish two-on-one grip on opponent's collar-gripping wrist using both hands. Your top hand grabs their wrist while your bottom hand reinforces by gripping their forearm just below the wrist. Pull their hand away from your neck to create slack in the collar material."
+      },
+      {
+        "step_number": 2,
+        "action": "Tuck chin and strip collar depth",
+        "description": "Drive your chin aggressively into your chest while pulling their wrist downward and away from the collar. Rotate your head slightly toward the choking side to compress the space between your chin and collarbone, making it mechanically impossible for them to tighten the choke during your escape sequence."
+      },
+      {
+        "step_number": 3,
+        "action": "Hip escape to base",
+        "description": "While maintaining two-on-one wrist control, execute a strong hip escape toward the non-choking side. Post your free-side foot flat on the mat with knee bent at approximately 90 degrees. Your other knee drives into the mat, creating a combat base position that serves as the launch platform for standing."
+      },
+      {
+        "step_number": 4,
+        "action": "Drive to standing",
+        "description": "Push explosively through your posted foot and drive your hips upward and forward, standing up while keeping your back angled forward at roughly 45 degrees. This forward lean prevents the attacker from sitting back and using their body weight to pull you down. Maintain the two-on-one wrist control throughout the standing motion."
+      },
+      {
+        "step_number": 5,
+        "action": "Peel bottom hook",
+        "description": "Once standing, the bottom hook bears significant weight. Use your free hand to grab their bottom foot at the instep and peel it off your hip by driving it downward toward the mat. Their own body weight hanging from your back assists this removal. Keep your hips driving forward to prevent them from reestablishing the hook."
+      },
+      {
+        "step_number": 6,
+        "action": "Remove top hook and separate",
+        "description": "With the bottom hook removed, the top hook loses its structural support. Strip it using the same hand that removed the bottom hook while maintaining collar wrist control with your other hand. As hooks release, immediately turn to face your opponent and establish distance with frames on their shoulders or collar ties."
+      },
+      {
+        "step_number": 7,
+        "action": "Establish open guard",
+        "description": "As you turn to face your opponent, sit back into open guard with feet on their hips and at least one controlling grip on their sleeve or collar. Do not remain standing facing away—the transition to open guard gives you immediate offensive options and prevents them from retaking the back during the scramble."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Attacker deepens collar grip and applies immediate choking pressure when they feel you initiating the stand-up, attempting to finish before you can complete the escape",
+        "effectiveness": "High",
+        "your_response": "Abort the standing attempt if collar grip depth increases significantly. Return to two-on-one wrist fighting and chin tuck defense. Only reattempt when grip is sufficiently shallow. Attempting to stand through a deep collar grip is the fastest path to being choked.",
+        "targets_outcome": "Invisible Collar/Bottom"
+      },
+      {
+        "counter": "Attacker locks body triangle or tightens hooks aggressively when they feel you shifting weight to stand, preventing the hip escape to base position",
+        "effectiveness": "Medium",
+        "your_response": "If body triangle locks before you stand, address the triangle first by angling your trapped leg and working to unlock the figure-four. Switch to hip escape or rolling escape attempts that work better against body triangle than standing. Return to standing escape after breaking the triangle lock.",
+        "targets_outcome": "Invisible Collar/Bottom"
+      },
+      {
+        "counter": "Attacker transitions to rear naked choke by releasing collar grip and shooting arm under chin as you focus on collar defense during stand-up",
+        "effectiveness": "Medium",
+        "your_response": "The moment you feel collar pressure release, immediately tuck chin and trap their transitioning arm under your armpit. The grip switch creates a brief window where neither choke is set—exploit this by accelerating your standing sequence during the transition gap.",
+        "targets_outcome": "Invisible Collar/Bottom"
+      },
+      {
+        "counter": "Attacker mat returns you by driving their hips forward and hooking your far leg as you attempt to stand, collapsing you back to the mat in a controlled manner",
+        "effectiveness": "High",
+        "your_response": "Widen your base as you stand and keep your hips lower than the attacker's center of gravity. If they drive forward for the mat return, use their forward momentum to execute a forward roll that creates separation. Immediately transition to turtle and work for guard recovery from there.",
+        "targets_outcome": "Invisible Collar/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting to stand while opponent maintains deep collar grip penetration with all four fingers inside the gi material",
+        "consequence": "The vertical movement actually tightens the collar choke by creating additional pressure on the carotid arteries as gravity pulls you away from the grip. Can result in rapid unconsciousness during the escape attempt.",
+        "correction": "Never commit to standing until you have verified the collar grip is shallow through active two-on-one wrist control. If you cannot pull their wrist away from your neck, the grip is too deep for standing escape—use hand fighting and hip escape alternatives first."
+      },
+      {
+        "error": "Standing straight up with an upright torso rather than maintaining forward lean during the stand-up sequence",
+        "consequence": "Opponent's weight pulls you backward, causing you to sit back down directly into their lap with hooks reinserted and potentially improved collar grip position",
+        "correction": "Maintain 45-degree forward lean throughout the standing phase. Think about driving your chest toward the ground rather than the ceiling. Your forward angle makes it mechanically difficult for the attacker to pull you backward."
+      },
+      {
+        "error": "Releasing two-on-one wrist control prematurely to use both hands for hook removal",
+        "consequence": "Opponent immediately re-establishes deep collar grip or transitions to rear naked choke with their now-free hand, creating a worse situation than the original position",
+        "correction": "Maintain wrist control with at least one hand throughout the entire escape sequence. Use your free hand for hook removal while the other hand keeps the choking wrist controlled. Only release after you have fully turned to face your opponent."
+      },
+      {
+        "error": "Trying to remove both hooks simultaneously rather than addressing them sequentially",
+        "consequence": "Neither hook is fully removed, and the divided effort allows opponent to re-seat both hooks while you struggle with ineffective hand fighting on two targets",
+        "correction": "Remove the bottom hook first—it bears the most weight and is the structural foundation. Once the bottom hook is gone, the top hook becomes easy to clear. Sequential approach is faster and more reliable than simultaneous."
+      },
+      {
+        "error": "Remaining standing after hook removal instead of immediately establishing guard position",
+        "consequence": "Opponent recovers to their feet and either retakes the back from standing or executes a takedown, negating the escape effort entirely",
+        "correction": "Transition immediately to open guard as you turn to face your opponent. Sit back with feet on their hips and grips established. The standing escape succeeds when you reach a playable guard position, not simply when you reach your feet."
+      },
+      {
+        "error": "Using slow, grinding effort to stand rather than an explosive burst through the legs",
+        "consequence": "Gives opponent time to adjust hooks, deepen grips, and counter the standing attempt with body triangle or mat return before you reach your feet",
+        "correction": "The stand-up must be explosive and committed. Once you have verified grip safety and established base position, drive through your legs with maximum power. Hesitation allows the opponent to adapt."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Grip assessment and chin defense",
+        "description": "Practice identifying invisible collar grip depth and establishing two-on-one wrist control from back control bottom. Drill the chin tuck and wrist pull sequence 20 repetitions per side. Partner provides zero resistance on grip but maintains hooks. Focus on developing the tactile sensitivity to assess whether the collar grip is shallow enough for standing escape."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Standing mechanics and hook removal",
+        "description": "Drill the full standing sequence from combat base to feet with partner maintaining hooks at 30% resistance. Practice the bottom hook peel and top hook strip in isolation, then combine with the standing motion. Emphasize the forward lean angle and explosive drive through the posted foot. Add the guard establishment finish."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Counter recognition and chain escapes",
+        "description": "Partner applies 50-60% resistance and actively counters the standing escape with mat returns, grip deepening, and RNC transitions. Practice aborting the standing attempt when collar depth increases and flowing to alternative escapes. Develop the decision-making framework for when to commit and when to switch techniques."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Competition integration",
+        "description": "Full resistance positional sparring from invisible collar bottom. Standing escape becomes one option within a complete escape system including hip escapes, rolling escapes, and Granby rolls. Track success rates and identify personal timing windows. Drill under fatigue conditions to simulate competition scenarios where energy management becomes critical."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the most critical assessment you must make before committing to the Standing Escape from Invisible Collar?",
+        "answer": "You must assess the depth of the opponent's collar grip. If all four fingers are deeply embedded inside the gi material with knuckles against your neck, standing will tighten the choke by adding gravitational force to the collar pressure. Only commit to standing when you have successfully created slack in the collar through two-on-one wrist control and can verify the grip is shallow enough to survive the vertical transition."
+      },
+      {
+        "question": "Why must you maintain a forward lean of approximately 45 degrees during the standing phase rather than standing upright?",
+        "answer": "The forward lean serves two critical functions. First, it prevents the opponent from using their body weight to pull you backward into their lap, which would reset the escape with potentially deeper hooks. Second, it loads your weight onto the opponent's bottom hook, making it easier to peel by driving their foot toward the mat. Standing upright creates a pendulum effect where the attacker's hanging weight generates backward momentum that collapses the escape."
+      },
+      {
+        "question": "Your opponent locks a body triangle as you begin shifting weight to stand—how do you adjust your escape strategy?",
+        "answer": "Abort the standing escape immediately. A body triangle dramatically increases the opponent's ability to control your hips and execute mat returns during standing attempts. Switch to addressing the body triangle first by angling your trapped leg and working to unlock the figure-four configuration. Hip escape and rolling escape variants are more effective against body triangle than standing. Return to the standing escape only after successfully breaking the body triangle lock."
+      },
+      {
+        "question": "What is the correct sequence for removing the opponent's hooks after reaching your feet?",
+        "answer": "Remove the bottom hook first, then the top hook. The bottom hook bears the combined weight of both fighters when you are standing, making it the structural foundation of the opponent's back control. Once removed, the top hook loses its support and becomes easy to strip. Attempting to remove the top hook first leaves the bottom hook loaded with weight and nearly impossible to peel. Use your free hand to grab the instep and drive it downward toward the mat."
+      },
+      {
+        "question": "Your opponent releases the collar grip and shoots for a rear naked choke as you initiate the stand-up—what is your response window?",
+        "answer": "The grip transition creates a 1-2 second window where neither the collar choke nor the RNC is fully established. In this window, immediately tuck your chin and trap their transitioning arm under your armpit by clamping your elbow tight to your body. Simultaneously accelerate your standing sequence—the opponent's attention is divided between establishing the new choke and maintaining positional control. This is actually a favorable moment to complete the escape because their grip transition temporarily weakens their overall control structure."
+      },
+      {
+        "question": "What grip configuration must you establish before committing to the standing phase?",
+        "answer": "Two-on-one control on the opponent's collar-gripping wrist is mandatory. Your top hand grips their wrist bone while your bottom hand reinforces on their forearm. This configuration serves dual purpose: it prevents them from deepening the collar grip during your escape, and it creates the slack needed to make the collar mechanically ineffective during the vertical transition. Attempting to stand with only single-hand wrist control gives the opponent the ability to fight through and re-establish depth."
+      },
+      {
+        "question": "You successfully reach your feet but your opponent still has both hooks in—what is the immediate priority?",
+        "answer": "Maintain two-on-one wrist control and begin peeling the bottom hook immediately. Do not try to run forward or shake them off—this wastes energy and often results in a mat return. Keep your forward lean to load weight onto the bottom hook, grab their instep with your free hand, and drive it downward. The key is methodical hook removal while maintaining collar grip defense, not panicked movement that creates opportunities for the attacker to tighten control."
+      },
+      {
+        "question": "When should you abort a Standing Escape attempt and switch to an alternative escape?",
+        "answer": "Abort immediately if: the opponent deepens their collar grip during your weight shift (you feel increased pressure on your neck), they lock a body triangle before you reach combat base, or they execute a mat return that flattens you back to the starting position. Each failed standing attempt costs significant energy, so recognizing early failure indicators and flowing to hip escape, rolling escape, or Granby roll preserves your defensive resources. Never force a standing escape through a tightening collar—this is the highest-risk error."
+      },
+      {
+        "question": "What is the correct finishing position after completing the Standing Escape?",
+        "answer": "The escape is complete when you establish open guard with feet on opponent's hips and at least one controlling grip on their sleeve or collar. Simply reaching your feet is not the finish—remaining standing while facing away from your opponent invites back retakes or takedowns. As hooks release and you turn to face them, immediately sit back into guard with defensive frames established. The transition from standing to guard must be seamless and immediate."
+      },
+      {
+        "question": "How does the Standing Escape integrate with other escape options from Invisible Collar bottom to create an unpredictable defensive system?",
+        "answer": "The Standing Escape works best when combined with hip escape, rolling escape, and Granby roll attempts. Each escape threatens a different direction—hip escape moves laterally, rolling escape goes forward, Granby inverts, and standing goes vertical. When you alternate between these options, the attacker cannot predict your escape direction and must defend all axes simultaneously. A failed hip escape attempt that shifts your weight can set up the combat base position needed for standing. The key is flowing between escapes based on the attacker's reactions rather than committing to a single option."
+      }
+    ],
+    "safety_considerations": "The Standing Escape from Invisible Collar carries significant risk of choke-related injury if attempted with a deep collar grip still in place. Never force this escape when you feel strong compression on your carotid arteries—tap and reset rather than risking loss of consciousness during the standing transition. When drilling, partners should apply collar pressure gradually and release immediately upon feeling the defender begin to stand, allowing progressive resistance development without sudden choke application. The standing phase also creates fall risk for both partners, as the attacker's weight shifts unpredictably during hook removal. Practice on adequate mat space and ensure the attacker knows to release hooks safely if the standing player loses balance. Practitioners with neck injuries or cervical spine issues should approach this technique cautiously, as the chin tuck under collar pressure places significant load on the cervical vertebrae."
+  },
+  "defender": {
+    "name": "Standing Escape Defender",
+    "description": "How to defend against Standing Escape from Invisible Collar in BJJ. Recognition cues, counters to maintain back control, and strategies to prevent escape completion.",
+    "overview": "As the attacker maintaining Invisible Collar, your primary objective when the bottom player initiates a Standing Escape is to prevent them from completing the vertical transition that neutralizes your choking mechanics. The Standing Escape is one of the most decisive escape options from Invisible Collar bottom because it fundamentally changes the biomechanical relationship—once the defender reaches their feet, your hooks lose structural integrity and your collar grip loses the downward angle that generates choking pressure. Your defensive strategy must address the escape at multiple checkpoints: during grip fighting, during the combat base transition, during the standing phase, and during hook removal.\n\nThe most effective defensive approach is layered prevention rather than single-point reaction. Your first line of defense is maintaining collar grip depth so the escape is never safe to attempt. Your second line is tightening hooks and lower body control to prevent the combat base that launches the stand-up. Your third line is the mat return—driving the escaping player back to the ground before they can complete hook removal. Each defensive layer buys time and creates opportunities to either finish the submission or reset your back control structure.\n\nUnderstanding the escaping player's decision points allows you to anticipate and counter each phase. They must verify grip depth is shallow, establish combat base, drive to standing, and remove hooks sequentially. Disrupting any single phase collapses the entire escape sequence and returns them to a defensive position where your submission threats remain active.",
+    "key_principles": [
+      "Maintain collar grip depth as the primary deterrent—a deep invisible collar makes the Standing Escape self-defeating because vertical movement tightens the choke",
+      "Monitor the escaping player's two-on-one wrist control attempts and counter-grip immediately rather than allowing them to establish the configuration unchallenged",
+      "Keep hooks active and driving toward opponent's hips throughout—passive hooks are easily stripped during the standing transition",
+      "Drive chest weight forward into the defender's upper back to prevent the postural change needed to establish combat base",
+      "Maintain hip-to-hip connection to limit the hip escape that creates the standing platform—if they cannot get to combat base, they cannot stand",
+      "Be prepared to transition between collar choke, rear naked choke, and body triangle based on the escape attempt—each counter creates different submission opportunities"
+    ],
+    "recognition_cues": [
+      "Defender establishes two-on-one grip on your collar-gripping wrist and begins pulling it away from their neck—this is the first preparatory action before any standing attempt",
+      "Defender shifts weight laterally onto one hip and begins posting a foot flat on the mat with bent knee, creating the combat base launch position for standing",
+      "Defender's chin tucks aggressively into their chest and their body begins to angle forward, indicating they are preparing to drive upward through their legs rather than escape laterally",
+      "Defender's breathing pattern changes to shorter, faster breaths indicating they are preparing an explosive movement—the standing escape requires a committed burst of energy",
+      "Defender begins testing hook resistance by shifting hips side to side without committing to a lateral escape, probing whether your hooks are loose enough to survive the standing transition"
+    ],
+    "defensive_options": [
+      {
+        "action": "Deepen collar grip and apply immediate choking pressure by rotating your forearm toward your chest and driving knuckles into their neck",
+        "when_to_use": "The moment you feel two-on-one wrist fighting on your collar hand, before they create any significant slack in the grip",
+        "targets_outcome": "Invisible Collar/Bottom",
+        "if_successful": "Defender is forced to abort the standing attempt and return to pure survival defense, resetting to the starting position where your submission threats remain active",
+        "risk": "If your grip is already partially stripped, forcing the choke may result in a shallow attempt that wastes energy and gives defender confidence their grip fighting is working"
+      },
+      {
+        "action": "Lock body triangle by crossing your feet into figure-four configuration around their waist, eliminating the hip mobility needed for combat base",
+        "when_to_use": "When you feel the defender beginning to shift weight onto one hip and post a foot, indicating combat base transition",
+        "targets_outcome": "Invisible Collar/Bottom",
+        "if_successful": "Body triangle prevents the hip escape to combat base entirely, trapping them flat and maintaining full back control with collar grip intact for continued submission attacks",
+        "risk": "Body triangle takes time to establish and if the defender is already partially standing, you may not complete the lock before they drive upward"
+      },
+      {
+        "action": "Execute mat return by driving hips forward, extending your legs, and hooking their far ankle to collapse them back to the mat in a controlled takedown",
+        "when_to_use": "When the defender has reached their feet but still has at least one hook in—the standing phase before hook removal is the optimal window",
+        "targets_outcome": "Invisible Collar/Bottom",
+        "if_successful": "Defender is driven back to the mat with hooks reinserted and collar grip maintained or improved, resetting the position with their energy depleted from the failed escape attempt",
+        "risk": "If the defender has removed one hook and established strong forward lean, the mat return may fail and create momentum they can use to accelerate separation"
+      },
+      {
+        "action": "Release collar grip and transition to rear naked choke by threading your arm under their chin during the grip-fighting phase when their hands are occupied with your collar wrist",
+        "when_to_use": "When the defender commits both hands to two-on-one control on your collar wrist, leaving their neck temporarily unprotected on the opposite side",
+        "targets_outcome": "Invisible Collar/Bottom",
+        "if_successful": "You establish a rear naked choke threat that forces them to abandon the standing escape entirely and redirect both hands to neck defense, maintaining back control with a new submission angle",
+        "risk": "The grip transition creates a 1-2 second window where you have neither choke established, and an alert defender may accelerate their standing escape during this gap"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Invisible Collar/Bottom",
+        "how": "Deepen collar grip at the first sign of two-on-one wrist fighting to make the standing escape self-defeating. Simultaneously tighten hooks and drive chest weight forward to prevent the postural change needed for combat base. The combination of deep grip and active hooks makes the escape too dangerous to attempt."
+      },
+      {
+        "outcome": "Invisible Collar/Bottom",
+        "how": "Execute a mat return during the standing phase by driving your hips forward and hooking their far ankle. Time this for the moment they reach their feet but before they begin removing hooks. The mat return collapses them back to starting position with depleted energy, giving you improved control for the next submission attempt."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing the defender to establish two-on-one wrist control without immediately counter-gripping or deepening the collar",
+        "consequence": "Defender creates slack in the collar material, making the grip shallow enough to survive standing. Once they verify grip safety, the escape becomes high-percentage and difficult to prevent.",
+        "correction": "The moment you feel a second hand contact your collar-gripping wrist, immediately deepen the grip by driving fingers further into the collar and rotating your forearm. Counter-grip their wrist-fighting hand with your free arm to prevent the two-on-one configuration from establishing."
+      },
+      {
+        "error": "Maintaining passive hooks that simply rest on the defender's hips without actively driving inward",
+        "consequence": "Passive hooks are easily peeled during the standing phase because they lack the muscular engagement to resist removal. The bottom hook especially becomes dead weight that assists the defender's peel.",
+        "correction": "Keep hooks dynamically engaged by driving your heels toward each other through the defender's body. When you feel the standing attempt, actively curl your hooks inward and drive your hips closer to their back to tighten the connection."
+      },
+      {
+        "error": "Sitting upright on the defender's back rather than driving chest weight forward into their shoulders",
+        "consequence": "An upright posture allows the defender to easily shift weight forward and establish the 45-degree lean needed for standing. Your weight becomes neutral rather than an obstacle to their posture change.",
+        "correction": "Drive your chest into the space between their shoulder blades and angle your weight forward. Your forehead should be near the top of their head. This forward pressure makes it significantly harder for them to lean forward and establish combat base."
+      },
+      {
+        "error": "Attempting to finish the collar choke during the standing transition rather than prioritizing position maintenance",
+        "consequence": "Finishing attempts during the stand-up often result in a shallow choke that fails while the defender completes the escape. You lose both the submission and the position simultaneously.",
+        "correction": "If the defender reaches combat base, prioritize mat return and hook retention over choke finishing. A maintained back control position gives you unlimited future submission attempts, while a forced finish during escape transition has low completion probability."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that your opponent is preparing a Standing Escape from Invisible Collar?",
+        "answer": "The earliest cue is the defender establishing two-on-one grip control on your collar-gripping wrist. Before any postural change or weight shift occurs, they must first address the collar grip to make standing safe. When you feel a second hand contact your collar wrist and begin pulling it away from their neck, this is the definitive signal that a standing escape is being prepared. Responding at this stage—by deepening the grip or transitioning attacks—is far more effective than waiting for the standing motion itself."
+      },
+      {
+        "question": "Why is the body triangle the most effective preventive counter against the Standing Escape?",
+        "answer": "The body triangle eliminates the hip mobility required to establish combat base, which is the mandatory launch platform for the standing escape. Without the ability to hip escape onto one side and post a foot, the defender cannot create the base position from which to drive upward. The body triangle also dramatically increases your control during any standing attempt because the figure-four lock distributes force across your entire lower body rather than relying on individual hooks that can be peeled sequentially."
+      },
+      {
+        "question": "Your opponent has reached their feet and begins peeling your bottom hook—what is the optimal timing for a mat return?",
+        "answer": "The optimal mat return timing is after they commit their free hand to grabbing your bottom hook instep but before they successfully strip it. At this moment, one of their hands is occupied with hook removal and the other maintains wrist control on your collar hand, meaning they have zero defensive hands available for base. Drive your hips explosively forward while extending your legs to create downward momentum. Hook their far ankle with your top foot to prevent them from stepping out of the collapse."
+      },
+      {
+        "question": "How should you adjust your collar grip strategy when the defender successfully creates slack through two-on-one wrist fighting?",
+        "answer": "If two-on-one wrist fighting has already created significant collar slack, forcing the grip deeper may not be viable. Instead, use the situation tactically—release the collar grip suddenly and shoot for a rear naked choke while both their hands are committed to your collar wrist. The unexpected release creates a window where their defensive hands are misallocated. Alternatively, maintain the shallow collar while transitioning to body triangle, accepting that the choke is temporarily neutralized but preserving positional dominance for future attacks."
+      },
+      {
+        "question": "What distinguishes a Standing Escape attempt from a lateral hip escape attempt in terms of early recognition and defensive response?",
+        "answer": "The key distinction is the direction of weight shift and foot positioning. A lateral hip escape shifts weight sideways with both feet typically remaining on the ground or one knee driving, aiming to create lateral separation. A Standing Escape shifts weight forward onto one posted foot with the knee bent at 90 degrees, creating a vertical launch platform. The chin tuck is more aggressive in standing preparation, and you may feel a momentary pause as they assess grip depth before committing. Defensive response differs because hip escapes require lateral pressure to counter, while standing attempts require forward chest pressure and immediate hook tightening to prevent the vertical drive."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Recognition and grip maintenance",
+        "description": "Partner initiates standing escape preparations at slow speed while you practice recognizing the two-on-one wrist control setup and combat base transition. Focus on immediately deepening collar grip and tightening hooks upon recognition. Drill 15-20 repetitions per side with partner providing 25% resistance. Build the automatic response of counter-gripping when you feel the second hand contact your collar wrist."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Mat return mechanics",
+        "description": "Partner stands to feet with hooks still in at controlled speed. Practice the mat return by driving hips forward, extending legs, and hooking the far ankle. Emphasize timing the collapse for the moment they commit a hand to hook removal. Drill at 40-50% resistance with focus on hip drive direction and leg extension coordination. Partner should practice safe falling during mat returns."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Submission transitions during escape",
+        "description": "Partner initiates standing escape at 60% speed and resistance. Practice transitioning between collar choke, rear naked choke, and body triangle based on the escape phase. When they commit both hands to collar grip, attack RNC. When they shift to combat base, lock body triangle. Develop fluid switching between defensive counters based on the escape pathway the partner chooses."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Full resistance positional sparring",
+        "description": "Positional sparring from Invisible Collar top with full resistance. Partner uses standing escape as one option within their complete escape system. Practice reading which escape is coming and selecting the appropriate counter. Track success rate of maintaining back control across all escape attempts, identifying which escape pathway you struggle most to counter and drilling those scenarios specifically."
+      }
+    ]
+  },
   "variants_and_adaptations": [
     {
       "variant_name": "Seated Stand-Up with Forward Roll",
@@ -175,91 +396,12 @@
       "when_to_use": "When the collar grip is relatively shallow and you can fully strip it. Works well against opponents who rely heavily on the collar grip for control rather than hooks."
     }
   ],
-  "knowledge_assessment": [
-    {
-      "question": "What is the most critical assessment you must make before committing to the Standing Escape from Invisible Collar?",
-      "answer": "You must assess the depth of the opponent's collar grip. If all four fingers are deeply embedded inside the gi material with knuckles against your neck, standing will tighten the choke by adding gravitational force to the collar pressure. Only commit to standing when you have successfully created slack in the collar through two-on-one wrist control and can verify the grip is shallow enough to survive the vertical transition."
-    },
-    {
-      "question": "Why must you maintain a forward lean of approximately 45 degrees during the standing phase rather than standing upright?",
-      "answer": "The forward lean serves two critical functions. First, it prevents the opponent from using their body weight to pull you backward into their lap, which would reset the escape with potentially deeper hooks. Second, it loads your weight onto the opponent's bottom hook, making it easier to peel by driving their foot toward the mat. Standing upright creates a pendulum effect where the attacker's hanging weight generates backward momentum that collapses the escape."
-    },
-    {
-      "question": "Your opponent locks a body triangle as you begin shifting weight to stand—how do you adjust your escape strategy?",
-      "answer": "Abort the standing escape immediately. A body triangle dramatically increases the opponent's ability to control your hips and execute mat returns during standing attempts. Switch to addressing the body triangle first by angling your trapped leg and working to unlock the figure-four configuration. Hip escape and rolling escape variants are more effective against body triangle than standing. Return to the standing escape only after successfully breaking the body triangle lock."
-    },
-    {
-      "question": "What is the correct sequence for removing the opponent's hooks after reaching your feet?",
-      "answer": "Remove the bottom hook first, then the top hook. The bottom hook bears the combined weight of both fighters when you are standing, making it the structural foundation of the opponent's back control. Once removed, the top hook loses its support and becomes easy to strip. Attempting to remove the top hook first leaves the bottom hook loaded with weight and nearly impossible to peel. Use your free hand to grab the instep and drive it downward toward the mat."
-    },
-    {
-      "question": "Your opponent releases the collar grip and shoots for a rear naked choke as you initiate the stand-up—what is your response window?",
-      "answer": "The grip transition creates a 1-2 second window where neither the collar choke nor the RNC is fully established. In this window, immediately tuck your chin and trap their transitioning arm under your armpit by clamping your elbow tight to your body. Simultaneously accelerate your standing sequence—the opponent's attention is divided between establishing the new choke and maintaining positional control. This is actually a favorable moment to complete the escape because their grip transition temporarily weakens their overall control structure."
-    },
-    {
-      "question": "What grip configuration must you establish before committing to the standing phase?",
-      "answer": "Two-on-one control on the opponent's collar-gripping wrist is mandatory. Your top hand grips their wrist bone while your bottom hand reinforces on their forearm. This configuration serves dual purpose: it prevents them from deepening the collar grip during your escape, and it creates the slack needed to make the collar mechanically ineffective during the vertical transition. Attempting to stand with only single-hand wrist control gives the opponent the ability to fight through and re-establish depth."
-    },
-    {
-      "question": "You successfully reach your feet but your opponent still has both hooks in—what is the immediate priority?",
-      "answer": "Maintain two-on-one wrist control and begin peeling the bottom hook immediately. Do not try to run forward or shake them off—this wastes energy and often results in a mat return. Keep your forward lean to load weight onto the bottom hook, grab their instep with your free hand, and drive it downward. The key is methodical hook removal while maintaining collar grip defense, not panicked movement that creates opportunities for the attacker to tighten control."
-    },
-    {
-      "question": "When should you abort a Standing Escape attempt and switch to an alternative escape?",
-      "answer": "Abort immediately if: the opponent deepens their collar grip during your weight shift (you feel increased pressure on your neck), they lock a body triangle before you reach combat base, or they execute a mat return that flattens you back to the starting position. Each failed standing attempt costs significant energy, so recognizing early failure indicators and flowing to hip escape, rolling escape, or Granby roll preserves your defensive resources. Never force a standing escape through a tightening collar—this is the highest-risk error."
-    },
-    {
-      "question": "What is the correct finishing position after completing the Standing Escape?",
-      "answer": "The escape is complete when you establish open guard with feet on opponent's hips and at least one controlling grip on their sleeve or collar. Simply reaching your feet is not the finish—remaining standing while facing away from your opponent invites back retakes or takedowns. As hooks release and you turn to face them, immediately sit back into guard with defensive frames established. The transition from standing to guard must be seamless and immediate."
-    },
-    {
-      "question": "How does the Standing Escape integrate with other escape options from Invisible Collar bottom to create an unpredictable defensive system?",
-      "answer": "The Standing Escape works best when combined with hip escape, rolling escape, and Granby roll attempts. Each escape threatens a different direction—hip escape moves laterally, rolling escape goes forward, Granby inverts, and standing goes vertical. When you alternate between these options, the attacker cannot predict your escape direction and must defend all axes simultaneously. A failed hip escape attempt that shifts your weight can set up the combat base position needed for standing. The key is flowing between escapes based on the attacker's reactions rather than committing to a single option."
-    }
+  "conditions": [
+    "Opponent has established Invisible Collar grip from back control with at least one hook inserted",
+    "Collar grip depth is shallow enough to survive the standing transition without being choked",
+    "Two-on-one wrist control has been established on the choking hand",
+    "Sufficient energy reserves for explosive stand-up movement",
+    "No body triangle locked—body triangle must be broken before standing escape is viable"
   ],
-  "safety_considerations": "The Standing Escape from Invisible Collar carries significant risk of choke-related injury if attempted with a deep collar grip still in place. Never force this escape when you feel strong compression on your carotid arteries—tap and reset rather than risking loss of consciousness during the standing transition. When drilling, partners should apply collar pressure gradually and release immediately upon feeling the defender begin to stand, allowing progressive resistance development without sudden choke application. The standing phase also creates fall risk for both partners, as the attacker's weight shifts unpredictably during hook removal. Practice on adequate mat space and ensure the attacker knows to release hooks safely if the standing player loses balance. Practitioners with neck injuries or cervical spine issues should approach this technique cautiously, as the chin tuck under collar pressure places significant load on the cervical vertebrae.",
-  "position_integration": "The Standing Escape occupies a specific tactical niche within the Invisible Collar bottom escape system, representing the vertical escape axis that complements lateral hip escapes, forward rolling escapes, and inverted Granby roll recoveries. Within the broader back control defensive framework, standing escapes are the highest-commitment but most decisive option—when successful, they completely reset the positional hierarchy to neutral open guard. The technique connects to the fundamental BJJ principle that guard players must be able to return to their feet when bottom control positions become untenable. From the resulting open guard position, the escaped player gains access to the full spectrum of guard attacks including sweeps, submissions, and guard retention systems. The Standing Escape is particularly important in competition contexts where points have already been scored from back control, making clean separation and guard reestablishment the pragmatic priority over reversal attempts.",
-  "related_content": [
-    {
-      "name": "Invisible Collar",
-      "relationship": "Starting position—the deceptive collar grip this escape neutralizes"
-    },
-    {
-      "name": "Open Guard",
-      "relationship": "Primary target position after successful escape completion"
-    },
-    {
-      "name": "Back Control",
-      "relationship": "Parent position system that Invisible Collar derives from"
-    },
-    {
-      "name": "Hip Escape to Guard Recovery",
-      "relationship": "Alternative lateral escape from same starting position"
-    },
-    {
-      "name": "Rolling Escape",
-      "relationship": "Alternative forward escape that chains with standing attempts"
-    },
-    {
-      "name": "Granby Roll Escape",
-      "relationship": "Alternative inverted escape from Invisible Collar bottom"
-    },
-    {
-      "name": "Elbow Escape to Remove Hooks",
-      "relationship": "Complementary escape focusing on hook removal before standing"
-    },
-    {
-      "name": "Hand Fighting to Remove Collar Grip",
-      "relationship": "Prerequisite grip fighting technique that enables standing escape"
-    },
-    {
-      "name": "Back Escape Series",
-      "relationship": "Broader escape system framework this technique belongs to"
-    },
-    {
-      "name": "Rear Naked Choke",
-      "relationship": "Alternative submission opponent may transition to during escape"
-    }
-  ],
-  "success_rate": 58
+  "position_integration": "The Standing Escape occupies a specific tactical niche within the Invisible Collar bottom escape system, representing the vertical escape axis that complements lateral hip escapes, forward rolling escapes, and inverted Granby roll recoveries. Within the broader back control defensive framework, standing escapes are the highest-commitment but most decisive option—when successful, they completely reset the positional hierarchy to neutral open guard. The technique connects to the fundamental BJJ principle that guard players must be able to return to their feet when bottom control positions become untenable. From the resulting open guard position, the escaped player gains access to the full spectrum of guard attacks including sweeps, submissions, and guard retention systems. The Standing Escape is particularly important in competition contexts where points have already been scored from back control, making clean separation and guard reestablishment the pragmatic priority over reversal attempts."
 }

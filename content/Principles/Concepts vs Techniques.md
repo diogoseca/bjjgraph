@@ -219,7 +219,7 @@ Mastering this distinction requires a shift in learning methodology. Rather than
 
 **Turtle**: Turtle defense and offense involve specific techniques, but concepts like base maintenance, roll prevention, and granby mechanics inform all movements. Conceptual understanding enables practitioners to defend and counter even unfamiliar attacks.
 
-**Guard Pass**: Guard passing includes countless specific techniques, but concepts like posture maintenance, grip breaking, and pressure application unite them. Recognizing these concepts allows practitioners to combine and adapt passes based on opponent responses rather than following rigid sequences.
+**Headquarters Position**: From headquarters position, the passer chooses between numerous specific passing techniques, but concepts like pressure maintenance, grip breaking, and angle creation unite all approaches. Recognizing these shared concepts allows practitioners to chain passes fluidly and adapt to guard player responses rather than committing rigidly to a single pass.
 
 **Butterfly Guard**: Butterfly guard techniques involve specific sweeps and transitions, but concepts of elevation, off-balancing, and hook retention guide all applications. Understanding these principles allows adaptation when standard techniques are countered.
 

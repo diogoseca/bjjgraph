@@ -66,7 +66,7 @@
       "phase": "Position Classification Training",
       "description": "Develop ability to instantly recognize and classify leg entanglement positions by danger level, understanding which require immediate escape versus systematic clearing",
       "key_points": [
-        "Study hierarchy: standard ashi → outside ashi → 50-50 → cross ashi → inside sankaku/saddle",
+        "Study hierarchy: standard ashi \u2192 outside ashi \u2192 50-50 \u2192 cross ashi \u2192 inside sankaku/saddle",
         "Practice identifying positions from bottom perspective under time pressure",
         "Learn specific danger indicators for each position type",
         "Understand how opponent's grips and hooks affect danger level"
@@ -300,11 +300,6 @@
       "name": "Leg Entanglement",
       "content_type": "Principle",
       "relationship": "Core concept underlying understanding of how legs become trapped and controlled"
-    },
-    {
-      "name": "Hip Movement",
-      "content_type": "Principle",
-      "relationship": "Fundamental movement principle critical to maintaining proper hip alignment"
     },
     {
       "name": "Frame Creation",

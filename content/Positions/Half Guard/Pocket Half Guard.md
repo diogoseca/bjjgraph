@@ -93,15 +93,21 @@ From the top perspective, Pocket Half Guard Top represents a dominant pressure-p
 ### Available Transitions
 
 
-- **[[Old School Sweep]]** (25% of attempts)
+- **[[Old School Sweep]]** (37% of attempts)
 
-- **[[Back Take Generic]]** (20% of attempts)
+- **[[Deep Half Entry]]** (18% of attempts)
 
-- **[[Deep Half Entry]]** (22% of attempts)
+- **[[Underhook Sweep from Half]]** (13% of attempts)
 
-- **[[Underhook Sweep from Half]]** (18% of attempts)
+- **[[Half Guard to Back Take]]** (16% of attempts)
 
-- **[[Electric Chair Submission]]** (15% of attempts)
+- **[[Transition to Old School]]** (8% of attempts)
+
+- **[[Roll to Truck]]** (5% of attempts)
+
+- **[[Reguard from Pocket Half Guard]]** (2% of attempts)
+
+- **[[Sweep from Pocket Half Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -160,15 +166,21 @@ From the top perspective, Pocket Half Guard Top represents a dominant pressure-p
 ### Available Transitions
 
 
-- **[[Knee Slice Pass]]** (22% of attempts)
+- **[[Knee Slice Pass]]** (39% of attempts)
 
-- **[[Smash Pass]]** (20% of attempts)
+- **[[Smash Pass]]** (13% of attempts)
 
-- **[[Side Control to Mount]]** (18% of attempts)
+- **[[Underhook Pass]]** (13% of attempts)
 
-- **[[Underhook Pass]]** (20% of attempts)
+- **[[Back Step Pass]]** (13% of attempts)
 
-- **[[Back Take Generic]]** (20% of attempts)
+- **[[Darce Setup]]** (8% of attempts)
+
+- **[[Transition to Flattened Half Guard]]** (8% of attempts)
+
+- **[[Pass Pocket Half]]** (4% of attempts)
+
+- **[[Smash Pocket Half]]** (2% of attempts)
 
 
 ### Common Mistakes

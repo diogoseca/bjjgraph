@@ -4,7 +4,7 @@
 
 ---
 title: "Electric Chair | BJJ Position Guide | BJJ Graph"
-description: "Master Electric Chair position in BJJ. 10th Planet's lockdown sweep with hip pressure. Setup, execution, finish guide. Success: Beginner 45%, Intermediate 60%, Advanced 75%."
+description: "Master Electric Chair position in BJJ. 10th Planet's lockdown sweep combining submission threat with positional control. Complete top and bottom guide with decision trees."
 ---
 
 
@@ -19,7 +19,9 @@ Electric Chair is a devastating attacking position from the lockdown half guard 
 
 The Electric Chair represents a fundamental departure from traditional half guard sweeps by utilizing the lockdown's control to create a unique mechanical advantage. Rather than simply sweeping the opponent, the bottom player generates intense pressure on the hip joint and groin area, creating both a submission threat and a powerful sweeping mechanism. This dual-threat nature makes the position exceptionally difficult to defend, as opponents must simultaneously address the submission danger while preventing the sweep.
 
-From a tactical perspective, Electric Chair serves as a cornerstone of the lockdown system, providing a high-percentage pathway to dominant positions or submissions. The position's effectiveness stems from its ability to break down the opponent's base while maintaining tight control throughout the transition. Advanced practitioners can chain the Electric Chair with other lockdown attacks, creating a comprehensive offensive system that keeps opponents constantly defending.
+From the top player's perspective, being caught in the Electric Chair demands immediate defensive awareness. The top player must recognize the submission threat early, maintain forward pressure to prevent optimal splitting angles, and work systematically to break the lockdown configuration. Success from top requires patience, proper weight distribution, and understanding of the limp leg concept to neutralize the bottom player's leverage.
+
+From a tactical perspective, Electric Chair serves as a cornerstone of the lockdown system, providing a high-percentage pathway to dominant positions or submissions. The position's effectiveness stems from its ability to break down the opponent's base while maintaining tight control throughout the transition. Advanced practitioners can chain the Electric Chair with other lockdown attacks such as the Old School sweep, Truck transitions, and Deep Half entries, creating a comprehensive offensive system that keeps opponents constantly defending. The asymmetry between the bottom player's attacking options and the top player's defensive obligations makes this one of the most strategically rich positions in the lockdown half guard hierarchy.
 
 </section>
 
@@ -93,17 +95,13 @@ From a tactical perspective, Electric Chair serves as a cornerstone of the lockd
 ### Available Transitions
 
 
-- **[[Old School Sweep]]** (18% of attempts)
+- **[[Old School Sweep]]** (73% of attempts)
 
-- **[[Electric Chair Submission]]** (16% of attempts)
+- **[[Deep Half Entry]]** (15% of attempts)
 
-- **[[Turtle to Truck]]** (17% of attempts)
+- **[[Hip Rotation Escape from Electric Chair]]** (8% of attempts)
 
-- **[[Lockdown Sweeps]]** (16% of attempts)
-
-- **[[Deep Half Entry]]** (19% of attempts)
-
-- **[[Dogfight Position]]** (14% of attempts)
+- **[[Straighten Leg Defense from Electric Chair]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -164,17 +162,13 @@ From a tactical perspective, Electric Chair serves as a cornerstone of the lockd
 ### Available Transitions
 
 
-- **[[Lockdown Break and Pass]]** (21% of attempts)
+- **[[Lockdown Break and Pass]]** (28% of attempts)
 
-- **[[Limp Leg Escape to Pass]]** (18% of attempts)
+- **[[Limp Leg Escape to Pass]]** (24% of attempts)
 
-- **[[Back Take from Lockdown Defense]]** (14% of attempts)
+- **[[Back Take from Lockdown Defense]]** (18% of attempts)
 
-- **[[Knee Slice Pass]]** (17% of attempts)
-
-- **[[Smash Pass]]** (18% of attempts)
-
-- **[[Darce from Lockdown Counter]]** (12% of attempts)
+- **[[Darce from Lockdown Counter]]** (30% of attempts)
 
 
 ### Common Mistakes
@@ -219,8 +213,6 @@ From a tactical perspective, Electric Chair serves as a cornerstone of the lockd
 
 - **[[Truck]]** - Alternative transition - Available when opponent defends sweep
 
-- **[[Vaporizer]]** - Related technique - Alternative sweep when electric chair is defended
-
 - **[[Deep Half Guard]]** - Transition option - Can transition if lockdown is broken
 
 - **[[Old School]]** - Common finish - Primary sweep from electric chair pressure
@@ -228,6 +220,8 @@ From a tactical perspective, Electric Chair serves as a cornerstone of the lockd
 - **[[Back Control]]** - Advanced transition - Available when opponent turns into pressure
 
 - **[[Mount]]** - Sweep destination - Common target after successful old school sweep
+
+- **[[Dogfight Position]]** - Transition option when underhook is strong but lockdown is compromised
 
 
 </section>

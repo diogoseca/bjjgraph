@@ -1,6 +1,6 @@
 {
   "name": "High Elbow Guillotine Variation",
-  "description": "Master the High Elbow Guillotine from Hindulotine. Step-by-step grip mechanics and elbow positioning. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "description": "Master the High Elbow Guillotine from Hindulotine. Step-by-step grip mechanics and elbow positioning for maximum carotid compression in no-gi.",
   "tags": [
     "bjj",
     "transition",
@@ -15,144 +15,381 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 65,
+      "probability": 58,
       "result": "success"
     },
     {
-      "to": "Hindulotine",
-      "probability": 25,
+      "to": "Hindulotine/Bottom",
+      "probability": 27,
       "result": "failure"
     },
     {
-      "to": "Side Control",
-      "probability": 10,
+      "to": "Side Control/Bottom",
+      "probability": 15,
       "result": "counter"
     }
   ],
+  "success_rate": 58,
   "overview": "The High Elbow Guillotine Variation represents the highest-percentage finishing mechanic from the Hindulotine position, distinguished by the dramatic elevation of the choking elbow above the opponent's shoulder line. This grip configuration creates a lever arm that exponentially increases pressure on the carotid arteries compared to standard guillotine mechanics. The technique evolved from catch wrestling principles but has been refined through modern no-gi competition to become the preferred finishing method when holding bottom Hindulotine control.\n\nUnlike the traditional guillotine where the elbow remains relatively low and pressure is generated through arm strength and body curl, the high elbow variation uses skeletal structure and gravity to create finishing pressure. By driving the elbow upward toward the ceiling while simultaneously pulling the opponent's head toward your opposite hip, you create a scissoring action that compresses both carotid arteries simultaneously. This mechanical advantage means the finish requires significantly less energy expenditure while generating greater choking force.\n\nThe strategic timing for this variation is critical. The high elbow configuration is most effective when your opponent's posture is broken and their defensive frames are neutralized. Attempting the high elbow position against a postured opponent allows them to stack and potentially pass. However, when properly timed against a broken-down opponent, the finish comes rapidly, often within seconds of achieving the correct elbow angle. This makes it an ideal finishing sequence when you've established solid Hindulotine control and your opponent is committed to defending at close range.",
-  "key_principles": [
-    "Elevate the choking elbow above opponent's shoulder line to maximize lever arm pressure",
-    "Pull opponent's head toward opposite hip rather than straight down to create scissoring action",
-    "Maintain tight connection between your chest and opponent's head throughout the finish",
-    "Use the non-choking arm to reinforce grip and prevent opponent from creating space",
-    "Drive hips away from opponent while pulling head in opposite direction for maximum stretch",
-    "Keep chin tucked to your chest to prevent opponent from creating defensive space above",
-    "Control opponent's posture with legs to prevent stacking defense during transition"
+  "conditions": [
+    "Established Hindulotine bottom control with guillotine grip secured around opponent's neck",
+    "Opponent's posture broken forward with head below their shoulder line",
+    "Choking arm threaded deep enough that wrist blade contacts bone under opponent's chin",
+    "Opponent's defensive frames neutralized or trapped, preventing space creation",
+    "Leg configuration actively prevents opponent from posturing up or circling away"
   ],
-  "setup_requirements": [
-    "Established Hindulotine control with secure guillotine grip around opponent's neck",
-    "Opponent's posture broken forward with their head below shoulder level",
-    "Near-side arm threaded deep enough to position wrist blade under opponent's chin",
-    "Legs configured to prevent opponent from posturing up or circling during grip adjustment",
-    "Opponent's defensive frames neutralized or trapped to prevent space creation"
-  ],
-  "execution_steps": [
+  "related_content": [
     {
-      "step_number": 1,
-      "action": "Secure base grip",
-      "description": "From Hindulotine bottom position, ensure your choking arm is threaded deep around opponent's neck with the blade of your wrist positioned directly under their chin, not on the throat."
+      "name": "Hindulotine",
+      "relationship": "Starting position providing base control for the high elbow finish"
     },
     {
-      "step_number": 2,
-      "action": "Trap defensive arm",
-      "description": "Use your non-choking hand to control opponent's near-side wrist or bicep, preventing them from establishing a defensive frame between your bodies that would relieve pressure."
+      "name": "Guillotine Control",
+      "relationship": "Parent position family sharing core grip mechanics"
     },
     {
-      "step_number": 3,
-      "action": "Elevate choking elbow",
-      "description": "Drive your choking elbow upward toward the ceiling, aiming to position it above your own shoulder line. This creates the lever arm that distinguishes the high elbow variation from standard guillotine mechanics."
+      "name": "Guillotine Choke",
+      "relationship": "Base submission from which high elbow variation is derived"
     },
     {
-      "step_number": 4,
-      "action": "Angle hips away",
-      "description": "Simultaneously hip escape away from your opponent while maintaining the grip, creating a diagonal stretch across their neck. Your hips should move toward the side opposite your choking arm."
+      "name": "High Elbow Guillotine",
+      "relationship": "Related submission sharing the same finishing mechanic"
     },
     {
-      "step_number": 5,
-      "action": "Pull head to hip",
-      "description": "Pull opponent's head toward your opposite hip using a curling motion while keeping your elbow elevated. This creates a scissoring pressure that compresses both carotid arteries against your forearm blade."
+      "name": "Darce Control",
+      "relationship": "Transition target when opponent creates near-side space defending the choke"
     },
     {
-      "step_number": 6,
-      "action": "Lock and squeeze",
-      "description": "Once you feel the correct angle and pressure, lock your grip tight by squeezing your elbows together and arching your back slightly. Maintain steady pressure until opponent taps or goes unconscious."
+      "name": "Anaconda Control",
+      "relationship": "Alternative control position when opponent rolls to defend"
+    },
+    {
+      "name": "Back Take from Bottom",
+      "relationship": "Chain transition when opponent turns away to relieve choking pressure"
+    },
+    {
+      "name": "Arm in Guillotine",
+      "relationship": "Alternative grip configuration trapping opponent's arm inside the choke"
+    },
+    {
+      "name": "Front Headlock",
+      "relationship": "Related control position sharing head control principles"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Leg control configuration used to prevent opponent from posturing during finish"
+    },
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Sweep integration position when opponent stacks forward against the choke"
     }
   ],
-  "common_counters": [
-    {
-      "counter": "Opponent postures up and stacks before elbow elevation completes",
-      "effectiveness": "High",
-      "your_response": "Abandon the high elbow attempt, use closed guard to pull them back down, and reset to standard Hindulotine control before reattempting"
-    },
-    {
-      "counter": "Opponent tucks chin aggressively and fights hands to break grip",
-      "effectiveness": "Medium",
-      "your_response": "Walk your grip higher by making micro-adjustments, using your elevated elbow to pry under their chin rather than pulling straight back"
-    },
-    {
-      "counter": "Opponent drives shoulder into your neck attempting Von Flue position",
-      "effectiveness": "Medium",
-      "your_response": "Angle your hips sharply away from the shoulder pressure and use butterfly hooks to prevent them from settling their weight"
-    },
-    {
-      "counter": "Opponent circles away from choking arm to relieve pressure angle",
-      "effectiveness": "Low",
-      "your_response": "Follow their movement with your hips and transition to back take as their rotation exposes the back"
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Attempting high elbow position before establishing deep enough initial grip",
-      "consequence": "The elevated elbow creates no pressure because the wrist blade is positioned too low on the neck, allowing opponent to defend and escape",
-      "correction": "Before elevating the elbow, confirm your wrist blade is directly under opponent's chin by feeling bone contact, not the soft tissue of the throat"
-    },
-    {
-      "error": "Elevating elbow without simultaneously angling hips away from opponent",
-      "consequence": "The finish becomes purely dependent on arm strength without the body mechanics that create true high elbow pressure",
-      "correction": "Coordinate elbow elevation with hip escape in one smooth motion, thinking of creating a diagonal line of pressure across opponent's neck"
-    },
-    {
-      "error": "Releasing leg control during the grip transition to high elbow position",
-      "consequence": "Opponent achieves posture or stacks forward, neutralizing the submission and potentially passing to side control",
-      "correction": "Maintain active closed guard or butterfly hook control throughout the entire transition, only adjusting legs after the finish is locked"
-    },
-    {
-      "error": "Pulling opponent's head straight down rather than toward opposite hip",
-      "consequence": "Creates a crushing pressure on the trachea rather than blood choke on carotids, which is less effective and more uncomfortable for training",
-      "correction": "Visualize pulling opponent's ear toward your opposite hip, creating the angled scissoring action that targets blood supply"
-    },
-    {
-      "error": "Rushing the elbow elevation against a postured opponent",
-      "consequence": "Opponent uses the movement window to stack, pass guard, or establish Von Flue counter position",
-      "correction": "Only initiate high elbow transition when opponent's posture is fully broken and they are committed to defending at close range"
-    }
-  ],
-  "training_progressions": [
-    {
-      "phase": "Week 1-2",
-      "focus": "Grip mechanics isolation",
-      "description": "Practice the high elbow grip configuration against a non-resisting partner. Focus on feeling the correct elbow angle, wrist blade placement, and the difference in pressure between high and low elbow positions. Partner provides feedback on pressure."
-    },
-    {
-      "phase": "Week 3-4",
-      "focus": "Coordination with hip movement",
-      "description": "Add the hip escape component to the drill. Practice coordinating elbow elevation with hip angle changes against light resistance. Partner allows the transition but creates slight pressure to simulate realistic conditions."
-    },
-    {
-      "phase": "Week 5-6",
-      "focus": "Counter recognition and timing",
-      "description": "Partner actively defends with specific counters: posturing, chin tuck, stacking. Practice recognizing when to attempt high elbow versus when to reset or transition. Develop timing awareness for when opponent is most vulnerable."
-    },
-    {
-      "phase": "Week 7+",
-      "focus": "Live integration",
-      "description": "Apply the high elbow variation during positional sparring starting from Hindulotine. Focus on recognizing live opportunities and executing the technique against fully resisting opponents. Analyze failures to refine timing."
-    }
-  ],
+  "attacker": {
+    "name": "High Elbow Guillotine Variation Attacker",
+    "description": "How to execute High Elbow Guillotine Variation in BJJ. Attacking perspective with setup, execution steps, and counters.",
+    "overview": "The High Elbow Guillotine Variation represents the highest-percentage finishing mechanic from the Hindulotine position, distinguished by the dramatic elevation of the choking elbow above the opponent's shoulder line. This grip configuration creates a lever arm that exponentially increases pressure on the carotid arteries compared to standard guillotine mechanics. The technique evolved from catch wrestling principles but has been refined through modern no-gi competition to become the preferred finishing method when holding bottom Hindulotine control.\n\nUnlike the traditional guillotine where the elbow remains relatively low and pressure is generated through arm strength and body curl, the high elbow variation uses skeletal structure and gravity to create finishing pressure. By driving the elbow upward toward the ceiling while simultaneously pulling the opponent's head toward your opposite hip, you create a scissoring action that compresses both carotid arteries simultaneously. This mechanical advantage means the finish requires significantly less energy expenditure while generating greater choking force.\n\nThe strategic timing for this variation is critical. The high elbow configuration is most effective when your opponent's posture is broken and their defensive frames are neutralized. Attempting the high elbow position against a postured opponent allows them to stack and potentially pass. However, when properly timed against a broken-down opponent, the finish comes rapidly, often within seconds of achieving the correct elbow angle. This makes it an ideal finishing sequence when you've established solid Hindulotine control and your opponent is committed to defending at close range.",
+    "key_principles": [
+      "Elevate the choking elbow above opponent's shoulder line to maximize lever arm pressure",
+      "Pull opponent's head toward opposite hip rather than straight down to create scissoring action",
+      "Maintain tight connection between your chest and opponent's head throughout the finish",
+      "Use the non-choking arm to reinforce grip and prevent opponent from creating space",
+      "Drive hips away from opponent while pulling head in opposite direction for maximum stretch",
+      "Keep chin tucked to your chest to prevent opponent from creating defensive space above",
+      "Control opponent's posture with legs to prevent stacking defense during transition"
+    ],
+    "setup_requirements": [
+      "Established Hindulotine control with secure guillotine grip around opponent's neck",
+      "Opponent's posture broken forward with their head below shoulder level",
+      "Near-side arm threaded deep enough to position wrist blade under opponent's chin",
+      "Legs configured to prevent opponent from posturing up or circling during grip adjustment",
+      "Opponent's defensive frames neutralized or trapped to prevent space creation"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Secure base grip",
+        "description": "From Hindulotine bottom position, ensure your choking arm is threaded deep around opponent's neck with the blade of your wrist positioned directly under their chin, not on the throat. Confirm bone-on-bone contact by feeling the mandible against your forearm before proceeding."
+      },
+      {
+        "step_number": 2,
+        "action": "Trap defensive arm",
+        "description": "Use your non-choking hand to control opponent's near-side wrist or bicep, preventing them from establishing a defensive frame between your bodies that would relieve pressure. Pin their arm to your chest or trap it under your armpit."
+      },
+      {
+        "step_number": 3,
+        "action": "Elevate choking elbow",
+        "description": "Drive your choking elbow upward toward the ceiling, aiming to position it above your own shoulder line. This creates the lever arm that distinguishes the high elbow variation from standard guillotine mechanics. Think of pointing your elbow at the ceiling, not pulling backward."
+      },
+      {
+        "step_number": 4,
+        "action": "Angle hips away",
+        "description": "Simultaneously hip escape away from your opponent while maintaining the grip, creating a diagonal stretch across their neck. Your hips should move toward the side opposite your choking arm, establishing approximately 45 degrees of angle relative to their spine."
+      },
+      {
+        "step_number": 5,
+        "action": "Pull head to hip",
+        "description": "Pull opponent's head toward your opposite hip using a curling motion while keeping your elbow elevated. This creates a scissoring pressure that compresses both carotid arteries against your forearm blade. Visualize pulling their ear toward your hip bone."
+      },
+      {
+        "step_number": 6,
+        "action": "Engage leg control",
+        "description": "Tighten your closed guard or adjust butterfly hooks to prevent opponent from posturing or stacking during the finish. Your legs act as an anchor keeping their body close while your upper body creates the choking angle. Active leg control is essential throughout."
+      },
+      {
+        "step_number": 7,
+        "action": "Lock and squeeze",
+        "description": "Once you feel the correct angle and pressure, lock your grip tight by squeezing your elbows together and arching your back slightly. Maintain steady pressure until opponent taps. The finish should feel structural rather than muscular when positioned correctly."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent postures up and stacks before elbow elevation completes",
+        "effectiveness": "High",
+        "your_response": "Abandon the high elbow attempt, use closed guard to pull them back down, and reset to standard Hindulotine control before reattempting",
+        "targets_outcome": "Hindulotine/Bottom"
+      },
+      {
+        "counter": "Opponent tucks chin aggressively and fights hands to break grip",
+        "effectiveness": "Medium",
+        "your_response": "Walk your grip higher by making micro-adjustments, using your elevated elbow to pry under their chin rather than pulling straight back",
+        "targets_outcome": "Hindulotine/Bottom"
+      },
+      {
+        "counter": "Opponent drives shoulder into your neck attempting Von Flue position",
+        "effectiveness": "Medium",
+        "your_response": "Angle your hips sharply away from the shoulder pressure and use butterfly hooks to prevent them from settling their weight",
+        "targets_outcome": "Side Control/Bottom"
+      },
+      {
+        "counter": "Opponent circles away from choking arm to relieve pressure angle",
+        "effectiveness": "Low",
+        "your_response": "Follow their movement with your hips and transition to back take as their rotation exposes the back",
+        "targets_outcome": "Hindulotine/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting high elbow position before establishing deep enough initial grip",
+        "consequence": "The elevated elbow creates no pressure because the wrist blade is positioned too low on the neck, allowing opponent to defend and escape",
+        "correction": "Before elevating the elbow, confirm your wrist blade is directly under opponent's chin by feeling bone contact, not the soft tissue of the throat"
+      },
+      {
+        "error": "Elevating elbow without simultaneously angling hips away from opponent",
+        "consequence": "The finish becomes purely dependent on arm strength without the body mechanics that create true high elbow pressure",
+        "correction": "Coordinate elbow elevation with hip escape in one smooth motion, thinking of creating a diagonal line of pressure across opponent's neck"
+      },
+      {
+        "error": "Releasing leg control during the grip transition to high elbow position",
+        "consequence": "Opponent achieves posture or stacks forward, neutralizing the submission and potentially passing to side control",
+        "correction": "Maintain active closed guard or butterfly hook control throughout the entire transition, only adjusting legs after the finish is locked"
+      },
+      {
+        "error": "Pulling opponent's head straight down rather than toward opposite hip",
+        "consequence": "Creates a crushing pressure on the trachea rather than blood choke on carotids, which is less effective and more uncomfortable for training",
+        "correction": "Visualize pulling opponent's ear toward your opposite hip, creating the angled scissoring action that targets blood supply"
+      },
+      {
+        "error": "Rushing the elbow elevation against a postured opponent",
+        "consequence": "Opponent uses the movement window to stack, pass guard, or establish Von Flue counter position",
+        "correction": "Only initiate high elbow transition when opponent's posture is fully broken and they are committed to defending at close range"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Grip mechanics isolation",
+        "description": "Practice the high elbow grip configuration against a non-resisting partner. Focus on feeling the correct elbow angle, wrist blade placement, and the difference in pressure between high and low elbow positions. Partner provides feedback on pressure."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Coordination with hip movement",
+        "description": "Add the hip escape component to the drill. Practice coordinating elbow elevation with hip angle changes against light resistance. Partner allows the transition but creates slight pressure to simulate realistic conditions."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Counter recognition and timing",
+        "description": "Partner actively defends with specific counters: posturing, chin tuck, stacking. Practice recognizing when to attempt high elbow versus when to reset or transition. Develop timing awareness for when opponent is most vulnerable."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live integration",
+        "description": "Apply the high elbow variation during positional sparring starting from Hindulotine. Focus on recognizing live opportunities and executing the technique against fully resisting opponents. Analyze failures to refine timing."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary mechanical advantage of the high elbow configuration over a standard guillotine finish?",
+        "answer": "The elevated elbow creates a longer lever arm that generates exponentially more pressure on the carotid arteries using skeletal structure rather than muscular effort. Combined with the hip angle pulling the head toward the opposite hip, this produces a scissoring blood choke that finishes rapidly with minimal energy expenditure compared to standard guillotine mechanics where the elbow stays low."
+      },
+      {
+        "question": "What position do you start High Elbow Guillotine Variation from and what must be established first?",
+        "answer": "This technique starts from Hindulotine bottom position with a secure guillotine grip already established. The wrist blade must be positioned directly under opponent's chin with bone-on-bone contact confirmed, and the opponent's posture must be broken forward before attempting the high elbow transition. Without these prerequisites, the elevation creates no meaningful pressure."
+      },
+      {
+        "question": "What hip angle creates the scissoring pressure that distinguishes high elbow from standard guillotine?",
+        "answer": "Hip escape toward the side opposite your choking arm, creating approximately 45 degrees of angle relative to opponent's spine. This positions your body diagonally. When you pull their head toward your hip while the elevated elbow drives in the opposite direction, the opposing forces create the scissoring action that compresses both carotid arteries simultaneously."
+      },
+      {
+        "question": "Your opponent posts their hand on your hip while you hold Hindulotine - how do you adjust to attempt high elbow?",
+        "answer": "Use your non-choking hand to strip their posting hand while simultaneously hip escaping away from that side. This removes their base and creates the angle needed for elbow elevation. Alternatively, use closed guard to pull them tight and eliminate the posting opportunity before transitioning to the high elbow configuration."
+      },
+      {
+        "question": "Your opponent tucks their chin hard - what micro-adjustment increases finishing pressure without releasing the grip?",
+        "answer": "Walk your choking arm higher by making small climbing movements with your wrist, using the elevated elbow as a lever to pry under their chin. Simultaneously increase hip angle away from opponent and pull more aggressively toward your opposite hip. The combination of higher grip placement and increased diagonal stretch overcomes chin tuck defense."
+      },
+      {
+        "question": "What is the critical difference between trachea pressure and carotid pressure in high elbow execution?",
+        "answer": "Carotid pressure targets blood supply to the brain and causes unconsciousness within seconds when applied correctly. Trachea pressure restricts breathing and is painful but takes much longer to be effective. High elbow mechanics create carotid compression by angling the wrist blade and pulling toward opposite hip rather than straight down toward chest."
+      },
+      {
+        "question": "Your opponent begins driving forward to stack while you have established high elbow grip - what is your response?",
+        "answer": "Use butterfly hooks or open your guard and plant feet on their hips to create elevation. Load their forward driving weight onto your hooks and execute a butterfly sweep while maintaining the high elbow grip. Their stacking pressure becomes sweep energy, and you finish from mount with the choke already locked in place."
+      },
+      {
+        "question": "The high elbow finish fails and opponent begins extracting their head - what chain attacks are available?",
+        "answer": "If opponent creates space to one side, thread deeper for a Darce choke as the space exposes the far armpit. If they turn away, release the guillotine and take the back using seat belt control. If they posture but you maintain wrist contact, transition to an arm-in guillotine or reset to standard Hindulotine control for another attempt."
+      },
+      {
+        "question": "What role do your legs play during the high elbow transition, and what happens if you neglect them?",
+        "answer": "Your legs anchor the opponent's body close and prevent them from posturing or stacking. Closed guard keeps their hips trapped while butterfly hooks allow angle adjustments. Neglecting leg control allows the opponent to stand, stack, or drive through to pass your guard entirely, which is the most common reason the high elbow finish fails in live sparring."
+      },
+      {
+        "question": "How do you differentiate between when to commit to the high elbow finish versus resetting to Hindulotine control?",
+        "answer": "Commit when opponent's posture is fully broken, their defensive frames are neutralized, and you feel bone-on-bone wrist blade contact under their chin. Reset when opponent achieves any posture recovery, begins stacking with forward drive, or establishes a strong frame between your bodies. Chasing a deteriorating position wastes energy and exposes you to guard passes."
+      }
+    ],
+    "safety_considerations": "The High Elbow Guillotine Variation is a blood choke that can cause unconsciousness within seconds when applied correctly. Training partners should tap early and clearly when they feel the carotid compression. The attacker must release immediately upon tap - there is no safe period to hold after submission. When drilling, start with light pressure and gradually increase so partners can calibrate tap timing. Avoid cranking or twisting the neck, which can cause cervical spine injury separate from the choke itself. Partners with neck injuries, cervical disc issues, or cardiovascular conditions should avoid this technique. If a training partner loses consciousness, release immediately, place them in recovery position, and monitor breathing until they regain consciousness."
+  },
+  "defender": {
+    "name": "High Elbow Guillotine Variation Defender",
+    "description": "How to defend against High Elbow Guillotine Variation in BJJ. Recognition cues, defensive options, and escape strategies.",
+    "overview": "Defending the High Elbow Guillotine Variation requires early recognition and immediate action, as the choke reaches full effectiveness within seconds once the elbow is elevated and the hip angle is established. The defender's primary objective is to prevent the attacker from completing the transition from standard Hindulotine grip to the high elbow configuration. This means maintaining posture, fighting grip depth, and denying the hip angle that creates the scissoring pressure on the carotid arteries.\n\nThe defensive window is narrow but well-defined. Before the elbow elevates, you have multiple viable options including posture recovery, chin tuck with hand fighting, and stacking. Once the high elbow is locked with proper hip angle, defensive options diminish rapidly and the choke approaches inevitability. Understanding this timeline is critical: every second spent in passive defense while the attacker adjusts grip and angle brings you closer to unconsciousness. The defender must be proactive and aggressive in disrupting the attacker's mechanics rather than waiting and hoping the choke loosens.\n\nThe most reliable defensive framework prioritizes posture first, grip disruption second, and positional escape third. If you cannot regain posture, you must immediately attack the grip by fighting the choking hand and preventing the wrist blade from settling under your chin. If the grip is established, your remaining option is to create a positional change that neutralizes the angle, such as driving your shoulder into the attacker's neck for a Von Flue counter or circling your body to collapse the scissoring angle.",
+    "key_principles": [
+      "Address posture immediately - every second with broken posture allows the attacker to improve grip depth and elbow angle",
+      "Fight the choking hand before the elbow elevates, as prevention is far more effective than escaping a locked-in high elbow",
+      "Tuck chin aggressively toward the choking arm side to deny the wrist blade access under your jawline",
+      "Use your near-side shoulder as a wedge to create space between your neck and the attacker's forearm",
+      "Control the attacker's hip movement with your hands to prevent the angle that creates scissoring pressure",
+      "Drive forward with stacking pressure when possible, as the high elbow finish requires the attacker to angle away from you"
+    ],
+    "recognition_cues": [
+      "Attacker's choking elbow begins rising above their shoulder line while maintaining grip around your neck",
+      "You feel the attacker hip escaping away from you while pulling your head in the opposite direction, creating diagonal tension",
+      "The pressure shifts from a straight pull on your throat to an angled compression on the sides of your neck targeting the carotid arteries",
+      "Attacker's non-choking hand releases position control and moves to reinforce the choking grip or trap your defensive arm",
+      "Attacker tightens closed guard or adjusts butterfly hooks to anchor your body while their upper body creates the finishing angle"
+    ],
+    "defensive_options": [
+      {
+        "action": "Posture recovery with stacking pressure - drive your head upward and forward, walking your knees toward the attacker's hips to stack your weight onto their chest",
+        "when_to_use": "Early in the transition before the attacker has fully elevated their elbow and established hip angle. Most effective when you still have posting ability with at least one hand.",
+        "targets_outcome": "Hindulotine/Bottom",
+        "if_successful": "Forces the attacker back to standard Hindulotine control without the high elbow finish, resetting to a defensible position where you can work other escapes",
+        "risk": "If the attacker has already locked the high elbow angle, driving forward can accelerate the choke by adding your own weight to the compression. Only stack when the elbow is not yet fully elevated."
+      },
+      {
+        "action": "Chin tuck and hand fight - aggressively tuck chin toward the choking arm side while using both hands to strip the attacker's grip and prevent the wrist blade from settling under your jaw",
+        "when_to_use": "When posture recovery is not possible because the attacker has your head controlled, but the grip is not yet fully locked at maximum depth under your chin.",
+        "targets_outcome": "Hindulotine/Bottom",
+        "if_successful": "Denies the precise wrist blade positioning needed for the high elbow finish, forcing the attacker to fight for grip depth rather than finishing. Creates time to work other defenses.",
+        "risk": "Hand fighting can expose your arms to overhook control or arm-in guillotine variations. Keep elbows tight to your body while fighting the grip."
+      },
+      {
+        "action": "Von Flue counter - drive your near-side shoulder into the attacker's neck while passing their guard to the side, using your shoulder pressure to create a counter choke",
+        "when_to_use": "When the attacker flattens out during the high elbow attempt and you can achieve a passing angle with your shoulder driving into their carotid while they maintain the guillotine grip.",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "Creates a counter submission threat that forces the attacker to release the guillotine grip. You end in side control top position with the attacker on their back.",
+        "risk": "Requires passing the guard while being choked, which is a narrow timing window. If you cannot clear the legs quickly, the high elbow finish will put you to sleep before the Von Flue takes effect."
+      },
+      {
+        "action": "Circle away from choking arm - rotate your body away from the side of the attacker's choking elbow to collapse the scissoring angle and relieve carotid pressure",
+        "when_to_use": "When the high elbow is locked and stacking is no longer viable. Use as a last resort to buy time and change the angle of pressure on your neck.",
+        "targets_outcome": "Hindulotine/Bottom",
+        "if_successful": "Collapses the diagonal angle needed for the scissoring finish, converting the choke back to a lower-percentage standard guillotine position that you can defend more easily",
+        "risk": "Circling away exposes your back. An aware attacker will release the guillotine and take back control, transitioning to an even more dominant position."
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Hindulotine/Bottom",
+        "how": "Recover posture by stacking forward and driving your head upward before the attacker completes elbow elevation. Alternatively, fight the grip through aggressive hand fighting and chin tuck to deny wrist blade placement under your jaw. Once the high elbow configuration is disrupted, the attacker returns to standard Hindulotine control where additional escape options exist."
+      },
+      {
+        "outcome": "Side Control/Bottom",
+        "how": "Execute the Von Flue counter by passing the attacker's guard to the choking arm side while driving your shoulder into their neck. This requires precise timing when the attacker flattens their hips to attempt the finish. Clear their legs quickly and settle into side control, maintaining shoulder pressure until they release the grip."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Waiting passively while the attacker adjusts grip and hip angle instead of immediately fighting the position",
+        "consequence": "The attacker completes the high elbow configuration uncontested, locking in a finish that becomes nearly impossible to escape once the scissoring angle is established",
+        "correction": "React immediately when you feel the elbow begin to rise. Every second of inaction allows the attacker to improve their mechanics. Fight the grip, recover posture, or change angle immediately."
+      },
+      {
+        "error": "Extending arms to push the attacker away instead of keeping elbows tight and fighting the grip",
+        "consequence": "Extended arms are easily captured for arm-in guillotine variations or overhook control, which strengthens the attacker's position and eliminates your primary defensive tools",
+        "correction": "Keep elbows pinned to your ribcage and direct all hand fighting toward the attacker's choking hand and wrist. Short, powerful grip-breaking movements are more effective than pushing."
+      },
+      {
+        "error": "Pulling your head straight backward away from the choke instead of addressing the grip and posture",
+        "consequence": "Pulling backward creates more space for the attacker's forearm blade and can actually increase pressure by stretching your neck into the choke. The grip prevents head extraction through backward movement alone.",
+        "correction": "Drive your chin toward the choking arm side and fight to get your jaw below the attacker's wrist blade. Address the grip first, then work posture recovery."
+      },
+      {
+        "error": "Attempting to roll or spin out without controlling the attacker's grip first",
+        "consequence": "Rolling with the choke locked in adds rotational force to the existing compression, potentially accelerating unconsciousness. The attacker can follow any roll while maintaining the finish.",
+        "correction": "Never roll or spin while a tight guillotine grip is in place. Address the grip and angle first, then change position only when you have reduced the choking pressure."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the most critical moment to begin your defense against the high elbow transition?",
+        "answer": "The moment you feel the attacker's elbow begin to rise above their shoulder line is the critical window. Before the elbow fully elevates and the hip angle is established, you have multiple viable defensive options. Once both components are in place, the scissoring pressure makes escape extremely difficult. Immediate reaction to the first sign of elbow elevation gives you the highest probability of successful defense."
+      },
+      {
+        "question": "Your chin is tucked but you feel the attacker walking their grip higher - what adjustment prevents the finish?",
+        "answer": "Use your hands to directly attack the attacker's choking wrist, attempting to strip it downward away from your chin while simultaneously driving your near-side shoulder into the space between your neck and their forearm. Creating even a small wedge with your shoulder bone disrupts the seal needed for carotid compression. Combine this with posture recovery attempts whenever their grip loosens."
+      },
+      {
+        "question": "Why is stacking dangerous once the high elbow configuration is fully established?",
+        "answer": "When the attacker has fully elevated their elbow and established the diagonal hip angle, driving forward adds your own body weight to the compression on your carotid arteries. The scissoring angle means forward pressure actually tightens the choke rather than relieving it. Stacking is only safe as an early defense before the elbow elevates, when it can prevent the attacker from establishing the finishing angle."
+      },
+      {
+        "question": "The attacker has the high elbow locked and you feel carotid compression beginning - what is your emergency response?",
+        "answer": "Tap immediately if you feel blood flow restriction to your brain. If you choose to continue defending, your only viable option is to aggressively circle your body away from the choking arm side to collapse the scissoring angle, accepting the risk of back exposure. Simultaneously strip the choking hand with both hands. This is a last-resort defense with low success probability against a properly locked high elbow finish."
+      },
+      {
+        "question": "How does the Von Flue counter work as a defense and what is the primary risk in attempting it?",
+        "answer": "The Von Flue counter involves passing the attacker's guard to the choking arm side and driving your near-side shoulder into their carotid while they maintain the guillotine grip. Your shoulder pressure creates a counter choke that forces them to release. The primary risk is that passing guard while being choked requires precise timing - if you cannot clear the legs quickly enough, the high elbow finish will cause unconsciousness before your counter takes effect."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Recognition and early defense",
+        "description": "Partner establishes Hindulotine and slowly transitions to high elbow position. Practice identifying the recognition cues: elbow rising, hip angle changing, pressure shifting to carotid. Work posture recovery and chin tuck as immediate defensive responses against zero resistance."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Grip fighting under pressure",
+        "description": "Partner applies increasing resistance while transitioning to high elbow. Practice hand fighting the choking wrist, shoulder wedge creation, and grip-breaking mechanics. Focus on maintaining composure while feeling choking pressure and executing precise defensive movements."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Positional escapes and counters",
+        "description": "Practice the Von Flue counter timing and circling defense against a partner who commits to the high elbow finish. Work the full sequence from recognition through escape execution. Partner provides realistic resistance and follows defensive movements to simulate competition conditions."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live defense integration",
+        "description": "Positional sparring starting from Hindulotine with partner actively attacking high elbow variations. Develop instinctive recognition and defense selection under full resistance. Analyze which defensive options work against specific training partners and refine timing."
+      }
+    ]
+  },
   "variants_and_adaptations": [
     {
       "variant_name": "Marcelotine High Elbow",
-      "description": "Named after Marcelo Garcia, this variation uses an arm-in configuration where opponent's near arm is trapped inside the choke. The high elbow mechanics remain the same but the trapped arm prevents certain defensive frames.",
+      "description": "Uses an arm-in configuration where opponent's near arm is trapped inside the choke. The high elbow mechanics remain the same but the trapped arm prevents certain defensive frames and adds compression against the opponent's own shoulder.",
       "when_to_use": "When opponent's arm naturally falls inside during entry or when they attempt to frame but you capture the arm before they establish position"
     },
     {
@@ -166,91 +403,5 @@
       "when_to_use": "When opponent drives forward giving you sweep opportunity and you can maintain grip through the transition"
     }
   ],
-  "knowledge_assessment": [
-    {
-      "question": "What is the primary goal of High Elbow Guillotine Variation?",
-      "answer": "The primary goal is to create maximum carotid compression through lever arm mechanics by elevating the choking elbow above the shoulder line while pulling opponent's head toward the opposite hip. This creates a scissoring blood choke that finishes rapidly with minimal energy expenditure compared to standard guillotine mechanics."
-    },
-    {
-      "question": "What position do you start High Elbow Guillotine Variation from?",
-      "answer": "This technique starts from Hindulotine bottom position, where you have established a guillotine grip while on your back with opponent in your guard or between your legs. The Hindulotine provides the base control from which you transition to the high elbow finishing configuration."
-    },
-    {
-      "question": "What are the key grips needed for High Elbow Guillotine Variation?",
-      "answer": "The choking arm must be threaded deep with the wrist blade positioned directly under opponent's chin. The hands connect using gable grip or chin strap configuration. The non-choking hand controls opponent's near-side wrist or bicep to prevent defensive frames. Grip depth must be confirmed before attempting elbow elevation."
-    },
-    {
-      "question": "How do you counter High Elbow Guillotine Variation as the defender?",
-      "answer": "The most effective counter is early posture and stack before the high elbow position is established. Once trapped, tuck your chin aggressively and fight to break the grip. Drive your shoulder into attacker's neck for Von Flue counter if they flatten. Circle away from the choking arm to relieve the pressure angle."
-    },
-    {
-      "question": "When is the best time to attempt High Elbow Guillotine Variation?",
-      "answer": "Attempt the high elbow variation when opponent's posture is fully broken and they are committed to defending at close range with their head below shoulder level. The transition requires a window where opponent cannot posture, so wait until their defensive frames are neutralized and they are focused on hand fighting rather than postural recovery."
-    },
-    {
-      "question": "Your opponent posts their hand on your hip while you hold Hindulotine - how do you adjust to attempt high elbow?",
-      "answer": "Use your non-choking hand to strip their posting hand while simultaneously hip escaping away from that side. This removes their base and creates the angle needed for elbow elevation. Alternatively, use closed guard to pull them tight and eliminate the posting opportunity before transitioning."
-    },
-    {
-      "question": "What hip angle creates the scissoring pressure that distinguishes high elbow from standard guillotine?",
-      "answer": "Hip escape toward the side opposite your choking arm, creating approximately 45 degrees of angle. This positions your body diagonally to opponent's spine. When you pull their head toward your hip while the elevated elbow drives in the opposite direction, the opposing forces create the scissoring action on both carotids."
-    },
-    {
-      "question": "Your opponent tucks their chin hard - what micro-adjustment increases finishing pressure without releasing the grip?",
-      "answer": "Walk your choking arm higher by making small climbing movements with your wrist, using the elevated elbow as a lever to pry under their chin. Simultaneously increase hip angle away from opponent and pull more aggressively toward your opposite hip. The combination of higher grip placement and increased diagonal stretch overcomes chin tuck defense."
-    },
-    {
-      "question": "What is the critical difference between trachea pressure and carotid pressure in high elbow execution?",
-      "answer": "Carotid pressure targets blood supply to the brain and causes unconsciousness within seconds when applied correctly. Trachea pressure restricts breathing and is painful but takes much longer to be effective. High elbow mechanics create carotid compression by angling the wrist blade and pulling toward opposite hip rather than straight down toward chest."
-    },
-    {
-      "question": "Your opponent begins driving forward to stack while you have established high elbow grip - what is your response?",
-      "answer": "Use butterfly hooks or open your guard and plant feet on their hips to create elevation. Load their forward driving weight onto your hooks and execute a butterfly sweep while maintaining the high elbow grip. Their stacking pressure becomes sweep energy, and you finish from mount with the choke already locked."
-    }
-  ],
-  "safety_considerations": "The High Elbow Guillotine Variation is a blood choke that can cause unconsciousness within seconds when applied correctly. Training partners should tap early and clearly when they feel the carotid compression. The attacker must release immediately upon tap - there is no safe period to hold after submission. When drilling, start with light pressure and gradually increase so partners can calibrate tap timing. Avoid cranking or twisting the neck, which can cause cervical spine injury separate from the choke itself. Partners with neck injuries, cervical disc issues, or cardiovascular conditions should avoid this technique. If a training partner loses consciousness, release immediately, place them in recovery position, and monitor breathing until they regain consciousness.",
-  "position_integration": "The High Elbow Guillotine Variation serves as the primary finishing mechanism from Hindulotine bottom position, representing the highest-percentage path to submission when you have established secure head control from guard. This technique integrates directly with the Hindulotine system by providing the finishing sequence when opponent's defensive options are limited. If the high elbow finish fails, you maintain Hindulotine control and can attempt alternative finishes such as the arm-in guillotine, transition to Darce when opponent creates space, or take the back when they turn to escape. The technique also chains from standard Guillotine Control and shares mechanical principles with the Anaconda and Darce families of front headlock attacks.",
-  "related_content": [
-    {
-      "name": "Hindulotine",
-      "relationship": "Starting position"
-    },
-    {
-      "name": "Guillotine Control",
-      "relationship": "Parent position family"
-    },
-    {
-      "name": "Guillotine Choke",
-      "relationship": "Base submission mechanic"
-    },
-    {
-      "name": "Darce Control",
-      "relationship": "Transition when opponent creates space"
-    },
-    {
-      "name": "Anaconda Control",
-      "relationship": "Alternative finish position"
-    },
-    {
-      "name": "Back Take from Bottom",
-      "relationship": "Transition when opponent turns away"
-    },
-    {
-      "name": "Arm in Guillotine",
-      "relationship": "Alternative grip configuration"
-    },
-    {
-      "name": "Front Headlock",
-      "relationship": "Related control position"
-    },
-    {
-      "name": "Closed Guard",
-      "relationship": "Leg control option during finish"
-    },
-    {
-      "name": "Butterfly Guard",
-      "relationship": "Sweep integration position"
-    }
-  ],
-  "success_rate": 58
+  "position_integration": "The High Elbow Guillotine Variation serves as the primary finishing mechanism from Hindulotine bottom position, representing the highest-percentage path to submission when you have established secure head control from guard. This technique integrates directly with the Hindulotine system by providing the finishing sequence when opponent's defensive options are limited. If the high elbow finish fails, you maintain Hindulotine control and can attempt alternative finishes such as the arm-in guillotine, transition to Darce when opponent creates space, or take the back when they turn to escape. The technique also chains from standard Guillotine Control and shares mechanical principles with the Anaconda and Darce families of front headlock attacks."
 }

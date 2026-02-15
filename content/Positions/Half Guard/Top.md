@@ -21,37 +21,37 @@ description: "Master Half Guard Top with systematic passing strategies. Advanced
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 23% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 87% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 6% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Pass",
-      "text": "From this position, attempt Underhook Pass. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 4% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, attempt Long Step Pass. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 1% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crossface Pass",
-      "text": "From this position, attempt Crossface Pass. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Crossface Pass. This technique is attempted in 1% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura from Half Guard",
-      "text": "From this position, attempt Kimura from Half Guard. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Kimura",
+      "text": "From this position, attempt Kimura. This technique is attempted in 0% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,23 +212,47 @@ Advanced practitioners develop multiple passing pathways and chain them together
 
 ## Available Attacks
 
-### [[Knee Slice Pass]] (23% of attempts)
+### [[Knee Slice Pass]] (87% of attempts)
 
-### [[Smash Pass]] (13% of attempts)
+### [[Smash Pass]] (6% of attempts)
 
-### [[Underhook Pass]] (13% of attempts)
+### [[Underhook Pass]] (4% of attempts)
 
-### [[Long Step Pass]] (7% of attempts)
+### [[Long Step Pass]] (1% of attempts)
 
-### [[Crossface Pass]] (11% of attempts)
+### [[Crossface Pass]] (1% of attempts)
 
-### [[Kimura from Half Guard]] (7% of attempts)
+### [[Kimura]] (0% of attempts)
 
-### [[Darce Choke]] (6% of attempts)
+### [[Back Step Pass]] (0% of attempts)
 
-### [[Back Step Pass]] (9% of attempts)
+### [[Crossface to Combat Base]] (0% of attempts)
 
-### [[Crossface to Combat Base]] (11% of attempts)
+### [[Transition to Double Jump]] (0% of attempts)
+
+### [[Transition to Flattened Half Guard]] (0% of attempts)
+
+### [[Transition to Pocket Half Guard]] (0% of attempts)
+
+### [[Transition to Quarter Guard]] (0% of attempts)
+
+### [[Transition to Triangle Escape Position]] (0% of attempts)
+
+### [[Over-Under Pass]] (0% of attempts)
+
+### [[Headquarters Pass]] (0% of attempts)
+
+### [[Half Guard to Double Jump]] (0% of attempts)
+
+### [[Half Guard to Flattened Half Guard]] (0% of attempts)
+
+### [[Half Guard to Leg Hook]] (0% of attempts)
+
+### [[Half Guard to Pocket Half Guard]] (0% of attempts)
+
+### [[Half Guard to Quarter Guard]] (0% of attempts)
+
+### [[Half Guard to Triangle Escape Position]] (1% of attempts)
 
 
 
@@ -254,7 +278,7 @@ Advanced practitioners develop multiple passing pathways and chain them together
 
 
 **If opponent turns to side and battles for underhook, creating scramble potential:**
-- Execute **[[Kimura from Half Guard]]** → [[Kimura Trap]] (Probability: 45%)
+- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 45%)
 - Execute **[[Darce Choke]]** → [[Darce Control]] (Probability: 40%)
 
 

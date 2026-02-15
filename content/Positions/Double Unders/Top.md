@@ -21,37 +21,37 @@ description: "Master Double Unders top position in BJJ. Dominant pressure passin
     {
       "@type": "HowToStep",
       "name": "Execute Double Under Pass",
-      "text": "From this position, attempt Double Under Pass. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Double Under Pass. This technique is attempted in 33% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass",
-      "text": "From this position, attempt Stack Pass. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Weave Pass",
-      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Back Take. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Over-Under Pass",
+      "text": "From this position, attempt Over-Under Pass. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Bullfighter Pass",
-      "text": "From this position, attempt Bullfighter Pass. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Body Lock Pass",
+      "text": "From this position, attempt Body Lock Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -207,17 +207,25 @@ The Double Unders position excels at breaking down various open guard styles, pa
 
 ## Available Attacks
 
-### [[Double Under Pass]] (25% of attempts)
+### [[Double Under Pass]] (33% of attempts)
 
-### [[Stack Pass]] (20% of attempts)
+### [[Stack Pass]] (14% of attempts)
 
-### [[Leg Weave Pass]] (18% of attempts)
+### [[Leg Weave Pass]] (10% of attempts)
 
-### [[Back Take]] (12% of attempts)
+### [[Back Take]] (8% of attempts)
 
-### [[Knee Slice Pass]] (15% of attempts)
+### [[Over-Under Pass]] (6% of attempts)
 
-### [[Bullfighter Pass]] (10% of attempts)
+### [[Body Lock Pass]] (10% of attempts)
+
+### [[Knee Slice Pass]] (8% of attempts)
+
+### [[Smash Pass]] (6% of attempts)
+
+### [[Stack Pass from Double Unders]] (3% of attempts)
+
+### [[Toss Pass from Double Unders]] (2% of attempts)
 
 
 

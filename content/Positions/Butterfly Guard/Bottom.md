@@ -21,37 +21,37 @@ description: "Master Butterfly Guard Bottom in BJJ. Dynamic open guard with expl
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Sweep",
-      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 30% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 41% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Elevator Sweep",
-      "text": "From this position, attempt Elevator Sweep. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Elevator Sweep. This technique is attempted in 7% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hook Sweep",
-      "text": "From this position, attempt Hook Sweep. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Arm Drag to Back",
+      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Drag to Back",
-      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 15% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Butterfly Guard to X-Guard",
-      "text": "From this position, attempt Butterfly Guard to X-Guard. This technique is attempted in 12% of exchanges from this position.",
-      "position": 5
+      "text": "From this position, attempt Butterfly Guard to X-Guard. This technique is attempted in 7% of exchanges from this position.",
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guillotine Choke",
       "text": "From this position, attempt Guillotine Choke. This technique is attempted in 5% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Sumi Gaeshi",
+      "text": "From this position, attempt Sumi Gaeshi. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,17 +211,35 @@ The learning curve for butterfly guard involves developing several interconnecte
 
 ## Available Escapes
 
-### [[Butterfly Sweep]] (30% of attempts)
+### [[Butterfly Sweep]] (41% of attempts)
 
-### [[Elevator Sweep]] (20% of attempts)
+### [[Elevator Sweep]] (7% of attempts)
 
-### [[Hook Sweep]] (18% of attempts)
+### [[Arm Drag to Back]] (11% of attempts)
 
-### [[Arm Drag to Back]] (15% of attempts)
-
-### [[Butterfly Guard to X-Guard]] (12% of attempts)
+### [[Butterfly Guard to X-Guard]] (7% of attempts)
 
 ### [[Guillotine Choke]] (5% of attempts)
+
+### [[Sumi Gaeshi]] (6% of attempts)
+
+### [[Single Leg X Entry]] (6% of attempts)
+
+### [[Transition to Butterfly Hook Control]] (1% of attempts)
+
+### [[Deep Half Entry]] (4% of attempts)
+
+### [[Underhook Sweep]] (3% of attempts)
+
+### [[Kimura]] (3% of attempts)
+
+### [[Snap Down to Front Headlock]] (1% of attempts)
+
+### [[Omoplata]] (2% of attempts)
+
+### [[Hook Sweep]] (2% of attempts)
+
+### [[Butterfly Guard to Butterfly Hook Control]] (1% of attempts)
 
 
 

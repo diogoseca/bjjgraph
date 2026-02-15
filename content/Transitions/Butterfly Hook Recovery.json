@@ -13,135 +13,343 @@
   "from_position": "Double Unders/Bottom",
   "outcomes": [
     {
-      "to": "Butterfly Guard",
+      "to": "Butterfly Guard/Bottom",
       "probability": 65,
       "result": "success"
     },
     {
-      "to": "Double Unders",
+      "to": "Double Unders/Bottom",
       "probability": 25,
       "result": "failure"
     },
     {
-      "to": "Side Control",
+      "to": "Side Control/Bottom",
       "probability": 10,
       "result": "counter"
     }
   ],
+  "success_rate": 58,
   "overview": "Butterfly Hook Recovery is a critical defensive transition executed when trapped in the bottom position of double unders pressure passing. The technique focuses on creating just enough space to insert one or both butterfly hooks between yourself and the passer, fundamentally changing the dynamic from a crushing pressure pass situation back to an active guard position. This recovery is most effective during momentary pauses in the opponent's forward pressure, grip adjustments, or when they shift their weight to advance the pass.\n\nThe strategic importance of this technique cannot be overstated for bottom players facing aggressive pressure passers. Unlike escapes that concede position (such as granby rolls to turtle or accepting deep half guard), butterfly hook recovery aims to fully restore an offensive guard position. When executed correctly, it not only stops the pass but immediately threatens sweeps and off-balancing attacks. The butterfly guard position it recovers to is one of the most dynamic in jiu-jitsu, offering elevation sweeps, arm drags, and guillotine entries.\n\nTiming is the critical factor that separates successful butterfly hook recoveries from failed attempts that result in immediate pass completion. The window for insertion exists when the passer's weight shifts forward, backward, or laterally - any moment when their pressure is not driving directly into your hips. Advanced practitioners develop the sensitivity to feel these micro-adjustments and insert hooks almost reflexively, while beginners must consciously look for larger, more obvious opportunities.",
-  "key_principles": [
-    "Create frames before attempting hook insertion - space must exist between bodies for the foot to enter",
-    "Time the insertion during pressure shifts or grip adjustments when opponent's forward drive momentarily pauses",
-    "Insert the hook closest to the side opponent is shifting toward - their movement creates the space you need",
-    "Keep knees bent and legs active throughout - straight legs eliminate all hook insertion possibilities",
-    "Combine frame creation with hip escape to generate the space necessary for hook entry",
-    "Commit fully to the recovery once initiated - half-efforts allow opponent to drive through and complete the pass",
-    "Immediately threaten elevation or sweep upon hook insertion to prevent opponent from simply re-smashing"
-  ],
-  "setup_requirements": [
-    "At least one arm free to create frame against opponent's face, shoulder, or hip",
-    "Hips not completely flattened - some lateral angle preserved for movement capability",
-    "Opponent's forward pressure momentarily reduced or shifted during grip adjustment or weight transfer",
-    "Sufficient leg mobility to bend knee and insert instep as hook between bodies"
-  ],
-  "execution_steps": [
+  "related_content": [
     {
-      "step_number": 1,
-      "action": "Establish frame",
-      "description": "Create a cross-face frame with your forearm against opponent's jaw or neck, using skeletal structure rather than muscular force. This frame generates space proportional to their forward pressure."
+      "name": "Double Unders",
+      "relationship": "Starting position - the crisis state this technique escapes from"
     },
     {
-      "step_number": 2,
-      "action": "Hip escape",
-      "description": "Execute a shrimping motion away from the opponent, creating space between your hip and their chest. The hip escape is critical for generating the gap needed for hook insertion."
+      "name": "Butterfly Guard",
+      "relationship": "Target position - where successful recovery leads"
     },
     {
-      "step_number": 3,
-      "action": "Bend inside knee",
-      "description": "Draw your inside knee toward your chest by bending at the hip and knee, preparing to insert your instep as a butterfly hook. Keep the foot active with toes pointed."
+      "name": "Butterfly Sweep",
+      "relationship": "Follow-up attack from recovered butterfly guard"
     },
     {
-      "step_number": 4,
-      "action": "Insert butterfly hook",
-      "description": "Thread your instep between your body and opponent's inner thigh, establishing the butterfly hook with your foot positioned inside their hip crease for maximum control."
+      "name": "Hip Escape to Guard",
+      "relationship": "Core movement used to create space for hook insertion"
     },
     {
-      "step_number": 5,
-      "action": "Establish upper body control",
-      "description": "Secure a collar grip, overhook, or underhook with your free arm to prevent opponent from simply re-smashing through your newly established hook. Head control is especially effective."
+      "name": "Deep Half Entry",
+      "relationship": "Alternative escape when hook recovery is not possible"
     },
     {
-      "step_number": 6,
-      "action": "Recover second hook or threaten sweep",
-      "description": "Either insert the second butterfly hook for full guard recovery, or immediately threaten an elevation sweep with the single hook to force opponent into defensive posture and create opportunity for complete guard recovery."
+      "name": "Granby Roll to Guard",
+      "relationship": "Alternative escape option using opponent's forward momentum"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Transition option when opponent backsteps around inserted hook"
+    },
+    {
+      "name": "Arm Drag",
+      "relationship": "Follow-up attack available from recovered butterfly position"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Alternative guard recovery target if full butterfly not achievable"
     }
   ],
-  "common_counters": [
-    {
-      "counter": "Opponent drives forward explosively as they feel hook insertion beginning, re-smashing and trapping the leg",
-      "effectiveness": "High",
-      "your_response": "If they drive as you insert, use their momentum to complete an immediate elevation sweep rather than trying to seat the hook statically"
-    },
-    {
-      "counter": "Opponent releases double unders and transitions to over-under or leg weave position before hook is seated",
-      "effectiveness": "Medium",
-      "your_response": "Accept the position change as a win - over-under and leg weave are less dominant than double unders and offer better escape opportunities"
-    },
-    {
-      "counter": "Opponent backsteps around the hook and transitions to headquarters or knee slice position",
-      "effectiveness": "Medium",
-      "your_response": "Follow their movement with your hook, transitioning to de la riva or single leg x-guard as they retreat around your leg"
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Attempting hook insertion without first creating frame and space",
-      "consequence": "Leg gets trapped between bodies, hook cannot seat properly, opponent easily smashes through partial recovery",
-      "correction": "Always establish frame first, hip escape second, then insert hook into the space you have created"
-    },
-    {
-      "error": "Straightening legs while trying to push opponent away with feet",
-      "consequence": "Eliminates all possibility of hook insertion, removes guard retention mechanics entirely",
-      "correction": "Keep knees bent throughout, use bent-knee hook insertion rather than straight-leg pushing"
-    },
-    {
-      "error": "Inserting hook but failing to establish upper body control immediately",
-      "consequence": "Opponent simply re-smashes through the hook, flattening you again with renewed pressure",
-      "correction": "Upper body grip and hook must work together - secure collar, underhook, or overhook as hook seats"
-    },
-    {
-      "error": "Waiting too long for a perfect opening instead of creating opportunities",
-      "consequence": "Pass completes while waiting, never finding the ideal moment that rarely comes naturally",
-      "correction": "Create your own opening through frame pressure and hip movement rather than waiting passively"
-    },
-    {
-      "error": "Inserting hook on the wrong side relative to opponent's weight distribution",
-      "consequence": "Hook is immediately crushed and passed as opponent's weight drives into it",
-      "correction": "Insert hook on the side opponent is shifting away from, where their weight is lighter"
-    }
-  ],
-  "training_progressions": [
-    {
-      "phase": "Week 1-2",
-      "focus": "Fundamentals",
-      "description": "Practice the frame-to-hip-escape-to-hook sequence in isolation with no resistance. Partner holds double unders position statically while you drill the mechanical sequence 20+ repetitions per side. Focus on smooth transitions between steps."
-    },
-    {
-      "phase": "Week 3-4",
-      "focus": "Timing",
-      "description": "Partner applies light forward pressure with intentional pauses and weight shifts. Practice recognizing the timing windows when pressure lightens and executing hook insertion during those moments. Track success rate of insertions."
-    },
-    {
-      "phase": "Week 5-6",
-      "focus": "Combinations",
-      "description": "Chain butterfly hook recovery with immediate sweep attempts. Partner resists the hook insertion at 50% and you must either complete the recovery or immediately threaten a sweep. Add transitions to de la riva and single leg x when opponent retreats."
-    },
-    {
-      "phase": "Week 7+",
-      "focus": "Live application",
-      "description": "Full resistance positional sparring starting from double unders bottom. Reset when guard is recovered or pass is completed. Track recovery rate and time to recovery. Identify which timing windows work against specific passing styles."
-    }
-  ],
+  "attacker": {
+    "name": "Butterfly Hook Recovery Attacker",
+    "description": "How to execute Butterfly Hook Recovery in BJJ. Attacking perspective with setup, execution steps, and counters.",
+    "overview": "Butterfly Hook Recovery is a critical defensive transition executed when trapped in the bottom position of double unders pressure passing. The technique focuses on creating just enough space to insert one or both butterfly hooks between yourself and the passer, fundamentally changing the dynamic from a crushing pressure pass situation back to an active guard position. This recovery is most effective during momentary pauses in the opponent's forward pressure, grip adjustments, or when they shift their weight to advance the pass.\n\nThe strategic importance of this technique cannot be overstated for bottom players facing aggressive pressure passers. Unlike escapes that concede position (such as granby rolls to turtle or accepting deep half guard), butterfly hook recovery aims to fully restore an offensive guard position. When executed correctly, it not only stops the pass but immediately threatens sweeps and off-balancing attacks. The butterfly guard position it recovers to is one of the most dynamic in jiu-jitsu, offering elevation sweeps, arm drags, and guillotine entries.\n\nTiming is the critical factor that separates successful butterfly hook recoveries from failed attempts that result in immediate pass completion. The window for insertion exists when the passer's weight shifts forward, backward, or laterally - any moment when their pressure is not driving directly into your hips. Advanced practitioners develop the sensitivity to feel these micro-adjustments and insert hooks almost reflexively, while beginners must consciously look for larger, more obvious opportunities.",
+    "key_principles": [
+      "Create frames before attempting hook insertion - space must exist between bodies for the foot to enter",
+      "Time the insertion during pressure shifts or grip adjustments when opponent's forward drive momentarily pauses",
+      "Insert the hook closest to the side opponent is shifting toward - their movement creates the space you need",
+      "Keep knees bent and legs active throughout - straight legs eliminate all hook insertion possibilities",
+      "Combine frame creation with hip escape to generate the space necessary for hook entry",
+      "Commit fully to the recovery once initiated - half-efforts allow opponent to drive through and complete the pass",
+      "Immediately threaten elevation or sweep upon hook insertion to prevent opponent from simply re-smashing"
+    ],
+    "setup_requirements": [
+      "At least one arm free to create frame against opponent's face, shoulder, or hip",
+      "Hips not completely flattened - some lateral angle preserved for movement capability",
+      "Opponent's forward pressure momentarily reduced or shifted during grip adjustment or weight transfer",
+      "Sufficient leg mobility to bend knee and insert instep as hook between bodies"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish frame",
+        "description": "Create a cross-face frame with your forearm against opponent's jaw or neck, using skeletal structure rather than muscular force. This frame generates space proportional to their forward pressure."
+      },
+      {
+        "step_number": 2,
+        "action": "Hip escape",
+        "description": "Execute a shrimping motion away from the opponent, creating space between your hip and their chest. The hip escape is critical for generating the gap needed for hook insertion."
+      },
+      {
+        "step_number": 3,
+        "action": "Bend inside knee",
+        "description": "Draw your inside knee toward your chest by bending at the hip and knee, preparing to insert your instep as a butterfly hook. Keep the foot active with toes pointed."
+      },
+      {
+        "step_number": 4,
+        "action": "Insert butterfly hook",
+        "description": "Thread your instep between your body and opponent's inner thigh, establishing the butterfly hook with your foot positioned inside their hip crease for maximum control."
+      },
+      {
+        "step_number": 5,
+        "action": "Establish upper body control",
+        "description": "Secure a collar grip, overhook, or underhook with your free arm to prevent opponent from simply re-smashing through your newly established hook. Head control is especially effective."
+      },
+      {
+        "step_number": 6,
+        "action": "Recover second hook or threaten sweep",
+        "description": "Either insert the second butterfly hook for full guard recovery, or immediately threaten an elevation sweep with the single hook to force opponent into defensive posture and create opportunity for complete guard recovery."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent drives forward explosively as they feel hook insertion beginning, re-smashing and trapping the leg",
+        "effectiveness": "High",
+        "your_response": "If they drive as you insert, use their momentum to complete an immediate elevation sweep rather than trying to seat the hook statically",
+        "targets_outcome": "Double Unders/Bottom"
+      },
+      {
+        "counter": "Opponent releases double unders and transitions to over-under or leg weave position before hook is seated",
+        "effectiveness": "Medium",
+        "your_response": "Accept the position change as a win - over-under and leg weave are less dominant than double unders and offer better escape opportunities",
+        "targets_outcome": "Double Unders/Bottom"
+      },
+      {
+        "counter": "Opponent backsteps around the hook and transitions to headquarters or knee slice position",
+        "effectiveness": "Medium",
+        "your_response": "Follow their movement with your hook, transitioning to de la riva or single leg x-guard as they retreat around your leg",
+        "targets_outcome": "Butterfly Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting hook insertion without first creating frame and space",
+        "consequence": "Leg gets trapped between bodies, hook cannot seat properly, opponent easily smashes through partial recovery",
+        "correction": "Always establish frame first, hip escape second, then insert hook into the space you have created"
+      },
+      {
+        "error": "Straightening legs while trying to push opponent away with feet",
+        "consequence": "Eliminates all possibility of hook insertion, removes guard retention mechanics entirely",
+        "correction": "Keep knees bent throughout, use bent-knee hook insertion rather than straight-leg pushing"
+      },
+      {
+        "error": "Inserting hook but failing to establish upper body control immediately",
+        "consequence": "Opponent simply re-smashes through the hook, flattening you again with renewed pressure",
+        "correction": "Upper body grip and hook must work together - secure collar, underhook, or overhook as hook seats"
+      },
+      {
+        "error": "Waiting too long for a perfect opening instead of creating opportunities",
+        "consequence": "Pass completes while waiting, never finding the ideal moment that rarely comes naturally",
+        "correction": "Create your own opening through frame pressure and hip movement rather than waiting passively"
+      },
+      {
+        "error": "Inserting hook on the wrong side relative to opponent's weight distribution",
+        "consequence": "Hook is immediately crushed and passed as opponent's weight drives into it",
+        "correction": "Insert hook on the side opponent is shifting away from, where their weight is lighter"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Fundamentals",
+        "description": "Practice the frame-to-hip-escape-to-hook sequence in isolation with no resistance. Partner holds double unders position statically while you drill the mechanical sequence 20+ repetitions per side. Focus on smooth transitions between steps."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Timing",
+        "description": "Partner applies light forward pressure with intentional pauses and weight shifts. Practice recognizing the timing windows when pressure lightens and executing hook insertion during those moments. Track success rate of insertions."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Combinations",
+        "description": "Chain butterfly hook recovery with immediate sweep attempts. Partner resists the hook insertion at 50% and you must either complete the recovery or immediately threaten a sweep. Add transitions to de la riva and single leg x when opponent retreats."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live application",
+        "description": "Full resistance positional sparring starting from double unders bottom. Reset when guard is recovered or pass is completed. Track recovery rate and time to recovery. Identify which timing windows work against specific passing styles."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary goal of Butterfly Hook Recovery?",
+        "answer": "The primary goal is to transition from the defensive double unders bottom position back to an offensive butterfly guard by inserting one or both butterfly hooks between yourself and the passer. This fundamentally changes the dynamic from survival to attack, restoring your ability to threaten sweeps, off-balancing, and submissions."
+      },
+      {
+        "question": "What position do you start Butterfly Hook Recovery from?",
+        "answer": "This technique starts from Double Unders Bottom, where the opponent has both arms wrapped under your legs and is applying crushing forward pressure to complete a guard pass. This is a crisis position requiring immediate action to prevent pass completion."
+      },
+      {
+        "question": "What are the key grips needed for Butterfly Hook Recovery?",
+        "answer": "The essential grips are a framing grip against opponent's face or neck to create space, combined with an upper body control grip (collar, underhook, or overhook) that must be established as the hook seats. The frame creates space for insertion while the upper body grip prevents re-smashing."
+      },
+      {
+        "question": "Your opponent pauses their forward pressure to readjust their grip behind your back - what immediate action maximizes your recovery chance?",
+        "answer": "Immediately create maximum hip movement by executing a strong hip escape combined with your frame. This is your primary timing window. As your hips move, bend your inside knee and thread your instep between bodies while their weight is shifted for the grip adjustment. Secure collar or overhook immediately as the hook enters."
+      },
+      {
+        "question": "When is the best time to attempt Butterfly Hook Recovery?",
+        "answer": "The optimal timing is during any momentary reduction in forward pressure: grip adjustments, weight shifts to advance the pass, opponent looking away or adjusting their base, or immediately after a failed pass attempt. The window typically lasts 1-2 seconds. Creating your own timing through frame pressure and hip escapes is also essential when natural windows don't appear."
+      },
+      {
+        "question": "How do you counter Butterfly Hook Recovery as the top player?",
+        "answer": "The primary counter is maintaining constant forward pressure without pauses for grip adjustments. If you feel hook insertion beginning, drive forward explosively to trap the leg before it seats. Alternatively, release double unders and backstep to headquarters or knee slice position, transitioning to a different passing pathway rather than fighting the hook directly."
+      },
+      {
+        "question": "Your opponent drives forward as they feel your hook insertion beginning - how should you adapt?",
+        "answer": "Convert their forward drive into sweep momentum. Rather than trying to complete a static hook insertion, use their forward energy for an immediate elevation sweep. Extend your hook into their hip, underhook their far arm, and roll them over your body using their own momentum. Their aggressive counter becomes your sweep opportunity."
+      },
+      {
+        "question": "What is the critical hip position that must be maintained to preserve hook insertion capability?",
+        "answer": "You must maintain lateral hip angle rather than accepting a flat back position. Staying angled to one side preserves the ability to hip escape and creates the angular pathway for hook entry. A completely flat back with shoulders pinned eliminates all movement options and makes hook insertion mechanically impossible regardless of timing."
+      },
+      {
+        "question": "Why is upper body control essential immediately upon hook insertion?",
+        "answer": "Without upper body control, the opponent can simply re-smash through your newly inserted hook. The hook alone lacks the structural integrity to resist direct forward pressure. Upper body grips (collar, overhook, underhook) create a complete system that prevents forward driving and allows you to threaten sweeps that force defensive posture."
+      },
+      {
+        "question": "How do you determine which side to insert your butterfly hook when both legs are trapped under double unders?",
+        "answer": "Insert the hook on the side opponent is shifting their weight away from. When they move right, their left side becomes lighter - insert there. When they adjust grips, their weight typically shifts backward or laterally briefly. The lighter side offers less resistance to hook entry. Trying to insert on the heavy side results in the hook being immediately crushed."
+      }
+    ],
+    "safety_considerations": "Butterfly Hook Recovery is a low-risk technique that does not involve joint locks or chokes. The primary safety concern is avoiding excessive neck strain when stacked under heavy double unders pressure. If your spine is being compressed uncomfortably, prioritize turning to your side or accepting turtle rather than waiting for a hook insertion opportunity. During training, communicate with your partner about pressure intensity. When drilling, start with light pressure and progressively increase as technique improves. Practitioners with neck or lower back issues should work with reduced pressure and focus on early-stage prevention rather than recovery from deep stacking positions."
+  },
+  "defender": {
+    "name": "Butterfly Hook Recovery Defender",
+    "description": "How to defend against Butterfly Hook Recovery in BJJ. Recognition cues, defensive options, and escape strategies.",
+    "overview": "As the top player in double unders, your opponent's butterfly hook recovery represents the primary threat to your passing position. The defender's role here is to maintain the crushing forward pressure that defines double unders control while recognizing and shutting down the bottom player's attempts to insert hooks between your bodies. This requires understanding the mechanical sequence your opponent must execute - frame creation, hip escape, knee bend, hook insertion - and intercepting it at the earliest possible stage. The earlier you disrupt the sequence, the less energy you expend and the more dominant your position remains.\n\nSuccessful defense against hook recovery demands constant awareness of your own weight distribution and pressure consistency. Every time you pause to adjust grips, shift weight to advance the pass, or momentarily lighten pressure, you create the exact window your opponent needs. Elite passers learn to make micro-adjustments without creating exploitable gaps, maintaining forward drive even during transitions between grip configurations. The key tactical principle is that preventing the frame is far easier than fighting a seated hook - if you allow your opponent to establish the frame and create space, the subsequent hook insertion becomes exponentially harder to stop.",
+    "key_principles": [
+      "Maintain constant forward pressure through the chest without pauses that create insertion windows for the bottom player",
+      "Keep elbows pinched tight to your ribs to deny frame insertion points between your arms and torso",
+      "Drive hips low and heavy into opponent's hips to eliminate the space needed for knee bending and hook threading",
+      "Adjust grips without lightening chest pressure - learn to re-grip behind the back while maintaining forward drive",
+      "React immediately to any hip escape by following the movement and re-establishing chest-to-thigh contact before hook enters",
+      "When hook insertion begins, commit decisively to either re-smashing forward or transitioning to an alternative passing position"
+    ],
+    "recognition_cues": [
+      "Bottom player's forearm suddenly pressing against your jaw or neck, establishing a cross-face frame to create separation between bodies",
+      "Hip movement beneath you as opponent executes a shrimping motion, creating angular space on one side where their knee begins drawing toward their chest",
+      "Opponent's knee bending sharply with foot rotating inward, indicating imminent hook insertion attempt as the instep prepares to thread between bodies",
+      "Sudden change in opponent's hand activity from passive defense to actively gripping your collar, bicep, or seeking an overhook, signaling coordinated recovery attempt"
+    ],
+    "defensive_options": [
+      {
+        "action": "Drive forward explosively to re-smash when you feel the frame being established, collapsing the space before the hook can enter",
+        "when_to_use": "Immediately upon feeling opponent's forearm pressing against your face or neck - the earliest recognition cue before hip escape begins",
+        "targets_outcome": "Double Unders/Bottom",
+        "if_successful": "Opponent's frame collapses under your renewed forward drive, they return to flat position with no hook inserted, and you maintain full double unders control",
+        "risk": "If opponent has already inserted the hook when you drive, your forward momentum feeds directly into their elevation sweep"
+      },
+      {
+        "action": "Release double unders grip and backstep to headquarters or knee slice position, abandoning the current passing angle for a fresh one",
+        "when_to_use": "When you feel the hook beginning to seat and continued forward pressure will not prevent its establishment - typically when opponent has achieved frame plus hip escape",
+        "targets_outcome": "Butterfly Guard/Bottom",
+        "if_successful": "You transition to a different passing configuration where the inserted hook becomes less effective, maintaining top position with new passing options available",
+        "risk": "Bottom player follows your retreat and establishes full butterfly guard or transitions to de la riva, gaining an offensive guard position"
+      },
+      {
+        "action": "Walk knees forward past opponent's hips to complete the pass before hook recovery can finish, converting to side control through acceleration",
+        "when_to_use": "When opponent commits both hands to the recovery attempt, temporarily weakening their ability to block your hip advancement",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "Pass completes to side control before hook is fully seated, converting their partial recovery attempt into a worse position than double unders bottom",
+        "risk": "If timing is off and hook seats as you advance, you may end up in a compromised position between passing and being swept"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Double Unders/Bottom",
+        "how": "Maintain relentless forward pressure without creating timing windows. When you feel frame establishment beginning, immediately re-smash by dropping chest weight and driving forward. Follow every hip escape with lateral movement to re-center your chest over their hips. Deny the space needed for hook entry by keeping your elbows pinched and hips heavy."
+      },
+      {
+        "outcome": "Side Control/Bottom",
+        "how": "When opponent commits to the recovery attempt with both hands working on hook insertion or upper body grips, exploit their reduced ability to block hip advancement. Walk your knees forward rapidly past their hip line, release one underhook to establish crossface, and slide into side control. Their focus on hook recovery leaves them vulnerable to accelerated pass completion."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Pausing forward pressure to readjust grip behind opponent's back with both hands simultaneously",
+        "consequence": "Creates the exact timing window opponent needs - pressure-free moment where hip escape and hook insertion can proceed uncontested",
+        "correction": "Adjust one hand at a time while maintaining forward pressure through your chest and the other grip. Never create a moment where both hands release simultaneously."
+      },
+      {
+        "error": "Pulling hips backward away from opponent when you feel their knee bending for hook insertion",
+        "consequence": "Creates more space between bodies, making hook insertion easier rather than harder, and removes your pressure advantage",
+        "correction": "Drive hips forward and down into their legs when you feel hook insertion beginning. Close the space rather than opening it. Your hips moving forward prevents the knee from bending enough to thread the hook."
+      },
+      {
+        "error": "Fighting the inserted hook by trying to strip it out with your hands rather than adjusting position",
+        "consequence": "Releases grip control behind their back, wastes energy in a losing battle against leg strength, and allows opponent to establish upper body control while you focus on the hook",
+        "correction": "Once a hook is partially seated, transition your passing approach rather than fighting the hook directly. Backstep to headquarters, shift to knee slice, or drive forward to sweep their hook through an elevation attempt you can ride."
+      },
+      {
+        "error": "Allowing elbows to flare wide, creating gaps where opponent can insert frames and arms between bodies",
+        "consequence": "Opponent establishes strong frames that generate significant space, making hook insertion a simple follow-up rather than a difficult threading motion",
+        "correction": "Keep elbows pinched tight to your ribcage throughout. The connection between your arms and torso should form a seal that denies any insertion point for opponent's forearms."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that your opponent is beginning a butterfly hook recovery attempt?",
+        "answer": "The earliest cue is feeling their forearm pressing against your jaw or neck to establish a cross-face frame. This is the first step in the recovery sequence - frame before hip escape before hook insertion. Reacting at this stage by re-smashing forward is far more effective than waiting until the hook is already threading, because the frame is the weakest link in the chain and can be collapsed with committed forward pressure."
+      },
+      {
+        "question": "Why is it counterproductive to pull your hips backward when you feel the opponent bending their knee for hook insertion?",
+        "answer": "Pulling hips back creates more space between bodies, which is exactly what the opponent needs for hook insertion. The hook requires a gap between your inner thigh and their body to thread through. By retreating, you open that gap wider. Instead, driving hips forward and down closes the space and prevents the knee from bending enough to complete the threading motion, using your weight advantage rather than conceding it."
+      },
+      {
+        "question": "Your opponent successfully inserts one butterfly hook despite your pressure - what is the optimal tactical response?",
+        "answer": "Do not waste energy trying to strip the seated hook with your hands. Instead, immediately transition your passing approach. Backstep around the hook to establish headquarters or knee slice position, where the single hook is less effective. Alternatively, if you feel confident in your balance, accept the hook and drive forward to bait an elevation sweep attempt that you can ride and counter. The key is adapting your passing strategy rather than fighting to restore double unders against an established hook."
+      },
+      {
+        "question": "How should you adjust your grip behind the opponent's back without creating a timing window for hook recovery?",
+        "answer": "Adjust one hand at a time while maintaining forward chest pressure through body weight and the remaining grip. Never release both hands simultaneously. The chest-to-thigh connection must remain loaded throughout any grip adjustment. Some elite passers maintain pressure purely through chest weight and hip drive during brief grip transitions, eliminating hand dependence entirely for those critical moments. Practice making grip adjustments feel invisible to the bottom player."
+      },
+      {
+        "question": "When is it strategically better to abandon double unders and transition to a different pass rather than fighting the hook recovery?",
+        "answer": "Transition when the opponent has achieved both frame establishment and hip escape, meaning they have created real space and their knee is already bending toward insertion. At this point, the energy cost of re-smashing through their frame exceeds the energy of transitioning to headquarters, knee slice, or leg weave. The hook recovery is a two-stage process: if you missed the window to prevent the frame, cutting your losses by transitioning preserves your top position and energy rather than exhausting yourself in a losing pressure battle."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Pressure consistency",
+        "description": "Maintain double unders position with constant forward pressure while partner attempts hook recovery at 30% resistance. Focus on eliminating pressure gaps during grip adjustments and weight shifts. Partner provides feedback on when they feel windows opening. Drill 5-minute rounds, tracking how many successful hook insertions partner achieves."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Recognition and reaction",
+        "description": "Partner attempts hook recovery at 50% speed and resistance. Focus on recognizing the three-stage sequence (frame, hip escape, hook insertion) and reacting at the earliest possible stage. Practice the re-smash response to frame establishment and the backstep response when hook insertion begins. Track which stage you consistently intercept at."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Transition decisions",
+        "description": "Partner attempts hook recovery at 70% resistance with sweeps chained off successful insertions. Practice the decision point: when to re-smash versus when to transition to alternative passing position. Include backstep to headquarters, knee slice transitions, and accelerated pass completion drills. Develop automatic responses to each stage of the recovery attempt."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live integration",
+        "description": "Full resistance positional sparring from double unders top. Partner uses all recovery options including hook recovery, deep half entry, and granby rolls. Focus on maintaining passing pressure while adapting to whichever escape route opponent chooses. Track pass completion rate and average time to pass or position loss."
+      }
+    ]
+  },
   "variants_and_adaptations": [
     {
       "variant_name": "Single Hook to Sweep",
@@ -159,87 +367,11 @@
       "when_to_use": "When you can catch opponent's arm during their grip adjustment or pressure shift"
     }
   ],
-  "knowledge_assessment": [
-    {
-      "question": "What is the primary goal of Butterfly Hook Recovery?",
-      "answer": "The primary goal is to transition from the defensive double unders bottom position back to an offensive butterfly guard by inserting one or both butterfly hooks between yourself and the passer. This fundamentally changes the dynamic from survival to attack, restoring your ability to threaten sweeps, off-balancing, and submissions."
-    },
-    {
-      "question": "What position do you start Butterfly Hook Recovery from?",
-      "answer": "This technique starts from Double Unders Bottom, where the opponent has both arms wrapped under your legs and is applying crushing forward pressure to complete a guard pass. This is a crisis position requiring immediate action to prevent pass completion."
-    },
-    {
-      "question": "What are the key grips needed for Butterfly Hook Recovery?",
-      "answer": "The essential grips are a framing grip against opponent's face or neck to create space, combined with an upper body control grip (collar, underhook, or overhook) that must be established as the hook seats. The frame creates space for insertion while the upper body grip prevents re-smashing."
-    },
-    {
-      "question": "Your opponent pauses their forward pressure to readjust their grip behind your back - what immediate action maximizes your recovery chance?",
-      "answer": "Immediately create maximum hip movement by executing a strong hip escape combined with your frame. This is your primary timing window. As your hips move, bend your inside knee and thread your instep between bodies while their weight is shifted for the grip adjustment. Secure collar or overhook immediately as the hook enters."
-    },
-    {
-      "question": "When is the best time to attempt Butterfly Hook Recovery?",
-      "answer": "The optimal timing is during any momentary reduction in forward pressure: grip adjustments, weight shifts to advance the pass, opponent looking away or adjusting their base, or immediately after a failed pass attempt. The window typically lasts 1-2 seconds. Creating your own timing through frame pressure and hip escapes is also essential when natural windows don't appear."
-    },
-    {
-      "question": "How do you counter Butterfly Hook Recovery as the top player?",
-      "answer": "The primary counter is maintaining constant forward pressure without pauses for grip adjustments. If you feel hook insertion beginning, drive forward explosively to trap the leg before it seats. Alternatively, release double unders and backstep to headquarters or knee slice position, transitioning to a different passing pathway rather than fighting the hook directly."
-    },
-    {
-      "question": "Your opponent drives forward as they feel your hook insertion beginning - how should you adapt?",
-      "answer": "Convert their forward drive into sweep momentum. Rather than trying to complete a static hook insertion, use their forward energy for an immediate elevation sweep. Extend your hook into their hip, underhook their far arm, and roll them over your body using their own momentum. Their aggressive counter becomes your sweep opportunity."
-    },
-    {
-      "question": "What is the critical hip position that must be maintained to preserve hook insertion capability?",
-      "answer": "You must maintain lateral hip angle rather than accepting a flat back position. Staying angled to one side preserves the ability to hip escape and creates the angular pathway for hook entry. A completely flat back with shoulders pinned eliminates all movement options and makes hook insertion mechanically impossible regardless of timing."
-    },
-    {
-      "question": "Why is upper body control essential immediately upon hook insertion?",
-      "answer": "Without upper body control, the opponent can simply re-smash through your newly inserted hook. The hook alone lacks the structural integrity to resist direct forward pressure. Upper body grips (collar, overhook, underhook) create a complete system that prevents forward driving and allows you to threaten sweeps that force defensive posture."
-    },
-    {
-      "question": "How do you determine which side to insert your butterfly hook when both legs are trapped under double unders?",
-      "answer": "Insert the hook on the side opponent is shifting their weight away from. When they move right, their left side becomes lighter - insert there. When they adjust grips, their weight typically shifts backward or laterally briefly. The lighter side offers less resistance to hook entry. Trying to insert on the heavy side results in the hook being immediately crushed."
-    }
-  ],
-  "safety_considerations": "Butterfly Hook Recovery is a low-risk technique that does not involve joint locks or chokes. The primary safety concern is avoiding excessive neck strain when stacked under heavy double unders pressure. If your spine is being compressed uncomfortably, prioritize turning to your side or accepting turtle rather than waiting for a hook insertion opportunity. During training, communicate with your partner about pressure intensity. When drilling, start with light pressure and progressively increase as technique improves. Practitioners with neck or lower back issues should work with reduced pressure and focus on early-stage prevention rather than recovery from deep stacking positions.",
   "position_integration": "Butterfly Hook Recovery occupies a critical junction in the guard retention system. It represents the primary pathway for returning to offensive guard from the defensive crisis of double unders bottom. The technique connects directly to the butterfly guard attack system, offering immediate access to elevation sweeps, arm drags to back takes, and guillotine entries. Unlike escapes that concede position (granby to turtle, accepting deep half), successful hook recovery completely reverses the initiative. The technique also demonstrates the fundamental principle that guard recovery and guard offense are inseparable - the hook insertion and sweep threat must happen together. This positions butterfly hook recovery as both an escape technique and the entry point to one of jiu-jitsu's most dynamic guard positions.",
-  "related_content": [
-    {
-      "name": "Double Unders",
-      "relationship": "Starting position - the crisis state this technique escapes from"
-    },
-    {
-      "name": "Butterfly Guard",
-      "relationship": "Target position - where successful recovery leads"
-    },
-    {
-      "name": "Butterfly Sweep",
-      "relationship": "Follow-up attack from recovered butterfly guard"
-    },
-    {
-      "name": "Hip Escape",
-      "relationship": "Core movement used to create space for hook insertion"
-    },
-    {
-      "name": "Deep Half Entry",
-      "relationship": "Alternative escape when hook recovery is not possible"
-    },
-    {
-      "name": "Granby Roll",
-      "relationship": "Alternative escape option using opponent's forward momentum"
-    },
-    {
-      "name": "De La Riva Guard",
-      "relationship": "Transition option when opponent backsteps around inserted hook"
-    },
-    {
-      "name": "Arm Drag",
-      "relationship": "Follow-up attack available from recovered butterfly position"
-    },
-    {
-      "name": "Knee Shield Half Guard",
-      "relationship": "Alternative guard recovery target if full butterfly not achievable"
-    }
-  ],
-  "success_rate": 58
+  "conditions": [
+    "At least one arm must be free to establish a frame against the passer's face, neck, or shoulder",
+    "Hips must retain some lateral angle - not completely flattened with both shoulders pinned to the mat",
+    "Opponent's forward pressure must momentarily reduce due to grip adjustment, weight transfer, or pass advancement",
+    "Sufficient leg mobility remains to bend knee and thread instep between bodies despite double unders compression"
+  ]
 }

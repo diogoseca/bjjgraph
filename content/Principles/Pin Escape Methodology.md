@@ -370,10 +370,10 @@ Extended time-based rounds in bottom positions (5-10 minutes) focusing on surviv
 - [[Side Control]] (Position) - Core application context - side control escape is fundamental skill where systematic methodology provides clearest advantage over random technique application
 - [[Back Control]] (Position) - Advanced application context - back escape demonstrates methodology's applicability to submissions-oriented pins requiring different prioritization
 - [[Knee on Belly]] (Position) - Transitional application context - demonstrates how methodology adapts to less stable pins with different escape opportunities
-- [[Elbow Escape]] (Transition) - Fundamental technique within methodology - elbow escape (shrimp) is core movement pattern used across multiple pin escapes
+- [[Elbow Escape to Guard]] (Transition) - Fundamental technique within methodology - elbow escape (shrimp) is core movement pattern used across multiple pin escapes
 - [[Bridge and Roll]] (Transition) - Fundamental technique within methodology - bridge and roll demonstrates combining bridge with weight distribution exploitation
 - [[Upa Escape]] (Transition) - Specific technical application - upa escape from mount exemplifies methodology's timing and leverage principles
-- [[Hip Escape]] (Transition) - Core technical component - hip escape is fundamental movement that methodology organizes into systematic sequences
+- [[Hip Escape to Guard]] (Transition) - Core technical component - hip escape is fundamental movement that methodology organizes into systematic sequences
 - [[Escape Hierarchy]] (Principle) - Foundational concept - provides theoretical framework that pin escape methodology implements practically
 - [[Defensive Framing]] (Principle) - Complementary concept - provides structural tools that methodology deploys strategically
 - [[Space Creation]] (Principle) - Core principle - space creation is primary objective that methodology systematizes across positions

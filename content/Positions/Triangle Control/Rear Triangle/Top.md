@@ -20,14 +20,14 @@ description: "Master Rear Triangle Top position in BJJ. Control opponent's back 
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle Choke Back",
-      "text": "From this position, attempt Triangle Choke Back. This technique is attempted in 19% of exchanges from this position.",
+      "name": "Execute Triangle Choke",
+      "text": "From this position, attempt Triangle Choke. This technique is attempted in 19% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar from Back with Legs",
-      "text": "From this position, attempt Armbar from Back with Legs. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Armbar from Back Transition",
+      "text": "From this position, attempt Armbar from Back Transition. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
@@ -207,9 +207,9 @@ Rear Triangle Top is an advanced back control variation where the top practition
 
 ## Available Attacks
 
-### [[Triangle Choke Back]] (19% of attempts)
+### [[Triangle Choke]] (19% of attempts)
 
-### [[Armbar from Back with Legs]] (17% of attempts)
+### [[Armbar from Back Transition]] (17% of attempts)
 
 ### [[Rear Naked Choke]] (19% of attempts)
 
@@ -228,22 +228,22 @@ Rear Triangle Top is an advanced back control variation where the top practition
 ## Decision Making from This Position
 
 **If opponent tucks chin and defends choke primarily:**
-- Execute **[[Armbar from Back with Legs]]** → [[Armbar Control]] (Probability: 65%)
+- Execute **[[Armbar from Back Transition]]** → [[Armbar Control]] (Probability: 65%)
 - Execute **[[Kimura from Back]]** → [[Kimura Trap]] (Probability: 45%)
 
 
 **Else if opponent attempts to pull trapped arm free:**
 - Execute **[[Tighten Triangle Lock]]** → [[Rear Triangle]] (Probability: 70%)
-- Execute **[[Triangle Choke Back]]** → [[game-over]] (Probability: 60%)
+- Execute **[[Triangle Choke]]** → [[Game Over]] (Probability: 60%)
 
 
 **Else if opponent turns into triangle attempting escape:**
-- Execute **[[Extend Hips and Finish Triangle]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Extend Hips and Finish Triangle]]** → [[Game Over]] (Probability: 55%)
 - Execute **[[Aoki Lock to Crucifix]]** → [[Crucifix]] (Probability: 50%)
 
 
 **Else if opponent creates space by posting free arm:**
-- Execute **[[Rear Naked Choke]]** → [[game-over]] (Probability: 65%)
+- Execute **[[Rear Naked Choke]]** → [[Game Over]] (Probability: 65%)
 - Execute **[[Attack Free Arm for Control]]** → [[Gift Wrap]] (Probability: 50%)
 
 
@@ -348,8 +348,8 @@ Establish rear triangle position with compliant partner. Practice the following 
 **Q6**: Your opponent bridges hard and creates space between your chest and their back - how do you recover?
 **A**: Immediately follow them with your hips, closing the gap before they can rotate or stand. Use your free hand to push off the mat and drive your chest back into contact. Tighten the triangle lock to restrict their hip movement. If significant space is created, consider transitioning back to traditional back control with seat belt grip before re-establishing the triangle.
 
-**Q7**: How do you manage energy expenditure when controlling rear triangle for extended periods?
-**A**: Let your legs do the primary work through the triangle lock rather than squeezing constantly with your arms. Maintain steady compression through knee squeeze and hip angle rather than maximum force. Use attacks to make opponent defend rather than trying to muscle through finishes. Rest your hands on the opponent's body between grip changes to conserve arm endurance.
+**Q7**: How do you distribute your weight to maintain rear triangle without fatiguing your legs prematurely?
+**A**: Let your skeletal structure do the work rather than muscular squeezing. Lock the ankle deep into the knee crook so the figure-four holds itself structurally. Use your body weight draped over the opponent's back as the primary control force rather than constant leg tension. Reserve active squeezing for moments when you need to tighten during escape attempts or submission finishes. Between attacks, maintain a firm but relaxed triangle lock.
 
 **Q8**: After your opponent successfully defends the triangle choke attempt, how do you reset without losing position?
 **A**: Maintain the triangle lock structure even when the choke is defended. Immediately transition to attacking the trapped arm for armbar or the free arm for kimura control. If opponent creates too much space defending the choke, tighten the triangle and re-establish chest pressure before cycling to the next attack. Never abandon the position just because one submission fails.
@@ -384,7 +384,7 @@ Establish rear triangle position with compliant partner. Practice the following 
 - **[[Crucifix]]** - Common transition target when opponent defends triangle by turning in
 - **[[Seat Belt Control Back]]** - Traditional back control variation that precedes rear triangle entry
 - **[[Triangle Choke]]** - Primary submission finish from this position
-- **[[Armbar from Back with Legs]]** - Alternative submission when opponent defends the choke
+- **[[Armbar from Back]]** - Alternative submission when opponent defends the choke
 - **[[Mounted Triangle]]** - Similar triangle control mechanics from mount position instead of back
 - **[[Gift Wrap]]** - Alternative arm trap control from back that can transition to rear triangle
 - **[[Truck]]** - Leg entanglement position that shares some control principles with rear triangle

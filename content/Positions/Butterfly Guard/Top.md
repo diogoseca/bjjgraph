@@ -21,37 +21,37 @@ description: "Navigate Butterfly Guard Top in BJJ. Strategic passing against dyn
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Double Under Pass",
-      "text": "From this position, attempt Double Under Pass. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Double Under Pass. This technique is attempted in 3% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Pass",
-      "text": "From this position, attempt Butterfly Pass. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, attempt Long Step Pass. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 3% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Over-Under Pass",
-      "text": "From this position, attempt Over-Under Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Over-Under Pass. This technique is attempted in 3% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toreando Pass",
-      "text": "From this position, attempt Toreando Pass. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Toreando Pass. This technique is attempted in 2% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,17 +211,33 @@ Elite competitors approach butterfly guard top by viewing it as an opportunity t
 
 ## Available Attacks
 
-### [[Knee Slice Pass]] (25% of attempts)
+### [[Knee Slice Pass]] (12% of attempts)
 
-### [[Double Under Pass]] (20% of attempts)
+### [[Double Under Pass]] (3% of attempts)
 
-### [[Butterfly Pass]] (18% of attempts)
+### [[Butterfly Pass]] (11% of attempts)
 
-### [[Long Step Pass]] (15% of attempts)
+### [[Long Step Pass]] (3% of attempts)
 
-### [[Over-Under Pass]] (12% of attempts)
+### [[Over-Under Pass]] (3% of attempts)
 
-### [[Toreando Pass]] (10% of attempts)
+### [[Toreando Pass]] (2% of attempts)
+
+### [[Butterfly Smash]] (36% of attempts)
+
+### [[Body Lock Pass]] (10% of attempts)
+
+### [[Transition to Butterfly Half Guard]] (1% of attempts)
+
+### [[Leg Drag Pass]] (8% of attempts)
+
+### [[Standing up in Base]] (4% of attempts)
+
+### [[X Pass]] (6% of attempts)
+
+### [[Butterfly Guard to Butterfly Half Guard]] (0% of attempts)
+
+### [[Butterfly Guard to Half Butterfly]] (1% of attempts)
 
 
 

@@ -4,7 +4,7 @@
 
 ---
 title: "Harness | BJJ Position Guide | BJJ Graph"
-description: "Master Harness Position in BJJ - back control with seat belt grip. Complete strategic guide covering defensive bottom escape strategies and dominant top submission paths with expert analysis."
+description: "Master Harness Position in BJJ - back control with seat belt grip. Complete strategic guide covering defensive escape strategies and dominant submission paths."
 ---
 
 
@@ -93,17 +93,19 @@ Strategically, the harness position serves as a transitional control point and a
 ### Available Transitions
 
 
-- **[[Elbow Escape]]** (21% of attempts)
+- **[[Elbow Escape to Guard]]** (20% of attempts)
 
-- **[[Hip Escape]]** (18% of attempts)
+- **[[Hip Escape to Turtle]]** (17% of attempts)
 
-- **[[Technical Stand Up to Single Leg]]** (17% of attempts)
+- **[[Technical Stand Up to Single Leg]]** (15% of attempts)
 
-- **[[Roll to Guard]]** (15% of attempts)
+- **[[Roll to Guard]]** (14% of attempts)
 
-- **[[Granby Roll]]** (14% of attempts)
+- **[[Granby Roll to Guard]]** (12% of attempts)
 
-- **[[Standing up in Base]]** (15% of attempts)
+- **[[Elbow Escape to Remove Hooks]]** (12% of attempts)
+
+- **[[Hip Escape to Guard]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -164,21 +166,23 @@ Strategically, the harness position serves as a transitional control point and a
 ### Available Transitions
 
 
-- **[[Rear Naked Choke]]** (15% of attempts)
+- **[[Rear Naked Choke]]** (23% of attempts)
 
-- **[[Armbar from Back with Legs]]** (12% of attempts)
+- **[[Armbar from Back Transition]]** (13% of attempts)
 
-- **[[Back Control to Crucifix]]** (12% of attempts)
+- **[[Back Control to Crucifix]]** (11% of attempts)
 
-- **[[Triangle from Back]]** (10% of attempts)
+- **[[Triangle from Back]]** (9% of attempts)
 
-- **[[Bow and Arrow Choke]]** (13% of attempts)
+- **[[Bow and Arrow Choke]]** (14% of attempts)
 
-- **[[Armbar from Back]]** (12% of attempts)
+- **[[Armbar Finish]]** (9% of attempts)
 
-- **[[Choke from Crucifix]]** (14% of attempts)
+- **[[Short Choke]]** (8% of attempts)
 
-- **[[Rolling Back Take]]** (12% of attempts)
+- **[[Rolling Back Take]]** (9% of attempts)
+
+- **[[Transition to Body Lock]]** (4% of attempts)
 
 
 ### Common Mistakes

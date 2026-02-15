@@ -2,161 +2,26 @@
 
 
 
-
 ---
 title: "Baratoplata | BJJ Technique | BJJ Graph"
-description: "Master the Baratoplata finish from Omoplata Control. Advanced shoulder lock using rotational pressure. Success rates: Beginner 25%, Intermediate 45%, Advanced 65%."
+description: "Master the Baratoplata shoulder lock finish from Omoplata Control. Complete guide covering arm weave mechanics, rotational pressure, and defensive strategies."
 ---
 
 
-<body data-content-type="transitions">
-
-<!-- Schema Markup - Auto-generated from JSON -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Execute Baratoplata in BJJ",
-  "description": "Step-by-step guide for Baratoplata from Omoplata Control/Top. Possible outcomes: game-over (60%), Omoplata Control (25%), Closed Guard (15%).",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Verify arm weave security",
-      "text": "Confirm your arm has been threaded completely through opponent's trapped limb with your forearm passing under their elbow. Your grip should be secured on your own shin or knee, creating the figure-four configuration that prevents arm extraction during the finish.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Check hip positioning",
-      "text": "Scoot your hips slightly away from opponent to create the proper angle for rotational shoulder attack. Your body should form a geometry where hip extension translates into shoulder rotation rather than elbow hyperextension. Feel for the angle that creates immediate tension.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Establish leg pressure",
-      "text": "Drive your high guard leg downward across opponent's upper back and neck, creating constant pressure that prevents them from posturing or creating space. Your hamstring should press firmly against their trap muscle area while your calf hooks behind their head.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Initiate controlled hip extension",
-      "text": "Begin slowly extending your hips away from opponent while maintaining the arm weave configuration. This extension creates the primary rotational force on their shoulder joint. The movement should be deliberate and progressive, not explosive.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Apply compound pressure",
-      "text": "Combine hip extension with pulling your arm weave toward your chest while simultaneously driving down with your high guard leg. These three vectors create the complete submission pressure attacking the shoulder through internal rotation combined with extension.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Fine-tune angle if needed",
-      "text": "Make micro-adjustments to hip angle and leg positioning to maximize shoulder pressure. Monitor opponent's response - increased resistance without tap indicates angle adjustment needed. Be prepared for immediate release upon any tap signal.",
-      "position": 6
-    }
-  ],
-  "tool": ["BJJ Gi or No-Gi attire", "Training partner", "Mat space"],
-  "totalTime": "PT5M"
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the minimum application time and key safety protocols for finishing the Baratoplata?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Minimum 5-7 seconds of progressive pressure application is required for safe execution. Key protocols include: never using explosive or jerking motions, immediately releasing upon any tap signal (verbal, hand, foot, or distress vocalization), being especially cautious with partners having limited shoulder flexibility, and understanding that shoulder injuries can be severe with recovery times of 6 weeks to 6 months. The release must be practiced as thoroughly as the submission itself."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What distinguishes the Baratoplata from standard Omoplata finishing mechanics?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The Baratoplata incorporates an arm weave that threads your arm through the opponent's trapped limb, creating additional mechanical isolation that prevents defensive hand fighting. While standard Omoplata primarily attacks through forward shoulder rotation, the Baratoplata adds internal rotation pressure through the weave combined with hip extension. This makes the submission more difficult to escape through strength and attacks a different vector of the shoulder joint."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why is hip positioning critical for effective Baratoplata finish and how do you verify correct angle?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hip angle determines whether pressure attacks the shoulder through rotation or the elbow through hyperextension. Correct angle is achieved by scooting hips away from opponent until you feel immediate tension on their shoulder with minimal hip extension. If you must extend significantly before feeling resistance, or if you feel pressure along their forearm, the angle is incorrect. The proper geometry translates hip extension directly into shoulder rotation."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Your opponent begins posturing up during the finish - what adjustment prevents the escape?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Immediately increase downward pressure with your high guard leg on their upper back and neck while simultaneously accelerating hip extension pressure. If they continue gaining posture despite leg pressure, abort the Baratoplata and transition to Gogoplata by adjusting your shin across their throat - their forward drive actually assists the choke entry. The key is recognizing posture recovery early enough to either intensify control or transition before they fully escape."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What three force vectors combine to create the complete Baratoplata submission pressure?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The three vectors are: downward pressure from the high guard leg across the opponent's upper back preventing posture recovery, outward extension from your hips creating the primary rotational force on the shoulder joint, and inward pull of the arm weave toward your chest that maintains isolation and guides the direction of shoulder rotation. All three must work together - removing any single vector significantly reduces submission effectiveness."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do you recognize when the Baratoplata angle is wrong and what adjustment corrects it?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Incorrect angle manifests as pressure along the opponent's forearm rather than their shoulder, or requiring excessive hip extension before feeling resistance. You may also feel the opponent defending with bicep/tricep strength rather than shoulder mobility limits. To correct, scoot your hips further away from opponent while maintaining arm weave control. The correct angle creates immediate shoulder tension with minimal hip movement and bypasses muscular defense."
-      }
-    }
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Baratoplata",
-  "description": "Master the Baratoplata finish from Omoplata Control. Advanced shoulder lock using rotational pressure. Success rates: Beginner 25%, Intermediate 45%, Advanced 65%.",
-  "url": "https://bjjgraph.org/Transitions/Baratoplata",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.org"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
-    {"@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/"},
-    {"@type": "ListItem", "position": 3, "name": "Baratoplata", "item": "https://bjjgraph.org/Transitions/Baratoplata"}
-  ]
-}
-</script>
+<body data-content-type="transitions-hub">
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-The Baratoplata is a devastating shoulder lock finish that attacks the rotator cuff through a combination of internal rotation and extension pressure. Unlike standard omoplata finishes that rely primarily on forward hip rotation, the Baratoplata incorporates an arm weave that creates additional mechanical isolation and prevents common escape attempts. The technique exemplifies the sophisticated shoulder manipulation found in advanced 10th Planet methodology.
+The Baratoplata is a devastating shoulder lock finish that attacks the rotator cuff through a combination of internal rotation and extension pressure. Unlike standard omoplata finishes that rely primarily on forward hip rotation, the Baratoplata incorporates an arm weave that creates additional mechanical isolation and prevents common escape attempts. The technique exemplifies sophisticated shoulder manipulation where the figure-four arm configuration traps the opponent's limb in a position where muscular defense becomes ineffective against rotational force.
 
 The finish requires precise control of three mechanical elements: the arm weave that locks the opponent's limb in place, the leg positioning that prevents posture recovery, and the hip angle that determines the direction of rotational force. When executed correctly, the submission pressure comes on suddenly and with minimal warning, making it particularly effective against opponents who have learned to defend traditional omoplata finishes.
 
-Strategically, the Baratoplata serves as the terminal attack in a chain that typically begins from Mission Control or Meathook positions. When opponents successfully defend Gogoplata and Triangle attempts, their defensive arm positioning often creates the ideal setup for the Baratoplata. This makes the technique a natural counter to intelligent guard defense, punishing the very movements that escape other rubber guard attacks.
+Strategically, the Baratoplata serves as the terminal attack in a chain that typically begins from Mission Control or Meathook positions. When opponents successfully defend Gogoplata and Triangle attempts, their defensive arm positioning often creates the ideal setup for the Baratoplata. This makes the technique a natural counter to intelligent guard defense, punishing the very movements that escape other rubber guard attacks. The technique rewards patience and positional understanding over explosiveness, making it accessible to practitioners who prioritize control-based finishing.
 
-**From Position**: [[Omoplata Control/Top]]
+**From Position**: [[Omoplata Control]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -167,113 +32,142 @@ Strategically, the Baratoplata serves as the terminal attack in a chain that typ
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 60% |
-| Failure | [[Omoplata Control]] | 25% |
+| Success | [[game-over]] | 55% |
+| Failure | [[Omoplata Control]] | 30% |
 | Counter | [[Closed Guard]] | 15% |
 
 
 </section>
 
+<section class="content-section">
+
+## Attacker vs Defender
+
+| &nbsp; | Attacker | Defender |
+|--------|----------|----------|
+| **Focus** | Execute technique | Prevent or counter |
+| **Key Principles** | The arm weave must be fully established before applying any ... | Recognize the arm weave attempt early and fight it before th... |
+| **Options** | 7 execution steps | 4 defensive options |
+
+</section>
+
+<section id="attacker-summary" class="content-section">
+
+## Playing as Attacker
+
+[[Baratoplata/Attacker|→ Full Attacker Guide]]
+
+### Key Principles
 
 
-<section id="key-principles" class="content-section">
-
-## Key Principles
 - The arm weave must be fully established before applying any rotational pressure to ensure proper shoulder isolation
+
 - Hip angle determines submission effectiveness - incorrect angle attacks the elbow rather than shoulder
+
 - Maintain constant downward pressure with high guard leg to prevent posture recovery throughout the finish
+
 - Rotational pressure should be progressive over 5-7 seconds minimum to allow safe tap recognition
+
 - The finish combines three vectors: downward leg pressure, outward hip extension, and inward arm pull
+
 - Opponent's arm must remain bent at approximately 90 degrees for proper shoulder attack angle
+
 - Never sacrifice upper body control to accelerate the finish - control enables the submission
 
 
-</section>
-
-<section id="setup-requirements" class="content-section">
-
-## Prerequisites
-- Omoplata Control established with opponent's arm trapped across your hip
-- High guard leg positioned across opponent's upper back maintaining posture break
-- Arm weave threaded through opponent's trapped limb with grip secured on own shin or knee
-- Hip angle adjusted away from opponent creating rotational geometry for shoulder attack
-- Opponent's free arm controlled or neutralized to prevent defensive posting
-- Closed guard or leg wrap maintained to anchor base throughout the finish attempt
+### Execution Steps
 
 
-</section>
+- **Verify arm weave security**: Confirm your arm has been threaded completely through opponent's trapped limb with your forearm pass...
 
-<section id="execution-steps" class="content-section">
+- **Check hip positioning**: Scoot your hips slightly away from opponent to create the proper angle for rotational shoulder attac...
 
-## Execution Steps
-1. **Verify arm weave security**: Confirm your arm has been threaded completely through opponent's trapped limb with your forearm passing under their elbow. Your grip should be secured on your own shin or knee, creating the figure-four configuration that prevents arm extraction during the finish.
-2. **Check hip positioning**: Scoot your hips slightly away from opponent to create the proper angle for rotational shoulder attack. Your body should form a geometry where hip extension translates into shoulder rotation rather than elbow hyperextension. Feel for the angle that creates immediate tension.
-3. **Establish leg pressure**: Drive your high guard leg downward across opponent's upper back and neck, creating constant pressure that prevents them from posturing or creating space. Your hamstring should press firmly against their trap muscle area while your calf hooks behind their head.
-4. **Initiate controlled hip extension**: Begin slowly extending your hips away from opponent while maintaining the arm weave configuration. This extension creates the primary rotational force on their shoulder joint. The movement should be deliberate and progressive, not explosive.
-5. **Apply compound pressure**: Combine hip extension with pulling your arm weave toward your chest while simultaneously driving down with your high guard leg. These three vectors create the complete submission pressure attacking the shoulder through internal rotation combined with extension.
-6. **Fine-tune angle if needed**: Make micro-adjustments to hip angle and leg positioning to maximize shoulder pressure. Monitor opponent's response - increased resistance without tap indicates angle adjustment needed. Be prepared for immediate release upon any tap signal.
+- **Establish leg pressure**: Drive your high guard leg downward across opponent's upper back and neck, creating constant pressure...
+
+- **Neutralize free arm**: Control the opponent's free arm by trapping it against your body or pinning it with your near-side h...
+
+- **Initiate controlled hip extension**: Begin slowly extending your hips away from opponent while maintaining the arm weave configuration. T...
+
+- **Apply compound pressure**: Combine hip extension with pulling your arm weave toward your chest while simultaneously driving dow...
+
+- **Fine-tune angle and monitor response**: Make micro-adjustments to hip angle and leg positioning to maximize shoulder pressure. Monitor oppon...
 
 
-</section>
+### Common Mistakes
 
-<section id="common-counters" class="content-section">
 
-## Opponent Counters
-- **Posture recovery by driving forward into attacker** (Effectiveness: High) - Your Response: Increase downward leg pressure immediately or transition to Gogoplata as their forward drive brings neck into range
-- **Rolling forward to relieve shoulder pressure** (Effectiveness: Medium) - Your Response: Follow the roll maintaining arm weave control - this often improves your finishing angle or opens Back Control transition
-- **Straightening trapped arm to change attack angle** (Effectiveness: Medium) - Your Response: A straightened arm opens Armbar from Guard - release weave and transition to standard armbar mechanics
-- **Grip fighting to strip the arm weave** (Effectiveness: Low) - Your Response: Tighten weave by pulling shin closer to body and accelerate hip extension to finish before weave breaks
+- **Applying explosive or jerking pressure to finish quickly**
+  - Consequence: High risk of serious shoulder injury including rotator cuff tears and labrum damage requiring months of recovery
+  - Correction: Apply pressure progressively over 5-7 seconds minimum, allowing opponent time to recognize submission and tap safely
+
+- **Releasing high guard pressure during finish attempt**
+  - Consequence: Opponent recovers posture and escapes, nullifying the arm weave control entirely
+  - Correction: Maintain constant downward leg pressure throughout - the leg control enables the arm attack
+
+- **Incorrect hip angle attacking elbow instead of shoulder**
+  - Consequence: Submission pressure is misdirected and opponent can defend with muscular effort alone
+  - Correction: Scoot hips further away from opponent until you feel rotational tension on shoulder rather than hyperextension on elbow
 
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="defender-summary" class="content-section">
 
-## Common Mistakes
-- **Mistake**: Applying explosive or jerking pressure to finish quickly
-  - **Consequence**: High risk of serious shoulder injury including rotator cuff tears and labrum damage requiring months of recovery
-  - **Correction**: Apply pressure progressively over 5-7 seconds minimum, allowing opponent time to recognize submission and tap safely
-- **Mistake**: Releasing high guard pressure during finish attempt
-  - **Consequence**: Opponent recovers posture and escapes, nullifying the arm weave control entirely
-  - **Correction**: Maintain constant downward leg pressure throughout - the leg control enables the arm attack
-- **Mistake**: Incorrect hip angle attacking elbow instead of shoulder
-  - **Consequence**: Submission pressure is misdirected and opponent can defend with muscular effort
-  - **Correction**: Scoot hips further away from opponent until you feel rotational tension on shoulder rather than hyperextension on elbow
-- **Mistake**: Incomplete arm weave that doesn't clear opponent's elbow
-  - **Consequence**: Opponent extracts arm when pressure is applied due to insufficient mechanical isolation
-  - **Correction**: Thread arm completely so your forearm passes fully under their elbow before securing grip on your shin
-- **Mistake**: Continuing pressure after opponent taps
-  - **Consequence**: Guaranteed serious injury to training partner with potential permanent shoulder damage
-  - **Correction**: Develop immediate release reflex and practice the release protocol as thoroughly as the submission itself
+## Playing as Defender
+
+[[Baratoplata/Defender|→ Full Defender Guide]]
+
+### Key Principles
+
+
+- Recognize the arm weave attempt early and fight it before the figure-four grip is secured on the attacker's shin
+
+- Maintain arm bend resistance - straightening your arm changes the attack angle and opens armbar risk, but a 90-degree bend is what the attacker needs
+
+- Posture recovery is your highest percentage escape - the attacker cannot finish if you achieve upright posture
+
+- Forward rolling can relieve shoulder pressure but risks giving up back control if the attacker follows
+
+- Your free arm is your primary defensive tool - use it to post, frame, and create base before the weave locks
+
+- Time your escape attempts to coincide with the attacker's hip adjustment movements when their control is momentarily loosened
+
+
+### Recognition Cues
+
+
+- Opponent begins threading their arm underneath your trapped elbow while you are in Omoplata Control - this is the arm weave entry
+
+- You feel a figure-four grip pressure where the attacker connects their arm weave to their own shin or knee, creating a locked configuration
+
+- Attacker scoots their hips away from you laterally while maintaining leg pressure across your back - this is the angle creation for the rotational finish
+
+- Downward leg pressure across your upper back increases sharply as the attacker prepares to combine vectors for the finish
+
+
+### Defensive Options
+
+
+- **Strip the arm weave before the figure-four grip is established by pulling your elbow back toward your hip and turning your forearm to create friction against the threading motion** - When: As soon as you feel the opponent's arm beginning to thread under your elbow - this is the highest percentage defensive window before the weave locks
+
+- **Drive forward explosively to recover posture, using your free arm to post on the mat and your trapped arm to push against the attacker's hip, fighting through the leg pressure across your back** - When: When the arm weave is partially or fully established but before the attacker has locked their hip angle - posture recovery nullifies the finish
+
+- **Execute a controlled forward roll to relieve shoulder rotation pressure, tucking your chin and rolling over the trapped shoulder to invert the positional dynamic** - When: When the finish is imminent and posture recovery has failed - this is an emergency escape when you feel shoulder pressure approaching your pain threshold
 
 
 </section>
 
-<section id="training-progressions" class="content-section hide-minimal">
 
-## Training Progressions
-**Week 1-2** - Position understanding
-Study shoulder anatomy and submission mechanics without any finishing pressure. Practice establishing arm weave from Omoplata Control with compliant partner. Learn proper release protocol and tap recognition. No resistance.
-
-**Week 3-4** - Mechanical precision
-Work on hip angle adjustment and compound pressure vectors with light pressure only. Partner taps early to familiarize with submission feeling. Focus on slow, controlled movements emphasizing proper angle creation.
-
-**Week 5-6** - Defense recognition
-Partner provides moderate defensive resistance while you maintain control and identify escape attempts. Practice transitioning to alternative attacks when Baratoplata is defended. Increase finishing pressure to 50-60%.
-
-**Week 7+** - Live integration
-Attempt Baratoplata finish from live rolling situations when opportunity presents. Chain with Gogoplata and Triangle from rubber guard positions. Maintain safe application speeds even in competition-style training.
-
-
-
-</section>
-
-<section id="variants-and-adaptations" class="content-section hide-minimal">
+<section id="variants" class="content-section hide-minimal">
 
 ## Variations
+
+
 **Mounted Baratoplata**: If opponent rolls during finish attempt, follow their roll to mount position while maintaining arm weave. From mount, gravity assists your pressure and escape options are severely limited for opponent. (When to use: When opponent attempts forward roll defense to relieve shoulder pressure)
 
+
 **No-Gi Baratoplata**: Without the gi, establish two-on-one wrist control before threading arm weave. The absence of collar grips requires more precise wrist isolation but the submission mechanics remain identical. (When to use: No-gi competition or training where collar and sleeve grips are unavailable)
+
 
 **Baratoplata to Omoplata Chain**: If opponent defends by straightening arm, release arm weave and transition directly to standard Omoplata finish. The arm positioning from failed Baratoplata creates ideal Omoplata angle. (When to use: When opponent successfully straightens arm to defeat the rotational shoulder attack)
 
@@ -281,44 +175,7 @@ Attempt Baratoplata finish from live rolling situations when opportunity present
 
 </section>
 
-<section id="knowledge-assessment" class="content-section">
 
-## Test Your Knowledge
-**Q1**: What are the minimum application time and key safety protocols for finishing the Baratoplata?
-**A**: Minimum 5-7 seconds of progressive pressure application is required for safe execution. Key protocols include: never using explosive or jerking motions, immediately releasing upon any tap signal (verbal, hand, foot, or distress vocalization), being especially cautious with partners having limited shoulder flexibility, and understanding that shoulder injuries can be severe with recovery times of 6 weeks to 6 months. The release must be practiced as thoroughly as the submission itself.
-
-**Q2**: What distinguishes the Baratoplata from standard Omoplata finishing mechanics?
-**A**: The Baratoplata incorporates an arm weave that threads your arm through the opponent's trapped limb, creating additional mechanical isolation that prevents defensive hand fighting. While standard Omoplata primarily attacks through forward shoulder rotation, the Baratoplata adds internal rotation pressure through the weave combined with hip extension. This makes the submission more difficult to escape through strength and attacks a different vector of the shoulder joint.
-
-**Q3**: Why is hip positioning critical for effective Baratoplata finish and how do you verify correct angle?
-**A**: Hip angle determines whether pressure attacks the shoulder through rotation or the elbow through hyperextension. Correct angle is achieved by scooting hips away from opponent until you feel immediate tension on their shoulder with minimal hip extension. If you must extend significantly before feeling resistance, or if you feel pressure along their forearm, the angle is incorrect. The proper geometry translates hip extension directly into shoulder rotation.
-
-**Q4**: Your opponent begins posturing up during the finish - what adjustment prevents the escape?
-**A**: Immediately increase downward pressure with your high guard leg on their upper back and neck while simultaneously accelerating hip extension pressure. If they continue gaining posture despite leg pressure, abort the Baratoplata and transition to Gogoplata by adjusting your shin across their throat - their forward drive actually assists the choke entry. The key is recognizing posture recovery early enough to either intensify control or transition before they fully escape.
-
-**Q5**: What three force vectors combine to create the complete Baratoplata submission pressure?
-**A**: The three vectors are: downward pressure from the high guard leg across the opponent's upper back preventing posture recovery, outward extension from your hips creating the primary rotational force on the shoulder joint, and inward pull of the arm weave toward your chest that maintains isolation and guides the direction of shoulder rotation. All three must work together - removing any single vector significantly reduces submission effectiveness.
-
-**Q6**: How do you recognize when the Baratoplata angle is wrong and what adjustment corrects it?
-**A**: Incorrect angle manifests as pressure along the opponent's forearm rather than their shoulder, or requiring excessive hip extension before feeling resistance. You may also feel the opponent defending with bicep/tricep strength rather than shoulder mobility limits. To correct, scoot your hips further away from opponent while maintaining arm weave control. The correct angle creates immediate shoulder tension with minimal hip movement and bypasses muscular defense.
-
-**Q7**: Your opponent rolls forward during the finish - how do you follow while maintaining submission integrity?
-**A**: Follow their roll momentum while maintaining tight arm weave grip and leg connection. As they roll forward, you transition to mounted position while the arm weave keeps their shoulder locked. From mount, increase finishing pressure by extending your hips while gravity now assists rather than hinders. The roll defense often improves your finishing angle - maintain control and continue progressive pressure from the new position.
-
-**Q8**: What anatomical structures does the Baratoplata primarily attack and when does the submission become dangerous?
-**A**: The Baratoplata primarily attacks the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the shoulder capsule, and potentially the labrum. The submission becomes dangerous when the opponent's shoulder begins rotating beyond its natural range of motion - typically felt as their resistance suddenly decreasing or any clicking/popping sounds. The point of no return occurs once proper angle is established and hip extension begins applying direct rotational force to the joint.
-
-
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Considerations
-
-The Baratoplata attacks the shoulder joint through internal rotation, requiring exceptional care during application. Shoulder injuries from rotational submissions often require surgical repair and months of rehabilitation. Always apply pressure progressively over 5-7 seconds minimum - never use explosive or jerking motions. Release immediately upon any tap signal: verbal, hand, foot, or distress vocalization. The tap recognition window is brief as the submission comes on suddenly once proper angle is achieved. Never force this technique against partners with limited shoulder flexibility or previous shoulder injuries. Practice the release protocol as thoroughly as the submission itself. In competition, maintain control after the tap to prevent falling into the submission with full weight. Beginners should only practice entry mechanics and positioning, not finishing pressure.
-
-</section>
 
 <section id="position-integration" class="content-section">
 
@@ -328,20 +185,33 @@ The Baratoplata represents the terminal attack in the 10th Planet rubber guard s
 
 </section>
 
+
 <section id="related-content" class="content-section">
 
 ## Related Techniques
 
+
 - [[Omoplata Control]] - Starting control position for finish
+
 - [[Baratoplata Setup]] - Setup transition that establishes control
+
 - [[Meathook]] - Rubber guard position initiating attack chain
+
 - [[Mission Control]] - Initial rubber guard control enabling path to finish
+
 - [[Gogoplata]] - Alternative rubber guard submission from same positions
-- [[Triangle from Guard]] - Alternative attack when opponent defends Baratoplata angle
+
+- [[Triangle from Closed Guard]] - Alternative attack when opponent defends Baratoplata angle
+
 - [[Armbar from Guard]] - Transition option when opponent straightens arm
+
 - [[Back Control]] - Position accessible when opponent rolls forward during defense
+
 - [[Omoplata]] - Related shoulder submission sharing control mechanics
+
 - [[Closed Guard]] - Foundation position from which rubber guard develops
+
+- [[Baratoplata]] - Related submission entry in submissions catalog
 
 
 </section>

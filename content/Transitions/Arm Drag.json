@@ -1,6 +1,6 @@
 {
   "name": "Arm Drag",
-  "description": "Master the Arm Drag in BJJ. Complete guide from setup to back control with step-by-step execution. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
+  "description": "Master the Arm Drag in BJJ. Complete guide covering grip setup, angular back takes, and chain attacks with attacker and defender perspectives.",
   "tags": [
     "bjj",
     "technique",
@@ -8,199 +8,30 @@
     "back take",
     "control",
     "transitions",
-    "grip fighting"
+    "grip fighting",
+    "angle creation",
+    "no-gi"
   ],
-  "overview": "The Arm Drag is a fundamental control and positioning technique in Brazilian Jiu-Jitsu that creates superior angles by redirecting the opponent's arm across their body. This versatile movement forms the foundation of countless back takes, guard passes, and positional improvements across all levels of grappling.\n\nThe technique works by controlling the opponent's wrist and tricep simultaneously, then pulling their arm across their centerline while moving your body behind them. This creates a momentary imbalance and blocks their defensive frames, allowing you to secure back control, side control, or other dominant positions. The Arm Drag can be executed from standing, seated guard, butterfly guard, or any position where you can establish the necessary grips.\n\nMastery of the Arm Drag opens entire systematic approaches to grappling, as it serves as both an entry point for attacks and a fundamental movement pattern for creating angles. High-level competitors use Arm Drags to initiate their offensive sequences, chain multiple techniques together, and maintain constant pressure on opponents who struggle to defend the dynamic positional changes it creates.",
-  "key_principles": [
-    "Control both the wrist and tricep to prevent opponent's defensive reactions",
-    "Pull the arm across opponent's centerline to create angular advantage",
-    "Move your body behind opponent's shoulder line simultaneously with the drag",
-    "Maintain tight connection throughout the movement to prevent escape",
-    "Use opponent's resistance or posting as timing cue for execution",
-    "Keep your head below opponent's shoulder to avoid guillotine counters",
-    "Chain immediately to back control or other positions without pause"
-  ],
-  "setup_requirements": [
-    "Established grip on opponent's wrist with firm control",
-    "Secondary grip on opponent's tricep or upper arm",
-    "Ability to create initial angle or movement",
-    "Opponent's arm extended or available for manipulation",
-    "Body positioning that allows hip movement behind opponent",
-    "Balance maintained throughout the dragging motion"
-  ],
-  "execution_steps": [
+  "from_position": "Standing Position/Top",
+  "outcomes": [
     {
-      "step_number": 1,
-      "action": "Establish double grip control",
-      "description": "Secure a firm grip on opponent's wrist with your lead hand using a pistol grip (thumb inside their palm). Simultaneously grab their tricep or upper arm with your trailing hand, creating a frame that controls their entire arm structure. Your grips should be tight enough to prevent them from retracting their arm but relaxed enough to allow fluid movement."
+      "to": "Back Control/Top",
+      "probability": 55,
+      "result": "success"
     },
     {
-      "step_number": 2,
-      "action": "Pull arm across centerline",
-      "description": "Execute a strong pulling motion with both hands, dragging opponent's arm across their body's centerline and past their opposite shoulder. The wrist hand pulls in a circular arc while the tricep hand pushes slightly, creating a levering action. This motion should be explosive but controlled, disrupting their base and blocking their near-side defensive frames."
+      "to": "Standing Position/Top",
+      "probability": 30,
+      "result": "failure"
     },
     {
-      "step_number": 3,
-      "action": "Step behind shoulder line",
-      "description": "As you pull their arm across, immediately step your outside foot past their shoulder line, positioning your body at approximately 45 degrees to their back. Your hips should drive forward and around simultaneously with the arm drag, creating momentum that compounds the positional advantage. Keep your chest low and connected to their trapped arm."
-    },
-    {
-      "step_number": 4,
-      "action": "Secure back control position",
-      "description": "Release the wrist grip and immediately slide your arm around their waist or across their back, establishing the first back control hook. Your head should be positioned on their shoulder, preventing them from turning into you. The hand that was controlling the tricep transitions to controlling their far shoulder or establishing the second hook around their neck."
-    },
-    {
-      "step_number": 5,
-      "action": "Establish full back mount",
-      "description": "Insert your first hook on the near side while using your chest pressure to prevent them from turning. Once the first hook is secure, immediately work for the second hook on the far side. Your body should be tight to their back with your chest connected to their shoulders. Begin working for seatbelt control with one arm over the shoulder and one arm under the armpit."
-    },
-    {
-      "step_number": 6,
-      "action": "Consolidate position and attack",
-      "description": "Settle your weight on their back, adjusting your hooks to maintain maximum control while preventing their escape attempts. Establish full seatbelt control and begin working for submission opportunities (rear naked choke, collar chokes) or further positional advancement. Your hips should remain heavy and active, following their movement to maintain back control throughout their defensive efforts."
+      "to": "Front Headlock/Bottom",
+      "probability": 15,
+      "result": "counter"
     }
   ],
-  "common_counters": [
-    {
-      "counter": "Opponent retracts arm immediately when feeling initial grip",
-      "effectiveness": "Medium",
-      "your_response": "Anticipate the retraction and use it to pull yourself forward into their space, converting to different attacks like single leg or front headlock. Alternatively, maintain grips and follow their retraction to stay connected for re-attack."
-    },
-    {
-      "counter": "Opponent whizzers over your dragging arm to prevent back take",
-      "effectiveness": "High",
-      "your_response": "Accept the whizzer and transition to alternative positions like inside trip, or guard pull. The whizzer blocks the back take but opens other opportunities if you maintain connection and pressure."
-    },
-    {
-      "counter": "Opponent posts far hand and squares up to prevent angle",
-      "effectiveness": "Medium",
-      "your_response": "Attack the posted arm with Kimura grip or arm drag that side as well. Alternatively, use their posting as an opportunity to redirect your movement to their other side or enter on a different angle."
-    },
-    {
-      "counter": "Opponent sits or drops weight to prevent standing arm drag",
-      "effectiveness": "Low",
-      "your_response": "Follow them to the ground and establish seated guard position, using the arm drag to secure superior grips and angles. Their sitting actually improves your position by removing their base and mobility."
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Pulling arm drag without simultaneous footwork",
-      "consequence": "Opponent maintains position as you create space without gaining angle. The arm drag becomes ineffective if you don't move your body behind them.",
-      "correction": "Practice coordinating the arm pull with immediate foot movement. Your feet and hands must move together, not sequentially. Drill this timing until it becomes automatic."
-    },
-    {
-      "error": "Keeping head too high during execution",
-      "consequence": "Opponent can secure guillotine or front headlock when your head is elevated. This is especially dangerous when arm dragging from standing.",
-      "correction": "Keep your head level with or below opponent's shoulder throughout the technique. Your forehead should nearly touch their shoulder blade as you circle behind them."
-    },
-    {
-      "error": "Releasing grips too early before securing new control",
-      "consequence": "Opponent escapes and recovers their defensive structure. The momentary disconnection allows them to turn into you and nullify your advantage.",
-      "correction": "Maintain at least one grip until you establish back control or alternative dominant position. Transition grips smoothly rather than releasing completely."
-    },
-    {
-      "error": "Pulling arm straight back instead of across centerline",
-      "consequence": "Minimal disruption to opponent's base and posture. They can easily resist or counter when you pull in the wrong direction.",
-      "correction": "Focus on the circular, across-the-body path of the arm drag. The motion should redirect their arm past their opposite shoulder, creating maximum structural disruption."
-    },
-    {
-      "error": "Failing to secure first hook immediately after drag",
-      "consequence": "Opponent can turn into you and recover guard or neutral position. Without the hook, they have too much mobility to escape.",
-      "correction": "Drill the transition from arm drag to first hook as one continuous motion. The hook should be established within 1-2 seconds of completing the drag."
-    },
-    {
-      "error": "Using arm drag from positions where opponent has superior base",
-      "consequence": "Low success rate and wasted energy. Arm drags work best when opponent is mobile or off-balance, not when they're heavily rooted.",
-      "correction": "Set up arm drags with initial movements that disturb opponent's base first (snaps, pushes, pulls). Create the opportunity rather than forcing the technique against stable structure."
-    }
-  ],
-  "training_progressions": [
-    {
-      "phase": "Week 1-2: Fundamental Mechanics",
-      "focus": "Grip establishment and basic pulling motion",
-      "description": "Practice establishing proper grips on static opponent. Drill the arm drag motion slowly, focusing on pulling across centerline and stepping behind shoulder line. Partner offers no resistance. Emphasize proper hand placement and body positioning."
-    },
-    {
-      "phase": "Week 3-4: Dynamic Movement Integration",
-      "focus": "Coordinating hand and foot movement simultaneously",
-      "description": "Execute arm drags with light resistance from partner who maintains structure but doesn't actively defend. Focus on timing the pull and step together. Practice from standing, seated, and guard positions. Begin recognizing when opponent's arm is available versus protected."
-    },
-    {
-      "phase": "Week 5-8: Position-Specific Applications",
-      "focus": "Applying arm drags from various positions and guards",
-      "description": "Drill arm drags from butterfly guard, closed guard, standing, and seated positions with moderate resistance. Partner begins defending with common counters (whizzer, posting, retraction). Practice chaining arm drag to back take, guard pass, or alternative attacks based on defensive reactions."
-    },
-    {
-      "phase": "Week 9-12: Counter Defense and Re-Attacks",
-      "focus": "Dealing with opponent's defensive reactions",
-      "description": "Spar with partner who actively defends arm drags using all common counters. Develop responses to whizzers, posts, and retractions. Learn to recognize when to abandon arm drag and transition to alternative attacks. Practice flowing between multiple arm drag attempts and related techniques."
-    },
-    {
-      "phase": "Week 13-20: Competition Integration",
-      "focus": "Using arm drags in full sparring contexts",
-      "description": "Incorporate arm drags into regular rolling sessions. Set goals for successful back takes from arm drags. Analyze video of your attempts to identify timing and setup improvements. Begin developing your personal arm drag entries based on your game style and common opponent reactions."
-    },
-    {
-      "phase": "Ongoing: System Development",
-      "focus": "Building complete offensive system around arm drag",
-      "description": "Develop chains of techniques that begin with or complement arm drags. Study high-level competitors' arm drag systems (Marcelo Garcia, Garry Tonon, Andrew Wiltse). Create specific setups from your preferred positions. Refine timing through thousands of repetitions against varied body types and skill levels."
-    }
-  ],
-  "variants_and_adaptations": [
-    {
-      "variant_name": "Seated Guard Arm Drag",
-      "description": "Executed from seated guard position with feet on opponent's hips or knees. Pull their arm across while scooting your hips behind them to secure back control from bottom position.",
-      "when_to_use": "When playing open guard variations or when opponent is standing in your guard. Particularly effective in no-gi where grip fighting is constant."
-    },
-    {
-      "variant_name": "Butterfly Guard Arm Drag",
-      "description": "Use butterfly hooks for elevation while executing arm drag. The lifting motion with hooks combines with arm drag to create enhanced off-balancing effect before taking back.",
-      "when_to_use": "From butterfly guard when opponent drives forward. The hooks provide additional mechanical advantage and prevent them from sprawling away."
-    },
-    {
-      "variant_name": "Standing Arm Drag to Single Leg",
-      "description": "Begin arm drag from standing clinch position but transition to single leg takedown instead of back control. Use the arm drag to create angle for single leg entry.",
-      "when_to_use": "In wrestling-heavy contexts, competition, or when opponent's back is well-defended. Provides alternative finish when back take is unavailable."
-    },
-    {
-      "variant_name": "Two-on-One Arm Drag",
-      "description": "Establish two-on-one control (both hands on opponent's single arm) before executing drag. Provides superior control but requires more setup time to establish grips.",
-      "when_to_use": "Against larger or stronger opponents where single-hand grips are insufficient. Common in gi grappling where you can use sleeve and lapel grips together."
-    },
-    {
-      "variant_name": "Snap Down to Arm Drag Combination",
-      "description": "Begin with forward snap down to break opponent's posture, then immediately transition to arm drag when they post to recover. Uses their defensive reaction as timing for arm drag.",
-      "when_to_use": "Against upright opponents with strong posture. The snap down creates the opening for the arm drag by forcing them to extend their arms."
-    }
-  ],
-  "knowledge_assessment": [
-    {
-      "question": "What are the two essential grips needed for a proper arm drag and why is each important?",
-      "answer": "The two essential grips are the wrist grip and tricep/upper arm grip. The wrist grip controls the endpoint of their arm and allows you to redirect it across their centerline. The tricep grip prevents them from retracting their arm and provides leverage to enhance the pulling motion. Together, these grips control the entire arm structure and prevent common defensive reactions while maximizing the mechanical advantage of the technique."
-    },
-    {
-      "question": "Why is it critical to move your feet simultaneously with the arm drag motion rather than after?",
-      "answer": "Moving your feet simultaneously ensures you capitalize on the brief moment of imbalance and structural disruption created by the arm drag. If you pull the arm first and then move your feet, the opponent has time to recover their base, turn into you, or establish defensive frames. The simultaneous movement compounds the positional advantage by removing their ability to track your movement or counter effectively. This timing difference often determines success versus failure."
-    },
-    {
-      "question": "What is the most dangerous counter to watch for when executing standing arm drags and how do you prevent it?",
-      "answer": "The guillotine choke is the most dangerous counter when executing standing arm drags. Opponents can secure it when you keep your head too high during the technique. To prevent this, keep your head level with or below their shoulder throughout the drag, positioning your forehead near their shoulder blade as you circle behind them. Your head should essentially track behind their shoulder line, making it impossible for them to get under your chin for the guillotine grip."
-    },
-    {
-      "question": "How should you respond when an opponent successfully whizzers over your arm during an arm drag attempt?",
-      "answer": "When opponent establishes a whizzer, abandon the back take and transition to alternative attacks rather than forcing the position. Effective responses include: converting to an inside trip using their whizzer as a control point, pulling guard while maintaining connection, or attacking their posted far arm. The key is recognizing that the whizzer blocks the back take but creates openings elsewhere, so maintain connection and flow to the next opportunity rather than disengaging completely."
-    },
-    {
-      "question": "Describe the proper path and direction of the arm drag motion and why pulling straight back is ineffective?",
-      "answer": "The proper arm drag path is circular and crosses opponent's centerline, pulling their arm past their opposite shoulder. This creates maximum structural disruption by redirecting their arm away from where it can provide support or defensive frames. Pulling straight back toward your own body is ineffective because it doesn't disrupt their structure or posture significantly - they can easily resist by pulling back or stepping toward you. The across-the-body motion creates a mechanical disadvantage for them while opening the angle for your positioning behind their shoulder line."
-    },
-    {
-      "question": "What systematic approach should you use when arm drags are repeatedly failing against a particular training partner?",
-      "answer": "When arm drags fail repeatedly, analyze which phase is breaking down: grip establishment, execution timing, footwork coordination, or transition to back control. Often the issue is attempting arm drags against opponents with superior base without creating the opening first. Solution: add setup movements before the arm drag such as snap downs, push-pull combinations, or feints to disturb their structure. Also examine if you're telegraphing the technique through grip fighting patterns. Consider switching to arm drag variations (two-on-one, butterfly guard) that provide more control. Finally, ensure you're attempting arm drags at appropriate times when opponent is mobile or extending rather than when they're heavily rooted in defensive positions."
-    }
-  ],
-  "safety_considerations": "The arm drag is generally a safe technique with low injury risk when executed properly. Primary safety concerns involve preventing guillotine exposure by maintaining proper head position below opponent's shoulder line throughout the technique. When drilling, start with slow, controlled repetitions to develop muscle memory before increasing speed. Partners should communicate clearly when practicing, especially during the transition to back control where hooks can accidentally strike sensitive areas. In gi training, be mindful of finger injuries when establishing grips - avoid hooking individual fingers inside sleeves. During competition or intense training, avoid over-committing to failed arm drags as this can expose you to counters or leave you off-balance. For beginners, practice establishing positional control after the drag before attempting immediate submissions to build systematic understanding and prevent rushing into vulnerable positions.",
-  "position_integration": "The arm drag serves as a fundamental connector between numerous positions in the BJJ state machine, functioning as both an entry and transition technique across the entire system. From standing positions, it creates pathways to back control, single leg takedowns, or front headlock scenarios. From bottom positions (seated guard, butterfly guard, closed guard), it provides the primary mechanism for reversing the position and securing top control or back mount. The technique integrates seamlessly with guard retention systems, serving as a counter to guard passing attempts where you can arm drag the passing arm and recover position. In the overall BJJ hierarchy, the arm drag represents a critical skill for any guard player or wrestler-based style, as it provides the angle creation necessary for most back takes and many sweeps. Mastery of the arm drag enables entire systematic approaches to competition, particularly in no-gi grappling where grip fighting and back takes dominate modern meta-games. Advanced practitioners build complete offensive systems where every guard position includes arm drag variations as primary attacking options, creating constant threats that opponents must defend while opening opportunities for alternative attacks.",
+  "success_rate": 55,
+  "overview": "The Arm Drag is a fundamental control and positioning technique in Brazilian Jiu-Jitsu that creates superior angles by redirecting the opponent's arm across their body. This versatile movement forms the foundation of countless back takes, guard passes, and positional improvements across all levels of grappling. The biomechanical principle is simple: by pulling one arm past the opponent's centerline, you momentarily eliminate their ability to frame, post, or turn toward you, creating a window to circle behind their shoulder line.\n\nThe technique works by controlling the opponent's wrist and tricep simultaneously, then pulling their arm across their centerline while moving your body behind them. This creates a momentary imbalance and blocks their defensive frames, allowing you to secure back control, side control, or other dominant positions. The Arm Drag can be executed from standing, seated guard, butterfly guard, or any position where you can establish the necessary grips. What makes it particularly powerful is that the opponent's natural reaction to resist the pull often loads their weight onto the dragged side, compounding the angular advantage you are creating.\n\nMastery of the Arm Drag opens entire systematic approaches to grappling, as it serves as both an entry point for attacks and a fundamental movement pattern for creating angles. The technique chains naturally into back takes, single leg entries, front headlock sequences, and guard sweeps. In no-gi grappling, the arm drag is arguably the single most important upper body technique because it functions as the primary mechanism for creating the off-angle access that all back attacks require. Building a game around arm drags means building a game around angles, and angles are the currency of positional dominance in jiu-jitsu.",
   "related_content": [
     {
       "name": "Back Control",
@@ -208,54 +39,374 @@
     },
     {
       "name": "Butterfly Guard",
-      "relationship": "Starting position variant - arm drag from butterfly is common guard attack"
-    },
-    {
-      "name": "Single Leg Takedown",
-      "relationship": "Alternative finish - arm drag creates angle for single leg entry"
-    },
-    {
-      "name": "Seated Guard",
-      "relationship": "Starting position - seated guard arm drags are fundamental no-gi technique"
+      "relationship": "Starting position variant - arm drag from butterfly is a high-percentage guard attack"
     },
     {
       "name": "Front Headlock",
-      "relationship": "Alternative destination - can transition to front headlock from arm drag"
-    },
-    {
-      "name": "Snap Down",
-      "relationship": "Setup technique - creates opportunities for arm drag execution"
+      "relationship": "Alternative destination - can transition to front headlock if back take is blocked"
     },
     {
       "name": "Arm Drag to Back",
-      "relationship": "Follow-up - specific back take sequence from arm drag"
+      "relationship": "Follow-up transition - specific back take sequence continuing from arm drag"
     },
     {
       "name": "Arm Drag Sweep",
-      "relationship": "Alternative - sweep variation from bottom position"
+      "relationship": "Alternative application - sweep variation from bottom guard positions"
     },
     {
       "name": "Rear Naked Choke",
-      "relationship": "Follow-up submission - primary finish from back control"
-    }
-  ],
-  "from_position": "Standing Position/Top",
-  "outcomes": [
-    {
-      "to": "Back Control/Top",
-      "probability": 75,
-      "result": "success"
+      "relationship": "Follow-up submission - primary finish once back control is secured"
     },
     {
-      "to": "Standing Position/Top",
-      "probability": 15,
-      "result": "failure"
+      "name": "Standing Position",
+      "relationship": "Starting position - most common origin for standing arm drag attempts"
     },
     {
-      "to": "Standing Position/Bottom",
-      "probability": 10,
-      "result": "counter"
+      "name": "Clinch",
+      "relationship": "Related position - arm drags frequently initiated from clinch engagements"
+    },
+    {
+      "name": "Arm Drag Escape",
+      "relationship": "Counter transition - opponent's primary defensive response"
     }
   ],
-  "success_rate": 68
+  "attacker": {
+    "name": "Arm Drag Attacker",
+    "description": "How to execute the Arm Drag in BJJ. Attacking perspective with grip setup, execution steps, counters, and chain attacks to back control.",
+    "overview": "The Arm Drag from the attacker's perspective is fundamentally about manufacturing an angular advantage through grip control and simultaneous body movement. Your goal is to redirect the opponent's arm past their centerline while circling your body behind their shoulder line, creating a positional disparity they cannot recover from before you secure back control. The technique succeeds when the hand pull and the foot movement happen as one coordinated action rather than two sequential steps.\n\nThe attacking methodology requires understanding that the arm drag is not a strength technique but a timing and angle technique. You are exploiting moments when the opponent's arm is extended, posted, or reaching, using their own structural commitment against them. The wrist-and-tricep grip combination controls the entire arm as a lever, and the circular pulling path across their body creates maximum structural disruption with minimum force. Your body movement behind them compounds this disruption into a positional crisis they cannot solve without giving up back exposure.\n\nAdvanced arm drag attacking integrates setups, feints, and chain reactions into a complete system. Rather than attempting isolated arm drags, you create the conditions for success through preliminary movements like snap downs, push-pull sequences, and level changes that force the opponent to extend or post their arms. When they defend the arm drag, their defensive reaction itself becomes the setup for your next attack, whether that is a re-drag, single leg entry, or front headlock transition.",
+    "key_principles": [
+      "Control both the wrist and tricep simultaneously to prevent arm retraction and maximize mechanical leverage on the entire arm structure",
+      "Pull the arm across opponent's centerline in a circular arc, not straight back, to create maximum structural disruption and block their near-side frames",
+      "Move your body behind opponent's shoulder line simultaneously with the drag so the hand pull and foot movement function as one coordinated action",
+      "Maintain tight chest-to-back connection throughout the transition to prevent the opponent from turning to face you during the positional change",
+      "Use opponent's resistance, posting, or extension as timing cues rather than forcing the technique against a stable, retracted defensive posture",
+      "Keep your head level with or below opponent's shoulder throughout execution to eliminate guillotine counter exposure",
+      "Chain immediately to back control hooks or alternative positions without pausing in the transition, as any delay allows defensive recovery"
+    ],
+    "setup_requirements": [
+      "Established grip on opponent's wrist with firm pistol grip control providing directional authority over their arm endpoint",
+      "Secondary grip on opponent's tricep or upper arm creating a two-point lever system that prevents arm retraction",
+      "Opponent's arm extended, posted, or otherwise available for manipulation rather than tucked defensively against their body",
+      "Body positioning that allows hip movement behind opponent's shoulder line with a clear circular path for footwork",
+      "Balance maintained on balls of feet throughout the dragging motion with ability to explosively change direction",
+      "Initial angle or movement created through preliminary setups such as push-pull, snap down, or level change to disturb opponent's base"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish double grip control",
+        "description": "Secure a firm grip on opponent's wrist with your lead hand using a pistol grip with your thumb inside their palm. Simultaneously grab their tricep or upper arm with your trailing hand, creating a two-point frame that controls their entire arm structure. Your grips should be tight enough to prevent them from retracting their arm but relaxed enough to allow fluid movement. In no-gi, use a cupping grip on the wrist and a C-grip on the tricep."
+      },
+      {
+        "step_number": 2,
+        "action": "Pull arm across centerline",
+        "description": "Execute a strong pulling motion with both hands, dragging opponent's arm across their body's centerline and past their opposite shoulder. The wrist hand pulls in a circular arc toward your opposite hip while the tricep hand pushes slightly inward, creating a levering action that multiplies your pulling force. This motion should be explosive but controlled, disrupting their base and blocking their near-side defensive frames. The direction is across their body, not toward you."
+      },
+      {
+        "step_number": 3,
+        "action": "Step behind shoulder line",
+        "description": "As you pull their arm across, immediately step your outside foot past their shoulder line, positioning your body at approximately 45 degrees to their back. Your hips should drive forward and around simultaneously with the arm drag, creating compounding momentum. This is the critical coordination point where hands and feet must move as one unit. Keep your chest low and angled toward their trapped shoulder blade, not standing upright."
+      },
+      {
+        "step_number": 4,
+        "action": "Secure waist control",
+        "description": "Release the wrist grip and immediately slide your dragging-side arm around their waist, locking your hand on their far hip. Your head presses into their shoulder blade on the dragged side, acting as a post that prevents them from turning into you. The hand that was controlling the tricep maintains contact on their upper arm or transitions to their far shoulder, keeping continuous control throughout the grip transition."
+      },
+      {
+        "step_number": 5,
+        "action": "Insert first hook and establish chest connection",
+        "description": "Insert your near-side hook inside their thigh while driving your chest flat against their back. The hook foot should curl inward with toes pointing out, creating an anchor that prevents them from spinning away. Your chest-to-back connection must be tight with no daylight between your torso and their shoulders. Begin working your far arm from the waist toward a seatbelt position with one arm over their shoulder and one under their armpit."
+      },
+      {
+        "step_number": 6,
+        "action": "Secure second hook and seatbelt",
+        "description": "Insert the second hook on the far side by threading your foot inside their far thigh. Simultaneously lock the seatbelt grip by clasping your hands together with one arm over the shoulder and one under the armpit. Your choking-side hand should be the over-the-shoulder arm. Settle your hips tight against their lower back, distributing your weight to create maximum control pressure while following any escape attempt with active hip adjustments."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent retracts arm immediately when feeling initial grip, pulling elbow tight to their body",
+        "effectiveness": "Medium",
+        "your_response": "Anticipate the retraction and use their backward pull to advance yourself forward into their space. Convert to a snap down or front headlock entry as their retraction drops their posture. Alternatively, maintain your tricep grip and follow their retraction to stay connected for an immediate re-drag attempt when the arm extends again.",
+        "targets_outcome": "Standing Position/Top"
+      },
+      {
+        "counter": "Opponent whizzers over your dragging arm with an overhook to prevent the back take and square their hips",
+        "effectiveness": "High",
+        "your_response": "Accept the whizzer rather than fighting it directly. Transition to an inside trip using the whizzer as a control point, or pull guard while maintaining the arm connection. The whizzer blocks the back take but immobilizes their arm, opening opportunities for duck-unders or level changes to the opposite side.",
+        "targets_outcome": "Standing Position/Top"
+      },
+      {
+        "counter": "Opponent posts their far hand on the mat or your body and squares their hips to deny the angle",
+        "effectiveness": "Medium",
+        "your_response": "Attack the posted arm with a second arm drag to that side, creating a chain-drag sequence. Alternatively, use their posting commitment as an opportunity to snap them down toward the posted hand, converting the exchange into a front headlock or go-behind. Their post fixes their base in one direction, making them vulnerable to attacks from the opposite side.",
+        "targets_outcome": "Standing Position/Top"
+      },
+      {
+        "counter": "Opponent sprawls their hips back explosively, creating distance and denying your ability to circle behind the shoulder line",
+        "effectiveness": "High",
+        "your_response": "If you maintain grip connection during their sprawl, follow them down and convert to a front headlock or snap down position. If grips break, immediately re-engage with a level change or guard pull. A sprawl against an arm drag often leaves the opponent bent forward at the waist, making them vulnerable to snap downs and front headlock entries.",
+        "targets_outcome": "Front Headlock/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Pulling arm drag without simultaneous footwork, treating the pull and step as two separate actions",
+        "consequence": "Opponent maintains position because the structural disruption from the arm pull dissipates before your body arrives behind them. You create momentary imbalance without capturing the angle, giving them time to recover and square up.",
+        "correction": "Practice coordinating the arm pull with immediate foot movement as one integrated motion. Your outside foot should be moving behind their shoulder line at the exact moment your hands complete the pull. Drill this timing with a partner at slow speed until coordination is automatic."
+      },
+      {
+        "error": "Keeping head too high during execution, leaving chin exposed above opponent's shoulder line",
+        "consequence": "Opponent can secure a guillotine choke or front headlock when your head is elevated and your chin is accessible. This is especially dangerous from standing where they can lock a high-elbow guillotine during your entry.",
+        "correction": "Keep your head level with or below opponent's shoulder throughout the technique. Your forehead should track toward their shoulder blade as you circle behind them, making it structurally impossible for them to get under your chin."
+      },
+      {
+        "error": "Releasing both grips before securing waist control or back connection on the far side",
+        "consequence": "The momentary disconnection allows opponent to turn into you and re-establish defensive frames. Without continuous grip contact, they recover their structure and the positional advantage evaporates.",
+        "correction": "Maintain at least one point of contact at all times during the transition. Release the wrist grip only when your arm is already wrapping their waist. The tricep hand stays connected until seatbelt or shoulder control is established."
+      },
+      {
+        "error": "Pulling arm straight back toward your own body instead of across opponent's centerline in a circular path",
+        "consequence": "Minimal structural disruption because pulling toward yourself allows them to simply step forward or pull back along the same line. Their base and posture remain intact, and the technique becomes a strength contest you are unlikely to win.",
+        "correction": "Focus on the circular, across-the-body path. Visualize pulling their wrist toward their opposite hip pocket. The motion redirects their arm past their opposite shoulder, creating a rotational force they cannot resist with linear pulling."
+      },
+      {
+        "error": "Failing to secure the first hook within one to two seconds of completing the drag, leaving a gap before establishing back control",
+        "consequence": "Without the hook anchoring your position, the opponent retains enough hip mobility to turn into you and recover to a neutral or guard position. The window for uncontested back control is narrow and closes rapidly.",
+        "correction": "Drill the complete sequence from arm drag through first hook insertion as one continuous motion with no pause. The hook should be entering their thigh as your chest connects to their back, not as a separate follow-up step."
+      },
+      {
+        "error": "Attempting arm drags against an opponent with a heavily rooted base, squared hips, and retracted arms without any preliminary setup",
+        "consequence": "Low success rate and wasted energy. The arm drag requires the opponent's arm to be available, which does not occur when they are defensively compact with elbows tight and weight centered.",
+        "correction": "Create the opportunity before attempting the technique. Use snap downs, push-pull combinations, collar ties, or feints to disturb their posture and force them to extend or post an arm. The arm drag exploits their reaction to your setup, not their static defensive position."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2: Fundamental Mechanics",
+        "focus": "Grip establishment and basic pulling motion with proper path across centerline",
+        "description": "Practice establishing proper wrist-and-tricep grips on a static partner. Drill the arm drag motion slowly, focusing on the circular pull across centerline and stepping behind the shoulder line as one coordinated action. Partner offers no resistance. Emphasize proper hand placement, head position below shoulder, and body positioning throughout each repetition."
+      },
+      {
+        "phase": "Week 3-4: Dynamic Movement Integration",
+        "focus": "Coordinating hand and foot movement as a single integrated action",
+        "description": "Execute arm drags with light resistance from a partner who maintains structure but does not actively defend. Focus on timing the pull and step together as one motion rather than two sequential actions. Practice from standing, seated, and butterfly guard positions. Begin recognizing when opponent's arm is available versus retracted and protected."
+      },
+      {
+        "phase": "Week 5-8: Position-Specific Applications",
+        "focus": "Applying arm drags from standing, butterfly, and seated guard with moderate resistance",
+        "description": "Drill arm drags from butterfly guard, seated guard, and standing positions with moderate resistance. Partner begins defending with common counters including whizzer, posting, and arm retraction. Practice chaining the arm drag to back take, single leg entry, or front headlock based on which counter the partner uses. Begin building decision trees for each defensive response."
+      },
+      {
+        "phase": "Week 9-12: Counter Defense and Re-Attacks",
+        "focus": "Dealing with opponent's defensive reactions and developing chain attacks",
+        "description": "Spar with a partner who actively defends arm drags using all common counters. Develop responses to whizzers, posts, sprawls, and retractions. Learn to recognize when to abandon the arm drag and transition to alternative attacks. Practice flowing between multiple arm drag attempts and complementary techniques like snap downs and level changes."
+      },
+      {
+        "phase": "Week 13-20: Competition Integration",
+        "focus": "Using arm drags within full sparring and developing personal setups",
+        "description": "Incorporate arm drags into regular rolling sessions with tracking goals for successful back takes. Analyze video of your attempts to identify timing and setup improvements. Begin developing personal arm drag entries based on your preferred positions and the most common defensive reactions you encounter against training partners of varied body types."
+      },
+      {
+        "phase": "Ongoing: System Development",
+        "focus": "Building a complete offensive system with arm drag as the hub technique",
+        "description": "Develop chains of techniques where every guard position and standing engagement includes arm drag variations as primary attacking options. Create specific setups from your preferred positions. Study how the arm drag integrates with your other attacks to create dilemmas where defending one threat opens another. Refine timing through thousands of repetitions against varied resistance levels."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What are the two essential grips needed for a proper arm drag and why is each important?",
+        "answer": "The two essential grips are the wrist grip and tricep/upper arm grip. The wrist grip controls the endpoint of their arm and allows you to redirect it across their centerline along a circular path. The tricep grip prevents them from retracting their arm and provides leverage to enhance the pulling motion by acting as the fulcrum of a lever. Together, these grips control the entire arm structure as a single unit and prevent common defensive reactions like elbow retraction while maximizing the mechanical advantage of the across-the-body pull."
+      },
+      {
+        "question": "Why is it critical to move your feet simultaneously with the arm drag motion rather than pulling first and stepping second?",
+        "answer": "Moving your feet simultaneously ensures you capitalize on the brief window of structural disruption created by the arm drag. If you pull the arm first and then move your feet, the opponent has time to recover their base, turn into you, or re-establish defensive frames. The simultaneous movement compounds the positional advantage because the opponent cannot track two changes at once: their arm being redirected and your body appearing behind their shoulder line. This timing coordination is the single most common differentiator between successful and failed arm drag attempts."
+      },
+      {
+        "question": "What is the most dangerous counter to watch for when executing standing arm drags and how do you prevent it?",
+        "answer": "The guillotine choke is the most dangerous counter when executing standing arm drags. Opponents can secure it when your head rises above their shoulder level during the technique, exposing your chin to their arm. Prevention requires keeping your head level with or below their shoulder throughout the drag, positioning your forehead near their shoulder blade as you circle behind them. Your head should track behind their shoulder line at all times, making it structurally impossible for them to access your chin for the guillotine grip."
+      },
+      {
+        "question": "Your opponent successfully whizzers over your arm during an arm drag attempt and squares their hips - what do you do?",
+        "answer": "When the opponent establishes a whizzer, abandon the direct back take rather than fighting through it. The whizzer blocks the back take path but creates openings elsewhere because it commits one of their arms. Effective responses include converting to an inside trip using their whizzer as a control point, pulling guard while maintaining arm connection, ducking under to their opposite side, or attacking their posted far arm. The key principle is that the whizzer fixes one of their arms, so flow to attacks that exploit the arm they can no longer use for defense."
+      },
+      {
+        "question": "Describe the proper path and direction of the arm drag motion and why pulling straight back toward yourself is ineffective?",
+        "answer": "The proper arm drag path is circular and crosses the opponent's centerline, pulling their wrist toward their opposite hip pocket so their arm passes their opposite shoulder. This creates maximum structural disruption by redirecting their arm away from where it can provide support or defensive frames, generating a rotational force. Pulling straight back toward your own body is ineffective because the opponent can resist along the same linear axis by pulling back or stepping forward. The across-the-body circular motion creates a mechanical disadvantage they cannot resist with simple linear resistance while simultaneously opening the angle for your body to move behind their exposed shoulder line."
+      },
+      {
+        "question": "You are standing and your opponent has their arms tight to their body with elbows retracted and a wide, rooted base - how do you create the opening for an arm drag?",
+        "answer": "Against a defensively compact opponent, you must create the opening before attempting the arm drag because the technique requires their arm to be extended or posted. Use setup movements that force a reaction: snap their head down so they post their hands to recover posture, push into their chest so they frame or post to maintain balance, fake a level change so they reach to sprawl or defend, or use collar ties and push-pull rhythms to disrupt their compact defensive posture. The arm drag exploits their recovery reaction, not their static position, so your job is to create movement that forces them to extend an arm."
+      },
+      {
+        "question": "What is the correct head position throughout the arm drag execution and what happens if you deviate from it?",
+        "answer": "Your head should stay level with or below the opponent's shoulder throughout the entire arm drag sequence, tracking toward their shoulder blade as you circle behind them. If your head rises above their shoulder, you expose your chin to guillotine or front headlock counters, which are the highest-risk submissions during arm drag entry. If your head drops too low toward their hip, you lose upper body connection and give them space to sprawl or turn. The correct head position creates a post against their shoulder that simultaneously protects your neck and prevents them from turning to face you."
+      },
+      {
+        "question": "Your arm drag is successful and you have reached the opponent's back but have not yet inserted hooks - they begin turning toward you aggressively. What is your immediate response?",
+        "answer": "Your immediate response is to drive your chest pressure forward into their back while inserting the near-side hook as fast as possible. If they are turning toward the dragged-arm side, follow their rotation by circling in the same direction and working for the far hook simultaneously. If they are turning toward the undragged side, use your head post on their shoulder and your waist grip to resist the turn while jamming the near-side hook in. The critical principle is that chest-to-back connection must be maintained at all costs during this window. If you lose chest contact, they will complete the turn and face you. Maintaining pressure buys the one to two seconds needed to anchor the first hook."
+      },
+      {
+        "question": "How does the arm drag from butterfly guard differ mechanically from the standing arm drag in terms of force generation?",
+        "answer": "From butterfly guard, you generate force through your butterfly hooks lifting and off-balancing the opponent simultaneously with the arm pull, creating a compound disruption that attacks their base from two directions at once. The hooks elevate their weight forward while the arm drag redirects laterally, producing a spiral off-balancing effect that is more difficult to resist than the standing version. In the standing arm drag, force generation comes entirely from your arms and your footwork creating the angle. The butterfly version compensates for reduced footwork mobility with the powerful hip elevation of the hooks, making it particularly effective against opponents who drive forward into the guard."
+      },
+      {
+        "question": "What systematic approach should you use when arm drags are repeatedly failing against a particular training partner?",
+        "answer": "Diagnose which phase is breaking down by testing each component: grip establishment, pull timing, footwork coordination, or the transition to back control. The most common issue is attempting arm drags against a stable, compact opponent without creating the opening first. Solutions include adding setup movements before the drag such as snap downs, push-pull rhythms, or feints that force arm extension. Check whether you are telegraphing through predictable grip fighting patterns. Consider switching to variants that provide more control, such as the two-on-one arm drag or butterfly guard version. Ensure you are only attempting arm drags when the opponent is mobile, reaching, or recovering rather than when they are rooted and defensively set."
+      }
+    ],
+    "safety_considerations": "The arm drag is generally a safe technique with low injury risk when executed properly. Primary safety concerns involve preventing guillotine exposure by maintaining proper head position below opponent's shoulder line throughout execution. When drilling, start with slow, controlled repetitions to develop coordinated muscle memory before increasing speed and resistance. Partners should communicate clearly when practicing, especially during the transition to back control where hooks can accidentally strike the groin or inner thigh. In gi training, be mindful of finger injuries when establishing grips and avoid hooking individual fingers inside sleeves. During competition or intense training, avoid over-committing to failed arm drags as this can expose you to front headlock counters or leave you off-balance. When practicing the snap-down-to-arm-drag combination, be cautious with neck pressure during the snap down phase and ensure your partner is prepared for the directional change."
+  },
+  "defender": {
+    "name": "Arm Drag Defender",
+    "description": "How to defend against the Arm Drag in BJJ. Recognition cues, grip prevention, whizzer defense, and recovery strategies from the defender perspective.",
+    "overview": "Defending the arm drag requires understanding that the technique exploits a specific vulnerability: an extended or posted arm combined with the attacker's ability to circle behind your shoulder line. Your defensive methodology operates on three time-windows. In the prevention phase, you deny the grips entirely through active hand fighting and arm retraction. In the early defense phase, you counter the pull with a whizzer, hip square, or sprawl before the attacker reaches your back. In the late defense phase, you address the positional crisis by turning to face the attacker before they establish hooks and seatbelt control.\n\nThe most effective arm drag defense is prevention through proper posture and grip discipline. Keep your elbows close to your body, avoid reaching or posting with extended arms, and maintain awareness of the two-on-one grip threat on your wrist and tricep. When you feel the initial wrist grip, your immediate response should be to retract the arm sharply toward your own hip while squaring your hips toward the attacker. This eliminates the across-the-body pulling path they need and removes the angular advantage before it develops.\n\nWhen prevention fails and the attacker begins circling behind your shoulder line, your defensive priority shifts to hip orientation. The arm drag only works if the attacker reaches a position behind your back. By aggressively turning your hips to face them as they move, you convert their back take attempt into a neutral engagement or even a defensive scramble where you can counter-attack. The whizzer is your strongest tool in this phase: threading your arm over theirs and driving your hip into them stops their circular path and creates an anchor point from which you can re-square your position.",
+    "key_principles": [
+      "Maintain elbow discipline by keeping arms close to your body and avoiding extended or posted positions that give the attacker grip access to your wrist and tricep",
+      "React to the initial wrist grip immediately by retracting the arm sharply toward your own hip, eliminating the across-the-body pull path before the drag develops",
+      "Square your hips toward the attacker as soon as you feel lateral pulling force to deny them the angle behind your shoulder line",
+      "Use the whizzer as your primary recovery tool when the attacker begins circling, threading your overhook and driving your hip into their body to arrest their movement",
+      "Maintain head position and posture even while defending grips, because dropping your head or bending forward creates additional vulnerability to snap downs and front headlock transitions",
+      "Treat any successful arm drag as a back defense emergency and immediately prioritize turning to face the attacker before they establish hooks, not after"
+    ],
+    "recognition_cues": [
+      "Opponent grabs your wrist with a pistol grip and simultaneously reaches for your tricep or upper arm with their other hand, establishing the characteristic two-on-one control",
+      "You feel a strong lateral pulling force across your body rather than straight toward the opponent, indicating the circular arm drag path is being initiated",
+      "Opponent's body begins moving to your side rather than staying in front of you, with their outside foot stepping past your shoulder line at approximately 45 degrees",
+      "Your arm is being redirected past your own centerline toward your opposite shoulder, blocking your ability to post or frame on the dragged side",
+      "Opponent's head drops below your shoulder level as they enter behind you, indicating they are protecting against guillotine while committing to the back take"
+    ],
+    "defensive_options": [
+      {
+        "action": "Immediate arm retraction and hip square: yank your arm back toward your own hip while aggressively turning your hips to face the attacker",
+        "when_to_use": "At the earliest stage when you feel the initial wrist grip and lateral pulling force, before the attacker has moved their feet behind your shoulder line",
+        "targets_outcome": "Standing Position/Top",
+        "if_successful": "Returns to neutral standing position with both practitioners facing each other and no positional advantage for either side",
+        "risk": "If retraction is too slow, the attacker may follow your arm back and convert to a snap down or maintain connection for a re-drag attempt"
+      },
+      {
+        "action": "Whizzer defense: thread your dragged arm over the attacker's arm in an overhook and drive your hip into their body while squaring up",
+        "when_to_use": "When the attacker has begun circling behind your shoulder line but has not yet secured chest-to-back connection or inserted hooks",
+        "targets_outcome": "Standing Position/Top",
+        "if_successful": "Arrests the attacker's circular movement and creates a clinch position where you can re-square your hips and disengage or counter-attack",
+        "risk": "The whizzer commits one of your arms, potentially leaving you vulnerable to the attacker ducking under to the opposite side or converting to a different takedown"
+      },
+      {
+        "action": "Sprawl and circle away: drop your hips back explosively while circling away from the direction the attacker is moving to create distance and deny the back angle",
+        "when_to_use": "When the attacker has strong grip control and you cannot retract your arm, particularly effective when you feel them loading weight forward to circle behind you",
+        "targets_outcome": "Standing Position/Top",
+        "if_successful": "Creates distance that breaks the attacker's grip connection and resets the standing engagement to neutral with you facing the attacker",
+        "risk": "If the attacker maintains grips through the sprawl, you may end up bent forward at the waist in a vulnerable position for snap downs or front headlock entries"
+      },
+      {
+        "action": "Counter-turn and pummel to inside position: as the attacker circles, aggressively turn into them and establish an underhook on their near side to deny back access",
+        "when_to_use": "During the mid-phase of the arm drag when the attacker is beside you but has not yet reached full back position with chest contact",
+        "targets_outcome": "Standing Position/Top",
+        "if_successful": "Converts the arm drag exchange into a clinch battle where you have inside position with an underhook, denying back access entirely",
+        "risk": "Turning into the attacker at the wrong timing can accelerate their back take if they have already passed your shoulder line"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Standing Position/Top",
+        "how": "Retract your arm sharply at the first sign of the wrist grip, square your hips immediately toward the attacker, and re-establish your stance with active hand fighting to deny further grip access. Alternatively, use a whizzer to arrest their circular movement and pummel back to inside position for a neutral reset."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Reaching or posting with extended arms during standing engagements, giving the attacker easy access to wrist and tricep grips",
+        "consequence": "The attacker establishes the two-on-one control needed for the arm drag before you can react, eliminating your prevention window entirely and putting you immediately into early defense",
+        "correction": "Maintain elbow discipline by keeping arms bent with elbows close to your body. When engaging in grip fighting, use short controlled reaches and retract immediately. Avoid posting your hands on the opponent's shoulders or chest with straight arms."
+      },
+      {
+        "error": "Turning away from the attacker during the arm drag rather than turning toward them to face the threat",
+        "consequence": "Turning away accelerates the back take by giving the attacker a larger angle advantage and exposing more of your back. This is the opposite of the correct defensive response and often results in immediate back control.",
+        "correction": "Always turn toward the attacker when defending the arm drag. Your goal is to face them, not to run from them. Square your hips aggressively in their direction so they cannot access your back."
+      },
+      {
+        "error": "Attempting to strip the attacker's grips with your free hand instead of addressing the positional angle first",
+        "consequence": "While you focus on grip fighting with your free hand, the attacker continues circling behind you and the angular crisis worsens. Grips can be re-established instantly even if broken, but the lost angle cannot be recovered as easily.",
+        "correction": "Prioritize hip orientation and body positioning over grip stripping. Square your hips toward the attacker first, then address the grips from a position where you are facing them. A squared position makes their grips far less dangerous than any amount of grip stripping from a compromised angle."
+      },
+      {
+        "error": "Stiffening the dragged arm and trying to resist the pull with pure strength rather than using positional defense",
+        "consequence": "A rigid arm is actually easier to drag because the attacker can use your entire body's resistance as a lever. Stiffening exhausts your arm muscles rapidly and gives the attacker a predictable force vector to exploit.",
+        "correction": "Use your legs and hips for defense, not your arm. Let the arm come back toward your body by bending the elbow and squaring your hips rather than fighting the pull with straight-arm resistance. Positional defense through hip movement is far more effective than muscular resistance through the arm."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that an arm drag is being attempted and what should your immediate response be?",
+        "answer": "The earliest cue is feeling a two-on-one grip on your arm with one hand on your wrist and another on your tricep, combined with lateral pulling force across your body rather than straight toward the opponent. Your immediate response should be to retract the arm sharply by bending your elbow and pulling your hand toward your own hip, while simultaneously squaring your hips to face the attacker. This eliminates the across-the-body path they need for the drag and removes the angular advantage before it develops."
+      },
+      {
+        "question": "Why is turning toward the attacker the correct response rather than turning away or pulling straight back?",
+        "answer": "Turning toward the attacker is correct because the arm drag only works when the attacker reaches a position behind your back. By aggressively turning your hips to face them, you eliminate the angular advantage they are creating and convert their back take attempt into a neutral face-to-face engagement. Turning away accelerates the back take by giving them a larger angle and more back exposure. Pulling straight back does not address the angular problem at all and allows them to continue circling because the direction of their movement is lateral, not linear toward you."
+      },
+      {
+        "question": "When is the whizzer defense most effective against the arm drag, and what are its limitations?",
+        "answer": "The whizzer is most effective during the mid-phase of the arm drag when the attacker has begun circling past your shoulder line but has not yet established chest-to-back connection or inserted hooks. The overhook creates an anchor that arrests their circular movement and allows you to drive your hip into them to re-square the position. Its primary limitation is that it commits one of your arms, leaving you potentially vulnerable to the attacker ducking under to the opposite side, converting to a different takedown, or using the whizzer as a control point for inside trips. The whizzer is a delay-and-recover tool, not a permanent solution."
+      },
+      {
+        "question": "Your opponent has completed the arm drag and reached your back but has not yet inserted hooks - what is your defensive priority sequence?",
+        "answer": "Your immediate priority is to turn and face the attacker before they insert hooks, not to strip their grips. Begin by aggressively turning your hips toward them while keeping your elbows tight to your body to deny easy hook entry. Use your near-side arm to frame against their hip or thigh to create separation space. The critical window is the one to two seconds between them reaching your back and establishing the first hook. Once you are facing them, the back take is neutralized regardless of their grip position. If you cannot complete the turn, drop to a defensive turtle posture and begin standard back defense protocols."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2: Recognition and Prevention Drills",
+        "focus": "Identifying arm drag setups and maintaining elbow discipline with proper posture",
+        "description": "Partner attempts slow-speed arm drags while you practice identifying the grip sequence and reacting with immediate arm retraction and hip squaring. Focus on recognizing the wrist-and-tricep grip pattern and the lateral pulling direction. No resistance from either side. Build the habit of keeping elbows close and retracting at the first sign of wrist control."
+      },
+      {
+        "phase": "Week 3-5: Active Defense with Moderate Resistance",
+        "focus": "Whizzer defense, sprawl recovery, and counter-turning mechanics against live arm drag attempts",
+        "description": "Partner executes arm drags at increasing speed and force while you practice the full defensive toolkit: arm retraction, whizzer, sprawl, and counter-turn. Partner provides enough commitment to require real defensive effort but allows defensive success when technique is correct. Alternate between all four defensive options to build situational awareness for which defense fits each timing window."
+      },
+      {
+        "phase": "Week 6-10: Positional Sparring from Arm Drag Scenarios",
+        "focus": "Defending arm drags in live sparring with specific starting positions and goals",
+        "description": "Begin positional rounds where the partner starts with initial grips for an arm drag and you must prevent the back take. Start from standing clinch, seated guard vs standing, and butterfly guard scenarios. Track success rate of preventing back control. Graduate to open sparring rounds where you focus specifically on arm drag defense awareness and reaction time."
+      },
+      {
+        "phase": "Week 11+: Integration and Counter-Attacking",
+        "focus": "Converting arm drag defense into counter-offensive opportunities during full sparring",
+        "description": "During regular sparring, practice not just defending the arm drag but converting the defense into your own attacks. After whizzering, immediately look for inside trips or snapdowns. After sprawling, transition to front headlock entries. After counter-turning, pummel to underhooks and initiate your own offense. The goal is to make the arm drag a liability for the attacker rather than a neutral exchange."
+      }
+    ]
+  },
+  "conditions": [
+    "Opponent's arm is extended, posted, or otherwise available for wrist and tricep grip establishment",
+    "Attacker has sufficient mobility to circle behind the opponent's shoulder line through footwork",
+    "A clear path exists for the across-the-body pull without obstructing limbs or environmental barriers",
+    "Attacker's head can be positioned at or below shoulder level to prevent guillotine exposure"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Seated Guard Arm Drag",
+      "description": "Executed from seated guard position with feet on opponent's hips or knees. Pull their arm across while scooting your hips behind them to secure back control from bottom position. The hip scoot replaces the standing footwork as the mechanism for reaching the opponent's back.",
+      "when_to_use": "When playing open guard variations or when opponent is standing in your guard. Particularly effective in no-gi where grip fighting is constant and seated guard is a primary engagement position."
+    },
+    {
+      "variant_name": "Butterfly Guard Arm Drag",
+      "description": "Use butterfly hooks for elevation while executing the arm drag. The lifting motion with hooks combines with the arm pull to create a compound off-balancing effect that attacks the opponent's base from two directions simultaneously before taking the back.",
+      "when_to_use": "From butterfly guard when opponent drives forward with pressure. The hooks provide additional mechanical advantage through hip elevation and prevent them from sprawling away from the drag."
+    },
+    {
+      "variant_name": "Standing Arm Drag to Single Leg",
+      "description": "Begin the arm drag from standing but transition to a single leg takedown instead of pursuing back control. Use the arm drag to create the angular access for single leg entry on the near leg as the opponent's weight shifts from the drag.",
+      "when_to_use": "In wrestling-heavy contexts or competition when opponent's back defense is strong. Provides an alternative finish when the back take is unavailable due to whizzer defense or aggressive hip squaring."
+    },
+    {
+      "variant_name": "Two-on-One Arm Drag",
+      "description": "Establish two-on-one control with both hands on opponent's single arm before executing the drag. Provides superior pulling force and control but requires more setup time. The dominant grip ensures the opponent cannot retract their arm during the drag.",
+      "when_to_use": "Against larger or stronger opponents where standard wrist-and-tricep grips are insufficient to control the arm. Also effective in gi grappling where sleeve and wrist grips together provide excellent purchase."
+    },
+    {
+      "variant_name": "Snap Down to Arm Drag Combination",
+      "description": "Begin with a forward snap down to break opponent's posture, then immediately transition to the arm drag when they post their hands to recover. Uses their defensive posting reaction as the timing trigger and arm extension needed for the arm drag entry.",
+      "when_to_use": "Against upright opponents with strong posture and retracted elbows who deny direct arm drag access. The snap down forces them to extend their arms to recover balance, creating the opening the arm drag requires."
+    }
+  ],
+  "position_integration": "The arm drag serves as a fundamental connector between numerous positions in the BJJ state machine, functioning as both an entry and transition technique across the entire system. From standing positions, it creates pathways to back control, single leg takedowns, or front headlock scenarios depending on the opponent's defensive reaction. From bottom positions including seated guard, butterfly guard, and closed guard, it provides the primary mechanism for reversing position and securing back mount by creating the angular access that all back takes require. The technique integrates seamlessly with guard retention systems, serving as a counter to guard passing attempts where you can arm drag the passing arm and recover position or take the back. In the overall BJJ hierarchy, the arm drag represents a critical skill for any guard player or wrestling-based style because it provides the angle creation necessary for most back takes and many sweeps. Mastery of the arm drag enables entire systematic approaches to competition, particularly in no-gi grappling where grip fighting and back takes dominate modern competitive meta-games. The technique chains bidirectionally: it sets up snap downs and front headlocks as alternatives when the back is defended, and snap downs and collar ties set up arm drags when the opponent posts to recover posture."
 }

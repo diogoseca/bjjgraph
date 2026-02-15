@@ -1,0 +1,151 @@
+{
+  "name": "Americana from Kesa Gatame",
+  "description": "TODO: Write 150-160 character SEO description for Americana from Kesa Gatame.",
+  "tags": [
+    "bjj",
+    "submission",
+    "TODO"
+  ],
+  "submission_category": "Joint Lock",
+  "submission_type": "Arm Lock",
+  "target_area": "Shoulder and elbow joint",
+  "starting_position": "Kesa Gatame",
+  "from_position": "Kesa Gatame/Top",
+  "from_positions": ["Kesa Gatame", "Kuzure Kesa-Gatame", "Side Control"],
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Kesa Gatame/Top",
+      "probability": 45,
+      "result": "failure"
+    }
+  ],
+  "success_rate": 50,
+  "overview": "TODO: Write overview for Americana from Kesa Gatame.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "TODO",
+        "severity": "Medium",
+        "recovery_time": "TODO"
+      }
+    ],
+    "application_speed": "SLOW and progressive. Never spike or jerk the submission.",
+    "tap_signals": [
+      "Verbal tap (saying 'tap' or any distress signal)",
+      "Physical hand tap on partner or mat",
+      "Physical foot tap with free leg",
+      "Any unusual screaming or distress vocalization"
+    ],
+    "release_protocol": [
+      "Release immediately upon any tap signal",
+      "If in doubt, release - position can be re-established"
+    ],
+    "training_restrictions": [
+      "TODO"
+    ]
+  },
+  "related_content": [
+    {
+      "name": "TODO",
+      "relationship": "TODO"
+    }
+  ],
+  "attacker": {
+    "name": "Americana from Kesa Gatame Attacker",
+    "description": "TODO: Write attacker description for Americana from Kesa Gatame.",
+    "overview": "TODO: Write attacker overview for Americana from Kesa Gatame.",
+    "key_principles": [
+      "TODO"
+    ],
+    "setup_requirements": [
+      "TODO"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "TODO",
+        "description": "TODO"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "TODO",
+        "effectiveness": "Medium",
+        "your_response": "TODO",
+        "targets_outcome": "Kesa Gatame/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "TODO",
+        "description": "TODO"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "TODO",
+        "answer": "TODO"
+      }
+    ],
+    "safety_considerations": "TODO: Write safety considerations for Americana from Kesa Gatame."
+  },
+  "defender": {
+    "name": "Americana from Kesa Gatame Defender",
+    "description": "TODO: Write defender description for Americana from Kesa Gatame.",
+    "overview": "TODO: Write defender overview for Americana from Kesa Gatame.",
+    "key_principles": [
+      "TODO"
+    ],
+    "recognition_cues": [
+      "TODO"
+    ],
+    "defensive_options": [
+      {
+        "action": "TODO",
+        "when_to_use": "TODO",
+        "targets_outcome": "Kesa Gatame/Top",
+        "if_successful": "TODO",
+        "risk": "TODO"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Kesa Gatame/Top",
+        "how": "TODO"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "TODO",
+        "answer": "TODO"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "TODO",
+        "description": "TODO"
+      }
+    ]
+  }
+}

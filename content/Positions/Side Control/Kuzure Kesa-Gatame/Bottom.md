@@ -20,8 +20,8 @@ description: "Defensive guide for escaping modified scarf hold. Learn arm recove
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Elbow Escape",
-      "text": "From this position, attempt Elbow Escape. This technique is attempted in 21% of exchanges from this position.",
+      "name": "Execute Elbow Escape to Guard",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 21% of exchanges from this position.",
       "position": 1
     },
     {
@@ -38,14 +38,14 @@ description: "Defensive guide for escaping modified scarf hold. Learn arm recove
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll",
-      "text": "From this position, attempt Granby Roll. This technique is attempted in 19% of exchanges from this position.",
+      "name": "Execute Granby Roll to Guard",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 19% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Standup",
-      "text": "From this position, attempt Technical Standup. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Technical Stand-up",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
@@ -208,15 +208,15 @@ The position also demands exceptional conditioning and mental resilience. The co
 
 ## Available Escapes
 
-### [[Elbow Escape]] (21% of attempts)
+### [[Elbow Escape to Guard]] (21% of attempts)
 
 ### [[Arm Recovery to Guard]] (18% of attempts)
 
 ### [[Bridge and Roll]] (14% of attempts)
 
-### [[Granby Roll]] (19% of attempts)
+### [[Granby Roll to Guard]] (19% of attempts)
 
-### [[Technical Standup]] (12% of attempts)
+### [[Technical Stand-up]] (12% of attempts)
 
 ### [[Re-Guard from Headquarters]] (16% of attempts)
 
@@ -229,8 +229,8 @@ The position also demands exceptional conditioning and mental resilience. The co
 ## Decision Making from This Position
 
 **If opponent maintains constant hip pressure and low chest position preventing arm recovery:**
-- Execute **[[Granby Roll]]** → [[Turtle]] (Probability: 45%)
-- Execute **[[Elbow Escape]]** → [[Half Guard]] (Probability: 35%)
+- Execute **[[Granby Roll to Guard]]** → [[Turtle]] (Probability: 45%)
+- Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 35%)
 
 
 **Else if opponent shifts weight forward to attack trapped arm for submission:**
@@ -240,7 +240,7 @@ The position also demands exceptional conditioning and mental resilience. The co
 
 **Else if opponent's base leg extends too far creating space on far side:**
 - Execute **[[Re-Guard from Headquarters]]** → [[Open Guard]] (Probability: 50%)
-- Execute **[[Technical Standup]]** → [[Standing Position]] (Probability: 30%)
+- Execute **[[Technical Stand-up]]** → [[Standing Position]] (Probability: 30%)
 
 
 
@@ -345,7 +345,7 @@ Start with partner at 50% resistance, increase by 10% each successful escape unt
 **A**: Force controlled diaphragmatic breathing despite the pressure - your belly should expand, not your chest. Breathe in during moments of slightly reduced pressure (when opponent adjusts or attacks) and exhale slowly during peak pressure. Panic breathing with rapid shallow breaths accelerates fatigue and clouds tactical thinking. Accept the discomfort and maintain slow, controlled breathing patterns.
 
 **Q7**: When should you attempt to recover your trapped arm versus accepting its position and working other escapes?
-**A**: Prioritize arm recovery when your opponent shifts weight forward for submissions or makes adjustments - these moments reduce armpit pressure on your shoulder. If they maintain constant heavy pressure on your arm, attempting recovery wastes energy and may create submission openings. In high-pressure scenarios, work escapes like the Granby roll that don't require arm recovery first, then recover the arm once you've changed the positional dynamic.
+**A**: Prioritize arm recovery when your opponent shifts weight forward for submissions or makes adjustments - these moments reduce armpit pressure on your shoulder. If they maintain constant heavy pressure on your arm, attempting recovery wastes energy and may create submission openings. In high-pressure scenarios, work escapes like the Granby Roll that don't require arm recovery first, then recover the arm once you've changed the positional dynamic.
 
 **Q8**: Your escape attempt fails and your opponent recaptures heavy control - what should your immediate response be?
 **A**: Return immediately to defensive breathing and structural arm positioning. Do not chain another explosive attempt right away - this burns energy against peak pressure. Reset your frames, recover mentally, and wait for the next timing window (their adjustment, submission attempt, or fatigue-induced pressure reduction). Failed escapes are expected; the key is not compounding the energy loss with additional poorly-timed attempts.
@@ -375,8 +375,8 @@ Start with partner at 50% resistance, increase by 10% each successful escape unt
 ## Related Positions and Techniques
 
 - **[[Side Control]]** - Parent position family with shared escape principles
-- **[[Elbow Escape]]** - Primary escape technique from this position
-- **[[Granby Roll]]** - Advanced escape option when standard escapes are denied
+- **[[Elbow Escape to Guard]]** - Primary escape technique from this position
+- **[[Granby Roll to Guard]]** - Advanced escape option when standard escapes are denied
 - **[[Bridge and Roll]]** - Reversal technique targeting opponent's base vulnerabilities
 - **[[Half Guard]]** - Common transitional position during escape sequences
 - **[[Turtle]]** - Alternative escape destination when guard recovery is blocked

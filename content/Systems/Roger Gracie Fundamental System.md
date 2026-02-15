@@ -337,7 +337,7 @@ Roger's methodology emphasizes quality over quantity, drilling fundamental techn
 - [[Scarf Hold Position]] (Position) - Traditional control position emphasizing fundamental pinning mechanics and pressure
 - [[Knee on Belly]] (Position) - Transitional position in Roger's system - used briefly during advancement to more dominant positions
 - [[North-South]] (Position) - Control position reached during certain passing sequences and mount escape defenses
-- [[Guard Pass]] (Transition) - Core transition in system - methodical guard passing is prerequisite to all subsequent techniques
+- [[Pass to Side Control]] (Transition) - Core transition in system - methodical guard passing is prerequisite to all subsequent techniques
 - [[Side Control to Mount]] (Transition) - Critical transition following classical positional hierarchy - must be executed with perfect control
 - [[Cross Collar Choke]] (Submission) - Roger's signature finish - basic technique executed with world-class precision
 - [[Armbar from Mount]] (Submission) - Secondary submission option from mount when collar grips cannot be established

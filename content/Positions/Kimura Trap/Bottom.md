@@ -21,7 +21,7 @@ description: "Master Kimura Trap Bottom in BJJ. Defensive control position with 
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 31% of exchanges from this position.",
       "position": 1
     },
     {
@@ -32,26 +32,26 @@ description: "Master Kimura Trap Bottom in BJJ. Defensive control position with 
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura from Half Guard",
-      "text": "From this position, attempt Kimura from Half Guard. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Kimura Sweep",
+      "text": "From this position, attempt Kimura Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Kimura",
-      "text": "From this position, attempt Rolling Kimura. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Rolling Kimura. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Half Guard Sweeps",
-      "text": "From this position, attempt Half Guard Sweeps. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Half Guard to Back Take",
+      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,21 +210,27 @@ Strategically, the position forces top players into impossible choices—they mu
 
 ## Available Escapes
 
-### [[Old School Sweep]] (15% of attempts)
+### [[Old School Sweep]] (31% of attempts)
 
 ### [[Kimura to Back Take]] (14% of attempts)
 
-### [[Kimura from Half Guard]] (12% of attempts)
+### [[Kimura Sweep]] (10% of attempts)
 
-### [[Rolling Kimura]] (11% of attempts)
+### [[Rolling Kimura]] (10% of attempts)
 
-### [[Underhook Sweep from Half]] (13% of attempts)
+### [[Underhook Sweep from Half]] (6% of attempts)
 
-### [[Half Guard Sweeps]] (13% of attempts)
+### [[Half Guard to Back Take]] (6% of attempts)
 
-### [[Closed Guard to Omoplata]] (10% of attempts)
+### [[Lockdown Recovery]] (6% of attempts)
 
-### [[Lockdown Sweeps]] (12% of attempts)
+### [[Electric Chair Transition]] (6% of attempts)
+
+### [[Half Guard Pass]] (6% of attempts)
+
+### [[Kimura Counter via Roll]] (3% of attempts)
+
+### [[Kimura Defense Arm Extraction]] (2% of attempts)
 
 
 
@@ -241,7 +247,7 @@ Strategically, the position forces top players into impossible choices—they mu
 
 **If opponent turns into Kimura grip to alleviate shoulder pressure or defend submission:**
 - Execute **[[Kimura to Back Take]]** → [[Back Control]] (Probability: 75%)
-- Execute **[[Turtle to Truck]]** → [[Truck]] (Probability: 60%)
+- Execute **[[Half Guard to Back Take]]** → [[Back Control]] (Probability: 60%)
 
 
 **If opponent drives forward aggressively to flatten hips and neutralize Kimura system:**
@@ -250,7 +256,7 @@ Strategically, the position forces top players into impossible choices—they mu
 
 
 **If opponent pulls arm back and attempts to extract from Kimura grip:**
-- Execute **[[Kimura from Half Guard]]** → [[Armbar Control]] (Probability: 80%)
+- Execute **[[Kimura Sweep]]** → [[Armbar Control]] (Probability: 80%)
 - Execute **[[Closed Guard to Omoplata]]** → [[Omoplata Control]] (Probability: 50%)
 
 

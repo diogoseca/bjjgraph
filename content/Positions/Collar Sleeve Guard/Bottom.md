@@ -21,37 +21,37 @@ description: "Control opponent with cross-collar and sleeve grips. Learn sweep m
     {
       "@type": "HowToStep",
       "name": "Execute Pendulum Sweep",
-      "text": "From this position, attempt Pendulum Sweep. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Pendulum Sweep. This technique is attempted in 9% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Flower Sweep",
-      "text": "From this position, attempt Flower Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Flower Sweep. This technique is attempted in 6% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 49% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 6% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Bump Sweep",
-      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Scissor Sweep",
+      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Scissor Sweep",
-      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Arm Drag to Back",
+      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 4% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -218,25 +218,33 @@ Transitioning out of collar sleeve guard bottom occurs through successful sweeps
 
 ## Available Escapes
 
-### [[Pendulum Sweep]] (11% of attempts)
+### [[Pendulum Sweep]] (9% of attempts)
 
-### [[Flower Sweep]] (10% of attempts)
+### [[Flower Sweep]] (6% of attempts)
 
-### [[Triangle Setup]] (9% of attempts)
+### [[Triangle Setup]] (49% of attempts)
 
-### [[Omoplata Sweep]] (9% of attempts)
+### [[Omoplata Sweep]] (6% of attempts)
 
-### [[Hip Bump Sweep]] (10% of attempts)
+### [[Scissor Sweep]] (7% of attempts)
 
-### [[Scissor Sweep]] (12% of attempts)
+### [[Arm Drag to Back]] (4% of attempts)
 
-### [[Arm Drag to Back]] (9% of attempts)
+### [[Standing up in Base]] (1% of attempts)
 
-### [[Technical Stand Up]] (9% of attempts)
+### [[Lapel to Lasso Transition]] (4% of attempts)
 
-### [[Lasso Guard Variations]] (10% of attempts)
+### [[Lapel to Spider Transition]] (3% of attempts)
 
-### [[Spider Guard Variations]] (11% of attempts)
+### [[Collar Drag]] (5% of attempts)
+
+### [[Hip Bump Sweep]] (5% of attempts)
+
+### [[Collar Sleeve Sweep]] (0% of attempts)
+
+### [[Collar Sleeve to De La Riva]] (0% of attempts)
+
+### [[Collar Sleeve to Spider Guard]] (1% of attempts)
 
 
 
@@ -262,12 +270,12 @@ Transitioning out of collar sleeve guard bottom occurs through successful sweeps
 
 
 **If opponent attempts to circle around to pass toward sleeve-grip side:**
-- Execute **[[Spider Guard Variations]]** → [[Spider Guard]] (Probability: 60%)
-- Execute **[[Lasso Guard Variations]]** → [[Lasso Guard]] (Probability: 55%)
+- Execute **[[Lapel to Spider Transition]]** → [[Spider Guard]] (Probability: 60%)
+- Execute **[[Lapel to Lasso Transition]]** → [[Lasso Guard]] (Probability: 55%)
 
 
 **If opponent stands up completely to initiate standing guard pass:**
-- Execute **[[Technical Stand Up]]** → [[Standing Position]] (Probability: 50%)
+- Execute **[[Standing up in Base]]** → [[Clinch]] (Probability: 50%)
 - Execute **[[Arm Drag to Back]]** → [[Back Control]] (Probability: 45%)
 
 

@@ -270,5 +270,33 @@
       "question": "How do you manage energy expenditure from headquarters during a long match or multiple consecutive guard passing attempts?",
       "answer": "Headquarters is designed as a low-energy control position because the structure does the work rather than muscular effort. Maintain position through skeletal alignment and gravity-based pressure rather than gripping strength or pushing force. Between passing attempts, return to a neutral headquarters stance and allow your grips to reset rather than maintaining death grips continuously. Use the opponent's reactions to dictate your passing choices rather than forcing techniques against resistance, which conserves energy while exhausting the bottom player who must continuously create defensive structures."
     }
-  ]
+  ],
+  "top": {
+    "transitions": [
+      {
+        "transition": "Knee Cut from Headquarters",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Leg Drag from Headquarters",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Toreando from Headquarters",
+        "attempt_probability": 0
+      }
+    ]
+  },
+  "bottom": {
+    "transitions": [
+      {
+        "transition": "Inversion from Headquarters",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Shin-to-Shin from Headquarters",
+        "attempt_probability": 0
+      }
+    ]
+  }
 }

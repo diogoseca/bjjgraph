@@ -1,190 +1,35 @@
 {
   "name": "Body Lock Pass",
-  "description": "Master the Body Lock Pass in BJJ. Step-by-step execution from Half Guard to Side Control with systematic pressure. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
+  "description": "Master the Body Lock Pass in BJJ. Step-by-step pressure passing from Half Guard Top to Side Control with systematic connection and leg clearing mechanics.",
   "tags": [
     "bjj",
     "guard passing",
     "half guard",
     "pressure passing",
     "body lock",
-    "side control"
+    "side control",
+    "no-gi"
   ],
-  "overview": "The Body Lock Pass is a fundamental pressure passing technique that uses upper body control to bypass the half guard. This high-percentage pass relies on establishing a tight body lock (also called a bear hug or body triangle with the arms) to nullify the bottom player's frames and mobility. The technique is particularly effective in no-gi grappling where grips on clothing are unavailable, though it remains highly effective in gi training as well.\n\nThe pass works by creating a connection that removes the bottom player's ability to create space or maintain defensive structure. Once the body lock is secured, the passer uses systematic pressure and hip movement to flatten the opponent, clear the trapped leg, and establish side control. The beauty of this technique lies in its simplicity and reliability - it requires less finesse than many other passes and instead relies on proper positioning, pressure application, and methodical execution.\n\nThis pass is especially valuable against opponents with strong half guard retention, as the body lock neutralizes many common defensive reactions. It's a staple in modern no-gi competition and forms a cornerstone of systematic pressure passing approaches used by elite competitors.",
-  "key_principles": [
-    "Establish tight upper body connection before attempting to pass",
-    "Use chest-to-chest pressure to eliminate opponent's frames",
-    "Control opponent's head and shoulders to prevent re-guard",
-    "Apply systematic hip pressure to flatten bottom player",
-    "Clear trapped leg methodically without rushing",
-    "Maintain connection throughout entire passing sequence",
-    "Transition weight distribution as you progress through positions"
-  ],
-  "setup_requirements": [
-    "Opponent in half guard bottom with one of your legs trapped",
-    "Ability to establish upper body control (over-under or double unders)",
-    "Hip mobility to create pressure angles",
-    "Upper body strength sufficient to maintain tight connection",
-    "Understanding of weight distribution and pressure application",
-    "Ability to post and create base when needed"
-  ],
-  "execution_steps": [
+  "from_position": "Half Guard/Top",
+  "outcomes": [
     {
-      "step_number": 1,
-      "action": "Establish upper body control",
-      "description": "From top half guard, secure a body lock by threading one arm under the opponent's near armpit and the other over their far shoulder, clasping your hands together behind their back. Your chest should be tight to theirs with no space between your bodies."
+      "to": "Side Control/Top",
+      "probability": 68,
+      "result": "success"
     },
     {
-      "step_number": 2,
-      "action": "Create head control",
-      "description": "Drive your head to the mat on the opposite side of where your leg is trapped, positioning your forehead or temple against the mat. This prevents the opponent from turning into you and creates a heavy crossface pressure on their jaw and neck."
+      "to": "Half Guard/Top",
+      "probability": 17,
+      "result": "failure"
     },
     {
-      "step_number": 3,
-      "action": "Flatten the opponent",
-      "description": "Using your chest-to-chest connection and head pressure, drive your weight forward and down, forcing the opponent's back flat to the mat. Simultaneously sprawl your hips back slightly to create downward pressure through your torso while maintaining the tight body lock."
-    },
-    {
-      "step_number": 4,
-      "action": "Clear the trapped knee",
-      "description": "With the opponent flattened, begin walking your hips toward the trapped leg side. Use small, controlled steps to methodically move your knee line past the opponent's knee shield or lockdown. Keep constant pressure throughout - don't give space."
-    },
-    {
-      "step_number": 5,
-      "action": "Extract the trapped leg",
-      "description": "Once your knee is past the opponent's knee line, use a combination of hip pressure and leg movement to free your trapped foot. You may need to adjust your angle slightly or use a small hop to clear the leg completely. Maintain upper body connection throughout."
-    },
-    {
-      "step_number": 6,
-      "action": "Establish side control",
-      "description": "As your leg clears, immediately transition your body weight to consolidate side control. Release the body lock and establish proper side control positioning with cross-face, near-side underhook, and chest pressure. Secure your position before pursuing further attacks."
+      "to": "Half Guard/Bottom",
+      "probability": 15,
+      "result": "counter"
     }
   ],
-  "common_counters": [
-    {
-      "counter": "Opponent frames against your hips to prevent being flattened",
-      "effectiveness": "Medium",
-      "your_response": "Anticipate the frame by securing the body lock extra tight and using your head pressure more aggressively. Walk your hips in small increments to bypass the frames rather than trying to drive through them directly."
-    },
-    {
-      "counter": "Opponent locks down your trapped leg with lockdown position",
-      "effectiveness": "High",
-      "your_response": "Don't try to rip your leg free immediately. Instead, focus on flattening the opponent first, which reduces their ability to control your leg. Once flat, methodically work to break the lockdown by controlling their far knee and creating separation."
-    },
-    {
-      "counter": "Opponent turns into you to prevent being flattened",
-      "effectiveness": "Medium",
-      "your_response": "Use your head position to prevent the turn. If they succeed in turning, adjust your pass to address the new angle - you may transition to a different passing approach or re-establish your body lock from the modified position."
-    },
-    {
-      "counter": "Opponent uses whizzer on your underhook arm",
-      "effectiveness": "Low",
-      "your_response": "The whizzer is generally ineffective against a tight body lock. Maintain your connection and continue applying pressure. If needed, adjust your body lock configuration but don't abandon the connection."
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Maintaining too much space between your chest and opponent's chest when establishing body lock",
-      "consequence": "Opponent can create frames and prevent being flattened, nullifying the entire passing sequence",
-      "correction": "Focus on eliminating all space when initially securing the body lock. Your chest should be glued to theirs before attempting to flatten them."
-    },
-    {
-      "error": "Trying to pass the leg before fully flattening the opponent",
-      "consequence": "Opponent retains mobility and can re-establish frames, recover guard, or transition to other defensive positions",
-      "correction": "Be patient and ensure the opponent is completely flat before attempting to clear the trapped leg. Flattening is the prerequisite for successful leg clearing."
-    },
-    {
-      "error": "Raising your hips too high when attempting to clear the leg",
-      "consequence": "Creates space underneath for opponent to re-guard or escape, and reduces your pressure advantage",
-      "correction": "Keep your hips relatively low throughout the pass. Use small, controlled hip movements rather than large motions that create gaps."
-    },
-    {
-      "error": "Abandoning head control to look at the trapped leg",
-      "consequence": "Opponent can turn into you, create frames, or escape the position entirely",
-      "correction": "Maintain head position and pressure throughout. Feel for the leg clearing rather than looking - your head position is more important than visual confirmation."
-    },
-    {
-      "error": "Releasing the body lock too early during the transition to side control",
-      "consequence": "Opponent can create immediate space and potentially recover guard before you consolidate position",
-      "correction": "Only release the body lock once your trapped leg is completely free and you're ready to immediately establish proper side control grips and pressure."
-    }
-  ],
-  "training_progressions": [
-    {
-      "phase": "Week 1-2: Connection Mastery",
-      "focus": "Establishing and maintaining tight body lock connection",
-      "description": "Practice securing the body lock from various half guard positions with no resistance. Focus on eliminating all space and maintaining connection while moving. Partner should be compliant, allowing you to develop feel for proper tightness and positioning."
-    },
-    {
-      "phase": "Week 3-4: Pressure Application",
-      "focus": "Learning to flatten opponent with systematic pressure",
-      "description": "Partner provides light resistance by maintaining frames but not actively preventing being flattened. Practice using head control and chest pressure to methodically flatten the bottom player. Develop understanding of weight distribution and pressure angles."
-    },
-    {
-      "phase": "Week 5-8: Leg Clearing Mechanics",
-      "focus": "Methodical clearing of trapped leg while maintaining pressure",
-      "description": "Partner maintains moderate resistance through knee shield and attempts to prevent leg clearing. Practice the hip walking progression and timing of leg extraction. Learn to maintain connection throughout clearing sequence."
-    },
-    {
-      "phase": "Week 9-12: Counter Defense",
-      "focus": "Dealing with common defensive reactions and counters",
-      "description": "Partner actively uses frames, lockdown, whizzer, and attempts to turn into you. Practice recognizing and countering each defensive response. Develop ability to maintain dominant position despite opponent's best defensive efforts."
-    },
-    {
-      "phase": "Month 4-6: Competition Integration",
-      "focus": "Executing technique against full resistance in live rolling",
-      "description": "Implement the body lock pass during positional sparring and live rolling. Partner uses full resistance and all defensive techniques. Focus on recognizing optimal timing for the pass and chaining it with other passing approaches."
-    },
-    {
-      "phase": "Ongoing Refinement",
-      "focus": "Advanced details, pressure refinement, and situational adaptation",
-      "description": "Continuously refine pressure application, timing, and transitions. Develop ability to adjust technique based on opponent size, flexibility, and defensive style. Practice flowing between body lock pass and complementary passing systems."
-    }
-  ],
-  "variants_and_adaptations": [
-    {
-      "variant_name": "Double Unders Body Lock Pass",
-      "description": "Instead of traditional over-under body lock, both arms go under the opponent's armpits, hands clasped behind their back. This variation provides even tighter control and prevents them from using whizzer defense.",
-      "when_to_use": "Against opponents who consistently defend with whizzer against traditional body lock, or when you have exceptional upper body strength to maintain the connection"
-    },
-    {
-      "variant_name": "Body Lock to Leg Drag Transition",
-      "description": "When opponent successfully prevents the traditional pass by keeping their knee shield strong, transition from the body lock into a leg drag position by using your body lock to lift and redirect their legs to one side.",
-      "when_to_use": "When encountering strong knee shield retention that prevents traditional clearing, or against flexible opponents who can maintain frames despite pressure"
-    },
-    {
-      "variant_name": "Gi Body Lock with Lapel Control",
-      "description": "In gi, supplement the body lock by controlling opponent's lapel with one hand while maintaining connection with the other arm. This provides additional control and prevents certain escapes while maintaining core passing mechanics.",
-      "when_to_use": "In gi competition where lapel grips provide additional control options, particularly against opponents who are skilled at creating space in no-gi contexts"
-    }
-  ],
-  "knowledge_assessment": [
-    {
-      "question": "What is the most critical element to establish before attempting to flatten the opponent in the body lock pass?",
-      "answer": "The most critical element is establishing a completely tight body lock with zero space between your chest and the opponent's chest. Without this tight connection, the opponent can create frames and prevent being flattened, which is the foundation for the entire passing sequence. The connection must be so tight that the opponent cannot get their hands or arms between your bodies."
-    },
-    {
-      "question": "Why is head position so important in the body lock pass, and where should your head be positioned?",
-      "answer": "Head position is crucial because it creates crossface pressure that prevents the opponent from turning into you and disrupts their ability to create effective frames. Your head should be driven to the mat on the opposite side of your trapped leg, with your forehead or temple on the mat. This creates downward pressure on their jaw and neck while also serving as a stable base point for applying chest pressure."
-    },
-    {
-      "question": "What is the correct sequence of actions in the body lock pass, and why must this order be followed?",
-      "answer": "The correct sequence is: (1) establish tight body lock, (2) create head control, (3) flatten the opponent, (4) clear the trapped knee, (5) extract the trapped leg, (6) establish side control. This order must be followed because each step creates the conditions necessary for the next. Most importantly, the opponent must be fully flattened before attempting to clear the leg - trying to pass the leg while they retain mobility will fail against competent opponents."
-    },
-    {
-      "question": "How should you respond when your opponent locks down your trapped leg, and why is trying to immediately rip it free a mistake?",
-      "answer": "When your opponent locks down your trapped leg, you should first focus on flattening them completely rather than immediately trying to free your leg. This is because a flattened opponent has significantly reduced ability to maintain the lockdown effectively. Trying to rip your leg free immediately typically fails and wastes energy, while also potentially creating space for the opponent to recover their position. Once they're flat, you can methodically work to break the lockdown by controlling their far knee and creating separation."
-    },
-    {
-      "question": "What is the most common error that causes the body lock pass to fail, and how does it create vulnerability?",
-      "answer": "The most common error is maintaining too much space between your chest and the opponent's chest when establishing the body lock. This creates two critical vulnerabilities: first, it allows the opponent to create frames against your body, preventing you from flattening them; second, it gives them the mobility necessary to turn into you, recover their guard structure, or execute sweeps. The body lock must be so tight that there is literally zero space between your bodies - this is non-negotiable for the technique to work against skilled opponents."
-    },
-    {
-      "question": "How does the body lock pass exemplify the principle of systematic pressure passing, and what makes it particularly effective in no-gi contexts?",
-      "answer": "The body lock pass exemplifies systematic pressure passing through its methodical progression from connection to control to completion, with each phase removing more of the opponent's defensive options. It's particularly effective in no-gi because it creates control without relying on gi grips - the body lock itself becomes the control mechanism. In no-gi, where opponents have more mobility and fewer grip points, the body lock provides a reliable connection that can't be easily broken. The pass also minimizes the athleticism gap by relying more on proper positioning and pressure application than on speed or explosiveness."
-    }
-  ],
-  "safety_considerations": "The body lock pass is generally a safe technique for both practitioners when executed properly. The passer should be mindful of applying chest pressure gradually rather than explosively to avoid causing rib injuries or breathing difficulties in their partner. When flattening the opponent, avoid driving your head into their jaw with excessive force, as this can cause TMJ issues or neck strain. For the bottom player, tap early if you experience any breathing difficulty or neck pain. When practicing with training partners of significantly different sizes, the larger practitioner should modulate their pressure to match their partner's size and experience level. During drilling phases, communicate clearly about pressure levels to ensure both partners can train safely and effectively.",
-  "position_integration": "The body lock pass is a cornerstone technique in modern pressure passing systems and integrates seamlessly with multiple guard passing approaches. It's particularly valuable as part of a systematic half guard passing game, where it can be combined with underhook passes, knee slice variations, and leg drag options. The technique serves as an excellent foundation for developing pressure passing skills because it teaches fundamental concepts of connection, pressure application, and systematic progression that apply across all passing scenarios. Within the broader BJJ positional hierarchy, mastering the body lock pass provides a reliable method for advancing from the half guard battleground to the dominant side control position. It's especially important in no-gi contexts where it often serves as a primary passing option when gi-specific grips are unavailable. The pass also integrates well with back attack systems - if the opponent turns away to defend the pass, the passer can transition to taking the back.",
+  "success_rate": 68,
+  "overview": "The Body Lock Pass is a fundamental pressure passing technique that uses upper body control to bypass the half guard. This high-percentage pass relies on establishing a tight body lock to nullify the bottom player's frames and mobility. The technique is particularly effective in no-gi grappling where grips on clothing are unavailable, though it remains highly effective in gi training as well. The core mechanic is a clasped-hands connection behind the opponent's back that creates an unbreakable link between your torso and theirs, removing their ability to generate the space necessary for any defensive action.\n\nThe pass works by creating a connection that removes the bottom player's ability to create space or maintain defensive structure. Once the body lock is secured, the passer uses systematic pressure and hip movement to flatten the opponent, clear the trapped leg, and establish side control. The technique lies in its simplicity and reliability - it requires less finesse than many other passes and instead relies on proper positioning, pressure application, and methodical execution. Each phase of the pass removes more of the defender's options, creating a cascading loss of defensive capability.\n\nThis pass is especially valuable against opponents with strong half guard retention, as the body lock neutralizes many common defensive reactions including knee shield, lockdown, and underhook battles. It forms a cornerstone of systematic pressure passing approaches and chains seamlessly with knee slice, leg drag, and back take options when the primary path is defended.",
   "related_content": [
     {
       "name": "Half Guard",
@@ -192,62 +37,383 @@
     },
     {
       "name": "Side Control",
-      "relationship": "Ending position and primary goal"
+      "relationship": "Primary target position upon successful completion"
     },
     {
       "name": "Knee Shield Half Guard",
-      "relationship": "Common variation of starting position"
+      "relationship": "Common defensive variation that must be addressed before establishing body lock"
     },
     {
       "name": "Lockdown",
-      "relationship": "Primary defensive counter to address"
-    },
-    {
-      "name": "Underhook Pass",
-      "relationship": "Complementary passing technique from similar positions"
+      "relationship": "Primary defensive counter that traps the passer's leg"
     },
     {
       "name": "Knee Slice Pass",
-      "relationship": "Alternative passing option to chain with"
+      "relationship": "Complementary passing technique to chain with when body lock is defended"
     },
     {
       "name": "Leg Drag Pass",
-      "relationship": "Follow-up technique when body lock pass is defended"
+      "relationship": "Follow-up technique when opponent maintains strong knee shield"
     },
     {
       "name": "Double Under Pass",
-      "relationship": "Related passing technique using similar control concepts"
+      "relationship": "Related passing technique using similar body lock control concepts"
     },
     {
-      "name": "Pressure Passing",
-      "relationship": "Core principle underlying this technique"
+      "name": "Back Take from Top",
+      "relationship": "Transition option when opponent turns away to defend the pass"
     },
     {
-      "name": "Guard Passing",
-      "relationship": "Theoretical framework governing execution"
+      "name": "Flattened Half Guard",
+      "relationship": "Intermediate state created by successful pressure application"
     },
     {
-      "name": "Bernardo Faria Pressure System",
-      "relationship": "Strategic system incorporating this pass"
+      "name": "Body Lock",
+      "relationship": "Control position that defines the grip configuration for this pass"
     }
   ],
-  "from_position": "Half Guard/Bottom",
-  "outcomes": [
+  "conditions": [
+    "Top player has one leg trapped in opponent's half guard",
+    "Top player can achieve chest-to-chest connection with opponent",
+    "Opponent's knee shield has been cleared or can be bypassed through pressure",
+    "Top player has sufficient base to resist sweep attempts during lock establishment"
+  ],
+  "attacker": {
+    "name": "Body Lock Pass Attacker",
+    "description": "How to execute Body Lock Pass in BJJ. Attacking perspective with setup, execution steps, pressure mechanics, and counter responses.",
+    "overview": "The Body Lock Pass from top half guard is a systematic pressure passing technique built on the principle that tight upper body connection eliminates the bottom player's ability to create defensive frames. The passer secures a clasped-hands body lock behind the opponent's back, drives head pressure to create a crossface effect, then methodically flattens the opponent before clearing the trapped leg. This pass rewards patience and proper sequencing over athleticism, making it accessible to practitioners of all body types.\n\nThe technique's effectiveness stems from removing the bottom player's primary defensive tools in sequence: the body lock prevents framing, head pressure prevents turning, flattening prevents hip movement, and systematic leg clearing completes the pass. Each phase creates the conditions necessary for the next, and rushing any step exposes the passer to sweeps and guard recoveries. Against skilled half guard players who chain multiple defensive reactions, the body lock's constant connection means every failed defense leaves them in a progressively worse position.",
+    "key_principles": [
+      "Establish completely tight chest-to-chest connection before attempting any passing action",
+      "Use head-to-mat pressure on the far side to create crossface effect and prevent opponent from turning",
+      "Flatten the opponent systematically before attempting to clear the trapped leg",
+      "Walk hips in small controlled increments rather than making large explosive movements",
+      "Maintain the body lock connection until the trapped leg is fully cleared and side control grips are ready",
+      "Apply pressure through skeletal alignment rather than muscular exertion for energy efficiency"
+    ],
+    "setup_requirements": [
+      "Opponent in half guard bottom with one of your legs trapped between their legs",
+      "Ability to close distance and eliminate space between your chest and opponent's torso",
+      "Head positioning available on the far side of your trapped leg",
+      "Sufficient base with free leg to resist sweep attempts during body lock establishment",
+      "Opponent's knee shield cleared or low enough to allow chest contact"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish upper body control",
+        "description": "From top half guard, secure a body lock by threading one arm under the opponent's near armpit and the other over their far shoulder, clasping your hands together behind their back. Your chest should be tight to theirs with no space between your bodies. Use a gable grip or S-grip for maximum holding strength."
+      },
+      {
+        "step_number": 2,
+        "action": "Create head control",
+        "description": "Drive your head to the mat on the opposite side of where your leg is trapped, positioning your forehead or temple against the mat. This prevents the opponent from turning into you and creates a heavy crossface pressure on their jaw and neck. Your head acts as a third contact point that pins them in place."
+      },
+      {
+        "step_number": 3,
+        "action": "Flatten the opponent",
+        "description": "Using your chest-to-chest connection and head pressure, drive your weight forward and down, forcing the opponent's back flat to the mat. Simultaneously sprawl your hips back slightly to create downward pressure through your torso while maintaining the tight body lock. The opponent should feel as though they cannot breathe comfortably."
+      },
+      {
+        "step_number": 4,
+        "action": "Initiate hip walk toward trapped leg",
+        "description": "With the opponent flattened, begin walking your hips toward the trapped leg side using small, controlled steps. Each step should advance your knee line incrementally past the opponent's guard structure. Keep constant chest pressure throughout this phase - the hip walk must not create any space between your bodies."
+      },
+      {
+        "step_number": 5,
+        "action": "Clear the trapped knee past opponent's guard",
+        "description": "Continue the hip walk until your knee line has passed the opponent's knee shield or lockdown position. Use your free leg to post and create angles that help drive your trapped knee through. The critical detail is maintaining heavy top pressure while your lower body works to clear - do not lift your hips to create space."
+      },
+      {
+        "step_number": 6,
+        "action": "Extract the trapped foot",
+        "description": "Once your knee is past the opponent's knee line, use a combination of hip pressure and a small backstep or hop motion to free your trapped foot completely. You may need to angle your foot to slide it past the opponent's ankles. Maintain upper body connection throughout this extraction."
+      },
+      {
+        "step_number": 7,
+        "action": "Transition to side control",
+        "description": "As your leg clears, immediately release the body lock and establish proper side control grips: crossface with the far arm, near-side underhook controlling the hip. Drop your weight perpendicular to the opponent's torso and secure your position with heavy chest pressure before pursuing any attacks."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent frames against your hips and shoulders to prevent being flattened",
+        "effectiveness": "Medium",
+        "your_response": "Secure the body lock extra tight before they can establish frames. If frames are already in place, use your head pressure aggressively and walk your hips in small increments to bypass the frames rather than driving through them directly. The tight body lock should collapse most frames.",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Opponent locks down your trapped leg with lockdown position",
+        "effectiveness": "High",
+        "your_response": "Do not try to rip your leg free. Focus on flattening the opponent first, which reduces their ability to maintain the lockdown. Once flat, control their far knee with one hand while keeping the body lock, and methodically work to break the figure-four on your leg. Patience is essential.",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Opponent turns into you and fights for the underhook to prevent flattening",
+        "effectiveness": "Medium",
+        "your_response": "Use your head position to block the turn. If they get to their side, squeeze the body lock tighter and use your head as a wedge to walk them back flat. If they successfully turn far enough, consider transitioning to a back take rather than forcing the original passing angle.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent uses whizzer (overhook) on your underhook arm",
+        "effectiveness": "Low",
+        "your_response": "The whizzer is largely ineffective against a properly clasped body lock because both your arms are connected behind their back. Maintain your grip configuration and continue applying pressure. The whizzer actually helps you flatten them because it pulls your weight onto their chest.",
+        "targets_outcome": "Half Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Maintaining too much space between your chest and opponent's chest when establishing body lock",
+        "consequence": "Opponent can insert frames between your bodies, preventing flattening and nullifying the entire passing sequence",
+        "correction": "Eliminate all space when initially securing the body lock. Your chest should be glued to theirs before any other action. If you cannot achieve chest contact, address the knee shield first."
+      },
+      {
+        "error": "Trying to pass the leg before fully flattening the opponent",
+        "consequence": "Opponent retains hip mobility and can re-establish frames, recover guard, or initiate sweeps",
+        "correction": "Be patient and ensure the opponent is completely flat on their back before attempting to clear the trapped leg. Flattening is the prerequisite for successful leg clearing."
+      },
+      {
+        "error": "Raising hips too high when attempting to clear the trapped leg",
+        "consequence": "Creates space underneath for opponent to re-guard, insert butterfly hooks, or initiate deep half entries",
+        "correction": "Keep your hips as low as possible throughout the pass. Use small controlled hip-walking steps rather than large motions that create gaps under your torso."
+      },
+      {
+        "error": "Abandoning head control to look at the trapped leg during clearing",
+        "consequence": "Opponent can turn into you, create frames, or escape the position entirely once crossface pressure is removed",
+        "correction": "Maintain head position and pressure throughout. Feel for the leg clearing rather than looking. Your head position is more important than visual confirmation of leg progress."
+      },
+      {
+        "error": "Releasing the body lock too early during the transition to side control",
+        "consequence": "Opponent creates immediate space and potentially recovers half guard or full guard before you consolidate",
+        "correction": "Only release the body lock once your trapped leg is completely free and you are ready to immediately establish crossface and underhook side control grips."
+      },
+      {
+        "error": "Using explosive movements instead of methodical pressure progression",
+        "consequence": "Explosive movements create momentary space that skilled opponents exploit, and they waste significant energy",
+        "correction": "Rely on constant incremental pressure. Each small adjustment should make the opponent's position slightly worse. The pass works through accumulation, not explosion."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2: Connection Mastery",
+        "focus": "Establishing and maintaining tight body lock connection",
+        "description": "Practice securing the body lock from various half guard top positions with no resistance. Focus on eliminating all space, proper hand clasp configuration, and maintaining connection while shifting weight. Partner remains compliant to develop proprioceptive feel for correct tightness."
+      },
+      {
+        "phase": "Week 3-4: Pressure Application",
+        "focus": "Learning to flatten opponent with systematic pressure",
+        "description": "Partner provides light resistance by maintaining frames but not actively countering. Practice using head control and chest pressure to methodically flatten the bottom player. Develop understanding of weight distribution angles and how sprawling the hips creates downward force."
+      },
+      {
+        "phase": "Week 5-8: Leg Clearing Mechanics",
+        "focus": "Methodical clearing of trapped leg while maintaining pressure",
+        "description": "Partner maintains moderate resistance through knee shield and attempts to prevent leg clearing. Practice the hip walking progression and timing of leg extraction. Learn to maintain connection throughout the clearing sequence without lifting hips or breaking chest contact."
+      },
+      {
+        "phase": "Week 9-12: Counter Defense Integration",
+        "focus": "Dealing with common defensive reactions and counters",
+        "description": "Partner actively uses frames, lockdown, whizzer, underhook battles, and turning attempts. Practice recognizing each defensive response and applying the correct counter. Develop ability to maintain dominant position despite opponent's best defensive efforts."
+      },
+      {
+        "phase": "Month 4-6: Live Application",
+        "focus": "Executing technique against full resistance in positional sparring",
+        "description": "Implement the body lock pass during positional sparring starting from half guard top. Partner uses full resistance and all defensive techniques. Focus on recognizing optimal timing for establishing the body lock and completing the pass under realistic conditions."
+      },
+      {
+        "phase": "Ongoing: Passing Chain Development",
+        "focus": "Chaining body lock pass with complementary techniques",
+        "description": "Practice flowing between body lock pass, knee slice pass, leg drag, and back take based on opponent's defensive reactions. Develop the ability to read which defense the opponent commits to and redirect to the highest-percentage passing option."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the most critical element to establish before attempting to flatten the opponent in the body lock pass?",
+        "answer": "A completely tight body lock with zero space between your chest and the opponent's chest. Without this connection, the opponent can insert frames between your bodies and prevent flattening, which is the foundation for the entire passing sequence. The connection must be so tight that they cannot get their hands or elbows between your torsos."
+      },
+      {
+        "question": "Your opponent establishes a strong knee shield before you can secure the body lock - how do you address this?",
+        "answer": "You must address the knee shield before attempting the body lock, because chest-to-chest contact is impossible with a knee between you. Use crossface pressure and hip-to-hip connection to walk past the knee shield first, or smash the knee shield flat by driving your weight into it and pinching your elbow inside their knee. Only once the knee shield is cleared or bypassed should you commit to clasping the body lock."
+      },
+      {
+        "question": "Why must the opponent be fully flattened before you attempt to clear the trapped leg?",
+        "answer": "A flattened opponent has dramatically reduced hip mobility, making it much harder for them to maintain knee shield, lockdown, or butterfly hook retention on your trapped leg. If you try to clear the leg while they still have angle and hip movement, they can re-guard, insert hooks, transition to deep half, or initiate sweeps. Flattening removes these options and makes the leg clearing phase significantly higher percentage."
+      },
+      {
+        "question": "Where should your head be positioned during the body lock pass, and what happens if you move it to look at your trapped leg?",
+        "answer": "Your head should be driven to the mat on the opposite side from your trapped leg, with your forehead or temple on the mat creating crossface pressure. If you lift your head to look at your trapped leg, you remove the crossface effect, allowing the opponent to turn into you, create frames, or initiate an underhook battle. The pass should be executed by feel, not by sight. Your head position is non-negotiable."
+      },
+      {
+        "question": "What grip configuration should you use for the body lock, and why?",
+        "answer": "A gable grip (palm-to-palm) or S-grip (fingers interlocked) clasped behind the opponent's back provides the strongest connection. The gable grip is preferred because it distributes force across the entire hand rather than loading the fingers. Avoid butterfly grip (four fingers over four fingers) as it fatigues quickly under pressure. The grip must be behind their back, not around their waist, to maximize chest-to-chest contact."
+      },
+      {
+        "question": "Your opponent locks down your trapped leg during the pass attempt - what is the correct response sequence?",
+        "answer": "First, stop trying to extract your leg and commit to flattening the opponent with maximum chest pressure and head control. A flattened opponent generates significantly less force through the lockdown. Once they are flat, control their far knee with one hand to prevent them from re-engaging the lockdown, then methodically work your trapped leg free through small hip adjustments. Attempting to rip the leg free before flattening wastes energy and creates space they can exploit."
+      },
+      {
+        "question": "How does the hip walk work in the leg clearing phase, and what is the most common mistake practitioners make during it?",
+        "answer": "The hip walk involves small incremental steps where you shift your hips toward the trapped leg side, advancing your knee line past the opponent's guard structure one centimeter at a time. The most common mistake is making large hip movements that lift the torso and create space underneath. Each step should be tiny and controlled, maintaining constant downward pressure throughout. Think of it as inching rather than stepping."
+      },
+      {
+        "question": "When should you release the body lock and transition to side control grips?",
+        "answer": "Release the body lock only after your trapped leg is completely free and you can immediately establish side control grips in the same motion. Releasing too early creates a window where the opponent has no leg entanglement and no upper body control holding them down, which is the easiest moment to re-guard. The transition should feel like swapping one control system for another with no gap in between."
+      },
+      {
+        "question": "Your opponent successfully turns to their side and fights for an underhook during your body lock pass - what are your options?",
+        "answer": "You have two primary options depending on how far they turn. If they are only partially turned, squeeze the body lock tighter and use your head as a wedge to walk them back flat, driving your forehead into the mat to force their shoulder down. If they have turned significantly and established an underhook, abandon the body lock pass and transition to taking the back, as their turning motion exposes their back. Fighting to force them flat from a deep turn wastes energy and is low percentage."
+      },
+      {
+        "question": "What makes the body lock pass particularly effective in no-gi compared to other passing approaches?",
+        "answer": "In no-gi, the body lock creates control through body-on-body connection rather than grip-dependent control that can be stripped. Without gi grips, the bottom player has fewer options to create distance or manage the passer's posture, making the tight body lock exceptionally difficult to escape. The pass also minimizes the speed and athleticism advantages that no-gi scrambles typically favor, instead converting the exchange into a methodical pressure sequence where technique and weight placement determine the outcome."
+      }
+    ],
+    "safety_considerations": "The body lock pass is generally safe for both practitioners when executed with awareness. The passer should apply chest pressure gradually rather than explosively to avoid causing rib injuries or breathing difficulties in their partner. When flattening the opponent, avoid driving your head into their jaw with excessive force, as this can cause TMJ issues or cervical strain. For the bottom player, tap early if you experience any breathing difficulty, rib pain, or neck discomfort from the crossface pressure. When training partners have significant size differences, the larger practitioner must modulate pressure appropriately. During drilling, communicate clearly about pressure levels and establish tap protocols before beginning."
+  },
+  "defender": {
+    "name": "Body Lock Pass Defender",
+    "description": "How to defend against Body Lock Pass in BJJ. Recognition cues, frame creation, guard retention, and escape strategies from bottom half guard.",
+    "overview": "Defending the body lock pass from bottom half guard requires early recognition and proactive frame management before the passer can establish a tight connection. The body lock pass is designed to systematically remove your defensive tools in sequence - first your frames, then your ability to turn, then your hip mobility - so your defensive strategy must disrupt this sequence at the earliest possible stage. Once the body lock is fully secured and you are flattened, escape becomes extremely difficult, making prevention and early intervention far more effective than late-stage escape attempts.\n\nThe defensive framework prioritizes three objectives in order: prevent the body lock from being established, prevent being flattened if the lock is secured, and recover guard through hip movement if flattened. Each defensive phase has distinct techniques and timing windows. Understanding what the passer needs at each stage allows you to deny those specific requirements and force them to abandon the pass or chain to a different technique where your defenses may be stronger.",
+    "key_principles": [
+      "Prevent chest-to-chest contact through proactive knee shield and forearm frames before the body lock is established",
+      "Never allow your back to be driven flat to the mat - maintain side angle through constant hip movement and underhook fighting",
+      "Address the body lock grip early by fighting hands and preventing the clasp before it tightens",
+      "Create offensive threats through sweeps and back take entries that punish the passer for committing to the body lock",
+      "Use the lockdown as a temporary control tool to stall the pass, but transition to a more offensive position before the passer can break it",
+      "Maintain elbow-to-knee connection as your primary defensive structure to prevent the passer from collapsing your guard"
+    ],
+    "recognition_cues": [
+      "Opponent abandons crossface or underhook fighting and instead reaches both arms around your torso, attempting to clasp hands behind your back",
+      "Opponent drives their chest directly into yours with heavy forward pressure, eliminating the space between your bodies",
+      "Opponent's head drops to the mat on the far side of their trapped leg, creating crossface pressure through head position rather than arm",
+      "Opponent begins small hip-walking steps toward the trapped leg side while maintaining heavy chest pressure, indicating the leg clearing phase has begun"
+    ],
+    "defensive_options": [
+      {
+        "action": "Establish and maintain knee shield before body lock is secured",
+        "when_to_use": "As soon as you recognize the opponent is seeking chest-to-chest contact rather than fighting for crossface or underhook",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "Opponent cannot establish tight body lock due to your shin between your bodies, forcing them to address the knee shield first and giving you time to set up sweeps",
+        "risk": "If opponent smashes through the knee shield with heavy pressure, you may end up flat without the body lock defense in place"
+      },
+      {
+        "action": "Fight the grip clasp by controlling one of the passer's wrists before they can connect hands behind your back",
+        "when_to_use": "During the initial body lock establishment when the passer is threading their arms around your torso",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "Without the clasped grip, the passer cannot generate the tight connection needed for the pass, and you can work to re-establish frames and recover your guard structure",
+        "risk": "Extending your arm to fight grips exposes it to potential kimura or americana attacks if you overcommit"
+      },
+      {
+        "action": "Turn into the passer aggressively and fight for the underhook to prevent being flattened",
+        "when_to_use": "When the body lock is secured but before the passer has fully flattened you - you still have hip angle and can turn",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Maintaining side angle with an underhook prevents flattening and opens pathways to underhook sweeps, back takes, or guard recovery",
+        "risk": "The passer may use your turning momentum to take your back if you turn too far without securing the underhook"
+      },
+      {
+        "action": "Apply lockdown on the trapped leg to prevent hip walking and leg clearing",
+        "when_to_use": "When you have been flattened and the passer begins the hip-walking phase to clear their trapped leg",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "Lockdown stalls the pass by preventing the passer from clearing their leg, buying time to work back to your side and re-establish frames",
+        "risk": "A patient passer will flatten you further and methodically break the lockdown through far knee control, and the lockdown alone does not improve your position"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Half Guard/Top",
+        "how": "Prevent the body lock from being established through proactive knee shield and frame management, then use the passer's forward commitment to initiate sweeps such as underhook sweep, old school sweep, or butterfly hook elevation"
+      },
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "If flattened, use hip escape sequences and frame creation to recover to your side with knee shield re-inserted, returning to a neutral half guard position where you retain offensive options"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing the body lock to be fully established without any preventive framing",
+        "consequence": "Once the body lock is clasped with chest-to-chest contact, defensive options decrease dramatically and the passer can methodically flatten and pass",
+        "correction": "Be proactive with knee shield and forearm frames the moment you sense the opponent abandoning crossface in favor of reaching around your torso. Prevention is far easier than escape."
+      },
+      {
+        "error": "Lying flat on your back and accepting the flattened position",
+        "consequence": "Flat back eliminates all hip mobility, making guard recovery nearly impossible and allowing the passer to clear your leg at will",
+        "correction": "Fight constantly to maintain your side angle through hip escape movements and underhook battles. Even small angles give you dramatically more defensive capability than being completely flat."
+      },
+      {
+        "error": "Pushing against the passer's chest or head with extended arms",
+        "consequence": "Extended arms are vulnerable to isolation for kimura or americana attacks, and pushing creates space that the passer can use to re-establish the body lock tighter",
+        "correction": "Keep elbows tight to your body. Frame against the passer's hips and shoulder with forearms, not extended arms. Your frames should create structure, not push distance."
+      },
+      {
+        "error": "Relying solely on lockdown without working to recover position",
+        "consequence": "Lockdown stalls the pass temporarily but does not improve your position. A patient passer will systematically break it while you remain flat and exhausted",
+        "correction": "Use the lockdown as a temporary tool to buy time, then immediately work to get back to your side, recover frames, and transition to a more offensive half guard variation."
+      },
+      {
+        "error": "Attempting explosive bridge escapes against a settled body lock",
+        "consequence": "The tight body lock absorbs bridging force, wasting your energy without creating meaningful space, and potentially creating worse angles for the passer",
+        "correction": "Use systematic hip escape sequences rather than explosive bridges. Small incremental movements that create angles are more effective than large movements that the connected passer simply rides."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest and most effective point to defend the body lock pass?",
+        "answer": "The earliest and most effective defense occurs before the body lock is established, by maintaining a proactive knee shield or forearm frame that prevents chest-to-chest contact. Once the body lock is clasped with tight connection, your defensive options decrease dramatically. Prevention through framing is far more energy-efficient and higher percentage than escaping a fully established body lock pass."
+      },
+      {
+        "question": "Why is being flattened onto your back so damaging to your defensive position against the body lock pass?",
+        "answer": "Being flat on your back eliminates hip mobility, which is the foundation of all guard retention and escape mechanics. Without the ability to create angles through hip movement, you cannot re-insert knee shield, initiate hip escapes, or generate the leverage needed for sweeps. The flat position also maximizes the passer's pressure advantage because their weight drives straight through your torso into the mat with no angular displacement."
+      },
+      {
+        "question": "Your opponent has established the body lock and is beginning to flatten you - what defensive action has the highest priority?",
+        "answer": "The highest priority is fighting to maintain or recover your side angle through aggressive underhook battles and hip movement. Turn into the passer and fight for the underhook on the trapped leg side. Even maintaining a partial angle dramatically increases your defensive options compared to being completely flat. If you cannot get the underhook, at minimum keep your near-side elbow connected to your knee to maintain some frame structure."
+      },
+      {
+        "question": "When should you apply the lockdown against the body lock pass, and what must you do immediately after applying it?",
+        "answer": "Apply the lockdown when you have been flattened and the passer begins hip-walking to clear their trapped leg. However, the lockdown is only a temporary stalling measure. Immediately after applying it, you must work to get back to your side by using the lockdown's control to create an angle, then fight for frames and underhook position. Staying flat with only a lockdown is a losing strategy against a patient passer."
+      },
+      {
+        "question": "What defensive framing structure prevents the body lock from being established effectively?",
+        "answer": "A knee shield with your shin positioned diagonally across the passer's torso prevents chest-to-chest contact entirely. Supplement this with a forearm frame against their far shoulder to control distance. This two-layer frame structure means the passer must address both the knee shield and your arm frame before they can close the distance needed for the body lock. Keep your elbows tight to your body to avoid arm isolation attacks."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2: Recognition and Prevention",
+        "focus": "Identifying body lock pass attempts and establishing preventive frames",
+        "description": "Partner attempts to establish body lock from half guard top at slow speed. Practice recognizing the transition from crossface/underhook fighting to body lock seeking, and immediately respond with knee shield insertion and forearm frames. Develop automatic framing responses to chest-to-chest pressure."
+      },
+      {
+        "phase": "Week 3-4: Anti-Flattening Drills",
+        "focus": "Maintaining side angle and underhook position against increasing pressure",
+        "description": "Partner establishes body lock and attempts to flatten you with progressive resistance. Practice fighting to maintain your side angle through underhook battles, hip movement, and frame creation. Develop the feel for when you are being flattened and the urgency to counter immediately."
+      },
+      {
+        "phase": "Week 5-8: Late-Stage Escape Sequences",
+        "focus": "Recovering position after being flattened with body lock secured",
+        "description": "Start from the worst case: flat on back with body lock secured. Practice lockdown application, hip escape sequences, and systematic guard recovery under moderate resistance. Build the defensive habits needed to survive and eventually escape even when prevention fails."
+      },
+      {
+        "phase": "Month 3-4: Integrated Defense with Counter-Offense",
+        "focus": "Combining body lock pass defense with sweep and back take entries",
+        "description": "Against full resistance body lock pass attempts, practice integrating defensive responses with offensive transitions. When you prevent the body lock, immediately chain into underhook sweeps or back takes. Develop the mindset that successful defense must transition into offense."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
     {
-      "to": "Side Control/Top",
-      "probability": 75,
-      "result": "success"
+      "variant_name": "Double Unders Body Lock Pass",
+      "description": "Both arms thread under the opponent's armpits with hands clasped behind their back. This variation provides tighter control and completely prevents whizzer defense since both arms are below the opponent's shoulder line.",
+      "when_to_use": "Against opponents who consistently defend with whizzer against traditional over-under body lock, or when you need maximum upper body compression to deal with a flexible opponent"
     },
     {
-      "to": "Half Guard/Bottom",
-      "probability": 15,
-      "result": "failure"
+      "variant_name": "Body Lock to Leg Drag Transition",
+      "description": "When the opponent maintains strong knee shield that prevents traditional leg clearing, use the body lock connection to lift and redirect their legs to one side, transitioning into a leg drag passing position while maintaining upper body control.",
+      "when_to_use": "When encountering persistent knee shield retention that prevents the standard hip-walking leg clear, or against opponents whose leg dexterity makes direct clearing unreliable"
     },
     {
-      "to": "Half Guard/Top",
-      "probability": 10,
-      "result": "counter"
+      "variant_name": "Gi Body Lock with Lapel Control",
+      "description": "In gi training, supplement the body lock by feeding the opponent's lapel through to your locking hand behind their back. The lapel wraps around their torso and creates additional friction and control that prevents space creation during the pass.",
+      "when_to_use": "In gi competition where lapel grips provide additional control, particularly against opponents who are skilled at creating micro-spaces through fabric manipulation"
     }
   ],
-  "success_rate": 68
+  "position_integration": "The body lock pass is a cornerstone technique in modern pressure passing systems that integrates with multiple guard passing approaches from half guard top. It chains naturally with knee slice pass (when the opponent's reaction to the body lock creates an opening for the knee), leg drag (when knee shield prevents standard clearing), and back take (when the opponent turns away). The technique teaches fundamental pressure passing concepts - connection, weight distribution, sequential option removal - that transfer directly to every other top position. Within the BJJ positional hierarchy, mastering the body lock pass provides a reliable, low-risk method for advancing from the half guard battleground to dominant side control, making it an essential component of any complete guard passing system."
 }

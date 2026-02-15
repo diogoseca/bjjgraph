@@ -21,37 +21,37 @@ description: "Master Shin-to-Shin Guard from bottom perspective. Learn shin conn
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Entry",
-      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 24% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard Sweep",
-      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 8% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Sweep",
-      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Outside Ashi Entry",
-      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute De La Riva Sweep",
-      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand Up to Single Leg",
-      "text": "From this position, attempt Technical Stand Up to Single Leg. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand Up to Single Leg. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -207,25 +207,29 @@ Shin-to-Shin Guard from the bottom perspective represents one of the most versat
 
 ## Available Escapes
 
-### [[Single Leg X Entry]] (11% of attempts)
+### [[Single Leg X Entry]] (24% of attempts)
 
-### [[X-Guard Sweep]] (10% of attempts)
+### [[X-Guard Sweep]] (8% of attempts)
 
-### [[Butterfly Sweep]] (11% of attempts)
+### [[Butterfly Sweep]] (9% of attempts)
 
-### [[Outside Ashi Entry]] (10% of attempts)
+### [[Outside Ashi Entry]] (8% of attempts)
 
-### [[De La Riva Sweep]] (10% of attempts)
+### [[De La Riva Sweep]] (8% of attempts)
 
-### [[Technical Stand Up to Single Leg]] (10% of attempts)
+### [[Technical Stand Up to Single Leg]] (8% of attempts)
 
-### [[Omoplata Sweep]] (8% of attempts)
+### [[Omoplata Sweep]] (6% of attempts)
 
-### [[Shin to Shin Pull]] (10% of attempts)
+### [[Shin to Shin Pull]] (8% of attempts)
 
-### [[Hook Sweep]] (10% of attempts)
+### [[Hook Sweep]] (8% of attempts)
 
-### [[Tripod Sweep]] (10% of attempts)
+### [[Tripod Sweep]] (8% of attempts)
+
+### [[Shin-to-Shin Sweep]] (3% of attempts)
+
+### [[Shin-to-Shin to Single Leg X]] (2% of attempts)
 
 
 

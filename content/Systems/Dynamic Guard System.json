@@ -271,11 +271,6 @@
       "relationship": "Essential skill for controlling engagement and creating opportunities"
     },
     {
-      "name": "Hip Movement",
-      "content_type": "Principle",
-      "relationship": "Fundamental movement pattern enabling guard switches"
-    },
-    {
       "name": "Frame Management",
       "content_type": "Principle",
       "relationship": "Critical for maintaining distance during transitions"
@@ -306,7 +301,7 @@
       "relationship": "Primary offensive technique from DLR position"
     },
     {
-      "name": "Spider Guard Sweeps",
+      "name": "Spider Guard Pass",
       "content_type": "Transition",
       "relationship": "Collection of sweeps from spider guard position"
     },

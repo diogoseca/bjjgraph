@@ -21,37 +21,37 @@ description: "Master defensive strategies for standing back control bottom posit
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Turtle",
-      "text": "From this position, attempt Hip Escape to Turtle. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Turtle. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Technical Standup",
-      "text": "From this position, attempt Technical Standup. This technique is attempted in 12% of exchanges from this position.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Rolling to Guard",
-      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 13% of exchanges from this position.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Granby Roll",
-      "text": "From this position, attempt Granby Roll. This technique is attempted in 11% of exchanges from this position.",
-      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing up in Base",
       "text": "From this position, attempt Standing up in Base. This technique is attempted in 10% of exchanges from this position.",
-      "position": 5
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Rolling to Guard",
+      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 10% of exchanges from this position.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Granby Roll to Guard",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 5% of exchanges from this position.",
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Grip Break and Face",
       "text": "From this position, attempt Grip Break and Face. This technique is attempted in 12% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Controlled Descent",
+      "text": "From this position, attempt Controlled Descent. This technique is attempted in 30% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,21 +209,21 @@ Success in this position relies on understanding the mechanical principles of ba
 
 ## Available Escapes
 
-### [[Hip Escape to Turtle]] (14% of attempts)
-
-### [[Technical Standup]] (12% of attempts)
-
-### [[Rolling to Guard]] (13% of attempts)
-
-### [[Granby Roll]] (11% of attempts)
+### [[Hip Escape to Turtle]] (13% of attempts)
 
 ### [[Standing up in Base]] (10% of attempts)
 
+### [[Rolling to Guard]] (10% of attempts)
+
+### [[Granby Roll to Guard]] (5% of attempts)
+
 ### [[Grip Break and Face]] (12% of attempts)
 
-### [[Controlled Descent]] (17% of attempts)
+### [[Controlled Descent]] (30% of attempts)
 
-### [[Explosive Forward Roll]] (11% of attempts)
+### [[Explosive Forward Roll]] (6% of attempts)
+
+### [[Turn In and Face]] (14% of attempts)
 
 
 
@@ -240,7 +240,7 @@ Success in this position relies on understanding the mechanical principles of ba
 
 **If opponent has harness control but no immediate choke threat:**
 - Execute **[[Hip Escape to create angle]]** → [[Turtle]] (Probability: 50%)
-- Execute **[[Technical Standup with grip breaks]]** → [[Standing Position]] (Probability: 40%)
+- Execute **[[Standing up in Base with grip breaks]]** → [[Standing Position]] (Probability: 40%)
 - Execute **[[Rolling to Guard with hip turn]]** → [[Closed Guard]] (Probability: 45%)
 
 
@@ -250,7 +250,7 @@ Success in this position relies on understanding the mechanical principles of ba
 
 
 **If opponent has one hook or no hooks secured yet:**
-- Execute **[[Immediate hip turn and face opponent]]** → [[Scramble Position]] (Probability: 55%)
+- Execute **[[Immediate hip turn and face opponent]]** → [[Clinch]] (Probability: 55%)
 - Execute **[[Standing up in Base with hand fighting]]** → [[Standing Position]] (Probability: 45%)
 
 
@@ -328,7 +328,7 @@ Start with partner having loose standing back control. Every 30 seconds partner 
 
 ### Transition Options from Standing Back Control Bottom
 
-Partner has standing back control. Practice all major escape paths: hip escape to turtle, technical standup to neutral, rolling to guard, granby roll recovery. Drill each option 10 times, focusing on proper mechanics and timing.
+Partner has standing back control. Practice all major escape paths: hip escape to turtle, standing up in base to neutral, rolling to guard, granby roll recovery. Drill each option 10 times, focusing on proper mechanics and timing.
 
 **Duration**: 10-15 minutes
 
@@ -393,11 +393,10 @@ Partner has standing back control. Practice all major escape paths: hip escape t
 - **[[Back Control]]** - Grounded version - often the result if standing escape fails or opponent successfully takes you down
 - **[[Turtle]]** - Common transition target for defensive recovery, offers more defensive options than standing back exposure
 - **[[Rear Naked Choke]]** - Primary submission threat to defend against from this position
-- **[[Technical Standup]]** - Key escape technique to return to standing neutral position
-- **[[Hip Escape]]** - Fundamental movement for creating angles and escaping back control
-- **[[Grip Break]]** - Essential technique for defeating harness control and preventing chokes
-- **[[Scramble Position]]** - Transitional state when escapes are partially successful, requires quick decision-making
-- **[[Standing Position]]** - Target neutral position when escape is successful
+- **[[Standing up in Base]]** - Key escape technique to return to standing neutral position
+- **[[Hip Escape to Turtle]]** - Fundamental escape movement for creating angles and reaching turtle position
+- **[[Grip Break and Face]]** - Essential technique for defeating harness control and preventing chokes
+- **[[Clinch]]** - Neutral recovery position when escape through facing opponent is successful
 - **[[Seat Belt Control Back]]** - Specific grip configuration opponent uses to maintain control, must be defeated
 
 

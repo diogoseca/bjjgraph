@@ -21,37 +21,37 @@ description: "Master armbar control from top position in BJJ. Learn arm isolatio
     {
       "@type": "HowToStep",
       "name": "Execute Armbar Finish",
-      "text": "From this position, attempt Armbar Finish. This technique is attempted in 35% of exchanges from this position.",
+      "text": "From this position, attempt Armbar Finish. This technique is attempted in 53% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 21% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Closed Guard to Omoplata",
-      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Omoplata",
+      "text": "From this position, attempt Omoplata. This technique is attempted in 7% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle to Armbar",
-      "text": "From this position, attempt Triangle to Armbar. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Kimura",
+      "text": "From this position, attempt Kimura. This technique is attempted in 7% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Mount to Armbar",
-      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Straight Armbar",
+      "text": "From this position, attempt Straight Armbar. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura from Guard",
-      "text": "From this position, attempt Kimura from Guard. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Back Take from Armbar",
+      "text": "From this position, attempt Back Take from Armbar. This technique is attempted in 3% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,17 +210,21 @@ Armbar Control Top is accessible from multiple positions including mount, guard,
 
 ## Available Attacks
 
-### [[Armbar Finish]] (35% of attempts)
+### [[Armbar Finish]] (53% of attempts)
 
-### [[Triangle Setup]] (20% of attempts)
+### [[Triangle Setup]] (21% of attempts)
 
-### [[Closed Guard to Omoplata]] (15% of attempts)
+### [[Omoplata]] (7% of attempts)
 
-### [[Triangle to Armbar]] (12% of attempts)
+### [[Kimura]] (7% of attempts)
 
-### [[Mount to Armbar]] (10% of attempts)
+### [[Straight Armbar]] (7% of attempts)
 
-### [[Kimura from Guard]] (8% of attempts)
+### [[Back Take from Armbar]] (3% of attempts)
+
+### [[Belly Down Armbar Transition]] (1% of attempts)
+
+### [[Triangle from Armbar]] (1% of attempts)
 
 
 
@@ -245,8 +249,8 @@ Armbar Control Top is accessible from multiple positions including mount, guard,
 
 
 **If opponent attempts to roll through or turn into the submission:**
-- Execute **[[Triangle to Armbar]]** → [[Triangle Control]] (Probability: 55%)
-- Execute **[[Kimura from Guard]]** → [[Kimura Control]] (Probability: 40%)
+- Execute **[[Straight Armbar]]** → [[Armbar Control]] (Probability: 55%)
+- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 40%)
 
 
 **If opponent creates space under hips and attempts to pull arm back toward their body:**
@@ -360,11 +364,11 @@ Practice entering armbar control from five different starting positions: closed 
 **Q6**: What is the proper leg positioning for controlling the opponent's upper body?
 **A**: One leg crosses over the opponent's face/neck with your hamstring pressing against their cheek and your calf hooking behind their head. The other leg positions across their chest with your thigh applying downward pressure. Both legs work together to prevent the opponent from sitting up or turning into the position. Avoid crossing your feet, which compromises hip mobility.
 
-**Q7**: How should you coordinate hip elevation with arm pulling during the finish?
-**A**: The finish requires simultaneous opposing vectors: hips drive upward toward the ceiling while hands pull the wrist toward your chest. The hip elevation creates the primary extension force using your largest muscle groups (glutes, core), while the arm pull maintains control and guides the direction of pressure. These movements must be synchronized - pulling without hip elevation wastes energy and reduces effectiveness.
+**Q7**: How do you distribute your weight to prevent the opponent from bridging out of armbar control?
+**A**: Concentrate your weight through your hips directly against the opponent's shoulder, creating a downward anchor point. Your upper body should stay slightly elevated rather than flat on the mat, allowing you to adjust dynamically to bridging attempts. If the opponent bridges, follow their hip movement by scooting your hips to maintain the shoulder connection rather than trying to resist with static weight. Your legs provide the secondary anchor by squeezing inward against their head and torso.
 
-**Q8**: What should you do when your opponent begins to roll toward you?
-**A**: When the opponent rolls toward the controlled arm side, follow their roll while maintaining your grip configuration. As they rotate, your body position naturally transitions toward a mounted armbar or even belly-down armbar position. Keep your knees pinched and continue the arm isolation. If they roll away from the controlled arm, immediately tighten your leg control and consider switching to a triangle attack as this escape exposes their neck.
+**Q8**: Your opponent begins to roll toward the trapped arm side - what is your immediate response?
+**A**: When the opponent rolls toward the controlled arm side, follow their roll while maintaining your grip configuration. As they rotate, your body position naturally transitions toward a mounted armbar or belly-down armbar position. Keep your knees pinched and continue the arm isolation. If they roll away from the controlled arm, immediately tighten your leg control and consider switching to a triangle attack as this escape exposes their neck.
 
 
 
@@ -397,9 +401,9 @@ Practice entering armbar control from five different starting positions: closed 
 - **[[Closed Guard]]** - Frequent starting position for armbar attacks from bottom
 - **[[Armbar from Mount]]** - Specific entry technique from mount position
 - **[[Armbar from Guard]]** - Entry variation from guard positions
-- **[[Kimura Control]]** - Alternative arm attack when armbar is defended
-- **[[S Mount]]** - Transitional position for armbar setup from mount
-- **[[High Mount]]** - Alternative control position facilitating armbar entry
+- **[[Kimura Trap]]** - Alternative arm attack control when armbar is defended
+- **[[High Mount]]** - Transitional position facilitating armbar setup from mount
+- **[[Belly Down Armbar]]** - Variant submission finish when opponent rolls during armbar attempt
 
 
 </section>

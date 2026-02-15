@@ -91,17 +91,19 @@ The guard creates mechanical advantages through the lapel wrap, restricting the 
 ### Available Transitions
 
 
-- **[[Ringworm Sweep to Back Control]]** (17% of attempts)
+- **[[Ringworm Sweep to Back Control]]** (15% of attempts)
 
-- **[[Triangle Setup]]** (15% of attempts)
+- **[[Triangle Setup]]** (13% of attempts)
 
-- **[[Omoplata to Sweep]]** (14% of attempts)
+- **[[Omoplata to Sweep]]** (13% of attempts)
 
-- **[[Lapel Guard Sweeps]]** (18% of attempts)
+- **[[Lapel Sweep to Back]]** (16% of attempts)
 
-- **[[Berimbolo Entry]]** (14% of attempts)
+- **[[Berimbolo Entry]]** (13% of attempts)
 
-- **[[Ringworm Guard to Worm Guard]]** (22% of attempts)
+- **[[Ringworm Guard to Worm Guard]]** (23% of attempts)
+
+- **[[Ringworm to Spider Guard]]** (7% of attempts)
 
 
 ### Common Mistakes

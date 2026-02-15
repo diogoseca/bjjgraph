@@ -20,8 +20,8 @@ description: "Master defensive strategies from Crucifix Bottom in BJJ. Complete 
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape to Guard Recovery",
-      "text": "From this position, attempt Hip Escape to Guard Recovery. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Hip Escape to Guard",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,25 +33,25 @@ description: "Master defensive strategies from Crucifix Bottom in BJJ. Complete 
     {
       "@type": "HowToStep",
       "name": "Execute Back Take from Bottom",
-      "text": "From this position, attempt Back Take from Bottom. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Back Take from Bottom. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Elbow Escape",
-      "text": "From this position, attempt Elbow Escape. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Elbow Escape to Guard",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 16% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape",
-      "text": "From this position, attempt Hip Escape. This technique is attempted in 19% of exchanges from this position.",
+      "name": "Execute Shrimp Escape",
+      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 20% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Standup",
-      "text": "From this position, attempt Technical Standup. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Standing Escape",
+      "text": "From this position, attempt Standing Escape. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,17 +210,17 @@ Survival from this position requires immediate recognition, calm systematic defe
 
 ## Available Escapes
 
-### [[Hip Escape to Guard Recovery]] (17% of attempts)
+### [[Hip Escape to Guard]] (18% of attempts)
 
 ### [[Arm Extraction]] (21% of attempts)
 
-### [[Back Take from Bottom]] (15% of attempts)
+### [[Back Take from Bottom]] (13% of attempts)
 
-### [[Elbow Escape]] (16% of attempts)
+### [[Elbow Escape to Guard]] (16% of attempts)
 
-### [[Hip Escape]] (19% of attempts)
+### [[Shrimp Escape]] (20% of attempts)
 
-### [[Technical Standup]] (12% of attempts)
+### [[Standing Escape]] (12% of attempts)
 
 
 
@@ -233,25 +233,25 @@ Survival from this position requires immediate recognition, calm systematic defe
 **If opponent secures deep rear naked choke grip with choking arm under chin:**
 - Execute **[[Two-on-one hand defense]]** → [[Back Control]] (Probability: 40%)
 - Execute **[[Chin tuck and shoulder raise]]** → [[Back Control]] (Probability: 50%)
-- Execute **[[Tap Out]]** → [[game-over]] (Probability: 10%)
+- Execute **[[Tap Out]]** → [[Game Over]] (Probability: 10%)
 
 
 **If trapped arm begins to free from leg trap with space creation:**
-- Execute **[[Arm Extraction]]** → [[Turtle]] (Probability: 55%)
-- Execute **[[Hip Escape to Guard Recovery]]** → [[Closed Guard]] (Probability: 30%)
-- Execute **[[Roll to Back Control]]** → [[Back Control]] (Probability: 15%)
+- Execute **[[Arm Extraction to Turtle]]** → [[Turtle]] (Probability: 55%)
+- Execute **[[Hip Escape to Guard]]** → [[Closed Guard]] (Probability: 30%)
+- Execute **[[Roll to Guard]]** → [[Back Control]] (Probability: 15%)
 
 
 **If opponent transitions to mounted crucifix or adjusts position:**
 - Execute **[[Bridge and hip escape immediately]]** → [[Turtle]] (Probability: 45%)
-- Execute **[[Elbow Escape]]** → [[Half Guard]] (Probability: 35%)
+- Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 35%)
 - Execute **[[Accept consolidated position]]** → [[Mounted Crucifix]] (Probability: 20%)
 
 
 **If free arm remains mobile and opponent has not secured submission:**
 - Execute **[[Use free arm to push opponent's leg and create space]]** → [[Back Control]] (Probability: 50%)
-- Execute **[[Hip shift and elbow escape]]** → [[Side Control]] (Probability: 35%)
-- Execute **[[Technical Standup]]** → [[Clinch]] (Probability: 15%)
+- Execute **[[Shrimp Escape]]** → [[Side Control]] (Probability: 35%)
+- Execute **[[Standing Escape]]** → [[Clinch]] (Probability: 15%)
 
 
 
@@ -290,7 +290,7 @@ Survival from this position requires immediate recognition, calm systematic defe
 ### 6. Giving up mentally when crucifix is secured, assuming position is inescapable
 
 - ❌ **Consequence**: Self-fulfilling prophecy where lack of defensive effort leads to inevitable submission when escapes were technically possible
-- ✅ **Correction**: Maintain aggressive defensive mindset—statistics show significant escape rates even from consolidated crucifix with proper technique
+- ✅ **Correction**: Maintain aggressive defensive mindset—significant escape rates exist even from consolidated crucifix with proper technique
 
 
 
@@ -391,9 +391,9 @@ From established crucifix, bottom player works specific pathway to turtle positi
 - **[[Armbar from Crucifix]]** - Secondary submission threat requiring specific defense
 - **[[Mounted Crucifix]]** - Worse variation if opponent transitions to mount
 - **[[Closed Guard]]** - Ideal escape destination—return to guard game
-- **[[Hip Escape]]** - Primary escape mechanism from crucifix
-- **[[Elbow Escape]]** - Alternative escape when hip escape is blocked
-- **[[Back Escape]]** - Broader defensive system containing crucifix escapes
+- **[[Shrimp Escape]]** - Primary escape mechanism from crucifix
+- **[[Elbow Escape to Guard]]** - Alternative escape when hip escape is blocked
+- **[[Back Door Escape]]** - Broader defensive system containing crucifix escapes
 
 
 </section>

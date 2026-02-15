@@ -20,14 +20,14 @@ description: "Master Reverse Kesa-Gatame Bottom escape techniques. Complete defe
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Elbow Escape",
-      "text": "From this position, attempt Elbow Escape. This technique is attempted in 25% of exchanges from this position.",
+      "name": "Execute Elbow Escape to Guard",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape",
-      "text": "From this position, attempt Hip Escape. This technique is attempted in 22% of exchanges from this position.",
+      "name": "Execute Hip Escape to Guard",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 22% of exchanges from this position.",
       "position": 2
     },
     {
@@ -38,14 +38,14 @@ description: "Master Reverse Kesa-Gatame Bottom escape techniques. Complete defe
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Frame and Shrimp",
-      "text": "From this position, attempt Frame and Shrimp. This technique is attempted in 20% of exchanges from this position.",
+      "name": "Execute Frame and Shrimp to Guard",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 20% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Standup",
-      "text": "From this position, attempt Technical Standup. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Technical Stand-up",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     }
   ],
@@ -202,15 +202,15 @@ From a strategic perspective, Reverse Kesa-Gatame Bottom requires immediate defe
 
 ## Available Escapes
 
-### [[Elbow Escape]] (25% of attempts)
+### [[Elbow Escape to Guard]] (25% of attempts)
 
-### [[Hip Escape]] (22% of attempts)
+### [[Hip Escape to Guard]] (22% of attempts)
 
 ### [[Bridge and Roll]] (18% of attempts)
 
-### [[Frame and Shrimp]] (20% of attempts)
+### [[Frame and Shrimp to Guard]] (20% of attempts)
 
-### [[Technical Standup]] (15% of attempts)
+### [[Technical Stand-up]] (15% of attempts)
 
 
 
@@ -221,23 +221,23 @@ From a strategic perspective, Reverse Kesa-Gatame Bottom requires immediate defe
 ## Decision Making from This Position
 
 **If opponent sits high on chest with weight too far forward:**
-- Execute **[[Bridge and Roll]]** → [[Kesa Gatame]] (Probability: 50%)
-- Execute **[[Hip Escape]]** → [[Open Guard]] (Probability: 45%)
+- Execute **[[Bridge and Roll]]** → [[Scramble Position]] (Probability: 50%)
+- Execute **[[Hip Escape to Guard]]** → [[Open Guard]] (Probability: 45%)
 
 
 **If opponent maintains tight chest-to-chest pressure with proper weight distribution:**
-- Execute **[[Elbow Escape]]** → [[Half Guard]] (Probability: 55%)
-- Execute **[[Frame and Shrimp]]** → [[Open Guard]] (Probability: 40%)
+- Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 55%)
+- Execute **[[Frame and Shrimp to Guard]]** → [[Open Guard]] (Probability: 40%)
 
 
 **If opponent begins transitioning to North-South or Mount:**
 - Execute **[[Shrimp Escape]]** → [[Turtle]] (Probability: 60%)
-- Execute **[[Frame and Shrimp]]** → [[Closed Guard]] (Probability: 35%)
+- Execute **[[Frame and Shrimp to Guard]]** → [[Closed Guard]] (Probability: 35%)
 
 
 **If opponent attacks trapped arm for submission:**
 - Execute **[[Bridge and Roll]]** → [[Scramble Position]] (Probability: 45%)
-- Execute **[[Hip Escape]]** → [[Half Guard]] (Probability: 50%)
+- Execute **[[Hip Escape to Guard]]** → [[Half Guard]] (Probability: 50%)
 
 
 
@@ -376,9 +376,9 @@ Partner sits in varying heights and weight distributions in Reverse Kesa-Gatame 
 - **[[Side Control]]** - Parent category of pinning escapes
 - **[[North-South]]** - Common transition target from this position
 - **[[Half Guard]]** - Primary escape destination
-- **[[Elbow Escape]]** - Primary escape technique
+- **[[Elbow Escape to Guard]]** - Primary escape technique for recovering guard from pins
 - **[[Bridge and Roll]]** - Reversal technique option
-- **[[Hip Escape]]** - Fundamental movement principle
+- **[[Hip Escape to Guard]]** - Fundamental hip escape movement for guard recovery
 - **[[Closed Guard]]** - Guard recovery destination
 - **[[Turtle]]** - Alternative escape destination
 

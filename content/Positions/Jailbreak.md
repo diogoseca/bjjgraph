@@ -15,11 +15,13 @@ description: "Master the Jailbreak position in BJJ. Advanced half guard escape s
 
 <section id="overview" class="content-section">
 
-The Jailbreak position represents a critical dynamic state in the half guard game, characterized by explosive movement and strategic risk-taking to escape dominant pressure. This position manifests in two distinct perspectives: from bottom, it's an advanced escape technique using inversion and momentum to break free from crushing pressure, while from top, it's a transitional passing position where maintaining control through extended leg barriers determines success.
+The Jailbreak position represents a critical dynamic state in the half guard game, characterized by explosive movement and strategic risk-taking to escape dominant pressure. This position manifests in two distinct perspectives: from bottom, it is an advanced escape technique using inversion and momentum to break free from crushing pressure, while from top, it is a transitional passing position where maintaining control through extended leg barriers determines success.
 
 The Jailbreak concept emerged prominently within the 10th Planet Jiu-Jitsu system as a solution to modern half guard pressure passing. The position's effectiveness lies in its ability to transform defensive disadvantage into offensive opportunity through explosive, committed movement. Unlike traditional half guard escapes that rely on incremental frame creation, the Jailbreak demands full commitment to dynamic motion, making it both high-reward and high-risk.
 
 From bottom perspective, the practitioner uses underhook control combined with inverting motion to roll through pressure, creating separation and pathways to turtle, guard recovery, or back takes. This requires excellent timing, flexibility, and spatial awareness. From top perspective, the passer must read leg configurations and maintain forward pressure while navigating extended leg barriers to complete passes to dominant positions. Mastering both perspectives provides complete understanding of this critical half guard junction point.
+
+The biomechanical principle underlying the Jailbreak from bottom involves converting the opponent's forward pressure into rotational momentum. When the top player commits their weight forward with crossface or shoulder pressure, their center of gravity advances and their base becomes narrow. The underhook serves as the pivotal connection point that prevents the top player from re-establishing control during the inversion. From top, the challenge is navigating extended leg frames while maintaining upper body pressure, reading whether to weave through, smash past, or backstep around the defensive barriers. The position rewards practitioners who develop sensitivity to weight distribution and the ability to commit decisively to their chosen action.
 
 </section>
 
@@ -93,17 +95,19 @@ From bottom perspective, the practitioner uses underhook control combined with i
 ### Available Transitions
 
 
-- **[[Jailbreak to Turtle]]** (19% of attempts)
+- **[[Jailbreak to Turtle]]** (22% of attempts)
 
-- **[[Jailbreak to Back Take]]** (16% of attempts)
+- **[[Jailbreak to Back Take]]** (14% of attempts)
 
-- **[[Jailbreak to Deep Half Entry]]** (17% of attempts)
+- **[[Jailbreak to Deep Half Entry]]** (15% of attempts)
 
-- **[[Guard Recovery]]** (19% of attempts)
+- **[[Guard Recovery]]** (15% of attempts)
 
-- **[[Old School Sweep]]** (13% of attempts)
+- **[[Old School Sweep]]** (12% of attempts)
 
-- **[[Technical Standup]]** (16% of attempts)
+- **[[Lockdown Recovery]]** (12% of attempts)
+
+- **[[Electric Chair Transition]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -164,21 +168,23 @@ From bottom perspective, the practitioner uses underhook control combined with i
 ### Available Transitions
 
 
-- **[[Leg Weave Pass]]** (13% of attempts)
+- **[[Leg Weave Pass]]** (12% of attempts)
 
-- **[[Smash Pass]]** (15% of attempts)
+- **[[Smash Pass]]** (33% of attempts)
 
-- **[[Knee Slice from Half]]** (12% of attempts)
+- **[[Knee Slice from Half]]** (17% of attempts)
 
-- **[[Back Step]]** (12% of attempts)
+- **[[Underhook Pass]]** (17% of attempts)
 
-- **[[Underhook Pass]]** (13% of attempts)
+- **[[Darce Setup]]** (9% of attempts)
 
-- **[[Headquarters Pass]]** (12% of attempts)
+- **[[Front Headlock to Back]]** (7% of attempts)
 
-- **[[Toreando Pass]]** (12% of attempts)
+- **[[Knee Slide from Jailbreak]]** (3% of attempts)
 
-- **[[X Pass]]** (11% of attempts)
+- **[[North-South Recovery from Jailbreak]]** (1% of attempts)
+
+- **[[Reestablish Side Control from Jailbreak]]** (1% of attempts)
 
 
 ### Common Mistakes

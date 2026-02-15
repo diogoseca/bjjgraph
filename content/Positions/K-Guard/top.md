@@ -21,13 +21,13 @@ description: "Master K-Guard Top in BJJ. Navigate inverted hook systems while ma
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
@@ -45,13 +45,13 @@ description: "Master K-Guard Top in BJJ. Navigate inverted hook systems while ma
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Pass",
-      "text": "From this position, attempt Underhook Pass. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Kimura from Half Guard",
+      "text": "From this position, attempt Kimura from Half Guard. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,21 +210,23 @@ Strategically, K-Guard Top represents a transitional position where the top play
 
 ## Available Attacks
 
-### [[Knee Slice Pass]] (14% of attempts)
+### [[Knee Slice Pass]] (25% of attempts)
 
-### [[Smash Pass]] (13% of attempts)
+### [[Smash Pass]] (14% of attempts)
 
 ### [[Leg Drag Pass]] (12% of attempts)
 
 ### [[Half Guard Pass]] (16% of attempts)
 
-### [[Underhook Pass]] (13% of attempts)
-
-### [[Side Control to Mount]] (11% of attempts)
-
-### [[Side Control to North-South]] (11% of attempts)
+### [[Underhook Pass]] (12% of attempts)
 
 ### [[Kimura from Half Guard]] (10% of attempts)
+
+### [[Guillotine Setup]] (6% of attempts)
+
+### [[Backstep from K-Guard]] (3% of attempts)
+
+### [[Pass K-Guard]] (2% of attempts)
 
 
 

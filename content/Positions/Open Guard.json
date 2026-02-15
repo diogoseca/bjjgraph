@@ -259,18 +259,21 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 60
+        "value": 60,
+        "description": "Moderate retention reflecting the dynamic nature of guard engagement where both players frequently transition"
       },
       "advancement_probability": {
-        "value": 60
+        "value": 60,
+        "description": "Solid advancement probability reflecting diverse passing options available from open guard top"
       },
       "submission_probability": {
-        "value": 32
+        "value": 5,
+        "description": "Low direct submission probability - most submissions come after passing to dominant position"
       },
       "average_time": "2-4 minutes per passing sequence"
     },
     "name": "Open Guard Top",
-    "description": "Master Open Guard Top in BJJ. Complete guide covering passing strategies, pressure control, and transitions. Success rate progression: 30-70% across skill levels.",
+    "description": "Master Open Guard Top in BJJ. Complete guide covering passing strategies, pressure control, and transitions against dynamic open guard systems.",
     "tags": [
       "bjj",
       "position",
@@ -399,14 +402,14 @@
             "probability": 55
           },
           {
-            "technique": "X-Guard Sweep",
-            "target": "Mount",
-            "probability": 60
-          },
-          {
-            "technique": "Spider Guard Sweeps",
+            "technique": "Sickle Sweep",
             "target": "Mount",
             "probability": 55
+          },
+          {
+            "technique": "Tripod Sweep",
+            "target": "Mount",
+            "probability": 50
           }
         ]
       },
@@ -414,8 +417,8 @@
         "condition": "If opponent attempts to pass with knee cut or slice",
         "actions": [
           {
-            "technique": "Lasso Guard Sweeps",
-            "target": "Side Control",
+            "technique": "Shin Shield Recovery",
+            "target": "Knee Shield Half Guard",
             "probability": 50
           },
           {
@@ -424,9 +427,9 @@
             "probability": 45
           },
           {
-            "technique": "Shin Shield Recovery",
-            "target": "Knee Shield Half Guard",
-            "probability": 50
+            "technique": "Berimbolo Entry",
+            "target": "Back Control",
+            "probability": 40
           }
         ]
       },
@@ -444,9 +447,9 @@
             "probability": 60
           },
           {
-            "technique": "Triangle from Guard",
-            "target": "Triangle Control",
-            "probability": 45
+            "technique": "Elevator Sweep",
+            "target": "Mount",
+            "probability": 50
           }
         ]
       },
@@ -459,8 +462,8 @@
             "probability": 50
           },
           {
-            "technique": "Technical Stand-up",
-            "target": "Standing Guard",
+            "technique": "Granby to Closed Guard",
+            "target": "Closed Guard",
             "probability": 45
           }
         ]
@@ -589,18 +592,21 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 60
+        "value": 60,
+        "description": "Moderate retention reflecting the dynamic and transitional nature of open guard"
       },
       "advancement_probability": {
-        "value": 60
+        "value": 60,
+        "description": "Strong advancement through diverse sweep and submission systems"
       },
       "submission_probability": {
-        "value": 42
+        "value": 25,
+        "description": "Moderate direct submission threat through triangles, armbars, and omoplatas from guard"
       },
       "average_time": "30-90 seconds in competition, 2-5 minutes in training"
     },
     "name": "Open Guard Bottom",
-    "description": "Master Open Guard Bottom in BJJ. Complete guide covering setup, control, sweeps, and submissions. Dynamic position with 70% sweep success for advanced players.",
+    "description": "Master Open Guard Bottom in BJJ. Complete guide covering setup, control, sweeps, and submissions. Dynamic position with diverse attack systems.",
     "tags": [
       "bjj",
       "position",
@@ -614,59 +620,103 @@
     "transitions": [
       {
         "transition": "Scissor Sweep",
-        "attempt_probability": 8
+        "attempt_probability": 0
       },
       {
         "transition": "Hip Bump Sweep",
-        "attempt_probability": 8
+        "attempt_probability": 0
       },
       {
         "transition": "Butterfly Sweep",
-        "attempt_probability": 8
+        "attempt_probability": 99
       },
       {
         "transition": "De La Riva Sweep",
-        "attempt_probability": 8
+        "attempt_probability": 0
       },
       {
-        "transition": "X-Guard Sweep",
-        "attempt_probability": 9
+        "transition": "Sickle Sweep",
+        "attempt_probability": 0
       },
       {
-        "transition": "Spider Guard Sweeps",
-        "attempt_probability": 8
+        "transition": "Tripod Sweep",
+        "attempt_probability": 0
       },
       {
-        "transition": "Lasso Guard Sweeps",
-        "attempt_probability": 8
+        "transition": "Elevator Sweep",
+        "attempt_probability": 0
       },
       {
         "transition": "Omoplata Sweep",
-        "attempt_probability": 7
+        "attempt_probability": 0
       },
       {
-        "transition": "Triangle from Guard",
-        "attempt_probability": 6
+        "transition": "Closed Guard to Triangle",
+        "attempt_probability": 0
       },
       {
-        "transition": "Armbar from Guard",
-        "attempt_probability": 5
+        "transition": "Armbar Finish",
+        "attempt_probability": 0
       },
       {
-        "transition": "Kimura from Guard",
-        "attempt_probability": 6
+        "transition": "Kimura Sweep",
+        "attempt_probability": 0
       },
       {
-        "transition": "Omoplata from Guard",
-        "attempt_probability": 5
+        "transition": "Closed Guard to Omoplata",
+        "attempt_probability": 0
       },
       {
         "transition": "Float Passing",
-        "attempt_probability": 7
+        "attempt_probability": 0
       },
       {
         "transition": "Open Guard to Deep Half",
-        "attempt_probability": 7
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Transition to Collar Sleeve Guard",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Transition to Double Sleeve Guard",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Transition to Feet on Hips Guard",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Collar Drag from Open Guard",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Open Guard to Collar Sleeve Guard",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Open Guard to De La Riva",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Open Guard to Double Sleeve Guard",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Open Guard to Feet on Hips Guard",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Scissor Sweep from Open Guard",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Scramble from Failed Sweep",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Technical Stand Up from Open Guard",
+        "attempt_probability": 1
       }
     ],
     "knowledge_assessment": [

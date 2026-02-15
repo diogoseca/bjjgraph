@@ -4,7 +4,7 @@
 
 ---
 title: "Darce Control Top | BJJ Position Guide | BJJ Graph"
-description: "Master Darce Control Top in BJJ. Dominant front headlock variation with 70% submission rate. Learn control mechanics, finishing sequences, and competition-proven strategies."
+description: "Master Darce Control Top in BJJ. Dominant front headlock variation with high submission rate. Learn control mechanics, finishing sequences, and competition-proven strategies."
 ---
 
 
@@ -21,32 +21,38 @@ description: "Master Darce Control Top in BJJ. Dominant front headlock variation
     {
       "@type": "HowToStep",
       "name": "Execute Darce Choke",
-      "text": "From this position, attempt Darce Choke. This technique is attempted in 26% of exchanges from this position.",
+      "text": "From this position, attempt Darce Choke. This technique is attempted in 48% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 20% of exchanges from this position.",
+      "name": "Execute Turtle to Back Take",
+      "text": "From this position, attempt Turtle to Back Take. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Turtle to Back Take",
-      "text": "From this position, attempt Turtle to Back Take. This technique is attempted in 20% of exchanges from this position.",
+      "name": "Execute Switch to Anaconda Configuration",
+      "text": "From this position, attempt Switch to Anaconda Configuration. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Anaconda from Turtle",
-      "text": "From this position, attempt Anaconda from Turtle. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Side Control to Mount",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Darce Control Maintenance",
+      "text": "From this position, attempt Darce Control Maintenance. This technique is attempted in 3% of exchanges from this position.",
+      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -109,7 +115,7 @@ description: "Master Darce Control Top in BJJ. Dominant front headlock variation
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Darce Control Top",
-  "description": "Master Darce Control Top in BJJ. Dominant front headlock variation with 70% submission rate. Learn control mechanics, finishing sequences, and competition-proven strategies.",
+  "description": "Master Darce Control Top in BJJ. Dominant front headlock variation with high submission rate. Learn control mechanics, finishing sequences, and competition-proven strategies.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -202,15 +208,19 @@ From a strategic perspective, Darce Control Top exemplifies the modern submissio
 
 ## Available Attacks
 
-### [[Darce Choke]] (26% of attempts)
+### [[Darce Choke]] (48% of attempts)
 
-### [[Side Control to Mount]] (20% of attempts)
+### [[Turtle to Back Take]] (18% of attempts)
 
-### [[Turtle to Back Take]] (20% of attempts)
+### [[Switch to Anaconda Configuration]] (13% of attempts)
 
-### [[Anaconda from Turtle]] (14% of attempts)
+### [[Side Control to Mount]] (10% of attempts)
 
-### [[Side Control to North-South]] (20% of attempts)
+### [[Side Control to North-South]] (6% of attempts)
+
+### [[Darce Control Maintenance]] (3% of attempts)
+
+### [[Darce to Anaconda Switch]] (2% of attempts)
 
 
 
@@ -227,11 +237,11 @@ From a strategic perspective, Darce Control Top exemplifies the modern submissio
 
 **Else if opponent attempts to roll through or turn into the choke:**
 - Execute **[[Turtle to Back Take]]** → [[Back Control]] (Probability: 75%)
-- Execute **[[Darce Choke]]** → [[game-over]] (Probability: 60%)
+- Execute **[[Darce Choke]]** → [[Game Over]] (Probability: 60%)
 
 
 **Else if opponent's defensive posture breaks down and arm remains trapped:**
-- Execute **[[Darce Choke]]** → [[game-over]] (Probability: 80%)
+- Execute **[[Darce Choke]]** → [[Game Over]] (Probability: 80%)
 - Execute **[[Anaconda from Turtle]]** → [[Anaconda Control]] (Probability: 55%)
 
 
@@ -361,14 +371,14 @@ Start from front headlock or turtle positions and work to establish darce contro
 
 ## Related Positions and Techniques
 
-- **[[Darce Control]]** - Hub position - both perspectives
-- **[[Front Headlock]]** - Precursor position - common entry point
-- **[[Anaconda Control]]** - Similar position - alternative front headlock choke
-- **[[Darce Choke]]** - Primary submission - main finishing technique
-- **[[Turtle]]** - Common preceding position
+- **[[Darce Control]]** - Hub position covering both perspectives
+- **[[Front Headlock]]** - Precursor position and common entry point
+- **[[Anaconda Control]]** - Similar position with alternative front headlock choke configuration
+- **[[Darce Choke]]** - Primary submission finishing technique from this position
+- **[[Turtle]]** - Common preceding position where darce opportunities arise
 - **[[Mount]]** - Positional advancement when choke is defended
-- **[[Back Control]]** - High-percentage transition on opponent roll
-- **[[North-South]]** - Alternative transition when choke blocked
+- **[[Back Control]]** - High-percentage transition when opponent rolls to escape
+- **[[North-South]]** - Alternative transition when choke is blocked
 
 
 </section>

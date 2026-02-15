@@ -21,37 +21,37 @@ description: "Master Triangle Control defense from top in BJJ. Learn escape tech
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Escape",
-      "text": "From this position, attempt Triangle Escape. This technique is attempted in 24% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Escape. This technique is attempted in 22% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Posture Recovery",
-      "text": "From this position, attempt Posture Recovery. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Posture Recovery. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Defense",
-      "text": "From this position, attempt Stack Defense. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Stack Defense. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guard Recovery",
-      "text": "From this position, attempt Guard Recovery. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Guard Recovery. This technique is attempted in 5% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Clear to Side",
-      "text": "From this position, attempt Triangle Clear to Side. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Clear to Side. This technique is attempted in 5% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Choke",
-      "text": "From this position, attempt Triangle Choke. This technique is attempted in 30% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Choke. This technique is attempted in 37% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,17 +211,21 @@ The defensive hierarchy from Triangle Control Top follows a clear priority seque
 
 ## Available Attacks
 
-### [[Triangle Escape]] (24% of attempts)
+### [[Triangle Escape]] (22% of attempts)
 
-### [[Posture Recovery]] (18% of attempts)
+### [[Posture Recovery]] (16% of attempts)
 
-### [[Stack Defense]] (14% of attempts)
+### [[Stack Defense]] (12% of attempts)
 
-### [[Guard Recovery]] (7% of attempts)
+### [[Guard Recovery]] (5% of attempts)
 
-### [[Triangle Clear to Side]] (7% of attempts)
+### [[Triangle Clear to Side]] (5% of attempts)
 
-### [[Triangle Choke]] (30% of attempts)
+### [[Triangle Choke]] (37% of attempts)
+
+### [[Posture Up from Triangle]] (2% of attempts)
+
+### [[Stack Escape from Triangle]] (1% of attempts)
 
 
 

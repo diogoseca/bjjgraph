@@ -365,8 +365,8 @@ Partner combines positional pressure with submission attempts (cross-collar chok
 - [[Frame Management]] (Principle) - Complementary concept governing strategic frame decisions and priorities
 - [[Hip Escape Mechanics]] (Principle) - Synergistic movement pattern that frames enable and facilitate
 - [[Creating Space]] (Principle) - Strategic goal that defensive framing technically implements
-- [[Elbow Escape]] (Transition) - Primary escape technique that depends fundamentally on effective framing
-- [[Frame and Shrimp]] (Transition) - Core defensive movement directly integrating framing with hip escape
+- [[Elbow Escape to Guard]] (Transition) - Primary escape technique that depends fundamentally on effective framing
+- [[Frame and Shrimp to Guard]] (Transition) - Core defensive movement directly integrating framing with hip escape
 - [[Side Control]] (Position) - Primary position where defensive framing is most critically applied
 - [[Mount]] (Position) - Position requiring specific framing configuration to prevent high mount advancement
 - [[Open Guard]] (Position) - Positional goal that defensive framing creates space to achieve

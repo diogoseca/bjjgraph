@@ -1,0 +1,13 @@
+{
+  "name": "Boot Defense from Toe Hold",
+  "description": "",
+  "tags": [],
+  "from_position": "Toe Hold Control/Bottom",
+  "outcomes": [
+    {
+      "to": "Open Guard/Bottom",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

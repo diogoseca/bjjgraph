@@ -95,33 +95,55 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 ### Available Transitions
 
 
-- **[[Scissor Sweep]]** (8% of attempts)
+- **[[Scissor Sweep]]** (0% of attempts)
 
-- **[[Hip Bump Sweep]]** (8% of attempts)
+- **[[Hip Bump Sweep]]** (0% of attempts)
 
-- **[[Butterfly Sweep]]** (8% of attempts)
+- **[[Butterfly Sweep]]** (99% of attempts)
 
-- **[[De La Riva Sweep]]** (8% of attempts)
+- **[[De La Riva Sweep]]** (0% of attempts)
 
-- **[[X-Guard Sweep]]** (9% of attempts)
+- **[[Sickle Sweep]]** (0% of attempts)
 
-- **[[Spider Guard Sweeps]]** (8% of attempts)
+- **[[Tripod Sweep]]** (0% of attempts)
 
-- **[[Lasso Guard Sweeps]]** (8% of attempts)
+- **[[Elevator Sweep]]** (0% of attempts)
 
-- **[[Omoplata Sweep]]** (7% of attempts)
+- **[[Omoplata Sweep]]** (0% of attempts)
 
-- **[[Triangle from Guard]]** (6% of attempts)
+- **[[Closed Guard to Triangle]]** (0% of attempts)
 
-- **[[Armbar from Guard]]** (5% of attempts)
+- **[[Armbar Finish]]** (0% of attempts)
 
-- **[[Kimura from Guard]]** (6% of attempts)
+- **[[Kimura Sweep]]** (0% of attempts)
 
-- **[[Omoplata from Guard]]** (5% of attempts)
+- **[[Closed Guard to Omoplata]]** (0% of attempts)
 
-- **[[Float Passing]]** (7% of attempts)
+- **[[Float Passing]]** (0% of attempts)
 
-- **[[Open Guard to Deep Half]]** (7% of attempts)
+- **[[Open Guard to Deep Half]]** (0% of attempts)
+
+- **[[Transition to Collar Sleeve Guard]]** (0% of attempts)
+
+- **[[Transition to Double Sleeve Guard]]** (0% of attempts)
+
+- **[[Transition to Feet on Hips Guard]]** (0% of attempts)
+
+- **[[Collar Drag from Open Guard]]** (0% of attempts)
+
+- **[[Open Guard to Collar Sleeve Guard]]** (0% of attempts)
+
+- **[[Open Guard to De La Riva]]** (0% of attempts)
+
+- **[[Open Guard to Double Sleeve Guard]]** (0% of attempts)
+
+- **[[Open Guard to Feet on Hips Guard]]** (0% of attempts)
+
+- **[[Scissor Sweep from Open Guard]]** (0% of attempts)
+
+- **[[Scramble from Failed Sweep]]** (0% of attempts)
+
+- **[[Technical Stand Up from Open Guard]]** (1% of attempts)
 
 
 ### Common Mistakes

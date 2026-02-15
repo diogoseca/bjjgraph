@@ -1,6 +1,6 @@
 {
   "name": "Single Leg X Recovery",
-  "description": "Master Single Leg X Recovery from Ushiro Ashi-Garami. Step-by-step leg extraction to Single Leg X-Guard. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "description": "Master Single Leg X Recovery from Ushiro Ashi-Garami. Complete guide to leg extraction, Single Leg X-Guard establishment, and offensive transitions.",
   "tags": [
     "bjj",
     "transition",
@@ -13,140 +13,366 @@
   "from_position": "Ushiro Ashi-Garami/Bottom",
   "outcomes": [
     {
-      "to": "Single Leg X-Guard",
+      "to": "Single Leg X-Guard/Bottom",
       "probability": 55,
       "result": "success"
     },
     {
-      "to": "Ushiro Ashi-Garami",
+      "to": "Ushiro Ashi-Garami/Bottom",
       "probability": 30,
       "result": "failure"
     },
     {
-      "to": "Saddle",
+      "to": "Saddle/Bottom",
       "probability": 15,
       "result": "counter"
     }
   ],
+  "success_rate": 55,
   "overview": "Single Leg X Recovery is a critical defensive transition that allows practitioners trapped in Ushiro Ashi-Garami to extract their entangled leg and establish Single Leg X-Guard, fundamentally changing the positional dynamic from defensive survival to offensive potential. This recovery represents one of the highest-percentage escapes from reversed leg entanglements because it addresses the core problem of leg clearing while simultaneously establishing a strong attacking platform.\n\nThe technique exploits the geometric relationship between the defender's inverted position and the attacker's leg configuration. When executed correctly, the defender uses their hip mobility and precise foot placement to thread their trapped leg through the entanglement while simultaneously establishing heel hook and kneebar control on the opponent's far leg. This transforms a compromised position into one where the former defender now threatens submissions.\n\nStrategically, Single Leg X Recovery represents the preferred escape path when the opponent's inside leg control is not deep enough to prevent leg threading. Unlike turtle recovery which merely neutralizes position, or counter-heel hooks which require specific grip availability, this technique creates immediate offensive opportunities while completing the escape in one fluid motion. Advanced practitioners chain this recovery directly into sweep and submission sequences.",
-  "key_principles": [
-    "Maintain dorsiflexion throughout extraction to protect heel from finishing grips",
-    "Control opponent's inside knee with both hands to prevent saddle transition during recovery",
-    "Thread the trapped leg by creating angle with hip rotation rather than pulling straight back",
-    "Establish outside foot position on opponent's hip before committing to Single Leg X structure",
-    "Time the recovery when opponent adjusts grips or shifts weight to attack",
-    "Keep elbows tight to body to prevent opponent from establishing upper body control during transition"
+  "conditions": [
+    "Opponent's inside leg control must be shallow enough to allow leg threading",
+    "Heel must be protected with dorsiflexion maintained throughout",
+    "Hands must be free to control opponent's inside knee",
+    "Opponent must not have established finishing grip on your foot"
   ],
-  "setup_requirements": [
-    "Opponent's inside leg control is shallow enough to allow leg threading movement",
-    "Heel is protected and opponent has not established finishing grip on foot",
-    "Sufficient hip mobility to rotate and create threading angle for trapped leg",
-    "Hands are free to control opponent's inside knee and assist with leg extraction",
-    "Opponent is focused on heel hook setup rather than preventing positional recovery"
-  ],
-  "execution_steps": [
+  "related_content": [
     {
-      "step_number": 1,
-      "action": "Protect the heel",
-      "description": "Maintain strong dorsiflexion with toes pulled toward shin, keeping ankle tight to prevent opponent from establishing heel hook finishing grip during the entire recovery sequence"
+      "name": "Ushiro Ashi-Garami",
+      "relationship": "Starting position for this recovery technique"
     },
     {
-      "step_number": 2,
-      "action": "Control inside knee",
-      "description": "Use both hands to grip opponent's inside knee, pushing it away from your centerline to create space and prevent them from deepening entanglement or transitioning to saddle position"
+      "name": "Single Leg X-Guard",
+      "relationship": "Target position upon successful recovery"
     },
     {
-      "step_number": 3,
-      "action": "Create hip angle",
-      "description": "Rotate hips toward the opponent's far leg, creating diagonal angle that allows trapped leg to thread through the entanglement rather than pulling straight back against resistance"
+      "name": "Saddle",
+      "relationship": "Opponent's counter-transition if recovery fails"
     },
     {
-      "step_number": 4,
-      "action": "Thread trapped leg",
-      "description": "Pull trapped leg through the space created by hip rotation and knee control, keeping foot flexed and sliding shin across opponent's thigh while maintaining constant pressure pushing their knee away"
+      "name": "X-Guard",
+      "relationship": "Advanced recovery target with similar mechanics"
     },
     {
-      "step_number": 5,
-      "action": "Establish outside foot",
-      "description": "Place outside foot on opponent's far hip as leg clears entanglement, establishing the critical control point for Single Leg X structure that prevents opponent from simply standing or circling away"
+      "name": "Ashi Garami Escape",
+      "relationship": "Parent escape system containing this recovery"
     },
     {
-      "step_number": 6,
-      "action": "Complete Single Leg X",
-      "description": "Bring inside leg across opponent's thigh to hook behind their knee, clasp hands around their ankle, and elevate hips to establish full Single Leg X-Guard control with immediate sweep and submission threats"
+      "name": "Leg Extraction to Guard",
+      "relationship": "Alternative recovery technique from same position"
+    },
+    {
+      "name": "Granby Roll to Guard",
+      "relationship": "Alternative escape option from ushiro"
+    },
+    {
+      "name": "Inside Heel Hook",
+      "relationship": "Primary submission threat from completed Single Leg X"
+    },
+    {
+      "name": "Kneebar",
+      "relationship": "Secondary submission available from Single Leg X position"
+    },
+    {
+      "name": "Inversion to Turtle",
+      "relationship": "Alternative escape when recovery is blocked"
     }
   ],
-  "common_counters": [
-    {
-      "counter": "Opponent drives inside leg deep to establish saddle before recovery completes",
-      "effectiveness": "High",
-      "your_response": "Accelerate the threading motion and accept turtle position if saddle transition is imminent, rather than fighting a losing positional battle"
-    },
-    {
-      "counter": "Opponent posts on far leg and circles away as you establish Single Leg X structure",
-      "effectiveness": "Medium",
-      "your_response": "Follow the circular movement with hip rotation, maintaining foot on hip connection and transitioning to technical standup or X-Guard entry"
-    },
-    {
-      "counter": "Opponent grabs heel during extraction when foot momentarily extends",
-      "effectiveness": "High",
-      "your_response": "Immediately re-establish dorsiflexion and abort Single Leg X entry, returning to inside knee control and waiting for safer extraction window"
-    },
-    {
-      "counter": "Opponent sprawls weight forward to flatten your hips during threading",
-      "effectiveness": "Medium",
-      "your_response": "Use the sprawl momentum to assist your hip rotation, threading leg through and coming up to seated position rather than staying on back"
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Relaxing dorsiflexion during leg threading, allowing heel to become exposed",
-      "consequence": "Opponent catches heel hook grip during extraction, converting escape attempt into submission finish",
-      "correction": "Maintain constant dorsiflexion throughout entire recovery sequence, treating heel protection as highest priority even above speed"
-    },
-    {
-      "error": "Attempting recovery when opponent's inside leg control is too deep",
-      "consequence": "Opponent easily transitions to saddle position as you create space but cannot complete extraction",
-      "correction": "Assess entanglement depth before committing, choosing turtle recovery or counter-attack if inside leg is controlling thigh deeply"
-    },
-    {
-      "error": "Pulling leg straight back rather than creating threading angle with hip rotation",
-      "consequence": "Leg catches on opponent's entanglement, exhausting energy without creating extraction and potentially tightening their control",
-      "correction": "Rotate hips toward opponent's far leg first, then thread the trapped leg through the diagonal angle created"
-    },
-    {
-      "error": "Releasing inside knee control prematurely to establish Single Leg X grips",
-      "consequence": "Opponent drives inside leg deep during transition, establishing saddle before Single Leg X structure is complete",
-      "correction": "Maintain knee control until outside foot is firmly on opponent's hip, only then transition hands to ankle control"
-    },
-    {
-      "error": "Failing to elevate hips after establishing Single Leg X structure",
-      "consequence": "Opponent easily smashes guard flat, passing to side control or re-establishing leg entanglement from top",
-      "correction": "Immediately elevate hips upon completing Single Leg X entry, creating kuzushi and threatening sweeps"
-    }
-  ],
-  "training_progressions": [
-    {
-      "phase": "Week 1-2",
-      "focus": "Fundamentals",
-      "description": "Practice leg threading mechanics with partner providing static entanglement. Focus on hip rotation angle, dorsiflexion maintenance, and inside knee control sequence without time pressure."
-    },
-    {
-      "phase": "Week 3-4",
-      "focus": "Timing",
-      "description": "Partner provides light resistance and moves to attack heel hook. Practice recognizing recovery windows during grip changes and weight shifts, aborting when entanglement is too deep."
-    },
-    {
-      "phase": "Week 5-6",
-      "focus": "Combinations",
-      "description": "Chain Single Leg X Recovery with immediate sweep attempts and submission entries. Practice transitioning to X-Guard, technical standup, and heel hook attacks from completed recovery."
-    },
-    {
-      "phase": "Week 7+",
-      "focus": "Live application",
-      "description": "Apply technique in live rolling and positional sparring. Start from Ushiro Ashi-Garami bottom with partner working genuine submissions, using recovery against realistic offensive pressure."
-    }
-  ],
+  "attacker": {
+    "name": "Single Leg X Recovery Attacker",
+    "description": "How to execute Single Leg X Recovery in BJJ. Attacking perspective with setup, execution steps, and counters for extracting from Ushiro Ashi-Garami.",
+    "overview": "As the person executing Single Leg X Recovery, you are the practitioner trapped in Ushiro Ashi-Garami who is working to extract your entangled leg and establish Single Leg X-Guard. This is a defensive-to-offensive transition where your primary challenge is threading your trapped leg through the opponent's entanglement while protecting your heel from submission. The technique requires precise coordination between hip rotation, knee control, and foot placement to navigate the extraction without exposing vulnerable joints.\n\nThe recovery hinges on controlling the opponent's inside knee to prevent them from deepening the entanglement into saddle while you create a threading angle with hip rotation. Success depends on recognizing the correct windows for extraction—typically when the opponent adjusts grips or shifts weight to set up their heel hook. The entire sequence must be executed with constant dorsiflexion to deny finishing grips on your heel, making foot awareness the non-negotiable foundation of the technique.\n\nOnce the threading is complete, establishing Single Leg X structure immediately—foot on hip, inside leg hooked behind their knee, hands on ankle, hips elevated—transforms you from defender to attacker. The speed of this positional reversal is what makes this recovery superior to simply escaping to neutral, as you gain immediate sweep and submission threats before the opponent can adjust their defensive posture.",
+    "key_principles": [
+      "Maintain dorsiflexion throughout extraction to protect heel from finishing grips",
+      "Control opponent's inside knee with both hands to prevent saddle transition during recovery",
+      "Thread the trapped leg by creating angle with hip rotation rather than pulling straight back",
+      "Establish outside foot position on opponent's hip before committing to Single Leg X structure",
+      "Time the recovery when opponent adjusts grips or shifts weight to attack",
+      "Keep elbows tight to body to prevent opponent from establishing upper body control during transition"
+    ],
+    "setup_requirements": [
+      "Opponent's inside leg control is shallow enough to allow leg threading movement",
+      "Heel is protected and opponent has not established finishing grip on foot",
+      "Sufficient hip mobility to rotate and create threading angle for trapped leg",
+      "Hands are free to control opponent's inside knee and assist with leg extraction",
+      "Opponent is focused on heel hook setup rather than preventing positional recovery"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Protect the heel",
+        "description": "Maintain strong dorsiflexion with toes pulled toward shin, keeping ankle tight to prevent opponent from establishing heel hook finishing grip during the entire recovery sequence"
+      },
+      {
+        "step_number": 2,
+        "action": "Control inside knee",
+        "description": "Use both hands to grip opponent's inside knee, pushing it away from your centerline to create space and prevent them from deepening entanglement or transitioning to saddle position"
+      },
+      {
+        "step_number": 3,
+        "action": "Create hip angle",
+        "description": "Rotate hips toward the opponent's far leg, creating diagonal angle that allows trapped leg to thread through the entanglement rather than pulling straight back against resistance"
+      },
+      {
+        "step_number": 4,
+        "action": "Thread trapped leg",
+        "description": "Pull trapped leg through the space created by hip rotation and knee control, keeping foot flexed and sliding shin across opponent's thigh while maintaining constant pressure pushing their knee away"
+      },
+      {
+        "step_number": 5,
+        "action": "Establish outside foot on hip",
+        "description": "Place outside foot on opponent's far hip as leg clears entanglement, establishing the critical control point for Single Leg X structure that prevents opponent from simply standing or circling away"
+      },
+      {
+        "step_number": 6,
+        "action": "Complete Single Leg X structure",
+        "description": "Bring inside leg across opponent's thigh to hook behind their knee, clasp hands around their ankle, and elevate hips to establish full Single Leg X-Guard control with immediate sweep and submission threats"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent drives inside leg deep to establish saddle before recovery completes",
+        "effectiveness": "High",
+        "your_response": "Accelerate the threading motion and accept turtle position if saddle transition is imminent, rather than fighting a losing positional battle",
+        "targets_outcome": "Saddle/Bottom"
+      },
+      {
+        "counter": "Opponent posts on far leg and circles away as you establish Single Leg X structure",
+        "effectiveness": "Medium",
+        "your_response": "Follow the circular movement with hip rotation, maintaining foot on hip connection and transitioning to technical standup or X-Guard entry",
+        "targets_outcome": "Ushiro Ashi-Garami/Bottom"
+      },
+      {
+        "counter": "Opponent grabs heel during extraction when foot momentarily extends",
+        "effectiveness": "High",
+        "your_response": "Immediately re-establish dorsiflexion and abort Single Leg X entry, returning to inside knee control and waiting for safer extraction window",
+        "targets_outcome": "Ushiro Ashi-Garami/Bottom"
+      },
+      {
+        "counter": "Opponent sprawls weight forward to flatten your hips during threading",
+        "effectiveness": "Medium",
+        "your_response": "Use the sprawl momentum to assist your hip rotation, threading leg through and coming up to seated position rather than staying on back",
+        "targets_outcome": "Ushiro Ashi-Garami/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Relaxing dorsiflexion during leg threading, allowing heel to become exposed",
+        "consequence": "Opponent catches heel hook grip during extraction, converting escape attempt into submission finish",
+        "correction": "Maintain constant dorsiflexion throughout entire recovery sequence, treating heel protection as highest priority even above speed"
+      },
+      {
+        "error": "Attempting recovery when opponent's inside leg control is too deep",
+        "consequence": "Opponent easily transitions to saddle position as you create space but cannot complete extraction",
+        "correction": "Assess entanglement depth before committing, choosing turtle recovery or counter-attack if inside leg is controlling thigh deeply"
+      },
+      {
+        "error": "Pulling leg straight back rather than creating threading angle with hip rotation",
+        "consequence": "Leg catches on opponent's entanglement, exhausting energy without creating extraction and potentially tightening their control",
+        "correction": "Rotate hips toward opponent's far leg first, then thread the trapped leg through the diagonal angle created"
+      },
+      {
+        "error": "Releasing inside knee control prematurely to establish Single Leg X grips",
+        "consequence": "Opponent drives inside leg deep during transition, establishing saddle before Single Leg X structure is complete",
+        "correction": "Maintain knee control until outside foot is firmly on opponent's hip, only then transition hands to ankle control"
+      },
+      {
+        "error": "Failing to elevate hips after establishing Single Leg X structure",
+        "consequence": "Opponent easily smashes guard flat, passing to side control or re-establishing leg entanglement from top",
+        "correction": "Immediately elevate hips upon completing Single Leg X entry, creating kuzushi and threatening sweeps"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Fundamentals",
+        "description": "Practice leg threading mechanics with partner providing static entanglement. Focus on hip rotation angle, dorsiflexion maintenance, and inside knee control sequence without time pressure."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Timing",
+        "description": "Partner provides light resistance and moves to attack heel hook. Practice recognizing recovery windows during grip changes and weight shifts, aborting when entanglement is too deep."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Combinations",
+        "description": "Chain Single Leg X Recovery with immediate sweep attempts and submission entries. Practice transitioning to X-Guard, technical standup, and heel hook attacks from completed recovery."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live application",
+        "description": "Apply technique in live rolling and positional sparring. Start from Ushiro Ashi-Garami bottom with partner working genuine submissions, using recovery against realistic offensive pressure."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary goal of Single Leg X Recovery?",
+        "answer": "The primary goal is to extract your trapped leg from Ushiro Ashi-Garami while simultaneously establishing Single Leg X-Guard, transforming a defensive survival position into an offensive platform with immediate sweep and submission threats against the opponent."
+      },
+      {
+        "question": "Your opponent's inside leg is deeply controlling your thigh - should you attempt recovery?",
+        "answer": "No. When inside leg control is deep, attempting Single Leg X Recovery will likely result in opponent transitioning to saddle position. Instead, accept turtle recovery or work counter-heel hooks if available. Only attempt recovery when inside leg control is shallow, below knee level."
+      },
+      {
+        "question": "What foot position must you maintain throughout the entire extraction?",
+        "answer": "Maintain strong dorsiflexion with toes pulled toward shin throughout the entire technique. This protects the heel from finishing grips even during the vulnerable threading moment. Never point toes or relax the foot until Single Leg X is fully established."
+      },
+      {
+        "question": "Why do you create hip angle rather than pulling the leg straight back?",
+        "answer": "Pulling straight back fights against the opponent's leg configuration directly, exhausting energy and potentially tightening their control. Hip rotation toward their far leg creates a diagonal threading angle that allows your leg to slip through the entanglement along the path of least resistance."
+      },
+      {
+        "question": "When is the optimal timing window to initiate Single Leg X Recovery?",
+        "answer": "The optimal timing is when your opponent adjusts their grips to attack the heel hook or shifts their weight to establish better finishing position. These adjustments create windows where their inside leg control temporarily weakens, allowing the threading motion to succeed before they can re-establish deep control."
+      },
+      {
+        "question": "Your opponent grabs your heel during the threading motion - what is the correct response?",
+        "answer": "Immediately re-establish strong dorsiflexion, abort the Single Leg X entry, and return both hands to inside knee control. Do not continue the recovery with heel exposed. Wait for the opponent to release the grip or adjust position before attempting another recovery window."
+      },
+      {
+        "question": "What are the critical grips at each phase of the recovery sequence?",
+        "answer": "Initially, both hands grip the opponent's inside knee to create extraction space and prevent saddle transition. During the threading phase, one hand may shift to assist leg movement while the other maintains knee pressure. After extraction, hands transition to cup the opponent's ankle while feet establish Single Leg X hooks on hip and behind knee."
+      },
+      {
+        "question": "What should you do immediately after establishing Single Leg X structure?",
+        "answer": "Immediately elevate your hips to create kuzushi and begin threatening sweeps. Static Single Leg X on flat hips allows opponent to smash the guard or re-establish leg entanglement. The elevated hip position loads sweeping mechanics and prevents guard passing."
+      },
+      {
+        "question": "Your opponent sprawls forward during your threading attempt - how do you adapt?",
+        "answer": "Use the sprawl momentum to assist your hip rotation rather than fighting it. Their forward pressure actually helps you thread the leg through by driving your hips into the rotation angle. Come up to seated position rather than staying flat on your back, using their sprawl energy to accelerate the transition to Single Leg X."
+      },
+      {
+        "question": "How do you decide between Single Leg X Recovery and turtle recovery from Ushiro Ashi-Garami?",
+        "answer": "Choose Single Leg X Recovery when the opponent's inside leg control is shallow (below knee level), your heel is protected, and your hands are free to control their knee. Choose turtle recovery when inside leg control is deep, the opponent has grip proximity to your heel, or you have been defending for more than five seconds without creating extraction progress."
+      }
+    ],
+    "safety_considerations": "Single Leg X Recovery involves vulnerable knee and ankle positions throughout the extraction sequence. Never force the threading motion against deep resistance as this can strain the knee or expose the ankle to submission. Train with partners who understand the dangers of heel hooks and will release immediately upon tap. Beginners should drill the movement pattern at slow speed before adding any resistance. If you feel sharp pain in knee or ankle during the threading, immediately tap and reset rather than fighting through. Avoid this technique when fatigued as dorsiflexion maintenance requires concentration."
+  },
+  "defender": {
+    "name": "Single Leg X Recovery Defender",
+    "description": "How to defend against Single Leg X Recovery in BJJ. Recognition cues, defensive options, and strategies for maintaining leg entanglement control.",
+    "overview": "As the defender against Single Leg X Recovery, you are the top player in Ushiro Ashi-Garami working to maintain your leg entanglement and prevent the bottom player from extracting their trapped leg to establish Single Leg X-Guard. Your primary challenge is recognizing the recovery attempt early and shutting it down before the threading motion gains momentum. This requires maintaining deep inside leg control, preventing the opponent from pushing your knee away, and capitalizing on any heel exposure during their extraction attempt.\n\nThe critical defensive window occurs during the opponent's hip rotation and leg threading phases, when their attention is split between extraction mechanics and heel protection. Your most effective responses target this split focus—either deepening your entanglement toward saddle when they create space, or attacking the heel when dorsiflexion lapses during the threading motion. Understanding which counter to apply depends on reading their body positioning and the depth of your remaining control.\n\nSuccessful defense requires proactive control maintenance rather than reactive scrambling. By keeping your inside leg deep on their thigh and maintaining constant heel-side grip pressure, you deny the conditions necessary for recovery. When recovery attempts begin despite your control, transitioning to saddle or re-engaging heel attacks converts their escape effort into a worse positional outcome for them.",
+    "key_principles": [
+      "Maintain deep inside leg control on opponent's thigh to deny the space needed for leg threading",
+      "Keep constant grip pressure toward the heel to exploit any dorsiflexion lapse during extraction",
+      "Recognize hip rotation as the primary indicator that recovery is being attempted",
+      "Drive inside leg deeper when opponent pushes your knee away rather than allowing space creation",
+      "Transition to saddle immediately when opponent creates space but cannot complete extraction",
+      "Use weight distribution and hip pressure to flatten opponent's recovery angle"
+    ],
+    "recognition_cues": [
+      "Opponent's hands shift from heel defense to pushing against your inside knee, indicating they are prioritizing extraction over submission defense",
+      "Hip rotation toward your far leg begins, creating the diagonal threading angle that precedes leg extraction",
+      "Opponent's dorsiflexion becomes exaggerated and deliberate, suggesting they are preparing for a high-risk extraction where heel exposure is possible",
+      "Weight shifts from defensive flat position to angled hip position oriented toward your far side"
+    ],
+    "defensive_options": [
+      {
+        "action": "Drive inside leg deep to establish saddle position",
+        "when_to_use": "When opponent begins pushing your knee away and creating space for threading, step your inside leg through to control their thigh deeply",
+        "targets_outcome": "Saddle/Bottom",
+        "if_successful": "You transition to saddle, a higher-control entanglement with immediate heel hook and kneebar threats that puts opponent in worse position than before their recovery attempt",
+        "risk": "If you overcommit to the deep step and opponent has already partially extracted, you may lose entanglement entirely and they establish Single Leg X"
+      },
+      {
+        "action": "Attack the heel during threading when dorsiflexion lapses",
+        "when_to_use": "When opponent's foot momentarily extends or relaxes during the threading motion, creating a brief window for heel hook grip establishment",
+        "targets_outcome": "Ushiro Ashi-Garami/Bottom",
+        "if_successful": "You catch a heel hook grip during their most vulnerable moment, forcing them to abort the recovery and return to full defensive mode or face submission",
+        "risk": "If the heel grab fails, you may have released inside leg control to reach for the heel, giving them the space needed to complete extraction"
+      },
+      {
+        "action": "Sprawl forward and flatten opponent's hips to deny threading angle",
+        "when_to_use": "When opponent begins hip rotation but has not yet started the threading motion, use forward pressure to pin their hips flat and eliminate the diagonal angle they need",
+        "targets_outcome": "Ushiro Ashi-Garami/Bottom",
+        "if_successful": "Opponent's hips are flattened, denying the rotation angle needed for threading and allowing you to re-establish optimal attacking position with heel exposure",
+        "risk": "Forward sprawl can assist their hip rotation if timed incorrectly, potentially accelerating rather than preventing the recovery"
+      },
+      {
+        "action": "Circle away on far leg while maintaining ankle control",
+        "when_to_use": "When opponent has partially completed extraction and is establishing foot on your hip, post on far leg and circle away to prevent full Single Leg X establishment",
+        "targets_outcome": "Ushiro Ashi-Garami/Bottom",
+        "if_successful": "You break the Single Leg X structure before it is fully established, maintaining some leg entanglement control and resetting to ashi-garami attacking position",
+        "risk": "Circling away may create enough distance for opponent to disengage entirely and recover to open guard"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Saddle/Bottom",
+        "how": "When opponent creates space by pushing your inside knee away, use that momentum to step your inside leg through and deepen the entanglement to saddle. Their extraction attempt actually assists your transition to a superior control position with immediate submission threats."
+      },
+      {
+        "outcome": "Ushiro Ashi-Garami/Bottom",
+        "how": "Maintain deep inside leg control and constant heel-side grip pressure throughout the recovery attempt. When their threading fails due to insufficient space or your pressure, they return to the starting position having expended energy while your control is intact."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing inside leg to become shallow by not actively driving knee into opponent's thigh",
+        "consequence": "Creates sufficient space for opponent to thread their leg through the entanglement, completing the recovery to Single Leg X-Guard",
+        "correction": "Actively drive your inside knee toward opponent's hip throughout, increasing pressure when you feel them pushing your knee away rather than accepting the space"
+      },
+      {
+        "error": "Focusing exclusively on heel hook finish while opponent initiates recovery",
+        "consequence": "Tunnel vision on submission causes you to miss the positional escape, and opponent establishes Single Leg X before you can finish the heel hook",
+        "correction": "Recognize that maintaining entanglement control is higher priority than finishing the submission. Address the recovery attempt first by deepening control, then return to submission attacks from improved position"
+      },
+      {
+        "error": "Releasing entanglement to reach for heel during threading instead of maintaining inside leg pressure",
+        "consequence": "Trading inside leg control for a speculative heel grab often fails, giving opponent the exact space they need to complete extraction",
+        "correction": "Only attack the heel when you can do so without sacrificing inside leg depth. If heel is not immediately available, prioritize transitioning to saddle over a low-percentage heel grab"
+      },
+      {
+        "error": "Remaining passive while opponent systematically pushes your knee and creates threading angle",
+        "consequence": "Gradual erosion of your control as opponent executes the recovery sequence at their pace without defensive pressure",
+        "correction": "Counter every push on your knee with increased forward pressure. When opponent rotates hips, follow with your own hip adjustment to maintain perpendicular alignment and control depth"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that your opponent is attempting Single Leg X Recovery?",
+        "answer": "The earliest cue is their hands shifting from heel defense to your inside knee. When the bottom player stops protecting their heel and begins pushing against your knee, they have committed to an extraction-based recovery rather than continued submission defense. This grip change precedes the hip rotation by one to two seconds."
+      },
+      {
+        "question": "Your opponent starts pushing your inside knee away - what is your immediate priority?",
+        "answer": "Drive your inside leg deeper into their thigh rather than allowing the space creation. If they are pushing your knee, they have stopped defending their heel—recognize this as both a recovery threat and a submission opportunity. Either deepen to saddle by stepping through, or attack the now-undefended heel, but never passively accept the space."
+      },
+      {
+        "question": "When should you transition to saddle rather than trying to maintain Ushiro Ashi-Garami?",
+        "answer": "Transition to saddle when opponent has successfully created threading space but has not yet completed extraction. Their knee push has created room for your inside leg to step deeper into a saddle configuration. This is superior to fighting to maintain ushiro because their space creation actually assists your saddle entry, converting their escape attempt into a positionally worse outcome."
+      },
+      {
+        "question": "How do you exploit the moment when your opponent's dorsiflexion lapses during threading?",
+        "answer": "The threading motion creates a brief window where the opponent's foot may extend or relax as they focus on navigating their leg through the entanglement. In this moment, quickly secure a two-on-one grip on their heel and begin rotational pressure. This converts their escape attempt into a submission opportunity, but you must be confident in the grip before committing."
+      },
+      {
+        "question": "Your opponent has established foot on your hip but has not completed the full Single Leg X hooks - what options remain?",
+        "answer": "You still have a viable defensive window. Circle away on your far leg to break their foot-on-hip connection before they can hook behind your knee with their inside leg. Simultaneously, work to re-establish control on their ankle to prevent them from completing the structure. If their foot is firmly planted, address it by cupping and redirecting rather than pulling straight away."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Recognition and control maintenance",
+        "description": "Practice maintaining deep inside leg control while partner performs slow-speed recovery attempts. Focus on feeling when partner pushes your knee and responding with increased forward pressure rather than passive acceptance."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Counter-transitions",
+        "description": "Practice transitioning to saddle when partner creates extraction space. Drill the inside leg deepening motion that converts their space creation into your saddle entry. Add heel attack timing when partner's dorsiflexion lapses."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Decision-making under pressure",
+        "description": "Partner attempts recovery at moderate speed with varied setups. Practice reading whether to deepen to saddle, attack the heel, sprawl forward, or circle away based on the specific recovery variation being attempted."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live positional sparring",
+        "description": "Start in Ushiro Ashi-Garami top with partner working genuine recovery attempts. Apply defensive concepts against realistic speed and resistance, developing the ability to maintain offensive control throughout scramble sequences."
+      }
+    ]
+  },
   "variants_and_adaptations": [
     {
       "variant_name": "Direct to X-Guard Recovery",
@@ -164,91 +390,5 @@
       "when_to_use": "When opponent partially counters recovery and you need a transitional position before completing entry"
     }
   ],
-  "knowledge_assessment": [
-    {
-      "question": "What is the primary goal of Single Leg X Recovery?",
-      "answer": "The primary goal is to extract your trapped leg from Ushiro Ashi-Garami while simultaneously establishing Single Leg X-Guard, transforming a defensive survival position into an offensive platform with immediate sweep and submission threats against the opponent."
-    },
-    {
-      "question": "What position do you start Single Leg X Recovery from?",
-      "answer": "This technique starts from Ushiro Ashi-Garami bottom, specifically when you are the defender whose leg is trapped in the reversed leg entanglement after an unsuccessful inversion escape attempt from standard ashi-garami."
-    },
-    {
-      "question": "What are the key grips needed for Single Leg X Recovery?",
-      "answer": "The initial grips involve both hands controlling the opponent's inside knee, pushing it away to create extraction space. Upon completing the threading, hands transition to cup the opponent's ankle while feet establish control on hip and behind knee."
-    },
-    {
-      "question": "How do you counter Single Leg X Recovery as the top player?",
-      "answer": "The most effective counter is driving the inside leg deep to establish saddle position before the recovery completes. Additionally, grabbing the heel during the threading moment when dorsiflexion may slip, or posting on far leg to circle away from the Single Leg X structure are high-percentage responses."
-    },
-    {
-      "question": "When is the best time to attempt Single Leg X Recovery?",
-      "answer": "The optimal timing is when your opponent adjusts their grips to attack the heel hook or shifts their weight to establish better finishing position. These adjustments create windows where their inside leg control temporarily weakens, allowing the threading motion."
-    },
-    {
-      "question": "Your opponent's inside leg is deeply controlling your thigh - should you attempt recovery?",
-      "answer": "No. When inside leg control is deep, attempting Single Leg X Recovery will likely result in opponent transitioning to saddle position. Instead, accept turtle recovery or work counter-heel hooks if available. Only attempt recovery when inside leg control is shallow, below knee level."
-    },
-    {
-      "question": "What foot position must you maintain throughout the entire extraction?",
-      "answer": "Maintain strong dorsiflexion with toes pulled toward shin throughout the entire technique. This protects the heel from finishing grips even during the vulnerable threading moment. Never point toes or relax the foot until Single Leg X is fully established."
-    },
-    {
-      "question": "Why do you create hip angle rather than pulling the leg straight back?",
-      "answer": "Pulling straight back fights against the opponent's leg configuration directly, exhausting energy and potentially tightening their control. Hip rotation toward their far leg creates a diagonal threading angle that allows your leg to slip through the entanglement along the path of least resistance."
-    },
-    {
-      "question": "What should you do immediately after establishing Single Leg X structure?",
-      "answer": "Immediately elevate your hips to create kuzushi and begin threatening sweeps. Static Single Leg X on flat hips allows opponent to smash the guard or re-establish leg entanglement. The elevated hip position loads sweeping mechanics and prevents guard passing."
-    },
-    {
-      "question": "Your opponent grabs your heel during the threading motion - what is the correct response?",
-      "answer": "Immediately re-establish strong dorsiflexion, abort the Single Leg X entry, and return both hands to inside knee control. Do not continue the recovery with heel exposed. Wait for the opponent to release the grip or adjust position before attempting another recovery window."
-    }
-  ],
-  "safety_considerations": "Single Leg X Recovery involves vulnerable knee and ankle positions throughout the extraction sequence. Never force the threading motion against deep resistance as this can strain the knee or expose the ankle to submission. Train with partners who understand the dangers of heel hooks and will release immediately upon tap. Beginners should drill the movement pattern at slow speed before adding any resistance. If you feel sharp pain in knee or ankle during the threading, immediately tap and reset rather than fighting through. Avoid this technique when fatigued as dorsiflexion maintenance requires concentration.",
-  "position_integration": "Single Leg X Recovery occupies a critical role in the defensive leg lock system, providing a path from compromised Ushiro Ashi-Garami to offensive Single Leg X-Guard. This transition links the ashi-garami escape system to the Single Leg X attack system, allowing practitioners to chain directly into sweeps, heel hooks, and kneebars upon successful recovery. The technique complements other escape options like turtle recovery and counter-heel hooks, and practitioners should develop decision-making frameworks for selecting the appropriate escape based on entanglement depth and opponent's grip positioning.",
-  "related_content": [
-    {
-      "name": "Ushiro Ashi-Garami",
-      "relationship": "Starting position"
-    },
-    {
-      "name": "Single Leg X-Guard",
-      "relationship": "Target position upon successful recovery"
-    },
-    {
-      "name": "Saddle",
-      "relationship": "Opponent's counter-transition if recovery fails"
-    },
-    {
-      "name": "X-Guard",
-      "relationship": "Advanced recovery target with similar mechanics"
-    },
-    {
-      "name": "Ashi Garami Escape",
-      "relationship": "Parent escape system"
-    },
-    {
-      "name": "Leg Extraction to Guard",
-      "relationship": "Alternative recovery technique"
-    },
-    {
-      "name": "Granby Roll Escape",
-      "relationship": "Alternative escape option from ushiro"
-    },
-    {
-      "name": "Inside Heel Hook",
-      "relationship": "Primary submission threat from Single Leg X"
-    },
-    {
-      "name": "Kneebar",
-      "relationship": "Secondary submission from Single Leg X position"
-    },
-    {
-      "name": "Inversion to Turtle",
-      "relationship": "Alternative escape when recovery is blocked"
-    }
-  ],
-  "success_rate": 58
+  "position_integration": "Single Leg X Recovery occupies a critical role in the defensive leg lock system, providing a path from compromised Ushiro Ashi-Garami to offensive Single Leg X-Guard. This transition links the ashi-garami escape system to the Single Leg X attack system, allowing practitioners to chain directly into sweeps, heel hooks, and kneebars upon successful recovery. The technique complements other escape options like turtle recovery and counter-heel hooks, and practitioners should develop decision-making frameworks for selecting the appropriate escape based on entanglement depth and opponent's grip positioning."
 }

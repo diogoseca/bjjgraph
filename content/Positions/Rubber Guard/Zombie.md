@@ -93,21 +93,25 @@ Understanding both perspectives of the Zombie position is essential for modern n
 ### Available Transitions
 
 
-- **[[Old School Sweep]]** (15% of attempts)
+- **[[Old School Sweep]]** (27% of attempts)
 
-- **[[Electric Chair Submission]]** (12% of attempts)
+- **[[Electric Chair Transition]]** (12% of attempts)
 
-- **[[Lockdown Sweeps]]** (15% of attempts)
+- **[[Lockdown Recovery]]** (11% of attempts)
 
-- **[[Guard Recovery]]** (16% of attempts)
+- **[[Guard Recovery]]** (14% of attempts)
 
-- **[[Granby Roll]]** (12% of attempts)
+- **[[Granby Roll to Guard]]** (10% of attempts)
 
-- **[[Rolling Back Take]]** (10% of attempts)
+- **[[Rolling Back Take]]** (8% of attempts)
 
-- **[[Turtle to Truck]]** (10% of attempts)
+- **[[Roll to Truck]]** (7% of attempts)
 
-- **[[Deep Half Entry]]** (10% of attempts)
+- **[[Deep Half Entry]]** (6% of attempts)
+
+- **[[Escape Zombie Control]]** (3% of attempts)
+
+- **[[Turn to Face from Zombie]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -172,23 +176,27 @@ Understanding both perspectives of the Zombie position is essential for modern n
 ### Available Transitions
 
 
-- **[[Crossface Pass]]** (12% of attempts)
+- **[[Crossface Pass]]** (27% of attempts)
 
-- **[[Leg Weave Pass]]** (11% of attempts)
+- **[[Leg Weave Pass]]** (10% of attempts)
 
-- **[[Knee Slice Pass]]** (12% of attempts)
+- **[[Knee Slice Pass]]** (11% of attempts)
 
-- **[[Smash Pass]]** (11% of attempts)
+- **[[Smash Pass]]** (9% of attempts)
 
-- **[[Turtle to Back Take]]** (14% of attempts)
+- **[[Turtle to Back Take]]** (12% of attempts)
 
-- **[[Crab Ride to Back]]** (12% of attempts)
+- **[[Crab Ride to Back]]** (10% of attempts)
 
-- **[[Anaconda from Turtle]]** (10% of attempts)
+- **[[Anaconda from Turtle]]** (8% of attempts)
 
-- **[[Darce from Turtle]]** (9% of attempts)
+- **[[Darce from Turtle]]** (6% of attempts)
 
-- **[[Back Take Generic]]** (9% of attempts)
+- **[[Back Take]]** (4% of attempts)
+
+- **[[Posture Recovery from Zombie]]** (2% of attempts)
+
+- **[[Strip Grip from Zombie]]** (1% of attempts)
 
 
 ### Common Mistakes

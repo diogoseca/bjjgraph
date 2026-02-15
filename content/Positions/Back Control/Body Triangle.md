@@ -93,21 +93,21 @@ From this position, you maintain upper body control with your arms while your le
 ### Available Transitions
 
 
-- **[[Rear Naked Choke]]** (15% of attempts)
+- **[[Rear Naked Choke]]** (22% of attempts)
 
-- **[[Armbar from Back with Legs]]** (13% of attempts)
+- **[[Armbar from Back Transition]]** (10% of attempts)
 
-- **[[Bow and Arrow Choke]]** (14% of attempts)
+- **[[Bow and Arrow Choke]]** (12% of attempts)
 
-- **[[Short Choke]]** (12% of attempts)
+- **[[Short Choke]]** (10% of attempts)
 
-- **[[Triangle Choke Back]]** (11% of attempts)
+- **[[Triangle from Back]]** (8% of attempts)
 
-- **[[Back Control to Crucifix]]** (12% of attempts)
+- **[[Back Control to Crucifix]]** (15% of attempts)
 
-- **[[Turtle to Truck]]** (10% of attempts)
+- **[[Back Control Maintenance]]** (15% of attempts)
 
-- **[[Side Control to Mount]]** (13% of attempts)
+- **[[Kimura from Back]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -168,17 +168,19 @@ From this position, you maintain upper body control with your arms while your le
 ### Available Transitions
 
 
-- **[[Hip Escape to Turtle]]** (20% of attempts)
+- **[[Hip Escape to Turtle]]** (18% of attempts)
 
-- **[[Frame and Shrimp]]** (18% of attempts)
+- **[[Frame and Shrimp to Guard]]** (16% of attempts)
 
-- **[[Granby Roll]]** (19% of attempts)
+- **[[Granby Roll to Guard]]** (12% of attempts)
 
-- **[[Rolling Back Take Reversal]]** (14% of attempts)
+- **[[Triangle Clear to Side]]** (23% of attempts)
 
-- **[[Triangle Clear to Side]]** (16% of attempts)
+- **[[Standing up in Base]]** (12% of attempts)
 
-- **[[Technical Standup]]** (13% of attempts)
+- **[[Back Door Escape]]** (13% of attempts)
+
+- **[[Rolling Back Take Reversal]]** (6% of attempts)
 
 
 ### Common Mistakes
@@ -221,17 +223,17 @@ From this position, you maintain upper body control with your arms while your le
 
 - **[[Rear Triangle]]** - Alternative triangle configuration from back control
 
-- **[[Seat Belt Control Back]]** - Upper body control variation commonly paired with body triangle
-
 - **[[Crucifix]]** - Transition target when opponent reaches back to clear triangle
 
 - **[[Truck]]** - Advanced transition option from body triangle control
 
 - **[[Mount]]** - Alternative dominant position if triangle must be released
 
-- **[[Standing Back Control]]** - Standing variation of back control before transitioning to ground
-
 - **[[Gift Wrap]]** - Upper body control variation that pairs well with triangle
+
+- **[[Turtle]]** - Common escape destination for the defender trapped in body triangle
+
+- **[[Half Guard]]** - Alternative escape destination through guard recovery sequences
 
 
 </section>

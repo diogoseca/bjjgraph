@@ -1,0 +1,13 @@
+{
+  "name": "Strip Grip from Zombie",
+  "description": "",
+  "tags": [],
+  "from_position": "Zombie/Top",
+  "outcomes": [
+    {
+      "to": "Open Guard/Top",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

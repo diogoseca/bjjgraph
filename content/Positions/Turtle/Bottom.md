@@ -20,38 +20,38 @@ description: "Master Turtle Bottom position in BJJ. Defensive position with guar
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll",
-      "text": "From this position, attempt Granby Roll. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Granby Roll to Guard",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Standup",
-      "text": "From this position, attempt Technical Standup. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Technical Stand-up",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling to Guard",
-      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 21% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Sit Through to Guard",
-      "text": "From this position, attempt Sit Through to Guard. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Sit Through to Guard. This technique is attempted in 16% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Peterson Roll",
-      "text": "From this position, attempt Peterson Roll. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Peterson Roll. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -205,17 +205,19 @@ Turtle Bottom is a defensive position where the bottom practitioner is on their 
 
 ## Available Escapes
 
-### [[Granby Roll]] (16% of attempts)
+### [[Granby Roll to Guard]] (15% of attempts)
 
-### [[Technical Standup]] (18% of attempts)
+### [[Technical Stand-up]] (16% of attempts)
 
-### [[Rolling to Guard]] (20% of attempts)
+### [[Rolling to Guard]] (21% of attempts)
 
-### [[Deep Half Entry]] (15% of attempts)
+### [[Deep Half Entry]] (14% of attempts)
 
-### [[Sit Through to Guard]] (18% of attempts)
+### [[Sit Through to Guard]] (16% of attempts)
 
-### [[Peterson Roll]] (13% of attempts)
+### [[Peterson Roll]] (12% of attempts)
+
+### [[Sit Out from Turtle]] (6% of attempts)
 
 
 
@@ -227,7 +229,7 @@ Turtle Bottom is a defensive position where the bottom practitioner is on their 
 
 **If opponent has seatbelt control but no hooks in:**
 - Execute **[[Hand Fighting]]** → [[Closed Guard]] (Probability: 50%)
-- Execute **[[Explosive Standup]]** → [[Standing Position]] (Probability: 40%)
+- Execute **[[Explosive Standup]]** → [[Scramble Position]] (Probability: 40%)
 
 
 **If opponent is attempting front headlock control:**
@@ -247,7 +249,7 @@ Turtle Bottom is a defensive position where the bottom practitioner is on their 
 
 **If opponent is low and heavy with underhooks:**
 - Execute **[[Deep Half Escape]]** → [[Deep Half Guard]] (Probability: 40%)
-- Execute **[[Technical Standup]]** → [[Standing Position]] (Probability: 35%)
+- Execute **[[Technical Standup]]** → [[Scramble Position]] (Probability: 35%)
 
 
 
@@ -384,12 +386,12 @@ Partner attempts to establish harness control, underhooks, and dominant grips wh
 - **[[Back Control]]** - Common transition target if turtle defense fails
 - **[[Closed Guard]]** - Primary guard recovery goal from turtle bottom
 - **[[Deep Half Guard]]** - Alternative recovery position via sit-through or roll
-- **[[Granby Roll]]** - Primary escape technique from turtle bottom
-- **[[Technical Standup]]** - Alternative escape route to standing position
+- **[[Granby Roll to Guard]]** - Primary escape technique from turtle bottom
+- **[[Technical Stand-up]]** - Alternative escape route to standing position
 - **[[Front Headlock]]** - Common attacking position opponent transitions to
 - **[[Anaconda Choke]]** - Submission threat when turtle defense fails
 - **[[Defensive Posture]]** - Fundamental concept for turtle bottom structure
-- **[[Base Maintenance]]** - Critical principle for turtle stability
+- **[[Rolling to Guard]]** - Key escape transition for guard recovery
 - **[[Hip Escape Mechanics]]** - Movement principle underlying turtle escapes
 
 

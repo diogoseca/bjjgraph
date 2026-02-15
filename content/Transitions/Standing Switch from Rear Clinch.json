@@ -1,0 +1,13 @@
+{
+  "name": "Standing Switch from Rear Clinch",
+  "description": "",
+  "tags": [],
+  "from_position": "Standing Rear Clinch/Bottom",
+  "outcomes": [
+    {
+      "to": "Standing Position/Top",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

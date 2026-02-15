@@ -61,7 +61,7 @@
     ],
     "overview": "Inside Sankaku from the top perspective represents one of the most dominant and highly-controlled positions in modern leg lock systems, offering exceptional mechanical advantage for inside heel hook attacks while severely limiting the opponent's defensive and escape options. From this position, the top player has established a figure-four leg entanglement around the opponent's leg with the heel exposed toward their centerline, creating optimal biomechanical alignment for devastating submissions. The position's effectiveness derives from its multi-layered control system - hip-to-hip connection prevents the opponent from creating escape distance, knee line dominance prevents defensive rotation, and the leg configuration itself isolates the trapped limb from defensive resources. Understanding the systematic approach to this position is critical: first establish the fundamental entanglement structure, then secure hip connection, next dominate the knee line, and finally isolate heel exposure before attempting the submission. Many practitioners fail by rushing to the submission before establishing complete positional control, which allows skilled opponents to escape or counter-attack. The top player must also maintain awareness of their own leg positioning, as engagement in leg entanglements creates mutual vulnerability that must be managed through superior positioning and control. Modern competition has proven Inside Sankaku to be among the highest percentage finishing positions, with success rates climbing significantly as practitioners develop systematic understanding of the position's control mechanics. The strategic depth of the position extends beyond simple submission hunting - it can be used to force opponents into bad positions, drain their energy through defensive efforts, and create multiple attack pathways that form dilemmas where every defensive choice opens different offensive opportunities.",
     "state_properties": {
-      "point_value": 2,
+      "point_value": 0,
       "position_type": "Offensive/Controlling",
       "risk_level": "Medium",
       "energy_cost": "Medium",
@@ -346,44 +346,48 @@
     },
     "transitions": [
       {
-        "transition": "Inside Heel Hook",
-        "attempt_probability": 12
+        "transition": "Heel Hook",
+        "attempt_probability": 42
       },
       {
         "transition": "Toe Hold",
-        "attempt_probability": 9
+        "attempt_probability": 10
       },
       {
         "transition": "Outside Ashi Entry",
-        "attempt_probability": 12
+        "attempt_probability": 8
       },
       {
         "transition": "Saddle Entry from Top",
-        "attempt_probability": 11
+        "attempt_probability": 8
       },
       {
         "transition": "50-50 Entry",
-        "attempt_probability": 11
+        "attempt_probability": 3
       },
       {
-        "transition": "Kneebar from Top",
-        "attempt_probability": 9
+        "transition": "Kneebar Finish",
+        "attempt_probability": 8
       },
       {
         "transition": "Calf Slicer",
-        "attempt_probability": 8
+        "attempt_probability": 3
       },
       {
         "transition": "Rolling Back Take",
         "attempt_probability": 10
       },
       {
-        "transition": "Outside Heel Hook",
-        "attempt_probability": 9
+        "transition": "Inside Ashi-Garami to Honey Hole",
+        "attempt_probability": 6
       },
       {
-        "transition": "Side Control to Mount",
-        "attempt_probability": 9
+        "transition": "Inside Sankaku Heel Hook",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Inside Sankaku to Saddle",
+        "attempt_probability": 1
       }
     ]
   },
@@ -644,28 +648,36 @@
     },
     "transitions": [
       {
-        "transition": "Hip Escape to Guard Recovery",
-        "attempt_probability": 19
+        "transition": "Hip Escape to Guard",
+        "attempt_probability": 15
       },
       {
-        "transition": "Granby Roll Escape",
-        "attempt_probability": 17
+        "transition": "Granby Roll to Guard",
+        "attempt_probability": 14
       },
       {
-        "transition": "Technical Standup",
-        "attempt_probability": 12
+        "transition": "Technical Stand-up",
+        "attempt_probability": 6
       },
       {
         "transition": "Counter Leg Attack",
-        "attempt_probability": 17
+        "attempt_probability": 10
       },
       {
         "transition": "Frame and Extract to Half Guard",
-        "attempt_probability": 21
+        "attempt_probability": 22
       },
       {
-        "transition": "Rolling Escape",
-        "attempt_probability": 14
+        "transition": "Counter-entangle to 50-50 Guard",
+        "attempt_probability": 18
+      },
+      {
+        "transition": "Saddle Defense",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Ashi Garami Escape",
+        "attempt_probability": 8
       }
     ]
   }

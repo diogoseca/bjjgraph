@@ -21,6 +21,8 @@ The position's strategic value lies in its ability to simultaneously immobilize 
 
 Mastery of Cross Body Ride requires understanding weight distribution mechanics, maintaining perpendicular alignment, and recognizing the specific defensive reactions that signal transition opportunities. The position is particularly effective against opponents with strong turtle defense, as it bypasses many traditional turtle escape pathways while maintaining offensive initiative.
 
+From a systematic perspective, Cross Body Ride functions as a forcing position within the turtle attack hierarchy. The top player's perpendicular orientation creates asymmetric pressure that the bottom player cannot neutralize through standard turtle defenses. Every defensive reaction from the bottom player opens a specific offensive pathway for the top player, whether that is a back take when they flatten, a crucifix when they post, or a crab ride transition when they attempt to stand. This branching decision tree makes Cross Body Ride one of the most strategically rich positions in the turtle attack ecosystem, rewarding practitioners who invest time in reading and responding to defensive patterns.
+
 </section>
 
 <section id="key-principles" class="content-section">
@@ -93,17 +95,21 @@ Mastery of Cross Body Ride requires understanding weight distribution mechanics,
 ### Available Transitions
 
 
-- **[[Granby Roll]]** (18% of attempts)
+- **[[Rolling to Guard]]** (16% of attempts)
 
-- **[[Hip Escape]]** (17% of attempts)
+- **[[Turtle to Guard]]** (32% of attempts)
 
-- **[[Technical Standup]]** (15% of attempts)
+- **[[Turtle to Standing]]** (16% of attempts)
 
-- **[[Shrimp Escape]]** (16% of attempts)
+- **[[Sit Through to Guard]]** (14% of attempts)
 
-- **[[Rolling to Guard]]** (17% of attempts)
+- **[[Peterson Roll]]** (8% of attempts)
 
-- **[[Turtle to Guard]]** (17% of attempts)
+- **[[Hip Escape to Guard]]** (8% of attempts)
+
+- **[[Hip Escape from Cross Body Ride]]** (4% of attempts)
+
+- **[[Roll Escape from Cross Body Ride]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -164,21 +170,25 @@ Mastery of Cross Body Ride requires understanding weight distribution mechanics,
 ### Available Transitions
 
 
-- **[[Turtle to Back Control]]** (18% of attempts)
+- **[[Turtle to Back Control]]** (55% of attempts)
 
-- **[[Crucifix from Turtle]]** (13% of attempts)
+- **[[Crucifix from Turtle]]** (17% of attempts)
 
-- **[[Crab Ride to Back]]** (14% of attempts)
+- **[[Twister]]** (3% of attempts)
 
-- **[[Side Control to Mount]]** (13% of attempts)
+- **[[Turtle Flatten to Side Control]]** (9% of attempts)
 
-- **[[Bow and Arrow Choke]]** (11% of attempts)
+- **[[Turtle to Truck]]** (7% of attempts)
 
-- **[[Rear Naked Choke]]** (12% of attempts)
+- **[[Crab Ride to Back]]** (7% of attempts)
 
-- **[[Armbar from Back]]** (10% of attempts)
+- **[[Darce from Turtle]]** (1% of attempts)
 
-- **[[Twister]]** (9% of attempts)
+- **[[Cross Body to Back Control]]** (0% of attempts)
+
+- **[[Cross Body to Side Control]]** (0% of attempts)
+
+- **[[Twister Entry]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -221,7 +231,7 @@ Mastery of Cross Body Ride requires understanding weight distribution mechanics,
 
 - **[[Crucifix]]** - Secondary advancement target - exploits opponent's posting defense
 
-- **[[Twister Control]]** - Alternative advancement - capitalized when opponent sits through to truck
+- **[[Truck]]** - Alternative advancement - capitalized when opponent sits through
 
 - **[[Crab Ride]]** - Transitional variation - intermediate position to back control
 

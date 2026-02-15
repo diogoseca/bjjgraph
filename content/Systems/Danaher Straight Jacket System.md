@@ -344,7 +344,7 @@ The Straight Jacket System requires progressive drilling that emphasizes muscle 
 - [[Cross Body Ride]] (Position) - Alternative turtle attack position that creates back exposure and system entry opportunities
 - [[Kimura Trap]] (Position) - Related control system emphasizing arm immobilization principles similar to straight jacket methodology
 - [[Body Triangle]] (Position) - Lower body control variation that integrates with upper body straight jacket system for maximum position retention
-- [[Back Take Generic]] (Transition) - General category of techniques used to achieve initial back control position for system entry
+- [[Back Take]] (Transition) - General category of techniques used to achieve initial back control position for system entry
 - [[Turtle to Back Take]] (Transition) - Primary entry method from opponent's defensive turtle position to back control
 - [[Turtle to Back Control]] (Transition) - Specific transition from turtle attack to established seat belt control
 - [[Chair Sit to Back]] (Transition) - Technical entry method from turtle position to back mount using chair sit mechanics

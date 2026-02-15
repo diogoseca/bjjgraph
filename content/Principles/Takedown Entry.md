@@ -377,7 +377,7 @@ Full takedown sparring with mental focus on entry execution quality rather than 
 - [[Front Headlock]] (Position) - Common result of successful snap down entries and defended shots
 - [[Double Leg Entry]] (Transition) - Primary technique applying penetration-based entry principles
 - [[Single Leg Entry]] (Transition) - Fundamental technique demonstrating level change and grip control entries
-- [[Snap Down]] (Transition) - Upper body entry creating front headlock opportunities
+- [[Snap Down to Front Headlock]] (Transition) - Upper body entry creating front headlock opportunities
 - [[Ankle Pick]] (Transition) - Reactive entry capitalizing on opponent forward steps
 - [[Arm Drag]] (Transition) - Angle-creation entry leading to back exposure or single leg opportunities
 - [[Off-Balancing]] (Principle) - Prerequisite principle for creating entry opportunities

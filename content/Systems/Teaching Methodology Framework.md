@@ -377,11 +377,11 @@ The drilling methodology follows a strict progressive resistance protocol that p
 - [[Side Control]] (Position) - Critical defensive position requiring systematic escape instruction
 - [[Closed Guard]] (Position) - Foundational neutral position bridging defensive to offensive curriculum
 - [[Back Control]] (Position) - Highest-value position for teaching systematic submission approach
-- [[Elbow Escape]] (Transition) - First major escape technique taught in defensive curriculum phase
+- [[Elbow Escape to Guard]] (Transition) - First major escape technique taught in defensive curriculum phase
 - [[Bridge and Roll]] (Transition) - Fundamental escape from mount bottom position
 - [[Hip Bump Sweep]] (Transition) - Fundamental offensive technique from closed guard in neutral curriculum phase
 - [[Butterfly Sweep]] (Transition) - Core neutral position offensive technique in curriculum progression
-- [[Technical Standup]] (Transition) - Essential defensive skill for returning to standing position safely
+- [[Technical Stand-up]] (Transition) - Essential defensive skill for returning to standing position safely
 - [[Rear Naked Choke]] (Submission) - Primary submission from back control in offensive curriculum phase
 - [[Blue to Purple Progression]] (System) - Complementary framework for intermediate student development within teaching methodology
 - [[Roger Gracie Fundamental System]] (System) - Example of fundamental-focused approach emphasizing positional control and basic techniques

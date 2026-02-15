@@ -106,7 +106,7 @@
         "actions": [
           {
             "technique": "Anaconda Choke",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 70
           },
           {
@@ -171,7 +171,7 @@
           },
           {
             "technique": "Side Control to Mount",
-            "target": "Side Control",
+            "target": "Mount",
             "probability": 50
           }
         ]
@@ -213,7 +213,7 @@
       {
         "name": "Anaconda Grip Maintenance Drill",
         "description": "Partner starts in defensive turtle position. Establish dead orchard control and maintain grip and shoulder pressure for 2-minute rounds while partner attempts various escape sequences. Focus on grip depth preservation, shoulder pressure consistency, and positional adjustments without releasing control. Reset and repeat for 5 rounds with 1-minute rest periods.",
-        "duration": "5 rounds × 2 minutes"
+        "duration": "5 rounds x 2 minutes"
       },
       {
         "name": "Positional Flow Drill",
@@ -223,7 +223,7 @@
       {
         "name": "Submission Timing Development",
         "description": "Establish dead orchard control and practice recognizing optimal finishing windows based on partner's defensive responses. Partner alternates between different defensive patterns (static defense, explosive escape attempts, gradual space creation). Practitioner must identify and capitalize on submission opportunities while maintaining position when finish is not available. Instructor provides feedback on timing decisions.",
-        "duration": "6 rounds × 3 minutes"
+        "duration": "6 rounds x 3 minutes"
       },
       {
         "name": "Counter-Response Chain Drill",
@@ -275,36 +275,47 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 72
+        "value": 72,
+        "description": "High retention due to deep grip configuration and shoulder pressure mechanics"
       },
       "advancement_probability": {
-        "value": 68
+        "value": 68,
+        "description": "Strong advancement options to mount, back control, or north-south when submission is defended"
       },
       "submission_probability": {
-        "value": 62
+        "value": 62,
+        "description": "High submission rate from anaconda choke with darce as secondary option"
       },
       "average_time": "45-90 seconds"
     },
     "transitions": [
       {
         "transition": "Anaconda Choke",
-        "attempt_probability": 25
-      },
-      {
-        "transition": "Side Control to Mount",
-        "attempt_probability": 20
-      },
-      {
-        "transition": "Side Control to North-South",
-        "attempt_probability": 20
+        "attempt_probability": 37
       },
       {
         "transition": "Darce from Turtle",
-        "attempt_probability": 15
+        "attempt_probability": 13
       },
       {
         "transition": "Front Headlock to Back",
-        "attempt_probability": 20
+        "attempt_probability": 18
+      },
+      {
+        "transition": "Side Control to Mount",
+        "attempt_probability": 18
+      },
+      {
+        "transition": "Side Control to North-South",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Dead Orchard to Anaconda Finish",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Dead Orchard to Darce Switch",
+        "attempt_probability": 2
       }
     ],
     "knowledge_assessment": [
@@ -402,7 +413,7 @@
             "probability": 35
           },
           {
-            "technique": "Hip Escape",
+            "technique": "Shrimp Escape",
             "target": "Turtle",
             "probability": 25
           }
@@ -412,18 +423,18 @@
         "condition": "If opponent is transitioning to mount or back control rather than immediate submission",
         "actions": [
           {
-            "technique": "Hip Escape",
-            "target": "Turtle",
+            "technique": "Hip Escape to Guard",
+            "target": "Open Guard",
             "probability": 45
           },
           {
-            "technique": "Granby Roll",
+            "technique": "Granby Roll to Guard",
             "target": "Half Guard",
             "probability": 30
           },
           {
-            "technique": "Sit Out",
-            "target": "Turtle",
+            "technique": "Sit Through to Guard",
+            "target": "Closed Guard",
             "probability": 25
           }
         ]
@@ -432,18 +443,38 @@
         "condition": "If opponent's grip is loose or pressure is temporarily reduced",
         "actions": [
           {
-            "technique": "Hip Escape",
-            "target": "Turtle",
+            "technique": "Hip Escape to Guard",
+            "target": "Open Guard",
             "probability": 40
           },
           {
-            "technique": "Technical Standup",
-            "target": "Standing Position",
+            "technique": "Standing Escape",
+            "target": "Clinch",
             "probability": 35
           },
           {
             "technique": "Rolling to Guard",
             "target": "Closed Guard",
+            "probability": 25
+          }
+        ]
+      },
+      {
+        "condition": "If opponent walks hips toward your head for anaconda finishing angle",
+        "actions": [
+          {
+            "technique": "Rolling to Guard",
+            "target": "Closed Guard",
+            "probability": 45
+          },
+          {
+            "technique": "Arm Extraction",
+            "target": "Front Headlock",
+            "probability": 30
+          },
+          {
+            "technique": "Granby Roll to Guard",
+            "target": "Open Guard",
             "probability": 25
           }
         ]
@@ -542,7 +573,7 @@
         "relationship": "Secondary submission threat with different mechanics"
       },
       {
-        "name": "Hip Escape",
+        "name": "Shrimp Escape",
         "relationship": "Essential escape technique from compressed positions"
       },
       {
@@ -552,36 +583,47 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 32
+        "value": 32,
+        "description": "Low retention - position is extremely difficult to maintain as bottom player faces constant submission threat"
       },
       "advancement_probability": {
-        "value": 38
+        "value": 38,
+        "description": "Moderate escape probability with proper technique, but requires systematic approach and opponent error"
       },
       "submission_probability": {
-        "value": 12
+        "value": 12,
+        "description": "Minimal offensive threat from bottom - focus is entirely on survival and escape"
       },
       "average_time": "30-90 seconds before submission or escape"
     },
     "transitions": [
       {
-        "transition": "Hip Escape",
-        "attempt_probability": 25
+        "transition": "Shrimp Escape",
+        "attempt_probability": 28
       },
       {
         "transition": "Rolling to Guard",
-        "attempt_probability": 20
+        "attempt_probability": 19
       },
       {
-        "transition": "Granby Roll",
-        "attempt_probability": 18
+        "transition": "Granby Roll to Guard",
+        "attempt_probability": 12
       },
       {
         "transition": "Arm Extraction",
         "attempt_probability": 20
       },
       {
-        "transition": "Technical Standup",
-        "attempt_probability": 17
+        "transition": "Hip Escape to Guard",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Escape Dead Orchard Control",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Roll from Dead Orchard",
+        "attempt_probability": 3
       }
     ],
     "knowledge_assessment": [

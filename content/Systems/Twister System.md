@@ -390,7 +390,7 @@ The Twister System requires structured drilling that builds from foundational lo
 - [[Old School Sweep]] (Transition) - Primary sweep from lockdown that creates Truck entry when defended
 - [[Truck Entry]] (Transition) - Transitional mechanics for achieving Truck Position from various positions
 - [[Turtle to Truck]] (Transition) - General transition pathway into Truck Position
-- [[Lockdown Sweeps]] (Transition) - Collection of sweeping techniques available from lockdown position
+- [[Lockdown Recovery]] (Transition) - Collection of sweeping techniques available from lockdown position
 - [[Half Guard to Back Take]] (Transition) - Transition pathway connecting half guard positions to back control
 - [[Twister]] (Submission) - Signature submission finish of the entire system
 - [[Twister Finish]] (Submission) - Final submission application from Truck Position
@@ -398,7 +398,6 @@ The Twister System requires structured drilling that builds from foundational lo
 - [[Calf Slicer from Truck]] (Submission) - Alternative submission using leg entanglement in Truck Position
 - [[Electric Chair Submission]] (Submission) - Primary submission threat from Electric Chair position
 - [[Flexibility Training]] (Principle) - Essential physical attribute development for system effectiveness
-- [[Hip Movement]] (Principle) - Fundamental movement principle underlying whipup and lockdown mechanics
 - [[Off-Balancing]] (Principle) - Core principle applied through whipup to create sweep and transition opportunities
 - [[System Building]] (Principle) - Conceptual framework for understanding how individual techniques connect into coherent system
 - [[Submission Chains]] (Principle) - Principle of linking submissions together based on defensive reactions

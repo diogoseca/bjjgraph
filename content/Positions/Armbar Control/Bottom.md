@@ -20,38 +20,38 @@ description: "Master defensive armbar control from bottom position in BJJ. Learn
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape",
-      "text": "From this position, attempt Hip Escape. This technique is attempted in 20% of exchanges from this position.",
+      "name": "Execute Hip Escape to Guard",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Defense",
-      "text": "From this position, attempt Stack Defense. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Stack Defense. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction",
-      "text": "From this position, attempt Arm Extraction. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Arm Extraction. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hitchhiker Escape",
-      "text": "From this position, attempt Hitchhiker Escape. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Hitchhiker Escape. This technique is attempted in 20% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar Defense",
-      "text": "From this position, attempt Armbar Defense. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Rolling Escape to Guard",
+      "text": "From this position, attempt Rolling Escape to Guard. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -169,11 +169,11 @@ Mastery of armbar defense is essential for all practitioners, as the armbar is o
 
 ## Position Definition
 
-- Defender's arm is extended or being extended across opponent's hips with elbow joint exposed and vulnerable to hyperextension
-- Opponent controls defender's arm with both hands, typically gripping near the wrist and triceps area, creating isolation of the attacked limb
-- Opponent's hips positioned near defender's shoulder with legs controlling the head and torso, creating the classic armbar triangle structure
-- Defender's free hand available for gripping opponent's leg, creating frames, or assisting in defensive positioning to prevent full extension
-- Defender's body position either supine or on their side with limited mobility due to opponent's leg control over head and chest areas
+- Defender's arm is extended or being extended across opponent's hips with elbow joint exposed and vulnerable to hyperextension, requiring constant flexion effort to prevent full straightening
+- Opponent controls defender's arm with both hands, typically gripping near the wrist and triceps area, creating isolation of the attacked limb from the defender's torso
+- Opponent's hips positioned near defender's shoulder with legs controlling the head and torso, creating the classic armbar triangle structure that limits postural recovery
+- Defender's free hand available for gripping opponent's leg, creating frames, or assisting in defensive positioning to prevent full extension of the trapped arm
+- Defender's body position either supine or on their side with limited mobility due to opponent's leg control over head and chest areas, restricting bridge and turn movements
 
 
 </section>
@@ -210,17 +210,21 @@ Mastery of armbar defense is essential for all practitioners, as the armbar is o
 
 ## Available Escapes
 
-### [[Hip Escape]] (20% of attempts)
+### [[Hip Escape to Guard]] (14% of attempts)
 
-### [[Stack Defense]] (17% of attempts)
+### [[Stack Defense]] (14% of attempts)
 
-### [[Arm Extraction]] (15% of attempts)
+### [[Arm Extraction]] (12% of attempts)
 
-### [[Hitchhiker Escape]] (17% of attempts)
+### [[Hitchhiker Escape]] (20% of attempts)
 
-### [[Bridge and Roll]] (14% of attempts)
+### [[Bridge and Roll]] (13% of attempts)
 
-### [[Armbar Defense]] (17% of attempts)
+### [[Rolling Escape to Guard]] (10% of attempts)
+
+### [[Hip Escape to Turtle]] (9% of attempts)
+
+### [[Armbar Defense]] (8% of attempts)
 
 
 
@@ -236,18 +240,18 @@ Mastery of armbar defense is essential for all practitioners, as the armbar is o
 
 
 **If opponent is attempting to drop back for the finish with legs loose:**
-- Execute **[[Stack Defense]]** → [[Standing Position]] (Probability: 55%)
-- Execute **[[Rolling Escape]]** → [[Turtle]] (Probability: 65%)
+- Execute **[[Stack Defense]]** → [[Closed Guard]] (Probability: 55%)
+- Execute **[[Rolling Escape to Guard]]** → [[Closed Guard]] (Probability: 65%)
 
 
 **If opponent has tight control but arm is still bent:**
-- Execute **[[Hip Escape]]** → [[Closed Guard]] (Probability: 70%)
+- Execute **[[Hip Escape to Guard]]** → [[Closed Guard]] (Probability: 70%)
 - Execute **[[Bridge and Roll]]** → [[Half Guard]] (Probability: 60%)
 
 
-**If opponent transitions to triangle or omoplata:**
-- Execute **[[Posture Defense]]** → [[Closed Guard]] (Probability: 45%)
-- Execute **[[Stack Defense]]** → [[Standing Position]] (Probability: 40%)
+**If opponent transitions to triangle or omoplata from failed armbar:**
+- Execute **[[Posture Recovery]]** → [[Closed Guard]] (Probability: 45%)
+- Execute **[[Stack Defense]]** → [[Closed Guard]] (Probability: 40%)
 
 
 
@@ -283,10 +287,10 @@ Mastery of armbar defense is essential for all practitioners, as the armbar is o
 - ❌ **Consequence**: Provides opponent with stable platform to finish submission with maximum leverage
 - ✅ **Correction**: Bridge hips, turn onto side toward attacked arm, create stacking pressure to compromise opponent's angle
 
-### 6. Giving up mental battle and tapping prematurely
+### 6. Attempting escape without addressing the grip on the wrist first
 
-- ❌ **Consequence**: Misses escape opportunities and fails to develop crucial submission defense skills
-- ✅ **Correction**: Maintain composure, systematically work through defensive sequence, tap only when joint is actually compromised
+- ❌ **Consequence**: All escape attempts fail because the opponent maintains the primary control point and can simply re-tighten after each attempt
+- ✅ **Correction**: Before committing to any escape, use your free hand to break or loosen the opponent's grip on your wrist, then immediately execute your escape technique while their control is compromised
 
 
 
@@ -384,7 +388,7 @@ Partner attempts armbar from guard. As they extend for finish, defender stacks t
 - **[[Armbar Control]]** - Parent hub page for this defensive position
 - **[[Armbar Finish]]** - Primary threat - submission being defended against
 - **[[Triangle Control]]** - Common transition - opponent switches to triangle when armbar is defended
-- **[[Hip Escape]]** - Primary escape technique - most reliable armbar defense method
+- **[[Hip Escape to Guard]]** - Primary escape technique - most reliable armbar defense method
 - **[[Closed Guard]]** - Common escape target - safe position after successful defense
 - **[[Mount]]** - Common origin - position often attacked from mount
 - **[[Hitchhiker Escape]]** - Key escape technique used from this position

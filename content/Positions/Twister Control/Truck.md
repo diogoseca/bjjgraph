@@ -21,6 +21,8 @@ The truck represents the convergence of leg lock systems and back attack systems
 
 The position exists in two distinct perspectives: from the bottom, it is a high-danger defensive position requiring immediate escape mechanics and submission defense, while from the top it is an offensive control position with multiple submission paths. The boot pressure (foot against hip) is the engine of the top position, creating torque that enables all subsequent attacks. Understanding both perspectives is essential for complete truck position mastery.
 
+Historically, the truck evolved from wrestling's turk ride, adapted into the 10th Planet system as a submission-hunting platform rather than merely a controlling pin. The figure-four leg configuration distinguishes it from standard back control by immobilizing the opponent's hips independently of hook placement, creating a stable base for attacks that target the spine and legs simultaneously. In competition, the truck has proven effective across rule sets, from submission-only formats where the extended control time allows methodical attack chains, to points-based competitions where the position scores equivalent to back control.
+
 </section>
 
 <section id="key-principles" class="content-section">
@@ -93,17 +95,25 @@ The position exists in two distinct perspectives: from the bottom, it is a high-
 ### Available Transitions
 
 
-- **[[Granby Roll]]** (18% of attempts)
+- **[[Granby Roll to Guard]]** (34% of attempts)
 
-- **[[Hip Escape]]** (20% of attempts)
+- **[[Hip Escape to Guard]]** (15% of attempts)
 
-- **[[Leg Extraction]]** (18% of attempts)
+- **[[Leg Extraction to Guard]]** (15% of attempts)
 
-- **[[Rolling Back Take]]** (17% of attempts)
+- **[[Rolling Back Take Reversal]]** (9% of attempts)
 
-- **[[Forward Roll]]** (15% of attempts)
+- **[[Forward Roll]]** (11% of attempts)
 
-- **[[Technical Standup]]** (12% of attempts)
+- **[[Back Door Escape]]** (7% of attempts)
+
+- **[[Defensive Roll]]** (5% of attempts)
+
+- **[[Hip Escape from Truck]]** (2% of attempts)
+
+- **[[Leg Extraction from Truck]]** (1% of attempts)
+
+- **[[Roll to Guard from Truck]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -129,8 +139,8 @@ The position exists in two distinct perspectives: from the bottom, it is a high-
   - Consequence: Rapid exhaustion leaves you defenseless against submissions and unable to execute escape sequences
   - ✅ Correction: Breathe calmly, prioritize neck protection first, then work systematically through escape steps without wasting energy
 
-- ❌ **Not tapping early to twister or calf slicer**
-  - Consequence: Both submissions can cause serious spinal or knee injuries with very little warning
+- ❌ **Not tapping early to twister or calf slicer when escape is no longer viable**
+  - Consequence: Both submissions can cause serious spinal or knee injuries with very little warning before damage occurs
   - ✅ Correction: Tap immediately when you feel twister crank on spine or calf slicer compressing knee joint—preserve training longevity
 
 
@@ -164,21 +174,29 @@ The position exists in two distinct perspectives: from the bottom, it is a high-
 ### Available Transitions
 
 
-- **[[Twister]]** (11% of attempts)
+- **[[Twister]]** (10% of attempts)
 
-- **[[Calf Slicer from Truck]]** (12% of attempts)
+- **[[Calf Slicer]]** (10% of attempts)
 
-- **[[Banana Split]]** (10% of attempts)
+- **[[Roll to Truck]]** (6% of attempts)
 
-- **[[Rolling Back Take]]** (16% of attempts)
+- **[[Rolling Back Take]]** (41% of attempts)
 
-- **[[Bow and Arrow Choke]]** (11% of attempts)
+- **[[Bow and Arrow Choke]]** (6% of attempts)
 
-- **[[Crab Ride to Back]]** (14% of attempts)
+- **[[Crab Ride to Back]]** (8% of attempts)
 
-- **[[Crucifix from Turtle]]** (13% of attempts)
+- **[[Crucifix from Turtle]]** (8% of attempts)
 
-- **[[Side Control to Mount]]** (13% of attempts)
+- **[[Back Take from Top]]** (8% of attempts)
+
+- **[[Transition to Twister Side Control]]** (2% of attempts)
+
+- **[[Truck Maintenance]]** (0% of attempts)
+
+- **[[Truck to Back Control]]** (0% of attempts)
+
+- **[[Truck to Twister Side Control]]** (1% of attempts)
 
 
 ### Common Mistakes

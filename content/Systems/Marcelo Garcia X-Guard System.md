@@ -360,7 +360,7 @@ Marcelo Garcia's X-Guard system requires structured drilling that progresses fro
 - [[Single Leg X Entry]] (Transition) - Alternative guard variation with shared entry pathways
 - [[Single Leg X Sweep]] (Transition) - Complementary sweeping option from similar leg positioning
 - [[De La Riva to X-Guard Transition]] (Transition) - Advanced entry from De La Riva guard system
-- [[Back Take Generic]] (Transition) - Standard back take sequence when sweeps are defended
+- [[Back Take]] (Transition) - Standard back take sequence when sweeps are defended
 - [[Arm Drag to Back]] (Transition) - Upper body connection to back takes from X-Guard
 - [[Guillotine Setup]] (Transition) - Submission entry when opponent defends by lowering posture
 - [[Sweep Mechanics]] (Principle) - Core principle governing all X-Guard sweeping techniques

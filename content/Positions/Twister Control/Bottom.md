@@ -20,38 +20,38 @@ description: "Master defensive strategies from Twister Control Bottom. Learn esc
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape to Guard Recovery",
-      "text": "From this position, attempt Hip Escape to Guard Recovery. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Roll Through Escape",
+      "text": "From this position, attempt Roll Through Escape. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Roll Through Escape",
-      "text": "From this position, attempt Roll Through Escape. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Hip Escape to Guard",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Turn to Turtle",
-      "text": "From this position, attempt Bridge and Turn to Turtle. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Turn to Turtle. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll Escape",
-      "text": "From this position, attempt Granby Roll Escape. This technique is attempted in 6% of exchanges from this position.",
+      "name": "Execute Leg Extraction",
+      "text": "From this position, attempt Leg Extraction. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guard Replacement",
-      "text": "From this position, attempt Guard Replacement. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Defensive Roll",
+      "text": "From this position, attempt Defensive Roll. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Shrimp Escape",
-      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 6% of exchanges from this position.",
+      "name": "Execute Frame and Turn",
+      "text": "From this position, attempt Frame and Turn. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,25 +212,23 @@ The energy dynamics of being stuck in Twister Control Bottom are particularly ch
 
 ## Available Escapes
 
-### [[Hip Escape to Guard Recovery]] (15% of attempts)
+### [[Roll Through Escape]] (15% of attempts)
 
-### [[Roll Through Escape]] (9% of attempts)
+### [[Hip Escape to Guard]] (14% of attempts)
 
-### [[Bridge and Turn to Turtle]] (15% of attempts)
+### [[Bridge and Turn to Turtle]] (14% of attempts)
 
-### [[Granby Roll Escape]] (6% of attempts)
+### [[Leg Extraction]] (12% of attempts)
 
-### [[Guard Replacement]] (9% of attempts)
-
-### [[Shrimp Escape]] (6% of attempts)
-
-### [[Address Leg Control]] (10% of attempts)
-
-### [[Defensive Roll]] (10% of attempts)
+### [[Defensive Roll]] (11% of attempts)
 
 ### [[Frame and Turn]] (10% of attempts)
 
 ### [[Scramble to Guard]] (10% of attempts)
+
+### [[Shrimp Escape]] (8% of attempts)
+
+### [[Granby Roll to Guard]] (6% of attempts)
 
 
 
@@ -241,8 +239,8 @@ The energy dynamics of being stuck in Twister Control Bottom are particularly ch
 ## Decision Making from This Position
 
 **Opponent is establishing initial Twister Control with partial leg capture:**
-- Execute **[[Immediate Leg Defense]]** → [[Turtle]] (Probability: 60%)
-- Execute **[[Turn Into Opponent]]** → [[Turtle]] (Probability: 40%)
+- Execute **[[Immediate Leg Defense]]** → [[Open Guard]] (Probability: 60%)
+- Execute **[[Turn Into Opponent]]** → [[Half Guard]] (Probability: 40%)
 
 
 **Twister Control is fully established with deep rotation and leg control:**
@@ -252,13 +250,13 @@ The energy dynamics of being stuck in Twister Control Bottom are particularly ch
 
 **Opponent is hunting for Twister submission grip with rotation maximized:**
 - Execute **[[Hand Fight Submission Grip]]** → [[Twister Control]] (Probability: 40%)
-- Execute **[[Roll Through With Twist]]** → [[Half Guard]] (Probability: 30%)
+- Execute **[[Roll Through With Twist]]** → [[Open Guard]] (Probability: 30%)
 - Execute **[[Tap for Safety]]** → [[Game Over]] (Probability: 30%)
 
 
 **Opponent transitions to alternative attack losing some rotational control:**
-- Execute **[[Explosive Escape Attempt]]** → [[Turtle]] (Probability: 55%)
-- Execute **[[Address Leg Control]]** → [[Half Guard]] (Probability: 45%)
+- Execute **[[Explosive Escape Attempt]]** → [[Open Guard]] (Probability: 55%)
+- Execute **[[Extract Trapped Leg]]** → [[Half Guard]] (Probability: 45%)
 
 
 
@@ -355,14 +353,11 @@ Partner attempts to establish Twister Control from truck position. Practice reco
 
 ## Related Positions and Techniques
 
-- **[[Truck]]** - Primary preceding position that leads to Twister Control establishment
 - **[[Back Control]]** - Alternative position opponent may transition to from similar entry pathway
-- **[[Turtle]]** - Common escape destination when successfully defending Twister Control
 - **[[Crab Ride]]** - Related back exposure position with similar defensive requirements
 - **[[Lockdown]]** - Bottom position that can lead to opponent's Twister Control entries via truck
-- **[[Roll Through Escape]]** - Primary rolling escape technique specifically designed for Twister Control
-- **[[Hip Escape to Guard Recovery]]** - Fundamental escape mechanic applicable to reducing Twister Control rotation
-- **[[Bridge and Turn to Turtle]]** - Alternative escape route leading to turtle defensive position
+- **[[Open Guard]]** - Primary recovery position after successful escape from Twister Control
+- **[[Half Guard]]** - Intermediate recovery position reachable through leg extraction escapes
 
 
 </section>

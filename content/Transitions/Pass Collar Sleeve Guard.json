@@ -1,0 +1,13 @@
+{
+  "name": "Pass Collar Sleeve Guard",
+  "description": "",
+  "tags": [],
+  "from_position": "Collar Sleeve Guard/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

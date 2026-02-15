@@ -27,10 +27,6 @@
       "relationship": "Related turtle attack position with similar control mechanics"
     },
     {
-      "name": "Twister Control",
-      "relationship": "Alternative advancement position when opponent turns away"
-    },
-    {
       "name": "Crucifix",
       "relationship": "Submission position accessible from Rodeo Ride when opponent extends arms"
     },
@@ -49,7 +45,7 @@
   ],
   "top": {
     "name": "Rodeo Ride Top",
-    "description": "Master Rodeo Ride attacks in BJJ. Advanced turtle control position with dynamic pressure mechanics. Learn transitions to back control, submissions, and maintenance with 75% advancement success.",
+    "description": "Master Rodeo Ride attacks in BJJ. Advanced turtle control position with dynamic pressure mechanics. Learn transitions to back control, submissions, and maintenance with 68% advancement rate.",
     "tags": [
       "bjj",
       "position",
@@ -129,7 +125,7 @@
         "actions": [
           {
             "technique": "Turtle to Truck",
-            "target": "Twister Control",
+            "target": "Truck",
             "probability": 65
           },
           {
@@ -143,7 +139,7 @@
         "condition": "If opponent flattens out on stomach or extends arms for base",
         "actions": [
           {
-            "technique": "Side Control to Mount",
+            "technique": "Consolidate Mount",
             "target": "Mount",
             "probability": 60
           },
@@ -163,7 +159,7 @@
             "probability": 75
           },
           {
-            "technique": "Flatten to Side Control",
+            "technique": "Pass to Side Control",
             "target": "Side Control",
             "probability": 50
           }
@@ -225,7 +221,7 @@
       },
       {
         "name": "Submission Entry Chains from Rodeo Ride",
-        "description": "Partner in turtle, practitioner establishes Rodeo Ride and flows through submission attempts: clock choke → bow and arrow → back attack → crucifix choke, transitioning smoothly without forcing any single submission. Focus on using opponent's defensive reactions to flow between attacks rather than muscling techniques.",
+        "description": "Partner in turtle, practitioner establishes Rodeo Ride and flows through submission attempts: clock choke to bow and arrow to back attack to crucifix choke, transitioning smoothly without forcing any single submission. Focus on using opponent's defensive reactions to flow between attacks rather than muscling techniques.",
         "duration": "4 x 2 minutes"
       }
     ],
@@ -237,10 +233,6 @@
       {
         "name": "Crab Ride",
         "relationship": "Related turtle attack position with similar control mechanics"
-      },
-      {
-        "name": "Twister Control",
-        "relationship": "Alternative advancement position when opponent turns away"
       },
       {
         "name": "Crucifix",
@@ -260,7 +252,7 @@
       },
       {
         "name": "Bow and Arrow Choke",
-        "relationship": "Gi-specific submission opportunity"
+        "relationship": "Gi-specific submission opportunity from this position"
       },
       {
         "name": "Harness",
@@ -276,7 +268,11 @@
       },
       {
         "name": "Darce Choke",
-        "relationship": "Submission opportunity from turtle attack"
+        "relationship": "Submission opportunity from turtle attack sequences"
+      },
+      {
+        "name": "Crab Ride to Back",
+        "relationship": "Key transition technique to back control"
       }
     ],
     "position_metrics": {
@@ -297,39 +293,47 @@
     "transitions": [
       {
         "transition": "Turtle to Back Take",
-        "attempt_probability": 18
+        "attempt_probability": 31
       },
       {
         "transition": "Crab Ride to Back",
-        "attempt_probability": 15
+        "attempt_probability": 13
       },
       {
         "transition": "Turtle to Truck",
-        "attempt_probability": 12
+        "attempt_probability": 10
       },
       {
         "transition": "Crucifix from Turtle",
-        "attempt_probability": 12
+        "attempt_probability": 10
       },
       {
         "transition": "Clock Choke",
-        "attempt_probability": 10
+        "attempt_probability": 8
       },
       {
         "transition": "Bow and Arrow Choke",
-        "attempt_probability": 8
+        "attempt_probability": 6
       },
       {
-        "transition": "Side Control to Mount",
-        "attempt_probability": 10
+        "transition": "Consolidate Mount",
+        "attempt_probability": 8
       },
       {
         "transition": "Rolling Back Take",
-        "attempt_probability": 8
+        "attempt_probability": 6
       },
       {
         "transition": "Darce from Turtle",
-        "attempt_probability": 7
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Rodeo Ride to Back Control",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Rodeo Ride to Turtle",
+        "attempt_probability": 1
       }
     ],
     "knowledge_assessment": [
@@ -346,30 +350,30 @@
         "answer": "When the opponent posts with their far hand, immediately threaten the crucifix position by controlling that extended arm while maintaining your existing near-arm control. Alternatively, use their posting as an opportunity to collapse their structure by driving your hip pressure forward while pulling their near arm away from their body. Their extended arm actually creates vulnerability—they cannot defend both the back take and the crucifix simultaneously, so use this dilemma to advance position."
       },
       {
-        "question": "How should you adjust when the opponent begins sitting back toward guard recovery?",
-        "answer": "As the opponent sits back, they create space between their hips and the mat—this is your entry window for hooks and back control. Follow their movement by transitioning your hips underneath while maintaining upper body control through the seat belt or harness grip. The key is to ride their backward movement rather than resist it, using their energy to accelerate your transition to back control. Keep your chest connected to their back throughout the transition."
+        "question": "How should you adjust your base when the opponent begins rocking side to side trying to unbalance you?",
+        "answer": "When the opponent rocks laterally, widen your posted leg stance and lower your center of gravity by sinking your hips closer to their body. Match their rhythm initially to avoid being thrown off, then counter their momentum by loading pressure toward the direction they're rocking away from. The key is keeping your chest glued to their back throughout the rocking motion. Use their lateral movement as a timing cue—when they rock toward your posted side, that's your window to advance to crab ride or insert hooks on the light side."
       },
       {
-        "question": "What is the proper response when your opponent explosively attempts to stand from turtle?",
-        "answer": "When the opponent drives to stand, you have two primary options based on your hook and grip status. If you have adequate upper body control (seat belt grip), follow them up to standing back control while working to insert hooks. If your grips are compromised, switch to a front headlock or snap-down to return them to the mat. Never release your chest-to-back connection during their stand attempt—staying attached allows you to either ride to standing back control or pull them back down."
+        "question": "What grip priorities should you establish first when initially arriving to Rodeo Ride from a scramble?",
+        "answer": "The first priority is near-arm control—either wrist, elbow, or underhook on the arm closest to you. This prevents their most immediate escape tool. Second priority is collar or neck control on the far side, which prevents them from turning into you and sets up choke threats. Third priority is establishing your posted leg in a stable position for base. Do not reach for submissions or far-side attacks until these three control priorities are secured. Rushing to attack without foundational grips is the most common reason practitioners lose Rodeo Ride."
       },
       {
-        "question": "How do you manage energy expenditure when your opponent maintains a strong defensive turtle?",
-        "answer": "Against a well-defended turtle, avoid trying to force submissions or positions through strength. Instead, use systematic pressure cycling: threaten one attack to force a defensive reaction, then immediately transition to attack the opening created by that reaction. This creates a dilemma-based scenario where the opponent expends energy defending while you flow between attacks efficiently. Maintain constant hip pressure but use your legs and body positioning rather than arm strength for control."
+        "question": "How do you maintain effective pressure when your opponent begins to flatten toward the mat?",
+        "answer": "As the opponent flattens, follow their descent by walking your hips forward and lowering your chest pressure onto their upper back. Keep your near-arm control and begin transitioning your weight toward a mounted crucifix or technical mount position. Flattening actually helps your control because it eliminates their knee-based mobility. However, do not simply sit on a flat opponent—actively work to advance position because a flat turtle with your weight on top is a scoring opportunity for mount. Drive your hips toward their head to create the angle needed to slide your knee over their hip into mount."
       },
       {
-        "question": "Your opponent turns their head away to protect their neck—what does this opening present?",
-        "answer": "When the opponent turns away to protect the near-side neck, they expose the far side and create an angle for truck entry or twister control. Their head turn also shifts their defensive focus, potentially allowing you to advance to back control on the exposed side. Additionally, the head turn often indicates they're preparing to granby roll toward the protected side—anticipate this by loading your weight in that direction and being ready to follow their roll while maintaining control."
+        "question": "Your opponent explosively attempts to stand while you have Rodeo Ride—what is your immediate response?",
+        "answer": "Maintain your chest-to-back connection and follow them upward while keeping your near-arm control. As they rise, shift your weight to hang from their upper body rather than pushing down from above. If you have a collar grip, use it to snap them back down by pulling their head and shoulders toward the mat while driving your hip pressure forward into their lower back. If they achieve full standing, immediately work to establish a standing back clinch with seat belt control. Never release your chest connection during their stand attempt—staying attached gives you control over whether they complete the stand-up or get pulled back down."
       },
       {
-        "question": "What recovery options exist if your opponent partially escapes and turns to face you?",
-        "answer": "If the opponent successfully turns into you before you can secure back control, immediately transition to front headlock or guillotine control rather than forcing the back take against their defensive frames. From front headlock, you can reset to turtle attacks or advance to submission attempts. The key is recognizing when the back attack window has closed and flowing to the next available dominant position rather than fighting for a position that's no longer available."
+        "question": "How do you manage energy expenditure when your opponent maintains a strong defensive turtle for an extended period?",
+        "answer": "Against a well-defended turtle, avoid trying to force submissions or positions through strength. Instead, use systematic pressure cycling: threaten one attack to force a defensive reaction, then immediately transition to attack the opening created by that reaction. This creates a dilemma-based scenario where the opponent expends energy defending while you flow between attacks efficiently. Maintain constant hip pressure but use your legs and body positioning rather than arm strength for control. Cycle between three or four attacks in sequence rather than committing fully to any single option."
       }
     ]
   },
   "bottom": {
     "name": "Rodeo Ride Bottom",
-    "description": "Defend Rodeo Ride position in BJJ. Learn escape fundamentals, guard recovery mechanics, and defensive strategies to prevent back exposure with 45% escape success rate.",
+    "description": "Defend Rodeo Ride position in BJJ. Learn escape fundamentals, guard recovery mechanics, and defensive strategies to prevent back exposure with systematic escape sequences.",
     "tags": [
       "bjj",
       "position",
@@ -418,7 +422,7 @@
             "probability": 60
           },
           {
-            "technique": "Roll to Guard",
+            "technique": "Rolling to Guard",
             "target": "Half Guard",
             "probability": 40
           }
@@ -443,7 +447,7 @@
         "condition": "If top practitioner's weight is high on shoulders with minimal hip control",
         "actions": [
           {
-            "technique": "Granby Roll",
+            "technique": "Granby Roll to Guard",
             "target": "Open Guard",
             "probability": 50
           },
@@ -510,7 +514,7 @@
     "training_drills": [
       {
         "name": "Turtle Escape Sequences",
-        "description": "Partner establishes Rodeo Ride control, bottom practitioner works through systematic escape sequence: fight grips → create space → execute escape. Practice each step deliberately before flowing through full sequence. Partner provides progressive resistance from 50% to 100% over multiple rounds.",
+        "description": "Partner establishes Rodeo Ride control, bottom practitioner works through systematic escape sequence: fight grips, create space, execute escape. Practice each step deliberately before flowing through full sequence. Partner provides progressive resistance from 50% to 100% over multiple rounds.",
         "duration": "5 x 2 minutes"
       },
       {
@@ -551,12 +555,12 @@
         "relationship": "Key escape transition from this position"
       },
       {
-        "name": "Standing Position",
-        "relationship": "Alternative escape target through technical stand-up"
-      },
-      {
         "name": "Butterfly Guard",
         "relationship": "Escape target position via sit-through"
+      },
+      {
+        "name": "Granby Roll to Guard",
+        "relationship": "Inversion-based escape technique from turtle"
       }
     ],
     "position_metrics": {
@@ -577,31 +581,39 @@
     "transitions": [
       {
         "transition": "Turtle to Guard",
-        "attempt_probability": 20
+        "attempt_probability": 27
       },
       {
         "transition": "Technical Stand-up",
-        "attempt_probability": 18
+        "attempt_probability": 16
       },
       {
-        "transition": "Granby Roll",
-        "attempt_probability": 15
+        "transition": "Granby Roll to Guard",
+        "attempt_probability": 13
       },
       {
         "transition": "Rolling to Guard",
-        "attempt_probability": 17
+        "attempt_probability": 15
       },
       {
-        "transition": "Elbow Escape",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Sit Through Escape",
+        "transition": "Elbow Escape to Guard",
         "attempt_probability": 10
       },
       {
-        "transition": "Standing up in Base",
+        "transition": "Sit Through Escape",
         "attempt_probability": 8
+      },
+      {
+        "transition": "Standing up in Base",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Roll from Rodeo Ride",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Shake Off Rodeo Ride",
+        "attempt_probability": 2
       }
     ],
     "knowledge_assessment": [

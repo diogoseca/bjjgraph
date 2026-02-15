@@ -1,6 +1,6 @@
 {
   "name": "Lapel Triangle Setup",
-  "description": "Master the Lapel Triangle Setup from Lapel Guard. Use lapel control to isolate the arm and create triangle entry. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "description": "Master the Lapel Triangle Setup from Lapel Guard. Use lapel control to isolate the arm and create triangle entry. Complete guide with execution steps and defenses.",
   "tags": [
     "bjj",
     "transition",
@@ -13,213 +13,29 @@
   "from_position": "Lapel Guard/Bottom",
   "outcomes": [
     {
-      "to": "Triangle Control",
+      "to": "Triangle Control/Bottom",
       "probability": 55,
       "result": "success"
     },
     {
-      "to": "Lapel Guard",
+      "to": "Lapel Guard/Bottom",
       "probability": 30,
       "result": "failure"
     },
     {
-      "to": "Half Guard",
+      "to": "Half Guard/Bottom",
       "probability": 15,
       "result": "counter"
     }
   ],
+  "success_rate": 55,
   "overview": "The Lapel Triangle Setup represents a sophisticated fusion of modern lapel guard innovation with classical triangle mechanics. This technique exploits the unique control properties of lapel configurations to create angle and arm isolation that would be difficult to achieve with traditional grips alone. By using the opponent's own gi fabric as a barrier and control point, the bottom player can manipulate posture and arm position with remarkable efficiency.\n\nFrom an established lapel guard position, the practitioner uses the wrapped lapel to restrict the opponent's ability to posture or withdraw their trapped arm. This creates the classic triangle prerequisite—one arm in, one arm out—while the lapel maintains the positional control necessary to complete the leg swing and lock. The technique is particularly effective against opponents who drive forward into the lapel configuration, as their pressure actually aids the hip elevation needed for triangle entry.\n\nStrategically, this setup creates a powerful dilemma system. Opponents who posture aggressively to avoid the triangle expose themselves to sweeps from the lapel configuration. Those who stay low and heavy to prevent sweeping find their arm increasingly isolated and vulnerable to the triangle threat. This forced-choice dynamic makes the Lapel Triangle Setup a high-percentage attack against experienced practitioners who understand they cannot defend both options simultaneously.",
-  "key_principles": [
-    "Use lapel wrap to isolate one arm while creating barrier against the other arm entering",
-    "Opponent's forward pressure aids hip elevation for triangle entry—work with their energy",
-    "Maintain secondary collar or sleeve grip to control posture throughout the setup",
-    "Create angle before attempting to throw the leg over—perpendicular hip position is essential",
-    "The lapel functions as a persistent arm trap that doesn't require constant grip adjustment",
-    "Cutting angle with your hips loads the triangle while maintaining lapel control pressure",
-    "Time the leg swing when opponent's weight shifts forward—their commitment becomes your leverage"
-  ],
-  "setup_requirements": [
-    "Established lapel guard configuration with fabric wrapped around opponent's arm or leg",
+  "conditions": [
+    "Lapel guard configuration established with fabric wrapped around opponent's arm or leg",
+    "Clear arm isolation achieved with one arm trapped inside and one arm outside the lapel wrap",
     "Opponent's posture broken or driving forward into your guard structure",
-    "Clear arm isolation with one arm trapped by lapel configuration and other arm outside",
-    "Hip mobility to create perpendicular angle relative to opponent's centerline",
-    "Secondary grip on collar or sleeve to prevent opponent from posturing away during transition",
-    "Sufficient space to swing leg over opponent's shoulder without obstruction"
+    "Sufficient hip mobility to create perpendicular angle relative to opponent's centerline"
   ],
-  "execution_steps": [
-    {
-      "step_number": 1,
-      "action": "Confirm arm isolation",
-      "description": "Verify your lapel configuration has created clear arm isolation—one arm trapped inside the lapel wrap, the other arm blocked from entering by the fabric barrier. If both arms are inside or outside the configuration, adjust the wrap before proceeding."
-    },
-    {
-      "step_number": 2,
-      "action": "Break posture",
-      "description": "Use your lapel grip combined with collar control to pull opponent's head and shoulders down toward your chest. Their forward weight distribution is essential for the hip movement that follows. If they resist, use small pumping pulls rather than one sustained effort."
-    },
-    {
-      "step_number": 3,
-      "action": "Create hip angle",
-      "description": "Shrimp your hips out to a perpendicular angle relative to opponent's centerline, pivoting on the shoulder opposite your triangle leg. Your trapped-arm-side hip should move away from opponent while maintaining lapel tension. This angle is critical—without it, the leg cannot clear their shoulder."
-    },
-    {
-      "step_number": 4,
-      "action": "Elevate attacking leg",
-      "description": "Raise your leg on the trapped-arm side, bringing your knee toward your own shoulder initially. Keep the leg chambered rather than immediately swinging it over—premature extension allows escape. The lapel maintains arm control while you position the leg."
-    },
-    {
-      "step_number": 5,
-      "action": "Swing leg over shoulder",
-      "description": "In one fluid motion, swing your elevated leg over opponent's shoulder and across the back of their neck. Your hamstring should contact the side of their neck while your ankle hooks behind their far shoulder. The lapel grip prevents them from pulling the trapped arm free during this transition."
-    },
-    {
-      "step_number": 6,
-      "action": "Lock triangle position",
-      "description": "Bring your opposite leg up to meet your attacking leg, tucking the ankle of your attacking leg behind the knee of your locking leg. Pull your own shin down while squeezing knees together. Release lapel grip only after triangle is fully locked—the fabric control ensures arm stays trapped until the legs take over."
-    },
-    {
-      "step_number": 7,
-      "action": "Adjust angle for finish",
-      "description": "With triangle locked, cut your hips at a sharper angle if needed to bring opponent's trapped shoulder across their own neck. The trapped arm should be diagonal across your body. Maintain the lock while making small angle adjustments—the finish comes from perpendicular positioning, not raw squeeze pressure."
-    }
-  ],
-  "common_counters": [
-    {
-      "counter": "Posture immediately when triangle threat is recognized, stacking weight forward to prevent hip movement",
-      "effectiveness": "High",
-      "your_response": "Use their forward stack momentum to elevate hips higher—their pressure aids your triangle entry. Alternatively, transition to omoplata as stacking opens that angle."
-    },
-    {
-      "counter": "Strip lapel grip before triangle leg can swing over, removing the arm isolation mechanism",
-      "effectiveness": "High",
-      "your_response": "Transition immediately to spider or lasso guard using the freed fabric. The grip break opens traditional guard options while you retain leg engagement."
-    },
-    {
-      "counter": "Circle toward the trapped arm side to change angle and relieve lapel pressure",
-      "effectiveness": "Medium",
-      "your_response": "Follow their rotation with your hips, using their movement to load a sweep. Their circling actually helps establish the perpendicular angle you need."
-    },
-    {
-      "counter": "Drive knee through the middle to split the guard and prevent leg from swinging over",
-      "effectiveness": "Medium",
-      "your_response": "Use the knee drive to off-balance them forward, then pummel your leg inside their knee to re-establish guard. Their forward commitment opens back take opportunities."
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Attempting triangle entry without first creating perpendicular hip angle",
-      "consequence": "Leg cannot clear opponent's shoulder cleanly, resulting in failed entry and potential guard pass as opponent drives through the incomplete technique",
-      "correction": "Always complete the hip escape to create angle before elevating the attacking leg. The perpendicular position is a prerequisite, not optional."
-    },
-    {
-      "error": "Releasing lapel grip too early before triangle lock is secured",
-      "consequence": "Opponent extracts trapped arm during transition, escaping the triangle and often achieving dominant passing position",
-      "correction": "Maintain lapel control until your legs have fully assumed arm-trapping duties. The handoff must be seamless—grip releases only after lock is complete."
-    },
-    {
-      "error": "Swinging leg over shoulder while opponent maintains good posture",
-      "consequence": "Opponent stacks aggressively, driving your shoulders to the mat and passing the guard while your leg is committed overhead",
-      "correction": "Break posture first using combined lapel and collar pressure. The leg swing should only occur when opponent's head and shoulders are below their hips."
-    },
-    {
-      "error": "Using the wrong leg for the triangle based on which arm is trapped",
-      "consequence": "Triangle locks with arm on wrong side, making finish mechanically impossible without major readjustment",
-      "correction": "The attacking leg (swinging over shoulder) should always be on the same side as the trapped arm. Verify arm isolation before committing to the technique."
-    },
-    {
-      "error": "Telegraphing the triangle by looking at opponent's shoulder or reaching for their head prematurely",
-      "consequence": "Experienced opponent recognizes threat and postures defensively or strips lapel grip before entry can begin",
-      "correction": "Set up the triangle through positional pressure rather than obvious reaching movements. The angle creation should feel like guard retention, not attack initiation."
-    },
-    {
-      "error": "Failing to maintain tension on lapel throughout the setup",
-      "consequence": "Opponent creates space to withdraw arm or posture, negating the arm isolation that makes this setup effective",
-      "correction": "Keep constant pulling pressure on the lapel configuration. Even small slack allows arm extraction—the fabric must remain taut throughout the transition."
-    }
-  ],
-  "training_progressions": [
-    {
-      "phase": "Week 1-2",
-      "focus": "Arm isolation mechanics",
-      "description": "Practice establishing lapel configurations that create clear arm isolation with partner offering no resistance. Focus on identifying the correct arm positioning (one in, one out) before any triangle mechanics. Drill the hip angle creation movement as a separate skill."
-    },
-    {
-      "phase": "Week 3-4",
-      "focus": "Posture break and leg swing timing",
-      "description": "Add light resistance where partner maintains moderate posture. Practice breaking posture using combined lapel and collar pressure. Once posture breaks consistently, add the leg swing. Partner allows completion but provides enough resistance to require proper technique."
-    },
-    {
-      "phase": "Week 5-6",
-      "focus": "Counter recognition and chain attacks",
-      "description": "Partner actively defends using the common counters (posturing, grip stripping, circling). Practice recognizing which counter is being applied and flowing to appropriate backup attacks—omoplata when they stack, sweeps when they circle, guard transitions when grip is stripped."
-    },
-    {
-      "phase": "Week 7+",
-      "focus": "Live application and dilemma creation",
-      "description": "Full resistance sparring starting from lapel guard. Focus on creating genuine sweep/submission dilemmas where defending the triangle opens sweeps and vice versa. Track success rate and identify which counters are giving you the most trouble for targeted drilling."
-    }
-  ],
-  "variants_and_adaptations": [
-    {
-      "variant_name": "Worm Guard Triangle Entry",
-      "description": "From worm guard with lapel wrapped around opponent's leg, use the leg entanglement to off-balance opponent forward while simultaneously creating arm isolation. The worm configuration provides additional leverage for breaking posture.",
-      "when_to_use": "When opponent is standing with their weight on the trapped leg, making them vulnerable to forward off-balancing"
-    },
-    {
-      "variant_name": "Squid Guard to Triangle",
-      "description": "From squid guard with lapel around opponent's arm, the arm is already isolated by design. Use the existing arm wrap to maintain control while creating angle and completing the leg swing. Faster setup since arm isolation is pre-established.",
-      "when_to_use": "Against opponents driving heavy forward pressure—their weight commitment aids the triangle entry"
-    },
-    {
-      "variant_name": "Inverted Triangle from Lapel",
-      "description": "When opponent successfully postures against the standard triangle entry, invert your body and attack the inverted triangle instead. The lapel maintains arm control even as you change the attack angle, preventing escape during the inversion.",
-      "when_to_use": "When opponent's defensive posture is too strong for standard triangle but they've committed their weight forward"
-    }
-  ],
-  "knowledge_assessment": [
-    {
-      "question": "What is the primary goal of Lapel Triangle Setup?",
-      "answer": "The primary goal is to use the lapel configuration's arm isolation properties to establish the classic triangle prerequisite—one arm in, one arm out—while maintaining positional control that prevents escape during the leg swing and lock. The lapel serves as a persistent arm trap that enables the triangle entry."
-    },
-    {
-      "question": "What position do you start Lapel Triangle Setup from?",
-      "answer": "This technique starts from Lapel Guard bottom position, where you have already established a lapel configuration (worm, squid, or similar) that wraps the opponent's gi fabric around their arm or leg, creating control points that restrict their movement and enable offensive attacks."
-    },
-    {
-      "question": "What are the key grips needed for Lapel Triangle Setup?",
-      "answer": "The primary grip is the lapel wrap itself, threaded around opponent's arm or through their legs to create arm isolation. A secondary collar grip (cross collar or same-side collar) controls posture during the transition. Some practitioners add a sleeve grip on the free arm to prevent it from entering the triangle space."
-    },
-    {
-      "question": "Your opponent starts posturing aggressively when they feel the triangle threat—how do you use their reaction?",
-      "answer": "Their aggressive posturing forward actually aids your hip elevation for the triangle entry. Use their forward momentum by timing your hip escape and leg swing to coincide with their drive. Alternatively, their posture attempt often opens the omoplata angle if they successfully defend the triangle—flow to the shoulder lock instead."
-    },
-    {
-      "question": "What is the critical hip position required before swinging your leg over for the triangle?",
-      "answer": "You must establish a perpendicular hip angle relative to opponent's centerline by shrimping out toward your non-attacking side. Without this angle, your leg physically cannot clear their shoulder. The hip escape should move your attacking-side hip away from opponent while maintaining lapel tension—approximately 45-90 degrees from your starting position."
-    },
-    {
-      "question": "When should you release your lapel grip during the triangle setup?",
-      "answer": "Release the lapel grip only after your triangle lock is fully secured—meaning your attacking leg's ankle is tucked behind your locking leg's knee and you're squeezing your knees together. The lapel maintains arm isolation during the transition; releasing too early allows arm extraction and escape. The handoff from lapel control to leg control must be seamless."
-    },
-    {
-      "question": "Your opponent strips your lapel grip before you can complete the triangle entry—what immediate transition maintains your offensive pressure?",
-      "answer": "Transition immediately to spider guard or lasso guard using the now-freed lapel fabric and your existing leg positioning. The grip break opens traditional guard options while you retain leg engagement. From spider or lasso, you can work back toward lapel configurations or attack with those guards' native submissions and sweeps."
-    },
-    {
-      "question": "How does the direction of force differ between the setup phase and the finishing phase of this technique?",
-      "answer": "During setup, force direction is primarily pulling—breaking posture down and maintaining lapel tension to keep the arm trapped. During the finish, force direction becomes rotational and squeezing—cutting your hips perpendicular to opponent while squeezing knees together and pulling their head down. The transition from linear pulling to rotational finishing is what locks the choke."
-    },
-    {
-      "question": "Against an opponent who circles toward your trapped-arm side to relieve lapel pressure, how do you capitalize on their movement?",
-      "answer": "Their circling motion actually helps establish the perpendicular angle needed for triangle entry. Follow their rotation with your hips while maintaining lapel control—their movement loads your hip escape. Additionally, their circling often compromises their base, opening sweep opportunities from the lapel configuration if the triangle entry is blocked."
-    },
-    {
-      "question": "What distinguishes the Lapel Triangle Setup from a standard closed guard triangle entry in terms of control mechanics?",
-      "answer": "The lapel creates a persistent mechanical arm trap that doesn't require constant muscular effort to maintain, unlike closed guard where you must actively control the arm throughout the setup. This frees cognitive and physical resources for managing posture and timing the leg swing. The fabric barrier also prevents the free arm from entering the triangle space without active blocking."
-    }
-  ],
-  "safety_considerations": "The Lapel Triangle Setup is generally safe when practiced with proper control, but several precautions should be observed. During the leg swing phase, avoid kicking or driving your leg forcefully into your partner's neck or jaw—control the movement to place the leg rather than striking with it. When practicing the finish, apply gradual pressure and watch for tap signals immediately, as triangle chokes can produce unconsciousness quickly once locked. Partners should tap early during drilling rather than waiting for full pressure. Avoid cranking the neck by pulling the head aggressively—the choke should come from positioning and squeeze, not neck manipulation. If the lapel configuration creates uncomfortable pressure on joints during practice, adjust the wrap or release and reset. Be particularly careful with the inverted triangle variation, as the inverted position adds spinal stress that some practitioners should avoid.",
-  "position_integration": "The Lapel Triangle Setup functions as a primary submission threat within the lapel guard attack system, creating a dilemma pair with sweeping attacks. When opponents defend the triangle by posturing or stacking, they typically expose themselves to lapel-based sweeps that capitalize on their defensive weight distribution. Conversely, opponents who stay low and heavy to prevent sweeps find their arm increasingly isolated and vulnerable to the triangle. This technique connects the lapel guard system to the broader triangle control position, allowing practitioners to flow from modern lapel innovations into classical finishing mechanics. It pairs naturally with the omoplata as a secondary attack—failed triangle entries often leave the arm perfectly positioned for shoulder lock threats. The setup also demonstrates how gi-specific guards can access submissions that might be more difficult from no-gi equivalents, justifying the technical investment in lapel guard development.",
   "related_content": [
     {
       "name": "Lapel Guard",
@@ -262,5 +78,329 @@
       "relationship": "Related technique sharing similar arm isolation principles"
     }
   ],
-  "success_rate": 58
+  "attacker": {
+    "name": "Lapel Triangle Setup Attacker",
+    "description": "How to execute Lapel Triangle Setup in BJJ. Attacking perspective with setup, execution steps, and counters.",
+    "overview": "The Lapel Triangle Setup represents a sophisticated fusion of modern lapel guard innovation with classical triangle mechanics. This technique exploits the unique control properties of lapel configurations to create angle and arm isolation that would be difficult to achieve with traditional grips alone. By using the opponent's own gi fabric as a barrier and control point, the bottom player can manipulate posture and arm position with remarkable efficiency.\n\nFrom an established lapel guard position, the practitioner uses the wrapped lapel to restrict the opponent's ability to posture or withdraw their trapped arm. This creates the classic triangle prerequisite—one arm in, one arm out—while the lapel maintains the positional control necessary to complete the leg swing and lock. The technique is particularly effective against opponents who drive forward into the lapel configuration, as their pressure actually aids the hip elevation needed for triangle entry.\n\nStrategically, this setup creates a powerful dilemma system. Opponents who posture aggressively to avoid the triangle expose themselves to sweeps from the lapel configuration. Those who stay low and heavy to prevent sweeping find their arm increasingly isolated and vulnerable to the triangle threat. This forced-choice dynamic makes the Lapel Triangle Setup a high-percentage attack against experienced practitioners who understand they cannot defend both options simultaneously.",
+    "key_principles": [
+      "Use lapel wrap to isolate one arm while creating barrier against the other arm entering",
+      "Opponent's forward pressure aids hip elevation for triangle entry—work with their energy",
+      "Maintain secondary collar or sleeve grip to control posture throughout the setup",
+      "Create angle before attempting to throw the leg over—perpendicular hip position is essential",
+      "The lapel functions as a persistent arm trap that doesn't require constant grip adjustment",
+      "Cutting angle with your hips loads the triangle while maintaining lapel control pressure",
+      "Time the leg swing when opponent's weight shifts forward—their commitment becomes your leverage"
+    ],
+    "setup_requirements": [
+      "Established lapel guard configuration with fabric wrapped around opponent's arm or leg",
+      "Opponent's posture broken or driving forward into your guard structure",
+      "Clear arm isolation with one arm trapped by lapel configuration and other arm outside",
+      "Hip mobility to create perpendicular angle relative to opponent's centerline",
+      "Secondary grip on collar or sleeve to prevent opponent from posturing away during transition",
+      "Sufficient space to swing leg over opponent's shoulder without obstruction"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Confirm arm isolation",
+        "description": "Verify your lapel configuration has created clear arm isolation—one arm trapped inside the lapel wrap, the other arm blocked from entering by the fabric barrier. If both arms are inside or outside the configuration, adjust the wrap before proceeding."
+      },
+      {
+        "step_number": 2,
+        "action": "Break posture",
+        "description": "Use your lapel grip combined with collar control to pull opponent's head and shoulders down toward your chest. Their forward weight distribution is essential for the hip movement that follows. If they resist, use small pumping pulls rather than one sustained effort."
+      },
+      {
+        "step_number": 3,
+        "action": "Create hip angle",
+        "description": "Shrimp your hips out to a perpendicular angle relative to opponent's centerline, pivoting on the shoulder opposite your triangle leg. Your trapped-arm-side hip should move away from opponent while maintaining lapel tension. This angle is critical—without it, the leg cannot clear their shoulder."
+      },
+      {
+        "step_number": 4,
+        "action": "Elevate attacking leg",
+        "description": "Raise your leg on the trapped-arm side, bringing your knee toward your own shoulder initially. Keep the leg chambered rather than immediately swinging it over—premature extension allows escape. The lapel maintains arm control while you position the leg."
+      },
+      {
+        "step_number": 5,
+        "action": "Swing leg over shoulder",
+        "description": "In one fluid motion, swing your elevated leg over opponent's shoulder and across the back of their neck. Your hamstring should contact the side of their neck while your ankle hooks behind their far shoulder. The lapel grip prevents them from pulling the trapped arm free during this transition."
+      },
+      {
+        "step_number": 6,
+        "action": "Lock triangle position",
+        "description": "Bring your opposite leg up to meet your attacking leg, tucking the ankle of your attacking leg behind the knee of your locking leg. Pull your own shin down while squeezing knees together. Release lapel grip only after triangle is fully locked—the fabric control ensures arm stays trapped until the legs take over."
+      },
+      {
+        "step_number": 7,
+        "action": "Adjust angle for finish",
+        "description": "With triangle locked, cut your hips at a sharper angle if needed to bring opponent's trapped shoulder across their own neck. The trapped arm should be diagonal across your body. Maintain the lock while making small angle adjustments—the finish comes from perpendicular positioning, not raw squeeze pressure."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Posture immediately when triangle threat is recognized, stacking weight forward to prevent hip movement",
+        "effectiveness": "High",
+        "your_response": "Use their forward stack momentum to elevate hips higher—their pressure aids your triangle entry. Alternatively, transition to omoplata as stacking opens that angle.",
+        "targets_outcome": "Lapel Guard/Bottom"
+      },
+      {
+        "counter": "Strip lapel grip before triangle leg can swing over, removing the arm isolation mechanism",
+        "effectiveness": "High",
+        "your_response": "Transition immediately to spider or lasso guard using the freed fabric. The grip break opens traditional guard options while you retain leg engagement.",
+        "targets_outcome": "Lapel Guard/Bottom"
+      },
+      {
+        "counter": "Circle toward the trapped arm side to change angle and relieve lapel pressure",
+        "effectiveness": "Medium",
+        "your_response": "Follow their rotation with your hips, using their movement to load a sweep. Their circling actually helps establish the perpendicular angle you need.",
+        "targets_outcome": "Lapel Guard/Bottom"
+      },
+      {
+        "counter": "Drive knee through the middle to split the guard and prevent leg from swinging over",
+        "effectiveness": "Medium",
+        "your_response": "Use the knee drive to off-balance them forward, then pummel your leg inside their knee to re-establish guard. Their forward commitment opens back take opportunities.",
+        "targets_outcome": "Half Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting triangle entry without first creating perpendicular hip angle",
+        "consequence": "Leg cannot clear opponent's shoulder cleanly, resulting in failed entry and potential guard pass as opponent drives through the incomplete technique",
+        "correction": "Always complete the hip escape to create angle before elevating the attacking leg. The perpendicular position is a prerequisite, not optional."
+      },
+      {
+        "error": "Releasing lapel grip too early before triangle lock is secured",
+        "consequence": "Opponent extracts trapped arm during transition, escaping the triangle and often achieving dominant passing position",
+        "correction": "Maintain lapel control until your legs have fully assumed arm-trapping duties. The handoff must be seamless—grip releases only after lock is complete."
+      },
+      {
+        "error": "Swinging leg over shoulder while opponent maintains good posture",
+        "consequence": "Opponent stacks aggressively, driving your shoulders to the mat and passing the guard while your leg is committed overhead",
+        "correction": "Break posture first using combined lapel and collar pressure. The leg swing should only occur when opponent's head and shoulders are below their hips."
+      },
+      {
+        "error": "Using the wrong leg for the triangle based on which arm is trapped",
+        "consequence": "Triangle locks with arm on wrong side, making finish mechanically impossible without major readjustment",
+        "correction": "The attacking leg (swinging over shoulder) should always be on the same side as the trapped arm. Verify arm isolation before committing to the technique."
+      },
+      {
+        "error": "Telegraphing the triangle by looking at opponent's shoulder or reaching for their head prematurely",
+        "consequence": "Experienced opponent recognizes threat and postures defensively or strips lapel grip before entry can begin",
+        "correction": "Set up the triangle through positional pressure rather than obvious reaching movements. The angle creation should feel like guard retention, not attack initiation."
+      },
+      {
+        "error": "Failing to maintain tension on lapel throughout the setup",
+        "consequence": "Opponent creates space to withdraw arm or posture, negating the arm isolation that makes this setup effective",
+        "correction": "Keep constant pulling pressure on the lapel configuration. Even small slack allows arm extraction—the fabric must remain taut throughout the transition."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Arm isolation mechanics",
+        "description": "Practice establishing lapel configurations that create clear arm isolation with partner offering no resistance. Focus on identifying the correct arm positioning (one in, one out) before any triangle mechanics. Drill the hip angle creation movement as a separate skill."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Posture break and leg swing timing",
+        "description": "Add light resistance where partner maintains moderate posture. Practice breaking posture using combined lapel and collar pressure. Once posture breaks consistently, add the leg swing. Partner allows completion but provides enough resistance to require proper technique."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Counter recognition and chain attacks",
+        "description": "Partner actively defends using the common counters (posturing, grip stripping, circling). Practice recognizing which counter is being applied and flowing to appropriate backup attacks—omoplata when they stack, sweeps when they circle, guard transitions when grip is stripped."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live application and dilemma creation",
+        "description": "Full resistance sparring starting from lapel guard. Focus on creating genuine sweep/submission dilemmas where defending the triangle opens sweeps and vice versa. Track success rate and identify which counters are giving you the most trouble for targeted drilling."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary goal of Lapel Triangle Setup?",
+        "answer": "The primary goal is to use the lapel configuration's arm isolation properties to establish the classic triangle prerequisite—one arm in, one arm out—while maintaining positional control that prevents escape during the leg swing and lock. The lapel serves as a persistent arm trap that enables the triangle entry."
+      },
+      {
+        "question": "What position do you start Lapel Triangle Setup from?",
+        "answer": "This technique starts from Lapel Guard bottom position, where you have already established a lapel configuration (worm, squid, or similar) that wraps the opponent's gi fabric around their arm or leg, creating control points that restrict their movement and enable offensive attacks."
+      },
+      {
+        "question": "What are the key grips needed for Lapel Triangle Setup?",
+        "answer": "The primary grip is the lapel wrap itself, threaded around opponent's arm or through their legs to create arm isolation. A secondary collar grip (cross collar or same-side collar) controls posture during the transition. Some practitioners add a sleeve grip on the free arm to prevent it from entering the triangle space."
+      },
+      {
+        "question": "Your opponent starts posturing aggressively when they feel the triangle threat—how do you use their reaction?",
+        "answer": "Their aggressive posturing forward actually aids your hip elevation for the triangle entry. Use their forward momentum by timing your hip escape and leg swing to coincide with their drive. Alternatively, their posture attempt often opens the omoplata angle if they successfully defend the triangle—flow to the shoulder lock instead."
+      },
+      {
+        "question": "What is the critical hip position required before swinging your leg over for the triangle?",
+        "answer": "You must establish a perpendicular hip angle relative to opponent's centerline by shrimping out toward your non-attacking side. Without this angle, your leg physically cannot clear their shoulder. The hip escape should move your attacking-side hip away from opponent while maintaining lapel tension—approximately 45-90 degrees from your starting position."
+      },
+      {
+        "question": "When should you release your lapel grip during the triangle setup?",
+        "answer": "Release the lapel grip only after your triangle lock is fully secured—meaning your attacking leg's ankle is tucked behind your locking leg's knee and you're squeezing your knees together. The lapel maintains arm isolation during the transition; releasing too early allows arm extraction and escape. The handoff from lapel control to leg control must be seamless."
+      },
+      {
+        "question": "Your opponent strips your lapel grip before you can complete the triangle entry—what immediate transition maintains your offensive pressure?",
+        "answer": "Transition immediately to spider guard or lasso guard using the now-freed lapel fabric and your existing leg positioning. The grip break opens traditional guard options while you retain leg engagement. From spider or lasso, you can work back toward lapel configurations or attack with those guards' native submissions and sweeps."
+      },
+      {
+        "question": "How does the direction of force differ between the setup phase and the finishing phase of this technique?",
+        "answer": "During setup, force direction is primarily pulling—breaking posture down and maintaining lapel tension to keep the arm trapped. During the finish, force direction becomes rotational and squeezing—cutting your hips perpendicular to opponent while squeezing knees together and pulling their head down. The transition from linear pulling to rotational finishing is what locks the choke."
+      },
+      {
+        "question": "Against an opponent who circles toward your trapped-arm side to relieve lapel pressure, how do you capitalize on their movement?",
+        "answer": "Their circling motion actually helps establish the perpendicular angle needed for triangle entry. Follow their rotation with your hips while maintaining lapel control—their movement loads your hip escape. Additionally, their circling often compromises their base, opening sweep opportunities from the lapel configuration if the triangle entry is blocked."
+      },
+      {
+        "question": "What distinguishes the Lapel Triangle Setup from a standard closed guard triangle entry in terms of control mechanics?",
+        "answer": "The lapel creates a persistent mechanical arm trap that doesn't require constant muscular effort to maintain, unlike closed guard where you must actively control the arm throughout the setup. This frees cognitive and physical resources for managing posture and timing the leg swing. The fabric barrier also prevents the free arm from entering the triangle space without active blocking."
+      }
+    ],
+    "safety_considerations": "The Lapel Triangle Setup is generally safe when practiced with proper control, but several precautions should be observed. During the leg swing phase, avoid kicking or driving your leg forcefully into your partner's neck or jaw—control the movement to place the leg rather than striking with it. When practicing the finish, apply gradual pressure and watch for tap signals immediately, as triangle chokes can produce unconsciousness quickly once locked. Partners should tap early during drilling rather than waiting for full pressure. Avoid cranking the neck by pulling the head aggressively—the choke should come from positioning and squeeze, not neck manipulation. If the lapel configuration creates uncomfortable pressure on joints during practice, adjust the wrap or release and reset. Be particularly careful with the inverted triangle variation, as the inverted position adds spinal stress that some practitioners should avoid."
+  },
+  "defender": {
+    "name": "Lapel Triangle Setup Defender",
+    "description": "How to defend against Lapel Triangle Setup in BJJ. Recognition cues, defensive options, and escape strategies.",
+    "overview": "Defending the Lapel Triangle Setup requires addressing two interconnected threats: the lapel configuration controlling your arm and the triangle entry targeting your neck. Unlike standard triangle defense where the primary concern is leg positioning, the lapel adds a persistent fabric barrier that must be neutralized before or during your defensive response. The defender faces a compounding problem—the longer the lapel remains configured, the more the arm isolation deepens, making triangle entry progressively easier.\n\nThe defensive window is narrowest during the leg swing phase, when the attacker transitions from lapel control to leg control. Before this moment, the defender can address the lapel grip directly through stripping, posture recovery, or angle changes. After the triangle locks, escape becomes significantly harder as the legs assume the arm-trapping role the lapel previously held. Effective defense therefore prioritizes early recognition and preemptive action over reactive escape once the triangle is established.\n\nThe key defensive principle is to prevent the conditions that enable the triangle: arm isolation and broken posture. Maintaining strong upright posture denies the hip angle the attacker needs, while keeping both arms either inside or outside the lapel wrap removes the one-in-one-out prerequisite. Experienced defenders also exploit the transition moment when the attacker must release the lapel to complete the lock—this brief window where control transfers from fabric to legs represents the best escape opportunity in the sequence.",
+    "key_principles": [
+      "Address the lapel configuration first—strip the fabric control before the arm isolation deepens and triangle entry becomes inevitable",
+      "Maintain strong upright posture to deny the attacker the broken-posture prerequisite for the leg swing",
+      "Keep both arms either inside or outside the lapel wrap to prevent the one-in-one-out isolation the triangle requires",
+      "Exploit the transition moment when attacker releases lapel grip to lock legs—this handoff creates a brief escape window",
+      "Use circular movement away from the trapped-arm side to change the angle and reduce lapel tension",
+      "Drive knee through the center to split the guard structure and prevent the leg from swinging over your shoulder"
+    ],
+    "recognition_cues": [
+      "Opponent has established a lapel configuration with fabric wrapped around your arm or threaded through your legs, creating a persistent grip that restricts your arm movement independently of their hand position",
+      "Opponent begins hip escaping to create a perpendicular angle while maintaining tension on the lapel—this angling motion is the immediate precursor to the leg swing over your shoulder",
+      "Opponent's collar or sleeve grip tightens as they begin pulling your head and shoulders downward—the posture break combined with lapel tension signals imminent triangle attempt",
+      "Opponent chambers their leg on the trapped-arm side, bringing their knee toward their own shoulder—this loaded position precedes the leg swing by one to two seconds"
+    ],
+    "defensive_options": [
+      {
+        "action": "Strip lapel grip and recover posture immediately by pushing off opponent's hips while driving your spine upright",
+        "when_to_use": "Early in the setup before opponent has created the perpendicular hip angle—the sooner you address the lapel, the easier the grip break",
+        "targets_outcome": "Lapel Guard/Bottom",
+        "if_successful": "Opponent loses arm isolation and must re-establish the lapel configuration from scratch, resetting to neutral lapel guard exchange",
+        "risk": "If grip strip fails, you've committed both hands to the lapel and temporarily abandoned posture control, potentially accelerating the triangle entry"
+      },
+      {
+        "action": "Drive forward with strong posture, stacking opponent's hips over their shoulders while keeping your trapped arm tight to your body",
+        "when_to_use": "When opponent has begun the hip angle but hasn't yet swung the leg over—your forward drive compresses their ability to create space for the leg swing",
+        "targets_outcome": "Lapel Guard/Bottom",
+        "if_successful": "Opponent's hip angle is neutralized, their leg swing is blocked, and you can work to pass from the compressed position",
+        "risk": "Over-committing to the stack can open omoplata or sweep opportunities if opponent redirects your forward momentum"
+      },
+      {
+        "action": "Drive knee through center of opponent's guard to split their legs and prevent the triangle leg from reaching your neck",
+        "when_to_use": "When opponent begins elevating the attacking leg—your knee insertion must beat their leg swing to be effective",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You split the guard structure and begin passing, typically reaching half guard or side control as the triangle entry is blocked",
+        "risk": "If the knee drive is late, you may end up with your head trapped and the triangle partially locked around your neck and knee"
+      },
+      {
+        "action": "Circle away from the trapped-arm side while fighting to extract your arm from the lapel wrap",
+        "when_to_use": "When the lapel grip is too deep to strip directly—lateral movement reduces the mechanical advantage of the wrap and creates slack in the fabric",
+        "targets_outcome": "Lapel Guard/Bottom",
+        "if_successful": "The circling creates enough slack in the lapel configuration to extract your arm or at minimum prevents the perpendicular angle needed for triangle entry",
+        "risk": "Circling in the wrong direction (toward trapped arm) actually loads the sweep and accelerates the triangle entry angle"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Lapel Guard/Bottom",
+        "how": "Strip the lapel grip early before arm isolation deepens, then recover posture and begin addressing the remaining lapel configuration. Prioritize removing the fabric from around your arm or leg before the opponent can re-establish the wrap. Once the lapel is cleared, initiate standard open guard passing."
+      },
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "When the triangle entry is partially blocked through knee insertion or stacking, drive through to establish half guard top by pinning opponent's leg between yours. Use the failed triangle attempt as a passing opportunity—the opponent's commitment to the leg swing often leaves their lower body vulnerable to leg drag or knee slice entries."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Ignoring the lapel configuration and only defending the triangle leg, treating it as a standard triangle defense",
+        "consequence": "The lapel maintains arm isolation even when you successfully prevent the initial leg swing, allowing the attacker to re-attempt with persistent control that standard triangle defense cannot address",
+        "correction": "Address the lapel first—strip the fabric grip or create enough slack to extract your arm before focusing on preventing the leg swing. The lapel is the root cause, not the triangle leg."
+      },
+      {
+        "error": "Pulling backward to escape instead of maintaining forward pressure or addressing the lapel directly",
+        "consequence": "Creates distance that allows the attacker to extend their hips and complete the leg swing more easily, and increases lapel tension as the fabric tightens with your backward movement",
+        "correction": "Drive forward or laterally rather than retreating. Forward pressure compresses the attacker's hip space, and lateral movement creates slack in the lapel. Backward motion is the worst defensive direction against lapel triangle setups."
+      },
+      {
+        "error": "Reaching across with the free arm to push on opponent's leg, leaving it exposed to additional trapping",
+        "consequence": "The free arm enters the triangle space, giving the attacker both arms inside the leg configuration and enabling immediate triangle lock without needing the lapel for isolation",
+        "correction": "Keep your free arm on the outside of opponent's legs at all times. Use it to frame on their hip or push on their knee rather than reaching across their body where it becomes vulnerable to trapping."
+      },
+      {
+        "error": "Waiting until the triangle is locked before beginning defensive action",
+        "consequence": "Once the triangle is fully locked with legs secured, the attacker no longer needs the lapel and escape difficulty increases dramatically as you must fight both leg compression and angle simultaneously",
+        "correction": "Begin defense the moment you recognize the lapel configuration creating arm isolation. The defensive window shrinks rapidly—acting during the hip angle phase is significantly easier than escaping a locked triangle."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that a Lapel Triangle Setup is being initiated against you?",
+        "answer": "The earliest cue is feeling the lapel configuration creating persistent arm isolation—one arm restricted by the fabric wrap while the other remains free. This one-in-one-out configuration is the prerequisite for triangle entry, and recognizing it before the opponent begins hip angling gives you the maximum defensive window to strip the lapel or adjust your arm position."
+      },
+      {
+        "question": "Why is pulling backward a poor defensive choice against the Lapel Triangle Setup specifically?",
+        "answer": "Pulling backward increases lapel tension because the fabric is wrapped around your body and tightens as you create distance. This deepens the arm isolation rather than relieving it. Additionally, the increased distance gives the attacker more space to complete their hip angle and leg swing. Forward or lateral movement is more effective because it compresses the attacker's hip space or creates slack in the fabric."
+      },
+      {
+        "question": "When during the Lapel Triangle Setup sequence is the best moment to attempt your primary escape?",
+        "answer": "The optimal escape window is during the transition when the attacker releases the lapel grip to complete the triangle lock with their legs. During this handoff, there is a brief moment where neither the fabric nor the legs are fully controlling your arm. Anticipating this transition and explosively posturing or extracting your arm during the handoff offers the highest probability of escape before the triangle consolidates."
+      },
+      {
+        "question": "Your opponent has the lapel wrapped around your right arm and begins hip escaping to their left—what is your immediate defensive priority?",
+        "answer": "Your immediate priority is preventing the perpendicular angle by driving forward into the opponent while simultaneously working to strip the lapel from your right arm. The hip escape to their left signals the triangle leg will come from that side. Drive your weight into them to compress the space they need for the leg swing, and use your free left hand to address the lapel configuration on your right arm rather than reaching across."
+      },
+      {
+        "question": "How does defending the Lapel Triangle Setup differ from defending a standard closed guard triangle entry?",
+        "answer": "The critical difference is the persistent arm isolation created by the lapel fabric. In standard triangle defense, freeing your arm is a grip fight against their hands. Against the lapel setup, the fabric maintains control independently of the attacker's hand strength, meaning standard grip breaks are insufficient. You must physically remove the fabric wrap from your arm or neutralize the entire configuration, which requires different defensive mechanics focused on creating slack in the material."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Lapel grip recognition and stripping",
+        "description": "Partner establishes various lapel configurations at slow speed. Practice identifying when arm isolation has been achieved and drilling the grip strip sequence—controlling their gripping hand, creating slack in the fabric, then extracting your arm. Focus on early recognition rather than speed."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Posture maintenance under lapel pressure",
+        "description": "Partner attempts posture breaks using lapel and collar grips with moderate resistance. Practice maintaining upright spine alignment against the combined pulling forces. Develop the reflex to drive hips forward when you feel your posture being broken rather than bracing with upper body strength alone."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Transition window exploitation",
+        "description": "Partner performs the full Lapel Triangle Setup sequence at training speed. Practice identifying and exploiting the handoff moment when the attacker releases the lapel to lock the triangle. Time your posture recovery and arm extraction to coincide with this transition window."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live defense with counter-passing",
+        "description": "Full resistance positional sparring starting with partner in established lapel guard. Defend the triangle setup and immediately transition to passing when the attack fails. Track which defensive responses lead to the most successful guard passes to optimize your defensive-to-offensive chains."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Worm Guard Triangle Entry",
+      "description": "From worm guard with lapel wrapped around opponent's leg, use the leg entanglement to off-balance opponent forward while simultaneously creating arm isolation. The worm configuration provides additional leverage for breaking posture.",
+      "when_to_use": "When opponent is standing with their weight on the trapped leg, making them vulnerable to forward off-balancing"
+    },
+    {
+      "variant_name": "Squid Guard to Triangle",
+      "description": "From squid guard with lapel around opponent's arm, the arm is already isolated by design. Use the existing arm wrap to maintain control while creating angle and completing the leg swing. Faster setup since arm isolation is pre-established.",
+      "when_to_use": "Against opponents driving heavy forward pressure—their weight commitment aids the triangle entry"
+    },
+    {
+      "variant_name": "Inverted Triangle from Lapel",
+      "description": "When opponent successfully postures against the standard triangle entry, invert your body and attack the inverted triangle instead. The lapel maintains arm control even as you change the attack angle, preventing escape during the inversion.",
+      "when_to_use": "When opponent's defensive posture is too strong for standard triangle but they've committed their weight forward"
+    }
+  ],
+  "position_integration": "The Lapel Triangle Setup functions as a primary submission threat within the lapel guard attack system, creating a dilemma pair with sweeping attacks. When opponents defend the triangle by posturing or stacking, they typically expose themselves to lapel-based sweeps that capitalize on their defensive weight distribution. Conversely, opponents who stay low and heavy to prevent sweeps find their arm increasingly isolated and vulnerable to the triangle. This technique connects the lapel guard system to the broader triangle control position, allowing practitioners to flow from modern lapel innovations into classical finishing mechanics. It pairs naturally with the omoplata as a secondary attack—failed triangle entries often leave the arm perfectly positioned for shoulder lock threats. The setup also demonstrates how gi-specific guards can access submissions that might be more difficult from no-gi equivalents, justifying the technical investment in lapel guard development."
 }

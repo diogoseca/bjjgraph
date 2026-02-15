@@ -1,0 +1,13 @@
+{
+  "name": "Stack Pass from Carni",
+  "description": "",
+  "tags": [],
+  "from_position": "Carni/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

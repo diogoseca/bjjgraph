@@ -362,7 +362,6 @@ Begin with static position holds to develop flexibility and position familiarity
 - [[Baratoplata]] (Submission) - Advanced variation combining rubber guard and omoplata mechanics
 - [[Submission Chains]] (Principle) - Conceptual framework for connecting multiple attacks
 - [[Flexibility Training]] (Principle) - Physical requirement for system execution
-- [[Hip Movement]] (Principle) - Essential mechanical component of all system transitions
 - [[Posture Breaking]] (Principle) - Initial control establishment principle
 - [[Guard Retention]] (Principle) - Defensive concepts integrated with offensive system
 - [[Offensive Combinations]] (Principle) - Strategic framework for multi-attack sequences

@@ -1,7 +1,16 @@
 {
   "name": "Ryan Hall Triangle System",
   "description": "Master Ryan Hall's Triangle System. Comprehensive framework connecting closed guard control to triangle finishes, armbars, and omoplatas with systematic submission chains.",
-  "tags": ["bjj", "system", "triangle", "submission-chain", "ryan-hall", "closed-guard", "armbar", "omoplata"],
+  "tags": [
+    "bjj",
+    "system",
+    "triangle",
+    "submission-chain",
+    "ryan-hall",
+    "closed-guard",
+    "armbar",
+    "omoplata"
+  ],
   "system_type": "Submission Chain",
   "difficulty_level": "Advanced",
   "overview": "The Ryan Hall Triangle System represents one of the most comprehensive and technically refined approaches to the triangle choke and its associated submission chains in Brazilian Jiu-Jitsu. Hall's system is built on the fundamental principle that the triangle is not merely a single submission, but rather the centerpiece of an interconnected web of attacks including armbars, omoplatas, and back takes. This system emphasizes positional control, precise angle creation, and the ability to flow seamlessly between submissions based on defensive reactions.\n\nWhat distinguishes Hall's approach is the emphasis on creating genuine dilemmas for opponents through systematic pressure and positioning. Rather than forcing single submissions, the system creates scenarios where every defensive option opens a new offensive pathway. The triangle position becomes a control platform from which multiple high-percentage finishes become available. Hall's methodology breaks down the complex mechanics of triangle attacks into learnable progressions that build upon fundamental principles of leverage, angle manipulation, and timing.\n\nThe system integrates seamlessly with modern guard play, particularly from closed guard, but extends to applications from spider guard, De La Riva, and even standing positions. Hall's technical innovations include specific grip sequences, hip positioning strategies, and transitional mechanics that maximize finishing percentages while minimizing energy expenditure. This system has proven effective at the highest levels of competition and represents a comprehensive blueprint for developing world-class triangle attacks.",
@@ -383,11 +392,6 @@
       "name": "Angle Creation",
       "content_type": "Principle",
       "relationship": "Critical mechanical principle for all submissions in system"
-    },
-    {
-      "name": "Hip Movement",
-      "content_type": "Principle",
-      "relationship": "Essential body mechanic for system execution"
     },
     {
       "name": "Creating Reactions",

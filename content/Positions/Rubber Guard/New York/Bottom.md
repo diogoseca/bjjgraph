@@ -231,7 +231,7 @@ From a learning progression standpoint, New York Bottom typically requires 40-60
 
 ### [[Gogoplata]] (7% of attempts)
 
-### [[Armbar from Guard]] (11% of attempts)
+### [[Armbar Finish]] (11% of attempts)
 
 ### [[Hip Bump Sweep]] (11% of attempts)
 
@@ -252,7 +252,7 @@ From a learning progression standpoint, New York Bottom typically requires 40-60
 
 **If opponent drives forward aggressively trying to flatten the position:**
 - Execute **[[Advance to Chill Dog]]** → [[Chill Dog]] (Probability: 50%)
-- Execute **[[Switch to Triangle Setup]]** → [[Triangle Control]] (Probability: 60%)
+- Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 60%)
 
 
 **If opponent widens base and attempts to circle away from overhook side:**
@@ -262,7 +262,7 @@ From a learning progression standpoint, New York Bottom typically requires 40-60
 
 **If opponent successfully restores partial posture but arm remains trapped:**
 - Execute **[[Hip Bump Sweep]]** → [[Mount]] (Probability: 60%)
-- Execute **[[Armbar from Guard]]** → [[Armbar Control]] (Probability: 55%)
+- Execute **[[Armbar Finish]]** → [[Armbar Control]] (Probability: 55%)
 
 
 

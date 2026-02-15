@@ -4,7 +4,7 @@
 
 ---
 title: "Aoki Lock Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master Aoki Lock defense and escape strategies. Defensive control position with shoulder lock pressure. Learn escapes, grip breaks, and counter-attacks with 40% escape rate."
+description: "Master Aoki Lock defense and escape strategies. Defensive control position with shoulder lock pressure. Learn escapes, grip breaks, and counter-attacks with 50% escape rate."
 ---
 
 
@@ -21,37 +21,37 @@ description: "Master Aoki Lock defense and escape strategies. Defensive control 
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Escape to Guard",
-      "text": "From this position, attempt Rolling Escape to Guard. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Rolling Escape to Guard. This technique is attempted in 21% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction to Turtle",
-      "text": "From this position, attempt Arm Extraction to Turtle. This technique is attempted in 21% of exchanges from this position.",
+      "text": "From this position, attempt Arm Extraction to Turtle. This technique is attempted in 38% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape to Guard Recovery",
-      "text": "From this position, attempt Hip Escape to Guard Recovery. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Hip Escape to Guard",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 17% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Counter to Top",
-      "text": "From this position, attempt Rolling Counter to Top. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Counter Roll to Top",
+      "text": "From this position, attempt Counter Roll to Top. This technique is attempted in 4% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Base Attack to Sweep",
-      "text": "From this position, attempt Base Attack to Sweep. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Granby Roll to Guard",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 18% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll Escape",
-      "text": "From this position, attempt Granby Roll Escape. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Base Attack to Sweep",
+      "text": "From this position, attempt Base Attack to Sweep. This technique is attempted in 2% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -115,7 +115,7 @@ description: "Master Aoki Lock defense and escape strategies. Defensive control 
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Aoki Lock Bottom",
-  "description": "Master Aoki Lock defense and escape strategies. Defensive control position with shoulder lock pressure. Learn escapes, grip breaks, and counter-attacks with 40% escape rate.",
+  "description": "Master Aoki Lock defense and escape strategies. Defensive control position with shoulder lock pressure. Learn escapes, grip breaks, and counter-attacks with 50% escape rate.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -210,17 +210,17 @@ This position commonly arises when defending turtle position, during scrambles f
 
 ## Available Escapes
 
-### [[Rolling Escape to Guard]] (19% of attempts)
+### [[Rolling Escape to Guard]] (21% of attempts)
 
-### [[Arm Extraction to Turtle]] (21% of attempts)
+### [[Arm Extraction to Turtle]] (38% of attempts)
 
-### [[Hip Escape to Guard Recovery]] (17% of attempts)
+### [[Hip Escape to Guard]] (17% of attempts)
 
-### [[Rolling Counter to Top]] (14% of attempts)
+### [[Counter Roll to Top]] (4% of attempts)
 
-### [[Base Attack to Sweep]] (13% of attempts)
+### [[Granby Roll to Guard]] (18% of attempts)
 
-### [[Granby Roll Escape]] (16% of attempts)
+### [[Base Attack to Sweep]] (2% of attempts)
 
 
 
@@ -232,7 +232,7 @@ This position commonly arises when defending turtle position, during scrambles f
 
 **If opponent is applying progressive shoulder pressure with tight leg control:**
 - Execute **[[Rolling Escape to Guard]]** → [[Closed Guard]] (Probability: 55%)
-- Execute **[[Tap Early if Pressure Dangerous]]** → [[game-over]] (Probability: 45%)
+- Execute **[[Tap Early if Pressure Dangerous]]** → [[Game Over]] (Probability: 45%)
 
 
 **If opponent's posted leg base appears unstable or adjustable:**
@@ -372,10 +372,13 @@ Partner applies progressive Aoki Lock pressure very slowly. Practice tapping at 
 ## Related Positions and Techniques
 
 - **[[Omoplata Control]]** - Related submission defense - similar shoulder mechanics
-- **[[Kimura Control]]** - Related shoulder lock defense
+- **[[Kimura Trap]]** - Related shoulder lock defense system
 - **[[Turtle]]** - Common entry position and escape destination
 - **[[Closed Guard]]** - Primary escape target position
 - **[[Open Guard]]** - Alternative escape target position
+- **[[Rolling Escape to Guard]]** - Primary escape transition from this position
+- **[[Arm Extraction to Turtle]]** - Key escape technique addressing leg entanglement
+- **[[Granby Roll to Guard]]** - Alternative rolling escape pathway
 
 
 </section>

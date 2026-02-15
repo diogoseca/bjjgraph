@@ -93,17 +93,17 @@ From the bottom perspective, Side Control Consolidation Bottom represents one of
 ### Available Transitions
 
 
-- **[[Elbow Escape]]** (19% of attempts)
+- **[[Elbow Escape to Guard]]** (19% of attempts)
 
-- **[[Frame and Shrimp]]** (21% of attempts)
+- **[[Frame and Shrimp to Guard]]** (21% of attempts)
 
 - **[[Bridge and Roll]]** (13% of attempts)
 
-- **[[Granby Roll]]** (16% of attempts)
+- **[[Granby Roll to Guard]]** (16% of attempts)
 
-- **[[Technical Standup]]** (12% of attempts)
+- **[[Technical Stand-up]]** (12% of attempts)
 
-- **[[Hip Escape]]** (19% of attempts)
+- **[[Hip Escape to Guard]]** (19% of attempts)
 
 
 ### Common Mistakes
@@ -174,13 +174,13 @@ From the bottom perspective, Side Control Consolidation Bottom represents one of
 
 - **[[Knee on Belly]]** (14% of attempts)
 
-- **[[Kimura from Side Control]]** (13% of attempts)
+- **[[Kimura]]** (13% of attempts)
 
-- **[[Americana from Side Control]]** (12% of attempts)
+- **[[Americana]]** (12% of attempts)
 
 - **[[Arm Triangle]]** (12% of attempts)
 
-- **[[Armbar from Side Control]]** (11% of attempts)
+- **[[Armbar Finish]]** (11% of attempts)
 
 - **[[North-South Choke]]** (10% of attempts)
 
@@ -235,15 +235,13 @@ From the bottom perspective, Side Control Consolidation Bottom represents one of
 
 - **[[Kesa Gatame]]** - Alternative side control variation with different control points
 
-- **[[Scarf Hold Position]]** - Related control position with head control emphasis
+- **[[Modified Scarf Hold]]** - Related control position with head control emphasis
 
 - **[[Half Guard]]** - Common escape destination for bottom player
 
 - **[[Turtle]]** - Alternative escape route through granby roll
 
 - **[[Kimura Trap]]** - Submission control accessible from consolidation
-
-- **[[North-South]]** - High-control position accessible through transition
 
 
 </section>

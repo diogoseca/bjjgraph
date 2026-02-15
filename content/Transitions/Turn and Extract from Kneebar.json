@@ -1,0 +1,13 @@
+{
+  "name": "Turn and Extract from Kneebar",
+  "description": "",
+  "tags": [],
+  "from_position": "Kneebar Control/Bottom",
+  "outcomes": [
+    {
+      "to": "Turtle/Bottom",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

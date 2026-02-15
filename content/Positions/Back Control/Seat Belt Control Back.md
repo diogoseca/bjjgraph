@@ -21,6 +21,8 @@ The position's strategic value derives from the combination of grip control, hoo
 
 From both perspectives, this position demands technical precision and strategic awareness. The top player must maintain constant pressure and grip security while creating submission opportunities through defensive reactions. The bottom player faces one of the most dangerous positions in grappling, requiring calm defensive protocols, systematic grip breaking, and intelligent escape sequences. Understanding both perspectives provides complete mastery of this fundamental back control configuration.
 
+The seat belt grip itself functions as a force multiplier. The over-arm creates downward diagonal pressure while the under-arm creates upward diagonal pressure, and these opposing vectors lock opponent's torso in place far more effectively than parallel grips would. This biomechanical reality explains why the seat belt has become universal across all competition formats. Breaking this grip requires addressing each arm independently, which creates the fundamental timing dilemma for the bottom player: releasing neck defense to fight grips exposes the throat, while ignoring grips allows the top player to maintain indefinite control and systematically work toward finishes.
+
 </section>
 
 <section id="key-principles" class="content-section">
@@ -85,7 +87,7 @@ From both perspectives, this position demands technical precision and strategic 
 
 - Work toward side position - turning to face opponent converts back control into more manageable positions like turtle or half guard
 
-- Prevent hooks from being established or maintained if already in - control opponent's legs to limit their base and mobility
+- Prevent hooks from being established or maintained - control opponent's legs to limit their base and mobility
 
 - Use strategic gripping - control opponent's wrists, sleeves, or hands to limit their ability to complete choke attacks
 
@@ -93,17 +95,15 @@ From both perspectives, this position demands technical precision and strategic 
 ### Available Transitions
 
 
-- **[[Elbow Escape]]** (17% of attempts)
+- **[[Hand Fighting from Back]]** (30% of attempts)
 
-- **[[Hip Escape]]** (19% of attempts)
+- **[[Back Door Escape]]** (18% of attempts)
 
-- **[[Rolling Escape]]** (16% of attempts)
+- **[[Granby Roll to Guard]]** (12% of attempts)
 
-- **[[Back Escape Series]]** (14% of attempts)
+- **[[Elbow Escape to Remove Hooks]]** (20% of attempts)
 
-- **[[Hand Fighting]]** (21% of attempts)
-
-- **[[Technical Standup]]** (13% of attempts)
+- **[[Hip Escape to Turtle]]** (20% of attempts)
 
 
 ### Common Mistakes
@@ -164,23 +164,23 @@ From both perspectives, this position demands technical precision and strategic 
 ### Available Transitions
 
 
-- **[[Rear Naked Choke]]** (14% of attempts)
+- **[[Rear Naked Choke]]** (25% of attempts)
 
-- **[[Armbar from Back with Legs]]** (12% of attempts)
+- **[[Armbar from Back Transition]]** (12% of attempts)
 
-- **[[Armbar from Back]]** (11% of attempts)
+- **[[Armbar Finish]]** (5% of attempts)
 
 - **[[Bow and Arrow Choke]]** (10% of attempts)
 
-- **[[Back Control to Crucifix]]** (11% of attempts)
+- **[[Back Control to Crucifix]]** (8% of attempts)
 
-- **[[Triangle from Back]]** (7% of attempts)
+- **[[Short Choke]]** (7% of attempts)
 
-- **[[Short Choke]]** (8% of attempts)
+- **[[Back Control Maintenance]]** (20% of attempts)
 
-- **[[Side Control to Mount]]** (15% of attempts)
+- **[[Body Triangle Lock]]** (8% of attempts)
 
-- **[[Turtle to Truck]]** (12% of attempts)
+- **[[Kimura from Back]]** (5% of attempts)
 
 
 ### Common Mistakes
@@ -235,11 +235,11 @@ From both perspectives, this position demands technical precision and strategic 
 
 - **[[Gift Wrap]]** - Alternative upper body control configuration from back position
 
-- **[[Standing Back Control]]** - Standing variation of seat belt configuration with different tactical considerations
-
 - **[[Technical Mount]]** - Position accessed when opponent partially escapes hooks but back control maintained
 
 - **[[Truck]]** - Advanced leg entanglement position accessed when opponent turns away defensively
+
+- **[[Harness]]** - Related upper body control concept sharing grip mechanics with seat belt configuration
 
 
 </section>

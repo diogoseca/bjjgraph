@@ -114,19 +114,23 @@
       },
       {
         "transition": "Rubber Guard Clear to Pass",
-        "attempt_probability": 25
+        "attempt_probability": 23
       },
       {
         "transition": "Arm Extraction",
-        "attempt_probability": 20
+        "attempt_probability": 19
       },
       {
         "transition": "Stack Pass",
-        "attempt_probability": 15
+        "attempt_probability": 14
       },
       {
-        "transition": "Guard Pass",
-        "attempt_probability": 10
+        "transition": "Pressure Pass",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Rubber Guard Top Posture Escape",
+        "attempt_probability": 5
       }
     ],
     "decision_tree": [
@@ -169,7 +173,7 @@
             "probability": 48
           },
           {
-            "technique": "Guard Pass",
+            "technique": "Pressure Pass",
             "target": "Side Control",
             "probability": 45
           }
@@ -184,7 +188,7 @@
             "probability": 60
           },
           {
-            "technique": "Guard Pass",
+            "technique": "Pressure Pass",
             "target": "Side Control",
             "probability": 45
           }
@@ -326,31 +330,51 @@
     "transitions": [
       {
         "transition": "Triangle Setup",
-        "attempt_probability": 25
+        "attempt_probability": 53
       },
       {
-        "transition": "Omoplata from Guard",
-        "attempt_probability": 20
-      },
-      {
-        "transition": "Gogoplata",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Rubber Guard Maintenance",
+        "transition": "Omoplata",
         "attempt_probability": 15
       },
       {
-        "transition": "Hip Bump Sweep",
+        "transition": "Gogoplata",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Rubber Guard Maintenance",
         "attempt_probability": 10
+      },
+      {
+        "transition": "Hip Bump Sweep",
+        "attempt_probability": 5
       },
       {
         "transition": "Omoplata Sweep",
-        "attempt_probability": 10
+        "attempt_probability": 5
       },
       {
         "transition": "Guard Recovery",
-        "attempt_probability": 10
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Crackhead Control Entry",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Mission Control Entry from Rubber Guard",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "New York Entry from Rubber Guard",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Rubber Guard Sweep",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Rubber Guard to Closed Guard",
+        "attempt_probability": 1
       }
     ],
     "decision_tree": [
@@ -363,7 +387,7 @@
             "probability": 60
           },
           {
-            "technique": "Omoplata from Guard",
+            "technique": "Omoplata",
             "target": "Omoplata Control",
             "probability": 50
           }
@@ -393,7 +417,7 @@
             "probability": 55
           },
           {
-            "technique": "Omoplata from Guard",
+            "technique": "Omoplata",
             "target": "Omoplata Control",
             "probability": 50
           }

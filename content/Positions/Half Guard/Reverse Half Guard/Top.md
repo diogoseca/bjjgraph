@@ -20,38 +20,38 @@ description: "Master Reverse Half Guard Top in BJJ. Complete guide covering cont
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Aoki Lock to Back Control",
-      "text": "From this position, attempt Aoki Lock to Back Control. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Leg Drag Pass",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 24% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Leg Drag Pass",
-      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 19% of exchanges from this position.",
+      "name": "Execute Knee Slice from Half",
+      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Knee Slice from Half",
-      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Crossface Pass",
+      "text": "From this position, attempt Crossface Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Smash Pass",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Crossface Pass",
-      "text": "From this position, attempt Crossface Pass. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Crab Ride to Back",
+      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Turtle to Truck",
-      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Back Step Pass",
+      "text": "From this position, attempt Back Step Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -206,19 +206,23 @@ The reverse half guard top position represents a critical moment in passing sequ
 
 ## Available Attacks
 
-### [[Aoki Lock to Back Control]] (15% of attempts)
+### [[Leg Drag Pass]] (24% of attempts)
 
-### [[Leg Drag Pass]] (19% of attempts)
+### [[Knee Slice from Half]] (12% of attempts)
 
-### [[Knee Slice from Half]] (14% of attempts)
+### [[Crossface Pass]] (11% of attempts)
 
-### [[Side Control to Mount]] (13% of attempts)
+### [[Smash Pass]] (12% of attempts)
 
-### [[Crossface Pass]] (14% of attempts)
+### [[Crab Ride to Back]] (12% of attempts)
 
-### [[Turtle to Truck]] (12% of attempts)
+### [[Back Step Pass]] (11% of attempts)
 
-### [[Smash Pass]] (13% of attempts)
+### [[Back Take from Top]] (10% of attempts)
+
+### [[Backstep from Reverse Half]] (5% of attempts)
+
+### [[Pass Reverse Half]] (3% of attempts)
 
 
 

@@ -27,26 +27,32 @@ description: "Defend Rubber Guard from top with systematic escape protocols. Lea
     {
       "@type": "HowToStep",
       "name": "Execute Rubber Guard Clear to Pass",
-      "text": "From this position, attempt Rubber Guard Clear to Pass. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Rubber Guard Clear to Pass. This technique is attempted in 23% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction",
-      "text": "From this position, attempt Arm Extraction. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Arm Extraction. This technique is attempted in 19% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass",
-      "text": "From this position, attempt Stack Pass. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guard Pass",
-      "text": "From this position, attempt Guard Pass. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Pressure Pass",
+      "text": "From this position, attempt Pressure Pass. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Rubber Guard Top Posture Escape",
+      "text": "From this position, attempt Rubber Guard Top Posture Escape. This technique is attempted in 5% of exchanges from this position.",
+      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -197,13 +203,15 @@ The Rubber Guard from the top perspective represents one of the most challenging
 
 ### [[Posture Recovery]] (30% of attempts)
 
-### [[Rubber Guard Clear to Pass]] (25% of attempts)
+### [[Rubber Guard Clear to Pass]] (23% of attempts)
 
-### [[Arm Extraction]] (20% of attempts)
+### [[Arm Extraction]] (19% of attempts)
 
-### [[Stack Pass]] (15% of attempts)
+### [[Stack Pass]] (14% of attempts)
 
-### [[Guard Pass]] (10% of attempts)
+### [[Pressure Pass]] (9% of attempts)
+
+### [[Rubber Guard Top Posture Escape]] (5% of attempts)
 
 
 
@@ -225,12 +233,12 @@ The Rubber Guard from the top perspective represents one of the most challenging
 
 **If bottom player overextends for submission creating space:**
 - Execute **[[Stack Pass]]** → [[Side Control]] (Probability: 48%)
-- Execute **[[Guard Pass]]** → [[Side Control]] (Probability: 45%)
+- Execute **[[Pressure Pass]]** → [[Side Control]] (Probability: 45%)
 
 
 **If able to extract trapped arm and create distance successfully:**
 - Execute **[[Posture Recovery]]** → [[Combat Base]] (Probability: 60%)
-- Execute **[[Guard Pass]]** → [[Side Control]] (Probability: 45%)
+- Execute **[[Pressure Pass]]** → [[Side Control]] (Probability: 45%)
 
 
 

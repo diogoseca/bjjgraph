@@ -1,0 +1,13 @@
+{
+  "name": "Escape Double Jump",
+  "description": "",
+  "tags": [],
+  "from_position": "Double Jump/Bottom",
+  "outcomes": [
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

@@ -126,63 +126,63 @@
   "application_contexts": [
     {
       "context": "Closed Guard",
-      "how_applied": "Common chain: Hip Bump Sweep → Mount → Armbar Control. Practitioner plans sweep-to-mount progression with armbar as terminal option, using opponent's posture-up defense against sweep to create mount entry, then exploiting mount control to establish armbar."
+      "how_applied": "Common chain: Hip Bump Sweep \u2192 Mount \u2192 Armbar Control. Practitioner plans sweep-to-mount progression with armbar as terminal option, using opponent's posture-up defense against sweep to create mount entry, then exploiting mount control to establish armbar."
     },
     {
       "context": "Half Guard",
-      "how_applied": "Typical chain: Underhook Battle → Deep Half Guard → Sweep to top → Pass to Side Control. Sequential progression uses underhook establishment to enable deep half entry, sweep from deep half to reverse positions, immediate pass to consolidate top control."
+      "how_applied": "Typical chain: Underhook Battle \u2192 Deep Half Guard \u2192 Sweep to top \u2192 Pass to Side Control. Sequential progression uses underhook establishment to enable deep half entry, sweep from deep half to reverse positions, immediate pass to consolidate top control."
     },
     {
       "context": "Side Control",
-      "how_applied": "Standard chain: Side Control consolidation → Mount transition → Back take when opponent bridges. Three-position sequence where initial control enables mount advancement, with opponent's mount escape attempt creating back exposure that completes chain."
+      "how_applied": "Standard chain: Side Control consolidation \u2192 Mount transition \u2192 Back take when opponent bridges. Three-position sequence where initial control enables mount advancement, with opponent's mount escape attempt creating back exposure that completes chain."
     },
     {
       "context": "Turtle",
-      "how_applied": "Chain from bottom: Turtle → Granby Roll → Guard Recovery → Closed Guard. Defensive chain where turtle position serves as intermediate state during escape sequence, using roll to create distance then re-establishing guard structure."
+      "how_applied": "Chain from bottom: Turtle \u2192 Granby Roll \u2192 Guard Recovery \u2192 Closed Guard. Defensive chain where turtle position serves as intermediate state during escape sequence, using roll to create distance then re-establishing guard structure."
     },
     {
       "context": "Open Guard",
-      "how_applied": "Offensive chain: De La Riva Guard → X-Guard → Sweep to top → Knee Slice Pass. Guard retention flows into sweeping position, sweep reversal leads to immediate passing opportunity, demonstrating how bottom chains transition to top chains mid-sequence."
+      "how_applied": "Offensive chain: De La Riva Guard \u2192 X-Guard \u2192 Sweep to top \u2192 Knee Slice Pass. Guard retention flows into sweeping position, sweep reversal leads to immediate passing opportunity, demonstrating how bottom chains transition to top chains mid-sequence."
     },
     {
       "context": "Back Control",
-      "how_applied": "Submission-focused chain: Back Control → Rear Naked Choke attempt → Armbar from Back when opponent defends neck → Triangle Control if arm escapes. Multi-submission chain where each defensive success leads to alternative submission rather than positional regression."
+      "how_applied": "Submission-focused chain: Back Control \u2192 Rear Naked Choke attempt \u2192 Armbar from Back when opponent defends neck \u2192 Triangle Control if arm escapes. Multi-submission chain where each defensive success leads to alternative submission rather than positional regression."
     },
     {
       "context": "Knee on Belly",
-      "how_applied": "Point-scoring chain: Knee on Belly → Mount when opponent turns → Technical Mount when opponent bridges → Back take from mount escape. Competition chain maximizes point accumulation while maintaining offensive pressure throughout sequence."
+      "how_applied": "Point-scoring chain: Knee on Belly \u2192 Mount when opponent turns \u2192 Technical Mount when opponent bridges \u2192 Back take from mount escape. Competition chain maximizes point accumulation while maintaining offensive pressure throughout sequence."
     },
     {
       "context": "Turtle",
-      "how_applied": "Defensive recovery chain: Turtle → Sit-out to guard → Half Guard → Butterfly Guard. Progressive re-guarding sequence where each position represents improvement in defensive structure while working toward full guard restoration from a compromised bottom position."
+      "how_applied": "Defensive recovery chain: Turtle \u2192 Sit-out to guard \u2192 Half Guard \u2192 Butterfly Guard. Progressive re-guarding sequence where each position represents improvement in defensive structure while working toward full guard restoration from a compromised bottom position."
     },
     {
       "context": "Ashi Garami",
-      "how_applied": "Leg lock chain: Ashi Garami → Straight Ankle Lock threat → 50-50 Guard entry when opponent defends → Heel Hook from 50-50. Leg entanglement chain where initial submission attempt creates opportunity for positional advancement to more dominant leg lock position."
+      "how_applied": "Leg lock chain: Ashi Garami \u2192 Straight Ankle Lock threat \u2192 50-50 Guard entry when opponent defends \u2192 Heel Hook from 50-50. Leg entanglement chain where initial submission attempt creates opportunity for positional advancement to more dominant leg lock position."
     },
     {
       "context": "Butterfly Guard",
-      "how_applied": "Sweep chain: Butterfly Guard → Butterfly Sweep → Mount or Side Control → Submission attempts. Classical chain where guard structure enables high-percentage sweep with planned destination position based on sweep direction and opponent's defensive posture."
+      "how_applied": "Sweep chain: Butterfly Guard \u2192 Butterfly Sweep \u2192 Mount or Side Control \u2192 Submission attempts. Classical chain where guard structure enables high-percentage sweep with planned destination position based on sweep direction and opponent's defensive posture."
     },
     {
       "context": "North-South",
-      "how_applied": "Control chain: North-South → Kimura isolation → Crucifix from Turtle when opponent defends → Armbar from Crucifix. Advanced chain where submission threat creates positional opportunity, which in turn creates alternative submission access."
+      "how_applied": "Control chain: North-South \u2192 Kimura isolation \u2192 Crucifix from Turtle when opponent defends \u2192 Armbar from Crucifix. Advanced chain where submission threat creates positional opportunity, which in turn creates alternative submission access."
     },
     {
       "context": "Standing Position",
-      "how_applied": "Takedown chain: Standing clinch → Snap Down → Front Headlock → Back take or Guillotine. Wrestling-based chain where standing control transitions through ground entry position to dominant submission or control position."
+      "how_applied": "Takedown chain: Standing clinch \u2192 Snap Down \u2192 Front Headlock \u2192 Back take or Guillotine. Wrestling-based chain where standing control transitions through ground entry position to dominant submission or control position."
     },
     {
       "context": "Spider Guard",
-      "how_applied": "Sweep-to-submission chain: Spider Guard → Triangle Setup → Triangle Choke or Omoplata. Guard-based chain where initial control creates multiple submission pathways with shared setup requirements."
+      "how_applied": "Sweep-to-submission chain: Spider Guard \u2192 Triangle Setup \u2192 Triangle Choke or Omoplata. Guard-based chain where initial control creates multiple submission pathways with shared setup requirements."
     },
     {
       "context": "De La Riva Guard",
-      "how_applied": "Multi-sweep chain: De La Riva Guard → Berimbolo Entry → Back Control. Modern competition chain where guard retention directly connects to back taking sequence through rotational movement pattern."
+      "how_applied": "Multi-sweep chain: De La Riva Guard \u2192 Berimbolo Entry \u2192 Back Control. Modern competition chain where guard retention directly connects to back taking sequence through rotational movement pattern."
     },
     {
       "context": "Mount",
-      "how_applied": "Top control chain: Mount → High Mount → Mounted Triangle → Armbar when opponent defends. Offensive chain from dominant position where each transition increases submission threat while maintaining superior control."
+      "how_applied": "Top control chain: Mount \u2192 High Mount \u2192 Mounted Triangle \u2192 Armbar when opponent defends. Offensive chain from dominant position where each transition increases submission threat while maintaining superior control."
     }
   ],
   "decision_framework": [
@@ -385,7 +385,7 @@
       "relationship": "Strategic position in many bottom chains serving as recovery point when full guard is lost or entry point for sweeping sequences"
     },
     {
-      "name": "Guard Pass",
+      "name": "Pass to Side Control",
       "content_type": "Transition",
       "relationship": "Critical transition in top position chains, connecting open guard positions to dominant top control positions like side control or mount"
     }

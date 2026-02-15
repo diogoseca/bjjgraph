@@ -21,37 +21,37 @@ description: "Dominant back-attack position combining leg entanglement with perp
     {
       "@type": "HowToStep",
       "name": "Execute Twister",
-      "text": "From this position, attempt Twister. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Twister. This technique is attempted in 10% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Calf Slicer from Truck",
-      "text": "From this position, attempt Calf Slicer from Truck. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Calf Slicer",
+      "text": "From this position, attempt Calf Slicer. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Banana Split",
-      "text": "From this position, attempt Banana Split. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Roll to Truck",
+      "text": "From this position, attempt Roll to Truck. This technique is attempted in 6% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 41% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bow and Arrow Choke",
-      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crab Ride to Back",
-      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,21 +210,29 @@ Advanced practitioners use the truck as a transitional position, flowing between
 
 ## Available Attacks
 
-### [[Twister]] (11% of attempts)
+### [[Twister]] (10% of attempts)
 
-### [[Calf Slicer from Truck]] (12% of attempts)
+### [[Calf Slicer]] (10% of attempts)
 
-### [[Banana Split]] (10% of attempts)
+### [[Roll to Truck]] (6% of attempts)
 
-### [[Rolling Back Take]] (16% of attempts)
+### [[Rolling Back Take]] (41% of attempts)
 
-### [[Bow and Arrow Choke]] (11% of attempts)
+### [[Bow and Arrow Choke]] (6% of attempts)
 
-### [[Crab Ride to Back]] (14% of attempts)
+### [[Crab Ride to Back]] (8% of attempts)
 
-### [[Crucifix from Turtle]] (13% of attempts)
+### [[Crucifix from Turtle]] (8% of attempts)
 
-### [[Side Control to Mount]] (13% of attempts)
+### [[Back Take from Top]] (8% of attempts)
+
+### [[Transition to Twister Side Control]] (2% of attempts)
+
+### [[Truck Maintenance]] (0% of attempts)
+
+### [[Truck to Back Control]] (0% of attempts)
+
+### [[Truck to Twister Side Control]] (1% of attempts)
 
 
 
@@ -235,13 +243,13 @@ Advanced practitioners use the truck as a transitional position, flowing between
 ## Decision Making from This Position
 
 **If opponent defends upper body by hiding arms and protecting neck:**
-- Execute **[[Calf Slicer from Truck]]** → [[game-over]] (Probability: 55%)
-- Execute **[[Banana Split]]** → [[game-over]] (Probability: 45%)
+- Execute **[[Calf Slicer]]** → [[Game Over]] (Probability: 55%)
+- Execute **[[Roll to Truck]]** → [[Game Over]] (Probability: 45%)
 
 
 **Else if opponent defends lower body by straightening legs or clearing hooks:**
-- Execute **[[Twister]]** → [[game-over]] (Probability: 50%)
-- Execute **[[Bow and Arrow Choke]]** → [[game-over]] (Probability: 50%)
+- Execute **[[Twister]]** → [[Twister Control]] (Probability: 50%)
+- Execute **[[Bow and Arrow Choke]]** → [[Game Over]] (Probability: 50%)
 
 
 **Else if opponent attempts to roll through or forward roll escape:**
@@ -250,13 +258,13 @@ Advanced practitioners use the truck as a transitional position, flowing between
 
 
 **Else if opponent clears boot pressure and begins to escape leg entanglement:**
-- Execute **[[Truck Entry]]** → [[Back Control]] (Probability: 55%)
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 45%)
+- Execute **[[Back Take from Top]]** → [[Back Control]] (Probability: 55%)
+- Execute **[[Consolidate Mount]]** → [[Mount]] (Probability: 45%)
 
 
 **Else if opponent turtles up or attempts to stand:**
-- Execute **[[Turtle to Back Take]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Kimura from Turtle]]** → [[Kimura Trap]] (Probability: 40%)
+- Execute **[[Back Take from Top]]** → [[Back Control]] (Probability: 60%)
+- Execute **[[Kimura from Back]]** → [[Kimura Trap]] (Probability: 40%)
 
 
 
@@ -352,9 +360,9 @@ Start in established truck position. Top player works for submissions and positi
 **A**: Weight should be distributed through your chest or shoulder against the opponent's upper back while maintaining constant boot pressure on their hip. Avoid putting weight too far forward (allows roll-through) or too far back (reduces control). The key is staying perpendicular with connected pressure points at both the upper body (chest/shoulder) and lower body (boot) simultaneously.
 
 **Q4**: What are the essential grips for maintaining truck position?
-**A**: Essential grips include: your boot foot controlling their hip creating the foundational torque, your legs entangled with their trapped leg preventing straightening, and your arm controlling across their chest, shoulder, or around their neck for upper body connection. In no-gi, an underhook or overhook on their near arm supplements control.
+**A**: Essential grips include: your boot foot controlling their hip creating the foundational torque, your legs entangled with their trapped leg preventing straightening, and your arm controlling across their chest, shoulder, or around their neck for upper body connection. In no-gi, an underhook or overhook on their near arm supplements control. The boot is non-negotiable; without it, the entire control system collapses.
 
-**Q5**: When opponent begins a granby roll escape, what is your counter?
+**Q5**: Your opponent begins a granby roll escape from truck bottom - what is your counter?
 **A**: When the opponent initiates a granby roll, you have two primary options: follow their roll and transition to traditional back control by inserting your hooks during their rotation, or if you feel them generating significant momentum, switch to the crucifix by catching their far arm as they roll. The key is recognizing the roll early and choosing to flow with it rather than fighting against it.
 
 **Q6**: How do you prevent your opponent from straightening their trapped leg to escape?
@@ -390,16 +398,16 @@ Start in established truck position. Top player works for submissions and positi
 
 ## Related Positions and Techniques
 
-- **[[Truck]]** - Sibling variant - defensive perspective of same position
 - **[[Back Control]]** - Primary transition target - traditional back control
 - **[[Crab Ride]]** - Entry position - common path to truck
 - **[[Turtle]]** - Entry position - turtle attacks lead to truck
 - **[[Twister Control]]** - Submission position - primary attack from truck
 - **[[Crucifix]]** - Transition target - alternative control position
-- **[[Twister]]** - Primary submission technique from this position
 - **[[Calf Slicer from Truck]]** - Secondary submission attacking trapped leg
 - **[[Banana Split]]** - Alternative submission from truck position
 - **[[Rolling Back Take]]** - Transition technique when opponent rolls
+- **[[Lockdown]]** - 10th Planet position feeding into truck system
+- **[[Electric Chair]]** - Related leg entanglement in 10th Planet system
 
 
 </section>

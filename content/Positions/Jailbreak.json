@@ -3,7 +3,7 @@
   "slug": "jailbreak",
   "description": "Master the Jailbreak position in BJJ. Advanced half guard escape system with 60% success rate covering defensive mechanics, offensive opportunities, and complete perspective analysis.",
   "variant_uniqueness": "Explosive inversion trades stability for escape",
-  "overview": "The Jailbreak position represents a critical dynamic state in the half guard game, characterized by explosive movement and strategic risk-taking to escape dominant pressure. This position manifests in two distinct perspectives: from bottom, it's an advanced escape technique using inversion and momentum to break free from crushing pressure, while from top, it's a transitional passing position where maintaining control through extended leg barriers determines success.\n\nThe Jailbreak concept emerged prominently within the 10th Planet Jiu-Jitsu system as a solution to modern half guard pressure passing. The position's effectiveness lies in its ability to transform defensive disadvantage into offensive opportunity through explosive, committed movement. Unlike traditional half guard escapes that rely on incremental frame creation, the Jailbreak demands full commitment to dynamic motion, making it both high-reward and high-risk.\n\nFrom bottom perspective, the practitioner uses underhook control combined with inverting motion to roll through pressure, creating separation and pathways to turtle, guard recovery, or back takes. This requires excellent timing, flexibility, and spatial awareness. From top perspective, the passer must read leg configurations and maintain forward pressure while navigating extended leg barriers to complete passes to dominant positions. Mastering both perspectives provides complete understanding of this critical half guard junction point.",
+  "overview": "The Jailbreak position represents a critical dynamic state in the half guard game, characterized by explosive movement and strategic risk-taking to escape dominant pressure. This position manifests in two distinct perspectives: from bottom, it is an advanced escape technique using inversion and momentum to break free from crushing pressure, while from top, it is a transitional passing position where maintaining control through extended leg barriers determines success.\n\nThe Jailbreak concept emerged prominently within the 10th Planet Jiu-Jitsu system as a solution to modern half guard pressure passing. The position's effectiveness lies in its ability to transform defensive disadvantage into offensive opportunity through explosive, committed movement. Unlike traditional half guard escapes that rely on incremental frame creation, the Jailbreak demands full commitment to dynamic motion, making it both high-reward and high-risk.\n\nFrom bottom perspective, the practitioner uses underhook control combined with inverting motion to roll through pressure, creating separation and pathways to turtle, guard recovery, or back takes. This requires excellent timing, flexibility, and spatial awareness. From top perspective, the passer must read leg configurations and maintain forward pressure while navigating extended leg barriers to complete passes to dominant positions. Mastering both perspectives provides complete understanding of this critical half guard junction point.\n\nThe biomechanical principle underlying the Jailbreak from bottom involves converting the opponent's forward pressure into rotational momentum. When the top player commits their weight forward with crossface or shoulder pressure, their center of gravity advances and their base becomes narrow. The underhook serves as the pivotal connection point that prevents the top player from re-establishing control during the inversion. From top, the challenge is navigating extended leg frames while maintaining upper body pressure, reading whether to weave through, smash past, or backstep around the defensive barriers. The position rewards practitioners who develop sensitivity to weight distribution and the ability to commit decisively to their chosen action.",
   "key_principles": [
     "Jailbreak is always transitional - never a position to hold but a moment to exploit with committed action",
     "Underhook control from bottom is the mechanical fulcrum enabling all escape variations",
@@ -274,48 +274,55 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 78
+        "value": 78,
+        "description": "High retention due to upper body control and forward pressure mechanics"
       },
       "advancement_probability": {
-        "value": 72
+        "value": 72,
+        "description": "Strong advancement rate when correct passing strategy is selected based on leg configuration"
       },
       "submission_probability": {
-        "value": 30
+        "value": 30,
+        "description": "Moderate submission threat primarily through darce or kimura if opponent turns in during pass"
       },
       "average_time": "20-45 seconds"
     },
     "transitions": [
       {
         "transition": "Leg Weave Pass",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "Smash Pass",
-        "attempt_probability": 15
+        "attempt_probability": 33
       },
       {
         "transition": "Knee Slice from Half",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Back Step",
-        "attempt_probability": 12
+        "attempt_probability": 17
       },
       {
         "transition": "Underhook Pass",
-        "attempt_probability": 13
+        "attempt_probability": 17
       },
       {
-        "transition": "Headquarters Pass",
-        "attempt_probability": 12
+        "transition": "Darce Setup",
+        "attempt_probability": 9
       },
       {
-        "transition": "Toreando Pass",
-        "attempt_probability": 12
+        "transition": "Front Headlock to Back",
+        "attempt_probability": 7
       },
       {
-        "transition": "X Pass",
-        "attempt_probability": 11
+        "transition": "Knee Slide from Jailbreak",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "North-South Recovery from Jailbreak",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Reestablish Side Control from Jailbreak",
+        "attempt_probability": 1
       }
     ],
     "knowledge_assessment": [
@@ -422,7 +429,7 @@
             "probability": 50
           },
           {
-            "technique": "Technical Standup",
+            "technique": "Technical Stand-up",
             "target": "Standing Position",
             "probability": 60
           }
@@ -549,40 +556,47 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 68
+        "value": 68,
+        "description": "Moderate retention reflecting the transitional and explosive nature of the position"
       },
       "advancement_probability": {
-        "value": 60
+        "value": 60,
+        "description": "Good advancement probability when timing and commitment are correct"
       },
       "submission_probability": {
-        "value": 32
+        "value": 32,
+        "description": "Submission threat primarily through back take chains rather than direct submissions"
       },
       "average_time": "5-15 seconds"
     },
     "transitions": [
       {
         "transition": "Jailbreak to Turtle",
-        "attempt_probability": 19
+        "attempt_probability": 22
       },
       {
         "transition": "Jailbreak to Back Take",
-        "attempt_probability": 16
+        "attempt_probability": 14
       },
       {
         "transition": "Jailbreak to Deep Half Entry",
-        "attempt_probability": 17
+        "attempt_probability": 15
       },
       {
         "transition": "Guard Recovery",
-        "attempt_probability": 19
+        "attempt_probability": 15
       },
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
-        "transition": "Technical Standup",
-        "attempt_probability": 16
+        "transition": "Lockdown Recovery",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Electric Chair Transition",
+        "attempt_probability": 10
       }
     ],
     "knowledge_assessment": [
@@ -616,7 +630,7 @@
       },
       {
         "question": "Your jailbreak fails and you end up in turtle with the opponent on top - how do you continue the escape sequence?",
-        "answer": "If you reach turtle after a jailbreak attempt, immediately protect your neck and far arm from chokes and back takes. Your options from turtle include: sitting through to guard recovery by posting and rotating, standing up through a technical standup if you can create space, or attacking with a Peterson roll or Granby to re-guard. The key is staying active in turtle rather than stalling, as the opponent will quickly establish back control if you remain static. Chain your escape attempts together."
+        "answer": "If you reach turtle after a jailbreak attempt, immediately protect your neck and far arm from chokes and back takes. Your options from turtle include: sitting through to guard recovery by posting and rotating, standing up through a technical stand-up if you can create space, or attacking with a Peterson roll or Granby to re-guard. The key is staying active in turtle rather than stalling, as the opponent will quickly establish back control if you remain static. Chain your escape attempts together."
       }
     ]
   }

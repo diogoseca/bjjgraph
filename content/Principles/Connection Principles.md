@@ -378,7 +378,7 @@ Sparring sessions with specific connection limitations such as one-arm only, no 
 - [[Closed Guard]] (Position) - Primary training ground for developing offensive connection management skills
 - [[Spider Guard]] (Position) - Advanced application of connection principles using distance-control grips and foot connections
 - [[Back Control]] (Position) - Demonstrates high-level connection maintenance against opponent's breaking attempts
-- [[Hip Escape]] (Transition) - Fundamental escape that relies on breaking opponent's connections while creating space
+- [[Hip Escape to Guard]] (Transition) - Fundamental escape that relies on breaking opponent's connections while creating space
 - [[Grip Breaking]] (Principle) - Specific technical skill set for destroying opponent's connection attempts
 - [[Pressure Application]] (Principle) - Requires proper connections to transmit control force effectively
 - [[Base Maintenance]] (Principle) - Provides stable foundation from which effective connections can be established

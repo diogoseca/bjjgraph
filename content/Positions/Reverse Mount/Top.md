@@ -26,8 +26,8 @@ description: "Master Reverse Mount position in BJJ. Learn transitional control m
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take Generic",
-      "text": "From this position, attempt Back Take Generic. This technique is attempted in 30% of exchanges from this position.",
+      "name": "Execute Back Take",
+      "text": "From this position, attempt Back Take. This technique is attempted in 30% of exchanges from this position.",
       "position": 2
     },
     {
@@ -205,7 +205,7 @@ The position's main strategic value is as a stepping stone rather than a destina
 
 ### [[Side Control to Mount]] (35% of attempts)
 
-### [[Back Take Generic]] (30% of attempts)
+### [[Back Take]] (30% of attempts)
 
 ### [[Mount to Armbar]] (15% of attempts)
 
@@ -222,7 +222,7 @@ The position's main strategic value is as a stepping stone rather than a destina
 ## Decision Making from This Position
 
 **If opponent is relatively flat and not actively defending, assess back control opportunity:**
-- Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 65%)
+- Execute **[[Back Take]]** → [[Back Control]] (Probability: 65%)
 - Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 70%)
 
 
@@ -232,7 +232,7 @@ The position's main strategic value is as a stepping stone rather than a destina
 
 
 **If opponent turns to either side attempting hip escape:**
-- Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 70%)
+- Execute **[[Back Take]]** → [[Back Control]] (Probability: 70%)
 - Execute **[[Turtle to Truck]]** → [[Truck]] (Probability: 50%)
 
 
@@ -330,7 +330,7 @@ Start from various scramble positions (failed back take, turtle transitions, mou
 **Q2**: How should you distribute your weight to maintain control in reverse mount despite the backward orientation?
 **A**: Keep hips heavy and sink your weight directly onto the opponent's sternum or upper abdomen through your buttocks and lower back. Maintain forward lean with core engagement to eliminate space between your lower body and their chest. The weight should feel oppressive to the bottom player even without head control.
 
-**Q3**: Your opponent starts bridging strongly while you're in reverse mount - what adjustment should you make?
+**Q3**: Your opponent starts bridging strongly while you're in reverse mount - what adjustment do you make?
 **A**: Ride the bridge by maintaining heavy hips and wide knee base while using your posted hands for balance. As they land from the bridge, immediately initiate your transition to standard mount by spinning toward their head, using their exhausted moment post-bridge as your window for smooth conversion.
 
 **Q4**: What are the essential base requirements for maintaining stability in reverse mount?

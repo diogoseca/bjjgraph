@@ -4,7 +4,7 @@
 
 ---
 title: "Spider Guard Top | BJJ Position Guide | BJJ Graph"
-description: "Master Spider Guard Top in BJJ. Learn grip breaking, passing strategies, and transitions. Face Spider Guard Bottom with 45% intermediate pass success."
+description: "Master Spider Guard Top in BJJ. Learn grip breaking, passing strategies, and transitions. Systematic approach to neutralizing spider guard control and passing."
 ---
 
 
@@ -21,37 +21,37 @@ description: "Master Spider Guard Top in BJJ. Learn grip breaking, passing strat
     {
       "@type": "HowToStep",
       "name": "Execute Toreando Pass",
-      "text": "From this position, attempt Toreando Pass. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Toreando Pass. This technique is attempted in 22% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute X Pass",
-      "text": "From this position, attempt X Pass. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Long Step Pass",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Stack Pass",
-      "text": "From this position, attempt Stack Pass. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Double Under Pass",
+      "text": "From this position, attempt Double Under Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Long Step Pass",
-      "text": "From this position, attempt Long Step Pass. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Leg Weave Pass",
+      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -115,7 +115,7 @@ description: "Master Spider Guard Top in BJJ. Learn grip breaking, passing strat
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Spider Guard Top",
-  "description": "Master Spider Guard Top in BJJ. Learn grip breaking, passing strategies, and transitions. Face Spider Guard Bottom with 45% intermediate pass success.",
+  "description": "Master Spider Guard Top in BJJ. Learn grip breaking, passing strategies, and transitions. Systematic approach to neutralizing spider guard control and passing.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -157,7 +157,7 @@ description: "Master Spider Guard Top in BJJ. Learn grip breaking, passing strat
 
 <section id="overview" class="content-section">
 
-Spider Guard Top is the position where the top player is standing or on their knees facing an opponent who has established Spider Guard Bottom, with at least one sleeve grip and foot placement on the bicep or hip. This is a challenging guard-passing scenario that requires systematic grip breaking, posture control, and strategic movement to overcome the bottom player's distance management and sweeping threats. The top player must balance between staying safe from sweeps while creating passing opportunities through grip breaks, angle changes, and pressure application. Success in this position requires understanding the mechanics of Spider Guard control points and having a systematic approach to neutralizing the bottom player's offensive capabilities. The position is commonly encountered in both gi and competition settings, making it an essential skill for any serious BJJ practitioner.
+Spider Guard Top is the position where the top player is standing or on their knees facing an opponent who has established Spider Guard Bottom, with at least one sleeve grip and foot placement on the bicep or hip. This is a challenging guard-passing scenario that requires systematic grip breaking, posture control, and strategic movement to overcome the bottom player's distance management and sweeping threats. The top player must balance between staying safe from sweeps while creating passing opportunities through grip breaks, angle changes, and pressure application. Success in this position requires understanding the mechanics of Spider Guard control points and having a systematic approach to neutralizing the bottom player's offensive capabilities. The position is commonly encountered in both gi and competition settings, making it an essential skill for any serious BJJ practitioner. The fundamental principle from the top is that you must never attempt to pass while the opponent's grips are intact. Every successful passing sequence begins with grip destruction, followed by immediate forward pressure before the guard can be re-established. Understanding the energy asymmetry is also critical: the bottom player uses their legs against your arms, so fighting foot pressure with arm strength is a losing strategy that leads to rapid fatigue.
 
 </section>
 
@@ -205,19 +205,23 @@ Spider Guard Top is the position where the top player is standing or on their kn
 
 ## Available Attacks
 
-### [[Toreando Pass]] (15% of attempts)
+### [[Toreando Pass]] (22% of attempts)
 
-### [[Leg Drag Pass]] (15% of attempts)
+### [[Leg Drag Pass]] (13% of attempts)
 
-### [[Knee Slice Pass]] (15% of attempts)
+### [[Knee Slice Pass]] (13% of attempts)
 
-### [[X Pass]] (14% of attempts)
+### [[Long Step Pass]] (12% of attempts)
 
-### [[Stack Pass]] (13% of attempts)
+### [[Double Under Pass]] (11% of attempts)
 
-### [[Long Step Pass]] (15% of attempts)
+### [[Leg Weave Pass]] (11% of attempts)
 
-### [[Double Under Pass]] (13% of attempts)
+### [[Grip Break]] (10% of attempts)
+
+### [[Spider Guard Pass]] (5% of attempts)
+
+### [[Stack Pass from Spider]] (3% of attempts)
 
 
 
@@ -394,11 +398,11 @@ Bottom player starts in Spider Guard and attempts to transition one hook to lass
 - **[[Toreando Pass]]** - Primary passing technique from Spider Guard Top
 - **[[Lasso Guard]]** - Common variation when bottom player transitions from Spider Guard
 - **[[Leg Drag Pass]]** - High-percentage passing option from Spider Guard Top
-- **[[X Pass]]** - Effective passing technique against lasso transitions
 - **[[Open Guard]]** - Parent category of guard passing positions
 - **[[Knee Slice Pass]]** - Complementary passing technique for single-side Spider Guard
 - **[[Side Control]]** - Primary target position after successful pass
 - **[[Headquarters Position]]** - Intermediate passing position when pass is partially successful
+- **[[Leg Weave Pass]]** - Effective passing technique against double-bicep Spider Guard
 
 
 </section>

@@ -1,6 +1,6 @@
 {
   "name": "Pressure Pass Through Squid",
-  "description": "Master pressure passing through squid guard in BJJ. Defeat arm lapel configurations with heavy chest pressure. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "description": "Master pressure passing through squid guard in BJJ. Defeat arm lapel configurations with heavy chest pressure and systematic angle changes to reach side control.",
   "tags": [
     "bjj",
     "transition",
@@ -12,207 +12,29 @@
   "from_position": "Lapel Guard/Top",
   "outcomes": [
     {
-      "to": "Side Control",
+      "to": "Side Control/Top",
       "probability": 65,
       "result": "success"
     },
     {
-      "to": "Lapel Guard",
+      "to": "Lapel Guard/Top",
       "probability": 25,
       "result": "failure"
     },
     {
-      "to": "Back Control",
+      "to": "Back Control/Bottom",
       "probability": 10,
       "result": "counter"
     }
   ],
+  "success_rate": 58,
   "overview": "The Pressure Pass Through Squid is a specialized guard passing technique designed to defeat squid guard configurations where the opponent has wrapped your lapel around your posting arm. Unlike worm guard where backstep mechanics are primary, squid guard's arm entanglement is less restrictive to leg movement, making heavy forward pressure a viable solution. The technique leverages your bodyweight to compress the bottom player despite the lapel barrier, negating their frame while advancing to side control.\n\nThis pass represents a critical skill for anyone competing in gi BJJ where modern lapel guards have become increasingly prevalent. Rather than spending energy attempting to clear the lapel configuration technically, you accept the arm entanglement temporarily and use overwhelming pressure to collapse their guard structure. The squid guard relies on distance and angles to function effectively—heavy chest-to-chest pressure eliminates both advantages simultaneously.\n\nStrategically, this technique should be deployed when you recognize squid guard early and before the bottom player establishes secondary grips or leg entanglements that would compound the problem. The pressure pass works best against opponents who rely primarily on the lapel configuration without developing complementary guard retention skills. Against experienced lapel players who chain multiple configurations together, combining pressure with technical lapel clearing produces superior results.",
-  "key_principles": [
-    "Accept the arm entanglement temporarily rather than fighting to clear it immediately",
-    "Drive heavy chest pressure forward to collapse the space squid guard needs to function",
-    "Keep hips low and heavy throughout the pass to prevent guard recovery attempts",
-    "Control the opponent's non-lapel-gripping arm to prevent them from creating secondary frames",
-    "Use head position to drive opponent's face away, creating turning pressure that aids the pass",
-    "Maintain constant forward momentum—pausing allows opponent to reconfigure their guard",
-    "Complete the pass quickly before forearm fatigue from the lapel wrap compromises your arm"
+  "conditions": [
+    "Opponent has established squid guard with lapel wrapped around your posting arm",
+    "Opponent has not yet added secondary leg entanglements or worm guard configuration",
+    "You have at least one free arm available for collar grip or underhook",
+    "Sufficient mat space for forward driving pressure without running into wall or boundary"
   ],
-  "setup_requirements": [
-    "Opponent has established squid guard with your lapel wrapped around your posting arm",
-    "Your free arm has secured collar grip or underhook on the non-lapel side",
-    "Base established with hips low and weight forward ready to drive pressure",
-    "Recognition that squid guard (arm wrap) is present rather than worm guard (leg wrap)",
-    "Mental commitment to pressure through rather than attempting technical lapel extraction"
-  ],
-  "execution_steps": [
-    {
-      "step_number": 1,
-      "action": "Secure collar control",
-      "description": "With your free hand (not wrapped in lapel), establish a deep cross-collar grip on the same side as your trapped arm. This grip prevents opponent from sitting up and provides anchor point for pressure."
-    },
-    {
-      "step_number": 2,
-      "action": "Lower level and drive forward",
-      "description": "Drop your hips low and begin driving your chest forward into opponent's chest. Your trapped arm will pull tight against the lapel wrap—accept this and continue forward pressure. Head drives into opponent's far shoulder."
-    },
-    {
-      "step_number": 3,
-      "action": "Eliminate hip space",
-      "description": "As you drive forward, your hips should follow your chest, closing all space between your hips and opponent's hips. The squid guard loses effectiveness when there's no space for the bottom player to create angles."
-    },
-    {
-      "step_number": 4,
-      "action": "Walk legs around",
-      "description": "While maintaining heavy chest pressure, begin walking your legs around toward opponent's head. Your trapped arm will naturally begin to extract from the lapel wrap as you change angles. Keep hips heavy throughout."
-    },
-    {
-      "step_number": 5,
-      "action": "Establish crossface",
-      "description": "As your angle changes and arm begins freeing from the wrap, switch your now-free arm to establish crossface control. Drive your forearm across opponent's face, turning their head away and preventing them from following your movement."
-    },
-    {
-      "step_number": 6,
-      "action": "Complete to side control",
-      "description": "Finish walking your legs perpendicular to opponent's body while maintaining crossface and chest pressure. Secure hip control with your near arm blocking their far hip. Settle your weight and establish consolidated side control position."
-    }
-  ],
-  "common_counters": [
-    {
-      "counter": "Opponent sits up aggressively to take your back as you pressure forward",
-      "effectiveness": "High",
-      "your_response": "Maintain strong collar grip and keep your elbow tight. If they sit up, use your pressure to drive them back down or transition to front headlock control"
-    },
-    {
-      "counter": "Opponent transitions to worm guard by redirecting lapel around your leg",
-      "effectiveness": "Medium",
-      "your_response": "Continue forward pressure and backstep before worm configuration completes. Your momentum should prevent them from completing the reconfiguration"
-    },
-    {
-      "counter": "Opponent frames with free arm to create space and recover guard",
-      "effectiveness": "Medium",
-      "your_response": "Control their framing arm with your collar grip or underhook it. Without the frame, your pressure collapses their guard structure"
-    },
-    {
-      "counter": "Opponent releases lapel grip and recovers to spider or lasso guard",
-      "effectiveness": "Low",
-      "your_response": "If they release the lapel, immediately complete your pass with increased speed. Their release indicates the pressure is working"
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Attempting to clear the lapel wrap before committing to pressure",
-      "consequence": "Wastes time and energy fighting the configuration while opponent adjusts their guard and establishes secondary controls",
-      "correction": "Accept the arm wrap temporarily and commit to pressure immediately. The pass will naturally clear the wrap as you change angles"
-    },
-    {
-      "error": "Driving forward with hips high and weight on hands",
-      "consequence": "Creates space under your chest that opponent exploits for guard recovery or sweep attempts",
-      "correction": "Keep hips low and heavy throughout. Weight should be on your chest and hips against opponent, not on your hands"
-    },
-    {
-      "error": "Pausing mid-pass to adjust position or grip",
-      "consequence": "Allows opponent to reconfigure their guard, establish new grips, or transition to different lapel configuration",
-      "correction": "Maintain constant forward momentum. The pass should be one continuous pressure movement from start to finish"
-    },
-    {
-      "error": "Neglecting to control opponent's free arm while pressuring",
-      "consequence": "Opponent creates frames with free arm that prevent your pressure from collapsing their guard",
-      "correction": "Use collar grip or underhook to control the non-lapel-gripping arm. Eliminate all frames before pressuring"
-    },
-    {
-      "error": "Lifting head and posture during the pass attempt",
-      "consequence": "Opens space for opponent to sit up and take your back or recover their guard structure",
-      "correction": "Keep head low driving into opponent's shoulder throughout. Your head position contributes to the crushing pressure"
-    },
-    {
-      "error": "Attempting this pass against worm guard instead of squid guard",
-      "consequence": "Leg wrap of worm guard prevents the forward pressure needed. Pass fails and exposes you to back take",
-      "correction": "Correctly identify squid guard (arm wrap) versus worm guard (leg wrap). Use backstep for worm, pressure for squid"
-    }
-  ],
-  "training_progressions": [
-    {
-      "phase": "Week 1-2",
-      "focus": "Pressure mechanics",
-      "description": "Practice driving heavy forward pressure from squid guard position without attempting to complete the pass. Partner holds squid guard configuration while you focus on proper weight distribution, hip position, and maintaining chest contact despite the arm wrap."
-    },
-    {
-      "phase": "Week 3-4",
-      "focus": "Pass completion",
-      "description": "Add the leg walking sequence and side control finish. Partner provides light resistance and allows pass completion. Focus on maintaining continuous pressure throughout the transition and proper crossface establishment."
-    },
-    {
-      "phase": "Week 5-6",
-      "focus": "Counter recognition",
-      "description": "Partner attempts specific counters including sit-up back take attempts and guard reconfiguration. Practice recognizing counter timing and adjusting pressure accordingly. Develop ability to complete pass despite active resistance."
-    },
-    {
-      "phase": "Week 7+",
-      "focus": "Live integration",
-      "description": "Apply pressure pass in live rolling starting from squid guard position. Partner uses full resistance and any counter available. Develop timing for when pressure pass is appropriate versus when technical clearing is better option."
-    }
-  ],
-  "variants_and_adaptations": [
-    {
-      "variant_name": "Pressure to Knee Slice",
-      "description": "Instead of walking around to perpendicular side control, use the pressure to open space for knee slice pass. As opponent's guard collapses under pressure, slice your knee through to complete the pass directly to side control or knee on belly.",
-      "when_to_use": "When opponent's legs are positioned to block the standard walking pass route"
-    },
-    {
-      "variant_name": "Pressure to Stack Pass",
-      "description": "Drive forward pressure upward, folding opponent's legs toward their face in a stacking motion. The arm wrap becomes irrelevant as you compress them vertically rather than horizontally, then walk around to complete the pass.",
-      "when_to_use": "Against flexible opponents who absorb horizontal pressure well"
-    },
-    {
-      "variant_name": "Pressure to Leg Drag",
-      "description": "Use initial pressure to break opponent's guard structure, then transition to leg drag by controlling their far leg and dragging it across your body. Completes to dominant side control with back exposure.",
-      "when_to_use": "When opponent attempts to recover guard by inserting legs during your pressure"
-    }
-  ],
-  "knowledge_assessment": [
-    {
-      "question": "What is the primary goal of Pressure Pass Through Squid?",
-      "answer": "The primary goal is to defeat the squid guard configuration by using heavy forward pressure to collapse the space the guard needs to function, rather than spending energy attempting to technically clear the lapel wrap from your arm. You accept the arm entanglement temporarily and use your bodyweight to compress the bottom player into submission of the position."
-    },
-    {
-      "question": "How do you distinguish squid guard from worm guard and why does it matter?",
-      "answer": "Squid guard wraps the lapel around your arm (usually the posting arm), while worm guard wraps it around your leg (typically behind the knee). This distinction is critical because pressure passing works against squid guard since the arm wrap doesn't restrict your leg movement, but fails against worm guard where the leg entanglement prevents forward pressure. Worm guard requires backstep mechanics instead."
-    },
-    {
-      "question": "Your opponent starts sitting up aggressively as you drive pressure forward—how do you adjust?",
-      "answer": "Maintain your deep collar grip and keep your elbow tight to your body. Use the collar grip to push them back down as they sit up, converting their upward momentum into your downward pressure. If they continue sitting up despite this, transition to front headlock control using your collar grip as the base, which gives you dominant position from their sit-up attempt."
-    },
-    {
-      "question": "What are the key grips needed for Pressure Pass Through Squid?",
-      "answer": "Your primary grip is a deep cross-collar grip with your free hand (the arm not wrapped in lapel) on the same side as your trapped arm. This grip prevents opponent from sitting up, provides an anchor point for your pressure, and gives you control to redirect their movement. Secondary control comes from keeping your trapped arm elbow tight despite the wrap."
-    },
-    {
-      "question": "When is the best time to attempt Pressure Pass Through Squid?",
-      "answer": "The optimal timing is immediately upon recognizing squid guard before the opponent establishes secondary grips or leg entanglements. The pass works best when the squid guard is their only control mechanism. If they've already added spider grips, lasso hooks, or begun transitioning to worm guard, address those controls first or consider technical clearing instead."
-    },
-    {
-      "question": "What hip position must you maintain throughout the pass and why?",
-      "answer": "Your hips must stay low and heavy throughout, pressing directly against opponent's hips with no space between. High hips create space under your chest that the opponent can exploit for guard recovery or sweep attempts. The low hip position transfers your weight through your chest into their torso, which is the crushing pressure that makes squid guard ineffective."
-    },
-    {
-      "question": "Your opponent attempts to redirect the lapel around your leg to transition to worm guard—what is your response?",
-      "answer": "Continue your forward pressure and immediately backstep before the worm configuration completes. Your forward momentum should prevent them from completing the wrap around your leg. If you recognize the transition early, you can extract your leg before they secure the new position. If worm guard establishes despite this, abandon pressure passing and switch to backstep mechanics."
-    },
-    {
-      "question": "Why is continuous momentum emphasized rather than pausing to adjust?",
-      "answer": "Pausing mid-pass allows the opponent to reconfigure their guard, establish new grips, or transition to a different lapel variation that might require different passing mechanics. The squid guard practitioner is constantly looking for opportunities to adjust—your continuous pressure denies them the time and space needed for these adjustments. The pass should be one seamless pressure movement."
-    },
-    {
-      "question": "What happens to your trapped arm as you walk your legs around during the pass?",
-      "answer": "As you change angles by walking your legs toward opponent's head while maintaining chest pressure, your trapped arm naturally begins to extract from the lapel wrap. The angle change reduces the tension on the wrap without you having to fight it directly. Once the arm clears, immediately switch it to crossface control to complete the pass."
-    },
-    {
-      "question": "How should you handle an opponent who releases their lapel grip during your pressure pass?",
-      "answer": "If they release the lapel grip, immediately accelerate your pass completion with increased speed. Their release indicates your pressure is working and they're abandoning the position—this is your window to finish before they establish new guard. Don't slow down to clear the now-loose lapel; complete the pass first and address the lapel from side control if needed."
-    }
-  ],
-  "safety_considerations": "The pressure pass through squid guard is generally low-risk when executed with controlled pressure. However, practitioners should be mindful of neck strain on the bottom player when driving heavy crossface pressure—communicate with training partners about pressure intensity. The arm trapped in the lapel wrap can experience discomfort if the pass is executed explosively; use smooth continuous pressure rather than jerky movements. Bottom players should tap if shoulder or neck pressure becomes excessive rather than fighting through pain. When drilling, start with moderate pressure and increase gradually as partners acclimate to the sensation.",
-  "position_integration": "The Pressure Pass Through Squid fits into the broader lapel guard passing system as a power-based alternative to technical clearing methods. While techniques like Lapel Clear to Toreando Pass address the lapel configuration directly, the pressure pass accepts the configuration and overwhelms it with forward pressure. This creates a two-pronged threat where opponents must defend both technical extraction and pressure-based smashing. The pass chains naturally with other pressure-based sequences—if pressure pass fails, you've established forward momentum for double under pass or stack pass attempts. Success leads to side control where you can transition to mount, knee on belly, or attack with Americana, Kimura, or arm triangle submissions. Understanding both pressure and technical passing options makes your lapel guard top game complete rather than one-dimensional.",
   "related_content": [
     {
       "name": "Lapel Guard",
@@ -221,6 +43,10 @@
     {
       "name": "Side Control",
       "relationship": "Primary destination upon successful pass completion"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Position opponent reaches if they counter with sit-up back take"
     },
     {
       "name": "Lapel Clear to Toreando Pass",
@@ -247,13 +73,336 @@
       "relationship": "Primary submission threat from successful pass completion"
     },
     {
-      "name": "Kimura from Side Control",
-      "relationship": "Secondary submission option after establishing side control"
-    },
-    {
       "name": "Double Under Pass",
       "relationship": "Alternative pass if forward momentum is established but pressure pass fails"
     }
   ],
-  "success_rate": 58
+  "attacker": {
+    "name": "Pressure Pass Through Squid Attacker",
+    "description": "How to execute Pressure Pass Through Squid in BJJ. Attacking perspective with setup, execution steps, and counters for defeating squid guard configurations.",
+    "overview": "The Pressure Pass Through Squid is a specialized guard passing technique designed to defeat squid guard configurations where the opponent has wrapped your lapel around your posting arm. Unlike worm guard where backstep mechanics are primary, squid guard's arm entanglement is less restrictive to leg movement, making heavy forward pressure a viable solution. The technique leverages your bodyweight to compress the bottom player despite the lapel barrier, negating their frame while advancing to side control.\n\nThis pass represents a critical skill for anyone competing in gi BJJ where modern lapel guards have become increasingly prevalent. Rather than spending energy attempting to clear the lapel configuration technically, you accept the arm entanglement temporarily and use overwhelming pressure to collapse their guard structure. The squid guard relies on distance and angles to function effectively—heavy chest-to-chest pressure eliminates both advantages simultaneously.\n\nStrategically, this technique should be deployed when you recognize squid guard early and before the bottom player establishes secondary grips or leg entanglements that would compound the problem. The pressure pass works best against opponents who rely primarily on the lapel configuration without developing complementary guard retention skills. Against experienced lapel players who chain multiple configurations together, combining pressure with technical lapel clearing produces superior results.",
+    "key_principles": [
+      "Accept the arm entanglement temporarily rather than fighting to clear it immediately",
+      "Drive heavy chest pressure forward to collapse the space squid guard needs to function",
+      "Keep hips low and heavy throughout the pass to prevent guard recovery attempts",
+      "Control the opponent's non-lapel-gripping arm to prevent them from creating secondary frames",
+      "Use head position to drive opponent's face away, creating turning pressure that aids the pass",
+      "Maintain constant forward momentum—pausing allows opponent to reconfigure their guard",
+      "Complete the pass quickly before forearm fatigue from the lapel wrap compromises your arm"
+    ],
+    "setup_requirements": [
+      "Opponent has established squid guard with your lapel wrapped around your posting arm",
+      "Your free arm has secured collar grip or underhook on the non-lapel side",
+      "Base established with hips low and weight forward ready to drive pressure",
+      "Recognition that squid guard (arm wrap) is present rather than worm guard (leg wrap)",
+      "Mental commitment to pressure through rather than attempting technical lapel extraction"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Secure collar control",
+        "description": "With your free hand (not wrapped in lapel), establish a deep cross-collar grip on the same side as your trapped arm. This grip prevents opponent from sitting up and provides anchor point for pressure."
+      },
+      {
+        "step_number": 2,
+        "action": "Lower level and drive forward",
+        "description": "Drop your hips low and begin driving your chest forward into opponent's chest. Your trapped arm will pull tight against the lapel wrap—accept this and continue forward pressure. Head drives into opponent's far shoulder."
+      },
+      {
+        "step_number": 3,
+        "action": "Eliminate hip space",
+        "description": "As you drive forward, your hips should follow your chest, closing all space between your hips and opponent's hips. The squid guard loses effectiveness when there's no space for the bottom player to create angles."
+      },
+      {
+        "step_number": 4,
+        "action": "Walk legs around",
+        "description": "While maintaining heavy chest pressure, begin walking your legs around toward opponent's head. Your trapped arm will naturally begin to extract from the lapel wrap as you change angles. Keep hips heavy throughout."
+      },
+      {
+        "step_number": 5,
+        "action": "Establish crossface",
+        "description": "As your angle changes and arm begins freeing from the wrap, switch your now-free arm to establish crossface control. Drive your forearm across opponent's face, turning their head away and preventing them from following your movement."
+      },
+      {
+        "step_number": 6,
+        "action": "Complete to side control",
+        "description": "Finish walking your legs perpendicular to opponent's body while maintaining crossface and chest pressure. Secure hip control with your near arm blocking their far hip. Settle your weight and establish consolidated side control position."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent sits up aggressively to take your back as you pressure forward",
+        "effectiveness": "High",
+        "your_response": "Maintain strong collar grip and keep your elbow tight. If they sit up, use your pressure to drive them back down or transition to front headlock control",
+        "targets_outcome": "Back Control/Bottom"
+      },
+      {
+        "counter": "Opponent transitions to worm guard by redirecting lapel around your leg",
+        "effectiveness": "Medium",
+        "your_response": "Continue forward pressure and backstep before worm configuration completes. Your momentum should prevent them from completing the reconfiguration",
+        "targets_outcome": "Lapel Guard/Top"
+      },
+      {
+        "counter": "Opponent frames with free arm to create space and recover guard",
+        "effectiveness": "Medium",
+        "your_response": "Control their framing arm with your collar grip or underhook it. Without the frame, your pressure collapses their guard structure",
+        "targets_outcome": "Lapel Guard/Top"
+      },
+      {
+        "counter": "Opponent releases lapel grip and recovers to spider or lasso guard",
+        "effectiveness": "Low",
+        "your_response": "If they release the lapel, immediately complete your pass with increased speed. Their release indicates the pressure is working",
+        "targets_outcome": "Lapel Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting to clear the lapel wrap before committing to pressure",
+        "consequence": "Wastes time and energy fighting the configuration while opponent adjusts their guard and establishes secondary controls",
+        "correction": "Accept the arm wrap temporarily and commit to pressure immediately. The pass will naturally clear the wrap as you change angles"
+      },
+      {
+        "error": "Driving forward with hips high and weight on hands",
+        "consequence": "Creates space under your chest that opponent exploits for guard recovery or sweep attempts",
+        "correction": "Keep hips low and heavy throughout. Weight should be on your chest and hips against opponent, not on your hands"
+      },
+      {
+        "error": "Pausing mid-pass to adjust position or grip",
+        "consequence": "Allows opponent to reconfigure their guard, establish new grips, or transition to different lapel configuration",
+        "correction": "Maintain constant forward momentum. The pass should be one continuous pressure movement from start to finish"
+      },
+      {
+        "error": "Neglecting to control opponent's free arm while pressuring",
+        "consequence": "Opponent creates frames with free arm that prevent your pressure from collapsing their guard",
+        "correction": "Use collar grip or underhook to control the non-lapel-gripping arm. Eliminate all frames before pressuring"
+      },
+      {
+        "error": "Lifting head and posture during the pass attempt",
+        "consequence": "Opens space for opponent to sit up and take your back or recover their guard structure",
+        "correction": "Keep head low driving into opponent's shoulder throughout. Your head position contributes to the crushing pressure"
+      },
+      {
+        "error": "Attempting this pass against worm guard instead of squid guard",
+        "consequence": "Leg wrap of worm guard prevents the forward pressure needed. Pass fails and exposes you to back take",
+        "correction": "Correctly identify squid guard (arm wrap) versus worm guard (leg wrap). Use backstep for worm, pressure for squid"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Pressure mechanics",
+        "description": "Practice driving heavy forward pressure from squid guard position without attempting to complete the pass. Partner holds squid guard configuration while you focus on proper weight distribution, hip position, and maintaining chest contact despite the arm wrap."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Pass completion",
+        "description": "Add the leg walking sequence and side control finish. Partner provides light resistance and allows pass completion. Focus on maintaining continuous pressure throughout the transition and proper crossface establishment."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Counter recognition",
+        "description": "Partner attempts specific counters including sit-up back take attempts and guard reconfiguration. Practice recognizing counter timing and adjusting pressure accordingly. Develop ability to complete pass despite active resistance."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live integration",
+        "description": "Apply pressure pass in live rolling starting from squid guard position. Partner uses full resistance and any counter available. Develop timing for when pressure pass is appropriate versus when technical clearing is better option."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary goal of Pressure Pass Through Squid?",
+        "answer": "The primary goal is to defeat the squid guard configuration by using heavy forward pressure to collapse the space the guard needs to function, rather than spending energy attempting to technically clear the lapel wrap from your arm. You accept the arm entanglement temporarily and use your bodyweight to compress the bottom player, advancing through to side control."
+      },
+      {
+        "question": "How do you distinguish squid guard from worm guard and why does it matter?",
+        "answer": "Squid guard wraps the lapel around your arm (usually the posting arm), while worm guard wraps it around your leg (typically behind the knee). This distinction is critical because pressure passing works against squid guard since the arm wrap doesn't restrict your leg movement, but fails against worm guard where the leg entanglement prevents forward pressure. Worm guard requires backstep mechanics instead."
+      },
+      {
+        "question": "Your opponent starts sitting up aggressively as you drive pressure forward—how do you adjust?",
+        "answer": "Maintain your deep collar grip and keep your elbow tight to your body. Use the collar grip to push them back down as they sit up, converting their upward momentum into your downward pressure. If they continue sitting up despite this, transition to front headlock control using your collar grip as the base, which gives you dominant position from their sit-up attempt."
+      },
+      {
+        "question": "What are the key grips needed for Pressure Pass Through Squid?",
+        "answer": "Your primary grip is a deep cross-collar grip with your free hand (the arm not wrapped in lapel) on the same side as your trapped arm. This grip prevents opponent from sitting up, provides an anchor point for your pressure, and gives you control to redirect their movement. Secondary control comes from keeping your trapped arm elbow tight despite the wrap."
+      },
+      {
+        "question": "When is the optimal timing window to attempt this pass?",
+        "answer": "The optimal timing is immediately upon recognizing squid guard before the opponent establishes secondary grips or leg entanglements. The pass works best when the squid guard is their only control mechanism. If they have already added spider grips, lasso hooks, or begun transitioning to worm guard, address those controls first or consider technical clearing instead."
+      },
+      {
+        "question": "What hip position must you maintain throughout the pass and why?",
+        "answer": "Your hips must stay low and heavy throughout, pressing directly against opponent's hips with no space between. High hips create space under your chest that the opponent can exploit for guard recovery or sweep attempts. The low hip position transfers your weight through your chest into their torso, which is the crushing pressure that makes squid guard ineffective."
+      },
+      {
+        "question": "Your opponent attempts to redirect the lapel around your leg to transition to worm guard—what is your response?",
+        "answer": "Continue your forward pressure and immediately backstep before the worm configuration completes. Your forward momentum should prevent them from completing the wrap around your leg. If you recognize the transition early, you can extract your leg before they secure the new position. If worm guard establishes despite this, abandon pressure passing and switch to backstep mechanics."
+      },
+      {
+        "question": "Why is continuous momentum emphasized rather than pausing to adjust?",
+        "answer": "Pausing mid-pass allows the opponent to reconfigure their guard, establish new grips, or transition to a different lapel variation that might require different passing mechanics. The squid guard practitioner is constantly looking for opportunities to adjust—your continuous pressure denies them the time and space needed for these adjustments. The pass should be one seamless pressure movement."
+      },
+      {
+        "question": "What happens to your trapped arm as you walk your legs around during the pass?",
+        "answer": "As you change angles by walking your legs toward opponent's head while maintaining chest pressure, your trapped arm naturally begins to extract from the lapel wrap. The angle change reduces the tension on the wrap without you having to fight it directly. Once the arm clears, immediately switch it to crossface control to complete the pass."
+      },
+      {
+        "question": "Your opponent frames hard with their free arm and creates distance—what is the critical direction of force to maintain your pass?",
+        "answer": "The critical force direction is diagonal-forward into the opponent's far shoulder, not straight down. Driving diagonally collapses their framing arm by compressing it at an angle it cannot structurally support. Simultaneously underhook or control the framing arm with your collar-grip hand to strip the frame entirely, then immediately re-close the distance with renewed chest pressure."
+      },
+      {
+        "question": "If the pressure pass stalls and you cannot complete the angle change, what chain attacks are available?",
+        "answer": "If the pressure pass stalls, your established forward momentum creates immediate options. You can transition to a double under pass by shooting both arms under their legs while maintaining the pressure. Alternatively, convert to a stack pass by driving their legs toward their head vertically. If they open their guard structure to address your pressure, a knee slice or leg drag becomes available through the gap they create."
+      }
+    ],
+    "safety_considerations": "The pressure pass through squid guard is generally low-risk when executed with controlled pressure. However, practitioners should be mindful of neck strain on the bottom player when driving heavy crossface pressure—communicate with training partners about pressure intensity. The arm trapped in the lapel wrap can experience discomfort if the pass is executed explosively; use smooth continuous pressure rather than jerky movements. Bottom players should tap if shoulder or neck pressure becomes excessive rather than fighting through pain. When drilling, start with moderate pressure and increase gradually as partners acclimate to the sensation."
+  },
+  "defender": {
+    "name": "Pressure Pass Through Squid Defender",
+    "description": "How to defend against Pressure Pass Through Squid in BJJ. Recognition cues, defensive options, and escape strategies from the squid guard bottom perspective.",
+    "overview": "Defending the pressure pass through squid guard requires understanding that your opponent has chosen to accept your arm lapel configuration and overwhelm it with forward bodyweight rather than attempting to technically clear the wrap. This fundamentally changes your defensive priorities compared to defending technical lapel clearing passes. Your squid guard depends on maintaining distance and creating angles—the pressure passer aims to eliminate both simultaneously by driving heavy chest-to-chest contact while keeping hips low.\n\nThe critical defensive window occurs in the first seconds after you recognize the pressure commitment. Before their chest contacts yours and their hips seal against your hips, you have maximum leverage from your lapel configuration. Once they collapse the distance, your squid guard control diminishes rapidly and you must transition to alternative defensive strategies including guard reconfiguration, sit-up back take attempts, or frame-based guard recovery. Recognizing the pressure pass early and choosing your defensive response before the weight arrives is the difference between retaining guard and being passed.\n\nYour most dangerous counter is the sit-up back take, which exploits the fact that the pressure passer has committed their weight forward with one arm trapped in your lapel. Their forward commitment creates a path behind them that a well-timed sit-up can exploit. However, this counter requires precise timing—attempt it too late after they have established chest contact and crossface, and you will simply be driven flat. The layered defense approach uses frame creation to buy time, guard reconfiguration as the primary retention strategy, and the back take as the high-reward counter when the timing window presents itself.",
+    "key_principles": [
+      "Recognize the pressure pass commitment early—before chest contact is established you have maximum defensive leverage from the lapel configuration",
+      "Maintain distance through active hip movement and leg frames to preserve the space squid guard needs to function",
+      "Use the trapped arm as an anchor point—their arm wrapped in your lapel gives you a connection you can exploit for sweeps and back takes",
+      "Create secondary frames with your free hand against their shoulder or bicep to prevent chest-to-chest contact from settling",
+      "Stay on your side rather than flat on your back—lateral hip position preserves guard structure under pressure",
+      "Be prepared to transition between defensive strategies as the pass progresses through different phases"
+    ],
+    "recognition_cues": [
+      "Opponent drops hips low and begins driving chest forward rather than attempting to strip your lapel grip or extract their arm from the wrap",
+      "Opponent secures a deep cross-collar grip with their free hand, anchoring themselves for forward pressure commitment",
+      "Opponent's head drops to your far shoulder level and they stop fighting the arm entanglement, indicating acceptance of the wrap and commitment to pressure passing",
+      "Opponent begins closing hip-to-hip distance rapidly rather than maintaining combat base or attempting to stand"
+    ],
+    "defensive_options": [
+      {
+        "action": "Sit-up back take: as opponent commits weight forward, use the lapel connection as an anchor and sit up aggressively toward their trapped-arm side, threading your free arm under their armpit to establish a seatbelt grip behind them",
+        "when_to_use": "Early in the pass before opponent establishes chest contact and crossface—the timing window is when they drop level but before they seal hip-to-hip distance",
+        "targets_outcome": "Back Control/Bottom",
+        "if_successful": "You achieve back control with seatbelt grip established, scoring 4 points and reaching the most dominant position in BJJ",
+        "risk": "If timed too late, opponent drives you back down with collar grip and crossface, advancing to side control with your guard completely compromised"
+      },
+      {
+        "action": "Guard reconfiguration: redirect the lapel from their arm to their leg to transition to worm guard, or release the lapel entirely and recover to spider, lasso, or De La Riva guard using active leg frames",
+        "when_to_use": "When you recognize the pressure commitment but the sit-up window has closed—use this when opponent begins establishing chest contact but has not yet walked legs around",
+        "targets_outcome": "Lapel Guard/Top",
+        "if_successful": "You retain guard position with a new configuration that may be more effective against their pressure style, resetting the passing exchange",
+        "risk": "During the reconfiguration transition, you momentarily release your primary control, creating a window where opponent can accelerate the pass"
+      },
+      {
+        "action": "Frame and hip escape: create a strong frame with your free arm against opponent's shoulder or neck, shrimp your hips away to re-establish distance, and reinsert legs for guard retention",
+        "when_to_use": "When opponent has established chest contact and is walking legs around—this is the last-resort defensive option when earlier windows have passed",
+        "targets_outcome": "Lapel Guard/Top",
+        "if_successful": "You create enough space to recover guard position, potentially returning to squid guard or establishing half guard as a fallback",
+        "risk": "If frames are insufficient against their pressure, you exhaust energy without creating space and they complete the pass to side control"
+      },
+      {
+        "action": "Inversion to reguard: as opponent walks around, invert underneath their pressure by rolling your shoulders toward them and threading your legs back into guard position",
+        "when_to_use": "When opponent has passed your legs to one side and is establishing crossface but has not yet settled perpendicular—requires flexibility and timing",
+        "targets_outcome": "Lapel Guard/Top",
+        "if_successful": "You recover guard position from a nearly-passed state, often surprising the passer and resetting to open guard",
+        "risk": "Failed inversion leaves you in a worse position with back exposed and no guard structure, potentially giving up back control"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Back Control/Bottom",
+        "how": "Time the sit-up back take during the early phase of the pressure pass when opponent drops level and commits weight forward. Use the lapel connection as your anchor point, sit up explosively toward their trapped-arm side, and thread your free arm under their armpit to establish seatbelt control behind them. Their trapped arm prevents them from posting to stop your rotation."
+      },
+      {
+        "outcome": "Lapel Guard/Top",
+        "how": "Maintain distance through active hip movement and secondary frames before opponent can establish crushing chest contact. Create frames on their shoulder with your free hand, hip escape to re-establish angle, and either reconfigure your lapel guard or transition to spider, lasso, or De La Riva guard. The key is acting before their pressure collapses your guard structure entirely."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Lying flat on your back and relying solely on the lapel wrap to stop the pass",
+        "consequence": "The lapel configuration alone cannot prevent a pressure pass—without active hip movement and secondary frames, opponent collapses your guard structure and walks around to side control",
+        "correction": "Stay on your side with hips angled, maintain active leg frames, and use your free hand to create secondary frames against their shoulder or bicep. The lapel wrap supplements but does not replace active guard retention"
+      },
+      {
+        "error": "Attempting the sit-up back take too late after opponent has established crossface and chest pressure",
+        "consequence": "Opponent uses their settled weight and crossface to drive you back flat, often accelerating the pass and leaving you in worse position than before the attempt",
+        "correction": "The sit-up must happen before chest contact establishes. If you feel their chest weight on you and crossface pressure on your face, the window has closed—switch to frame-based defense or guard reconfiguration instead"
+      },
+      {
+        "error": "Death-gripping the lapel with excessive forearm tension rather than using structural control",
+        "consequence": "Rapid forearm fatigue compromises your primary control mechanism within 60-90 seconds, leaving you with neither lapel guard nor the energy for active guard retention",
+        "correction": "Use skeletal grip alignment—hook your fingers through the lapel fabric and maintain tension through body positioning rather than muscular squeeze. Save grip strength for critical moments like the sit-up back take"
+      },
+      {
+        "error": "Panicking and releasing the lapel grip entirely when pressure arrives",
+        "consequence": "Surrendering your primary control mechanism without establishing alternative guard gives the passer a free lane to complete the pass with no resistance",
+        "correction": "If you must release the lapel, do so deliberately as part of a planned guard transition—immediately establish spider grips, lasso hooks, or De La Riva hook as you release. Never release without a plan"
+      },
+      {
+        "error": "Pushing on opponent's head or chest with extended arms during the pressure pass",
+        "consequence": "Extended arms are vulnerable to arm isolation, kimura, or Americana attacks from the passer, and provide far less structural resistance than properly positioned frames",
+        "correction": "Frame with forearms against their shoulder and neck, keeping elbows tight to your body. Forearm frames create structural resistance without exposing your arms to submission counters"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that your opponent is committing to a pressure pass rather than a technical lapel clearing approach?",
+        "answer": "The earliest cue is when your opponent stops fighting the lapel wrap and instead drops their hips low while driving their chest forward toward yours. A technical passer would be working to extract their arm or strip your grip—a pressure passer accepts the entanglement and commits their weight forward. The deep collar grip with their free hand and head dropping to shoulder level confirm the pressure commitment."
+      },
+      {
+        "question": "Why is the sit-up back take the highest-percentage counter to the pressure pass, and what makes the timing window critical?",
+        "answer": "The pressure passer has committed their weight forward with one arm trapped in your lapel, creating a path behind them that a well-timed sit-up exploits. Their trapped arm cannot post to prevent your rotation, and their forward weight commitment means they cannot easily retreat. The timing window is between their level change and chest contact—too early and they have not committed enough, too late and their crossface pins you flat."
+      },
+      {
+        "question": "Your opponent has established chest-to-chest contact and is beginning to walk legs around—the sit-up window is closed. What is your best defensive sequence?",
+        "answer": "Create a strong forearm frame against their crossface shoulder to prevent them from settling their full weight. Hip escape away from the direction they are walking to re-establish distance. Use your legs actively to create frames or insert hooks. If you can create enough space, reconfigure to half guard with knee shield as a minimum defensive position. The frame must be established before their crossface locks your head in place."
+      },
+      {
+        "question": "How does maintaining a lateral hip position rather than lying flat improve your defensive options?",
+        "answer": "A lateral hip position preserves your ability to hip escape, maintains guard structure through angled leg positioning, and makes it mechanically harder for the passer to establish the flat chest-to-chest contact their pressure pass requires. Flat on your back, your hips have no mobility and your legs lose structural leverage. On your side, you retain the ability to shrimp, insert frames, and threaten the sit-up back take."
+      },
+      {
+        "question": "What should you do if you recognize the pressure pass but have already lost significant distance and your opponent is halfway through the leg walk?",
+        "answer": "At this late stage, commit to frame-based survival and guard recovery rather than attempting the sit-up. Establish forearm frames on their shoulder, protect your neck from crossface, and work aggressively to insert a knee between your bodies to recover half guard. Half guard with knee shield is a strong fallback position that resets the exchange. Accepting half guard rather than fighting a losing battle for full guard retention preserves energy for the next exchange."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Recognition and timing",
+        "description": "Partner alternates between pressure pass attempts and technical lapel clearing approaches from squid guard. Practice identifying which approach they are using within 2 seconds of their initial movement. No defensive responses yet—focus solely on accurate recognition of the pressure commitment versus technical clearing."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Sit-up back take counter",
+        "description": "Partner commits to pressure pass at moderate speed. Practice timing the sit-up back take during the early phase window. Partner provides enough pressure to require proper timing but allows successful back takes when timed correctly. Focus on using the lapel anchor point and threading the free arm for seatbelt grip."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Layered defense integration",
+        "description": "Partner applies full-speed pressure pass. Practice the complete defensive decision tree: attempt sit-up if window is open, transition to frame-based defense if window closes, reconfigure guard as the pass develops. Build the ability to flow between defensive options based on how the pass progresses."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live application with mixed passing",
+        "description": "Partner uses any lapel guard passing approach from squid guard position—pressure, technical clearing, backstep, or combinations. Apply recognition skills and appropriate defensive responses in live rolling with full resistance. Develop automatic defensive reactions to pressure pass recognition."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Pressure to Knee Slice",
+      "description": "Instead of walking around to perpendicular side control, use the pressure to open space for knee slice pass. As opponent's guard collapses under pressure, slice your knee through to complete the pass directly to side control or knee on belly.",
+      "when_to_use": "When opponent's legs are positioned to block the standard walking pass route"
+    },
+    {
+      "variant_name": "Pressure to Stack Pass",
+      "description": "Drive forward pressure upward, folding opponent's legs toward their face in a stacking motion. The arm wrap becomes irrelevant as you compress them vertically rather than horizontally, then walk around to complete the pass.",
+      "when_to_use": "Against flexible opponents who absorb horizontal pressure well"
+    },
+    {
+      "variant_name": "Pressure to Leg Drag",
+      "description": "Use initial pressure to break opponent's guard structure, then transition to leg drag by controlling their far leg and dragging it across your body. Completes to dominant side control with back exposure.",
+      "when_to_use": "When opponent attempts to recover guard by inserting legs during your pressure"
+    }
+  ],
+  "position_integration": "The Pressure Pass Through Squid fits into the broader lapel guard passing system as a power-based alternative to technical clearing methods. While techniques like Lapel Clear to Toreando Pass address the lapel configuration directly, the pressure pass accepts the configuration and overwhelms it with forward pressure. This creates a two-pronged threat where opponents must defend both technical extraction and pressure-based smashing. The pass chains naturally with other pressure-based sequences—if pressure pass fails, you've established forward momentum for double under pass or stack pass attempts. Success leads to side control where you can transition to mount, knee on belly, or attack with Americana, Kimura, or arm triangle submissions. Understanding both pressure and technical passing options makes your lapel guard top game complete rather than one-dimensional."
 }

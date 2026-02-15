@@ -377,17 +377,17 @@
       "relationship": "Provides methods for deliberately creating transition windows through opponent manipulation"
     },
     {
-      "name": "Guard Pass",
+      "name": "Pass to Side Control",
       "content_type": "Transition",
       "relationship": "Major category of transitions where management principles heavily influence success rates"
     },
     {
-      "name": "Back Take Generic",
+      "name": "Back Take",
       "content_type": "Transition",
       "relationship": "High-value transition category requiring sophisticated management due to vulnerability if failed"
     },
     {
-      "name": "Hip Escape",
+      "name": "Hip Escape to Guard",
       "content_type": "Transition",
       "relationship": "Fundamental defensive transition requiring careful timing and structural maintenance"
     },

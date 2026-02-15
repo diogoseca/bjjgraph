@@ -21,37 +21,37 @@ description: "Master Z-Guard Top in BJJ. Complete guide covering passing strateg
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 22% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice from Half",
-      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Cut Pass",
-      "text": "From this position, attempt Knee Cut Pass. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Knee Cut Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, attempt Long Step Pass. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Step",
-      "text": "From this position, attempt Back Step. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Back Step. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,19 +208,23 @@ From a competitive perspective, mastering Z-Guard Top passing is essential for a
 
 ## Available Attacks
 
-### [[Knee Slice Pass]] (18% of attempts)
+### [[Knee Slice Pass]] (22% of attempts)
 
-### [[Knee Slice from Half]] (16% of attempts)
+### [[Knee Slice from Half]] (14% of attempts)
 
-### [[Knee Cut Pass]] (14% of attempts)
+### [[Knee Cut Pass]] (12% of attempts)
 
-### [[Long Step Pass]] (13% of attempts)
+### [[Long Step Pass]] (11% of attempts)
 
-### [[Smash Pass]] (14% of attempts)
+### [[Smash Pass]] (12% of attempts)
 
-### [[Back Step]] (12% of attempts)
+### [[Back Step]] (10% of attempts)
 
-### [[Underhook Pass]] (13% of attempts)
+### [[Underhook Pass]] (11% of attempts)
+
+### [[Knee Slice from Z-Guard]] (5% of attempts)
+
+### [[Pass Z-Guard]] (3% of attempts)
 
 
 
@@ -247,7 +251,7 @@ From a competitive perspective, mastering Z-Guard Top passing is essential for a
 
 **If bottom player attempts to go inverted or create scramble:**
 - Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 60%)
-- Execute **[[Position Change]]** → [[Headquarters Position]] (Probability: 50%)
+- Execute **[[Re-Guard from Headquarters]]** → [[Headquarters Position]] (Probability: 50%)
 
 
 

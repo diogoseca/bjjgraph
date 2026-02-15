@@ -297,31 +297,43 @@
     "transitions": [
       {
         "transition": "RDLR Pass",
-        "attempt_probability": 14
+        "attempt_probability": 20
       },
       {
         "transition": "Leg Drag Pass",
-        "attempt_probability": 15
+        "attempt_probability": 13
       },
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 13
+        "attempt_probability": 7
       },
       {
         "transition": "Smash Pass",
-        "attempt_probability": 12
+        "attempt_probability": 7
       },
       {
         "transition": "Toreando Pass",
-        "attempt_probability": 14
-      },
-      {
-        "transition": "Back Step",
-        "attempt_probability": 19
+        "attempt_probability": 6
       },
       {
         "transition": "Long Step Pass",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Body Lock Pass",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Headquarters Pass",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Back Step Pass",
         "attempt_probability": 13
+      },
+      {
+        "transition": "RDLR Backstep Counter",
+        "attempt_probability": 3
       }
     ],
     "knowledge_assessment": [
@@ -594,35 +606,39 @@
       },
       {
         "transition": "Kiss of the Dragon",
-        "attempt_probability": 11
+        "attempt_probability": 31
       },
       {
         "transition": "Berimbolo Entry",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Crab Ride to Back",
-        "attempt_probability": 12
+        "attempt_probability": 13
       },
       {
         "transition": "De La Riva to X-Guard Transition",
-        "attempt_probability": 12
+        "attempt_probability": 9
       },
       {
         "transition": "Single Leg X Entry",
-        "attempt_probability": 12
+        "attempt_probability": 10
       },
       {
         "transition": "Omoplata Sweep",
-        "attempt_probability": 10
+        "attempt_probability": 4
       },
       {
-        "transition": "Rolling Back Take",
-        "attempt_probability": 10
+        "transition": "Reverse De La Riva Recovery",
+        "attempt_probability": 12
       },
       {
-        "transition": "Turtle to Truck",
-        "attempt_probability": 11
+        "transition": "Tripod Sweep",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Kiss of the Dragon from RDLR",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "RDLR to Crab Ride",
+        "attempt_probability": 1
       }
     ],
     "knowledge_assessment": [

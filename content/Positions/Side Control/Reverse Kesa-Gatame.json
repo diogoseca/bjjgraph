@@ -107,12 +107,12 @@
         "condition": "If opponent remains flat and defensive with minimal movement",
         "actions": [
           {
-            "technique": "Kimura from Side Control",
+            "technique": "Kimura",
             "target": "Kimura Trap",
             "probability": 60
           },
           {
-            "technique": "Americana from Side Control",
+            "technique": "Americana",
             "target": "Side Control",
             "probability": 55
           },
@@ -142,7 +142,7 @@
         "condition": "If opponent shrimps away attempting elbow escape",
         "actions": [
           {
-            "technique": "Knee Slide to Knee on Belly",
+            "technique": "Knee on Belly",
             "target": "Knee on Belly",
             "probability": 65
           },
@@ -157,7 +157,7 @@
         "condition": "If opponent turns into you exposing their back",
         "actions": [
           {
-            "technique": "Back Take Generic",
+            "technique": "Back Take",
             "target": "Back Control",
             "probability": 75
           },
@@ -267,40 +267,51 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 62
+        "value": 62,
+        "description": "Moderate retention due to reverse orientation requiring active base management against bridge and shrimp attempts"
       },
       "advancement_probability": {
-        "value": 58
+        "value": 58,
+        "description": "Good advancement rate to mount, north-south, or back control based on opponent reactions"
       },
       "submission_probability": {
-        "value": 48
+        "value": 48,
+        "description": "Strong submission threat from kimura, americana, and arm triangle attacks on isolated far arm"
       },
       "average_time": "45-90 seconds before transition or submission"
     },
     "transitions": [
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": 22
+        "attempt_probability": 26
       },
       {
         "transition": "Side Control to North-South",
-        "attempt_probability": 18
-      },
-      {
-        "transition": "Kimura from Side Control",
-        "attempt_probability": 18
-      },
-      {
-        "transition": "Americana from Side Control",
         "attempt_probability": 15
+      },
+      {
+        "transition": "Kimura",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Americana",
+        "attempt_probability": 13
       },
       {
         "transition": "Arm Triangle",
-        "attempt_probability": 12
+        "attempt_probability": 10
       },
       {
-        "transition": "Back Take Generic",
-        "attempt_probability": 15
+        "transition": "Back Take",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Reverse Kesa to North-South",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Reverse Kesa to Side Control",
+        "attempt_probability": 3
       }
     ],
     "knowledge_assessment": [
@@ -352,7 +363,7 @@
     ],
     "overview": "Reverse Kesa-Gatame Bottom is a defensive position where the practitioner is pinned underneath an opponent who has secured reverse scarf hold control. Unlike traditional Kesa Gatame where the top player's hips face toward the bottom player's head, in Reverse Kesa-Gatame the top player's hips face toward the legs, creating a different set of control mechanics and escape opportunities. This position is characterized by the top player sitting on the bottom player's chest and shoulder area while controlling the near arm and facing toward the bottom player's hips and legs.\n\nThe bottom player faces significant challenges in this position as their mobility is severely restricted, with one arm typically trapped and their upper body compressed. However, the position offers distinct escape pathways that differ from traditional scarf hold escapes, primarily exploiting the top player's weight distribution and the direction of their control. The key to survival and escape lies in maintaining defensive frames with the free arm, creating space through hip movement, and capitalizing on the top player's tendency to sit too high or commit too heavily to submissions.\n\nFrom a strategic perspective, Reverse Kesa-Gatame Bottom requires immediate defensive action to prevent the position from consolidating into more dominant pins like North-South or Mount. The bottom player must prioritize hip escape mechanics, frame construction with the free arm, and systematic space creation before attempting to recover guard or transition to a neutral position. Understanding the biomechanics of this pin and the specific vulnerabilities it creates is essential for developing an effective escape system.",
     "state_properties": {
-      "point_value": 0,
+      "point_value": -3,
       "position_type": "Defensive",
       "risk_level": "High",
       "energy_cost": "High",
@@ -385,11 +396,11 @@
         "actions": [
           {
             "technique": "Bridge and Roll",
-            "target": "Kesa Gatame",
+            "target": "Scramble Position",
             "probability": 50
           },
           {
-            "technique": "Hip Escape",
+            "technique": "Hip Escape to Guard",
             "target": "Open Guard",
             "probability": 45
           }
@@ -399,12 +410,12 @@
         "condition": "If opponent maintains tight chest-to-chest pressure with proper weight distribution",
         "actions": [
           {
-            "technique": "Elbow Escape",
+            "technique": "Elbow Escape to Guard",
             "target": "Half Guard",
             "probability": 55
           },
           {
-            "technique": "Frame and Shrimp",
+            "technique": "Frame and Shrimp to Guard",
             "target": "Open Guard",
             "probability": 40
           }
@@ -419,7 +430,7 @@
             "probability": 60
           },
           {
-            "technique": "Frame and Shrimp",
+            "technique": "Frame and Shrimp to Guard",
             "target": "Closed Guard",
             "probability": 35
           }
@@ -434,7 +445,7 @@
             "probability": 45
           },
           {
-            "technique": "Hip Escape",
+            "technique": "Hip Escape to Guard",
             "target": "Half Guard",
             "probability": 50
           }
@@ -517,16 +528,16 @@
         "relationship": "Primary escape destination"
       },
       {
-        "name": "Elbow Escape",
-        "relationship": "Primary escape technique"
+        "name": "Elbow Escape to Guard",
+        "relationship": "Primary escape technique for recovering guard from pins"
       },
       {
         "name": "Bridge and Roll",
         "relationship": "Reversal technique option"
       },
       {
-        "name": "Hip Escape",
-        "relationship": "Fundamental movement principle"
+        "name": "Hip Escape to Guard",
+        "relationship": "Fundamental hip escape movement for guard recovery"
       },
       {
         "name": "Closed Guard",
@@ -539,36 +550,47 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 38
+        "value": 38,
+        "description": "Low retention reflects the urgency of escaping - position is highly unfavorable and bottom player must act immediately"
       },
       "advancement_probability": {
-        "value": 58
+        "value": 58,
+        "description": "Moderate advancement chance through systematic escapes to guard or neutral positions"
       },
       "submission_probability": {
-        "value": 12
+        "value": 12,
+        "description": "Very low submission threat from bottom; limited to opportunistic attacks during scrambles"
       },
       "average_time": "30-90 seconds before escape or submission"
     },
     "transitions": [
       {
-        "transition": "Elbow Escape",
-        "attempt_probability": 25
+        "transition": "Elbow Escape to Guard",
+        "attempt_probability": 28
       },
       {
-        "transition": "Hip Escape",
-        "attempt_probability": 22
+        "transition": "Hip Escape to Guard",
+        "attempt_probability": 19
       },
       {
         "transition": "Bridge and Roll",
-        "attempt_probability": 18
-      },
-      {
-        "transition": "Frame and Shrimp",
-        "attempt_probability": 20
-      },
-      {
-        "transition": "Technical Standup",
         "attempt_probability": 15
+      },
+      {
+        "transition": "Frame and Shrimp to Guard",
+        "attempt_probability": 17
+      },
+      {
+        "transition": "Technical Stand-up",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Bridge from Reverse Kesa-Gatame",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Escape Reverse Kesa-Gatame",
+        "attempt_probability": 3
       }
     ],
     "knowledge_assessment": [

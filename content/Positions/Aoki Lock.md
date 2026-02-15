@@ -93,17 +93,17 @@ This position appears most commonly in no-gi competition, submission-only format
 ### Available Transitions
 
 
-- **[[Rolling Escape to Guard]]** (19% of attempts)
+- **[[Rolling Escape to Guard]]** (21% of attempts)
 
-- **[[Arm Extraction to Turtle]]** (21% of attempts)
+- **[[Arm Extraction to Turtle]]** (38% of attempts)
 
-- **[[Hip Escape to Guard Recovery]]** (17% of attempts)
+- **[[Hip Escape to Guard]]** (17% of attempts)
 
-- **[[Rolling Counter to Top]]** (14% of attempts)
+- **[[Counter Roll to Top]]** (4% of attempts)
 
-- **[[Base Attack to Sweep]]** (13% of attempts)
+- **[[Granby Roll to Guard]]** (18% of attempts)
 
-- **[[Granby Roll Escape]]** (16% of attempts)
+- **[[Base Attack to Sweep]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -160,17 +160,15 @@ This position appears most commonly in no-gi competition, submission-only format
 ### Available Transitions
 
 
-- **[[Aoki Lock Finish]]** (16% of attempts)
+- **[[Aoki Lock Finish]]** (38% of attempts)
 
-- **[[Aoki Lock to Back Control]]** (20% of attempts)
-
-- **[[Turtle to Truck]]** (17% of attempts)
+- **[[Aoki Lock to Back Control]]** (22% of attempts)
 
 - **[[Aoki Lock to Crucifix]]** (15% of attempts)
 
-- **[[Kimura Switch]]** (14% of attempts)
+- **[[Kimura Switch]]** (10% of attempts)
 
-- **[[Side Control to North-South]]** (18% of attempts)
+- **[[Truck Entry]]** (15% of attempts)
 
 
 ### Common Mistakes
@@ -215,7 +213,7 @@ This position appears most commonly in no-gi competition, submission-only format
 
 - **[[Omoplata Control]]** - Similar shoulder lock mechanics with different control method
 
-- **[[Kimura Control]]** - Related shoulder manipulation with different grip configuration
+- **[[Kimura Trap]]** - Related shoulder manipulation with different grip configuration
 
 - **[[Truck]]** - Common transition target from top Aoki Lock position
 

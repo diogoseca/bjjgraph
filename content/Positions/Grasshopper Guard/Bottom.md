@@ -21,37 +21,37 @@ description: "Master grasshopper guard from bottom. Complete guide to inversion 
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar from Grasshopper",
-      "text": "From this position, attempt Kneebar from Grasshopper. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Kneebar from Grasshopper. This technique is attempted in 9% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Straight Ankle Lock Entry",
-      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 7% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Transition",
-      "text": "From this position, attempt Single Leg X Transition. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg X Transition. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute X-Guard Sweep",
-      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Inside Ashi Entry",
+      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Inside Ashi Entry",
-      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Rolling Kneebar",
+      "text": "From this position, attempt Rolling Kneebar. This technique is attempted in 5% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Kneebar",
-      "text": "From this position, attempt Rolling Kneebar. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Grasshopper Sweep",
+      "text": "From this position, attempt Grasshopper Sweep. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -214,29 +214,33 @@ The position requires significant flexibility and conditioning. Your ability to 
 
 ## Available Escapes
 
-### [[Kneebar from Grasshopper]] (8% of attempts)
+### [[Kneebar from Grasshopper]] (9% of attempts)
 
-### [[Straight Ankle Lock Entry]] (8% of attempts)
+### [[Straight Ankle Lock Entry]] (7% of attempts)
 
-### [[Single Leg X Transition]] (9% of attempts)
+### [[Single Leg X Transition]] (8% of attempts)
 
-### [[X-Guard Sweep]] (8% of attempts)
+### [[Inside Ashi Entry]] (9% of attempts)
 
-### [[Inside Ashi Entry]] (8% of attempts)
+### [[Rolling Kneebar]] (5% of attempts)
 
-### [[Rolling Kneebar]] (7% of attempts)
+### [[Grasshopper Sweep]] (7% of attempts)
 
-### [[Grasshopper Sweep]] (8% of attempts)
+### [[Granby to Closed Guard]] (13% of attempts)
 
-### [[Technical Standup]] (12% of attempts)
+### [[50-50 Entry]] (4% of attempts)
 
-### [[50-50 Entry]] (8% of attempts)
+### [[Reverse De La Riva Recovery]] (6% of attempts)
 
-### [[Reverse De La Riva Recovery]] (8% of attempts)
+### [[Technical Standup from Inversion]] (5% of attempts)
 
-### [[Technical Standup from Inversion]] (8% of attempts)
+### [[X-Guard Elevation Sweep]] (10% of attempts)
 
-### [[X-Guard Elevation Sweep]] (8% of attempts)
+### [[Heel Hook]] (3% of attempts)
+
+### [[Outside Ashi Entry]] (9% of attempts)
+
+### [[Transition to K-Guard]] (5% of attempts)
 
 
 
@@ -247,7 +251,7 @@ The position requires significant flexibility and conditioning. Your ability to 
 ## Decision Making from This Position
 
 **Opponent stands tall with wide base, attempting to disengage:**
-- Execute **[[Technical Standup]]** → [[Standing Guard]] (Probability: 65%)
+- Execute **[[Technical Standup from Inversion]]** → [[Standing Position]] (Probability: 65%)
 - Execute **[[Follow with Rolling Ankle Lock]]** → [[Straight Ankle Lock Control]] (Probability: 50%)
 
 
@@ -362,7 +366,7 @@ Partner initiates various pass attempts from standing. Your job is to recognize 
 **A**: Establish at least one hook behind the opponent's knee or control on their ankle before completing your inversion. This ensures you maintain connection and prevents them from simply walking away. The primary leg creates the anchor while the secondary leg is free to thread for entanglements or provide additional sweep leverage.
 
 **Q5**: Your opponent is standing tall with a wide base - how do you attack from this position?
-**A**: Their tall posture with wide base is defensive and hard to sweep directly. Options include: technical standup to standing guard position using their distance against them, following with rolling ankle lock entries as they attempt to disengage, or waiting for them to narrow their base or step forward before attacking. Patience is key - their defensive posture cannot threaten you.
+**A**: Their tall posture with wide base is defensive and hard to sweep directly. Options include using a technical standup from inversion to reach standing position, following with rolling ankle lock entries as they attempt to disengage, or waiting for them to narrow their base or step forward before attacking. Patience is key - their defensive posture cannot threaten you.
 
 **Q6**: How do you manage energy expenditure to avoid position collapse from exhaustion?
 **A**: Use grasshopper in 10-15 second bursts maximum. Enter with a specific attack path in mind and commit fully to that path. If the attack fails or is defended, immediately transition to a sustainable position like seated guard or De La Riva rather than trying to reset in grasshopper. Think of grasshopper as a transitional hunting position, not a place to hold and wait.

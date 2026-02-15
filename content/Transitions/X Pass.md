@@ -2,158 +2,25 @@
 
 
 
-
 ---
 title: "X Pass | BJJ Technique | BJJ Graph"
-description: "Learn the X Pass in BJJ. Comprehensive guide to executing this dynamic guard pass from half guard positions. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%."
+description: "Master the X Pass guard pass in BJJ. Step-by-step guide covering crossface pressure, angular movement, and leg clearing from half guard top positions."
 ---
 
 
-<body data-content-type="transitions">
-
-<!-- Schema Markup - Auto-generated from JSON -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Execute X Pass in BJJ",
-  "description": "Step-by-step guide for X Pass from Half Guard/Bottom. Possible outcomes: Side Control/Top (75%), Half Guard/Bottom (15%), Half Guard/Top (10%).",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Establish crossface control",
-      "text": "Drive your shoulder across opponent's face while threading your arm under their head, establishing a strong crossface. Your hand should reach toward their far shoulder or secure a grip on their far lat. This crossface serves to flatten their shoulders and eliminate their ability to frame effectively against your chest.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Apply chest pressure",
-      "text": "Drive your chest weight forward and down into opponent's sternum, using your crossface shoulder as the pressure point. Your weight should be distributed approximately 70% forward onto your crossface shoulder, 30% on your base leg. This pressure prevents them from turning into you or establishing an effective underhook.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Step outside leg wide",
-      "text": "Take a wide step with your outside leg (the leg not trapped in half guard), planting your foot approximately 18-24 inches away from opponent's hip at a 45-degree angle. This creates the angle necessary for the X-shaped body position and provides a stable base for driving pressure across their body.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Drive angle across body",
-      "text": "From your wide base, drive your chest and hips diagonally across opponent's torso, moving from their near shoulder toward their far hip. Your trapped leg should begin to straighten as you drive this angle, creating space to extract. Maintain constant forward pressure while shifting your weight to follow the diagonal line.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Clear trapped leg",
-      "text": "As your angle and pressure flatten the opponent, begin extracting your trapped leg by straightening it and driving your knee toward the mat. Use your free hand to assist in controlling their bottom knee, preventing them from following your leg or re-establishing guard. Your hip pressure should pin their bottom leg to the mat as you clear.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Transition to side control",
-      "text": "Complete the pass by fully extracting your leg and transitioning your chest pressure into standard side control position. Your crossface should remain engaged as you settle your hip weight onto opponent's torso. Secure standard side control grips (far armpit and near hip or pants) and consolidate position before advancing.",
-      "position": 6
-    }
-  ],
-  "tool": ["BJJ Gi or No-Gi attire", "Training partner", "Mat space"],
-  "totalTime": "PT5M"
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Why is stepping the outside leg wide at a 45-degree angle critical to the X Pass execution?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Stepping wide creates the angular pressure line that defines the X Pass and distinguishes it from linear pressure passing. The wide base allows you to drive your chest and hips diagonally across opponent's torso rather than straight forward. This angle makes it significantly harder for the opponent to frame effectively because their defensive frames would need to extend at awkward angles to meet your pressure. Additionally, the wide base provides stability for maintaining pressure while clearing your trapped leg."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the relationship between crossface control and successful leg clearing during the X Pass?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The crossface serves to flatten opponent's shoulders to the mat, which cascades into flattening their entire defensive structure. When their shoulders are flat, they cannot effectively turn into you, establish strong frames, or track your leg as you extract it. The crossface essentially immobilizes their upper body, which makes controlling their lower body and clearing your trapped leg significantly easier. Without proper crossface, the opponent can turn their shoulders and hips to follow your leg movement, preventing the pass."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How should you distribute your body weight during the X Pass and why?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Approximately 70% of your weight should be loaded onto your outside leg and crossface shoulder, with 30% on your base leg. This distribution maximizes pressure on the opponent while maintaining a stable base for angular movement. The heavy forward load onto the crossface creates the flattening pressure that collapses their defensive structure, while the strong outside base provides the platform for driving diagonal pressure across their body. Even weight distribution would reduce pressure effectiveness and compromise your ability to generate angle."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should you do if your opponent establishes a strong knee shield frame that prevents your forward pressure?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Address the knee shield by using your free hand to control their shin or foot, pinning it to your hip to prevent them from extending the frame. Simultaneously drive chest pressure down into the top of their knee rather than trying to pressure through it. As their frame weakens under this downward pressure, immediately step wide and drive your angle to collapse the shield completely. The key is attacking the knee shield's base (the foot) while applying pressure to its structure (the knee), rather than trying to overpower it with linear force."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why is it important to be patient with leg extraction and wait until the opponent is fully flattened?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Attempting to clear your trapped leg before the opponent is properly flattened allows them to track your leg movement with their knees and hips, re-establishing half guard or transitioning to other guard positions. When the opponent is fully flattened with effective crossface and pressure, their ability to move their lower body is severely compromised. Their flattened structure prevents them from generating the hip movement necessary to follow your leg. Rushing the leg clear before establishing positional dominance is one of the most common reasons the X Pass fails at high levels."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does the X Pass create a dilemma for the bottom player?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The X Pass creates a fundamental dilemma because the angular pressure forces the bottom player to choose between multiple defensive priorities simultaneously. They must choose between: maintaining their guard structure (keeping their knees together), defending the crossface (preventing their shoulders from being flattened), or framing against the hip pressure (stopping the passer's weight from settling). Defending one aspect typically weakens another. If they focus on the crossface, their guard structure weakens. If they maintain their guard, they cannot effectively frame. This multi-directional threat is what makes the X Pass highly effective against sophisticated guard players."
-      }
-    }
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "X Pass",
-  "description": "Learn the X Pass in BJJ. Comprehensive guide to executing this dynamic guard pass from half guard positions. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
-  "url": "https://bjjgraph.org/Transitions/X-Pass",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.org"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
-    {"@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/"},
-    {"@type": "ListItem", "position": 3, "name": "X Pass", "item": "https://bjjgraph.org/Transitions/X-Pass"}
-  ]
-}
-</script>
+<body data-content-type="transitions-hub">
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-The X Pass is a highly effective guard passing technique that combines pressure, angle creation, and strategic weight distribution to neutralize the bottom player's defensive structure. Originating from top half guard positions, this pass leverages crossface control and hip pressure to flatten the opponent while simultaneously clearing the legs. The technique's name derives from the cross-body angle created during execution, where the passer's torso forms an 'X' shape relative to the opponent's body. This pass is particularly effective against knee shield and standard half guard variations, as it attacks the fundamental defensive frames that bottom players rely upon. The X Pass exemplifies modern pressure passing principles by combining forward pressure with lateral movement, creating a dilemma where the opponent must choose between maintaining their guard structure or preventing the pass. When executed with proper timing and pressure application, the X Pass becomes a cornerstone technique for any guard passing system, seamlessly transitioning into dominant top positions.
+The X Pass is a highly effective guard passing technique that combines pressure, angle creation, and strategic weight distribution to neutralize the bottom player's defensive structure. Originating from top half guard positions, this pass leverages crossface control and hip pressure to flatten the opponent while simultaneously clearing the legs. The technique's name derives from the cross-body angle created during execution, where the passer's torso forms an 'X' shape relative to the opponent's body. This pass is particularly effective against knee shield and standard half guard variations, as it attacks the fundamental defensive frames that bottom players rely upon.
 
-**From Position**: [[Half Guard/Bottom]]
-**Success Rate**: 68%
+The X Pass exemplifies modern pressure passing principles by combining forward pressure with lateral movement, creating a dilemma where the opponent must choose between maintaining their guard structure or preventing the pass. The angular drive across the opponent's body is what separates this pass from linear pressure passes: rather than pushing straight through the guard, the passer drives diagonally from the opponent's near shoulder toward their far hip, collapsing defensive frames from an angle they were not designed to resist. When executed with proper timing and pressure application, the X Pass becomes a cornerstone technique for any guard passing system, seamlessly transitioning into dominant side control.
+
+**From Position**: [[Half Guard]] (Top)
+**Success Rate**: 65%
 
 </section>
 
@@ -163,183 +30,186 @@ The X Pass is a highly effective guard passing technique that combines pressure,
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control/Top]] | 75% |
-| Failure | [[Half Guard/Bottom]] | 15% |
-| Counter | [[Half Guard/Top]] | 10% |
+| Success | [[Side Control]] | 65% |
+| Failure | [[Half Guard]] | 20% |
+| Counter | [[Half Guard]] | 15% |
+
+
+</section>
+
+<section class="content-section">
+
+## Attacker vs Defender
+
+| &nbsp; | Attacker | Defender |
+|--------|----------|----------|
+| **Focus** | Execute technique | Prevent or counter |
+| **Key Principles** | Maintain constant forward pressure throughout the pass to pr... | Maintain active knee shield or frames to prevent the passer ... |
+| **Options** | 6 execution steps | 4 defensive options |
+
+</section>
+
+<section id="attacker-summary" class="content-section">
+
+## Playing as Attacker
+
+[[X Pass/Attacker|→ Full Attacker Guide]]
+
+### Key Principles
+
+
+- Maintain constant forward pressure throughout the pass to prevent opponent from recovering guard structure or establishing new frames
+
+- Establish strong crossface control to flatten opponent's shoulders and eliminate defensive frames before initiating the angular drive
+
+- Create angle by stepping outside leg wide while driving chest pressure diagonally across opponent's torso from near shoulder to far hip
+
+- Use hip pressure to pin opponent's bottom leg and prevent butterfly hook insertion or knee shield re-establishment
+
+- Clear legs only after opponent is fully flattened, never rush extraction against an active defensive structure
+
+- Transition weight smoothly from chest pressure to hip pressure as the pass completes into side control consolidation
+
+
+### Execution Steps
+
+
+- **Establish crossface control**: Drive your shoulder across opponent's face while threading your arm under their head, establishing a...
+
+- **Apply chest-to-chest pressure**: Drive your chest weight forward and down into opponent's sternum, using your crossface shoulder as t...
+
+- **Step outside leg wide to create angle**: Take a wide step with your outside leg (the free leg not trapped in half guard), planting your foot ...
+
+- **Drive diagonal pressure across body**: From your wide base, drive your chest and hips diagonally across opponent's torso, moving from their...
+
+- **Pin bottom leg and clear trapped leg**: As your angular pressure flattens the opponent, begin extracting your trapped leg by straightening i...
+
+- **Consolidate side control**: Complete the pass by fully extracting your leg and transitioning your chest pressure into standard s...
+
+
+### Common Mistakes
+
+
+- **Rising up too high during the pass and losing chest-to-chest pressure on opponent**
+  - Consequence: Opponent easily establishes defensive frames, recovers guard, or escapes to better positions. Loss of pressure eliminates the primary control mechanism that makes this pass work.
+  - Correction: Maintain low posture throughout with constant forward pressure. Your chest should never rise more than a few inches off opponent's torso. Drive weight forward continuously through the crossface shoulder.
+
+- **Failing to step outside leg wide enough, resulting in insufficient passing angle**
+  - Consequence: Pass becomes linear pressure without angle, making it easy for opponent to defend with frames and hip escapes. The X-shape is never created and the pass degenerates into a stalling grind.
+  - Correction: Consciously step your outside leg 18-24 inches away from opponent's body at a 45-degree angle. The wider base enables the diagonal pressure line that defines this pass and makes it effective.
+
+- **Attempting to clear trapped leg too early before opponent is properly flattened**
+  - Consequence: Opponent tracks your leg with their knees, re-establishing half guard or transitioning to deep half or other guard recoveries. The pass attempt is wasted.
+  - Correction: Be patient with leg extraction. First flatten opponent completely with crossface and chest pressure. Only clear your leg once their defensive structure is collapsed and they cannot track your movement.
+
+
+</section>
+
+<section id="defender-summary" class="content-section">
+
+## Playing as Defender
+
+[[X Pass/Defender|→ Full Defender Guide]]
+
+### Key Principles
+
+
+- Maintain active knee shield or frames to prevent the passer from establishing chest-to-chest pressure that initiates the X Pass sequence
+
+- Never allow your shoulders to be flattened to the mat; stay on your side facing the passer to preserve hip mobility and guard structure
+
+- Fight aggressively for the underhook on the trapped leg side as it is the single most important grip for preventing the crossface and creating offensive counters
+
+- Track the passer's free leg with your hips; when they step wide, follow their movement by hip escaping to maintain guard angle and prevent the diagonal drive
+
+- Recognize the X Pass setup early by feeling the crossface pressure increase and the passer's weight shifting to their outside leg, then act before the angle is established
+
+- Use multiple defensive layers (knee shield, underhook, hip movement) rather than relying on a single defensive structure that the angular pressure will collapse
+
+
+### Recognition Cues
+
+
+- Passer drives aggressive crossface pressure while simultaneously widening their base by stepping their free leg away from your body at an angle
+
+- Passer's chest pressure shifts from directly downward to a diagonal direction, moving from your near shoulder toward your far hip, indicating the angular drive
+
+- Passer's free hand reaches to control your bottom knee or shin, signaling they are preparing to pin your leg and begin the extraction sequence
+
+- You feel increasing difficulty maintaining your knee shield or frames as the passer's weight transitions from linear to angular pressure across your torso
+
+- Passer's hips begin driving forward and laterally simultaneously rather than straight down, creating the signature diagonal pressure line of the X Pass
+
+
+### Defensive Options
+
+
+- **Establish or recover strong knee shield by inserting shin across passer's torso and extending to create distance before the crossface is locked** - When: Early in the X Pass sequence before the passer has established deep crossface or driven their angle. Most effective when you can feel them beginning to settle weight but before the diagonal pressure line is committed.
+
+- **Fight for deep underhook on the trapped leg side, turn to your side, and use it to come up to dogfight position or threaten back take** - When: When you feel the passer beginning to drive crossface but before your shoulders are fully flattened. The underhook battle is the decisive exchange; winning it converts the X Pass attempt into your offensive opportunity.
+
+- **Hip escape to follow the passer's wide step, re-squaring your hips to face them and preventing the diagonal angle from materializing** - When: The moment you feel the passer step their free leg wide. This is the critical timing window between their step and their diagonal drive when their weight is in transition.
 
 
 </section>
 
 
-
-<section id="key-principles" class="content-section">
-
-## Key Principles
-- Maintain constant forward pressure throughout the pass to prevent opponent from recovering guard structure
-- Establish strong crossface control to flatten opponent's shoulders and eliminate defensive frames
-- Create angle by stepping outside leg wide while driving chest pressure across opponent's torso
-- Use hip pressure to pin opponent's bottom leg and prevent them from inserting butterfly hooks
-- Clear legs systematically by controlling the knee line and driving through any remaining frames
-- Transition weight smoothly from chest pressure to hip pressure as the pass completes
-
-
-</section>
-
-<section id="setup-requirements" class="content-section">
-
-## Prerequisites
-- Established top half guard position with one leg trapped between opponent's legs
-- Strong underhook or overhook control on the trapped side to prevent opponent from coming to their side
-- Opponent's defensive structure engaged (knee shield, lockdown, or standard half guard)
-- Crossface hand positioned to control opponent's head or neck
-- Base maintained on outside leg with proper weight distribution
-- Hip pressure applied to flatten opponent and prevent them from establishing strong frames
-
-
-</section>
-
-<section id="execution-steps" class="content-section">
-
-## Execution Steps
-1. **Establish crossface control**: Drive your shoulder across opponent's face while threading your arm under their head, establishing a strong crossface. Your hand should reach toward their far shoulder or secure a grip on their far lat. This crossface serves to flatten their shoulders and eliminate their ability to frame effectively against your chest.
-2. **Apply chest pressure**: Drive your chest weight forward and down into opponent's sternum, using your crossface shoulder as the pressure point. Your weight should be distributed approximately 70% forward onto your crossface shoulder, 30% on your base leg. This pressure prevents them from turning into you or establishing an effective underhook.
-3. **Step outside leg wide**: Take a wide step with your outside leg (the leg not trapped in half guard), planting your foot approximately 18-24 inches away from opponent's hip at a 45-degree angle. This creates the angle necessary for the X-shaped body position and provides a stable base for driving pressure across their body.
-4. **Drive angle across body**: From your wide base, drive your chest and hips diagonally across opponent's torso, moving from their near shoulder toward their far hip. Your trapped leg should begin to straighten as you drive this angle, creating space to extract. Maintain constant forward pressure while shifting your weight to follow the diagonal line.
-5. **Clear trapped leg**: As your angle and pressure flatten the opponent, begin extracting your trapped leg by straightening it and driving your knee toward the mat. Use your free hand to assist in controlling their bottom knee, preventing them from following your leg or re-establishing guard. Your hip pressure should pin their bottom leg to the mat as you clear.
-6. **Transition to side control**: Complete the pass by fully extracting your leg and transitioning your chest pressure into standard side control position. Your crossface should remain engaged as you settle your hip weight onto opponent's torso. Secure standard side control grips (far armpit and near hip or pants) and consolidate position before advancing.
-
-
-</section>
-
-<section id="common-counters" class="content-section">
-
-## Opponent Counters
-- **Opponent establishes strong knee shield frame and uses it to create space and prevent forward pressure** (Effectiveness: High) - Your Response: Address the knee shield by using your free hand to control their shin or foot, pinning it to your hip while simultaneously driving your chest pressure down into their knee. As their frame weakens, step wide and drive the angle to collapse the shield.
-- **Opponent secures deep underhook on trapped side and uses it to come to their side and recover guard** (Effectiveness: High) - Your Response: Prevent underhook access by maintaining tight connection with your elbow to your ribs. If underhook is established, immediately switch to over-under pass variation, using their underhook as a handle to drive them flat and complete the pass.
-- **Opponent establishes lockdown on trapped leg and prevents leg extraction** (Effectiveness: Medium) - Your Response: Address lockdown by posturing up slightly to create space, then driving your trapped knee to the mat while pulling your heel toward your glutes. This breaks the figure-four grip. Alternatively, transition to alternative passing attacks like the electric chair defense.
-- **Opponent frames against your hips with their hands and prevents you from driving forward pressure** (Effectiveness: Medium) - Your Response: Counter hip frames by using your crossface pressure to drive their shoulders flat, which naturally weakens their hip frames. Alternatively, pin one of their framing hands to their chest using your free hand, eliminating half of their defensive structure.
-- **Opponent rolls away from you as you attempt to pass, escaping to turtle or re-establishing guard** (Effectiveness: Low) - Your Response: Follow their roll by maintaining your crossface and driving forward momentum. As they roll away, transition to back take or establish front headlock control. Never allow space to develop during their escape attempt.
-
-
-</section>
-
-<section id="common-mistakes" class="content-section hide-minimal">
-
-## Common Mistakes
-- **Mistake**: Rising up too high during the pass and losing chest pressure on opponent
-  - **Consequence**: Opponent can easily establish defensive frames, re-guard, or escape to better positions. Loss of pressure eliminates your primary control mechanism.
-  - **Correction**: Maintain low posture throughout the pass with constant forward pressure. Your chest should never rise more than a few inches off opponent's torso. Drive weight forward continuously.
-- **Mistake**: Failing to step outside leg wide enough, resulting in insufficient angle
-  - **Consequence**: Pass becomes linear pressure without angle, making it easy for opponent to defend with frames and hip escapes. No X-shape is created.
-  - **Correction**: Consciously step your outside leg 18-24 inches away from opponent's body at a 45-degree angle. The wider base enables the diagonal pressure line that defines this pass.
-- **Mistake**: Attempting to clear trapped leg too early before opponent is properly flattened
-  - **Consequence**: Opponent maintains guard structure and can follow your leg with their knees, re-establishing half guard or converting to other guard positions.
-  - **Correction**: Be patient with leg extraction. First flatten opponent completely with crossface and chest pressure. Only clear your leg once their defensive structure is collapsed and they cannot track your movement.
-- **Mistake**: Neglecting crossface control or releasing it prematurely during the pass
-  - **Consequence**: Opponent can turn into you, establish underhooks, or create frames that stop your passing progression. Loss of head control equals loss of positional control.
-  - **Correction**: Maintain aggressive crossface throughout entire pass sequence. Your crossface shoulder should be the last thing to release as you settle into side control. Head control is non-negotiable.
-- **Mistake**: Distributing weight evenly between both legs instead of loading the outside leg
-  - **Consequence**: Insufficient pressure on opponent and poor base for driving angular movement. Pass becomes weak and easily defended.
-  - **Correction**: Commit approximately 70% of your weight onto your outside leg and crossface shoulder. This creates maximum pressure on opponent while providing stable base for angular drives.
-- **Mistake**: Trying to force the pass with upper body strength alone without using hip pressure
-  - **Consequence**: Pass becomes exhausting and inefficient. Opponent can maintain their guard structure through sheer defensive posture without being truly controlled.
-  - **Correction**: Integrate hip pressure with chest pressure. As you drive chest forward, simultaneously drive hips forward to pin opponent's bottom leg. Use your entire body mass, not just arm and shoulder strength.
-
-
-</section>
-
-<section id="training-progressions" class="content-section hide-minimal">
-
-## Training Progressions
-**Phase 1: Foundational Mechanics (Weeks 1-2)** - Crossface and pressure application fundamentals
-Begin with static drilling from top half guard position. Focus exclusively on establishing proper crossface, stepping to wide base, and applying chest pressure across opponent's torso. Partner remains stationary, allowing you to feel correct body positions and weight distribution. Perform 10 repetitions per side, holding final position for 5 seconds to internalize proper alignment.
-
-**Phase 2: Angular Movement (Weeks 3-4)** - Creating the X-angle and leg clearing mechanics
-Progress to drilling the complete pass sequence with emphasis on angular driving and leg extraction timing. Partner provides light resistance by maintaining guard structure but not actively defending. Practice stepping wide, driving diagonal pressure, and clearing trapped leg in smooth, continuous motion. Focus on maintaining pressure throughout entire sequence. Perform 15 repetitions per side.
-
-**Phase 3: Counter Response (Weeks 5-6)** - Addressing common defensive reactions
-Introduce specific defensive scenarios: knee shield frames, underhook attempts, and lockdown. Partner uses one defensive tactic at a time at 50% intensity. Practice appropriate responses to each counter: pinning knee shield, preventing underhooks, breaking lockdown. Cycle through 5 repetitions of each defensive scenario per side, gradually increasing resistance as success rate improves.
-
-**Phase 4: Live Integration (Weeks 7-8)** - Full resistance implementation and position consolidation
-Engage in positional sparring starting from top half guard with partner using full defensive arsenal. Practice completing X Pass against maximum resistance, troubleshooting problems as they arise. Emphasize position consolidation in side control after successful pass. 5-minute rounds, alternating positions with partner. Track success rate and identify specific defensive patterns that cause difficulty.
-
-**Phase 5: Chain Integration (Ongoing)** - Connecting X Pass to broader passing system
-Practice X Pass as part of passing combinations. Set up X Pass from knee cut attempts, use it as backup when leg drag is defended, chain into other passing options when opponents defend specific aspects. Focus on reading opponent's defensive choices and selecting appropriate passing technique. Free rolling with emphasis on guard passing sequences.
-
-
-
-</section>
-
-<section id="variants-and-adaptations" class="content-section hide-minimal">
+<section id="variants" class="content-section hide-minimal">
 
 ## Variations
-**Over-Under X Pass**: Variation that incorporates over-under grips instead of standard crossface. Your crossface arm threads under opponent's far leg while your other arm wraps over their near leg, creating an over-under control structure. Drive the same angular pressure but with leg control as primary mechanism instead of crossface. (When to use: When opponent establishes deep underhook that prevents traditional crossface, or when passing against flexible opponents who can effectively defend standard crossface pressure.)
-
-**Reverse X Pass**: Mirror image pass executed to the opposite side, where you step your trapped leg wide instead of your free leg, creating a reverse angle. Requires different pressure mechanics but achieves same end result. Your crossface drives toward their near hip instead of far hip. (When to use: When opponent's guard structure or grips make standard direction difficult, or when their defensive positioning naturally opens the reverse angle opportunity.)
-
-**X Pass to Knee on Belly**: High-level variation where instead of settling in side control, you continue your angular momentum to transition directly into knee on belly position. Requires excellent balance and timing but provides immediate dominant pressure position. (When to use: Against opponents who effectively defend side control consolidation or when competing under rulesets that reward dominant position advancement quickly.)
 
 
+**Over-Under X Pass**: Variation incorporating over-under grips instead of standard crossface. The crossface arm threads under opponent's far leg while the other arm wraps over their near leg, creating an over-under control structure. The same angular pressure is applied but with leg control as the primary mechanism instead of head control. (When to use: When opponent establishes deep underhook that prevents traditional crossface, or when passing against flexible opponents who effectively defend standard crossface pressure through shoulder mobility.)
 
-</section>
 
-<section id="knowledge-assessment" class="content-section">
+**Reverse X Pass**: Mirror image pass executed to the opposite side, where you step your trapped leg wide instead of your free leg, creating a reverse angle. Requires different pressure mechanics including driving toward the opponent's near hip instead of far hip, but achieves the same side control consolidation endpoint. (When to use: When opponent's guard structure or grips make the standard direction difficult, or when their defensive positioning naturally opens the reverse angle opportunity through their own movement.)
 
-## Test Your Knowledge
-**Q1**: Why is stepping the outside leg wide at a 45-degree angle critical to the X Pass execution?
-**A**: Stepping wide creates the angular pressure line that defines the X Pass and distinguishes it from linear pressure passing. The wide base allows you to drive your chest and hips diagonally across opponent's torso rather than straight forward. This angle makes it significantly harder for the opponent to frame effectively because their defensive frames would need to extend at awkward angles to meet your pressure. Additionally, the wide base provides stability for maintaining pressure while clearing your trapped leg.
 
-**Q2**: What is the relationship between crossface control and successful leg clearing during the X Pass?
-**A**: The crossface serves to flatten opponent's shoulders to the mat, which cascades into flattening their entire defensive structure. When their shoulders are flat, they cannot effectively turn into you, establish strong frames, or track your leg as you extract it. The crossface essentially immobilizes their upper body, which makes controlling their lower body and clearing your trapped leg significantly easier. Without proper crossface, the opponent can turn their shoulders and hips to follow your leg movement, preventing the pass.
-
-**Q3**: How should you distribute your body weight during the X Pass and why?
-**A**: Approximately 70% of your weight should be loaded onto your outside leg and crossface shoulder, with 30% on your base leg. This distribution maximizes pressure on the opponent while maintaining a stable base for angular movement. The heavy forward load onto the crossface creates the flattening pressure that collapses their defensive structure, while the strong outside base provides the platform for driving diagonal pressure across their body. Even weight distribution would reduce pressure effectiveness and compromise your ability to generate angle.
-
-**Q4**: What should you do if your opponent establishes a strong knee shield frame that prevents your forward pressure?
-**A**: Address the knee shield by using your free hand to control their shin or foot, pinning it to your hip to prevent them from extending the frame. Simultaneously drive chest pressure down into the top of their knee rather than trying to pressure through it. As their frame weakens under this downward pressure, immediately step wide and drive your angle to collapse the shield completely. The key is attacking the knee shield's base (the foot) while applying pressure to its structure (the knee), rather than trying to overpower it with linear force.
-
-**Q5**: Why is it important to be patient with leg extraction and wait until the opponent is fully flattened?
-**A**: Attempting to clear your trapped leg before the opponent is properly flattened allows them to track your leg movement with their knees and hips, re-establishing half guard or transitioning to other guard positions. When the opponent is fully flattened with effective crossface and pressure, their ability to move their lower body is severely compromised. Their flattened structure prevents them from generating the hip movement necessary to follow your leg. Rushing the leg clear before establishing positional dominance is one of the most common reasons the X Pass fails at high levels.
-
-**Q6**: How does the X Pass create a dilemma for the bottom player?
-**A**: The X Pass creates a fundamental dilemma because the angular pressure forces the bottom player to choose between multiple defensive priorities simultaneously. They must choose between: maintaining their guard structure (keeping their knees together), defending the crossface (preventing their shoulders from being flattened), or framing against the hip pressure (stopping the passer's weight from settling). Defending one aspect typically weakens another. If they focus on the crossface, their guard structure weakens. If they maintain their guard, they cannot effectively frame. This multi-directional threat is what makes the X Pass highly effective against sophisticated guard players.
+**X Pass to Knee on Belly**: Advanced variation where instead of settling into side control, you continue angular momentum to transition directly into knee on belly. Requires excellent balance and timing but provides immediate dominant pressure position with additional scoring points in competition. (When to use: Against opponents who effectively defend side control consolidation through aggressive framing, or when competing under rulesets that reward dominant position advancement quickly.)
 
 
 
 </section>
 
-<section id="safety-considerations" class="content-section">
 
-## Safety Considerations
-
-The X Pass is generally a safe passing technique when executed with proper control and awareness. The primary safety concern is maintaining control of your weight distribution to avoid dropping knee or elbow pressure onto opponent's ribs or floating ribs, which can cause injury. When driving crossface pressure, be mindful of neck positioning and avoid cranking the neck at extreme angles. Apply pressure gradually rather than explosively, especially when training with less experienced partners. If opponent signals discomfort or taps due to pressure (particularly rib or neck pressure), immediately release and adjust your positioning. During drilling phases, communicate with your partner about pressure levels and adjust according to their feedback. When clearing your trapped leg, avoid forcefully kicking or pushing off opponent's legs, which can hyperextend their knee or ankle joints.
-
-</section>
 
 <section id="position-integration" class="content-section">
 
 ## Position Integration
 
-The X Pass represents a cornerstone technique in modern pressure passing systems, serving as both a primary attack and a backup option when other passes are defended. It integrates seamlessly into systematic guard passing progressions, particularly excelling as a follow-up when knee cut passes or leg drag attempts are defended with strong frames or underhooks. The pass is particularly valuable in half guard top positions, where it provides a reliable pathway from challenging guard retention positions to dominant top control. Within a complete passing system, the X Pass chains effectively with smash passing variations, over-under passes, and knee through sequences, creating a pressure-based passing network that addresses multiple defensive scenarios. The technique also serves as an entry point for back takes when opponents attempt to escape by turning away, and naturally transitions to knee on belly or mount when opponents defend the side control consolidation. For no-gi grapplers, the X Pass becomes even more critical as it relies primarily on weight distribution and body positioning rather than gi grips, making it a universal technique across ruleset variations.
+The X Pass represents a cornerstone technique in modern pressure passing systems, serving as both a primary attack and a backup option when other passes are defended. It integrates seamlessly into systematic guard passing progressions, particularly excelling as a follow-up when knee cut passes or leg drag attempts are defended with strong frames or underhooks. Within a complete passing system, the X Pass chains effectively with smash passing variations, over-under passes, and knee slice sequences, creating a pressure-based passing network that addresses multiple defensive scenarios. The technique also serves as an entry point for back takes when opponents attempt to escape by turning away, and naturally transitions to knee on belly or mount when opponents defend the side control consolidation. For no-gi grapplers, the X Pass is especially critical as it relies primarily on weight distribution and body positioning rather than gi grips, making it a universal technique across all rulesets and competition formats.
 
 </section>
+
 
 <section id="related-content" class="content-section">
 
 ## Related Techniques
 
-- [[Knee Cut Pass]] - Alternative - Primary pressure pass option that can transition into X Pass when defended
-- [[Smash Pass]] - Complementary - Similar pressure principles with different leg clearing mechanics
-- [[Leg Drag Pass]] - Alternative - Different passing angle that can be chained with X Pass in passing sequences
-- [[Over-Under Pass]] - Complementary - Natural follow-up when opponent defends X Pass with underhooks
-- [[Knee Shield Half Guard]] - Counter - Primary defensive structure that X Pass is designed to defeat
-- [[Deep Half Guard]] - Counter - Position opponent may attempt when X Pass is initiated, requiring defensive awareness
-- [[Underhook Pass]] - Complementary - Alternative approach from similar positions with different control mechanisms
-- [[Long Step Pass]] - Alternative - Different passing method that can be chained with X Pass in passing systems
-- [[Side Control]] - Follow-up - Primary ending position requiring proper consolidation skills
-- [[Lockdown]] - Counter - Defensive structure that can trap X Pass attempts, requiring specific counters
-- [[Knee on Belly]] - Follow-up - Alternative ending position for high-level X Pass variations
-- [[Front Headlock Series]] - Follow-up - Backup option when opponent escapes X Pass by turning away
+
+- [[Knee Cut Pass]] - Alternative pressure pass that can transition into X Pass when defended with strong frames
+
+- [[Smash Pass]] - Complementary pressure pass with similar flattening principles but different leg clearing mechanics
+
+- [[Leg Drag Pass]] - Alternative passing angle that chains with X Pass in systematic passing sequences
+
+- [[Over-Under Pass]] - Natural follow-up when opponent defends X Pass by establishing deep underhooks
+
+- [[Knee Shield Half Guard]] - Primary defensive structure that X Pass is designed to defeat through angular pressure
+
+- [[Deep Half Guard]] - Position opponent may attempt when X Pass is initiated, requiring awareness to prevent entry
+
+- [[Underhook Pass]] - Alternative approach from similar half guard top positions with different control mechanisms
+
+- [[Long Step Pass]] - Different passing method that chains effectively with X Pass in passing systems
+
+- [[Side Control]] - Primary ending position requiring proper consolidation after completing the pass
+
+- [[Lockdown]] - Defensive leg entanglement that can trap X Pass attempts, requiring specific counters
+
+- [[Knee on Belly]] - Alternative ending position for advanced X Pass variations with continued momentum
+
+- [[Crossface Pass]] - Related pressure pass sharing the crossface control principle as primary control mechanism
 
 
 </section>

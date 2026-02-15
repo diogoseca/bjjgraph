@@ -21,37 +21,37 @@ description: "Master Half Butterfly Bottom position in BJJ. Hybrid guard combini
     {
       "@type": "HowToStep",
       "name": "Execute Basic Butterfly Sweep",
-      "text": "From this position, attempt Basic Butterfly Sweep. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Basic Butterfly Sweep. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 59% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hook Sweep",
-      "text": "From this position, attempt Hook Sweep. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Hook Sweep. This technique is attempted in 6% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take Generic",
-      "text": "From this position, attempt Back Take Generic. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Deep Half Entry",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Butterfly Guard to X-Guard",
+      "text": "From this position, attempt Butterfly Guard to X-Guard. This technique is attempted in 4% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,21 +209,31 @@ This position represents an evolution in half guard theory, popularized by pract
 
 ## Available Escapes
 
-### [[Basic Butterfly Sweep]] (13% of attempts)
+### [[Basic Butterfly Sweep]] (11% of attempts)
 
-### [[Old School Sweep]] (14% of attempts)
+### [[Old School Sweep]] (59% of attempts)
 
-### [[Hook Sweep]] (12% of attempts)
+### [[Hook Sweep]] (6% of attempts)
 
-### [[Underhook Sweep from Half]] (13% of attempts)
+### [[Underhook Sweep from Half]] (8% of attempts)
 
-### [[Back Take Generic]] (11% of attempts)
+### [[Deep Half Entry]] (8% of attempts)
 
-### [[Deep Half Entry]] (13% of attempts)
+### [[Butterfly Guard to X-Guard]] (4% of attempts)
 
-### [[Butterfly Guard to X-Guard]] (12% of attempts)
+### [[Elevator Sweep]] (1% of attempts)
 
-### [[Elevator Sweep]] (12% of attempts)
+### [[Kimura from Half Guard]] (2% of attempts)
+
+### [[Transition to Half Butterfly]] (0% of attempts)
+
+### [[Half Butterfly Sweep]] (0% of attempts)
+
+### [[Half Butterfly to Dogfight]] (0% of attempts)
+
+### [[Reguard from Half Butterfly]] (0% of attempts)
+
+### [[Rolling Back Take from Half Butterfly]] (1% of attempts)
 
 
 
@@ -240,7 +250,7 @@ This position represents an evolution in half guard theory, popularized by pract
 
 **Else if opponent drives forward with heavy chest pressure attempting to flatten you:**
 - Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 65%)
-- Execute **[[Granby Roll]]** → [[Closed Guard]] (Probability: 50%)
+- Execute **[[Granby to Closed Guard]]** → [[Closed Guard]] (Probability: 50%)
 
 
 **Else if opponent attempts to extract trapped leg and establish passing pressure:**
@@ -249,7 +259,7 @@ This position represents an evolution in half guard theory, popularized by pract
 
 
 **Else if opponent's weight shifts to free-leg side defending butterfly hook:**
-- Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 45%)
+- Execute **[[Back Take from Bottom]]** → [[Back Control]] (Probability: 45%)
 - Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 40%)
 
 

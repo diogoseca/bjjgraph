@@ -99,17 +99,23 @@ Understanding the front headlock requires recognizing its role as a transitional
 ### Available Transitions
 
 
-- **[[Technical Standup]]** (19% of attempts)
+- **[[Technical Stand-up]]** (19% of attempts)
 
-- **[[Granby Roll]]** (17% of attempts)
+- **[[Granby Roll to Guard]]** (11% of attempts)
 
-- **[[Turtle to Guard]]** (21% of attempts)
+- **[[Turtle to Guard]]** (13% of attempts)
 
-- **[[Stand and Circle Away]]** (16% of attempts)
+- **[[Stand and Circle Away]]** (15% of attempts)
 
-- **[[Roll Through to Reversal]]** (14% of attempts)
+- **[[Roll Through to Reversal]]** (13% of attempts)
 
-- **[[Arm Drag Escape]]** (13% of attempts)
+- **[[Arm Drag Escape]]** (9% of attempts)
+
+- **[[Guillotine Defense]]** (9% of attempts)
+
+- **[[Sit Through to Guard]]** (7% of attempts)
+
+- **[[Hip Escape from Front Headlock]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -170,29 +176,29 @@ Understanding the front headlock requires recognizing its role as a transitional
 ### Available Transitions
 
 
-- **[[Guillotine Setup]]** (9% of attempts)
+- **[[Guillotine Setup]]** (14% of attempts)
 
-- **[[Anaconda Setup]]** (9% of attempts)
+- **[[Anaconda Setup]]** (13% of attempts)
 
-- **[[Darce Setup]]** (9% of attempts)
+- **[[Darce Setup]]** (13% of attempts)
 
-- **[[Front Headlock to Back]]** (9% of attempts)
+- **[[Front Headlock to Back]]** (15% of attempts)
 
-- **[[Side Control to Mount]]** (8% of attempts)
+- **[[Arm Triangle from Front Headlock]]** (6% of attempts)
 
-- **[[Buggy Choke to Side Control]]** (9% of attempts)
+- **[[Japanese Necktie Setup]]** (7% of attempts)
 
-- **[[Aoki Lock to Crucifix]]** (7% of attempts)
+- **[[Peruvian Necktie Setup]]** (7% of attempts)
 
-- **[[Front Headlock Series Transition]]** (8% of attempts)
+- **[[Step Over to Mount]]** (5% of attempts)
 
-- **[[Arm Triangle from Front Headlock]]** (8% of attempts)
+- **[[Turtle Flatten to Side Control]]** (7% of attempts)
 
-- **[[Guillotine Defense]]** (8% of attempts)
+- **[[Snap Down to Front Headlock]]** (5% of attempts)
 
-- **[[Japanese Necktie Setup]]** (8% of attempts)
+- **[[Crucifix from Turtle]]** (4% of attempts)
 
-- **[[Peruvian Necktie Setup]]** (8% of attempts)
+- **[[Kimura]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -246,8 +252,6 @@ Understanding the front headlock requires recognizing its role as a transitional
 - **[[Back Control]]** - High-value advancement - front headlock transitions to back when opponent tries escaping forward or to side
 
 - **[[Side Control]]** - Alternative advancement - can flatten opponent from front headlock into side control pinning position
-
-- **[[Standing Rear Clinch]]** - Standing variation - front headlock from standing position leads to standing guillotine or back take
 
 - **[[Crucifix]]** - Alternative control - if opponent rolls through front headlock escape, can catch crucifix position
 

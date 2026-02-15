@@ -119,7 +119,7 @@
         "condition": "If opponent turns to side to escape triangle pressure",
         "actions": [
           {
-            "technique": "Back Take Generic",
+            "technique": "Back Take",
             "target": "Back Control",
             "probability": 65
           },
@@ -134,12 +134,12 @@
         "condition": "If opponent bridges explosively or creates significant space",
         "actions": [
           {
-            "technique": "Side Control to Mount",
+            "technique": "Consolidate Mount",
             "target": "High Mount",
             "probability": 75
           },
           {
-            "technique": "S Mount Transition",
+            "technique": "S-Mount Transition",
             "target": "S Mount",
             "probability": 65
           }
@@ -285,43 +285,51 @@
     "transitions": [
       {
         "transition": "Triangle Choke",
-        "attempt_probability": 11
+        "attempt_probability": 24
       },
       {
         "transition": "Armbar Finish",
-        "attempt_probability": 11
+        "attempt_probability": 9
       },
       {
         "transition": "Switch to Triangle",
-        "attempt_probability": 10
+        "attempt_probability": 8
       },
       {
-        "transition": "Back Take Generic",
-        "attempt_probability": 10
+        "transition": "Back Take",
+        "attempt_probability": 8
       },
       {
-        "transition": "Side Control to Mount",
-        "attempt_probability": 11
+        "transition": "Consolidate Mount",
+        "attempt_probability": 9
       },
       {
         "transition": "Gift Wrap",
-        "attempt_probability": 8
+        "attempt_probability": 6
       },
       {
         "transition": "Kimura to Back Take",
-        "attempt_probability": 8
+        "attempt_probability": 6
       },
       {
-        "transition": "S Mount Transition",
-        "attempt_probability": 11
+        "transition": "S-Mount Transition",
+        "attempt_probability": 9
       },
       {
         "transition": "Triangle to Armbar",
-        "attempt_probability": 11
+        "attempt_probability": 9
       },
       {
         "transition": "Triangle to Back",
-        "attempt_probability": 9
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Mounted Triangle Squeeze",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Mounted Triangle to S Mount",
+        "attempt_probability": 2
       }
     ],
     "knowledge_assessment": [
@@ -371,7 +379,7 @@
     ],
     "overview": "Mounted Triangle Bottom represents one of the most precarious defensive positions in Brazilian Jiu-Jitsu, combining the positional disadvantage of being mounted with the immediate submission threat of triangle mechanics. The bottom player faces simultaneous challenges: preventing triangle finish, avoiding armbar transitions, and regaining guard or escaping mount entirely.\n\nThe defensive framework begins with understanding the triangle mechanics from this inverted perspective. The opponent's leg configuration creates neck and shoulder compression while maintaining weight distribution advantage. Unlike defending triangles from guard, the bottom player cannot simply posture up or stack - they're fighting against gravity and the opponent's mount leverage.\n\nCritical defensive priorities include: protecting the trapped arm from full extension (armbar threat), maintaining chin tuck to prevent choking pressure, creating frames with the free arm to generate space, and identifying the opponent's base vulnerabilities for explosive escape attempts. The position demands calm technical execution under extreme pressure - panic leads to energy depletion and submission.\n\nEscape pathways generally involve either explosive bridging to disrupt the triangle configuration, systematic dismantling of the triangle structure through proper sequencing, or opportunistic transitions when the opponent commits too heavily to the submission. Advanced defenders recognize that mounted triangle, while dangerous, creates instability in the attacker's position - careful timing can convert defensive crisis into counter-attacking opportunity through sweep or reversal mechanics.",
     "state_properties": {
-      "point_value": 0,
+      "point_value": -4,
       "position_type": "Defensive",
       "risk_level": "High",
       "energy_cost": "High",
@@ -406,7 +414,7 @@
             "probability": 40
           },
           {
-            "technique": "Hip Escape",
+            "technique": "Hip Escape to Guard",
             "target": "Half Guard",
             "probability": 35
           }
@@ -421,7 +429,7 @@
             "probability": 30
           },
           {
-            "technique": "Granby Roll",
+            "technique": "Granby Roll to Guard",
             "target": "Turtle",
             "probability": 25
           }
@@ -436,7 +444,7 @@
             "probability": 35
           },
           {
-            "technique": "Elbow Escape",
+            "technique": "Elbow Escape to Guard",
             "target": "Half Guard",
             "probability": 30
           }
@@ -446,12 +454,12 @@
         "condition": "If opponent maintains stable mounted triangle with moderate pressure",
         "actions": [
           {
-            "technique": "Frame and Shrimp",
+            "technique": "Frame and Shrimp to Guard",
             "target": "Open Guard",
             "probability": 35
           },
           {
-            "technique": "Hip Escape",
+            "technique": "Hip Escape to Guard",
             "target": "Open Guard",
             "probability": 30
           }
@@ -534,7 +542,7 @@
         "relationship": "Primary explosive escape technique for disrupting mounted triangle structure"
       },
       {
-        "name": "Hip Escape",
+        "name": "Hip Escape to Guard",
         "relationship": "Fundamental movement pattern for creating space and escaping mounted triangle"
       },
       {
@@ -563,32 +571,40 @@
         "attempt_probability": 12
       },
       {
-        "transition": "Elbow Escape",
-        "attempt_probability": 18
+        "transition": "Elbow Escape to Guard",
+        "attempt_probability": 27
       },
       {
-        "transition": "Granby Roll",
-        "attempt_probability": 10
+        "transition": "Granby Roll to Guard",
+        "attempt_probability": 6
       },
       {
-        "transition": "Hip Escape",
-        "attempt_probability": 15
+        "transition": "Hip Escape to Guard",
+        "attempt_probability": 14
       },
       {
         "transition": "Upa Escape",
-        "attempt_probability": 12
+        "attempt_probability": 10
       },
       {
-        "transition": "Frame and Shrimp",
-        "attempt_probability": 16
+        "transition": "Frame and Shrimp to Guard",
+        "attempt_probability": 13
       },
       {
-        "transition": "Technical Stand Up",
-        "attempt_probability": 8
+        "transition": "Shrimp Escape",
+        "attempt_probability": 6
       },
       {
         "transition": "Arm Extraction",
-        "attempt_probability": 9
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Bridge Defense from Mounted Triangle",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Frame and Escape Mounted Triangle",
+        "attempt_probability": 2
       }
     ],
     "knowledge_assessment": [

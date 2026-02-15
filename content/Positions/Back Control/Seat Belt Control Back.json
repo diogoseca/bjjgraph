@@ -3,7 +3,7 @@
   "slug": "seat-belt-control-back",
   "description": "Master Seat Belt Control from Back position in BJJ. Dominant 4-point configuration with 75% retention rate covering grips, hooks, and submission chains from both perspectives.",
   "variant_uniqueness": "Diagonal over-under grip prevents rotation",
-  "overview": "Seat Belt Control Back represents the gold standard configuration for back control, characterized by a diagonal over-under grip across opponent's chest and back combined with both legs hooked inside opponent's thighs. This position scores 4 points in IBJJF competition and offers the highest submission success rates in Brazilian Jiu-Jitsu, particularly for the rear naked choke and various armbar attacks. The seat belt grip configuration creates a powerful control structure that prevents opponent's rotation while enabling smooth transitions between multiple submission threats.\n\nThe position's strategic value derives from the combination of grip control, hook placement, and body positioning that severely limits opponent's defensive options while maximizing attacker's offensive opportunities. Unlike other back control configurations, the seat belt specifically uses one arm over opponent's shoulder and the other under their armpit, creating diagonal pressure across their body that is extremely difficult to break. This control framework enables the practitioner to maintain dominant position for extended periods while systematically attacking submissions.\n\nFrom both perspectives, this position demands technical precision and strategic awareness. The top player must maintain constant pressure and grip security while creating submission opportunities through defensive reactions. The bottom player faces one of the most dangerous positions in grappling, requiring calm defensive protocols, systematic grip breaking, and intelligent escape sequences. Understanding both perspectives provides complete mastery of this fundamental back control configuration.",
+  "overview": "Seat Belt Control Back represents the gold standard configuration for back control, characterized by a diagonal over-under grip across opponent's chest and back combined with both legs hooked inside opponent's thighs. This position scores 4 points in IBJJF competition and offers the highest submission success rates in Brazilian Jiu-Jitsu, particularly for the rear naked choke and various armbar attacks. The seat belt grip configuration creates a powerful control structure that prevents opponent's rotation while enabling smooth transitions between multiple submission threats.\n\nThe position's strategic value derives from the combination of grip control, hook placement, and body positioning that severely limits opponent's defensive options while maximizing attacker's offensive opportunities. Unlike other back control configurations, the seat belt specifically uses one arm over opponent's shoulder and the other under their armpit, creating diagonal pressure across their body that is extremely difficult to break. This control framework enables the practitioner to maintain dominant position for extended periods while systematically attacking submissions.\n\nFrom both perspectives, this position demands technical precision and strategic awareness. The top player must maintain constant pressure and grip security while creating submission opportunities through defensive reactions. The bottom player faces one of the most dangerous positions in grappling, requiring calm defensive protocols, systematic grip breaking, and intelligent escape sequences. Understanding both perspectives provides complete mastery of this fundamental back control configuration.\n\nThe seat belt grip itself functions as a force multiplier. The over-arm creates downward diagonal pressure while the under-arm creates upward diagonal pressure, and these opposing vectors lock opponent's torso in place far more effectively than parallel grips would. This biomechanical reality explains why the seat belt has become universal across all competition formats. Breaking this grip requires addressing each arm independently, which creates the fundamental timing dilemma for the bottom player: releasing neck defense to fight grips exposes the throat, while ignoring grips allows the top player to maintain indefinite control and systematically work toward finishes.",
   "key_principles": [
     "Diagonal grip dominance creates biomechanically superior control through opposing force vectors",
     "Hook depth and security prevent hip movement and establish stable base for attacks",
@@ -39,16 +39,16 @@
       "relationship": "Alternative upper body control configuration from back position"
     },
     {
-      "name": "Standing Back Control",
-      "relationship": "Standing variation of seat belt configuration with different tactical considerations"
-    },
-    {
       "name": "Technical Mount",
       "relationship": "Position accessed when opponent partially escapes hooks but back control maintained"
     },
     {
       "name": "Truck",
       "relationship": "Advanced leg entanglement position accessed when opponent turns away defensively"
+    },
+    {
+      "name": "Harness",
+      "relationship": "Related upper body control concept sharing grip mechanics with seat belt configuration"
     }
   ],
   "top": {
@@ -101,12 +101,12 @@
         "actions": [
           {
             "technique": "Rear Naked Choke",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 65
           },
           {
             "technique": "Short Choke",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 45
           }
         ]
@@ -115,13 +115,13 @@
         "condition": "If opponent tucks chin and defends neck with hands protecting throat area",
         "actions": [
           {
-            "technique": "Armbar from Back with Legs",
-            "target": "game-over",
+            "technique": "Armbar from Back Transition",
+            "target": "Armbar Control",
             "probability": 55
           },
           {
-            "technique": "Armbar from Back",
-            "target": "game-over",
+            "technique": "Armbar Finish",
+            "target": "Game Over",
             "probability": 50
           }
         ]
@@ -151,7 +151,7 @@
           },
           {
             "technique": "Kimura from Back",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 40
           }
         ]
@@ -161,11 +161,11 @@
         "actions": [
           {
             "technique": "Bow and Arrow Choke",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 55
           },
           {
-            "technique": "Turtle to Truck",
+            "technique": "Roll to Truck",
             "target": "Truck",
             "probability": 50
           }
@@ -270,12 +270,12 @@
         "relationship": "Alternative advancement - Position accessed when opponent partially escapes hooks"
       },
       {
-        "name": "Standing Back Control",
-        "relationship": "Variation - Seat belt configuration applied in standing position"
+        "name": "Harness",
+        "relationship": "Related grip concept - Shares upper body control mechanics with seat belt configuration"
       },
       {
-        "name": "Twister Control",
-        "relationship": "Related submission position - Advanced control accessed from back positions"
+        "name": "Rear Naked Choke",
+        "relationship": "Primary submission threat - Highest percentage finish from seat belt back control"
       }
     ],
     "position_metrics": {
@@ -296,39 +296,55 @@
     "transitions": [
       {
         "transition": "Rear Naked Choke",
-        "attempt_probability": 22
+        "attempt_probability": 38
       },
       {
-        "transition": "Armbar from Back with Legs",
+        "transition": "Armbar from Back Transition",
         "attempt_probability": 10
-      },
-      {
-        "transition": "Armbar from Back",
-        "attempt_probability": 8
       },
       {
         "transition": "Bow and Arrow Choke",
-        "attempt_probability": 10
+        "attempt_probability": 6
       },
       {
         "transition": "Back Control to Crucifix",
-        "attempt_probability": 8
-      },
-      {
-        "transition": "Triangle from Back",
-        "attempt_probability": 7
+        "attempt_probability": 6
       },
       {
         "transition": "Short Choke",
-        "attempt_probability": 7
+        "attempt_probability": 5
       },
       {
         "transition": "Back Control Maintenance",
-        "attempt_probability": 20
+        "attempt_probability": 13
       },
       {
         "transition": "Body Triangle Lock",
-        "attempt_probability": 8
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Kimura from Back",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Triangle from Back",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Roll to Truck",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Gift Wrap",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Seat Belt to Body Triangle",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Seat Belt to Full Back Control",
+        "attempt_probability": 1
       }
     ],
     "knowledge_assessment": [
@@ -381,18 +397,18 @@
     ],
     "overview": "Seat Belt Control Back Bottom represents the defensive perspective when an opponent has established the fundamental back control grip configuration known as the seat belt or harness. This position occurs when the opponent has wrapped one arm over your shoulder and the other under your armpit, with hands clasped together across your chest. The bottom player faces significant danger as this grip structure provides the top player with excellent control for maintaining back position and attacking with rear naked chokes and other submissions.\n\nFrom the bottom perspective, survival and escape require systematic defensive protocols. The primary objectives are protecting the neck from choke attacks, creating space to disrupt the opponent's control structure, and working toward position recovery. This position demands calm, methodical defense as panicked reactions typically lead to submission. Understanding proper hand fighting, hip movement, and strategic positioning is essential for surviving and eventually escaping back control.\n\nThe seat belt grip itself creates a powerful control mechanism that must be systematically dismantled. Bottom players must focus on grip breaking strategies, creating angles to reduce the opponent's leverage, and maintaining defensive frames that protect vulnerable areas. Success in this position correlates directly with technical knowledge, remaining composed under pressure, and executing escape sequences with proper timing and precision.",
     "state_properties": {
-      "point_value": 0,
+      "point_value": -4,
       "position_type": "Defensive",
       "risk_level": "High",
       "energy_cost": "Medium",
       "time_sustainability": "Short to Medium"
     },
     "state_invariants": [
-      "Opponent positioned behind you with chest against your back, establishing deep back control with weight distribution through their hips and torso creating constant forward pressure that limits your mobility",
-      "One opponent arm wrapped over your shoulder (typically your non-dominant side) while the other threads under your opposite armpit, creating the characteristic seat belt or harness grip configuration with diagonal force distribution",
-      "Opponent's hands clasped together across your chest or upper torso, forming a tight control loop that restricts your upper body movement and creates leverage for choking attacks and positional control",
-      "Your body positioned with opponent behind, facing away from them with limited ability to see their movements, creating tactical disadvantage requiring defensive awareness through feel and anticipation",
-      "Opponent typically has one or both hooks inserted (feet inside your thighs) or is working to establish hooks, though seat belt control can exist without hooks in transitional moments where grip control compensates"
+      "Opponent positioned behind you with chest against your back, establishing deep back control with weight distribution through their hips and torso creating constant forward pressure that limits your mobility and prevents you from turning to face them",
+      "One opponent arm wrapped over your shoulder (typically your non-dominant side) while the other threads under your opposite armpit, creating the characteristic seat belt or harness grip configuration with diagonal force distribution across your entire torso",
+      "Opponent's hands clasped together across your chest or upper torso, forming a tight control loop that restricts your upper body movement and creates leverage for choking attacks and positional adjustments against your defensive frames",
+      "Your body positioned with opponent behind, facing away from them with limited ability to see their movements, creating tactical disadvantage requiring defensive awareness through feel and anticipation of their weight shifts and grip changes",
+      "Opponent typically has one or both hooks inserted inside your thighs or is working to establish hooks, though seat belt control can exist without hooks in transitional moments where their grip control temporarily compensates for missing leg control"
     ],
     "prerequisites": [
       "Opponent has successfully taken your back from turtle, guard, or scramble position",
@@ -407,21 +423,21 @@
       "Create space through hip movement - use hip escapes and shrimping to generate distance between your back and opponent's chest",
       "Stay calm and methodical - panicked movements waste energy and create submission opportunities for skilled opponents",
       "Work toward side position - turning to face opponent converts back control into more manageable positions like turtle or half guard",
-      "Prevent hooks from being established or maintained if already in - control opponent's legs to limit their base and mobility",
+      "Prevent hooks from being established or maintained - control opponent's legs to limit their base and mobility",
       "Use strategic gripping - control opponent's wrists, sleeves, or hands to limit their ability to complete choke attacks"
     ],
     "decision_tree": [
       {
-        "condition": "If opponent has seat belt grip but no hooks established",
+        "condition": "If opponent has seat belt grip but no hooks established yet",
         "actions": [
           {
-            "technique": "Hip Escape",
+            "technique": "Hip Escape to Turtle",
             "target": "Turtle",
             "probability": 50
           },
           {
-            "technique": "Technical Standup",
-            "target": "Standing Position",
+            "technique": "Standing up in Base",
+            "target": "Clinch",
             "probability": 30
           }
         ]
@@ -430,44 +446,44 @@
         "condition": "If opponent has both hooks and seat belt with choking hand near neck",
         "actions": [
           {
-            "technique": "Hand Fighting",
+            "technique": "Hand Fighting from Back",
             "target": "Seat Belt Control Back",
             "probability": 60
           },
           {
-            "technique": "Chin Tuck Defense",
-            "target": "Seat Belt Control Back",
-            "probability": 70
+            "technique": "Elbow Escape to Remove Hooks",
+            "target": "Turtle",
+            "probability": 40
           }
         ]
       },
       {
-        "condition": "If opponent's over-shoulder grip is loose or broken",
+        "condition": "If opponent's over-shoulder grip is loose or broken temporarily",
         "actions": [
           {
-            "technique": "Elbow Escape",
+            "technique": "Back Door Escape",
             "target": "Turtle",
             "probability": 55
           },
           {
-            "technique": "Rolling Escape",
+            "technique": "Granby Roll to Guard",
             "target": "Closed Guard",
             "probability": 40
           }
         ]
       },
       {
-        "condition": "If opponent is high on your back with weight forward",
+        "condition": "If opponent is high on your back with weight forward and hooks shallow",
         "actions": [
           {
-            "technique": "Back Escape Series",
+            "technique": "Hip Escape to Turtle",
             "target": "Turtle",
             "probability": 45
           },
           {
-            "technique": "Hip Escape",
-            "target": "Turtle",
-            "probability": 50
+            "technique": "Elbow Escape to Remove Hooks",
+            "target": "Half Guard",
+            "probability": 40
           }
         ]
       }
@@ -529,35 +545,35 @@
     "related_content": [
       {
         "name": "Back Control",
-        "relationship": "Related defensive position with hooks established"
+        "relationship": "Parent position - seat belt back bottom is a specific configuration within back control defense"
       },
       {
         "name": "Turtle",
-        "relationship": "Primary escape target position"
+        "relationship": "Primary escape target position when successfully breaking free from back control"
       },
       {
         "name": "Half Guard",
-        "relationship": "Transitional defensive state during escape attempts"
+        "relationship": "Transitional defensive state during escape attempts when partially recovering guard"
       },
       {
         "name": "Rear Naked Choke",
-        "relationship": "Primary submission threat from this position"
+        "relationship": "Primary submission threat from this position requiring constant defensive awareness"
       },
       {
-        "name": "Hand Fighting",
-        "relationship": "Essential defensive concept for this position"
+        "name": "Hand Fighting from Back",
+        "relationship": "Essential defensive transition for grip management from bottom back control"
       },
       {
-        "name": "Back Escape Series",
-        "relationship": "Systematic escape methodology"
-      },
-      {
-        "name": "Elbow Escape",
-        "relationship": "Critical escape technique from back control"
+        "name": "Elbow Escape to Remove Hooks",
+        "relationship": "Critical escape technique for removing hooks and beginning escape sequence"
       },
       {
         "name": "Closed Guard",
-        "relationship": "Alternative escape target position"
+        "relationship": "Alternative escape target position when rolling through to face opponent"
+      },
+      {
+        "name": "Back Door Escape",
+        "relationship": "Key escape transition when opponent's grip is compromised"
       }
     ],
     "position_metrics": {
@@ -577,24 +593,40 @@
     },
     "transitions": [
       {
-        "transition": "Back Escape Series",
-        "attempt_probability": 18
+        "transition": "Hand Fighting from Back",
+        "attempt_probability": 38
       },
       {
-        "transition": "Hand Fighting",
-        "attempt_probability": 34
+        "transition": "Back Door Escape",
+        "attempt_probability": 13
       },
       {
-        "transition": "Granby Roll Escape",
-        "attempt_probability": 14
+        "transition": "Granby Roll to Guard",
+        "attempt_probability": 3
       },
       {
         "transition": "Elbow Escape to Remove Hooks",
+        "attempt_probability": 20
+      },
+      {
+        "transition": "Hip Escape to Turtle",
         "attempt_probability": 16
       },
       {
-        "transition": "Hand Fighting from Back",
-        "attempt_probability": 18
+        "transition": "Standing up in Base",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Turn In and Face",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Escape Seat Belt Control",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Hand Fight from Seat Belt Control",
+        "attempt_probability": 1
       }
     ],
     "knowledge_assessment": [
@@ -615,7 +647,7 @@
         "answer": "Priority order: 1) Protect neck from immediate submission threat, 2) Control opponent's choking hand to prevent RNC setup, 3) Address the bottom hook first by bringing your knee up and using hip movement to slide your hip to the mat on that side, 4) Once hips are to mat with bottom hook cleared, work to face opponent and recover guard. The bottom hook must be addressed first because it prevents you from sliding your hips to the mat - without that foundation movement, no escape is possible."
       },
       {
-        "question": "Opponent is applying heavy chest pressure - how do you create space to initiate escape?",
+        "question": "Opponent is applying heavy chest pressure making it hard to breathe - how do you create space to initiate escape?",
         "answer": "Use explosive bridge-and-shrimp combinations to create momentary space. Bridge your hips up forcefully while simultaneously turning your shoulders toward the direction you want to escape. As your hips come down, immediately shrimp away from opponent, creating 4-6 inches of separation. Time your escapes when opponent shifts weight for attacks - their commitment to submissions creates windows where their control is momentarily weaker."
       },
       {

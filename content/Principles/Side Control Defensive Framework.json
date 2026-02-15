@@ -66,7 +66,7 @@
     {
       "principle_name": "Escape Hierarchy",
       "relationship_type": "Prerequisite",
-      "description": "Understanding systematic escape prioritization (survival → space → position recovery) provides foundation for framework application. Side Control Defensive Framework implements escape hierarchy specifically for side control scenarios."
+      "description": "Understanding systematic escape prioritization (survival \u2192 space \u2192 position recovery) provides foundation for framework application. Side Control Defensive Framework implements escape hierarchy specifically for side control scenarios."
     },
     {
       "principle_name": "Frame Management",
@@ -336,7 +336,7 @@
       "relationship": "Primary movement pattern for executing escapes from side control"
     },
     {
-      "name": "Elbow Escape",
+      "name": "Elbow Escape to Guard",
       "content_type": "Transition",
       "relationship": "Fundamental escape technique implementing framework principles"
     },

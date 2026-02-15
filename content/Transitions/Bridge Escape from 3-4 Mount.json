@@ -1,0 +1,13 @@
+{
+  "name": "Bridge Escape from 3-4 Mount",
+  "description": "",
+  "tags": [],
+  "from_position": "3-4 Mount/Bottom",
+  "outcomes": [
+    {
+      "to": "Closed Guard/Top",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

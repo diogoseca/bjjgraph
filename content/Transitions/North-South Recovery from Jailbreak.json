@@ -1,0 +1,13 @@
+{
+  "name": "North-South Recovery from Jailbreak",
+  "description": "",
+  "tags": [],
+  "from_position": "Jailbreak/Top",
+  "outcomes": [
+    {
+      "to": "North-South/Top",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

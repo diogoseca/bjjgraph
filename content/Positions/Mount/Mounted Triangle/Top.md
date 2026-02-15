@@ -38,14 +38,14 @@ description: "Master mounted triangle attacks from top position. High-percentage
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take Generic",
-      "text": "From this position, attempt Back Take Generic. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Back Take",
+      "text": "From this position, attempt Back Take. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Consolidate Mount",
+      "text": "From this position, attempt Consolidate Mount. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
@@ -216,15 +216,15 @@ The mounted triangle exemplifies modern BJJ's evolution toward dynamic, submissi
 
 ### [[Switch to Triangle]] (10% of attempts)
 
-### [[Back Take Generic]] (10% of attempts)
+### [[Back Take]] (10% of attempts)
 
-### [[Side Control to Mount]] (11% of attempts)
+### [[Consolidate Mount]] (11% of attempts)
 
 ### [[Gift Wrap]] (8% of attempts)
 
 ### [[Kimura to Back Take]] (8% of attempts)
 
-### [[S Mount Transition]] (11% of attempts)
+### [[S-Mount Transition]] (11% of attempts)
 
 ### [[Triangle to Armbar]] (11% of attempts)
 
@@ -249,13 +249,13 @@ The mounted triangle exemplifies modern BJJ's evolution toward dynamic, submissi
 
 
 **If opponent turns to side to escape triangle pressure:**
-- Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 65%)
+- Execute **[[Back Take]]** → [[Back Control]] (Probability: 65%)
 - Execute **[[Triangle to Back]]** → [[Back Control]] (Probability: 60%)
 
 
 **If opponent bridges explosively or creates significant space:**
-- Execute **[[Side Control to Mount]]** → [[High Mount]] (Probability: 75%)
-- Execute **[[S Mount Transition]]** → [[S Mount]] (Probability: 65%)
+- Execute **[[Consolidate Mount]]** → [[High Mount]] (Probability: 75%)
+- Execute **[[S-Mount Transition]]** → [[S Mount]] (Probability: 65%)
 
 
 **If opponent extends free arm for defensive frames:**

@@ -16,6 +16,7 @@
   "submission_type": "Blood Choke",
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Front Headlock",
+  "success_rate": 58,
   "overview": "The High Elbow Guillotine is a devastating blood choke that targets the carotid arteries through precise elbow positioning and shoulder pressure. Distinguished from the traditional arm-in guillotine by its mechanics, this variation achieves superior control and finishing power by elevating the choking elbow above the opponent's shoulder line while driving the non-choking shoulder into their neck. The technique excels in both standing and ground scenarios, making it a versatile weapon across all grappling contexts. Its effectiveness stems from the biomechanical advantage created when the high elbow position redirects force directly into the carotid arteries rather than relying primarily on forearm compression. The submission can be entered from numerous positions including standing clinch exchanges, failed takedown attempts, and guard pulls, making it an essential component of any complete submission system. Modern competitive grapplers favor this variation for its reliability under pressure and its capacity to finish opponents who successfully defend traditional guillotine mechanics.",
   "safety_considerations": {
     "injury_risks": [
@@ -64,229 +65,21 @@
       "Always allow clear tap access - never trap both arms while finishing"
     ]
   },
-  "key_principles": [
-    "Elbow positioning above opponent's shoulder line redirects force into carotid arteries rather than trachea",
-    "Non-choking shoulder drives into opposite side of neck to close the choking angle",
-    "Hip pressure or guard closure prevents opponent from creating distance and escaping",
-    "Wrist-to-wrist or palm-to-palm grip configurations maximize choking power through arm structure",
-    "Head positioning with crown driving into opponent's sternum or chest maintains control and leverage",
-    "Constant adjustment of angle based on opponent's defensive movements - never static pressure",
-    "Shoulders should be active and engaged throughout the finish, not relying solely on arm strength"
-  ],
-  "setup_requirements": [
-    "Front headlock control established with opponent's head controlled and posture broken",
-    "Choking arm secured around opponent's neck with deep grip achieved before opponent defends",
-    "Strong grip connection (wrist-to-wrist, palm-to-palm, or gable grip depending on gi/no-gi)",
-    "Hip positioning close to opponent to prevent distance creation and escape",
-    "Opponent's near arm controlled, trapped, or otherwise neutralized to prevent frame creation",
-    "Clear understanding of opponent's head position relative to your centerline",
-    "Proper base established whether standing, seated, or in closed guard configuration"
-  ],
-  "execution_steps": [
+  "outcomes": [
     {
-      "step_number": 1,
-      "action": "Secure deep guillotine grip",
-      "description": "From front headlock position, slide your choking arm deep around opponent's neck with your wrist reaching past the opposite side of their neck. Your grip should be palm-up with the blade of your wrist against their trachea/carotid area. Connect your hands using wrist-to-wrist grip (no-gi) or palm-to-palm with gi grips, ensuring your grip is tight before proceeding to the next step.",
-      "timing": "1-2 seconds"
+      "to": "game-over",
+      "probability": 60,
+      "result": "success"
     },
     {
-      "step_number": 2,
-      "action": "Elevate choking elbow above shoulder line",
-      "description": "This is the defining characteristic of the high elbow variation. Drive your choking-side elbow upward and backward, positioning it above the plane of opponent's shoulder. Your forearm should now be angled diagonally across their neck rather than horizontal. This elevation redirects pressure into the carotid arteries and creates the proper angle for the finish. Keep your grip tight as you elevate to prevent opponent from pulling their head free.",
-      "timing": "1 second"
+      "to": "Front Headlock/Top",
+      "probability": 25,
+      "result": "failure"
     },
     {
-      "step_number": 3,
-      "action": "Drive non-choking shoulder into opponent's neck",
-      "description": "Your non-choking shoulder becomes a critical pressure point in this variation. Drive this shoulder forcefully into the opposite side of opponent's neck, effectively creating a vice between your forearm and your shoulder. This shoulder pressure closes the angle and prevents opponent from turning into you to escape. Your shoulder should make contact with the side of their neck near the carotid, not their face or jaw.",
-      "timing": "Simultaneous with step 2"
-    },
-    {
-      "step_number": 4,
-      "action": "Establish lower body control",
-      "description": "Close your guard if seated, or drive hips forward if standing. The goal is to eliminate space between your hips and opponent's body, preventing them from pushing off to create distance. If standing, slight backward lean can add pressure. If seated with guard closed, your heels should squeeze together behind their back while your knees pinch their torso. This lower body connection is what separates a defended guillotine from a successful finish.",
-      "timing": "1-2 seconds"
-    },
-    {
-      "step_number": 5,
-      "action": "Position crown of head into opponent's sternum",
-      "description": "Lower your head so the crown makes contact with opponent's chest or sternum area. This head positioning serves multiple purposes: it prevents opponent from driving forward to stack you, it creates a structural frame that reinforces your shoulder pressure, and it allows you to use your neck muscles to add finishing power. Your chin should be tucked to protect your own neck from counter pressure.",
-      "timing": "1 second"
-    },
-    {
-      "step_number": 6,
-      "action": "Apply progressive choking pressure",
-      "description": "With all structural components in place, squeeze your arms together while maintaining high elbow position and shoulder pressure. The finish comes from pulling your choking-side elbow backward and upward while simultaneously driving your shoulder forward and downward. Think of closing a scissor rather than simply squeezing with your forearm. Apply pressure progressively over 3-5 seconds in training, monitoring for tap. The choke should feel tight immediately but allow time for safe tapping.",
-      "timing": "3-5 seconds progressive application"
-    },
-    {
-      "step_number": 7,
-      "action": "Maintain control through defensive reactions",
-      "description": "As opponent attempts to escape, continuously adjust your angles while maintaining the core principles. If they push your head, keep your crown connection. If they try to turn into you, increase shoulder pressure. If they create distance with hips, follow and tighten guard or close distance if standing. The high elbow guillotine requires active maintenance throughout the finish - small adjustments are necessary as opponent defends. Never simply hold static pressure and hope for the finish.",
-      "timing": "Ongoing until submission or position change"
-    }
-  ],
-  "opponent_defense_patterns": [
-    {
-      "defense": "Pushing attacker's head away to create space between head and chest",
-      "effectiveness": "Medium",
-      "your_adjustment": "Increase crown of head pressure into sternum and ensure your non-choking shoulder maintains contact with their neck. If they create significant space, transition to standing finish or adjust to arm-in variation."
-    },
-    {
-      "defense": "Turning into the choke to face attacker and eliminate shoulder pressure",
-      "effectiveness": "High",
-      "your_adjustment": "This is the most effective defense. Counter by immediately increasing non-choking shoulder pressure and pulling choking elbow further back and up. If turn is successful, be prepared to transition to darce or anaconda, or to abandon and establish different control."
-    },
-    {
-      "defense": "Bridging or arching back to create space in the hip connection",
-      "effectiveness": "Medium",
-      "your_adjustment": "Follow their bridge by extending your body and maintaining guard closure or hip pressure. Your weight should move with them. Increase choking pressure during the bridge as their neck is often more exposed during this defensive movement."
-    },
-    {
-      "defense": "Grabbing attacker's choking wrist and attempting to pull it away from neck",
-      "effectiveness": "Low",
-      "your_adjustment": "Maintain strong grip connection and use your entire arm structure rather than just grip strength. Their pulling on your wrist often helps elevate your elbow higher, actually improving your position. Keep shoulder pressure constant."
-    },
-    {
-      "defense": "Tucking chin deep to protect the neck before choke is fully set",
-      "effectiveness": "High",
-      "your_adjustment": "This prevents the choke if done early. You must break their chin-tuck connection before attempting the finish. Use your choking-side grip to lift their head or transition to different submission like darce or front headlock controls. Never force the choke over the chin as this risks jaw injury."
-    },
-    {
-      "defense": "Creating frames on hips or thighs to push away and stand up",
-      "effectiveness": "Medium",
-      "your_adjustment": "Elevate your hips or stand with them while maintaining upper body control. The high elbow guillotine can finish standing as effectively as from guard. Follow their movement upward rather than trying to pull them back down."
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Keeping elbow low and parallel to ground instead of elevated above shoulder line",
-      "consequence": "Pressure goes primarily into trachea rather than carotids, making choke less effective and more uncomfortable without finishing. Also allows opponent to turn into you more easily.",
-      "correction": "Consciously drive your choking elbow upward and backward before applying pressure. Your elbow should be visible in your peripheral vision if positioned correctly. Think of touching your elbow to the ceiling."
-    },
-    {
-      "error": "Neglecting non-choking shoulder pressure and relying only on forearm squeeze",
-      "consequence": "Opponent can easily turn into the choke and escape. Without shoulder pressure creating the vice, the submission loses most of its finishing power.",
-      "correction": "Focus equal attention on driving your non-choking shoulder into the side of opponent's neck as you do on your choking arm. The shoulder often does more work than the arm in this variation."
-    },
-    {
-      "error": "Allowing distance between hips and opponent's body during finish attempt",
-      "consequence": "Opponent pushes off and creates escape space, completely negating your upper body control. The submission becomes a temporary inconvenience rather than a finish.",
-      "correction": "Close guard tightly with heels connected and knees squeezing, or if standing, drive hips forward into opponent's hips. Think of making your body one continuous pressure unit from head to hips."
-    },
-    {
-      "error": "Jerking or spiking the submission with sudden explosive pressure",
-      "consequence": "High risk of tracheal damage, cervical spine injury, or causing unconsciousness before partner can tap safely. This is the most dangerous error in guillotine application.",
-      "correction": "Apply all pressure progressively and smoothly over 3-5 seconds minimum. Build pressure gradually, allowing partner clear opportunity to recognize the danger and tap. Never spike submissions in training."
-    },
-    {
-      "error": "Failing to adjust when opponent turns into the choke successfully",
-      "consequence": "You hold a submission that is no longer effective while opponent escapes to better position or counters with their own attacks.",
-      "correction": "Recognize when the high elbow structure is compromised and immediately transition to darce, anaconda, or release and establish different control. Never stubbornly hold a failed submission attempt."
-    },
-    {
-      "error": "Gripping over opponent's chin instead of around their neck",
-      "consequence": "Choke cannot finish and creates high risk of jaw or temporomandibular joint injury. Partner experiences pain before any danger signal that would prompt a tap.",
-      "correction": "Always ensure your forearm blade makes contact with the side of the neck, not the chin. If chin is tucked, use your grip to lift their head or transition to different attack. Never force the submission over the chin."
-    },
-    {
-      "error": "Looking away from opponent or failing to monitor their facial responses",
-      "consequence": "Missing visual cues of oxygen deprivation or excessive pressure. Partner may go unconscious without tapping if choke is too tight or applied too quickly.",
-      "correction": "Maintain visual awareness of partner's face and responses during all choking techniques. Look for color changes, eye responses, and ensure they have clear ability to tap. Safety requires constant monitoring."
-    },
-    {
-      "error": "Crossing feet while finishing from guard position",
-      "consequence": "Opens yourself to ankle lock counters and weakens your guard control structure. The crossed feet become a submission opportunity for the opponent.",
-      "correction": "Always connect heels behind opponent's back without crossing your feet. Squeeze your knees together to maintain guard pressure. Your lower legs should form parallel lines behind their back."
-    }
-  ],
-  "variations_and_setups": [
-    {
-      "variation_name": "Standing High Elbow Guillotine",
-      "description": "Applied from standing position with opponent's head controlled in front headlock. Attacker drives hips forward while maintaining high elbow position and shoulder pressure. Often finished while opponent is attempting to complete a takedown or after sprawling on their shot. The standing variation generates additional pressure through body weight and forward hip drive.",
-      "when_to_use": "When opponent shoots for takedown, during snap-down sequences, or when you want to maintain standing position rather than pulling guard. Particularly effective in no-gi competition where guard pulling is less advantageous."
-    },
-    {
-      "variation_name": "Guard Pull to High Elbow Guillotine",
-      "description": "From standing front headlock control with high elbow position established, attacker sits to guard while maintaining all upper body structure. The act of pulling guard often tightens the choke as it eliminates opponent's ability to create distance. Guard should be closed immediately upon sitting. This is one of the highest percentage entries in modern grappling.",
-      "when_to_use": "When standing finish is not immediately available or when opponent has strong base and takedown defense. The guard pull variation is favored in submission-only formats and IBJJF competition where the guard pull itself is relatively low-risk."
-    },
-    {
-      "variation_name": "Arm-In to High Elbow Transition",
-      "description": "Starting from traditional arm-in guillotine position, attacker strips opponent's trapped arm free while maintaining neck control, then elevates elbow into high elbow position. This transition is useful when the arm-in variation is defended but neck control remains solid. Requires brief moment of loosening grip to remove arm, then immediate re-tightening in new configuration.",
-      "when_to_use": "When opponent successfully defends arm-in guillotine by keeping their arm tight to their body or when you recognize the arm-in finish is not available but opponent's neck remains exposed."
-    },
-    {
-      "variation_name": "High Elbow from Turtle Position",
-      "description": "Opponent is in turtle position and attacker has front headlock control. Attacker establishes high elbow position while opponent is still on their knees, then either rolls opponent to guard or finishes from top position with shoulder pressure and high elbow maintained. The turtle entry often catches opponents unprepared as they focus on protecting their back.",
-      "when_to_use": "When attacking turtle position and opponent keeps their arms tight to their body, making darce or anaconda entries difficult. The high elbow allows finishing without needing to thread an arm through."
-    },
-    {
-      "variation_name": "Marce Combination Entry",
-      "description": "False entry showing arm-in or marce choke setup, then switching to high elbow as opponent defends by turning into you. The initial threat causes opponent to react, creating the opening for the high elbow configuration. This combination approach uses opponent's defensive movement against them.",
-      "when_to_use": "Against experienced opponents who defend guillotines well and know to turn into the choke. The combination approach creates indecision and allows you to capitalize on whatever defense they choose."
-    }
-  ],
-  "knowledge_assessment": [
-    {
-      "question": "What is the primary distinguishing characteristic of the high elbow guillotine compared to traditional guillotine variations?",
-      "answer": "The primary distinguishing characteristic is the elevation of the choking elbow above the opponent's shoulder line, which redirects pressure into the carotid arteries rather than relying primarily on tracheal compression. This elbow positioning, combined with aggressive shoulder pressure from the non-choking side, creates a more effective blood choke with better control and higher finishing percentage.",
-      "safety_critical": false
-    },
-    {
-      "question": "Why must the non-choking shoulder play an active role in the high elbow guillotine finish, and what specific area should it target?",
-      "answer": "The non-choking shoulder must drive into the opposite side of the opponent's neck near the carotid artery to create a vice-like pressure between the forearm and shoulder. This shoulder pressure is what closes the angle and prevents opponent from turning into the choke to escape. Without active shoulder engagement, the submission loses most of its finishing power and becomes much easier to defend.",
-      "safety_critical": false
-    },
-    {
-      "question": "What are the immediate signs that you must release a guillotine choke during training, and what is the correct release protocol?",
-      "answer": "You must immediately release upon any tap signal (verbal, hand, foot, or any loss of resistance), changes in facial color, unusual breathing sounds, or if opponent's body goes limp. The release protocol is: immediately release choking arm grip, lower elbow and remove shoulder pressure simultaneously, release head control and create space, then monitor partner's breathing and consciousness for 10-15 seconds. Never reapply pressure once released, even if partner indicates they are okay.",
-      "safety_critical": true
-    },
-    {
-      "question": "Why is it critical never to force a guillotine choke over an opponent's chin, and what should you do instead if their chin is tucked?",
-      "answer": "Forcing a choke over the chin creates high risk of jaw injury and temporomandibular joint damage, causing pain without the blood flow restriction that would signal danger and prompt a tap. If the chin is tucked, you must either use your grip to lift their head to expose the neck properly, or transition to a different attack such as darce, anaconda, or other front headlock controls. Patient technical adjustment is always preferable to forced application.",
-      "safety_critical": true
-    },
-    {
-      "question": "How does lower body positioning (guard closure or hip pressure) contribute to the effectiveness of the high elbow guillotine?",
-      "answer": "Lower body control eliminates the space between your hips and opponent's body, preventing them from creating distance and escaping. If seated, closed guard with heels connected and knees squeezing prevents opponent from pushing off. If standing, forward hip drive maintains the connection. Without this lower body engagement, even perfect upper body structure will fail as opponent can push away and create escape space. The submission requires total body integration from head to hips.",
-      "safety_critical": false
-    },
-    {
-      "question": "What is the most effective defensive response an opponent can make against a high elbow guillotine, and how should you counter it?",
-      "answer": "The most effective defense is turning into the choke to face the attacker, which eliminates the shoulder pressure and compromises the high elbow structure. The counter is to immediately increase non-choking shoulder pressure and pull the choking elbow further back and upward to maintain the angle. However, if the turn is successful and your structure is compromised, you must recognize the failed attempt and transition to darce, anaconda, or different control rather than holding a submission that is no longer effective.",
-      "safety_critical": false
-    },
-    {
-      "question": "Why is progressive pressure application over 3-5 seconds mandatory in training, and what injuries can result from spiking the submission?",
-      "answer": "Progressive pressure application allows your partner clear opportunity to recognize the danger and tap safely before sustaining injury. Spiking or jerking the submission can cause tracheal damage requiring weeks or months of recovery, cervical spine stress or injury, or sudden loss of consciousness before the partner can tap. Smooth, progressive pressure over 3-5 seconds is the minimum safety standard for all choking techniques in training environments. Competition speed should never be used during drilling or positional training.",
-      "safety_critical": true
-    },
-    {
-      "question": "What role does head positioning play in the high elbow guillotine, and where specifically should the crown of your head make contact?",
-      "answer": "The crown of your head should drive into opponent's sternum or chest area, serving multiple critical functions: it prevents opponent from driving forward to stack you, creates a structural frame that reinforces your shoulder pressure, and allows you to use your neck muscles to add finishing power. Your chin should be tucked to protect your own neck. This head positioning is what transforms separate upper and lower body controls into one integrated submission system.",
-      "safety_critical": false
-    },
-    {
-      "question": "Your opponent starts to posture up while you have the high elbow guillotine locked - what grip adjustment prevents their escape?",
-      "answer": "When the opponent attempts to posture, immediately tighten your grip connection and increase downward pulling pressure with your arms while simultaneously closing guard tighter or driving hips forward if standing. Use your head crown pressure to prevent them from lifting their torso. If they create significant postural recovery, adjust your elbow position even higher and consider transitioning to a standing finish where you can use gravity and body weight to re-break their posture.",
-      "safety_critical": false
-    },
-    {
-      "question": "What anatomical structures does the high elbow guillotine primarily attack, and how does the angle of the forearm affect which structure receives pressure?",
-      "answer": "The high elbow guillotine primarily attacks the carotid arteries on both sides of the neck, creating a blood choke that restricts oxygen to the brain. When the elbow is elevated above the shoulder line, the forearm angle directs pressure laterally into the carotids rather than straight back into the trachea. A horizontal forearm tends to compress the trachea (air choke), while the diagonal high elbow angle creates the arterial compression characteristic of an effective blood choke. This is why proper elbow elevation is the defining feature of this variation.",
-      "safety_critical": false
-    },
-    {
-      "question": "At what point during the high elbow guillotine is the opponent past the point of no escape, and what indicators tell you the submission is fully secured?",
-      "answer": "The point of no escape occurs when all five structural components are synchronized: deep grip around neck, elevated elbow above shoulder line, non-choking shoulder driving into opposite carotid, guard closed or hips connected eliminating distance, and crown of head anchored to sternum. Indicators that the submission is secured include opponent's face changing color, cessation of effective hand fighting, their body beginning to relax or go limp, and inability to create any space despite defensive effort. At this point, the tap is imminent and you should be monitoring carefully for immediate release.",
-      "safety_critical": true
-    },
-    {
-      "question": "How do you maintain control when transitioning from standing high elbow guillotine to guard pull, and what common mistake causes the choke to loosen during this transition?",
-      "answer": "Maintain control during the guard pull transition by keeping all upper body structure locked in place - grip connection, elbow elevation, and shoulder pressure must not change as you sit. The common mistake is loosening the grip or lowering the elbow during the sit, which allows the opponent to extract their head. To prevent this, think of the guard pull as bringing your legs to the opponent rather than dropping your upper body down. Close guard immediately upon sitting to trap them before they can create distance. The transition itself often tightens the choke when done correctly.",
-      "safety_critical": false
+      "to": "Closed Guard/Bottom",
+      "probability": 15,
+      "result": "counter"
     }
   ],
   "from_positions": [
@@ -332,7 +125,7 @@
       "relationship": "Direct transition - moving from control position to submission attempt"
     },
     {
-      "name": "Snap Down",
+      "name": "Snap Down to Front Headlock",
       "relationship": "Setup sequence - creating the initial front headlock control from standing"
     },
     {
@@ -356,5 +149,398 @@
       "relationship": "Entry position - attacking turtle with high elbow variation when darce/anaconda unavailable"
     }
   ],
-  "success_rate": 58
+  "attacker": {
+    "name": "High Elbow Guillotine Attacker",
+    "description": "How to execute High Elbow Guillotine in BJJ. Attacking perspective with setup, execution, and finishing mechanics.",
+    "overview": "The High Elbow Guillotine is a devastating blood choke that targets the carotid arteries through precise elbow positioning and shoulder pressure. Distinguished from the traditional arm-in guillotine by its mechanics, this variation achieves superior control and finishing power by elevating the choking elbow above the opponent's shoulder line while driving the non-choking shoulder into their neck. The technique excels in both standing and ground scenarios, making it a versatile weapon across all grappling contexts. Its effectiveness stems from the biomechanical advantage created when the high elbow position redirects force directly into the carotid arteries rather than relying primarily on forearm compression. The submission can be entered from numerous positions including standing clinch exchanges, failed takedown attempts, and guard pulls, making it an essential component of any complete submission system. Modern competitive grapplers favor this variation for its reliability under pressure and its capacity to finish opponents who successfully defend traditional guillotine mechanics.",
+    "key_principles": [
+      "Elbow positioning above opponent's shoulder line redirects force into carotid arteries rather than trachea",
+      "Non-choking shoulder drives into opposite side of neck to close the choking angle",
+      "Hip pressure or guard closure prevents opponent from creating distance and escaping",
+      "Wrist-to-wrist or palm-to-palm grip configurations maximize choking power through arm structure",
+      "Head positioning with crown driving into opponent's sternum or chest maintains control and leverage",
+      "Constant adjustment of angle based on opponent's defensive movements - never static pressure",
+      "Shoulders should be active and engaged throughout the finish, not relying solely on arm strength"
+    ],
+    "setup_requirements": [
+      "Front headlock control established with opponent's head controlled and posture broken",
+      "Choking arm secured around opponent's neck with deep grip achieved before opponent defends",
+      "Strong grip connection (wrist-to-wrist, palm-to-palm, or gable grip depending on gi/no-gi)",
+      "Hip positioning close to opponent to prevent distance creation and escape",
+      "Opponent's near arm controlled, trapped, or otherwise neutralized to prevent frame creation",
+      "Clear understanding of opponent's head position relative to your centerline",
+      "Proper base established whether standing, seated, or in closed guard configuration"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Secure deep guillotine grip",
+        "description": "From front headlock position, slide your choking arm deep around opponent's neck with your wrist reaching past the opposite side of their neck. Your grip should be palm-up with the blade of your wrist against their trachea/carotid area. Connect your hands using wrist-to-wrist grip (no-gi) or palm-to-palm with gi grips, ensuring your grip is tight before proceeding to the next step.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 2,
+        "action": "Elevate choking elbow above shoulder line",
+        "description": "This is the defining characteristic of the high elbow variation. Drive your choking-side elbow upward and backward, positioning it above the plane of opponent's shoulder. Your forearm should now be angled diagonally across their neck rather than horizontal. This elevation redirects pressure into the carotid arteries and creates the proper angle for the finish. Keep your grip tight as you elevate to prevent opponent from pulling their head free.",
+        "timing": "1 second"
+      },
+      {
+        "step_number": 3,
+        "action": "Drive non-choking shoulder into opponent's neck",
+        "description": "Your non-choking shoulder becomes a critical pressure point in this variation. Drive this shoulder forcefully into the opposite side of opponent's neck, effectively creating a vice between your forearm and your shoulder. This shoulder pressure closes the angle and prevents opponent from turning into you to escape. Your shoulder should make contact with the side of their neck near the carotid, not their face or jaw.",
+        "timing": "Simultaneous with step 2"
+      },
+      {
+        "step_number": 4,
+        "action": "Establish lower body control",
+        "description": "Close your guard if seated, or drive hips forward if standing. The goal is to eliminate space between your hips and opponent's body, preventing them from pushing off to create distance. If standing, slight backward lean can add pressure. If seated with guard closed, your heels should squeeze together behind their back while your knees pinch their torso. This lower body connection is what separates a defended guillotine from a successful finish.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 5,
+        "action": "Position crown of head into opponent's sternum",
+        "description": "Lower your head so the crown makes contact with opponent's chest or sternum area. This head positioning serves multiple purposes: it prevents opponent from driving forward to stack you, it creates a structural frame that reinforces your shoulder pressure, and it allows you to use your neck muscles to add finishing power. Your chin should be tucked to protect your own neck from counter pressure.",
+        "timing": "1 second"
+      },
+      {
+        "step_number": 6,
+        "action": "Apply progressive choking pressure",
+        "description": "With all structural components in place, squeeze your arms together while maintaining high elbow position and shoulder pressure. The finish comes from pulling your choking-side elbow backward and upward while simultaneously driving your shoulder forward and downward. Think of closing a scissor rather than simply squeezing with your forearm. Apply pressure progressively over 3-5 seconds in training, monitoring for tap. The choke should feel tight immediately but allow time for safe tapping.",
+        "timing": "3-5 seconds progressive application"
+      },
+      {
+        "step_number": 7,
+        "action": "Maintain control through defensive reactions",
+        "description": "As opponent attempts to escape, continuously adjust your angles while maintaining the core principles. If they push your head, keep your crown connection. If they try to turn into you, increase shoulder pressure. If they create distance with hips, follow and tighten guard or close distance if standing. The high elbow guillotine requires active maintenance throughout the finish - small adjustments are necessary as opponent defends. Never simply hold static pressure and hope for the finish.",
+        "timing": "Ongoing until submission or position change"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Pushing attacker's head away to create space between head and chest",
+        "effectiveness": "Medium",
+        "your_response": "Increase crown of head pressure into sternum and ensure your non-choking shoulder maintains contact with their neck. If they create significant space, transition to standing finish or adjust to arm-in variation.",
+        "targets_outcome": "Front Headlock/Top"
+      },
+      {
+        "counter": "Turning into the choke to face attacker and eliminate shoulder pressure",
+        "effectiveness": "High",
+        "your_response": "This is the most effective defense. Counter by immediately increasing non-choking shoulder pressure and pulling choking elbow further back and up. If turn is successful, be prepared to transition to darce or anaconda, or to abandon and establish different control.",
+        "targets_outcome": "Front Headlock/Top"
+      },
+      {
+        "counter": "Bridging or arching back to create space in the hip connection",
+        "effectiveness": "Medium",
+        "your_response": "Follow their bridge by extending your body and maintaining guard closure or hip pressure. Your weight should move with them. Increase choking pressure during the bridge as their neck is often more exposed during this defensive movement.",
+        "targets_outcome": "Front Headlock/Top"
+      },
+      {
+        "counter": "Grabbing attacker's choking wrist and attempting to pull it away from neck",
+        "effectiveness": "Low",
+        "your_response": "Maintain strong grip connection and use your entire arm structure rather than just grip strength. Their pulling on your wrist often helps elevate your elbow higher, actually improving your position. Keep shoulder pressure constant.",
+        "targets_outcome": "game-over"
+      },
+      {
+        "counter": "Tucking chin deep to protect the neck before choke is fully set",
+        "effectiveness": "High",
+        "your_response": "This prevents the choke if done early. You must break their chin-tuck connection before attempting the finish. Use your choking-side grip to lift their head or transition to different submission like darce or front headlock controls. Never force the choke over the chin as this risks jaw injury.",
+        "targets_outcome": "Front Headlock/Top"
+      },
+      {
+        "counter": "Creating frames on hips or thighs to push away and stand up",
+        "effectiveness": "Medium",
+        "your_response": "Elevate your hips or stand with them while maintaining upper body control. The high elbow guillotine can finish standing as effectively as from guard. Follow their movement upward rather than trying to pull them back down.",
+        "targets_outcome": "Closed Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Keeping elbow low and parallel to ground instead of elevated above shoulder line",
+        "consequence": "Pressure goes primarily into trachea rather than carotids, making choke less effective and more uncomfortable without finishing. Also allows opponent to turn into you more easily.",
+        "correction": "Consciously drive your choking elbow upward and backward before applying pressure. Your elbow should be visible in your peripheral vision if positioned correctly. Think of touching your elbow to the ceiling."
+      },
+      {
+        "error": "Neglecting non-choking shoulder pressure and relying only on forearm squeeze",
+        "consequence": "Opponent can easily turn into the choke and escape. Without shoulder pressure creating the vice, the submission loses most of its finishing power.",
+        "correction": "Focus equal attention on driving your non-choking shoulder into the side of opponent's neck as you do on your choking arm. The shoulder often does more work than the arm in this variation."
+      },
+      {
+        "error": "Allowing distance between hips and opponent's body during finish attempt",
+        "consequence": "Opponent pushes off and creates escape space, completely negating your upper body control. The submission becomes a temporary inconvenience rather than a finish.",
+        "correction": "Close guard tightly with heels connected and knees squeezing, or if standing, drive hips forward into opponent's hips. Think of making your body one continuous pressure unit from head to hips."
+      },
+      {
+        "error": "Jerking or spiking the submission with sudden explosive pressure",
+        "consequence": "High risk of tracheal damage, cervical spine injury, or causing unconsciousness before partner can tap safely. This is the most dangerous error in guillotine application.",
+        "correction": "Apply all pressure progressively and smoothly over 3-5 seconds minimum. Build pressure gradually, allowing partner clear opportunity to recognize the danger and tap. Never spike submissions in training."
+      },
+      {
+        "error": "Failing to adjust when opponent turns into the choke successfully",
+        "consequence": "You hold a submission that is no longer effective while opponent escapes to better position or counters with their own attacks.",
+        "correction": "Recognize when the high elbow structure is compromised and immediately transition to darce, anaconda, or release and establish different control. Never stubbornly hold a failed submission attempt."
+      },
+      {
+        "error": "Gripping over opponent's chin instead of around their neck",
+        "consequence": "Choke cannot finish and creates high risk of jaw or temporomandibular joint injury. Partner experiences pain before any danger signal that would prompt a tap.",
+        "correction": "Always ensure your forearm blade makes contact with the side of the neck, not the chin. If chin is tucked, use your grip to lift their head or transition to different attack. Never force the submission over the chin."
+      },
+      {
+        "error": "Looking away from opponent or failing to monitor their facial responses",
+        "consequence": "Missing visual cues of oxygen deprivation or excessive pressure. Partner may go unconscious without tapping if choke is too tight or applied too quickly.",
+        "correction": "Maintain visual awareness of partner's face and responses during all choking techniques. Look for color changes, eye responses, and ensure they have clear ability to tap. Safety requires constant monitoring."
+      },
+      {
+        "error": "Crossing feet while finishing from guard position",
+        "consequence": "Opens yourself to ankle lock counters and weakens your guard control structure. The crossed feet become a submission opportunity for the opponent.",
+        "correction": "Always connect heels behind opponent's back without crossing your feet. Squeeze your knees together to maintain guard pressure. Your lower legs should form parallel lines behind their back."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Static Grip and Structure",
+        "focus": "Developing correct high elbow positioning and grip mechanics without resistance",
+        "description": "Partner allows you to establish the high elbow guillotine from front headlock with zero resistance. Focus entirely on proper wrist placement against the neck, elbow elevation above the shoulder line, non-choking shoulder contact, and grip connection. Hold the position for 10-15 seconds checking each structural component. Repeat 20-30 times per session until the position feels natural and automatic. No finishing pressure applied during this phase."
+      },
+      {
+        "phase": "Phase 2: Entry and Transition Drilling",
+        "focus": "Connecting entries to the high elbow position from multiple starting points",
+        "description": "Practice entering the high elbow guillotine from standing snap-down, guard pull, front headlock, and turtle attacks. Partner provides light movement but does not actively defend. Focus on maintaining grip depth and elbow elevation during the transition itself - this is where most practitioners lose their structure. Drill each entry 10 times, then flow between entries randomly based on partner's positioning. Begin adding light finishing pressure at the end of each repetition."
+      },
+      {
+        "phase": "Phase 3: Progressive Resistance Finishing",
+        "focus": "Finishing mechanics against increasing defensive resistance",
+        "description": "Start with the high elbow position established, partner defends at 30% then 50% then 70% resistance over successive rounds. Partner uses specific defenses: chin tuck, turning in, pushing head, creating hip distance. You work to maintain structure and find the finish against each defense. Focus on recognizing which defenses require adjustment versus transition to alternative attacks. Begin developing the sensitivity to know when the choke is locked versus when you need to change approach."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Full-speed application from realistic scramble situations",
+        "description": "Positional rounds starting from standing or front headlock with full resistance. Attacker wins by submission, defender wins by escaping to neutral standing or establishing guard with head free. Rounds of 2-3 minutes. Focus on recognizing opportunities in live movement, maintaining composure when initial attempts fail, and chaining the high elbow guillotine with darce, anaconda, and back take threats. Develop competition timing for guard pull entries and standing finishes."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary distinguishing characteristic of the high elbow guillotine compared to traditional guillotine variations?",
+        "answer": "The primary distinguishing characteristic is the elevation of the choking elbow above the opponent's shoulder line, which redirects pressure into the carotid arteries rather than relying primarily on tracheal compression. This elbow positioning, combined with aggressive shoulder pressure from the non-choking side, creates a more effective blood choke with better control and higher finishing percentage.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why must the non-choking shoulder play an active role in the high elbow guillotine finish, and what specific area should it target?",
+        "answer": "The non-choking shoulder must drive into the opposite side of the opponent's neck near the carotid artery to create a vice-like pressure between the forearm and shoulder. This shoulder pressure is what closes the angle and prevents opponent from turning into the choke to escape. Without active shoulder engagement, the submission loses most of its finishing power and becomes much easier to defend.",
+        "safety_critical": false
+      },
+      {
+        "question": "What are the immediate signs that you must release a guillotine choke during training, and what is the correct release protocol?",
+        "answer": "You must immediately release upon any tap signal (verbal, hand, foot, or any loss of resistance), changes in facial color, unusual breathing sounds, or if opponent's body goes limp. The release protocol is: immediately release choking arm grip, lower elbow and remove shoulder pressure simultaneously, release head control and create space, then monitor partner's breathing and consciousness for 10-15 seconds. Never reapply pressure once released, even if partner indicates they are okay.",
+        "safety_critical": true
+      },
+      {
+        "question": "Why is it critical never to force a guillotine choke over an opponent's chin, and what should you do instead if their chin is tucked?",
+        "answer": "Forcing a choke over the chin creates high risk of jaw injury and temporomandibular joint damage, causing pain without the blood flow restriction that would signal danger and prompt a tap. If the chin is tucked, you must either use your grip to lift their head to expose the neck properly, or transition to a different attack such as darce, anaconda, or other front headlock controls. Patient technical adjustment is always preferable to forced application.",
+        "safety_critical": true
+      },
+      {
+        "question": "How does lower body positioning (guard closure or hip pressure) contribute to the effectiveness of the high elbow guillotine?",
+        "answer": "Lower body control eliminates the space between your hips and opponent's body, preventing them from creating distance and escaping. If seated, closed guard with heels connected and knees squeezing prevents opponent from pushing off. If standing, forward hip drive maintains the connection. Without this lower body engagement, even perfect upper body structure will fail as opponent can push away and create escape space. The submission requires total body integration from head to hips.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the most effective defensive response an opponent can make against a high elbow guillotine, and how should you counter it?",
+        "answer": "The most effective defense is turning into the choke to face the attacker, which eliminates the shoulder pressure and compromises the high elbow structure. The counter is to immediately increase non-choking shoulder pressure and pull the choking elbow further back and upward to maintain the angle. However, if the turn is successful and your structure is compromised, you must recognize the failed attempt and transition to darce, anaconda, or different control rather than holding a submission that is no longer effective.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is progressive pressure application over 3-5 seconds mandatory in training, and what injuries can result from spiking the submission?",
+        "answer": "Progressive pressure application allows your partner clear opportunity to recognize the danger and tap safely before sustaining injury. Spiking or jerking the submission can cause tracheal damage requiring weeks or months of recovery, cervical spine stress or injury, or sudden loss of consciousness before the partner can tap. Smooth, progressive pressure over 3-5 seconds is the minimum safety standard for all choking techniques in training environments. Competition speed should never be used during drilling or positional training.",
+        "safety_critical": true
+      },
+      {
+        "question": "What role does head positioning play in the high elbow guillotine, and where specifically should the crown of your head make contact?",
+        "answer": "The crown of your head should drive into opponent's sternum or chest area, serving multiple critical functions: it prevents opponent from driving forward to stack you, creates a structural frame that reinforces your shoulder pressure, and allows you to use your neck muscles to add finishing power. Your chin should be tucked to protect your own neck. This head positioning is what transforms separate upper and lower body controls into one integrated submission system.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent starts to posture up while you have the high elbow guillotine locked - what adjustment prevents their escape?",
+        "answer": "When the opponent attempts to posture, immediately tighten your grip connection and increase downward pulling pressure with your arms while simultaneously closing guard tighter or driving hips forward if standing. Use your head crown pressure to prevent them from lifting their torso. If they create significant postural recovery, adjust your elbow position even higher and consider transitioning to a standing finish where you can use gravity and body weight to re-break their posture.",
+        "safety_critical": false
+      },
+      {
+        "question": "What anatomical structures does the high elbow guillotine primarily attack, and how does the angle of the forearm affect which structure receives pressure?",
+        "answer": "The high elbow guillotine primarily attacks the carotid arteries on both sides of the neck, creating a blood choke that restricts oxygen to the brain. When the elbow is elevated above the shoulder line, the forearm angle directs pressure laterally into the carotids rather than straight back into the trachea. A horizontal forearm tends to compress the trachea (air choke), while the diagonal high elbow angle creates the arterial compression characteristic of an effective blood choke. This is why proper elbow elevation is the defining feature of this variation.",
+        "safety_critical": false
+      },
+      {
+        "question": "At what point during the high elbow guillotine is the opponent past the point of no escape, and what indicators tell you the submission is fully secured?",
+        "answer": "The point of no escape occurs when all five structural components are synchronized: deep grip around neck, elevated elbow above shoulder line, non-choking shoulder driving into opposite carotid, guard closed or hips connected eliminating distance, and crown of head anchored to sternum. Indicators that the submission is secured include opponent's face changing color, cessation of effective hand fighting, their body beginning to relax or go limp, and inability to create any space despite defensive effort. At this point, the tap is imminent and you should be monitoring carefully for immediate release.",
+        "safety_critical": true
+      },
+      {
+        "question": "How do you maintain control when transitioning from standing high elbow guillotine to guard pull, and what common mistake causes the choke to loosen during this transition?",
+        "answer": "Maintain control during the guard pull transition by keeping all upper body structure locked in place - grip connection, elbow elevation, and shoulder pressure must not change as you sit. The common mistake is loosening the grip or lowering the elbow during the sit, which allows the opponent to extract their head. To prevent this, think of the guard pull as bringing your legs to the opponent rather than dropping your upper body down. Close guard immediately upon sitting to trap them before they can create distance. The transition itself often tightens the choke when done correctly.",
+        "safety_critical": false
+      }
+    ]
+  },
+  "defender": {
+    "name": "High Elbow Guillotine Defender",
+    "description": "How to defend against High Elbow Guillotine in BJJ. Recognition, escape paths, and defensive strategies.",
+    "overview": "Defending against the High Elbow Guillotine requires a systematic approach that prioritizes early recognition and immediate structural defense before the choke is fully consolidated. The high elbow variation is significantly more dangerous than the standard guillotine because the elevated elbow creates bilateral carotid compression that can cause unconsciousness in seconds once locked. Unlike the traditional guillotine where tucking the chin provides reliable protection, the high elbow angle attacks behind and around the chin, making early prevention far more important than late-stage escape. Successful defense requires understanding the attacker's structural requirements and systematically denying them: preventing deep grip establishment, blocking elbow elevation, eliminating shoulder pressure through body positioning, and creating distance at the hip line. The defender must remain calm under the immediate pressure of the choking threat while executing precise technical responses. Panic-driven explosive movements typically accelerate the submission rather than facilitate escape, because they burn energy and often expose the neck further. The defensive hierarchy is clear: prevent the grip, deny the structure, create space, escape to safety.",
+    "key_principles": [
+      "Chin protection alone is insufficient against the high elbow variation - you must address the full structure including elbow elevation and shoulder pressure",
+      "Early recognition and prevention before the grip is consolidated is ten times more effective than late-stage escape attempts",
+      "Turn into the attacker to eliminate the shoulder pressure that creates the vice effect on your neck",
+      "Hand fighting must target the choking wrist and the elbow simultaneously - controlling one without the other is incomplete defense",
+      "Create hip distance to deny the attacker's lower body connection, which is essential for their finishing structure",
+      "Never pull straight backward away from the choke as this tightens the grip - escape perpendicular to the choking force",
+      "Remain calm and breathe through the nose when caught - panic accelerates oxygen consumption and reduces escape time"
+    ],
+    "recognition_cues": [
+      "Attacker wraps arm deep around your neck from front headlock and begins elevating their choking elbow upward rather than keeping it horizontal - the elbow rising above your shoulder line is the definitive high elbow indicator",
+      "You feel the attacker's non-choking shoulder driving aggressively into the opposite side of your neck, creating pressure from both sides simultaneously rather than just forearm pressure from one side",
+      "Attacker's head drops with crown pressing into your sternum or upper chest while their grip tightens and pulls your head downward, indicating they are assembling the complete finishing structure",
+      "Guard closure or aggressive hip drive from the attacker eliminates space at your waist, trapping you in range where the upper body structure can generate finishing pressure"
+    ],
+    "defensive_options": [
+      {
+        "action": "Turn into the attacker by rotating your body to face them, driving your near shoulder into their chest to eliminate the non-choking shoulder pressure on your neck",
+        "when_to_use": "As soon as you recognize the high elbow position being established, before the grip is fully consolidated and guard is closed. Most effective in the first 2-3 seconds of the attack.",
+        "targets_outcome": "Front Headlock/Top",
+        "if_successful": "Eliminates the shoulder pressure that creates the bilateral choke, reducing the attack to a much less effective single-side pressure that can be defended with hand fighting and posture recovery",
+        "risk": "If you turn but fail to eliminate the shoulder pressure completely, the attacker may transition to darce or anaconda choke which exploit your turned position"
+      },
+      {
+        "action": "Two-on-one grip fight on the choking wrist while simultaneously pushing the attacker's elbow down below your shoulder line to destroy the high elbow angle",
+        "when_to_use": "When the attacker has established the grip but has not yet closed guard or connected hips. Your hands must be free to fight the grip before they are trapped.",
+        "targets_outcome": "Front Headlock/Top",
+        "if_successful": "Breaking the grip or lowering the elbow converts the attack back to a standard guillotine that is far easier to defend with chin tuck and posture recovery",
+        "risk": "Committing both hands to grip fighting leaves you unable to post or frame, making you vulnerable to being swept or pulled into guard if the attacker adjusts"
+      },
+      {
+        "action": "Create maximum hip distance by pushing off attacker's hips with both hands while driving your hips backward, then circle to the side and recover posture",
+        "when_to_use": "When the attacker has the grip locked but guard is not yet closed. Most effective from standing where you can step backward and circle. Also effective in half guard where you can use knee shield to maintain distance.",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "Separating hips removes the lower body connection that gives the choke its finishing power, allowing you to work head extraction and posture recovery from a safer distance",
+        "risk": "If the attacker follows your hip movement and closes guard during your retreat, you may end up in a worse position with the choke still locked and now in closed guard"
+      },
+      {
+        "action": "Posture explosively by driving your hips forward and lifting your head while controlling the attacker's choking arm at the elbow, using your whole body to break the structure",
+        "when_to_use": "When caught in closed guard with the choke partially locked. Must be executed with full commitment and immediately followed by guard passing attempts or further distance creation.",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "Breaking the attacker's posture control allows you to begin extracting your head and transitioning to a passing position where the choke loses all effectiveness",
+        "risk": "The posturing motion can momentarily tighten the choke before you break free. If you posture half-heartedly and fail, you will have wasted energy and the attacker will retighten"
+      }
+    ],
+    "escape_paths": [
+      "Turn into the attacker and drive shoulder into their chest to eliminate shoulder pressure, then hand fight the choking wrist while circling away to extract your head and recover to neutral standing or establish guard with head free",
+      "Create hip distance through frames on attacker's hips, break guard if closed by pushing on the knee line, then posture up while controlling the choking elbow downward to strip the high elbow angle and extract your head backward and to the side",
+      "If caught deep with guard closed, use the Von Flue counter by passing to the side of the choking arm, driving your shoulder into their neck while they maintain the guillotine grip, creating counter-pressure that forces them to release or be choked by their own grip structure"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Front Headlock/Top",
+        "how": "Successfully turn into the attacker early to eliminate shoulder pressure, then hand fight the choking wrist free while maintaining posture. Once the grip breaks, immediately establish your own front headlock control or recover to standing neutral position."
+      },
+      {
+        "outcome": "Closed Guard/Bottom",
+        "how": "Create enough hip distance and posture recovery that the attacker's guillotine loses finishing power. Extract your head by circling to the side while controlling their elbow. End up in their closed guard with your head free and posture recovered, which is a fundamentally safe position."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Relying solely on chin tuck defense without addressing the high elbow angle and shoulder pressure",
+        "consequence": "The high elbow variation attacks around and behind the chin, so chin tucking alone does not prevent the carotid compression. You will still be choked despite feeling like you are protecting your neck, and the choke can finish through even a strong chin tuck when the elbow angle is correct.",
+        "correction": "Combine chin tuck with active hand fighting on the choking wrist and elbow, plus body rotation to eliminate shoulder pressure. The chin tuck buys time but is not a complete defense against this variation. You must disrupt the attacker's structure, not just protect your neck passively."
+      },
+      {
+        "error": "Pulling straight backward to escape the choke by creating linear distance from the attacker",
+        "consequence": "Pulling backward plays directly into the attacker's grip mechanics and actually tightens the choke. The guillotine grip is designed to resist linear pulling force, and your backward movement gives them additional leverage to compress the neck.",
+        "correction": "Escape perpendicular to the choking force by turning your body and circling to the side. Lateral movement and rotation are far more effective at disrupting the guillotine structure than linear retreat. Think of screwing your body out of the choke rather than pulling out."
+      },
+      {
+        "error": "Panicking and making large explosive movements without addressing the grip or structural components",
+        "consequence": "Explosive uncontrolled movement burns oxygen rapidly at exactly the moment when the choke is restricting blood flow to the brain. You have a very limited window to escape a locked high elbow guillotine, and wasting that window on ineffective movement leads to unconsciousness.",
+        "correction": "Stay calm and execute technical responses in priority order: control the choking wrist, address the elbow height, turn to eliminate shoulder pressure, create hip distance. Each step builds on the previous one. Controlled technical movement is far more effective than panicked explosions."
+      },
+      {
+        "error": "Attempting to stack the attacker by driving forward into them while they have the choke locked from guard",
+        "consequence": "Driving forward into a locked high elbow guillotine from closed guard actually increases the attacker's leverage by compressing the space between their arms and body. The attacker can use your forward drive to tighten the choke further and the closed guard prevents you from passing through.",
+        "correction": "Instead of driving forward, focus on creating hip distance first by breaking the guard open. Only advance position once the guard is opened and you can pass to the side. If you must address the choke urgently from inside closed guard, posture up vertically rather than driving forward horizontally."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Why is chin tucking alone insufficient as a defense against the high elbow guillotine, unlike the standard guillotine?",
+        "answer": "The high elbow guillotine attacks the carotid arteries through a diagonal forearm angle that wraps around and behind the chin rather than pressing straight into the front of the throat. This means the choke can finish even with a strong chin tuck because the elevated elbow redirects pressure laterally into the carotids from an angle that bypasses the chin defense. Effective defense requires disrupting the attacker's full structure - the elbow height, shoulder pressure, and hip connection - not just protecting the throat.",
+        "safety_critical": true
+      },
+      {
+        "question": "What is the earliest recognition cue that your opponent is setting up a high elbow guillotine rather than a standard guillotine, and why does early recognition matter?",
+        "answer": "The earliest cue is the attacker's choking elbow rising above the plane of your shoulder line rather than staying horizontal. You will also feel their non-choking shoulder driving into the opposite side of your neck, creating bilateral pressure. Early recognition is critical because the high elbow guillotine becomes exponentially harder to escape as each structural component is assembled. Defense in the first 2-3 seconds has roughly a 70% success rate, while defense after the full structure is locked drops below 20%. Every half-second of delay significantly reduces your escape probability.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your opponent has locked a high elbow guillotine from standing and begins pulling guard - what is your best defensive response during this transition?",
+        "answer": "The guard pull transition is your best escape window because the attacker must temporarily divide their attention between maintaining the choke and executing the sit. As they begin sitting, immediately drive your hips forward and your weight downward to prevent them from pulling you into closed guard. Simultaneously hand fight the choking wrist and push their elbow downward. If you can prevent the guard from closing by keeping your hips wide and base low, the attacker loses the lower body connection needed to finish. If they do close guard, immediately begin working to open it before they can re-establish all structural components from the new position.",
+        "safety_critical": false
+      },
+      {
+        "question": "How does the Von Flue choke counter work against an opponent who refuses to release their guillotine grip, and when is it appropriate to attempt?",
+        "answer": "The Von Flue counter works by passing to the side of the opponent's choking arm while they maintain their guillotine grip from guard. Once you are in side control with their arm still wrapped around your neck, you drive your shoulder into the side of their neck that is exposed by their own grip. Their arm creates a frame against one side of their neck while your shoulder compresses the other side, creating a choke that they are inflicting on themselves. This is appropriate when the opponent stubbornly holds the guillotine grip during your guard pass rather than releasing to defend the pass. It requires successfully passing guard first, so it is a mid-to-late stage counter rather than an immediate escape.",
+        "safety_critical": false
+      },
+      {
+        "question": "You are caught in a deep high elbow guillotine with closed guard and feel the choke tightening - what is your emergency escape hierarchy?",
+        "answer": "The emergency hierarchy when caught deep is: first, immediately fight the choking wrist with both hands to create any slack in the grip while turning your chin toward the choking arm side to reduce carotid compression. Second, use your legs and hips to push off and begin opening the guard to remove lower body pressure. Third, posture up vertically while controlling the elbow downward. If none of these create space within 3-5 seconds, tap immediately. A fully locked high elbow guillotine with all structural components in place can cause unconsciousness within 8-10 seconds. The cost of tapping is one training round lost; the cost of refusing to tap is potential injury or unconsciousness.",
+        "safety_critical": true
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and Positioning Drill",
+        "focus": "Learning to identify high elbow guillotine setups and establishing correct defensive body positioning before the choke locks",
+        "description": "Partner slowly establishes the high elbow guillotine structure step by step, pausing at each phase. You practice identifying each recognition cue verbally while establishing the correct defensive response: chin tuck with hand fighting on the wrist, turning the body to eliminate shoulder pressure, and framing at the hips for distance. No resistance from attacker. Repeat 20+ times until recognition becomes automatic and defensive positioning is reflexive."
+      },
+      {
+        "phase": "Phase 2: Early Prevention Drilling",
+        "focus": "Intercepting the high elbow guillotine during the setup phase before it is fully locked",
+        "description": "Partner attempts to establish the high elbow guillotine from front headlock at 40-50% speed. You practice early prevention: denying the deep grip by hand fighting before the arm wraps fully, pushing the elbow down when they attempt to elevate, and turning in when you feel the shoulder starting to drive. Reset after each attempt. Track success rate and aim for preventing establishment 7 out of 10 times before progressing."
+      },
+      {
+        "phase": "Phase 3: Escape Under Pressure",
+        "focus": "Escaping from a locked high elbow guillotine with progressive resistance",
+        "description": "Partner establishes the full high elbow guillotine structure with moderate finishing pressure (50-60%). Practice the escape hierarchy: turn and hand fight, create hip distance, posture recovery. Partner allows escape if correct technique is applied but maintains the choke if technique is incorrect. Increase attacker pressure over multiple rounds. Include drilling the Von Flue counter from guard pass. Always tap immediately if escape attempts fail within 5-6 seconds."
+      },
+      {
+        "phase": "Phase 4: Live Positional Defense",
+        "focus": "Defending the high elbow guillotine in live rolling conditions with full resistance from both partners",
+        "description": "Positional sparring starting from front headlock with attacker seeking high elbow guillotine and defender working full escape chain. Defender wins by extracting head and recovering to standing or guard with head free. Attacker wins by submission. Full speed and resistance. Rounds of 2 minutes. Develops realistic timing, composure under pressure, and ability to chain defensive responses when initial escape is blocked."
+      }
+    ]
+  },
+  "variations_and_setups": [
+    {
+      "variation_name": "Standing High Elbow Guillotine",
+      "description": "Applied from standing position with opponent's head controlled in front headlock. Attacker drives hips forward while maintaining high elbow position and shoulder pressure. Often finished while opponent is attempting to complete a takedown or after sprawling on their shot. The standing variation generates additional pressure through body weight and forward hip drive.",
+      "when_to_use": "When opponent shoots for takedown, during snap-down sequences, or when you want to maintain standing position rather than pulling guard. Particularly effective in no-gi competition where guard pulling is less advantageous."
+    },
+    {
+      "variation_name": "Guard Pull to High Elbow Guillotine",
+      "description": "From standing front headlock control with high elbow position established, attacker sits to guard while maintaining all upper body structure. The act of pulling guard often tightens the choke as it eliminates opponent's ability to create distance. Guard should be closed immediately upon sitting. This is one of the highest percentage entries in modern grappling.",
+      "when_to_use": "When standing finish is not immediately available or when opponent has strong base and takedown defense. The guard pull variation is favored in submission-only formats and IBJJF competition where the guard pull itself is relatively low-risk."
+    },
+    {
+      "variation_name": "Arm-In to High Elbow Transition",
+      "description": "Starting from traditional arm-in guillotine position, attacker strips opponent's trapped arm free while maintaining neck control, then elevates elbow into high elbow position. This transition is useful when the arm-in variation is defended but neck control remains solid. Requires brief moment of loosening grip to remove arm, then immediate re-tightening in new configuration.",
+      "when_to_use": "When opponent successfully defends arm-in guillotine by keeping their arm tight to their body or when you recognize the arm-in finish is not available but opponent's neck remains exposed."
+    },
+    {
+      "variation_name": "High Elbow from Turtle Position",
+      "description": "Opponent is in turtle position and attacker has front headlock control. Attacker establishes high elbow position while opponent is still on their knees, then either rolls opponent to guard or finishes from top position with shoulder pressure and high elbow maintained. The turtle entry often catches opponents unprepared as they focus on protecting their back.",
+      "when_to_use": "When attacking turtle position and opponent keeps their arms tight to their body, making darce or anaconda entries difficult. The high elbow allows finishing without needing to thread an arm through."
+    },
+    {
+      "variation_name": "Marce Combination Entry",
+      "description": "False entry showing arm-in or marce choke setup, then switching to high elbow as opponent defends by turning into you. The initial threat causes opponent to react, creating the opening for the high elbow configuration. This combination approach uses opponent's defensive movement against them.",
+      "when_to_use": "Against experienced opponents who defend guillotines well and know to turn into the choke. The combination approach creates indecision and allows you to capitalize on whatever defense they choose."
+    }
+  ]
 }

@@ -20,20 +20,20 @@ description: "Master Dead Orchard Control Bottom defense in BJJ. Systematic esca
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape",
-      "text": "From this position, attempt Hip Escape. This technique is attempted in 25% of exchanges from this position.",
+      "name": "Execute Shrimp Escape",
+      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 28% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling to Guard",
-      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 19% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll",
-      "text": "From this position, attempt Granby Roll. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Granby Roll to Guard",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
@@ -44,9 +44,15 @@ description: "Master Dead Orchard Control Bottom defense in BJJ. Systematic esca
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Standup",
-      "text": "From this position, attempt Technical Standup. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Hip Escape to Guard",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Escape Dead Orchard Control",
+      "text": "From this position, attempt Escape Dead Orchard Control. This technique is attempted in 6% of exchanges from this position.",
+      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -200,15 +206,19 @@ Dead Orchard Control Bottom represents one of the most disadvantageous positions
 
 ## Available Escapes
 
-### [[Hip Escape]] (25% of attempts)
+### [[Shrimp Escape]] (28% of attempts)
 
-### [[Rolling to Guard]] (20% of attempts)
+### [[Rolling to Guard]] (19% of attempts)
 
-### [[Granby Roll]] (18% of attempts)
+### [[Granby Roll to Guard]] (12% of attempts)
 
 ### [[Arm Extraction]] (20% of attempts)
 
-### [[Technical Standup]] (17% of attempts)
+### [[Hip Escape to Guard]] (12% of attempts)
+
+### [[Escape Dead Orchard Control]] (6% of attempts)
+
+### [[Roll from Dead Orchard]] (3% of attempts)
 
 
 
@@ -221,19 +231,25 @@ Dead Orchard Control Bottom represents one of the most disadvantageous positions
 **If opponent is actively working to lock anaconda or darce choke with arm trapped deep:**
 - Execute **[[Arm Extraction]]** → [[Front Headlock]] (Probability: 40%)
 - Execute **[[Rolling to Guard]]** → [[Closed Guard]] (Probability: 35%)
-- Execute **[[Hip Escape]]** → [[Turtle]] (Probability: 25%)
+- Execute **[[Shrimp Escape]]** → [[Turtle]] (Probability: 25%)
 
 
 **If opponent is transitioning to mount or back control rather than immediate submission:**
-- Execute **[[Hip Escape]]** → [[Turtle]] (Probability: 45%)
-- Execute **[[Granby Roll]]** → [[Half Guard]] (Probability: 30%)
-- Execute **[[Sit Out]]** → [[Turtle]] (Probability: 25%)
+- Execute **[[Hip Escape to Guard]]** → [[Open Guard]] (Probability: 45%)
+- Execute **[[Granby Roll to Guard]]** → [[Half Guard]] (Probability: 30%)
+- Execute **[[Sit Through to Guard]]** → [[Closed Guard]] (Probability: 25%)
 
 
 **If opponent's grip is loose or pressure is temporarily reduced:**
-- Execute **[[Hip Escape]]** → [[Turtle]] (Probability: 40%)
-- Execute **[[Technical Standup]]** → [[Standing Position]] (Probability: 35%)
+- Execute **[[Hip Escape to Guard]]** → [[Open Guard]] (Probability: 40%)
+- Execute **[[Standing Escape]]** → [[Clinch]] (Probability: 35%)
 - Execute **[[Rolling to Guard]]** → [[Closed Guard]] (Probability: 25%)
+
+
+**If opponent walks hips toward your head for anaconda finishing angle:**
+- Execute **[[Rolling to Guard]]** → [[Closed Guard]] (Probability: 45%)
+- Execute **[[Arm Extraction]]** → [[Front Headlock]] (Probability: 30%)
+- Execute **[[Granby Roll to Guard]]** → [[Open Guard]] (Probability: 25%)
 
 
 
@@ -380,7 +396,7 @@ Start in established dead orchard control bottom position. Bottom player works t
 - **[[Closed Guard]]** - Primary escape target - most achievable defensive goal
 - **[[Anaconda Choke]]** - Primary submission threat requiring specific defense
 - **[[Darce Choke]]** - Secondary submission threat with different mechanics
-- **[[Hip Escape]]** - Essential escape technique from compressed positions
+- **[[Shrimp Escape]]** - Essential escape technique from compressed positions
 - **[[Half Guard]]** - Secondary escape target accessible via granby roll
 
 

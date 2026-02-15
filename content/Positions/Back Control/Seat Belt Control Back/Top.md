@@ -21,19 +21,19 @@ description: "Master Seat Belt Control from top back position. Dominant 4-point 
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke",
-      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar from Back with Legs",
-      "text": "From this position, attempt Armbar from Back with Legs. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Armbar from Back Transition",
+      "text": "From this position, attempt Armbar from Back Transition. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar from Back",
-      "text": "From this position, attempt Armbar from Back. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Armbar Finish",
+      "text": "From this position, attempt Armbar Finish. This technique is attempted in 5% of exchanges from this position.",
       "position": 3
     },
     {
@@ -45,13 +45,13 @@ description: "Master Seat Belt Control from top back position. Dominant 4-point 
     {
       "@type": "HowToStep",
       "name": "Execute Back Control to Crucifix",
-      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle from Back",
-      "text": "From this position, attempt Triangle from Back. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Short Choke",
+      "text": "From this position, attempt Short Choke. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,23 +210,23 @@ Seat belt control excels when opponent is attempting to escape or defend, as the
 
 ## Available Attacks
 
-### [[Rear Naked Choke]] (14% of attempts)
+### [[Rear Naked Choke]] (25% of attempts)
 
-### [[Armbar from Back with Legs]] (12% of attempts)
+### [[Armbar from Back Transition]] (12% of attempts)
 
-### [[Armbar from Back]] (11% of attempts)
+### [[Armbar Finish]] (5% of attempts)
 
 ### [[Bow and Arrow Choke]] (10% of attempts)
 
-### [[Back Control to Crucifix]] (11% of attempts)
+### [[Back Control to Crucifix]] (8% of attempts)
 
-### [[Triangle from Back]] (7% of attempts)
+### [[Short Choke]] (7% of attempts)
 
-### [[Short Choke]] (8% of attempts)
+### [[Back Control Maintenance]] (20% of attempts)
 
-### [[Side Control to Mount]] (15% of attempts)
+### [[Body Triangle Lock]] (8% of attempts)
 
-### [[Turtle to Truck]] (12% of attempts)
+### [[Kimura from Back]] (5% of attempts)
 
 
 
@@ -237,13 +237,13 @@ Seat belt control excels when opponent is attempting to escape or defend, as the
 ## Decision Making from This Position
 
 **If opponent's hands move high to defend neck or break seat belt grip at chest level:**
-- Execute **[[Rear Naked Choke]]** → [[game-over]] (Probability: 65%)
-- Execute **[[Short Choke]]** → [[game-over]] (Probability: 45%)
+- Execute **[[Rear Naked Choke]]** → [[Game Over]] (Probability: 65%)
+- Execute **[[Short Choke]]** → [[Game Over]] (Probability: 45%)
 
 
 **If opponent tucks chin and defends neck with hands protecting throat area:**
-- Execute **[[Armbar from Back with Legs]]** → [[game-over]] (Probability: 55%)
-- Execute **[[Armbar from Back]]** → [[game-over]] (Probability: 50%)
+- Execute **[[Armbar from Back Transition]]** → [[Armbar Control]] (Probability: 55%)
+- Execute **[[Armbar Finish]]** → [[Game Over]] (Probability: 50%)
 
 
 **If opponent turns toward you attempting to face guard and escape hooks:**
@@ -253,12 +253,12 @@ Seat belt control excels when opponent is attempting to escape or defend, as the
 
 **If opponent extends arms attempting to base or post for escape leverage:**
 - Execute **[[Back Control to Crucifix]]** → [[Crucifix]] (Probability: 60%)
-- Execute **[[Kimura from Back]]** → [[game-over]] (Probability: 40%)
+- Execute **[[Kimura from Back]]** → [[Game Over]] (Probability: 40%)
 
 
 **If opponent turns away and attempts to remove bottom hook by hip movement:**
-- Execute **[[Bow and Arrow Choke]]** → [[game-over]] (Probability: 55%)
-- Execute **[[Turtle to Truck]]** → [[Truck]] (Probability: 50%)
+- Execute **[[Bow and Arrow Choke]]** → [[Game Over]] (Probability: 55%)
+- Execute **[[Roll to Truck]]** → [[Truck]] (Probability: 50%)
 
 
 
@@ -412,8 +412,8 @@ Start from turtle position. Practice taking back, establishing seat belt control
 - **[[Truck]]** - Transition target - Accessed when opponent turns away during escape attempts
 - **[[Turtle]]** - Common entry position - Frequently transition to seat belt from turtle via back take
 - **[[Technical Mount]]** - Alternative advancement - Position accessed when opponent partially escapes hooks
-- **[[Standing Back Control]]** - Variation - Seat belt configuration applied in standing position
-- **[[Twister Control]]** - Related submission position - Advanced control accessed from back positions
+- **[[Harness]]** - Related grip concept - Shares upper body control mechanics with seat belt configuration
+- **[[Rear Naked Choke]]** - Primary submission threat - Highest percentage finish from seat belt back control
 
 
 </section>

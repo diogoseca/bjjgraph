@@ -1,0 +1,13 @@
+{
+  "name": "Frame to Guard from Kesa Gatame",
+  "description": "",
+  "tags": [],
+  "from_position": "Kesa Gatame/Bottom",
+  "outcomes": [
+    {
+      "to": "Closed Guard/Top",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

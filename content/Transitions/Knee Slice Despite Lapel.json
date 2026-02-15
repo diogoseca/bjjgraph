@@ -1,6 +1,6 @@
 {
   "name": "Knee Slice Despite Lapel",
-  "description": "Master the Knee Slice Despite Lapel pass in BJJ. Complete guide to cutting through lapel guard configurations. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "description": "Master the Knee Slice Despite Lapel pass in BJJ. Complete guide to cutting through lapel guard configurations with precise angles and timing.",
   "tags": [
     "bjj",
     "guard-passing",
@@ -12,207 +12,28 @@
   "from_position": "Lapel Guard/Top",
   "outcomes": [
     {
-      "to": "Side Control",
+      "to": "Side Control/Top",
       "probability": 50,
       "result": "success"
     },
     {
-      "to": "Knee on Belly",
+      "to": "Knee on Belly/Top",
       "probability": 15,
       "result": "success"
     },
     {
-      "to": "Lapel Guard",
+      "to": "Lapel Guard/Top",
       "probability": 25,
       "result": "failure"
     },
     {
-      "to": "Half Guard",
+      "to": "Half Guard/Bottom",
       "probability": 10,
       "result": "counter"
     }
   ],
+  "success_rate": 58,
   "overview": "The Knee Slice Despite Lapel represents a specialized passing technique designed to complete the knee slice pass even when the opponent has established lapel guard configurations. Unlike standard knee slice mechanics that rely on unobstructed hip-to-hip contact, this variation addresses the unique barrier created by lapel fabric wrapped around your leg or torso.\n\nThe technique operates on the principle that lapel configurations create directional restrictions rather than complete immobility. By identifying the specific direction the lapel barrier blocks and moving perpendicular or tangent to that restriction, the passer can complete the slice while the opponent's lapel grip becomes ineffective. This requires precise reading of how the fabric is configured—worm guard restrictions differ significantly from squid guard restrictions.\n\nStrategically, this pass is most effective when combined with systematic lapel clearing sequences. Rather than fighting directly against the lapel barrier, you partially clear the obstruction, initiate the knee slice during the transition window, and complete the pass before the opponent can re-establish their configuration. The timing window is narrow, making this a technically demanding but highly effective solution for gi competition where lapel guards are prevalent.",
-  "key_principles": [
-    "Identify the specific direction the lapel configuration restricts before initiating the slice",
-    "Partially clear the lapel obstruction to create a passing window rather than fighting through it completely",
-    "Maintain heavy shoulder pressure throughout to prevent opponent from sitting up or re-establishing grips",
-    "Use the knee slice motion tangent to the lapel restriction rather than directly against it",
-    "Control the far hip with your free hand to prevent opponent from creating new angles",
-    "Commit fully once initiated—hesitation allows opponent to reconfigure their lapel control",
-    "Time the slice during opponent's grip adjustment phase when their control is momentarily weakened"
-  ],
-  "setup_requirements": [
-    "Combat base or kneeling position with clear identification of opponent's lapel configuration type",
-    "At least partial clearing of the primary lapel wrap to reduce directional restriction",
-    "Cross-face or collar grip established to prevent opponent from sitting up during pass attempt",
-    "Lead knee positioned at opponent's hip line ready to begin slicing motion",
-    "Opponent's far hip controlled or pinned to prevent them from creating defensive angles"
-  ],
-  "execution_steps": [
-    {
-      "step_number": 1,
-      "action": "Identify configuration",
-      "description": "Assess whether opponent has worm guard (leg wrap), squid guard (arm wrap), or hybrid configuration. This determines which direction the lapel restricts your movement and informs your passing angle."
-    },
-    {
-      "step_number": 2,
-      "action": "Partial lapel clear",
-      "description": "Work the lapel fabric partially off the restricted body part using technical unwinding motion. You don't need complete clearing—just enough to create a passing window where the fabric no longer blocks your hip advancement."
-    },
-    {
-      "step_number": 3,
-      "action": "Establish cross-face",
-      "description": "Secure deep underhook or cross-face grip on opponent's far side, driving your shoulder into their jaw line. This prevents them from sitting up to pursue back takes and creates the pressure foundation for the slice."
-    },
-    {
-      "step_number": 4,
-      "action": "Drop slicing knee",
-      "description": "Drive your lead knee across opponent's thigh toward the mat on their far hip side. The knee cuts at an angle tangent to the remaining lapel restriction rather than directly into it. Maintain heavy shoulder pressure throughout."
-    },
-    {
-      "step_number": 5,
-      "action": "Hip advancement",
-      "description": "As the knee clears their thigh, drive your hip forward and down to establish hip-to-hip contact. Your trailing leg backsteps to prevent them from recovering half guard while you consolidate the pass."
-    },
-    {
-      "step_number": 6,
-      "action": "Consolidate position",
-      "description": "Complete the pass by establishing side control or knee on belly. Strip any remaining lapel grips before they can be reconfigured. Secure your dominant position with standard controls before advancing to submissions."
-    }
-  ],
-  "common_counters": [
-    {
-      "counter": "Opponent sits up aggressively during slice to pursue back take",
-      "effectiveness": "High",
-      "your_response": "Increase cross-face pressure and switch hips to face them directly. If they continue sitting up, use their momentum to transition to front headlock position rather than fighting the back take from compromised angle."
-    },
-    {
-      "counter": "Opponent reconfigures lapel around your slicing leg mid-pass",
-      "effectiveness": "Medium",
-      "your_response": "Commit harder to the slice rather than stopping—the momentum often carries you through before the new configuration tightens. Alternatively, switch to pressure passing by abandoning the slice and smashing through the half-established grip."
-    },
-    {
-      "counter": "Opponent frames on your hip to create distance and prevent slice completion",
-      "effectiveness": "Medium",
-      "your_response": "Control their framing arm at the elbow with your free hand, pinning it to their body. This eliminates the frame while opening kimura opportunities if they persist in extending the arm."
-    },
-    {
-      "counter": "Opponent recovers quarter guard or half guard by trapping slicing leg",
-      "effectiveness": "Low",
-      "your_response": "Continue forward pressure from half guard position. The partial pass still represents significant advancement from lapel guard. Use standard half guard passing to complete from the improved position."
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Attempting knee slice without first partially clearing lapel configuration",
-      "consequence": "The fabric barrier blocks hip advancement completely, stalling the pass and draining energy while opponent maintains control",
-      "correction": "Always create a passing window by partially clearing the lapel before initiating the slice. Technical unwinding is more effective than muscular forcing."
-    },
-    {
-      "error": "Slicing directly into the lapel restriction rather than tangent to it",
-      "consequence": "The knee gets caught in the fabric, creating a tangled position that favors the guard player and opens sweep opportunities",
-      "correction": "Identify which direction the lapel restricts and slice perpendicular or tangent to that direction. Work with the remaining restriction rather than against it."
-    },
-    {
-      "error": "Neglecting cross-face pressure during the slice attempt",
-      "consequence": "Opponent sits up freely and takes your back as you focus on leg mechanics without upper body control",
-      "correction": "Establish heavy shoulder-to-jaw pressure before initiating knee mechanics. The upper body control is more important than the leg movement for success."
-    },
-    {
-      "error": "Hesitating mid-slice when feeling lapel resistance",
-      "consequence": "Pausing gives opponent time to reconfigure their grip and tighten control, making the pass impossible from the stalled position",
-      "correction": "Commit fully once initiated. The momentum of a committed slice often carries through partial resistance. Hesitation guarantees failure."
-    },
-    {
-      "error": "Leaving trailing leg extended rather than backstopping after slice",
-      "consequence": "Opponent easily recovers half guard by threading their bottom leg around your trailing leg during consolidation",
-      "correction": "As the slice completes, immediately backstep the trailing leg to deny half guard recovery. This should be automatic, not an afterthought."
-    }
-  ],
-  "training_progressions": [
-    {
-      "phase": "Week 1-2",
-      "focus": "Configuration recognition",
-      "description": "Partner establishes various lapel configurations while you practice identifying the type and determining which direction each restricts. No passing attempts—focus purely on reading the position and visualizing passing angles."
-    },
-    {
-      "phase": "Week 3-4",
-      "focus": "Partial clearing mechanics",
-      "description": "Practice technical lapel clearing sequences specific to each configuration type. Partner maintains moderate grip resistance while you work the fabric off systematically. Develop efficiency in clearing without excessive energy expenditure."
-    },
-    {
-      "phase": "Week 5-6",
-      "focus": "Integrated slice timing",
-      "description": "Combine partial clearing with immediate knee slice initiation. Partner provides moderate passing resistance. Focus on finding the timing window where clearing creates sufficient space for slice completion."
-    },
-    {
-      "phase": "Week 7+",
-      "focus": "Competition application",
-      "description": "Full resistance sparring starting from lapel guard. Partner actively reconfigures and counters while you apply the complete technique. Develop ability to chain to alternative passes when knee slice is blocked."
-    }
-  ],
-  "variants_and_adaptations": [
-    {
-      "variant_name": "Worm guard specific slice",
-      "description": "Against worm guard specifically, the slice angle moves laterally away from the wrapped leg. Strip the lapel from behind your knee while simultaneously driving cross-face pressure, then slice at a 45-degree angle toward opponent's far shoulder rather than straight down.",
-      "when_to_use": "When opponent has established worm guard with lapel wrapped behind your lead leg knee"
-    },
-    {
-      "variant_name": "Squid guard arm extraction slice",
-      "description": "Against squid guard arm configurations, use a two-step process: first create distance to reduce arm wrap tension, then dive your wrapped arm downward while simultaneously slicing. The arm extraction and knee slice happen as one motion.",
-      "when_to_use": "When opponent has squid guard with lapel controlling your posting arm"
-    },
-    {
-      "variant_name": "Pressure slice without clearing",
-      "description": "For simpler lapel configurations or opponents with weak grips, drive heavy forward pressure to flatten their guard, making the lapel configuration less effective, then slice through the compressed position using bodyweight advantage.",
-      "when_to_use": "Against opponents with weak lapel grips or incomplete configurations"
-    }
-  ],
-  "knowledge_assessment": [
-    {
-      "question": "What is the primary goal of Knee Slice Despite Lapel?",
-      "answer": "The primary goal is to complete the knee slice guard pass even when the opponent has established lapel guard configurations that would normally block standard passing mechanics. Rather than fully clearing the lapel before passing, this technique creates a window through partial clearing and precise slice angles."
-    },
-    {
-      "question": "What position do you start Knee Slice Despite Lapel from?",
-      "answer": "This technique starts from Lapel Guard Top position, where you are attempting to pass and your opponent has established some form of lapel guard configuration—typically worm guard, squid guard, or a hybrid variation using their own gi lapel to create barriers."
-    },
-    {
-      "question": "What are the key grips needed for Knee Slice Despite Lapel?",
-      "answer": "The essential grips are a deep cross-face or collar grip to control the opponent's upper body and prevent sitting up, plus a far hip control grip to prevent angle creation. The cross-face is more critical than any lapel-related grip since upper body control determines pass success."
-    },
-    {
-      "question": "How do you counter Knee Slice Despite Lapel when playing guard?",
-      "answer": "The most effective counter is sitting up aggressively to pursue the back take when the passer commits to the slice. If they establish strong cross-face, reconfigure the lapel around their slicing leg mid-pass or frame on the hip to create distance before they consolidate."
-    },
-    {
-      "question": "When is the best time to attempt Knee Slice Despite Lapel?",
-      "answer": "The optimal timing is immediately after partially clearing the lapel configuration, during the transition window when opponent is adjusting their grip to re-establish control. This window typically lasts 1-2 seconds before they can reconfigure, requiring decisive commitment."
-    },
-    {
-      "question": "Your opponent has worm guard with the lapel behind your lead knee—what angle should your slice take?",
-      "answer": "Slice at a 45-degree angle toward opponent's far shoulder rather than straight down. The worm guard restricts direct downward movement, so the tangential angle bypasses the restriction while your cross-face pressure prevents them from following the angle with their hips."
-    },
-    {
-      "question": "What is the critical difference between this pass and standard knee slice mechanics?",
-      "answer": "Standard knee slice relies on unobstructed hip-to-hip contact and direct downward pressure. This variation identifies directional restrictions created by the lapel and moves tangent to them, often requiring modified slice angles and mandatory partial clearing before initiation."
-    },
-    {
-      "question": "If opponent starts sitting up mid-slice to take your back, what is the correct response?",
-      "answer": "Increase cross-face pressure immediately and switch your hips to face them directly. If they continue sitting up despite the pressure, convert their momentum into a front headlock position rather than fighting the back take from a compromised angle. Don't abandon upper body control to save your legs."
-    },
-    {
-      "question": "Why is hesitation mid-slice particularly dangerous against lapel guard?",
-      "answer": "Hesitation gives the opponent time to reconfigure their lapel grip around your stalled leg, potentially creating an even stronger configuration than they started with. The narrow passing window closes quickly, and a stalled slice leaves you in the worst possible position—committed but immobile."
-    },
-    {
-      "question": "What should you do immediately after completing the slice but before consolidating position?",
-      "answer": "Backstep your trailing leg to deny half guard recovery, then strip any remaining lapel grips before they can be reconfigured. The backstep and grip stripping should happen as one continuous motion—consolidating without clearing the lapel invites immediate re-engagement of their guard system."
-    }
-  ],
-  "safety_considerations": "The Knee Slice Despite Lapel is generally low-risk when executed with proper technique. Primary injury concerns involve knee stress on the slicing leg if it gets tangled in lapel fabric while torquing. Never force the slice if your knee is wrapped—stop and clear the obstruction first. Training partners should communicate immediately if they feel knee pressure from awkward fabric entanglement. Neck strain can occur from aggressive cross-face pressure, so drilling partners should tap to excessive pressure rather than fighting through it. In competition, be aware that combined lapel and knee entanglement can create positions requiring careful extraction rather than explosive movement.",
-  "position_integration": "The Knee Slice Despite Lapel fills a critical gap in gi passing systems where standard knee slice mechanics fail against modern lapel guard configurations. This technique chains naturally from lapel clearing sequences—Backstep Around Worm Guard and Lapel Clear to Toreando Pass create opportunities when knife slice becomes available. Upon completion, the pass leads directly to Side Control or Knee on Belly, from which standard submission chains become available. The technique fits within a broader lapel-passing framework alongside Pressure Pass Through Squid and Long Step Around Ringworm, giving passers multiple options based on specific lapel configuration encountered. Understanding this pass is essential for any gi competitor facing the modern lapel guard meta.",
   "related_content": [
     {
       "name": "Lapel Guard",
@@ -255,5 +76,338 @@
       "relationship": "Often combined with lapel configurations affecting passing approach"
     }
   ],
-  "success_rate": 58
+  "attacker": {
+    "name": "Knee Slice Despite Lapel Attacker",
+    "description": "How to execute Knee Slice Despite Lapel in BJJ. Attacking perspective with setup, execution steps, and counters.",
+    "overview": "The Knee Slice Despite Lapel represents a specialized passing technique designed to complete the knee slice pass even when the opponent has established lapel guard configurations. Unlike standard knee slice mechanics that rely on unobstructed hip-to-hip contact, this variation addresses the unique barrier created by lapel fabric wrapped around your leg or torso.\n\nThe technique operates on the principle that lapel configurations create directional restrictions rather than complete immobility. By identifying the specific direction the lapel barrier blocks and moving perpendicular or tangent to that restriction, the passer can complete the slice while the opponent's lapel grip becomes ineffective. This requires precise reading of how the fabric is configured—worm guard restrictions differ significantly from squid guard restrictions.\n\nStrategically, this pass is most effective when combined with systematic lapel clearing sequences. Rather than fighting directly against the lapel barrier, you partially clear the obstruction, initiate the knee slice during the transition window, and complete the pass before the opponent can re-establish their configuration. The timing window is narrow, making this a technically demanding but highly effective solution for gi competition where lapel guards are prevalent.",
+    "key_principles": [
+      "Identify the specific direction the lapel configuration restricts before initiating the slice",
+      "Partially clear the lapel obstruction to create a passing window rather than fighting through it completely",
+      "Maintain heavy shoulder pressure throughout to prevent opponent from sitting up or re-establishing grips",
+      "Use the knee slice motion tangent to the lapel restriction rather than directly against it",
+      "Control the far hip with your free hand to prevent opponent from creating new angles",
+      "Commit fully once initiated—hesitation allows opponent to reconfigure their lapel control",
+      "Time the slice during opponent's grip adjustment phase when their control is momentarily weakened"
+    ],
+    "setup_requirements": [
+      "Combat base or kneeling position with clear identification of opponent's lapel configuration type",
+      "At least partial clearing of the primary lapel wrap to reduce directional restriction",
+      "Cross-face or collar grip established to prevent opponent from sitting up during pass attempt",
+      "Lead knee positioned at opponent's hip line ready to begin slicing motion",
+      "Opponent's far hip controlled or pinned to prevent them from creating defensive angles"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Identify configuration",
+        "description": "Assess whether opponent has worm guard (leg wrap), squid guard (arm wrap), or hybrid configuration. This determines which direction the lapel restricts your movement and informs your passing angle."
+      },
+      {
+        "step_number": 2,
+        "action": "Partial lapel clear",
+        "description": "Work the lapel fabric partially off the restricted body part using technical unwinding motion. You don't need complete clearing—just enough to create a passing window where the fabric no longer blocks your hip advancement."
+      },
+      {
+        "step_number": 3,
+        "action": "Establish cross-face",
+        "description": "Secure deep underhook or cross-face grip on opponent's far side, driving your shoulder into their jaw line. This prevents them from sitting up to pursue back takes and creates the pressure foundation for the slice."
+      },
+      {
+        "step_number": 4,
+        "action": "Drop slicing knee",
+        "description": "Drive your lead knee across opponent's thigh toward the mat on their far hip side. The knee cuts at an angle tangent to the remaining lapel restriction rather than directly into it. Maintain heavy shoulder pressure throughout."
+      },
+      {
+        "step_number": 5,
+        "action": "Hip advancement",
+        "description": "As the knee clears their thigh, drive your hip forward and down to establish hip-to-hip contact. Your trailing leg backsteps to prevent them from recovering half guard while you consolidate the pass."
+      },
+      {
+        "step_number": 6,
+        "action": "Consolidate position",
+        "description": "Complete the pass by establishing side control or knee on belly. Strip any remaining lapel grips before they can be reconfigured. Secure your dominant position with standard controls before advancing to submissions."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent sits up aggressively during slice to pursue back take",
+        "effectiveness": "High",
+        "your_response": "Increase cross-face pressure and switch hips to face them directly. If they continue sitting up, use their momentum to transition to front headlock position rather than fighting the back take from compromised angle.",
+        "targets_outcome": "Lapel Guard/Top"
+      },
+      {
+        "counter": "Opponent reconfigures lapel around your slicing leg mid-pass",
+        "effectiveness": "Medium",
+        "your_response": "Commit harder to the slice rather than stopping—the momentum often carries you through before the new configuration tightens. Alternatively, switch to pressure passing by abandoning the slice and smashing through the half-established grip.",
+        "targets_outcome": "Lapel Guard/Top"
+      },
+      {
+        "counter": "Opponent frames on your hip to create distance and prevent slice completion",
+        "effectiveness": "Medium",
+        "your_response": "Control their framing arm at the elbow with your free hand, pinning it to their body. This eliminates the frame while opening kimura opportunities if they persist in extending the arm.",
+        "targets_outcome": "Lapel Guard/Top"
+      },
+      {
+        "counter": "Opponent recovers quarter guard or half guard by trapping slicing leg",
+        "effectiveness": "Low",
+        "your_response": "Continue forward pressure from half guard position. The partial pass still represents significant advancement from lapel guard. Use standard half guard passing to complete from the improved position.",
+        "targets_outcome": "Half Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting knee slice without first partially clearing lapel configuration",
+        "consequence": "The fabric barrier blocks hip advancement completely, stalling the pass and draining energy while opponent maintains control",
+        "correction": "Always create a passing window by partially clearing the lapel before initiating the slice. Technical unwinding is more effective than muscular forcing."
+      },
+      {
+        "error": "Slicing directly into the lapel restriction rather than tangent to it",
+        "consequence": "The knee gets caught in the fabric, creating a tangled position that favors the guard player and opens sweep opportunities",
+        "correction": "Identify which direction the lapel restricts and slice perpendicular or tangent to that direction. Work with the remaining restriction rather than against it."
+      },
+      {
+        "error": "Neglecting cross-face pressure during the slice attempt",
+        "consequence": "Opponent sits up freely and takes your back as you focus on leg mechanics without upper body control",
+        "correction": "Establish heavy shoulder-to-jaw pressure before initiating knee mechanics. The upper body control is more important than the leg movement for success."
+      },
+      {
+        "error": "Hesitating mid-slice when feeling lapel resistance",
+        "consequence": "Pausing gives opponent time to reconfigure their grip and tighten control, making the pass impossible from the stalled position",
+        "correction": "Commit fully once initiated. The momentum of a committed slice often carries through partial resistance. Hesitation guarantees failure."
+      },
+      {
+        "error": "Leaving trailing leg extended rather than backstopping after slice",
+        "consequence": "Opponent easily recovers half guard by threading their bottom leg around your trailing leg during consolidation",
+        "correction": "As the slice completes, immediately backstep the trailing leg to deny half guard recovery. This should be automatic, not an afterthought."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Configuration recognition",
+        "description": "Partner establishes various lapel configurations while you practice identifying the type and determining which direction each restricts. No passing attempts—focus purely on reading the position and visualizing passing angles."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Partial clearing mechanics",
+        "description": "Practice technical lapel clearing sequences specific to each configuration type. Partner maintains moderate grip resistance while you work the fabric off systematically. Develop efficiency in clearing without excessive energy expenditure."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Integrated slice timing",
+        "description": "Combine partial clearing with immediate knee slice initiation. Partner provides moderate passing resistance. Focus on finding the timing window where clearing creates sufficient space for slice completion."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Competition application",
+        "description": "Full resistance sparring starting from lapel guard. Partner actively reconfigures and counters while you apply the complete technique. Develop ability to chain to alternative passes when knee slice is blocked."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary goal of Knee Slice Despite Lapel?",
+        "answer": "The primary goal is to complete the knee slice guard pass even when the opponent has established lapel guard configurations that would normally block standard passing mechanics. Rather than fully clearing the lapel before passing, this technique creates a window through partial clearing and precise slice angles."
+      },
+      {
+        "question": "What position do you start Knee Slice Despite Lapel from?",
+        "answer": "This technique starts from Lapel Guard Top position, where you are attempting to pass and your opponent has established some form of lapel guard configuration—typically worm guard, squid guard, or a hybrid variation using their own gi lapel to create barriers."
+      },
+      {
+        "question": "What are the key grips needed for Knee Slice Despite Lapel?",
+        "answer": "The essential grips are a deep cross-face or collar grip to control the opponent's upper body and prevent sitting up, plus a far hip control grip to prevent angle creation. The cross-face is more critical than any lapel-related grip since upper body control determines pass success."
+      },
+      {
+        "question": "When is the best time to attempt Knee Slice Despite Lapel?",
+        "answer": "The optimal timing is immediately after partially clearing the lapel configuration, during the transition window when opponent is adjusting their grip to re-establish control. This window typically lasts 1-2 seconds before they can reconfigure, requiring decisive commitment."
+      },
+      {
+        "question": "Your opponent has worm guard with the lapel behind your lead knee—what angle should your slice take?",
+        "answer": "Slice at a 45-degree angle toward opponent's far shoulder rather than straight down. The worm guard restricts direct downward movement, so the tangential angle bypasses the restriction while your cross-face pressure prevents them from following the angle with their hips."
+      },
+      {
+        "question": "What is the critical difference between this pass and standard knee slice mechanics?",
+        "answer": "Standard knee slice relies on unobstructed hip-to-hip contact and direct downward pressure. This variation identifies directional restrictions created by the lapel and moves tangent to them, often requiring modified slice angles and mandatory partial clearing before initiation."
+      },
+      {
+        "question": "Your opponent frames hard on your hip with both hands as you begin the slice—how do you adjust?",
+        "answer": "Control the nearest framing arm at the elbow with your free hand and pin it against their body, collapsing the frame. If both arms are committed to framing, their lapel reconfiguration ability is zero—use that window to drive the slice through with full commitment. The extended arms also become vulnerable to kimura or armbar if you need to switch attacks."
+      },
+      {
+        "question": "If opponent starts sitting up mid-slice to take your back, what is the correct response?",
+        "answer": "Increase cross-face pressure immediately and switch your hips to face them directly. If they continue sitting up despite the pressure, convert their momentum into a front headlock position rather than fighting the back take from a compromised angle. Don't abandon upper body control to save your legs."
+      },
+      {
+        "question": "Why is hesitation mid-slice particularly dangerous against lapel guard?",
+        "answer": "Hesitation gives the opponent time to reconfigure their lapel grip around your stalled leg, potentially creating an even stronger configuration than they started with. The narrow passing window closes quickly, and a stalled slice leaves you in the worst possible position—committed but immobile."
+      },
+      {
+        "question": "What should you do immediately after completing the slice but before consolidating position?",
+        "answer": "Backstep your trailing leg to deny half guard recovery, then strip any remaining lapel grips before they can be reconfigured. The backstep and grip stripping should happen as one continuous motion—consolidating without clearing the lapel invites immediate re-engagement of their guard system."
+      },
+      {
+        "question": "Your knee slice stalls because the opponent reconfigures the lapel mid-pass—what chain attack do you use?",
+        "answer": "Switch to pressure passing by dropping your weight and smashing through the half-established grip rather than continuing the stalled slice. Alternatively, abandon the knee slice entirely and backstep to initiate a long step pass or toreando from the angle the stall created. The key is never remaining static in a stalled position against active lapel grips."
+      },
+      {
+        "question": "What direction of force should you apply through the cross-face during the slice?",
+        "answer": "Drive diagonally across and down, pushing the opponent's jaw away from you and toward the mat on their far side. This force vector serves dual purposes: it prevents them from sitting up to pursue back takes and it creates rotational torque that turns their upper body away from your slicing leg, reducing their ability to reconfigure the lapel around your knee."
+      }
+    ],
+    "safety_considerations": "The Knee Slice Despite Lapel is generally low-risk when executed with proper technique. Primary injury concerns involve knee stress on the slicing leg if it gets tangled in lapel fabric while torquing. Never force the slice if your knee is wrapped—stop and clear the obstruction first. Training partners should communicate immediately if they feel knee pressure from awkward fabric entanglement. Neck strain can occur from aggressive cross-face pressure, so drilling partners should tap to excessive pressure rather than fighting through it. In competition, be aware that combined lapel and knee entanglement can create positions requiring careful extraction rather than explosive movement."
+  },
+  "defender": {
+    "name": "Knee Slice Despite Lapel Defender",
+    "description": "How to defend against Knee Slice Despite Lapel in BJJ. Recognition cues, defensive options, and escape strategies.",
+    "overview": "Defending the Knee Slice Despite Lapel requires the bottom player to understand that their lapel configuration—while powerful—is not an impenetrable wall. The passer will attempt to partially clear the lapel obstruction and slice through the remaining gap at an angle that circumvents the directional restriction. Your defense centers on maintaining the integrity of the lapel configuration, reconfiguring when partially cleared, and capitalizing on the passer's commitment to the slice to create back take or sweep opportunities.\n\nThe critical defensive window occurs between the passer's partial lapel clear and their slice initiation. If you can reconfigure the lapel during this gap, the pass fails. If you cannot reconfigure, your secondary defense shifts to sitting up aggressively to threaten back takes, framing to prevent hip advancement, or inserting a knee shield to force half guard recovery. Understanding which defensive layer applies at each moment—lapel maintenance, reconfiguration, positional defense, or guard recovery—determines whether you retain your guard or concede the pass.",
+    "key_principles": [
+      "Maintain lapel configuration tension at all times—a slack lapel is a cleared lapel waiting to happen",
+      "Reconfigure the lapel immediately when partially stripped rather than accepting the weakened grip",
+      "Sit up aggressively when the passer commits to the slice to threaten back takes and disrupt their pressure",
+      "Use hip mobility to follow the passer's angle changes, keeping the lapel barrier between your bodies",
+      "Frame on the cross-face shoulder to prevent the pressure that enables the slice",
+      "Insert knee shield early if the slice begins—half guard is far better than conceding side control",
+      "Never allow the passer to establish cross-face and far hip control simultaneously before you act"
+    ],
+    "recognition_cues": [
+      "Passer begins technical unwinding motions on your lapel grip, working fabric off their leg or arm with deliberate hand positioning rather than explosive pulling",
+      "Passer drops into combat base with lead knee at your hip line while securing cross-face or collar grip—this posture telegraphs the slice initiation",
+      "Passer's shoulder pressure increases dramatically on your jaw side while their free hand controls your far hip, establishing the dual control needed for the slice",
+      "Passer shifts their weight forward and angles their lead knee toward your far hip rather than driving straight down—the tangential angle is the signature of this specific lapel pass"
+    ],
+    "defensive_options": [
+      {
+        "action": "Reconfigure lapel around slicing leg during partial clear",
+        "when_to_use": "Immediately when you feel the lapel tension decrease from their clearing attempt, before they initiate the knee slice",
+        "targets_outcome": "Lapel Guard/Top",
+        "if_successful": "Lapel guard is re-established with potentially stronger configuration around their now-committed leg, resetting the exchange in your favor",
+        "risk": "If you spend too long reconfiguring and they have already committed to the slice, your hands are occupied with fabric rather than framing, accelerating the pass"
+      },
+      {
+        "action": "Sit up aggressively to pursue back take when passer commits to slice",
+        "when_to_use": "When the passer drives their knee across your thigh and their weight shifts laterally, creating space behind them for you to follow",
+        "targets_outcome": "Lapel Guard/Top",
+        "if_successful": "You achieve back control or force the passer to abandon the slice and address the back take threat, resetting the exchange from a dominant angle",
+        "risk": "Strong cross-face pressure can prevent the sit-up entirely, and a failed back take attempt leaves you with compromised posture and no frames"
+      },
+      {
+        "action": "Insert knee shield and recover to half guard",
+        "when_to_use": "When the slice is already in progress and lapel reconfiguration or sit-up is no longer viable—your last line of defense before the pass completes",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You establish half guard with knee shield, which is a defensible position from which you can work standard half guard retention and sweeps",
+        "risk": "Passer may use their momentum to smash through a weak knee shield and complete the pass to side control anyway"
+      },
+      {
+        "action": "Frame on cross-face shoulder to prevent pressure establishment",
+        "when_to_use": "Early in the sequence when passer is attempting to secure the cross-face grip before initiating the slice",
+        "targets_outcome": "Lapel Guard/Top",
+        "if_successful": "Without cross-face pressure, the passer cannot control your upper body during the slice, making the pass far less likely to succeed",
+        "risk": "Extended framing arms can be targeted for kimura or armbar if the passer switches to arm attacks"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Lapel Guard/Top",
+        "how": "Reconfigure your lapel grip immediately when you feel the clearing attempt, threading the fabric around a new anchor point on their body. Alternatively, sit up aggressively when they commit to the slice to force them to abandon the pass and address your back take threat. The goal is resetting the exchange with your lapel guard intact or improved."
+      },
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "When the slice is already in motion and you cannot reconfigure or sit up, insert your inside knee across their hip line to establish knee shield half guard. Turn onto your side facing them, establish an underhook on the slicing side, and work standard half guard retention. This represents damage control—you conceded the lapel guard but prevented the full pass."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Holding a slack lapel configuration without maintaining active tension on the fabric",
+        "consequence": "The passer clears the lapel with minimal effort, creating a wide passing window that makes the slice trivially easy to complete",
+        "correction": "Constantly maintain tension on the lapel by adjusting your grip and body angle to keep the fabric taut against the passer's body. Use your hips and legs to augment grip tension rather than relying solely on hand strength."
+      },
+      {
+        "error": "Lying flat on your back instead of maintaining hip mobility and angle",
+        "consequence": "A flat body presents no defensive structure against the slice—the passer's cross-face pins you completely and the knee cuts through without obstruction",
+        "correction": "Stay on your side with hips angled toward the lapel grip. Active hip positioning keeps the lapel barrier aligned between your bodies and enables you to follow the passer's movement rather than being pinned under it."
+      },
+      {
+        "error": "Attempting to hold the passer in place rather than following their movement during the slice",
+        "consequence": "Static defense fails against a committed slice because the passer's momentum and angle change defeat any single fixed grip or frame position",
+        "correction": "Flow with the passer's movement—if they angle their slice toward your far shoulder, rotate your hips to follow and maintain the lapel barrier alignment. Treat defense as dynamic repositioning, not static resistance."
+      },
+      {
+        "error": "Reaching for the passer's far leg or belt with arms extended during the slice",
+        "consequence": "Extended arms leave your upper body unprotected, allowing the passer to collapse your frames and accelerate through the pass. Arms are also exposed to kimura attacks.",
+        "correction": "Keep defensive frames close to your body, using elbows and forearms rather than reaching. Control distance with hip movement and lapel tension rather than extended arm grabs."
+      },
+      {
+        "error": "Waiting too long to insert knee shield when the pass is clearly succeeding",
+        "consequence": "The passer completes the slice to side control with full consolidation, bypassing the half guard recovery window entirely",
+        "correction": "Recognize when lapel defense has failed and immediately transition to knee shield insertion. Half guard is an acceptable fallback—side control is not. Make the decision early rather than hoping the lapel holds."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the first thing you should do when you feel your lapel grip tension decreasing?",
+        "answer": "Immediately reconfigure the lapel around a new anchor point on the passer's body. The moment tension decreases, your defensive barrier is compromised. Re-thread the fabric before they can initiate the slice through the weakened configuration. Speed of reconfiguration determines whether the exchange resets or the pass succeeds."
+      },
+      {
+        "question": "When is sitting up for a back take most effective against this pass?",
+        "answer": "The optimal moment is when the passer commits their weight laterally into the slice, creating space behind them. Their forward commitment to the knee cut means their back is exposed and they cannot easily retract. If you sit up before they establish cross-face pressure, their slice becomes a path to your back take rather than their pass completion."
+      },
+      {
+        "question": "Why is inserting a knee shield considered a last resort rather than a primary defense?",
+        "answer": "Knee shield concedes the lapel guard entirely, which was your dominant position. You transition from an offensive guard with sweep and back take potential to a defensive half guard where the passer holds the initiative. It is necessary when the pass is succeeding, but the primary goal should always be maintaining or reconfiguring the lapel guard first."
+      },
+      {
+        "question": "Your opponent has partially cleared the worm guard and starts the tangential slice—what defensive adjustment addresses the angle?",
+        "answer": "Rotate your hips to follow their slice angle, keeping your lapel grip side facing them rather than lying flat. If they angle toward your far shoulder at 45 degrees, rotate your hips 45 degrees in the same direction so the remaining lapel barrier stays between your bodies. This hip rotation also loads your sit-up mechanics for the back take threat."
+      },
+      {
+        "question": "How do you distinguish between a committed slice attempt and a feint designed to draw a reaction?",
+        "answer": "A committed slice shows simultaneous cross-face pressure increase, far hip control, and lead knee driving across your thigh. A feint typically lacks one of these elements—usually the cross-face pressure. React to the combination of all three signals rather than any single cue. Overreacting to feints by sitting up prematurely exposes you to smash passing when they redirect."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Lapel tension maintenance",
+        "description": "Partner attempts to clear your lapel configuration with progressively increasing intensity. Practice maintaining tension through hip adjustments and grip reconfiguration without any passing attempts. Build the habit of constant fabric management and learn to feel when tension is being compromised."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Reconfiguration under pressure",
+        "description": "Partner partially clears your lapel and pauses. Practice re-threading the fabric around a new anchor point within 2 seconds. Build speed and reliability in reconfiguration. Then add the partner initiating the slice after partial clearing to develop the urgency of fast reconfiguration."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Sit-up timing and back take threat",
+        "description": "Partner executes the full knee slice sequence. Practice sitting up at the correct moment during their slice commitment to threaten back takes. Develop sensitivity to the timing window where their lateral weight shift exposes their back. Partner provides moderate resistance to the back take."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Full defensive chain integration",
+        "description": "Full resistance sparring from lapel guard. Practice the complete defensive hierarchy: maintain tension, reconfigure if cleared, sit up for back take if slice initiates, insert knee shield as last resort. Develop fluid transitions between defensive layers based on what the passer gives you."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Worm guard specific slice",
+      "description": "Against worm guard specifically, the slice angle moves laterally away from the wrapped leg. Strip the lapel from behind your knee while simultaneously driving cross-face pressure, then slice at a 45-degree angle toward opponent's far shoulder rather than straight down.",
+      "when_to_use": "When opponent has established worm guard with lapel wrapped behind your lead leg knee"
+    },
+    {
+      "variant_name": "Squid guard arm extraction slice",
+      "description": "Against squid guard arm configurations, use a two-step process: first create distance to reduce arm wrap tension, then dive your wrapped arm downward while simultaneously slicing. The arm extraction and knee slice happen as one motion.",
+      "when_to_use": "When opponent has squid guard with lapel controlling your posting arm"
+    },
+    {
+      "variant_name": "Pressure slice without clearing",
+      "description": "For simpler lapel configurations or opponents with weak grips, drive heavy forward pressure to flatten their guard, making the lapel configuration less effective, then slice through the compressed position using bodyweight advantage.",
+      "when_to_use": "Against opponents with weak lapel grips or incomplete configurations"
+    }
+  ],
+  "conditions": [
+    "Opponent has established a lapel guard configuration (worm, squid, or hybrid) that blocks standard passing mechanics",
+    "Passer has identified the specific lapel restriction direction and determined the tangential slice angle",
+    "At least partial clearing of the lapel has been achieved to create a passing window",
+    "Cross-face or collar control is established to prevent opponent from sitting up during the pass"
+  ],
+  "position_integration": "The Knee Slice Despite Lapel fills a critical gap in gi passing systems where standard knee slice mechanics fail against modern lapel guard configurations. This technique chains naturally from lapel clearing sequences—Backstep Around Worm Guard and Lapel Clear to Toreando Pass create opportunities when the knee slice becomes available. Upon completion, the pass leads directly to Side Control or Knee on Belly, from which standard submission chains become available. The technique fits within a broader lapel-passing framework alongside Pressure Pass Through Squid and Long Step Around Ringworm, giving passers multiple options based on specific lapel configuration encountered. Understanding this pass is essential for any gi competitor facing the modern lapel guard meta."
 }

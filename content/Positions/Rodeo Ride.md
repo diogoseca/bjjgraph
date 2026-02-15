@@ -93,19 +93,23 @@ Rodeo Ride is particularly effective in both gi and no-gi contexts, though the s
 ### Available Transitions
 
 
-- **[[Turtle to Guard]]** (20% of attempts)
+- **[[Turtle to Guard]]** (27% of attempts)
 
-- **[[Technical Stand-up]]** (18% of attempts)
+- **[[Technical Stand-up]]** (16% of attempts)
 
-- **[[Granby Roll]]** (15% of attempts)
+- **[[Granby Roll to Guard]]** (13% of attempts)
 
-- **[[Rolling to Guard]]** (17% of attempts)
+- **[[Rolling to Guard]]** (15% of attempts)
 
-- **[[Elbow Escape]]** (12% of attempts)
+- **[[Elbow Escape to Guard]]** (10% of attempts)
 
-- **[[Sit Through Escape]]** (10% of attempts)
+- **[[Sit Through Escape]]** (8% of attempts)
 
-- **[[Standing up in Base]]** (8% of attempts)
+- **[[Standing up in Base]]** (6% of attempts)
+
+- **[[Roll from Rodeo Ride]]** (3% of attempts)
+
+- **[[Shake Off Rodeo Ride]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -170,23 +174,27 @@ Rodeo Ride is particularly effective in both gi and no-gi contexts, though the s
 ### Available Transitions
 
 
-- **[[Turtle to Back Take]]** (18% of attempts)
+- **[[Turtle to Back Take]]** (31% of attempts)
 
-- **[[Crab Ride to Back]]** (15% of attempts)
+- **[[Crab Ride to Back]]** (13% of attempts)
 
-- **[[Turtle to Truck]]** (12% of attempts)
+- **[[Turtle to Truck]]** (10% of attempts)
 
-- **[[Crucifix from Turtle]]** (12% of attempts)
+- **[[Crucifix from Turtle]]** (10% of attempts)
 
-- **[[Clock Choke]]** (10% of attempts)
+- **[[Clock Choke]]** (8% of attempts)
 
-- **[[Bow and Arrow Choke]]** (8% of attempts)
+- **[[Bow and Arrow Choke]]** (6% of attempts)
 
-- **[[Side Control to Mount]]** (10% of attempts)
+- **[[Consolidate Mount]]** (8% of attempts)
 
-- **[[Rolling Back Take]]** (8% of attempts)
+- **[[Rolling Back Take]]** (6% of attempts)
 
-- **[[Darce from Turtle]]** (7% of attempts)
+- **[[Darce from Turtle]]** (5% of attempts)
+
+- **[[Rodeo Ride to Back Control]]** (2% of attempts)
+
+- **[[Rodeo Ride to Turtle]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -234,8 +242,6 @@ Rodeo Ride is particularly effective in both gi and no-gi contexts, though the s
 - **[[Back Control]]** - Primary advancement target from Rodeo Ride
 
 - **[[Crab Ride]]** - Related turtle attack position with similar control mechanics
-
-- **[[Twister Control]]** - Alternative advancement position when opponent turns away
 
 - **[[Crucifix]]** - Submission position accessible from Rodeo Ride when opponent extends arms
 

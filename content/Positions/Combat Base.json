@@ -279,5 +279,37 @@
       "value": 12
     },
     "average_time": "30-90 seconds in competitive BJJ depending on guard style and passing strategy"
+  },
+  "top": {
+    "transitions": [
+      {
+        "transition": "Combat Base to Headquarters",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Knee Slide from Combat Base",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Standing Up from Combat Base",
+        "attempt_probability": 0
+      }
+    ]
+  },
+  "bottom": {
+    "transitions": [
+      {
+        "transition": "Guard Recovery from Combat Base",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Pull Guard from Combat Base",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Stand Up from Combat Base",
+        "attempt_probability": 0
+      }
+    ]
   }
 }

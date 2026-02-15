@@ -21,37 +21,37 @@ description: "Master Knee Shield Half Guard Bottom in BJJ. Essential defensive h
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 7% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take Generic",
-      "text": "From this position, attempt Back Take Generic. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Half Guard to Back Take",
+      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 6% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Entry",
-      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Lumberjack Sweep",
-      "text": "From this position, attempt Lumberjack Sweep. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Lumberjack Sweep. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,19 +209,31 @@ The knee shield half guard has become a cornerstone position in modern competiti
 
 ## Available Escapes
 
-### [[Old School Sweep]] (16% of attempts)
+### [[Old School Sweep]] (10% of attempts)
 
-### [[Underhook Sweep from Half]] (14% of attempts)
+### [[Underhook Sweep from Half]] (7% of attempts)
 
-### [[Deep Half Entry]] (17% of attempts)
+### [[Deep Half Entry]] (9% of attempts)
 
-### [[Back Take Generic]] (13% of attempts)
+### [[Half Guard to Back Take]] (6% of attempts)
 
-### [[Single Leg X Entry]] (14% of attempts)
+### [[Single Leg X Entry]] (7% of attempts)
 
-### [[Lumberjack Sweep]] (14% of attempts)
+### [[Lumberjack Sweep]] (6% of attempts)
 
-### [[Kimura from Half Guard]] (12% of attempts)
+### [[Kimura]] (5% of attempts)
+
+### [[Transition to Z-Guard]] (3% of attempts)
+
+### [[Knee Shield Retention]] (40% of attempts)
+
+### [[Elevator Sweep]] (5% of attempts)
+
+### [[Knee Shield Half Guard to Z-Guard]] (1% of attempts)
+
+### [[Knee Shield to Closed Guard]] (0% of attempts)
+
+### [[Underhook from Knee Shield]] (1% of attempts)
 
 
 
@@ -232,23 +244,23 @@ The knee shield half guard has become a cornerstone position in modern competiti
 ## Decision Making from This Position
 
 **If opponent attempts to smash knee shield down and flatten position with heavy pressure:**
-- Execute **[[Frame and Hip Escape]]** → [[Knee Shield Half Guard]] (Probability: 60%)
+- Execute **[[Knee Shield Retention]]** → [[Knee Shield Half Guard]] (Probability: 60%)
 - Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 55%)
 
 
 **If opponent stands up to create passing angles or attempt standing passes:**
 - Execute **[[Single Leg X Entry]]** → [[Single Leg X-Guard]] (Probability: 65%)
-- Execute **[[Single Leg X Entry]]** → [[Single Leg X-Guard]] (Probability: 58%)
+- Execute **[[Butterfly Guard to X-Guard]]** → [[X-Guard]] (Probability: 55%)
 
 
 **If opponent commits to knee slice or attempts to step over knee shield:**
-- Execute **[[Old School Sweep]]** → [[Mount]] (Probability: 52%)
-- Execute **[[Underhook Sweep from Half]]** → [[Mount]] (Probability: 48%)
+- Execute **[[Old School Sweep]]** → [[Side Control]] (Probability: 52%)
+- Execute **[[Underhook Sweep from Half]]** → [[Side Control]] (Probability: 48%)
 
 
 **If opponent establishes underhook and attempts to consolidate position:**
-- Execute **[[Kimura from Half Guard]]** → [[Kimura Trap]] (Probability: 45%)
-- Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 42%)
+- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 45%)
+- Execute **[[Half Guard to Back Take]]** → [[Back Control]] (Probability: 42%)
 
 
 
@@ -385,12 +397,12 @@ From knee shield, practice flowing between deep half, x-guard, and standard half
 - **[[Knee Shield Half Guard]]** - Hub position—this is the bottom perspective
 - **[[Half Guard]]** - Parent position—knee shield is specialized variant
 - **[[Deep Half Guard]]** - Common transition target from knee shield
-- **[[Z-Guard]]** - Alternative half guard frame system
 - **[[Lockdown]]** - Alternative half guard control method
 - **[[X-Guard]]** - Transition target when opponent stands
 - **[[Overhook Guard]]** - Related grip fighting concept for retention
 - **[[Old School Sweep]]** - Primary offensive technique from position
 - **[[Knee Slice from Half]]** - Most common passing threat to defend
+- **[[Flattened Half Guard]]** - Degraded position to avoid through active shield management
 
 
 </section>

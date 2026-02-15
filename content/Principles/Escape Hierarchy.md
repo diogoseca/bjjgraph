@@ -366,13 +366,13 @@ Start from highly disadvantaged scenarios (flattened under mount, seat belt lock
 - [[Pin Escape Methodology]] (Principle) - Specialized application of escape hierarchy specifically to pinning positions
 - [[Energy Management System]] (Principle) - Complementary framework for resource allocation that integrates with escape efficiency priorities
 - [[Mount Escape Hierarchy]] (Principle) - Position-specific hierarchy for mount escapes demonstrating detailed application of general principles
-- [[Back Escape Series]] (Principle) - Systematic approach to escaping highest-danger position, exemplifying urgent escape priorities
+- [[Back Door Escape]] (Principle) - Systematic approach to escaping highest-danger position, exemplifying urgent escape priorities
 - [[Side Control Escapes]] (Principle) - Common escape scenarios demonstrating intermediate-priority position requiring methodical approach
 - [[Defensive Strategy]] (Principle) - Broader defensive framework that encompasses escape hierarchy as one critical component
 - [[Mount]] (Position) - High-priority escape position requiring urgent systematic response
 - [[Back Control]] (Position) - Highest-danger position demanding immediate explosive escape attempts
 - [[Side Control]] (Position) - Intermediate-priority position allowing methodical energy-efficient escape selection
-- [[Elbow Escape]] (Transition) - High-percentage escape from mount demonstrating proper hierarchy application
+- [[Elbow Escape to Guard]] (Transition) - High-percentage escape from mount demonstrating proper hierarchy application
 
 
 </section>

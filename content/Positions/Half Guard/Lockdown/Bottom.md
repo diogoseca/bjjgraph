@@ -21,37 +21,37 @@ description: "Master Lockdown Bottom in BJJ. 10th Planet's signature half guard 
     {
       "@type": "HowToStep",
       "name": "Execute Whip-up Sweep",
-      "text": "From this position, attempt Whip-up Sweep. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Whip-up Sweep. This technique is attempted in 28% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Electric Chair Submission",
-      "text": "From this position, attempt Electric Chair Submission. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Electric Chair Transition",
+      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Lockdown Sweeps",
-      "text": "From this position, attempt Lockdown Sweeps. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Underhook Sweep from Half",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 7% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Turtle to Truck",
-      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Roll to Truck",
+      "text": "From this position, attempt Roll to Truck. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -206,23 +206,31 @@ Lockdown Bottom is 10th Planet's signature half guard variation where the bottom
 
 ## Available Escapes
 
-### [[Whip-up Sweep]] (12% of attempts)
+### [[Whip-up Sweep]] (28% of attempts)
 
-### [[Old School Sweep]] (11% of attempts)
-
-### [[Electric Chair Submission]] (11% of attempts)
-
-### [[Lockdown Sweeps]] (11% of attempts)
-
-### [[Rolling Back Take]] (10% of attempts)
-
-### [[Turtle to Truck]] (11% of attempts)
-
-### [[Deep Half Entry]] (12% of attempts)
-
-### [[Kimura from Half Guard]] (11% of attempts)
+### [[Old School Sweep]] (9% of attempts)
 
 ### [[Electric Chair Transition]] (11% of attempts)
+
+### [[Underhook Sweep from Half]] (7% of attempts)
+
+### [[Rolling Back Take]] (7% of attempts)
+
+### [[Roll to Truck]] (8% of attempts)
+
+### [[Deep Half Entry]] (9% of attempts)
+
+### [[Kimura]] (4% of attempts)
+
+### [[Lockdown Recovery]] (4% of attempts)
+
+### [[Transition to Vaporizer]] (2% of attempts)
+
+### [[Transition to Old School]] (6% of attempts)
+
+### [[Back Take from Lockdown Defense]] (4% of attempts)
+
+### [[Lockdown to Vaporizer]] (1% of attempts)
 
 
 
@@ -234,22 +242,22 @@ Lockdown Bottom is 10th Planet's signature half guard variation where the bottom
 
 **If opponent maintains high posture with weight back, trying to extract trapped leg:**
 - Execute **[[Old School Sweep]]** → [[Mount]] (Probability: 70%)
-- Execute **[[Electric Chair Submission]]** → [[Electric Chair]] (Probability: 60%)
+- Execute **[[Electric Chair Transition]]** → [[Electric Chair]] (Probability: 60%)
 
 
 **If opponent drives forward with heavy crossface pressure and low posture:**
 - Execute **[[Whip-up Sweep]]** → [[Dogfight Position]] (Probability: 65%)
-- Execute **[[Rolling to Truck]]** → [[Truck]] (Probability: 55%)
+- Execute **[[Roll to Truck]]** → [[Truck]] (Probability: 55%)
 
 
 **If opponent establishes underhook and attempts knee slice pass:**
 - Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 60%)
-- Execute **[[Lockdown Extension Counter]]** → [[Lockdown]] (Probability: 50%)
+- Execute **[[Lockdown Recovery]]** → [[Lockdown]] (Probability: 50%)
 
 
 **If opponent maintains neutral posture in half guard without committing:**
-- Execute **[[Lockdown Sweeps]]** → [[Side Control]] (Probability: 60%)
-- Execute **[[Kimura from Half Guard]]** → [[Kimura Trap]] (Probability: 55%)
+- Execute **[[Underhook Sweep from Half]]** → [[Side Control]] (Probability: 60%)
+- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 55%)
 
 
 
@@ -300,35 +308,35 @@ Lockdown Bottom is 10th Planet's signature half guard variation where the bottom
 
 ### Lockdown Retention Drill
 
-Partner attempts to extract trapped leg using various methods (pulling back, driving forward, underhook pressure) while bottom player maintains lockdown integrity and counters extraction attempts. Focus on keeping ankles locked, extending strategically, and preventing leg escape. Duration: 3-5 minutes per round, switching roles.
+Partner attempts to extract trapped leg using various methods (pulling back, driving forward, underhook pressure) while bottom player maintains lockdown integrity and counters extraction attempts. Focus on keeping ankles locked, extending strategically, and preventing leg escape.
 
 **Duration**: 3-5 minutes
 
 
 ### Whip-up to Old School Combination Drill
 
-From established lockdown, bottom player practices transitioning between whip-up and Old School sweep based on opponent's reactions. If opponent bases out against whip-up, switch to Old School. If opponent sits back against Old School, switch to whip-up. Develop timing and recognition of sweep opportunities. Duration: 5 minutes per round.
+From established lockdown, bottom player practices transitioning between whip-up and Old School sweep based on opponent's reactions. If opponent bases out against whip-up, switch to Old School. If opponent sits back against Old School, switch to whip-up. Develop timing and recognition of sweep opportunities.
 
 **Duration**: 5 minutes
 
 
 ### Lockdown to Electric Chair Progression
 
-Starting from lockdown with underhook, practice full Electric Chair entry sequence: extend opponent's leg with lockdown, rotate to outside, establish lockdown triangle in Electric Chair configuration, and apply submission pressure. Partner provides progressive resistance. Duration: 5-7 minutes per round.
+Starting from lockdown with underhook, practice full Electric Chair entry sequence: extend opponent's leg with lockdown, rotate to outside, establish lockdown triangle in Electric Chair configuration, and apply submission pressure. Partner provides progressive resistance.
 
 **Duration**: 5-7 minutes
 
 
 ### Underhook Battle from Lockdown
 
-Both partners fight for underhook control while bottom player maintains lockdown. Top player attempts to strip underhook and establish crossface, bottom player recovers underhook and prevents flattening. Emphasizes grip fighting and positional maintenance under pressure. Duration: 3-5 minutes per round.
+Both partners fight for underhook control while bottom player maintains lockdown. Top player attempts to strip underhook and establish crossface, bottom player recovers underhook and prevents flattening. Emphasizes grip fighting and positional maintenance under pressure.
 
 **Duration**: 3-5 minutes
 
 
 ### Positional Sparring: Lockdown vs. Pass
 
-Bottom player starts in lockdown with underhook, top player attempts to pass. Bottom player scores points for sweeps and submissions, top player scores for passes and dominant positions. Resets after each score. Develop competitive timing and strategy. Duration: 5-10 minute rounds.
+Bottom player starts in lockdown with underhook, top player attempts to pass. Bottom player scores points for sweeps and submissions, top player scores for passes and dominant positions. Resets after each score. Develop competitive timing and strategy.
 
 **Duration**: 5-10 minutes
 
@@ -395,9 +403,9 @@ Bottom player starts in lockdown with underhook, top player attempts to pass. Bo
 - **[[Half Guard]]** - Parent position and alternative half guard approach
 - **[[Deep Half Guard]]** - Related half guard variation and transition option
 - **[[Truck]]** - Advanced transition target from lockdown
-- **[[Z-Guard]]** - Alternative half guard structure
 - **[[Knee Shield Half Guard]]** - Alternative half guard defensive structure
-- **[[Old School]]** - Primary sweep position from lockdown
+- **[[Whip-up Sweep]]** - Primary sweep technique from lockdown bottom
+- **[[Old School Sweep]]** - Complementary sweep creating dilemma with whip-up
 
 
 </section>

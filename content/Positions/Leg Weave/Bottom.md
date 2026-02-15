@@ -4,7 +4,7 @@
 
 ---
 title: "Leg Weave Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master defensive strategies from leg weave bottom. High-pressure half guard position with frame-based escapes. Success rates: Beginner 25%, Intermediate 40%, Advanced 55% for guard recovery."
+description: "Master defensive strategies from leg weave bottom. High-pressure half guard position requiring frame-based escapes, hip movement, and counter-attack timing."
 ---
 
 
@@ -20,14 +20,14 @@ description: "Master defensive strategies from leg weave bottom. High-pressure h
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Frame and Shrimp",
-      "text": "From this position, attempt Frame and Shrimp. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Frame and Shrimp to Guard",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,19 +39,19 @@ description: "Master defensive strategies from leg weave bottom. High-pressure h
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Dogfight Position",
-      "text": "From this position, attempt Dogfight Position. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Dogfight Position. This technique is attempted in 22% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling to Guard",
-      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Lockdown Recovery",
+      "text": "From this position, attempt Lockdown Recovery. This technique is attempted in 16% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -115,7 +115,7 @@ description: "Master defensive strategies from leg weave bottom. High-pressure h
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Leg Weave Bottom",
-  "description": "Master defensive strategies from leg weave bottom. High-pressure half guard position with frame-based escapes. Success rates: Beginner 25%, Intermediate 40%, Advanced 55% for guard recovery.",
+  "description": "Master defensive strategies from leg weave bottom. High-pressure half guard position requiring frame-based escapes, hip movement, and counter-attack timing.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -206,19 +206,21 @@ Leg Weave Bottom Position represents a challenging defensive scenario in half gu
 
 ## Available Escapes
 
-### [[Frame and Shrimp]] (16% of attempts)
+### [[Frame and Shrimp to Guard]] (16% of attempts)
 
-### [[Underhook Sweep from Half]] (13% of attempts)
+### [[Underhook Sweep from Half]] (12% of attempts)
 
 ### [[Deep Half Entry]] (14% of attempts)
 
-### [[Old School Sweep]] (12% of attempts)
+### [[Old School Sweep]] (9% of attempts)
 
-### [[Dogfight Position]] (18% of attempts)
+### [[Dogfight Position]] (22% of attempts)
 
-### [[Rolling to Guard]] (14% of attempts)
+### [[Lockdown Recovery]] (16% of attempts)
 
-### [[Lockdown Sweeps]] (13% of attempts)
+### [[Half Guard Recovery]] (7% of attempts)
+
+### [[Leg Weave Escape to Half Guard]] (4% of attempts)
 
 
 
@@ -229,7 +231,7 @@ Leg Weave Bottom Position represents a challenging defensive scenario in half gu
 ## Decision Making from This Position
 
 **If top player establishes strong crossface and drives chest pressure to flatten you:**
-- Execute **[[Frame and Shrimp]]** → [[Knee Shield Half Guard]] (Probability: 40%)
+- Execute **[[Frame and Shrimp to Guard]]** → [[Knee Shield Half Guard]] (Probability: 40%)
 - Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 35%)
 - Execute **[[Rolling to Guard]]** → [[Closed Guard]] (Probability: 25%)
 
@@ -242,12 +244,12 @@ Leg Weave Bottom Position represents a challenging defensive scenario in half gu
 
 **If top player drives weight forward while maintaining low posture:**
 - Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 50%)
-- Execute **[[Lockdown Sweeps]]** → [[Lockdown]] (Probability: 30%)
+- Execute **[[Lockdown Recovery]]** → [[Lockdown]] (Probability: 30%)
 - Execute **[[Rolling to Guard]]** → [[Closed Guard]] (Probability: 20%)
 
 
 **If top player attempts to free their leg from your hook while controlling upper body:**
-- Execute **[[Frame and Shrimp]]** → [[Knee Shield Half Guard]] (Probability: 45%)
+- Execute **[[Frame and Shrimp to Guard]]** → [[Knee Shield Half Guard]] (Probability: 45%)
 - Execute **[[Underhook Sweep from Half]]** → [[Side Control]] (Probability: 35%)
 - Execute **[[Dogfight Position]]** → [[Dogfight Position]] (Probability: 40%)
 
@@ -383,7 +385,7 @@ Top player alternates between forward pressure and backward weight shifts. Botto
 - **[[Deep Half Guard]]** - Counter-attack option - diving under pressure to invert guard hierarchy
 - **[[Dogfight Position]]** - Scramble position - transitional state when coming up on elbow
 - **[[Lockdown]]** - Alternative defensive strategy - trapping weaving leg to counter pressure
-- **[[Frame and Shrimp]]** - Primary escape technique - fundamental movement for creating space
+- **[[Frame and Shrimp to Guard]]** - Primary escape technique - fundamental movement for creating space and recovering guard
 - **[[Underhook Sweep from Half]]** - Counter-attack option - reversing position when opportunity presents
 - **[[Flattened Half Guard]]** - Position to avoid - result of failed defensive framing
 

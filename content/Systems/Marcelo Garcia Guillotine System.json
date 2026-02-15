@@ -283,7 +283,7 @@
       "relationship": "Alternative attack when guillotine is defended, maintaining offensive pressure"
     },
     {
-      "name": "Snap Down",
+      "name": "Snap Down to Front Headlock",
       "content_type": "Transition",
       "relationship": "Standing wrestling entry that creates head control for guillotine attacks"
     },
@@ -303,7 +303,7 @@
       "relationship": "Alternative finish when opponent's posture is broken"
     },
     {
-      "name": "Guillotine Variations",
+      "name": "Guillotine Choke",
       "content_type": "Submission",
       "relationship": "Collection of grip and position variations within the system"
     },

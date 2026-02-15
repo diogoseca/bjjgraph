@@ -154,7 +154,7 @@
         "condition": "If opponent turns into the grip exposing their back",
         "actions": [
           {
-            "technique": "Back Take Generic",
+            "technique": "Back Take from Top",
             "target": "Back Control",
             "probability": 65
           },
@@ -243,20 +243,20 @@
         "relationship": "Primary submission - main finishing technique from this control position"
       },
       {
-        "name": "Anaconda Variations",
-        "relationship": "Related techniques - different finishing mechanics and setups for anaconda system"
-      },
-      {
         "name": "Front Headlock to Anaconda",
         "relationship": "Key transition - technical sequence for entering anaconda control from headlock"
       },
       {
-        "name": "Darce-Anaconda Connection",
-        "relationship": "System relationship - understanding the interchange between these arm-in positions"
+        "name": "Switch to Darce Configuration",
+        "relationship": "System transition - interchange between anaconda and darce arm-in positions"
       },
       {
         "name": "Side Control",
         "relationship": "Advancement target - position gained after successful roll-through from anaconda"
+      },
+      {
+        "name": "Back Take from Top",
+        "relationship": "Alternative advancement when opponent turns away from anaconda pressure"
       }
     ],
     "position_metrics": {
@@ -276,20 +276,28 @@
     },
     "transitions": [
       {
-        "transition": "Anaconda Choke",
-        "attempt_probability": 50
+        "transition": "Transition to Dead Orchard Control",
+        "attempt_probability": 29
       },
       {
-        "transition": "Back Take Generic",
-        "attempt_probability": 25
+        "transition": "Anaconda Choke",
+        "attempt_probability": 55
       },
       {
         "transition": "Switch to Darce Configuration",
-        "attempt_probability": 15
+        "attempt_probability": 9
       },
       {
-        "transition": "Front Headlock to Guillotine",
-        "attempt_probability": 10
+        "transition": "Anaconda Control to Dead Orchard Control",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Anaconda to Side Control",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Back Take from Anaconda",
+        "attempt_probability": 1
       }
     ]
   },
@@ -379,7 +387,7 @@
             "probability": 40
           },
           {
-            "technique": "Hip Escape",
+            "technique": "Hip Escape to Guard",
             "target": "Turtle",
             "probability": 35
           },
@@ -399,7 +407,7 @@
             "probability": 30
           },
           {
-            "technique": "Bridge and Shrimp",
+            "technique": "Bridge and Roll",
             "target": "Half Guard",
             "probability": 25
           },
@@ -414,7 +422,7 @@
         "condition": "If opponent attempts to roll you to complete the choke",
         "actions": [
           {
-            "technique": "Rolling Escape",
+            "technique": "Rolling Escape to Guard",
             "target": "Turtle",
             "probability": 35
           },
@@ -434,17 +442,17 @@
         "condition": "If the choke is partially locked but opponent hasn't finished",
         "actions": [
           {
-            "technique": "Creating Space",
+            "technique": "Grip Break",
             "target": "Defensive Position",
             "probability": 45
           },
           {
-            "technique": "Hip Escape",
+            "technique": "Hip Escape to Guard",
             "target": "Turtle",
             "probability": 30
           },
           {
-            "technique": "Grip Fighting",
+            "technique": "Rolling to Guard",
             "target": "Half Guard",
             "probability": 25
           }
@@ -535,8 +543,8 @@
         "relationship": "Offensive transition path that leads to this position"
       },
       {
-        "name": "Anaconda Variations",
-        "relationship": "Different finishing mechanics to defend against"
+        "name": "Rolling Escape to Guard",
+        "relationship": "Key escape transition for recovering guard from anaconda bottom"
       }
     ],
     "position_metrics": {
@@ -556,16 +564,32 @@
     },
     "transitions": [
       {
-        "transition": "Rolling to Guard",
+        "transition": "Hip Escape to Guard",
         "attempt_probability": 15
       },
       {
-        "transition": "Rolling Escape",
-        "attempt_probability": 65
+        "transition": "Defensive Roll",
+        "attempt_probability": 58
       },
       {
-        "transition": "Hip Movement",
-        "attempt_probability": 20
+        "transition": "Frame Creation",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Anaconda Grip Break to Front Headlock",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Frame and Posture from Anaconda",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Roll Defense from Anaconda",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Rolling Escape from Anaconda",
+        "attempt_probability": 1
       }
     ]
   }

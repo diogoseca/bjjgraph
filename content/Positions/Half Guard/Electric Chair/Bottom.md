@@ -4,7 +4,7 @@
 
 ---
 title: "Electric Chair Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master Electric Chair Bottom position in BJJ. Complete guide covering control, submissions, and transitions from the lockdown. High-percentage sweep with 55-70% success rate."
+description: "Master Electric Chair Bottom in BJJ. Complete lockdown attack guide with sweeps, submissions, and transitions. High-percentage sweep system with 62% advancement rate."
 ---
 
 
@@ -21,38 +21,26 @@ description: "Master Electric Chair Bottom position in BJJ. Complete guide cover
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 73% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Electric Chair Submission",
-      "text": "From this position, attempt Electric Chair Submission. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Deep Half Entry",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Turtle to Truck",
-      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Hip Rotation Escape from Electric Chair",
+      "text": "From this position, attempt Hip Rotation Escape from Electric Chair. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Lockdown Sweeps",
-      "text": "From this position, attempt Lockdown Sweeps. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Straighten Leg Defense from Electric Chair",
+      "text": "From this position, attempt Straighten Leg Defense from Electric Chair. This technique is attempted in 4% of exchanges from this position.",
       "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 19% of exchanges from this position.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Dogfight Position",
-      "text": "From this position, attempt Dogfight Position. This technique is attempted in 14% of exchanges from this position.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -115,7 +103,7 @@ description: "Master Electric Chair Bottom position in BJJ. Complete guide cover
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Electric Chair Bottom",
-  "description": "Master Electric Chair Bottom position in BJJ. Complete guide covering control, submissions, and transitions from the lockdown. High-percentage sweep with 55-70% success rate.",
+  "description": "Master Electric Chair Bottom in BJJ. Complete lockdown attack guide with sweeps, submissions, and transitions. High-percentage sweep system with 62% advancement rate.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -211,17 +199,13 @@ Electric Chair Bottom represents a systematic approach to bottom half guard wher
 
 ## Available Escapes
 
-### [[Old School Sweep]] (18% of attempts)
+### [[Old School Sweep]] (73% of attempts)
 
-### [[Electric Chair Submission]] (16% of attempts)
+### [[Deep Half Entry]] (15% of attempts)
 
-### [[Turtle to Truck]] (17% of attempts)
+### [[Hip Rotation Escape from Electric Chair]] (8% of attempts)
 
-### [[Lockdown Sweeps]] (16% of attempts)
-
-### [[Deep Half Entry]] (19% of attempts)
-
-### [[Dogfight Position]] (14% of attempts)
+### [[Straighten Leg Defense from Electric Chair]] (4% of attempts)
 
 
 
@@ -237,17 +221,17 @@ Electric Chair Bottom represents a systematic approach to bottom half guard wher
 
 
 **Else if opponent postures up and attempts to extract their trapped leg:**
-- Execute **[[Electric Chair Submission]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Electric Chair Transition]]** → [[game-over]] (Probability: 55%)
 - Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 65%)
 
 
 **Else if opponent posts their far arm to defend underhook:**
 - Execute **[[Dogfight Position]]** → [[Dogfight Position]] (Probability: 50%)
-- Execute **[[Lockdown Sweeps]]** → [[Side Control]] (Probability: 45%)
+- Execute **[[Lockdown Recovery]]** → [[Lockdown]] (Probability: 45%)
 
 
 **Else if opponent attempts to windshield wiper their leg free:**
-- Execute **[[Truck Entry]]** → [[Truck]] (Probability: 65%)
+- Execute **[[Turtle to Truck]]** → [[Truck]] (Probability: 65%)
 - Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 55%)
 
 
@@ -389,7 +373,6 @@ Start in electric chair bottom position with all grips established. Bottom pract
 - **[[Old School]]** - Primary sweeping technique from this position
 - **[[Electric Chair Submission]]** - Primary submission threat from this position
 - **[[Banana Split]]** - Alternative name for electric chair submission finish
-- **[[Vaporizer]]** - Related sweep from lockdown position
 - **[[Half Guard]]** - Base guard system
 - **[[Dogfight Position]]** - Transition option when underhook is strong
 

@@ -91,21 +91,25 @@ Quarter guard occurs most frequently during guard passing sequences when defende
 ### Available Transitions
 
 
-- **[[Old School Sweep]]** (13% of attempts)
+- **[[Old School Sweep]]** (11% of attempts)
 
-- **[[Half Guard to Back Take]]** (12% of attempts)
+- **[[Half Guard to Back Take]]** (10% of attempts)
 
-- **[[Underhook Sweep from Half]]** (13% of attempts)
+- **[[Underhook Sweep from Half]]** (11% of attempts)
 
-- **[[Deep Half Entry]]** (14% of attempts)
+- **[[Deep Half Entry]]** (12% of attempts)
 
-- **[[Rolling Back Take]]** (11% of attempts)
+- **[[Rolling Back Take]]** (9% of attempts)
 
-- **[[Electric Chair Submission]]** (9% of attempts)
+- **[[Electric Chair Transition]]** (7% of attempts)
 
-- **[[Knee Shield Retention]]** (16% of attempts)
+- **[[Knee Shield Retention]]** (25% of attempts)
 
-- **[[Lockdown Sweeps]]** (12% of attempts)
+- **[[Lockdown Recovery]]** (10% of attempts)
+
+- **[[Knee Shield from Quarter Guard]]** (3% of attempts)
+
+- **[[Recover Full Guard from Quarter Guard]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -148,43 +152,47 @@ Quarter guard occurs most frequently during guard passing sequences when defende
 ### Key Principles
 
 
-- Pressure Application: Maintain constant forward and downward pressure toward opponent's far shoulder to limit defensive mobility and create psychological pressure without excessive muscling
+- Maintain constant forward and downward pressure toward opponent's far shoulder to limit defensive mobility and create psychological pressure without excessive muscling
 
-- Hip Mobility: Keep your hips mobile and ready to slide across opponent's center line instantly to complete pass—static hips allow opponent to rebuild defensive frames
+- Keep your hips mobile and ready to slide across opponent's center line instantly to complete pass—static hips allow opponent to rebuild defensive frames
 
-- Frame Elimination: Systematically eliminate or control opponent's defensive frames (knee shield, near-side arm) before fully committing to final pass movement
+- Systematically eliminate or control opponent's defensive frames (knee shield, near-side arm) before fully committing to final pass movement
 
-- Weight Distribution: Distribute weight strategically to maximize control while maintaining ability to advance position quickly when opening appears within one to two seconds
+- Distribute weight strategically to maximize control while maintaining ability to advance position quickly when opening appears within one to two seconds
 
-- Crossface Control: Establish and maintain heavy crossface to prevent opponent from turning into you or creating defensive space with frames and underhooks
+- Establish and maintain heavy crossface to prevent opponent from turning into you or creating defensive space with frames and underhooks
 
-- Base Management: Maintain adequate base to resist sweep attempts while staying mobile enough to advance pass immediately without hesitation when opportunity presents
+- Maintain adequate base to resist sweep attempts while staying mobile enough to advance pass immediately without hesitation when opportunity presents
 
-- Timing Recognition: Identify the precise moment when opponent's defensive structure fails completely and immediately advance to completed pass without second-guessing or hesitation
+- Identify the precise moment when opponent's defensive structure fails completely and immediately advance to completed pass without second-guessing or hesitation
 
 
 ### Available Transitions
 
 
-- **[[Knee Slice Pass]]** (13% of attempts)
+- **[[Knee Slice Pass]]** (28% of attempts)
 
-- **[[Smash Pass]]** (12% of attempts)
+- **[[Smash Pass]]** (10% of attempts)
 
-- **[[Crossface Pass]]** (12% of attempts)
+- **[[Crossface Pass]]** (10% of attempts)
 
-- **[[Underhook Pass]]** (11% of attempts)
+- **[[Underhook Pass]]** (9% of attempts)
 
-- **[[Long Step Pass]]** (10% of attempts)
+- **[[Long Step Pass]]** (8% of attempts)
 
-- **[[Half Guard to Back Take]]** (8% of attempts)
+- **[[Half Guard to Back Take]]** (6% of attempts)
 
-- **[[Side Control to Mount]]** (9% of attempts)
+- **[[Side Control to Mount]]** (7% of attempts)
 
-- **[[Side Control to North-South]]** (10% of attempts)
+- **[[Side Control to North-South]]** (8% of attempts)
 
-- **[[Kimura from Half Guard]]** (8% of attempts)
+- **[[Kimura]]** (6% of attempts)
 
-- **[[Darce Setup]]** (7% of attempts)
+- **[[Darce Setup]]** (5% of attempts)
+
+- **[[Complete Pass from Quarter]]** (2% of attempts)
+
+- **[[Knee Through from Quarter]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -192,27 +200,27 @@ Quarter guard occurs most frequently during guard passing sequences when defende
 
 - ❌ **Holding static pressure in quarter guard without actively working to complete pass within five to ten seconds**
   - Consequence: Allows opponent time to recover defensive structures, rebuild guard frames, or create unconventional escape opportunities. Energy is wasted maintaining position without progression, and opponent may find sweep opportunities or technical escapes from what should be dominant position.
-  - ✅ Correction: Maintain constant positional advancement mentality—quarter guard top should be transitional state lasting only five to ten seconds maximum, not extended control position. Keep passing knee actively sliding across opponent's center line while pressure is maintained. If immediate pass isn't available within three seconds, methodically eliminate defensive frames then immediately advance. Recognize that spending more than ten seconds in quarter guard without completing pass indicates technical deficiency in execution or decision-making.
+  - ✅ Correction: Maintain constant positional advancement mentality—quarter guard top should be transitional state lasting only five to ten seconds maximum, not extended control position. Keep passing knee actively sliding across opponent's center line while pressure is maintained. If immediate pass isn't available within three seconds, methodically eliminate defensive frames then immediately advance.
 
 - ❌ **Failing to establish strong crossface before committing body weight to final pass movement**
-  - Consequence: Opponent can turn into you, create effective frames against your chest, or work for underhook recovery that transforms advantageous passing position into guard retention battle. This can lead to guard recovery, sweep attempts, or extended passing battles from what should be dominant position requiring minimal time.
-  - ✅ Correction: Prioritize establishing heavy crossface with shoulder pressure against opponent's far cheek or jaw area, preventing them from turning toward you or creating frames. If crossface isn't immediately available due to positioning, control their near-side head with your hand applying pressure. Crossface should be established before or simultaneously with final pass commitment—never sacrifice head control for immediate leg clearing without proper upper body dominance.
+  - Consequence: Opponent can turn into you, create effective frames against your chest, or work for underhook recovery that transforms advantageous passing position into guard retention battle.
+  - ✅ Correction: Prioritize establishing heavy crossface with shoulder pressure against opponent's far cheek or jaw area, preventing them from turning toward you or creating frames. If crossface isn't immediately available due to positioning, control their near-side head with your hand applying pressure. Crossface should be established before or simultaneously with final pass commitment.
 
 - ❌ **Over-committing weight forward without maintaining adequate base for sweep defense**
-  - Consequence: Creates vulnerability to sweeps, particularly underhook sweeps or opponent using your forward momentum against you through timing. Can result in scrambles or position loss from what should be mechanically dominant passing position with three-to-one advantage.
-  - ✅ Correction: Maintain strategic base with posting hand or far-side leg while applying forward pressure. Weight should be directed forward and downward at seventy percent commitment, but with thirty percent base remaining to resist sweep attempts. Think of pressure as controlled and directional rather than simply heavy—quality of pressure application matters more than quantity of weight.
+  - Consequence: Creates vulnerability to sweeps, particularly underhook sweeps or opponent using your forward momentum against you through timing. Can result in scrambles or position loss from what should be mechanically dominant passing position.
+  - ✅ Correction: Maintain strategic base with posting hand or far-side leg while applying forward pressure. Weight should be directed forward and downward at seventy percent commitment, but with thirty percent base remaining to resist sweep attempts. Think of pressure as controlled and directional rather than simply heavy.
 
 - ❌ **Allowing opponent to recover knee shield or create frames with near-side arm during pass**
-  - Consequence: Gives opponent defensive structure they can use to prevent pass completion, create space for hip escape, or even recover full half guard structure. Transforms high-percentage passing position into extended passing battle requiring additional energy expenditure.
-  - ✅ Correction: Actively control or eliminate opponent's knee shield by either sliding knee past it immediately, pressuring it down with your shin, or controlling it with your hand before final pass. Similarly, trap or control near-side arm before committing to pass—use crossface pressure, underhook control, or direct arm pinning to prevent frame creation that stops your advancement.
+  - Consequence: Gives opponent defensive structure they can use to prevent pass completion, create space for hip escape, or even recover full half guard structure.
+  - ✅ Correction: Actively control or eliminate opponent's knee shield by either sliding knee past it immediately, pressuring it down with your shin, or controlling it with your hand before final pass. Similarly, trap or control near-side arm before committing to pass—use crossface pressure, underhook control, or direct arm pinning to prevent frame creation.
 
 - ❌ **Failing to track opponent's hips and allowing them to turn to their side for escape**
-  - Consequence: Opponent recovers guard structure, regains defensive capability through hip mobility, or creates scramble situation from inferior position. Hip mobility is bottom player's primary escape mechanism from quarter guard and must be controlled.
-  - ✅ Correction: Maintain constant awareness of opponent's hip position and prevent them from getting to their side through crossface pressure and chest weight. Use your chest pressure, crossface shoulder, and hip positioning to keep them flat on back. If they begin turning despite pressure, immediately adjust your angle or switch to back take rather than insisting on pass completion against their movement.
+  - Consequence: Opponent recovers guard structure, regains defensive capability through hip mobility, or creates scramble situation from inferior position. Hip mobility is bottom player's primary escape mechanism from quarter guard.
+  - ✅ Correction: Maintain constant awareness of opponent's hip position and prevent them from getting to their side through crossface pressure and chest weight. Use your chest pressure, crossface shoulder, and hip positioning to keep them flat on back. If they begin turning despite pressure, immediately switch to back take rather than insisting on pass completion.
 
 - ❌ **Hesitating when opponent's defensive structure breaks down instead of advancing immediately**
-  - Consequence: Missed opportunity to complete pass quickly and efficiently within optimal time window. Hesitation allows opponent to rebuild defenses or attempt desperate escapes, transforming dominant position into extended battle requiring additional effort.
-  - ✅ Correction: Develop recognition of the precise moment when opponent's knee shield drops, their frames collapse, or their hip mobility fails—immediately advance to completed pass without hesitation or second-guessing. Practice recognizing these breakdown moments in drilling so they become automatic pattern recognition in live training. The optimal window for easy pass completion is often only one to two seconds before they recover.
+  - Consequence: Missed opportunity to complete pass quickly and efficiently within optimal time window. Hesitation allows opponent to rebuild defenses or attempt desperate escapes.
+  - ✅ Correction: Develop recognition of the precise moment when opponent's knee shield drops, their frames collapse, or their hip mobility fails—immediately advance to completed pass without hesitation. Practice recognizing these breakdown moments in drilling so they become automatic pattern recognition in live training.
 
 
 </section>
@@ -241,7 +249,7 @@ Quarter guard occurs most frequently during guard passing sequences when defende
 
 - **[[Combat Base]]** - Foundational posture for top player maintaining pressure and base
 
-- **[[Z-Guard]]** - Alternative half guard structure with similar knee shield dynamics
+- **[[Flattened Half Guard]]** - Adjacent half guard structure with similar defensive urgency for bottom player
 
 
 </section>

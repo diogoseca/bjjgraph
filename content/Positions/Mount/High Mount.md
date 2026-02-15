@@ -4,7 +4,7 @@
 
 ---
 title: "High Mount | BJJ Position Guide | BJJ Graph"
-description: "Master High Mount in BJJ. Strategic guide covering advanced mount control, submission chains, and position retention with complete top perspective analysis. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%."
+description: "Master High Mount in BJJ. Strategic guide covering advanced mount control, submission chains, and escape strategies from both top and bottom perspectives."
 ---
 
 
@@ -19,9 +19,11 @@ High Mount represents the most dominant variation of the mount position in Brazi
 
 The strategic value of High Mount lies in its ability to eliminate the bottom player's primary escape mechanism: the bridge. By positioning weight on the upper chest and sternum rather than the hips, the top player removes the opponent's ability to generate upward force through hip extension. This biomechanical advantage transforms mount retention from an active struggle into a controlled inevitability, where the bottom player's defensive options progressively diminish under sustained pressure.
 
-High Mount is characterized by exceptional submission diversity, with direct paths to armbars, chokes, shoulder locks, and advanced position transitions. Elite practitioners view this position as a guaranteed finishing opportunity, using systematic pressure and constant threat generation to create decision paralysis in their opponents. The position rewards patience over aggression, as rushing submissions often provides the only realistic escape window for the bottom player.
+From the top perspective, High Mount is characterized by exceptional submission diversity, with direct paths to armbars, chokes, shoulder locks, and advanced position transitions. The elevated knee positioning creates a platform from which the top player can chain attacks systematically, using each defensive reaction to open the next submission opportunity. Elite practitioners view this position as a guaranteed finishing sequence, where patience and methodical pressure create decision paralysis in their opponents.
 
-In competition contexts, High Mount represents the culmination of successful passing sequences and mount consolidation. The position typically precedes advancement to S-Mount or Technical Mount when opponents attempt escapes, creating a web of interconnected dominant positions that progressively narrow defensive options. Understanding High Mount mechanics is essential for developing high-percentage finishing sequences and maintaining dominance in top game scenarios.
+From the bottom perspective, High Mount represents one of the most desperate defensive situations in grappling. Traditional bridge escapes become mechanically impossible due to the top player's elevated weight distribution. The bottom player must rely on precise timing, explosive movement during the top player's transitions, and an understanding that every submission attempt creates a momentary weight shift that can be exploited. Survival depends on protecting the neck and arms simultaneously while waiting for the precise moment when offensive action creates defensive opportunity.
+
+In competition contexts, High Mount represents the culmination of successful passing sequences and mount consolidation. The position typically precedes advancement to S-Mount or Technical Mount when opponents attempt escapes, creating a web of interconnected dominant positions that progressively narrow defensive options. Understanding High Mount mechanics from both perspectives is essential for developing high-percentage finishing sequences and effective survival strategies.
 
 </section>
 
@@ -61,7 +63,7 @@ In competition contexts, High Mount represents the culmination of successful pas
 | **Energy Cost** | High | Medium |
 | **Time** | Short | Medium to Long |
 
-**Key Difference:** Elevated knees maximize submission access
+**Key Difference:** Elevated knees trade stability for submissions
 
 
 
@@ -97,13 +99,13 @@ In competition contexts, High Mount represents the culmination of successful pas
 
 - **[[Upa Escape]]** (15% of attempts)
 
-- **[[Elbow Escape]]** (21% of attempts)
+- **[[Elbow Escape to Guard]]** (22% of attempts)
 
 - **[[Bridge and Roll]]** (12% of attempts)
 
 - **[[Shrimp Escape]]** (15% of attempts)
 
-- **[[Hip Escape]]** (20% of attempts)
+- **[[Hip Escape to Guard]]** (19% of attempts)
 
 - **[[Frame Creation]]** (17% of attempts)
 
@@ -170,25 +172,25 @@ In competition contexts, High Mount represents the culmination of successful pas
 ### Available Transitions
 
 
-- **[[Armbar from Mount]]** (14% of attempts)
+- **[[Mount to Armbar]]** (18% of attempts)
 
-- **[[Ezekiel from Mount]]** (11% of attempts)
+- **[[Cross Collar Choke]]** (14% of attempts)
 
-- **[[Cross Collar Choke]]** (11% of attempts)
+- **[[Americana]]** (10% of attempts)
 
-- **[[Americana from Mount]]** (10% of attempts)
+- **[[Triangle from Mount]]** (10% of attempts)
 
-- **[[Triangle from Mount]]** (8% of attempts)
-
-- **[[Kimura from Mount]]** (10% of attempts)
+- **[[Kimura]]** (10% of attempts)
 
 - **[[Arm Triangle]]** (8% of attempts)
 
 - **[[Gift Wrap Transition]]** (8% of attempts)
 
-- **[[Loop Choke from Mount]]** (10% of attempts)
+- **[[Mounted Triangle]]** (7% of attempts)
 
-- **[[Monoplata from Mount]]** (10% of attempts)
+- **[[S-Mount Transition]]** (8% of attempts)
+
+- **[[Mounted Crucifix Entry]]** (7% of attempts)
 
 
 ### Common Mistakes

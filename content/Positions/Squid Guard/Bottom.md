@@ -21,37 +21,37 @@ description: "Master Squid Guard Bottom in BJJ. Advanced asymmetrical guard with
     {
       "@type": "HowToStep",
       "name": "Execute Kiss of the Dragon",
-      "text": "From this position, attempt Kiss of the Dragon. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Kiss of the Dragon. This technique is attempted in 22% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard Sweep",
-      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Sweep",
-      "text": "From this position, attempt Single Leg X Sweep. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg X Sweep. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Berimbolo Entry",
-      "text": "From this position, attempt Berimbolo Entry. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Berimbolo Entry. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute De La Riva Sweep",
-      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Stand Up",
-      "text": "From this position, attempt Technical Stand Up. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Guard Recovery",
+      "text": "From this position, attempt Guard Recovery. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,23 +211,27 @@ While technically demanding and requiring significant flexibility, coordination,
 
 ## Available Escapes
 
-### [[Kiss of the Dragon]] (11% of attempts)
+### [[Kiss of the Dragon]] (22% of attempts)
 
-### [[X-Guard Sweep]] (12% of attempts)
+### [[X-Guard Sweep]] (10% of attempts)
 
-### [[Single Leg X Sweep]] (12% of attempts)
+### [[Single Leg X Sweep]] (9% of attempts)
 
-### [[Berimbolo Entry]] (11% of attempts)
+### [[Berimbolo Entry]] (9% of attempts)
 
-### [[De La Riva Sweep]] (11% of attempts)
+### [[De La Riva Sweep]] (9% of attempts)
 
-### [[Technical Stand Up]] (12% of attempts)
+### [[Guard Recovery]] (10% of attempts)
 
-### [[Omoplata Sweep]] (10% of attempts)
+### [[Omoplata Sweep]] (8% of attempts)
 
-### [[Triangle Setup]] (10% of attempts)
+### [[Triangle Setup]] (8% of attempts)
 
-### [[Omoplata to Back]] (11% of attempts)
+### [[Omoplata to Back]] (9% of attempts)
+
+### [[Squid Guard Sweep]] (4% of attempts)
+
+### [[Squid to Ringworm Guard]] (2% of attempts)
 
 
 
@@ -248,13 +252,13 @@ While technically demanding and requiring significant flexibility, coordination,
 
 
 **If opponent turns away from threading leg to escape tension:**
-- Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 65%)
+- Execute **[[Back Take]]** → [[Back Control]] (Probability: 65%)
 - Execute **[[Omoplata to Back]]** → [[Back Control]] (Probability: 55%)
 
 
 **If opponent attempts to disengage and create distance:**
-- Execute **[[Technical Stand Up]]** → [[Standing Position]] (Probability: 70%)
-- Execute **[[Re-Guard]]** → [[Spider Guard]] (Probability: 60%)
+- Execute **[[Guard Recovery]]** → [[Open Guard]] (Probability: 70%)
+- Execute **[[Shin to Shin Pull]]** → [[Spider Guard]] (Probability: 60%)
 
 
 
@@ -396,8 +400,8 @@ Hold Squid Guard position with partner attempting to extract threading leg and c
 - **[[Spider Guard]]** - Complementary open guard variation
 - **[[Worm Guard]]** - Similar advanced lapel guard system
 - **[[Back Control]]** - Primary advancement via back takes
-- **[[Triangle Control]]** - Submission threat from position
-- **[[Guard Retention]]** - Core principle for maintaining position
+- **[[Omoplata Control]]** - Submission threat from position
+- **[[Inverted Guard]]** - Related guard used during retention and transitions
 
 
 </section>

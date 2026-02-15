@@ -95,15 +95,15 @@ Strategically, Reverse Kesa-Gatame serves as an excellent transitional position 
 ### Available Transitions
 
 
-- **[[Elbow Escape]]** (25% of attempts)
+- **[[Elbow Escape to Guard]]** (25% of attempts)
 
-- **[[Hip Escape]]** (22% of attempts)
+- **[[Hip Escape to Guard]]** (22% of attempts)
 
 - **[[Bridge and Roll]]** (18% of attempts)
 
-- **[[Frame and Shrimp]]** (20% of attempts)
+- **[[Frame and Shrimp to Guard]]** (20% of attempts)
 
-- **[[Technical Standup]]** (15% of attempts)
+- **[[Technical Stand-up]]** (15% of attempts)
 
 
 ### Common Mistakes
@@ -168,13 +168,13 @@ Strategically, Reverse Kesa-Gatame serves as an excellent transitional position 
 
 - **[[Side Control to North-South]]** (18% of attempts)
 
-- **[[Kimura from Side Control]]** (18% of attempts)
+- **[[Kimura]]** (18% of attempts)
 
-- **[[Americana from Side Control]]** (15% of attempts)
+- **[[Americana]]** (15% of attempts)
 
 - **[[Arm Triangle]]** (12% of attempts)
 
-- **[[Back Take Generic]]** (15% of attempts)
+- **[[Back Take]]** (15% of attempts)
 
 
 ### Common Mistakes

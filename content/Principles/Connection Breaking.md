@@ -370,10 +370,9 @@ Systematic progression from compliant partner allowing easy connection breaking,
 - [[Side Control]] (Position) - Primary application context where connection breaking targets cross-face, underhook, and hip controls to enable escape
 - [[Mount]] (Position) - High-priority application context where connection breaking focuses on grapevine hooks and upper body controls
 - [[Back Control]] (Position) - Critical defensive scenario where connection breaking addresses seatbelt grips and leg-based controls
-- [[Frame and Shrimp]] (Transition) - Fundamental escape movement that integrates connection breaking with hip escape mechanics
+- [[Frame and Shrimp to Guard]] (Transition) - Fundamental escape movement that integrates connection breaking with hip escape mechanics
 - [[Defensive Posture]] (Principle) - Protective positioning concept that works synergistically with connection breaking to prevent submission and maintain escape opportunities
 - [[Space Creation]] (Principle) - Complementary principle where connection breaking creates the physical space necessary for defensive movement and recovery
-- [[Hand Fighting]] (Principle) - Broader grip management framework that encompasses connection breaking as core defensive component alongside offensive grip establishment
 
 
 </section>

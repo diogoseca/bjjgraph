@@ -21,7 +21,7 @@ description: "Master grasshopper guard from top. Complete guide to countering in
     {
       "@type": "HowToStep",
       "name": "Execute Back Step Pass",
-      "text": "From this position, attempt Back Step Pass. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Back Step Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
@@ -39,13 +39,13 @@ description: "Master grasshopper guard from top. Complete guide to countering in
     {
       "@type": "HowToStep",
       "name": "Execute Step Over to Mount",
-      "text": "From this position, attempt Step Over to Mount. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Step Over to Mount. This technique is attempted in 5% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
@@ -214,23 +214,27 @@ The position also demands excellent leg lock defense awareness. Many of the bott
 
 ## Available Attacks
 
-### [[Back Step Pass]] (11% of attempts)
+### [[Back Step Pass]] (15% of attempts)
 
 ### [[Leg Drag Pass]] (12% of attempts)
 
 ### [[Stack Pass from Inversion]] (10% of attempts)
 
-### [[Step Over to Mount]] (10% of attempts)
+### [[Step Over to Mount]] (5% of attempts)
 
-### [[Knee Slice Pass]] (12% of attempts)
+### [[Knee Slice Pass]] (8% of attempts)
 
 ### [[Sprawl and Disengage]] (14% of attempts)
 
-### [[Toreando Pass]] (11% of attempts)
+### [[Toreando Pass]] (12% of attempts)
 
-### [[Cartwheel Pass]] (10% of attempts)
+### [[Cartwheel Pass]] (3% of attempts)
 
-### [[Pressure Pass through Center]] (10% of attempts)
+### [[Pressure Pass through Center]] (5% of attempts)
+
+### [[Counter Ashi Entry]] (8% of attempts)
+
+### [[Double Under Pass]] (8% of attempts)
 
 
 
@@ -308,7 +312,7 @@ The position also demands excellent leg lock defense awareness. Many of the bott
 
 ### Grasshopper Guard Pass Progression
 
-Partner establishes grasshopper position with 50% resistance level. Practice passing sequence: recognize inversion → establish base → wait for hip drop or transition → execute back step or leg drag pass. Reset and repeat, gradually increasing partner's resistance to 75% over multiple rounds.
+Partner establishes grasshopper position with 50% resistance level. Practice passing sequence: recognize inversion, establish base, wait for hip drop or transition, execute back step or leg drag pass. Reset and repeat, gradually increasing partner's resistance to 75% over multiple rounds.
 
 **Duration**: 5 minutes
 
@@ -394,7 +398,6 @@ Partner holds grasshopper position but signals by dropping hips 2-3 times per ro
 - **[[Back Step Pass]]** - Primary passing technique for escaping leg entanglement danger
 - **[[Leg Drag Pass]]** - High-percentage pass when bottom player has one leg extended
 - **[[Inverted Guard]]** - Parent category - understanding general inverted guard defense applies here
-- **[[Standing Position]]** - Safe disengagement option when passing becomes too risky
 - **[[Side Control]]** - Primary destination after successful pass completion
 - **[[Combat Base]]** - Stable base option for controlled engagement against inverted guards
 - **[[Turtle]]** - Opponent destination after successful sprawl disrupts their roll

@@ -21,37 +21,37 @@ description: "Master Guillotine Control Top position in BJJ. Dominant control wi
     {
       "@type": "HowToStep",
       "name": "Execute Guillotine Choke",
-      "text": "From this position, attempt Guillotine Choke. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Guillotine Choke. This technique is attempted in 44% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute High Elbow Guillotine",
-      "text": "From this position, attempt High Elbow Guillotine. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute High Elbow Guillotine Variation",
+      "text": "From this position, attempt High Elbow Guillotine Variation. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm in Guillotine",
-      "text": "From this position, attempt Arm in Guillotine. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Front Headlock to Anaconda",
+      "text": "From this position, attempt Front Headlock to Anaconda. This technique is attempted in 7% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Front Headlock to Anaconda",
-      "text": "From this position, attempt Front Headlock to Anaconda. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Front Headlock to Darce",
+      "text": "From this position, attempt Front Headlock to Darce. This technique is attempted in 7% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Front Headlock to Darce",
-      "text": "From this position, attempt Front Headlock to Darce. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Side Control to Mount",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Side Control to North-South",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,23 +208,25 @@ The strategic value of Guillotine Control Top lies in its versatility—the top 
 
 ## Available Attacks
 
-### [[Guillotine Choke]] (13% of attempts)
+### [[Guillotine Choke]] (44% of attempts)
 
-### [[High Elbow Guillotine]] (10% of attempts)
+### [[High Elbow Guillotine Variation]] (16% of attempts)
 
-### [[Arm in Guillotine]] (10% of attempts)
+### [[Front Headlock to Anaconda]] (7% of attempts)
 
-### [[Front Headlock to Anaconda]] (10% of attempts)
+### [[Front Headlock to Darce]] (7% of attempts)
 
-### [[Front Headlock to Darce]] (10% of attempts)
+### [[Side Control to Mount]] (7% of attempts)
 
-### [[Side Control to Mount]] (12% of attempts)
+### [[Side Control to North-South]] (5% of attempts)
 
-### [[Side Control to North-South]] (12% of attempts)
+### [[Pass to Side Control]] (10% of attempts)
 
-### [[Guard Pass]] (12% of attempts)
+### [[Arm in Guillotine Variation]] (2% of attempts)
 
-### [[Guillotine Counter]] (11% of attempts)
+### [[Guillotine Counter]] (1% of attempts)
+
+### [[Ten Finger Guillotine Variation]] (1% of attempts)
 
 
 
@@ -235,8 +237,8 @@ The strategic value of Guillotine Control Top lies in its versatility—the top 
 ## Decision Making from This Position
 
 **If opponent's posture is broken forward and chin is exposed:**
-- Execute **[[Guillotine Choke]]** → [[game-over]] (Probability: 75%)
-- Execute **[[High Elbow Guillotine]]** → [[game-over]] (Probability: 70%)
+- Execute **[[Guillotine Choke]]** → [[Game Over]] (Probability: 75%)
+- Execute **[[High Elbow Guillotine Variation]]** → [[Game Over]] (Probability: 70%)
 
 
 **If opponent tucks chin and defends neck but neglects position:**
@@ -250,13 +252,13 @@ The strategic value of Guillotine Control Top lies in its versatility—the top 
 
 
 **If opponent has arm trapped inside the guillotine:**
-- Execute **[[Arm in Guillotine]]** → [[game-over]] (Probability: 72%)
+- Execute **[[Guillotine Choke]]** → [[Game Over]] (Probability: 72%)
 - Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 68%)
 
 
 **If opponent creates distance with legs but not hand fighting:**
-- Execute **[[Guard Pass]]** → [[Side Control]] (Probability: 75%)
-- Execute **[[High Elbow Guillotine]]** → [[game-over]] (Probability: 65%)
+- Execute **[[Pass to Side Control]]** → [[Side Control]] (Probability: 75%)
+- Execute **[[High Elbow Guillotine Variation]]** → [[Game Over]] (Probability: 65%)
 
 
 
@@ -372,8 +374,8 @@ Start in guillotine control with partner attempting to close guard, you must mai
 **Q6**: Your opponent successfully tucks their chin and defends the finish—what is your response?
 **A**: When chin tuck defense succeeds, immediately pivot to positional advancement. Use their focus on neck defense to pass to mount, advance to north-south, or transition to side control. The opponent cannot defend both the choke and position simultaneously—exploit this dilemma by threatening finish to open positional opportunities.
 
-**Q7**: What grip adjustments should you prioritize when opponent traps their arm inside the guillotine?
-**A**: Transition to arm-in guillotine mechanics by adjusting hand position and angle. The arm-in variation uses the opponent's own trapped arm to assist the choke by pressing it against their carotid. Rotate your body slightly to the trapped arm side and apply finishing pressure at a diagonal angle rather than straight back.
+**Q7**: Your opponent frames against your hip and begins creating space—how do you recover control?
+**A**: Immediately collapse their frame by driving your hip weight into their arm and sprawling your legs back to drop your center of gravity. Use shoulder pressure to drive their head back down while your free hand strips the frame. If they create significant space, follow their movement and re-establish heavy pressure before they can fully extend. Do not chase upward—drive forward and down to re-compress.
 
 **Q8**: How do you recover control if opponent begins extracting their head from the guillotine?
 **A**: Immediately re-break their posture by pulling the head down while sprawling your hips forward. If they've created significant space, consider transitioning to front headlock control and re-establishing the guillotine with better depth, or use the remaining head control to advance position to side control or north-south rather than fighting for a compromised choke.

@@ -1,159 +1,421 @@
 {
   "name": "Basic Butterfly Sweep",
-  "description": "Learn the Basic Butterfly Sweep in BJJ. Step-by-step execution from Butterfly Guard to Mount or Side Control. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%.",
+  "description": "Learn the Basic Butterfly Sweep in BJJ. Step-by-step execution from Butterfly Guard to Mount with defense strategies, counters, and variations.",
   "tags": [
     "bjj",
     "technique",
     "sweep",
     "butterfly-guard",
-    "fundamental"
+    "fundamental",
+    "guard-sweep",
+    "open-guard"
   ],
-  "overview": "The Basic Butterfly Sweep is a fundamental technique from the Butterfly Guard that exploits opponent's forward pressure and balance. Using hooks underneath the opponent's thighs combined with proper grip control and hip movement, the practitioner elevates and off-balances the opponent to achieve a dominant top position. This sweep is highly effective against opponents who attempt to establish base in your butterfly guard or pressure forward without proper posture. The technique relies on timing, leverage, and the mechanical advantage created by the butterfly hooks rather than pure strength. When executed properly, the Basic Butterfly Sweep can transition smoothly into mount, side control, or back control depending on the opponent's defensive reactions. This is considered an essential technique for all BJJ practitioners and forms the foundation for more advanced butterfly guard sweeping systems.",
-  "key_principles": [
-    "Maintain active butterfly hooks with heels close to opponent's hips",
-    "Break opponent's posture and control their upper body through grips",
-    "Use hip movement to create proper angle and leverage",
-    "Time the sweep when opponent commits weight forward",
-    "Drive hooks upward while pulling upper body grips to create rotation",
-    "Follow through with bodyweight to establish top position",
-    "Maintain connection throughout the sweep to prevent escape"
-  ],
-  "setup_requirements": [
-    "Butterfly guard established with both hooks under opponent's thighs",
-    "Secure grip control on opponent's collar, sleeve, or overhooks",
-    "Opponent's weight committed forward or balanced neutrally",
-    "Your hips mobile and positioned underneath opponent's center of gravity",
-    "Proper distance maintained - not too close, not too far",
-    "Active hook engagement with heels pulled toward opponent's hips"
-  ],
-  "execution_steps": [
+  "from_position": "Butterfly Guard/Bottom",
+  "outcomes": [
     {
-      "step_number": 1,
-      "action": "Establish butterfly guard position",
-      "description": "Secure butterfly guard with both hooks under opponent's thighs, heels pulled in toward their hips. Sit up tall with active posture, controlling opponent's upper body with collar and sleeve grips or underhooks. Your hips should be mobile and ready to move."
+      "to": "Mount/Top",
+      "probability": 62,
+      "result": "success"
     },
     {
-      "step_number": 2,
-      "action": "Secure upper body control",
-      "description": "Establish strong grip control - typically collar and sleeve grips, double underhooks, or overhook/underhook combinations. Pull opponent's upper body down and forward to break their posture and bring their weight over your hips. This control is critical for preventing them from posting and defending the sweep."
+      "to": "Butterfly Guard/Bottom",
+      "probability": 25,
+      "result": "failure"
     },
     {
-      "step_number": 3,
-      "action": "Create angle with hip movement",
-      "description": "Shift your hips at a 45-degree angle away from the side you intend to sweep toward. This angling creates better leverage for the butterfly hook and positions your body to follow through into top position. Your spine should be curved toward the sweeping direction."
-    },
-    {
-      "step_number": 4,
-      "action": "Drive butterfly hook upward",
-      "description": "Explosively extend the butterfly hook on the sweeping side upward and forward, driving through your heel and lifting opponent's leg off the mat. Simultaneously pull their upper body in the direction of the sweep using your grips. The hook creates elevation while the grips create rotation."
-    },
-    {
-      "step_number": 5,
-      "action": "Roll opponent over your body",
-      "description": "Continue driving the butterfly hook while pulling their upper body across your centerline. Fall back slightly on the sweeping side, allowing opponent's momentum to roll over you. Your opposite butterfly hook helps stabilize and can be used to further off-balance them if needed."
-    },
-    {
-      "step_number": 6,
-      "action": "Follow through to top position",
-      "description": "As opponent rolls over, immediately follow their movement by coming up on your knees and establishing top position. Drive your chest forward and maintain grip control to prevent them from recovering guard. Depending on the angle and their defensive reactions, you can land in mount, side control, or take the back."
-    },
-    {
-      "step_number": 7,
-      "action": "Consolidate position",
-      "description": "Once on top, quickly establish control by securing proper weight distribution, controlling their hips and shoulders, and preventing guard recovery. If in mount, secure your base. If in side control, establish crossface and hip control. Maintain pressure to prevent escape attempts."
+      "to": "Butterfly Guard/Top",
+      "probability": 13,
+      "result": "counter"
     }
   ],
-  "common_counters": [
+  "success_rate": 62,
+  "overview": "The Basic Butterfly Sweep is a fundamental technique from the Butterfly Guard that exploits opponent's forward pressure and balance. Using hooks underneath the opponent's thighs combined with proper grip control and hip movement, the practitioner elevates and off-balances the opponent to achieve a dominant top position. This sweep is highly effective against opponents who attempt to establish base in your butterfly guard or pressure forward without proper posture. The technique relies on timing, leverage, and the mechanical advantage created by the butterfly hooks rather than pure strength.\n\nWhen executed properly, the Basic Butterfly Sweep transitions smoothly into mount, side control, or back control depending on the opponent's defensive reactions. The core mechanic involves creating a 45-degree hip angle, driving the sweeping-side hook upward and forward while pulling the opponent's upper body across your centerline with grips. This coordinated action generates rotational force that displaces the opponent's base regardless of size disparity.\n\nThis is considered an essential technique for all BJJ practitioners and forms the foundation for more advanced butterfly guard sweeping systems. It serves as the entry point to understanding how inside position via hooks creates mechanical leverage, how grip control prevents defensive posting, and how timing with opponent weight shifts determines success rate. Mastery of the basic butterfly sweep unlocks the entire butterfly guard attacking system including back takes, leg entanglements, and submission chains.",
+  "conditions": [
+    "Both butterfly hooks inserted under opponent's thighs with active engagement",
+    "Upper body grip control established preventing opponent from posting freely",
+    "Opponent's weight distributed forward or neutrally over your hips",
+    "Seated upright posture maintained with mobile hips and active core",
+    "Sufficient space to create 45-degree hip angle for sweeping direction"
+  ],
+  "related_content": [
     {
-      "counter": "Opponent posts hand on mat to block sweep",
-      "effectiveness": "High",
-      "your_response": "Switch to opposite side butterfly sweep, attack posted arm with kimura, or transition to single leg X-guard by diving under the posted arm"
+      "name": "Butterfly Guard",
+      "relationship": "Starting Position - Primary position from which technique is executed"
     },
     {
-      "counter": "Opponent sprawls hips back and creates distance",
-      "effectiveness": "High",
-      "your_response": "Follow their movement by extending guard forward, switch to deep half guard entry, or stand up and pursue with front headlock control"
+      "name": "Butterfly Hook Control",
+      "relationship": "Core Principle - Essential hook control mechanism for sweep leverage"
     },
     {
-      "counter": "Opponent steps over butterfly hook to establish headquarters position",
-      "effectiveness": "Medium",
-      "your_response": "Immediately switch to single leg X-guard, attack the trapped leg, or transition to reverse De La Riva guard before they can pass"
+      "name": "Mount",
+      "relationship": "Ending Position - Primary finishing position after successful sweep"
     },
     {
-      "counter": "Opponent maintains strong upright posture and prevents forward weight commitment",
-      "effectiveness": "Medium",
-      "your_response": "Use elevator sweep variation by pulling them forward with collar grip, or transition to seated guard with ankle picks and arm drags"
+      "name": "Elevator Sweep",
+      "relationship": "Variation - Alternative butterfly sweep using vertical elevation mechanics"
     },
     {
-      "counter": "Opponent counters by driving weight extremely heavy onto your chest",
-      "effectiveness": "Low",
-      "your_response": "Use their forward pressure to enhance the sweep - their committed weight actually makes the basic butterfly sweep easier to execute"
+      "name": "Hook Sweep",
+      "relationship": "Variation - One-sided butterfly sweep emphasizing asymmetric hook drive"
+    },
+    {
+      "name": "Arm Drag to Back",
+      "relationship": "Setup Technique - Creates forward weight commitment that opens sweep"
+    },
+    {
+      "name": "Butterfly Guard to X-Guard",
+      "relationship": "Alternative Transition - Option when sweep is defended by standing"
+    },
+    {
+      "name": "Single Leg X-Guard",
+      "relationship": "Counter Option - Transition when opponent posts hand to defend sweep"
+    },
+    {
+      "name": "Deep Half Entry",
+      "relationship": "Counter Option - Alternative when opponent sprawls hips back"
+    },
+    {
+      "name": "Kimura from Guard",
+      "relationship": "Submission Threat - Attack on posted arm during sweep defense"
+    },
+    {
+      "name": "Guillotine Choke",
+      "relationship": "Combination Attack - Submission threat from butterfly that facilitates sweep"
+    },
+    {
+      "name": "Marcelo Garcia Butterfly Guard System",
+      "relationship": "System Integration - Complete system built around butterfly sweeps"
     }
   ],
-  "common_errors": [
-    {
-      "error": "Attempting sweep without securing proper upper body control first",
-      "consequence": "Opponent easily posts their hands, maintains base, and prevents the sweep while potentially passing your guard",
-      "correction": "Always establish strong collar/sleeve grips or underhooks before initiating the sweep. Pull opponent's posture down and create forward weight commitment before driving the butterfly hook"
-    },
-    {
-      "error": "Driving butterfly hook straight up instead of up and forward at an angle",
-      "consequence": "Opponent maintains their base and the sweep lacks the rotational component needed to complete the technique",
-      "correction": "Create hip angle first, then drive the hook on a 45-degree angle - upward and forward - while simultaneously pulling their upper body across your centerline to create rotation"
-    },
-    {
-      "error": "Keeping hips flat on mat instead of mobile and elevated",
-      "consequence": "Reduced power generation and inability to create proper angle for sweep. The sweep feels heavy and requires excessive strength",
-      "correction": "Keep your hips mobile and slightly elevated off the mat. Think of sitting on your heels with active butterfly hooks rather than lying flat on your back"
-    },
-    {
-      "error": "Attempting sweep when opponent's weight is distributed evenly or back",
-      "consequence": "Sweep fails because opponent has strong base and can easily post to defend. Wastes energy and creates passing opportunities",
-      "correction": "Time the sweep for when opponent commits weight forward. Use grip control to pull them forward and wait for the moment their weight is over your hips before executing"
-    },
-    {
-      "error": "Failing to follow through after the sweep begins",
-      "consequence": "Opponent recovers mid-sweep, scrambles back to guard, or you end up in neutral position instead of dominant top control",
-      "correction": "Commit fully to the sweep once initiated. Drive your butterfly hook completely through, pull their upper body aggressively, and immediately follow their momentum to establish top position"
-    },
-    {
-      "error": "Losing grip control during the sweep execution",
-      "consequence": "Opponent creates space to post, base out, or recover their position. The sweep lacks the upper body control needed to complete the rotation",
-      "correction": "Maintain tight grip control throughout the entire sweep. Your grips should pull their upper body in the sweeping direction while your hook drives them over. Never release grips until you've established top position"
-    }
-  ],
-  "training_progressions": [
-    {
-      "phase": "Week 1-2: Fundamentals and Solo Drilling",
-      "focus": "Developing butterfly guard posture, hook placement, and basic movement patterns without resistance",
-      "description": "Practice butterfly guard positioning with focus on proper hook placement, hip mobility, and maintaining upright posture. Drill hip angling and hook drive movements solo. Partner drilling with cooperative training partner who allows you to complete the sweep slowly to understand the mechanics."
-    },
-    {
-      "phase": "Week 3-4: Controlled Repetitions with Light Resistance",
-      "focus": "Building muscle memory through high-volume repetitions with minimal defensive reactions",
-      "description": "Partner provides light resistance by maintaining base but not actively defending. Focus on proper timing, grip control, and creating the necessary angle before driving the sweep. Aim for 20-30 successful repetitions per training session to develop automatic movement patterns."
-    },
-    {
-      "phase": "Week 5-8: Positional Sparring with Specific Scenarios",
-      "focus": "Developing timing, reading opponent's weight distribution, and chaining techniques together",
-      "description": "Positional sparring starting from butterfly guard with specific goals. Partner provides medium resistance and can defend the sweep but starts with compromised posture. Practice recognizing when opponent's weight is committed forward versus when they maintain distance. Begin chaining butterfly sweep with other techniques when sweep is defended."
-    },
-    {
-      "phase": "Week 9-12: Full Resistance and Counter Integration",
-      "focus": "Executing against intelligent defense and developing sweep variations based on reactions",
-      "description": "Live sparring from butterfly guard against full resistance. Partner actively defends with posting, sprawling, and pressure passing attempts. Focus on setting up the sweep through grip fighting, creating reactions that open the sweep opportunity, and recognizing when to switch to alternative attacks."
-    },
-    {
-      "phase": "Month 4+: Competition Application and System Building",
-      "focus": "Integrating butterfly sweep into complete game, developing set-ups, and building submission chains",
-      "description": "Use butterfly sweep in open rolling and competition scenarios. Develop entries from standing, transitions from other guards, and submission threats that force reactions leading to sweep opportunities. Build complete butterfly guard system integrating sweeps, back takes, and submissions."
-    },
-    {
-      "phase": "Ongoing: Technical Refinement and Variation Development",
-      "focus": "Continuous improvement of timing, efficiency, and adaptation to different body types and skill levels",
-      "description": "Refine technique based on experience against various opponents. Study high-level competitors using butterfly sweeps. Experiment with grip variations, angle adjustments, and submission combinations. Develop counters to common defensive reactions specific to your competition level and weight class."
-    }
-  ],
+  "attacker": {
+    "name": "Basic Butterfly Sweep Attacker",
+    "description": "How to execute Basic Butterfly Sweep in BJJ. Attacking perspective with setup, execution steps, and counters.",
+    "overview": "The Basic Butterfly Sweep is a fundamental technique from the Butterfly Guard that exploits opponent's forward pressure and balance. Using hooks underneath the opponent's thighs combined with proper grip control and hip movement, the practitioner elevates and off-balances the opponent to achieve a dominant top position. This sweep is highly effective against opponents who attempt to establish base in your butterfly guard or pressure forward without proper posture. The technique relies on timing, leverage, and the mechanical advantage created by the butterfly hooks rather than pure strength. When executed properly, the Basic Butterfly Sweep can transition smoothly into mount, side control, or back control depending on the opponent's defensive reactions. This is considered an essential technique for all BJJ practitioners and forms the foundation for more advanced butterfly guard sweeping systems.",
+    "key_principles": [
+      "Maintain active butterfly hooks with heels close to opponent's hips for maximum elevation leverage",
+      "Break opponent's posture and control their upper body through grips before initiating sweep",
+      "Use hip movement to create proper 45-degree angle and mechanical leverage before driving",
+      "Time the sweep when opponent commits weight forward over your hooks",
+      "Drive hooks upward and forward while pulling upper body grips to create unified rotational force",
+      "Follow through with bodyweight to establish top position without disconnecting",
+      "Maintain connection throughout the sweep to prevent escape and ensure consolidation"
+    ],
+    "setup_requirements": [
+      "Butterfly guard established with both hooks under opponent's thighs",
+      "Secure grip control on opponent's collar, sleeve, or overhooks",
+      "Opponent's weight committed forward or balanced neutrally over your hips",
+      "Your hips mobile and positioned underneath opponent's center of gravity",
+      "Proper distance maintained - not too close to compress, not too far to lose hooks",
+      "Active hook engagement with heels pulled toward opponent's hips"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish butterfly guard position",
+        "description": "Secure butterfly guard with both hooks under opponent's thighs, heels pulled in toward their hips. Sit up tall with active posture, controlling opponent's upper body with collar and sleeve grips or underhooks. Your hips should be mobile and ready to move."
+      },
+      {
+        "step_number": 2,
+        "action": "Secure upper body control",
+        "description": "Establish strong grip control - typically collar and sleeve grips, double underhooks, or overhook/underhook combinations. Pull opponent's upper body down and forward to break their posture and bring their weight over your hips. This control is critical for preventing them from posting and defending the sweep."
+      },
+      {
+        "step_number": 3,
+        "action": "Create angle with hip movement",
+        "description": "Shift your hips at a 45-degree angle away from the side you intend to sweep toward. This angling creates better leverage for the butterfly hook and positions your body to follow through into top position. Your spine should be curved toward the sweeping direction."
+      },
+      {
+        "step_number": 4,
+        "action": "Drive butterfly hook upward",
+        "description": "Explosively extend the butterfly hook on the sweeping side upward and forward, driving through your heel and lifting opponent's leg off the mat. Simultaneously pull their upper body in the direction of the sweep using your grips. The hook creates elevation while the grips create rotation."
+      },
+      {
+        "step_number": 5,
+        "action": "Roll opponent over your body",
+        "description": "Continue driving the butterfly hook while pulling their upper body across your centerline. Fall back slightly on the sweeping side, allowing opponent's momentum to roll over you. Your opposite butterfly hook helps stabilize and can be used to further off-balance them if needed."
+      },
+      {
+        "step_number": 6,
+        "action": "Follow through to top position",
+        "description": "As opponent rolls over, immediately follow their movement by coming up on your knees and establishing top position. Drive your chest forward and maintain grip control to prevent them from recovering guard. Depending on the angle and their defensive reactions, you can land in mount, side control, or take the back."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate position",
+        "description": "Once on top, quickly establish control by securing proper weight distribution, controlling their hips and shoulders, and preventing guard recovery. If in mount, secure your base. If in side control, establish crossface and hip control. Maintain pressure to prevent escape attempts."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent posts hand on mat to block sweep",
+        "effectiveness": "High",
+        "your_response": "Switch to opposite side butterfly sweep, attack posted arm with kimura, or transition to single leg X-guard by diving under the posted arm",
+        "targets_outcome": "Butterfly Guard/Bottom"
+      },
+      {
+        "counter": "Opponent sprawls hips back and creates distance",
+        "effectiveness": "High",
+        "your_response": "Follow their movement by extending guard forward, switch to deep half guard entry, or stand up and pursue with front headlock control",
+        "targets_outcome": "Butterfly Guard/Bottom"
+      },
+      {
+        "counter": "Opponent steps over butterfly hook to establish headquarters position",
+        "effectiveness": "Medium",
+        "your_response": "Immediately switch to single leg X-guard, attack the trapped leg, or transition to reverse De La Riva guard before they can pass",
+        "targets_outcome": "Butterfly Guard/Top"
+      },
+      {
+        "counter": "Opponent maintains strong upright posture and prevents forward weight commitment",
+        "effectiveness": "Medium",
+        "your_response": "Use elevator sweep variation by pulling them forward with collar grip, or transition to seated guard with ankle picks and arm drags",
+        "targets_outcome": "Butterfly Guard/Bottom"
+      },
+      {
+        "counter": "Opponent counters by driving weight extremely heavy onto your chest",
+        "effectiveness": "Low",
+        "your_response": "Use their forward pressure to enhance the sweep - their committed weight actually makes the basic butterfly sweep easier to execute with proper timing",
+        "targets_outcome": "Mount/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting sweep without securing proper upper body control first",
+        "consequence": "Opponent easily posts their hands, maintains base, and prevents the sweep while potentially passing your guard",
+        "correction": "Always establish strong collar/sleeve grips or underhooks before initiating the sweep. Pull opponent's posture down and create forward weight commitment before driving the butterfly hook"
+      },
+      {
+        "error": "Driving butterfly hook straight up instead of up and forward at an angle",
+        "consequence": "Opponent maintains their base and the sweep lacks the rotational component needed to complete the technique",
+        "correction": "Create hip angle first, then drive the hook on a 45-degree angle - upward and forward - while simultaneously pulling their upper body across your centerline to create rotation"
+      },
+      {
+        "error": "Keeping hips flat on mat instead of mobile and elevated",
+        "consequence": "Reduced power generation and inability to create proper angle for sweep. The sweep feels heavy and requires excessive strength",
+        "correction": "Keep your hips mobile and slightly elevated off the mat. Think of sitting on your heels with active butterfly hooks rather than lying flat on your back"
+      },
+      {
+        "error": "Attempting sweep when opponent's weight is distributed evenly or back",
+        "consequence": "Sweep fails because opponent has strong base and can easily post to defend. Wastes energy and creates passing opportunities",
+        "correction": "Time the sweep for when opponent commits weight forward. Use grip control to pull them forward and wait for the moment their weight is over your hips before executing"
+      },
+      {
+        "error": "Failing to follow through after the sweep begins",
+        "consequence": "Opponent recovers mid-sweep, scrambles back to guard, or you end up in neutral position instead of dominant top control",
+        "correction": "Commit fully to the sweep once initiated. Drive your butterfly hook completely through, pull their upper body aggressively, and immediately follow their momentum to establish top position"
+      },
+      {
+        "error": "Losing grip control during the sweep execution",
+        "consequence": "Opponent creates space to post, base out, or recover their position. The sweep lacks the upper body control needed to complete the rotation",
+        "correction": "Maintain tight grip control throughout the entire sweep. Your grips should pull their upper body in the sweeping direction while your hook drives them over. Never release grips until you've established top position"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2: Fundamentals and Solo Drilling",
+        "focus": "Developing butterfly guard posture, hook placement, and basic movement patterns without resistance",
+        "description": "Practice butterfly guard positioning with focus on proper hook placement, hip mobility, and maintaining upright posture. Drill hip angling and hook drive movements solo. Partner drilling with cooperative training partner who allows you to complete the sweep slowly to understand the mechanics."
+      },
+      {
+        "phase": "Week 3-4: Controlled Repetitions with Light Resistance",
+        "focus": "Building muscle memory through high-volume repetitions with minimal defensive reactions",
+        "description": "Partner provides light resistance by maintaining base but not actively defending. Focus on proper timing, grip control, and creating the necessary angle before driving the sweep. Aim for 20-30 successful repetitions per training session to develop automatic movement patterns."
+      },
+      {
+        "phase": "Week 5-8: Positional Sparring with Specific Scenarios",
+        "focus": "Developing timing, reading opponent's weight distribution, and chaining techniques together",
+        "description": "Positional sparring starting from butterfly guard with specific goals. Partner provides medium resistance and can defend the sweep but starts with compromised posture. Practice recognizing when opponent's weight is committed forward versus when they maintain distance. Begin chaining butterfly sweep with other techniques when sweep is defended."
+      },
+      {
+        "phase": "Week 9-12: Full Resistance and Counter Integration",
+        "focus": "Executing against intelligent defense and developing sweep variations based on reactions",
+        "description": "Live sparring from butterfly guard against full resistance. Partner actively defends with posting, sprawling, and pressure passing attempts. Focus on setting up the sweep through grip fighting, creating reactions that open the sweep opportunity, and recognizing when to switch to alternative attacks."
+      },
+      {
+        "phase": "Month 4+: Competition Application and System Building",
+        "focus": "Integrating butterfly sweep into complete game, developing set-ups, and building submission chains",
+        "description": "Use butterfly sweep in open rolling and competition scenarios. Develop entries from standing, transitions from other guards, and submission threats that force reactions leading to sweep opportunities. Build complete butterfly guard system integrating sweeps, back takes, and submissions."
+      },
+      {
+        "phase": "Ongoing: Technical Refinement and Variation Development",
+        "focus": "Continuous improvement of timing, efficiency, and adaptation to different body types and skill levels",
+        "description": "Refine technique based on experience against various opponents. Study high-level competitors using butterfly sweeps. Experiment with grip variations, angle adjustments, and submission combinations. Develop counters to common defensive reactions specific to your competition level and weight class."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary mechanical principle that makes the butterfly sweep effective?",
+        "answer": "The butterfly sweep works by creating leverage through the butterfly hook which acts as a fulcrum point under the opponent's center of gravity. When you drive the hook upward while simultaneously pulling their upper body forward and across, you create a rotational force that disrupts their base. The hook elevation combined with upper body control creates a mechanical advantage that allows a smaller person to sweep a larger opponent by exploiting physics rather than relying on strength."
+      },
+      {
+        "question": "What timing is optimal for executing the basic butterfly sweep?",
+        "answer": "The optimal timing is when the opponent commits their weight forward over your hips, creating forward pressure. This can occur naturally when they attempt to pass or pressure into you, or you can manufacture it by pulling them forward with your grips. The key is to wait for the moment their weight is distributed over your butterfly hooks before initiating the sweep. Attempting the sweep when their weight is back or evenly distributed allows them to easily post and defend."
+      },
+      {
+        "question": "Your opponent posts their right hand on the mat when you attempt to sweep them to your left - what are your best responses?",
+        "answer": "When opponent posts their hand, you have several high-percentage options: First, immediately switch to sweeping the opposite direction since posting on one side creates compromised base on the other. Second, attack the posted arm with a kimura lock since it is extended and bearing weight, making it vulnerable to grip capture. Third, transition to single leg X-guard by diving your shoulder under the posted arm and controlling their far leg. The critical principle is recognizing the post instantly and flowing to your counter rather than forcing the original sweep direction."
+      },
+      {
+        "question": "Why is creating a 45-degree hip angle critical before driving the butterfly sweep?",
+        "answer": "Creating the angle before the sweep serves multiple biomechanical purposes: It positions your body to follow through into top position naturally without needing to reposition mid-sweep. It creates better leverage for the butterfly hook to drive upward and forward rather than just straight up, generating rotational rather than purely vertical force. It curves your spine toward the sweeping direction which helps generate torque. And it makes it harder for the opponent to post on the sweeping side because your angle takes them off their centerline. Without the angle, the sweep becomes a pure strength battle."
+      },
+      {
+        "question": "What are the most effective grip combinations for the basic butterfly sweep and when should you choose each?",
+        "answer": "The most effective grip combinations are: collar and sleeve grips which provide maximum upper body control and prevent posting on the sleeve side; double underhooks which are extremely powerful for pulling opponent forward and preventing base, particularly effective in no-gi; and overhook/underhook combination which creates asymmetrical control ideal for directional sweeping. Each grip accomplishes two objectives: breaking opponent's posture to commit weight forward, and preventing them from posting hands to defend. Choose collar-sleeve in gi when distance exists, double underhooks when you can close distance, and overhook-underhook when opponent commits an underhook first."
+      },
+      {
+        "question": "What should you do immediately after completing the butterfly sweep to consolidate top position?",
+        "answer": "Immediately after the sweep completes, follow the opponent's momentum without disconnecting and establish dominant top position. Come up on your knees while maintaining grip control, drive your chest forward to prevent guard recovery, and quickly transition to mount by staying tight and walking your knees up alongside their torso. If they turn to their side during the sweep, follow to side control with crossface and hip control, or take the back if they expose it. The critical principle is maintaining continuous pressure and connection throughout the transition without pausing or creating separation."
+      },
+      {
+        "question": "Your opponent is sitting very upright with good posture and refuses to commit weight forward - how do you create the conditions for the butterfly sweep?",
+        "answer": "Against an opponent with strong upright posture, you must manufacture forward weight commitment through indirect methods. Use an arm drag to force them to reach forward and recover balance, creating the brief forward weight shift needed. Threaten a guillotine choke by snapping their head down, which forces defensive posture correction that commits weight forward. Pull aggressively on collar grips to break their posture incrementally. If they absolutely refuse to come forward, transition to elevator sweep which works against upright posture, or switch to X-guard entries by attacking their legs from underneath."
+      },
+      {
+        "question": "What distinguishes a failed butterfly sweep attempt from a properly abandoned one, and how does this affect your position?",
+        "answer": "A failed butterfly sweep involves fully committing to the drive without proper setup, exhausting energy, and ending flat on your back with compromised guard retention. A properly abandoned sweep recognizes early that the opponent has defended successfully - posting their hand, sprawling, or establishing dominant grips - and immediately transitions to a secondary attack. The abandoned sweep maintains your seated posture, hook engagement, and grip control, allowing you to chain to X-guard, single leg X, arm drag, or the opposite-direction sweep. The key differentiator is whether you maintain your structural position and offensive initiative rather than committing past the point of recovery."
+      },
+      {
+        "question": "How do grip requirements change between gi and no-gi butterfly sweep execution?",
+        "answer": "In gi, collar and sleeve grips provide precise directional control and strong posting prevention, with the collar grip enabling powerful pulling force to break posture. In no-gi, you rely on underhooks, overhooks, collar ties, and wrist control which require closer distance and more dynamic grip fighting. No-gi butterfly sweeps demand tighter body connection since grips are less secure, making double underhooks and body lock configurations more important. The fundamental sweep mechanics remain identical but no-gi requires faster execution because control windows are shorter, and you must emphasize body-to-body contact rather than fabric-based control."
+      },
+      {
+        "question": "What is the relationship between the butterfly sweep and subsequent guard transition options when the sweep is partially successful?",
+        "answer": "A partially successful butterfly sweep where the opponent is elevated but recovers creates several high-value transition opportunities. If they post a hand during elevation, their weight shifts to that posting arm, opening kimura attacks and opposite-direction sweeps. If they sprawl their hips back to avoid being swept, the distance created is ideal for X-guard or single leg X-guard entries by following their retreating legs. If they step one leg over your hook to base out, the resulting asymmetric position feeds directly into reverse De La Riva or deep half guard entries. The butterfly sweep thus functions as a forcing mechanism that creates reactions exploitable through the broader butterfly guard system."
+      }
+    ],
+    "safety_considerations": "The basic butterfly sweep is generally a low-risk technique when practiced correctly. However, practitioners should be aware of several safety considerations. When drilling, ensure controlled execution to avoid slamming your partner, especially on hard surfaces. Begin with slow, cooperative repetitions to develop proper mechanics before adding speed and resistance. For the person being swept, learn to breakfall properly by slapping the mat with your arm to disperse impact energy. Avoid stiff-arming or posting with straight arms when defending the sweep, as this can lead to wrist, elbow, or shoulder injuries. When executing the sweep, maintain control of your partner's upper body throughout to prevent uncontrolled falls. If you have knee issues, be cautious with the butterfly hook position as it requires some knee flexibility and can stress the joint if hooks are too shallow or if weight is dropped suddenly. Start with light resistance and gradually increase intensity as your body adapts to the positions and movements."
+  },
+  "defender": {
+    "name": "Basic Butterfly Sweep Defender",
+    "description": "How to defend against Basic Butterfly Sweep in BJJ. Recognition cues, defensive options, and escape strategies.",
+    "overview": "Defending the Basic Butterfly Sweep requires understanding the mechanical principles that make the technique work so you can systematically deny each one. The sweep relies on three coordinated elements: hooks providing elevation, grips providing rotational pull, and hip angle creating directional force. As the defender (top player in butterfly guard), your primary objective is to deny at least one of these elements while maintaining your base and advancing your passing position. Effective butterfly sweep defense is not merely reactive but proactive, using posture management, grip fighting, and base awareness to prevent the sweep conditions from being established in the first place.\n\nThe defensive hierarchy against the butterfly sweep prioritizes prevention over reaction. First, deny dominant grips through active hand fighting to prevent the sweeper from establishing the upper body control needed to pull you off-balance. Second, maintain strong posture with hips back and chest up to keep your weight from committing forward over the opponent's hooks. Third, if the sweep is initiated, post immediately on the sweeping side with your hand or foot to create a structural brace that prevents the rotation. Fourth, if you cannot prevent the sweep, control the descent and scramble to recover top position or establish a neutral position before the sweeper consolidates.\n\nAdvanced defenders recognize that aggressive butterfly sweep defense creates its own offensive opportunities. When the bottom player commits to a sweep attempt, brief windows open for passing entries, guard smashes, and counter-attacks. The best defenders time their passing movements to coincide with the sweeper's commitment phase, turning defensive scenarios into positional advancement.",
+    "key_principles": [
+      "Maintain strong upright posture with hips back to prevent forward weight commitment over opponent's hooks",
+      "Fight grips actively to deny the upper body control that enables sweep initiation",
+      "Keep elbows tight and inside to prevent opponent from establishing underhooks or overhooks",
+      "Post immediately and structurally when you feel elevation beginning under your legs",
+      "Control distance to prevent opponent from establishing optimal sweeping range with hooks deep",
+      "Use opponent's sweep commitment as timing windows for passing entries and counter-pressure"
+    ],
+    "recognition_cues": [
+      "Opponent shifts hips to create a 45-degree angle relative to your centerline, indicating directional sweep preparation",
+      "Opponent pulls aggressively on collar or sleeve grips while simultaneously loading weight onto one butterfly hook",
+      "Opponent breaks your posture forward by pulling your upper body down and bringing your weight over their hips",
+      "Opponent's heel on the sweeping side drives upward into your inner thigh with increasing pressure",
+      "Opponent drops their shoulder on the sweeping side and begins falling back at an angle while maintaining tight grip connection"
+    ],
+    "defensive_options": [
+      {
+        "action": "Post hand firmly on the mat on the sweeping side to create structural brace against rotation",
+        "when_to_use": "As soon as you feel elevation beginning under one leg and upper body pull in one direction - the earlier the post, the more effective",
+        "targets_outcome": "Butterfly Guard/Bottom",
+        "if_successful": "Sweep is stopped and you maintain top position. The posted hand creates a tripod base that prevents the rotational force from completing. You can then re-establish passing posture and work to clear hooks",
+        "risk": "Posted arm becomes vulnerable to kimura attack or opponent switches sweep direction to exploit the committed posting side"
+      },
+      {
+        "action": "Sprawl hips back explosively to disengage hooks and create distance, removing the fulcrum point",
+        "when_to_use": "When you feel opponent loading both hooks and pulling your upper body forward - sprawl before the hook drive reaches full extension",
+        "targets_outcome": "Butterfly Guard/Bottom",
+        "if_successful": "Hooks disengage from your thighs, removing the elevation mechanism entirely. You reset to a neutral top position with distance advantage and can re-engage with standing passing or pressure passing approach",
+        "risk": "Creates distance that opponent can use to transition to X-guard, single leg X-guard, or technical standup if you do not immediately re-engage"
+      },
+      {
+        "action": "Step one leg over the sweeping hook to establish headquarters position and neutralize that hook",
+        "when_to_use": "When opponent commits to angling for the sweep on one side, creating an opening to step the targeted leg over their hook before the drive initiates",
+        "targets_outcome": "Butterfly Guard/Top",
+        "if_successful": "You neutralize the primary sweeping hook and establish headquarters position with one leg free, creating immediate half guard passing opportunities and removing the sweep threat from that side",
+        "risk": "Opponent transitions to single leg X-guard or reverse De La Riva on the remaining hooked leg if you do not immediately advance to passing"
+      },
+      {
+        "action": "Drive forward with heavy cross-face pressure while pinning the sweeping-side underhook to flatten opponent",
+        "when_to_use": "When opponent is still setting up grips and has not yet created the hip angle - use preemptive pressure to deny the seated posture they need",
+        "targets_outcome": "Butterfly Guard/Top",
+        "if_successful": "Opponent is flattened onto their back, losing the upright posture essential for butterfly sweep mechanics. Their hooks lose elevation power and you can begin pressure passing sequences",
+        "risk": "If opponent has strong underhooks established, driving forward feeds directly into their sweep by providing the forward weight commitment they need"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Butterfly Guard/Bottom",
+        "how": "Deny the sweep through posting, grip fighting, or sprawling to maintain your top position while the opponent retains butterfly guard. From here you can continue working your passing game with the advantage of having disrupted their offensive rhythm."
+      },
+      {
+        "outcome": "Butterfly Guard/Top",
+        "how": "Counter the sweep attempt by stepping over a hook to establish headquarters, smashing their butterfly structure flat, or using their commitment against them by timing a guard pass during their sweep attempt. This advances your position from neutral engagement to active passing."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Leaning forward with weight over opponent's hooks while fighting for grips",
+        "consequence": "Provides exactly the forward weight commitment the sweeper needs, making the butterfly sweep almost effortless to execute against you",
+        "correction": "Maintain upright posture with hips back and weight distributed through your knees and feet. Fight grips from a strong postural base rather than reaching forward and committing weight"
+      },
+      {
+        "error": "Posting with a straight, locked-out arm when defending the sweep",
+        "consequence": "Vulnerable to kimura attacks on the posted arm, and the rigid post can be broken through by a strong hook drive causing shoulder or elbow injury",
+        "correction": "Post with a bent arm using your palm or fist, keeping the elbow slightly bent to maintain structural integrity. Immediately work to recover posture rather than relying on the post as a permanent solution"
+      },
+      {
+        "error": "Staying static in the guard without addressing hooks or working to pass",
+        "consequence": "Gives the sweeper unlimited time to establish optimal grips, create angles, and choose the perfect moment to initiate the sweep",
+        "correction": "Actively work to clear hooks, fight grips, and advance passing position. Butterfly guard is most dangerous when the top player is passive, so maintain constant forward pressure through passing attempts"
+      },
+      {
+        "error": "Pulling opponent's hooks outward to try to clear them from your thighs",
+        "consequence": "Strengthens hook engagement because pulling outward actually deepens the hook insertion and tires your arms against your opponent's legs",
+        "correction": "Push knees together and forward toward opponent's centerline to collapse the butterfly structure, or create distance by sprawling to disengage hooks entirely"
+      },
+      {
+        "error": "Failing to recognize the hip angle shift that precedes the sweep",
+        "consequence": "By the time the hook drive begins you are already off-balance with no time to establish a defensive post, resulting in being swept before you can react",
+        "correction": "Watch for the opponent's hip shift to 45 degrees as the primary early warning signal. When you detect this angle change, immediately post on the sweeping side or drive your weight in the opposite direction to deny the angle"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What are the three mechanical elements of the butterfly sweep that you must deny as the defender?",
+        "answer": "The three elements are: hooks providing upward elevation force under your thighs, grips providing rotational pulling force on your upper body, and the hip angle creating directional force toward the sweeping side. As the defender, denying any single element prevents the sweep from completing. The most reliable defensive strategy targets grip denial first since it is the earliest element in the sweep setup, followed by posture maintenance to prevent forward weight commitment, and posting as the last-resort defense when elevation has already begun."
+      },
+      {
+        "question": "You feel your opponent shift their hips to create an angle while pulling your collar forward - what should your immediate defensive response be?",
+        "answer": "The hip angle shift combined with collar pull indicates imminent sweep initiation. Your immediate response should be to post your hand on the mat on the side they are angling toward, simultaneously driving your hips back to reduce forward weight over their hooks. If possible, break the collar grip by stripping it with your free hand while maintaining the post. After stabilizing, work to re-establish upright posture and begin addressing their grip control to prevent a secondary attempt. Do not try to drive forward into them as this feeds directly into the sweep mechanics."
+      },
+      {
+        "question": "Why is sprawling sometimes counterproductive as a butterfly sweep defense?",
+        "answer": "While sprawling effectively removes the hook fulcrum by disengaging from the opponent's thighs, it creates distance that skilled butterfly guard players exploit. The distance opens transitions to X-guard, single leg X-guard, and technical standup positions which can be equally or more dangerous than the original butterfly guard. Sprawling is most effective when combined with immediate re-engagement through standing passing or when used against less experienced opponents who lack the transitional game to capitalize on the distance. Against advanced practitioners, posture maintenance and grip denial are often preferable to sprawling."
+      },
+      {
+        "question": "When is it appropriate to use forward pressure as a defensive strategy against the butterfly sweep?",
+        "answer": "Forward pressure is appropriate only when you have denied the opponent's upper body grips and can establish dominant control such as cross-face with underhook or double underhooks while smashing their butterfly structure flat. Without grip denial, forward pressure feeds directly into the sweep by providing the weight commitment the opponent needs. The timing window for effective pressure is before the opponent establishes their pulling grips and seated posture. Once they have dominant grips and upright position, forward pressure becomes the most dangerous defensive strategy and you should switch to posting, sprawling, or distance management."
+      },
+      {
+        "question": "How should your defensive approach change when facing a butterfly guard player who chains sweeps with submission attempts?",
+        "answer": "Against a butterfly guard player who integrates submissions like guillotines, kimuras, and arm drags with sweep attempts, your defensive priorities shift. You must protect your neck by keeping chin tucked and posture tall, fight for inside position with your arms to deny underhooks and collar ties, and avoid overcommitting to single-side posting which exposes arms to kimura attacks. The key adaptation is maintaining a more conservative and centered base rather than committing heavily to one side for posting. Use distance management and grip denial as primary defenses rather than hand posting, and time your passing attempts for moments between the opponent's offensive sequences rather than during active sweep-submission chains."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2: Recognition and Posting Fundamentals",
+        "focus": "Learning to identify sweep initiation cues and developing automatic posting reflexes",
+        "description": "Partner executes butterfly sweeps at reduced speed while you focus on recognizing the hip angle shift, grip pull, and hook loading that precede the sweep. Practice posting your hand on the correct side when you feel elevation beginning. Start at 25% speed and progress to 50% by end of week 2. Aim for 20-30 reps per side each session to build automatic posting response."
+      },
+      {
+        "phase": "Week 3-4: Grip Fighting and Posture Maintenance",
+        "focus": "Developing proactive grip denial and maintaining upright posture under pull pressure",
+        "description": "Positional sparring where partner works exclusively for butterfly sweep grips and posture breaks while you focus on stripping grips, maintaining upright posture, and keeping hips back. Partner provides increasing resistance. Practice the sequence of grip denial to posture recovery to hook clearing as a continuous defensive chain."
+      },
+      {
+        "phase": "Week 5-8: Counter-Passing During Sweep Defense",
+        "focus": "Integrating defensive reactions with offensive passing entries during opponent's sweep attempts",
+        "description": "Live positional sparring from butterfly guard where you practice timing guard passes during opponent's sweep commitment phase. Work on recognizing when the sweeper is structurally compromised during their attempt and immediately transitioning to passing sequences. Include post-to-pass combinations and sprawl-to-standing-pass transitions."
+      },
+      {
+        "phase": "Month 3+: Full Integration Against Advanced Butterfly Systems",
+        "focus": "Defending against chained sweep-submission-transition attacks from experienced butterfly guard players",
+        "description": "Open sparring against training partners who specialize in butterfly guard. Focus on managing the complete offensive system including sweeps, arm drags, guillotine threats, and X-guard transitions as an integrated defensive challenge. Develop your personal defensive hierarchy and passing game specifically tailored to neutralizing butterfly guard play."
+      }
+    ]
+  },
   "variants_and_adaptations": [
     {
       "variant_name": "Elevator Sweep Variation",
@@ -181,101 +443,5 @@
       "when_to_use": "When opponent gives up an underhook or when you can secure the overhook during grip fighting exchanges. Particularly effective in gi training."
     }
   ],
-  "knowledge_assessment": [
-    {
-      "question": "What is the primary mechanical principle that makes the butterfly sweep effective?",
-      "answer": "The butterfly sweep works by creating leverage through the butterfly hook which acts as a fulcrum point under the opponent's center of gravity. When you drive the hook upward while simultaneously pulling their upper body forward and across, you create a rotational force that disrupts their base. The hook elevation combined with upper body control creates a mechanical advantage that allows a smaller person to sweep a larger opponent by exploiting physics rather than relying on strength."
-    },
-    {
-      "question": "What timing is optimal for executing the basic butterfly sweep?",
-      "answer": "The optimal timing is when the opponent commits their weight forward over your hips, creating what's known as 'forward pressure.' This can occur naturally when they attempt to pass, or you can create it by pulling them forward with your grips. The key is to wait for the moment their weight is distributed over your butterfly hooks before initiating the sweep. If you attempt the sweep when their weight is back or evenly distributed, they can easily post and defend."
-    },
-    {
-      "question": "How should you respond if your opponent posts their hand during the butterfly sweep attempt?",
-      "answer": "When opponent posts their hand, you have several high-percentage options: First, you can immediately switch to sweeping the opposite direction since posting creates compromised base on their other side. Second, you can attack the posted arm with a kimura lock since it's extended and vulnerable. Third, you can transition to single leg X-guard by diving your shoulder under the posted arm and controlling their leg. The key is to recognize the post immediately and transition to your counter rather than forcing the original sweep."
-    },
-    {
-      "question": "Why is creating an angle with your hips important before executing the butterfly sweep?",
-      "answer": "Creating an angle (typically 45 degrees) before the sweep serves multiple purposes: It positions your body to follow through into top position naturally, it creates better leverage for the butterfly hook to drive upward and forward rather than just straight up, it curves your spine toward the sweeping direction which helps generate rotational force, and it makes it harder for the opponent to post on the sweeping side. Without the angle, the sweep becomes a pure strength battle and loses its technical effectiveness."
-    },
-    {
-      "question": "What are the most effective grip combinations for the basic butterfly sweep and why?",
-      "answer": "The most effective grip combinations include collar and sleeve grips (provides maximum control of opponent's upper body and prevents posting), double underhooks (extremely powerful for pulling opponent forward and preventing base), and overhook/underhook combination (creates asymmetrical control that facilitates sweeping). Each grip serves to accomplish two critical objectives: breaking opponent's posture to commit their weight forward, and preventing them from posting their hands to defend the sweep. The specific grip choice depends on what the opponent gives you during grip fighting exchanges."
-    },
-    {
-      "question": "What should you do immediately after completing the butterfly sweep?",
-      "answer": "Immediately after the sweep completes, you must follow the opponent's momentum and establish dominant top position. This means coming up on your knees while maintaining grip control, driving your chest forward to prevent them from recovering guard, and quickly transitioning to either mount, side control, or back control depending on the angle and their reactions. The key is not to pause or separate - maintain connection and pressure to consolidate your position before they can escape or reguard."
-    }
-  ],
-  "safety_considerations": "The basic butterfly sweep is generally a low-risk technique when practiced correctly. However, practitioners should be aware of several safety considerations. When drilling, ensure controlled execution to avoid slamming your partner, especially on hard surfaces. Begin with slow, cooperative repetitions to develop proper mechanics before adding speed and resistance. For the person being swept, learn to breakfall properly by slapping the mat with your arm to disperse impact energy. Avoid stiff-arming or posting with straight arms when defending the sweep, as this can lead to wrist, elbow, or shoulder injuries. When executing the sweep, maintain control of your partner's upper body throughout to prevent uncontrolled falls. If you have knee issues, be cautious with the butterfly hook position as it requires some knee flexibility and can stress the joint if hooks are too shallow or if weight is dropped suddenly. Start with light resistance and gradually increase intensity as your body adapts to the positions and movements.",
-  "position_integration": "The Basic Butterfly Sweep is a cornerstone technique within the broader butterfly guard system and serves as an essential building block for open guard development in BJJ. It integrates seamlessly with multiple guard positions and attack sequences. From standing, practitioners can pull butterfly guard directly or transition from closed guard by opening the legs and establishing hooks. The butterfly sweep connects naturally with other butterfly guard attacks including arm drags to back takes, guillotine chokes, and kimura attacks - creating a dilemma-based attack system where defending one threat opens others. When the sweep is defended, smooth transitions exist to deep half guard, single leg X-guard, and X-guard, allowing continuous offensive pressure. The technique also serves as a critical component in the Marcelo Garcia butterfly guard system, which emphasizes the combination of sweeps, submissions, and back takes from butterfly position. Understanding the basic butterfly sweep provides the foundation for more advanced variations including the hook sweep, elevator sweep, and butterfly sweep to back take sequences that define high-level butterfly guard play.",
-  "related_content": [
-    {
-      "name": "Butterfly Guard",
-      "relationship": "Starting Position - Primary position from which technique is executed"
-    },
-    {
-      "name": "Butterfly Hook Control",
-      "relationship": "Core Principle - Essential control mechanism for the sweep"
-    },
-    {
-      "name": "Mount",
-      "relationship": "Ending Position - Primary finishing position after successful sweep"
-    },
-    {
-      "name": "Elevator Sweep",
-      "relationship": "Variation - Alternative butterfly sweep using vertical elevation"
-    },
-    {
-      "name": "Hook Sweep",
-      "relationship": "Variation - One-sided butterfly sweep with technical stand-up element"
-    },
-    {
-      "name": "Arm Drag to Back",
-      "relationship": "Setup Technique - Creates forward weight commitment for sweep"
-    },
-    {
-      "name": "Butterfly Guard to X-Guard",
-      "relationship": "Alternative Transition - Option when sweep is defended"
-    },
-    {
-      "name": "Single Leg X-Guard",
-      "relationship": "Counter Option - Transition when opponent posts hand to defend"
-    },
-    {
-      "name": "Deep Half Entry",
-      "relationship": "Counter Option - Alternative when opponent sprawls hips back"
-    },
-    {
-      "name": "Kimura from Guard",
-      "relationship": "Submission Threat - Attack on posted arm during sweep defense"
-    },
-    {
-      "name": "Guillotine Choke",
-      "relationship": "Combination Attack - Submission threat from butterfly guard that facilitates sweep"
-    },
-    {
-      "name": "Marcelo Garcia Butterfly Guard System",
-      "relationship": "System Integration - Complete system built around butterfly sweeps"
-    }
-  ],
-  "from_position": "Butterfly Guard/Bottom",
-  "outcomes": [
-    {
-      "to": "Mount/Top",
-      "probability": 70,
-      "result": "success"
-    },
-    {
-      "to": "Butterfly Guard/Bottom",
-      "probability": 20,
-      "result": "failure"
-    },
-    {
-      "to": "Butterfly Guard/Top",
-      "probability": 10,
-      "result": "counter"
-    }
-  ],
-  "success_rate": 62
+  "position_integration": "The Basic Butterfly Sweep is a cornerstone technique within the broader butterfly guard system and serves as an essential building block for open guard development in BJJ. It integrates seamlessly with multiple guard positions and attack sequences. From standing, practitioners can pull butterfly guard directly or transition from closed guard by opening the legs and establishing hooks. The butterfly sweep connects naturally with other butterfly guard attacks including arm drags to back takes, guillotine chokes, and kimura attacks - creating a dilemma-based attack system where defending one threat opens others. When the sweep is defended, smooth transitions exist to deep half guard, single leg X-guard, and X-guard, allowing continuous offensive pressure. The technique also serves as a critical component in systematic butterfly guard approaches, which emphasize the combination of sweeps, submissions, and back takes from butterfly position. Understanding the basic butterfly sweep provides the foundation for more advanced variations including the hook sweep, elevator sweep, and butterfly sweep to back take sequences that define high-level butterfly guard play."
 }

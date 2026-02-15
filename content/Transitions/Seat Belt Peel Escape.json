@@ -1,0 +1,141 @@
+{
+  "name": "Seat Belt Peel Escape",
+  "description": "TODO: Write 150-160 character SEO description for Seat Belt Peel Escape.",
+  "tags": [
+    "bjj",
+    "transition",
+    "escape",
+    "back-control",
+    "seat-belt"
+  ],
+  "from_position": "Seat Belt Control Back/Bottom",
+  "outcomes": [
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 30,
+      "result": "success"
+    },
+    {
+      "to": "Seat Belt Control Back/Bottom",
+      "probability": 45,
+      "result": "failure"
+    },
+    {
+      "to": "Back Control/Bottom",
+      "probability": 25,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 30,
+  "overview": "TODO: Write overview for Seat Belt Peel Escape.",
+  "conditions": [
+    "TODO"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "TODO",
+      "description": "TODO",
+      "when_to_use": "TODO"
+    }
+  ],
+  "position_integration": "TODO: Write position integration for Seat Belt Peel Escape.",
+  "related_content": [
+    {
+      "name": "TODO",
+      "relationship": "TODO"
+    }
+  ],
+  "attacker": {
+    "name": "Seat Belt Peel Escape Attacker",
+    "description": "TODO: Write attacker description for Seat Belt Peel Escape.",
+    "overview": "TODO: Write attacker overview for Seat Belt Peel Escape.",
+    "key_principles": [
+      "TODO"
+    ],
+    "setup_requirements": [
+      "TODO"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "TODO",
+        "description": "TODO"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "TODO",
+        "effectiveness": "Medium",
+        "your_response": "TODO",
+        "targets_outcome": "Seat Belt Control Back/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "TODO",
+        "description": "TODO"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "TODO",
+        "answer": "TODO"
+      }
+    ],
+    "safety_considerations": "TODO: Write safety considerations for Seat Belt Peel Escape."
+  },
+  "defender": {
+    "name": "Seat Belt Peel Escape Defender",
+    "description": "TODO: Write defender description for Seat Belt Peel Escape.",
+    "overview": "TODO: Write defender overview for Seat Belt Peel Escape.",
+    "key_principles": [
+      "TODO"
+    ],
+    "recognition_cues": [
+      "TODO"
+    ],
+    "defensive_options": [
+      {
+        "action": "TODO",
+        "when_to_use": "TODO",
+        "targets_outcome": "Seat Belt Control Back/Bottom",
+        "if_successful": "TODO",
+        "risk": "TODO"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "TODO"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "TODO",
+        "answer": "TODO"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "TODO",
+        "description": "TODO"
+      }
+    ]
+  }
+}

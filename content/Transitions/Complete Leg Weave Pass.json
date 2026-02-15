@@ -1,0 +1,13 @@
+{
+  "name": "Complete Leg Weave Pass",
+  "description": "",
+  "tags": [],
+  "from_position": "Leg Weave/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

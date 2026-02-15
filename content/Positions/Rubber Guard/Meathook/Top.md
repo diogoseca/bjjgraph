@@ -21,32 +21,38 @@ description: "Defend and escape Meathook from top. Complete defensive guide cove
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction",
-      "text": "From this position, attempt Arm Extraction. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Arm Extraction. This technique is attempted in 28% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Posture Recovery",
-      "text": "From this position, attempt Posture Recovery. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Posture Recovery. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Defense",
-      "text": "From this position, attempt Stack Defense. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Stack Defense. This technique is attempted in 17% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Sprawl",
-      "text": "From this position, attempt Sprawl. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Sprawl. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guard Opening Sequence",
-      "text": "From this position, attempt Guard Opening Sequence. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Guard Opening Sequence. This technique is attempted in 17% of exchanges from this position.",
       "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Posture Recovery from Meathook",
+      "text": "From this position, attempt Posture Recovery from Meathook. This technique is attempted in 6% of exchanges from this position.",
+      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -210,15 +216,19 @@ Energy management in escape attempts requires strategic consideration. Explosive
 
 ## Available Attacks
 
-### [[Arm Extraction]] (25% of attempts)
+### [[Arm Extraction]] (28% of attempts)
 
-### [[Posture Recovery]] (20% of attempts)
+### [[Posture Recovery]] (17% of attempts)
 
-### [[Stack Defense]] (20% of attempts)
+### [[Stack Defense]] (17% of attempts)
 
-### [[Sprawl]] (15% of attempts)
+### [[Sprawl]] (12% of attempts)
 
-### [[Guard Opening Sequence]] (20% of attempts)
+### [[Guard Opening Sequence]] (17% of attempts)
+
+### [[Posture Recovery from Meathook]] (6% of attempts)
+
+### [[Stack Pass from Meathook]] (3% of attempts)
 
 
 

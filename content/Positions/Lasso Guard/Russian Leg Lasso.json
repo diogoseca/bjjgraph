@@ -259,15 +259,15 @@
     "transitions": [
       {
         "transition": "Lasso Guard Pass",
-        "attempt_probability": 18
+        "attempt_probability": 24
       },
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 16
+        "attempt_probability": 12
       },
       {
         "transition": "Toreando Pass",
-        "attempt_probability": 15
+        "attempt_probability": 12
       },
       {
         "transition": "Long Step Pass",
@@ -275,15 +275,23 @@
       },
       {
         "transition": "Leg Drag Pass",
-        "attempt_probability": 14
+        "attempt_probability": 12
       },
       {
         "transition": "Pressure Pass",
-        "attempt_probability": 13
+        "attempt_probability": 10
       },
       {
-        "transition": "Double Under Pass",
-        "attempt_probability": 12
+        "transition": "Back Step Pass",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Pass Russian Leg Lasso",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Strip Russian Leg Lasso",
+        "attempt_probability": 3
       }
     ],
     "knowledge_assessment": [
@@ -375,7 +383,7 @@
             "probability": 55
           },
           {
-            "technique": "Lasso Guard Sweeps",
+            "technique": "Overhook Sweep",
             "target": "Mount",
             "probability": 45
           }
@@ -385,7 +393,7 @@
         "condition": "If opponent drives forward with pressure attempting to smash pass",
         "actions": [
           {
-            "technique": "Lasso Guard Sweeps",
+            "technique": "Elevator Sweep",
             "target": "Mount",
             "probability": 55
           },
@@ -400,7 +408,7 @@
         "condition": "If opponent circles away from lasso attempting to disengage",
         "actions": [
           {
-            "technique": "Lasso Guard Sweeps",
+            "technique": "Sickle Sweep",
             "target": "Mount",
             "probability": 50
           },
@@ -415,12 +423,12 @@
         "condition": "If opponent establishes strong base and begins systematic grip breaking",
         "actions": [
           {
-            "technique": "Back Take Generic",
+            "technique": "Back Take from Bottom",
             "target": "Back Control",
             "probability": 45
           },
           {
-            "technique": "Armbar from Guard",
+            "technique": "Armbar Finish",
             "target": "Armbar Control",
             "probability": 55
           }
@@ -467,7 +475,7 @@
       },
       {
         "name": "Sweep Chain Flow Drill",
-        "description": "With Russian Leg Lasso established, bottom player flows between sweep attempts: Russian Lasso sweep, overhead sweep, and omoplata sweep. Top player defends each sweep with characteristic defense, creating opportunity for next sweep in chain. Emphasizes recognizing defensive patterns and transitioning attacks smoothly.",
+        "description": "With Russian Leg Lasso established, bottom player flows between sweep attempts: overhead sweep, sickle sweep, and omoplata sweep. Top player defends each sweep with characteristic defense, creating opportunity for next sweep in chain. Emphasizes recognizing defensive patterns and transitioning attacks smoothly.",
         "duration": "5 minutes per partner"
       },
       {
@@ -515,8 +523,8 @@
         "relationship": "Parent category and foundation for understanding all open guard variations"
       },
       {
-        "name": "Lasso Guard Sweeps",
-        "relationship": "Core offensive technique category for this position"
+        "name": "Overhook Sweep",
+        "relationship": "Core offensive technique applicable from this guard configuration"
       }
     ],
     "position_metrics": {
@@ -533,32 +541,40 @@
     },
     "transitions": [
       {
-        "transition": "Lasso Guard Sweeps",
-        "attempt_probability": 22
+        "transition": "Overhook Sweep",
+        "attempt_probability": 35
       },
       {
         "transition": "Triangle Setup",
-        "attempt_probability": 16
-      },
-      {
-        "transition": "Omoplata Sweep",
-        "attempt_probability": 14
-      },
-      {
-        "transition": "De La Riva Sweep",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "Balloon Sweep",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Armbar from Guard",
         "attempt_probability": 11
       },
       {
-        "transition": "Back Take Generic",
+        "transition": "Omoplata Sweep",
         "attempt_probability": 12
+      },
+      {
+        "transition": "Back Take from Bottom",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Sickle Sweep",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Transition to Inverted Lasso Guard",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Omoplata",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Russian Lasso Sweep",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Russian Lasso to De La Riva",
+        "attempt_probability": 2
       }
     ],
     "knowledge_assessment": [

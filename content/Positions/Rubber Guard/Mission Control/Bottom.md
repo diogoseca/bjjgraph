@@ -38,14 +38,14 @@ description: "Master the bottom of Mission Control with complete control mechani
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle from Guard",
-      "text": "From this position, attempt Triangle from Guard. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Closed Guard to Triangle",
+      "text": "From this position, attempt Closed Guard to Triangle. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar from Guard",
-      "text": "From this position, attempt Armbar from Guard. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Armbar Finish",
+      "text": "From this position, attempt Armbar Finish. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
@@ -220,17 +220,17 @@ Success in Mission Control bottom requires specific physical attributes and tech
 
 ### [[Closed Guard to Omoplata]] (12% of attempts)
 
-### [[Triangle from Guard]] (14% of attempts)
+### [[Closed Guard to Triangle]] (14% of attempts)
 
-### [[Armbar from Guard]] (10% of attempts)
+### [[Armbar Finish]] (10% of attempts)
 
 ### [[Hip Bump Sweep]] (10% of attempts)
 
 ### [[Omoplata Sweep]] (10% of attempts)
 
-### [[Closed Guard to Triangle]] (8% of attempts)
+### [[Progression to Zombie]] (8% of attempts)
 
-### [[Triangle to Omoplata]] (9% of attempts)
+### [[Rubber Guard Maintenance]] (9% of attempts)
 
 
 
@@ -246,23 +246,23 @@ Success in Mission Control bottom requires specific physical attributes and tech
 
 
 **Opponent attempts to posture up by driving weight back and lifting head:**
-- Execute **[[Triangle from Guard]]** → [[Triangle Control]] (Probability: 70%)
-- Execute **[[New York Transition]]** → [[New York]] (Probability: 55%)
+- Execute **[[Closed Guard to Triangle]]** → [[Triangle Control]] (Probability: 70%)
+- Execute **[[Progression to Zombie]]** → [[Zombie]] (Probability: 55%)
 
 
 **Opponent drives forward with stacking pressure attempting to collapse high guard:**
-- Execute **[[Zombie Transition]]** → [[Zombie]] (Probability: 60%)
+- Execute **[[Progression to Zombie]]** → [[Zombie]] (Probability: 60%)
 - Execute **[[Omoplata Sweep]]** → [[Back Control]] (Probability: 58%)
 
 
 **Opponent pulls trapped arm back attempting to free shoulder from isolation:**
 - Execute **[[Omoplata to Sweep]]** → [[Omoplata Control]] (Probability: 68%)
-- Execute **[[Invisible Collar Transition]]** → [[Invisible Collar]] (Probability: 45%)
+- Execute **[[New York to Invisible Collar]]** → [[Invisible Collar]] (Probability: 45%)
 
 
 **Opponent successfully extracts arm and begins to open guard:**
 - Execute **[[Hip Bump Sweep]]** → [[Mount]] (Probability: 50%)
-- Execute **[[Guard Replacement]]** → [[Closed Guard]] (Probability: 45%)
+- Execute **[[Rubber Guard Maintenance]]** → [[Closed Guard]] (Probability: 45%)
 
 
 

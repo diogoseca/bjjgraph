@@ -3,7 +3,7 @@
   "slug": "truck",
   "description": "Master Truck Position in BJJ with comprehensive bottom and top perspective analysis. Defensive survival guide and offensive submission system covering twister, calf slicer, and back attacks.",
   "variant_uniqueness": "Leg entanglement creates dual spinal threats",
-  "overview": "The Truck Position is a specialized back-attack control position developed and popularized within the 10th Planet Jiu-Jitsu system. This position creates a unique control system where the controlling practitioner is positioned perpendicular to their opponent, with legs entangled in a figure-four configuration controlling the opponent's lower body while maintaining upper body control through various grips.\n\nThe truck represents the convergence of leg lock systems and back attack systems, making it one of the most dangerous positions in modern no-gi grappling. The position's power comes from the dilemma it creates: defending upper body attacks (Twister, bow and arrow choke) exposes the lower body to leg attacks (calf slicer, banana split), while defending leg attacks allows upper body submissions. This multiple-threat system makes the truck one of the highest finishing-rate positions in modern BJJ.\n\nThe position exists in two distinct perspectives: from the bottom, it is a high-danger defensive position requiring immediate escape mechanics and submission defense, while from the top it is an offensive control position with multiple submission paths. The boot pressure (foot against hip) is the engine of the top position, creating torque that enables all subsequent attacks. Understanding both perspectives is essential for complete truck position mastery.",
+  "overview": "The Truck Position is a specialized back-attack control position developed and popularized within the 10th Planet Jiu-Jitsu system. This position creates a unique control system where the controlling practitioner is positioned perpendicular to their opponent, with legs entangled in a figure-four configuration controlling the opponent's lower body while maintaining upper body control through various grips.\n\nThe truck represents the convergence of leg lock systems and back attack systems, making it one of the most dangerous positions in modern no-gi grappling. The position's power comes from the dilemma it creates: defending upper body attacks (Twister, bow and arrow choke) exposes the lower body to leg attacks (calf slicer, banana split), while defending leg attacks allows upper body submissions. This multiple-threat system makes the truck one of the highest finishing-rate positions in modern BJJ.\n\nThe position exists in two distinct perspectives: from the bottom, it is a high-danger defensive position requiring immediate escape mechanics and submission defense, while from the top it is an offensive control position with multiple submission paths. The boot pressure (foot against hip) is the engine of the top position, creating torque that enables all subsequent attacks. Understanding both perspectives is essential for complete truck position mastery.\n\nHistorically, the truck evolved from wrestling's turk ride, adapted into the 10th Planet system as a submission-hunting platform rather than merely a controlling pin. The figure-four leg configuration distinguishes it from standard back control by immobilizing the opponent's hips independently of hook placement, creating a stable base for attacks that target the spine and legs simultaneously. In competition, the truck has proven effective across rule sets, from submission-only formats where the extended control time allows methodical attack chains, to points-based competitions where the position scores equivalent to back control.",
   "key_principles": [
     "Leg entanglement controls lower body mobility and creates submission opportunities",
     "Perpendicular body alignment maximizes leverage for both control and attacks",
@@ -69,11 +69,13 @@
       "top",
       "offensive",
       "submission",
-      "back-attack"
+      "back-attack",
+      "10th-planet",
+      "leg-entanglement"
     ],
     "overview": "Truck Top Position is a dominant back-attack variation where you control your opponent from behind with their legs entangled, using your boot (foot) pressed against their hip to create torque and control while hunting for twister, calf slicer, banana split, or back control finishes. Popularized within the 10th Planet Jiu-Jitsu system, this position represents an evolution of traditional back control that emphasizes leg entanglement and spinal attacks.\n\nThe position's power comes from the dilemma it creates: defending the upper body (twister) exposes the lower body (calf slicer/banana split), while defending the lower body allows upper body attacks. This multiple-threat system makes the truck one of the highest finishing-rate positions in modern BJJ. The boot control is the engine of the position, creating the torque that enables all subsequent attacks. The position serves as both a submission hunting platform and a back control entry system.\n\nAdvanced practitioners use the truck as a transitional position, flowing between leg attacks, spinal locks, and traditional back control based on defensive reactions. The position is particularly effective in no-gi environments where the lack of grips forces opponents to rely on framing and hip movement, both of which can be nullified through proper boot pressure and leg entanglement.",
     "state_properties": {
-      "point_value": 4,
+      "point_value": 0,
       "position_type": "Offensive/Controlling",
       "risk_level": "Medium",
       "energy_cost": "Medium",
@@ -107,13 +109,13 @@
         "condition": "If opponent defends upper body by hiding arms and protecting neck",
         "actions": [
           {
-            "technique": "Calf Slicer from Truck",
-            "target": "game-over",
+            "technique": "Calf Slicer",
+            "target": "Game Over",
             "probability": 55
           },
           {
-            "technique": "Banana Split",
-            "target": "game-over",
+            "technique": "Roll to Truck",
+            "target": "Game Over",
             "probability": 45
           }
         ]
@@ -123,12 +125,12 @@
         "actions": [
           {
             "technique": "Twister",
-            "target": "game-over",
+            "target": "Twister Control",
             "probability": 50
           },
           {
             "technique": "Bow and Arrow Choke",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 50
           }
         ]
@@ -152,12 +154,12 @@
         "condition": "Else if opponent clears boot pressure and begins to escape leg entanglement",
         "actions": [
           {
-            "technique": "Truck Entry",
+            "technique": "Back Take from Top",
             "target": "Back Control",
             "probability": 55
           },
           {
-            "technique": "Side Control to Mount",
+            "technique": "Consolidate Mount",
             "target": "Mount",
             "probability": 45
           }
@@ -167,12 +169,12 @@
         "condition": "Else if opponent turtles up or attempts to stand",
         "actions": [
           {
-            "technique": "Turtle to Back Take",
+            "technique": "Back Take from Top",
             "target": "Back Control",
             "probability": 60
           },
           {
-            "technique": "Kimura from Turtle",
+            "technique": "Kimura from Back",
             "target": "Kimura Trap",
             "probability": 40
           }
@@ -235,10 +237,6 @@
     ],
     "related_content": [
       {
-        "name": "Truck",
-        "relationship": "Sibling variant - defensive perspective of same position"
-      },
-      {
         "name": "Back Control",
         "relationship": "Primary transition target - traditional back control"
       },
@@ -259,10 +257,6 @@
         "relationship": "Transition target - alternative control position"
       },
       {
-        "name": "Twister",
-        "relationship": "Primary submission technique from this position"
-      },
-      {
         "name": "Calf Slicer from Truck",
         "relationship": "Secondary submission attacking trapped leg"
       },
@@ -273,52 +267,79 @@
       {
         "name": "Rolling Back Take",
         "relationship": "Transition technique when opponent rolls"
+      },
+      {
+        "name": "Lockdown",
+        "relationship": "10th Planet position feeding into truck system"
+      },
+      {
+        "name": "Electric Chair",
+        "relationship": "Related leg entanglement in 10th Planet system"
       }
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 60
+        "value": 60,
+        "description": "Moderate retention due to opponent's high motivation to escape; boot pressure maintenance determines retention"
       },
       "advancement_probability": {
-        "value": 65
+        "value": 65,
+        "description": "High advancement to back control or submission positions when truck is established correctly"
       },
       "submission_probability": {
-        "value": 55
+        "value": 55,
+        "description": "Strong finishing rate due to multiple submission threats creating defensive dilemmas"
       },
       "average_time": "30-90 seconds before submission or transition"
     },
     "transitions": [
       {
         "transition": "Twister",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Calf Slicer from Truck",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Banana Split",
         "attempt_probability": 10
       },
       {
+        "transition": "Calf Slicer",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Roll to Truck",
+        "attempt_probability": 6
+      },
+      {
         "transition": "Rolling Back Take",
-        "attempt_probability": 16
+        "attempt_probability": 41
       },
       {
         "transition": "Bow and Arrow Choke",
-        "attempt_probability": 11
+        "attempt_probability": 6
       },
       {
         "transition": "Crab Ride to Back",
-        "attempt_probability": 14
+        "attempt_probability": 8
       },
       {
         "transition": "Crucifix from Turtle",
-        "attempt_probability": 13
+        "attempt_probability": 8
       },
       {
-        "transition": "Side Control to Mount",
-        "attempt_probability": 13
+        "transition": "Back Take from Top",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Transition to Twister Side Control",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Truck Maintenance",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Truck to Back Control",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Truck to Twister Side Control",
+        "attempt_probability": 1
       }
     ],
     "knowledge_assessment": [
@@ -336,10 +357,10 @@
       },
       {
         "question": "What are the essential grips for maintaining truck position?",
-        "answer": "Essential grips include: your boot foot controlling their hip creating the foundational torque, your legs entangled with their trapped leg preventing straightening, and your arm controlling across their chest, shoulder, or around their neck for upper body connection. In no-gi, an underhook or overhook on their near arm supplements control."
+        "answer": "Essential grips include: your boot foot controlling their hip creating the foundational torque, your legs entangled with their trapped leg preventing straightening, and your arm controlling across their chest, shoulder, or around their neck for upper body connection. In no-gi, an underhook or overhook on their near arm supplements control. The boot is non-negotiable; without it, the entire control system collapses."
       },
       {
-        "question": "When opponent begins a granby roll escape, what is your counter?",
+        "question": "Your opponent begins a granby roll escape from truck bottom - what is your counter?",
         "answer": "When the opponent initiates a granby roll, you have two primary options: follow their roll and transition to traditional back control by inserting your hooks during their rotation, or if you feel them generating significant momentum, switch to the crucifix by catching their far arm as they roll. The key is recognizing the roll early and choosing to flow with it rather than fighting against it."
       },
       {
@@ -366,7 +387,9 @@
       "bottom",
       "defensive",
       "survival",
-      "escape"
+      "escape",
+      "10th-planet",
+      "leg-entanglement"
     ],
     "overview": "Truck Bottom position is a highly disadvantageous defensive position where your back is partially exposed while the opponent controls from a perpendicular angle, typically with one leg trapped and upper body controlled. The position creates severe positional disadvantage as it often precedes back control (4 points) or submission. The bottom player must prioritize immediate defensive measures to prevent submission while working systematically toward escape routes that lead to guard recovery, turtle, or scramble positions.\n\nSuccess in this position requires understanding the mechanical principles of spinal rotation limits, hip mobility, and weight distribution. The bottom practitioner must maintain awareness of submission threats (primarily the Twister, but also calf slicers, neck cranks, and back attacks) while executing defensive frames and hip movement to create escape opportunities. The psychological challenge cannot be understated—the unfamiliar body configuration and multiple submission threats create panic in inexperienced practitioners.\n\nThe position emerged from wrestling's turk ride and was popularized in BJJ through the 10th Planet system, where it serves as a gateway to the Twister submission and various back attacks. Unlike more stable bottom positions, the Truck Bottom offers limited offensive options, making escape the primary tactical objective. The granby roll is the primary escape mechanism, but timing and setup are critical.",
     "state_properties": {
@@ -404,12 +427,12 @@
         "condition": "If opponent is setting up Twister (controlling far arm and twisting spine)",
         "actions": [
           {
-            "technique": "Chin Protection and Grip Defense",
+            "technique": "Hand Fighting from Back",
             "target": "Truck",
             "probability": 65
           },
           {
-            "technique": "Granby Roll",
+            "technique": "Granby Roll to Guard",
             "target": "Turtle",
             "probability": 35
           }
@@ -419,7 +442,7 @@
         "condition": "Else if opponent is attacking trapped leg with calf slicer",
         "actions": [
           {
-            "technique": "Leg Extraction",
+            "technique": "Leg Extraction to Guard",
             "target": "Half Guard",
             "probability": 50
           },
@@ -429,8 +452,8 @@
             "probability": 25
           },
           {
-            "technique": "Tap Early Before Injury",
-            "target": "game-over",
+            "technique": "Defensive Roll",
+            "target": "Open Guard",
             "probability": 25
           }
         ]
@@ -439,12 +462,12 @@
         "condition": "Else if opponent has boot control but loose upper body control",
         "actions": [
           {
-            "technique": "Hip Escape",
+            "technique": "Hip Escape to Guard",
             "target": "Half Guard",
             "probability": 55
           },
           {
-            "technique": "Granby Roll",
+            "technique": "Granby Roll to Guard",
             "target": "Turtle",
             "probability": 45
           }
@@ -454,12 +477,12 @@
         "condition": "Else if opponent is transitioning to back control (inserting hooks)",
         "actions": [
           {
-            "technique": "Back Escape Series",
+            "technique": "Back Door Escape",
             "target": "Turtle",
             "probability": 55
           },
           {
-            "technique": "Rolling Back Take",
+            "technique": "Rolling Back Take Reversal",
             "target": "Open Guard",
             "probability": 45
           }
@@ -493,8 +516,8 @@
         "correction": "Breathe calmly, prioritize neck protection first, then work systematically through escape steps without wasting energy"
       },
       {
-        "error": "Not tapping early to twister or calf slicer",
-        "consequence": "Both submissions can cause serious spinal or knee injuries with very little warning",
+        "error": "Not tapping early to twister or calf slicer when escape is no longer viable",
+        "consequence": "Both submissions can cause serious spinal or knee injuries with very little warning before damage occurs",
         "correction": "Tap immediately when you feel twister crank on spine or calf slicer compressing knee joint—preserve training longevity"
       }
     ],
@@ -522,10 +545,6 @@
     ],
     "related_content": [
       {
-        "name": "Truck",
-        "relationship": "Sibling variant - opponent's perspective of same position"
-      },
-      {
         "name": "Turtle",
         "relationship": "Common escape target - safer defensive position"
       },
@@ -542,10 +561,6 @@
         "relationship": "Escape target - recovering guard from leg extraction"
       },
       {
-        "name": "Twister",
-        "relationship": "Primary submission to defend against from truck bottom"
-      },
-      {
         "name": "Calf Slicer from Truck",
         "relationship": "Secondary submission threat targeting trapped leg"
       },
@@ -554,50 +569,77 @@
         "relationship": "Alternative submission attack from truck position"
       },
       {
-        "name": "Granby Roll",
+        "name": "Granby Roll to Guard",
         "relationship": "Primary escape technique from truck bottom"
       },
       {
-        "name": "Hip Escape",
-        "relationship": "Fundamental movement for creating escape angles"
+        "name": "Hip Escape to Guard",
+        "relationship": "Fundamental escape movement for creating angles"
+      },
+      {
+        "name": "Back Control",
+        "relationship": "Positional threat if opponent transitions from truck"
+      },
+      {
+        "name": "Deep Half Guard",
+        "relationship": "Alternative escape destination via forward roll"
       }
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 40
+        "value": 40,
+        "description": "Low retention reflects high urgency and limited ability to hold position safely"
       },
       "advancement_probability": {
-        "value": 50
+        "value": 50,
+        "description": "Moderate escape probability when systematic approach is used rather than panic movements"
       },
       "submission_probability": {
-        "value": 30
+        "value": 5,
+        "description": "Minimal offensive threat from bottom; focus is entirely on escape and survival"
       },
       "average_time": "20-45 seconds (high urgency position requiring immediate action)"
     },
     "transitions": [
       {
-        "transition": "Granby Roll",
-        "attempt_probability": 18
+        "transition": "Granby Roll to Guard",
+        "attempt_probability": 34
       },
       {
-        "transition": "Hip Escape",
-        "attempt_probability": 20
-      },
-      {
-        "transition": "Leg Extraction",
-        "attempt_probability": 18
-      },
-      {
-        "transition": "Rolling Back Take",
-        "attempt_probability": 17
-      },
-      {
-        "transition": "Forward Roll",
+        "transition": "Hip Escape to Guard",
         "attempt_probability": 15
       },
       {
-        "transition": "Technical Standup",
-        "attempt_probability": 12
+        "transition": "Leg Extraction to Guard",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Rolling Back Take Reversal",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Forward Roll",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Back Door Escape",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Defensive Roll",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Hip Escape from Truck",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Leg Extraction from Truck",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Roll to Guard from Truck",
+        "attempt_probability": 1
       }
     ],
     "knowledge_assessment": [

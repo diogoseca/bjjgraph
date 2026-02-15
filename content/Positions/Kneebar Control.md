@@ -99,25 +99,31 @@ Historically, the kneebar has existed in grappling arts for centuries, appearing
 ### Available Transitions
 
 
-- **[[Kneebar Finish]]** (8% of attempts)
+- **[[Kneebar Finish]]** (38% of attempts)
 
-- **[[Inside Ashi Entry]]** (14% of attempts)
+- **[[Inside Ashi Entry]]** (8% of attempts)
 
-- **[[Outside Ashi Entry]]** (12% of attempts)
+- **[[Outside Ashi Entry]]** (6% of attempts)
 
-- **[[Saddle Entry from Top]]** (9% of attempts)
+- **[[50-50 Entry from Standing]]** (5% of attempts)
 
-- **[[50-50 Entry from Standing]]** (11% of attempts)
+- **[[Heel Hook]]** (10% of attempts)
 
-- **[[Heel Hook]]** (8% of attempts)
+- **[[Straight Ankle Lock]]** (6% of attempts)
 
-- **[[Straight Ankle Lock]]** (10% of attempts)
+- **[[Toe Hold]]** (6% of attempts)
 
-- **[[Toe Hold]]** (8% of attempts)
+- **[[Single Leg X Entry]]** (5% of attempts)
 
-- **[[Single Leg X Entry]]** (11% of attempts)
+- **[[X-Guard Sweep]]** (3% of attempts)
 
-- **[[X-Guard Sweep]]** (9% of attempts)
+- **[[Transition to Backside 50-50]]** (6% of attempts)
+
+- **[[Guard Recovery]]** (5% of attempts)
+
+- **[[Straighten Leg Kneebar Defense]]** (1% of attempts)
+
+- **[[Turn and Extract from Kneebar]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -182,23 +188,21 @@ Historically, the kneebar has existed in grappling arts for centuries, appearing
 ### Available Transitions
 
 
-- **[[Knee Cut Pass]]** (12% of attempts)
+- **[[Straight Ankle Lock]]** (9% of attempts)
 
-- **[[Side Control to Mount]]** (8% of attempts)
+- **[[Toe Hold]]** (9% of attempts)
 
-- **[[Side Control to North-South]]** (9% of attempts)
+- **[[Knee on Belly]]** (7% of attempts)
 
-- **[[Straight Ankle Lock]]** (8% of attempts)
+- **[[Kneebar]]** (63% of attempts)
 
-- **[[Toe Hold]]** (8% of attempts)
+- **[[Kneebar Finish]]** (7% of attempts)
 
-- **[[Half Guard Pass]]** (9% of attempts)
+- **[[Kneebar Control Maintenance]]** (3% of attempts)
 
-- **[[Knee on Belly]]** (8% of attempts)
+- **[[Kneebar to 50-50 Transition]]** (1% of attempts)
 
-- **[[Armbar from Mount]]** (8% of attempts)
-
-- **[[Kneebar]]** (30% of attempts)
+- **[[Kneebar to Ashi Garami]]** (1% of attempts)
 
 
 ### Common Mistakes

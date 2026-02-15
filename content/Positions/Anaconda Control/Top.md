@@ -20,38 +20,38 @@ description: "Master offensive control from Anaconda Control Top position. Learn
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Anaconda Choke",
-      "text": "From this position, attempt Anaconda Choke. This technique is attempted in 19% of exchanges from this position.",
+      "name": "Execute Transition to Dead Orchard Control",
+      "text": "From this position, attempt Transition to Dead Orchard Control. This technique is attempted in 29% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Anaconda from Turtle",
-      "text": "From this position, attempt Anaconda from Turtle. This technique is attempted in 20% of exchanges from this position.",
+      "name": "Execute Anaconda Choke",
+      "text": "From this position, attempt Anaconda Choke. This technique is attempted in 55% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Front Headlock to Anaconda",
-      "text": "From this position, attempt Front Headlock to Anaconda. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Switch to Darce Configuration",
+      "text": "From this position, attempt Switch to Darce Configuration. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Front Headlock to Darce",
-      "text": "From this position, attempt Front Headlock to Darce. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Anaconda Control to Dead Orchard Control",
+      "text": "From this position, attempt Anaconda Control to Dead Orchard Control. This technique is attempted in 4% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take Generic",
-      "text": "From this position, attempt Back Take Generic. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Anaconda to Side Control",
+      "text": "From this position, attempt Anaconda to Side Control. This technique is attempted in 2% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Back Take from Anaconda",
+      "text": "From this position, attempt Back Take from Anaconda. This technique is attempted in 1% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,17 +211,17 @@ The effectiveness of this position lies in its multi-layered control mechanisms:
 
 ## Available Attacks
 
-### [[Anaconda Choke]] (19% of attempts)
+### [[Transition to Dead Orchard Control]] (29% of attempts)
 
-### [[Anaconda from Turtle]] (20% of attempts)
+### [[Anaconda Choke]] (55% of attempts)
 
-### [[Front Headlock to Anaconda]] (17% of attempts)
+### [[Switch to Darce Configuration]] (9% of attempts)
 
-### [[Front Headlock to Darce]] (16% of attempts)
+### [[Anaconda Control to Dead Orchard Control]] (4% of attempts)
 
-### [[Back Take Generic]] (14% of attempts)
+### [[Anaconda to Side Control]] (2% of attempts)
 
-### [[Side Control to Mount]] (14% of attempts)
+### [[Back Take from Anaconda]] (1% of attempts)
 
 
 
@@ -242,7 +242,7 @@ The effectiveness of this position lies in its multi-layered control mechanisms:
 
 
 **If opponent turns into the grip exposing their back:**
-- Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 65%)
+- Execute **[[Back Take from Top]]** → [[Back Control]] (Probability: 65%)
 - Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 55%)
 
 
@@ -374,10 +374,10 @@ Start with anaconda grip established, bottom player works to escape while top pl
 - **[[Darce Control]]** - Sister position - similar arm-in configuration with different hand positioning and mechanics
 - **[[Turtle]]** - Common entry position - opponent's turtle creates ideal circumstances for anaconda grip
 - **[[Anaconda Choke]]** - Primary submission - main finishing technique from this control position
-- **[[Anaconda Variations]]** - Related techniques - different finishing mechanics and setups for anaconda system
 - **[[Front Headlock to Anaconda]]** - Key transition - technical sequence for entering anaconda control from headlock
-- **[[Darce-Anaconda Connection]]** - System relationship - understanding the interchange between these arm-in positions
+- **[[Switch to Darce Configuration]]** - System transition - interchange between anaconda and darce arm-in positions
 - **[[Side Control]]** - Advancement target - position gained after successful roll-through from anaconda
+- **[[Back Take from Top]]** - Alternative advancement when opponent turns away from anaconda pressure
 
 
 </section>

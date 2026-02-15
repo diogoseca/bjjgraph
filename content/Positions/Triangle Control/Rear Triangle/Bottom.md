@@ -32,8 +32,8 @@ description: "Master defensive survival from Rear Triangle Bottom. Learn arm ext
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Escape",
-      "text": "From this position, attempt Rolling Escape. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Rolling Escape to Guard",
+      "text": "From this position, attempt Rolling Escape to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
@@ -208,7 +208,7 @@ Rear Triangle Bottom is a highly compromised defensive position where the practi
 
 ### [[Triangle Escape]] (17% of attempts)
 
-### [[Rolling Escape]] (15% of attempts)
+### [[Rolling Escape to Guard]] (15% of attempts)
 
 ### [[Stack Defense]] (16% of attempts)
 
@@ -227,7 +227,7 @@ Rear Triangle Bottom is a highly compromised defensive position where the practi
 **If opponent's triangle is fully locked with ankle behind knee and tight pressure on carotid arteries:**
 - Execute **[[Triangle Escape]]** → [[Back Control]] (Probability: 25%)
 - Execute **[[Arm Extraction]]** → [[Turtle]] (Probability: 30%)
-- Execute **[[Tap Out]]** → [[game-over]] (Probability: 45%)
+- Execute **[[Tap Out]]** → [[Game Over]] (Probability: 45%)
 
 
 **If triangle is locked but defender maintains some posture and trapped arm has mobility:**
@@ -237,15 +237,15 @@ Rear Triangle Bottom is a highly compromised defensive position where the practi
 
 
 **If opponent transitions to armbar or loosens triangle to adjust position:**
-- Execute **[[Rolling Escape]]** → [[Closed Guard]] (Probability: 40%)
+- Execute **[[Rolling Escape to Guard]]** → [[Closed Guard]] (Probability: 40%)
 - Execute **[[Arm Extraction]]** → [[Back Control]] (Probability: 35%)
 - Execute **[[Hand Fighting from Back]]** → [[Turtle]] (Probability: 25%)
 
 
 **If defender successfully extracts trapped arm from triangle structure:**
 - Execute **[[Triangle Escape]]** → [[Turtle]] (Probability: 50%)
-- Execute **[[Rolling Escape]]** → [[Closed Guard]] (Probability: 30%)
-- Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 20%)
+- Execute **[[Rolling Escape to Guard]]** → [[Closed Guard]] (Probability: 30%)
+- Execute **[[Back Take]]** → [[Back Control]] (Probability: 20%)
 
 
 
@@ -391,7 +391,7 @@ Start in fully locked rear triangle bottom position with defender earning 1 poin
 
 ## Related Positions and Techniques
 
-- **[[Triangle Control]]** - Opponent's position - top perspective of same configuration
+- **[[Triangle Control]]** - Opponent's position - top perspective of similar triangle configuration
 - **[[Back Control]]** - Common transition target after successful arm extraction
 - **[[Triangle Choke]]** - Primary submission threat from this position
 - **[[Armbar Control]]** - Common transition position when opponent switches from triangle

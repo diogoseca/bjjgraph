@@ -21,6 +21,10 @@ The armbar's effectiveness stems from its ability to control multiple points sim
 
 This position appears across all levels of competition and training, making proficiency from both perspectives essential for complete grappling development. The top perspective requires understanding leverage mechanics, hip positioning, and submission chains. The bottom perspective demands calm decision-making under pressure, technical precision in defensive movements, and recognition of escape timing windows.
 
+From the top, the practitioner's body functions as a unified machine where the legs act as clamps controlling the opponent's torso and head, the hips serve as a fulcrum positioned against the shoulder, and the hands direct the finishing vector by pulling the wrist toward the chest. Every component must work in concert: if the legs lose control, the opponent sits up; if the hips drift from the shoulder, leverage disappears; if the hands lose the wrist, the arm retracts. This interconnected control system is what makes the armbar both powerful when executed correctly and vulnerable to systematic defense when any single element is compromised.
+
+From the bottom, survival depends on understanding the same five-point control system and methodically removing each element. The defender who bends the arm, rotates the thumb upward, controls the leg across the face, stacks the hips, and creates angles has addressed every finishing requirement simultaneously. This is not a position where a single defensive action suffices - the defender must layer multiple defensive principles to create genuine escape opportunities. The urgency of escape is real: armbar control is inherently time-limited for the bottom player because the top player can make incremental adjustments that progressively close escape windows.
+
 </section>
 
 <section id="key-principles" class="content-section">
@@ -93,17 +97,21 @@ This position appears across all levels of competition and training, making prof
 ### Available Transitions
 
 
-- **[[Hip Escape]]** (20% of attempts)
+- **[[Hip Escape to Guard]]** (14% of attempts)
 
-- **[[Stack Defense]]** (17% of attempts)
+- **[[Stack Defense]]** (14% of attempts)
 
-- **[[Arm Extraction]]** (15% of attempts)
+- **[[Arm Extraction]]** (12% of attempts)
 
-- **[[Hitchhiker Escape]]** (17% of attempts)
+- **[[Hitchhiker Escape]]** (20% of attempts)
 
-- **[[Bridge and Roll]]** (14% of attempts)
+- **[[Bridge and Roll]]** (13% of attempts)
 
-- **[[Armbar Defense]]** (17% of attempts)
+- **[[Rolling Escape to Guard]]** (10% of attempts)
+
+- **[[Hip Escape to Turtle]]** (9% of attempts)
+
+- **[[Armbar Defense]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -129,9 +137,9 @@ This position appears across all levels of competition and training, making prof
   - Consequence: Provides opponent with stable platform to finish submission with maximum leverage
   - ✅ Correction: Bridge hips, turn onto side toward attacked arm, create stacking pressure to compromise opponent's angle
 
-- ❌ **Giving up mental battle and tapping prematurely**
-  - Consequence: Misses escape opportunities and fails to develop crucial submission defense skills
-  - ✅ Correction: Maintain composure, systematically work through defensive sequence, tap only when joint is actually compromised
+- ❌ **Attempting escape without addressing the grip on the wrist first**
+  - Consequence: All escape attempts fail because the opponent maintains the primary control point and can simply re-tighten after each attempt
+  - ✅ Correction: Before committing to any escape, use your free hand to break or loosen the opponent's grip on your wrist, then immediately execute your escape technique while their control is compromised
 
 
 </section>
@@ -164,17 +172,21 @@ This position appears across all levels of competition and training, making prof
 ### Available Transitions
 
 
-- **[[Armbar Finish]]** (35% of attempts)
+- **[[Armbar Finish]]** (53% of attempts)
 
-- **[[Triangle Setup]]** (20% of attempts)
+- **[[Triangle Setup]]** (21% of attempts)
 
-- **[[Closed Guard to Omoplata]]** (15% of attempts)
+- **[[Omoplata]]** (7% of attempts)
 
-- **[[Triangle to Armbar]]** (12% of attempts)
+- **[[Kimura]]** (7% of attempts)
 
-- **[[Mount to Armbar]]** (10% of attempts)
+- **[[Straight Armbar]]** (7% of attempts)
 
-- **[[Kimura from Guard]]** (8% of attempts)
+- **[[Back Take from Armbar]]** (3% of attempts)
+
+- **[[Belly Down Armbar Transition]]** (1% of attempts)
+
+- **[[Triangle from Armbar]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -225,13 +237,13 @@ This position appears across all levels of competition and training, making prof
 
 - **[[Closed Guard]]** - Classic setup position for armbar from both top and bottom perspectives
 
-- **[[Kimura Control]]** - Related arm isolation position creating submission chain options
+- **[[Kimura Trap]]** - Related arm isolation position creating submission chain options
 
 - **[[Back Control]]** - Alternative dominant position offering armbar opportunities
 
 - **[[Side Control]]** - Common entry point for armbar transitions
 
-- **[[S Mount]]** - Transitional mount variation facilitating armbar setup
+- **[[High Mount]]** - Transitional mount variation facilitating armbar setup
 
 - **[[Crucifix]]** - Alternative arm isolation control position
 

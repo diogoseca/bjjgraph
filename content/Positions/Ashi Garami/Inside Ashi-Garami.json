@@ -61,7 +61,7 @@
     ],
     "overview": "Inside Ashi-Garami Top, also known as Standard Ashi Garami or Single Leg X, is a foundational leg entanglement position where the top player controls one of opponent's legs between their own legs while maintaining inside control with one leg across opponent's hip. This position serves as the entry point for many advanced leg attack systems and provides direct access to straight ankle locks, heel hooks (where legal), and kneebars. The position balances control with offensive capability, allowing the top player to threaten submissions while maintaining relatively safe positioning.\n\nInside Ashi-Garami represents the standard position in modern leg lock systems, serving as the foundation from which more complex entanglements develop. The \"inside\" designation refers to the inside leg (closest to opponent's body) being placed across their hip rather than their far hip, which distinguishes it from outside ashi. This inside positioning provides better control over opponent's hip movement and creates direct pathways to more advanced positions like honey hole and saddle.\n\nThe position excels in no-gi grappling where leg attacks are permitted, offering a systematic approach to leg attacks that can be developed from beginner to advanced levels. White and blue belts typically work straight ankle locks from this position, while advanced practitioners layer in heel hooks and transition to more complex entanglements. The position's effectiveness stems from the mechanical control it provides over one leg while leaving hands free for grips and adjustments.",
     "state_properties": {
-      "point_value": 2,
+      "point_value": 0,
       "position_type": "Offensive",
       "risk_level": "Medium",
       "energy_cost": "Medium",
@@ -129,7 +129,7 @@
         "condition": "If opponent remains stationary with leg trapped and shows little defensive movement or awareness",
         "actions": [
           {
-            "technique": "Straight Ankle Lock",
+            "technique": "Straight Ankle Lock Entry",
             "target": "Straight Ankle Lock Control",
             "probability": 75
           },
@@ -144,7 +144,7 @@
         "condition": "If opponent turns knee inward to defend ankle lock and creates heel hook opportunity",
         "actions": [
           {
-            "technique": "Inside Heel Hook",
+            "technique": "Heel Hook",
             "target": "Saddle",
             "probability": 70
           },
@@ -159,12 +159,12 @@
         "condition": "If opponent rotates hips away and attempts to clear inside leg from hip",
         "actions": [
           {
-            "technique": "Switch to Outside Ashi",
+            "technique": "Outside Ashi Entry",
             "target": "Outside Ashi-Garami",
             "probability": 65
           },
           {
-            "technique": "Advance to Saddle",
+            "technique": "Saddle Entry from Top",
             "target": "Saddle",
             "probability": 55
           }
@@ -179,7 +179,7 @@
             "probability": 60
           },
           {
-            "technique": "Maintain Control and Reset",
+            "technique": "Ankle Lock Finish",
             "target": "Inside Ashi-Garami",
             "probability": 50
           }
@@ -189,12 +189,12 @@
         "condition": "If opponent sits up aggressively and reaches for your legs or upper body",
         "actions": [
           {
-            "technique": "Back Take Transition",
+            "technique": "Back Take from Ashi",
             "target": "Back Control",
             "probability": 55
           },
           {
-            "technique": "Sweep to Top Position",
+            "technique": "Position reversal sweep to top",
             "target": "Standing Position",
             "probability": 45
           }
@@ -307,44 +307,56 @@
     },
     "transitions": [
       {
-        "transition": "Straight Ankle Lock",
-        "attempt_probability": 9
+        "transition": "Straight Ankle Lock Entry",
+        "attempt_probability": 43
       },
       {
-        "transition": "Inside Heel Hook",
-        "attempt_probability": 10
+        "transition": "Heel Hook",
+        "attempt_probability": 6
       },
       {
         "transition": "Toe Hold",
-        "attempt_probability": 12
+        "attempt_probability": 9
       },
       {
         "transition": "Kneebar Finish",
-        "attempt_probability": 11
+        "attempt_probability": 4
       },
       {
         "transition": "Inside Ashi-Garami to Honey Hole",
-        "attempt_probability": 11
+        "attempt_probability": 9
       },
       {
         "transition": "Back Take from Ashi",
-        "attempt_probability": 8
-      },
-      {
-        "transition": "Sweep to Top Position",
-        "attempt_probability": 7
+        "attempt_probability": 2
       },
       {
         "transition": "Inside Ashi-Garami to Cross Ashi",
-        "attempt_probability": 10
+        "attempt_probability": 5
       },
       {
         "transition": "Outside Ashi Entry",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Saddle Entry from Top",
-        "attempt_probability": 12
+        "attempt_probability": 9
+      },
+      {
+        "transition": "50-50 Entry",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Backside 50-50 Entry from Ashi",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Inside Ashi to Outside Ashi",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Inside Ashi-Garami to Ushiro Ashi",
+        "attempt_probability": 1
       }
     ]
   },
@@ -447,7 +459,7 @@
         "condition": "If opponent extends leg to create distance and escape",
         "actions": [
           {
-            "technique": "Straight Ankle Lock",
+            "technique": "Straight Ankle Lock Entry",
             "target": "Straight Ankle Lock Control",
             "probability": 60
           },
@@ -462,7 +474,7 @@
         "condition": "If opponent's heel is exposed and knee line is controlled",
         "actions": [
           {
-            "technique": "Inside Heel Hook",
+            "technique": "Heel Hook",
             "target": "Saddle",
             "probability": 55
           },
@@ -482,7 +494,7 @@
             "probability": 60
           },
           {
-            "technique": "X-Guard to Ashi Transition",
+            "technique": "Cross Ashi Transition",
             "target": "Cross Ashi-Garami",
             "probability": 50
           }
@@ -497,7 +509,7 @@
             "probability": 55
           },
           {
-            "technique": "Re-Guard",
+            "technique": "Guard Recovery",
             "target": "Open Guard",
             "probability": 40
           }
@@ -614,40 +626,56 @@
     },
     "transitions": [
       {
-        "transition": "Inside Heel Hook",
-        "attempt_probability": 8
+        "transition": "Heel Hook",
+        "attempt_probability": 5
       },
       {
-        "transition": "Straight Ankle Lock",
-        "attempt_probability": 11
+        "transition": "Straight Ankle Lock Entry",
+        "attempt_probability": 41
       },
       {
         "transition": "Saddle Entry from Top",
-        "attempt_probability": 21
+        "attempt_probability": 12
       },
       {
         "transition": "Outside Ashi Entry",
-        "attempt_probability": 12
+        "attempt_probability": 7
       },
       {
         "transition": "Kneebar Finish",
-        "attempt_probability": 10
+        "attempt_probability": 4
       },
       {
         "transition": "Toe Hold",
-        "attempt_probability": 8
+        "attempt_probability": 6
       },
       {
         "transition": "50-50 Entry",
-        "attempt_probability": 10
+        "attempt_probability": 4
       },
       {
         "transition": "Inside Ashi-Garami to Honey Hole",
-        "attempt_probability": 12
+        "attempt_probability": 9
       },
       {
         "transition": "Inside Ashi-Garami to Cross Ashi",
-        "attempt_probability": 8
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Guard Recovery",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Counter Entangle to 50-50 from Ashi",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Leg Extraction from Inside Ashi",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Standing Up from Inside Ashi",
+        "attempt_probability": 1
       }
     ]
   }

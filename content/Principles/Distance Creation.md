@@ -370,8 +370,8 @@ Partner establishes submission setups (armbar, triangle, kimura) and practitione
 - [[Side Control]] (Position) - Common control position requiring progressive distance building for successful escape
 - [[Back Control]] (Position) - Dangerous position where selective distance creation at upper body is critical for submission defense
 - [[Knee on Belly]] (Position) - Pressure position where timing-based distance creation is highly effective due to opponent's elevated base
-- [[Hip Escape]] (Transition) - Primary mechanical technique for generating lateral distance from opponent's control
-- [[Elbow Escape]] (Transition) - Specific escape technique from mount that exemplifies progressive distance creation principles
+- [[Hip Escape to Guard]] (Transition) - Primary mechanical technique for generating lateral distance from opponent's control
+- [[Elbow Escape to Guard]] (Transition) - Specific escape technique from mount that exemplifies progressive distance creation principles
 - [[Shrimp Escape]] (Transition) - Fundamental movement incorporating distance creation through coordinated frame and hip mechanics
 - [[Energy Management System]] (Principle) - Efficiency framework where proper distance creation mechanics minimize defensive energy expenditure
 

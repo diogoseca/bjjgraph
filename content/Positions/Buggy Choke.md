@@ -93,17 +93,21 @@ From the top perspective, the Buggy Choke position serves as a central hub in mo
 ### Available Transitions
 
 
-- **[[Sit to Half Guard]]** (18% of attempts)
+- **[[Sit to Half Guard]]** (25% of attempts)
 
-- **[[Granby Roll to Guard]]** (18% of attempts)
+- **[[Granby Roll to Guard]]** (5% of attempts)
 
-- **[[Technical Stand Up]]** (16% of attempts)
+- **[[Technical Stand-up]]** (6% of attempts)
 
-- **[[Turn In and Face]]** (18% of attempts)
+- **[[Turn In and Face]]** (14% of attempts)
 
-- **[[Roll to Deep Half Guard]]** (14% of attempts)
+- **[[Turtle to Guard]]** (12% of attempts)
 
-- **[[Elbow Escape to Guard]]** (16% of attempts)
+- **[[Back Door Escape]]** (13% of attempts)
+
+- **[[Roll to Deep Half Guard]]** (7% of attempts)
+
+- **[[Turtle to Back Control]]** (18% of attempts)
 
 
 ### Common Mistakes
@@ -160,25 +164,29 @@ From the top perspective, the Buggy Choke position serves as a central hub in mo
 ### Available Transitions
 
 
-- **[[Finish Buggy Choke]]** (11% of attempts)
+- **[[Finish Buggy Choke]]** (45% of attempts)
 
-- **[[Aoki Lock to Back Control]]** (11% of attempts)
+- **[[Hook Leg and Take Back]]** (17% of attempts)
 
-- **[[Hook Leg and Take Back]]** (11% of attempts)
+- **[[Roll to Truck]]** (7% of attempts)
 
-- **[[Aoki Lock to Crucifix]]** (10% of attempts)
+- **[[Switch to Darce Configuration]]** (4% of attempts)
 
-- **[[Roll to Truck]]** (9% of attempts)
+- **[[Switch to Anaconda Configuration]]** (2% of attempts)
 
-- **[[Switch to Darce Configuration]]** (8% of attempts)
+- **[[Buggy Choke to Front Headlock]]** (5% of attempts)
 
-- **[[Switch to Anaconda Configuration]]** (8% of attempts)
+- **[[Turtle Flatten to Side Control]]** (7% of attempts)
 
-- **[[Buggy Choke to Side Control]]** (12% of attempts)
+- **[[Guillotine from Turtle]]** (2% of attempts)
 
-- **[[Rolling Back Take]]** (10% of attempts)
+- **[[Crucifix from Turtle]]** (10% of attempts)
 
-- **[[Buggy Choke to Front Headlock]]** (10% of attempts)
+- **[[Buggy Choke to North-South]]** (0% of attempts)
+
+- **[[Buggy Choke to Side Control]]** (0% of attempts)
+
+- **[[Grip Strip from Buggy Choke]]** (1% of attempts)
 
 
 ### Common Mistakes

@@ -4,7 +4,7 @@
 
 ---
 title: "Rodeo Ride Bottom | BJJ Position Guide | BJJ Graph"
-description: "Defend Rodeo Ride position in BJJ. Learn escape fundamentals, guard recovery mechanics, and defensive strategies to prevent back exposure with 45% escape success rate."
+description: "Defend Rodeo Ride position in BJJ. Learn escape fundamentals, guard recovery mechanics, and defensive strategies to prevent back exposure with systematic escape sequences."
 ---
 
 
@@ -21,37 +21,37 @@ description: "Defend Rodeo Ride position in BJJ. Learn escape fundamentals, guar
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Guard",
-      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 27% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand-up",
-      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll",
-      "text": "From this position, attempt Granby Roll. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Granby Roll to Guard",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling to Guard",
-      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Elbow Escape",
-      "text": "From this position, attempt Elbow Escape. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Elbow Escape to Guard",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Sit Through Escape",
-      "text": "From this position, attempt Sit Through Escape. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Sit Through Escape. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -115,7 +115,7 @@ description: "Defend Rodeo Ride position in BJJ. Learn escape fundamentals, guar
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Rodeo Ride Bottom",
-  "description": "Defend Rodeo Ride position in BJJ. Learn escape fundamentals, guard recovery mechanics, and defensive strategies to prevent back exposure with 45% escape success rate.",
+  "description": "Defend Rodeo Ride position in BJJ. Learn escape fundamentals, guard recovery mechanics, and defensive strategies to prevent back exposure with systematic escape sequences.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -209,19 +209,23 @@ Successful escape from Rodeo Ride requires a systematic approach that prioritize
 
 ## Available Escapes
 
-### [[Turtle to Guard]] (20% of attempts)
+### [[Turtle to Guard]] (27% of attempts)
 
-### [[Technical Stand-up]] (18% of attempts)
+### [[Technical Stand-up]] (16% of attempts)
 
-### [[Granby Roll]] (15% of attempts)
+### [[Granby Roll to Guard]] (13% of attempts)
 
-### [[Rolling to Guard]] (17% of attempts)
+### [[Rolling to Guard]] (15% of attempts)
 
-### [[Elbow Escape]] (12% of attempts)
+### [[Elbow Escape to Guard]] (10% of attempts)
 
-### [[Sit Through Escape]] (10% of attempts)
+### [[Sit Through Escape]] (8% of attempts)
 
-### [[Standing up in Base]] (8% of attempts)
+### [[Standing up in Base]] (6% of attempts)
+
+### [[Roll from Rodeo Ride]] (3% of attempts)
+
+### [[Shake Off Rodeo Ride]] (2% of attempts)
 
 
 
@@ -233,7 +237,7 @@ Successful escape from Rodeo Ride requires a systematic approach that prioritize
 
 **If top practitioner establishes seat belt grip or hooks threatening back control:**
 - Execute **[[Fight Hands]]** → [[Turtle]] (Probability: 60%)
-- Execute **[[Roll to Guard]]** → [[Half Guard]] (Probability: 40%)
+- Execute **[[Rolling to Guard]]** → [[Half Guard]] (Probability: 40%)
 
 
 **If top practitioner attacks with clock choke or collar choke:**
@@ -242,7 +246,7 @@ Successful escape from Rodeo Ride requires a systematic approach that prioritize
 
 
 **If top practitioner's weight is high on shoulders with minimal hip control:**
-- Execute **[[Granby Roll]]** → [[Open Guard]] (Probability: 50%)
+- Execute **[[Granby Roll to Guard]]** → [[Open Guard]] (Probability: 50%)
 - Execute **[[Sit Through]]** → [[Butterfly Guard]] (Probability: 45%)
 
 
@@ -304,7 +308,7 @@ Successful escape from Rodeo Ride requires a systematic approach that prioritize
 
 ### Turtle Escape Sequences
 
-Partner establishes Rodeo Ride control, bottom practitioner works through systematic escape sequence: fight grips → create space → execute escape. Practice each step deliberately before flowing through full sequence. Partner provides progressive resistance from 50% to 100% over multiple rounds.
+Partner establishes Rodeo Ride control, bottom practitioner works through systematic escape sequence: fight grips, create space, execute escape. Practice each step deliberately before flowing through full sequence. Partner provides progressive resistance from 50% to 100% over multiple rounds.
 
 **Duration**: 5 x 2 minutes
 
@@ -392,8 +396,8 @@ Starting from bottom of Rodeo Ride, work specifically on rolling to guard variat
 - **[[Half Guard]]** - Common escape target position
 - **[[Closed Guard]]** - Alternative escape target position
 - **[[Turtle to Guard]]** - Key escape transition from this position
-- **[[Standing Position]]** - Alternative escape target through technical stand-up
 - **[[Butterfly Guard]]** - Escape target position via sit-through
+- **[[Granby Roll to Guard]]** - Inversion-based escape technique from turtle
 
 
 </section>

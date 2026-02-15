@@ -1,6 +1,6 @@
 {
   "name": "Butterfly Smash",
-  "description": "Master the Butterfly Smash pass in BJJ. Break down butterfly hooks with pressure and control. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
+  "description": "Master the Butterfly Smash pass in BJJ. Collapse butterfly hooks with systematic pressure, weight distribution, and crossface control to reach side control.",
   "tags": [
     "bjj",
     "guard-passing",
@@ -9,182 +9,26 @@
     "top-game",
     "fundamental-technique"
   ],
-  "overview": "The Butterfly Smash is a fundamental pressure passing technique designed to neutralize and collapse the butterfly guard structure. This pass exploits the inherent weakness of butterfly hooks when met with forward pressure and proper weight distribution. By driving your weight through specific points of control while systematically removing the bottom player's frames and hooks, you create a pathway to dominant top positions. The technique emphasizes pressure over speed, making it highly effective against technically proficient guard players who rely on maintaining distance and active hooks. Understanding the mechanics of hip pressure, shoulder positioning, and incremental advances makes this pass a cornerstone of any pressure-based passing system.",
-  "key_principles": [
-    "Forward pressure through the opponent's center line to collapse butterfly structure",
-    "Systematic removal of frames and hooks before attempting to pass",
-    "Weight distribution through shoulders and hips to pin lower body",
-    "Incremental position improvement rather than explosive movements",
-    "Control of opponent's upper body to prevent re-guarding",
-    "Chest-to-chest connection to eliminate recovery space",
-    "Patience in maintaining pressure while opponent exhausts defensive options"
-  ],
-  "setup_requirements": [
-    "Opponent is in butterfly guard with both hooks established",
-    "You have established grips on opponent's collar or sleeves",
-    "Your posture is upright or slightly forward",
-    "Distance is close enough to begin pressure application",
-    "You have identified which side to attack first",
-    "Base is stable enough to begin forward movement"
-  ],
-  "execution_steps": [
+  "from_position": "Butterfly Guard/Top",
+  "outcomes": [
     {
-      "step_number": 1,
-      "action": "Establish upper body control",
-      "description": "Secure grips on opponent's collar or control both sleeves. Drive your forehead into opponent's chest or shoulder to begin breaking their upright posture. Keep your elbows tight to your body to prevent arm drags."
+      "to": "Side Control/Top",
+      "probability": 68,
+      "result": "success"
     },
     {
-      "step_number": 2,
-      "action": "Choose side and begin pressure",
-      "description": "Select the side where opponent's butterfly hook feels weaker or where you have better grip control. Step your opposite leg back slightly to create angle while driving your chest and shoulder forward into opponent's upper body, beginning to collapse their structure."
+      "to": "Butterfly Guard/Top",
+      "probability": 18,
+      "result": "failure"
     },
     {
-      "step_number": 3,
-      "action": "Drive knee to mat",
-      "description": "On your chosen side, drive your knee to the mat beside opponent's hip, pinning their bottom leg and removing space for their hook to function. Your knee should be tight to their hip, not floating or allowing gaps."
-    },
-    {
-      "step_number": 4,
-      "action": "Clear first butterfly hook",
-      "description": "Use your knee pressure and forward drive to force opponent's first butterfly hook to flatten or lose connection. Your hip should drop toward the mat while maintaining chest pressure on their upper body. The hook should naturally collapse under the combined pressure."
-    },
-    {
-      "step_number": 5,
-      "action": "Secure crossface or underhook",
-      "description": "As the first hook clears, immediately establish a crossface by driving your forearm across opponent's face toward far shoulder, or secure a deep underhook on the same side. This control prevents them from turning into you or recovering guard position."
-    },
-    {
-      "step_number": 6,
-      "action": "Step over second leg",
-      "description": "With the first hook neutralized and upper body control established, step your far leg over opponent's remaining butterfly hook. Keep your hips heavy and chest pressure constant to prevent them from inserting new frames or recovering hooks."
-    },
-    {
-      "step_number": 7,
-      "action": "Consolidate side control",
-      "description": "Bring your stepping leg back to establish proper side control base with knee near opponent's hip. Distribute your weight through chest and hips to pin opponent flat. Ensure your crossface or underhook is maintained while establishing proper side control positioning."
+      "to": "Butterfly Guard/Bottom",
+      "probability": 14,
+      "result": "counter"
     }
   ],
-  "common_counters": [
-    {
-      "counter": "Opponent sits up explosively and pumps butterfly hooks to create distance",
-      "effectiveness": "Medium",
-      "your_response": "Maintain head position low on their chest, drive forward harder with your shoulders, and immediately drop your hips to smother their hook movement before they can extend"
-    },
-    {
-      "counter": "Opponent arm drags your controlling arm to attack your back",
-      "effectiveness": "High",
-      "your_response": "Keep elbows tight to body during initial engagement, if dragged begins, immediately limp arm and circle away while establishing new grips, never let them get behind your shoulder line"
-    },
-    {
-      "counter": "Opponent switches to half guard as you begin to pass",
-      "effectiveness": "High",
-      "your_response": "Expect this transition and be prepared to immediately address half guard with appropriate passing techniques, or prevent the transition by controlling the far hip as you pass"
-    },
-    {
-      "counter": "Opponent uses frames on your hips or face to create distance and re-establish hooks",
-      "effectiveness": "Medium",
-      "your_response": "Clear frames systematically before committing to the pass, use your head position to strip away face frames, and maintain forward pressure to collapse hip frames"
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Attempting to pass too quickly without establishing sufficient pressure",
-      "consequence": "Opponent easily maintains hooks and can sweep or re-establish guard",
-      "correction": "Take time to fully collapse the structure with pressure before attempting to move around the legs"
-    },
-    {
-      "error": "Keeping hips too high during the smash",
-      "consequence": "Opponent can use hooks effectively to elevate and sweep",
-      "correction": "Drop hips toward the mat while maintaining chest pressure, create a low, heavy base"
-    },
-    {
-      "error": "Neglecting to control opponent's upper body before passing",
-      "consequence": "Opponent sits up, re-establishes guard, or attacks submissions",
-      "correction": "Always secure crossface or underhook before attempting to step over the second leg"
-    },
-    {
-      "error": "Allowing gaps between your chest and opponent's upper body",
-      "consequence": "Opponent inserts frames and creates distance to recover guard",
-      "correction": "Maintain constant chest-to-chest connection throughout the entire passing sequence"
-    },
-    {
-      "error": "Stepping over the second leg too wide or too early",
-      "consequence": "Opponent captures half guard or re-establishes full guard",
-      "correction": "Only step over once first hook is completely cleared and upper body is controlled, keep the step tight to their body"
-    }
-  ],
-  "training_progressions": [
-    {
-      "phase": "Week 1-2: Pressure Fundamentals",
-      "focus": "Learning proper weight distribution and pressure application",
-      "description": "Practice establishing grips and forward pressure against static butterfly guard. Focus on feeling how pressure collapses hooks. Partner provides minimal resistance, only maintaining butterfly structure. Emphasize chest-to-chest connection and hip positioning."
-    },
-    {
-      "phase": "Week 3-4: Hook Removal Mechanics",
-      "focus": "Systematic clearing of butterfly hooks",
-      "description": "Drill the specific mechanics of knee placement and hook collapse. Partner maintains hooks but allows you to work through the clearing sequence. Practice both sides equally. Add crossface and underhook establishment once hooks are cleared."
-    },
-    {
-      "phase": "Week 5-8: Dynamic Resistance",
-      "focus": "Dealing with active defensive responses",
-      "description": "Partner actively tries to maintain hooks and create distance with frames. Practice clearing frames while maintaining pressure. Work on timing of crossface/underhook establishment. Include common counter scenarios like arm drags and half guard transitions."
-    },
-    {
-      "phase": "Week 9-12: Competition Integration",
-      "focus": "Full resistance and combination passing",
-      "description": "Partner uses full defensive toolkit including sweeps, submissions, and guard retention. Practice recognizing when butterfly smash is optimal versus other passing options. Chain together with other pressure passes. Include positional sparring from butterfly guard."
-    },
-    {
-      "phase": "Month 4+: Advanced Applications",
-      "focus": "Variations and high-level adjustments",
-      "description": "Incorporate gi and no-gi specific grips. Practice against high-level butterfly players. Work on subtle weight shifts and pressure adjustments based on opponent reactions. Develop instinctive recognition of passing opportunities."
-    }
-  ],
-  "variants_and_adaptations": [
-    {
-      "variant_name": "No-Gi Butterfly Smash",
-      "description": "Without collar grips, establish head position lower on the chest and use wrist control or overhooks for upper body control. Emphasis shifts more to body weight and head pressure rather than grip-based control.",
-      "when_to_use": "No-gi training or competition, when collar grips are not available"
-    },
-    {
-      "variant_name": "Single Underhook Smash",
-      "description": "Establish a deep underhook on one side before initiating the smash, using the underhook to control opponent's upper body throughout. This creates a stronger control position but may telegraph your passing direction.",
-      "when_to_use": "Against opponents who are particularly good at sitting up and maintaining upright posture"
-    },
-    {
-      "variant_name": "Double Under Butterfly Smash",
-      "description": "Secure both underhooks before beginning the smash sequence, clasping hands behind opponent's back. This provides maximum upper body control but requires more initial setup and can be countered by whizzer defense.",
-      "when_to_use": "When you can secure double underhooks, particularly effective against less experienced players"
-    }
-  ],
-  "knowledge_assessment": [
-    {
-      "question": "Why is forward pressure more effective than lateral movement when passing butterfly guard?",
-      "answer": "Forward pressure directly attacks the structural integrity of butterfly hooks by removing the space they need to function. Butterfly hooks rely on creating elevation and distance - forward pressure collapses this structure by driving the opponent flat and removing the leverage their hooks require. Lateral movement without pressure allows the opponent to maintain their hook connection and rotate with you."
-    },
-    {
-      "question": "What is the primary timing indicator for when to step over the second butterfly hook?",
-      "answer": "You should only step over the second hook after the first hook is completely neutralized AND you have established upper body control through a crossface or underhook. Stepping too early allows the opponent to use the remaining hook to recover guard or transition to half guard. The key signal is feeling the opponent's structure collapse and their upper body pinned."
-    },
-    {
-      "question": "How does keeping your elbows tight to your body prevent common butterfly guard attacks?",
-      "answer": "Tight elbow positioning prevents arm drags, which are one of the most effective counters from butterfly guard. When your elbows are extended or loose, the opponent can easily grab your wrist or tricep and pull your arm across their body to access your back. Keeping elbows connected to your ribs makes it much harder for them to isolate and control your arms."
-    },
-    {
-      "question": "What is the relationship between chest pressure and hook effectiveness in the butterfly smash?",
-      "answer": "Butterfly hooks require the bottom player to maintain an upright or angled posture to generate lifting power. Chest pressure forces the opponent onto their back, which fundamentally changes the angle of their hips and legs, making the hooks biomechanically weak. When the opponent is flat, their hooks cannot create the elevation needed for sweeps or guard retention, turning them into passive obstacles rather than active threats."
-    },
-    {
-      "question": "Why is the butterfly smash considered a pressure pass rather than a speed pass?",
-      "answer": "The butterfly smash relies on systematically collapsing the opponent's defensive structure through sustained pressure rather than quickly moving around their legs. Success comes from making the opponent's guard mechanically ineffective through weight distribution and forward drive, then consolidating position incrementally. Speed passes attempt to move around defenses before they can react, while pressure passes like the butterfly smash make the defenses themselves stop working through sustained control."
-    },
-    {
-      "question": "What should you do if the opponent successfully prevents your first hook clear?",
-      "answer": "If the first hook remains active despite your pressure, reassess your weight distribution and pressure angle. Often this means your hips are too high or your chest pressure is insufficient. Reset by driving your forehead lower on their chest, dropping your hips closer to the mat, and ensuring your knee is tight to their hip. You can also switch to attacking the opposite side if one hook proves more resistant than the other."
-    }
-  ],
-  "safety_considerations": "The butterfly smash is generally a safe passing technique when performed with control. However, practitioners should be mindful of pressure application on the opponent's face and neck during crossface establishment - excessive or sudden pressure can cause discomfort or injury. When drilling, start with light pressure and gradually increase as both partners become comfortable with the mechanics. Be particularly careful with head positioning to avoid accidental headbutts when driving forward. Partners should communicate clearly if pressure becomes uncomfortable, especially on the jaw or neck. When receiving the pass, avoid explosive bridging or shrimping movements that could result in collision injuries.",
-  "position_integration": "The Butterfly Smash integrates into a comprehensive pressure passing system as a fundamental response to butterfly guard. It connects seamlessly with other pressure-based passes like the double under pass, long step pass, and knee slice, forming a coherent passing chain. When opponents defend the butterfly smash by transitioning to half guard, you can immediately switch to appropriate half guard passing sequences. The technique also serves as an entry point for back-takes when opponents turn away to defend, and for mount attacks when you achieve full crossface control. Understanding this pass builds the foundational pressure mechanics needed for more advanced passing systems like those developed by Bernardo Faria and elite competitors'.",
+  "success_rate": 68,
+  "overview": "The Butterfly Smash is a fundamental pressure passing technique designed to neutralize and collapse the butterfly guard structure. This pass exploits the inherent weakness of butterfly hooks when met with forward pressure and proper weight distribution. By driving your weight through specific points of control while systematically removing the bottom player's frames and hooks, you create a pathway to dominant top positions.\n\nThe technique emphasizes pressure over speed, making it highly effective against technically proficient guard players who rely on maintaining distance and active hooks. Rather than attempting to move around the legs quickly, the butterfly smash works by making the guard itself structurally unsound through sustained chest-to-chest connection and progressive hip pressure. This forces the bottom player flat, removing the upright posture their hooks require to generate elevation.\n\nUnderstanding the mechanics of hip pressure, shoulder positioning, and incremental advances makes this pass a cornerstone of any pressure-based passing system. It chains naturally with knee slice passes, body lock passes, and long step passes, providing a complete toolkit against butterfly guard. When the bottom player defends by transitioning to half guard, the passer is already in an advantageous position to continue passing with appropriate follow-up techniques.",
   "related_content": [
     {
       "name": "Butterfly Guard",
@@ -192,7 +36,7 @@
     },
     {
       "name": "Butterfly Hook Control",
-      "relationship": "Defensive mechanism being neutralized"
+      "relationship": "Defensive mechanism being neutralized by the smash"
     },
     {
       "name": "Side Control",
@@ -200,58 +44,375 @@
     },
     {
       "name": "Butterfly Pass",
-      "relationship": "Alternative passing approach to same guard"
+      "relationship": "Alternative passing approach to the same guard"
     },
     {
       "name": "Double Under Pass",
-      "relationship": "Complementary pressure pass that chains well"
+      "relationship": "Complementary pressure pass that chains well from double underhooks"
     },
     {
       "name": "Half Guard",
-      "relationship": "Common transition when opponent defends"
+      "relationship": "Common intermediate position when opponent partially defends"
     },
     {
       "name": "Long Step Pass",
-      "relationship": "Alternative pressure passing option"
+      "relationship": "Alternative pressure passing option from similar engagement range"
     },
     {
       "name": "Knee Slice Pass",
-      "relationship": "Follow-up pass when opponent creates frames"
+      "relationship": "Follow-up pass when opponent creates frames or recovers half guard"
     },
     {
-      "name": "Pressure Passing",
-      "relationship": "Core principle underlying this technique"
+      "name": "Body Lock Pass",
+      "relationship": "Complementary pressure pass using body lock control"
     },
     {
-      "name": "Guard Passing",
-      "relationship": "Fundamental concepts being applied"
+      "name": "Smash Pass",
+      "relationship": "Related pressure passing concept sharing similar mechanics"
     },
     {
-      "name": "Forward Pressure",
-      "relationship": "Key mechanical principle"
+      "name": "Arm Drag to Back",
+      "relationship": "Primary counter the bottom player threatens during engagement"
     },
     {
-      "name": "Weight Distribution",
-      "relationship": "Essential skill for effective execution"
+      "name": "Butterfly Sweep",
+      "relationship": "Main offensive threat from bottom that the smash neutralizes"
     }
   ],
-  "from_position": "Butterfly Guard/Bottom",
-  "outcomes": [
+  "attacker": {
+    "name": "Butterfly Smash Attacker",
+    "description": "How to execute Butterfly Smash in BJJ. Attacking perspective with setup, execution steps, and counters for pressure passing butterfly guard.",
+    "overview": "The Butterfly Smash is a fundamental pressure passing technique designed to neutralize and collapse the butterfly guard structure. This pass exploits the inherent weakness of butterfly hooks when met with forward pressure and proper weight distribution. By driving your weight through specific points of control while systematically removing the bottom player's frames and hooks, you create a pathway to dominant top positions. The technique emphasizes pressure over speed, making it highly effective against technically proficient guard players who rely on maintaining distance and active hooks. Understanding the mechanics of hip pressure, shoulder positioning, and incremental advances makes this pass a cornerstone of any pressure-based passing system.",
+    "key_principles": [
+      "Forward pressure through the opponent's center line to collapse butterfly structure and eliminate upright posture",
+      "Systematic removal of frames and hooks before attempting to pass around the legs",
+      "Weight distribution through shoulders and hips to pin lower body and prevent hook re-insertion",
+      "Incremental position improvement rather than explosive movements that create space",
+      "Control of opponent's upper body through crossface or underhook to prevent re-guarding",
+      "Chest-to-chest connection maintained throughout to eliminate recovery space",
+      "Patience in maintaining pressure while opponent exhausts defensive options and energy"
+    ],
+    "setup_requirements": [
+      "Opponent is in butterfly guard with both hooks established under your thighs",
+      "You have established grips on opponent's collar, sleeves, or wrist control in no-gi",
+      "Your posture is upright or slightly forward with elbows tight to your body",
+      "Distance is close enough to begin driving chest pressure into opponent's upper body",
+      "You have identified which side has the weaker hook or better grip advantage",
+      "Base is stable with wide knees and low center of gravity to resist initial sweep attempts"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish upper body control",
+        "description": "Secure grips on opponent's collar or control both sleeves. Drive your forehead into opponent's chest or shoulder to begin breaking their upright posture. Keep your elbows tight to your body to prevent arm drags. Your head position is critical - it should be low on their sternum, not high on their shoulder where they can frame against it."
+      },
+      {
+        "step_number": 2,
+        "action": "Choose side and begin pressure",
+        "description": "Select the side where opponent's butterfly hook feels weaker or where you have better grip control. Step your opposite leg back slightly to create angle while driving your chest and shoulder forward into opponent's upper body, beginning to collapse their structure. The angle change is subtle - you are not circling wide, just creating enough asymmetry to attack one hook at a time."
+      },
+      {
+        "step_number": 3,
+        "action": "Drive knee to mat",
+        "description": "On your chosen side, drive your knee to the mat beside opponent's hip, pinning their bottom leg and removing space for their hook to function. Your knee should be tight to their hip with no gap between your thigh and their body. This knee placement acts as a wedge that prevents the hook from generating any upward force."
+      },
+      {
+        "step_number": 4,
+        "action": "Clear first butterfly hook",
+        "description": "Use your knee pressure and forward drive to force opponent's first butterfly hook to flatten or lose connection. Your hip should drop toward the mat while maintaining chest pressure on their upper body. The hook should naturally collapse under the combined pressure of your knee wedge and your body weight driving them flat. Do not reach down to manually strip the hook."
+      },
+      {
+        "step_number": 5,
+        "action": "Secure crossface or underhook",
+        "description": "As the first hook clears, immediately establish a crossface by driving your forearm across opponent's jaw toward far shoulder, or secure a deep underhook on the same side. This control prevents them from turning into you or recovering guard position. The crossface must be heavy and uncomfortable - your shoulder drives into their chin, turning their head away from you."
+      },
+      {
+        "step_number": 6,
+        "action": "Step over second leg",
+        "description": "With the first hook neutralized and upper body control established, step your far leg over opponent's remaining butterfly hook. Keep your hips heavy and chest pressure constant to prevent them from inserting new frames or recovering hooks. The step should be tight to their body, not wide - a wide step creates space they will exploit immediately."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate side control",
+        "description": "Bring your stepping leg back to establish proper side control base with knee near opponent's hip. Distribute your weight through chest and hips to pin opponent flat. Ensure your crossface or underhook is maintained while establishing proper side control positioning with hip-to-hip contact and perpendicular chest alignment."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent sits up explosively and pumps butterfly hooks to create distance",
+        "effectiveness": "Medium",
+        "your_response": "Maintain head position low on their chest, drive forward harder with your shoulders, and immediately drop your hips to smother their hook movement before they can extend",
+        "targets_outcome": "Butterfly Guard/Top"
+      },
+      {
+        "counter": "Opponent arm drags your controlling arm to attack your back",
+        "effectiveness": "High",
+        "your_response": "Keep elbows tight to body during initial engagement. If drag begins, immediately limp arm and circle away while establishing new grips. Never let them get behind your shoulder line",
+        "targets_outcome": "Butterfly Guard/Bottom"
+      },
+      {
+        "counter": "Opponent switches to half guard as you begin to pass",
+        "effectiveness": "High",
+        "your_response": "Expect this transition and be prepared to immediately address half guard with knee slice or crossface passing. Prevent the transition by controlling the far hip with your hand as you clear the first hook",
+        "targets_outcome": "Butterfly Guard/Top"
+      },
+      {
+        "counter": "Opponent uses frames on your hips or face to create distance and re-establish hooks",
+        "effectiveness": "Medium",
+        "your_response": "Clear frames systematically before committing to the pass. Use your head position to strip away face frames, and maintain forward pressure to collapse hip frames. Strip one frame at a time while keeping chest connection",
+        "targets_outcome": "Butterfly Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting to pass too quickly without establishing sufficient pressure",
+        "consequence": "Opponent easily maintains hooks and can sweep or re-establish guard",
+        "correction": "Take time to fully collapse the structure with pressure before attempting to move around the legs"
+      },
+      {
+        "error": "Keeping hips too high during the smash",
+        "consequence": "Opponent can use hooks effectively to elevate and sweep",
+        "correction": "Drop hips toward the mat while maintaining chest pressure, create a low, heavy base"
+      },
+      {
+        "error": "Neglecting to control opponent's upper body before passing",
+        "consequence": "Opponent sits up, re-establishes guard, or attacks submissions",
+        "correction": "Always secure crossface or underhook before attempting to step over the second leg"
+      },
+      {
+        "error": "Allowing gaps between your chest and opponent's upper body",
+        "consequence": "Opponent inserts frames and creates distance to recover guard",
+        "correction": "Maintain constant chest-to-chest connection throughout the entire passing sequence"
+      },
+      {
+        "error": "Stepping over the second leg too wide or too early",
+        "consequence": "Opponent captures half guard or re-establishes full guard",
+        "correction": "Only step over once first hook is completely cleared and upper body is controlled, keep the step tight to their body"
+      },
+      {
+        "error": "Reaching down to manually strip butterfly hooks with your hands",
+        "consequence": "Releases upper body control, allows opponent to sit up and re-establish grips or attack arm drags",
+        "correction": "Use knee pressure and body weight to collapse hooks rather than hands. Keep hands committed to upper body control throughout"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2: Pressure Fundamentals",
+        "focus": "Learning proper weight distribution and pressure application",
+        "description": "Practice establishing grips and forward pressure against static butterfly guard. Focus on feeling how pressure collapses hooks. Partner provides minimal resistance, only maintaining butterfly structure. Emphasize chest-to-chest connection and hip positioning."
+      },
+      {
+        "phase": "Week 3-4: Hook Removal Mechanics",
+        "focus": "Systematic clearing of butterfly hooks",
+        "description": "Drill the specific mechanics of knee placement and hook collapse. Partner maintains hooks but allows you to work through the clearing sequence. Practice both sides equally. Add crossface and underhook establishment once hooks are cleared."
+      },
+      {
+        "phase": "Week 5-8: Dynamic Resistance",
+        "focus": "Dealing with active defensive responses",
+        "description": "Partner actively tries to maintain hooks and create distance with frames. Practice clearing frames while maintaining pressure. Work on timing of crossface/underhook establishment. Include common counter scenarios like arm drags and half guard transitions."
+      },
+      {
+        "phase": "Week 9-12: Competition Integration",
+        "focus": "Full resistance and combination passing",
+        "description": "Partner uses full defensive toolkit including sweeps, submissions, and guard retention. Practice recognizing when butterfly smash is optimal versus other passing options. Chain together with other pressure passes. Include positional sparring from butterfly guard."
+      },
+      {
+        "phase": "Month 4+: Advanced Applications",
+        "focus": "Variations and high-level adjustments",
+        "description": "Incorporate gi and no-gi specific grips. Practice against high-level butterfly players. Work on subtle weight shifts and pressure adjustments based on opponent reactions. Develop instinctive recognition of passing opportunities."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Why is forward pressure more effective than lateral movement when passing butterfly guard?",
+        "answer": "Forward pressure directly attacks the structural integrity of butterfly hooks by removing the space they need to function. Butterfly hooks rely on creating elevation and distance - forward pressure collapses this structure by driving the opponent flat and removing the leverage their hooks require. Lateral movement without pressure allows the opponent to maintain their hook connection and rotate with you, keeping their guard intact."
+      },
+      {
+        "question": "What is the primary timing indicator for when to step over the second butterfly hook?",
+        "answer": "You should only step over the second hook after the first hook is completely neutralized AND you have established upper body control through a crossface or underhook. Stepping too early allows the opponent to use the remaining hook to recover guard or transition to half guard. The key signal is feeling the opponent's structure collapse and their upper body pinned flat with your crossface turning their head."
+      },
+      {
+        "question": "How does keeping your elbows tight to your body prevent common butterfly guard attacks?",
+        "answer": "Tight elbow positioning prevents arm drags, which are one of the most effective counters from butterfly guard. When your elbows are extended or loose, the opponent can easily grab your wrist or tricep and pull your arm across their body to access your back. Keeping elbows connected to your ribs makes it much harder for them to isolate and control your arms for the drag."
+      },
+      {
+        "question": "What is the relationship between chest pressure and hook effectiveness in the butterfly smash?",
+        "answer": "Butterfly hooks require the bottom player to maintain an upright or angled posture to generate lifting power. Chest pressure forces the opponent onto their back, which fundamentally changes the angle of their hips and legs, making the hooks biomechanically weak. When the opponent is flat, their hooks cannot create the elevation needed for sweeps or guard retention, turning them into passive obstacles rather than active threats."
+      },
+      {
+        "question": "Your opponent posts their hand on the mat as you begin driving pressure - how do you adjust?",
+        "answer": "A posted hand indicates the opponent is trying to maintain their seated posture under your pressure. Target that posting arm by driving your shoulder into the same side, collapsing the post. Alternatively, use the fact that their hand is occupied to secure a grip advantage on their other arm. Never allow the posted hand to successfully prop them up - redirect your pressure angle to attack the post directly."
+      },
+      {
+        "question": "What grip configuration is most critical during the initial engagement of the butterfly smash?",
+        "answer": "In gi, a collar grip combined with a sleeve grip on the same side gives you directional control while preventing the opponent from establishing their own dominant grips. In no-gi, a collar tie with wrist control serves the same function. The critical requirement is that your grips allow you to drive the opponent's upper body backward while your elbows remain tight to your torso, preventing arm drags throughout the engagement."
+      },
+      {
+        "question": "The opponent defends your first hook clear and begins elevating for a butterfly sweep - what is your response?",
+        "answer": "If the opponent successfully pumps their hook during your clearing attempt, you must immediately widen your base by stepping your far leg out and drop your hips lower rather than fighting the elevation. Absorb the elevation attempt by sprawling your hips back momentarily, then re-engage with your pressure once the sweep momentum dissipates. Never try to power through an active elevation - reset your pressure angle and try the opposite side."
+      },
+      {
+        "question": "What is the correct direction of force when driving your knee to the mat beside the opponent's hip?",
+        "answer": "The force direction should be forward and downward at approximately 45 degrees toward the mat, not purely downward or purely forward. This angle simultaneously pins the opponent's thigh flat while advancing your body position past their hook. The knee drives tight against their hip bone, creating a wedge that prevents the hook from recovering its elevation angle. Purely downward force does not advance your position, while purely forward force can be redirected into a sweep."
+      },
+      {
+        "question": "Your butterfly smash is blocked and the opponent recovers to seated position with fresh grips - what passing options remain?",
+        "answer": "When the butterfly smash stalls and the opponent resets to a strong seated butterfly guard, you should not force the same pass again. Chain to alternative passes: transition to a standing toreando pass to change the dynamic entirely, switch to a body lock pass if you can secure double underhooks, or attempt a knee slice pass by creating an angle. The key principle is that failed pressure should lead to a different passing vector, not a repeated attempt at the same approach."
+      },
+      {
+        "question": "Why must you clear frames one at a time rather than simultaneously during the butterfly smash?",
+        "answer": "Attempting to strip multiple frames simultaneously requires you to release your own controlling grips and upper body pressure, creating space the opponent will immediately exploit to re-establish their guard structure. By clearing one frame at a time while maintaining pressure with the rest of your body, you ensure continuous control throughout the passing sequence. Each frame you remove reduces the opponent's ability to create distance, making subsequent frame clears progressively easier."
+      }
+    ],
+    "safety_considerations": "The butterfly smash is generally a safe passing technique when performed with control. However, practitioners should be mindful of pressure application on the opponent's face and neck during crossface establishment - excessive or sudden pressure can cause discomfort or injury to the jaw, cervical spine, or temporomandibular joint. When drilling, start with light pressure and gradually increase as both partners become comfortable with the mechanics. Be particularly careful with head positioning to avoid accidental headbutts when driving forward. Partners should communicate clearly if pressure becomes uncomfortable, especially on the jaw or neck. When receiving the pass, avoid explosive bridging or shrimping movements that could result in collision injuries."
+  },
+  "defender": {
+    "name": "Butterfly Smash Defender",
+    "description": "How to defend against Butterfly Smash in BJJ. Recognition cues, defensive options, and escape strategies for butterfly guard retention.",
+    "overview": "Defending the Butterfly Smash requires understanding the attacker's systematic pressure approach and deploying proactive countermeasures before the pass reaches its critical stages. The defender's primary goal is to prevent the collapse of their butterfly guard structure by maintaining an upright seated posture, keeping hooks active with constant elevator pressure, and denying the passer chest-to-chest connection. Early recognition is essential because once the passer flattens you and begins clearing hooks, recovery becomes exponentially more difficult with each stage of the pass.\n\nThe defensive framework operates on a hierarchy: first, prevent the initial structure collapse by maintaining posture and active hooks; second, if posture is compromised, use frames and hip movement to create distance and recover seated position; third, if hooks are being cleared, transition to alternative guard positions like half guard, deep half guard, or X-guard rather than fighting to maintain a compromised butterfly guard. The most successful defenders combine active hook pressure with grip fighting to prevent the passer from establishing the control points needed to initiate the smash sequence.",
+    "key_principles": [
+      "Maintain upright seated posture at all costs - once flattened, the hooks lose all mechanical advantage for sweeping",
+      "Keep hooks active with constant upward elevator pressure rather than passive foot placement under the thighs",
+      "Deny chest-to-chest connection through frames on the shoulder and bicep before the passer closes distance",
+      "Fight grips aggressively to prevent the passer from establishing collar or sleeve control that enables the drive",
+      "Transition early to alternative guards when butterfly structure is compromised rather than fighting a losing battle",
+      "Use offensive threats like arm drags and sweep attempts to keep the passer defensive and prevent them from settling into their pressure game"
+    ],
+    "recognition_cues": [
+      "Opponent drives forehead into your chest or sternum while keeping elbows tight to their body, indicating they are initiating the pressure sequence",
+      "Opponent begins stepping one knee toward the mat beside your hip, attempting to wedge between your hook and the mat to neutralize elevation",
+      "Opponent establishes heavy collar grip or wrist control and lowers their center of gravity while driving forward rather than attempting to stand or create distance",
+      "You feel your upright posture being compromised as opponent's chest pressure forces your shoulders toward the mat and your hooks begin losing their upward angle"
+    ],
+    "defensive_options": [
+      {
+        "action": "Pump hooks explosively while maintaining upright posture and pulling opponent forward with collar or underhook grip to execute a butterfly sweep",
+        "when_to_use": "Early in the engagement before the passer establishes chest pressure and before your posture is broken. Most effective when passer leans forward committing weight",
+        "targets_outcome": "Butterfly Guard/Bottom",
+        "if_successful": "You sweep the opponent and achieve top position, completely negating their passing attempt",
+        "risk": "If the sweep fails, you may have used your explosive effort and the passer can capitalize on the momentary structural compromise to accelerate their smash"
+      },
+      {
+        "action": "Execute an arm drag on the passer's lead arm to access their back, pulling their arm across your body while circling behind their shoulder line",
+        "when_to_use": "When the passer reaches forward to establish collar or sleeve grips, creating the opportunity to redirect their arm. Most effective before they tighten elbows to body",
+        "targets_outcome": "Butterfly Guard/Bottom",
+        "if_successful": "You access the opponent's back or at minimum force them to reset their passing attempt entirely, returning to neutral engagement",
+        "risk": "If the arm drag fails and the passer recovers quickly, they will have inside position and can immediately re-initiate their pressure sequence with better control"
+      },
+      {
+        "action": "Frame on the opponent's shoulders and biceps, shrimp your hips away to create distance, then re-establish seated posture with active hooks",
+        "when_to_use": "When the passer has begun driving pressure and your posture is being compromised but hooks are still active. This is the primary recovery mechanism when the smash is in progress",
+        "targets_outcome": "Butterfly Guard/Top",
+        "if_successful": "You reset the distance and recover your seated butterfly guard posture, forcing the passer to restart their approach",
+        "risk": "Framing requires extending your arms, which can expose them to grip strips or allow the passer to secure underhooks during your recovery attempt"
+      },
+      {
+        "action": "Transition to half guard by capturing one of the passer's legs between yours as they begin clearing your first hook, establishing knee shield immediately",
+        "when_to_use": "When the first hook is being successfully cleared and you cannot prevent the collapse. This is a defensive retreat to a more sustainable guard position",
+        "targets_outcome": "Butterfly Guard/Top",
+        "if_successful": "You establish half guard with knee shield, denying the complete pass and maintaining a guard position with sweep and recovery options",
+        "risk": "If you transition too slowly, the passer may clear both hooks and achieve side control before you can establish the half guard lock"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Butterfly Guard/Bottom",
+        "how": "Maintain aggressive hook pressure and upright posture throughout the engagement. Fight every grip the passer attempts and threaten constant sweeps to prevent them from settling into their pressure game. Use arm drags and collar pulls to keep them off-balance and reactive."
+      },
+      {
+        "outcome": "Butterfly Guard/Bottom",
+        "how": "Execute a well-timed butterfly sweep when the passer commits their weight forward to initiate the smash. Coordinate upper body pulling with lower body elevation to convert their forward pressure into the momentum needed for the sweep reversal."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Lying back flat when the passer initiates forward pressure instead of fighting to maintain seated posture",
+        "consequence": "Hooks lose all elevation capability when flat on back, making the smash nearly impossible to defend and allowing the passer to systematically clear hooks without resistance",
+        "correction": "Fight to maintain seated posture through core engagement and grip fighting. If pushed back, immediately frame on shoulders and hip escape to recover seated position before hooks are compromised"
+      },
+      {
+        "error": "Keeping hooks passive with feet resting under opponent's thighs rather than actively driving upward",
+        "consequence": "Passive hooks provide no resistance to the passer's knee wedge and forward drive, allowing them to flatten and clear hooks with minimal effort",
+        "correction": "Maintain constant upward elevator pressure through your hooks. Your feet should be actively pushing upward against the opponent's inner thighs at all times, not just resting in position"
+      },
+      {
+        "error": "Extending arms to push the passer away rather than using proper frames on shoulders and biceps",
+        "consequence": "Extended arms are easily stripped, controlled, or used by the passer to establish underhooks. Also creates space between your elbows and body that the passer can exploit for arm drags or grip establishment",
+        "correction": "Frame with forearms against the passer's shoulders and biceps, keeping elbows connected to your body. Push with structural frames rather than extended arm pushes"
+      },
+      {
+        "error": "Waiting too long to transition to alternative guard when butterfly structure is clearly compromised",
+        "consequence": "Getting stuck in a broken butterfly position where neither hooks nor frames are functional, resulting in the pass completing to side control",
+        "correction": "Recognize early when the butterfly structure is failing and transition immediately to half guard, deep half, or X-guard rather than fighting to maintain a compromised position"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that a butterfly smash is being initiated rather than a different pass?",
+        "answer": "The earliest cue is the passer driving their forehead into your chest or sternum while keeping their elbows tight to their body and lowering their hips. This combination of head pressure, tight elbows, and low center of gravity distinguishes the butterfly smash from standing passes or speed passes. The passer is committing to forward pressure rather than creating distance, which signals their intent to collapse your structure rather than move around your legs."
+      },
+      {
+        "question": "Why is maintaining upright seated posture the single most important defensive priority against the butterfly smash?",
+        "answer": "Butterfly hooks generate their sweeping and defensive power through the angle created by the seated posture - the hooks need upward leverage to elevate the passer. When you are flat on your back, the hooks point forward rather than upward, losing all mechanical advantage. The passer's entire strategy is to flatten you because a flat opponent cannot generate hook elevation, making the hook-clearing sequence easy. Upright posture is the foundation that makes every other defensive option possible."
+      },
+      {
+        "question": "At what point should you abandon butterfly guard retention and transition to half guard?",
+        "answer": "You should transition to half guard when your first hook has been successfully cleared and the passer has established crossface or underhook control on that side. At this point, recovering the butterfly hook requires creating more space than is realistically available under the passer's pressure. Capturing the passer's leg in half guard with an immediate knee shield is a higher-percentage defensive option than attempting to re-insert a hook against an opponent who already has upper body control and one hook cleared."
+      },
+      {
+        "question": "How does threatening offensive sweeps function as a defensive tool against the butterfly smash?",
+        "answer": "When you actively threaten butterfly sweeps, arm drags, and back takes, the passer must divide their attention between executing the smash and defending against your attacks. A passer who is worried about being swept cannot fully commit their weight forward into the pressure sequence. This offensive-defensive balance forces the passer to maintain a more conservative posture, which slows or prevents the structure collapse needed for the smash to work. Passive defense invites aggressive pressure because the passer can commit fully without risk."
+      },
+      {
+        "question": "Your hooks are still active but the passer has established a strong collar grip and is beginning to drive forward - what is your immediate priority?",
+        "answer": "Your immediate priority is breaking or neutralizing that collar grip before the passer can convert it into chest pressure that flattens your posture. Use both hands to strip the grip by peeling fingers, or counter-grip their sleeve to redirect the pulling force. Simultaneously, increase your hook pressure upward to resist the forward drive. If you cannot break the grip within two to three seconds, establish a frame on their shoulder on the gripping side while preparing to either sweep or transition to an alternative guard position."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2: Recognition and Posture Maintenance",
+        "focus": "Identifying the butterfly smash initiation and maintaining seated posture under pressure",
+        "description": "Partner applies progressive forward pressure while you focus solely on maintaining upright posture and active hooks. No sweeps or transitions - just survival and posture retention. Learn to feel the difference between a smash attempt and other passing approaches."
+      },
+      {
+        "phase": "Week 3-4: Active Defense and Frame Management",
+        "focus": "Using frames, grip fighting, and hip movement to prevent the smash from progressing",
+        "description": "Partner executes the full butterfly smash sequence while you practice frame placement on shoulders and biceps, grip stripping, and hip escape to recover posture. Work on the timing of when to frame versus when to fight grips. Include recovery drills from partially flattened position."
+      },
+      {
+        "phase": "Week 5-8: Offensive Defense and Transitions",
+        "focus": "Integrating sweep threats and guard transitions into the defensive response",
+        "description": "Partner initiates the butterfly smash while you combine defensive framing with offensive sweep attempts, arm drags, and transitions to half guard or X-guard when butterfly structure is compromised. Practice the decision-making of when to defend, when to attack, and when to transition."
+      },
+      {
+        "phase": "Week 9+: Live Positional Sparring",
+        "focus": "Full resistance defense against varied pressure passing approaches",
+        "description": "Positional sparring starting in butterfly guard against a partner who uses butterfly smash and other pressure passes. Bottom player works to sweep, submit, or maintain guard. Develop the instinctive recognition and appropriate response selection under full competitive conditions."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
     {
-      "to": "Side Control/Top",
-      "probability": 75,
-      "result": "success"
+      "variant_name": "No-Gi Butterfly Smash",
+      "description": "Without collar grips, establish head position lower on the chest and use wrist control or overhooks for upper body control. Emphasis shifts more to body weight and head pressure rather than grip-based control. The collar tie becomes the primary upper body control tool.",
+      "when_to_use": "No-gi training or competition, when collar grips are not available"
     },
     {
-      "to": "Butterfly Guard/Bottom",
-      "probability": 15,
-      "result": "failure"
+      "variant_name": "Single Underhook Smash",
+      "description": "Establish a deep underhook on one side before initiating the smash, using the underhook to control opponent's upper body throughout. This creates a stronger control position but may telegraph your passing direction to the opponent.",
+      "when_to_use": "Against opponents who are particularly good at sitting up and maintaining upright posture with strong grip fighting"
     },
     {
-      "to": "Butterfly Guard/Top",
-      "probability": 10,
-      "result": "counter"
+      "variant_name": "Double Under Butterfly Smash",
+      "description": "Secure both underhooks before beginning the smash sequence, clasping hands behind opponent's back. This provides maximum upper body control but requires more initial setup and can be countered by whizzer defense or overhooks.",
+      "when_to_use": "When you can secure double underhooks cleanly, particularly effective against opponents with weaker overhook defense"
     }
   ],
-  "success_rate": 68
+  "conditions": [
+    "Opponent has established butterfly guard with both hooks active",
+    "You are in a kneeling or combat base position facing the opponent",
+    "Distance is close enough for chest-to-chest engagement",
+    "Opponent is maintaining upright seated posture with active hook pressure"
+  ],
+  "position_integration": "The Butterfly Smash integrates into a comprehensive pressure passing system as a fundamental response to butterfly guard. It connects seamlessly with other pressure-based passes like the double under pass, long step pass, body lock pass, and knee slice, forming a coherent passing chain. When opponents defend the butterfly smash by transitioning to half guard, you can immediately switch to appropriate half guard passing sequences such as the knee slice or crossface pass. The technique also serves as an entry point for back-takes when opponents turn away to defend, and for mount transitions when you achieve full crossface control past side control. Understanding this pass builds the foundational pressure mechanics needed for more advanced passing systems and develops the chest pressure sensitivity that transfers to all top-game positions."
 }

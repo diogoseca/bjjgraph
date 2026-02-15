@@ -1,0 +1,13 @@
+{
+  "name": "Roll to Guard from Truck",
+  "description": "",
+  "tags": [],
+  "from_position": "Truck/Bottom",
+  "outcomes": [
+    {
+      "to": "Closed Guard/Top",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

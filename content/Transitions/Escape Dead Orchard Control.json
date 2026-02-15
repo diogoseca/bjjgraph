@@ -1,0 +1,13 @@
+{
+  "name": "Escape Dead Orchard Control",
+  "description": "",
+  "tags": [],
+  "from_position": "Dead Orchard Control/Bottom",
+  "outcomes": [
+    {
+      "to": "Front Headlock/Bottom",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

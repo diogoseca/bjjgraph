@@ -1,0 +1,13 @@
+{
+  "name": "Posture Break from Mission Control",
+  "description": "",
+  "tags": [],
+  "from_position": "Mission Control/Top",
+  "outcomes": [
+    {
+      "to": "Closed Guard/Top",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

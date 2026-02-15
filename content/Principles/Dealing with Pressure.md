@@ -375,7 +375,7 @@ Extended rounds (5+ minutes) under sustained pressure with focus on maintaining 
 - [[Mount]] (Position) - Primary position where pressure management skills are essential for survival and escape
 - [[Side Control]] (Position) - Common pressure position requiring specialized frame and breathing management
 - [[Knee on Belly]] (Position) - High-intensity pressure position testing acute pressure tolerance and frame effectiveness
-- [[Elbow Escape]] (Transition) - Common escape technique that requires effective pressure management as prerequisite
+- [[Elbow Escape to Guard]] (Transition) - Common escape technique that requires effective pressure management as prerequisite
 - [[Bridge and Roll]] (Transition) - Escape technique that depends on pressure management to create execution opportunity
 - [[Defensive Strategy]] (Principle) - Broader strategic framework that incorporates pressure management as key component
 - [[Side Control Defensive Framework]] (Principle) - Position-specific defensive system that applies pressure management principles to side control

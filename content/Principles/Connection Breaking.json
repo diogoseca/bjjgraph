@@ -376,7 +376,7 @@
       "relationship": "Critical defensive scenario where connection breaking addresses seatbelt grips and leg-based controls"
     },
     {
-      "name": "Frame and Shrimp",
+      "name": "Frame and Shrimp to Guard",
       "content_type": "Transition",
       "relationship": "Fundamental escape movement that integrates connection breaking with hip escape mechanics"
     },
@@ -389,11 +389,6 @@
       "name": "Space Creation",
       "content_type": "Principle",
       "relationship": "Complementary principle where connection breaking creates the physical space necessary for defensive movement and recovery"
-    },
-    {
-      "name": "Hand Fighting",
-      "content_type": "Principle",
-      "relationship": "Broader grip management framework that encompasses connection breaking as core defensive component alongside offensive grip establishment"
     }
   ]
 }

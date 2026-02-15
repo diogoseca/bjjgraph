@@ -83,17 +83,23 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 ### Available Transitions
 
 
-- **[[Elbow Escape]]** (28% of attempts)
+- **[[Elbow Escape to Guard]]** (39% of attempts)
 
-- **[[Frame and Shrimp]]** (22% of attempts)
+- **[[Frame and Shrimp to Guard]]** (18% of attempts)
 
-- **[[Bridge and Roll]]** (10% of attempts)
+- **[[Bridge and Roll]]** (7% of attempts)
 
-- **[[Hip Escape]]** (25% of attempts)
+- **[[Hip Escape to Guard]]** (17% of attempts)
 
-- **[[Ghost Escape]]** (10% of attempts)
+- **[[Ghost Escape]]** (7% of attempts)
 
-- **[[Side Control Escape]]** (5% of attempts)
+- **[[Side Control Escape]]** (7% of attempts)
+
+- **[[Ghost Escape from Side Control]]** (3% of attempts)
+
+- **[[Sit Out from Side Control]]** (1% of attempts)
+
+- **[[Turtle from Side Control Bottom]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -154,23 +160,39 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 ### Available Transitions
 
 
-- **[[Side Control to Mount]]** (22% of attempts)
+- **[[Side Control to Mount]]** (79% of attempts)
 
-- **[[Side Control to North-South]]** (11% of attempts)
+- **[[Side Control to North-South]]** (3% of attempts)
 
-- **[[Americana from Side Control]]** (13% of attempts)
+- **[[Americana]]** (7% of attempts)
 
-- **[[Kimura from Side Control]]** (11% of attempts)
+- **[[Kimura]]** (5% of attempts)
 
-- **[[Arm Triangle]]** (9% of attempts)
+- **[[Arm Triangle]]** (1% of attempts)
 
-- **[[Armbar from Side Control]]** (7% of attempts)
+- **[[Armbar Finish]]** (0% of attempts)
 
-- **[[Knee on Belly]]** (12% of attempts)
+- **[[Knee on Belly]]** (4% of attempts)
 
-- **[[North-South Choke]]** (4% of attempts)
+- **[[North-South Choke]]** (0% of attempts)
 
-- **[[Americana]]** (11% of attempts)
+- **[[Breadcutter Choke]]** (0% of attempts)
+
+- **[[Transition to Kesa Gatame]]** (0% of attempts)
+
+- **[[Transition to Scarf Hold Position]]** (0% of attempts)
+
+- **[[Transition to Shoulder of Justice]]** (0% of attempts)
+
+- **[[Transition to Side Control Consolidation]]** (0% of attempts)
+
+- **[[Side Control to Kesa Gatame]]** (0% of attempts)
+
+- **[[Side Control to Scarf Hold Position]]** (0% of attempts)
+
+- **[[Side Control to Shoulder of Justice]]** (0% of attempts)
+
+- **[[Side Control to Side Control Consolidation]]** (1% of attempts)
 
 
 ### Common Mistakes

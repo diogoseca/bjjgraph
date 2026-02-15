@@ -1,6 +1,6 @@
 {
   "name": "Double Leg Finish",
-  "description": "Master the Double Leg Finish in BJJ. Complete execution from penetration to dominant position. Success rates: Beginner 55%, Intermediate 75%, Advanced 88%. Step-by-step guide.",
+  "description": "Master the Double Leg Finish in BJJ. Complete guide from penetration step to dominant top position with finish variations and defensive counters.",
   "tags": [
     "bjj",
     "transition",
@@ -8,159 +8,406 @@
     "finish",
     "wrestling",
     "top-position",
-    "fundamental"
+    "fundamental",
+    "double-leg"
   ],
+  "from_position": "Clinch/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 75,
+      "result": "success"
+    },
+    {
+      "to": "Clinch/Top",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Clinch/Bottom",
+      "probability": 10,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 82,
   "overview": "The Double Leg Finish is the critical completion phase of the double leg takedown, transitioning from the penetration step to establishing dominant top position. This fundamental wrestling technique adapted for BJJ focuses on the mechanical principles of lift, drive, and controlled landing to secure top position. The finish requires proper coordination of leg drive, hip extension, and upper body control to overcome opponent resistance and establish side control or mount.\n\nThe effectiveness of the double leg finish lies in its directness and mechanical advantage. Once the penetration step is achieved with hands clasped behind the opponent's knees, the practitioner uses explosive hip extension combined with forward driving pressure to elevate and displace the opponent's base. The finish can be executed with various methods including the traditional lift-and-dump, the power drive-through, or the trip finish depending on opponent size, resistance level, and positional context.\n\nMastery of the double leg finish is essential for any grappler's takedown game, as the entry without a solid finish leaves the practitioner vulnerable to guillotine chokes, sprawls, and scrambles. The finish must be practiced with emphasis on maintaining connection throughout the motion, controlling the opponent's landing, and immediately transitioning to dominant position without allowing guard establishment or re-guarding opportunities.",
-  "key_principles": [
-    "Maintain tight connection with hands clasped behind opponent's knees throughout the finish",
-    "Drive explosively through the hips while keeping head tight to opponent's body",
-    "Angle your trajectory to drive opponent's hips backward while moving their shoulders toward the mat",
-    "Control the landing to prevent opponent from establishing guard or defensive frames",
-    "Immediately transition to side control or mount without pausing in neutral positions",
-    "Adjust finishing method based on opponent's size, weight, and resistance level",
-    "Keep your base wide and posture strong to prevent guillotine attempts during execution"
-  ],
-  "setup_requirements": [
-    "Successful penetration step with level change completed",
-    "Hands clasped securely behind both of opponent's knees",
-    "Head positioned tight against opponent's torso (typically on their hip or abdomen)",
-    "Shoulders lower than opponent's hips with proper postural alignment",
-    "Weight forward on the balls of your feet with knees bent for explosive drive",
-    "Opponent's base compromised with weight shifting backward"
-  ],
-  "execution_steps": [
+  "related_content": [
     {
-      "step_number": 1,
-      "action": "Secure the grip connection",
-      "description": "Ensure your hands are tightly clasped behind both of the opponent's knees with your forearms pressing into the back of their legs. Your head should be positioned firmly against their torso, typically at hip level, creating a strong structural connection. Verify that your shoulders are lower than their hips and your spine maintains proper alignment for the upcoming explosive movement."
+      "name": "Double Leg Entry",
+      "relationship": "Prerequisite technique - establishes the penetration position from which the finish is executed"
     },
     {
-      "step_number": 2,
-      "action": "Initiate hip extension drive",
-      "description": "Begin explosive hip extension by driving forcefully through your legs while simultaneously lifting with your arms. Your hips should thrust forward and upward, transferring energy through your torso into the opponent's legs. Maintain constant pressure with your head against their body to prevent space creation. The power comes from your legs driving into the mat, not from pulling with your arms alone."
+      "name": "Double Leg Setup",
+      "relationship": "Prerequisite setup phase - creates the opportunity for entry and finish through grip fighting and angle creation"
     },
     {
-      "step_number": 3,
-      "action": "Angle and elevate",
-      "description": "As you drive forward, angle your trajectory to move the opponent's hips backward while their shoulders move toward the mat. Continue lifting their legs higher while your head drives into their torso, creating the falling motion. Your feet should step forward in short, powerful steps maintaining base and drive rather than standing fully upright which compromises leverage."
+      "name": "Single Leg Takedown",
+      "relationship": "Alternative finishing technique - shares similar mechanical principles but from single leg rather than double leg structure"
     },
     {
-      "step_number": 4,
-      "action": "Control the rotation",
-      "description": "As the opponent begins to fall, control their rotation to ensure they land on their back or side rather than their knees. Adjust your grip and head pressure to guide the landing - if they land toward their side, you're already positioned for side control; if they land flat on their back, you can choose mount or side control. Avoid releasing your grip prematurely which allows escape opportunities."
+      "name": "High Crotch",
+      "relationship": "Related entry variation - can transition to double leg finish mechanics with modified grip structure"
     },
     {
-      "step_number": 5,
-      "action": "Manage the landing",
-      "description": "Control the opponent's descent to the mat by maintaining your grip and adjusting your body position. Step your legs wide around their body as they land to prevent guard closure. Keep your weight distributed to control their hips and shoulders simultaneously. If finishing to side control, immediately shift your weight to establish crossface and hip control. If finishing to mount, step over as they land and establish hooks."
+      "name": "Body Lock Pass",
+      "relationship": "Similar driving mechanics - uses comparable hip extension and forward pressure principles in different context"
     },
     {
-      "step_number": 6,
-      "action": "Establish dominant position",
-      "description": "Immediately upon landing, release the leg grip and transition to position-specific controls. For side control, establish crossface with one arm, control the far hip with the other, and distribute your weight across their chest and hips. For mount, secure hooks and establish posture control. Do not pause or hesitate - continuous motion prevents opponent from establishing defensive frames or initiating guard recovery sequences."
+      "name": "Side Control to Mount",
+      "relationship": "Follow-up transition - common positional advancement after establishing side control from the finish"
     },
     {
-      "step_number": 7,
-      "action": "Consolidate position",
-      "description": "Settle your weight and refine your controls to eliminate any space or movement opportunities. In side control, ensure proper weight distribution, head control, and hip pressure. From mount, establish strong base with knees tight, posture controlled, and weight properly distributed. Be prepared to counter immediate escape attempts with appropriate position maintenance techniques. Your goal is complete positional control within 2-3 seconds of landing."
+      "name": "Takedown Defense",
+      "relationship": "Primary counter system - understanding defensive mechanics helps execute finish before opponent can react"
+    },
+    {
+      "name": "Guillotine Choke",
+      "relationship": "Common counter to defend against - requires awareness and technical adjustments during finish execution"
+    },
+    {
+      "name": "Guard Opening Sequence",
+      "relationship": "Contingency technique - needed if opponent establishes guard during landing phase"
+    },
+    {
+      "name": "Ankle Pick",
+      "relationship": "Alternative technique - can be used as transition when double leg finish is compromised by defensive reactions"
+    },
+    {
+      "name": "Standing Position",
+      "relationship": "Starting context - the neutral standing position from which takedown sequences are initiated"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary ending position - most common positional outcome of successful double leg finish"
     }
   ],
-  "common_counters": [
-    {
-      "counter": "Guillotine choke attempt during the drive phase",
-      "effectiveness": "High",
-      "your_response": "Keep your head positioned on the side away from their choking arm, maintain posture with chin tucked, and accelerate the finish to land them on their back before they can secure the choke. If the guillotine is locked, circle toward the choking arm side while maintaining your drive to reduce leverage."
-    },
-    {
-      "counter": "Sprawl defense with hips pulled backward",
-      "effectiveness": "High",
-      "your_response": "If encountered during finish, run your feet forward explosively (running the pipe) to stay underneath their hips while maintaining your grip. Alternatively, switch to a single leg finish or ankle pick transition if the sprawl compromises your double leg structure."
-    },
-    {
-      "counter": "Opponent posts hands on mat to prevent being taken down",
-      "effectiveness": "Medium",
-      "your_response": "Continue driving forward while lifting their legs higher to break their posted base. Alternatively, use their posted arm position to transition to a sweep single leg or adjust angle to dump them to the side away from their posting hand."
-    },
-    {
-      "counter": "Wizard/whizzer overhook controlling your head",
-      "effectiveness": "Medium",
-      "your_response": "Address the whizzer by keeping your head tight to their body on the non-whizzer side, drive the angle away from the whizzer control, and accelerate the finish before they can establish full defensive structure. Consider transitioning to a power single or outside trip if the whizzer is too strong."
-    },
-    {
-      "counter": "Opponent immediately establishes closed guard upon landing",
-      "effectiveness": "Low",
-      "your_response": "Prevent guard closure by stepping your legs wide as they land, maintaining your grip on their legs longer to control their hips, and immediately establishing heavy pressure to prevent ankle crossing. If guard does close, immediately begin guard opening sequence while maintaining dominant posture."
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Standing fully upright during the lift phase",
-      "consequence": "Loss of leverage and driving power, making the takedown easier to defend and increasing vulnerability to front headlock attacks or guillotine chokes",
-      "correction": "Maintain bent knees and low hip position throughout the finish, using leg drive and hip extension rather than standing up. Keep shoulders below opponent's center of mass until they are already falling."
-    },
-    {
-      "error": "Releasing grip on legs too early during the takedown",
-      "consequence": "Allows opponent to establish guard, recover base, or escape before you establish dominant position",
-      "correction": "Maintain tight grip with hands clasped behind knees until opponent's back is on the mat and you are transitioning to specific top position controls. Only release when replacing with position-specific grips."
-    },
-    {
-      "error": "Driving straight forward instead of angling upward",
-      "consequence": "Opponent can maintain base by posting hands or stepping back, resulting in failed takedown or scramble situation",
-      "correction": "Drive trajectory should be forward and upward at approximately 45-degree angle, lifting opponent's legs while driving their torso backward. The angle creates the falling motion rather than pure forward pressure."
-    },
-    {
-      "error": "Head position too far away from opponent's body",
-      "consequence": "Creates space for opponent to establish guillotine, creates weak connection reducing driving power, and allows opponent to sprawl effectively",
-      "correction": "Keep your head glued to opponent's torso throughout the entire finish sequence. Your head acts as a driving point and connection mechanism - any gap compromises the technique's effectiveness."
-    },
-    {
-      "error": "Pausing after opponent lands before establishing position",
-      "consequence": "Gives opponent time to initiate guard recovery, establish frames, or begin escape sequences",
-      "correction": "Treat the landing and position establishment as one continuous motion. As opponent's back touches the mat, immediately begin transitioning to side control or mount without any pause or hesitation."
-    },
-    {
-      "error": "Narrow stance with feet too close together during drive",
-      "consequence": "Weak base makes you vulnerable to counters, reduces driving power, and makes it difficult to control opponent's landing",
-      "correction": "Maintain wide base with feet shoulder-width or wider throughout the finish. Wide stance provides stability, power generation, and better control of opponent's landing trajectory."
-    },
-    {
-      "error": "Using only arm strength to lift opponent",
-      "consequence": "Inefficient technique that fails against larger opponents, causes early fatigue, and reduces success rate significantly",
-      "correction": "Generate lifting force from explosive hip extension and leg drive. Arms should maintain connection and guide direction, but primary power comes from lower body driving into the mat."
-    }
-  ],
-  "training_progressions": [
-    {
-      "phase": "Week 1-2: Fundamental Mechanics",
-      "focus": "Basic motion patterns and body mechanics without resistance",
-      "description": "Practice the finish motion with compliant partner starting from established penetration position. Focus on proper trajectory angle, hip extension timing, and controlled landing. Partner should allow the technique to complete while you develop muscle memory for the movement pattern. Emphasize quality of motion over speed or power."
-    },
-    {
-      "phase": "Week 3-4: Controlled Resistance",
-      "focus": "Executing finish against light defensive reactions",
-      "description": "Partner provides 25-30% resistance including light sprawl attempts, hand posting, and base maintenance. Practice adjusting technique based on defensive reactions while maintaining technical principles. Begin incorporating the full sequence from penetration through position establishment. Increase repetitions to build conditioning specific to the movement."
-    },
-    {
-      "phase": "Week 5-8: Situational Drilling",
-      "focus": "Finish variations and counter responses",
-      "description": "Train different finish variations (lift-and-dump, drive-through, trip finish) based on partner's weight and defensive structure. Partner provides 50% resistance with specific defensive scenarios: guillotine attempts, whizzer control, sprawl defense. Practice appropriate adjustments and counters to each defense. Begin live finishing from established penetration position."
-    },
-    {
-      "phase": "Week 9-12: Integration and Timing",
-      "focus": "Complete takedown sequence from entry to position",
-      "description": "Practice entire double leg sequence from setup through entry, penetration, finish, and position establishment. Partner provides realistic but controlled resistance (70-80%) allowing technique refinement under pressure. Focus on timing of finish relative to entry, maintaining connection throughout transition, and immediate position consolidation. Include common scramble situations and recovery options."
-    },
-    {
-      "phase": "Week 13+: Live Application",
-      "focus": "Full resistance integration into sparring",
-      "description": "Execute double leg finishes during live wrestling and BJJ sparring sessions. Start from standing position with full resistance, competing for grips, entries, and finishes. Develop timing, setup variations, and chain wrestling connections. Track success rate and identify specific situations where finish fails to address in future training. Video review recommended for technical refinement."
-    },
-    {
-      "phase": "Ongoing: Specialization and Refinement",
-      "focus": "Advanced variations and high-level troubleshooting",
-      "description": "Develop personal preferences for finish variations based on body type and style. Work on specialized scenarios: finishing against larger opponents, finishing in gi vs no-gi, finishing against specific defensive structures. Incorporate double leg finish as part of broader takedown system with seamless transitions to other techniques. Study high-level competition footage for technical nuances and situational applications."
-    }
-  ],
+  "attacker": {
+    "name": "Double Leg Finish Attacker",
+    "description": "How to execute Double Leg Finish in BJJ. Attacking perspective with setup, execution steps, and counters.",
+    "overview": "The Double Leg Finish is the critical completion phase of the double leg takedown, transitioning from the penetration step to establishing dominant top position. This fundamental wrestling technique adapted for BJJ focuses on the mechanical principles of lift, drive, and controlled landing to secure top position. The finish requires proper coordination of leg drive, hip extension, and upper body control to overcome opponent resistance and establish side control or mount.\n\nThe effectiveness of the double leg finish lies in its directness and mechanical advantage. Once the penetration step is achieved with hands clasped behind the opponent's knees, the practitioner uses explosive hip extension combined with forward driving pressure to elevate and displace the opponent's base. The finish can be executed with various methods including the traditional lift-and-dump, the power drive-through, or the trip finish depending on opponent size, resistance level, and positional context.\n\nMastery of the double leg finish is essential for any grappler's takedown game, as the entry without a solid finish leaves the practitioner vulnerable to guillotine chokes, sprawls, and scrambles. The finish must be practiced with emphasis on maintaining connection throughout the motion, controlling the opponent's landing, and immediately transitioning to dominant position without allowing guard establishment or re-guarding opportunities.",
+    "key_principles": [
+      "Maintain tight connection with hands clasped behind opponent's knees throughout the finish",
+      "Drive explosively through the hips while keeping head tight to opponent's body",
+      "Angle your trajectory to drive opponent's hips backward while moving their shoulders toward the mat",
+      "Control the landing to prevent opponent from establishing guard or defensive frames",
+      "Immediately transition to side control or mount without pausing in neutral positions",
+      "Adjust finishing method based on opponent's size, weight, and resistance level",
+      "Keep your base wide and posture strong to prevent guillotine attempts during execution"
+    ],
+    "setup_requirements": [
+      "Successful penetration step with level change completed",
+      "Hands clasped securely behind both of opponent's knees",
+      "Head positioned tight against opponent's torso (typically on their hip or abdomen)",
+      "Shoulders lower than opponent's hips with proper postural alignment",
+      "Weight forward on the balls of your feet with knees bent for explosive drive",
+      "Opponent's base compromised with weight shifting backward"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Secure the grip connection",
+        "description": "Ensure your hands are tightly clasped behind both of the opponent's knees with your forearms pressing into the back of their legs. Your head should be positioned firmly against their torso, typically at hip level, creating a strong structural connection. Verify that your shoulders are lower than their hips and your spine maintains proper alignment for the upcoming explosive movement."
+      },
+      {
+        "step_number": 2,
+        "action": "Initiate hip extension drive",
+        "description": "Begin explosive hip extension by driving forcefully through your legs while simultaneously lifting with your arms. Your hips should thrust forward and upward, transferring energy through your torso into the opponent's legs. Maintain constant pressure with your head against their body to prevent space creation. The power comes from your legs driving into the mat, not from pulling with your arms alone."
+      },
+      {
+        "step_number": 3,
+        "action": "Angle and elevate",
+        "description": "As you drive forward, angle your trajectory to move the opponent's hips backward while their shoulders move toward the mat. Continue lifting their legs higher while your head drives into their torso, creating the falling motion. Your feet should step forward in short, powerful steps maintaining base and drive rather than standing fully upright which compromises leverage."
+      },
+      {
+        "step_number": 4,
+        "action": "Control the rotation",
+        "description": "As the opponent begins to fall, control their rotation to ensure they land on their back or side rather than their knees. Adjust your grip and head pressure to guide the landing - if they land toward their side, you're already positioned for side control; if they land flat on their back, you can choose mount or side control. Avoid releasing your grip prematurely which allows escape opportunities."
+      },
+      {
+        "step_number": 5,
+        "action": "Manage the landing",
+        "description": "Control the opponent's descent to the mat by maintaining your grip and adjusting your body position. Step your legs wide around their body as they land to prevent guard closure. Keep your weight distributed to control their hips and shoulders simultaneously. If finishing to side control, immediately shift your weight to establish crossface and hip control. If finishing to mount, step over as they land and establish hooks."
+      },
+      {
+        "step_number": 6,
+        "action": "Establish dominant position",
+        "description": "Immediately upon landing, release the leg grip and transition to position-specific controls. For side control, establish crossface with one arm, control the far hip with the other, and distribute your weight across their chest and hips. For mount, secure hooks and establish posture control. Do not pause or hesitate - continuous motion prevents opponent from establishing defensive frames or initiating guard recovery sequences."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate position",
+        "description": "Settle your weight and refine your controls to eliminate any space or movement opportunities. In side control, ensure proper weight distribution, head control, and hip pressure. From mount, establish strong base with knees tight, posture controlled, and weight properly distributed. Be prepared to counter immediate escape attempts with appropriate position maintenance techniques. Your goal is complete positional control within 2-3 seconds of landing."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Guillotine choke attempt during the drive phase",
+        "effectiveness": "High",
+        "your_response": "Keep your head positioned on the side away from their choking arm, maintain posture with chin tucked, and accelerate the finish to land them on their back before they can secure the choke. If the guillotine is locked, circle toward the choking arm side while maintaining your drive to reduce leverage.",
+        "targets_outcome": "Clinch/Bottom"
+      },
+      {
+        "counter": "Sprawl defense with hips pulled backward",
+        "effectiveness": "High",
+        "your_response": "If encountered during finish, run your feet forward explosively (running the pipe) to stay underneath their hips while maintaining your grip. Alternatively, switch to a single leg finish or ankle pick transition if the sprawl compromises your double leg structure.",
+        "targets_outcome": "Clinch/Top"
+      },
+      {
+        "counter": "Opponent posts hands on mat to prevent being taken down",
+        "effectiveness": "Medium",
+        "your_response": "Continue driving forward while lifting their legs higher to break their posted base. Alternatively, use their posted arm position to transition to a sweep single leg or adjust angle to dump them to the side away from their posting hand.",
+        "targets_outcome": "Clinch/Top"
+      },
+      {
+        "counter": "Wizard/whizzer overhook controlling your head",
+        "effectiveness": "Medium",
+        "your_response": "Address the whizzer by keeping your head tight to their body on the non-whizzer side, drive the angle away from the whizzer control, and accelerate the finish before they can establish full defensive structure. Consider transitioning to a power single or outside trip if the whizzer is too strong.",
+        "targets_outcome": "Clinch/Top"
+      },
+      {
+        "counter": "Opponent immediately establishes closed guard upon landing",
+        "effectiveness": "Low",
+        "your_response": "Prevent guard closure by stepping your legs wide as they land, maintaining your grip on their legs longer to control their hips, and immediately establishing heavy pressure to prevent ankle crossing. If guard does close, immediately begin guard opening sequence while maintaining dominant posture.",
+        "targets_outcome": "Clinch/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Standing fully upright during the lift phase",
+        "consequence": "Loss of leverage and driving power, making the takedown easier to defend and increasing vulnerability to front headlock attacks or guillotine chokes",
+        "correction": "Maintain bent knees and low hip position throughout the finish, using leg drive and hip extension rather than standing up. Keep shoulders below opponent's center of mass until they are already falling."
+      },
+      {
+        "error": "Releasing grip on legs too early during the takedown",
+        "consequence": "Allows opponent to establish guard, recover base, or escape before you establish dominant position",
+        "correction": "Maintain tight grip with hands clasped behind knees until opponent's back is on the mat and you are transitioning to specific top position controls. Only release when replacing with position-specific grips."
+      },
+      {
+        "error": "Driving straight forward instead of angling upward",
+        "consequence": "Opponent can maintain base by posting hands or stepping back, resulting in failed takedown or scramble situation",
+        "correction": "Drive trajectory should be forward and upward at approximately 45-degree angle, lifting opponent's legs while driving their torso backward. The angle creates the falling motion rather than pure forward pressure."
+      },
+      {
+        "error": "Head position too far away from opponent's body",
+        "consequence": "Creates space for opponent to establish guillotine, creates weak connection reducing driving power, and allows opponent to sprawl effectively",
+        "correction": "Keep your head glued to opponent's torso throughout the entire finish sequence. Your head acts as a driving point and connection mechanism - any gap compromises the technique's effectiveness."
+      },
+      {
+        "error": "Pausing after opponent lands before establishing position",
+        "consequence": "Gives opponent time to initiate guard recovery, establish frames, or begin escape sequences",
+        "correction": "Treat the landing and position establishment as one continuous motion. As opponent's back touches the mat, immediately begin transitioning to side control or mount without any pause or hesitation."
+      },
+      {
+        "error": "Narrow stance with feet too close together during drive",
+        "consequence": "Weak base makes you vulnerable to counters, reduces driving power, and makes it difficult to control opponent's landing",
+        "correction": "Maintain wide base with feet shoulder-width or wider throughout the finish. Wide stance provides stability, power generation, and better control of opponent's landing trajectory."
+      },
+      {
+        "error": "Using only arm strength to lift opponent",
+        "consequence": "Inefficient technique that fails against larger opponents, causes early fatigue, and reduces success rate significantly",
+        "correction": "Generate lifting force from explosive hip extension and leg drive. Arms should maintain connection and guide direction, but primary power comes from lower body driving into the mat."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2: Fundamental Mechanics",
+        "focus": "Basic motion patterns and body mechanics without resistance",
+        "description": "Practice the finish motion with compliant partner starting from established penetration position. Focus on proper trajectory angle, hip extension timing, and controlled landing. Partner should allow the technique to complete while you develop muscle memory for the movement pattern. Emphasize quality of motion over speed or power."
+      },
+      {
+        "phase": "Week 3-4: Controlled Resistance",
+        "focus": "Executing finish against light defensive reactions",
+        "description": "Partner provides 25-30% resistance including light sprawl attempts, hand posting, and base maintenance. Practice adjusting technique based on defensive reactions while maintaining technical principles. Begin incorporating the full sequence from penetration through position establishment. Increase repetitions to build conditioning specific to the movement."
+      },
+      {
+        "phase": "Week 5-8: Situational Drilling",
+        "focus": "Finish variations and counter responses",
+        "description": "Train different finish variations (lift-and-dump, drive-through, trip finish) based on partner's weight and defensive structure. Partner provides 50% resistance with specific defensive scenarios: guillotine attempts, whizzer control, sprawl defense. Practice appropriate adjustments and counters to each defense. Begin live finishing from established penetration position."
+      },
+      {
+        "phase": "Week 9-12: Integration and Timing",
+        "focus": "Complete takedown sequence from entry to position",
+        "description": "Practice entire double leg sequence from setup through entry, penetration, finish, and position establishment. Partner provides realistic but controlled resistance (70-80%) allowing technique refinement under pressure. Focus on timing of finish relative to entry, maintaining connection throughout transition, and immediate position consolidation. Include common scramble situations and recovery options."
+      },
+      {
+        "phase": "Week 13+: Live Application",
+        "focus": "Full resistance integration into sparring",
+        "description": "Execute double leg finishes during live wrestling and BJJ sparring sessions. Start from standing position with full resistance, competing for grips, entries, and finishes. Develop timing, setup variations, and chain wrestling connections. Track success rate and identify specific situations where finish fails to address in future training. Video review recommended for technical refinement."
+      },
+      {
+        "phase": "Ongoing: Specialization and Refinement",
+        "focus": "Advanced variations and high-level troubleshooting",
+        "description": "Develop personal preferences for finish variations based on body type and style. Work on specialized scenarios: finishing against larger opponents, finishing in gi vs no-gi, finishing against specific defensive structures. Incorporate double leg finish as part of broader takedown system with seamless transitions to other techniques. Study high-level competition footage for technical nuances and situational applications."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary source of lifting power in the double leg finish?",
+        "answer": "The primary lifting power comes from explosive hip extension and leg drive into the mat, not from arm strength alone. The practitioner drives through their legs while extending their hips forward and upward, creating the force needed to elevate and displace the opponent. The arms maintain connection and guide direction, but the lower body generates the actual power. This mechanical principle allows the technique to work against larger opponents and prevents early fatigue."
+      },
+      {
+        "question": "Why is maintaining head position against the opponent's body critical during the double leg finish?",
+        "answer": "Head position serves multiple critical functions: it creates a tight structural connection that transfers driving power efficiently from your body to theirs, it prevents space creation that would allow sprawl defense or guillotine attempts, it acts as a driving point to control opponent's torso direction, and it maintains your safety by keeping your neck protected from choke attempts. Any gap between your head and their body significantly compromises the technique's effectiveness and increases vulnerability to counters."
+      },
+      {
+        "question": "How should you adjust your finishing trajectory to optimize the takedown mechanics?",
+        "answer": "The optimal trajectory is forward and upward at approximately 45 degrees, not straight forward. This angle creates the necessary falling motion by lifting the opponent's legs while driving their torso backward and downward toward the mat. Driving purely forward allows them to maintain base by posting hands or stepping backward. The angled trajectory disrupts their base more effectively because it moves their hips backward while their shoulders move toward the mat, creating rotation that is difficult to counter."
+      },
+      {
+        "question": "What is the most effective counter to a guillotine attempt during the double leg finish, and why does it work?",
+        "answer": "The most effective counter is to keep your head positioned on the side away from the choking arm while accelerating the finish to complete the takedown before the choke can be secured. This works because guillotine leverage requires time to establish - if you land the opponent on their back quickly, the choke loses effectiveness due to position change. Additionally, maintaining proper head position on the non-choking side prevents them from getting optimal angle for the submission. Some practitioners also circle toward the choking arm side while driving, which reduces the leverage angle of the choke."
+      },
+      {
+        "question": "Explain the timing and mechanics of the transition from double leg finish to establishing side control position?",
+        "answer": "The transition should be one continuous motion without pause. As the opponent's back touches the mat, immediately release the leg grip and transition to side control specific grips - typically crossface with near arm and far hip control with other arm. Your legs should step wide during the landing to prevent guard closure, and your weight should distribute across their chest and hips simultaneously. The key is not pausing in a neutral position between takedown and control establishment, as any hesitation allows opponent to insert frames, begin escape sequences, or establish guard. Advanced practitioners time the grip change to occur during the final portion of the falling motion, so position-specific controls are already being established as the opponent lands."
+      },
+      {
+        "question": "When would you choose a drive-through finish over a lift-and-dump finish, and what mechanical principles make the drive-through effective against certain opponents?",
+        "answer": "The drive-through finish is preferred against larger or heavier opponents who are difficult to lift, when opponent has sprawled and achieved high base making lifting mechanically disadvantaged, or in no-gi situations where sweat might compromise grip security during lifting motion. The drive-through is mechanically effective because it uses forward momentum and continuous pressure rather than requiring significant vertical lifting force. By running your feet forward explosively while maintaining low shoulder position and tight connection, you generate overwhelming forward pressure that forces opponent backward. This method is less dependent on strength differential and more on timing, positioning, and explosiveness. The drive-through also maintains better defensive structure against guillotine attempts because you stay lower throughout the motion."
+      },
+      {
+        "question": "Your opponent establishes a strong whizzer as you begin the finish phase - how do you adjust your technique to complete the takedown?",
+        "answer": "When the opponent locks a strong whizzer, first keep your head tight against their body on the non-whizzer side to maintain structural connection. Then angle your drive away from the whizzer - if the whizzer is on their right side, drive your angle to their left. This reduces the whizzer's mechanical leverage because the overhook is strongest when you drive straight into it. Simultaneously, use the hand on the whizzer side to reach deeper behind their knee and increase lifting pressure on that leg specifically. If the whizzer remains too strong, transition to a trip finish using your inside leg to block their far ankle while driving through the angle, or switch to a single leg on the non-whizzer side. The key is never to fight the whizzer head-on with brute force."
+      },
+      {
+        "question": "What grip configuration behind the knees produces the most stable connection during the finish, and why does hand position matter?",
+        "answer": "The most stable grip is a Gable grip (palm-to-palm without interlocking fingers) positioned behind both knees with forearms pressing into the back of the opponent's legs. This grip is preferred because it distributes force across a wider area than interlocked fingers, reduces the risk of finger injuries during explosive movements, and allows quick release when transitioning to positional controls. The forearms pressing into the hamstring tendons create additional control beyond just the hands. Hand position matters because placing the grip too high (behind the thighs) reduces leverage for lifting the legs, while too low (at the ankles) sacrifices control of the opponent's hip movement. Behind the knees is the optimal fulcrum point for disrupting base."
+      },
+      {
+        "question": "Your opponent posts both hands on the mat during your drive-through attempt and begins standing back up - what is your immediate tactical adjustment?",
+        "answer": "When the opponent posts both hands on the mat, they have committed their arms to base recovery, which creates two immediate opportunities. First, continue your drive with increased angle, aiming to push them past their posting ability by driving their hips backward past the point where their arms can support them. Second, if they are firmly posted, quickly adjust your grip to elevate one of their legs higher while stepping to the opposite side, creating an asymmetric load they cannot support with both hands. The posted position also exposes them to a trip finish because their legs are now bearing less weight with arms supporting them. Under no circumstances should you pause or reduce pressure - the moment they feel your drive slacken they will complete their base recovery and sprawl effectively."
+      },
+      {
+        "question": "What are the critical differences in finishing mechanics between gi and no-gi double leg finishes?",
+        "answer": "In no-gi, grip security is the primary concern because sweat eliminates friction, making the Gable grip behind the knees more likely to slip during the lifting phase. This makes the drive-through finish generally more reliable than the lift-and-dump in no-gi because it requires less sustained grip pressure. In gi, the collar and sleeve material provides additional friction and potential grip points that stabilize the connection, allowing longer lift sequences and more controlled finishes. The gi also changes defensive dynamics - opponents can grab your collar during the finish to set up chokes or create frames, which is not possible in no-gi. Adjustments include: in no-gi, emphasize speed and continuous forward pressure over lifting; in gi, be aware of collar grips that could compromise your posture, and consider incorporating gi-specific grips on the pants or belt to supplement the standard grip behind the knees."
+      }
+    ],
+    "safety_considerations": "When practicing the double leg finish, controlled application is essential to prevent injury to both partners. The primary safety concern is managing the driving power and landing to prevent dangerous falls, head-first impacts, or hard landings on the opponent's back or head. During training, always maintain awareness of mat space to ensure adequate room for the full driving motion and controlled landing. Start with slow, controlled repetitions with compliant partners before progressing to resistance. The partner being taken down should be taught proper breakfall techniques to protect themselves during the landing phase. Practitioners should build up driving power gradually, emphasizing technical precision before adding intensity or speed. In live training, be especially cautious when finishing near the edge of the mat or in crowded areas. When drilling, the person executing the technique should control the opponent's landing by maintaining grip and adjusting descent speed - slamming or dropping the opponent is dangerous and unnecessary. Partners should communicate clearly about resistance levels and stop immediately if either person feels unsafe. Proper conditioning and technical progression prevent most injuries associated with this technique, but awareness and partner safety must always take priority over completion of the technique."
+  },
+  "defender": {
+    "name": "Double Leg Finish Defender",
+    "description": "How to defend against Double Leg Finish in BJJ. Recognition cues, defensive options, and escape strategies.",
+    "overview": "Defending the double leg finish requires understanding the critical timing window between the opponent's penetration step and the completion of the takedown. Once an opponent has secured grip behind both knees and initiated hip extension, the defender's options narrow significantly compared to earlier defensive opportunities like sprawling on the entry. Effective defense at the finish phase focuses on three strategic priorities: preventing the opponent from completing the driving motion, disrupting their grip and structural connection, and controlling the landing to minimize positional disadvantage if the takedown succeeds.\n\nThe most common defensive error is passivity - allowing the attacker to complete the full driving sequence without resistance. Successful defenders recognize the finish attempt through specific physical cues and immediately engage counter-mechanics including hip sprawling, whizzer control, guillotine threats, and frame creation. The defender must understand that even partial defense can dramatically change the outcome: breaking one hand of the grip, achieving a whizzer, or getting hips back even slightly can convert a clean side control finish into a scramble or guard establishment.\n\nAdvanced defenders develop the ability to counterattack during the finish phase itself. The attacker's commitment to the drive creates vulnerabilities - their head is exposed for guillotine and front headlock attacks, their posture is compromised, and their balance is forward-loaded. Capitalizing on these openings requires precise timing and the confidence to attack rather than purely defend during a moment of apparent positional disadvantage.",
+    "key_principles": [
+      "Lower your hips immediately upon feeling the opponent's grip behind your knees to increase the force required for the lift and reduce their mechanical advantage",
+      "Establish a whizzer (overhook) on one side as early as possible to disrupt the opponent's structural alignment and create an anchor point for defensive movement",
+      "Maintain active hand fighting to break or weaken the opponent's grip connection, targeting the clasp behind your knees as the critical control point",
+      "Control the opponent's head position to prevent them from maintaining tight connection against your torso, creating space that weakens their driving power",
+      "If the takedown is inevitable, focus on controlling the landing to establish guard rather than allowing free passage to side control or mount"
+    ],
+    "recognition_cues": [
+      "Opponent's hands clasped behind both of your knees with forearm pressure against the back of your legs, indicating the finish grip is secured",
+      "Explosive upward hip extension from the opponent combined with forward shoulder pressure against your torso, signaling the driving phase has begun",
+      "Your weight shifting backward involuntarily as opponent's drive disrupts your base, with your heels lifting or feet sliding backward on the mat",
+      "Opponent's head pressed firmly into your hip or abdomen with increasing forward pressure, creating the structural connection needed for the finish"
+    ],
+    "defensive_options": [
+      {
+        "action": "Sprawl and drive hips back while cross-facing opponent's head away from your body",
+        "when_to_use": "Early in the finish attempt before opponent has achieved full hip extension and before your weight has shifted significantly backward",
+        "targets_outcome": "Clinch/Top",
+        "if_successful": "Opponent's driving angle is neutralized, their grip weakens, and you recover to a standing clinch with positional advantage or transition to front headlock control",
+        "risk": "If sprawl is too late or shallow, opponent maintains grip and drives through the sprawl, potentially finishing to a worse position than if you had pursued other defensive options"
+      },
+      {
+        "action": "Secure guillotine choke grip around opponent's neck while their head is exposed during the drive",
+        "when_to_use": "When opponent's head is positioned on the inside (between your arms) rather than tight to your hip, creating the neck exposure needed for the choke",
+        "targets_outcome": "Clinch/Bottom",
+        "if_successful": "Opponent must abandon the takedown attempt to address the choke threat, or if they complete the takedown, you establish guillotine control from guard which is a strong offensive position",
+        "risk": "If the guillotine is not secured tightly before landing, opponent passes to side control and you have wasted defensive time on an ineffective choke attempt"
+      },
+      {
+        "action": "Establish deep whizzer on one side while circling toward the whizzer to break opponent's angle and grip symmetry",
+        "when_to_use": "When opponent has secured grip but has not yet achieved full hip extension, particularly effective when you can get the whizzer before their drive reaches full power",
+        "targets_outcome": "Clinch/Top",
+        "if_successful": "The whizzer disrupts opponent's structural alignment, breaks the symmetry of their drive, and creates opportunity to pummel back to neutral clinch or establish front headlock",
+        "risk": "A weak or shallow whizzer will not stop the drive and may compromise your ability to use that arm for other defensive options like framing or guard establishment"
+      },
+      {
+        "action": "Accept the takedown but immediately pull guard by hooking legs around opponent's waist during the descent",
+        "when_to_use": "When the takedown is clearly going to succeed and defensive options to prevent it have been exhausted, typically when opponent has full hip extension and your base is completely compromised",
+        "targets_outcome": "Clinch/Top",
+        "if_successful": "You establish closed guard upon landing rather than conceding side control, maintaining a defensive position with submission and sweep threats rather than being pinned",
+        "risk": "Guard pull timing must be precise - too early and opponent adjusts to pass, too late and they have already established side control before you can close your guard"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Clinch/Top",
+        "how": "Achieve this by sprawling aggressively early in the finish attempt while cross-facing the opponent's head, or by establishing a deep whizzer that breaks their driving angle. Once their momentum is stopped, pummel to establish dominant grip position in the clinch. The key is addressing the finish attempt before the opponent achieves full hip extension - once they are driving at full power, returning to a dominant clinch position becomes significantly harder."
+      },
+      {
+        "outcome": "Clinch/Bottom",
+        "how": "This counter outcome occurs when you successfully threaten a guillotine choke during the finish attempt, forcing the opponent to abandon or modify their takedown. Even if the guillotine does not finish, the threat alone can stall their drive and create a scramble where you end up in bottom clinch rather than being taken down cleanly. From bottom clinch you still have recovery options including re-establishing standing base or pulling guard on your own terms."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Staying upright and stiff-legging against the drive instead of lowering hips and sprawling",
+        "consequence": "The opponent's forward and upward driving angle easily displaces a tall, narrow base. Stiff legs provide no resistance to the lift and the defender is taken down cleanly with no ability to establish guard or scramble.",
+        "correction": "Immediately lower your center of gravity by bending at the knees and driving your hips backward and downward. Your legs should widen and your hips should get heavy, making it dramatically harder for the opponent to elevate and displace you. Think of sitting your hips back and down rather than standing tall against the pressure."
+      },
+      {
+        "error": "Reaching down to push on opponent's head with both hands instead of establishing structural controls",
+        "consequence": "Both arms are occupied pushing ineffectively against the top of the opponent's head, leaving no ability to whizzer, frame, or establish guillotine. The pushing motion has poor leverage against the opponent's hip-driven power and wastes energy.",
+        "correction": "Use one arm to establish a whizzer or overhook for structural control while the other hand fights for head position or grip breaking. Effective defense requires structural connection (whizzer, crossface) rather than pushing, which has poor mechanical advantage against the opponent's full-body driving power."
+      },
+      {
+        "error": "Attempting to run backward away from the drive instead of redirecting the opponent's angle",
+        "consequence": "Running backward accelerates the takedown because the opponent's forward drive now has your backward momentum working with it. Your base becomes increasingly compromised with each backward step.",
+        "correction": "Instead of retreating linearly, redirect the opponent's angle by circling laterally while establishing whizzer or crossface control. Lateral movement is far more effective than linear retreat because it disrupts the opponent's driving angle without adding to their forward momentum. If you must move backward, combine it with aggressive sprawling to get your hips behind their driving line."
+      },
+      {
+        "error": "Giving up immediately when the takedown begins succeeding instead of fighting for guard",
+        "consequence": "Conceding side control without resistance when establishing closed or half guard was still possible. The positional difference between landing in guard versus side control is enormous strategically.",
+        "correction": "Even when the takedown is clearly succeeding, continue active defense by working to establish guard during the landing phase. Hook your legs around the opponent's waist for closed guard, insert a knee shield for half guard, or at minimum establish frames before hitting the mat. Every layer of defense you establish during the fall reduces the opponent's positional advantage."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for sprawl defense against the double leg finish, and why does timing matter so much?",
+        "answer": "The optimal sprawl window is after the opponent has committed to the finish but before they achieve full hip extension and forward drive momentum. This window is typically less than one second. Timing matters because sprawling too early (before they commit) allows them to adjust and re-shoot, while sprawling too late (after full hip extension) means their driving power has already displaced your base beyond recovery. The ideal sprawl occurs as you feel their hips begin to thrust forward - at this point their commitment prevents adjustment, but their power has not yet reached full expression. Recognizing the hip extension initiation through tactile cues (increasing forward pressure, upward lift on your legs) is the key skill."
+      },
+      {
+        "question": "Your opponent has completed the penetration step and secured grip behind your knees but has not yet begun the drive - what is your highest-percentage defensive response?",
+        "answer": "The highest-percentage response at this moment is establishing a deep whizzer on one side while simultaneously dropping your hips low and heavy. The whizzer should be locked by clamping your elbow tight to your ribs with your arm threaded over their arm and behind their back. This is the highest-percentage option because it addresses the problem structurally rather than requiring explosive timing like the sprawl. The whizzer breaks the symmetry of their drive - they cannot lift both legs evenly when one side is anchored by the overhook. From this position, circle toward the whizzer side to further compromise their angle while using your free hand to fight their grip on the opposite knee. This buys time and creates scramble opportunities."
+      },
+      {
+        "question": "When is attempting a guillotine counter during the double leg finish a good tactical decision versus a poor one?",
+        "answer": "A guillotine counter is a good decision when the opponent's head is positioned on the inside (between your arms) rather than tight against your hip, because inside head position exposes the neck for the choke. It is also favorable when you have training in finishing guillotines from guard, since completing the takedown while in a guillotine puts the attacker in immediate danger. A guillotine attempt is a poor decision when the opponent's head is tight to your hip with no neck exposure, when your guillotine grip is weak or poorly positioned, or when you lack confidence finishing from guard. A failed guillotine attempt wastes the critical defensive window and typically results in conceding side control without resistance, which is worse than other defensive options."
+      },
+      {
+        "question": "How should your defensive strategy change when the takedown is clearly going to succeed and you cannot prevent it?",
+        "answer": "When the takedown is inevitable, your strategic priority shifts entirely from preventing the takedown to controlling the landing position. The specific actions are: hook your legs around the opponent's waist to establish closed guard before hitting the mat, or at minimum insert a knee between your bodies to establish half guard. If neither guard option is available, immediately frame with both forearms against the opponent's shoulders and hips upon landing to prevent them from settling their weight. The positional difference between landing in closed guard versus conceding side control is enormous - from guard you have sweeps, submissions, and positional control, while from side control bottom you face an uphill escape battle. Never accept a clean pass to side control when you had the opportunity to pull guard during the descent."
+      },
+      {
+        "question": "What physical cue tells you the opponent is about to initiate the drive phase of the finish, and how should you respond in the fraction of a second before it begins?",
+        "answer": "The key physical cue is feeling their hip bones begin to thrust forward and upward against your thighs combined with a tightening of their grip behind your knees and increased head pressure into your torso. You may also feel their weight shift from their knees to the balls of their feet as they load for the explosive drive. In the fraction of a second before the drive, you should simultaneously drop your hips back and down (beginning the sprawl motion), swim one arm over their shoulder for a whizzer, and shift your weight laterally rather than accepting the straight-line drive. This pre-emptive response is far more effective than reacting after the drive has begun, because once the opponent achieves full hip extension with forward momentum, the physics heavily favor the attacker regardless of defensive technique quality."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2: Recognition and Reaction Drills",
+        "focus": "Identifying the finish attempt and initiating defensive responses",
+        "description": "Partner performs double leg finish at 25% speed and power from established penetration position. Defender practices recognizing the drive initiation cues and responding with basic sprawl, whizzer establishment, and hip lowering. Focus on reaction speed and correct defensive posture rather than stopping the takedown. Partner provides feedback on timing of defender's recognition. Build the muscle memory for immediate hip drop when feeling the drive begin."
+      },
+      {
+        "phase": "Week 3-5: Defensive Option Development",
+        "focus": "Building proficiency in each defensive option individually",
+        "description": "Isolate and drill each defensive response separately: sprawl defense with crossface, whizzer establishment with circling, guillotine counter with guard pull, and controlled guard establishment during landing. Partner provides 40-50% resistance and varies their finish method (lift-and-dump, drive-through, trip) so defender must adapt defensive selection. Spend dedicated rounds on each defensive option before combining them."
+      },
+      {
+        "phase": "Week 6-9: Decision-Making Under Pressure",
+        "focus": "Selecting appropriate defense based on attacker's specific finish variation",
+        "description": "Partner performs finishes at 60-70% with varied methods and angles. Defender must read the specific finish variation and select the appropriate defensive response in real-time. Includes scenarios where initial defense fails and defender must chain to secondary options (e.g., sprawl fails, transition to whizzer, whizzer fails, pull guard). Introduce the concept of defensive chaining where each failed defense flows into the next option without pause."
+      },
+      {
+        "phase": "Week 10+: Live Integration and Counterattacking",
+        "focus": "Full resistance application and offensive counters from defensive positions",
+        "description": "Defend double leg finishes during live standing grappling at full resistance. Develop the ability to counterattack during defense including guillotine submissions, front headlock transitions, and go-behind counters when sprawl creates back exposure. Track which defensive options succeed most frequently against different training partners and finish styles. Begin developing personal defensive preferences based on body type and grappling style."
+      }
+    ]
+  },
   "variants_and_adaptations": [
     {
       "variant_name": "Lift-and-Dump Finish",
@@ -188,101 +435,11 @@
       "when_to_use": "When opponent is defending with guillotine attempts, when you need more control against sprawl, or when transitioning from failed single leg to double leg structure"
     }
   ],
-  "knowledge_assessment": [
-    {
-      "question": "What is the primary source of lifting power in the double leg finish?",
-      "answer": "The primary lifting power comes from explosive hip extension and leg drive into the mat, not from arm strength alone. The practitioner drives through their legs while extending their hips forward and upward, creating the force needed to elevate and displace the opponent. The arms maintain connection and guide direction, but the lower body generates the actual power. This mechanical principle allows the technique to work against larger opponents and prevents early fatigue."
-    },
-    {
-      "question": "Why is maintaining head position against the opponent's body critical during the double leg finish?",
-      "answer": "Head position serves multiple critical functions: it creates a tight structural connection that transfers driving power efficiently from your body to theirs, it prevents space creation that would allow sprawl defense or guillotine attempts, it acts as a driving point to control opponent's torso direction, and it maintains your safety by keeping your neck protected from choke attempts. Any gap between your head and their body significantly compromises the technique's effectiveness and increases vulnerability to counters."
-    },
-    {
-      "question": "How should you adjust your finishing trajectory to optimize the takedown mechanics?",
-      "answer": "The optimal trajectory is forward and upward at approximately 45 degrees, not straight forward. This angle creates the necessary falling motion by lifting the opponent's legs while driving their torso backward and downward toward the mat. Driving purely forward allows them to maintain base by posting hands or stepping backward. The angled trajectory disrupts their base more effectively because it moves their hips backward while their shoulders move toward the mat, creating rotation that is difficult to counter."
-    },
-    {
-      "question": "What is the most effective counter to a guillotine attempt during the double leg finish, and why does it work?",
-      "answer": "The most effective counter is to keep your head positioned on the side away from the choking arm while accelerating the finish to complete the takedown before the choke can be secured. This works because guillotine leverage requires time to establish - if you land the opponent on their back quickly, the choke loses effectiveness due to position change. Additionally, maintaining proper head position on the non-choking side prevents them from getting optimal angle for the submission. Some practitioners also circle toward the choking arm side while driving, which reduces the leverage angle of the choke."
-    },
-    {
-      "question": "Explain the timing and mechanics of the transition from double leg finish to establishing side control position?",
-      "answer": "The transition should be one continuous motion without pause. As the opponent's back touches the mat, immediately release the leg grip and transition to side control specific grips - typically crossface with near arm and far hip control with other arm. Your legs should step wide during the landing to prevent guard closure, and your weight should distribute across their chest and hips simultaneously. The key is not pausing in a neutral position between takedown and control establishment, as any hesitation allows opponent to insert frames, begin escape sequences, or establish guard. Advanced practitioners time the grip change to occur during the final portion of the falling motion, so position-specific controls are already being established as the opponent lands."
-    },
-    {
-      "question": "When would you choose a drive-through finish over a lift-and-dump finish, and what mechanical principles make the drive-through effective against certain opponents?",
-      "answer": "The drive-through finish is preferred against larger or heavier opponents who are difficult to lift, when opponent has sprawled and achieved high base making lifting mechanically disadvantaged, or in no-gi situations where sweat might compromise grip security during lifting motion. The drive-through is mechanically effective because it uses forward momentum and continuous pressure rather than requiring significant vertical lifting force. By running your feet forward explosively while maintaining low shoulder position and tight connection, you generate overwhelming forward pressure that forces opponent backward. This method is less dependent on strength differential and more on timing, positioning, and explosiveness. The drive-through also maintains better defensive structure against guillotine attempts because you stay lower throughout the motion."
-    }
+  "conditions": [
+    "Successful penetration step completed with level change achieved",
+    "Both hands secured behind opponent's knees with stable grip",
+    "Head positioned tight against opponent's torso with structural connection",
+    "Opponent's base at least partially compromised by the entry"
   ],
-  "safety_considerations": "When practicing the double leg finish, controlled application is essential to prevent injury to both partners. The primary safety concern is managing the driving power and landing to prevent dangerous falls, head-first impacts, or hard landings on the opponent's back or head. During training, always maintain awareness of mat space to ensure adequate room for the full driving motion and controlled landing. Start with slow, controlled repetitions with compliant partners before progressing to resistance. The partner being taken down should be taught proper breakfall techniques to protect themselves during the landing phase. Practitioners should build up driving power gradually, emphasizing technical precision before adding intensity or speed. In live training, be especially cautious when finishing near the edge of the mat or in crowded areas. When drilling, the person executing the technique should control the opponent's landing by maintaining grip and adjusting descent speed - slamming or dropping the opponent is dangerous and unnecessary. Partners should communicate clearly about resistance levels and stop immediately if either person feels unsafe. Proper conditioning and technical progression prevent most injuries associated with this technique, but awareness and partner safety must always take priority over completion of the technique.",
-  "position_integration": "The double leg finish is the critical completion phase of one of the most fundamental takedown techniques in BJJ and wrestling. It represents the transition point between standing grappling and ground fighting, serving as the bridge that converts a successful entry into dominant top position. Within the broader BJJ system, the double leg finish connects to multiple strategic layers: it is the culmination of grip fighting and angle creation from standing position, it requires integration of timing and level change fundamentals, and it directly feeds into top position control strategies from side control or mount.\n\nThe technique integrates with several key positional systems in BJJ. From the perspective of takedown strategy, it is part of the core wrestling-based entries that complement guard pulling and sacrifice throws. The finish itself branches into multiple position outcomes - side control being most common, but mount, knee-on-belly, or even back control are possible depending on landing mechanics and tactical choice. Understanding the finish variations allows practitioners to select optimal position based on situational needs - for example, finishing to mount in competition for points, or finishing to side control for better submission access.\n\nThe double leg finish also integrates defensively within the scrambling system. When opponents attempt re-guarding or escape during the landing phase, the double leg finish mechanics provide the structure needed to maintain top position through the transition. Advanced practitioners develop seamless connections from double leg finish to guard passing sequences when opponents manage partial guard establishment during landing. This integration of takedown finish and guard passing creates a continuous attacking system from standing through ground control, eliminating the traditional gap where many practitioners lose positional advantage during the standing-to-ground transition.",
-  "related_content": [
-    {
-      "name": "Double Leg Entry",
-      "relationship": "Prerequisite technique - establishes the penetration position from which the finish is executed"
-    },
-    {
-      "name": "Double Leg Setup",
-      "relationship": "Prerequisite setup phase - creates the opportunity for entry and finish through grip fighting and angle creation"
-    },
-    {
-      "name": "Single Leg Takedown",
-      "relationship": "Alternative finishing technique - shares similar mechanical principles but from single leg rather than double leg structure"
-    },
-    {
-      "name": "High Crotch",
-      "relationship": "Related entry variation - can transition to double leg finish mechanics with modified grip structure"
-    },
-    {
-      "name": "Body Lock Pass",
-      "relationship": "Similar driving mechanics - uses comparable hip extension and forward pressure principles in different context"
-    },
-    {
-      "name": "Side Control to Mount",
-      "relationship": "Follow-up transition - alternative positional outcome after successful double leg finish"
-    },
-    {
-      "name": "Sprawl Defense",
-      "relationship": "Primary counter technique - understanding sprawl mechanics helps execute finish before opponent can establish sprawl"
-    },
-    {
-      "name": "Guillotine Choke",
-      "relationship": "Common counter to defend against - requires awareness and technical adjustments during finish execution"
-    },
-    {
-      "name": "Guard Opening Sequence",
-      "relationship": "Contingency technique - needed if opponent establishes guard during landing phase"
-    },
-    {
-      "name": "Ankle Pick",
-      "relationship": "Alternative technique - can be used as transition when double leg finish is compromised by defensive reactions"
-    },
-    {
-      "name": "Standing Position",
-      "relationship": "Starting context - the neutral standing position from which takedown sequences are initiated"
-    },
-    {
-      "name": "Side Control",
-      "relationship": "Primary ending position - most common positional outcome of successful double leg finish"
-    }
-  ],
-  "from_position": "Clinch/Top",
-  "outcomes": [
-    {
-      "to": "Side Control/Top",
-      "probability": 75,
-      "result": "success"
-    },
-    {
-      "to": "Clinch/Top",
-      "probability": 15,
-      "result": "failure"
-    },
-    {
-      "to": "Clinch/Bottom",
-      "probability": 10,
-      "result": "counter"
-    }
-  ],
-  "success_rate": 82
+  "position_integration": "The double leg finish is the critical completion phase of one of the most fundamental takedown techniques in BJJ and wrestling. It represents the transition point between standing grappling and ground fighting, serving as the bridge that converts a successful entry into dominant top position. Within the broader BJJ system, the double leg finish connects to multiple strategic layers: it is the culmination of grip fighting and angle creation from standing position, it requires integration of timing and level change fundamentals, and it directly feeds into top position control strategies from side control or mount.\n\nThe technique integrates with several key positional systems in BJJ. From the perspective of takedown strategy, it is part of the core wrestling-based entries that complement guard pulling and sacrifice throws. The finish itself branches into multiple position outcomes - side control being most common, but mount, knee-on-belly, or even back control are possible depending on landing mechanics and tactical choice. Understanding the finish variations allows practitioners to select optimal position based on situational needs - for example, finishing to mount in competition for points, or finishing to side control for better submission access.\n\nThe double leg finish also integrates defensively within the scrambling system. When opponents attempt re-guarding or escape during the landing phase, the double leg finish mechanics provide the structure needed to maintain top position through the transition. Advanced practitioners develop seamless connections from double leg finish to guard passing sequences when opponents manage partial guard establishment during landing. This integration of takedown finish and guard passing creates a continuous attacking system from standing through ground control, eliminating the traditional gap where many practitioners lose positional advantage during the standing-to-ground transition."
 }

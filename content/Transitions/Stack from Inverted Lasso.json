@@ -1,0 +1,13 @@
+{
+  "name": "Stack from Inverted Lasso",
+  "description": "",
+  "tags": [],
+  "from_position": "Inverted Lasso Guard/Top",
+  "outcomes": [
+    {
+      "to": "Half Guard/Top",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

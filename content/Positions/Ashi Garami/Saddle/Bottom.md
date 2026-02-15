@@ -21,32 +21,38 @@ description: "Learn systematic saddle escapes prioritizing heel protection, hip 
     {
       "@type": "HowToStep",
       "name": "Execute Ashi Garami Escape",
-      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 46% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape",
-      "text": "From this position, attempt Hip Escape. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Standing up in Base",
+      "text": "From this position, attempt Standing up in Base. This technique is attempted in 0% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Standup",
-      "text": "From this position, attempt Technical Standup. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Guard Recovery",
+      "text": "From this position, attempt Guard Recovery. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guard Recovery",
-      "text": "From this position, attempt Guard Recovery. This technique is attempted in 20% of exchanges from this position.",
+      "name": "Execute Frame and Shrimp to Guard",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 3% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Frame and Shrimp",
-      "text": "From this position, attempt Frame and Shrimp. This technique is attempted in 25% of exchanges from this position.",
+      "name": "Execute Counter-entangle to 50-50 Guard",
+      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Saddle Defense",
+      "text": "From this position, attempt Saddle Defense. This technique is attempted in 14% of exchanges from this position.",
+      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -204,15 +210,29 @@ Understanding common submission mechanics from Saddle is essential for defensive
 
 ## Available Escapes
 
-### [[Ashi Garami Escape]] (22% of attempts)
+### [[Ashi Garami Escape]] (46% of attempts)
 
-### [[Hip Escape]] (18% of attempts)
+### [[Standing up in Base]] (0% of attempts)
 
-### [[Technical Standup]] (15% of attempts)
+### [[Guard Recovery]] (8% of attempts)
 
-### [[Guard Recovery]] (20% of attempts)
+### [[Frame and Shrimp to Guard]] (3% of attempts)
 
-### [[Frame and Shrimp]] (25% of attempts)
+### [[Counter-entangle to 50-50 Guard]] (8% of attempts)
+
+### [[Saddle Defense]] (14% of attempts)
+
+### [[Inversion Escape]] (9% of attempts)
+
+### [[Leg Extraction to Guard]] (11% of attempts)
+
+### [[Boot Scoot Escape from Saddle]] (0% of attempts)
+
+### [[Fight to Inside Ashi from Saddle]] (0% of attempts)
+
+### [[Forward Roll from Saddle]] (0% of attempts)
+
+### [[Leg Pummeling from Saddle]] (1% of attempts)
 
 
 
@@ -223,25 +243,25 @@ Understanding common submission mechanics from Saddle is essential for defensive
 ## Decision Making from This Position
 
 **Opponent has established heel control with figure-four grip but hasn't yet extended the heel:**
-- Execute **[[Hide the heel by rotating knee inward]]** → [[Straight Ankle Lock Control]] (Probability: 40%)
+- Execute **[[Hide the heel by rotating knee inward]]** → [[Saddle]] (Probability: 40%)
 - Execute **[[Attack opponent's grips systematically]]** → [[Inside Ashi-Garami]] (Probability: 35%)
-- Execute **[[Tap if rotation begins]]** → [[game-over]] (Probability: 25%)
+- Execute **[[Tap if rotation begins]]** → [[Game Over]] (Probability: 25%)
 
 
 **Opponent is actively extending the heel with rotation:**
-- Execute **[[Tap immediately to prevent injury]]** → [[game-over]] (Probability: 90%)
+- Execute **[[Tap immediately to prevent injury]]** → [[Game Over]] (Probability: 90%)
 - Execute **[[Emergency hip clear with frame]]** → [[Outside Ashi-Garami]] (Probability: 10%)
 
 
 **Opponent has loose control with space between your bodies:**
 - Execute **[[Ashi Garami Escape]]** → [[Open Guard]] (Probability: 55%)
-- Execute **[[Technical Standup]]** → [[Standing Position]] (Probability: 45%)
+- Execute **[[Standing up in Base]]** → [[Standing Position]] (Probability: 45%)
 
 
 **You have created frame with free leg on opponent's hip:**
-- Execute **[[Hip Escape]]** → [[Half Guard]] (Probability: 50%)
+- Execute **[[Hip Escape to Guard]]** → [[Half Guard]] (Probability: 50%)
 - Execute **[[Leg extraction to butterfly]]** → [[Butterfly Guard]] (Probability: 40%)
-- Execute **[[Technical Standup]]** → [[Standing Position]] (Probability: 10%)
+- Execute **[[Standing up in Base]]** → [[Standing Position]] (Probability: 10%)
 
 
 
@@ -287,7 +307,7 @@ Understanding common submission mechanics from Saddle is essential for defensive
 
 ### Saddle Escape Hierarchy Drill
 
-Partner establishes saddle with progressively tighter control (loose → medium → tight). Practice systematic defense protocol: hide heel, clear hip, create frame, extract leg. Reset between each level.
+Partner establishes saddle with progressively tighter control (loose, medium, tight). Practice systematic defense protocol: hide heel, clear hip, create frame, extract leg. Reset between each level.
 
 **Duration**: 5 minutes
 

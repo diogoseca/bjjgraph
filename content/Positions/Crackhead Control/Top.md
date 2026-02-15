@@ -20,38 +20,38 @@ description: "Master Crackhead Control Top in BJJ. Dominant turtle attack with c
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Turtle to Back Take",
-      "text": "From this position, attempt Turtle to Back Take. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Turtle to Truck",
+      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Turtle to Truck",
-      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Crucifix from Turtle",
+      "text": "From this position, attempt Crucifix from Turtle. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Crucifix from Turtle",
-      "text": "From this position, attempt Crucifix from Turtle. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Crab Ride to Back",
+      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Crab Ride to Back",
-      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Anaconda from Turtle",
+      "text": "From this position, attempt Anaconda from Turtle. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Anaconda from Turtle",
-      "text": "From this position, attempt Anaconda from Turtle. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Darce from Turtle",
+      "text": "From this position, attempt Darce from Turtle. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Darce from Turtle",
-      "text": "From this position, attempt Darce from Turtle. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Rolling Back Take",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,19 +210,25 @@ Advanced practitioners understand that crackhead control is not a static positio
 
 ## Available Attacks
 
-### [[Turtle to Back Take]] (17% of attempts)
+### [[Turtle to Truck]] (12% of attempts)
 
-### [[Turtle to Truck]] (15% of attempts)
+### [[Crucifix from Turtle]] (10% of attempts)
 
-### [[Crucifix from Turtle]] (13% of attempts)
+### [[Crab Ride to Back]] (10% of attempts)
 
-### [[Crab Ride to Back]] (16% of attempts)
+### [[Anaconda from Turtle]] (8% of attempts)
 
-### [[Anaconda from Turtle]] (12% of attempts)
+### [[Darce from Turtle]] (8% of attempts)
 
-### [[Darce from Turtle]] (12% of attempts)
+### [[Rolling Back Take]] (10% of attempts)
 
-### [[Rolling Back Take]] (15% of attempts)
+### [[Guillotine from Turtle]] (6% of attempts)
+
+### [[Back Take]] (22% of attempts)
+
+### [[Arm Extraction and Pass]] (8% of attempts)
+
+### [[Double Underhook Pass]] (6% of attempts)
 
 
 

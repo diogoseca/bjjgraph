@@ -20,14 +20,14 @@ description: "Master escaping Knee on Belly Bottom in BJJ. Defensive position re
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Elbow Escape",
-      "text": "From this position, attempt Elbow Escape. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Elbow Escape to Guard",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 17% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape",
-      "text": "From this position, attempt Hip Escape. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Hip Escape to Guard",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
@@ -50,8 +50,8 @@ description: "Master escaping Knee on Belly Bottom in BJJ. Defensive position re
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Standup",
-      "text": "From this position, attempt Technical Standup. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Technical Stand-up",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -165,7 +165,7 @@ Knee on Belly Bottom is a highly disadvantageous defensive position where the pr
 
 ## Position Definition
 
-- Bottom player's back is flat against the mat with shoulders making contact with the ground, limiting mobility and creating vulnerability to pressure-based attacks
+- Bottom player's back is flat against the mat with shoulders making contact with the ground, limiting mobility and creating vulnerability to pressure-based attacks and submission setups from the top player
 - Top player's knee is positioned on bottom player's diaphragm, solar plexus, or sternum with direct downward pressure through their shin and kneecap, making breathing difficult and restricting movement
 - Bottom player's torso experiences constant compressive force from top player's weight distribution, requiring active defensive frames to prevent complete immobilization and submission setup
 - Top player maintains base with their opposite foot posted on the ground and hands controlling bottom player's upper body, creating stable platform for pressure application and attack initiation
@@ -205,9 +205,9 @@ Knee on Belly Bottom is a highly disadvantageous defensive position where the pr
 
 ## Available Escapes
 
-### [[Elbow Escape]] (17% of attempts)
+### [[Elbow Escape to Guard]] (17% of attempts)
 
-### [[Hip Escape]] (14% of attempts)
+### [[Hip Escape to Guard]] (14% of attempts)
 
 ### [[Shrimp Escape]] (16% of attempts)
 
@@ -215,9 +215,9 @@ Knee on Belly Bottom is a highly disadvantageous defensive position where the pr
 
 ### [[Knee Shield Retention]] (16% of attempts)
 
-### [[Technical Standup]] (10% of attempts)
+### [[Technical Stand-up]] (10% of attempts)
 
-### [[Frame and Shrimp]] (14% of attempts)
+### [[Frame and Shrimp to Guard]] (14% of attempts)
 
 
 
@@ -228,18 +228,18 @@ Knee on Belly Bottom is a highly disadvantageous defensive position where the pr
 ## Decision Making from This Position
 
 **If opponent's weight is fully committed to knee pressure with hands posted low:**
-- Execute **[[Hip Escape]]** → [[Half Guard]] (Probability: 50%)
-- Execute **[[Elbow Escape]]** → [[Closed Guard]] (Probability: 45%)
+- Execute **[[Hip Escape to Guard]]** → [[Half Guard]] (Probability: 50%)
+- Execute **[[Elbow Escape to Guard]]** → [[Closed Guard]] (Probability: 45%)
 
 
 **If opponent lifts knee to transition to mount or north-south:**
-- Execute **[[Re-Guard]]** → [[Open Guard]] (Probability: 60%)
+- Execute **[[Guard Recovery]]** → [[Open Guard]] (Probability: 60%)
 - Execute **[[Knee Shield Retention]]** → [[Knee Shield Half Guard]] (Probability: 55%)
 
 
 **If opponent attempts submission and loses base stability:**
 - Execute **[[Ghost Escape]]** → [[Turtle]] (Probability: 50%)
-- Execute **[[Technical Standup]]** → [[Standing Position]] (Probability: 35%)
+- Execute **[[Technical Stand-up]]** → [[Clinch]] (Probability: 35%)
 
 
 **If opponent controls far side collar and near side arm:**
@@ -248,8 +248,8 @@ Knee on Belly Bottom is a highly disadvantageous defensive position where the pr
 
 
 **If opponent's base is narrow with feet close together:**
-- Execute **[[Frame and Shrimp]]** → [[Butterfly Guard]] (Probability: 55%)
-- Execute **[[Hip Escape]]** → [[Open Guard]] (Probability: 50%)
+- Execute **[[Frame and Shrimp to Guard]]** → [[Butterfly Guard]] (Probability: 55%)
+- Execute **[[Hip Escape to Guard]]** → [[Open Guard]] (Probability: 50%)
 
 
 
@@ -350,7 +350,7 @@ Top player establishes knee on belly and actively hunts for submissions (armbar,
 **A**: When the opponent lifts their knee to advance, they momentarily reduce the pinning pressure and create space. This is the optimal window to insert a knee shield or recover to open guard. React immediately by driving your knee between your bodies or shrimping your hips away to establish guard before they can complete the mount transition. The moment of transition is your best escape opportunity.
 
 **Q4**: What makes extending your arms to push against the opponent's knee a critical error?
-**A**: Extended arms become immediately vulnerable to armbars and Americanas - the opponent can simply capture your extended arm and attack the submission. Additionally, pushing creates no effective escape angles because you're fighting their weight vertically rather than creating lateral space. The correct approach is keeping elbows tight and using structural frames that create angles for hip movement rather than vertical push.
+**A**: Extended arms become immediately vulnerable to armbars and Americanas — the opponent can simply capture your extended arm and attack the submission. Additionally, pushing creates no effective escape angles because you're fighting their weight vertically rather than creating lateral space. The correct approach is keeping elbows tight and using structural frames that create angles for hip movement rather than vertical push.
 
 **Q5**: How should you chain escape attempts when your first escape fails?
 **A**: Continue moving immediately without pausing. If the elbow escape to half guard is blocked, transition directly into a shrimp toward open guard. If that's blocked, look for deep half entry. Each escape attempt creates incremental space improvement even if the full escape doesn't succeed. Stopping allows the opponent to re-settle their weight and consolidate control, making subsequent escapes exponentially harder.
@@ -359,7 +359,7 @@ Top player establishes knee on belly and actively hunts for submissions (armbar,
 **A**: When the opponent reaches for submissions, they must compromise their base and redistribute weight. Use this moment of instability to accelerate your escape. Their reaching hand means less control over your movement. Execute your hip escape while simultaneously defending the collar grip with your near hand. The submission attempt creates the opening for escape if you're ready to capitalize on their weight shift.
 
 **Q7**: What breathing strategy helps manage the intense pressure from Knee on Belly?
-**A**: Take short, controlled breaths using your diaphragm rather than chest breathing. Turning to your side shifts the pressure point and creates more breathing room. Don't panic or hold your breath - this depletes energy rapidly. Stay calm and breathe between escape attempts. The pressure is uncomfortable but manageable with proper technique and breathing. Mental composure is essential for executing technical escapes.
+**A**: Take short, controlled breaths using your diaphragm rather than chest breathing. Turning to your side shifts the pressure point and creates more breathing room. Don't panic or hold your breath — this depletes energy rapidly. Stay calm and breathe between escape attempts. The pressure is uncomfortable but manageable with proper technique and breathing. Mental composure is essential for executing technical escapes under duress.
 
 **Q8**: When is Deep Half Guard entry a better option than standard guard recovery from Knee on Belly?
 **A**: Deep Half Guard entry becomes optimal when the opponent shifts their weight forward or moves their knee position toward your hips. This creates space under their base that you can penetrate with your underhook and head. If they're maintaining pressure high on your chest with good posture, standard hip escapes to half or closed guard are better. Deep half requires getting underneath them, which is only possible when space exists under their hips.
@@ -393,8 +393,8 @@ Top player establishes knee on belly and actively hunts for submissions (armbar,
 - **[[Half Guard]]** - Primary escape destination for elbow escape and hip escape techniques
 - **[[Deep Half Guard]]** - Advanced escape destination when opponent shifts weight forward
 - **[[Closed Guard]]** - High-priority escape target for re-establishing offensive guard game
-- **[[Elbow Escape]]** - Primary escape technique using hip movement and frames
-- **[[Hip Escape]]** - Foundational movement pattern for all escape sequences
+- **[[Elbow Escape to Guard]]** - Primary escape technique using hip movement and frames
+- **[[Hip Escape to Guard]]** - Foundational movement pattern for all escape sequences
 - **[[Butterfly Guard]]** - Alternative re-guard destination when hooks can be established
 
 

@@ -21,37 +21,37 @@ description: "Master passing Lasso Guard from top position. Learn systematic cle
     {
       "@type": "HowToStep",
       "name": "Execute Lasso Guard Pass",
-      "text": "From this position, attempt Lasso Guard Pass. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Lasso Guard Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass",
-      "text": "From this position, attempt Stack Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Cut Pass",
-      "text": "From this position, attempt Knee Cut Pass. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Knee Cut Pass. This technique is attempted in 34% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toreando Pass",
-      "text": "From this position, attempt Toreando Pass. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Toreando Pass. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, attempt Long Step Pass. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 3% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -216,21 +216,29 @@ Developing competency on top in lasso guard situations builds fundamental skills
 
 ## Available Attacks
 
-### [[Lasso Guard Pass]] (20% of attempts)
+### [[Lasso Guard Pass]] (15% of attempts)
 
-### [[Stack Pass]] (12% of attempts)
+### [[Stack Pass]] (10% of attempts)
 
-### [[Knee Cut Pass]] (18% of attempts)
+### [[Knee Cut Pass]] (34% of attempts)
 
-### [[Smash Pass]] (12% of attempts)
+### [[Smash Pass]] (8% of attempts)
 
-### [[Toreando Pass]] (15% of attempts)
+### [[Toreando Pass]] (8% of attempts)
 
-### [[Long Step Pass]] (8% of attempts)
+### [[Long Step Pass]] (3% of attempts)
 
-### [[Leg Weave Pass]] (10% of attempts)
+### [[Leg Weave Pass]] (8% of attempts)
 
-### [[Kimura from Standing]] (5% of attempts)
+### [[Kimura]] (3% of attempts)
+
+### [[Body Lock Pass]] (6% of attempts)
+
+### [[Spider Guard Pass]] (3% of attempts)
+
+### [[Lasso Guard Backstep Pass]] (1% of attempts)
+
+### [[Lasso Guard Stack Pass]] (1% of attempts)
 
 
 
@@ -261,7 +269,7 @@ Developing competency on top in lasso guard situations builds fundamental skills
 
 
 **If opponent over-commits to lasso and exposes their non-lasso arm or neck:**
-- Execute **[[Kimura from Standing]]** → [[Kimura Trap]] (Probability: 45%)
+- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 45%)
 - Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 50%)
 
 

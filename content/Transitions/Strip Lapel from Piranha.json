@@ -1,0 +1,13 @@
+{
+  "name": "Strip Lapel from Piranha",
+  "description": "",
+  "tags": [],
+  "from_position": "Piranha Guard/Top",
+  "outcomes": [
+    {
+      "to": "Open Guard/Top",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

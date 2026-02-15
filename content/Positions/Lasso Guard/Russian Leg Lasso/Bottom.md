@@ -20,38 +20,38 @@ description: "Master Russian Leg Lasso Bottom guard. Complete technical guide co
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Lasso Guard Sweeps",
-      "text": "From this position, attempt Lasso Guard Sweeps. This technique is attempted in 22% of exchanges from this position.",
+      "name": "Execute Overhook Sweep",
+      "text": "From this position, attempt Overhook Sweep. This technique is attempted in 35% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute De La Riva Sweep",
-      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Back Take from Bottom",
+      "text": "From this position, attempt Back Take from Bottom. This technique is attempted in 6% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Balloon Sweep",
-      "text": "From this position, attempt Balloon Sweep. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Sickle Sweep",
+      "text": "From this position, attempt Sickle Sweep. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar from Guard",
-      "text": "From this position, attempt Armbar from Guard. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Transition to Inverted Lasso Guard",
+      "text": "From this position, attempt Transition to Inverted Lasso Guard. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -206,19 +206,23 @@ Russian Leg Lasso Bottom represents one of the most technically sophisticated op
 
 ## Available Escapes
 
-### [[Lasso Guard Sweeps]] (22% of attempts)
+### [[Overhook Sweep]] (35% of attempts)
 
-### [[Triangle Setup]] (16% of attempts)
+### [[Triangle Setup]] (11% of attempts)
 
-### [[Omoplata Sweep]] (14% of attempts)
+### [[Omoplata Sweep]] (12% of attempts)
 
-### [[De La Riva Sweep]] (13% of attempts)
+### [[Back Take from Bottom]] (6% of attempts)
 
-### [[Balloon Sweep]] (12% of attempts)
+### [[Sickle Sweep]] (13% of attempts)
 
-### [[Armbar from Guard]] (11% of attempts)
+### [[Transition to Inverted Lasso Guard]] (8% of attempts)
 
-### [[Back Take Generic]] (12% of attempts)
+### [[Omoplata]] (10% of attempts)
+
+### [[Russian Lasso Sweep]] (3% of attempts)
+
+### [[Russian Lasso to De La Riva]] (2% of attempts)
 
 
 
@@ -230,22 +234,22 @@ Russian Leg Lasso Bottom represents one of the most technically sophisticated op
 
 **If opponent maintains distance and attempts to break collar grip:**
 - Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 55%)
-- Execute **[[Lasso Guard Sweeps]]** → [[Mount]] (Probability: 45%)
+- Execute **[[Overhook Sweep]]** → [[Mount]] (Probability: 45%)
 
 
 **If opponent drives forward with pressure attempting to smash pass:**
-- Execute **[[Lasso Guard Sweeps]]** → [[Mount]] (Probability: 55%)
+- Execute **[[Elevator Sweep]]** → [[Mount]] (Probability: 55%)
 - Execute **[[Omoplata Sweep]]** → [[Omoplata Control]] (Probability: 45%)
 
 
 **If opponent circles away from lasso attempting to disengage:**
-- Execute **[[Lasso Guard Sweeps]]** → [[Mount]] (Probability: 50%)
+- Execute **[[Sickle Sweep]]** → [[Mount]] (Probability: 50%)
 - Execute **[[De La Riva Sweep]]** → [[Back Control]] (Probability: 50%)
 
 
 **If opponent establishes strong base and begins systematic grip breaking:**
-- Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 45%)
-- Execute **[[Armbar from Guard]]** → [[Armbar Control]] (Probability: 55%)
+- Execute **[[Back Take from Bottom]]** → [[Back Control]] (Probability: 45%)
+- Execute **[[Armbar Finish]]** → [[Armbar Control]] (Probability: 55%)
 
 
 
@@ -303,7 +307,7 @@ Bottom player starts in open guard and works to establish full Russian Leg Lasso
 
 ### Sweep Chain Flow Drill
 
-With Russian Leg Lasso established, bottom player flows between sweep attempts: Russian Lasso sweep, overhead sweep, and omoplata sweep. Top player defends each sweep with characteristic defense, creating opportunity for next sweep in chain. Emphasizes recognizing defensive patterns and transitioning attacks smoothly.
+With Russian Leg Lasso established, bottom player flows between sweep attempts: overhead sweep, sickle sweep, and omoplata sweep. Top player defends each sweep with characteristic defense, creating opportunity for next sweep in chain. Emphasizes recognizing defensive patterns and transitioning attacks smoothly.
 
 **Duration**: 5 minutes per partner
 
@@ -387,7 +391,7 @@ Russian Leg Lasso established, but top player actively works to break collar and
 - **[[Triangle Control]]** - Primary submission entry from Russian Leg Lasso when opponent defends sweeps
 - **[[Omoplata Control]]** - Alternative submission path when opponent postures or drives into lasso
 - **[[Open Guard]]** - Parent category and foundation for understanding all open guard variations
-- **[[Lasso Guard Sweeps]]** - Core offensive technique category for this position
+- **[[Overhook Sweep]]** - Core offensive technique applicable from this guard configuration
 
 
 </section>

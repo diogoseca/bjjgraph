@@ -95,17 +95,21 @@ In the 10th Planet system, Chill Dog serves as a critical defensive position tha
 ### Available Transitions
 
 
-- **[[Granby Roll]]** (18% of attempts)
+- **[[Granby Roll to Guard]]** (15% of attempts)
 
-- **[[Granby to Closed Guard]]** (15% of attempts)
+- **[[Granby to Closed Guard]]** (12% of attempts)
 
-- **[[Technical Standup]]** (20% of attempts)
+- **[[Technical Stand-up]]** (26% of attempts)
 
-- **[[Rolling to Guard]]** (15% of attempts)
+- **[[Rolling to Guard]]** (12% of attempts)
 
-- **[[Turtle to Guard]]** (17% of attempts)
+- **[[Turtle to Guard]]** (14% of attempts)
 
-- **[[Hip Escape]]** (15% of attempts)
+- **[[Hip Escape to Guard]]** (12% of attempts)
+
+- **[[Escape Chill Dog]]** (6% of attempts)
+
+- **[[Roll from Chill Dog]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -170,19 +174,23 @@ In the 10th Planet system, Chill Dog serves as a critical defensive position tha
 ### Available Transitions
 
 
-- **[[Turtle to Back Control]]** (20% of attempts)
+- **[[Turtle to Back Control]]** (24% of attempts)
 
-- **[[Crucifix from Turtle]]** (15% of attempts)
+- **[[Crucifix from Turtle]]** (13% of attempts)
 
-- **[[Darce Setup]]** (13% of attempts)
+- **[[Darce Setup]]** (11% of attempts)
 
-- **[[Anaconda Setup]]** (12% of attempts)
+- **[[Anaconda Setup]]** (10% of attempts)
 
-- **[[Front Headlock to Back]]** (15% of attempts)
+- **[[Front Headlock to Back]]** (13% of attempts)
 
-- **[[Truck Entry]]** (13% of attempts)
+- **[[Truck Entry]]** (11% of attempts)
 
-- **[[Guillotine Setup]]** (12% of attempts)
+- **[[Guillotine Setup]]** (10% of attempts)
+
+- **[[Posture from Chill Dog]]** (5% of attempts)
+
+- **[[Stack from Chill Dog]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -237,11 +245,7 @@ In the 10th Planet system, Chill Dog serves as a critical defensive position tha
 
 - **[[Front Headlock]]** - Common opponent attack requiring technical stand-up escape
 
-- **[[Twister Control]]** - 10th Planet-specific opponent attack if hooks are inserted
-
 - **[[Butterfly Guard]]** - Escape option when sitting back from compact posture
-
-- **[[Rubber Guard]]** - 10th Planet guard system to recover after escape
 
 - **[[Lockdown]]** - 10th Planet half guard option after escape sequence
 

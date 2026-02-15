@@ -20,38 +20,38 @@ description: "Master offensive strategies from Twister Control Top. Complete gui
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Guillotine Choke",
-      "text": "From this position, attempt Guillotine Choke. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Twister Finish",
+      "text": "From this position, attempt Twister Finish. This technique is attempted in 30% of exchanges from this position.",
       "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Calf Slicer from Truck",
-      "text": "From this position, attempt Calf Slicer from Truck. This technique is attempted in 9% of exchanges from this position.",
-      "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take",
       "text": "From this position, attempt Back Take. This technique is attempted in 23% of exchanges from this position.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Guillotine Choke",
+      "text": "From this position, attempt Guillotine Choke. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Neck Crank",
-      "text": "From this position, attempt Neck Crank. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Calf Slicer",
+      "text": "From this position, attempt Calf Slicer. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Banana Split",
-      "text": "From this position, attempt Banana Split. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Neck Crank",
+      "text": "From this position, attempt Neck Crank. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Twister",
-      "text": "From this position, attempt Twister. This technique is attempted in 30% of exchanges from this position.",
+      "text": "From this position, attempt Twister. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,17 +212,17 @@ One critical aspect that differentiates elite-level Twister Control from interme
 
 ## Available Attacks
 
-### [[Guillotine Choke]] (15% of attempts)
-
-### [[Calf Slicer from Truck]] (9% of attempts)
+### [[Twister Finish]] (30% of attempts)
 
 ### [[Back Take]] (23% of attempts)
 
-### [[Neck Crank]] (9% of attempts)
+### [[Guillotine Choke]] (15% of attempts)
 
-### [[Banana Split]] (14% of attempts)
+### [[Calf Slicer]] (12% of attempts)
 
-### [[Twister]] (30% of attempts)
+### [[Neck Crank]] (11% of attempts)
+
+### [[Twister]] (9% of attempts)
 
 
 
@@ -302,7 +302,7 @@ Establish Twister Control and maintain position while partner attempts systemati
 
 ### Submission Chain Flow
 
-From established Twister Control, flow between Twister attempt, guillotine, calf slicer, banana split, and back takes. Partner defends but does not escape. Build understanding of how each attack chains into the next.
+From established Twister Control, flow between Twister attempt, guillotine, calf slicer, and back takes. Partner defends but does not escape. Build understanding of how each attack chains into the next.
 
 **Duration**: 4 minutes
 
@@ -346,14 +346,11 @@ Partner provides specific defensive reactions from Twister Control bottom. Pract
 
 ## Related Positions and Techniques
 
-- **[[Truck]]** - Primary entry position leading to Twister Control establishment
 - **[[Back Control]]** - Alternative control position to transition to when Twister Control breaks down
 - **[[Crab Ride]]** - Related back exposure position with similar control concepts and entry pathways
 - **[[Lockdown]]** - Bottom position in 10th Planet system that leads to truck and Twister entries
-- **[[Turtle]]** - Common starting position for entries into Twister system via crab ride
-- **[[Twister Finish]]** - Primary submission technique from this position targeting spinal rotation
-- **[[Banana Split]]** - Alternative submission attack from same control configuration targeting groin
-- **[[Calf Slicer from Truck]]** - Lower body compression attack using the same leg entanglement
+- **[[Front Headlock]]** - Alternative control when opponent turns into you escaping Twister rotation
+- **[[Guillotine Control]]** - Submission control position accessible when opponent exposes neck during escape
 
 
 </section>

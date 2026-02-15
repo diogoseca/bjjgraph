@@ -1,0 +1,13 @@
+{
+  "name": "Reguard from Pocket Half Guard",
+  "description": "",
+  "tags": [],
+  "from_position": "Pocket Half Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

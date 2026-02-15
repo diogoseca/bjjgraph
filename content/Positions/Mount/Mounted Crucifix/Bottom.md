@@ -21,19 +21,19 @@ description: "Escape the mounted crucifix position in BJJ. Comprehensive guide c
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction",
-      "text": "From this position, attempt Arm Extraction. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Arm Extraction. This technique is attempted in 20% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Elbow Escape",
-      "text": "From this position, attempt Elbow Escape. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Elbow Escape to Guard",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 16% of exchanges from this position.",
       "position": 3
     },
     {
@@ -44,8 +44,8 @@ description: "Escape the mounted crucifix position in BJJ. Comprehensive guide c
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape",
-      "text": "From this position, attempt Hip Escape. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Hip Escape to Guard",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
@@ -216,21 +216,21 @@ Ultimately, the best defense against mounted crucifix bottom is prevention. Unde
 
 ## Available Escapes
 
-### [[Arm Extraction]] (18% of attempts)
+### [[Arm Extraction]] (20% of attempts)
 
-### [[Bridge and Roll]] (12% of attempts)
+### [[Bridge and Roll]] (14% of attempts)
 
-### [[Elbow Escape]] (16% of attempts)
+### [[Elbow Escape to Guard]] (16% of attempts)
 
 ### [[Upa Escape]] (11% of attempts)
 
-### [[Hip Escape]] (14% of attempts)
+### [[Hip Escape to Guard]] (14% of attempts)
 
 ### [[Explosive Bridge to Turtle]] (12% of attempts)
 
-### [[Arm Drag Sweep]] (8% of attempts)
+### [[Arm Drag Sweep]] (5% of attempts)
 
-### [[Rolling Escape]] (9% of attempts)
+### [[Rolling Escape to Guard]] (8% of attempts)
 
 
 
@@ -241,27 +241,27 @@ Ultimately, the best defense against mounted crucifix bottom is prevention. Unde
 ## Decision Making from This Position
 
 **If opponent attacks neck with choke while arms are trapped:**
-- Execute **[[Chin Protection]]** → [[Mounted Crucifix]] (Probability: 70%)
-- Execute **[[Explosive Bridge]]** → [[Turtle]] (Probability: 25%)
+- Execute **[[Chin Protection and Shoulder Defense]]** → [[Mounted Crucifix]] (Probability: 70%)
+- Execute **[[Explosive Bridge to Turtle]]** → [[Turtle]] (Probability: 25%)
 - Execute **[[Tap Out]]** → [[game-over]] (Probability: 5%)
 
 
 **If opponent isolates free arm for submission attempt:**
 - Execute **[[Arm Extraction]]** → [[Mount]] (Probability: 45%)
-- Execute **[[Hip Escape]]** → [[Open Guard]] (Probability: 35%)
-- Execute **[[Defensive Framing]]** → [[Mount]] (Probability: 20%)
+- Execute **[[Hip Escape to Guard]]** → [[Open Guard]] (Probability: 35%)
+- Execute **[[Frame Creation]]** → [[Mount]] (Probability: 20%)
 
 
 **If opponent shifts weight to transition to back control:**
 - Execute **[[Bridge and Roll]]** → [[Closed Guard]] (Probability: 35%)
-- Execute **[[Elbow Escape]]** → [[Half Guard]] (Probability: 40%)
-- Execute **[[Accept Back Control]]** → [[Back Control]] (Probability: 25%)
+- Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 40%)
+- Execute **[[Shrimp Escape]]** → [[Back Control]] (Probability: 25%)
 
 
 **If opponent loosens leg control temporarily:**
 - Execute **[[Arm Extraction]]** → [[Mount]] (Probability: 55%)
 - Execute **[[Explosive Bridge to Turtle]]** → [[Turtle]] (Probability: 30%)
-- Execute **[[Hip Escape]]** → [[Half Guard]] (Probability: 15%)
+- Execute **[[Hip Escape to Guard]]** → [[Half Guard]] (Probability: 15%)
 
 
 

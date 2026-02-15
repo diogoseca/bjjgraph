@@ -1,227 +1,42 @@
 {
   "name": "Inside Ashi-Garami to Cross Ashi",
-  "description": "Master the Inside Ashi-Garami to Cross Ashi transition in BJJ. Step-by-step leg reconfiguration mechanics. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "description": "Master the Inside Ashi-Garami to Cross Ashi transition in BJJ. Step-by-step leg reconfiguration mechanics for superior heel hook finishing angles.",
   "tags": [
     "bjj",
     "transition",
     "leg-entanglement",
     "ashi-garami",
     "no-gi",
-    "intermediate"
+    "intermediate",
+    "leg-locks",
+    "cross-ashi"
   ],
   "from_position": "Inside Ashi-Garami/Top",
   "outcomes": [
     {
-      "to": "Cross Ashi-Garami",
-      "probability": 65,
+      "to": "Cross Ashi-Garami/Top",
+      "probability": 60,
       "result": "success"
     },
     {
-      "to": "Inside Ashi-Garami",
-      "probability": 25,
+      "to": "Inside Ashi-Garami/Top",
+      "probability": 30,
       "result": "failure"
     },
     {
-      "to": "Open Guard",
+      "to": "Open Guard/Bottom",
       "probability": 10,
       "result": "counter"
     }
   ],
+  "success_rate": 58,
   "overview": "The Inside Ashi-Garami to Cross Ashi transition is a fundamental positional advancement within modern leg lock systems that allows the attacker to shift from Inside Ashi-Garami to Cross Ashi-Garami when the opponent's defensive positioning creates better finishing angles from the crossed configuration. This transition becomes essential when the opponent rotates their knee inward to defend heel exposure from Inside Ashi, effectively hiding the heel but exposing vulnerability from a perpendicular cross-body angle.\n\nThe mechanical change involves reconfiguring your leg position from parallel ashi (inside hook across hip with outside hook behind knee) to crossed ashi (both legs creating an X-pattern across opponent's trapped leg). This crossed configuration provides superior rotational control and creates a wedge effect that prevents the opponent from sitting up or turning effectively. The key is maintaining constant heel control throughout the transition while your legs switch positions.\n\nStrategically, this transition serves as an essential response when opponents successfully defend Inside Ashi attacks by rotating their knee line away from danger. Rather than forcing suboptimal attacks, advanced practitioners recognize when the opponent's defensive movement actually creates better opportunities from Cross Ashi. The ability to fluidly transition between ashi configurations based on opponent reactions is characteristic of high-level leg lock systems and demonstrates sophisticated positional awareness.",
-  "key_principles": [
-    "Maintain constant heel grip tension throughout the entire transition to preserve submission threat",
-    "Use your inside leg as the primary anchor while reconfiguring the outside leg position",
-    "Time the transition during opponent's defensive adjustment when their focus is on heel protection",
-    "Hip repositioning is essential - rotate to face opponent's leg directly for perpendicular alignment",
-    "The crossed leg configuration creates a wedge that prevents opponent from sitting up effectively",
-    "Recognize that opponent's knee rotation often signals optimal timing for this transition"
+  "conditions": [
+    "Established Inside Ashi-Garami with inside leg across opponent's hip and outside leg behind knee",
+    "Opponent has rotated knee inward or adjusted defensively to hide heel from Inside Ashi attacks",
+    "At least one hand maintaining firm heel or ankle control throughout",
+    "Cross Ashi finishing angles are demonstrably superior to current Inside Ashi angles"
   ],
-  "setup_requirements": [
-    "Established Inside Ashi-Garami position with inside leg across opponent's hip",
-    "Outside leg hooking behind opponent's knee with secure control of trapped leg",
-    "Opponent's defensive positioning makes Cross Ashi finishing angles superior to Inside Ashi",
-    "At least one hand maintaining firm control on opponent's heel or ankle",
-    "Sufficient hip mobility to reconfigure leg position while maintaining entanglement control"
-  ],
-  "execution_steps": [
-    {
-      "step_number": 1,
-      "action": "Assess positioning",
-      "description": "Evaluate opponent's hip orientation and knee line. Confirm that Cross Ashi configuration will provide better finishing angles than current Inside Ashi position. Their inward knee rotation often signals this opportunity."
-    },
-    {
-      "step_number": 2,
-      "action": "Secure heel grip",
-      "description": "Establish firm two-hand cup grip on opponent's heel with palm across Achilles and fingers toward toes. This grip must be maintained throughout the entire transition sequence to preserve control and submission threat."
-    },
-    {
-      "step_number": 3,
-      "action": "Anchor inside leg",
-      "description": "Drive your inside leg deeper across opponent's hip to create a stable anchor point. This leg maintains constant pressure throughout the transition and prevents opponent from creating separation or sitting up."
-    },
-    {
-      "step_number": 4,
-      "action": "Retract outside leg",
-      "description": "Begin retracting your outside leg from behind opponent's knee while maintaining strong inside leg pressure. Pull your outside knee toward your chest to create space for repositioning to the crossed configuration."
-    },
-    {
-      "step_number": 5,
-      "action": "Rotate hips",
-      "description": "Actively rotate your hips to face more directly toward opponent's trapped leg. This hip repositioning creates the perpendicular alignment necessary for Cross Ashi control and optimal finishing leverage."
-    },
-    {
-      "step_number": 6,
-      "action": "Cross outside leg",
-      "description": "Thread your outside leg across opponent's trapped leg at shin level, positioning your calf against the outside of their lower leg. The cross should be tight with your shin making firm contact and no space between legs."
-    },
-    {
-      "step_number": 7,
-      "action": "Adjust inside leg position",
-      "description": "Reposition your inside leg to complete the crossed configuration. Your legs now form an X-pattern around opponent's trapped leg, with the inside leg maintaining hip control while creating the wedge effect."
-    },
-    {
-      "step_number": 8,
-      "action": "Consolidate and attack",
-      "description": "Settle into Cross Ashi-Garami by tightening all control points. Verify perpendicular hip alignment and heel exposure. Assess whether to attack immediately with heel hook or advance to Saddle for higher control."
-    }
-  ],
-  "common_counters": [
-    {
-      "counter": "Opponent retracts leg during transition when control loosens between configurations",
-      "effectiveness": "High",
-      "your_response": "Accelerate transition while increasing heel grip tension. If leg begins escaping, immediately return to Inside Ashi and reset before attempting again with better timing"
-    },
-    {
-      "counter": "Opponent sits up aggressively during the switch to establish upper body frames and create distance",
-      "effectiveness": "Medium",
-      "your_response": "Drive your inside leg deeper across their hip and pull heel tighter to chest. The submission threat forces them back down. Complete transition and threaten heel hook immediately"
-    },
-    {
-      "counter": "Opponent turns toward the entanglement to enter their own leg attacks on your exposed leg",
-      "effectiveness": "Medium",
-      "your_response": "Use your inside leg to block their hip rotation. If they achieve angle, complete transition quickly to attack first or address their leg threat before continuing"
-    },
-    {
-      "counter": "Opponent kicks free leg into your hip to create separation during leg reconfiguration",
-      "effectiveness": "Low",
-      "your_response": "Absorb the kick by staying compact and connected. Use their pushing energy to help rotate your hips into the cross position. Their extended leg often creates better finishing angles"
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Releasing heel grip during leg reconfiguration to use hands for balance",
-      "consequence": "Opponent immediately defends heel exposure or extracts leg while grip is absent, losing all submission threat and positional control",
-      "correction": "Maintain at least one hand on heel or ankle throughout entire transition. Use leg positioning and core strength for balance rather than releasing grip"
-    },
-    {
-      "error": "Moving both legs simultaneously during the switch rather than anchoring with inside leg",
-      "consequence": "Creates complete loss of entanglement control allowing opponent to escape entirely or enter counter-attack on your legs",
-      "correction": "Use inside leg as anchor point that maintains constant control while outside leg reconfigures. Never release both legs from control simultaneously"
-    },
-    {
-      "error": "Failing to adjust hip angle during transition, ending in suboptimal Cross Ashi positioning",
-      "consequence": "Achieves leg cross but without perpendicular hip alignment, significantly reducing finishing leverage and control quality",
-      "correction": "Actively rotate hips to face opponent's trapped leg during transition. Hip repositioning is as important as leg repositioning for proper configuration"
-    },
-    {
-      "error": "Crossing outside leg too high on opponent's thigh instead of at shin level",
-      "consequence": "Reduced control over lower leg and heel, making it easier for opponent to clear the cross and escape the entanglement",
-      "correction": "Position outside leg cross at mid-shin to ankle level for maximum leverage over foot and heel. Lower crossing provides better control"
-    },
-    {
-      "error": "Rushing transition without proper setup, creating multiple gaps in control",
-      "consequence": "Multiple escape windows open simultaneously allowing opponent to exploit the transition period and escape or counter",
-      "correction": "Execute transition with deliberate precision, ensuring each phase completes before moving to next step. Speed comes from efficiency, not rushing"
-    },
-    {
-      "error": "Attempting transition when Inside Ashi attacks are still available and superior",
-      "consequence": "Unnecessary transition creates escape opportunity when submission was available from original position",
-      "correction": "Only transition when opponent's defensive positioning genuinely favors Cross Ashi angles. Don't transition just for the sake of movement"
-    }
-  ],
-  "training_progressions": [
-    {
-      "phase": "Week 1-2",
-      "focus": "Mechanics isolation",
-      "description": "Practice the leg reconfiguration movement pattern without resistance. Partner holds static Inside Ashi position while you drill switching to Cross Ashi configuration. Focus on maintaining inside leg anchor and proper hip rotation. Perform 25-30 repetitions per session emphasizing smooth mechanics."
-    },
-    {
-      "phase": "Week 3-4",
-      "focus": "Grip maintenance",
-      "description": "Add heel grip retention requirement throughout transition. Partner provides light defensive reactions including minor leg retraction and slight hip movement. Focus on never releasing heel control during the switch. Drill 20 transitions per session with grip verification after each repetition."
-    },
-    {
-      "phase": "Week 5-6",
-      "focus": "Timing and recognition",
-      "description": "Practice recognizing when Cross Ashi offers better finishing angles than Inside Ashi. Partner varies hip positioning and heel exposure through different defensive reactions. Execute transition only when appropriate, staying in Inside Ashi when it offers better attacks."
-    },
-    {
-      "phase": "Week 7+",
-      "focus": "Live integration",
-      "description": "Incorporate transition into full leg lock flow training with complete resistance. Start from various leg entanglements and practice transitioning between Inside Ashi, Cross Ashi, Saddle, and 50-50 based on opponent's defensive reactions. Include counter-defense against escape attempts during switch."
-    }
-  ],
-  "variants_and_adaptations": [
-    {
-      "variant_name": "Fast switch with continuous pressure",
-      "description": "Maintain maximum heel grip tension while rapidly switching leg configuration. Instead of methodical step-by-step transition, compress steps 4-6 into one fluid movement while keeping constant backward pressure on opponent's leg.",
-      "when_to_use": "When opponent's defense is momentarily stalled and speed is more important than positional precision"
-    },
-    {
-      "variant_name": "Saddle entry combination",
-      "description": "Combine the Cross Ashi transition with immediate Saddle entry by crossing your feet during the outside leg switch. End in Saddle (Honey Hole) rather than standard Cross Ashi for higher control and better finishing position.",
-      "when_to_use": "When opponent has been defending heel hooks effectively and deeper entanglement is needed for finishing"
-    },
-    {
-      "variant_name": "Grip-first transition",
-      "description": "Establish optimal heel hook grip configuration (figure-four behind Achilles) from Inside Ashi before initiating leg switch. Lock finishing grip first, then transition body position around the secured grip.",
-      "when_to_use": "When heel exposure is available but body positioning is suboptimal for finishing from Inside Ashi configuration"
-    }
-  ],
-  "knowledge_assessment": [
-    {
-      "question": "What is the primary goal of the Inside Ashi-Garami to Cross Ashi transition?",
-      "answer": "The primary goal is to reconfigure your leg entanglement from Inside Ashi-Garami to Cross Ashi-Garami when the opponent's defensive positioning (particularly inward knee rotation to hide the heel) makes Inside Ashi attacks suboptimal. This switch provides better mechanical leverage through the wedge effect of crossed legs and creates perpendicular hip alignment for superior heel hook finishes."
-    },
-    {
-      "question": "Which leg serves as the anchor during the transition and why is this critical?",
-      "answer": "The inside leg (positioned across opponent's hip) serves as the anchor throughout the transition. This inside leg maintains constant pressure against opponent's hip, preventing them from sitting up, creating separation, or extracting their trapped leg while your outside leg reconfigures to the crossed position. Releasing this anchor creates immediate escape opportunity."
-    },
-    {
-      "question": "Your opponent rotates their knee inward to hide the heel from Inside Ashi - how does this signal transition timing?",
-      "answer": "When opponent rotates their knee inward, they're defending Inside Ashi heel exposure but simultaneously creating vulnerability from a perpendicular angle. Their rotation positions their heel to be better accessed from Cross Ashi configuration. This defensive movement is actually a trigger indicating optimal timing for the transition rather than a reason to abandon the attack."
-    },
-    {
-      "question": "What grip configuration must be maintained throughout the entire transition?",
-      "answer": "At minimum, one hand must maintain control on opponent's heel or ankle throughout the entire transition. Ideally, a two-hand cup grip with palm across Achilles and fingers toward toes is maintained. Never release both hands for balance or repositioning as this eliminates submission threat and creates immediate escape opportunity."
-    },
-    {
-      "question": "Your opponent begins retracting their leg as you initiate the transition - what is your immediate response?",
-      "answer": "Immediately increase heel grip tension while returning to stable Inside Ashi configuration. Do not continue the transition with compromised control. Once stabilized, assess whether the escape attempt was due to timing issues or if opponent has developed effective counter. Reset position fully before reattempting with better timing or choosing alternative attack."
-    },
-    {
-      "question": "What hip movement is essential during the transition and what does it accomplish?",
-      "answer": "You must actively rotate your hips to face more directly toward opponent's trapped leg during the transition. This hip repositioning creates the perpendicular alignment that defines proper Cross Ashi configuration. Without this hip rotation, you achieve the leg cross but with suboptimal body positioning that reduces finishing leverage and control quality significantly."
-    },
-    {
-      "question": "Where should the outside leg cross be positioned and why?",
-      "answer": "The outside leg should cross at mid-shin to ankle level on opponent's trapped leg, not higher on the thigh. This lower crossing position provides maximum leverage over the foot and heel while making it significantly harder for opponent to clear the cross through kicking or pushing. Crossing too high reduces lower leg control and creates easier escape pathways."
-    },
-    {
-      "question": "When should you combine this transition with immediate Saddle entry?",
-      "answer": "Combine with Saddle entry when opponent has been effectively defending heel hooks from both Inside Ashi and standard Cross Ashi, indicating that deeper entanglement is needed for finishing. By crossing your feet during the outside leg switch to enter Saddle, you achieve higher control with triangle leg configuration. This requires more commitment and hip mobility but provides superior finishing position."
-    },
-    {
-      "question": "Your opponent turns toward the entanglement to counter-attack your legs during the transition - how do you respond?",
-      "answer": "Use your inside leg to block their hip rotation and prevent them from squaring up to your body. If they achieve significant angle toward your legs before you can block, you have three options: complete the transition quickly to attack first before their counter develops, address their leg entanglement threat immediately before continuing your attack, or accept a neutral position like 50-50 to reset the exchange."
-    },
-    {
-      "question": "How do you maintain offensive pressure during the transition to prevent coordinated defense?",
-      "answer": "Maintain heel grip tension throughout the transition to keep submission threat active even during leg reconfiguration. Execute with deliberate efficiency that doesn't create extended defensive windows. The constant heel pressure forces opponent to prioritize heel protection over escape attempts, limiting their ability to mount coordinated defense during the switch. Attack immediately upon completing the transition."
-    }
-  ],
-  "safety_considerations": "The Inside Ashi-Garami to Cross Ashi transition involves movement through leg entanglement positions where heel hook submissions are constantly available. Both training partners must understand heel hook danger and the critical importance of immediate tapping when rotation on the knee begins. During drilling, perform transitions at controlled speed to prevent accidentally catching training partners in finishing positions. Never maintain tight heel hook grips during transition practice at full speed. If partner indicates any knee discomfort during the switch, stop immediately and reset the position. Partners with prior knee injuries should drill this transition with extra caution and significantly reduced intensity. Always communicate clearly about grip pressure and rotational force throughout training.",
-  "position_integration": "The Inside Ashi-Garami to Cross Ashi transition is an essential component of comprehensive leg lock systems, connecting Inside Ashi-Garami to Cross Ashi-Garami within the broader leg entanglement network. This transition allows practitioners to follow opponent's defensive reactions and capitalize on their heel-hiding movements rather than forcing attacks from compromised angles. From Cross Ashi, multiple pathways open: direct heel hook attacks with superior leverage, transition to Saddle for higher control and finishing percentage, or advancement to other leg entanglements based on opponent's continued defense. The ability to fluidly transition between ashi-garami configurations is characteristic of advanced leg lock practitioners who adapt their entanglement to opponent reactions rather than forcing suboptimal attacks.",
   "related_content": [
     {
       "name": "Inside Ashi-Garami",
@@ -241,7 +56,7 @@
     },
     {
       "name": "Heel Hook",
-      "relationship": "Primary submission - main finishing option from Cross Ashi configuration"
+      "relationship": "Primary submission threat - main finishing option from Cross Ashi configuration"
     },
     {
       "name": "Inside Heel Hook",
@@ -264,5 +79,338 @@
       "relationship": "Fundamental concept - underlying principle governing all ashi transitions"
     }
   ],
-  "success_rate": 58
+  "attacker": {
+    "name": "Inside Ashi-Garami to Cross Ashi Attacker",
+    "description": "How to execute Inside Ashi-Garami to Cross Ashi in BJJ. Attacking perspective with setup, execution steps, and counters.",
+    "overview": "The Inside Ashi-Garami to Cross Ashi transition is a fundamental positional advancement within modern leg lock systems that allows the attacker to shift from Inside Ashi-Garami to Cross Ashi-Garami when the opponent's defensive positioning creates better finishing angles from the crossed configuration. This transition becomes essential when the opponent rotates their knee inward to defend heel exposure from Inside Ashi, effectively hiding the heel but exposing vulnerability from a perpendicular cross-body angle.\n\nThe mechanical change involves reconfiguring your leg position from parallel ashi (inside hook across hip with outside hook behind knee) to crossed ashi (both legs creating an X-pattern across opponent's trapped leg). This crossed configuration provides superior rotational control and creates a wedge effect that prevents the opponent from sitting up or turning effectively. The key is maintaining constant heel control throughout the transition while your legs switch positions.\n\nStrategically, this transition serves as an essential response when opponents successfully defend Inside Ashi attacks by rotating their knee line away from danger. Rather than forcing suboptimal attacks, advanced practitioners recognize when the opponent's defensive movement actually creates better opportunities from Cross Ashi. The ability to fluidly transition between ashi configurations based on opponent reactions is characteristic of high-level leg lock systems and demonstrates sophisticated positional awareness.",
+    "key_principles": [
+      "Maintain constant heel grip tension throughout the entire transition to preserve submission threat",
+      "Use your inside leg as the primary anchor while reconfiguring the outside leg position",
+      "Time the transition during opponent's defensive adjustment when their focus is on heel protection",
+      "Hip repositioning is essential - rotate to face opponent's leg directly for perpendicular alignment",
+      "The crossed leg configuration creates a wedge that prevents opponent from sitting up effectively",
+      "Recognize that opponent's knee rotation often signals optimal timing for this transition"
+    ],
+    "setup_requirements": [
+      "Established Inside Ashi-Garami position with inside leg across opponent's hip",
+      "Outside leg hooking behind opponent's knee with secure control of trapped leg",
+      "Opponent's defensive positioning makes Cross Ashi finishing angles superior to Inside Ashi",
+      "At least one hand maintaining firm control on opponent's heel or ankle",
+      "Sufficient hip mobility to reconfigure leg position while maintaining entanglement control"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Assess positioning",
+        "description": "Evaluate opponent's hip orientation and knee line. Confirm that Cross Ashi configuration will provide better finishing angles than current Inside Ashi position. Their inward knee rotation often signals this opportunity."
+      },
+      {
+        "step_number": 2,
+        "action": "Secure heel grip",
+        "description": "Establish firm two-hand cup grip on opponent's heel with palm across Achilles and fingers toward toes. This grip must be maintained throughout the entire transition sequence to preserve control and submission threat."
+      },
+      {
+        "step_number": 3,
+        "action": "Anchor inside leg",
+        "description": "Drive your inside leg deeper across opponent's hip to create a stable anchor point. This leg maintains constant pressure throughout the transition and prevents opponent from creating separation or sitting up."
+      },
+      {
+        "step_number": 4,
+        "action": "Retract outside leg",
+        "description": "Begin retracting your outside leg from behind opponent's knee while maintaining strong inside leg pressure. Pull your outside knee toward your chest to create space for repositioning to the crossed configuration."
+      },
+      {
+        "step_number": 5,
+        "action": "Rotate hips",
+        "description": "Actively rotate your hips to face more directly toward opponent's trapped leg. This hip repositioning creates the perpendicular alignment necessary for Cross Ashi control and optimal finishing leverage."
+      },
+      {
+        "step_number": 6,
+        "action": "Cross outside leg",
+        "description": "Thread your outside leg across opponent's trapped leg at shin level, positioning your calf against the outside of their lower leg. The cross should be tight with your shin making firm contact and no space between legs."
+      },
+      {
+        "step_number": 7,
+        "action": "Adjust inside leg position",
+        "description": "Reposition your inside leg to complete the crossed configuration. Your legs now form an X-pattern around opponent's trapped leg, with the inside leg maintaining hip control while creating the wedge effect."
+      },
+      {
+        "step_number": 8,
+        "action": "Consolidate and attack",
+        "description": "Settle into Cross Ashi-Garami by tightening all control points. Verify perpendicular hip alignment and heel exposure. Assess whether to attack immediately with heel hook or advance to Saddle for higher control."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent retracts leg during transition when control loosens between configurations",
+        "effectiveness": "High",
+        "your_response": "Accelerate transition while increasing heel grip tension. If leg begins escaping, immediately return to Inside Ashi and reset before attempting again with better timing",
+        "targets_outcome": "Open Guard/Bottom"
+      },
+      {
+        "counter": "Opponent sits up aggressively during the switch to establish upper body frames and create distance",
+        "effectiveness": "Medium",
+        "your_response": "Drive your inside leg deeper across their hip and pull heel tighter to chest. The submission threat forces them back down. Complete transition and threaten heel hook immediately",
+        "targets_outcome": "Inside Ashi-Garami/Top"
+      },
+      {
+        "counter": "Opponent turns toward the entanglement to enter their own leg attacks on your exposed leg",
+        "effectiveness": "Medium",
+        "your_response": "Use your inside leg to block their hip rotation. If they achieve angle, complete transition quickly to attack first or address their leg threat before continuing",
+        "targets_outcome": "Open Guard/Bottom"
+      },
+      {
+        "counter": "Opponent kicks free leg into your hip to create separation during leg reconfiguration",
+        "effectiveness": "Low",
+        "your_response": "Absorb the kick by staying compact and connected. Use their pushing energy to help rotate your hips into the cross position. Their extended leg often creates better finishing angles",
+        "targets_outcome": "Inside Ashi-Garami/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing heel grip during leg reconfiguration to use hands for balance",
+        "consequence": "Opponent immediately defends heel exposure or extracts leg while grip is absent, losing all submission threat and positional control",
+        "correction": "Maintain at least one hand on heel or ankle throughout entire transition. Use leg positioning and core strength for balance rather than releasing grip"
+      },
+      {
+        "error": "Moving both legs simultaneously during the switch rather than anchoring with inside leg",
+        "consequence": "Creates complete loss of entanglement control allowing opponent to escape entirely or enter counter-attack on your legs",
+        "correction": "Use inside leg as anchor point that maintains constant control while outside leg reconfigures. Never release both legs from control simultaneously"
+      },
+      {
+        "error": "Failing to adjust hip angle during transition, ending in suboptimal Cross Ashi positioning",
+        "consequence": "Achieves leg cross but without perpendicular hip alignment, significantly reducing finishing leverage and control quality",
+        "correction": "Actively rotate hips to face opponent's trapped leg during transition. Hip repositioning is as important as leg repositioning for proper configuration"
+      },
+      {
+        "error": "Crossing outside leg too high on opponent's thigh instead of at shin level",
+        "consequence": "Reduced control over lower leg and heel, making it easier for opponent to clear the cross and escape the entanglement",
+        "correction": "Position outside leg cross at mid-shin to ankle level for maximum leverage over foot and heel. Lower crossing provides better control"
+      },
+      {
+        "error": "Rushing transition without proper setup, creating multiple gaps in control",
+        "consequence": "Multiple escape windows open simultaneously allowing opponent to exploit the transition period and escape or counter",
+        "correction": "Execute transition with deliberate precision, ensuring each phase completes before moving to next step. Speed comes from efficiency, not rushing"
+      },
+      {
+        "error": "Attempting transition when Inside Ashi attacks are still available and superior",
+        "consequence": "Unnecessary transition creates escape opportunity when submission was available from original position",
+        "correction": "Only transition when opponent's defensive positioning genuinely favors Cross Ashi angles. Don't transition just for the sake of movement"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Mechanics isolation",
+        "description": "Practice the leg reconfiguration movement pattern without resistance. Partner holds static Inside Ashi position while you drill switching to Cross Ashi configuration. Focus on maintaining inside leg anchor and proper hip rotation. Perform 25-30 repetitions per session emphasizing smooth mechanics."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Grip maintenance",
+        "description": "Add heel grip retention requirement throughout transition. Partner provides light defensive reactions including minor leg retraction and slight hip movement. Focus on never releasing heel control during the switch. Drill 20 transitions per session with grip verification after each repetition."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Timing and recognition",
+        "description": "Practice recognizing when Cross Ashi offers better finishing angles than Inside Ashi. Partner varies hip positioning and heel exposure through different defensive reactions. Execute transition only when appropriate, staying in Inside Ashi when it offers better attacks."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live integration",
+        "description": "Incorporate transition into full leg lock flow training with complete resistance. Start from various leg entanglements and practice transitioning between Inside Ashi, Cross Ashi, Saddle, and 50-50 based on opponent's defensive reactions. Include counter-defense against escape attempts during switch."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary goal of the Inside Ashi-Garami to Cross Ashi transition?",
+        "answer": "The primary goal is to reconfigure your leg entanglement from Inside Ashi-Garami to Cross Ashi-Garami when the opponent's defensive positioning (particularly inward knee rotation to hide the heel) makes Inside Ashi attacks suboptimal. This switch provides better mechanical leverage through the wedge effect of crossed legs and creates perpendicular hip alignment for superior heel hook finishes."
+      },
+      {
+        "question": "Which leg serves as the anchor during the transition and why is this critical?",
+        "answer": "The inside leg (positioned across opponent's hip) serves as the anchor throughout the transition. This inside leg maintains constant pressure against opponent's hip, preventing them from sitting up, creating separation, or extracting their trapped leg while your outside leg reconfigures to the crossed position. Releasing this anchor creates immediate escape opportunity."
+      },
+      {
+        "question": "Your opponent rotates their knee inward to hide the heel from Inside Ashi - how does this signal transition timing?",
+        "answer": "When opponent rotates their knee inward, they're defending Inside Ashi heel exposure but simultaneously creating vulnerability from a perpendicular angle. Their rotation positions their heel to be better accessed from Cross Ashi configuration. This defensive movement is actually a trigger indicating optimal timing for the transition rather than a reason to abandon the attack."
+      },
+      {
+        "question": "What grip configuration must be maintained throughout the entire transition?",
+        "answer": "At minimum, one hand must maintain control on opponent's heel or ankle throughout the entire transition. Ideally, a two-hand cup grip with palm across Achilles and fingers toward toes is maintained. Never release both hands for balance or repositioning as this eliminates submission threat and creates immediate escape opportunity."
+      },
+      {
+        "question": "Your opponent begins retracting their leg as you initiate the transition - what is your immediate response?",
+        "answer": "Immediately increase heel grip tension while returning to stable Inside Ashi configuration. Do not continue the transition with compromised control. Once stabilized, assess whether the escape attempt was due to timing issues or if opponent has developed effective counter. Reset position fully before reattempting with better timing or choosing alternative attack."
+      },
+      {
+        "question": "What hip movement is essential during the transition and what does it accomplish?",
+        "answer": "You must actively rotate your hips to face more directly toward opponent's trapped leg during the transition. This hip repositioning creates the perpendicular alignment that defines proper Cross Ashi configuration. Without this hip rotation, you achieve the leg cross but with suboptimal body positioning that reduces finishing leverage and control quality significantly."
+      },
+      {
+        "question": "Where should the outside leg cross be positioned and why?",
+        "answer": "The outside leg should cross at mid-shin to ankle level on opponent's trapped leg, not higher on the thigh. This lower crossing position provides maximum leverage over the foot and heel while making it significantly harder for opponent to clear the cross through kicking or pushing. Crossing too high reduces lower leg control and creates easier escape pathways."
+      },
+      {
+        "question": "When should you combine this transition with immediate Saddle entry?",
+        "answer": "Combine with Saddle entry when opponent has been effectively defending heel hooks from both Inside Ashi and standard Cross Ashi, indicating that deeper entanglement is needed for finishing. By crossing your feet during the outside leg switch to enter Saddle, you achieve higher control with triangle leg configuration. This requires more commitment and hip mobility but provides superior finishing position."
+      },
+      {
+        "question": "Your opponent turns toward the entanglement to counter-attack your legs during the transition - how do you respond?",
+        "answer": "Use your inside leg to block their hip rotation and prevent them from squaring up to your body. If they achieve significant angle toward your legs before you can block, you have three options: complete the transition quickly to attack first before their counter develops, address their leg entanglement threat immediately before continuing your attack, or accept a neutral position like 50-50 to reset the exchange."
+      },
+      {
+        "question": "How do you maintain offensive pressure during the transition to prevent coordinated defense?",
+        "answer": "Maintain heel grip tension throughout the transition to keep submission threat active even during leg reconfiguration. Execute with deliberate efficiency that doesn't create extended defensive windows. The constant heel pressure forces opponent to prioritize heel protection over escape attempts, limiting their ability to mount coordinated defense during the switch. Attack immediately upon completing the transition."
+      }
+    ],
+    "safety_considerations": "The Inside Ashi-Garami to Cross Ashi transition involves movement through leg entanglement positions where heel hook submissions are constantly available. Both training partners must understand heel hook danger and the critical importance of immediate tapping when rotation on the knee begins. During drilling, perform transitions at controlled speed to prevent accidentally catching training partners in finishing positions. Never maintain tight heel hook grips during transition practice at full speed. If partner indicates any knee discomfort during the switch, stop immediately and reset the position. Partners with prior knee injuries should drill this transition with extra caution and significantly reduced intensity. Always communicate clearly about grip pressure and rotational force throughout training."
+  },
+  "defender": {
+    "name": "Inside Ashi-Garami to Cross Ashi Defender",
+    "description": "How to defend against Inside Ashi-Garami to Cross Ashi in BJJ. Recognition cues, defensive options, and escape strategies.",
+    "overview": "Defending the Inside Ashi-Garami to Cross Ashi transition requires understanding the brief window of vulnerability that exists while the attacker reconfigures their legs from parallel to crossed positioning. During this transition, the attacker must temporarily release their outside leg hook from behind your knee, creating a momentary gap in entanglement control that represents your primary escape opportunity. The defender's task is to recognize the transition attempt early through tactile and visual cues, then exploit the control gap before the crossed configuration consolidates.\n\nThe most dangerous aspect of this transition from the defender's perspective is passivity. If you allow the attacker to complete the switch unchallenged, you arrive in Cross Ashi-Garami facing a wedge-like leg configuration that is significantly harder to escape than standard Inside Ashi. The crossed legs prevent you from sitting up effectively and create superior rotational control for heel hook attacks. Your defensive priority must be to act during the transition itself rather than waiting to defend from the completed Cross Ashi position.\n\nSuccessful defense relies on three pillars: early recognition of the transition attempt, aggressive exploitation of the control gap when the outside leg releases, and disciplined leg retraction mechanics that protect your heel throughout the escape. Advanced defenders also develop the ability to convert defensive movement into counter-entanglement opportunities, turning the attacker's transitional vulnerability into your own leg attack entries.",
+    "key_principles": [
+      "Act during the transition window when outside leg control is temporarily released, not after Cross Ashi consolidates",
+      "Keep your trapped knee flexed and heel pulled toward your hip to deny heel exposure throughout the exchange",
+      "Use your free leg aggressively as a frame on attacker's hip to create separation the moment you feel their outside leg release",
+      "Prioritize hand fighting to prevent or strip the attacker's heel grip before they complete the reconfiguration",
+      "Maintain awareness of your own knee line direction to prevent inadvertent heel exposure during defensive movement",
+      "Stay calm and systematic rather than panicking with explosive movements that can worsen your position or cause injury"
+    ],
+    "recognition_cues": [
+      "Attacker's outside leg (hooking behind your knee) begins to retract or loosen, signaling the start of leg reconfiguration",
+      "You feel the attacker's hips rotating to face more directly toward your trapped leg, shifting from parallel to perpendicular alignment",
+      "Attacker's inside leg drives deeper across your hip with increased pressure, indicating they are establishing an anchor before switching",
+      "Heel grip tension increases suddenly as attacker secures the grip tighter before initiating the leg switch",
+      "You notice a brief moment of reduced overall leg pressure as the attacker transitions between configurations"
+    ],
+    "defensive_options": [
+      {
+        "action": "Retract trapped leg aggressively during the outside leg release window by driving your knee toward your chest and pulling your heel tight to your hip",
+        "when_to_use": "The moment you feel the attacker's outside leg hook release from behind your knee, before they can thread it across to the crossed position",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "You extract your leg from the entanglement entirely and recover to open guard where you can re-establish defensive positioning",
+        "risk": "If you fail to fully extract, the attacker may recapture in a tighter configuration or immediately threaten heel hook during your attempted escape"
+      },
+      {
+        "action": "Sit up explosively and establish frames on attacker's shoulders and inside leg while they are focused on leg reconfiguration",
+        "when_to_use": "When the attacker begins retracting their outside leg and their focus shifts to leg positioning rather than controlling your upper body posture",
+        "targets_outcome": "Inside Ashi-Garami/Top",
+        "if_successful": "You prevent the transition from completing and force the attacker back to Inside Ashi where your defensive positioning is stronger and escape options are more numerous",
+        "risk": "If attacker maintains strong heel grip, sitting up can expose your heel further and accelerate the submission threat"
+      },
+      {
+        "action": "Turn into the entanglement and enter your own leg attack by threading your free leg around the attacker's exposed inside leg",
+        "when_to_use": "When attacker commits to the transition and their inside leg becomes accessible as they focus on completing the outside leg cross",
+        "targets_outcome": "Inside Ashi-Garami/Top",
+        "if_successful": "You establish your own Inside Ashi-Garami on the attacker's leg, creating a mutual entanglement exchange where you have offensive options",
+        "risk": "Turning into the entanglement can accelerate heel hook exposure if your timing is poor or the attacker abandons the transition to finish immediately"
+      },
+      {
+        "action": "Strip the attacker's heel grip with aggressive two-on-one hand fighting while simultaneously pushing their inside leg off your hip with your free leg",
+        "when_to_use": "Early in the transition before the attacker can secure the crossed configuration, when their grip may be adjusting during the positional change",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "Without heel control, the attacker cannot threaten submissions and the leg transition becomes purely positional, giving you time to extract your leg",
+        "risk": "Committing both hands to grip fighting leaves you vulnerable if the attacker has already secured a deep grip that you cannot break"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Open Guard/Bottom",
+        "how": "Extract your trapped leg during the outside leg release window by retracting forcefully while framing on attacker's hip with your free leg. Strip their heel grip with two-on-one hand fighting if possible. The key window is the 1-2 seconds when the attacker's outside leg is between positions and total leg control is at its weakest."
+      },
+      {
+        "outcome": "Inside Ashi-Garami/Top",
+        "how": "Prevent the transition from completing by sitting up aggressively and establishing upper body frames the moment the outside leg begins moving. Push the attacker's inside leg off your hip while keeping your knee bent to deny heel exposure. This forces the exchange back to Inside Ashi where your defensive options are more developed."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Remaining passive during the transition and allowing the attacker to complete the switch to Cross Ashi unchallenged",
+        "consequence": "You arrive in a fully consolidated Cross Ashi-Garami where the wedge effect of crossed legs makes escape dramatically harder than it would have been during the transition window",
+        "correction": "Recognize transition cues immediately and act during the reconfiguration window. Any defensive action during the switch is better than waiting for the completed position"
+      },
+      {
+        "error": "Extending your trapped leg straight during escape attempts instead of keeping the knee flexed",
+        "consequence": "Full leg extension provides optimal leverage for the attacker's heel hook finish and can result in immediate knee damage if rotational force is applied",
+        "correction": "Keep your trapped knee bent at all times with heel pulled toward your hip. Use hamstring strength to resist any leg straightening force. A bent leg is dramatically harder to heel hook than a straight one"
+      },
+      {
+        "error": "Panicking and making explosive rotational movements that feed into the heel hook finish",
+        "consequence": "Uncontrolled rotation can apply the exact finishing force the attacker needs for the heel hook, potentially causing serious knee ligament injury",
+        "correction": "Stay calm and move systematically. If you rotate, rotate toward the entanglement (turning into the attacker) rather than away, which reduces heel hook leverage. Never spin explosively against a secured heel grip"
+      },
+      {
+        "error": "Focusing only on leg extraction while ignoring the attacker's heel grip",
+        "consequence": "Even if you partially extract your leg, a maintained heel grip allows the attacker to reattach their entanglement or finish the submission during your escape attempt",
+        "correction": "Address the heel grip first or simultaneously with leg extraction. Two-on-one grip breaks on the heel give you the best chance of clean escape. Without the grip, the attacker's entanglement is significantly weakened"
+      },
+      {
+        "error": "Attempting to stand up without first clearing the leg entanglement",
+        "consequence": "Standing while trapped in an ashi-garami configuration often worsens the position by giving the attacker better finishing angles and potentially injuring your own knee through weight loading on a compromised joint",
+        "correction": "Clear the entanglement before attempting to stand. Extract your leg fully, establish guard, and only then work to stand if desired. Standing should be the final step, not the escape mechanism"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary defensive window during the Inside Ashi to Cross Ashi transition?",
+        "answer": "The primary defensive window occurs when the attacker retracts their outside leg from behind your knee to reposition it across your trapped leg. During this 1-2 second period, their total leg control is at its weakest because one leg is between positions and cannot actively control your movement. This is when leg extraction, sitting up, or counter-entanglement attempts have the highest probability of success."
+      },
+      {
+        "question": "Why is keeping your trapped knee flexed critical when defending this transition?",
+        "answer": "A flexed knee with heel pulled toward your hip dramatically reduces the attacker's heel hook finishing leverage. Full leg extension provides the optimal mechanical configuration for rotational force on your knee ligaments. The bent knee position also makes your leg shorter and harder for the attacker to control during the reconfiguration, creating better extraction opportunities. This single adjustment is the most important defensive habit."
+      },
+      {
+        "question": "Your opponent begins the transition and you feel their outside leg release from behind your knee - what are your immediate priorities in order?",
+        "answer": "First, aggressively retract your trapped leg by driving your knee toward your chest while keeping your heel tight to your hip. Second, simultaneously frame on the attacker's hip with your free leg to create separation and prevent them from following your retraction. Third, engage in hand fighting to strip their heel grip if they still have control. The combination of leg retraction, hip framing, and grip fighting during this window gives you the best chance of complete extraction."
+      },
+      {
+        "question": "When is counter-entanglement a viable defensive strategy during this transition?",
+        "answer": "Counter-entanglement becomes viable when the attacker commits to the transition and their inside leg becomes accessible as they focus on completing the outside leg cross. By threading your free leg around their exposed inside leg, you can enter your own Inside Ashi-Garami. This is best attempted by practitioners with leg lock experience who can manage the dual-threat environment of exchanging leg attacks. Inexperienced defenders should prioritize extraction over counter-entanglement."
+      },
+      {
+        "question": "What is the most dangerous mistake defenders make when caught in this transition?",
+        "answer": "The most dangerous mistake is making explosive rotational movements away from the entanglement while the attacker maintains a heel grip. This rotation applies the exact finishing force needed for a heel hook and can cause severe knee ligament damage in fractions of a second. Any rotation should be toward the attacker (turning into the entanglement) which reduces heel hook leverage, never away. Staying calm and systematic prevents this catastrophic defensive error."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Recognition and defensive positioning",
+        "description": "Partner initiates the Inside Ashi to Cross Ashi transition at slow speed while you practice recognizing the cues: outside leg release, hip rotation, increased heel grip tension. Focus on maintaining proper defensive leg configuration (knee bent, heel to hip) throughout. No escape attempts yet - just recognition and positioning. 20 repetitions per session."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Escape timing during transition window",
+        "description": "Partner performs the transition at 40-50% speed while you practice exploiting the outside leg release window. Drill leg retraction, sitting up with frames, and grip stripping as separate techniques first, then combine them. Partner provides light resistance but allows successful escapes when timing is correct. 15 repetitions per escape method per session."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Counter-entanglement and decision-making",
+        "description": "Practice choosing between extraction and counter-entanglement based on available opportunities. Partner varies the transition speed and available openings. Develop the ability to read whether extraction or counter-attack is more viable in each specific scenario. Include hand fighting drills against the heel grip at 60% resistance."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Full resistance integration",
+        "description": "Incorporate defense into live leg lock training with full resistance. Start from Inside Ashi-Garami and defend the transition attempt in real time. Partner attempts to complete the transition while you select and execute the best defensive response. Alternate between extraction, counter-entanglement, and transition prevention based on what the attacker presents."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Fast switch with continuous pressure",
+      "description": "Maintain maximum heel grip tension while rapidly switching leg configuration. Instead of methodical step-by-step transition, compress steps 4-6 into one fluid movement while keeping constant backward pressure on opponent's leg.",
+      "when_to_use": "When opponent's defense is momentarily stalled and speed is more important than positional precision"
+    },
+    {
+      "variant_name": "Saddle entry combination",
+      "description": "Combine the Cross Ashi transition with immediate Saddle entry by crossing your feet during the outside leg switch. End in Saddle (Honey Hole) rather than standard Cross Ashi for higher control and better finishing position.",
+      "when_to_use": "When opponent has been defending heel hooks effectively and deeper entanglement is needed for finishing"
+    },
+    {
+      "variant_name": "Grip-first transition",
+      "description": "Establish optimal heel hook grip configuration (figure-four behind Achilles) from Inside Ashi before initiating leg switch. Lock finishing grip first, then transition body position around the secured grip.",
+      "when_to_use": "When heel exposure is available but body positioning is suboptimal for finishing from Inside Ashi configuration"
+    }
+  ],
+  "position_integration": "The Inside Ashi-Garami to Cross Ashi transition is an essential component of comprehensive leg lock systems, connecting Inside Ashi-Garami to Cross Ashi-Garami within the broader leg entanglement network. This transition allows practitioners to follow opponent's defensive reactions and capitalize on their heel-hiding movements rather than forcing attacks from compromised angles. From Cross Ashi, multiple pathways open: direct heel hook attacks with superior leverage, transition to Saddle for higher control and finishing percentage, or advancement to other leg entanglements based on opponent's continued defense. The ability to fluidly transition between ashi-garami configurations is characteristic of advanced leg lock practitioners who adapt their entanglement to opponent reactions rather than forcing suboptimal attacks."
 }

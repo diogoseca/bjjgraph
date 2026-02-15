@@ -1,0 +1,13 @@
+{
+  "name": "Backstep Pass from Reverse X-Guard",
+  "description": "",
+  "tags": [],
+  "from_position": "Reverse X-Guard/Top",
+  "outcomes": [
+    {
+      "to": "Side Control/Top",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

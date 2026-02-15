@@ -1,0 +1,141 @@
+{
+  "name": "Frame Escape from Shoulder of Justice",
+  "description": "TODO: Write 150-160 character SEO description for Frame Escape from Shoulder of Justice.",
+  "tags": [
+    "bjj",
+    "transition",
+    "escape",
+    "side-control",
+    "shoulder-of-justice"
+  ],
+  "from_position": "Shoulder of Justice/Bottom",
+  "outcomes": [
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 40,
+      "result": "success"
+    },
+    {
+      "to": "Shoulder of Justice/Bottom",
+      "probability": 40,
+      "result": "failure"
+    },
+    {
+      "to": "Mount/Bottom",
+      "probability": 20,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 40,
+  "overview": "TODO: Write overview for Frame Escape from Shoulder of Justice.",
+  "conditions": [
+    "TODO"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "TODO",
+      "description": "TODO",
+      "when_to_use": "TODO"
+    }
+  ],
+  "position_integration": "TODO: Write position integration for Frame Escape from Shoulder of Justice.",
+  "related_content": [
+    {
+      "name": "TODO",
+      "relationship": "TODO"
+    }
+  ],
+  "attacker": {
+    "name": "Frame Escape from Shoulder of Justice Attacker",
+    "description": "TODO: Write attacker description for Frame Escape from Shoulder of Justice.",
+    "overview": "TODO: Write attacker overview for Frame Escape from Shoulder of Justice.",
+    "key_principles": [
+      "TODO"
+    ],
+    "setup_requirements": [
+      "TODO"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "TODO",
+        "description": "TODO"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "TODO",
+        "effectiveness": "Medium",
+        "your_response": "TODO",
+        "targets_outcome": "Shoulder of Justice/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "TODO",
+        "description": "TODO"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "TODO",
+        "answer": "TODO"
+      }
+    ],
+    "safety_considerations": "TODO: Write safety considerations for Frame Escape from Shoulder of Justice."
+  },
+  "defender": {
+    "name": "Frame Escape from Shoulder of Justice Defender",
+    "description": "TODO: Write defender description for Frame Escape from Shoulder of Justice.",
+    "overview": "TODO: Write defender overview for Frame Escape from Shoulder of Justice.",
+    "key_principles": [
+      "TODO"
+    ],
+    "recognition_cues": [
+      "TODO"
+    ],
+    "defensive_options": [
+      {
+        "action": "TODO",
+        "when_to_use": "TODO",
+        "targets_outcome": "Shoulder of Justice/Bottom",
+        "if_successful": "TODO",
+        "risk": "TODO"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "TODO"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "TODO",
+        "consequence": "TODO",
+        "correction": "TODO"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "TODO",
+        "answer": "TODO"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "TODO",
+        "description": "TODO"
+      }
+    ]
+  }
+}

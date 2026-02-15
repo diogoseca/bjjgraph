@@ -1,0 +1,13 @@
+{
+  "name": "Escape Reverse Half Guard",
+  "description": "",
+  "tags": [],
+  "from_position": "Reverse Half Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

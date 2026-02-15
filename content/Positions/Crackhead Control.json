@@ -262,32 +262,44 @@
     },
     "transitions": [
       {
-        "transition": "Turtle to Back Take",
-        "attempt_probability": 17
-      },
-      {
         "transition": "Turtle to Truck",
-        "attempt_probability": 15
+        "attempt_probability": 12
       },
       {
         "transition": "Crucifix from Turtle",
-        "attempt_probability": 13
+        "attempt_probability": 10
       },
       {
         "transition": "Crab Ride to Back",
-        "attempt_probability": 16
+        "attempt_probability": 10
       },
       {
         "transition": "Anaconda from Turtle",
-        "attempt_probability": 12
+        "attempt_probability": 8
       },
       {
         "transition": "Darce from Turtle",
-        "attempt_probability": 12
+        "attempt_probability": 8
       },
       {
         "transition": "Rolling Back Take",
-        "attempt_probability": 15
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Guillotine from Turtle",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Back Take",
+        "attempt_probability": 22
+      },
+      {
+        "transition": "Arm Extraction and Pass",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Double Underhook Pass",
+        "attempt_probability": 6
       }
     ],
     "knowledge_assessment": [
@@ -375,7 +387,7 @@
         "condition": "If opponent attempts to secure seat belt control with both underhooks or cross-face",
         "actions": [
           {
-            "technique": "Granby Roll",
+            "technique": "Granby Roll to Guard",
             "target": "Closed Guard",
             "probability": 50
           },
@@ -390,13 +402,13 @@
         "condition": "If opponent commits heavy chest pressure attempting to flatten turtle",
         "actions": [
           {
-            "technique": "Hip Escape",
+            "technique": "Hip Escape to Guard",
             "target": "Closed Guard",
             "probability": 55
           },
           {
-            "technique": "Technical Standup",
-            "target": "Standing Position",
+            "technique": "Standing up in Base",
+            "target": "Clinch",
             "probability": 40
           }
         ]
@@ -405,7 +417,7 @@
         "condition": "If opponent secures single underhook but maintains distance",
         "actions": [
           {
-            "technique": "Hip Escape",
+            "technique": "Hip Escape to Guard",
             "target": "Half Guard",
             "probability": 60
           },
@@ -420,12 +432,12 @@
         "condition": "If opponent attacks front headlock or guillotine position",
         "actions": [
           {
-            "technique": "Technical Standup",
-            "target": "Standing Position",
+            "technique": "Standing up in Base",
+            "target": "Clinch",
             "probability": 50
           },
           {
-            "technique": "Granby Roll",
+            "technique": "Granby Roll to Guard",
             "target": "Closed Guard",
             "probability": 40
           }
@@ -496,7 +508,7 @@
         "relationship": "Parent traditional position - less dynamic variation"
       },
       {
-        "name": "Granby Roll",
+        "name": "Granby Roll to Guard",
         "relationship": "Primary escape technique from turtle bottom"
       },
       {
@@ -512,7 +524,7 @@
         "relationship": "Essential transition for position improvement"
       },
       {
-        "name": "Technical Standup",
+        "name": "Standing up in Base",
         "relationship": "Standing escape option from turtle"
       },
       {
@@ -538,28 +550,36 @@
     },
     "transitions": [
       {
-        "transition": "Turtle to Guard",
-        "attempt_probability": 18
-      },
-      {
-        "transition": "Granby Roll",
-        "attempt_probability": 15
-      },
-      {
-        "transition": "Technical Standup",
-        "attempt_probability": 17
-      },
-      {
-        "transition": "Sit Through Escape",
-        "attempt_probability": 19
-      },
-      {
-        "transition": "Deep Half Entry",
+        "transition": "Granby Roll to Guard",
         "attempt_probability": 14
       },
       {
-        "transition": "Hip Escape",
-        "attempt_probability": 17
+        "transition": "Standing up in Base",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Sit Through Escape",
+        "attempt_probability": 26
+      },
+      {
+        "transition": "Peterson Roll",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Crackhead Control to Carni",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Crackhead Control to Mission Control",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Crackhead Control to New York",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Posture Recovery to Closed Guard",
+        "attempt_probability": 6
       }
     ],
     "knowledge_assessment": [

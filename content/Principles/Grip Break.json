@@ -349,11 +349,6 @@
       "relationship": "Closely related concept focusing on systematic approach to removing opponent's controls"
     },
     {
-      "name": "Hand Fighting",
-      "content_type": "Principle",
-      "relationship": "No-gi equivalent emphasizing hand control and wrist fighting instead of fabric grips"
-    },
-    {
       "name": "Connection Breaking",
       "content_type": "Principle",
       "relationship": "Broader concept of removing all opponent connections, of which grip breaking is primary component"
@@ -389,7 +384,7 @@
       "relationship": "Position requiring systematic grip breaking to establish passing controls from guard"
     },
     {
-      "name": "Guard Pass",
+      "name": "Pass to Side Control",
       "content_type": "Transition",
       "relationship": "Technical category requiring grip breaking as prerequisite to establishing passing controls"
     }

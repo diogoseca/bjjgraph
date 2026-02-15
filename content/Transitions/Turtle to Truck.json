@@ -1,6 +1,6 @@
 {
   "name": "Turtle to Truck",
-  "description": "Master the Turtle to Truck transition in BJJ. Step-by-step execution from Turtle to Truck position. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.",
+  "description": "Master the Turtle to Truck transition in BJJ. Step-by-step execution from Turtle to Truck position with complete attacker and defender analysis.",
   "tags": [
     "bjj",
     "transition",
@@ -29,227 +29,8 @@
       "result": "counter"
     }
   ],
+  "success_rate": 60,
   "overview": "The transition to Truck is a fundamental movement within the 10th Planet Jiu-Jitsu system and modern no-gi grappling. When an opponent assumes the turtle position, the Truck offers a devastating alternative to traditional back takes, providing access to the Twister submission, various calf slicers, and back control options. The Truck position involves controlling the opponent's leg while maintaining a specific body configuration that creates the signature \"truck\" shape - hence the name. This transition is particularly effective because it exploits the turtle position's inherent vulnerability to leg attacks while the opponent focuses on defending their neck and preventing traditional back takes. The Truck serves as a gateway position within the larger Twister system, allowing the attacker to create multiple submission threats simultaneously. What makes this transition especially valuable is its ability to bypass traditional back defense protocols, as most practitioners are conditioned to defend against seat belt control rather than leg-based attacks from turtle. The success of this transition relies on timing, understanding weight distribution, and the ability to coordinate upper and lower body control simultaneously.",
-  "key_principles": [
-    "Control the far leg while maintaining pressure on the turtle",
-    "Create angles by positioning your body perpendicular to opponent",
-    "Use your leg as a hook to prevent opponent from rolling away",
-    "Maintain constant pressure to prevent opponent from standing or recovering guard",
-    "Coordinate upper body grips with lower body positioning",
-    "Understand the relationship between Truck and other back attack systems",
-    "Recognize timing windows when opponent commits weight forward"
-  ],
-  "setup_requirements": [
-    "Opponent in turtle position with head down and hips elevated",
-    "You are positioned behind or beside the turtle with chest-to-back pressure",
-    "Access to opponent's far leg (leg furthest from you)",
-    "Opponent's weight is distributed forward onto their hands",
-    "Clear space to insert your leg as a hook between their legs",
-    "Upper body control established (collar tie, overhook, or cross face)",
-    "Opponent not actively standing up or explosively moving"
-  ],
-  "execution_steps": [
-    {
-      "step_number": 1,
-      "action": "Establish side position",
-      "description": "From turtle, position yourself perpendicular to your opponent's body, chest to their ribs. Establish a cross face or collar tie with your near arm while maintaining tight chest-to-back pressure. Your hips should be lower than theirs to prevent them from sitting back into you."
-    },
-    {
-      "step_number": 2,
-      "action": "Secure the far leg",
-      "description": "Reach your far arm under their body and grip their far knee or shin from the inside. This grip is critical - you're controlling the leg that will become trapped in the Truck. Pull this leg slightly toward you while maintaining upper body control to prevent them from sprawling away."
-    },
-    {
-      "step_number": 3,
-      "action": "Insert your leg hook",
-      "description": "Thread your near leg (the leg closest to their hips) under their far leg, inserting your shin behind their thigh. Your foot should emerge on the far side of their body. This creates the fundamental structure of the Truck - your leg becomes a barrier preventing their escape."
-    },
-    {
-      "step_number": 4,
-      "action": "Triangle your legs",
-      "description": "Bring your far leg over and lock it with your near leg, creating a figure-four or triangle configuration around their trapped leg. Your near foot should be in your far leg's knee pit. This lockdown-style control immobilizes their leg completely and gives you powerful leverage."
-    },
-    {
-      "step_number": 5,
-      "action": "Adjust body position",
-      "description": "Roll slightly onto your side, facing the same direction as your opponent while maintaining the leg triangle. Your upper body should be positioned near their hips, with your chest against their side or lower back. This creates the characteristic Truck position where you're perpendicular to their body."
-    },
-    {
-      "step_number": 6,
-      "action": "Establish boot pressure",
-      "description": "Press your free foot firmly against the opponent's hip or upper thigh, creating the boot pressure that is the engine of the Truck position. This boot acts as a fulcrum generating lateral torque through their spine and lower body, preventing them from squaring up or rolling through."
-    },
-    {
-      "step_number": 7,
-      "action": "Consolidate Truck control",
-      "description": "Secure upper body control by gripping their far arm or controlling their shoulder. Your leg triangle should be locked tight with active pressure pulling their trapped leg away from their body. You're now in full Truck position with access to Twister, calf slicers, and back takes."
-    }
-  ],
-  "common_counters": [
-    {
-      "counter": "Opponent sits back aggressively, trying to sit into you before you secure the leg",
-      "effectiveness": "High",
-      "your_response": "Abandon the Truck entry and transition to back control with seat belt grip. Use their backward momentum to take their back traditionally. Alternatively, switch to a Crab Ride position if they sit partially."
-    },
-    {
-      "counter": "Opponent stands up explosively before you can triangle your legs",
-      "effectiveness": "Medium",
-      "your_response": "Maintain your grip on their far leg and use it to trip them back down to turtle, or transition to a single leg takedown if they fully stand. Don't release the leg grip until you've reestablished positional control."
-    },
-    {
-      "counter": "Opponent rolls forward into you, attempting to crush your leg hook",
-      "effectiveness": "Medium",
-      "your_response": "Follow their roll and use the momentum to complete the Truck entry from the opposite angle. Your leg position actually improves as they roll. Alternatively, release and take their back as they roll through."
-    },
-    {
-      "counter": "Opponent pulls their trapped leg out before you lock the triangle",
-      "effectiveness": "High",
-      "your_response": "Immediately switch to traditional back attack sequences - climb to seat belt control and secure hooks. The failed Truck attempt has already compromised their turtle structure, making back control easier."
-    },
-    {
-      "counter": "Opponent grabs your leg and attempts to straighten it to escape the triangle",
-      "effectiveness": "Low",
-      "your_response": "Tighten your triangle immediately and extend their trapped leg while pulling them. Their grip on your leg actually prevents them from defending the more dangerous Twister attack. Transition directly to submission."
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Attempting to triangle your legs before securing proper control of the far leg",
-      "consequence": "Opponent easily extracts their leg and escapes to half guard or recovers to standing, wasting the entire setup and giving up positional advantage",
-      "correction": "Always establish a solid grip on the far leg first with your reaching arm. Pull it toward you and feel the control before attempting to insert your hook. The grip comes first, then the leg insertion."
-    },
-    {
-      "error": "Positioning your body parallel to the opponent instead of perpendicular",
-      "consequence": "Cannot create the proper leverage for the Truck, opponent can easily defend by sitting back or rolling, and you lose mechanical advantage for all submissions",
-      "correction": "Maintain a perpendicular angle throughout the transition. Your chest should be against their side ribs, not their back. Think of creating an 'L' or 'T' shape with your bodies."
-    },
-    {
-      "error": "Releasing upper body control to focus entirely on the leg triangle",
-      "consequence": "Opponent can explosively stand up, turn into you, or hand fight to prevent the Truck completion, potentially reversing position entirely",
-      "correction": "Maintain at least one point of upper body control at all times - collar tie, cross face, or shoulder grip. Coordinate upper and lower body control simultaneously rather than sequentially."
-    },
-    {
-      "error": "Inserting the wrong leg as the hook (far leg instead of near leg)",
-      "consequence": "Creates an awkward configuration that lacks control, allows easy escape, and prevents proper Truck submissions. Your leverage is completely reversed.",
-      "correction": "Always insert your near leg (the one closest to their hips) as the primary hook. The far leg comes over to lock the triangle. Remember: near leg goes under and through, far leg locks on top."
-    },
-    {
-      "error": "Failing to adjust body position after locking the triangle, staying flat on your back",
-      "consequence": "No submission options available, opponent can defend indefinitely, and you cannot generate the proper angles or pressure for Twister or calf slicers",
-      "correction": "After triangling your legs, immediately turn onto your side facing the same direction as your opponent. Your chest should be against their body, creating the proper Truck geometry for attacks."
-    },
-    {
-      "error": "Attempting the transition when opponent's weight is already back on their knees",
-      "consequence": "Opponent can sit back into you or stand up easily since their weight distribution allows quick movement backward, nullifying your entry attempt",
-      "correction": "Time the entry when opponent is heavy on their hands with weight forward. If they're already sitting back, use alternative entries like the Crab Ride or traditional back take instead."
-    }
-  ],
-  "training_progressions": [
-    {
-      "phase": "Week 1-2: Fundamental mechanics",
-      "focus": "Understanding the leg triangle configuration and basic positioning",
-      "description": "Practice the leg triangle lock in isolation with a stationary partner. Focus on proper leg insertion, triangle formation, and maintaining the lock. Partner remains passive in turtle. Drill 20 repetitions per session, alternating sides. Emphasis on understanding which leg goes where and why."
-    },
-    {
-      "phase": "Week 3-4: Entry timing",
-      "focus": "Coordinating leg insertion with grip control",
-      "description": "Partner in active turtle but moving slowly. Practice gripping the far leg and inserting your hook while they shift weight. Focus on timing the entry when they're heavy on their hands. Partner provides 25% resistance, occasionally pulling their leg away. 15 repetitions per side with reset between attempts."
-    },
-    {
-      "phase": "Week 5-6: Counter responses",
-      "focus": "Dealing with common defensive reactions",
-      "description": "Partner actively defends using specific counters: sitting back, standing up, or rolling. Practice recognizing their defense and either completing the Truck or transitioning to alternative attacks like back control. Each 5-minute round focuses on one specific counter. Build problem-solving skills."
-    },
-    {
-      "phase": "Week 7-8: Submission integration",
-      "focus": "Transitioning from Truck entry to finish positions",
-      "description": "After achieving Truck position, immediately work to Twister control, calf slicer setups, or back takes. Partner defends at 50-75% intensity. Focus on maintaining Truck control while advancing position. Chain multiple submission attempts together. 3-minute positional rounds starting from successful Truck entry."
-    },
-    {
-      "phase": "Week 9-10: Full resistance drilling",
-      "focus": "Live situational training from turtle position",
-      "description": "Start from turtle position with you attacking. Partner defends fully, trying to prevent Truck entry and escape. You must create the opportunity through setups, fakes, and combinations. 5-minute rounds with emphasis on creating the conditions necessary for successful entry rather than forcing it."
-    },
-    {
-      "phase": "Week 11+: Competition integration",
-      "focus": "Implementing during live rolling and sparring",
-      "description": "Hunt for the Truck entry during regular training rolls. Focus on recognizing turtle position opportunities and smoothly transitioning to Truck without telegraphing. Track success rate over multiple sessions. Combine with other back attack systems for a comprehensive turtle attacking game. Minimum 3 attempts per rolling session."
-    }
-  ],
-  "variants_and_adaptations": [
-    {
-      "variant_name": "Inside Truck Entry",
-      "description": "Instead of entering from the outside perpendicular position, enter from directly behind the turtle. Thread your leg from between their legs to create the hook. This variation works well when you have back control but opponent is defending their neck well and you want to switch to leg attacks.",
-      "when_to_use": "When you're already behind the turtle with some back control established, or when opponent is too defensive against traditional back takes and you need an alternative attack angle."
-    },
-    {
-      "variant_name": "Rolling Truck Entry",
-      "description": "From standing or when opponent is standing from turtle, grip their far leg and roll underneath them while pulling the leg with you. As you complete the roll, lock your triangle in mid-movement. This dynamic entry creates the Truck through momentum rather than static positioning.",
-      "when_to_use": "Effective against opponents who constantly stand up from turtle, or as a counter when they sprawl to defend traditional entries. Requires good timing and coordination but is highly effective once mastered."
-    },
-    {
-      "variant_name": "Crab Ride to Truck Transition",
-      "description": "From Crab Ride position (sitting on opponent's back in turtle with one leg hooked), transition to Truck by securing the opposite leg and triangling your legs. This is a natural progression when opponent defends the Crab Ride by trying to remove your hook.",
-      "when_to_use": "When you've established Crab Ride but opponent is defending well and you need to advance position. Also effective when you have one leg already hooked and want to create more submission opportunities."
-    },
-    {
-      "variant_name": "Truck from Failed Guard Pull",
-      "description": "When attempting to pull guard and opponent sprawls into turtle position, use your already-engaged legs to immediately transition to Truck entry. Your legs are already in proximity to theirs, making the entry faster than traditional setups.",
-      "when_to_use": "Scramble situations where your guard pull fails and opponent assumes turtle. Particularly effective in no-gi where this scenario is common. Turns a defensive situation into an immediate offensive opportunity."
-    }
-  ],
-  "knowledge_assessment": [
-    {
-      "question": "What is the primary leg configuration that defines the Truck position?",
-      "answer": "The Truck requires a triangle or figure-four lock with your legs around the opponent's leg, with your near leg inserted under and through their far leg, and your far leg locking over the top. This creates a leg triangle similar to a lockdown but around a single leg while your body is positioned perpendicular to your opponent. The triangle must be tight with active pressure pulling their leg away from their body."
-    },
-    {
-      "question": "Why is perpendicular body positioning essential for the Truck, and what happens if you remain parallel to your opponent?",
-      "answer": "Perpendicular positioning creates the proper leverage angles for all Truck submissions, particularly the Twister and calf slicers. It also prevents the opponent from sitting back into you or standing up effectively. If you remain parallel (alongside them), you lose the mechanical advantage for submissions, they can more easily defend by turning into you or standing, and you cannot create the proper spine compression needed for the Twister. The perpendicular angle is what makes the Truck geometry work."
-    },
-    {
-      "question": "When is the optimal timing to insert your leg hook during the Truck entry sequence?",
-      "answer": "The optimal timing is when the opponent's weight is forward on their hands in turtle, making them heavy on the front and unable to quickly sit back. You should have already secured a grip on their far leg and be pulling it toward you. The insertion happens as part of a coordinated movement - grip control first, then leg insertion while their weight is committed forward. Attempting entry when they're already sitting back on their knees will likely fail as they can easily defend or stand."
-    },
-    {
-      "question": "How should you respond if your opponent stands up explosively before you complete the leg triangle in the Truck entry?",
-      "answer": "Maintain your grip on their far leg at all costs and use it to either trip them back down to turtle with a technical sweep, or if they fully stand, transition to a single leg takedown setup. The leg grip gives you positional control even if the Truck entry fails. Alternatively, if they're partially standing, you can switch to a single leg X-guard entry or use the momentum to take their back. Never simply release the leg without a plan, as that wastes all your setup work."
-    },
-    {
-      "question": "What is the relationship between the Truck position and the larger Twister system, and what other positions can you transition to from Truck?",
-      "answer": "The Truck serves as a central hub within the Twister system - it's the gateway position that provides access to multiple high-percentage submissions and positions. From Truck, you can transition to Twister Control for the Twister submission, various calf slicer finishes, back control with hooks, or the Banana Split. The Truck is valuable because it creates a submission dilemma - if opponent defends the leg attacks, you can take the back; if they defend the back, you can attack the legs. Understanding these connections makes the Truck exponentially more dangerous than treating it as an isolated position."
-    },
-    {
-      "question": "What are the three primary control points you must maintain throughout the Truck transition to prevent escape?",
-      "answer": "First, the far leg grip with your reaching arm controls their mobility and prevents them from extracting their leg. Second, the leg triangle lock created by your own legs immobilizes their trapped leg and creates the structural foundation. Third, upper body control through a collar tie, cross face, or shoulder grip prevents explosive movement and standing. These three control points work together - losing any one makes the position significantly weaker. Advanced practitioners maintain all three simultaneously during the entire transition sequence."
-    },
-    {
-      "question": "Your opponent posts their far hand on the mat to base out during your Truck entry - how do you adjust your approach?",
-      "answer": "A posted far hand indicates the opponent is trying to create a base to stand or sit through. Use this to your advantage by maintaining your far leg grip and driving your chest pressure forward into them, collapsing their posting arm. Alternatively, if they commit to the post, their far arm is occupied and unavailable for defending the leg triangle insertion. Accelerate your hook insertion while their hand is on the mat. You can also use their posted arm as a target for a kimura or wrist control to further compromise their base."
-    },
-    {
-      "question": "What specific grip on the far leg is most effective for the initial Truck entry, and why does grip placement matter?",
-      "answer": "The most effective grip targets the inside of the far knee or the shin just below the knee, reached by threading your far arm under their body. Gripping too high on the thigh gives the opponent leverage to pull free because you lack mechanical control over the joint. Gripping too low on the ankle allows them to straighten their leg and extract it. The knee-level grip controls the bend of their leg, keeping it in the flexed position needed for your hook insertion. In no-gi, a cupping grip behind the knee is preferred over a friction-dependent shin grip."
-    },
-    {
-      "question": "Your opponent begins a granby roll while you are mid-entry into the Truck - should you abandon the entry or follow?",
-      "answer": "Follow the granby roll while maintaining your leg grip and hook position. As they rotate, your leg triangle can actually tighten because their rolling motion feeds their leg deeper into your hook configuration. Keep your chest connected to their body throughout the roll and adjust your position as you both rotate. If you've already inserted your hook, the roll often deposits you into an even stronger Truck position on the other side. Only abandon the entry if you lose the far leg grip entirely, in which case transition to traditional back control as they complete the roll."
-    },
-    {
-      "question": "What is the critical directional force you must apply with the leg triangle once locked, and how does boot pressure complement it?",
-      "answer": "The leg triangle must pull the trapped leg laterally away from the opponent's centerline, creating separation between their legs that compromises their structural base. This lateral pull is amplified by boot pressure on the opposite hip, which pushes their pelvis away while your triangle pulls their leg toward you. Together, these create a corkscrew torque through the opponent's lower body that prevents them from squaring their hips, makes rolling escapes ineffective, and provides the mechanical foundation for both the Twister's spinal rotation and the calf slicer's compression."
-    },
-    {
-      "question": "If your initial Truck entry is blocked and you cannot secure the far leg, what chain attacks remain available from turtle top?",
-      "answer": "A failed Truck entry from turtle top leaves multiple high-percentage alternatives. The attempt itself disrupts your opponent's defensive structure, making traditional back takes with seatbelt control more accessible. You can transition to a front headlock position if they lift their head during defense, opening anaconda and darce choke entries. A crucifix becomes available if they extend an arm during defense. You can also flatten them for side control transition. The key principle is that any turtle top attack attempt that fails should flow seamlessly into the next option without returning to a neutral position."
-    },
-    {
-      "question": "How do you distinguish between when to enter the Truck from the side versus from directly behind the turtle?",
-      "answer": "Enter from the side (perpendicular) when you have established side-riding position with cross face control and can easily access the far leg underneath their body. This is the higher-percentage standard entry. Enter from behind when you already have some form of back control (one hook or seatbelt) but the opponent is defending their neck well and traditional back completion is stalled. The behind entry threads your leg between theirs rather than from outside, which works best when you already have hip-to-hip connection. Side entry offers better initial control; behind entry offers better surprise factor."
-    }
-  ],
-  "safety_considerations": "When practicing the Truck transition, ensure controlled execution to avoid knee injuries to both yourself and your training partner. The leg triangle configuration can create significant torque on the knee joint, so apply pressure gradually and release immediately when partner taps. During drilling, communicate clearly about resistance levels to prevent sudden explosive movements that could cause injury during the leg insertion phase. Be particularly careful when rolling or adjusting position while your legs are triangled, as awkward weight distribution can strain your own knee ligaments. Never force the leg triangle if the angle is wrong - reset and try again rather than cranking it into place. Partners in turtle should tap early if they feel knee pressure during the entry to prevent injury before the position is fully established. The transition itself is relatively safe when executed properly, but the subsequent submissions (Twister and calf slicers) require additional safety awareness and should only be practiced with experienced partners who understand the dangers.",
-  "position_integration": "The Truck transition is a critical component of modern no-gi grappling and the 10th Planet system, serving as a bridge between traditional back attacks and leg-based submissions. Within your overall BJJ game, the Truck provides an alternative path when opponents defend against conventional back takes from turtle. It integrates seamlessly with other turtle attacking sequences - if your traditional back take is defended, you can switch to Truck; if your Truck entry is stuffed, you can return to back control attempts. This creates an attacking loop that's difficult to defend completely. The Truck also connects your top game to your leg lock system, as successful entries open up the entire lower body submission network including calf slicers and banana splits depending on your ruleset. For competitors, the Truck is particularly valuable because many opponents are not well-versed in defending it compared to more common positions, creating knowledge gaps you can exploit. The position also serves as an excellent entry point for learning the biomechanics of leg entanglements, as the leg triangle in Truck shares similarities with configurations in other positions like Ashi Garami variants. Understanding the Truck improves your overall positional awareness and submission chaining abilities across your entire game.",
   "related_content": [
     {
       "name": "Truck",
@@ -273,14 +54,14 @@
     },
     {
       "name": "Calf Slicer from Truck",
-      "relationship": "Alternative submission - leg attack option from the position"
+      "relationship": "Follow-up submission - leg attack option from the Truck position"
     },
     {
-      "name": "Turtle to Back Take",
+      "name": "Turtle to Back Control",
       "relationship": "Alternative transition - traditional back attack when Truck is defended"
     },
     {
-      "name": "Lockdown Sweeps",
+      "name": "Lockdown Recovery",
       "relationship": "Technical similarity - uses similar leg triangle mechanics"
     },
     {
@@ -300,5 +81,373 @@
       "relationship": "Alternative turtle top attack when Truck entry is unavailable"
     }
   ],
-  "success_rate": 60
+  "attacker": {
+    "name": "Turtle to Truck Attacker",
+    "description": "How to execute Turtle to Truck in BJJ. Attacking perspective with setup, execution steps, and counters.",
+    "overview": "The transition to Truck is a fundamental movement within the 10th Planet Jiu-Jitsu system and modern no-gi grappling. When an opponent assumes the turtle position, the Truck offers a devastating alternative to traditional back takes, providing access to the Twister submission, various calf slicers, and back control options. The Truck position involves controlling the opponent's leg while maintaining a specific body configuration that creates the signature \"truck\" shape - hence the name. This transition is particularly effective because it exploits the turtle position's inherent vulnerability to leg attacks while the opponent focuses on defending their neck and preventing traditional back takes. The Truck serves as a gateway position within the larger Twister system, allowing the attacker to create multiple submission threats simultaneously. What makes this transition especially valuable is its ability to bypass traditional back defense protocols, as most practitioners are conditioned to defend against seat belt control rather than leg-based attacks from turtle. The success of this transition relies on timing, understanding weight distribution, and the ability to coordinate upper and lower body control simultaneously.",
+    "key_principles": [
+      "Control the far leg while maintaining pressure on the turtle",
+      "Create angles by positioning your body perpendicular to opponent",
+      "Use your leg as a hook to prevent opponent from rolling away",
+      "Maintain constant pressure to prevent opponent from standing or recovering guard",
+      "Coordinate upper body grips with lower body positioning",
+      "Understand the relationship between Truck and other back attack systems",
+      "Recognize timing windows when opponent commits weight forward"
+    ],
+    "setup_requirements": [
+      "Opponent in turtle position with head down and hips elevated",
+      "You are positioned behind or beside the turtle with chest-to-back pressure",
+      "Access to opponent's far leg (leg furthest from you)",
+      "Opponent's weight is distributed forward onto their hands",
+      "Clear space to insert your leg as a hook between their legs",
+      "Upper body control established (collar tie, overhook, or cross face)",
+      "Opponent not actively standing up or explosively moving"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish side position",
+        "description": "From turtle, position yourself perpendicular to your opponent's body, chest to their ribs. Establish a cross face or collar tie with your near arm while maintaining tight chest-to-back pressure. Your hips should be lower than theirs to prevent them from sitting back into you."
+      },
+      {
+        "step_number": 2,
+        "action": "Secure the far leg",
+        "description": "Reach your far arm under their body and grip their far knee or shin from the inside. This grip is critical - you're controlling the leg that will become trapped in the Truck. Pull this leg slightly toward you while maintaining upper body control to prevent them from sprawling away."
+      },
+      {
+        "step_number": 3,
+        "action": "Insert your leg hook",
+        "description": "Thread your near leg (the leg closest to their hips) under their far leg, inserting your shin behind their thigh. Your foot should emerge on the far side of their body. This creates the fundamental structure of the Truck - your leg becomes a barrier preventing their escape."
+      },
+      {
+        "step_number": 4,
+        "action": "Triangle your legs",
+        "description": "Bring your far leg over and lock it with your near leg, creating a figure-four or triangle configuration around their trapped leg. Your near foot should be in your far leg's knee pit. This lockdown-style control immobilizes their leg completely and gives you powerful leverage."
+      },
+      {
+        "step_number": 5,
+        "action": "Adjust body position",
+        "description": "Roll slightly onto your side, facing the same direction as your opponent while maintaining the leg triangle. Your upper body should be positioned near their hips, with your chest against their side or lower back. This creates the characteristic Truck position where you're perpendicular to their body."
+      },
+      {
+        "step_number": 6,
+        "action": "Establish boot pressure",
+        "description": "Press your free foot firmly against the opponent's hip or upper thigh, creating the boot pressure that is the engine of the Truck position. This boot acts as a fulcrum generating lateral torque through their spine and lower body, preventing them from squaring up or rolling through."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate Truck control",
+        "description": "Secure upper body control by gripping their far arm or controlling their shoulder. Your leg triangle should be locked tight with active pressure pulling their trapped leg away from their body. You're now in full Truck position with access to Twister, calf slicers, and back takes."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent sits back aggressively, trying to sit into you before you secure the leg",
+        "effectiveness": "High",
+        "your_response": "Abandon the Truck entry and transition to back control with seat belt grip. Use their backward momentum to take their back traditionally. Alternatively, switch to a Crab Ride position if they sit partially.",
+        "targets_outcome": "Turtle/Top"
+      },
+      {
+        "counter": "Opponent stands up explosively before you can triangle your legs",
+        "effectiveness": "Medium",
+        "your_response": "Maintain your grip on their far leg and use it to trip them back down to turtle, or transition to a single leg takedown if they fully stand. Don't release the leg grip until you've reestablished positional control.",
+        "targets_outcome": "Turtle/Top"
+      },
+      {
+        "counter": "Opponent rolls forward into you, attempting to crush your leg hook",
+        "effectiveness": "Medium",
+        "your_response": "Follow their roll and use the momentum to complete the Truck entry from the opposite angle. Your leg position actually improves as they roll. Alternatively, release and take their back as they roll through.",
+        "targets_outcome": "Truck/Top"
+      },
+      {
+        "counter": "Opponent pulls their trapped leg out before you lock the triangle",
+        "effectiveness": "High",
+        "your_response": "Immediately switch to traditional back attack sequences - climb to seat belt control and secure hooks. The failed Truck attempt has already compromised their turtle structure, making back control easier.",
+        "targets_outcome": "Turtle/Top"
+      },
+      {
+        "counter": "Opponent grabs your leg and attempts to straighten it to escape the triangle",
+        "effectiveness": "Low",
+        "your_response": "Tighten your triangle immediately and extend their trapped leg while pulling them. Their grip on your leg actually prevents them from defending the more dangerous Twister attack. Transition directly to submission.",
+        "targets_outcome": "Truck/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting to triangle your legs before securing proper control of the far leg",
+        "consequence": "Opponent easily extracts their leg and escapes to half guard or recovers to standing, wasting the entire setup and giving up positional advantage",
+        "correction": "Always establish a solid grip on the far leg first with your reaching arm. Pull it toward you and feel the control before attempting to insert your hook. The grip comes first, then the leg insertion."
+      },
+      {
+        "error": "Positioning your body parallel to the opponent instead of perpendicular",
+        "consequence": "Cannot create the proper leverage for the Truck, opponent can easily defend by sitting back or rolling, and you lose mechanical advantage for all submissions",
+        "correction": "Maintain a perpendicular angle throughout the transition. Your chest should be against their side ribs, not their back. Think of creating an 'L' or 'T' shape with your bodies."
+      },
+      {
+        "error": "Releasing upper body control to focus entirely on the leg triangle",
+        "consequence": "Opponent can explosively stand up, turn into you, or hand fight to prevent the Truck completion, potentially reversing position entirely",
+        "correction": "Maintain at least one point of upper body control at all times - collar tie, cross face, or shoulder grip. Coordinate upper and lower body control simultaneously rather than sequentially."
+      },
+      {
+        "error": "Inserting the wrong leg as the hook (far leg instead of near leg)",
+        "consequence": "Creates an awkward configuration that lacks control, allows easy escape, and prevents proper Truck submissions. Your leverage is completely reversed.",
+        "correction": "Always insert your near leg (the one closest to their hips) as the primary hook. The far leg comes over to lock the triangle. Remember: near leg goes under and through, far leg locks on top."
+      },
+      {
+        "error": "Failing to adjust body position after locking the triangle, staying flat on your back",
+        "consequence": "No submission options available, opponent can defend indefinitely, and you cannot generate the proper angles or pressure for Twister or calf slicers",
+        "correction": "After triangling your legs, immediately turn onto your side facing the same direction as your opponent. Your chest should be against their body, creating the proper Truck geometry for attacks."
+      },
+      {
+        "error": "Attempting the transition when opponent's weight is already back on their knees",
+        "consequence": "Opponent can sit back into you or stand up easily since their weight distribution allows quick movement backward, nullifying your entry attempt",
+        "correction": "Time the entry when opponent is heavy on their hands with weight forward. If they're already sitting back, use alternative entries like the Crab Ride or traditional back take instead."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2: Fundamental mechanics",
+        "focus": "Understanding the leg triangle configuration and basic positioning",
+        "description": "Practice the leg triangle lock in isolation with a stationary partner. Focus on proper leg insertion, triangle formation, and maintaining the lock. Partner remains passive in turtle. Drill 20 repetitions per session, alternating sides. Emphasis on understanding which leg goes where and why."
+      },
+      {
+        "phase": "Week 3-4: Entry timing",
+        "focus": "Coordinating leg insertion with grip control",
+        "description": "Partner in active turtle but moving slowly. Practice gripping the far leg and inserting your hook while they shift weight. Focus on timing the entry when they're heavy on their hands. Partner provides 25% resistance, occasionally pulling their leg away. 15 repetitions per side with reset between attempts."
+      },
+      {
+        "phase": "Week 5-6: Counter responses",
+        "focus": "Dealing with common defensive reactions",
+        "description": "Partner actively defends using specific counters: sitting back, standing up, or rolling. Practice recognizing their defense and either completing the Truck or transitioning to alternative attacks like back control. Each 5-minute round focuses on one specific counter. Build problem-solving skills."
+      },
+      {
+        "phase": "Week 7-8: Submission integration",
+        "focus": "Transitioning from Truck entry to finish positions",
+        "description": "After achieving Truck position, immediately work to Twister control, calf slicer setups, or back takes. Partner defends at 50-75% intensity. Focus on maintaining Truck control while advancing position. Chain multiple submission attempts together. 3-minute positional rounds starting from successful Truck entry."
+      },
+      {
+        "phase": "Week 9-10: Full resistance drilling",
+        "focus": "Live situational training from turtle position",
+        "description": "Start from turtle position with you attacking. Partner defends fully, trying to prevent Truck entry and escape. You must create the opportunity through setups, fakes, and combinations. 5-minute rounds with emphasis on creating the conditions necessary for successful entry rather than forcing it."
+      },
+      {
+        "phase": "Week 11+: Competition integration",
+        "focus": "Implementing during live rolling and sparring",
+        "description": "Hunt for the Truck entry during regular training rolls. Focus on recognizing turtle position opportunities and smoothly transitioning to Truck without telegraphing. Track success rate over multiple sessions. Combine with other back attack systems for a comprehensive turtle attacking game. Minimum 3 attempts per rolling session."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary leg configuration that defines the Truck position?",
+        "answer": "The Truck requires a triangle or figure-four lock with your legs around the opponent's leg, with your near leg inserted under and through their far leg, and your far leg locking over the top. This creates a leg triangle similar to a lockdown but around a single leg while your body is positioned perpendicular to your opponent. The triangle must be tight with active pressure pulling their leg away from their body."
+      },
+      {
+        "question": "Why is perpendicular body positioning essential for the Truck, and what happens if you remain parallel to your opponent?",
+        "answer": "Perpendicular positioning creates the proper leverage angles for all Truck submissions, particularly the Twister and calf slicers. It also prevents the opponent from sitting back into you or standing up effectively. If you remain parallel (alongside them), you lose the mechanical advantage for submissions, they can more easily defend by turning into you or standing, and you cannot create the proper spine compression needed for the Twister. The perpendicular angle is what makes the Truck geometry work."
+      },
+      {
+        "question": "When is the optimal timing to insert your leg hook during the Truck entry sequence?",
+        "answer": "The optimal timing is when the opponent's weight is forward on their hands in turtle, making them heavy on the front and unable to quickly sit back. You should have already secured a grip on their far leg and be pulling it toward you. The insertion happens as part of a coordinated movement - grip control first, then leg insertion while their weight is committed forward. Attempting entry when they're already sitting back on their knees will likely fail as they can easily defend or stand."
+      },
+      {
+        "question": "How should you respond if your opponent stands up explosively before you complete the leg triangle in the Truck entry?",
+        "answer": "Maintain your grip on their far leg at all costs and use it to either trip them back down to turtle with a technical sweep, or if they fully stand, transition to a single leg takedown setup. The leg grip gives you positional control even if the Truck entry fails. Alternatively, if they're partially standing, you can switch to a single leg X-guard entry or use the momentum to take their back. Never simply release the leg without a plan, as that wastes all your setup work."
+      },
+      {
+        "question": "What is the relationship between the Truck position and the larger Twister system, and what other positions can you transition to from Truck?",
+        "answer": "The Truck serves as a central hub within the Twister system - it's the gateway position that provides access to multiple high-percentage submissions and positions. From Truck, you can transition to Twister Control for the Twister submission, various calf slicer finishes, back control with hooks, or the Banana Split. The Truck is valuable because it creates a submission dilemma - if opponent defends the leg attacks, you can take the back; if they defend the back, you can attack the legs. Understanding these connections makes the Truck exponentially more dangerous than treating it as an isolated position."
+      },
+      {
+        "question": "What are the three primary control points you must maintain throughout the Truck transition to prevent escape?",
+        "answer": "First, the far leg grip with your reaching arm controls their mobility and prevents them from extracting their leg. Second, the leg triangle lock created by your own legs immobilizes their trapped leg and creates the structural foundation. Third, upper body control through a collar tie, cross face, or shoulder grip prevents explosive movement and standing. These three control points work together - losing any one makes the position significantly weaker. Advanced practitioners maintain all three simultaneously during the entire transition sequence."
+      },
+      {
+        "question": "Your opponent posts their far hand on the mat to base out during your Truck entry - how do you adjust your approach?",
+        "answer": "A posted far hand indicates the opponent is trying to create a base to stand or sit through. Use this to your advantage by maintaining your far leg grip and driving your chest pressure forward into them, collapsing their posting arm. Alternatively, if they commit to the post, their far arm is occupied and unavailable for defending the leg triangle insertion. Accelerate your hook insertion while their hand is on the mat. You can also use their posted arm as a target for a kimura or wrist control to further compromise their base."
+      },
+      {
+        "question": "What specific grip on the far leg is most effective for the initial Truck entry, and why does grip placement matter?",
+        "answer": "The most effective grip targets the inside of the far knee or the shin just below the knee, reached by threading your far arm under their body. Gripping too high on the thigh gives the opponent leverage to pull free because you lack mechanical control over the joint. Gripping too low on the ankle allows them to straighten their leg and extract it. The knee-level grip controls the bend of their leg, keeping it in the flexed position needed for your hook insertion. In no-gi, a cupping grip behind the knee is preferred over a friction-dependent shin grip."
+      },
+      {
+        "question": "Your opponent begins a granby roll while you are mid-entry into the Truck - should you abandon the entry or follow?",
+        "answer": "Follow the granby roll while maintaining your leg grip and hook position. As they rotate, your leg triangle can actually tighten because their rolling motion feeds their leg deeper into your hook configuration. Keep your chest connected to their body throughout the roll and adjust your position as you both rotate. If you've already inserted your hook, the roll often deposits you into an even stronger Truck position on the other side. Only abandon the entry if you lose the far leg grip entirely, in which case transition to traditional back control as they complete the roll."
+      },
+      {
+        "question": "What is the critical directional force you must apply with the leg triangle once locked, and how does boot pressure complement it?",
+        "answer": "The leg triangle must pull the trapped leg laterally away from the opponent's centerline, creating separation between their legs that compromises their structural base. This lateral pull is amplified by boot pressure on the opposite hip, which pushes their pelvis away while your triangle pulls their leg toward you. Together, these create a corkscrew torque through the opponent's lower body that prevents them from squaring their hips, makes rolling escapes ineffective, and provides the mechanical foundation for both the Twister's spinal rotation and the calf slicer's compression."
+      },
+      {
+        "question": "If your initial Truck entry is blocked and you cannot secure the far leg, what chain attacks remain available from turtle top?",
+        "answer": "A failed Truck entry from turtle top leaves multiple high-percentage alternatives. The attempt itself disrupts your opponent's defensive structure, making traditional back takes with seatbelt control more accessible. You can transition to a front headlock position if they lift their head during defense, opening anaconda and darce choke entries. A crucifix becomes available if they extend an arm during defense. You can also flatten them for side control transition. The key principle is that any turtle top attack attempt that fails should flow seamlessly into the next option without returning to a neutral position."
+      },
+      {
+        "question": "How do you distinguish between when to enter the Truck from the side versus from directly behind the turtle?",
+        "answer": "Enter from the side (perpendicular) when you have established side-riding position with cross face control and can easily access the far leg underneath their body. This is the higher-percentage standard entry. Enter from behind when you already have some form of back control (one hook or seatbelt) but the opponent is defending their neck well and traditional back completion is stalled. The behind entry threads your leg between theirs rather than from outside, which works best when you already have hip-to-hip connection. Side entry offers better initial control; behind entry offers better surprise factor."
+      }
+    ],
+    "safety_considerations": "When practicing the Truck transition, ensure controlled execution to avoid knee injuries to both yourself and your training partner. The leg triangle configuration can create significant torque on the knee joint, so apply pressure gradually and release immediately when partner taps. During drilling, communicate clearly about resistance levels to prevent sudden explosive movements that could cause injury during the leg insertion phase. Be particularly careful when rolling or adjusting position while your legs are triangled, as awkward weight distribution can strain your own knee ligaments. Never force the leg triangle if the angle is wrong - reset and try again rather than cranking it into place. Partners in turtle should tap early if they feel knee pressure during the entry to prevent injury before the position is fully established. The transition itself is relatively safe when executed properly, but the subsequent submissions (Twister and calf slicers) require additional safety awareness and should only be practiced with experienced partners who understand the dangers."
+  },
+  "defender": {
+    "name": "Turtle to Truck Defender",
+    "description": "How to defend against Turtle to Truck in BJJ. Recognition cues, defensive options, and escape strategies.",
+    "overview": "Defending the Turtle to Truck transition requires early recognition and immediate action before the attacker can lock the leg triangle. Once the Truck is fully established, escape becomes exponentially more difficult and you face multiple dangerous submissions including the Twister, calf slicer, and banana split. The defender's primary strategic objective is to deny the initial leg hook insertion by keeping legs tight and hips low, or failing that, to disrupt the triangle lock before boot pressure can be established. Unlike defending traditional back takes where hand fighting and hip movement are primary tools, Truck defense demands awareness of your lower body positioning and the ability to create explosive movement before the entanglement solidifies. The most common defensive error is focusing exclusively on upper body grips while the attacker threads their leg undetected. Successful defense requires monitoring both planes simultaneously and treating any contact with your far leg as an immediate threat requiring instant response. The window for effective defense narrows rapidly once the attacker secures the far leg grip, making early recognition the single most important defensive skill in this exchange.",
+    "key_principles": [
+      "Deny far leg access by keeping knees together and elbows tight to inner thighs in turtle",
+      "Recognize the attack immediately - any reaching under your body for the far leg signals Truck intent",
+      "React explosively before the leg triangle locks rather than defending passively after it sets",
+      "Sit back toward your heels to shift weight posteriorly when you sense the attacker moving perpendicular",
+      "Keep your trapped leg bent and actively resisting extension to prevent the figure-four from locking",
+      "Prioritize standing up or sitting through over remaining in turtle once the Truck threat is identified",
+      "If the triangle locks, address boot pressure first since it is the engine of the entire control system"
+    ],
+    "recognition_cues": [
+      "Opponent shifts from directly behind you to a perpendicular angle against your ribs, changing from chest-on-back pressure to side-riding position",
+      "You feel a hand or arm reaching under your body to grip your far knee or shin from the inside, threading between your body and the mat",
+      "Opponent's near leg begins threading between your legs or behind your far thigh, with their shin contacting the back of your leg",
+      "Weight pressure shifts from your upper back to your hip area as the attacker drops lower to access your legs",
+      "You feel the attacker's chest disengage from your upper back and reposition against your lower ribs or hip, indicating they are abandoning traditional back take for Truck entry"
+    ],
+    "defensive_options": [
+      {
+        "action": "Explosive sit-back to heavy base - drive your hips back toward your heels and flatten your body, squeezing your knees together to deny far leg access",
+        "when_to_use": "Early stage when you first feel the attacker shift to perpendicular position or reach for your far leg, before any hook is inserted",
+        "targets_outcome": "Turtle/Top",
+        "if_successful": "Attacker's reaching arm gets trapped under your weight, denying the far leg grip entirely and forcing them to reset or switch to traditional back attack",
+        "risk": "If timed late, you may sit back into an already-partially-inserted hook, accelerating the Truck entry rather than preventing it"
+      },
+      {
+        "action": "Stand up explosively by posting your hands and driving upward, pulling your far leg away from the attacker's reach",
+        "when_to_use": "When you feel the attacker commit their weight low to your hips for the leg entry, creating space above for you to stand before the triangle locks",
+        "targets_outcome": "Turtle/Bottom",
+        "if_successful": "You achieve standing position where the Truck entry becomes nearly impossible, forcing a scramble or reset to neutral",
+        "risk": "If the attacker maintains the far leg grip while you stand, they can use your upward momentum for a trip or single leg counter"
+      },
+      {
+        "action": "Granby roll away from the hooking leg - execute an explosive shoulder roll toward the side opposite the attacker's leg insertion",
+        "when_to_use": "When the attacker has partially inserted their hook but has not yet locked the triangle with their second leg",
+        "targets_outcome": "Turtle/Bottom",
+        "if_successful": "The roll strips the partial hook and you end up facing the attacker in open guard or half guard, completely nullifying the Truck attempt",
+        "risk": "If the attacker follows the roll with strong chest connection, they may complete the Truck entry during the rotation"
+      },
+      {
+        "action": "Kick your far leg straight and pull it toward your chest to extract it from the developing triangle before the lock solidifies",
+        "when_to_use": "When you feel the attacker's leg threading behind your thigh but before they bring the second leg over to complete the figure-four",
+        "targets_outcome": "Turtle/Top",
+        "if_successful": "Extracted leg denies the triangle lock entirely, leaving the attacker in a compromised side position with no leg control",
+        "risk": "The straightening motion can be used against you if the attacker transitions to a calf slicer attempt during your extension"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Turtle/Top",
+        "how": "Deny the far leg grip by sitting back heavily onto your heels with knees squeezed together, collapsing the space the attacker needs to reach under your body. If their reaching arm is trapped, use the moment to turn into them and re-establish turtle with you as the defender in a stronger position, forcing the attacker to restart their attack sequence."
+      },
+      {
+        "outcome": "Turtle/Bottom",
+        "how": "Stand up explosively when you feel the attacker drop their weight low for the leg entry, or execute a well-timed granby roll before the triangle locks. Both escapes result in either a standing scramble or guard recovery where the Truck threat is eliminated and you have successfully defended the transition."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Ignoring the far leg threat and focusing only on defending the neck or upper body grips",
+        "consequence": "Attacker secures the far leg grip and inserts the hook uncontested, locking the triangle before you realize the Truck is being established",
+        "correction": "Monitor both upper and lower body threats simultaneously. Any hand reaching under your body is an immediate Truck signal requiring instant defensive action on your legs."
+      },
+      {
+        "error": "Staying in a high turtle with hips elevated when the attacker moves to a perpendicular angle",
+        "consequence": "Elevated hips create the exact space the attacker needs to thread their arm under your body and grip the far leg, making the entry significantly easier",
+        "correction": "Drop your hips and flatten your turtle when you sense perpendicular positioning. Sit back toward your heels and squeeze your knees together to deny access to the far leg."
+      },
+      {
+        "error": "Attempting to fight the leg triangle by pushing on the attacker's legs with your hands rather than addressing your own hip position",
+        "consequence": "Your hands leave your neck exposed to chokes and the attacker can easily overpower hand-based defenses against a locked leg triangle with superior mechanical leverage",
+        "correction": "Focus on your own body mechanics - hip movement, leg extraction through bending and pulling, and creating rotational force to escape. Framing against the attacker's boot is more effective than pushing their triangle apart."
+      },
+      {
+        "error": "Freezing in turtle when the Truck entry begins, hoping the attacker will fail on their own",
+        "consequence": "Every second of inaction allows the attacker to advance the sequence - from grip to hook to triangle to boot pressure - making escape progressively harder until submission becomes inevitable",
+        "correction": "React immediately to any Truck recognition cue. Even if you are unsure, an explosive sit-back or standup attempt is always better than passively waiting in turtle while the attacker completes their entry."
+      },
+      {
+        "error": "Rolling predictably in one direction when attempting to escape the developing Truck",
+        "consequence": "Attacker anticipates the direction and follows, often tightening their control during the roll and completing the Truck entry from the opposite side",
+        "correction": "Use feints and direction changes. Start a granby roll in one direction then reverse, or threaten a standup before executing a sit-through. Unpredictability is critical when escaping leg entanglements."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that your opponent is attempting a Turtle to Truck transition rather than a traditional back take?",
+        "answer": "The earliest cue is the opponent shifting from a chest-on-back position directly behind you to a perpendicular angle against your ribs. Traditional back takes maintain behind positioning with the goal of inserting hooks and establishing seatbelt control. The Truck entry requires side-riding position to access the far leg, so the lateral weight shift is the first divergence point. A hand reaching under your body toward the far leg confirms the intent. Recognizing this shift early gives you a 2-3 second window to execute defensive action before the hook is inserted."
+      },
+      {
+        "question": "Your opponent has gripped your far knee from underneath but has not yet inserted their leg hook - what is the highest percentage defensive response?",
+        "answer": "The highest percentage response is an immediate explosive sit-back, driving your hips toward your heels while squeezing your knees together. This accomplishes three things simultaneously: it traps their reaching arm under your body weight making it difficult to maintain the grip, it closes the space between your legs that they need for hook insertion, and it shifts your weight posteriorly where they cannot easily redirect you. If the sit-back is decisive enough, the attacker must release the grip and reset entirely. Combine the sit-back with turning toward the attacker to face them, which further denies the perpendicular angle required for Truck entry."
+      },
+      {
+        "question": "The attacker has partially inserted their leg hook but has not yet locked the triangle - should you attempt to stand or execute a granby roll?",
+        "answer": "With a partial hook but no triangle lock, the granby roll toward the side opposite the hook is generally the higher-percentage escape. Standing with a partial hook risks the attacker using your upward momentum to pull you off balance and accelerate the entry. The granby roll generates rotational force that strips the partial hook as you turn your body away from the entanglement. The key is explosive commitment to the roll before the attacker can bring their second leg over to complete the triangle. If you feel the second leg starting to come over during the roll, accelerate your rotation rather than slowing down."
+      },
+      {
+        "question": "How does defending the Turtle to Truck transition differ from defending a traditional back take from turtle?",
+        "answer": "Traditional back take defense focuses on hand fighting against seatbelt grips, preventing hook insertion by keeping your hips low and elbows tight, and creating movement to prevent the attacker from settling. Truck defense requires monitoring a different attack vector entirely - the far leg and perpendicular positioning. While back take defense is primarily upper-body oriented (hands, neck, shoulder control), Truck defense demands lower-body awareness (leg positioning, hip height, knee proximity). The defensive actions also differ: sitting back stops Truck entries but can feed a traditional back take, while keeping hips elevated defends back takes but creates space for Truck entries. You must read which attack your opponent is pursuing to select the correct defensive framework."
+      },
+      {
+        "question": "Your opponent has locked the full leg triangle and established boot pressure - what escape options remain and what is the priority sequence?",
+        "answer": "Once the Truck is fully established, the priority sequence is: first, protect your neck and spine by tucking your chin and preventing the attacker from controlling your far arm for the Twister. Second, fight the boot pressure using your free hand to push or strip the foot from your hip, as removing the boot eliminates the torque that powers all attacks. Third, work to extract your trapped leg by bending it sharply and using hip rotation to create space within the triangle. Fourth, attempt a forward roll or granby roll to escape the entanglement once you have reduced at least one control point. Escape probability is significantly lower at this stage, so if submissions begin applying, tap early rather than risking spinal or knee injury."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and early defense",
+        "focus": "Identifying Truck entry signals and executing immediate defensive reactions",
+        "description": "Partner slowly demonstrates Truck entry from turtle while you practice recognizing the perpendicular shift and far leg reach. Execute sit-back defense and standup defense at 25% speed. Drill 15 repetitions of each defensive response. Focus on building the recognition-to-reaction neural pathway before adding speed or resistance."
+      },
+      {
+        "phase": "Phase 2: Escape mechanics from partial entry",
+        "focus": "Granby rolls and leg extraction against developing Truck positions",
+        "description": "Partner establishes partial Truck entry (grip on far leg, hook partially inserted but no triangle lock). Practice granby rolls in both directions, explosive leg extraction, and sit-through escapes at 40% resistance. 10 repetitions per escape type with emphasis on timing and explosive commitment. Partner gradually increases resistance to 60% over sessions."
+      },
+      {
+        "phase": "Phase 3: Defense from established Truck",
+        "focus": "Survival and escape from fully locked Truck position",
+        "description": "Partner establishes complete Truck with triangle lock and boot pressure. Practice neck and spine protection, boot clearing, and leg extraction sequences against 50% resistance. Develop the composed mindset needed to work systematically rather than panic. 5-minute positional rounds where success is defined as escaping without submission. Partner attacks at controlled pace."
+      },
+      {
+        "phase": "Phase 4: Live integration and scramble training",
+        "focus": "Defending Truck attempts during live sparring and scrambles",
+        "description": "Start from turtle with partner attacking freely, including Truck entries mixed with traditional back takes and front headlock attacks. Develop the ability to read attack type and select the correct defensive framework in real time. 5-minute positional rounds at full resistance. Track how often you deny the Truck entry versus how often you must escape from an established position."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Inside Truck Entry",
+      "description": "Instead of entering from the outside perpendicular position, enter from directly behind the turtle. Thread your leg from between their legs to create the hook. This variation works well when you have back control but opponent is defending their neck well and you want to switch to leg attacks.",
+      "when_to_use": "When you're already behind the turtle with some back control established, or when opponent is too defensive against traditional back takes and you need an alternative attack angle."
+    },
+    {
+      "variant_name": "Rolling Truck Entry",
+      "description": "From standing or when opponent is standing from turtle, grip their far leg and roll underneath them while pulling the leg with you. As you complete the roll, lock your triangle in mid-movement. This dynamic entry creates the Truck through momentum rather than static positioning.",
+      "when_to_use": "Effective against opponents who constantly stand up from turtle, or as a counter when they sprawl to defend traditional entries. Requires good timing and coordination but is highly effective once mastered."
+    },
+    {
+      "variant_name": "Crab Ride to Truck Transition",
+      "description": "From Crab Ride position (sitting on opponent's back in turtle with one leg hooked), transition to Truck by securing the opposite leg and triangling your legs. This is a natural progression when opponent defends the Crab Ride by trying to remove your hook.",
+      "when_to_use": "When you've established Crab Ride but opponent is defending well and you need to advance position. Also effective when you have one leg already hooked and want to create more submission opportunities."
+    },
+    {
+      "variant_name": "Truck from Failed Guard Pull",
+      "description": "When attempting to pull guard and opponent sprawls into turtle position, use your already-engaged legs to immediately transition to Truck entry. Your legs are already in proximity to theirs, making the entry faster than traditional setups.",
+      "when_to_use": "Scramble situations where your guard pull fails and opponent assumes turtle. Particularly effective in no-gi where this scenario is common. Turns a defensive situation into an immediate offensive opportunity."
+    }
+  ],
+  "position_integration": "The Truck transition is a critical component of modern no-gi grappling and the 10th Planet system, serving as a bridge between traditional back attacks and leg-based submissions. Within your overall BJJ game, the Truck provides an alternative path when opponents defend against conventional back takes from turtle. It integrates seamlessly with other turtle attacking sequences - if your traditional back take is defended, you can switch to Truck; if your Truck entry is stuffed, you can return to back control attempts. This creates an attacking loop that's difficult to defend completely. The Truck also connects your top game to your leg lock system, as successful entries open up the entire lower body submission network including calf slicers and banana splits depending on your ruleset. For competitors, the Truck is particularly valuable because many opponents are not well-versed in defending it compared to more common positions, creating knowledge gaps you can exploit. The position also serves as an excellent entry point for learning the biomechanics of leg entanglements, as the leg triangle in Truck shares similarities with configurations in other positions like Ashi Garami variants. Understanding the Truck improves your overall positional awareness and submission chaining abilities across your entire game.",
+  "conditions": [
+    "Opponent is in turtle position with weight forward on hands",
+    "You have established side-riding or rear control on the turtle",
+    "Access to opponent's far leg is available from underneath their body",
+    "Opponent is not actively standing up or explosively moving backward",
+    "Upper body control (cross face, collar tie, or overhook) is maintained"
+  ]
 }

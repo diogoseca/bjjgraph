@@ -333,7 +333,7 @@ Marcelo Garcia's training methodology emphasizes positional sparring from butter
 - [[Butterfly Hook Control]] (Position) - Core control mechanism enabling all sweeps and transitions
 - [[Butterfly Sweep]] (Transition) - Fundamental sweep technique central to system effectiveness
 - [[Basic Butterfly Sweep]] (Transition) - Entry-level sweep variation for beginners learning system
-- [[Butterfly Sweep Variations]] (Transition) - Advanced sweep options expanding system diversity
+- [[Butterfly Sweep]] (Transition) - Advanced sweep options expanding system diversity
 - [[Arm Drag to Back]] (Transition) - Essential transition when sweep is defended with hand post
 - [[Single Leg X-Guard]] (Position) - Alternative guard position when opponent leans back to counter butterfly
 - [[Single Leg X Entry]] (Transition) - Transition from butterfly when opponent shifts weight backward
@@ -347,7 +347,6 @@ Marcelo Garcia's training methodology emphasizes positional sparring from butter
 - [[Butterfly Hook Retention]] (Principle) - Core principle for maintaining active hooks throughout exchanges
 - [[Off-Balancing]] (Principle) - Fundamental principle underlying all sweep attempts
 - [[Timing Sweeps]] (Principle) - Critical concept for maximizing sweep success rates
-- [[Hip Movement]] (Principle) - Essential body mechanic for generating sweeping power
 - [[System Building]] (Principle) - Conceptual framework for connecting individual techniques
 - [[Marcelo Garcia Guillotine System]] (System) - Complementary system integrating guillotine attacks with butterfly guard
 - [[Marcelo Garcia X-Guard System]] (System) - Related guard system sharing similar principles and transitions

@@ -93,19 +93,17 @@ Outside Ashi-Garami exists as both an offensive attacking position (bottom persp
 ### Available Transitions
 
 
-- **[[Outside Heel Hook]]** (12% of attempts)
+- **[[Outside Heel Hook]]** (30% of attempts)
 
-- **[[Straight Ankle Lock]]** (13% of attempts)
+- **[[Inside Ashi Entry]]** (27% of attempts)
 
-- **[[Saddle Entry from Top]]** (17% of attempts)
+- **[[Straight Ankle Lock Entry]]** (15% of attempts)
 
-- **[[Inside Ashi Entry]]** (19% of attempts)
+- **[[Saddle Entry from Top]]** (10% of attempts)
 
-- **[[Inside Ashi-Garami to Cross Ashi]]** (16% of attempts)
+- **[[Kneebar Setup]]** (10% of attempts)
 
-- **[[50-50 Entry from Standing]]** (12% of attempts)
-
-- **[[Kneebar Setup]]** (11% of attempts)
+- **[[Cross Ashi Transition]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -166,19 +164,25 @@ Outside Ashi-Garami exists as both an offensive attacking position (bottom persp
 ### Available Transitions
 
 
-- **[[Ashi Garami Escape]]** (15% of attempts)
+- **[[Ashi Garami Escape]]** (59% of attempts)
 
-- **[[Outside Ashi Entry]]** (14% of attempts)
+- **[[Back Step]]** (18% of attempts)
 
-- **[[Inside Ashi Entry]]** (13% of attempts)
+- **[[Counter heel hook]]** (11% of attempts)
 
-- **[[Saddle Entry from Top]]** (12% of attempts)
+- **[[Saddle Entry from Top]]** (4% of attempts)
 
-- **[[Standing to Single Leg X]]** (16% of attempts)
+- **[[Kneebar Setup]]** (4% of attempts)
 
-- **[[Leg Weave Pass]]** (14% of attempts)
+- **[[Standing Escape]]** (3% of attempts)
 
-- **[[Technical Stand-up]]** (16% of attempts)
+- **[[Outside Ashi to Inside Ashi]]** (0% of attempts)
+
+- **[[Outside to Ushiro Ashi]]** (0% of attempts)
+
+- **[[Saddle Entry from Outside Ashi]]** (0% of attempts)
+
+- **[[Toe Hold from Outside Ashi]]** (1% of attempts)
 
 
 ### Common Mistakes

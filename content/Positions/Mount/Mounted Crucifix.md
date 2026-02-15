@@ -101,21 +101,21 @@ The mounted crucifix also serves as an excellent teaching position for understan
 ### Available Transitions
 
 
-- **[[Arm Extraction]]** (18% of attempts)
+- **[[Arm Extraction]]** (20% of attempts)
 
-- **[[Bridge and Roll]]** (12% of attempts)
+- **[[Bridge and Roll]]** (14% of attempts)
 
-- **[[Elbow Escape]]** (16% of attempts)
+- **[[Elbow Escape to Guard]]** (16% of attempts)
 
 - **[[Upa Escape]]** (11% of attempts)
 
-- **[[Hip Escape]]** (14% of attempts)
+- **[[Hip Escape to Guard]]** (14% of attempts)
 
 - **[[Explosive Bridge to Turtle]]** (12% of attempts)
 
-- **[[Arm Drag Sweep]]** (8% of attempts)
+- **[[Arm Drag Sweep]]** (5% of attempts)
 
-- **[[Rolling Escape]]** (9% of attempts)
+- **[[Rolling Escape to Guard]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -176,17 +176,17 @@ The mounted crucifix also serves as an excellent teaching position for understan
 ### Available Transitions
 
 
-- **[[Armbar from Crucifix]]** (10% of attempts)
+- **[[Armbar Finish]]** (12% of attempts)
 
-- **[[Choke from Crucifix]]** (10% of attempts)
+- **[[Rear Naked Choke]]** (11% of attempts)
 
 - **[[Back Control to Crucifix]]** (10% of attempts)
 
-- **[[Rear Naked Choke]]** (9% of attempts)
+- **[[Armbar on Free Arm]]** (10% of attempts)
 
 - **[[Gift Wrap to Technical Mount]]** (11% of attempts)
 
-- **[[Straight Armbar]]** (10% of attempts)
+- **[[Neck Crank]]** (6% of attempts)
 
 - **[[Mount to Armbar]]** (10% of attempts)
 

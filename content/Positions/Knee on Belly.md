@@ -15,7 +15,7 @@ description: "Master Knee on Belly in BJJ. Strategic control position balancing 
 
 <section id="overview" class="content-section">
 
-Knee on Belly is a dynamic control position in Brazilian Jiu-Jitsu where one practitioner places their knee on the opponent's torso while maintaining a mobile base. This position uniquely combines high pressure with exceptional mobility, creating a transitional platform that scores points while setting up submissions and positional advancements. Unlike static control positions such as mount or side control, Knee on Belly requires continuous weight adjustments and active pressure management. The position creates a strategic dilemma for the bottom player: defend against submissions, prevent transitions to more dominant positions, or alleviate the crushing diaphragm pressure. From the top perspective, this position offers point-scoring opportunities, submission threats, and rapid transition potential to mount, back control, or north-south. From the bottom perspective, it represents a high-risk defensive scenario requiring immediate escape protocols combining frame creation, hip movement, and systematic re-guard strategies. The position exemplifies the principle of dynamic control over static dominance, rewarding practitioners who master the balance between pressure application and transitional readiness.
+Knee on Belly is a dynamic control position in Brazilian Jiu-Jitsu where one practitioner places their knee on the opponent's torso while maintaining a mobile base. This position uniquely combines high pressure with exceptional mobility, creating a transitional platform that scores points while setting up submissions and positional advancements. Unlike static control positions such as mount or side control, Knee on Belly requires continuous weight adjustments and active pressure management. The position creates a strategic dilemma for the bottom player: defend against submissions, prevent transitions to more dominant positions, or alleviate the crushing diaphragm pressure. From the top perspective, this position offers point-scoring opportunities, submission threats, and rapid transition potential to mount, back control, or north-south. From the bottom perspective, it represents a high-risk defensive scenario requiring immediate escape protocols combining frame creation, hip movement, and systematic re-guard strategies. The position exemplifies the principle of dynamic control over static dominance, rewarding practitioners who master the balance between pressure application and transitional readiness. The top player's knee acts as a fulcrum through which bodyweight is channeled into the bottom player's solar plexus, creating respiratory distress that forces panicked defensive reactions. These reactions — pushing with extended arms, turning away, bridging — each open specific attack pathways that a prepared top player can exploit. The bottom player must recognize that every second spent flat under this pressure compounds the disadvantage, making immediate and systematic escape attempts essential. Understanding both perspectives transforms Knee on Belly from a simple pressure position into a complex strategic node within the positional hierarchy.
 
 </section>
 
@@ -87,9 +87,9 @@ Knee on Belly is a dynamic control position in Brazilian Jiu-Jitsu where one pra
 ### Available Transitions
 
 
-- **[[Elbow Escape]]** (17% of attempts)
+- **[[Elbow Escape to Guard]]** (17% of attempts)
 
-- **[[Hip Escape]]** (14% of attempts)
+- **[[Hip Escape to Guard]]** (14% of attempts)
 
 - **[[Shrimp Escape]]** (16% of attempts)
 
@@ -97,9 +97,9 @@ Knee on Belly is a dynamic control position in Brazilian Jiu-Jitsu where one pra
 
 - **[[Knee Shield Retention]]** (16% of attempts)
 
-- **[[Technical Standup]]** (10% of attempts)
+- **[[Technical Stand-up]]** (10% of attempts)
 
-- **[[Frame and Shrimp]]** (14% of attempts)
+- **[[Frame and Shrimp to Guard]]** (14% of attempts)
 
 
 ### Common Mistakes
@@ -166,17 +166,17 @@ Knee on Belly is a dynamic control position in Brazilian Jiu-Jitsu where one pra
 
 - **[[Side Control to Mount]]** (22% of attempts)
 
-- **[[Armbar from Side Control]]** (14% of attempts)
+- **[[Armbar Finish]]** (14% of attempts)
 
 - **[[Baseball Bat Choke]]** (16% of attempts)
 
 - **[[Side Control to North-South]]** (15% of attempts)
 
-- **[[Kimura from Side Control]]** (12% of attempts)
+- **[[Kimura]]** (12% of attempts)
 
-- **[[Back Take Generic]]** (10% of attempts)
+- **[[Back Take from Top]]** (10% of attempts)
 
-- **[[S Mount Transition]]** (11% of attempts)
+- **[[S-Mount Transition]]** (11% of attempts)
 
 
 ### Common Mistakes

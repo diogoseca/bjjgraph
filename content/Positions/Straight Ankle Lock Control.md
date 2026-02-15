@@ -101,23 +101,25 @@ The position also serves an important pedagogical function in teaching fundament
 ### Available Transitions
 
 
-- **[[Straight Ankle Lock]]** (11% of attempts)
+- **[[Ankle Lock Finish]]** (31% of attempts)
 
-- **[[Inside Ashi Entry]]** (12% of attempts)
+- **[[Inside Ashi Entry]]** (13% of attempts)
 
-- **[[Outside Ashi Entry]]** (12% of attempts)
+- **[[Outside Ashi Entry]]** (11% of attempts)
 
-- **[[X-Guard to Ashi Transition]]** (11% of attempts)
+- **[[X-Guard to Ashi Transition]]** (6% of attempts)
 
-- **[[50-50 Entry from Standing]]** (12% of attempts)
+- **[[50-50 Entry from Standing]]** (8% of attempts)
 
-- **[[Single Leg X Entry]]** (13% of attempts)
+- **[[Single Leg X Entry]]** (10% of attempts)
 
-- **[[Straight Footlock]]** (10% of attempts)
+- **[[Kneebar Finish]]** (8% of attempts)
 
-- **[[Kneebar Finish]]** (9% of attempts)
+- **[[Ankle Pick Sweep]]** (8% of attempts)
 
-- **[[Ankle Pick Sweep]]** (10% of attempts)
+- **[[Straight Footlock]]** (3% of attempts)
+
+- **[[Ankle Lock Escape to Standing]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -178,21 +180,19 @@ The position also serves an important pedagogical function in teaching fundament
 ### Available Transitions
 
 
-- **[[Ashi Garami Escape]]** (12% of attempts)
+- **[[Ashi Garami Escape]]** (25% of attempts)
 
-- **[[Counter Entry to Opponent's Leg]]** (10% of attempts)
+- **[[Counter Entry to Opponent's Leg]]** (15% of attempts)
 
-- **[[Standing Escape]]** (10% of attempts)
+- **[[Hip Rotation Defense]]** (15% of attempts)
 
-- **[[Hip Rotation Defense]]** (10% of attempts)
+- **[[Knee Extraction]]** (15% of attempts)
 
-- **[[Knee Extraction]]** (10% of attempts)
+- **[[Frame and Distance Creation]]** (12% of attempts)
 
-- **[[Frame and Distance Creation]]** (10% of attempts)
+- **[[Pass to Side Control]]** (8% of attempts)
 
-- **[[Pass to Top Control]]** (8% of attempts)
-
-- **[[Straight Ankle Lock]]** (30% of attempts)
+- **[[Counter-entangle to 50-50 Guard]]** (10% of attempts)
 
 
 ### Common Mistakes

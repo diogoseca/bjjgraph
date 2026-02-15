@@ -65,7 +65,7 @@
   ],
   "top": {
     "name": "Honey Hole Top",
-    "description": "Master Honey Hole Position Top in BJJ. Advanced leg entanglement control with direct heel hook access. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.",
+    "description": "Master Honey Hole Top in BJJ. Advanced leg entanglement control with direct heel hook access, kneebar chains, and systematic submission progressions.",
     "tags": [
       "bjj",
       "position",
@@ -80,7 +80,7 @@
     ],
     "overview": "Honey Hole Position Top, also known as Inside Sankaku or 411 position, is an advanced leg entanglement where the top player traps one of opponent's legs between their own legs while facing their opponent. This position is highly offensive, providing direct access to heel hooks, kneebars, and toe holds while limiting opponent's escape options. The position creates a powerful control system through hip pressure and leg configuration, making it one of the most dangerous positions in modern no-gi BJJ.\n\nThe Honey Hole represents the culmination of modern leg lock development, refined through systematic study of leg entanglement mechanics. From this position, the top player maintains significant control advantages while threatening multiple submission paths. The position is characterized by the specific leg entanglement where one leg triangles around opponent's trapped leg while the other leg crosses over their hip, creating a figure-four configuration that isolates the leg for attack.\n\nThis position excels in no-gi grappling and submission-only rulesets where leg attacks are permitted. It requires careful control and technical precision to maintain while setting up submissions. The risk level is medium because improper execution can result in counter-entanglements or leg lock exposure for the attacker. The position's effectiveness stems from its ability to create mechanical disadvantage for the defender while establishing multiple submission threats simultaneously.",
     "state_properties": {
-      "point_value": 2,
+      "point_value": 0,
       "position_type": "Offensive",
       "risk_level": "Medium",
       "energy_cost": "Medium",
@@ -158,7 +158,7 @@
           },
           {
             "technique": "Outside Heel Hook",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 75
           }
         ]
@@ -177,8 +177,8 @@
             "probability": 65
           },
           {
-            "technique": "Inside Heel Hook",
-            "target": "game-over",
+            "technique": "Heel Hook",
+            "target": "Game Over",
             "probability": 60
           }
         ]
@@ -193,7 +193,7 @@
           },
           {
             "technique": "Outside Heel Hook",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 70
           },
           {
@@ -212,8 +212,8 @@
             "probability": 75
           },
           {
-            "technique": "Toe Hold from Top",
-            "target": "Toe Hold Control",
+            "technique": "Toe Hold",
+            "target": "Game Over",
             "probability": 60
           },
           {
@@ -326,13 +326,16 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 60
+        "value": 60,
+        "description": "Moderate retention due to opponent's high urgency to escape and counter-entanglement risk"
       },
       "advancement_probability": {
-        "value": 60
+        "value": 60,
+        "description": "Strong advancement to submission or superior entanglement when control is maintained"
       },
       "submission_probability": {
-        "value": 42
+        "value": 42,
+        "description": "High submission rate reflecting direct heel hook and kneebar access"
       },
       "average_time": "30-90 seconds in competition, 1-3 minutes in training"
     },
@@ -342,38 +345,46 @@
         "attempt_probability": 12
       },
       {
-        "transition": "Inside Heel Hook",
-        "attempt_probability": 30
+        "transition": "Heel Hook",
+        "attempt_probability": 42
       },
       {
         "transition": "Kneebar Finish",
         "attempt_probability": 14
       },
       {
-        "transition": "Toe Hold from Top",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Saddle Entry from Top",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Inside Ashi Entry",
-        "attempt_probability": 6
+        "transition": "Toe Hold",
+        "attempt_probability": 8
       },
       {
         "transition": "Back Take from Ashi",
-        "attempt_probability": 11
+        "attempt_probability": 14
       },
       {
-        "transition": "Counter-entangle to 50-50 Guard",
-        "attempt_probability": 5
+        "transition": "Estima Lock",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Transition to Backside 50-50",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Calf Slicer",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Honey Hole to Saddle",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Inside Heel Hook from Honey Hole",
+        "attempt_probability": 1
       }
     ]
   },
   "bottom": {
     "name": "Honey Hole Bottom",
-    "description": "Master Honey Hole defense in BJJ. Escape techniques, heel hook defense, and survival strategies. Success rates: Beginner 25%, Intermediate 40%, Advanced 55%.",
+    "description": "Master Honey Hole defense in BJJ. Escape techniques, heel hook defense, counter-entanglement strategies, and survival protocols for inside leg entanglement.",
     "tags": [
       "bjj",
       "position",
@@ -453,12 +464,12 @@
         "condition": "If opponent has not yet secured heel grip and triangle is forming",
         "actions": [
           {
-            "technique": "Hip Escape",
+            "technique": "Hip Escape to Guard",
             "target": "Open Guard",
             "probability": 35
           },
           {
-            "technique": "Granby Roll",
+            "technique": "Granby Roll to Guard",
             "target": "Turtle",
             "probability": 30
           },
@@ -474,7 +485,7 @@
         "actions": [
           {
             "technique": "Grip Break",
-            "target": "Defensive Position",
+            "target": "Honey Hole",
             "probability": 20
           },
           {
@@ -494,12 +505,12 @@
         "actions": [
           {
             "technique": "Tap Out",
-            "target": "game-over",
+            "target": "Game Over",
             "probability": 95
           },
           {
             "technique": "Rolling Back Take",
-            "target": "Defensive Position",
+            "target": "Open Guard",
             "probability": 5
           }
         ]
@@ -508,17 +519,17 @@
         "condition": "If opponent loses triangle momentarily during transition",
         "actions": [
           {
-            "technique": "Hip Escape",
+            "technique": "Hip Escape to Guard",
             "target": "Open Guard",
             "probability": 40
           },
           {
-            "technique": "Technical Standup",
-            "target": "Standing Position",
+            "technique": "Standing Escape",
+            "target": "Clinch",
             "probability": 25
           },
           {
-            "technique": "Granby Roll",
+            "technique": "Granby Roll to Guard",
             "target": "Turtle",
             "probability": 30
           }
@@ -637,13 +648,16 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 22
+        "value": 22,
+        "description": "Very low retention reflecting the extreme danger and urgency to escape this position"
       },
       "advancement_probability": {
-        "value": 35
+        "value": 35,
+        "description": "Moderate escape probability through counter-entanglement or explosive early escape"
       },
       "submission_probability": {
-        "value": 25
+        "value": 25,
+        "description": "Represents counter-submission probability via counter heel hook or reversal to attacking position"
       },
       "average_time": "5-15 seconds before submission or escape"
     },
@@ -653,32 +667,36 @@
         "attempt_probability": 15
       },
       {
-        "transition": "Hip Escape",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Rolling to Guard",
+        "transition": "Hip Escape to Guard",
         "attempt_probability": 8
       },
       {
         "transition": "Saddle Defense",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Ashi Garami Escape",
         "attempt_probability": 10
       },
       {
+        "transition": "Ashi Garami Escape",
+        "attempt_probability": 8
+      },
+      {
         "transition": "Counter-entangle to 50-50 Guard",
-        "attempt_probability": 28
+        "attempt_probability": 30
       },
       {
         "transition": "Counter heel hook",
-        "attempt_probability": 8
+        "attempt_probability": 4
       },
       {
         "transition": "Reverse the entanglement to Outside Ashi",
         "attempt_probability": 9
+      },
+      {
+        "transition": "Grip Break",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Standing Escape",
+        "attempt_probability": 2
       }
     ]
   }

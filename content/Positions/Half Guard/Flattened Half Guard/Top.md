@@ -21,37 +21,37 @@ description: "Learn pressure passing from flattened half guard top. Complete you
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice from Half",
-      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 30% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crossface Pass",
-      "text": "From this position, attempt Crossface Pass. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Crossface Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Pass",
-      "text": "From this position, attempt Underhook Pass. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take Generic",
-      "text": "From this position, attempt Back Take Generic. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Back Take",
+      "text": "From this position, attempt Back Take. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura from Half Guard",
-      "text": "From this position, attempt Kimura from Half Guard. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Kimura",
+      "text": "From this position, attempt Kimura. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Transition to Flattened Half Guard",
+      "text": "From this position, attempt Transition to Flattened Half Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,19 +208,23 @@ Understanding the position's relationship to the broader passing game is essenti
 
 ## Available Attacks
 
-### [[Knee Slice from Half]] (19% of attempts)
+### [[Knee Slice from Half]] (30% of attempts)
 
-### [[Crossface Pass]] (18% of attempts)
+### [[Crossface Pass]] (15% of attempts)
 
-### [[Underhook Pass]] (16% of attempts)
+### [[Underhook Pass]] (11% of attempts)
 
-### [[Back Take Generic]] (12% of attempts)
+### [[Back Take]] (10% of attempts)
 
-### [[Kimura from Half Guard]] (10% of attempts)
+### [[Kimura]] (6% of attempts)
 
-### [[Side Control to Mount]] (14% of attempts)
+### [[Transition to Flattened Half Guard]] (13% of attempts)
 
-### [[Knee on Belly]] (11% of attempts)
+### [[Half Guard Pass]] (10% of attempts)
+
+### [[Complete Pass from Flattened Half]] (3% of attempts)
+
+### [[Knee Slide from Flattened Half]] (2% of attempts)
 
 
 
@@ -236,12 +240,12 @@ Understanding the position's relationship to the broader passing game is essenti
 
 
 **If opponent turns away to escape crossface pressure or prevent pass completion:**
-- Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 50%)
+- Execute **[[Back Take]]** → [[Back Control]] (Probability: 50%)
 - Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 40%)
 
 
 **If opponent extends arm to establish underhook or create frame against crossface:**
-- Execute **[[Kimura from Half Guard]]** → [[Kimura Trap]] (Probability: 40%)
+- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 40%)
 - Execute **[[Underhook Pass]]** → [[Side Control]] (Probability: 50%)
 
 

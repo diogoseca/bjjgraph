@@ -1,0 +1,13 @@
+{
+  "name": "Smash from Butterfly Hook Control",
+  "description": "",
+  "tags": [],
+  "from_position": "Butterfly Hook Control/Top",
+  "outcomes": [
+    {
+      "to": "Half Guard/Top",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

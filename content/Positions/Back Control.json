@@ -92,43 +92,79 @@
     "transitions": [
       {
         "transition": "Rear Naked Choke",
-        "attempt_probability": 22
+        "attempt_probability": 78
       },
       {
-        "transition": "Armbar from Back with Legs",
-        "attempt_probability": 7
+        "transition": "Armbar from Back Transition",
+        "attempt_probability": 2
       },
       {
         "transition": "Bow and Arrow Choke",
-        "attempt_probability": 12
+        "attempt_probability": 4
       },
       {
         "transition": "Back Control to Crucifix",
-        "attempt_probability": 8
+        "attempt_probability": 0
       },
       {
-        "transition": "Armbar from Back",
-        "attempt_probability": 5
+        "transition": "Armbar on Free Arm",
+        "attempt_probability": 0
       },
       {
         "transition": "Body Triangle Lock",
-        "attempt_probability": 8
+        "attempt_probability": 2
       },
       {
         "transition": "Back Control Maintenance",
-        "attempt_probability": 18
+        "attempt_probability": 13
       },
       {
         "transition": "Triangle from Back",
-        "attempt_probability": 7
+        "attempt_probability": 0
       },
       {
         "transition": "Kimura from Back",
-        "attempt_probability": 5
+        "attempt_probability": 0
       },
       {
         "transition": "Gift Wrap Control",
-        "attempt_probability": 8
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Transition to Seat Belt Control Back",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Short Choke Attack",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Mat Return to Back Mount",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Back Control to Cross Body Ride",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Back Control to Reverse Half Guard",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Back Control to Seat Belt Control Back",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Gift Wrap from Back",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Rear Naked Choke Setup",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Standing Back Control Entry",
+        "attempt_probability": 1
       }
     ],
     "decision_tree": [
@@ -360,32 +396,60 @@
     ],
     "transitions": [
       {
-        "transition": "Back Escape Series",
-        "attempt_probability": 23
+        "transition": "Back Door Escape",
+        "attempt_probability": 62
       },
       {
         "transition": "Hip Escape to Turtle",
-        "attempt_probability": 18
+        "attempt_probability": 11
       },
       {
-        "transition": "Granby Roll Escape",
-        "attempt_probability": 8
+        "transition": "Granby Roll to Guard",
+        "attempt_probability": 0
       },
       {
         "transition": "Elbow Escape to Remove Hooks",
-        "attempt_probability": 16
+        "attempt_probability": 11
       },
       {
         "transition": "Hand Fighting from Back",
-        "attempt_probability": 18
+        "attempt_probability": 9
       },
       {
         "transition": "Turn In and Face",
-        "attempt_probability": 12
+        "attempt_probability": 6
       },
       {
-        "transition": "Rolling Escape",
-        "attempt_probability": 5
+        "transition": "Rolling Escape to Guard",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Elbow Escape from Back",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Hand Fight to Turtle from Back",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Hip Escape from Back Control",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Scoot Hips to Guard from Back",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Shoulder Walk Escape from Back",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Turn into Opponent from Back",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Turtle from Back Control",
+        "attempt_probability": 1
       }
     ],
     "decision_tree": [
@@ -521,12 +585,12 @@
     ],
     "related_content": [
       {
-        "name": "Back Escape Series",
-        "relationship": "Comprehensive escape system addressing all back control escape sequences"
+        "name": "Back Door Escape",
+        "relationship": "Comprehensive escape system addressing back control escape through systematic positional improvement"
       },
       {
-        "name": "Granby Roll Escape",
-        "relationship": "Alternative inversion-based escape movement for creating space and changing angles"
+        "name": "Granby Roll to Guard",
+        "relationship": "Alternative inversion-based escape movement for creating space and recovering guard from back control"
       },
       {
         "name": "Turtle",

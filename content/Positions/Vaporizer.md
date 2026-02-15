@@ -91,17 +91,21 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 ### Available Transitions
 
 
-- **[[Old School Sweep]]** (20% of attempts)
+- **[[Old School Sweep]]** (26% of attempts)
 
-- **[[Turtle to Truck]]** (18% of attempts)
+- **[[Turtle to Truck]]** (16% of attempts)
 
-- **[[Electric Chair Submission]]** (18% of attempts)
+- **[[Electric Chair Transition]]** (18% of attempts)
 
-- **[[Closed Guard to Omoplata]]** (14% of attempts)
+- **[[Closed Guard to Omoplata]]** (8% of attempts)
 
-- **[[Half Guard to Back Take]]** (15% of attempts)
+- **[[Half Guard to Back Take]]** (13% of attempts)
 
-- **[[Lockdown Sweeps]]** (15% of attempts)
+- **[[Lockdown Recovery]]** (13% of attempts)
+
+- **[[Escape Vaporizer]]** (4% of attempts)
+
+- **[[Roll from Vaporizer]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -162,17 +166,21 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 ### Available Transitions
 
 
-- **[[Half Guard Pass]]** (17% of attempts)
+- **[[Half Guard Pass]]** (22% of attempts)
 
-- **[[Knee Slice Pass]]** (17% of attempts)
+- **[[Knee Slice Pass]]** (15% of attempts)
 
-- **[[Smash Pass]]** (17% of attempts)
+- **[[Smash Pass]]** (13% of attempts)
 
-- **[[Pressure Pass]]** (17% of attempts)
+- **[[Pressure Pass]]** (13% of attempts)
 
-- **[[Lockdown Escape to Half Guard Pass]]** (16% of attempts)
+- **[[Lockdown Escape to Half Guard Pass]]** (13% of attempts)
 
-- **[[Whizzer]]** (16% of attempts)
+- **[[Whizzer]]** (13% of attempts)
+
+- **[[Defend Vaporizer Sweep]]** (7% of attempts)
+
+- **[[Pass Vaporizer Position]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -229,7 +237,7 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 
 - **[[Deep Half Guard]]** - Alternative half guard control approach
 
-- **[[Z-Guard]]** - Related half guard variant with leg control emphasis
+- **[[Z-Lock Half Guard]]** - Related half guard variant with leg control emphasis
 
 
 </section>

@@ -21,19 +21,19 @@ description: "Master top inverted lasso guard defense. Complete guide to prevent
     {
       "@type": "HowToStep",
       "name": "Execute Lasso Guard Pass",
-      "text": "From this position, attempt Lasso Guard Pass. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Lasso Guard Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass",
-      "text": "From this position, attempt Stack Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction",
-      "text": "From this position, attempt Arm Extraction. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Arm Extraction. This technique is attempted in 22% of exchanges from this position.",
       "position": 3
     },
     {
@@ -45,13 +45,13 @@ description: "Master top inverted lasso guard defense. Complete guide to prevent
     {
       "@type": "HowToStep",
       "name": "Execute Pressure Pass",
-      "text": "From this position, attempt Pressure Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Pressure Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Cut Pass",
-      "text": "From this position, attempt Knee Cut Pass. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Knee Cut Pass. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,21 +212,25 @@ Advanced top players learn to create dilemmas in reverse - making the inverted p
 
 ## Available Attacks
 
-### [[Lasso Guard Pass]] (13% of attempts)
+### [[Lasso Guard Pass]] (11% of attempts)
 
-### [[Stack Pass]] (12% of attempts)
+### [[Stack Pass]] (11% of attempts)
 
-### [[Arm Extraction]] (14% of attempts)
+### [[Arm Extraction]] (22% of attempts)
 
 ### [[Cartwheel Pass]] (11% of attempts)
 
-### [[Pressure Pass]] (12% of attempts)
+### [[Pressure Pass]] (10% of attempts)
 
-### [[Knee Cut Pass]] (13% of attempts)
+### [[Knee Cut Pass]] (8% of attempts)
 
-### [[Smash Pass]] (11% of attempts)
+### [[Smash Pass]] (9% of attempts)
 
-### [[Toreando Pass]] (14% of attempts)
+### [[Back Step Pass]] (12% of attempts)
+
+### [[Pass Inverted Lasso Guard]] (4% of attempts)
+
+### [[Stack from Inverted Lasso]] (2% of attempts)
 
 
 

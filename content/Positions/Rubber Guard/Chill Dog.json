@@ -38,16 +38,8 @@
       "relationship": "Common opponent attack requiring technical stand-up escape"
     },
     {
-      "name": "Twister Control",
-      "relationship": "10th Planet-specific opponent attack if hooks are inserted"
-    },
-    {
       "name": "Butterfly Guard",
       "relationship": "Escape option when sitting back from compact posture"
-    },
-    {
-      "name": "Rubber Guard",
-      "relationship": "10th Planet guard system to recover after escape"
     },
     {
       "name": "Lockdown",
@@ -164,7 +156,7 @@
         "actions": [
           {
             "technique": "Establish truck position",
-            "target": "Twister Control",
+            "target": "Cross Body Ride",
             "probability": 55
           },
           {
@@ -257,10 +249,6 @@
         "relationship": "Common control position when opponent lifts head or attempts stand-up"
       },
       {
-        "name": "Twister Control",
-        "relationship": "10th Planet-specific attack from turtle top position"
-      },
-      {
         "name": "Turtle to Back Control",
         "relationship": "Primary transition technique from this position"
       },
@@ -279,48 +267,63 @@
       {
         "name": "Rear Naked Choke",
         "relationship": "Primary submission after establishing back control"
+      },
+      {
+        "name": "Truck Entry",
+        "relationship": "10th Planet-specific attack when opponent's hips turn"
       }
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 68
+        "value": 68,
+        "description": "Moderate retention as bottom player actively seeks escape windows"
       },
       "advancement_probability": {
-        "value": 62
+        "value": 62,
+        "description": "Good advancement rate when systematic pressure breaks defensive frame"
       },
       "submission_probability": {
-        "value": 42
+        "value": 42,
+        "description": "Submissions typically come after advancing to back control or front headlock"
       },
       "average_time": "30-60 seconds to establish back control or dominant position"
     },
     "transitions": [
       {
         "transition": "Turtle to Back Control",
-        "attempt_probability": 20
+        "attempt_probability": 24
       },
       {
         "transition": "Crucifix from Turtle",
-        "attempt_probability": 15
+        "attempt_probability": 13
       },
       {
         "transition": "Darce Setup",
-        "attempt_probability": 13
+        "attempt_probability": 11
       },
       {
         "transition": "Anaconda Setup",
-        "attempt_probability": 12
+        "attempt_probability": 10
       },
       {
         "transition": "Front Headlock to Back",
-        "attempt_probability": 15
-      },
-      {
-        "transition": "Truck Entry",
         "attempt_probability": 13
       },
       {
+        "transition": "Truck Entry",
+        "attempt_probability": 11
+      },
+      {
         "transition": "Guillotine Setup",
-        "attempt_probability": 12
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Posture from Chill Dog",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Stack from Chill Dog",
+        "attempt_probability": 3
       }
     ],
     "knowledge_assessment": [
@@ -329,28 +332,28 @@
         "answer": "Hip control must be established first before attacking the upper body. Controlling the near-side hip with your knee or underhook prevents the bottom player from executing hip-based escapes like Granby rolls or sit-throughs. Without hip control, even if you secure upper body controls like a front headlock, the opponent can use hip movement to escape. The sequence should always be: hip control, then shoulder/arm control, then back hooks or submission attacks."
       },
       {
+        "question": "Your opponent's right elbow lifts away from their knee momentarily as they adjust - what do you do?",
+        "answer": "Immediately attack that gap with explosive hook insertion on the exposed side. Thread your foot inside their thigh on the side where the elbow separated from the knee, then simultaneously work your arm under their armpit on that same side to begin establishing the seatbelt. The elbow-knee separation is the highest-value trigger in this position because it breaks the fundamental defensive structure. You must act within one to two seconds before they re-close the frame. If you hesitate, they will re-establish the connection and you lose the opportunity."
+      },
+      {
         "question": "How do you maintain position when the bottom player makes small defensive movements?",
         "answer": "Maintain consistent pressure throughout their movements rather than releasing and re-establishing control. Adjust your position dynamically to follow their movement while keeping chest pressure on their back or shoulder. Think of your weight as a heavy blanket that stays with them - when they shift, you shift. Releasing pressure even momentarily creates the space they need to initiate an escape sequence. Use small hip adjustments and grip changes rather than large positional resets."
       },
       {
-        "question": "What triggers should you watch for that indicate an opportunity for back control?",
-        "answer": "The primary trigger is when the opponent's elbow separates from their knee, breaking the defensive frame. This creates a gap for hook insertion. Other triggers include: weight shifting to one side (exposes the opposite hip for hook entry), lifting the head (compromises their defensive structure and exposes neck for front headlock), and forward weight collapse (flattens them and exposes the back). Each trigger requires immediate, explosive action before they can re-establish their defensive shell."
+        "question": "The bottom player starts to shift their weight forward onto their hands - what does this signal and how should you respond?",
+        "answer": "Forward weight shift typically signals preparation for a technical stand-up or a Granby roll. If they drive forward, be ready to either snap them back down with heavy chest pressure to prevent the stand-up, or follow their forward momentum with a front headlock if they begin to rise. Drop your hips lower and increase downward pressure through your chest immediately. If you feel them loading onto their hands explosively, transition your grip to their near hip and far shoulder simultaneously to prevent both escape directions."
       },
       {
         "question": "Why is creating dilemmas more effective than attacking with a single technique?",
         "answer": "Single-technique attacks allow the opponent to focus all defensive effort on stopping that one threat. Once they successfully defend, they can then escape while you reset. Dilemmas force them to choose which threat to address - defending the back take may expose an arm for crucifix, defending the arm isolation may allow hook insertion. This continuous pressure exhausts their defensive capacity and eventually creates openings as they cannot defend everything simultaneously."
       },
       {
-        "question": "What is the proper weight distribution for maintaining turtle top control?",
+        "question": "What is the proper weight distribution for maintaining turtle top control against Chill Dog?",
         "answer": "Weight should be distributed forward through your chest onto their upper back, between the shoulder blades. Your hips should be low and close to their body, with your knees controlling their near hip. Avoid sitting back on their hips or staying too high on their back - this allows them to stand up or sit back to guard easily. The forward chest pressure combined with hip control creates a compression that prevents both standing escapes and rolling escapes."
       },
       {
         "question": "How should you respond when the opponent attempts a Granby roll escape?",
         "answer": "Follow their roll while maintaining your upper body connection and grip. As they roll, stay tight to their back and use their momentum to help establish back control - they often expose their back during the rotation. Alternatively, if you sense the roll early, drive your chest pressure forward to flatten them before the roll can generate momentum. The worst response is to disengage and try to re-establish position, as this gives them the space to complete the escape."
-      },
-      {
-        "question": "What adjustments are needed when attacking Chill Dog in no-gi versus gi?",
-        "answer": "In no-gi, you cannot rely on collar or sleeve grips to maintain control. Focus on body-to-body contact through chest pressure, underhooks on the hips, and wrist control. Grip fighting becomes about controlling the forearms and wrists rather than fabric. Your weight distribution becomes more critical since grips slip easier. Attacks like the harness grip and hook insertion must be explosive and precise since you cannot gradually walk your grip into position. Sweat and slipperiness require higher pressure and tighter body connection."
       },
       {
         "question": "When should you transition to front headlock instead of continuing to pursue back control?",
@@ -432,7 +435,7 @@
             "probability": 35
           },
           {
-            "technique": "Technical Standup",
+            "technique": "Technical Stand-up",
             "target": "Clinch",
             "probability": 50
           }
@@ -442,7 +445,7 @@
         "condition": "If opponent attempts front headlock control or guillotine setup",
         "actions": [
           {
-            "technique": "Technical Standup",
+            "technique": "Technical Stand-up",
             "target": "Clinch",
             "probability": 55
           },
@@ -469,7 +472,7 @@
         ]
       },
       {
-        "condition": "If opponent attempts to establish truck or twister control",
+        "condition": "If opponent attempts to establish truck or cross-body ride control",
         "actions": [
           {
             "technique": "Rolling to Guard",
@@ -554,11 +557,15 @@
         "relationship": "Parent position - Chill Dog is a specific variant of turtle"
       },
       {
-        "name": "Granby Roll",
-        "relationship": "Primary escape technique from Chill Dog to guard"
+        "name": "Granby Roll to Guard",
+        "relationship": "Primary rolling escape technique from Chill Dog"
       },
       {
-        "name": "Technical Standup",
+        "name": "Granby to Closed Guard",
+        "relationship": "Specific Granby escape targeting closed guard recovery"
+      },
+      {
+        "name": "Technical Stand-up",
         "relationship": "Alternative escape method when space is available"
       },
       {
@@ -578,54 +585,61 @@
         "relationship": "Common intermediate position during escape sequences"
       },
       {
-        "name": "Twister Control",
-        "relationship": "10th Planet-specific attack opponent may attempt from this position"
-      },
-      {
-        "name": "Rubber Guard",
-        "relationship": "10th Planet guard system to recover after escape"
-      },
-      {
         "name": "Lockdown",
         "relationship": "10th Planet half guard option after escape"
+      },
+      {
+        "name": "Advance to Chill Dog",
+        "relationship": "Entry transition into this defensive position"
       }
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 62
+        "value": 62,
+        "description": "Moderate retention as position is designed to be transitional, not sustained"
       },
       "advancement_probability": {
-        "value": 52
+        "value": 52,
+        "description": "Escape to guard or standing achievable with proper timing and execution"
       },
       "submission_probability": {
-        "value": 12
+        "value": 12,
+        "description": "Very low submission threat from defensive bottom position"
       },
       "average_time": "20-45 seconds before escape or position change"
     },
     "transitions": [
       {
-        "transition": "Granby Roll",
-        "attempt_probability": 18
+        "transition": "Granby Roll to Guard",
+        "attempt_probability": 15
       },
       {
         "transition": "Granby to Closed Guard",
-        "attempt_probability": 15
+        "attempt_probability": 12
       },
       {
-        "transition": "Technical Standup",
-        "attempt_probability": 20
+        "transition": "Technical Stand-up",
+        "attempt_probability": 26
       },
       {
         "transition": "Rolling to Guard",
-        "attempt_probability": 15
+        "attempt_probability": 12
       },
       {
         "transition": "Turtle to Guard",
-        "attempt_probability": 17
+        "attempt_probability": 14
       },
       {
-        "transition": "Hip Escape",
-        "attempt_probability": 15
+        "transition": "Hip Escape to Guard",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Escape Chill Dog",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Roll from Chill Dog",
+        "attempt_probability": 3
       }
     ],
     "knowledge_assessment": [
@@ -634,32 +648,32 @@
         "answer": "The three critical elements are: tight elbow-to-knee connection (creates closed defensive frame preventing hooks and harness), rounded back with tucked head (removes leverage points and protects neck), and forward weight distribution on hands (prevents rolling or flipping). When any of these elements breaks down, you become vulnerable to back takes, arm isolation, or front headlock controls. All three must be maintained continuously until you execute your escape."
       },
       {
-        "question": "How do you use breathing and feel to identify escape windows?",
-        "answer": "Maintain controlled, rhythmic breathing to stay calm and avoid fatigue. Use your sense of feel through your back and hips to track opponent's weight distribution and grip positions without looking. When you feel their weight shift forward (preparing to flatten you), it's time for a Granby roll. When weight shifts backward or they release grips to change position, it's time for technical stand-up. When they overcommit to one side, escape to the opposite side. The key is staying patient and alert rather than reacting to pressure with panic."
+        "question": "Your opponent suddenly increases chest pressure and drives you toward the mat - what adjustment do you make?",
+        "answer": "This increased forward pressure is actually the ideal trigger for a Granby roll. Their forward weight commitment means their base is compromised backward. Widen your knees slightly to absorb the initial pressure spike, then explosively tuck your inside shoulder and roll diagonally away from the pressure direction. Their committed weight helps accelerate your roll. If the Granby angle is blocked, hip escape laterally to prevent flattening while keeping your defensive frame intact, then immediately work to recover guard."
       },
       {
         "question": "Why is the elbow-to-knee connection considered non-negotiable in Chill Dog?",
         "answer": "The elbow-to-knee connection creates a closed defensive frame that prevents all primary turtle attacks. With elbows tight to knees, opponents cannot insert hooks for back control, cannot establish the harness grip needed for seatbelt control, cannot isolate your arms for crucifix, and cannot drive wedges to flatten you. The moment your elbow separates from your knee, you create a gap that skilled opponents will immediately exploit. This connection is the foundation of the entire defensive structure."
       },
       {
-        "question": "What determines which escape you should attempt from Chill Dog Bottom?",
-        "answer": "The escape choice depends on opponent's weight distribution and attack direction. Execute Granby roll when opponent drives forward with chest pressure (use their forward momentum). Use technical stand-up when opponent's weight is back or they attempt front headlock (space to stand). Sit-through to butterfly when opponent circles to your far side (turn into them). Roll to open guard when committed to crucifix or truck setup (escape before controls solidify). The key is reading their attack and choosing the escape that uses their commitment against them."
+        "question": "You feel the opponent's weight shift to your left side as they begin circling - which escape do you prioritize?",
+        "answer": "When the opponent shifts weight to one side, you have two primary options based on distance. If they are close and their weight is committed laterally, turn into them on the opposite side and sit through to butterfly guard, using their lateral commitment against them. If they are creating distance as they circle, execute a technical stand-up on the open side where their pressure is lightest. The key is escaping toward the side they have vacated - their weight commitment to one side necessarily weakens control on the other."
       },
       {
         "question": "How do you recover if the opponent begins to establish back control hooks?",
         "answer": "If one hook is inserted, immediately turn your hips toward that hook to prevent the second hook and begin escaping to half guard by framing against their choking arm and shrimping. If they're establishing the harness grip, grab the choking arm with both hands before the grip is locked and work to strip it while creating space. If both hooks are in, the Chill Dog position is lost - transition to back escape protocols by protecting your neck, creating frames, and working to remove hooks one at a time while turning into them."
       },
       {
-        "question": "What is the proper timing for executing an escape attempt?",
-        "answer": "The escape must be explosive and committed once initiated - hesitation allows the opponent to readjust and shut down your movement. Time the escape when the opponent overcommits their weight or loosens their grips for repositioning. Signs of the right moment include: weight shifting to one side (escape opposite), forward pressure increasing (Granby roll), grip release or adjustment (stand-up), or commitment to a specific attack (escape before it's established). Never attempt escapes when the opponent is balanced and fully gripped."
+        "question": "What determines which escape you should attempt from Chill Dog Bottom?",
+        "answer": "The escape choice depends on opponent's weight distribution and attack direction. Execute Granby roll when opponent drives forward with chest pressure (use their forward momentum). Use technical stand-up when opponent's weight is back or they attempt front headlock (space to stand). Sit-through to butterfly when opponent circles to your far side (turn into them). Roll to open guard when committed to crucifix or truck setup (escape before controls solidify). The key is reading their attack and choosing the escape that uses their commitment against them."
       },
       {
-        "question": "Why is Chill Dog considered a transitional rather than sustainable position?",
-        "answer": "Chill Dog is designed for survival and escape, not extended defense. The position allows you to weather immediate attacks but does not give you offensive options and slowly drains your energy as you maintain the defensive frame. Staying in Chill Dog for extended periods (beyond 20-45 seconds) allows the opponent to systematically break down your defenses. The goal is always to escape to guard (where you have offensive options) or standing (where you can reset the engagement). Treat it as a temporary shelter, not a destination."
+        "question": "How do you manage energy while maintaining the defensive frame under sustained pressure?",
+        "answer": "Use selective tension - keep the defensive frame tight with elbows pressed to knees and back rounded, but keep non-essential muscles relaxed. Breathe rhythmically through your nose, exhaling during pressure spikes rather than holding your breath. Your arms and frame should be structurally strong through proper positioning rather than muscular effort. Avoid pushing back against the opponent's pressure, which wastes energy. Instead, let the compact shape distribute their weight while you wait for the right moment to escape. Sustained tension drains your gas tank in under a minute, while structural framing can last several minutes."
       },
       {
-        "question": "How should you respond if the opponent attempts to flatten you with heavy chest pressure?",
-        "answer": "When you feel heavy chest pressure attempting to flatten you, this is actually the ideal trigger for a Granby roll. The opponent's forward commitment of weight means their base is compromised backward. Explosively initiate the Granby roll by tucking your shoulder and rolling diagonally away from the pressure. Their forward momentum helps you complete the roll. If the Granby isn't available, hip escape laterally while keeping your defensive frame to prevent being fully flattened, then immediately work to recover guard or stand."
+        "question": "Your opponent grabs your far wrist and starts pulling it across your body - what is happening and how do you respond?",
+        "answer": "This is the setup for a crucifix or arm isolation attack. Immediately pull the threatened arm back toward your body and press the elbow tight to your ribs. If the grip is already established, roll your body toward the trapped arm (not away from it) to prevent them from completing the arm isolation. Simultaneously, use your free hand to fight their grip on your wrist. If you cannot strip the grip, commit to a forward roll toward the trapped arm side to scramble out before they establish full crucifix control. Never let them extend your arm away from your centerline."
       }
     ]
   }

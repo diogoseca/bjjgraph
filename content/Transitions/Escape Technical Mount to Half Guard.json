@@ -1,0 +1,13 @@
+{
+  "name": "Escape Technical Mount to Half Guard",
+  "description": "",
+  "tags": [],
+  "from_position": "Technical Mount/Bottom",
+  "outcomes": [
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

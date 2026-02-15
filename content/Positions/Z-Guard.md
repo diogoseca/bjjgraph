@@ -93,21 +93,25 @@ From both offensive and defensive perspectives, Z-Guard serves as a critical hub
 ### Available Transitions
 
 
-- **[[Old School Sweep]]** (14% of attempts)
+- **[[Old School Sweep]]** (22% of attempts)
 
-- **[[Underhook Sweep from Half]]** (14% of attempts)
+- **[[Underhook Sweep from Half]]** (12% of attempts)
 
-- **[[Deep Half Entry]]** (13% of attempts)
+- **[[Deep Half Entry]]** (11% of attempts)
 
-- **[[Back Take Generic]]** (12% of attempts)
+- **[[Back Take from Bottom]]** (10% of attempts)
 
-- **[[Turtle to Truck]]** (11% of attempts)
+- **[[Turtle to Truck]]** (9% of attempts)
 
-- **[[X-Guard Sweep]]** (13% of attempts)
+- **[[X-Guard Sweep]]** (11% of attempts)
 
-- **[[Lockdown Sweeps]]** (12% of attempts)
+- **[[Lockdown Recovery]]** (10% of attempts)
 
-- **[[Electric Chair Submission]]** (11% of attempts)
+- **[[Electric Chair Transition]]** (9% of attempts)
+
+- **[[Z-Guard Sweep]]** (4% of attempts)
+
+- **[[Z-Guard to Half Guard]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -172,19 +176,23 @@ From both offensive and defensive perspectives, Z-Guard serves as a critical hub
 ### Available Transitions
 
 
-- **[[Knee Slice Pass]]** (18% of attempts)
+- **[[Knee Slice Pass]]** (22% of attempts)
 
-- **[[Knee Slice from Half]]** (16% of attempts)
+- **[[Knee Slice from Half]]** (14% of attempts)
 
-- **[[Knee Cut Pass]]** (14% of attempts)
+- **[[Knee Cut Pass]]** (12% of attempts)
 
-- **[[Long Step Pass]]** (13% of attempts)
+- **[[Long Step Pass]]** (11% of attempts)
 
-- **[[Smash Pass]]** (14% of attempts)
+- **[[Smash Pass]]** (12% of attempts)
 
-- **[[Back Step]]** (12% of attempts)
+- **[[Back Step]]** (10% of attempts)
 
-- **[[Underhook Pass]]** (13% of attempts)
+- **[[Underhook Pass]]** (11% of attempts)
+
+- **[[Knee Slice from Z-Guard]]** (5% of attempts)
+
+- **[[Pass Z-Guard]]** (3% of attempts)
 
 
 ### Common Mistakes

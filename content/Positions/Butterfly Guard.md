@@ -90,17 +90,35 @@ Modern butterfly guard has evolved significantly, particularly in no-gi grapplin
 ### Available Transitions
 
 
-- **[[Butterfly Sweep]]** (30% of attempts)
+- **[[Butterfly Sweep]]** (41% of attempts)
 
-- **[[Elevator Sweep]]** (20% of attempts)
+- **[[Elevator Sweep]]** (7% of attempts)
 
-- **[[Hook Sweep]]** (18% of attempts)
+- **[[Arm Drag to Back]]** (11% of attempts)
 
-- **[[Arm Drag to Back]]** (15% of attempts)
-
-- **[[Butterfly Guard to X-Guard]]** (12% of attempts)
+- **[[Butterfly Guard to X-Guard]]** (7% of attempts)
 
 - **[[Guillotine Choke]]** (5% of attempts)
+
+- **[[Sumi Gaeshi]]** (6% of attempts)
+
+- **[[Single Leg X Entry]]** (6% of attempts)
+
+- **[[Transition to Butterfly Hook Control]]** (1% of attempts)
+
+- **[[Deep Half Entry]]** (4% of attempts)
+
+- **[[Underhook Sweep]]** (3% of attempts)
+
+- **[[Kimura]]** (3% of attempts)
+
+- **[[Snap Down to Front Headlock]]** (1% of attempts)
+
+- **[[Omoplata]]** (2% of attempts)
+
+- **[[Hook Sweep]]** (2% of attempts)
+
+- **[[Butterfly Guard to Butterfly Hook Control]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -165,17 +183,33 @@ Modern butterfly guard has evolved significantly, particularly in no-gi grapplin
 ### Available Transitions
 
 
-- **[[Knee Slice Pass]]** (25% of attempts)
+- **[[Knee Slice Pass]]** (12% of attempts)
 
-- **[[Double Under Pass]]** (20% of attempts)
+- **[[Double Under Pass]]** (3% of attempts)
 
-- **[[Butterfly Pass]]** (18% of attempts)
+- **[[Butterfly Pass]]** (11% of attempts)
 
-- **[[Long Step Pass]]** (15% of attempts)
+- **[[Long Step Pass]]** (3% of attempts)
 
-- **[[Over-Under Pass]]** (12% of attempts)
+- **[[Over-Under Pass]]** (3% of attempts)
 
-- **[[Toreando Pass]]** (10% of attempts)
+- **[[Toreando Pass]]** (2% of attempts)
+
+- **[[Butterfly Smash]]** (36% of attempts)
+
+- **[[Body Lock Pass]]** (10% of attempts)
+
+- **[[Transition to Butterfly Half Guard]]** (1% of attempts)
+
+- **[[Leg Drag Pass]]** (8% of attempts)
+
+- **[[Standing up in Base]]** (4% of attempts)
+
+- **[[X Pass]]** (6% of attempts)
+
+- **[[Butterfly Guard to Butterfly Half Guard]]** (0% of attempts)
+
+- **[[Butterfly Guard to Half Butterfly]]** (1% of attempts)
 
 
 ### Common Mistakes

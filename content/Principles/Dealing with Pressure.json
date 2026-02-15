@@ -17,7 +17,7 @@
   "overview": "Dealing with Pressure represents the fundamental skill of maintaining defensive effectiveness, structural integrity, and tactical options when subjected to heavy top pressure from an opponent's controlled position. Unlike specific escape techniques, dealing with pressure is a comprehensive conceptual framework that applies across all bottom positions where opponent applies weight, compression, and control to limit mobility and breathing. This concept encompasses the physical endurance, technical positioning, psychological composure, and strategic approach to surviving and escaping pressure-based control systems. Dealing with pressure serves as both a survival mechanism that prevents submission and positional deterioration, and a foundation for creating escape opportunities through managed space creation and frame maintenance. The ability to effectively deal with pressure often determines whether a practitioner can escape bad positions or succumbs to submission or exhaustion, making it one of the most essential defensive elements in BJJ.",
   "key_principles": [
     "Establish frames immediately to create minimal space for breathing and movement",
-    "Never allow flat back position—maintain angle to one side or hip orientation",
+    "Never allow flat back position\u2014maintain angle to one side or hip orientation",
     "Breathe strategically using diaphragmatic breathing despite chest compression",
     "Create small movements sequentially rather than explosive attempts that waste energy",
     "Protect neck and arms as priority to prevent immediate submission threats",
@@ -376,7 +376,7 @@
       "relationship": "High-intensity pressure position testing acute pressure tolerance and frame effectiveness"
     },
     {
-      "name": "Elbow Escape",
+      "name": "Elbow Escape to Guard",
       "content_type": "Transition",
       "relationship": "Common escape technique that requires effective pressure management as prerequisite"
     },

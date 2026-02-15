@@ -12,7 +12,7 @@
     "neutral"
   ],
   "variant_uniqueness": "Standing elevation enables explosive takedowns",
-  "overview": "Standing Rear Clinch is a dominant control position where you establish chest-to-back connection with a standing opponent, typically securing body lock, seatbelt, or collar tie configurations. This position bridges wrestling and Brazilian Jiu-Jitsu, serving as a critical transition point for securing takedowns, back takes, or forcing opponents into inferior ground positions. The standing variant offers unique tactical advantages over ground-based back control, allowing the top player to dictate when and how the engagement transitions to the mat while maintaining dominant positional control.\n\nStrategically, Standing Rear Clinch provides multiple advancement pathways including rear takedowns like mat returns or back steps to establish back control on the ground, bodylock passes if the opponent sits to guard, or standing submission attacks. The position requires sophisticated weight distribution management, hip positioning, and grip fighting to prevent opponents from hand fighting free or executing reversal techniques. Understanding these mechanics is essential for competitors who want to control the pace of standing exchanges and systematically advance to more dominant positions.\n\nThe Standing Rear Clinch holds particular importance in no-gi grappling and MMA contexts where wrestling-based positions dominate the standing phase, though it remains highly relevant in gi competition where collar and sleeve grips integrate with traditional bodylock and seatbelt controls. Mastery allows practitioners to neutralize guard pullers, force action in stalling situations, and create scoring opportunities through takedowns and back exposure while maintaining offensive initiative throughout the standing phase.",
+  "overview": "Standing Rear Clinch is a dominant control position where you establish chest-to-back connection with a standing opponent, typically securing body lock, seatbelt, or collar tie configurations. This position bridges wrestling and Brazilian Jiu-Jitsu, serving as a critical transition point for securing takedowns, back takes, or forcing opponents into inferior ground positions. The standing variant offers unique tactical advantages over ground-based back control, allowing the controlling player to dictate when and how the engagement transitions to the mat while maintaining dominant positional control.\n\nStrategically, Standing Rear Clinch provides multiple advancement pathways including rear takedowns like mat returns or back steps to establish back control on the ground, bodylock passes if the opponent sits to guard, or standing submission attacks. The position requires sophisticated weight distribution management, hip positioning, and grip fighting to prevent opponents from hand fighting free or executing reversal techniques. Understanding these mechanics is essential for competitors who want to control the pace of standing exchanges and systematically advance to more dominant positions.\n\nThe Standing Rear Clinch holds particular importance in no-gi grappling and MMA contexts where wrestling-based positions dominate the standing phase, though it remains highly relevant in gi competition where collar and sleeve grips integrate with traditional bodylock and seatbelt controls. Mastery allows practitioners to neutralize guard pullers, force action in stalling situations, and create scoring opportunities through takedowns and back exposure while maintaining offensive initiative throughout the standing phase.",
   "state_properties": {
     "point_value": 0,
     "position_type": "Offensive/Controlling",
@@ -43,7 +43,7 @@
   ],
   "transitions": [
     {
-      "transition": "Back Take Generic",
+      "transition": "Back Take",
       "attempt_probability": 25
     },
     {
@@ -55,7 +55,7 @@
       "attempt_probability": 15
     },
     {
-      "transition": "Snap Down",
+      "transition": "Snap Down to Front Headlock",
       "attempt_probability": 15
     },
     {
@@ -63,7 +63,7 @@
       "attempt_probability": 10
     },
     {
-      "transition": "Single Leg Takedown",
+      "transition": "Mat Return to Back Mount",
       "attempt_probability": 10
     },
     {
@@ -81,7 +81,7 @@
           "probability": 65
         },
         {
-          "technique": "Back Take Generic",
+          "technique": "Back Take",
           "target": "Back Control",
           "probability": 70
         }
@@ -96,8 +96,8 @@
           "probability": 60
         },
         {
-          "technique": "Body Lock Pass",
-          "target": "Turtle",
+          "technique": "Mat Return to Back Mount",
+          "target": "Back Control",
           "probability": 65
         }
       ]
@@ -106,7 +106,7 @@
       "condition": "If opponent remains standing and hand fights aggressively to break grips",
       "actions": [
         {
-          "technique": "Snap Down",
+          "technique": "Snap Down to Front Headlock",
           "target": "Front Headlock",
           "probability": 55
         },
@@ -136,13 +136,13 @@
       "condition": "If opponent executes successful hip escape creating separation distance",
       "actions": [
         {
-          "technique": "Re-establish Control",
-          "target": "Clinch",
+          "technique": "Double Leg Finish",
+          "target": "Side Control",
           "probability": 48
         },
         {
-          "technique": "Transition to Front Position",
-          "target": "Standing Position",
+          "technique": "Snap Down to Front Headlock",
+          "target": "Front Headlock",
           "probability": 52
         }
       ]
@@ -188,7 +188,7 @@
     },
     {
       "name": "Takedown Finish Flow Drill",
-      "description": "From established standing rear clinch, practice flowing between rolling back take, back step, and snap down techniques. Partner offers moderate resistance but allows technique completion. Focus on proper mechanics, hip positioning, and smooth transitions between techniques. Alternate roles every 10 repetitions.",
+      "description": "From established standing rear clinch, practice flowing between rolling back take, mat return, and snap down techniques. Partner offers moderate resistance but allows technique completion. Focus on proper mechanics, hip positioning, and smooth transitions between techniques. Alternate roles every 10 repetitions.",
       "duration": "10 minutes continuous"
     },
     {
@@ -228,32 +228,101 @@
       "relationship": "Alternative standing control if opponent drops level or you execute snap down"
     },
     {
-      "name": "Turtle",
-      "relationship": "Common transition target when opponent attempts defensive posture on ground"
-    },
-    {
       "name": "Rear Naked Choke",
       "relationship": "Primary submission threat from this position both standing and on ground"
     },
     {
-      "name": "Standing Position",
-      "relationship": "Starting neutral position before establishing rear clinch control"
-    },
-    {
       "name": "Side Control",
       "relationship": "Common destination via bodylock pass when opponent sits to guard"
+    },
+    {
+      "name": "Body Lock Pass",
+      "relationship": "Key transition technique for converting rear clinch to ground control"
+    },
+    {
+      "name": "Rolling Back Take",
+      "relationship": "High-percentage transition for converting standing rear clinch to seated back control"
     }
   ],
   "position_metrics": {
     "retention_rate": {
-      "value": 72
+      "value": 72,
+      "description": "High retention due to chest-to-back connection and forward pressure making separation difficult"
     },
     "advancement_probability": {
-      "value": 70
+      "value": 70,
+      "description": "Strong advancement rate reflecting multiple high-percentage takedown and back take options"
     },
     "submission_probability": {
-      "value": 42
+      "value": 42,
+      "description": "Moderate direct submission rate, primarily through standing RNC or choke setups during transitions"
     },
     "average_time": "30-90 seconds before transition to ground position or submission attempt"
+  },
+  "knowledge_assessment": [
+    {
+      "question": "Your opponent begins peeling your seatbelt grip by two-on-one fighting your choking arm - what adjustment do you make to maintain control?",
+      "answer": "Switch to a bodylock configuration by sliding the threatened arm down to their waist and clasping hands around their midsection. This removes the arm from the vulnerable position while maintaining chest-to-back connection. Simultaneously drive your hips forward to prevent them from creating space during the grip transition, and look to re-establish the seatbelt once their hand fighting resets."
+    },
+    {
+      "question": "What are the essential grip configurations for maintaining Standing Rear Clinch, and what is the hierarchy between them?",
+      "answer": "The three primary grip configurations are seatbelt (one arm over shoulder, one under armpit), bodylock (both arms around waist with hands clasped), and collar ties (gi-specific collar and lapel control). The seatbelt is highest priority as it controls the upper body and creates submission threats. The bodylock is the most secure for takedowns and preventing separation. Collar ties offer distance management in gi. You must flow between all three as the opponent defends each."
+    },
+    {
+      "question": "Your opponent suddenly drops their weight and sits to guard while you have a bodylock - how do you respond to maintain your advantage?",
+      "answer": "Follow them to the ground immediately by stepping your hips to the side and executing a bodylock pass, driving your shoulder into their back as they descend. Do not release the bodylock grip. Use your chest-to-back pressure to prevent them from establishing guard hooks. If they manage to sit, transition to a bodylock pass to side control by walking your hips around their seated guard before they can recover and establish defensive frames."
+    },
+    {
+      "question": "How should weight be distributed between your feet when maintaining Standing Rear Clinch?",
+      "answer": "Weight should be on the balls of both feet with knees slightly bent, approximately 60% of your weight driving forward into the opponent through chest-to-back pressure and 40% maintaining your own base. Avoid going flat-footed or loading onto your heels, as this kills your ability to follow movement. Your feet should be staggered slightly with one foot forward to create a stable triangular base that allows you to follow the opponent in any direction while maintaining heavy forward pressure."
+    },
+    {
+      "question": "Why must your hips be offset to one side rather than directly behind the opponent, and which side is preferable?",
+      "answer": "Hips directly behind the opponent allow them to sit straight back onto you, creating a scramble or reversal. Offsetting to one side at roughly 45 degrees prevents this by forcing them to turn into your pressure before they can sit. The preferable side depends on your grip configuration: with a seatbelt, offset toward the underhook side (arm under their armpit) because this creates superior leverage for mat returns and makes it harder for them to peel your choking arm. This angle also loads your weight diagonally across their back."
+    },
+    {
+      "question": "Your opponent begins spinning aggressively toward you to face you and escape to the Clinch position - what is your counter strategy?",
+      "answer": "Circle in the same direction as their spin to maintain your position behind them, using your chest connection as the pivot point. Keep your hips tight and follow their rotation step-for-step. If they generate significant momentum, use that energy to execute a snap down to front headlock as they turn, converting their rotational force into a level change that puts them in a disadvantageous position. The key is never fighting their spin head-on but rather matching or redirecting it."
+    },
+    {
+      "question": "How do you manage energy expenditure in Standing Rear Clinch during a long competition match?",
+      "answer": "Use structural pressure rather than muscular effort by letting your body weight do the work through chest-to-back connection and hip positioning. Avoid squeezing grips with maximum force continuously; instead, maintain moderate grip tension and pulse tighter only when the opponent initiates escapes. Keep your breathing controlled and use the position to rest relative to your opponent, who is carrying your weight and fighting to escape. Transition to ground control within 30-90 seconds rather than stalling in the standing clinch indefinitely, as prolonged standing grappling drains both players."
+    },
+    {
+      "question": "Your opponent partially escapes by creating 6 inches of space between your chest and their back but you still have one arm around their waist - how do you recover full control?",
+      "answer": "Immediately close the gap by driving your hips forward and re-establishing chest-to-back contact before they can turn or create more space. Use the remaining waist grip as an anchor point and step your feet closer while pulling their hips back toward you. Once chest contact is re-established, secure a second grip (seatbelt or second arm around waist) and re-angle your hips to the side. If you cannot close the gap, use the single grip to transition to a different attack like a mat return or bodylock takedown rather than fighting to hold a deteriorating position."
+    }
+  ],
+  "top": {
+    "transitions": [
+      {
+        "transition": "Mat Return from Rear Clinch",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Mat Return from Standing Rear Clinch",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Rear Clinch to Body Lock",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Standing Switch Defense",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Suplex from Rear Clinch",
+        "attempt_probability": 0
+      }
+    ]
+  },
+  "bottom": {
+    "transitions": [
+      {
+        "transition": "Standing Switch from Rear Clinch",
+        "attempt_probability": 0
+      }
+    ]
   }
 }

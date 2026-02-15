@@ -93,21 +93,27 @@ Backside 50-50 has become increasingly relevant in modern no-gi competition as l
 ### Available Transitions
 
 
-- **[[Rolling Back Take]]** (13% of attempts)
+- **[[Heel Hook]]** (6% of attempts)
 
-- **[[50-50 Pass]]** (13% of attempts)
+- **[[Outside Heel Hook]]** (5% of attempts)
 
-- **[[Inside Heel Hook]]** (12% of attempts)
+- **[[Straight Ankle Lock Entry]]** (4% of attempts)
 
-- **[[Outside Heel Hook]]** (11% of attempts)
+- **[[Standing up in Base]]** (6% of attempts)
 
-- **[[Straight Ankle Lock]]** (12% of attempts)
+- **[[Ashi Garami Escape]]** (44% of attempts)
 
-- **[[X-Guard to Ashi Transition]]** (14% of attempts)
+- **[[Counter-entangle to 50-50 Guard]]** (11% of attempts)
 
-- **[[Saddle Defense]]** (12% of attempts)
+- **[[Hip Escape to Guard]]** (5% of attempts)
 
-- **[[Standing up in Base]]** (13% of attempts)
+- **[[Rolling Back Take]]** (7% of attempts)
+
+- **[[Counter heel hook]]** (6% of attempts)
+
+- **[[Saddle Defense]]** (4% of attempts)
+
+- **[[Heel Hook from Backside 50-50]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -122,19 +128,19 @@ Backside 50-50 has become increasingly relevant in modern no-gi competition as l
   - ✅ Correction: Monitor opponent's hands and upper body positioning constantly. If they release leg entanglement control to reach for your neck or shoulders, immediately work to face them or extract legs. Prioritize preventing back control over leg attacks.
 
 - ❌ **Forcing leg lock attacks from inferior position without proper control**
-  - Consequence: Opponent easily defends leg attack and uses your commitment to improve their position, potentially passing to side control or taking your back while you're focused on the submission
+  - Consequence: Opponent easily defends leg attack and uses your commitment to improve their position, potentially passing to side control or taking your back while you're focused on the submission.
   - ✅ Correction: Only attack legs when opponent makes specific mistakes or overcommits. Primary goal should be to improve position first. Use leg attacks opportunistically, not as primary strategy from this position.
 
 - ❌ **Remaining static in the position without attempting to improve or escape**
-  - Consequence: Opponent settles into comfortable top control, methodically breaks down your defenses, and eventually passes or submits with minimal resistance
+  - Consequence: Opponent settles into comfortable top control, methodically breaks down your defenses, and eventually passes or submits with minimal resistance.
   - ✅ Correction: Constant movement and adjustment are essential. Work toward facing opponent, extracting legs, or reversing position. Every second in backside 50-50 bottom should involve active improvement attempts.
 
 - ❌ **Failing to use frames and posting arms to maintain space**
-  - Consequence: Opponent collapses all space between you, making it impossible to move hips or create angles needed for escapes or reversals
+  - Consequence: Opponent collapses all space between you, making it impossible to move hips or create angles needed for escapes or reversals.
   - ✅ Correction: Top arm should constantly post on opponent's chest, shoulder, or hip to maintain separation. Bottom arm can frame against opponent's leg or hip. These frames are crucial for maintaining the ability to move.
 
 - ❌ **Releasing leg entanglement control prematurely while attempting to escape**
-  - Consequence: Opponent passes directly to dominant positions like side control or mount once leg entanglement is released without proper preparation
+  - Consequence: Opponent passes directly to dominant positions like side control or mount once leg entanglement is released without proper preparation.
   - ✅ Correction: Maintain leg control while working to improve position. Only release entanglement when you have clear path to standing, guard recovery, or position reversal. Coordinate leg extraction with upper body movement and framing.
 
 
@@ -168,21 +174,27 @@ Backside 50-50 has become increasingly relevant in modern no-gi competition as l
 ### Available Transitions
 
 
-- **[[Inside Heel Hook]]** (11% of attempts)
+- **[[Heel Hook]]** (20% of attempts)
 
 - **[[Outside Heel Hook]]** (10% of attempts)
 
-- **[[Toe Hold]]** (12% of attempts)
+- **[[Toe Hold]]** (10% of attempts)
 
-- **[[Straight Ankle Lock]]** (14% of attempts)
+- **[[Straight Ankle Lock Entry]]** (5% of attempts)
 
-- **[[Back Take Generic]]** (16% of attempts)
+- **[[Saddle Entry from Top]]** (12% of attempts)
 
-- **[[Saddle Entry from Top]]** (14% of attempts)
+- **[[Kneebar]]** (7% of attempts)
 
-- **[[Kneebar]]** (11% of attempts)
+- **[[50-50 Pass]]** (6% of attempts)
 
-- **[[50-50 Pass]]** (12% of attempts)
+- **[[Back Take from 50-50]]** (16% of attempts)
+
+- **[[Calf Slicer]]** (4% of attempts)
+
+- **[[Inside Ashi-Garami to Honey Hole]]** (6% of attempts)
+
+- **[[Counter heel hook]]** (4% of attempts)
 
 
 ### Common Mistakes

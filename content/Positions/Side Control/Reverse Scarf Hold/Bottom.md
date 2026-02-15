@@ -20,8 +20,8 @@ description: "Master defensive strategies and systematic escapes from Reverse Sc
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Elbow Escape",
-      "text": "From this position, attempt Elbow Escape. This technique is attempted in 20% of exchanges from this position.",
+      "name": "Execute Elbow Escape to Guard",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 20% of exchanges from this position.",
       "position": 1
     },
     {
@@ -32,20 +32,20 @@ description: "Master defensive strategies and systematic escapes from Reverse Sc
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape",
-      "text": "From this position, attempt Hip Escape. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Hip Escape to Guard",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 17% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Frame and Shrimp",
-      "text": "From this position, attempt Frame and Shrimp. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Frame and Shrimp to Guard",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 17% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Standup",
-      "text": "From this position, attempt Technical Standup. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Technical Stand-up",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
@@ -210,15 +210,15 @@ Success in this position requires prioritizing survival first, then creating fra
 
 ## Available Escapes
 
-### [[Elbow Escape]] (20% of attempts)
+### [[Elbow Escape to Guard]] (20% of attempts)
 
 ### [[Bridge and Roll]] (15% of attempts)
 
-### [[Hip Escape]] (17% of attempts)
+### [[Hip Escape to Guard]] (17% of attempts)
 
-### [[Frame and Shrimp]] (17% of attempts)
+### [[Frame and Shrimp to Guard]] (17% of attempts)
 
-### [[Technical Standup]] (13% of attempts)
+### [[Technical Stand-up]] (13% of attempts)
 
 ### [[Shrimp Escape]] (18% of attempts)
 
@@ -231,8 +231,8 @@ Success in this position requires prioritizing survival first, then creating fra
 ## Decision Making from This Position
 
 **If opponent maintains heavy chest pressure without attempting submissions:**
-- Execute **[[Frame Creation]]** → [[Half Guard]] (Probability: 70%)
-- Execute **[[Hip Escape]]** → [[Half Guard]] (Probability: 60%)
+- Execute **[[Frame and Shrimp to Guard]]** → [[Half Guard]] (Probability: 70%)
+- Execute **[[Hip Escape to Guard]]** → [[Half Guard]] (Probability: 60%)
 
 
 **If opponent isolates near-side arm for kimura or americana:**
@@ -242,12 +242,12 @@ Success in this position requires prioritizing survival first, then creating fra
 
 **If opponent attempts to advance to mount or north-south:**
 - Execute **[[Guard Recovery]]** → [[Open Guard]] (Probability: 65%)
-- Execute **[[Elbow Escape]]** → [[Half Guard]] (Probability: 50%)
+- Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 50%)
 
 
 **If opponent's base becomes compromised during transition attempts:**
 - Execute **[[Bridge and Roll]]** → [[Reverse Scarf Hold]] (Probability: 55%)
-- Execute **[[Technical Standup]]** → [[Standing Position]] (Probability: 35%)
+- Execute **[[Technical Stand-up]]** → [[Clinch]] (Probability: 35%)
 
 
 
@@ -384,9 +384,9 @@ Top player creates windows of opportunity (reaching for submissions, adjusting p
 - **[[Reverse Scarf Hold]]** - Parent position - hub page for this variant
 - **[[Reverse Kesa-Gatame]]** - Alternative name - judo terminology for same position
 - **[[Kesa Gatame]]** - Similar defensive position with traditional scarf hold orientation
-- **[[Side Control]]** - Related defensive position with similar escape principles
+- **[[Side Control Consolidation]]** - Related defensive position with similar escape principles
 - **[[Scarf Hold Position]]** - Related position with traditional forward-facing scarf hold
-- **[[Elbow Escape]]** - Primary escape transition from bottom pins
+- **[[Elbow Escape to Guard]]** - Primary escape transition from bottom pins
 - **[[Bridge and Roll]]** - Reversal transition when opponent's base is compromised
 - **[[Half Guard]]** - Common recovery position after successful escape
 - **[[Closed Guard]]** - Full guard recovery position after complete escape

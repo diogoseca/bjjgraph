@@ -376,7 +376,7 @@ Record rolling sessions and analyze moments of successful and failed pressure re
 - [[Hip Escape Mechanics]] (Principle) - The primary movement vocabulary enabled by successful pressure reduction, providing the specific escape techniques that utilize reduced pressure
 - [[Mount]] (Position) - Primary position where pressure reduction is critical, requiring systematic application of frames, bridging, and hip escapes
 - [[Side Control]] (Position) - Common position requiring sophisticated pressure reduction through specific frame placement and timing-based escapes
-- [[Elbow Escape]] (Transition) - Fundamental escape technique that relies entirely on effective pressure reduction for successful execution
+- [[Elbow Escape to Guard]] (Transition) - Fundamental escape technique that relies entirely on effective pressure reduction for successful execution
 - [[Shrimp Escape]] (Transition) - Essential escape movement that requires pressure reduction to create the space necessary for hip movement
 - [[Bridge and Roll]] (Transition) - Explosive escape technique that depends on proper pressure reduction timing and frame maintenance for success
 - [[Defensive Strategy]] (Principle) - Overarching strategic framework that positions pressure reduction within comprehensive defensive game planning

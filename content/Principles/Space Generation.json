@@ -15,16 +15,16 @@
   "application_level": "Fundamental",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "overview": "Space Generation is the fundamental defensive concept of creating distance between yourself and an opponent to prevent control, escape disadvantageous positions, and recover to more favorable positions. This concept represents the opposite of pressure passing and control maintenance—where offensive players seek to eliminate space, defensive players must actively create it to survive and escape. Space generation involves the coordinated use of frames, hip movement, shrimping, bridging, and strategic positioning to systematically create the gaps necessary for defensive maneuvers. Understanding space generation is essential for effective guard retention, pin escapes, and submission defense, as nearly all defensive sequences begin with the creation of space.\n\nThe ability to generate space under pressure separates competent defensive grapplers from those who get smashed and submitted. Space generation is not simply about pushing away—it requires precise timing, proper body mechanics, frame placement, and an understanding of leverage principles. Effective space generation creates windows of opportunity where defensive options become available: inserting guard frames, recovering hooks, escaping hips, or transitioning to better positions. The concept scales from fundamental white belt escapes to advanced black belt guard retention systems, with increasing sophistication in timing, efficiency, and strategic application.\n\nSpace generation fundamentally relies on the principle that control requires contact and pressure. By systematically creating distance at key control points—head, shoulders, hips, and legs—the defensive player disrupts the opponent's control structure and creates pathways for movement. This concept integrates closely with frame management, hip escape mechanics, and defensive posture to form the foundation of all defensive jiu-jitsu.",
+  "overview": "Space Generation is the fundamental defensive concept of creating distance between yourself and an opponent to prevent control, escape disadvantageous positions, and recover to more favorable positions. This concept represents the opposite of pressure passing and control maintenance\u2014where offensive players seek to eliminate space, defensive players must actively create it to survive and escape. Space generation involves the coordinated use of frames, hip movement, shrimping, bridging, and strategic positioning to systematically create the gaps necessary for defensive maneuvers. Understanding space generation is essential for effective guard retention, pin escapes, and submission defense, as nearly all defensive sequences begin with the creation of space.\n\nThe ability to generate space under pressure separates competent defensive grapplers from those who get smashed and submitted. Space generation is not simply about pushing away\u2014it requires precise timing, proper body mechanics, frame placement, and an understanding of leverage principles. Effective space generation creates windows of opportunity where defensive options become available: inserting guard frames, recovering hooks, escaping hips, or transitioning to better positions. The concept scales from fundamental white belt escapes to advanced black belt guard retention systems, with increasing sophistication in timing, efficiency, and strategic application.\n\nSpace generation fundamentally relies on the principle that control requires contact and pressure. By systematically creating distance at key control points\u2014head, shoulders, hips, and legs\u2014the defensive player disrupts the opponent's control structure and creates pathways for movement. This concept integrates closely with frame management, hip escape mechanics, and defensive posture to form the foundation of all defensive jiu-jitsu.",
   "key_principles": [
-    "Space is required for all defensive movement—without distance, there can be no escape or recovery",
+    "Space is required for all defensive movement\u2014without distance, there can be no escape or recovery",
     "Frames create initial space by establishing structural barriers between your body and the opponent's pressure",
     "Hip movement (shrimping, bridging) generates the actual displacement needed to create workable gaps",
-    "Space generation must target specific control points—head, shoulders, hips, legs—in systematic order",
-    "Creating space is a continuous process, not a single action—pressure will return if space is not maintained",
+    "Space generation must target specific control points\u2014head, shoulders, hips, legs\u2014in systematic order",
+    "Creating space is a continuous process, not a single action\u2014pressure will return if space is not maintained",
     "Efficiency in space generation comes from using opponent's pressure and momentum against them",
     "Space generation must be coordinated with connection breaking to prevent immediate recapture",
-    "The amount of space needed varies by context—just enough to insert a frame, recover a hook, or escape completely",
+    "The amount of space needed varies by context\u2014just enough to insert a frame, recover a hook, or escape completely",
     "Timing space generation with opponent's movements multiplies effectiveness and reduces energy expenditure"
   ],
   "component_skills": [
@@ -65,12 +65,12 @@
     {
       "principle_name": "Frame Creation",
       "relationship_type": "Prerequisite",
-      "description": "Frame creation is the primary mechanical tool for initial space generation—frames must be established before hip movement can create larger spaces"
+      "description": "Frame creation is the primary mechanical tool for initial space generation\u2014frames must be established before hip movement can create larger spaces"
     },
     {
       "principle_name": "Hip Escape Mechanics",
       "relationship_type": "Complementary",
-      "description": "Hip escapes convert frame-created space into actual positional displacement—the two concepts work in direct coordination for all escapes"
+      "description": "Hip escapes convert frame-created space into actual positional displacement\u2014the two concepts work in direct coordination for all escapes"
     },
     {
       "principle_name": "Connection Breaking",
@@ -80,7 +80,7 @@
     {
       "principle_name": "Pressure Reduction",
       "relationship_type": "Extension",
-      "description": "Space generation is the active method of pressure reduction—creating distance inherently reduces the pressure opponent can apply"
+      "description": "Space generation is the active method of pressure reduction\u2014creating distance inherently reduces the pressure opponent can apply"
     },
     {
       "principle_name": "Defensive Framing",
@@ -90,7 +90,7 @@
     {
       "principle_name": "Escape Fundamentals",
       "relationship_type": "Extension",
-      "description": "Space generation is the foundational skill underlying all escape sequences—no escape is possible without first creating the necessary space for movement"
+      "description": "Space generation is the foundational skill underlying all escape sequences\u2014no escape is possible without first creating the necessary space for movement"
     },
     {
       "principle_name": "Shrimping",
@@ -126,7 +126,7 @@
   "application_contexts": [
     {
       "context": "Side Control",
-      "how_applied": "Create space by framing against neck and hip, then shrimping away to recover guard—the classic application requiring coordinated frame pressure and hip escape to generate enough space for knee insertion"
+      "how_applied": "Create space by framing against neck and hip, then shrimping away to recover guard\u2014the classic application requiring coordinated frame pressure and hip escape to generate enough space for knee insertion"
     },
     {
       "context": "Mount",
@@ -134,7 +134,7 @@
     },
     {
       "context": "Knee on Belly",
-      "how_applied": "Frame against knee and shoulder while shrimping away to create space for hip escape—requires managing opponent's far-side underhook while generating distance"
+      "how_applied": "Frame against knee and shoulder while shrimping away to create space for hip escape\u2014requires managing opponent's far-side underhook while generating distance"
     },
     {
       "context": "North-South",
@@ -201,12 +201,12 @@
     {
       "step_number": 1,
       "decision_point": "Identify current pressure points and control connections",
-      "action": "Assess where opponent has contact (head, shoulders, chest, hips, legs) and which connections are providing their primary control—this determines where space must be created first"
+      "action": "Assess where opponent has contact (head, shoulders, chest, hips, legs) and which connections are providing their primary control\u2014this determines where space must be created first"
     },
     {
       "step_number": 2,
       "decision_point": "Establish initial frames at highest-priority control points",
-      "action": "Insert frames (hands, forearms, knees, feet) at the most critical pressure points to create initial separation—typically against neck/head and hips to prevent consolidation"
+      "action": "Insert frames (hands, forearms, knees, feet) at the most critical pressure points to create initial separation\u2014typically against neck/head and hips to prevent consolidation"
     },
     {
       "step_number": 3,
@@ -216,12 +216,12 @@
     {
       "step_number": 4,
       "decision_point": "Time movement execution with opponent's weight distribution",
-      "action": "Wait for moment when opponent commits weight forward, shifts base, or reaches for control—execute space-generating movement when their structure is most vulnerable"
+      "action": "Wait for moment when opponent commits weight forward, shifts base, or reaches for control\u2014execute space-generating movement when their structure is most vulnerable"
     },
     {
       "step_number": 5,
       "decision_point": "Execute primary space-generating movement explosively",
-      "action": "Drive powerful hip escape, bridge, or combination movement to create maximum initial space—commit fully rather than tentative half-movements that opponent can easily counter"
+      "action": "Drive powerful hip escape, bridge, or combination movement to create maximum initial space\u2014commit fully rather than tentative half-movements that opponent can easily counter"
     },
     {
       "step_number": 6,
@@ -231,7 +231,7 @@
     {
       "step_number": 7,
       "decision_point": "Assess if sufficient space exists for desired escape or recovery",
-      "action": "Evaluate whether current space allows completion of escape sequence—if insufficient, repeat space generation cycle progressively until adequate distance exists"
+      "action": "Evaluate whether current space allows completion of escape sequence\u2014if insufficient, repeat space generation cycle progressively until adequate distance exists"
     },
     {
       "step_number": 8,
@@ -242,38 +242,38 @@
   "common_errors": [
     {
       "error": "Attempting to create space purely through arm strength without proper hip movement",
-      "consequence": "Arms fatigue quickly under pressure while no actual positional improvement occurs—opponent simply waits for frames to collapse then advances position",
-      "correction": "Use frames only to create initial separation, then immediately execute hip escape or bridge to generate real space—frames maintain space, hips create space"
+      "consequence": "Arms fatigue quickly under pressure while no actual positional improvement occurs\u2014opponent simply waits for frames to collapse then advances position",
+      "correction": "Use frames only to create initial separation, then immediately execute hip escape or bridge to generate real space\u2014frames maintain space, hips create space"
     },
     {
       "error": "Creating space in one direction while allowing opponent to advance from another angle",
       "consequence": "Space is created but opponent simply moves around the frame and reestablishes control from a different angle with even more dominance",
-      "correction": "Always create space while maintaining awareness of all angles—turn hips to face opponent as space is created, preventing side or back attacks"
+      "correction": "Always create space while maintaining awareness of all angles\u2014turn hips to face opponent as space is created, preventing side or back attacks"
     },
     {
       "error": "Failing to immediately secure created space with frames or guards",
-      "consequence": "Space collapses as quickly as it was created—opponent simply follows the movement and reestablishes pressure before defensive options can be utilized",
-      "correction": "Insert knee, establish guard frame, or secure distance grip immediately as space opens—never create space without immediately occupying it with defensive structure"
+      "consequence": "Space collapses as quickly as it was created\u2014opponent simply follows the movement and reestablishes pressure before defensive options can be utilized",
+      "correction": "Insert knee, establish guard frame, or secure distance grip immediately as space opens\u2014never create space without immediately occupying it with defensive structure"
     },
     {
       "error": "Telegraphing space-generation attempts with obvious preparatory movements",
       "consequence": "Opponent recognizes escape attempt early and preemptively counters by increasing pressure, changing angle, or securing submissions before movement completes",
-      "correction": "Disguise space generation timing—maintain consistent defensive movement then explode suddenly, or create space during opponent's offensive movements when their attention is divided"
+      "correction": "Disguise space generation timing\u2014maintain consistent defensive movement then explode suddenly, or create space during opponent's offensive movements when their attention is divided"
     },
     {
       "error": "Creating too much space too quickly, losing all contact and connection",
-      "consequence": "Opponent can simply stand up, reset, and pressure pass into even worse position—excessive space generation creates scrambles that favor the top player",
-      "correction": "Create appropriate amount of space for specific need—just enough for frame insertion, guard recovery, or specific escape, maintaining some connection for control"
+      "consequence": "Opponent can simply stand up, reset, and pressure pass into even worse position\u2014excessive space generation creates scrambles that favor the top player",
+      "correction": "Create appropriate amount of space for specific need\u2014just enough for frame insertion, guard recovery, or specific escape, maintaining some connection for control"
     },
     {
       "error": "Poor timing of space generation relative to opponent's pressure cycles",
       "consequence": "Attempting to create space when opponent has maximum pressure and best base results in failed attempts and wasted energy that leaves defender more vulnerable",
-      "correction": "Wait for pressure transitions—when opponent shifts weight, reaches for grips, or advances position, their base temporarily weakens and space generation becomes much more effective"
+      "correction": "Wait for pressure transitions\u2014when opponent shifts weight, reaches for grips, or advances position, their base temporarily weakens and space generation becomes much more effective"
     },
     {
       "error": "Neglecting to chain multiple space-generation movements together",
-      "consequence": "Single movement creates insufficient space for meaningful escape—defender gets stuck in partially-escaped position that may be worse than original pin",
-      "correction": "Plan sequential space generation—small space allows frame, frame allows bigger shrimp, bigger shrimp allows guard recovery, treating space generation as progressive process"
+      "consequence": "Single movement creates insufficient space for meaningful escape\u2014defender gets stuck in partially-escaped position that may be worse than original pin",
+      "correction": "Plan sequential space generation\u2014small space allows frame, frame allows bigger shrimp, bigger shrimp allows guard recovery, treating space generation as progressive process"
     }
   ],
   "training_approaches": [
@@ -284,27 +284,27 @@
     },
     {
       "approach_name": "Progressive Resistance Escape Training",
-      "description": "Partner provides gradually increasing pressure resistance while practitioner works space generation escapes—starting at 30% resistance and building to 90% over time",
+      "description": "Partner provides gradually increasing pressure resistance while practitioner works space generation escapes\u2014starting at 30% resistance and building to 90% over time",
       "focus": "Build ability to generate space against realistic resistance while maintaining proper technique and timing under increasing pressure"
     },
     {
       "approach_name": "Space Creation Time Trials",
-      "description": "Set specific time limits (30 seconds, 1 minute, 2 minutes) to escape from pin positions, with partner providing consistent pressure—track improvement in escape times",
+      "description": "Set specific time limits (30 seconds, 1 minute, 2 minutes) to escape from pin positions, with partner providing consistent pressure\u2014track improvement in escape times",
       "focus": "Develop efficiency and explosiveness in space generation, learning to create maximum space with minimum energy expenditure"
     },
     {
       "approach_name": "Specific Position Sparring from Worst Case",
-      "description": "Start sparring from fully established pins with opponent having ideal control—bottom player works only to create space and improve position without submissions",
+      "description": "Start sparring from fully established pins with opponent having ideal control\u2014bottom player works only to create space and improve position without submissions",
       "focus": "Develop timing, reading of pressure, and ability to find space-generation opportunities during live resistance and dynamic pressure"
     },
     {
       "approach_name": "Frame Strength Conditioning",
-      "description": "Isometric and dynamic exercises specifically targeting frame strength—plank variations, push-up holds, bench press with pause reps, focusing on pushing strength endurance",
+      "description": "Isometric and dynamic exercises specifically targeting frame strength\u2014plank variations, push-up holds, bench press with pause reps, focusing on pushing strength endurance",
       "focus": "Build the structural strength needed to maintain frames under heavy pressure long enough for hip movements to generate meaningful space"
     },
     {
       "approach_name": "Movement Pattern Solo Drills",
-      "description": "Solo practice of shrimping sequences, bridging patterns, granby rolls, and technical standup movements—hundreds of repetitions to ingrain movement patterns",
+      "description": "Solo practice of shrimping sequences, bridging patterns, granby rolls, and technical standup movements\u2014hundreds of repetitions to ingrain movement patterns",
       "focus": "Perfect the fundamental movement patterns of space generation without resistance, developing smooth technical execution before adding pressure"
     }
   ],
@@ -324,7 +324,7 @@
       "observable_behaviors": [
         "Consistently escapes from standard pin positions against similar-skill opponents using proper space generation mechanics",
         "Times space-generation movements with opponent's weight shifts and pressure transitions effectively",
-        "Chains multiple space-generating movements together—bridge to shrimp, shrimp to frame, frame to guard recovery",
+        "Chains multiple space-generating movements together\u2014bridge to shrimp, shrimp to frame, frame to guard recovery",
         "Maintains defensive frames under moderate pressure without immediate collapse or exhaustion",
         "Recognizes different space-generation needs for different positions and adjusts approach accordingly",
         "Can create space while maintaining connection and control, avoiding excessive scrambles"
@@ -335,7 +335,7 @@
       "observable_behaviors": [
         "Escapes from pins and pressure even against higher-skilled opponents through superior timing and efficiency",
         "Disguises space-generation attempts and executes at optimal moments when opponent's structure is most vulnerable",
-        "Minimal wasted movement—creates exactly the amount of space needed for specific purpose with minimal energy",
+        "Minimal wasted movement\u2014creates exactly the amount of space needed for specific purpose with minimal energy",
         "Maintains multiple framing options and can switch between different space-generation approaches mid-sequence",
         "Uses opponent's pressure and forward momentum to amplify space-generation movements",
         "Prevents opponent from establishing dominant pressure positions through preemptive space management in guard"
@@ -345,11 +345,11 @@
       "level": "Expert",
       "observable_behaviors": [
         "Creates space seemingly effortlessly even under heavy pressure from elite opponents",
-        "Integrates space generation seamlessly with offensive opportunities—creates space while setting up sweeps or submissions",
+        "Integrates space generation seamlessly with offensive opportunities\u2014creates space while setting up sweeps or submissions",
         "Reads and manipulates opponent's pressure patterns, baiting overcommitment then explosively generating space",
         "Teaches subtle details of space generation timing, weight distribution, and biomechanical efficiency to others",
         "Develops personal innovations in space generation that work against highest-level competition",
-        "Never appears truly stuck or controlled—always maintains some degree of space and movement even in worst positions"
+        "Never appears truly stuck or controlled\u2014always maintains some degree of space and movement even in worst positions"
       ]
     }
   ],
@@ -357,7 +357,7 @@
     {
       "name": "Frame Creation",
       "content_type": "Principle",
-      "relationship": "Core skill that enables space generation—frames provide the structural leverage for all space-creating movements"
+      "relationship": "Core skill that enables space generation\u2014frames provide the structural leverage for all space-creating movements"
     },
     {
       "name": "Hip Escape Mechanics",
@@ -365,7 +365,7 @@
       "relationship": "Primary mechanical technique for converting frame-created space into actual positional displacement"
     },
     {
-      "name": "Elbow Escape",
+      "name": "Elbow Escape to Guard",
       "content_type": "Transition",
       "relationship": "Classic application combining frames and shrimping to generate space for mount and side control escapes"
     },
@@ -375,7 +375,7 @@
       "relationship": "Fundamental transition demonstrating pure space generation through hip movement and frame coordination"
     },
     {
-      "name": "Frame and Shrimp",
+      "name": "Frame and Shrimp to Guard",
       "content_type": "Transition",
       "relationship": "Technical sequence explicitly teaching coordinated frame and hip escape for systematic space generation"
     },
@@ -402,7 +402,7 @@
     {
       "name": "Connection Breaking",
       "content_type": "Principle",
-      "relationship": "Partner concept—space generation creates distance, connection breaking prevents recapture of control"
+      "relationship": "Partner concept\u2014space generation creates distance, connection breaking prevents recapture of control"
     },
     {
       "name": "Bridge and Shrimp",

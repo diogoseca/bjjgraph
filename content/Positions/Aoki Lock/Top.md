@@ -4,7 +4,7 @@
 
 ---
 title: "Aoki Lock Top | BJJ Position Guide | BJJ Graph"
-description: "Master Aoki Lock top position in BJJ. Advanced submission control with leg entanglement and shoulder lock mechanics. Learn finishing strategies and transitions with 60% finish rate."
+description: "Master Aoki Lock top position in BJJ. Advanced submission control with leg entanglement and shoulder lock mechanics. Learn finishing strategies and transitions with 68% finish rate."
 ---
 
 
@@ -21,38 +21,32 @@ description: "Master Aoki Lock top position in BJJ. Advanced submission control 
     {
       "@type": "HowToStep",
       "name": "Execute Aoki Lock Finish",
-      "text": "From this position, attempt Aoki Lock Finish. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Aoki Lock Finish. This technique is attempted in 38% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Aoki Lock to Back Control",
-      "text": "From this position, attempt Aoki Lock to Back Control. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Aoki Lock to Back Control. This technique is attempted in 22% of exchanges from this position.",
       "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Turtle to Truck",
-      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 17% of exchanges from this position.",
-      "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Aoki Lock to Crucifix",
       "text": "From this position, attempt Aoki Lock to Crucifix. This technique is attempted in 15% of exchanges from this position.",
-      "position": 4
+      "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura Switch",
-      "text": "From this position, attempt Kimura Switch. This technique is attempted in 14% of exchanges from this position.",
-      "position": 5
+      "text": "From this position, attempt Kimura Switch. This technique is attempted in 10% of exchanges from this position.",
+      "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 18% of exchanges from this position.",
-      "position": 6
+      "name": "Execute Truck Entry",
+      "text": "From this position, attempt Truck Entry. This technique is attempted in 15% of exchanges from this position.",
+      "position": 5
     }
   ],
   "totalTime": "PT2M"
@@ -115,7 +109,7 @@ description: "Master Aoki Lock top position in BJJ. Advanced submission control 
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Aoki Lock Top",
-  "description": "Master Aoki Lock top position in BJJ. Advanced submission control with leg entanglement and shoulder lock mechanics. Learn finishing strategies and transitions with 60% finish rate.",
+  "description": "Master Aoki Lock top position in BJJ. Advanced submission control with leg entanglement and shoulder lock mechanics. Learn finishing strategies and transitions with 68% finish rate.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -211,17 +205,15 @@ The Aoki Lock top position is particularly effective in no-gi competition where 
 
 ## Available Attacks
 
-### [[Aoki Lock Finish]] (16% of attempts)
+### [[Aoki Lock Finish]] (38% of attempts)
 
-### [[Aoki Lock to Back Control]] (20% of attempts)
-
-### [[Turtle to Truck]] (17% of attempts)
+### [[Aoki Lock to Back Control]] (22% of attempts)
 
 ### [[Aoki Lock to Crucifix]] (15% of attempts)
 
-### [[Kimura Switch]] (14% of attempts)
+### [[Kimura Switch]] (10% of attempts)
 
-### [[Side Control to North-South]] (18% of attempts)
+### [[Truck Entry]] (15% of attempts)
 
 
 
@@ -243,11 +235,11 @@ The Aoki Lock top position is particularly effective in no-gi competition where 
 
 **If opponent exposes far arm while defending:**
 - Execute **[[Crucifix Transition]]** → [[Crucifix]] (Probability: 60%)
-- Execute **[[Kimura Switch]]** → [[Kimura Control]] (Probability: 40%)
+- Execute **[[Kimura Switch]]** → [[Kimura Trap]] (Probability: 40%)
 
 
 **If opponent's shoulder is fully controlled with no escape attempts:**
-- Execute **[[Finish Aoki Lock]]** → [[game-over]] (Probability: 75%)
+- Execute **[[Finish Aoki Lock]]** → [[Game Over]] (Probability: 75%)
 - Execute **[[Transition to Back]]** → [[Back Control]] (Probability: 25%)
 
 
@@ -391,10 +383,12 @@ With compliant partner practice applying Aoki Lock pressure using 3-5 second gra
 - **[[Truck]]** - Transition target - alternative control position
 - **[[Back Control]]** - Transition target - superior control position
 - **[[Crucifix]]** - Transition target - alternative submission control
-- **[[Kimura Control]]** - Transition target - related shoulder lock control
+- **[[Kimura Trap]]** - Transition target - related shoulder lock control
 - **[[Omoplata Control]]** - Related position - similar shoulder lock mechanics
-- **[[Kimura Trap]]** - Related system - shoulder lock control methodology
 - **[[Front Headlock]]** - Common entry position for Aoki Lock attacks
+- **[[Aoki Lock Finish]]** - Primary finishing transition from this position
+- **[[Aoki Lock to Back Control]]** - Key transition when finish is defended
+- **[[Aoki Lock to Crucifix]]** - Transition when far arm is exposed
 
 
 </section>

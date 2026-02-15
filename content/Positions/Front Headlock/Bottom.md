@@ -20,38 +20,38 @@ description: "Escape front headlock control in BJJ. Defensive strategies for avo
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Standup",
-      "text": "From this position, attempt Technical Standup. This technique is attempted in 19% of exchanges from this position.",
+      "name": "Execute Technical Stand-up",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 19% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll",
-      "text": "From this position, attempt Granby Roll. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Granby Roll to Guard",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Guard",
-      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 21% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stand and Circle Away",
-      "text": "From this position, attempt Stand and Circle Away. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Stand and Circle Away. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Roll Through to Reversal",
-      "text": "From this position, attempt Roll Through to Reversal. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Roll Through to Reversal. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Drag Escape",
-      "text": "From this position, attempt Arm Drag Escape. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Arm Drag Escape. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,17 +212,23 @@ Successful front headlock bottom defense requires remaining calm under pressure.
 
 ## Available Escapes
 
-### [[Technical Standup]] (19% of attempts)
+### [[Technical Stand-up]] (19% of attempts)
 
-### [[Granby Roll]] (17% of attempts)
+### [[Granby Roll to Guard]] (11% of attempts)
 
-### [[Turtle to Guard]] (21% of attempts)
+### [[Turtle to Guard]] (13% of attempts)
 
-### [[Stand and Circle Away]] (16% of attempts)
+### [[Stand and Circle Away]] (15% of attempts)
 
-### [[Roll Through to Reversal]] (14% of attempts)
+### [[Roll Through to Reversal]] (13% of attempts)
 
-### [[Arm Drag Escape]] (13% of attempts)
+### [[Arm Drag Escape]] (9% of attempts)
+
+### [[Guillotine Defense]] (9% of attempts)
+
+### [[Sit Through to Guard]] (7% of attempts)
+
+### [[Hip Escape from Front Headlock]] (4% of attempts)
 
 
 
@@ -243,8 +249,8 @@ Successful front headlock bottom defense requires remaining calm under pressure.
 
 
 **If opponent's weight is high and forward, attempting to flatten you to mat:**
-- Execute **[[Technical Standup]]** → [[Standing Position]] (Probability: 55%)
-- Execute **[[Granby Roll]]** → [[Closed Guard]] (Probability: 40%)
+- Execute **[[Technical Stand-up]]** → [[Standing Position]] (Probability: 55%)
+- Execute **[[Granby Roll to Guard]]** → [[Closed Guard]] (Probability: 40%)
 
 
 **If opponent extends their hips back in sprawl position while maintaining head control:**
@@ -385,8 +391,8 @@ Partner establishes front headlock and announces which submission they'll attemp
 
 - **[[Turtle]]** - Primary entry position - front headlock typically attacks turtle, requires similar defensive principles
 - **[[Guillotine Defense]]** - Specific submission defense transition essential for surviving front headlock position
-- **[[Technical Standup]]** - Primary escape method - standing removes most submission threats from front headlock
-- **[[Granby Roll]]** - Alternative escape method - rolling through front headlock to recover guard
+- **[[Technical Stand-up]]** - Primary escape method - standing removes most submission threats from front headlock
+- **[[Granby Roll to Guard]]** - Alternative escape method - rolling through front headlock to recover guard
 - **[[Half Guard]]** - Common recovery position after successful escape from front headlock
 - **[[Closed Guard]]** - Ideal recovery position if escape creates opportunity for full guard
 - **[[Back Control]]** - Position to prevent - front headlock often transitions to back if defense fails

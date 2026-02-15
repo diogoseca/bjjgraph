@@ -211,11 +211,11 @@ Competition Training represents the systematic preparation methodology that tran
 
 **Half Guard**: Competition drilling emphasizes defensive half guard retention against point-scoring passes, high-percentage sweeps that reverse position for points, and guard recovery sequences that prevent full pass completion under specific rule enforcement.
 
-**Guard Pass**: Training focuses on pass completion that satisfies scoring criteria under specific rule sets, pressure passing sequences that prevent re-guard while advancing, and strategic passing selection based on opponent tendencies identified in preparation.
+**Headquarters Position**: Training focuses on pass completion from headquarters that satisfies scoring criteria under specific rule sets, pressure passing sequences that prevent re-guard while advancing position, and strategic passing selection based on opponent tendencies identified in preparation.
 
 **Knee on Belly**: Competition preparation emphasizes point-securing knee on belly maintenance while threatening submissions, strategic position timing to maximize scoring opportunities, and transitions that capitalize on opponent defensive reactions.
 
-**Standing Position**: Training develops takedown entries that score points while minimizing counter-scoring risks, grip fighting strategies specific to competition rule sets, and pulling guard timing that optimizes positional advantage under tournament conditions.
+**Clinch**: Training develops takedown entries that score points while minimizing counter-scoring risks, grip fighting strategies specific to competition rule sets, and pulling guard timing that optimizes positional advantage under tournament conditions.
 
 **Open Guard**: Competition drilling focuses on guard retention systems that prevent point-scoring passes, sweep opportunities that reverse position, and submission attacks that create offensive pressure satisfying referee activity requirements.
 
@@ -223,7 +223,7 @@ Competition Training represents the systematic preparation methodology that tran
 
 **De La Riva Guard**: Competition preparation develops rule-specific de la riva retention against scoring passes, high-percentage sweep entries that competitors have demonstrated success with, and back-take sequences that maximize point opportunities.
 
-**X-Guard**: Training focuses on X-guard sweep execution under competition pressure, strategic entries from other guard positions that maintain offensive initiative, and submission threats that create defensive reactions enabling sweeps.
+**Butterfly Guard**: Training focuses on butterfly guard sweep execution under competition pressure, strategic entries from other guard positions that maintain offensive initiative, and submission threats that create defensive reactions enabling sweeps.
 
 
 
@@ -348,28 +348,27 @@ Systematic review of personal training footage to identify technical execution p
 
 ### Related Principles
 - **[[Competition Mindset]]** (Complementary): Competition Training provides the physical preparation framework while Competition Mindset addresses the psychological readiness required for optimal performance under pressure, together forming complete competitive preparation.
-- **[[Match Strategy]]** (Extension): Competition Training develops the technical and physical capacity that Match Strategy then deploys tactically during actual competition, with training preparation enabling strategic execution.
 - **[[Game Planning]]** (Prerequisite): Effective Game Planning must occur before Competition Training implementation, as the strategic framework determines which techniques and positions receive training emphasis during competition preparation cycle.
 - **[[Energy Management System]]** (Complementary): Competition Training develops the physiological capacity for sustained performance while Energy Management System provides the in-competition tactical framework for pacing and effort distribution across multiple matches.
-- **[[Positional Sparring]]** (Complementary): Positional Sparring serves as primary training methodology during competition preparation, allowing focused refinement of specific positions and techniques identified in game plan while simulating match intensity.
 - **[[Drilling Methodology]]** (Prerequisite): Effective Drilling Methodology establishes the technical foundation and movement patterns that Competition Training then refines under progressively realistic conditions, making drilling the base upon which competition preparation builds.
-- **[[Progressive Resistance Training]]** (Complementary): Progressive Resistance Training provides the framework for systematically increasing opponent resistance during preparation, ensuring technical development occurs under progressively realistic competitive conditions.
-- **[[Mental Game Framework]]** (Complementary): Mental Game Framework provides the psychological training architecture that Competition Training integrates throughout preparation cycle, developing mental resilience alongside physical capacity.
-- **[[Risk Assessment]]** (Extension): Competition Training develops the technical reliability and strategic clarity that enables sophisticated Risk Assessment during matches, with preparation quality directly affecting competitive decision-making capacity.
 - **[[Cardio Conditioning]]** (Complementary): Cardio Conditioning provides the aerobic and anaerobic base that Competition Training then refines through match-specific intensity patterns, ensuring physiological readiness for tournament demands.
+- **[[Flow Rolling]]** (Complementary): Flow Rolling serves as an active recovery tool during competition preparation, allowing technical pattern reinforcement without accumulating fatigue during high-intensity training phases.
+- **[[Dilemma Creation]]** (Extension): Competition Training develops the technical reliability that enables Dilemma Creation during matches, where game plan weapons are combined into forcing sequences that give opponents no good defensive options.
+- **[[Control Maintenance]]** (Complementary): Control Maintenance skills are refined during competition preparation to maximize point-scoring position retention under competitive resistance, directly supporting scoring strategy execution.
+- **[[Defensive Strategy]]** (Complementary): Defensive Strategy is integrated into competition preparation to develop reliable responses when game plan execution fails, ensuring competitors can recover from disadvantageous positions under tournament pressure.
 
 
 ### Related Content
 - [[Competition Mindset]] (Principle) - Complementary psychological framework that addresses mental preparation while Competition Training focuses on physical and technical preparation
-- [[Match Strategy]] (Principle) - Tactical application during competition that deploys technical capacity developed through Competition Training preparation
 - [[Game Planning]] (Principle) - Strategic framework development that precedes and guides Competition Training technical emphasis and preparation focus
 - [[Energy Management System]] (Principle) - In-competition pacing and effort distribution that relies on physiological capacity developed during Competition Training
-- [[Positional Sparring]] (Principle) - Primary training methodology during competition preparation for refining specific positions and techniques
-- [[Competition Preparation System]] (System) - Systematic framework implementing Competition Training principles into structured preparation protocol
 - [[Drilling Methodology]] (Principle) - Technical foundation development that precedes competition-specific refinement during preparation cycle
-- [[Match Preparation]] (Principle) - Immediate pre-match preparation protocols that represent final phase of broader Competition Training cycle
-- [[Position-Over-Submission Approach]] (Principle) - Strategic philosophy commonly emphasized during competition preparation to maximize scoring and minimize risk
-- [[Risk Assessment]] (Principle) - Decision-making framework integrated into competition game planning and tactical execution during matches
+- [[Competition Preparation System]] (System) - Systematic framework implementing Competition Training principles into structured preparation protocol
+- [[Competition Scoring Strategy]] (System) - Scoring optimization framework that informs rule-specific tactical decisions developed during Competition Training
+- [[IBJJF Strategy Guide]] (System) - Rule-set specific strategic framework for the most common BJJ competition format, directly informing Competition Training emphases
+- [[Cardio Conditioning]] (Principle) - Physiological conditioning base that Competition Training refines into match-specific fitness for tournament demands
+- [[Defensive Strategy]] (Principle) - Defensive preparation integrated into competition camp to develop reliable recovery from disadvantageous positions under pressure
+- [[Mental Game Framework]] (System) - Psychological training architecture that Competition Training integrates throughout preparation for mental resilience development
 
 
 </section>

@@ -1,213 +1,46 @@
 {
   "name": "Backstep Around Worm Guard",
-  "description": "Master the backstep pass against worm guard in BJJ. Navigate lapel configurations by circling behind opponent. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "description": "Master the backstep pass against worm guard in BJJ. Navigate lapel configurations by circling behind opponent's guard structure for dominant position.",
   "tags": [
     "bjj",
     "transition",
     "guard-passing",
     "lapel-guard",
     "worm-guard",
-    "backstep"
+    "backstep",
+    "gi-passing"
   ],
   "from_position": "Lapel Guard/Top",
   "outcomes": [
     {
-      "to": "Turtle",
+      "to": "Turtle/Top",
       "probability": 50,
       "result": "success"
     },
     {
-      "to": "Side Control",
+      "to": "Side Control/Top",
       "probability": 15,
       "result": "success"
     },
     {
-      "to": "Lapel Guard",
+      "to": "Lapel Guard/Top",
       "probability": 25,
       "result": "failure"
     },
     {
-      "to": "Back Control",
+      "to": "Back Control/Bottom",
       "probability": 10,
       "result": "counter"
     }
   ],
+  "success_rate": 58,
   "overview": "The backstep around worm guard is a fundamental guard passing solution that addresses the unique mechanical problems created by lapel-based guard configurations. When an opponent establishes worm guard by threading your lapel around your lead leg, standard pressure passing becomes ineffective because the fabric creates a persistent barrier preventing hip contact and forward progression.\n\nThe backstep works by changing the vector of your passing approach entirely. Rather than fighting through the lapel obstruction with forward pressure, you rotate your trapped leg backward while circling your body around the opponent's guard structure. This movement uses the opponent's lapel grip against them—their commitment to the fabric configuration actually facilitates your escape by providing a pivot point for your rotation.\n\nStrategically, this pass is most effective when opponent has committed heavily to the worm guard configuration but hasn't yet loaded offensive attacks. The timing window opens when they're focused on maintaining the wrap rather than attacking. The backstep creates a race condition: you're attempting to navigate around their guard faster than they can adjust the lapel configuration to follow your movement. Understanding this dynamic is essential for both execution timing and recognizing when opponents are setting traps by appearing committed to static worm guard while actually waiting to take your back.",
-  "key_principles": [
-    "Rotate your trapped leg backward rather than pulling it forward through the lapel obstruction",
-    "Maintain constant shoulder pressure on opponent's torso throughout the backstep motion",
-    "Use their lapel grip as a pivot point for your rotation rather than fighting against it",
-    "Control opponent's far sleeve or collar to prevent them from following your rotation",
-    "Keep your base low and wide during the backstep to prevent being off-balanced",
-    "Transition immediately to dominant position upon clearing the guard—don't pause in neutral",
-    "Anticipate the back take counter by maintaining heavy hip pressure on opponent's shoulder"
+  "conditions": [
+    "Opponent has established worm guard with lapel threaded around your lead leg",
+    "Forward pressure passing has been neutralized by the lapel configuration",
+    "Your posture is stable enough to initiate rotation without losing balance",
+    "You have secured at least one controlling grip on opponent's upper body"
   ],
-  "setup_requirements": [
-    "Opponent has established worm guard with lapel threaded around your lead leg behind the knee",
-    "Your posture is stable with weight distributed to allow rotation without falling forward",
-    "Control of opponent's far-side sleeve or collar to prevent them from following your movement",
-    "Recognition that forward passing approaches have been neutralized by the lapel configuration",
-    "Space exists behind you to complete the backstep rotation without obstruction"
-  ],
-  "execution_steps": [
-    {
-      "step_number": 1,
-      "action": "Establish control grips",
-      "description": "Secure cross-collar grip with your lead hand and far sleeve control with your rear hand. These grips prevent opponent from adjusting their position or taking your back during the backstep."
-    },
-    {
-      "step_number": 2,
-      "action": "Lower your base",
-      "description": "Drop your hips and widen your stance to create a stable platform for rotation. Your center of gravity must be low enough that the backstep doesn't compromise your balance."
-    },
-    {
-      "step_number": 3,
-      "action": "Apply shoulder pressure",
-      "description": "Drive your shoulder into opponent's chest or shoulder on the side of their lapel grip. This pressure prevents them from sitting up to follow your movement and loads their back flat to the mat."
-    },
-    {
-      "step_number": 4,
-      "action": "Initiate backstep rotation",
-      "description": "Step your trapped leg backward in an arc behind your body while pivoting on your free foot. The lapel remains wrapped around your leg during this motion but loses its effectiveness as you change the angle."
-    },
-    {
-      "step_number": 5,
-      "action": "Circle to turtle position",
-      "description": "Continue the rotation until you've cleared the lapel barrier entirely, ending perpendicular or behind opponent. Your shoulder pressure should turn them toward turtle as you complete the arc."
-    },
-    {
-      "step_number": 6,
-      "action": "Secure dominant position",
-      "description": "Consolidate either turtle control with seatbelt grip or transition to side control if opponent remains flat. Clear any remaining lapel entanglement and establish your preferred control configuration."
-    }
-  ],
-  "common_counters": [
-    {
-      "counter": "Sit-up to back take: Opponent releases lapel and sits up aggressively, following your rotation to take your back",
-      "effectiveness": "High",
-      "your_response": "Maintain extremely heavy shoulder pressure throughout the backstep. If they begin sitting up, sprawl your hips and switch to front headlock rather than completing the pass."
-    },
-    {
-      "counter": "Reconfiguration to squid guard: Opponent redirects the lapel around your posting arm as you begin rotating",
-      "effectiveness": "Medium",
-      "your_response": "Keep your posting arm elbow tight to your body during the backstep. If they capture it, abandon the backstep and address the new configuration before continuing."
-    },
-    {
-      "counter": "Leg pummeling to re-guard: Opponent uses the moment of transition to insert butterfly hooks or recover closed guard",
-      "effectiveness": "Medium",
-      "your_response": "Maintain knee-to-mat contact on opponent's hip throughout the backstep. Don't allow space for their legs to pummel inside your position."
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Attempting to pull trapped leg forward through the lapel wrap",
-      "consequence": "Expends enormous energy fighting a mechanical barrier that gets tighter the harder you pull, resulting in fatigue without progress",
-      "correction": "Reverse the direction—step the leg backward and around rather than trying to extract it forward through the obstruction"
-    },
-    {
-      "error": "Losing shoulder pressure during the backstep rotation",
-      "consequence": "Opponent sits up and takes your back during the transition, converting your passing attempt into their dominant position",
-      "correction": "Think of the shoulder as pinning them to the mat throughout the entire rotation. Never lift your weight off their torso."
-    },
-    {
-      "error": "Backstepping without controlling opponent's far-side grips",
-      "consequence": "Opponent follows your rotation and reestablishes guard or completes back take before you can consolidate position",
-      "correction": "Always secure cross-collar and far sleeve control before initiating the backstep. These grips anchor them in place."
-    },
-    {
-      "error": "Completing the backstep but pausing before consolidating position",
-      "consequence": "Creates window for opponent to re-guard, turtle effectively, or begin scramble sequence that negates your passing progress",
-      "correction": "Treat the backstep and position consolidation as one continuous action. The pass isn't complete until you have dominant control."
-    },
-    {
-      "error": "Standing too tall during the backstep rotation",
-      "consequence": "High center of gravity makes you vulnerable to sweeps during the transition and reduces effectiveness of shoulder pressure",
-      "correction": "Stay low throughout the entire movement. Your hips should remain below shoulder level during the rotation."
-    }
-  ],
-  "training_progressions": [
-    {
-      "phase": "Week 1-2",
-      "focus": "Movement pattern isolation",
-      "description": "Practice the backstep rotation without resistance, focusing on the arc of movement and maintaining low base throughout. Partner holds static worm guard position without actively attacking or defending."
-    },
-    {
-      "phase": "Week 3-4",
-      "focus": "Grip integration and timing",
-      "description": "Add proper grip sequencing before backstep and shoulder pressure maintenance during rotation. Partner provides light resistance and attempts basic re-guarding after you complete the movement."
-    },
-    {
-      "phase": "Week 5-6",
-      "focus": "Counter recognition and response",
-      "description": "Partner actively attempts sit-up back takes and guard recovery during your backstep. Practice recognizing these counters and adjusting mid-technique. Include position consolidation drilling."
-    },
-    {
-      "phase": "Week 7+",
-      "focus": "Live application and chain passing",
-      "description": "Full resistance sparring starting from worm guard position. Integrate backstep with other passing options based on opponent reactions. Develop feel for optimal timing windows."
-    }
-  ],
-  "variants_and_adaptations": [
-    {
-      "variant_name": "Long step variation",
-      "description": "Instead of a tight backstep arc, take an extended step far behind opponent before circling to dominant position. Creates more distance from potential back take but requires faster consolidation.",
-      "when_to_use": "When opponent has strong sit-up back take game and you need maximum separation during the transition"
-    },
-    {
-      "variant_name": "Backstep to leg drag",
-      "description": "Rather than circling to turtle, use the backstep motion to clear the lapel then immediately transition to leg drag position by controlling opponent's far leg across your body.",
-      "when_to_use": "When opponent stays flat rather than turtling, allowing direct progression to leg drag control"
-    },
-    {
-      "variant_name": "Sprawl backstep hybrid",
-      "description": "Combine backstep rotation with sprawling hip motion, driving maximum pressure through opponent's shoulder while clearing the lapel configuration.",
-      "when_to_use": "Against opponents who attempt early sit-ups before you can complete standard backstep"
-    }
-  ],
-  "knowledge_assessment": [
-    {
-      "question": "What is the primary goal of the backstep around worm guard?",
-      "answer": "The primary goal is to navigate around the lapel barrier created by worm guard by changing your passing vector from forward pressure to rotational movement. Rather than fighting through the mechanical obstruction, you rotate your trapped leg backward and circle around the guard structure to reach turtle or side control."
-    },
-    {
-      "question": "Why does pulling your trapped leg forward through worm guard fail?",
-      "answer": "The lapel wrapped around your leg creates a mechanical barrier that tightens the harder you pull forward. The fabric cinches against your knee joint, making extraction physically demanding and usually unsuccessful. The backstep reverses this dynamic by moving with the wrap rather than against it."
-    },
-    {
-      "question": "What grips must you establish before initiating the backstep?",
-      "answer": "You need cross-collar grip with your lead hand and far-side sleeve control with your rear hand. These grips anchor your opponent in place, preventing them from following your rotation and attempting back takes during the transition. Without these controls, the backstep exposes your back."
-    },
-    {
-      "question": "Your opponent begins sitting up aggressively as you initiate the backstep—how do you adjust?",
-      "answer": "Immediately increase shoulder pressure and sprawl your hips to flatten them back to the mat. If they've already achieved significant elevation, abandon the backstep and transition to front headlock control instead. Continuing the backstep against a sitting opponent gives them your back."
-    },
-    {
-      "question": "What is the most dangerous counter to the backstep and how do you prevent it?",
-      "answer": "The sit-up back take is the highest-percentage counter. Opponents release their worm guard grip and follow your rotation to secure back control. Prevention requires maintaining constant heavy shoulder pressure throughout the entire backstep motion—never lift your weight off their torso."
-    },
-    {
-      "question": "When during the opponent's worm guard game is the optimal window to attempt the backstep?",
-      "answer": "The optimal timing is when opponent has committed to maintaining the worm guard configuration but hasn't yet loaded offensive attacks like sweeps or back takes. If they're focused on keeping the wrap tight rather than attacking, they're less prepared to follow your rotation."
-    },
-    {
-      "question": "How does your hip height affect backstep success rate?",
-      "answer": "Lower hip position throughout the movement dramatically increases success rate. High hips create vulnerability to sweeps during the transition and reduce the effectiveness of shoulder pressure. Your hips should remain below shoulder level during the entire rotation to maintain base and control."
-    },
-    {
-      "question": "Your opponent redirects the lapel toward your posting arm as you begin the backstep—what adjustment maintains your passing pressure?",
-      "answer": "Keep your posting arm elbow pinched tight to your body throughout the backstep. If they successfully capture your arm in squid guard configuration, stop the backstep immediately and address the new guard variation before continuing. Trying to complete the pass through squid guard typically fails."
-    },
-    {
-      "question": "Why is position consolidation immediately after clearing the guard critical?",
-      "answer": "The backstep creates a transitional moment where neither player has established position. Pausing after clearing the lapel gives opponent time to re-guard, turtle effectively, or initiate scrambles. Treating the backstep and consolidation as one continuous action closes this window before they can recover."
-    },
-    {
-      "question": "How do you modify the backstep against an opponent with an extremely strong sit-up back take game?",
-      "answer": "Use the long step variation—take an extended step far behind the opponent before circling to dominant position. This creates maximum separation during the transition, making it harder for them to follow your rotation. The tradeoff is requiring faster consolidation to prevent re-guarding."
-    }
-  ],
-  "safety_considerations": "The backstep around worm guard is generally a low-risk technique with minimal injury potential when practiced correctly. The primary safety concern involves knee stress on the trapped leg during rotation—ensure smooth circular movement rather than twisting against the lapel wrap. Partners should release worm guard grips immediately if the passer experiences joint discomfort. Avoid explosive backsteps before developing proper movement patterns, as rapid rotation with poor mechanics can strain knee ligaments. During drilling, establish clear tap signals and communicate any tightness in the wrapped knee. The shoulder pressure component requires controlled application to avoid excessive force on training partners' necks or shoulders.",
-  "position_integration": "The backstep around worm guard occupies a critical role in modern gi passing strategy as the primary solution to lapel-based guard configurations. This technique connects the frustrating problem of worm guard entanglement to favorable passing positions like turtle control and side control. Understanding this pass is essential for anyone facing skilled lapel guard players, as it provides an escape route when forward pressure becomes mechanically impossible. The backstep integrates with the broader passing system by offering an angle-change option that complements pressure passing and toreando approaches. Mastery of this technique opens passing paths that would otherwise be completely blocked by lapel configurations, making it a required skill for competitive gi practitioners.",
   "related_content": [
     {
       "name": "Lapel Guard",
@@ -242,7 +75,7 @@
       "relationship": "Related passing technique using similar rotational mechanics"
     },
     {
-      "name": "Toreando Pass",
+      "name": "Bullfighter Pass",
       "relationship": "Complementary pass that may combine with backstep movement"
     },
     {
@@ -250,5 +83,314 @@
       "relationship": "Related passing concept sharing distance-creation principles"
     }
   ],
-  "success_rate": 58
+  "attacker": {
+    "name": "Backstep Around Worm Guard Attacker",
+    "description": "How to execute Backstep Around Worm Guard in BJJ. Attacking perspective with setup, execution steps, and counters.",
+    "overview": "The backstep around worm guard is a fundamental guard passing solution that addresses the unique mechanical problems created by lapel-based guard configurations. When an opponent establishes worm guard by threading your lapel around your lead leg, standard pressure passing becomes ineffective because the fabric creates a persistent barrier preventing hip contact and forward progression.\n\nThe backstep works by changing the vector of your passing approach entirely. Rather than fighting through the lapel obstruction with forward pressure, you rotate your trapped leg backward while circling your body around the opponent's guard structure. This movement uses the opponent's lapel grip against them—their commitment to the fabric configuration actually facilitates your escape by providing a pivot point for your rotation.\n\nStrategically, this pass is most effective when opponent has committed heavily to the worm guard configuration but hasn't yet loaded offensive attacks. The timing window opens when they're focused on maintaining the wrap rather than attacking. The backstep creates a race condition: you're attempting to navigate around their guard faster than they can adjust the lapel configuration to follow your movement. Understanding this dynamic is essential for both execution timing and recognizing when opponents are setting traps by appearing committed to static worm guard while actually waiting to take your back.",
+    "key_principles": [
+      "Rotate your trapped leg backward rather than pulling it forward through the lapel obstruction",
+      "Maintain constant shoulder pressure on opponent's torso throughout the backstep motion",
+      "Use their lapel grip as a pivot point for your rotation rather than fighting against it",
+      "Control opponent's far sleeve or collar to prevent them from following your rotation",
+      "Keep your base low and wide during the backstep to prevent being off-balanced",
+      "Transition immediately to dominant position upon clearing the guard—don't pause in neutral",
+      "Anticipate the back take counter by maintaining heavy hip pressure on opponent's shoulder"
+    ],
+    "setup_requirements": [
+      "Opponent has established worm guard with lapel threaded around your lead leg behind the knee",
+      "Your posture is stable with weight distributed to allow rotation without falling forward",
+      "Control of opponent's far-side sleeve or collar to prevent them from following your movement",
+      "Recognition that forward passing approaches have been neutralized by the lapel configuration",
+      "Space exists behind you to complete the backstep rotation without obstruction"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish control grips",
+        "description": "Secure cross-collar grip with your lead hand and far sleeve control with your rear hand. These grips prevent opponent from adjusting their position or taking your back during the backstep."
+      },
+      {
+        "step_number": 2,
+        "action": "Lower your base",
+        "description": "Drop your hips and widen your stance to create a stable platform for rotation. Your center of gravity must be low enough that the backstep doesn't compromise your balance."
+      },
+      {
+        "step_number": 3,
+        "action": "Apply shoulder pressure",
+        "description": "Drive your shoulder into opponent's chest or shoulder on the side of their lapel grip. This pressure prevents them from sitting up to follow your movement and loads their back flat to the mat."
+      },
+      {
+        "step_number": 4,
+        "action": "Initiate backstep rotation",
+        "description": "Step your trapped leg backward in an arc behind your body while pivoting on your free foot. The lapel remains wrapped around your leg during this motion but loses its effectiveness as you change the angle."
+      },
+      {
+        "step_number": 5,
+        "action": "Circle to turtle position",
+        "description": "Continue the rotation until you've cleared the lapel barrier entirely, ending perpendicular or behind opponent. Your shoulder pressure should turn them toward turtle as you complete the arc."
+      },
+      {
+        "step_number": 6,
+        "action": "Secure dominant position",
+        "description": "Consolidate either turtle control with seatbelt grip or transition to side control if opponent remains flat. Clear any remaining lapel entanglement and establish your preferred control configuration."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Sit-up to back take: Opponent releases lapel and sits up aggressively, following your rotation to take your back",
+        "effectiveness": "High",
+        "your_response": "Maintain extremely heavy shoulder pressure throughout the backstep. If they begin sitting up, sprawl your hips and switch to front headlock rather than completing the pass.",
+        "targets_outcome": "Back Control/Bottom"
+      },
+      {
+        "counter": "Reconfiguration to squid guard: Opponent redirects the lapel around your posting arm as you begin rotating",
+        "effectiveness": "Medium",
+        "your_response": "Keep your posting arm elbow tight to your body during the backstep. If they capture it, abandon the backstep and address the new configuration before continuing.",
+        "targets_outcome": "Lapel Guard/Top"
+      },
+      {
+        "counter": "Leg pummeling to re-guard: Opponent uses the moment of transition to insert butterfly hooks or recover closed guard",
+        "effectiveness": "Medium",
+        "your_response": "Maintain knee-to-mat contact on opponent's hip throughout the backstep. Don't allow space for their legs to pummel inside your position.",
+        "targets_outcome": "Lapel Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting to pull trapped leg forward through the lapel wrap",
+        "consequence": "Expends enormous energy fighting a mechanical barrier that gets tighter the harder you pull, resulting in fatigue without progress",
+        "correction": "Reverse the direction—step the leg backward and around rather than trying to extract it forward through the obstruction"
+      },
+      {
+        "error": "Losing shoulder pressure during the backstep rotation",
+        "consequence": "Opponent sits up and takes your back during the transition, converting your passing attempt into their dominant position",
+        "correction": "Think of the shoulder as pinning them to the mat throughout the entire rotation. Never lift your weight off their torso."
+      },
+      {
+        "error": "Backstepping without controlling opponent's far-side grips",
+        "consequence": "Opponent follows your rotation and reestablishes guard or completes back take before you can consolidate position",
+        "correction": "Always secure cross-collar and far sleeve control before initiating the backstep. These grips anchor them in place."
+      },
+      {
+        "error": "Completing the backstep but pausing before consolidating position",
+        "consequence": "Creates window for opponent to re-guard, turtle effectively, or begin scramble sequence that negates your passing progress",
+        "correction": "Treat the backstep and position consolidation as one continuous action. The pass isn't complete until you have dominant control."
+      },
+      {
+        "error": "Standing too tall during the backstep rotation",
+        "consequence": "High center of gravity makes you vulnerable to sweeps during the transition and reduces effectiveness of shoulder pressure",
+        "correction": "Stay low throughout the entire movement. Your hips should remain below shoulder level during the rotation."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Movement pattern isolation",
+        "description": "Practice the backstep rotation without resistance, focusing on the arc of movement and maintaining low base throughout. Partner holds static worm guard position without actively attacking or defending."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Grip integration and timing",
+        "description": "Add proper grip sequencing before backstep and shoulder pressure maintenance during rotation. Partner provides light resistance and attempts basic re-guarding after you complete the movement."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Counter recognition and response",
+        "description": "Partner actively attempts sit-up back takes and guard recovery during your backstep. Practice recognizing these counters and adjusting mid-technique. Include position consolidation drilling."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live application and chain passing",
+        "description": "Full resistance sparring starting from worm guard position. Integrate backstep with other passing options based on opponent reactions. Develop feel for optimal timing windows."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary goal of the backstep around worm guard?",
+        "answer": "The primary goal is to navigate around the lapel barrier created by worm guard by changing your passing vector from forward pressure to rotational movement. Rather than fighting through the mechanical obstruction, you rotate your trapped leg backward and circle around the guard structure to reach turtle or side control."
+      },
+      {
+        "question": "Why does pulling your trapped leg forward through worm guard fail?",
+        "answer": "The lapel wrapped around your leg creates a mechanical barrier that tightens the harder you pull forward. The fabric cinches against your knee joint, making extraction physically demanding and usually unsuccessful. The backstep reverses this dynamic by moving with the wrap rather than against it."
+      },
+      {
+        "question": "What grips must you establish before initiating the backstep?",
+        "answer": "You need cross-collar grip with your lead hand and far-side sleeve control with your rear hand. These grips anchor your opponent in place, preventing them from following your rotation and attempting back takes during the transition. Without these controls, the backstep exposes your back."
+      },
+      {
+        "question": "Your opponent begins sitting up aggressively as you initiate the backstep—how do you adjust?",
+        "answer": "Immediately increase shoulder pressure and sprawl your hips to flatten them back to the mat. If they've already achieved significant elevation, abandon the backstep and transition to front headlock control instead. Continuing the backstep against a sitting opponent gives them your back."
+      },
+      {
+        "question": "What is the most dangerous counter to the backstep and how do you prevent it?",
+        "answer": "The sit-up back take is the highest-percentage counter. Opponents release their worm guard grip and follow your rotation to secure back control. Prevention requires maintaining constant heavy shoulder pressure throughout the entire backstep motion—never lift your weight off their torso."
+      },
+      {
+        "question": "When during the opponent's worm guard game is the optimal window to attempt the backstep?",
+        "answer": "The optimal timing is when opponent has committed to maintaining the worm guard configuration but hasn't yet loaded offensive attacks like sweeps or back takes. If they're focused on keeping the wrap tight rather than attacking, they're less prepared to follow your rotation."
+      },
+      {
+        "question": "How does your hip height affect backstep success rate?",
+        "answer": "Lower hip position throughout the movement dramatically increases success rate. High hips create vulnerability to sweeps during the transition and reduce the effectiveness of shoulder pressure. Your hips should remain below shoulder level during the entire rotation to maintain base and control."
+      },
+      {
+        "question": "Your opponent redirects the lapel toward your posting arm as you begin the backstep—what adjustment maintains your passing pressure?",
+        "answer": "Keep your posting arm elbow pinched tight to your body throughout the backstep. If they successfully capture your arm in squid guard configuration, stop the backstep immediately and address the new guard variation before continuing. Trying to complete the pass through squid guard typically fails."
+      },
+      {
+        "question": "Why is position consolidation immediately after clearing the guard critical?",
+        "answer": "The backstep creates a transitional moment where neither player has established position. Pausing after clearing the lapel gives opponent time to re-guard, turtle effectively, or initiate scrambles. Treating the backstep and consolidation as one continuous action closes this window before they can recover."
+      },
+      {
+        "question": "How do you modify the backstep against an opponent with an extremely strong sit-up back take game?",
+        "answer": "Use the long step variation—take an extended step far behind the opponent before circling to dominant position. This creates maximum separation during the transition, making it harder for them to follow your rotation. The tradeoff is requiring faster consolidation to prevent re-guarding."
+      },
+      {
+        "question": "Your opponent inserts butterfly hooks as you clear the lapel barrier—what is the correct response?",
+        "answer": "Do not continue circling to turtle. Instead, address the butterfly hooks immediately by dropping your hips heavy on their thighs and flattening their hooks before they can load a sweep. Alternatively, backstep further to leg drag position, pinning their far leg across your body to nullify the butterfly structure entirely."
+      },
+      {
+        "question": "What determines whether you consolidate to turtle control versus side control after a successful backstep?",
+        "answer": "The opponent's reaction during the backstep determines the endpoint. If your shoulder pressure turns them to their knees, you consolidate turtle with seatbelt grip and work toward back control. If they stay flat on their back resisting the turn, pass directly to side control with crossface and hip pressure. Read their body position rather than committing to a predetermined destination."
+      }
+    ],
+    "safety_considerations": "The backstep around worm guard is generally a low-risk technique with minimal injury potential when practiced correctly. The primary safety concern involves knee stress on the trapped leg during rotation—ensure smooth circular movement rather than twisting against the lapel wrap. Partners should release worm guard grips immediately if the passer experiences joint discomfort. Avoid explosive backsteps before developing proper movement patterns, as rapid rotation with poor mechanics can strain knee ligaments. During drilling, establish clear tap signals and communicate any tightness in the wrapped knee. The shoulder pressure component requires controlled application to avoid excessive force on training partners' necks or shoulders."
+  },
+  "defender": {
+    "name": "Backstep Around Worm Guard Defender",
+    "description": "How to defend against Backstep Around Worm Guard in BJJ. Recognition cues, defensive options, and escape strategies.",
+    "overview": "Defending the backstep from worm guard requires understanding that the passer is attempting to change their passing vector from forward to rotational. As the worm guard player, your lapel configuration is your primary weapon, but it becomes a liability if the passer successfully navigates around it. The key defensive insight is that the backstep creates a transitional window where the passer is temporarily vulnerable—their back is partially exposed during the rotation, and their grips are occupied with controlling you rather than blocking your movement.\n\nSuccessful defense hinges on early recognition and immediate response. The moment you feel the passer shifting weight backward rather than driving forward, you must decide between two primary strategies: follow the rotation aggressively to take their back, or reconfigure your lapel control to track their new angle. Waiting to see which option is better typically means both windows close. The defender who commits decisively to one strategy will outperform the defender who hedges between both.\n\nThe highest-percentage counter is the sit-up back take, which capitalizes on the passer's rotational momentum. However, this requires releasing your worm guard grip—a significant commitment. If the sit-up fails, you've lost your guard configuration entirely. Understanding when the passer's shoulder pressure is light enough to allow the sit-up versus when you should instead focus on re-configuring the lapel to follow their movement is the critical skill that separates effective worm guard defense from reactive scrambling.",
+    "key_principles": [
+      "Recognize backstep initiation immediately through weight shift and angle change cues",
+      "Maintain sleeve control on the same side as your lapel wrap to restrict passer's rotation",
+      "Commit decisively to either sit-up back take or lapel reconfiguration—hedging between both fails",
+      "Use the passer's rotational momentum against them by following their movement toward their back",
+      "Keep your hips active and mobile rather than flat on the mat to enable quick directional changes",
+      "Preserve your lapel configuration as long as possible—only release for high-percentage back take attempts",
+      "If the backstep clears your guard, immediately turtle tight rather than lying flat for side control"
+    ],
+    "recognition_cues": [
+      "Passer shifts weight backward onto their rear foot rather than driving forward—this signals rotation initiation",
+      "Passer secures cross-collar grip and far sleeve simultaneously, indicating they are anchoring you before moving",
+      "Passer drops shoulder pressure heavier than normal on your chest or shoulder—this is the preload before backstep rotation",
+      "Passer's trapped leg begins rotating outward rather than pulling forward through the lapel wrap"
+    ],
+    "defensive_options": [
+      {
+        "action": "Sit-up back take: Release worm guard grip, sit up explosively, and follow passer's rotation to secure their back with seatbelt control",
+        "when_to_use": "When passer's shoulder pressure is light or they begin the backstep without pinning you flat first",
+        "targets_outcome": "Back Control/Bottom",
+        "if_successful": "You achieve back control with seatbelt grip, converting their passing attempt into your dominant position",
+        "risk": "If the sit-up is stuffed by heavy shoulder pressure, you lose your worm guard configuration and end up in open guard with no lapel control"
+      },
+      {
+        "action": "Lapel reconfiguration: Redirect the lapel wrap to follow passer's new angle, re-establishing worm guard or transitioning to squid guard on their posting arm",
+        "when_to_use": "When passer maintains heavy shoulder pressure making sit-up impossible, but hasn't fully cleared the lapel barrier yet",
+        "targets_outcome": "Lapel Guard/Top",
+        "if_successful": "You re-establish lapel guard control at the new angle, neutralizing the backstep and forcing them to restart their passing approach",
+        "risk": "If reconfiguration is too slow, passer clears the lapel entirely and achieves turtle or side control"
+      },
+      {
+        "action": "Leg pummeling to butterfly guard: Insert butterfly hooks as the passer clears the lapel, using the transitional moment to establish new guard structure",
+        "when_to_use": "When the backstep has partially succeeded and the lapel configuration is compromised, but the passer hasn't consolidated position yet",
+        "targets_outcome": "Lapel Guard/Top",
+        "if_successful": "You recover to butterfly guard or re-establish open guard, preventing the pass from completing despite losing lapel control",
+        "risk": "Passer drops hips heavy on your thighs and smashes through the butterfly hooks to complete the pass to side control"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Back Control/Bottom",
+        "how": "Release worm guard grip the moment you feel the passer's weight shift backward. Sit up explosively with your near arm reaching across their body for seatbelt control while your far arm posts behind you for base. Follow their rotation and insert hooks as they complete the backstep. Their commitment to the rotation makes it difficult to stop your back take once you're sitting up."
+      },
+      {
+        "outcome": "Lapel Guard/Top",
+        "how": "Maintain your primary lapel grip while using your free hand to control the passer's far sleeve. As they begin the backstep, hip escape in the same direction as their rotation to maintain the lapel configuration angle. Thread the lapel deeper if possible, or redirect it around their posting arm to transition to squid guard. The goal is making the lapel configuration track their movement so they never fully clear the barrier."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting the sit-up back take when passer has established heavy shoulder pressure",
+        "consequence": "Sit-up is stuffed immediately, you lose your worm guard grip in the process, and end up flat on your back with no guard structure as the passer completes the pass freely",
+        "correction": "Only attempt the sit-up when shoulder pressure is light or during the split-second the passer lifts weight to initiate rotation. If they're pinning you flat, focus on lapel reconfiguration instead."
+      },
+      {
+        "error": "Holding the worm guard grip statically while passer rotates around you",
+        "consequence": "The lapel configuration becomes irrelevant as the passer clears the barrier entirely, and you end up flat with the lapel draped uselessly across your body",
+        "correction": "Your lapel grip must be dynamic—adjust the angle and depth of the wrap to track the passer's movement. Think of the lapel as a tether that must stay taut and relevant throughout their rotation."
+      },
+      {
+        "error": "Lying flat on your back after the backstep clears your guard instead of immediately turtling",
+        "consequence": "Passer consolidates side control easily against a flat opponent, establishing crossface and hip pressure with minimal resistance",
+        "correction": "The moment your guard is passed, turn to your knees immediately into a tight turtle position. Turtle is recoverable; flat on your back under side control is significantly harder to escape."
+      },
+      {
+        "error": "Hedging between the sit-up back take and lapel reconfiguration without committing to either",
+        "consequence": "Half-sitting up weakens your lapel grip without achieving back control, resulting in the worst of both options—no guard retention and no back take",
+        "correction": "Make a decisive read within the first second of recognizing the backstep. If shoulder pressure is light, commit fully to the sit-up. If it's heavy, abandon the sit-up completely and focus on reconfiguring the lapel."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that your opponent is about to attempt a backstep around your worm guard?",
+        "answer": "The earliest cue is a weight shift backward onto their rear foot combined with securing cross-collar and far sleeve grips. This indicates they are anchoring you in place before initiating rotational movement. Feeling their trapped leg begin to rotate outward rather than pull forward confirms the backstep is imminent."
+      },
+      {
+        "question": "Why must you choose between the sit-up back take and lapel reconfiguration quickly rather than waiting to see what develops?",
+        "answer": "Both defensive windows are extremely narrow and mutually exclusive. The sit-up requires releasing your worm guard grip, while reconfiguration requires maintaining it. Attempting to do both results in a weak sit-up that gets stuffed and a compromised lapel grip that the passer clears easily. Decisive commitment within the first second gives either strategy its highest success probability."
+      },
+      {
+        "question": "Your opponent has heavy shoulder pressure pinning you flat as they begin the backstep—what is your best defensive strategy?",
+        "answer": "Focus on lapel reconfiguration rather than the sit-up. Use your free hand to control their far sleeve while hip escaping in the direction of their rotation. Thread the lapel deeper or redirect it to their posting arm for squid guard. The heavy shoulder pressure makes sitting up nearly impossible, so working within the guard system rather than against their pressure is the higher-percentage play."
+      },
+      {
+        "question": "The backstep has succeeded and your worm guard is cleared—what immediate action prevents the worst outcome?",
+        "answer": "Turn to your knees immediately into a tight turtle position rather than remaining flat on your back. Turtle position is significantly more recoverable than flat side control—you retain guard recovery options through granby rolls, sit-throughs, and stand-ups. Staying flat allows the passer to establish crossface and hip pressure, making escape exponentially harder."
+      },
+      {
+        "question": "How do you modify your worm guard grip to make the backstep more difficult to execute in the first place?",
+        "answer": "Maintain aggressive same-side sleeve control to restrict the passer's ability to rotate their trapped leg. If they can't free their far arm to establish the cross-collar grip needed for the backstep, the technique becomes much harder to initiate. Additionally, keeping your hips angled rather than flat gives you faster sit-up capability if they attempt the rotation despite your grip fighting."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Recognition and reaction timing",
+        "description": "Partner slowly performs backstep motion from worm guard while you practice identifying the weight shift and angle change cues. Focus on feeling the transition from forward pressure to rotational movement. No defensive responses yet—just recognition speed."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Sit-up back take mechanics",
+        "description": "Partner performs backstep at moderate speed while you practice the sit-up back take response. Focus on the timing of releasing worm guard grip, explosive sit-up mechanics, and seatbelt grip establishment. Partner provides light resistance to the back take."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Lapel reconfiguration and decision-making",
+        "description": "Partner varies shoulder pressure intensity during backstep attempts. Practice reading whether sit-up or reconfiguration is appropriate based on pressure level. Drill lapel angle adjustments and squid guard transitions against moderate resistance."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live defense with full resistance",
+        "description": "Full resistance positional sparring starting from worm guard where partner actively attempts backstep passes. Integrate both defensive strategies with real-time decision-making. Include recovery to turtle when defense fails."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Long step variation",
+      "description": "Instead of a tight backstep arc, take an extended step far behind opponent before circling to dominant position. Creates more distance from potential back take but requires faster consolidation.",
+      "when_to_use": "When opponent has strong sit-up back take game and you need maximum separation during the transition"
+    },
+    {
+      "variant_name": "Backstep to leg drag",
+      "description": "Rather than circling to turtle, use the backstep motion to clear the lapel then immediately transition to leg drag position by controlling opponent's far leg across your body.",
+      "when_to_use": "When opponent stays flat rather than turtling, allowing direct progression to leg drag control"
+    },
+    {
+      "variant_name": "Sprawl backstep hybrid",
+      "description": "Combine backstep rotation with sprawling hip motion, driving maximum pressure through opponent's shoulder while clearing the lapel configuration.",
+      "when_to_use": "Against opponents who attempt early sit-ups before you can complete standard backstep"
+    }
+  ],
+  "position_integration": "The backstep around worm guard occupies a critical role in modern gi passing strategy as the primary solution to lapel-based guard configurations. This technique connects the frustrating problem of worm guard entanglement to favorable passing positions like turtle control and side control. Understanding this pass is essential for anyone facing skilled lapel guard players, as it provides an escape route when forward pressure becomes mechanically impossible. The backstep integrates with the broader passing system by offering an angle-change option that complements pressure passing and toreando approaches. Mastery of this technique opens passing paths that would otherwise be completely blocked by lapel configurations, making it a required skill for competitive gi practitioners."
 }

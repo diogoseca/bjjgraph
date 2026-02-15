@@ -1,0 +1,13 @@
+{
+  "name": "Bridge Escape from Kesa Gatame",
+  "description": "",
+  "tags": [],
+  "from_position": "Kesa Gatame/Bottom",
+  "outcomes": [
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 100,
+      "result": "success"
+    }
+  ]
+}

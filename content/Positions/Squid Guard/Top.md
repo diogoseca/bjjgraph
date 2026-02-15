@@ -21,37 +21,37 @@ description: "Master Squid Guard Top in BJJ. Learn guard passing strategies, lap
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass",
-      "text": "From this position, attempt Stack Pass. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Step",
-      "text": "From this position, attempt Back Step. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Back Step. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toreando Pass",
-      "text": "From this position, attempt Toreando Pass. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Toreando Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Pressure Pass",
-      "text": "From this position, attempt Pressure Pass. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Pressure Pass. This technique is attempted in 24% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,17 +208,21 @@ Success in this position correlates strongly with lapel grip management, base ma
 
 ## Available Attacks
 
-### [[Stack Pass]] (17% of attempts)
+### [[Stack Pass]] (14% of attempts)
 
-### [[Leg Drag Pass]] (16% of attempts)
+### [[Leg Drag Pass]] (13% of attempts)
 
-### [[Back Step]] (15% of attempts)
+### [[Back Step]] (12% of attempts)
 
-### [[Toreando Pass]] (17% of attempts)
+### [[Toreando Pass]] (14% of attempts)
 
-### [[Pressure Pass]] (18% of attempts)
+### [[Pressure Pass]] (24% of attempts)
 
-### [[Knee Slice Pass]] (17% of attempts)
+### [[Knee Slice Pass]] (14% of attempts)
+
+### [[Pass Squid Guard]] (6% of attempts)
+
+### [[Pressure Through Squid Guard]] (3% of attempts)
 
 
 

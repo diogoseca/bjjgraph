@@ -21,37 +21,37 @@ description: "Master defending and escaping Carni position in BJJ. Essential def
     {
       "@type": "HowToStep",
       "name": "Execute Stack Defense",
-      "text": "From this position, attempt Stack Defense. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Stack Defense. This technique is attempted in 24% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Kimura Escape",
-      "text": "From this position, attempt Rolling Kimura Escape. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Rolling Kimura Escape. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Standup",
-      "text": "From this position, attempt Technical Standup. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Technical Stand-up",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll",
-      "text": "From this position, attempt Granby Roll. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Granby Roll to Guard",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,17 +213,21 @@ The most successful escapes from Carni involve recognizing the position early, b
 
 ## Available Attacks
 
-### [[Stack Defense]] (19% of attempts)
+### [[Stack Defense]] (24% of attempts)
 
-### [[Rolling Kimura Escape]] (19% of attempts)
+### [[Rolling Kimura Escape]] (16% of attempts)
 
-### [[Technical Standup]] (17% of attempts)
+### [[Technical Stand-up]] (14% of attempts)
 
-### [[Leg Drag Pass]] (15% of attempts)
+### [[Leg Drag Pass]] (13% of attempts)
 
-### [[Granby Roll]] (17% of attempts)
+### [[Granby Roll to Guard]] (14% of attempts)
 
-### [[Knee Slice Pass]] (13% of attempts)
+### [[Knee Slice Pass]] (11% of attempts)
+
+### [[Posture Recovery from Carni]] (5% of attempts)
+
+### [[Stack Pass from Carni]] (3% of attempts)
 
 
 
@@ -244,12 +248,12 @@ The most successful escapes from Carni involve recognizing the position early, b
 
 **If bottom player transitions toward saddle and temporarily loosens control:**
 - Execute **[[Leg Drag Pass]]** → [[Side Control]] (Probability: 35%)
-- Execute **[[Technical Standup]]** → [[Standing Position]] (Probability: 40%)
+- Execute **[[Technical Stand-up]]** → [[Standing Position]] (Probability: 40%)
 
 
 **If bottom player attempts to follow roll for back take:**
-- Execute **[[Granby Roll]]** → [[Half Guard]] (Probability: 45%)
-- Execute **[[Technical Standup]]** → [[Standing Position]] (Probability: 40%)
+- Execute **[[Granby Roll to Guard]]** → [[Half Guard]] (Probability: 45%)
+- Execute **[[Technical Stand-up]]** → [[Standing Position]] (Probability: 40%)
 
 
 
@@ -351,7 +355,7 @@ Start with bottom player in established Carni position. Top player attempts safe
 **A**: The first priority is protecting your heel by controlling your ankle position and keeping your toes pointed away from the attacker. This prevents the immediate heel hook finish while giving you time to work on extraction. If you focus on leg extraction before securing your ankle, you risk catastrophic knee injury during your escape attempt.
 
 **Q2**: Your opponent starts transitioning toward the saddle - what adjustment should you make?
-**A**: When the opponent transitions toward saddle, they often momentarily loosen their control to reposition. This is your window to either execute a leg drag pass if their entanglement becomes loose, or perform a technical standup if they lose grip control. The key is recognizing this brief opportunity and moving decisively rather than waiting passively.
+**A**: When the opponent transitions toward saddle, they often momentarily loosen their control to reposition. This is your window to either execute a leg drag pass if their entanglement becomes loose, or perform a technical stand-up if they lose grip control. The key is recognizing this brief opportunity and moving decisively rather than waiting passively.
 
 **Q3**: What are the essential grips or defensive positions for surviving in Carni top?
 **A**: The essential defensive positions include: keeping your ankle flexed with toes pointed away from the attacker, maintaining a slight bend in your knee to prevent easy heel exposure, positioning your free leg defensively to prevent additional control points, and using your upper body to create frames and distance. These elements work together to minimize submission risk while creating escape opportunities.
@@ -363,7 +367,7 @@ Start with bottom player in established Carni position. Top player attempts safe
 **A**: Your grip priorities should focus on: first controlling your own ankle to protect the heel, second creating frames against the opponent's torso or hips to generate distance, and third establishing posts with your free hand to create base for extraction attempts. Avoid grabbing their legs ineffectively as this wastes energy without addressing the fundamental control problem.
 
 **Q6**: Your opponent begins to roll following your escape attempt - how do you respond?
-**A**: When the opponent follows your roll attempting a back take, you must immediately decide between two options: execute a Granby Roll to recover to half guard and reset the position, or complete a technical standup to disengage entirely. The worst response is to continue rolling without purpose, which plays directly into their back take strategy. Commit fully to one escape path.
+**A**: When the opponent follows your roll attempting a back take, you must immediately decide between two options: execute a Granby Roll to Guard to recover to half guard and reset the position, or complete a technical stand-up to disengage entirely. The worst response is to continue rolling without purpose, which plays directly into their back take strategy. Commit fully to one escape path.
 
 **Q7**: How should you manage energy when caught in Carni top?
 **A**: Energy management is critical because panic leads to rapid exhaustion and injury. Remain calm and work methodically through the escape hierarchy. Avoid explosive movements that don't address the technical problems. Prioritize protecting your heel first which requires minimal energy, then systematically work on extraction using technique rather than strength. Accept that sometimes giving up position is better than risking injury.
@@ -400,9 +404,8 @@ Start with bottom player in established Carni position. Top player attempts safe
 - **[[Truck]]** - Back exposure threat - position accessed when top player turns belly down
 - **[[Back Control]]** - Alternative threat - where bottom player goes when top player rolls to escape
 - **[[Combat Base]]** - Primary escape target - establishing safe base after extraction
-- **[[Standing Position]]** - Alternative escape target - technical standup to disengage from entanglement
 - **[[Heel Hook]]** - Primary submission threat - must defend against while escaping position
-- **[[Kneebar]]** - Secondary submission threat - alternative finish when heel is defended
+- **[[Kneebar Control]]** - Secondary submission threat - alternative finish when heel is defended
 - **[[Outside Ashi-Garami]]** - Related entanglement - similar defensive principles apply
 - **[[Inside Ashi-Garami]]** - Related entanglement - shares leg lock defense requirements
 - **[[Honey Hole]]** - Alternative finishing position - bottom player may transition here

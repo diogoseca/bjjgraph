@@ -2,148 +2,13 @@
 
 
 
-
 ---
 title: "Distance Creation to Reset | BJJ Technique | BJJ Graph"
 description: "Master Distance Creation to Reset from Lapel Guard. Clear complex lapel configurations and reset to standing. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%."
 ---
 
 
-<body data-content-type="transitions">
-
-<!-- Schema Markup - Auto-generated from JSON -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Execute Distance Creation to Reset in BJJ",
-  "description": "Step-by-step guide for Distance Creation to Reset from Lapel Guard/Top. Possible outcomes: Open Guard (65%), Lapel Guard (25%), De La Riva Guard (10%).",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Assess Configuration",
-      "text": "Identify exactly which lapel configuration opponent has established—worm (leg wrap), squid (arm wrap), or ringworm (multiple wraps). This determines the specific clearing sequence required before distance can be safely created.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Control Gripping Hand",
-      "text": "Secure opponent's hand that maintains primary lapel grip using wrist control or sleeve grip. This prevents them from tightening the configuration or adjusting the wrap as you begin clearing. Use same-side or cross grip depending on their grip location.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Establish Posture",
-      "text": "Drive hips forward and shoulders back to create upright posture. This reduces leverage opponent gains from lapel configuration and loads your legs for the backward step. Avoid pulling with arms—use skeletal structure to resist their pull.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Clear Primary Wrap",
-      "text": "With gripping hand controlled, use free hand to systematically unwind the lapel from your leg or arm. Work the fabric over the obstacle (knee, elbow) using technical unwinding rather than forceful pulling. Maintain posture throughout.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Step Back Explosively",
-      "text": "Once primary wrap is cleared, immediately step back with your lead leg while extending hips. The movement must be decisive—hesitation allows opponent to re-establish configuration. Maintain grip on their controlling hand throughout the step.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Establish Standing Position",
-      "text": "Complete the distance creation by bringing feet together in balanced stance outside opponent's leg range. Release their wrist and immediately establish passing grips (pants, collar) before they can sit up and re-engage with fresh lapel extraction.",
-      "position": 6
-    }
-  ],
-  "tool": ["BJJ Gi or No-Gi attire", "Training partner", "Mat space"],
-  "totalTime": "PT5M"
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the primary goal of Distance Creation to Reset?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The primary goal is to disengage from complex lapel guard configurations when direct passing solutions require excessive energy expenditure. This creates a neutral restart where you preserve grip endurance and can re-engage with fresh passing attempts rather than fighting through increasingly entangled positions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What position do you start Distance Creation to Reset from?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "This technique starts from Lapel Guard Top when an opponent has established a lapel configuration (worm, squid, or ringworm) that is restricting your passing options and direct clearing has proven difficult or energy-intensive."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What grip must you establish before initiating backward movement?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You must control opponent's gripping hand—the hand maintaining their primary lapel grip—using wrist control or sleeve grip. This prevents them from tightening the configuration as you move backward and stops them from loading sweep mechanics during your disengagement."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Your opponent has worm guard with strong lapel grip around your lead knee—what is the clearing sequence before you can safely backstep?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "First control their gripping hand with wrist or sleeve grip. Establish upright posture using hip extension, not arm pulling. Use your free hand to technically unwind the lapel fabric over your knee using rotational unwinding rather than forceful pulling. Only after the wrap is cleared should you execute the explosive backstep."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do you counter an opponent who sits up aggressively pursuing your back as you create distance?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Anticipate the sit-up and use their forward momentum against them by sprawling or circling away from their rotation. Maintain heavy shoulder pressure during the backstep to stuff their elevation attempt. If they commit fully to the sit-up, their forward momentum actually aids your disengagement."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the most common error when executing distance creation, and why is it dangerous?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The most common error is attempting to create distance before neutralizing opponent's gripping hand. This is dangerous because the opponent can tighten the lapel configuration as you move backward, making the wrap more restrictive and potentially loading sweep mechanics that use your backward momentum against you."
-      }
-    }
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Distance Creation to Reset",
-  "description": "Master Distance Creation to Reset from Lapel Guard. Clear complex lapel configurations and reset to standing. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
-  "url": "https://bjjgraph.org/Transitions/Distance-Creation-to-Reset",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.org"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
-    {"@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/"},
-    {"@type": "ListItem", "position": 3, "name": "Distance Creation to Reset", "item": "https://bjjgraph.org/Transitions/Distance-Creation-to-Reset"}
-  ]
-}
-</script>
+<body data-content-type="transitions-hub">
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -156,7 +21,7 @@ The strategic value of this transition lies in recognizing when continued engage
 
 This approach requires precise timing and grip sequencing. Premature disengagement exposes you to sweeps and back takes, while delayed attempts face increasingly complex lapel entanglements. The key is identifying the optimal window—when you've neutralized immediate threats but before the bottom player deepens their configuration. Executed properly, distance creation transforms a losing positional battle into a neutral restart where your passing skills can be applied fresh.
 
-**From Position**: [[Lapel Guard/Top]]
+**From Position**: [[Lapel Guard]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -174,104 +39,127 @@ This approach requires precise timing and grip sequencing. Premature disengageme
 
 </section>
 
+<section class="content-section">
+
+## Attacker vs Defender
+
+| &nbsp; | Attacker | Defender |
+|--------|----------|----------|
+| **Focus** | Execute technique | Prevent or counter |
+| **Key Principles** | Recognize when lapel configuration complexity exceeds effici... | Recognize reset attempts early through grip changes and post... |
+| **Options** | 6 execution steps | 4 defensive options |
+
+</section>
+
+<section id="attacker-summary" class="content-section">
+
+## Playing as Attacker
+
+[[Distance Creation to Reset/Attacker|→ Full Attacker Guide]]
+
+### Key Principles
 
 
-<section id="key-principles" class="content-section">
-
-## Key Principles
 - Recognize when lapel configuration complexity exceeds efficient clearing solutions
+
 - Neutralize immediate sweep threats before initiating backward movement
+
 - Maintain posture throughout disengagement to prevent follow-up attacks
+
 - Clear lapel fabric layer by layer rather than forcefully ripping free
+
 - Control opponent's gripping hand first to prevent configuration tightening
+
 - Use hip extension and posture to create space, not arm pulling alone
 
 
-</section>
-
-<section id="setup-requirements" class="content-section">
-
-## Prerequisites
-- Opponent has established lapel configuration (worm, squid, or ringworm variant)
-- Direct passing solutions have been attempted and blocked or deemed too energy-intensive
-- You maintain stable base and posture despite lapel entanglement
-- Opponent's immediate sweep and back take threats are neutralized through grip control
-- Sufficient space exists to step back without being pulled off balance
+### Execution Steps
 
 
-</section>
+- **Assess Configuration**: Identify exactly which lapel configuration opponent has established—worm (leg wrap), squid (arm wrap...
 
-<section id="execution-steps" class="content-section">
+- **Control Gripping Hand**: Secure opponent's hand that maintains primary lapel grip using wrist control or sleeve grip. This pr...
 
-## Execution Steps
-1. **Assess Configuration**: Identify exactly which lapel configuration opponent has established—worm (leg wrap), squid (arm wrap), or ringworm (multiple wraps). This determines the specific clearing sequence required before distance can be safely created.
-2. **Control Gripping Hand**: Secure opponent's hand that maintains primary lapel grip using wrist control or sleeve grip. This prevents them from tightening the configuration or adjusting the wrap as you begin clearing. Use same-side or cross grip depending on their grip location.
-3. **Establish Posture**: Drive hips forward and shoulders back to create upright posture. This reduces leverage opponent gains from lapel configuration and loads your legs for the backward step. Avoid pulling with arms—use skeletal structure to resist their pull.
-4. **Clear Primary Wrap**: With gripping hand controlled, use free hand to systematically unwind the lapel from your leg or arm. Work the fabric over the obstacle (knee, elbow) using technical unwinding rather than forceful pulling. Maintain posture throughout.
-5. **Step Back Explosively**: Once primary wrap is cleared, immediately step back with your lead leg while extending hips. The movement must be decisive—hesitation allows opponent to re-establish configuration. Maintain grip on their controlling hand throughout the step.
-6. **Establish Standing Position**: Complete the distance creation by bringing feet together in balanced stance outside opponent's leg range. Release their wrist and immediately establish passing grips (pants, collar) before they can sit up and re-engage with fresh lapel extraction.
+- **Establish Posture**: Drive hips forward and shoulders back to create upright posture. This reduces leverage opponent gain...
+
+- **Clear Primary Wrap**: With gripping hand controlled, use free hand to systematically unwind the lapel from your leg or arm...
+
+- **Step Back Explosively**: Once primary wrap is cleared, immediately step back with your lead leg while extending hips. The mov...
+
+- **Establish Standing Position**: Complete the distance creation by bringing feet together in balanced stance outside opponent's leg r...
 
 
-</section>
+### Common Mistakes
 
-<section id="common-counters" class="content-section">
 
-## Opponent Counters
-- **Opponent sits up aggressively pursuing back take as you disengage** (Effectiveness: High) - Your Response: Anticipate the sit-up and use their forward momentum to sprawl or circle away. Maintain heavy shoulder pressure during the backstep to stuff their elevation attempt.
-- **Opponent immediately re-extracts lapel as you create distance** (Effectiveness: Medium) - Your Response: Close distance immediately with forward pressure before new configuration is established. The moment of lapel extraction is vulnerable—attack the grip before the wrap is complete.
-- **Opponent hooks your ankle with foot as you step back** (Effectiveness: Medium) - Your Response: Clear the foot hook before completing backstep by circling your leg or pushing their foot down. Never step back into an active foot hook.
-- **Opponent transitions to De La Riva as you create space** (Effectiveness: Low) - Your Response: De La Riva without lapel entanglement is a more familiar passing problem. Accept the guard change and apply standard DLR passing techniques with full grip endurance.
+- **Attempting to create distance before neutralizing opponent's gripping hand**
+  - Consequence: Opponent tightens lapel configuration as you move backward, making the wrap even more restrictive and potentially loading sweep mechanics
+  - Correction: Always secure wrist or sleeve control on the hand maintaining lapel grip before initiating any backward movement
+
+- **Pulling backward using arm strength rather than hip extension and posture**
+  - Consequence: Rapid arm fatigue, reduced power generation, and often unsuccessful extraction as opponent's grip strength exceeds your pulling strength
+  - Correction: Use postural extension (hips forward, chest up) to create tension, then step back with legs—let your structure do the work
+
+- **Creating distance without clearing primary lapel wrap first**
+  - Consequence: Lapel fabric acts as leash preventing clean disengagement, pulling you off balance as you step back and potentially loading opponent's sweep
+  - Correction: Systematically clear the wrap around your leg or arm before explosive backstep. The 3-4 seconds spent clearing prevents failed reset attempts
 
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="defender-summary" class="content-section">
 
-## Common Mistakes
-- **Mistake**: Attempting to create distance before neutralizing opponent's gripping hand
-  - **Consequence**: Opponent tightens lapel configuration as you move backward, making the wrap even more restrictive and potentially loading sweep mechanics
-  - **Correction**: Always secure wrist or sleeve control on the hand maintaining lapel grip before initiating any backward movement
-- **Mistake**: Pulling backward using arm strength rather than hip extension and posture
-  - **Consequence**: Rapid arm fatigue, reduced power generation, and often unsuccessful extraction as opponent's grip strength exceeds your pulling strength
-  - **Correction**: Use postural extension (hips forward, chest up) to create tension, then step back with legs—let your structure do the work
-- **Mistake**: Creating distance without clearing primary lapel wrap first
-  - **Consequence**: Lapel fabric acts as leash preventing clean disengagement, pulling you off balance as you step back and potentially loading opponent's sweep
-  - **Correction**: Systematically clear the wrap around your leg or arm before explosive backstep. The 3-4 seconds spent clearing prevents failed reset attempts
-- **Mistake**: Pausing after creating distance instead of immediately establishing passing grips
-  - **Consequence**: Opponent uses the moment to sit up, re-extract lapel, and establish fresh configuration—negating your reset entirely
-  - **Correction**: The reset is not complete until you have dominant passing grips. Close distance immediately with pants and collar control
-- **Mistake**: Over-relying on distance creation as default solution to all lapel guards
-  - **Consequence**: Never developing proper lapel clearing and passing skills, making you predictable and ineffective against lapel players long-term
-  - **Correction**: Use distance creation strategically when configuration complexity warrants reset, not as escape from all lapel guard encounters
+## Playing as Defender
+
+[[Distance Creation to Reset/Defender|→ Full Defender Guide]]
+
+### Key Principles
+
+
+- Recognize reset attempts early through grip changes and posture shifts to respond before clearing begins
+
+- Tighten lapel configuration immediately when you feel opponent controlling your gripping hand
+
+- Use opponent's backward momentum to load sweeps or initiate sit-up sequences for back takes
+
+- Maintain at least one persistent connection point throughout their disengagement to prevent clean reset
+
+- If lapel grip is lost, transition immediately to De La Riva, spider, or lasso rather than conceding open guard
+
+
+### Recognition Cues
+
+
+- Opponent secures wrist control or sleeve grip on your lapel-gripping hand while simultaneously straightening their posture—this two-action combination signals the beginning of a clearing sequence
+
+- Top player shifts weight onto their rear leg and begins extending hips backward while maintaining a stiff arm on your shoulder or chest—weight redistribution toward backstep is imminent
+
+- Opponent's free hand begins working on the lapel fabric around their leg or arm with unwinding motions rather than attempting to pass—they have abandoned passing in favor of disengagement
+
+
+### Defensive Options
+
+
+- **Tighten lapel configuration and deepen the wrap by pulling more fabric through while fighting to maintain your gripping hand** - When: Immediately when you feel opponent controlling your wrist or beginning to address the lapel wrap—before they establish posture
+
+- **Sit up aggressively and pursue back take as opponent initiates backstep, using their backward movement to create the angle for your rotation behind them** - When: When opponent has cleared the primary wrap and begins the explosive backstep—their weight is shifting backward and their arms are occupied with the clearing sequence
+
+- **Insert De La Riva hook on their lead leg as they create distance, using the space they generate to thread your outside leg behind their knee** - When: When the lapel wrap has been cleared and opponent is stepping back—the increased space between you actually facilitates De La Riva hook insertion
 
 
 </section>
 
-<section id="training-progressions" class="content-section hide-minimal">
 
-## Training Progressions
-**Week 1-2** - Configuration Recognition
-Partner establishes various lapel configurations (worm, squid, ringworm) in sequence. Practice identifying each type without attempting to clear. Focus on understanding which wrap is around which body part and where opponent's controlling grip is located.
-
-**Week 3-4** - Systematic Clearing
-Partner maintains single lapel configuration with light resistance. Practice the grip sequence: control their gripping hand, establish posture, unwind fabric technically. Emphasize economy of movement over speed. Reset after each successful clear.
-
-**Week 5-6** - Complete Sequence
-Combine clearing with backstep and immediate re-engagement. Partner increases resistance and begins threatening sweeps if you pause. Focus on continuous motion from configuration through reset to passing grip establishment.
-
-**Week 7+** - Live Decision Making
-Situational sparring starting in lapel guard. Choose whether to clear directly, pass around, or create distance based on configuration complexity. Partner plays full resistance lapel game. Develop intuition for when reset is optimal solution.
-
-
-
-</section>
-
-<section id="variants-and-adaptations" class="content-section hide-minimal">
+<section id="variants" class="content-section hide-minimal">
 
 ## Variations
+
+
 **Explosive Reset**: When opponent's configuration is loose or they've lost their primary grip, skip systematic clearing and immediately backstep explosively. Relies on speed rather than technical unwinding. Higher risk but faster execution when opportunity presents. (When to use: When opponent's grip momentarily weakens or their configuration is incomplete)
 
+
 **Lateral Reset**: Instead of stepping directly backward, circle laterally around the lapel configuration. Useful when backstep is blocked by opponent's foot hooks. The lateral movement clears the wrap through angle change rather than direct extraction. (When to use: When opponent has active foot hooks preventing direct backward movement)
+
 
 **Reset to Combat Base**: Rather than standing fully, drop to combat base immediately after clearing. Maintains pressure and prevents opponent from sitting up while giving you fresh passing opportunity from kneeling position. (When to use: When opponent threatens immediate re-engagement if you stand fully)
 
@@ -279,50 +167,7 @@ Situational sparring starting in lapel guard. Choose whether to clear directly, 
 
 </section>
 
-<section id="knowledge-assessment" class="content-section">
 
-## Test Your Knowledge
-**Q1**: What is the primary goal of Distance Creation to Reset?
-**A**: The primary goal is to disengage from complex lapel guard configurations when direct passing solutions require excessive energy expenditure. This creates a neutral restart where you preserve grip endurance and can re-engage with fresh passing attempts rather than fighting through increasingly entangled positions.
-
-**Q2**: What position do you start Distance Creation to Reset from?
-**A**: This technique starts from Lapel Guard Top when an opponent has established a lapel configuration (worm, squid, or ringworm) that is restricting your passing options and direct clearing has proven difficult or energy-intensive.
-
-**Q3**: What grip must you establish before initiating backward movement?
-**A**: You must control opponent's gripping hand—the hand maintaining their primary lapel grip—using wrist control or sleeve grip. This prevents them from tightening the configuration as you move backward and stops them from loading sweep mechanics during your disengagement.
-
-**Q4**: Your opponent has worm guard with strong lapel grip around your lead knee—what is the clearing sequence before you can safely backstep?
-**A**: First control their gripping hand with wrist or sleeve grip. Establish upright posture using hip extension, not arm pulling. Use your free hand to technically unwind the lapel fabric over your knee using rotational unwinding rather than forceful pulling. Only after the wrap is cleared should you execute the explosive backstep.
-
-**Q5**: How do you counter an opponent who sits up aggressively pursuing your back as you create distance?
-**A**: Anticipate the sit-up and use their forward momentum against them by sprawling or circling away from their rotation. Maintain heavy shoulder pressure during the backstep to stuff their elevation attempt. If they commit fully to the sit-up, their forward momentum actually aids your disengagement.
-
-**Q6**: What is the most common error when executing distance creation, and why is it dangerous?
-**A**: The most common error is attempting to create distance before neutralizing opponent's gripping hand. This is dangerous because the opponent can tighten the lapel configuration as you move backward, making the wrap more restrictive and potentially loading sweep mechanics that use your backward momentum against you.
-
-**Q7**: Why should you use hip extension and posture rather than arm pulling to create initial tension?
-**A**: Hip extension and postural structure use larger muscle groups and skeletal alignment, providing sustainable power that doesn't fatigue quickly. Arm pulling uses smaller muscles that exhaust rapidly and typically cannot overcome opponent's grip strength. Structural tension preserves your energy for the explosive backstep and subsequent passing.
-
-**Q8**: When is distance creation the wrong tactical choice against lapel guard?
-**A**: Distance creation is wrong when opponent's configuration is simple or loosely established—direct passing or backstep techniques would be more efficient. It's also wrong when you're winning the positional exchange and should capitalize rather than reset. Over-relying on distance creation prevents developing proper lapel clearing skills.
-
-**Q9**: What must you do immediately after completing the backstep to make the reset effective?
-**A**: Immediately establish dominant passing grips (pants and collar control) before opponent can sit up and re-extract their lapel. The reset is not complete until you have grip advantage. Pausing after creating distance allows opponent to establish fresh configuration, negating the entire reset.
-
-**Q10**: How does the lateral reset variant differ from the standard backstep, and when should you use it?
-**A**: The lateral reset circles around the lapel configuration rather than stepping directly backward. This clears the wrap through angle change rather than direct extraction. Use it when opponent has active foot hooks preventing direct backward movement—the lateral angle defeats their hook placement while still achieving disengagement.
-
-
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Considerations
-
-Distance Creation to Reset is a low-injury-risk technique as it involves disengagement rather than submission application. The primary safety concern is maintaining balance throughout the backstep—losing balance while disengaging can result in falling into opponent's guard or landing awkwardly. Avoid explosive backsteps when your base is compromised. When clearing lapel wraps, use technical unwinding rather than forceful jerking that could strain your fingers or opponent's fabric grip. In training, communicate with partners about intensity level, especially when practicing the explosive backstep phase. If opponent is aggressively pursuing back takes during your reset, avoid turning your back completely—maintain shoulder position facing them throughout the disengage.
-
-</section>
 
 <section id="position-integration" class="content-section">
 
@@ -332,19 +177,30 @@ Distance Creation to Reset functions as a tactical reset button within the broad
 
 </section>
 
+
 <section id="related-content" class="content-section">
 
 ## Related Techniques
 
+
 - [[Lapel Guard]] - Starting position requiring this reset technique
+
 - [[Open Guard]] - Target position after successful distance creation
+
 - [[Combat Base]] - Alternative reset position for immediate re-engagement
+
 - [[Backstep Around Worm Guard]] - Alternative technique for simpler lapel configurations
+
 - [[De La Riva Guard]] - Common counter-position opponent may transition to during reset
+
 - [[Toreando Pass]] - Primary passing option after clean reset to standing
+
 - [[Knee Slice Pass]] - Follow-up passing option after re-establishing grips
+
 - [[Worm Guard]] - Primary lapel configuration requiring this reset
+
 - [[Spider Guard]] - Alternative guard opponent may transition to during reset
+
 - [[Long Step Pass]] - Passing option that navigates around rather than through lapel barriers
 
 

@@ -20,38 +20,38 @@ description: "Master feet on hips guard bottom in BJJ. Distance management, swee
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Scissor Sweep",
-      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute De La Riva Sweep",
+      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 2% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Pendulum Sweep",
-      "text": "From this position, attempt Pendulum Sweep. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute X-Guard Sweep",
+      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 1% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Bump Sweep",
-      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Single Leg X Sweep",
+      "text": "From this position, attempt Single Leg X Sweep. This technique is attempted in 3% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Elevator Sweep",
+      "text": "From this position, attempt Elevator Sweep. This technique is attempted in 1% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Omoplata Sweep",
-      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Tripod Sweep",
+      "text": "From this position, attempt Tripod Sweep. This technique is attempted in 66% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute De La Riva Sweep",
-      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Sickle Sweep",
+      "text": "From this position, attempt Sickle Sweep. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -206,23 +206,35 @@ Feet on Hips Guard Bottom is the guard player's perspective in this fundamental 
 
 ## Available Escapes
 
-### [[Scissor Sweep]] (14% of attempts)
+### [[De La Riva Sweep]] (2% of attempts)
 
-### [[Pendulum Sweep]] (12% of attempts)
+### [[X-Guard Sweep]] (1% of attempts)
 
-### [[Hip Bump Sweep]] (11% of attempts)
+### [[Single Leg X Sweep]] (3% of attempts)
 
-### [[Triangle Setup]] (10% of attempts)
+### [[Elevator Sweep]] (1% of attempts)
 
-### [[Omoplata Sweep]] (9% of attempts)
+### [[Tripod Sweep]] (66% of attempts)
 
-### [[De La Riva Sweep]] (11% of attempts)
+### [[Sickle Sweep]] (9% of attempts)
 
-### [[X-Guard Sweep]] (10% of attempts)
+### [[Transition to Feet on Hips Guard]] (8% of attempts)
 
-### [[Single Leg X Sweep]] (11% of attempts)
+### [[Tomoe Nage]] (4% of attempts)
 
-### [[Elevator Sweep]] (12% of attempts)
+### [[Lumberjack Sweep]] (3% of attempts)
+
+### [[Guard Pull]] (1% of attempts)
+
+### [[Balloon Sweep]] (1% of attempts)
+
+### [[Feet on Hips Sickle Sweep]] (0% of attempts)
+
+### [[Feet on Hips Tripod Sweep]] (0% of attempts)
+
+### [[Feet on Hips to De La Riva]] (0% of attempts)
+
+### [[Push Sweep from Feet on Hips]] (1% of attempts)
 
 
 

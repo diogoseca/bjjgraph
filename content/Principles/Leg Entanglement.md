@@ -367,7 +367,6 @@ Live training starting from established leg entanglement positions with specific
 - [[Inside Ashi Entry]] (Transition) - Advanced entry establishing superior inside position entanglement from beginning
 - [[Control Point Hierarchy]] (Principle) - Governing principle explaining relative value of different control points in entanglement
 - [[Connection Principles]] (Principle) - Fundamental concept explaining how multiple connection points create redundant control
-- [[Hip Movement]] (Principle) - Essential skill for both establishing and escaping leg entanglements
 
 
 </section>

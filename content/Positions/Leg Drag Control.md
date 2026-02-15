@@ -97,23 +97,23 @@ Modern competitive grappling has elevated leg drag control from a transitional m
 ### Available Transitions
 
 
-- **[[Leg Drag Escape to Closed Guard]]** (11% of attempts)
+- **[[Leg Drag Escape to Closed Guard]]** (4% of attempts)
 
-- **[[Technical Standup]]** (12% of attempts)
+- **[[Technical Stand-up]]** (9% of attempts)
 
-- **[[Leg Drag Counter to Half Guard]]** (15% of attempts)
+- **[[Leg Drag Counter to Half Guard]]** (18% of attempts)
 
-- **[[Roll to Turtle]]** (15% of attempts)
+- **[[Roll to Turtle]]** (18% of attempts)
 
 - **[[Inside Position Recovery]]** (10% of attempts)
 
-- **[[Granby Roll Escape]]** (8% of attempts)
+- **[[Granby Roll to Guard]]** (6% of attempts)
 
 - **[[Leg Recovery to De La Riva]]** (9% of attempts)
 
-- **[[Frame and Shrimp to Guard]]** (9% of attempts)
+- **[[Frame and Shrimp to Guard]]** (12% of attempts)
 
-- **[[Half Guard Recovery]]** (11% of attempts)
+- **[[Half Guard Recovery]]** (14% of attempts)
 
 
 ### Common Mistakes
@@ -174,23 +174,23 @@ Modern competitive grappling has elevated leg drag control from a transitional m
 ### Available Transitions
 
 
-- **[[Leg Drag Pass to Side Control]]** (15% of attempts)
+- **[[Leg Drag Pass to Side Control]]** (24% of attempts)
 
-- **[[Leg Drag to Back Take]]** (18% of attempts)
+- **[[Leg Drag to Back Take]]** (20% of attempts)
 
-- **[[Leg Drag to Mount]]** (14% of attempts)
+- **[[Leg Drag to Mount]]** (12% of attempts)
 
 - **[[Leg Drag to Knee on Belly]]** (12% of attempts)
 
-- **[[Leg Drag to North-South]]** (10% of attempts)
+- **[[Leg Drag to North-South]]** (7% of attempts)
 
-- **[[Leg Drag to Crucifix]]** (8% of attempts)
+- **[[Leg Drag to Crucifix]]** (4% of attempts)
 
-- **[[Leg Drag to Inside Ashi]]** (9% of attempts)
+- **[[Leg Drag to Inside Ashi]]** (6% of attempts)
 
 - **[[Leg Drag to Technical Mount]]** (8% of attempts)
 
-- **[[Leg Drag to Darce Setup]]** (6% of attempts)
+- **[[Leg Drag to Darce Setup]]** (7% of attempts)
 
 
 ### Common Mistakes
