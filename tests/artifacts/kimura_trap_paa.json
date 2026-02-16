@@ -1,0 +1,301 @@
+{
+  "article_path": "source/content/Positions/Kimura Trap.json",
+  "seed_keyword": "Kimura Trap",
+  "paa_questions": [
+    {
+      "question": "What is a Kimura Trap in BJJ?",
+      "answer_snippet": "The Kimura Trap is a control position that uses a figure-four grip to control the opponent's shoulder and arm, creating offensive opportunities from both top and bottom positions.",
+      "source_url": "N/A - Live SERP data unavailable",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Direct definitional query - highest search intent. Current overview is comprehensive but not structured as Q&A format."
+    },
+    {
+      "question": "How do you escape the Kimura Trap?",
+      "answer_snippet": "Common escapes include base widening, arm extraction, rolling defense, and creating frames to prevent the opponent from settling weight.",
+      "source_url": "N/A - Live SERP data unavailable",
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "rationale": "High-intent defensive question. Article focuses on offensive execution but lacks dedicated escape section."
+    },
+    {
+      "question": "What is the difference between Kimura and Kimura Trap?",
+      "answer_snippet": "The Kimura is a submission technique, while the Kimura Trap is a control position system that uses the Kimura grip to create sweeps, transitions, and submissions.",
+      "source_url": "N/A - Live SERP data unavailable",
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "Common confusion between related concepts. Needs explicit clarification early in content."
+    },
+    {
+      "question": "Who invented the Kimura Trap?",
+      "answer_snippet": "The Kimura Trap system was popularized by modern BJJ practitioners, though the Kimura submission itself was named after judoka Masahiko Kimura.",
+      "source_url": "N/A - Live SERP data unavailable",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Historical context question. Article lacks attribution and historical background."
+    },
+    {
+      "question": "Is Kimura Trap effective in no-gi?",
+      "answer_snippet": "Yes, the Kimura Trap is highly effective in no-gi because the figure-four grip doesn't rely on gi friction and provides reliable control.",
+      "source_url": "N/A - Live SERP data unavailable",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Practical application question. Article mentions no-gi but doesn't address this common concern directly."
+    },
+    {
+      "question": "How to set up Kimura Trap from half guard?",
+      "answer_snippet": "From half guard bottom, thread your arm under the opponent's arm when they overcommit forward, secure the figure-four grip, and combine with lockdown or hip control.",
+      "source_url": "N/A - Live SERP data unavailable",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Entry technique query. Content exists but not formatted as instructional heading."
+    },
+    {
+      "question": "What submissions can you hit from Kimura Trap?",
+      "answer_snippet": "Primary submissions include the Kimura itself, transitions to Omoplata, Americana, and back-takes leading to rear naked choke.",
+      "source_url": "N/A - Live SERP data unavailable",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Attack chain question. Information is scattered across sections, needs consolidation."
+    },
+    {
+      "question": "What is the Old School Sweep from Kimura Trap?",
+      "answer_snippet": "The Old School Sweep is a high-percentage sweep from Kimura Trap Bottom where you hook the opponent's far ankle while maintaining the Kimura grip to sweep to mount.",
+      "source_url": "N/A - Live SERP data unavailable",
+      "priority": "medium",
+      "integration_strategy": "improve_heading",
+      "rationale": "Specific technique query. Mentioned in article but could be more prominent."
+    },
+    {
+      "question": "Can you finish Kimura from bottom position?",
+      "answer_snippet": "Yes, you can finish the Kimura from bottom, though sweeps and back-takes are often higher percentage options from this position.",
+      "source_url": "N/A - Live SERP data unavailable",
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "Common beginner misconception about bottom submissions."
+    },
+    {
+      "question": "How to defend against Kimura Trap sweep?",
+      "answer_snippet": "Defend by maintaining wide base, keeping trapped arm tight to body, preventing lockdown control, and avoiding forward posts that create sweep leverage.",
+      "source_url": "N/A - Live SERP data unavailable",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Defensive perspective question. Current content is offense-focused."
+    },
+    {
+      "question": "What belt level should learn Kimura Trap?",
+      "answer_snippet": "Kimura Trap fundamentals can be learned at white belt, though the full system requires intermediate to advanced understanding of transitions and grip mechanics.",
+      "source_url": "N/A - Live SERP data unavailable",
+      "priority": "low",
+      "integration_strategy": "improve_heading",
+      "rationale": "Beginner guidance question. Success rates by level exist but not addressed directly."
+    },
+    {
+      "question": "Why is Kimura Trap effective?",
+      "answer_snippet": "The Kimura Trap is effective because it inverts traditional positional hierarchy, allowing the bottom player to control through arm/shoulder manipulation rather than positional dominance.",
+      "source_url": "N/A - Live SERP data unavailable",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Conceptual understanding question. Core concept but not framed as explicit answer."
+    },
+    {
+      "question": "How to counter Kimura Trap from top?",
+      "answer_snippet": "Counter by preventing grip establishment, extracting arm before figure-four completes, maintaining wide base, and avoiding forward pressure into the trap.",
+      "source_url": "N/A - Live SERP data unavailable",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Top player defense question. Missing from current content."
+    },
+    {
+      "question": "Is Kimura Trap legal in IBJJF?",
+      "answer_snippet": "Yes, Kimura Trap position and techniques are legal in IBJJF at all belt levels, though some transitions may have belt-specific restrictions.",
+      "source_url": "N/A - Live SERP data unavailable",
+      "priority": "low",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "Competition legality question. Not addressed in article."
+    },
+    {
+      "question": "What is the success rate of Kimura Trap?",
+      "answer_snippet": "Success rates vary by skill level: beginners 35-50%, intermediates 50-65%, advanced 65-75% for sweeps and submissions from this position.",
+      "source_url": "N/A - Live SERP data unavailable",
+      "priority": "medium",
+      "integration_strategy": "improve_heading",
+      "rationale": "Data-driven question. Stats exist but not highlighted in searchable format."
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Overview (general section)",
+      "suggested": "What is the Kimura Trap in BJJ?",
+      "rationale": "Matches conversational query pattern and improves featured snippet potential"
+    },
+    {
+      "current": "variant_uniqueness field",
+      "suggested": "Why is the Kimura Trap Different from Other Positions?",
+      "rationale": "Addresses uniqueness query in question format"
+    },
+    {
+      "current": "Prerequisites section (bottom)",
+      "suggested": "How to Enter Kimura Trap from Bottom Position",
+      "rationale": "Converts technical list into instructional question format"
+    },
+    {
+      "current": "Key Principles section",
+      "suggested": "What are the Key Principles of Kimura Trap Control?",
+      "rationale": "Makes principle section more searchable and AI-friendly"
+    },
+    {
+      "current": "Offensive Transitions section",
+      "suggested": "What Submissions Can You Hit from Kimura Trap?",
+      "rationale": "Aligns with common user search intent for attack chains"
+    },
+    {
+      "current": "Common Errors section",
+      "suggested": "What Mistakes to Avoid When Using Kimura Trap",
+      "rationale": "Converts error list into actionable question format"
+    },
+    {
+      "current": "Training Drills section",
+      "suggested": "How to Train Kimura Trap Effectively",
+      "rationale": "Matches practical training query pattern"
+    },
+    {
+      "current": "Expert Insights section",
+      "suggested": "What Do BJJ Experts Say About Kimura Trap?",
+      "rationale": "Adds question framing to authoritative content"
+    }
+  ],
+  "missing_content_opportunities": [
+    {
+      "topic": "Kimura Trap vs Kimura Submission Comparison",
+      "priority": "high",
+      "rationale": "Common search confusion, needs explicit comparison section",
+      "suggested_location": "Early in overview, potentially as dedicated FAQ item"
+    },
+    {
+      "topic": "Dedicated Escape Section",
+      "priority": "high",
+      "rationale": "High search volume for defensive techniques, currently only in defensive_responses",
+      "suggested_location": "Add comprehensive escape section for both top and bottom perspectives"
+    },
+    {
+      "topic": "No-Gi Specific Adaptations",
+      "priority": "high",
+      "rationale": "Common query, mentioned briefly but needs expansion",
+      "suggested_location": "Add dedicated subsection or callout box"
+    },
+    {
+      "topic": "Competition Strategy and Rules",
+      "priority": "medium",
+      "rationale": "IBJJF legality, point scoring implications not addressed",
+      "suggested_location": "Add competition-focused section or FAQ items"
+    },
+    {
+      "topic": "Historical Context and Attribution",
+      "priority": "medium",
+      "rationale": "Missing origin story and evolution of technique",
+      "suggested_location": "Add historical context paragraph or sidebar"
+    },
+    {
+      "topic": "Common Grip Mistakes",
+      "priority": "medium",
+      "rationale": "Grip details mentioned but visual/detailed breakdown missing",
+      "suggested_location": "Expand common errors with grip-specific subsection"
+    },
+    {
+      "topic": "Progression Path by Belt Level",
+      "priority": "low",
+      "rationale": "Success rates exist but no explicit learning progression guidance",
+      "suggested_location": "Add beginner/intermediate/advanced progression subsection"
+    },
+    {
+      "topic": "MMA Applications",
+      "priority": "low",
+      "rationale": "Mentioned in expert insights but not detailed",
+      "suggested_location": "Add MMA context section or expand gi/no-gi discussion"
+    }
+  ],
+  "content_gaps": {
+    "missing_faq_section": true,
+    "missing_escape_details": true,
+    "missing_historical_context": true,
+    "missing_competition_rules": true,
+    "needs_more_comparison_content": true
+  },
+  "ai_search_optimization_recommendations": [
+    {
+      "recommendation": "Add dedicated FAQ section",
+      "impact": "high",
+      "details": "Create structured FAQ with 5-7 most common questions using schema markup for AI search visibility"
+    },
+    {
+      "recommendation": "Convert key sections to question-based headings",
+      "impact": "high",
+      "details": "Reframe 6-8 existing headings as natural language questions to match voice search patterns"
+    },
+    {
+      "recommendation": "Add comparison section early in content",
+      "impact": "high",
+      "details": "Address 'Kimura vs Kimura Trap' confusion in first 300 words for featured snippet potential"
+    },
+    {
+      "recommendation": "Include explicit 'Yes/No' answers",
+      "impact": "medium",
+      "details": "For questions like 'Is Kimura Trap effective in no-gi?', start answer with clear Yes/No before elaboration"
+    },
+    {
+      "recommendation": "Add step-by-step numbered instructions",
+      "impact": "medium",
+      "details": "Format entry techniques as numbered steps for AI assistants to parse and recite"
+    },
+    {
+      "recommendation": "Improve front-loading of key facts",
+      "impact": "medium",
+      "details": "Move success rate data, effectiveness comparisons to opening paragraphs"
+    },
+    {
+      "recommendation": "Add schema markup for FAQPage and HowTo",
+      "impact": "high",
+      "details": "Implement structured data for questions and instructional content"
+    },
+    {
+      "recommendation": "Create summary/TLDR section",
+      "impact": "low",
+      "details": "Add concise 3-4 sentence summary at top for quick AI parsing"
+    }
+  ],
+  "keyword_opportunities": {
+    "primary": "Kimura Trap",
+    "secondary": [
+      "Kimura Trap BJJ",
+      "Kimura Trap system",
+      "Kimura Trap from half guard",
+      "Old School Sweep",
+      "Kimura Trap bottom",
+      "Kimura Trap top"
+    ],
+    "long_tail": [
+      "how to do Kimura Trap from half guard",
+      "difference between Kimura and Kimura Trap",
+      "Kimura Trap escapes",
+      "Kimura Trap in no-gi",
+      "best sweeps from Kimura Trap",
+      "Kimura Trap for beginners"
+    ],
+    "related_entities": [
+      "Eddie Bravo",
+      "John Danaher",
+      "Gordon Ryan",
+      "10th Planet Jiu Jitsu",
+      "Lockdown",
+      "Figure-four grip",
+      "Half Guard"
+    ]
+  },
+  "featured_snippet_targets": [
+    "What is a Kimura Trap in BJJ?",
+    "How do you escape the Kimura Trap?",
+    "Is Kimura Trap effective in no-gi?",
+    "What submissions can you hit from Kimura Trap?"
+  ]
+}
