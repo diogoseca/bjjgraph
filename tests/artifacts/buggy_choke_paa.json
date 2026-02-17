@@ -1,0 +1,291 @@
+{
+  "article_path": "source/content/Positions/Buggy Choke.json",
+  "seed_keyword": "Buggy Choke",
+  "paa_questions": [
+    {
+      "question": "What is a buggy choke in BJJ?",
+      "answer_snippet": "A specialized turtle attack submission that uses a threaded arm under the opponent's armpit to create choking pressure while establishing control",
+      "source_url": "inference_based",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Primary definitional query - current overview answers this but heading could be more conversational"
+    },
+    {
+      "question": "How do you defend against the buggy choke?",
+      "answer_snippet": "Defend by recognizing threading attempt early, keeping near elbow tight to ribs, stripping grips before second grip secures, and sitting to guard immediately",
+      "source_url": "inference_based",
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "High-intent defensive question - content exists but could be surfaced in FAQ format"
+    },
+    {
+      "question": "Is the buggy choke legal in IBJJF?",
+      "answer_snippet": "Legal at all belt levels - choke submissions are permitted in IBJJF competition",
+      "source_url": "inference_based",
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "rationale": "MISSING CONTENT - legal status not addressed, common concern for competitors"
+    },
+    {
+      "question": "Who invented the buggy choke?",
+      "answer_snippet": "Origin and attribution information not currently documented",
+      "source_url": "inference_based",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "MISSING CONTENT - history/origin questions are common for techniques"
+    },
+    {
+      "question": "When should you use the buggy choke?",
+      "answer_snippet": "Best used from turtle top position when opponent has good defensive turtle posture and you need forcing mechanism to create movement",
+      "source_url": "inference_based",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Tactical application question - content exists but heading optimization needed"
+    },
+    {
+      "question": "Can you do buggy choke in no-gi?",
+      "answer_snippet": "Yes - no-gi adaptation uses hand connections around neck/shoulder instead of collar grips",
+      "source_url": "inference_based",
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "rationale": "MISSING CONTENT - gi vs no-gi adaptation deserves explicit section"
+    },
+    {
+      "question": "What are common mistakes with buggy choke?",
+      "answer_snippet": "Threading too shallow, applying pressure before control is consolidated, keeping hips too high, failing to secure second grip quickly",
+      "source_url": "inference_based",
+      "priority": "medium",
+      "integration_strategy": "improve_heading",
+      "rationale": "Content exists in common_errors but heading could be question-based"
+    },
+    {
+      "question": "How long does it take to finish a buggy choke?",
+      "answer_snippet": "Average 20-45 seconds from control establishment to submission or transition",
+      "source_url": "inference_based",
+      "priority": "low",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "Timing question - data exists in metrics but could be FAQ entry"
+    },
+    {
+      "question": "What belt level can learn buggy choke?",
+      "answer_snippet": "Suitable for blue belt and above - requires understanding of turtle mechanics and grip control",
+      "source_url": "inference_based",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "MISSING CONTENT - skill level prerequisites not explicitly stated"
+    },
+    {
+      "question": "Is buggy choke better than rear naked choke?",
+      "answer_snippet": "Different applications - buggy choke is turtle attack creating forcing movement, RNC is back control finish",
+      "source_url": "inference_based",
+      "priority": "low",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "Comparison question - helps with competitive analysis SEO"
+    },
+    {
+      "question": "Does the buggy choke work in MMA?",
+      "answer_snippet": "Less common in MMA due to reduced turtle time and different grappling dynamics",
+      "source_url": "inference_based",
+      "priority": "low",
+      "integration_strategy": "add_section",
+      "rationale": "MISSING CONTENT - sport context beyond BJJ could attract broader audience"
+    },
+    {
+      "question": "What submissions can you transition to from buggy choke?",
+      "answer_snippet": "Back control for rear naked choke, crucifix attacks, truck position for twister system, darce and anaconda variations",
+      "source_url": "inference_based",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Content exists in transitions but could use question-based section header"
+    },
+    {
+      "question": "How to escape buggy choke from bottom?",
+      "answer_snippet": "Strip grips early before second grip, sit to half guard immediately, turn into opponent to eliminate angle, or accept back control transition",
+      "source_url": "inference_based",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Escape-focused query matches bottom section content"
+    },
+    {
+      "question": "What's the difference between buggy choke and darce?",
+      "answer_snippet": "Buggy choke attacks from turtle with threading under armpit, darce attacks from front headlock with arm-in configuration",
+      "source_url": "inference_based",
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "Differentiation question - helps users understand technique taxonomy"
+    },
+    {
+      "question": "Can white belts use buggy choke?",
+      "answer_snippet": "Success rates show beginner effectiveness (45% submission rate) but requires coaching on turtle mechanics",
+      "source_url": "inference_based",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Beginner accessibility question - data exists but needs explicit guidance"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Overview",
+      "suggested": "What is the Buggy Choke Position in BJJ?",
+      "rationale": "Matches primary definitional search query pattern, improves featured snippet potential"
+    },
+    {
+      "current": "Key Principles (Top)",
+      "suggested": "How to Execute the Buggy Choke: Essential Principles",
+      "rationale": "Action-oriented question format aligns with tutorial search intent"
+    },
+    {
+      "current": "Key Principles (Bottom)",
+      "suggested": "How to Defend and Escape the Buggy Choke",
+      "rationale": "Defensive search queries are high-volume, question format improves discoverability"
+    },
+    {
+      "current": "Common Errors (Top)",
+      "suggested": "What Are Common Mistakes When Attacking the Buggy Choke?",
+      "rationale": "Question-based heading captures troubleshooting searches"
+    },
+    {
+      "current": "Offensive Transitions (Top)",
+      "suggested": "What Submissions Can You Transition to from Buggy Choke?",
+      "rationale": "Matches transition-focused search queries, emphasizes multi-attack system"
+    },
+    {
+      "current": "Training Drills (Top)",
+      "suggested": "How to Train the Buggy Choke: Essential Drilling Sequences",
+      "rationale": "Training-focused searches are common, how-to format improves click-through"
+    },
+    {
+      "current": "Expert Insights (Top)",
+      "suggested": "What Do Elite Grapplers Say About the Buggy Choke?",
+      "rationale": "Authority-based question attracts competitive practitioners seeking advanced insights"
+    }
+  ],
+  "missing_content_opportunities": [
+    {
+      "section": "Competition Legality and Rules",
+      "priority": "high",
+      "rationale": "IBJJF legality, age/belt restrictions, point scoring implications not covered - common regulatory questions"
+    },
+    {
+      "section": "Gi vs No-Gi Adaptations",
+      "priority": "high",
+      "rationale": "Explicit comparison section missing - brief mentions exist but dedicated analysis would improve search coverage"
+    },
+    {
+      "section": "History and Development",
+      "priority": "medium",
+      "rationale": "Origin story, attribution, evolution of technique in competition - helps with educational/historical searches"
+    },
+    {
+      "section": "Belt Level Recommendations",
+      "priority": "medium",
+      "rationale": "Explicit guidance on when to introduce technique in curriculum, prerequisite skills needed"
+    },
+    {
+      "section": "Frequently Asked Questions",
+      "priority": "high",
+      "rationale": "Dedicated FAQ section would capture multiple PAA queries in structured format, improve featured snippet potential"
+    },
+    {
+      "section": "Video Tutorial Recommendations",
+      "priority": "low",
+      "rationale": "Curated list of high-quality instructionals - common user need but may require external linking policy"
+    },
+    {
+      "section": "Sport Context (BJJ vs MMA vs Grappling)",
+      "priority": "low",
+      "rationale": "Effectiveness across different rulesets - broadens audience beyond pure BJJ practitioners"
+    },
+    {
+      "section": "Comparison with Similar Techniques",
+      "priority": "medium",
+      "rationale": "Explicit comparison table (buggy choke vs darce vs anaconda vs guillotine from turtle) - helps differentiation queries"
+    },
+    {
+      "section": "Common Counter-Techniques",
+      "priority": "medium",
+      "rationale": "What opponents commonly use to defend (separated from general defense principles) - tactical planning content"
+    },
+    {
+      "section": "Competition Highlight Examples",
+      "priority": "low",
+      "rationale": "Notable uses in high-level competition - educational and engaging but requires video/match references"
+    }
+  ],
+  "search_intent_analysis": {
+    "informational_queries": [
+      "what is buggy choke",
+      "buggy choke explanation",
+      "buggy choke vs darce difference",
+      "who invented buggy choke"
+    ],
+    "tutorial_queries": [
+      "how to do buggy choke",
+      "buggy choke setup",
+      "buggy choke step by step",
+      "buggy choke grip details"
+    ],
+    "defensive_queries": [
+      "how to defend buggy choke",
+      "buggy choke escape",
+      "countering buggy choke",
+      "preventing buggy choke from turtle"
+    ],
+    "tactical_queries": [
+      "when to use buggy choke",
+      "buggy choke in competition",
+      "buggy choke transitions",
+      "buggy choke success rate"
+    ],
+    "regulatory_queries": [
+      "is buggy choke legal IBJJF",
+      "buggy choke belt level requirements",
+      "buggy choke competition rules"
+    ]
+  },
+  "content_gap_severity": {
+    "critical": [
+      "Competition legality section",
+      "FAQ section for common queries",
+      "Gi vs no-gi explicit comparison"
+    ],
+    "important": [
+      "Belt level recommendations",
+      "Technique comparison table",
+      "History and attribution"
+    ],
+    "nice_to_have": [
+      "Video tutorial curation",
+      "Sport context analysis",
+      "Competition examples"
+    ]
+  },
+  "recommended_schema_enhancements": {
+    "faq_schema": {
+      "priority": "high",
+      "implementation": "Add FAQPage schema markup with top 5-8 questions",
+      "questions_to_include": [
+        "What is a buggy choke in BJJ?",
+        "How do you defend against the buggy choke?",
+        "Is the buggy choke legal in IBJJF?",
+        "Can you do buggy choke in no-gi?",
+        "When should you use the buggy choke?"
+      ]
+    },
+    "howto_schema": {
+      "priority": "medium",
+      "implementation": "Structured step-by-step for top section",
+      "rationale": "Tutorial searches are high-volume, HowTo schema improves visibility"
+    },
+    "video_schema": {
+      "priority": "low",
+      "implementation": "If adding video tutorial section, include VideoObject markup",
+      "rationale": "Video rich results have high CTR but requires video content"
+    }
+  },
+  "competitive_content_analysis": {
+    "note": "Unable to fetch actual SERP data without DataForSEO tool access",
+    "inference_basis": "Analysis based on common BJJ search patterns, technique documentation standards, and submission-specific query behaviors",
+    "confidence_level": "medium-high for core questions, medium for specific PAA queries"
+  }
+}
