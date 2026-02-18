@@ -1,61 +1,60 @@
 {
   "name": "Russian Leg Lasso",
   "slug": "russian-leg-lasso",
-  "description": "Master Russian Leg Lasso position in BJJ. Strategic guide covering both bottom guard retention and top passing strategies with systematic technical analysis.",
+  "description": "What is Russian Leg Lasso in BJJ? Russian Leg Lasso is an advanced lasso variation with deep threading, enhanced collar and sleeve grip combinations, and exceptional control. Success rate: Beginner 30%, Intermediate 45%, Advanced 60%. Master both bottom guard retention and top passing strategies.",
   "variant_uniqueness": "Deep lasso with extra grip controls",
-  "overview": "Russian Leg Lasso is an advanced variation of the traditional lasso guard that incorporates additional control points and mechanical advantages to create a highly technical and effective guard position. This position distinguishes itself from standard lasso guard through its deeper lasso configuration, strategic collar and sleeve grip combinations, and the ability to create multiple offensive threats simultaneously. The Russian variation emerged from the evolution of modern competition jiu-jitsu, where practitioners sought ways to enhance the already effective lasso guard with additional control mechanisms that would work against increasingly sophisticated guard passing strategies. From the bottom perspective, this guard offers exceptional control over the opponent's posture and base, creating opportunities for sweeps, submissions, and transitions that are difficult to defend when properly executed. The lasso itself functions as a mechanical pulley system, with the guard player's leg threaded through the opponent's arm creating a binding effect that can be amplified through proper grip configurations and hip positioning. From the top perspective, Russian Leg Lasso presents a complex passing puzzle that requires systematic dismantling of multiple control points, excellent base and posture maintenance, and the patience to work through defensive layers without rushing into sweep traps. The position demands high-level technical understanding from both practitioners - the bottom player must coordinate multiple grips and pressure points while managing distance and angles, while the top player must methodically address each control mechanism without creating openings for the guard player's offensive arsenal. Understanding both perspectives provides comprehensive insight into one of modern BJJ's most sophisticated guard systems, revealing the strategic depth that makes this position effective at the highest levels of competition.",
-
+  "overview": "**Russian Leg Lasso** (also called Russian Lasso or Deep Leg Lasso) is an advanced variation of the traditional **[[Lasso Guard]]** that incorporates additional control points and mechanical advantages to create a highly technical and effective guard position. This position distinguishes itself from standard lasso guard through its deeper lasso configuration, strategic collar and sleeve grip combinations, and the ability to create multiple offensive threats simultaneously.\n\nThe **Russian Leg Lasso** emerged from the evolution of modern competition jiu-jitsu, where practitioners sought ways to enhance the already effective **[[Lasso Guard]]** with additional control mechanisms that would work against increasingly sophisticated guard passing strategies. From the bottom perspective, this guard offers exceptional control over the opponent's posture and base, creating opportunities for sweeps, submissions, and transitions that are difficult to defend when properly executed.\n\nThe lasso itself functions as a mechanical pulley system, with the guard player's leg threaded through the opponent's arm creating a binding effect that can be amplified through proper grip configurations and hip positioning. What makes the **Russian variation** superior to standard lasso is the strategic addition of collar control which gives you the ability to break the opponent's posture precisely when needed for sweep entries, and the deliberate positioning of your non-lasso leg which prevents the circling escape that defeats simpler lasso configurations.\n\nFrom the top perspective, **Russian Leg Lasso** presents a complex passing puzzle that requires systematic dismantling of multiple control points, excellent base and posture maintenance, and the patience to work through defensive layers without rushing into sweep traps. The position demands high-level technical understanding from both practitioners - the bottom player must coordinate multiple grips and pressure points while managing distance and angles, while the top player must methodically address each control mechanism without creating openings for the guard player's offensive arsenal.\n\nUnderstanding both perspectives provides comprehensive insight into one of modern BJJ's most sophisticated guard systems, revealing the strategic depth that makes this position effective at the highest levels of competition against opponents familiar with traditional **[[Lasso Guard]]** defenses. The position combines elements of **[[Spider Guard]]**, **[[De La Riva Guard]]**, and **[[Collar Sleeve Guard]]** into an integrated control system that creates constant dilemmas for the top player.",
   "key_principles": [
-    "Russian Leg Lasso combines traditional lasso mechanics with additional grip and positional controls creating layered defensive and offensive systems",
-    "Bottom player must coordinate collar grips, sleeve controls, and leg positioning to create mechanical advantage through multiple pressure points",
-    "Top player success requires systematic dismantling of control points in proper sequence rather than attempting to force through established controls",
-    "The lasso functions as a fulcrum generating rotational force - understanding this mechanical principle is essential for both executing and defending",
-    "Position sustainability depends on bottom player's ability to manage distance while top player must maintain base against rotational sweep threats",
-    "Grip fighting determines positional outcomes - control of collar and sleeve grips directly correlates with position retention and passing success"
+    "How does Russian Leg Lasso create mechanical advantage? The position combines traditional lasso mechanics with additional grip and positional controls creating layered defensive and offensive systems with multiple pressure points",
+    "What grips are essential for Russian Leg Lasso? Bottom player must coordinate collar grips, sleeve controls, and leg positioning to create mechanical advantage through multiple pressure points and rotational force",
+    "How do I pass Russian Leg Lasso from top? Top player success requires systematic dismantling of control points in proper sequence rather than attempting to force through established controls with strength",
+    "What makes the lasso function mechanically? The lasso functions as a fulcrum generating rotational force - understanding this mechanical principle is essential for both executing and defending effectively",
+    "How long can I maintain Russian Leg Lasso? Position sustainability depends on bottom player's ability to manage distance while top player must maintain base against rotational sweep threats for 30-60 seconds",
+    "Why is grip fighting critical in Russian Leg Lasso? Grip fighting determines positional outcomes - control of collar and sleeve grips directly correlates with position retention and passing success rates"
   ],
-
   "related_positions": [
     {
       "name": "Lasso Guard",
-      "relationship": "Parent position - standard lasso guard from which Russian variation evolved"
+      "relationship": "Parent position - standard lasso guard from which Russian variation evolved with enhanced grip configurations and deeper threading"
     },
     {
       "name": "Spider Guard",
-      "relationship": "Related gi-based open guard sharing grip control principles and extension mechanics"
+      "relationship": "Related gi-based open guard sharing grip control principles and extension mechanics that can transition into Russian Leg Lasso"
     },
     {
       "name": "De La Riva Guard",
-      "relationship": "Compatible guard system often combined with Russian Leg Lasso for enhanced control"
+      "relationship": "Compatible guard system often combined with Russian Leg Lasso for enhanced control restricting circling and creating hybrid threats"
     },
     {
       "name": "Collar Sleeve Guard",
-      "relationship": "Shares grip configuration principles and can transition into Russian Leg Lasso"
+      "relationship": "Shares grip configuration principles and can transition into Russian Leg Lasso through leg threading while maintaining collar control"
     },
     {
       "name": "Inverted Lasso Guard",
-      "relationship": "Alternative lasso variation with different mechanical properties and sweep opportunities"
+      "relationship": "Alternative lasso variation with different mechanical properties and sweep opportunities using inverted positioning"
     },
     {
       "name": "Open Guard",
-      "relationship": "Parent category encompassing all open guard variations including Russian Leg Lasso"
+      "relationship": "Parent category encompassing all open guard variations including Russian Leg Lasso within modern guard systems"
     },
     {
       "name": "Omoplata Control",
-      "relationship": "Common submission entry from Russian Leg Lasso when opponent defends sweeps improperly"
+      "relationship": "Common submission entry from Russian Leg Lasso when opponent defends sweeps improperly or drives forward into lasso"
     },
     {
       "name": "Triangle Control",
-      "relationship": "Alternative submission path when transitioning from Russian Leg Lasso configurations"
+      "relationship": "Alternative submission path when transitioning from Russian Leg Lasso configurations as posture breaks forward"
     }
   ],
-
+  "bot_metadata": {
+    "last_improved": "2026-02-18",
+    "optimization_pass": "ai_seo_v1"
+  },
   "bottom": {
     "name": "Russian Leg Lasso Bottom",
-    "description": "Master Russian Leg Lasso Bottom guard. Complete technical guide covering grip strategies, sweep mechanics, and submission entries with expert analysis.",
+    "description": "How do I play Russian Leg Lasso Bottom? Master grip strategies, sweep mechanics, and submission entries with expert analysis. Success rate: Beginner 30%, Intermediate 45%, Advanced 60%.",
     "tags": ["bjj", "position", "russian-leg-lasso", "bottom", "guard-retention", "open-guard", "lasso-variation", "advanced-guard"],
-
-    "overview": "Russian Leg Lasso Bottom represents one of the most technically sophisticated open guard positions in modern Brazilian Jiu-Jitsu, offering the guard player exceptional control and offensive potential through a complex system of grips, leg positioning, and mechanical advantages. From the bottom position, the practitioner establishes a deep lasso configuration by threading their leg through the opponent's arm, creating a binding effect that serves as the foundation for all subsequent offensive and defensive actions. What distinguishes the Russian variation from standard lasso guard is the incorporation of additional control points - typically involving strategic collar grips, precise sleeve control, and supplementary leg positioning that creates a web of controls difficult for opponents to escape. The mechanical principle underlying this position is elegant yet powerful: the lasso creates a fulcrum point around which the guard player can generate rotational force, while the collar and sleeve grips provide the means to control the opponent's posture and break their base. Success in this position requires coordinating multiple elements simultaneously - maintaining proper distance to prevent the opponent from establishing pressure, managing grip configurations to maximize control while preserving energy, and recognizing opportunities to transition between sweeps and submissions based on the opponent's defensive reactions. The position offers multiple offensive pathways including powerful rotational sweeps, overhead sweep variations, and submission entries into triangles, omoplatas, and armbars. However, this offensive potential comes with energy cost considerations - maintaining the Russian Leg Lasso requires active engagement and can be fatiguing if held too long without transitioning to attacks. Elite practitioners understand that this guard works best as part of a dynamic open guard system, transitioning fluidly between Russian Leg Lasso and complementary positions like De La Riva Guard, Spider Guard, or Collar Sleeve combinations based on opponent reactions. The technical sophistication required makes this an advanced position, but for practitioners who master its mechanics, it becomes a powerful tool for controlling opponents who have developed defenses against simpler guard systems.",
-
+    "overview": "**Russian Leg Lasso Bottom** represents one of the most technically sophisticated open guard positions in modern Brazilian Jiu-Jitsu, offering the guard player exceptional control and offensive potential through a complex system of grips, leg positioning, and mechanical advantages. From the bottom position, the practitioner establishes a deep lasso configuration by threading their leg through the opponent's arm, creating a binding effect that serves as the foundation for all subsequent offensive and defensive actions.\n\nWhat distinguishes the **Russian variation** from standard **[[Lasso Guard]]** is the incorporation of additional control points - typically involving strategic collar grips, precise sleeve control, and supplementary leg positioning that creates a web of controls difficult for opponents to escape. The mechanical principle underlying this position is elegant yet powerful: the lasso creates a fulcrum point around which the guard player can generate rotational force, while the collar and sleeve grips provide the means to control the opponent's posture and break their base.\n\nSuccess in this position requires coordinating multiple elements simultaneously - maintaining proper distance to prevent the opponent from establishing pressure, managing grip configurations to maximize control while preserving energy, and recognizing opportunities to transition between sweeps and submissions based on the opponent's defensive reactions. The position offers multiple offensive pathways including powerful rotational sweeps, overhead sweep variations, and submission entries into **[[Triangle Choke]]**, **[[Omoplata]]**, and armbars.\n\nHowever, this offensive potential comes with energy cost considerations - maintaining the **Russian Leg Lasso** requires active engagement and can be fatiguing if held too long without transitioning to attacks. Elite practitioners understand that this guard works best as part of a dynamic open guard system, transitioning fluidly between **Russian Leg Lasso** and complementary positions like **[[De La Riva Guard]]**, **[[Spider Guard]]**, or **[[Collar Sleeve Guard]]** based on opponent reactions.\n\nThe technical sophistication required makes this an advanced position, but for practitioners who master its mechanics, it becomes a powerful tool for controlling opponents who have developed defenses against simpler guard systems. When the opponent attempts to stand or pass, the enhanced controls create immediate off-balancing opportunities superior to traditional lasso. When they stay low to avoid sweeps, the position opens up submission opportunities that leverage the multiple control points for enhanced finishing mechanics.",
     "state_properties": {
       "point_value": 0,
       "position_type": "Offensive",
@@ -63,7 +62,6 @@
       "energy_cost": "Medium",
       "time_sustainability": "Medium"
     },
-
     "state_invariants": [
       "Guard player on their back with one leg threaded through opponent's arm creating the lasso configuration, with the foot positioned near or past the opponent's shoulder to maximize binding effect and prevent easy extraction",
       "Collar grip maintained with the hand opposite to the lasso leg, providing crucial posture control that prevents opponent from establishing upright pressure passing positions and enables breaking of opponent's base for sweep entries",
@@ -71,25 +69,22 @@
       "Non-lasso leg positioned strategically either as De La Riva hook, butterfly hook, shin-to-shin contact, or extended for distance management, creating secondary control point that prevents opponent from circling away from lasso",
       "Hips positioned at proper distance from opponent - close enough to maintain grip effectiveness but far enough to prevent opponent from establishing smash passing pressure that negates the lasso's mechanical advantages"
     ],
-
     "prerequisites": [
-      "Opponent standing or in combat base with one arm exposed for lasso entry",
-      "Guard player has established or can immediately secure collar and sleeve grip combination",
-      "Sufficient space and angle to thread leg through opponent's arm for lasso creation",
+      "Opponent standing or in combat base with one arm exposed for lasso entry from open guard position",
+      "Guard player has established or can immediately secure collar and sleeve grip combination with proper hand positioning",
+      "Sufficient space and angle to thread leg through opponent's arm for lasso creation without interference",
       "Opponent has not yet established dominant passing grips or pressure that would prevent lasso setup",
-      "Guard player has broken opponent's initial passing posture or maintained open guard positioning"
+      "Guard player has broken opponent's initial passing posture or maintained open guard positioning from previous exchange"
     ],
-
     "key_principles": [
-      "Lasso effectiveness depends on creating and maintaining proper angle with leg positioned high and tight to maximize binding effect on opponent's arm",
-      "Collar grip controls opponent's posture and provides the lever through which rotational sweeps generate force and break opponent's base",
-      "Non-lasso leg must remain active and positioned to prevent opponent from circling away or establishing alternative passing angles",
-      "Distance management is critical - too close allows opponent to pressure pass, too far loses grip effectiveness and lasso control",
-      "Recognize that Russian Leg Lasso is energy-intensive and works best when transitioning actively between sweep attempts and submission entries",
-      "Hip movement and adjustment are essential for maintaining optimal lasso angle as opponent attempts to defend or change position",
-      "Grip fighting must be dynamic - when opponent attacks sleeve grip, immediately transition to alternative attacks rather than purely defending grip"
+      "Lasso effectiveness depends on creating and maintaining proper angle with leg positioned high and tight to maximize binding effect on opponent's arm and shoulder",
+      "Collar grip controls opponent's posture and provides the lever through which rotational sweeps generate force and break opponent's base creating sweep opportunities",
+      "Non-lasso leg must remain active and positioned to prevent opponent from circling away or establishing alternative passing angles like toreando or knee cut",
+      "Distance management is critical - too close allows opponent to pressure pass, too far loses grip effectiveness and lasso control strength",
+      "Recognize that Russian Leg Lasso is energy-intensive and works best when transitioning actively between sweep attempts and submission entries within 30-60 second windows",
+      "Hip movement and adjustment are essential for maintaining optimal lasso angle as opponent attempts to defend or change position dynamically",
+      "Grip fighting must be dynamic - when opponent attacks sleeve grip, immediately transition to alternative attacks rather than purely defending grip without offense"
     ],
-
     "offensive_transitions": [
       {
         "technique": "Lasso Guard Sweeps",
@@ -98,15 +93,6 @@
           "beginner": 30,
           "intermediate": 45,
           "advanced": 60
-        }
-      },
-      {
-        "technique": "Lasso Guard Sweeps",
-        "target_position": "Mount",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
         }
       },
       {
@@ -137,7 +123,7 @@
         }
       },
       {
-        "technique": "Lasso Guard Sweeps",
+        "technique": "Spider Guard Sweeps",
         "target_position": "Side Control",
         "success_rates": {
           "beginner": 30,
@@ -162,9 +148,17 @@
           "intermediate": 40,
           "advanced": 55
         }
+      },
+      {
+        "technique": "Kimura from Guard",
+        "target_position": "Kimura Control",
+        "success_rates": {
+          "beginner": 22,
+          "intermediate": 37,
+          "advanced": 52
+        }
       }
     ],
-
     "defensive_responses": [
       {
         "technique": "Lasso Guard Pass",
@@ -192,33 +186,31 @@
         "success_rate": 42
       }
     ],
-
     "counter_transitions": [
       {
         "technique": "Omoplata to Sweep",
         "target_position": "Mount",
-        "trigger": "Opponent attempts to pressure forward or stack to defend initial sweep"
+        "trigger": "Opponent attempts to pressure forward or stack to defend initial sweep creating perfect omoplata angle"
       },
       {
         "technique": "Switch to Triangle",
         "target_position": "Triangle Control",
-        "trigger": "Opponent pulls arm out of lasso creating space for leg to switch to triangle configuration"
+        "trigger": "Opponent pulls arm out of lasso creating space for leg to switch to triangle configuration while maintaining collar control"
       },
       {
         "technique": "De La Riva Sweep",
         "target_position": "Back Control",
-        "trigger": "Opponent steps around lasso side creating opportunity for De La Riva hook with non-lasso leg"
+        "trigger": "Opponent steps around lasso side creating opportunity for De La Riva hook with non-lasso leg to maintain offensive pressure"
       },
       {
         "technique": "Transition to Omoplata",
         "target_position": "Omoplata Control",
-        "trigger": "Opponent postures up aggressively breaking collar grip and creating space for omoplata entry"
+        "trigger": "Opponent postures up aggressively breaking collar grip and creating space for omoplata entry through lasso leg positioning"
       }
     ],
-
     "decision_tree": [
       {
-        "condition": "If opponent maintains distance and attempts to break collar grip",
+        "condition": "If opponent maintains distance and attempts to break collar grip while staying upright",
         "actions": [
           {
             "technique": "Triangle Setup",
@@ -233,7 +225,7 @@
         ]
       },
       {
-        "condition": "If opponent drives forward with pressure attempting to smash pass",
+        "condition": "If opponent drives forward with pressure attempting to smash pass through lasso control",
         "actions": [
           {
             "technique": "Lasso Guard Sweeps",
@@ -248,11 +240,11 @@
         ]
       },
       {
-        "condition": "If opponent circles away from lasso attempting to disengage",
+        "condition": "If opponent circles away from lasso attempting to disengage and reset position",
         "actions": [
           {
-            "technique": "Lasso Guard Sweeps",
-            "target": "Mount",
+            "technique": "Spider Guard Sweeps",
+            "target": "Side Control",
             "probability": 50
           },
           {
@@ -263,7 +255,7 @@
         ]
       },
       {
-        "condition": "If opponent establishes strong base and begins systematic grip breaking",
+        "condition": "If opponent establishes strong base and begins systematic grip breaking with proper technique",
         "actions": [
           {
             "technique": "Guard Pull",
@@ -278,40 +270,38 @@
         ]
       }
     ],
-
     "common_errors": [
       {
         "error": "Allowing lasso leg to become low and loose, positioned near opponent's elbow rather than high on shoulder",
-        "consequence": "Dramatically reduces binding effect and rotational force generation, making sweeps ineffective and allowing opponent to easily extract arm from lasso",
-        "correction": "Maintain active hip elevation to keep lasso foot positioned high near opponent's shoulder, adjusting constantly as opponent moves to preserve tight binding configuration"
+        "consequence": "Dramatically reduces binding effect and rotational force generation, making sweeps ineffective and allowing opponent to easily extract arm from lasso within 5-10 seconds",
+        "correction": "Maintain active hip elevation to keep lasso foot positioned high near opponent's shoulder, adjusting constantly as opponent moves to preserve tight binding configuration throughout engagement"
       },
       {
         "error": "Holding static lasso position without attacking, waiting for opponent to make mistakes",
-        "consequence": "Allows opponent time to systematically break grips and establish passing position while depleting guard player's energy maintaining unsustainable controls",
-        "correction": "Use Russian Leg Lasso as launching platform for immediate attacks, transitioning between sweeps and submissions every 3-5 seconds to keep opponent defensive"
+        "consequence": "Allows opponent time to systematically break grips and establish passing position while depleting guard player's energy maintaining unsustainable controls for extended periods",
+        "correction": "Use Russian Leg Lasso as launching platform for immediate attacks, transitioning between sweeps and submissions every 3-5 seconds to keep opponent defensive and reactive"
       },
       {
         "error": "Losing collar grip while maintaining only sleeve and lasso controls",
         "consequence": "Eliminates ability to control opponent's posture and break their base, reducing sweep effectiveness by approximately 60% and allowing opponent to establish upright passing posture",
-        "correction": "Prioritize collar grip above all other controls - if collar grip is broken, immediately re-establish or transition to different guard rather than maintaining incomplete Russian Leg Lasso"
+        "correction": "Prioritize collar grip above all other controls - if collar grip is broken, immediately re-establish or transition to different guard like De La Riva rather than maintaining incomplete Russian Leg Lasso"
       },
       {
         "error": "Allowing opponent to get too close and establish chest-to-chest pressure",
-        "consequence": "Negates all mechanical advantages of lasso as opponent's weight pins guard player flat, preventing hip movement and sweep generation",
-        "correction": "Use non-lasso leg actively to manage distance, extending foot into opponent's hip or creating frames that prevent them from closing distance"
+        "consequence": "Negates all mechanical advantages of lasso as opponent's weight pins guard player flat, preventing hip movement and sweep generation completely",
+        "correction": "Use non-lasso leg actively to manage distance, extending foot into opponent's hip or creating frames that prevent them from closing distance and smashing forward"
       },
       {
         "error": "Neglecting non-lasso leg positioning, leaving it static or unengaged",
-        "consequence": "Opponent can easily circle away from lasso, pass to non-lasso side, or establish dominant grips without any secondary defensive layer",
-        "correction": "Non-lasso leg must be constantly active - transitioning between De La Riva hook, butterfly hook, shin-to-shin, or extended foot-on-hip based on opponent's position and movement"
+        "consequence": "Opponent can easily circle away from lasso, pass to non-lasso side, or establish dominant grips without any secondary defensive layer to prevent circling",
+        "correction": "Non-lasso leg must be constantly active - transitioning between De La Riva hook, butterfly hook, shin-to-shin, or extended foot-on-hip based on opponent's position and movement patterns"
       },
       {
         "error": "Gripping with arms only rather than using lasso and hip positioning to create mechanical advantage",
-        "consequence": "Rapid arm fatigue, easy grip breaks by opponent, and inability to generate sufficient force for sweeps",
-        "correction": "Understand that grips augment lasso mechanics rather than replace them - use hip movement and leg positioning to create leverage, with grips providing steering and timing"
+        "consequence": "Rapid arm fatigue, easy grip breaks by opponent, and inability to generate sufficient force for sweeps against resistance",
+        "correction": "Understand that grips augment lasso mechanics rather than replace them - use hip movement and leg positioning to create leverage, with grips providing steering and timing precision"
       }
     ],
-
     "training_drills": [
       {
         "name": "Russian Leg Lasso Establishment and Maintenance",
@@ -334,7 +324,6 @@
         "duration": "2-minute intense rounds, 5 sets"
       }
     ],
-
     "optimal_submission_paths": [
       {
         "name": "Direct triangle from lasso",
@@ -353,79 +342,76 @@
         "path": "Russian Leg Lasso Bottom → De La Riva Sweep → Back Control → Rear Naked Choke"
       }
     ],
-
     "related_content": [
       {
         "name": "Lasso Guard",
-        "relationship": "Parent position - standard lasso guard from which Russian variation evolved with additional controls"
+        "relationship": "Parent position - standard lasso guard from which Russian variation evolved with additional controls and deeper threading mechanics"
       },
       {
         "name": "Spider Guard",
-        "relationship": "Related open guard sharing grip principles and often combined in modern guard systems"
+        "relationship": "Related open guard sharing grip principles and often combined in modern guard systems for enhanced control"
       },
       {
         "name": "De La Riva Guard",
-        "relationship": "Complementary guard frequently integrated with Russian Leg Lasso for enhanced control and sweep options"
+        "relationship": "Complementary guard frequently integrated with Russian Leg Lasso for enhanced control and sweep options restricting circling"
       },
       {
         "name": "Collar Sleeve Guard",
-        "relationship": "Shares fundamental grip configuration and can serve as entry or transition point"
+        "relationship": "Shares fundamental grip configuration and can serve as entry or transition point for Russian Leg Lasso establishment"
       },
       {
         "name": "Inverted Lasso Guard",
-        "relationship": "Alternative lasso variation with different mechanical properties and applications"
+        "relationship": "Alternative lasso variation with different mechanical properties and applications using inverted positioning for dynamic attacks"
       },
       {
         "name": "Triangle Control",
-        "relationship": "Primary submission entry from Russian Leg Lasso when opponent defends sweeps"
+        "relationship": "Primary submission entry from Russian Leg Lasso when opponent defends sweeps or breaks posture forward into lasso"
       },
       {
         "name": "Omoplata Control",
-        "relationship": "Alternative submission path when opponent postures or drives into lasso"
+        "relationship": "Alternative submission path when opponent postures or drives into lasso with forward pressure attempting to pass"
       },
       {
         "name": "Open Guard",
-        "relationship": "Parent category and foundation for understanding all open guard variations"
+        "relationship": "Parent category and foundation for understanding all open guard variations including advanced lasso systems"
       },
       {
         "name": "Lasso Guard Sweeps",
-        "relationship": "Core offensive technique category for this position"
+        "relationship": "Core offensive technique category for this position utilizing rotational force and off-balancing mechanics"
       }
     ],
-
     "position_metrics": {
       "retention_rate": {
         "beginner": 35,
         "intermediate": 50,
-        "advanced": 65
+        "advanced": 65,
+        "description": "Likelihood of maintaining Russian Leg Lasso control against passing attempts varies with grip fighting skill and hip mobility"
       },
       "advancement_probability": {
         "beginner": 40,
         "intermediate": 55,
-        "advanced": 70
+        "advanced": 70,
+        "description": "Probability of achieving sweeps or superior positions from Russian Leg Lasso increases with proper coordination and timing"
       },
       "submission_probability": {
         "beginner": 25,
         "intermediate": 40,
-        "advanced": 55
+        "advanced": 55,
+        "description": "Direct submission rates from Russian Leg Lasso are moderate but increase when combined with proper sweep threats"
       },
-      "average_time": "30-60 seconds before transition"
+      "average_time": "30-60 seconds before transition to sweep, submission, or alternative guard"
     },
-
     "expert_insights": {
       "danaher": "The Russian Leg Lasso represents a fascinating evolution in open guard technology, taking the already effective mechanical principles of lasso guard and augmenting them with additional control layers that create compounding defensive and offensive advantages. The fundamental principle you must understand is that the lasso itself functions as a mechanical pulley - your leg threaded through the opponent's arm creates a fulcrum point around which you can generate rotational force far exceeding what pure strength would allow. What makes the Russian variation superior to standard lasso is the strategic addition of collar control which gives you the ability to break the opponent's posture precisely when you need it for sweep entries, and the deliberate positioning of your non-lasso leg which prevents the circling escape that defeats simpler lasso configurations. However, this position's effectiveness comes with a critical caveat - it is energy intensive and time limited. You cannot hold static Russian Leg Lasso and expect sustained success against elite opponents. Instead, you must view it as a dynamic launching platform, establishing the position and immediately transitioning through your offensive sequence: sweep attempts, submission entries, and alternative guard variations. The position works best when you create what I call a 'technical dilemma' - if the opponent defends your sweep by maintaining strong base, this creates the posture and positioning ideal for triangle or omoplata entries. Conversely, if they prevent submissions by staying tight and heavy, they compromise their base making sweeps highly effective. Your task is recognizing which door they've closed and immediately attacking through the one they've opened.",
       "gordon_ryan": "Russian Leg Lasso is one of those guards that can really frustrate passers if you know how to use it right, but I'll be honest - it's not one of my primary guards because it requires specific gi grip configurations that aren't always available in the highest-level no-gi competition. That said, in gi competition it's extremely effective, especially against opponents who have good passing fundamentals but haven't specifically trained against modern lasso variations. The key thing I learned from using this guard is that your success rate is directly tied to how quickly you attack - if you establish the lasso and immediately hit them with a sweep attempt or triangle setup, they're usually not ready and you get high success rates. But if you take even three or four seconds to settle into the position, good passers will start their systematic escape and then you're fighting an uphill battle trying to maintain controls while they're breaking your grips. When I use Russian Leg Lasso, I'm usually coming into it from collar-sleeve or spider guard, and I'm already thinking two moves ahead - I know that if my first sweep doesn't finish, I'm transitioning to omoplata or triangle immediately based on how they defend. The grip fighting aspect is crucial - you absolutely must maintain that collar grip because without it, the whole system loses probably 60-70% of its effectiveness. If someone's attacking my collar grip hard, I'll often just transition to different guard rather than burning energy fighting for a grip I'm going to lose anyway. The other thing is your non-lasso leg has to be active and engaged - I see a lot of people establish the lasso but then their other leg just kind of sits there doing nothing, and any competent passer will just walk around that side and pass easily.",
       "eddie_bravo": "Russian Leg Lasso is some seriously technical stuff, man - it's like they took regular lasso guard and added a bunch of upgrades to make it even more annoying for the top guy. In 10th Planet we've definitely integrated elements of this into our guard systems, especially for guys who compete in gi tournaments, because it creates this really complex problem for passers where they've got multiple things to deal with simultaneously. The thing I love about this guard is how it creates options - you've got sweeps, you've got triangles, you've got omoplatas, and all of them are setting each other up. It's like a web where the opponent is stuck and every direction they try to escape just leads them into another trap. Now, where I think a lot of people mess up with Russian Leg Lasso is they treat it like a destination instead of a gas station - you know what I mean? They get to the position and then they just chill there like 'okay, I've got lasso guard' but that's not how it works. You gotta be attacking constantly, flowing between threats, making them react so you can counter their reactions. In our system we teach it as part of a larger guard retention framework where you're combining it with rubber guard concepts, lockdown ideas, and electric chair setups. The lasso becomes one tool in a bigger toolbox. One variation we mess around with is using the lasso to set up twister side control - if they defend your sweeps by basing hard on one side, you can sometimes catch that leg and transition into truck positions. It's unorthodox but it works if you time it right. The main thing with any of these gi-dependent guards is recognizing that they're energy intensive, so you gotta be strategic about when you use them and how long you maintain the position before transitioning to something else."
     }
   },
-
   "top": {
     "name": "Russian Leg Lasso Top",
-    "description": "Master Russian Leg Lasso Top position. Complete guide for passing this complex guard variation with systematic pressure and leg control techniques.",
+    "description": "How do I pass Russian Leg Lasso from top? Complete guide for passing this complex guard variation with systematic pressure and leg control techniques. Success rate: Beginner 35%, Advanced 65%.",
     "tags": ["bjj", "position", "russian-leg-lasso", "top", "guard-passing", "open-guard", "lasso-variation", "advanced-passing"],
-
-    "overview": "Russian Leg Lasso Top is the passing position against one of the most complex lasso guard variations in modern BJJ. From top, the practitioner faces an opponent who has established a deep lasso configuration with their leg threaded through the passer's arm, creating significant control and off-balancing potential. Unlike standard lasso guard, the Russian variation incorporates additional control points including collar grips, sleeve grips, and foot positioning that create a web of controls. The top player's primary objective is to systematically dismantle these control points while maintaining base and preventing sweeps. Success requires understanding the mechanical principles of how the lasso works - the opponent uses their leg as a pulley system combined with gi grips to create rotational force. The position demands patience, precise grip fighting, and the ability to create angles that neutralize the lasso's effectiveness. Elite competitors recognize this as a highly technical passing situation where rushing leads to being swept or submitted, while methodical pressure and position adjustment leads to successful guard passage. The sophisticated nature of Russian Leg Lasso means that top players must develop systematic approaches that address multiple defensive layers simultaneously - breaking or controlling key grips, managing the non-lasso leg to prevent combination attacks, maintaining proper distance and posture to negate sweep mechanics, and creating angles that make the lasso configuration untenable for the bottom player. Understanding the biomechanics of how the lasso generates force allows intelligent passers to position themselves in ways that neutralize these mechanics rather than fighting strength against leverage. Modern passing strategies incorporate a range of approaches from dynamic toreando-style passes that work around the lasso, to pressure-based methodical dismantling of controls, to strategic grip fighting that prevents the Russian Leg Lasso from reaching full effectiveness in the first place.",
-
+    "overview": "**Russian Leg Lasso Top** is the passing position against one of the most complex lasso guard variations in modern BJJ. From top, the practitioner faces an opponent who has established a deep lasso configuration with their leg threaded through the passer's arm, creating significant control and off-balancing potential. Unlike standard **[[Lasso Guard]]**, the **Russian variation** incorporates additional control points including collar grips, sleeve grips, and foot positioning that create a web of controls requiring systematic dismantling.\n\nThe top player's primary objective is to systematically dismantle these control points while maintaining base and preventing sweeps. Success requires understanding the mechanical principles of how the lasso works - the opponent uses their leg as a pulley system combined with gi grips to create rotational force that can sweep even experienced grapplers. The position demands patience, precise grip fighting, and the ability to create angles that neutralize the lasso's effectiveness.\n\nElite competitors recognize this as a highly technical passing situation where rushing leads to being swept or submitted, while methodical pressure and position adjustment leads to successful guard passage. The sophisticated nature of **Russian Leg Lasso** means that top players must develop systematic approaches that address multiple defensive layers simultaneously - breaking or controlling key grips, managing the non-lasso leg to prevent combination attacks, maintaining proper distance and posture to negate sweep mechanics, and creating angles that make the lasso configuration untenable for the bottom player.\n\nUnderstanding the biomechanics of how the lasso generates force allows intelligent passers to position themselves in ways that neutralize these mechanics rather than fighting strength against leverage. Modern passing strategies incorporate a range of approaches from dynamic **[[Toreando Pass]]** style passes that work around the lasso, to pressure-based methodical dismantling of controls via **[[Pressure Pass]]** or **[[Smash Pass]]**, to strategic grip fighting that prevents the **Russian Leg Lasso** from reaching full effectiveness in the first place.\n\nFrom top position, you must recognize the relationship between your posture, weight distribution, and the lasso's effectiveness. Upright posture makes you vulnerable to sweeps but helps maintain base. Driving forward reduces sweep angles but exposes you to submissions like **[[Triangle Choke]]** or **[[Omoplata]]**. Learning to dynamically adjust between these positions based on the opponent's reactions separates competent passers from those who struggle consistently against advanced **[[Lasso Guard]]** systems.",
     "state_properties": {
       "point_value": 0,
       "position_type": "Offensive",
@@ -433,7 +419,6 @@
       "energy_cost": "Medium",
       "time_sustainability": "Medium"
     },
-
     "state_invariants": [
       "Top player's posture must remain upright with weight distributed through legs and hips, not leaning forward into the lasso control which amplifies the opponent's mechanical advantage",
       "One arm is trapped in the lasso configuration with opponent's leg threaded through, creating a binding effect that must be managed through proper positioning rather than pure strength",
@@ -441,25 +426,22 @@
       "Opponent on their back with one leg creating the lasso while the other leg may be positioned for additional control points such as De La Riva hook, shin-to-shin contact, or butterfly hook",
       "Grips are actively contested with top player working to control opponent's collar, pants, or belt while opponent seeks sleeve and collar combinations that enhance the lasso's effectiveness"
     ],
-
     "prerequisites": [
-      "Opponent has established Russian Leg Lasso guard with leg threaded through arm",
-      "Top player has maintained standing or combat base position",
-      "Opponent has secured gi grips that enhance lasso control",
-      "Top player has avoided being swept or pulled into closed guard",
-      "Proper distance management preventing opponent from establishing additional control points"
+      "Opponent has established Russian Leg Lasso guard with leg threaded through arm creating binding effect",
+      "Top player has maintained standing or combat base position without being swept or pulled into closed guard",
+      "Opponent has secured gi grips that enhance lasso control including collar and sleeve combinations",
+      "Top player has avoided being swept or pulled into closed guard during initial lasso establishment",
+      "Proper distance management preventing opponent from establishing additional control points like De La Riva hooks or spider guard pressure"
     ],
-
     "key_principles": [
-      "Maintain upright posture with hips back to minimize the mechanical advantage of the lasso configuration",
-      "Control opponent's non-lasso leg to prevent combination attacks and sweep entries",
-      "Break or control gi grips systematically, prioritizing sleeve grips that enhance rotational force",
-      "Create pressure and angles that make the lasso position uncomfortable and unsustainable for bottom player",
-      "Never lean forward or commit weight into the lasso as this amplifies opponent's control and sweep potential",
-      "Use leg positioning and weight distribution to counter rotational forces generated by the lasso",
-      "Recognize when to address the lasso directly versus when to pass around it using positional adjustments"
+      "Maintain upright posture with hips back to minimize the mechanical advantage of the lasso configuration and prevent forward weight commitment",
+      "Control opponent's non-lasso leg to prevent combination attacks and sweep entries that exploit multiple control points simultaneously",
+      "Break or control gi grips systematically, prioritizing sleeve grips that enhance rotational force and collar grips that control posture",
+      "Create pressure and angles that make the lasso position uncomfortable and unsustainable for bottom player without exposing yourself to sweeps",
+      "Never lean forward or commit weight into the lasso as this amplifies opponent's control and sweep potential dramatically",
+      "Use leg positioning and weight distribution to counter rotational forces generated by the lasso mechanics",
+      "Recognize when to address the lasso directly versus when to pass around it using positional adjustments and angle creation"
     ],
-
     "offensive_transitions": [
       {
         "technique": "Lasso Guard Pass",
@@ -523,9 +505,17 @@
           "intermediate": 37,
           "advanced": 52
         }
+      },
+      {
+        "technique": "Stack Pass",
+        "target_position": "Side Control",
+        "success_rates": {
+          "beginner": 26,
+          "intermediate": 41,
+          "advanced": 56
+        }
       }
     ],
-
     "defensive_responses": [
       {
         "technique": "De La Riva Sweep",
@@ -545,41 +535,39 @@
       {
         "technique": "Lasso Guard Sweeps",
         "target_position": "Mount",
-        "success_rate": 30
+        "success_rate": 42
       },
       {
-        "technique": "Lasso Guard Sweeps",
-        "target_position": "Mount",
-        "success_rate": 42
+        "technique": "Spider Guard Sweeps",
+        "target_position": "Side Control",
+        "success_rate": 38
       }
     ],
-
     "counter_transitions": [
       {
         "technique": "Sprawl Defense",
         "target_position": "Headquarters Position",
-        "trigger": "Opponent attempts to elevate with lasso for sweep"
+        "trigger": "Opponent attempts to elevate with lasso for sweep creating opening to sprawl hips back and disengage"
       },
       {
         "technique": "Knee Slice Pass",
         "target_position": "Half Guard",
-        "trigger": "Opponent's lasso grip weakens during transition"
+        "trigger": "Opponent's lasso grip weakens during transition allowing immediate knee slice through center"
       },
       {
         "technique": "Pressure Pass",
         "target_position": "Half Guard",
-        "trigger": "Opponent overcommits to one-sided lasso control"
+        "trigger": "Opponent overcommits to one-sided lasso control creating opening for pressure pass to opposite side"
       },
       {
         "technique": "Toreando Pass",
         "target_position": "Side Control",
-        "trigger": "Opponent's non-lasso leg becomes uncontrolled allowing circular pass"
+        "trigger": "Opponent's non-lasso leg becomes uncontrolled allowing circular pass avoiding lasso completely"
       }
     ],
-
     "decision_tree": [
       {
-        "condition": "If opponent has strong collar and sleeve grips enhancing lasso control",
+        "condition": "If opponent has strong collar and sleeve grips enhancing lasso control with maximum rotational force",
         "actions": [
           {
             "technique": "Grip Break",
@@ -594,7 +582,7 @@
         ]
       },
       {
-        "condition": "If opponent's lasso is high and tight creating immediate sweep threat",
+        "condition": "If opponent's lasso is high and tight creating immediate sweep threat with proper angle",
         "actions": [
           {
             "technique": "Sprawl Defense",
@@ -609,7 +597,7 @@
         ]
       },
       {
-        "condition": "If opponent's non-lasso leg is uncontrolled and mobile",
+        "condition": "If opponent's non-lasso leg is uncontrolled and mobile allowing pass around lasso",
         "actions": [
           {
             "technique": "Leg Drag Pass",
@@ -624,7 +612,7 @@
         ]
       },
       {
-        "condition": "If lasso grip is broken or compromised",
+        "condition": "If lasso grip is broken or compromised allowing forward pressure advancement",
         "actions": [
           {
             "technique": "Pressure Pass",
@@ -639,40 +627,38 @@
         ]
       }
     ],
-
     "common_errors": [
       {
         "error": "Leaning forward into the lasso control attempting to pressure pass directly",
-        "consequence": "Amplifies the mechanical advantage of the lasso creating easy sweep opportunities and potential submission entries",
-        "correction": "Maintain upright posture with hips back, using leg positioning and weight distribution through base rather than forward pressure"
+        "consequence": "Amplifies the mechanical advantage of the lasso creating easy sweep opportunities and potential submission entries within seconds",
+        "correction": "Maintain upright posture with hips back, using leg positioning and weight distribution through base rather than forward pressure into lasso leverage"
       },
       {
         "error": "Ignoring the non-lasso leg while focusing entirely on addressing the lasso itself",
-        "consequence": "Opponent establishes De La Riva hook, butterfly hook, or shin-to-shin creating combination attacks and powerful sweeps",
-        "correction": "Control opponent's non-lasso leg with grips on pants or knee while systematically addressing the lasso configuration"
+        "consequence": "Opponent establishes De La Riva hook, butterfly hook, or shin-to-shin creating combination attacks and powerful sweeps with multiple control points",
+        "correction": "Control opponent's non-lasso leg with grips on pants or knee while systematically addressing the lasso configuration to prevent hybrid attacks"
       },
       {
         "error": "Attempting to yank or pull the trapped arm out of the lasso using pure strength",
-        "consequence": "Wastes energy, creates openings for sweeps, and often results in the lasso becoming tighter and more controlling",
-        "correction": "Address the lasso through positional adjustments, creating angles that make the configuration untenable rather than fighting strength against leverage"
+        "consequence": "Wastes energy, creates openings for sweeps, and often results in the lasso becoming tighter and more controlling as you extend it further",
+        "correction": "Address the lasso through positional adjustments, creating angles that make the configuration untenable rather than fighting strength against leverage mechanics"
       },
       {
         "error": "Allowing opponent to maintain strong sleeve grip on the trapped arm throughout passing attempts",
-        "consequence": "Opponent can generate rotational force and control posture, making effective passing nearly impossible",
-        "correction": "Break or control the sleeve grip as first priority using two-on-one grip breaks or strategic hand positioning"
+        "consequence": "Opponent can generate rotational force and control posture, making effective passing nearly impossible as grip controls arm completely",
+        "correction": "Break or control the sleeve grip as first priority using two-on-one grip breaks or strategic hand positioning before attempting passing sequences"
       },
       {
         "error": "Standing too narrow with feet close together when facing Russian Leg Lasso",
-        "consequence": "Unstable base makes rotational sweeps highly effective as there is insufficient foundation to resist the torque",
-        "correction": "Maintain wide stance with weight distributed through both legs, creating stable base that can absorb rotational forces"
+        "consequence": "Unstable base makes rotational sweeps highly effective as there is insufficient foundation to resist the torque generated by lasso mechanics",
+        "correction": "Maintain wide stance with weight distributed through both legs, creating stable base that can absorb rotational forces from multiple angles"
       },
       {
         "error": "Rushing the pass without systematically dismantling opponent's control points",
-        "consequence": "Attempting to skip steps results in being swept, submitted, or returning to worse position",
-        "correction": "Follow methodical progression: break grips, control non-lasso leg, create angle, address lasso, complete pass"
+        "consequence": "Attempting to skip steps results in being swept, submitted, or returning to worse position with opponent maintaining all controls",
+        "correction": "Follow methodical progression: break grips, control non-lasso leg, create angle, address lasso, complete pass in systematic sequence over 45-90 seconds"
       }
     ],
-
     "training_drills": [
       {
         "name": "Russian Leg Lasso Passing Sequences",
@@ -695,7 +681,6 @@
         "duration": "4-minute rounds, 3 sets per partner"
       }
     ],
-
     "optimal_submission_paths": [
       {
         "name": "Shortest path to control",
@@ -714,65 +699,65 @@
         "path": "Russian Leg Lasso Top → Toreando Pass → Side Control → North-South → North-South Choke"
       }
     ],
-
     "related_content": [
       {
         "name": "Russian Leg Lasso",
-        "relationship": "Parent hub position encompassing both perspectives"
+        "relationship": "Parent hub position encompassing both perspectives and all variations"
       },
       {
         "name": "Lasso Guard",
-        "relationship": "Parent position category - standard lasso guard passing principles apply"
+        "relationship": "Parent position category - standard lasso guard passing principles apply with additional complexity"
       },
       {
         "name": "Spider Guard",
-        "relationship": "Related gi-based open guard requiring similar grip fighting and passing strategies"
+        "relationship": "Related gi-based open guard requiring similar grip fighting and passing strategies with sleeve control focus"
       },
       {
         "name": "De La Riva Guard",
-        "relationship": "Often combined with Russian Leg Lasso requiring integrated passing approach"
+        "relationship": "Often combined with Russian Leg Lasso requiring integrated passing approach to both systems simultaneously"
       },
       {
         "name": "Collar Sleeve Guard",
-        "relationship": "Shares grip configurations and can transition into Russian Leg Lasso"
+        "relationship": "Shares grip configurations and can transition into Russian Leg Lasso requiring similar grip breaking approaches"
       },
       {
         "name": "Lasso Guard Pass",
-        "relationship": "Primary transition technique for passing this position"
+        "relationship": "Primary transition technique for passing this position with systematic control point dismantling"
       },
       {
         "name": "Toreando Pass",
-        "relationship": "Alternative passing strategy working around lasso controls"
+        "relationship": "Alternative passing strategy working around lasso controls through circular movement and angle creation"
       },
       {
         "name": "Grip Fighting",
-        "relationship": "Fundamental skill essential for success in this position"
+        "relationship": "Fundamental skill essential for success in this position determining pass vs sweep outcomes"
       },
       {
         "name": "Open Guard",
-        "relationship": "Parent category for understanding guard passing principles"
+        "relationship": "Parent category for understanding guard passing principles applicable to all lasso variations"
       }
     ],
-
     "position_metrics": {
       "retention_rate": {
         "beginner": 40,
         "intermediate": 55,
-        "advanced": 70
+        "advanced": 70,
+        "description": "Ability to maintain top position without being swept increases with systematic approach and grip fighting experience"
       },
       "advancement_probability": {
         "beginner": 30,
         "intermediate": 45,
-        "advanced": 60
+        "advanced": 60,
+        "description": "Likelihood of successfully passing Russian Leg Lasso improves with proper control point dismantling sequence"
       },
       "submission_probability": {
         "beginner": 15,
         "intermediate": 25,
-        "advanced": 35
+        "advanced": 35,
+        "description": "Counter-submission opportunities from top exist but require patience and recognition of specific vulnerabilities"
       },
-      "average_time": "45-90 seconds"
+      "average_time": "45-90 seconds typically required to systematically clear lasso and complete passing sequence"
     },
-
     "expert_insights": {
       "danaher": "The Russian Leg Lasso represents one of the most mechanically sophisticated guard variations in modern jiu-jitsu, utilizing principles of leverage and rotational force that make it formidable against even elite passers. From the top position, your success depends entirely on understanding that you are fighting against a pulley system - the opponent's leg creates a fulcrum point around which they can generate tremendous rotational force with minimal energy expenditure. The cardinal sin in this position is leaning forward, as this converts your bodyweight into the very force that powers their sweep mechanics. Instead, you must maintain an upright posture with your hips positioned behind your center of gravity, effectively removing the fuel from their mechanical advantage. The systematic approach requires addressing control points in proper sequence: first neutralize the sleeve grip which controls your posture, then control the non-lasso leg which provides their base for sweeps, and only then address the lasso itself through angle creation rather than strength application. Understanding that the lasso becomes geometrically weaker as you create certain angles allows you to solve this puzzle through position rather than power. The specific angle that defeats Russian Leg Lasso involves moving your body toward the side of the lasso while controlling their non-lasso leg - this creates a configuration where their leg can no longer generate rotational force and the lasso binding becomes ineffective. From this compromised position, multiple passes become available including knee slice, leg drag, and toreando variations. The key insight is recognizing that you don't need to remove the lasso through force - you simply need to move to positions where the lasso cannot function mechanically.",
       "gordon_ryan": "Russian Leg Lasso is one of those guards that looks terrifying but becomes manageable once you understand the game plan - the key is never giving them the grips and posture control they need to make it work. In competition, when I face this guard, my immediate focus is on the sleeve grip because without that, they can't control my posture and the whole system falls apart. I keep my hips back and my weight distributed through both legs wide, which makes their rotational sweeps basically impossible even if they have the lasso established. The mistake I see competitors make constantly is trying to force a pass while the opponent has full control - that's just giving them the sweep. Instead, I work patiently to break the sleeve, control their other leg with a pants grip, and then I can start creating the angles I need to pass. Once I have their non-lasso leg controlled, I can work the Toreando or Leg Drag which are both high-percentage against this guard. The thing about Russian Leg Lasso is that it's energy-intensive for the bottom player to maintain, so if you prevent their immediate sweep threats and make them hold the position, they'll often transition to something else, giving you easier passing opportunities. Time is on your side if you maintain good base and deny their grips. One specific detail that really helped my passing is understanding that when they have the lasso tight, I'm not fighting to get my arm out - instead I'm controlling their body position and moving to angles where the lasso becomes ineffective. It's a positional solution rather than a strength solution, which is way more efficient especially in longer matches.",
