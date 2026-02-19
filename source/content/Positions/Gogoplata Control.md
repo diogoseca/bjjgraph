@@ -4,11 +4,11 @@
 
 ---
 title: "Gogoplata Control | BJJ Position Guide | BJJ Graph"
-description: "Master gogoplata control in BJJ. Complete technical guide covering shin-across-throat positioning, submission mechanics, defensive maintenance, and strategic applications."
+description: "Gogoplata control in BJJ: advanced shin-across-throat submission from rubber guard. Master setup mechanics, finishing sequences, escape strategies, and flexibility prerequisites."
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 
@@ -17,6 +17,8 @@ description: "Master gogoplata control in BJJ. Complete technical guide covering
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
+
+Gogoplata Control is BJJ's most technically demanding submission-control hybrid—the practitioner places their shin across the opponent's throat while locking their own foot behind the opponent's head, creating simultaneous choking pressure and positional control. Difficulty: Advanced specialist. Prerequisites: exceptional hip flexibility, rubber guard proficiency. Success rates: Beginner 15%, Intermediate 30%, Advanced 50% (gogoplata finish). Primary entry: Closed Guard → Rubber Guard → Mission Control.
 
 Gogoplata Control represents one of Brazilian Jiu-Jitsu's most technically demanding and strategically unique control positions. This position establishes a shin-across-throat configuration that creates both a controlling position and an immediate submission threat simultaneously. Unlike traditional control positions that prioritize stability before submission attacks, Gogoplata Control merges these concepts into a single unified state where the controlling mechanics are inseparable from the finishing mechanics.
 

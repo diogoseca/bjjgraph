@@ -4,11 +4,11 @@
 
 ---
 title: "Gogoplata Control Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master bottom gogoplata control mechanics including shin positioning, foot-behind-head configuration, hip elevation, and submission finishing from guard and rubber guard positions."
+description: "Gogoplata control from bottom guard: shin-across-throat setup, foot-behind-head configuration, hip elevation, and submission finish from rubber guard. Retention: Beginner 25%, Advanced 65%."
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -115,7 +115,7 @@ description: "Master bottom gogoplata control mechanics including shin positioni
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Gogoplata Control Bottom",
-  "description": "Master bottom gogoplata control mechanics including shin positioning, foot-behind-head configuration, hip elevation, and submission finishing from guard and rubber guard positions.",
+  "description": "Gogoplata control from bottom guard: shin-across-throat setup, foot-behind-head configuration, hip elevation, and submission finish from rubber guard. Retention: Beginner 25%, Advanced 65%.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -159,6 +159,8 @@ description: "Master bottom gogoplata control mechanics including shin positioni
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
+
+From the bottom position, Gogoplata Control is an advanced submission-control hybrid requiring exceptional hip flexibility (minimum: comfortable leg-behind-head positioning) and rubber guard proficiency. Position retention: Beginner 25%, Intermediate 45%, Advanced 65%. Submission probability: Beginner 20%, Intermediate 35%, Advanced 55%. Energy cost: High. Time sustainability: Short to Medium. Entry: Closed Guard → Rubber Guard → Mission Control chain.
 
 From the bottom position, Gogoplata Control represents an advanced submission-control hybrid that demands exceptional physical attributes and technical precision. The bottom player establishes a shin-across-throat position while securing their own foot behind the opponent's head, creating a self-contained submission system that simultaneously controls and attacks.
 

@@ -4,11 +4,11 @@
 
 ---
 title: "Dead Orchard Control Top | BJJ Position Guide | BJJ Graph"
-description: "Master Dead Orchard Control Top in BJJ. Advanced anaconda variation emphasizing extended positional dominance with systematic breakdown mechanics and multiple finishing options."
+description: "Dead Orchard Control top position: advanced anaconda variation for extended control. Master grip mechanics, shoulder pressure, submission timing, and positional advancement paths."
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -115,7 +115,7 @@ description: "Master Dead Orchard Control Top in BJJ. Advanced anaconda variatio
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Dead Orchard Control Top",
-  "description": "Master Dead Orchard Control Top in BJJ. Advanced anaconda variation emphasizing extended positional dominance with systematic breakdown mechanics and multiple finishing options.",
+  "description": "Dead Orchard Control top position: advanced anaconda variation for extended control. Master grip mechanics, shoulder pressure, submission timing, and positional advancement paths.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -159,6 +159,8 @@ description: "Master Dead Orchard Control Top in BJJ. Advanced anaconda variatio
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
+
+Dead Orchard Control Top is an advanced anaconda choke variation from the 10th Planet system, creating exceptional positional control with immediate submission threat. Retention rate: Beginner 50%, Intermediate 65%, Advanced 80%. Anaconda finish success: Beginner 35%, Intermediate 55%, Advanced 75%. Risk level: Low to Medium. Energy cost: Medium. Time sustainability: Medium. Most effective in no-gi competition where grip-based controls are unavailable.
 
 Dead Orchard Control Top is an advanced anaconda choke variation developed within the 10th Planet system, characterized by a specific grip configuration and body positioning that creates exceptional control while maintaining submission threat. This position represents a hybrid control state where the practitioner has secured the anaconda grip but emphasizes positional dominance and control mechanics over immediate submission completion. The nomenclature refers to the trapped, lifeless quality of the opponent's arm position combined with the systematic breakdown of their defensive structure. From top position, the practitioner establishes a deep anaconda-style grip around the opponent's neck and nearside arm while maintaining superior body positioning that prevents escape and creates submission opportunities. Unlike standard anaconda control, dead orchard control incorporates specific grip adjustments and weight distribution principles that allow for extended positional maintenance while gradually increasing submission pressure. This position is particularly effective in no-gi contexts where the practitioner can control timing and gradually advance position or finish the submission based on opponent reactions. The position serves as both a control platform and a submission gateway, allowing the practitioner to maintain dominant position while threatening the finish. Understanding dead orchard control requires mastery of anaconda mechanics, shoulder pressure application, and the ability to read opponent defensive patterns to determine optimal finishing timing.
 

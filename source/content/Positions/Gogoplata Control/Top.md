@@ -4,11 +4,11 @@
 
 ---
 title: "Gogoplata Control Top | BJJ Position Guide | BJJ Graph"
-description: "Master defending and escaping gogoplata control from top position including posture maintenance, shin removal, head extraction, and counter-attack strategies against flexible opponents."
+description: "Gogoplata control top escape guide: systematic shin removal, head extraction mechanics, and counter-attack strategies. Submission risk: Beginner 50%, Advanced 20%."
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -115,7 +115,7 @@ description: "Master defending and escaping gogoplata control from top position 
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Gogoplata Control Top",
-  "description": "Master defending and escaping gogoplata control from top position including posture maintenance, shin removal, head extraction, and counter-attack strategies against flexible opponents.",
+  "description": "Gogoplata control top escape guide: systematic shin removal, head extraction mechanics, and counter-attack strategies. Submission risk: Beginner 50%, Advanced 20%.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -159,6 +159,8 @@ description: "Master defending and escaping gogoplata control from top position 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
+
+From the top position in Gogoplata Control, the practitioner faces one of BJJ's most dangerous defensive situations: a shin across the throat with their head trapped by the bottom player's foot behind it. Submission risk: Beginner 50%, Intermediate 35%, Advanced 20%. Escape to Closed Guard: Beginner 20%, Intermediate 35%, Advanced 55%. Risk level: High. Time sustainability: Short. Key principle: lateral head movement and foot removal first—pulling straight backward tightens the choke.
 
 From the top position in Gogoplata Control, the practitioner faces one of Brazilian Jiu-Jitsu's most technically challenging defensive situations. The bottom player has established a shin across the throat while securing their own foot behind the defender's head, creating a submission-control hybrid that severely limits conventional escape options. The top position defender must employ specific strategies to extract themselves from this anatomically compromising position without succumbing to the choke or exposing themselves to alternative attacks.
 
