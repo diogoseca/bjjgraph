@@ -4,11 +4,11 @@
 
 ---
 title: "Dead Orchard Control Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master Dead Orchard Control Bottom defense in BJJ. Systematic escape guide with survival techniques, breathing management, and recovery pathways from severely compromised position."
+description: "Escaping Dead Orchard Control bottom in BJJ: breathing under pressure, frame creation, hip escape mechanics, and guard recovery from this high-risk anaconda control position."
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -115,7 +115,7 @@ description: "Master Dead Orchard Control Bottom defense in BJJ. Systematic esca
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Dead Orchard Control Bottom",
-  "description": "Master Dead Orchard Control Bottom defense in BJJ. Systematic escape guide with survival techniques, breathing management, and recovery pathways from severely compromised position.",
+  "description": "Escaping Dead Orchard Control bottom in BJJ: breathing under pressure, frame creation, hip escape mechanics, and guard recovery from this high-risk anaconda control position.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -159,6 +159,8 @@ description: "Master Dead Orchard Control Bottom defense in BJJ. Systematic esca
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
+
+Dead Orchard Control Bottom is one of BJJ's most dangerous defensive positions: the practitioner is trapped in a modified front headlock with the opponent controlling head and arm while applying anaconda-style choke pressure. Risk level: High. Energy cost: High. Time sustainability: Short. Submission threats: anaconda, darce, guillotine, and back control. Escape to Closed Guard: Beginner 15%, Intermediate 25%, Advanced 40%. Survival priority: frame at neck first, then systematic hip escape—never bridge explosively.
 
 Dead Orchard Control Bottom represents one of the most disadvantageous positions in Brazilian Jiu-Jitsu, where the practitioner is trapped in a modified front headlock position with their opponent controlling both the head and an arm while applying significant pressure. This position is a variation of the anaconda and darce control family, named for its ability to systematically eliminate offensive options and leave the bottom player in a state of severe positional deficit. The bottom practitioner finds themselves with limited mobility, restricted breathing, and facing immediate submission threats from multiple angles including anaconda choke, darce choke, guillotine variations, and potential transitions to back control or mount. The crushing pressure applied by the top player makes this an extremely energy-draining position for the defender, requiring calm, technical responses rather than explosive escape attempts that often worsen the situation. Understanding the mechanics of Dead Orchard Control Bottom is essential for comprehensive defensive jiu-jitsu, as knowing the proper defensive frames, breathing techniques, and systematic escape sequences can mean the difference between tapping and surviving to recover guard. The position emphasizes the critical importance of preventing front headlock positions in the first place, as escaping once fully established requires significant technical knowledge, mental composure under pressure, and efficient energy management throughout the defensive sequence.
 

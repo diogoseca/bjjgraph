@@ -4,11 +4,11 @@
 
 ---
 title: "Dead Orchard Control | BJJ Position Guide | BJJ Graph"
-description: "Master Dead Orchard Control in BJJ. Strategic guide covering specialized anaconda variation with enhanced control mechanics, submission threats, and systematic defensive responses."
+description: "Dead Orchard Control in BJJ: 10th Planet's extended anaconda variation. Master grip setup, shoulder pressure, submission timing, and systematic escape strategies for both roles."
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 
@@ -17,6 +17,8 @@ description: "Master Dead Orchard Control in BJJ. Strategic guide covering speci
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
+
+Dead Orchard Control is an advanced anaconda choke variation from Eddie Bravo's 10th Planet system—a deep anaconda-style grip around the opponent's neck and arm combined with extended positional dominance rather than immediate submission. Difficulty: Advanced. Entry: Front Headlock and Turtle positions. Top position anaconda finish rates: Beginner 35%, Intermediate 55%, Advanced 75%. Top retention rate: Beginner 50%, Intermediate 65%, Advanced 80%. Effective in no-gi competition against defensive opponents.
 
 Dead Orchard Control represents an advanced positional control within Brazilian Jiu-Jitsu, particularly emphasized in Eddie Bravo's 10th Planet system. This position combines the structural control elements of the anaconda choke with strategic patience and extended dominance, creating a hybrid state between pure submission attempt and positional control. The name reflects the trapped, lifeless quality of the opponent's positioning - caught in a grip that systematically breaks down defensive capabilities while maintaining constant submission threat. Unlike standard anaconda setups that prioritize immediate finishing, Dead Orchard Control emphasizes sustainable pressure application and systematic dismantling of opponent defenses, allowing the practitioner to control timing and choose between maintaining position, advancing to more dominant states, or completing the submission. The position exists in both offensive and defensive contexts, with the top player working to maintain crushing pressure and submission mechanics while the bottom player must navigate a severely compromised defensive scenario with limited mobility and breathing restriction. Understanding both perspectives is essential for complete positional mastery, as the control mechanics, escape principles, and transition opportunities differ dramatically based on which role the practitioner occupies. This position demonstrates the evolution of modern grappling beyond simple submission hunting toward sophisticated positional dominance that creates multiple offensive pathways.
 
