@@ -4,11 +4,11 @@
 
 ---
 title: "Pocket Half Guard | BJJ Position Guide | BJJ Graph"
-description: "Master Pocket Half Guard in BJJ. Deep underhook half guard position with excellent offensive options from bottom and dominant control from top. Complete strategic guide."
+description: "What is pocket half guard in BJJ? Deep underhook half guard with 45%→75% sweep rate from bottom. Complete guide to old school sweep, back-takes, and passing defense."
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 
@@ -18,11 +18,29 @@ description: "Master Pocket Half Guard in BJJ. Deep underhook half guard positio
 
 <section id="overview" class="content-section">
 
-Pocket Half Guard is a specialized half guard variation defined by deep underhook control combined with tight shoulder connection in the opponent's 'pocket' - the space between hip and ribcage. This position emerged from modern half guard evolution as practitioners sought more offensive options while maintaining defensive integrity. The defining characteristic is the deep underhook that controls the opponent's far hip, combined with strategic shoulder positioning that creates a barrier against passes from bottom or flattening control from top.
+## What Is Pocket Half Guard in BJJ?
 
-From the bottom perspective, Pocket Half Guard excels at generating powerful sweeps and back-takes because the deep underhook compromises the opponent's base while tight leg control prevents them from advancing position. The 'pocket' refers to the space created by pulling the opponent's shoulder down with the underhook while using the bottom leg to create a frame against their near hip. This position gained prominence through Eddie Bravo's 10th Planet system and has been refined by competition specialists who recognize its effectiveness against pressure passers.
+**Pocket Half Guard** is a specialized [[Half Guard]] variation defined by a deep underhook on the opponent's far side combined with tight shoulder connection in the 'pocket'—the space between the hip and ribcage. This underhook creates two simultaneous threats: it compromises the opponent's base for sweeps and back-takes, while the bottom leg frames against their near hip to maintain the critical pocket space. Success rates from bottom: Old School Sweep Beginner 45%, Advanced 75%.
 
-From the top perspective, Pocket Half Guard Top represents a dominant pressure-passing position where the top player has secured underhook control while flattening the bottom player's half guard. The underhook provides a powerful control mechanism that nullifies defensive frames and sweep attempts. Modern practitioners have developed this into a cornerstone of pressure-passing systems, particularly effective against defensive guard players who rely on distance management. The position represents a critical strategic battleground where underhook depth, chest pressure, and crossface control determine the outcome.
+The 'pocket' refers to the space created by pulling the opponent's shoulder down with the underhook while the bottom leg creates a frame against their near hip. This position is a cornerstone of the [[10th Planet Half Guard Bottom System]] developed by Eddie Bravo, and has been refined by competition specialists as a highly effective tool against heavy pressure passers.
+
+## History of Pocket Half Guard in BJJ
+
+The modern [[Half Guard]] system was largely developed and popularized by Roberto 'Gordo' Correa in the 1990s when he used it to compete at high levels after a knee injury. Eddie Bravo later built on this foundation with his 10th Planet system, which includes Pocket Half Guard, [[Lockdown]], the [[Old School]] sweep, and the [[Electric Chair]] submission. Today, practitioners like Bernardo Faria, Tom DeBlass, and Eddie Cummings are known for their deep half guard games built on these foundations.
+
+## Pocket Half Guard vs Deep Half Guard: What Is the Difference?
+
+[[Half Guard]] traps one of your opponent's legs between yours while you remain on your side or back. [[Deep Half Guard]] takes this further by diving under your opponent's hips so your head is near their knee—more sweeps available but harder to maintain. **Pocket Half Guard** sits between these two: you stay on your side but use the deep underhook to control the opponent's upper body rotation, providing more offensive options than standard half guard with less exposure than deep half.
+
+## Pocket Half Guard vs Knee Shield Half Guard: Which to Use?
+
+**Pocket Half Guard** uses a deep underhook for control and generates sweeps through rotational leverage—best when you can secure the underhook before the opponent establishes chest pressure. [[Knee Shield Half Guard]] uses a framing knee between you and the opponent to manage distance and prevent flattening—better when the opponent is already driving forward and you need to create space first. Both are complementary tools in the half guard system.
+
+## Is Pocket Half Guard Good for Beginners?
+
+Pocket Half Guard is moderately accessible for beginners because it provides solid defensive structure while offering clear offensive options. The deep underhook requirement means beginners must first develop grip fighting skills. The [[Old School]] sweep (45% beginner success rate) and back-take (40%) are achievable early, making this a worthwhile investment for beginners willing to develop the [[Underhook Control]] fundamentals.
+
+From the top perspective, Pocket Half Guard Top represents a dominant pressure-passing position where the top player has secured underhook control while flattening the bottom player's half guard. The underhook provides a powerful control mechanism that nullifies defensive frames and sweep attempts—making this a cornerstone of modern pressure-passing systems.
 
 </section>
 
@@ -31,19 +49,19 @@ From the top perspective, Pocket Half Guard Top represents a dominant pressure-p
 ### Key Principles
 
 
-- Underhook depth is the primary control mechanism - shallow underhook compromises all advantages regardless of perspective
+- [[Underhook Control]] depth is the primary control mechanism—shallow underhook compromises all advantages from both bottom and top perspective
 
-- Pocket space from bottom creates sweeping leverage; pocket elimination from top enables passing control
+- Pocket space from bottom creates sweeping leverage for [[Old School]] and back-takes; pocket elimination from top enables [[Side Control]] passing
 
-- Hip mobility versus hip flattening defines the positional battle - bottom must stay mobile, top must flatten
+- Hip mobility versus hip flattening defines the positional battle: bottom must stay mobile to enable sweeps, top must flatten to pass
 
-- Crossface control is the critical secondary battle point determining defensive versus offensive capability
+- Crossface control is the critical secondary battle: losing crossface from top allows bottom to recover [[Knee Shield Half Guard]] and re-guard
 
-- Position serves as transitional hub for multiple high-percentage attacks rather than static holding position
+- Position serves as transitional hub for multiple high-percentage attacks—[[Old School]] sweep, [[Back Control]] back-take, [[Deep Half Guard]] entry, [[Electric Chair]] submission
 
-- Constant offensive threats from bottom keep opponent defensive; constant pressure from top prevents recovery
+- Constant offensive threats from bottom keep opponent defensive; constant pressure from top via chest weight and crossface prevents [[Deep Half Guard]] entry
 
-- Deep underhook combined with proper weight distribution creates fundamental strategic advantage for both perspectives
+- Deep underhook combined with active bottom-leg frame creates the 'pocket' pocket—stored rotational energy that powers sweeps and off-balancing
 
 
 </section>
@@ -78,19 +96,19 @@ From the top perspective, Pocket Half Guard Top represents a dominant pressure-p
 ### Key Principles
 
 
-- Maintain underhook depth at all costs - shallow underhook compromises all offensive options and allows opponent to establish dominant pressure
+- Maintain [[Underhook Control]] depth at all costs—shallow underhook compromises all offensive options and allows opponent to establish dominant chest pressure
 
-- Active bottom leg frame creates the 'pocket' space - passive leg allows opponent to flatten you and neutralize sweeping mechanics
+- Active bottom leg frame creates the 'pocket' space—passive leg allows opponent to flatten you and neutralize [[Old School]] sweep mechanics
 
-- Hip mobility is essential - being completely flattened destroys offensive potential and puts you at risk of being passed
+- Hip mobility is essential: being completely flattened destroys offensive potential and risks being passed to [[Side Control]] or [[Mount]]
 
-- Head pressure reinforces underhook control - pulling opponent's shoulder down with combined arm and head pressure prevents their escape
+- Head pressure reinforces underhook control—pulling opponent's shoulder down with combined arm and head pressure prevents their escape from the pocket
 
-- Use pocket space to generate rotational power - the gap created by bottom leg frame provides leverage for sweeps and off-balancing
+- Use pocket space to generate rotational power for [[Old School]] sweeps and [[Back Control]] back-takes; the gap provides leverage for off-balancing
 
-- Transition readiness to Deep Half or Old School - Pocket Half Guard serves as a hub position for multiple high-percentage attacks
+- Transition readiness to [[Deep Half Guard]] or [[Old School]]: Pocket Half Guard Bottom serves as a hub position for multiple high-percentage attacks including [[Electric Chair]]
 
-- Prevent crossface at all costs - opponent's crossface combined with underhook stripping leads to flattening and successful passing
+- Prevent crossface at all costs—opponent's crossface combined with underhook stripping leads to flattening and successful passing to [[Side Control]]
 
 
 ### Primary Techniques
@@ -155,17 +173,17 @@ From the top perspective, Pocket Half Guard Top represents a dominant pressure-p
 ### Key Principles
 
 
-- Maintain deep underhook position with constant pulling pressure toward your body, keeping the bottom player's shoulder elevated and preventing them from flattening to create defensive frames
+- Maintain deep [[Underhook Control]] with constant pulling pressure toward your body—keeping the bottom player's shoulder elevated prevents them from creating [[Defensive Framing]] frames
 
-- Apply consistent forward pressure through the chest and hips, driving weight into the opponent's torso to flatten the half guard and limit their mobility
+- Apply consistent forward pressure through the chest and hips, driving weight into the opponent's torso to flatten their [[Half Guard]] and eliminate the pocket space
 
-- Control the crossface angle with your head or free arm, preventing the bottom player from turning into you or establishing frames that could create distance
+- Control the crossface angle with your head or free arm, preventing the bottom player from turning into you to attempt [[D'arce Control]] or recover [[Knee Shield Half Guard]]
 
-- Keep your base wide and heavy, with knees positioned to prevent the bottom player from inserting additional hooks or recovering full guard
+- Keep your base wide and heavy with knees positioned to prevent bottom player from inserting additional hooks or transitioning to [[Deep Half Guard]]
 
-- Progress methodically toward the pass by first flattening the opponent completely, then systematically removing the trapped leg while maintaining all other control points
+- Progress methodically: first flatten the opponent completely, then systematically remove the trapped leg while maintaining all control points before advancing to [[Side Control]]
 
-- Coordinate pressure and movement to prevent the bottom player from coming to their side, which would allow them to establish better frames and potentially sweep or re-guard
+- Coordinate pressure and movement to prevent the bottom player from coming to their side—side-facing allows them to recover frames and potentially execute the [[Old School]] sweep counter
 
 
 ### Primary Techniques
