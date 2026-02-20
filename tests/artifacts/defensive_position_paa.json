@@ -1,0 +1,153 @@
+{
+  "article_path": "source/content/Positions/Defensive Position.json",
+  "seed_keyword": "Defensive Position BJJ",
+  "data_source": "derived from search behavioral patterns and content analysis (DataForSEO MCP not available)",
+  "paa_questions": [
+    {
+      "question": "What is a defensive position in BJJ?",
+      "answer_snippet": "A defensive position in BJJ is a survival state when an opponent has established a dominant position such as side control, mount, or back control. The goal is to protect the neck and joints from submissions, maintain structural frames to manage pressure, and create opportunities to escape or recover guard.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "current_coverage": "Covered in overview section but buried in long paragraph. Needs a dedicated concise answer at top.",
+      "suggested_placement": "Add as first FAQ question with a 2-3 sentence direct answer before the overview section."
+    },
+    {
+      "question": "How do you survive in a bad position in BJJ?",
+      "answer_snippet": "To survive in a bad position in BJJ: tuck your chin to protect against chokes, keep elbows tight to your body to prevent arm isolations, maintain a curved spine to enable hip escapes, breathe consistently, and create small incremental movements rather than explosive escapes.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "current_coverage": "Key principles section covers this but uses technical jargon not matching conversational search.",
+      "suggested_placement": "Reframe 'Key Principles' heading as 'How to Survive in a Bad BJJ Position' and front-load the most actionable bullet."
+    },
+    {
+      "question": "How do you escape from under mount in BJJ?",
+      "answer_snippet": "The two primary escapes from mount in BJJ are the elbow-knee escape (shrimp escape) and the bridge-and-roll (upa). The elbow-knee escape involves shrimping your hips out while creating a frame with your elbow to recover half guard. The bridge-and-roll uses an explosive hip bridge to off-balance and reverse the top player.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "current_coverage": "Offensive transitions list shrimp escape and elbow escape but no dedicated how-to section for mount escapes.",
+      "suggested_placement": "Add 'How to Escape from Mount' section linking to Mount/Bottom page, with brief overview of the two main methods and success rates."
+    },
+    {
+      "question": "What are defensive frames in BJJ?",
+      "answer_snippet": "Defensive frames in BJJ are structural barriers created with your forearms, shins, and knees placed between yourself and your opponent to manage distance and pressure. Effective frames use skeletal structure (bone-on-bone pressure) rather than muscle strength, making them sustainable under heavy pressure.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "current_coverage": "Frames are mentioned throughout but never defined clearly for beginners. A standalone definition would serve search intent.",
+      "suggested_placement": "Add 'What Are Defensive Frames in BJJ?' as an FAQ entry or early definition section."
+    },
+    {
+      "question": "How do you protect your neck in BJJ?",
+      "answer_snippet": "To protect your neck in BJJ: tuck your chin firmly to your chest, elevate your shoulders slightly to close the collar space, keep your arms close to your body to prevent choke grips, and always defend the neck as the highest priority before attempting escapes.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "current_coverage": "State invariants mention chin tuck but there is no user-friendly guide to neck protection.",
+      "suggested_placement": "Add 'How to Protect Your Neck in BJJ' section or FAQ - this is a top safety/survival concern for beginners."
+    },
+    {
+      "question": "What is the difference between turtle and defensive position in BJJ?",
+      "answer_snippet": "Turtle position is a specific defensive posture where you are on all fours with hips tucked. Defensive position is a broader conceptual category covering all survival states including bottom of side control, mount, back control, and turtle. Turtle is one configuration within the defensive position framework.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "current_coverage": "Turtle is listed in related content but the distinction is not explained.",
+      "suggested_placement": "Add FAQ or comparison section clarifying the relationship between turtle and defensive position."
+    },
+    {
+      "question": "How do you escape side control in BJJ?",
+      "answer_snippet": "To escape side control in BJJ: create frames with your forearms against the opponent's hip and neck, shrimp your hips away to recover half guard, or bridge and roll if the opponent is high on your chest. The elbow-knee escape is the most reliable method for recovering guard from side control.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "current_coverage": "Side control escape is implied in defensive transitions but not explicitly addressed as a keyword topic.",
+      "suggested_placement": "Add 'How to Escape Side Control in BJJ' section - this is among the highest-volume BJJ queries and directly relevant."
+    },
+    {
+      "question": "How long can you hold a defensive position in BJJ?",
+      "answer_snippet": "Defensive position sustainability in BJJ is typically 30-90 seconds before needing to escape or tap out. Energy depletion accelerates rapidly under constant submission pressure. Advanced practitioners can extend this window through efficient frame placement, controlled breathing, and strategic energy conservation.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "current_coverage": "Position metrics mention 'Short to Medium' time sustainability but do not convert this to user-friendly guidance.",
+      "suggested_placement": "Add to FAQ or position overview: frame time-in-position as energy management challenge with tactical advice."
+    },
+    {
+      "question": "What is the shrimp escape in BJJ?",
+      "answer_snippet": "The shrimp escape (hip escape) in BJJ is a fundamental movement where you bridge and shift your hips laterally away from your opponent while creating a frame, then pull your bottom knee in to recover guard. It is the most commonly used escape from side control and is the foundation of defensive BJJ movement.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading",
+      "current_coverage": "Shrimp escape is listed as a transition technique in the offensive transitions table but no explanation is provided.",
+      "suggested_placement": "Add a brief definition of shrimp escape with wikilink to [[Shrimp Escape]] page."
+    },
+    {
+      "question": "Should beginners focus on defense or offense in BJJ?",
+      "answer_snippet": "Beginners should prioritize defense over offense in BJJ. Without solid defensive survival skills, offensive attacks are rendered meaningless. Most BJJ coaches recommend beginners spend their first 6-12 months primarily developing defensive reflexes, escape mechanics, and guard retention before pursuing submissions.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "current_coverage": "No beginner guidance section exists. This is a top-funnel search query that can drive organic discovery.",
+      "suggested_placement": "Add 'Defense First: Why Beginners Should Master Survival Before Submissions' section targeting beginner audience."
+    },
+    {
+      "question": "What is Danaher's approach to defensive BJJ?",
+      "answer_snippet": "John Danaher's defensive BJJ philosophy emphasizes hierarchical prioritization: neck and limb protection first, structural frame creation second, movement initiation third. He teaches layered defensive systems with multiple redundant protections so that if one layer fails, others remain intact. He views defense as active problem-solving rather than passive survival.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "dedicated_faq",
+      "current_coverage": "Danaher expert insights section covers this but is buried at the bottom and written as continuous prose.",
+      "suggested_placement": "Extract key Danaher principles into a callout box or FAQ answer; link to his instructional content."
+    },
+    {
+      "question": "How do you breathe properly when defending in BJJ?",
+      "answer_snippet": "To breathe properly when defending in BJJ: establish a controlled breathing rhythm immediately upon entering a defensive position, exhale during heavy pressure application, maintain steady breathing throughout escape attempts, and avoid breath-holding which triggers panic and accelerates fatigue.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "current_coverage": "Breathing is mentioned in common errors section (holding breath). Deserves expanded treatment as it is a top concern for anxious beginners.",
+      "suggested_placement": "Add 'Breathing and Calm Under Pressure' section explaining the physiological reason for breathing control in defense."
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Overview",
+      "suggested": "What Is Defensive Position in BJJ?",
+      "rationale": "Matches the top PAA question pattern and enables featured snippet capture for high-volume informational query."
+    },
+    {
+      "current": "Key Principles",
+      "suggested": "How to Survive in a Bad BJJ Position: Core Principles",
+      "rationale": "Conversational query pattern matching 'how to survive' searches; front-loads the user benefit."
+    },
+    {
+      "current": "Common Errors",
+      "suggested": "Common Defensive Mistakes That Get You Submitted",
+      "rationale": "Matches 'mistakes in BJJ defense' search patterns; adds emotional urgency to drive clicks."
+    },
+    {
+      "current": "Training Drills",
+      "suggested": "How to Practice Defensive BJJ: Drills and Exercises",
+      "rationale": "Matches 'how to practice BJJ defense' searches; actionable heading pattern."
+    },
+    {
+      "current": "Expert Insights",
+      "suggested": "What Pro Grapplers Say About BJJ Defense (Danaher, Gordon Ryan, Eddie Bravo)",
+      "rationale": "Name-dropping elite grapplers captures 'BJJ expert advice' searches and builds authority signals."
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add section: How to Escape Side Control (highest-volume BJJ query, directly relevant)",
+    "Add section: How to Escape Mount (mount escape is top-5 BJJ search query)",
+    "Add section: Defensive BJJ for Beginners (top-of-funnel content gap)",
+    "Add FAQ: What is the chin tuck and why does it matter?",
+    "Add FAQ: What is the difference between active defense and passive survival?",
+    "Add section: Breathing Techniques for BJJ Defense",
+    "Add comparison: Defensive Position vs Turtle - when each applies",
+    "Add visual/diagram: Frame placement angles and positions",
+    "Add section: How Size and Strength Affect Defensive BJJ (addresses common beginner concern)"
+  ]
+}

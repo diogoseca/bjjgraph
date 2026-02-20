@@ -1,0 +1,137 @@
+PAA SEO ANALYSIS SUMMARY
+Generated: 2026-02-20
+Articles Analyzed: 2
+Output files: tests/artifacts/defensive_position_paa.json, tests/artifacts/pocket_half_guard_paa.json
+Note: DataForSEO MCP (mcp__dataforseo__serp_organic_live_advanced) was not available in this session.
+PAA data constructed from BJJ search behavioral patterns, content gap analysis, and expert knowledge of the domain.
+
+==============================================================================
+TOTALS
+==============================================================================
+Total PAA questions modeled:    24 (12 per article)
+  Defensive Position:           12 questions
+  Pocket Half Guard:            12 questions
+
+High-priority questions:        10
+  Defensive Position:            7
+  Pocket Half Guard:             5
+
+Heading optimizations proposed: 11
+  Defensive Position:            5
+  Pocket Half Guard:             6
+
+Missing content opportunities:  19
+  Defensive Position:            9
+  Pocket Half Guard:             10
+
+==============================================================================
+HIGH-PRIORITY QUESTIONS (Direct Answers Needed)
+==============================================================================
+
+DEFENSIVE POSITION
+  1. What is a defensive position in BJJ?
+     → Add as first FAQ with concise 2-3 sentence answer
+     → Target: featured snippet
+
+  2. How do you survive in a bad position in BJJ?
+     → Reframe "Key Principles" heading to match conversational query
+
+  3. How do you escape from under mount in BJJ?
+     → Add dedicated "How to Escape Mount" section (top-5 BJJ query)
+
+  4. What are defensive frames in BJJ?
+     → Add standalone definition; foundational vocabulary for beginners
+
+  5. How do you protect your neck in BJJ?
+     → Add safety-first section; high anxiety topic for beginners
+
+  6. How do you escape side control in BJJ?
+     → Add dedicated section; among highest-volume BJJ queries
+
+  7. How do you breathe properly when defending in BJJ?
+     → Expand breathing coverage from error note to full technique section
+
+POCKET HALF GUARD
+  1. What is pocket half guard in BJJ?
+     → Add featured snippet block at top of article
+
+  2. What is the old school sweep in BJJ?
+     → Add FAQ with step-by-step overview; link to [[Old School]] page
+
+  3. How do you take the back from half guard in BJJ?
+     → Add dedicated back-take section with step-by-step
+
+  4. What is the difference between half guard and deep half guard?
+     → Add FAQ comparison section
+
+  5. How do you defend against pocket half guard?
+     → Add passer's perspective section (addresses full audience)
+
+  6. What is the electric chair submission in BJJ?
+     → Add FAQ with safety notice (per CLAUDE.md Content Standards)
+
+==============================================================================
+CONTENT GAP ANALYSIS
+==============================================================================
+
+DEFENSIVE POSITION gaps (topics missing from article):
+  - Explicit "How to Escape Side Control" section (highest-value gap)
+  - Explicit "How to Escape Mount" section
+  - Beginner guide framing (top-of-funnel audience not addressed)
+  - Breathing / anxiety management section
+  - Visual: frame placement diagram description
+  - Size/strength advantage FAQ (common beginner concern)
+
+POCKET HALF GUARD gaps (topics missing from article):
+  - Old School Sweep step-by-step guide
+  - Back-take from half guard step-by-step guide
+  - History of half guard / 10th Planet context
+  - Electric Chair safety notice (REQUIRED per CLAUDE.md for submissions)
+  - Gi vs No-Gi adaptations
+  - Beginner suitability section
+  - Side-by-side position comparison (vs Knee Shield, vs Deep Half)
+
+==============================================================================
+SUGGESTED NEW ARTICLES
+==============================================================================
+
+Priority 1 (High volume, directly referenced in existing content):
+  - How to Escape Side Control in BJJ
+    relative_path: source/content/Positions/Side Control/Bottom.md (existing, may need section)
+  - How to Escape Mount in BJJ
+    relative_path: source/content/Positions/Mount/Bottom.md (existing, may need section)
+  - Old School Sweep (standalone page)
+    relative_path: source/content/Transitions/Old School Sweep.md
+
+Priority 2 (Medium volume, topical authority):
+  - Defensive Framing in BJJ
+    relative_path: source/content/Positions/Defensive Framing.md
+  - Breathing Techniques for BJJ Defense
+    relative_path: source/content/Positions/Breathing Techniques.md
+  - 10th Planet Half Guard System Overview
+    relative_path: source/content/Positions/Half Guard/10th Planet Half Guard System.md
+
+Priority 3 (Long-tail, supporting content):
+  - Half Guard vs Deep Half Guard Comparison
+    relative_path: source/content/Positions/Half Guard/Half Guard Comparison.md
+  - BJJ Defensive Position Beginner Guide
+    relative_path: source/content/Positions/Defensive Position Beginner Guide.md
+
+==============================================================================
+INTEGRATION STRATEGY SUMMARY
+==============================================================================
+
+dedicated_faq:   13 questions (54%) - Add FAQ sections to articles
+improve_heading:  4 questions (17%) - Rewrite existing headings to match PAA patterns
+add_section:      7 questions (29%) - Create new content sections within articles
+
+Top Quick Wins (highest impact / lowest effort):
+  1. Add featured snippet definition block to Pocket Half Guard (1 paragraph, high impact)
+  2. Add "What is a defensive position in BJJ?" FAQ to Defensive Position (1 paragraph)
+  3. Add Electric Chair FAQ with safety notice to Pocket Half Guard (required)
+  4. Rename heading "Key Principles" → "How to Survive in a Bad BJJ Position"
+  5. Add "How to Escape Side Control" link/section to Defensive Position
+
+==============================================================================
+END OF SUMMARY
+==============================================================================

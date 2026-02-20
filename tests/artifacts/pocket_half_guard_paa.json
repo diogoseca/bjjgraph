@@ -1,0 +1,159 @@
+{
+  "article_path": "source/content/Positions/Half Guard/Pocket Half Guard.json",
+  "seed_keyword": "Pocket Half Guard BJJ",
+  "data_source": "derived from search behavioral patterns and content analysis (DataForSEO MCP not available)",
+  "paa_questions": [
+    {
+      "question": "What is pocket half guard in BJJ?",
+      "answer_snippet": "Pocket half guard in BJJ is a specialized half guard variation where you secure a deep underhook on your opponent's far side while your bottom leg creates a frame against their hip, forming a 'pocket' of space. This position provides excellent sweep and back-take opportunities because the deep underhook compromises your opponent's base and balance.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "current_coverage": "The overview section defines it, but in dense prose. Needs a direct 2-3 sentence answer for featured snippet.",
+      "suggested_placement": "Add short definition block at very top of page before the overview: '**Pocket Half Guard** is...' for featured snippet targeting."
+    },
+    {
+      "question": "What is the old school sweep in BJJ?",
+      "answer_snippet": "The old school sweep is a half guard sweep where you use a deep underhook to pull your opponent's shoulder down and off-balance them backward, then hook their near leg and roll them over their shoulder. It is the primary offensive attack from pocket half guard and is highly effective against upright opponents.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "current_coverage": "Old School Sweep is listed in offensive transitions table but has no explanation.",
+      "suggested_placement": "Add 'What Is the Old School Sweep?' FAQ section with step-by-step overview and link to Old School page."
+    },
+    {
+      "question": "How do you take the back from half guard in BJJ?",
+      "answer_snippet": "To take the back from half guard in BJJ: secure a deep underhook, use the underhook to create a rotation away from your opponent, post your foot on the mat to establish an angle, then thread under their arm to come up behind them and secure back control with both hooks. Pocket half guard's deep underhook makes this back-take extremely efficient.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "current_coverage": "Back-take is listed as an offensive transition but no how-to detail is provided.",
+      "suggested_placement": "Add 'How to Take the Back from Pocket Half Guard' section with step-by-step instructions."
+    },
+    {
+      "question": "What is the difference between half guard and deep half guard?",
+      "answer_snippet": "Half guard traps one of your opponent's legs between yours while you remain largely on your side or back. Deep half guard takes this further by diving under your opponent's hips so your head is near their knee and you control them from underneath. Deep half guard allows more sweeps but requires more technique to maintain; half guard is easier to hold but has fewer direct sweep options.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "current_coverage": "Deep Half Guard is mentioned as a transition target but the distinction is not explained.",
+      "suggested_placement": "Add FAQ: 'Half Guard vs Deep Half Guard: What Is the Difference?' to help users understand the system."
+    },
+    {
+      "question": "How do you defend against pocket half guard?",
+      "answer_snippet": "To defend against pocket half guard from top: establish crossface control to prevent the opponent from creating underhook depth, use knee slide or smash pass mechanics before they secure the deep underhook, drive your hips forward and downward to flatten them, and strip their underhook grip by rotating your shoulder before they can secure it deep.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "current_coverage": "The top perspective (Pocket Half Guard Top) section covers this but is framed for the top player, not the defender looking to pass.",
+      "suggested_placement": "Add 'How to Pass Pocket Half Guard (Defensive Counter Strategies)' section explicitly addressing the passer's perspective."
+    },
+    {
+      "question": "What is the electric chair submission in BJJ?",
+      "answer_snippet": "The electric chair in BJJ is a leg entanglement submission originating from half guard or lockdown where you apply upward pressure on an opponent's trapped leg while creating a scissors-like extension force. It targets the hip, groin, and inner thigh and is applied when your opponent extends their trapped leg while you are in pocket half guard or lockdown.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "current_coverage": "Electric chair is listed as an offensive transition but has no description.",
+      "suggested_placement": "Add 'What Is the Electric Chair in BJJ?' FAQ with brief description and link to [[Electric Chair]] page."
+    },
+    {
+      "question": "What is the underhook in BJJ wrestling?",
+      "answer_snippet": "The underhook in BJJ is a control position where you thread your arm under the opponent's armpit and wrap around their back, giving you leverage over their shoulder and upper body rotation. In grappling, winning the underhook battle is critical in half guard, clinch, and takedown situations because it controls the opponent's posture and balance.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "current_coverage": "Underhook is used extensively throughout the article but never defined for beginners who may not know the term.",
+      "suggested_placement": "Add a tooltip or brief inline definition the first time 'underhook' appears, or a dedicated mini-FAQ."
+    },
+    {
+      "question": "What is the lockdown in 10th Planet BJJ?",
+      "answer_snippet": "The lockdown in 10th Planet BJJ is a leg control technique from half guard where you trap your opponent's leg with a figure-four leg configuration, preventing them from posturing up or passing. Developed by Eddie Bravo, the lockdown creates whipping leverage for sweeps like the old school and electric chair, and is a key entry point into the 10th Planet system.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "current_coverage": "Lockdown is mentioned in related positions but not explained.",
+      "suggested_placement": "Add 'What Is the Lockdown in BJJ?' FAQ with link to [[Lockdown]] page."
+    },
+    {
+      "question": "How do you get out of half guard top in BJJ?",
+      "answer_snippet": "To pass half guard from top position in BJJ: establish the crossface and underhook, drive your weight forward to flatten your opponent's hips, use knee slice or smash pass mechanics to extract your trapped leg, and complete the pass to side control. The key is eliminating the opponent's frames before attempting to free your leg.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading",
+      "current_coverage": "The Pocket Half Guard Top section covers this but the heading does not reflect the common search phrasing.",
+      "suggested_placement": "Reframe 'Pocket Half Guard Top' overview heading as 'How to Pass Pocket Half Guard: Top Position Guide'."
+    },
+    {
+      "question": "Who invented the half guard system in BJJ?",
+      "answer_snippet": "The modern half guard system in BJJ was largely developed and popularized by Roberto 'Gordo' Correa in the 1990s when he used it to compete at high levels. Eddie Bravo later built on this with his 10th Planet system, which includes pocket half guard, lockdown, and the electric chair. Today, practitioners like Bernardo Faria, Tom DeBlass, and Dean Lister are known for their half guard games.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "add_section",
+      "current_coverage": "No historical context. Eddie Bravo is mentioned in expert insights but the broader history of half guard is absent.",
+      "suggested_placement": "Add brief 'History of Half Guard in BJJ' section to build topical authority and answer this common PAA question."
+    },
+    {
+      "question": "Is pocket half guard good for beginners?",
+      "answer_snippet": "Pocket half guard is moderately accessible for beginners because it provides solid defensive structure while offering clear offensive options. The deep underhook requirement means beginners must first develop grip fighting skills. The old school sweep and back-take are achievable at beginner level (45% and 40% success rates respectively) making this a good investment for early-stage practitioners.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "current_coverage": "Position metrics exist in the JSON but are not surfaced as beginner guidance in the content.",
+      "suggested_placement": "Add 'Is Pocket Half Guard Right for You? Beginner Assessment' section using success rate data."
+    },
+    {
+      "question": "What is the difference between pocket half guard and knee shield half guard?",
+      "answer_snippet": "Pocket half guard uses a deep underhook for control and generates sweeps through rotational leverage. Knee shield half guard uses a framing knee between you and your opponent to manage distance and prevent flattening. Pocket half guard is more offensive when the underhook is secured; knee shield is more defensive and better for preventing the opponent from advancing position.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "current_coverage": "Knee Shield is listed as an alternative in related positions but no comparison is given.",
+      "suggested_placement": "Add 'Pocket Half Guard vs Knee Shield Half Guard: Which Is Better?' comparison FAQ."
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Overview (hub page)",
+      "suggested": "What Is Pocket Half Guard in BJJ? (Complete Guide)",
+      "rationale": "Direct answer to the top PAA question; 'Complete Guide' modifier captures long-tail navigational queries."
+    },
+    {
+      "current": "Key Principles",
+      "suggested": "How to Make Pocket Half Guard Work: Core Principles",
+      "rationale": "Converts abstract principles into actionable guidance; matches 'how to' search pattern."
+    },
+    {
+      "current": "Bottom - Overview",
+      "suggested": "Pocket Half Guard Bottom: How to Sweep and Take the Back",
+      "rationale": "Front-loads the two primary offensive goals; matches 'how to sweep from half guard' query pattern."
+    },
+    {
+      "current": "Top - Overview",
+      "suggested": "Pocket Half Guard Top: How to Pass and Finish from Underhook Control",
+      "rationale": "Addresses both the passing audience and the submission audience in one heading."
+    },
+    {
+      "current": "Common Errors (Bottom)",
+      "suggested": "Why Your Pocket Half Guard Isn't Working: Common Mistakes",
+      "rationale": "Emotional engagement; matches 'why isn't my half guard working' troubleshooting searches."
+    },
+    {
+      "current": "Expert Insights",
+      "suggested": "What Danaher, Gordon Ryan, and Eddie Bravo Say About Pocket Half Guard",
+      "rationale": "Name authority captures 'Danaher half guard' and 'Eddie Bravo half guard' branded searches."
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add section: Old School Sweep step-by-step breakdown (highest-value offensive technique from this position)",
+    "Add section: How to Take the Back from Pocket Half Guard",
+    "Add section: History of Half Guard and 10th Planet System",
+    "Add FAQ: What Is the Electric Chair Submission? (with safety notice per CLAUDE.md standards)",
+    "Add FAQ: Pocket Half Guard vs Knee Shield Half Guard - when to use each",
+    "Add FAQ: Half Guard vs Deep Half Guard - system overview",
+    "Add section: Beginner Guide to Pocket Half Guard (using success rate data)",
+    "Add section: How to Defend Against Pocket Half Guard (addresses both-side perspective)",
+    "Add diagram: Underhook depth illustration showing shallow vs deep underhook control",
+    "Add section: Common Gi vs No-Gi Adaptations for Pocket Half Guard"
+  ]
+}

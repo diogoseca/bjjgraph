@@ -8,7 +8,7 @@ description: "Master Pocket Half Guard Top in BJJ. Complete guide covering contr
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -160,9 +160,25 @@ description: "Master Pocket Half Guard Top in BJJ. Complete guide covering contr
 
 <section id="overview" class="content-section">
 
-Pocket Half Guard Top is a dominant pressure-passing position where the top player has secured underhook control while the bottom player's half guard is significantly flattened. This position is characterized by the top player's chest-to-chest pressure, crossface control, and the ability to apply crushing weight while systematically working to complete the pass. The 'pocket' refers to the tight space created where the top player's underhook traps the bottom player against their own legs, limiting mobility and creating a highly advantageous passing situation.
+## Pocket Half Guard Top: How to Pass and Finish from Underhook Control
 
-From this position, the top player enjoys significant control advantages, including the ability to flatten the opponent, prevent re-guard, and advance to side control or mount. The underhook provides a powerful control mechanism that nullifies many of the bottom player's defensive frames and sweep attempts. Modern BJJ practitioners have developed this position into a cornerstone of pressure-passing systems, particularly effective against defensive guard players who rely on distance management and frames. The position represents a critical junction in the half guard game where the top player has achieved sufficient control to begin finishing the pass with high percentage.
+**Pocket Half Guard Top** is a dominant pressure-passing position where the top player has secured [[Underhook Control]] while the bottom player's [[Half Guard]] is significantly flattened. This position is characterized by the top player's chest-to-chest pressure, crossface control, and the ability to apply crushing weight while systematically working to complete the pass to [[Side Control]] or [[Mount]]. Success rates: Knee Slice Pass Beginner 50%, Advanced 75%.
+
+The 'pocket' refers to the tight space created where the top player's underhook traps the bottom player against their own legs, limiting mobility and creating a highly advantageous passing situation. The top player enjoys significant control advantages: the ability to flatten the opponent, prevent re-guard, and advance with high probability. The underhook provides a powerful control mechanism that nullifies many defensive frames and sweep attempts—making this a cornerstone of modern pressure-passing systems.
+
+## How to Get Out of Half Guard Top: Step-by-Step Pass
+
+To complete the pass from Pocket Half Guard Top:
+
+1. **Establish deep underhook**: Thread your arm under the opponent's armpit to their far back—grip their far lat or shoulder blade for maximum control.
+2. **Apply chest pressure**: Drive your chest weight directly onto their torso, flattening their hips toward the mat and eliminating their pocket space.
+3. **Control crossface**: Use your free arm forearm across their jaw or near-shoulder to prevent them from turning into you or creating frames.
+4. **Widen your base**: Post your free leg wide to create a stable triangular base that resists sweep attempts.
+5. **Complete the knee slice**: Drive your trapped knee across their thigh toward the mat, then slide your leg free to achieve [[Side Control]]. Success: Beginner 50%, Advanced 75%.
+
+## Why Your Half Guard Passing Isn't Working: Common Causes
+
+The most common reason Pocket Half Guard Top passes fail: allowing space between your chest and the opponent's torso. This gap enables them to establish [[Knee Shield Half Guard]] frames, recover [[Deep Half Guard]], or attempt the [[Old School]] sweep counter. Second most common: not controlling the crossface angle, allowing them to turn into the underhook and threaten a [[D'arce Control]] setup on you.
 
 </section>
 
@@ -196,12 +212,12 @@ From this position, the top player enjoys significant control advantages, includ
 
 ## Key Offensive Principles
 
-- Maintain deep underhook position with constant pulling pressure toward your body, keeping the bottom player's shoulder elevated and preventing them from flattening to create defensive frames
-- Apply consistent forward pressure through the chest and hips, driving weight into the opponent's torso to flatten the half guard and limit their mobility
-- Control the crossface angle with your head or free arm, preventing the bottom player from turning into you or establishing frames that could create distance
-- Keep your base wide and heavy, with knees positioned to prevent the bottom player from inserting additional hooks or recovering full guard
-- Progress methodically toward the pass by first flattening the opponent completely, then systematically removing the trapped leg while maintaining all other control points
-- Coordinate pressure and movement to prevent the bottom player from coming to their side, which would allow them to establish better frames and potentially sweep or re-guard
+- Maintain deep [[Underhook Control]] with constant pulling pressure toward your body—keeping the bottom player's shoulder elevated prevents them from creating [[Defensive Framing]] frames
+- Apply consistent forward pressure through the chest and hips, driving weight into the opponent's torso to flatten their [[Half Guard]] and eliminate the pocket space
+- Control the crossface angle with your head or free arm, preventing the bottom player from turning into you to attempt [[D'arce Control]] or recover [[Knee Shield Half Guard]]
+- Keep your base wide and heavy with knees positioned to prevent bottom player from inserting additional hooks or transitioning to [[Deep Half Guard]]
+- Progress methodically: first flatten the opponent completely, then systematically remove the trapped leg while maintaining all control points before advancing to [[Side Control]]
+- Coordinate pressure and movement to prevent the bottom player from coming to their side—side-facing allows them to recover frames and potentially execute the [[Old School]] sweep counter
 
 
 </section>
@@ -432,7 +448,7 @@ Bottom player attempts specific escapes (deep half entry, turning into underhook
 ## Related Positions and Techniques
 
 - **[[Half Guard]]** - Parent position - broader category
-- **[[Pocket Half Guard Bottom]]** - Sibling variant - opposite perspective
+- **[[Pocket Half Guard]]** - Hub position - opposite perspective from bottom
 - **[[Side Control]]** - Common transition target - primary passing option
 - **[[Deep Half Guard]]** - Common defensive response - bottom player's primary escape
 - **[[Underhook Pass]]** - Primary offensive technique - key passing method
