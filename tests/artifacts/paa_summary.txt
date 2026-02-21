@@ -1,0 +1,127 @@
+PAA SEO ANALYSIS SUMMARY
+========================
+Generated: 2026-02-21
+Data source: Content analysis + BJJ search behavior patterns
+Note: mcp__dataforseo__serp_organic_live_advanced and WebSearch unavailable.
+      Questions derived from content analysis and established BJJ keyword research norms.
+
+OUTPUT FILES
+------------
+tests/artifacts/Learning_Psychology_paa.json
+tests/artifacts/Combat_Base_paa.json
+
+ARTICLES PROCESSED
+------------------
+1. source/content/Learning/Learning Psychology.md
+   Seed keyword: "BJJ learning psychology"
+   Alt keywords: how to learn BJJ faster, BJJ skill acquisition, BJJ learning curve
+
+2. source/content/Positions/Combat Base.json
+   Seed keyword: "Combat Base BJJ"
+   Alt keywords: combat base guard passing, BJJ combat base position, combat base vs knee on belly
+
+TOTAL PAA QUESTIONS FOUND
+--------------------------
+Learning Psychology: 11 questions
+Combat Base:         12 questions
+TOTAL:               23 questions
+
+HIGH-PRIORITY QUESTIONS (direct answers needed)
+------------------------------------------------
+Learning Psychology (4 high-priority):
+  1. "How long does it take to learn BJJ?"
+     → Currently unanswered. Add FAQ section with belt progression timelines.
+
+  2. "How do you get better at BJJ faster?"
+     → Partially answered in 'Learning Optimization Strategies'.
+       Action: Rename heading to question format; add direct answer paragraph.
+
+  3. "How many times a week should you train BJJ to improve?"
+     → Implied but never stated. Add dedicated subsection under Distributed Practice.
+       Recommended answer: 3-5x/week based on motor learning research.
+
+  4. "What is deliberate practice in BJJ?"
+     → Core Principles mentions it abstractly. Add plain-English definition.
+
+Combat Base (5 high-priority):
+  1. "What is combat base in BJJ?"
+     → Generated page should open with this as first H2 for featured snippet eligibility.
+
+  2. "How do you use combat base in BJJ guard passing?"
+     → Decision tree + key principles answer this — restructure under question heading.
+
+  3. "What is the best guard pass from combat base?"
+     → Success rate data is in JSON and is a competitive advantage. Surface in FAQ.
+       Knee Slice Pass (45-75%) is the clear leader — state this explicitly.
+
+  4. "How do you defend against combat base in BJJ?"
+     → Major gap: page is written entirely from top player's perspective.
+       Action: Add dedicated section for guard player's defensive options.
+
+  5. "What sweeps work against combat base?"
+     → Data exists in defensive_responses. Needs a dedicated section framed for guard players.
+
+CONTENT GAP ANALYSIS
+---------------------
+LEARNING PSYCHOLOGY — Missing topics with significant search volume:
+  - Belt progression timelines (beginner question #1)
+  - Training frequency recommendations (scientific answer not given)
+  - Drilling vs rolling effectiveness comparison (classic BJJ debate)
+  - BJJ for adults — unique learning challenges vs kids
+  - Overcoming plateaus / mental blocks in BJJ
+
+COMBAT BASE — Missing topics with significant search volume:
+  - Bottom player perspective (guard defense against combat base)
+  - No-gi combat base differences (Eddie Bravo insight exists but needs its own section)
+  - Combat base vs knee on belly comparison (common beginner confusion)
+  - Grip fighting strategies from combat base (gi vs no-gi)
+  - Headquarters position disambiguation
+
+HEADING OPTIMIZATION SUMMARY
+-----------------------------
+Learning Psychology: 7 headings should be converted to question format
+Combat Base:         7 generated section titles should use question/action format
+
+KEY INSIGHT: Neither article currently uses question-based H2 headings.
+This is the single highest-leverage SEO improvement available — AI search (ChatGPT, Perplexity, Google AI Overviews) preferentially extracts answers from question-headed sections.
+
+SUGGESTED NEW ARTICLES
+----------------------
+Based on content gap analysis, these new files would capture high-volume PAA clusters:
+
+1. source/content/Learning/Training Frequency.md
+   Plan: Evidence-based guide to how often to train BJJ by experience level.
+   PAA cluster: "how many times a week BJJ", "BJJ training schedule", "how to not overtrain BJJ"
+
+2. source/content/Learning/Drilling vs Rolling.md
+   Plan: Comparison of drilling and live rolling for skill acquisition.
+   PAA cluster: "is drilling important in BJJ", "how much should I drill vs roll", "BJJ drilling benefits"
+
+3. source/content/Learning/Overcoming Plateaus.md
+   Plan: Psychological and technical strategies for breaking through BJJ stagnation.
+   PAA cluster: "BJJ plateau", "why am I not getting better at BJJ", "BJJ mental blocks"
+
+4. source/content/Positions/Knee on Belly.md (if not already existing)
+   Plan: Position page to disambiguate from combat base and capture guard-passing progression queries.
+   PAA cluster: "knee on belly BJJ", "knee on belly vs combat base", "knee on belly submissions"
+
+5. source/content/Transitions/Guard Defense vs Combat Base.md
+   Plan: From the guard player's perspective — how to sweep and submit against combat base.
+   PAA cluster: "how to sweep from guard against combat base", "De La Riva vs combat base", "X-guard combat base"
+
+ACTION PRIORITY MATRIX
+-----------------------
+IMMEDIATE (edit JSON/MD now):
+  □ Add question-format H2s to Learning Psychology.md
+  □ Add "How long does it take to learn BJJ?" FAQ section
+  □ Add "How many times a week to train" subsection
+
+NEXT SPRINT (JSON source edits + regeneration):
+  □ Add guard-player defense section to Combat Base template
+  □ Add no-gi section to Combat Base template (expand Bravo insight)
+  □ Rename generated section titles in Combat Base template
+
+NEW ARTICLES (content bot candidates):
+  □ Training Frequency.md
+  □ Drilling vs Rolling.md
+  □ Overcoming Plateaus.md

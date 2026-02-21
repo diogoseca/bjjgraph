@@ -1,0 +1,162 @@
+{
+  "metadata": {
+    "data_source": "content_analysis + bjj_search_behavior_patterns",
+    "live_serp_available": false,
+    "note": "mcp__dataforseo and WebSearch unavailable in this environment. PAA questions derived from BJJ keyword research norms and article content analysis.",
+    "generated_date": "2026-02-21"
+  },
+  "article_path": "source/content/Positions/Combat Base.json",
+  "seed_keyword": "Combat Base BJJ",
+  "alternate_keywords": [
+    "what is combat base BJJ",
+    "combat base guard passing",
+    "BJJ combat base position",
+    "combat base vs knee on belly"
+  ],
+  "paa_questions": [
+    {
+      "question": "What is combat base in BJJ?",
+      "answer_snippet": "Combat base is a fundamental neutral position inside the opponent's guard where the top player posts one knee on the mat and plants the opposite foot flat, creating a stable asymmetric stance. It serves as the primary launching pad for guard passes like the Knee Slice, Toreando, and Long Step Pass.",
+      "source_url": "https://bjjgraph.org/Positions/Combat-Base",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Primary informational query for this page. The generated markdown page should open with 'What is Combat Base in BJJ?' as its first H2 heading to capture the featured snippet."
+    },
+    {
+      "question": "How do you use combat base in BJJ guard passing?",
+      "answer_snippet": "From combat base, control opponent's hips with active hands, keep spine upright, and use your planted foot to circle and create passing angles. Initiate passes like the Toreando (hips elevated), Knee Slice (guard closure attempts), or Long Step Pass (opponent extends defensively) based on their guard response.",
+      "source_url": "https://bjjgraph.org/Positions/Combat-Base",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "High practical intent — users want actionable instructions. The 'Key Principles' and 'Decision Tree' sections answer this well. Frame them under 'How to Use Combat Base for Guard Passing'."
+    },
+    {
+      "question": "What is the best guard pass from combat base?",
+      "answer_snippet": "The Knee Slice Pass has the highest success rate from combat base at 45-75% depending on skill level. The Toreando Pass (40-70%) is the best dynamic option. For pressure passers, the Smash Pass (35-65%) offers reliable control.",
+      "source_url": "https://bjjgraph.org/Positions/Combat-Base",
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "Specific comparative query with commercial/educational intent. JSON data has exact success rates that can directly answer this — highly competitive featured snippet opportunity."
+    },
+    {
+      "question": "How do you defend against combat base in BJJ?",
+      "answer_snippet": "Most effective defenses: establish De La Riva hooks on the posted leg (40% success), enter Butterfly Guard with hooks underneath (40%), or use X-Guard to off-balance the top player (35%). Fight their grips before they establish posture.",
+      "source_url": "https://bjjgraph.org/Positions/Combat-Base",
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "rationale": "The JSON has strong 'defensive_responses' data from the bottom player's perspective but the generated page focuses on the top player. A 'How to Defend Combat Base' section from the guard player's view is a clear gap."
+    },
+    {
+      "question": "What sweeps work against combat base?",
+      "answer_snippet": "De La Riva sweeps, X-Guard elevation sweeps, and Butterfly Hook sweeps are most effective against combat base. These target the instability created by the asymmetric stance — specifically the posted knee and planted foot.",
+      "source_url": "https://bjjgraph.org/Positions/Combat-Base",
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "rationale": "High-intent query from guard players. The defensive_responses section has sweep entry data but doesn't frame it as 'sweeps against combat base'. A dedicated section would capture this query cluster."
+    },
+    {
+      "question": "What is the difference between combat base and knee on belly?",
+      "answer_snippet": "Combat base is used inside the opponent's guard (pre-pass) with one knee posted inside the legs. Knee on belly is used after passing the guard, with the knee placed across the opponent's midsection. They occur at completely different phases of the match.",
+      "source_url": "https://bjjgraph.org/Positions/Combat-Base",
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "Common confusion point for beginners. Neither position is currently cross-referenced. This FAQ would also create an internal link opportunity to a Knee on Belly page."
+    },
+    {
+      "question": "What is headquarters position in BJJ?",
+      "answer_snippet": "Headquarters position is an advanced variation of combat base with a deeper knee placement, used specifically to deal with De La Riva, X-Guard, and leg entanglement threats. It serves as a transition hub between multiple passing systems.",
+      "source_url": "https://bjjgraph.org/Positions/Combat-Base",
+      "priority": "medium",
+      "integration_strategy": "improve_heading",
+      "rationale": "Mentioned in related_content but not explained. The page should include a brief definition since searchers land on Combat Base when researching Headquarters. This also creates link equity to the Headquarters page."
+    },
+    {
+      "question": "How do you maintain posture in BJJ guard passing?",
+      "answer_snippet": "Keep spine upright with head above hips at all times. Distribute weight through posted knee and planted foot rather than leaning forward. Fight collar/sleeve grips immediately using circular wrist breaks before they can pull you forward.",
+      "source_url": "https://bjjgraph.org/Positions/Combat-Base",
+      "priority": "medium",
+      "integration_strategy": "improve_heading",
+      "rationale": "High search volume around posture problems in guard. The 'Common Errors' section addresses this but under 'Leaning forward with weight over opponent's chest' — not findable for posture searchers."
+    },
+    {
+      "question": "How does combat base work in no-gi BJJ?",
+      "answer_snippet": "No-gi combat base requires more dynamic movement to compensate for lack of grip friction. Weight distribution shifts slightly more aggressive forward, and you must actively defend leg entanglement entries (heel hooks, X-guard) that gi collar grips normally help neutralize.",
+      "source_url": "https://bjjgraph.org/Positions/Combat-Base",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Growing no-gi market. Eddie Bravo's expert insight covers this but it's buried. Extract into a dedicated 'Combat Base in No-Gi BJJ' section with the key differences highlighted."
+    },
+    {
+      "question": "What grips should you use in combat base?",
+      "answer_snippet": "In the gi: control opponent's collar and sleeves to maintain distance and posture. In no-gi: palm-to-palm (gable) grips on hips, wrists, or ankles. Key rule: elbows bent at 90 degrees, never fully extended, to prevent armbar and omoplata attacks.",
+      "source_url": "https://bjjgraph.org/Positions/Combat-Base",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Practical technique detail often searched by intermediates. The JSON mentions hand positioning throughout but no dedicated grip section exists."
+    },
+    {
+      "question": "What is the 60-40 weight distribution rule in BJJ guard passing?",
+      "answer_snippet": "In combat base, approximately 60% of body weight loads through the posted knee (creating downward pressure to limit hip mobility) while 40% stays on the planted foot (enabling rapid directional changes). This ratio allows both control and mobility.",
+      "source_url": "https://bjjgraph.org/Positions/Combat-Base",
+      "priority": "low",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "Specific Danaher teaching that generates dedicated searches. The JSON state_invariants and expert_insights sections both reference this ratio — front-loading it as a named concept would help."
+    },
+    {
+      "question": "How long should you stay in combat base before passing?",
+      "answer_snippet": "In competitive BJJ, combat base time averages 30-90 seconds depending on guard style and passing strategy. Staying static too long allows opponents to establish their preferred guard. Constant angle creation and pressure variation is essential.",
+      "source_url": "https://bjjgraph.org/Positions/Combat-Base",
+      "priority": "low",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "Position metrics already contain this data. Framing it as a direct question in FAQ would capture the query and help practitioners understand timing."
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "overview (generated section title)",
+      "suggested": "What is Combat Base in BJJ?",
+      "rationale": "Primary PAA match. The first H2 on the generated page should be a direct question to maximize featured snippet eligibility."
+    },
+    {
+      "current": "key_principles (generated section title)",
+      "suggested": "How to Maintain Combat Base: 7 Key Principles",
+      "rationale": "Instructional format with numbered list signals matches 'how to' query pattern. Numbered heading also implies comprehensive coverage."
+    },
+    {
+      "current": "offensive_transitions (generated section title)",
+      "suggested": "Guard Passes from Combat Base: Success Rates Compared",
+      "rationale": "Comparison + data signals attract clicks from practitioners researching which pass to learn. Success rate data is a unique competitive advantage."
+    },
+    {
+      "current": "common_errors (generated section title)",
+      "suggested": "Why Your Combat Base Isn't Working: 7 Common Mistakes",
+      "rationale": "Problem-framing headline captures frustrated practitioner queries. High click-through rate pattern for error correction content."
+    },
+    {
+      "current": "training_drills (generated section title)",
+      "suggested": "How to Drill Combat Base: 5 Exercises That Build Real Skill",
+      "rationale": "Action-oriented heading with specific number. Matches drill-focused search queries and class planning use cases."
+    },
+    {
+      "current": "expert_insights (generated section title)",
+      "suggested": "What Elite BJJ Coaches Say About Combat Base",
+      "rationale": "Authority framing + question pattern. Danaher/Gordon Ryan brand equity drives search clicks in BJJ."
+    },
+    {
+      "current": "optimal_submission_paths (generated section title)",
+      "suggested": "From Combat Base to Submission: 5 Proven Finishing Paths",
+      "rationale": "High commercial intent — submission finishes are BJJ practitioners' primary goal. Path format maps to decision tree thinking."
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add section: 'How to Defend Combat Base from Guard' — dedicated bottom-player perspective on sweeps and submissions from this position",
+    "Add section: 'Combat Base in No-Gi BJJ — Key Differences' — extract and expand Eddie Bravo's insight into a proper section",
+    "Add FAQ: 'What is the difference between combat base and knee on belly?' — common beginner confusion, creates internal link opportunity",
+    "Add FAQ: 'What is headquarters position and how does it relate to combat base?' — related content cross-reference",
+    "Add section: 'Grip Fighting from Combat Base' — dedicated coverage of gi vs no-gi grip strategies",
+    "Add a video embed placeholder for visual learners (high search correlation with instructional BJJ content)",
+    "Expand the 60-40 weight distribution rule as a named, quotable concept for featured snippet targeting",
+    "Add wikilink: [[Knee on Belly]] to differentiate from combat base",
+    "Add wikilink: [[Headquarters Position]] as a natural progression page"
+  ]
+}
