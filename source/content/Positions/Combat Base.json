@@ -1,6 +1,6 @@
 {
     "name": "Combat Base",
-    "description": "Master Combat Base in BJJ. Essential neutral position for guard passing with 70% retention rate. Complete guide covering control principles and passing entries.",
+    "description": "What is Combat Base in BJJ? The primary guard-passing stance: one knee posted, opposite foot planted. Retention rate 50-80%. Includes passing entries, success rates, and drills.",
     "tags": [
         "bjj",
         "position",
@@ -11,7 +11,7 @@
         "guard-control"
     ],
     "variant_uniqueness": "Asymmetric stance balances mobility with base",
-    "overview": "Combat Base is a fundamental neutral position in Brazilian Jiu-Jitsu where the practitioner establishes a stable, mobile platform inside the opponent's guard. The position is characterized by one knee posted on the mat and the opposite foot planted flat, creating a triangulated base that allows for effective weight distribution, posture maintenance, and guard passing opportunities. This position serves as the primary platform for initiating most standing and kneeling guard passes while providing strong defensive structure against sweeps and submission attempts.\n\nCombat Base represents the critical transition point between simply being inside the opponent's guard and actively working to pass. The position balances offensive pressure with defensive stability, allowing the top practitioner to control distance, break grips, and create passing angles while remaining resistant to the bottom player's attacks. The asymmetrical stance—with one knee down and one foot planted—provides mobility for circling, stepping, and pressure application while maintaining a low center of gravity that prevents being swept or elevated.\n\nMastery of Combat Base is essential for all guard passing systems, as it forms the foundation from which techniques like the Toreando Pass, Knee Slice Pass, and Long Step Pass are initiated. The position emphasizes proper weight distribution through the posted knee and planted foot, active hand positioning to control the opponent's hips and legs, and dynamic posture that can shift between offensive pressure and defensive structure. Understanding Combat Base mechanics is crucial for developing a well-rounded top game and effective guard passing strategy.",
+    "overview": "Combat Base is a fundamental neutral position in Brazilian Jiu-Jitsu where the top practitioner kneels with one knee posted on the mat and the opposite foot planted flat inside the opponent's [[Open Guard]]. This asymmetric triangulated stance creates the primary platform for guard passing: stable enough to resist sweeps, mobile enough to create passing angles. Retention rate ranges from 50% (beginner) to 80% (advanced). Most guard passes — including the [[Knee Slice Pass]], [[Toreando Pass]], and [[Long Step Pass]] — are initiated from Combat Base.\n\nCombat Base is not the same as [[Knee on Belly]]. Knee on Belly is a dominant control position used after the guard has been passed. Combat Base is a neutral passing stance used while still inside the guard. This is a critical distinction for understanding the BJJ positional hierarchy.\n\nThe **60-40 weight distribution rule** defines Combat Base mechanics: approximately 60% of body weight loads through the posted knee, creating downward pressure that limits the opponent's hip mobility, while 40% stays on the planted foot to enable rapid directional changes. The upright posture is non-negotiable — forward lean places the head and arms within the opponent's submission range and compromises structural integrity against [[De La Riva Guard]], [[X-Guard]], and [[Butterfly Guard]] sweeps.\n\nMastery of Combat Base is essential for all [[Guard Passing]] systems. The position forms the foundation from which [[Headquarters Position]] (a deeper, more specialized variation) also originates. Understanding Combat Base mechanics — and the transition to [[Headquarters Position]] when dealing with leg entanglement threats — is crucial for developing a complete top game across both gi and no-gi contexts.",
     "state_properties": {
         "point_value": 0,
         "position_type": "Neutral",
@@ -35,13 +35,13 @@
         "Maintained upright posture with proper head and spine alignment to prevent chokes"
     ],
     "key_principles": [
-        "Maintain triangulated base with posted knee, planted foot, and hips forming stable geometric structure resistant to multi-directional forces",
-        "Keep spine upright and head positioned above hips to prevent forward collapse and maintain structural integrity against pulling attacks",
-        "Distribute weight dynamically between posted knee and planted foot based on passing direction and opponent reactions to maintain balance",
-        "Control opponent's hips and legs with active hand positioning to manage distance and prevent guard retention or re-closure",
-        "Use planted foot to generate mobility for circling, stepping, and angle creation while maintaining base stability during movement",
-        "Keep elbows tight to body and avoid overextending arms to prevent armbars, omoplatas, and triangle setups",
-        "Adjust stance width and knee position based on opponent's guard type and defensive strategy to optimize passing angles"
+        "Triangulated base: posted knee, planted foot, and elevated hips form a geometric structure that resists multi-directional sweep forces — this is why Combat Base is more stable than both knees down",
+        "Posture first: keep spine upright with head above hips at all times. Forward collapse places you in submission range for [[Triangle Choke]], [[Armbar from Guard]], and [[Omoplata from Guard]]",
+        "60-40 weight distribution: load 60% through posted knee (controls opponent's hip mobility) and 40% on planted foot (enables rapid directional change for passing). This ratio is the mechanical foundation of effective Combat Base",
+        "Active grip management: control opponent's hips and legs with bent-elbow hand positioning. Fight collar and sleeve grips immediately — giving the bottom player strong grips leads directly to posture breaks and sweep setups",
+        "Constant movement: use the planted foot to continuously circle, create new angles, and vary pressure. Static Combat Base allows the bottom player to establish their preferred guard — [[De La Riva Guard]], [[Butterfly Guard]], or [[X-Guard]]",
+        "Elbow discipline: keep elbows bent at approximately 90 degrees and inside your knees. Fully extended arms create immediate vulnerability to [[Armbar from Guard]], [[Kimura from Guard]], and [[Omoplata from Guard]]",
+        "Stance adaptation: adjust knee position and stance width based on the guard type you're facing. Wider for [[Butterfly Guard]] hook threats; more angled for [[De La Riva Guard]] entries; narrow and forward for pressure passing sequences"
     ],
     "offensive_transitions": [
         {
@@ -392,6 +392,14 @@
         {
             "name": "Leg Drag Position",
             "relationship": "Transition target - Alternative passing position from combat base against hooks"
+        },
+        {
+            "name": "Knee on Belly",
+            "relationship": "Commonly confused with combat base - Knee on Belly is a post-pass dominant position; Combat Base is a pre-pass neutral stance inside the guard"
+        },
+        {
+            "name": "Guard Passing System Overview",
+            "relationship": "Parent system - Combat Base is the foundational stance for all guard passing sequences"
         }
     ],
     "position_metrics": {

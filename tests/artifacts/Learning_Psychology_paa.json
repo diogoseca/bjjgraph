@@ -1,0 +1,153 @@
+{
+  "metadata": {
+    "data_source": "content_analysis + bjj_search_behavior_patterns",
+    "live_serp_available": false,
+    "note": "mcp__dataforseo and WebSearch unavailable in this environment. PAA questions derived from BJJ keyword research norms and article content analysis.",
+    "generated_date": "2026-02-21"
+  },
+  "article_path": "source/content/Learning/Learning Psychology.md",
+  "seed_keyword": "BJJ learning psychology",
+  "alternate_keywords": [
+    "how to learn BJJ faster",
+    "BJJ skill acquisition",
+    "BJJ learning curve",
+    "how to get better at BJJ"
+  ],
+  "paa_questions": [
+    {
+      "question": "How long does it take to learn BJJ?",
+      "answer_snippet": "Most practitioners reach blue belt in 1-2 years of consistent training (3x/week). Black belt typically takes 10+ years. Rate depends heavily on training frequency, deliberate practice quality, and instructor quality.",
+      "source_url": "https://bjjgraph.org/Learning/Learning-Psychology",
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "Extremely high search volume. Article currently has no explicit answer. Decision Framework section can be extended to address this."
+    },
+    {
+      "question": "How do you get better at BJJ faster?",
+      "answer_snippet": "Key accelerators: train 4-5x per week, use spaced repetition for technique review, add deliberate drilling sessions targeting specific weaknesses, drill with resistance, keep a technique journal, and teach what you learn to others.",
+      "source_url": "https://bjjgraph.org/Learning/Learning-Psychology",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "High intent. Article's 'Learning Optimization Strategies' section directly answers this but the heading is not conversational. Rename to 'How to Get Better at BJJ Faster: Proven Strategies'."
+    },
+    {
+      "question": "How many times a week should you train BJJ to improve?",
+      "answer_snippet": "Research on motor learning suggests 3-5 sessions per week optimizes skill retention via the distributed practice effect. Less than 2x/week results in significant skill decay between sessions.",
+      "source_url": "https://bjjgraph.org/Learning/Learning-Psychology",
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "rationale": "Top-5 BJJ question by search volume. Article's 'Distributed Practice Effect' principle mentions this concept but never gives a direct answer. Add a dedicated subsection."
+    },
+    {
+      "question": "What is deliberate practice in BJJ?",
+      "answer_snippet": "Deliberate practice in BJJ is targeted, feedback-rich drilling focused on specific weaknesses rather than repeating techniques you already know. It requires full concentration, immediate feedback, and effort just beyond your comfort zone.",
+      "source_url": "https://bjjgraph.org/Learning/Learning-Psychology",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "High educational intent — matches the 'Deliberate Practice' core principle. Rename the Core Principles section to use question-based subheadings for each principle."
+    },
+    {
+      "question": "What is spaced repetition in BJJ training?",
+      "answer_snippet": "Spaced repetition in BJJ means reviewing techniques at increasing intervals — immediately after learning, then 24 hours later, 1 week later, 1 month later — to exploit the spacing effect and prevent skill decay.",
+      "source_url": "https://bjjgraph.org/Learning/Learning-Psychology",
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "Growing interest as BJJ practitioners encounter the concept via apps like Anki. The Distributed Practice Effect and Spaced Repetition System sections cover this but lack definition clarity."
+    },
+    {
+      "question": "How do you remember BJJ techniques?",
+      "answer_snippet": "Most effective methods: retrieval practice (test yourself without notes), teach techniques to a partner, keep a detailed technique journal, create conceptual maps linking related positions, and use visualization/mental rehearsal before sleep.",
+      "source_url": "https://bjjgraph.org/Learning/Learning-Psychology",
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "Very practical question that matches 'Retrieval Practice' and 'Dual Coding Theory' principles. Article describes these in abstract terms — a direct FAQ answer would capture this intent."
+    },
+    {
+      "question": "Does BJJ make you smarter or improve cognitive function?",
+      "answer_snippet": "BJJ training develops attentional control, working memory, pattern recognition, and problem-solving under pressure. The Neurological Basis section of this framework details motor cortex development, myelination, and improved attentional network efficiency.",
+      "source_url": "https://bjjgraph.org/Learning/Learning-Psychology",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Rising search trend. Article has a 'Neurological Basis' section that partially answers this but doesn't frame it as a cognitive benefit. Add a short intro to that section framing it as a question."
+    },
+    {
+      "question": "What is the BJJ learning curve like for beginners?",
+      "answer_snippet": "BJJ beginners experience a steep initial curve due to high cognitive load — new vocabulary, unfamiliar body positions, and complex motor patterns all simultaneously. Progress feels rapid in the first 6 months then slows as techniques become more situational.",
+      "source_url": "https://bjjgraph.org/Learning/Learning-Psychology",
+      "priority": "medium",
+      "integration_strategy": "improve_heading",
+      "rationale": "Common beginner concern. Article's 'Developmental Metrics: Beginner' section addresses this but isn't framed for someone searching about the learning curve. Rename and restructure."
+    },
+    {
+      "question": "Is drilling or rolling more effective for improving BJJ?",
+      "answer_snippet": "Both are necessary but serve different purposes. Drilling develops accurate motor patterns through conscious repetition; rolling tests transfer under pressure via reinforcement learning. Optimal learning uses drilling for acquisition and rolling for stress-testing, following contextual interference principles.",
+      "source_url": "https://bjjgraph.org/Learning/Learning-Psychology",
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "Classic BJJ debate with high engagement. Article's concepts (Contextual Interference, Retrieval Practice) directly address this but the article never states the answer explicitly."
+    },
+    {
+      "question": "What does the Danaher system teach about learning BJJ?",
+      "answer_snippet": "John Danaher emphasizes conceptual understanding as the foundation for technical development. He prioritizes verbalizing principles, building systematic frameworks, and rational decision-making over rote memorization of techniques.",
+      "source_url": "https://bjjgraph.org/Learning/Learning-Psychology",
+      "priority": "low",
+      "integration_strategy": "improve_heading",
+      "rationale": "Danaher has dedicated fan searches. Article has an 'Expert Insights: Danaher System' section that answers this well — improve heading to 'What Does Danaher Teach About Learning BJJ?'."
+    },
+    {
+      "question": "What is chunking in martial arts learning?",
+      "answer_snippet": "Chunking is the cognitive process of grouping individual techniques into meaningful patterns — e.g., remembering a guard pass as a single 'Toreando' concept rather than 12 separate movement steps. Expert practitioners perceive entire position states as single chunks.",
+      "source_url": "https://bjjgraph.org/Learning/Learning-Psychology",
+      "priority": "low",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "Lower volume but high educational value for practitioners studying learning science. Article mentions 'Chunking and Pattern Recognition' in Core Principles without defining it plainly."
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Framework Description",
+      "suggested": "What Is Learning Psychology in BJJ?",
+      "rationale": "Top-level PAA match. Conversational question pattern outperforms generic label headings in AI-assisted search results."
+    },
+    {
+      "current": "Core Principles",
+      "suggested": "What Are the Core Principles of BJJ Skill Acquisition?",
+      "rationale": "Direct match to 'BJJ skill acquisition principles' query cluster. Adds context that these are BJJ-specific."
+    },
+    {
+      "current": "Learning Optimization Strategies",
+      "suggested": "How to Get Better at BJJ Faster: Evidence-Based Strategies",
+      "rationale": "High-volume head keyword match. 'Evidence-based' signals quality and differentiates from opinion content."
+    },
+    {
+      "current": "Common Mistakes",
+      "suggested": "Why Am I Not Getting Better at BJJ? Common Learning Mistakes",
+      "rationale": "Maps to frustrated intermediate practitioner query pattern. High click-intent."
+    },
+    {
+      "current": "Neurological Basis",
+      "suggested": "How Does BJJ Training Change Your Brain?",
+      "rationale": "High curiosity query. Engages both BJJ practitioners and people researching martial arts cognitive benefits."
+    },
+    {
+      "current": "Training Progressions",
+      "suggested": "What Are the Stages of BJJ Learning? A Framework for Progression",
+      "rationale": "Matches 'BJJ belt progression' and 'stages of learning BJJ' query patterns."
+    },
+    {
+      "current": "Expert Insights",
+      "suggested": "What Do Elite BJJ Coaches Teach About Learning Faster?",
+      "rationale": "Authority signal + question format. Captures searches for coach-specific methodology."
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add FAQ section: 'How long does it take to reach blue/purple/brown/black belt?' with realistic timelines",
+    "Add section: 'How Many Times Per Week Should I Train BJJ?' with research-backed frequency recommendations",
+    "Add section: 'Drilling vs Rolling — Which Makes You Better Faster?' with evidence-based comparison",
+    "Add section: 'BJJ for Adults vs Kids — How Learning Differs' (growing search segment)",
+    "Add section: 'Mental Blocks in BJJ — How to Overcome Plateaus' (maps to frustrated practitioner queries)",
+    "Add assessment tool: quick self-test to identify your current learning phase (beginner/intermediate/advanced/expert)",
+    "Add wikilink cross-references: connect to specific Position pages as examples of position isolation training",
+    "Add practical template: 'BJJ Technique Journal Template' based on the Technique Journaling training approach"
+  ]
+}
