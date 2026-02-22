@@ -1,0 +1,170 @@
+{
+  "article_path": "source/content/Learning/BJJ Positions Complete Guide.md",
+  "seed_keyword": "BJJ Positions Complete Guide",
+  "data_source": "synthesized_from_domain_knowledge",
+  "data_source_note": "Live SERP fetch unavailable (WebFetch/WebSearch permissions not granted; DataForSEO MCP not present). PAA questions synthesized from known BJJ search patterns, competitor SERP structures, and AI-era conversational query trends.",
+  "paa_questions": [
+    {
+      "question": "What are the basic positions in BJJ?",
+      "answer_snippet": "The fundamental BJJ positions are Closed Guard, Half Guard, Side Control, Mount, Back Control, and North-South. Each represents a different control level, with Back Control and Mount awarding the most points (4) in competition.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "Highest-volume beginner query. Current guide covers this but the H2 'Understanding Positional Hierarchy' does not front-load the named list. Consider adding a direct answer box paragraph immediately after the H2."
+    },
+    {
+      "question": "What position gives the most points in BJJ?",
+      "answer_snippet": "Mount and Back Control each award 4 points in BJJ competition. They represent the highest level of positional dominance and are the hardest to achieve and maintain.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "Directly maps to 'The Point Value System' section. Rename H2 to 'How Many Points Does Each BJJ Position Score?' for PAA match."
+    },
+    {
+      "question": "How do BJJ positions work?",
+      "answer_snippet": "BJJ positions are hierarchical control states where the top player tries to improve their position while the bottom player escapes or sweeps. Points are awarded for achieving dominant positions and holding them for 3 seconds.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Very broad educational query. Strong candidate for a dedicated FAQ section at the bottom of the guide."
+    },
+    {
+      "question": "What is the hierarchy of positions in BJJ?",
+      "answer_snippet": "From most to least dominant: Back Control (4 pts) > Mount (4 pts) > Knee on Belly (3 pts) > Side Control (3 pts) > Guard Pass (2 pts) > Sweep (2 pts) > Guard positions (0 pts). Being on the opponent's back is the ultimate goal.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "Current guide has 'The Hierarchy Pyramid' as H3 under 'Understanding Positional Hierarchy'. Elevate to its own H2 with a clear question format: 'What Is the Positional Hierarchy in BJJ?'"
+    },
+    {
+      "question": "What is guard in BJJ?",
+      "answer_snippet": "Guard is any position where you are on your back with your legs between you and your opponent, used to control, sweep, or submit. Types include Closed Guard, Open Guard, Half Guard, and many specialized systems.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "Current guide covers guard systems in section 5 but doesn't open with a definitional answer. Add a 2-3 sentence definition at the top of the Guard Systems section."
+    },
+    {
+      "question": "What BJJ positions should beginners learn first?",
+      "answer_snippet": "Beginners should prioritize Closed Guard (offense and defense), Mount escape (bridge and roll, elbow-knee), Side Control escape (shrimping), and basic guard passing. These cover the most common scenarios in early sparring.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "Maps to 'Learning Progression by Belt Level' section. Current H2 should become 'What BJJ Positions Should Beginners Learn First?' and directly answer in first paragraph."
+    },
+    {
+      "question": "How many positions are there in BJJ?",
+      "answer_snippet": "BJJ has dozens of named positions, but the core competitive positions number around 10-15. The BJJGraph knowledge graph catalogues 95 hub positions including all major guard systems, control positions, and leg entanglement systems.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Great opportunity to reference the site's own data (95 positions) as a credibility signal and internal link hook."
+    },
+    {
+      "question": "What is mount in BJJ?",
+      "answer_snippet": "Mount is a dominant position where you sit on top of your opponent's torso with your knees on the mat on either side. It scores 4 points and offers high submission opportunities including Armbar, Triangle, and chokes.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "Current guide mentions Mount but does not give it a standalone definition. Add a short definitional sidebar or inline callout for each 4-point position."
+    },
+    {
+      "question": "What is side control in BJJ?",
+      "answer_snippet": "Side Control is a pinning position where you are perpendicular to your opponent with your chest on theirs and no hooks inside. It scores 3 points and serves as a transition hub to Mount, Knee on Belly, and submissions.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "Same as Mount - the guide is strategic but lacks quick definitional answers that win PAA boxes."
+    },
+    {
+      "question": "What is back control in BJJ?",
+      "answer_snippet": "Back Control (Rear Mount) is the highest-scoring position in BJJ at 4 points. You are behind your opponent with hooks in and a seatbelt grip, giving you dominant submission access (especially Rear Naked Choke) with almost no counter-attack options for the opponent.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "The guide lists Back Control but does not answer 'what is it' in a concise definition paragraph."
+    },
+    {
+      "question": "What is a sweep in BJJ?",
+      "answer_snippet": "A sweep is when the bottom guard player reverses positions with the top player, ending up on top. Successful sweeps score 2 points in competition and are the primary offensive goal from guard positions.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Not currently defined in the guide. Add to a FAQ or Glossary section at the bottom."
+    },
+    {
+      "question": "How do you improve position in BJJ?",
+      "answer_snippet": "Improve position in BJJ by controlling your opponent's hips and shoulders, eliminating their frames, and transitioning through intermediate positions (e.g., Half Guard → Side Control → Mount). The principle is to shrink their options while expanding yours.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading",
+      "notes": "Maps to 'Strategic Frameworks and Game Plans' section. Question-format H2 would target this PAA."
+    },
+    {
+      "question": "What is half guard in BJJ?",
+      "answer_snippet": "Half Guard is a position where you are on your back with only one of your opponent's legs trapped between your legs. It is a transitional guard used for sweeps, back-takes, and guard recovery.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "Half Guard appears in the guide but lacks a dedicated definition."
+    },
+    {
+      "question": "What is the difference between BJJ and wrestling positions?",
+      "answer_snippet": "BJJ positions prioritize submission setups and joint locks, with points awarded for pinning positions on the ground. Wrestling positions focus on takedowns and pins but do not account for guard systems, leg attacks, or submission control states.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Comparison query common for people coming from wrestling background. Good FAQ addition."
+    },
+    {
+      "question": "Do BJJ positions matter in a street fight?",
+      "answer_snippet": "Yes. Dominant BJJ positions like Mount and Back Control are highly effective in real situations because they allow submission control while limiting the opponent's ability to strike effectively.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Lower priority but captures self-defense search intent. Good for bottom-of-page FAQ."
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Understanding Positional Hierarchy",
+      "suggested": "What Is the Positional Hierarchy in BJJ?",
+      "rationale": "Converts informational H2 to direct PAA-match format. Google surfaces question-format headings more frequently in featured snippets."
+    },
+    {
+      "current": "The Point Value System",
+      "suggested": "How Many Points Does Each BJJ Position Score?",
+      "rationale": "Direct match to high-volume query 'how many points for mount bjj', 'bjj point system positions'. Front-loads the answer in the heading itself."
+    },
+    {
+      "current": "Guard Systems: The Bottom Game",
+      "suggested": "What Are the Guard Positions in BJJ? (The Bottom Game)",
+      "rationale": "Targets 'what is guard in bjj' and 'bjj guard positions' PAA cluster while preserving existing subtitle context."
+    },
+    {
+      "current": "Learning Progression by Belt Level",
+      "suggested": "What BJJ Positions Should You Learn by Belt Level?",
+      "rationale": "Targets high-intent beginner query cluster. Matches conversational AI search phrasing."
+    },
+    {
+      "current": "Strategic Frameworks and Game Plans",
+      "suggested": "How Do You Build a BJJ Game Plan Around Positions?",
+      "rationale": "Targets practitioner-level query 'how to develop bjj game plan' and 'bjj positional strategy'."
+    },
+    {
+      "current": "Expert Approaches to Positions",
+      "suggested": "How Do Elite BJJ Practitioners Think About Positions?",
+      "rationale": "Targets trust-signal query cluster. Signals expert perspective and E-E-A-T signals for AI overviews."
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add a dedicated FAQ section at the bottom with 8-10 question/answer pairs covering the high-priority PAA questions above",
+    "Add concise 2-3 sentence definitions for each named position at first mention (Mount, Back Control, Side Control, Half Guard, Closed Guard)",
+    "Add a 'Quick Reference: Points by Position' table near the top of the article for featured snippet capture",
+    "Add a 'BJJ vs Wrestling/Judo Positions' comparison paragraph to capture cross-martial-art comparison queries",
+    "Add a 'Glossary of BJJ Position Terms' section (Sweep, Pass, Hook, Frame, Escape) — high PAA coverage area",
+    "Add a 'How Positions Connect: The Transition Map' section with a Mermaid diagram or description linking to the graph visualization",
+    "Add a self-defense applicability paragraph under each dominant position (Mount, Back Control) to capture MMA/self-defense query traffic",
+    "Strengthen internal linking: every position name mention should be a wikilink to its hub page"
+  ]
+}

@@ -1,0 +1,166 @@
+BJJ GRAPH — PAA SEO CONTEXT SUMMARY
+Generated: 2026-02-22
+Method: Domain-knowledge synthesis (DataForSEO MCP unavailable; WebFetch/WebSearch not permitted)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ARTICLES PROCESSED: 2
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. source/content/Learning/BJJ Positions Complete Guide.md
+   Keyword: "BJJ Positions Complete Guide"
+
+2. source/content/Positions/Half Guard/Pocket Half Guard.json
+   Keyword: "Pocket Half Guard BJJ"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TOTAL PAA QUESTIONS FOUND: 29
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Article 1 - BJJ Positions Complete Guide:    15 questions
+Article 2 - Pocket Half Guard:               14 questions
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+HIGH-PRIORITY QUESTIONS (direct answers needed immediately)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+FROM: BJJ Positions Complete Guide
+  [HIGH] What are the basic positions in BJJ?
+         → Add named-position list in first paragraph of 'Understanding Positional Hierarchy'
+  [HIGH] What position gives the most points in BJJ?
+         → Rename 'The Point Value System' to question format; add direct answer sentence
+  [HIGH] How do BJJ positions work?
+         → Add dedicated FAQ section at bottom of article
+  [HIGH] What is the hierarchy of positions in BJJ?
+         → Elevate 'The Hierarchy Pyramid' to top-level H2 with question format
+  [HIGH] What is guard in BJJ?
+         → Add definitional opening paragraph to 'Guard Systems' section
+  [HIGH] What BJJ positions should beginners learn first?
+         → Rename 'Learning Progression by Belt Level' to question format; answer in first line
+
+FROM: Pocket Half Guard
+  [HIGH] What is pocket half guard in BJJ?
+         → Ensure opening paragraph answers this in first 2 sentences
+  [HIGH] How do you get into pocket half guard?
+         → Add 'How to Enter Pocket Half Guard' step-by-step section
+  [HIGH] What is the difference between half guard and pocket half guard?
+         → Add comparison section/callout
+  [HIGH] What sweeps can you do from pocket half guard?
+         → Rename 'Offensive Transitions (Bottom)' to 'Sweeps and Attacks from Pocket Half Guard Bottom'
+  [HIGH] How do you pass pocket half guard?
+         → Rename 'Offensive Transitions (Top)' to 'How to Pass Pocket Half Guard'
+  [HIGH] What is the old school sweep in BJJ?
+         → Add brief definition + wikilink to Old School page at first mention
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CONTENT GAP ANALYSIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+MISSING ACROSS BOTH ARTICLES:
+  - FAQ sections (both articles lack dedicated Q&A blocks — critical for AI Overview / PAA capture)
+  - Definitional lead paragraphs (articles assume reader knows terminology)
+  - Comparison content ("X vs Y" format) — high PAA cluster trigger
+  - Step-by-step numbered entry/exit sequences — Google favors for How-To rich results
+  - Stat callouts surfacing JSON success rate data visibly in the page
+
+BJJ POSITIONS COMPLETE GUIDE — Specific Gaps:
+  - No position glossary/definitions (Mount, Side Control, Back Control, Half Guard each need ≥2 sentence definitions)
+  - No "Quick Reference" points table near top of article
+  - No BJJ vs Wrestling/Judo comparison section
+  - Wikilinks present but no surrounding definitions for new readers
+  - 'Expert Approaches' section exists but not structured as Q&A (misses PAA format)
+
+POCKET HALF GUARD — Specific Gaps:
+  - No entry sequence (how to GET into this position)
+  - No comparison with standard Half Guard
+  - Success rate data buried in JSON, not visible in generated MD
+  - 10th Planet system context not summarized as a navigable section
+  - Related positions (Lockdown, Electric Chair, Old School) lack 1-sentence definitions
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+HEADING OPTIMIZATIONS SUMMARY (12 total)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BJJ Positions Guide (6 headings):
+  "Understanding Positional Hierarchy"
+    → "What Is the Positional Hierarchy in BJJ?"
+  "The Point Value System"
+    → "How Many Points Does Each BJJ Position Score?"
+  "Guard Systems: The Bottom Game"
+    → "What Are the Guard Positions in BJJ? (The Bottom Game)"
+  "Learning Progression by Belt Level"
+    → "What BJJ Positions Should You Learn by Belt Level?"
+  "Strategic Frameworks and Game Plans"
+    → "How Do You Build a BJJ Game Plan Around Positions?"
+  "Expert Approaches to Positions"
+    → "How Do Elite BJJ Practitioners Think About Positions?"
+
+Pocket Half Guard (6 headings):
+  Hub H1 → "Pocket Half Guard: The Complete BJJ Guide to Deep Underhook Half Guard"
+  "Overview" → "What Is Pocket Half Guard in BJJ?"
+  "Offensive Transitions (Bottom)" → "Sweeps and Attacks from Pocket Half Guard Bottom"
+  "Offensive Transitions (Top)" → "How to Pass Pocket Half Guard (Top Passing Options)"
+  "Common Errors" → "Common Pocket Half Guard Mistakes (And How to Fix Them)"
+  "Expert Insights" → "What Do Elite BJJ Coaches Say About Pocket Half Guard?"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SUGGESTED NEW ARTICLES (content gap opportunities)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  1. source/content/Learning/BJJ Position Definitions Glossary.md
+     Plan: Create standalone glossary page defining 15-20 core positions with 2-3 sentence
+           definitions each. Targets 'what is X position in bjj' PAA cluster at scale.
+           High internal linking value for all position hub pages.
+
+  2. source/content/Learning/BJJ Point System Explained.md
+     Plan: Deep-dive on competition scoring: what scores points, how to earn them,
+           common referee errors. Targets 'bjj point system', 'how does bjj scoring work',
+           'how many points for sweep bjj'. Links to all 4-point and 3-point position pages.
+
+  3. source/content/Learning/BJJ Positions for Beginners.md
+     Plan: Curated beginner path through 6-8 essential positions with belt-level context.
+           Targets 'bjj positions for beginners', 'what positions should white belts learn',
+           'how to learn bjj positions faster'. High-volume, low-competition keyword cluster.
+
+  4. source/content/Positions/Half Guard/Half Guard Complete Guide.md
+     Plan: Strategic guide to the Half Guard family (Standard, Pocket, Knee Shield, Deep Half,
+           Dogfight). Targets 'bjj half guard guide', 'types of half guard bjj', 'best half guard
+           position'. Would serve as hub linking to all Half Guard variant pages.
+
+  5. source/content/Learning/BJJ vs Wrestling Positions.md
+     Plan: Comparison content for cross-martial-art search traffic. Covers shared positions
+           (top control, underhooks) vs BJJ-specific (guard, hooks, submission control states).
+           Targets conversion of wrestling audience to BJJ content.
+
+  6. source/content/Submissions/Old School Sweep.md (or Transitions/Old School Sweep.md)
+     Plan: Dedicated page for Old School Sweep — the primary technique from Pocket Half Guard
+           Bottom. Referenced on multiple position pages but lacks its own hub. High PAA
+           target: 'what is the old school sweep', 'how to do old school sweep bjj'.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+IMPLEMENTATION PRIORITY ORDER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+IMMEDIATE (high PAA impact, low effort):
+  1. Add FAQ sections to both articles (6-8 Q&As each)
+  2. Rename headings to question format (all 12 above)
+  3. Add definitional lead paragraphs to BJJ Positions Guide position mentions
+
+SHORT-TERM (medium effort, high SEO value):
+  4. Add 'Pocket Half Guard Entry Steps' section
+  5. Add 'Pocket Half Guard vs Half Guard' comparison
+  6. Add 'Quick Reference Points Table' to BJJ Positions Guide
+  7. Surface success rate stats visibly in Pocket Half Guard MD
+
+STRATEGIC (new articles):
+  8. Create BJJ Position Definitions Glossary
+  9. Create BJJ Point System Explained
+  10. Create Half Guard Complete Guide (hub page)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+OUTPUT FILES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  tests/artifacts/paa_bjj_positions_complete_guide.json
+  tests/artifacts/paa_pocket_half_guard.json
+  tests/artifacts/paa_summary.txt              (this file)
+  tests/artifacts/suggested_new_files.csv      (see below)
