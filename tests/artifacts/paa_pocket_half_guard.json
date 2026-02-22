@@ -1,0 +1,162 @@
+{
+  "article_path": "source/content/Positions/Half Guard/Pocket Half Guard.json",
+  "seed_keyword": "Pocket Half Guard BJJ",
+  "data_source": "synthesized_from_domain_knowledge",
+  "data_source_note": "Live SERP fetch unavailable (WebFetch/WebSearch permissions not granted; DataForSEO MCP not present). PAA questions synthesized from known BJJ search patterns, competitor SERP structures, and AI-era conversational query trends.",
+  "paa_questions": [
+    {
+      "question": "What is pocket half guard in BJJ?",
+      "answer_snippet": "Pocket half guard is a half guard variation defined by a deep underhook reaching across the opponent's back combined with tight shoulder connection in the 'pocket' space between their hip and ribcage. It excels at sweeps, back-takes, and transitions to Deep Half Guard.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "Definitional query — highest priority. The JSON overview field covers this well. When the MD is generated, ensure the opening paragraph answers this in the first 2 sentences before any context-setting prose."
+    },
+    {
+      "question": "How do you get into pocket half guard?",
+      "answer_snippet": "Enter Pocket Half Guard by: (1) securing a half guard lock on one leg, (2) preventing the crossface by framing or turning into the opponent, (3) shooting your inside arm deep under their armpit and across their back to grip their far lat or belt. Hip out to create the pocket space with your bottom foot on their hip.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "The JSON has prerequisites but no step-by-step entry sequence. The generated MD should include a dedicated 'How to Enter Pocket Half Guard' section for this PAA."
+    },
+    {
+      "question": "What is the difference between half guard and pocket half guard?",
+      "answer_snippet": "Standard half guard may have a shallow or no underhook. Pocket Half Guard specifically requires a DEEP underhook that crosses the opponent's back, combined with active bottom-leg framing that creates the 'pocket' space. This depth transforms a defensive position into an offensive one.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "Comparison query is critical for a specialized position article. Add a 'Pocket Half Guard vs Standard Half Guard' callout or section."
+    },
+    {
+      "question": "What sweeps can you do from pocket half guard?",
+      "answer_snippet": "Primary sweeps from Pocket Half Guard include: Old School Sweep (to Mount), Underhook Sweep (to Side Control), and transitions into Deep Half Guard sweeps (Waiter Sweep, Homer Simpson Sweep). The back-take is also available when the opponent posts defensively.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "Maps directly to offensive_transitions in the JSON. The generated MD should have a clearly named 'Sweeps from Pocket Half Guard Bottom' H2 or H3 rather than generic 'Offensive Transitions'."
+    },
+    {
+      "question": "How do you pass pocket half guard?",
+      "answer_snippet": "Pass Pocket Half Guard Top by: (1) fighting to strip or prevent the underhook, (2) establishing a crossface, (3) flattening the bottom player's hips with chest pressure, (4) executing a Knee Slice Pass or Smash Pass to Side Control. Crossface + chest pressure is the foundation.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "Top-position perspective. The JSON has comprehensive Top data. Ensure the generated MD has a clearly labeled 'How to Pass Pocket Half Guard' section targeting this PAA."
+    },
+    {
+      "question": "What is the old school sweep in BJJ?",
+      "answer_snippet": "The Old School Sweep is a half guard sweep where the bottom player uses a deep underhook and pocket framing to off-balance the opponent as they post their hand, then sweeps to Mount using rotational hip power. It is the primary finishing technique from Pocket Half Guard.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "Old School Sweep is referenced repeatedly in the article. Add a brief explanation or link to its own page. Strong sub-PAA with high BJJ beginner search volume."
+    },
+    {
+      "question": "How do you escape pocket half guard from bottom?",
+      "answer_snippet": "Escape Pocket Half Guard Bottom (i.e., when you are the top passer): strip the underhook with a crossface, establish chest pressure to flatten the opponent, then Knee Slice or Smash Pass. From the bottom, if your pocket collapses, shrimp to re-establish a knee shield or transition to Deep Half Guard.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "Dual-intent query (escape as top OR as bottom when position deteriorates). Cover both briefly."
+    },
+    {
+      "question": "Is pocket half guard good for beginners?",
+      "answer_snippet": "Pocket Half Guard has a moderate learning curve. Beginners can achieve ~45% sweep success with the Old School and ~55% positional retention. The deep underhook requires wrist and grip strength to maintain. Most instructors recommend learning standard Half Guard first.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "notes": "The JSON has explicit beginner success rates. Surfacing them directly in an FAQ answers this PAA and adds trust signals."
+    },
+    {
+      "question": "What is the 10th Planet half guard system?",
+      "answer_snippet": "The 10th Planet Jiu-Jitsu system developed by Eddie Bravo extensively uses Pocket Half Guard as a foundation, combining it with the Lockdown leg configuration, Old School Sweep, Electric Chair submission, and Truck system to create an interconnected no-gi attacking framework.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "Eddie Bravo insight is in the JSON. A brief '10th Planet System Context' callout box would capture this PAA and add E-E-A-T depth."
+    },
+    {
+      "question": "What is the lockdown in BJJ?",
+      "answer_snippet": "The Lockdown is a leg configuration used in 10th Planet-style half guard where the bottom player wraps their legs in a figure-four around the opponent's trapped leg, controlling it tightly to prevent passing and enabling whip sweeps. It pairs with Pocket Half Guard's underhook.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "Referenced in related_content. Brief definitional explanation + wikilink to Lockdown page would capture this PAA."
+    },
+    {
+      "question": "What is the electric chair in BJJ?",
+      "answer_snippet": "The Electric Chair is a submission / sweep from 10th Planet Half Guard where the bottom player hyperextends the opponent's trapped leg using their own legs while pushing or sweeping with the underhook. It can be applied as a leg lock or used to sweep to top position.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "Referenced in offensive_transitions with 25-55% success rates. Brief definition + wikilink to Electric Chair page."
+    },
+    {
+      "question": "How do you prevent the crossface from half guard bottom?",
+      "answer_snippet": "Prevent the crossface from Pocket Half Guard Bottom by: using head pressure on the underhook side to block their arm path, maintaining hip mobility to keep angles, and transitioning to Deep Half Guard as soon as crossface begins to establish.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading",
+      "notes": "The JSON has this as a key principle and common error correction. Surface it in the generated MD as its own H3 under 'Key Principles'."
+    },
+    {
+      "question": "What is a D'arce choke in BJJ?",
+      "answer_snippet": "The D'arce (Brabo) choke is an arm-triangle choke applied from top position when the opponent turns into you. From Pocket Half Guard Top, it becomes available when the bottom player commits to turning into the underhook to defend the pass.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "add_section",
+      "notes": "Referenced in counter_transitions. Brief callout or wikilink to D'arce choke page would capture this query."
+    },
+    {
+      "question": "What is deep half guard in BJJ?",
+      "answer_snippet": "Deep Half Guard is a half guard variation where the bottom player slides under the opponent's hips with their head behind the opponent's trapped leg. It is a primary transition target from Pocket Half Guard when the opponent drives forward pressure.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "add_section",
+      "notes": "Mentioned throughout the JSON. Add a brief transition description + wikilink to Deep Half Guard page."
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Pocket Half Guard (hub H1)",
+      "suggested": "Pocket Half Guard: The Complete BJJ Guide to Deep Underhook Half Guard",
+      "rationale": "Includes primary keyword variant 'deep underhook half guard' which is a common long-tail query. Signals comprehensiveness for AI overviews."
+    },
+    {
+      "current": "Overview (generated section)",
+      "suggested": "What Is Pocket Half Guard in BJJ?",
+      "rationale": "Converts static section name to direct PAA-match format. Google uses this type of heading for featured snippets."
+    },
+    {
+      "current": "Offensive Transitions (Bottom)",
+      "suggested": "Sweeps and Attacks from Pocket Half Guard Bottom",
+      "rationale": "More descriptive and matches user search intent. 'Sweeps from half guard' is a high-volume query pattern."
+    },
+    {
+      "current": "Offensive Transitions (Top)",
+      "suggested": "How to Pass Pocket Half Guard (Top Passing Options)",
+      "rationale": "Direct PAA match for 'how to pass pocket half guard'. Top-position passing content deserves a question-format heading."
+    },
+    {
+      "current": "Common Errors",
+      "suggested": "Common Pocket Half Guard Mistakes (And How to Fix Them)",
+      "rationale": "Parenthetical fixes the query intent gap. Matches 'pocket half guard mistakes' and 'why pocket half guard doesn't work' query patterns."
+    },
+    {
+      "current": "Expert Insights",
+      "suggested": "What Do Elite BJJ Coaches Say About Pocket Half Guard?",
+      "rationale": "Question-format heading with authority signal. Captures 'pocket half guard tips' and 'best half guard advice' queries. Strengthens E-E-A-T."
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add 'How to Enter Pocket Half Guard' step-by-step section (3-5 numbered steps) — answers highest-priority PAA",
+    "Add 'Pocket Half Guard vs Standard Half Guard' comparison table or callout — targets critical comparison query",
+    "Add 'Who Is Pocket Half Guard Best For?' section covering body type, belt level, and style suitability",
+    "Add explicit success rate callouts (e.g., 'Beginners achieve ~45% success with the Old School Sweep') as pull quotes or stat boxes — converts JSON data to user-visible PAA answers",
+    "Add a '10th Planet System Overview' callout referencing Eddie Bravo's system and linking to related 10th Planet position pages",
+    "Add a FAQ section at the bottom with 6-8 Q&A pairs targeting PAA questions above",
+    "Add 'Pocket Half Guard Beginner Drill Plan' section distilling the 5 drills from JSON into a progressive weekly practice structure",
+    "Ensure every related position (Lockdown, Electric Chair, Deep Half Guard, Old School) has a wikilink + 1-sentence definition at first mention"
+  ]
+}
