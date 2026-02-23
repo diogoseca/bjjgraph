@@ -1,8 +1,12 @@
 {
   "name": "Estima Lock",
   "slug": "estima-lock",
-  "description": "Master Estima Lock position in BJJ. Strategic guide covering inverted footlock mechanics, control from top and bottom perspectives, and submission chains with complete technical analysis.",
+  "description": "What is the Estima Lock in BJJ? Complete guide to Victor Estima's inverted ankle lock: how to set it up, apply it from top, defend it from bottom, and chain it to toe holds and saddle—with expert breakdowns and success rates.",
   "variant_uniqueness": "Inverted foot control creates ankle torque",
+  "bot_metadata": {
+    "last_improved": "2026-02-23",
+    "optimization_pass": "ai_seo_v1"
+  },
   "overview": "The Estima Lock Position represents a sophisticated leg entanglement scenario where one practitioner secures control of their opponent's foot in an inverted orientation, creating a specialized footlock submission threat that attacks the ankle joint and Achilles tendon through rotational mechanics. Named after the Estima brothers (Victor and Braulio) who popularized and refined this technique in high-level competition, this position differs fundamentally from traditional straight ankle locks through its inverted grip configuration and the unique pressure vectors it creates on the targeted structures.\n\nThis position exists as both an offensive control position for the attacker and a defensive crisis position for the defender, making it essential to understand both perspectives. The Estima Lock Position typically emerges from leg entanglement exchanges including transitions from 50-50 Guard, Single Leg X-Guard, outside ashi scenarios, or scrambles where foot control becomes available. The inverted nature of the attack—where the heel is positioned higher than the toes and rotational force is applied—creates defensive challenges distinct from conventional ankle attacks, requiring specialized escape knowledge and submission awareness.\n\nFrom the top attacking perspective, the position offers significant control advantages through proper hip placement against the opponent's lower leg, figure-four grip configuration around the heel and forefoot, and body angle optimization that maximizes torque while preventing counters. From the bottom defensive perspective, the position demands immediate recognition of the submission threat, systematic escape protocols addressing both grip control and positional hierarchy, and calm technical execution under pressure to avoid injury. Modern leg lock systems have integrated the Estima Lock as a valuable tool within comprehensive submission chains, making proficiency in both attacking and defending this position essential for contemporary grapplers at all levels.",
   "key_principles": [
     "Inverted foot orientation distinguishes Estima Lock mechanics from traditional ankle attacks requiring different defensive responses",
@@ -314,11 +318,7 @@
     "related_content": [
       {
         "name": "Estima Lock",
-        "relationship": "Opposite perspective—counter position where practitioner applies the lock"
-      },
-      {
-        "name": "Estima Lock",
-        "relationship": "Primary submission threat from this position"
+        "relationship": "Primary submission threat—opponent is applying this inverted ankle lock to your foot"
       },
       {
         "name": "50-50 Guard",
@@ -381,7 +381,7 @@
       "eddie_bravo": "The Estima Lock from bottom is gnarly because it attacks the ankle in that inverted position that most people aren't used to defending. In the 10th Planet system, we emphasize staying mobile and using that free leg like it's your third arm—constantly creating problems for the top player. What I teach my guys is to think about creating a dilemma for your opponent: if they focus on finishing the lock, you use your free leg to hook and sweep; if they defend the sweep, you use that moment to extract your trapped leg. The key is staying active and not letting them settle into a controlling rhythm. I also coach my students to develop a feel for when the lock is actually dangerous versus when it's just uncomfortable. There's a big difference, and knowing that distinction lets you stay calm and work your escapes technically instead of panicking. We drill a lot of scenarios where you're using your hands to push their head or shoulder to create an angle while your free leg is working to establish a butterfly hook or push their hip. It's all about that combination of movements happening simultaneously. And honestly, if you find yourself here frequently in rolling, it means you need to tighten up your leg entanglement passing game and not give up that foot control in the first place."
     },
     "name": "Estima Lock Bottom",
-    "description": "Master the Estima Lock Bottom Position in BJJ. Defensive leg entanglement with 35% escape rate. Learn control breaks, counters, and escape sequences from this submission threat.",
+    "description": "How to escape the Estima Lock in BJJ. Defensive guide when caught in the inverted ankle lock: counter-rotation, free leg tactics, grip breaks, and escape sequences—with 35% advanced escape rate and expert analysis.",
     "tags": ["bjj", "position", "leg-entanglement", "defensive", "estima-lock", "footlock-defense", "bottom-position"]
   },
   "top": {
@@ -647,11 +647,7 @@
     "related_content": [
       {
         "name": "Estima Lock",
-        "relationship": "Sibling variant—defensive perspective of same position"
-      },
-      {
-        "name": "Estima Lock",
-        "relationship": "Primary submission from this position"
+        "relationship": "Primary submission finish from this control position—apply rotational ankle pressure to complete"
       },
       {
         "name": "Toe Hold Control",
@@ -710,7 +706,45 @@
       "eddie_bravo": "The Estima Lock Top Position fits perfectly into the 10th Planet philosophy of always having multiple submission options from any control position and keeping opponents guessing about your next attack. What I love about this attack is that it's completely unconventional and most traditional BJJ practitioners don't train to defend it specifically, which creates massive opportunities in no-gi competition where innovation wins matches. From the top, you're in a dominant position where you can maintain pressure while hunting for the finish, and if they defend the Estima Lock by turning their foot, you've got immediate transitions to toe holds waiting; if they try to sit up to create frames, that opens the backstep into the saddle position for heel hook attacks. The rotational mechanics of the Estima Lock also make it an excellent setup for creating reactions—when they feel that unique ankle pressure building from the inverted grip, they'll often turn their foot away which opens up the toe hold perfectly, or they'll try to sit up aggressively which gives you the saddle entry with minimal resistance. This position embodies the concept of systematic leg attacking where every defense creates a new offensive opportunity and opponents are constantly solving problems. Train it extensively because in live rolling, people freeze when they feel that unique ankle pressure from the inverted configuration—it's unlike anything else they've experienced."
     },
     "name": "Estima Lock Top",
-    "description": "Master Estima Lock Top Position in BJJ. Control opponent's foot and ankle from top position. Advanced leg lock setup with 50% submission rate. Expert insights included.",
+    "description": "How to apply the Estima Lock from top position in BJJ. Control your opponent's foot and ankle with an inverted grip and chain to toe holds, saddle, and straight ankle lock. Advanced leg lock setup with 50% submission rate at advanced level.",
     "tags": ["bjj", "position", "leg-lock", "estima-lock", "top-position", "advanced", "foot-lock"]
-  }
+  },
+  "faq": [
+    {
+      "question": "What is the Estima Lock in BJJ?",
+      "answer": "The Estima Lock is an inverted ankle lock submission named after Brazilian BJJ competitor Victor Estima. Unlike a straight ankle lock, the Estima Lock applies rotational torque to the ankle joint by inverting the foot—positioning the heel higher than the toes—and using a figure-four grip to twist the ankle toward the opponent's own body. It attacks the ankle joint and the surrounding ligaments through a combination of rotation and extension pressure."
+    },
+    {
+      "question": "Who invented the Estima Lock?",
+      "answer": "The Estima Lock was developed and popularized by the Estima brothers—Victor Estima and Braulio Estima—both accomplished BJJ black belts and world champions. Victor Estima became particularly associated with the technique after using it successfully in high-level competition, which is why it bears the family name."
+    },
+    {
+      "question": "Is the Estima Lock dangerous?",
+      "answer": "Yes—the Estima Lock is considered a dangerous submission because it attacks the ankle joint through rotational mechanics that can cause rapid ligament damage and Achilles tendon injury. The rotational pressure can increase quickly once the grip is established, and the submission can come on faster than conventional ankle locks. Defenders must tap early rather than attempting to tough out the pressure, as the injury threshold can be crossed before pain fully registers."
+    },
+    {
+      "question": "Is the Estima Lock legal in BJJ competitions?",
+      "answer": "The Estima Lock's legality depends on the ruleset and division. In IBJJF gi competition, straight ankle locks are permitted at certain belt levels, but rotational foot attacks like the Estima Lock are generally restricted to brown and black belt divisions. In no-gi competition (ADCC, EBI, Submission Underground), the Estima Lock is typically legal for adult divisions. Always check the specific ruleset of your competition before using this technique."
+    },
+    {
+      "question": "How do you defend against the Estima Lock?",
+      "answer": "To defend the Estima Lock: (1) counter-rotate your ankle immediately—turn your foot in the direction that reduces strain on the joint; (2) use your free leg to push on your opponent's hips and create space; (3) establish frames with your hands on their torso to prevent them from consolidating hip pressure; (4) work toward leg extraction by creating incremental angle changes. Do not straighten your leg directly into the lock or try explosive spinning movements without setup, as both worsen the submission pressure."
+    },
+    {
+      "question": "What is the difference between an Estima Lock and a straight ankle lock?",
+      "answer": "A straight ankle lock attacks the Achilles tendon through linear compression, pressing the forearm blade against the tendon while extending the leg. The Estima Lock instead attacks through rotation—the foot is inverted and twisted toward the opponent's own body, creating torque at the ankle joint and surrounding ligaments. The Estima Lock requires a figure-four grip configuration and different hip positioning, and creates defensive challenges distinct from conventional ankle lock defense."
+    },
+    {
+      "question": "How do you set up the Estima Lock?",
+      "answer": "The Estima Lock is most commonly set up from leg entanglement positions: 50-50 Guard, Single Leg X-Guard, or outside ashi garami. When your opponent's foot becomes accessible, secure a figure-four grip with one hand cupping their heel and the other reinforcing at the wrist. Position your forearm blade across the top of their foot (instep), drive your hips against their calf as a fulcrum, and apply rotational pressure by twisting their heel toward their own body while extending."
+    },
+    {
+      "question": "What positions lead to the Estima Lock?",
+      "answer": "The Estima Lock is primarily entered from: 50-50 Guard (when opponent attempts to pass or disengage), Single Leg X-Guard (direct foot control is available), Outside Ashi-Garami (during exchange when foot exposure occurs), and Ashi Garami (when transitioning between ashi variants). It can also appear opportunistically during guard passing attempts when the top player fails to control their feet properly."
+    },
+    {
+      "question": "What attacks chain well with the Estima Lock?",
+      "answer": "The Estima Lock integrates into a submission chain with three primary follow-ups: (1) Toe Hold—when the defender turns their foot away from the Estima Lock angle, exposing the toes; (2) Straight Ankle Lock—when the defender pulls their foot back without proper angle; (3) Saddle (Honey Hole)—when the defender sits up or posts with their free leg, allowing a backstep entry. This creates a decision tree where every common defense opens a different attack."
+    }
+  ]
 }
