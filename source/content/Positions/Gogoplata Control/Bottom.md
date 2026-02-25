@@ -4,11 +4,11 @@
 
 ---
 title: "Gogoplata Control Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master bottom gogoplata control mechanics including shin positioning, foot-behind-head configuration, hip elevation, and submission finishing from guard and rubber guard positions."
+description: "How do you execute the gogoplata from guard? Step-by-step guide: shin placement across trachea, foot-behind-head setup, hip elevation mechanics, and rubber guard entry system."
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -115,7 +115,7 @@ description: "Master bottom gogoplata control mechanics including shin positioni
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Gogoplata Control Bottom",
-  "description": "Master bottom gogoplata control mechanics including shin positioning, foot-behind-head configuration, hip elevation, and submission finishing from guard and rubber guard positions.",
+  "description": "How do you execute the gogoplata from guard? Step-by-step guide: shin placement across trachea, foot-behind-head setup, hip elevation mechanics, and rubber guard entry system.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -159,6 +159,8 @@ description: "Master bottom gogoplata control mechanics including shin positioni
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
+
+To execute the gogoplata from guard, the practitioner needs sufficient hip flexibility to reach rubber guard's Mission Control — inability to reach that position signals the gogoplata is not yet accessible. When physical prerequisites are met, execution begins by breaking the opponent's posture from closed guard, then elevating the hips and threading one leg up and over the opponent's shoulder into Mission Control, with the foot secured behind their head. From there, the shin is threaded across the opponent's trachea — perpendicular to the windpipe, not across the chin or face — while both hands pull the practitioner's own foot deeper behind the opponent's head to close the mechanical system. Hip elevation is maintained continuously to keep the compression angle active. The choke completes when the foot pulls down and the shin simultaneously drives into the throat with head control maintained. Tracheal compression typically produces a fast tap once proper position is achieved.
 
 From the bottom position, Gogoplata Control represents an advanced submission-control hybrid that demands exceptional physical attributes and technical precision. The bottom player establishes a shin-across-throat position while securing their own foot behind the opponent's head, creating a self-contained submission system that simultaneously controls and attacks.
 

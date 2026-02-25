@@ -4,11 +4,11 @@
 
 ---
 title: "Gogoplata Control | BJJ Position Guide | BJJ Graph"
-description: "Master gogoplata control in BJJ. Complete technical guide covering shin-across-throat positioning, submission mechanics, defensive maintenance, and strategic applications."
+description: "What is a gogoplata in BJJ? Complete guide to gogoplata control: tracheal choke mechanics, rubber guard entries, IBJJF competition legality by belt level, defense, and execution."
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 
@@ -17,6 +17,12 @@ description: "Master gogoplata control in BJJ. Complete technical guide covering
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
+
+The gogoplata is a BJJ tracheal choke where the practitioner places the shin across the opponent's windpipe while securing their foot behind the opponent's head. Unlike blood chokes that compress the carotid arteries, the gogoplata compresses the airway directly, causing immediate breathing restriction. Once the shin is seated across the trachea with the foot locked behind the head, the opponent's defensive options become extremely limited.
+
+Competition legality: Under IBJJF rules, the gogoplata is banned for white through purple belts as a tracheal compression technique. Brown and black belts may use it in gi and no-gi competition. ADCC and most submission-only rulesets allow it at all levels. Always verify the specific ruleset before competing with this technique.
+
+The most celebrated high-level finish is Shinya Aoki's gogoplata submission of Joachim Hansen at DREAM 1 (2008), demonstrating the technique's genuine effectiveness when the flexibility prerequisites are met.
 
 Gogoplata Control represents one of Brazilian Jiu-Jitsu's most technically demanding and strategically unique control positions. This position establishes a shin-across-throat configuration that creates both a controlling position and an immediate submission threat simultaneously. Unlike traditional control positions that prioritize stability before submission attacks, Gogoplata Control merges these concepts into a single unified state where the controlling mechanics are inseparable from the finishing mechanics.
 
