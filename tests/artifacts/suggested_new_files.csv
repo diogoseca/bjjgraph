@@ -1,0 +1,5 @@
+relative_path,plan
+source/content/Positions/K-Guard/Top.md,Create K-Guard Top page covering passing mechanics from K-Guard top perspective; JSON data already exists in K-Guard.json top section
+source/content/Transitions/Waiter-Sweep.md,Create dedicated Waiter Sweep transition page; referenced from K-Guard Bottom offensive transitions with defined success rates
+source/content/Transitions/Half-Guard-to-Back-Take.md,Create Half Guard to Back Take transition page; a primary K-Guard offensive path with beginner 35%/intermediate 50%/advanced 70% success rates
+source/content/Positions/K-Guard/Bottom.md,Create K-Guard Bottom page covering retention mechanics and sweep chains from K-Guard bottom perspective; JSON data already exists in K-Guard.json bottom section

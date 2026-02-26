@@ -1,0 +1,152 @@
+{
+  "article_path": "source/content/Positions/K-Guard.json",
+  "seed_keyword": "K-Guard BJJ",
+  "data_source": "Derived from article content + BJJ domain knowledge (DataForSEO MCP unavailable in environment)",
+  "generated_date": "2026-02-26",
+  "paa_questions": [
+    {
+      "question": "What is K-Guard in BJJ?",
+      "answer_snippet": "K-Guard is a dynamic half guard variation in BJJ characterized by an inverted butterfly hook configuration that creates a distinct 'K' shape with the legs. The inside leg crosses over the opponent's trapped leg while the outside leg forms a butterfly hook, giving the bottom player powerful leverage for sweeps and back-takes. It is especially effective in no-gi grappling where traditional grips are unavailable.",
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Core definitional query — ideal as an opening FAQ entry or a bolded callout box near the top of the article."
+    },
+    {
+      "question": "How do you enter K-Guard?",
+      "answer_snippet": "K-Guard is typically entered from standard half guard bottom. The bottom player inverts their hips, crosses the inside leg over the opponent's trapped leg to form the inverted hook, then establishes an active butterfly hook with the outside leg under the opponent's free thigh. An inside underhook or cross-face frame completes the position.",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "High-intent how-to query. Current article covers prerequisites but lacks a named 'How to Enter K-Guard' section heading."
+    },
+    {
+      "question": "What sweeps can you do from K-Guard?",
+      "answer_snippet": "Common sweeps from K-Guard include: X-Guard Sweep, Single Leg X Sweep, Old School Sweep, Waiter Sweep, Butterfly Sweep, and Deep Half Guard entry. The most reliable for beginners is the Deep Half Entry (50% beginner success rate); advanced practitioners favour the X-Guard and Single Leg X sequences.",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "Currently covered in offensive_transitions data but not surfaced as a standalone scannable section with a question-format heading."
+    },
+    {
+      "question": "How do you take the back from K-Guard?",
+      "answer_snippet": "Back-takes from K-Guard are triggered when the opponent commits weight forward attempting a crossface or underhook. The bottom player redirects that forward pressure through the hook system, rolls underneath, and comes up to back control. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.",
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "Back-takes are a primary selling point of K-Guard. Deserves a dedicated subsection with entry trigger explained explicitly."
+    },
+    {
+      "question": "What is the difference between K-Guard and Z-Guard?",
+      "answer_snippet": "K-Guard uses an inverted butterfly hook that crosses over the opponent's trapped leg, creating dynamic offensive angles. Z-Guard (knee shield half guard) uses a knee frame pressed against the opponent's hip or chest to create distance and framing. Z-Guard is more defensive and static; K-Guard is more offensive and transition-oriented.",
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "Comparison queries drive high engagement. Related positions section already lists Z-Guard — expand to a comparison paragraph."
+    },
+    {
+      "question": "Is K-Guard good for beginners?",
+      "answer_snippet": "K-Guard has a moderate learning curve. Beginners achieve roughly 45% retention rate and 35% sweep success rate, making it more accessible than positions like X-Guard but requiring hip mobility and hook coordination. White belts can learn it but should first be comfortable with standard half guard concepts.",
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Belt/experience-level queries are common for BJJ searches. Answer anchors to actual success-rate data from the article."
+    },
+    {
+      "question": "How do you pass K-Guard?",
+      "answer_snippet": "Effective K-Guard passes include Knee Slice Pass, Smash Pass, Long Step Pass, and Headquarters-style passing. The key is establishing grip dominance on the far hip and near knee, maintaining forward hip pressure to compress frames, and systematically dismantling the inverted hook before committing to a pass direction.",
+      "priority": "medium",
+      "integration_strategy": "improve_heading",
+      "notes": "Top-player perspective is in the JSON's 'top' section. Surfaces this for users who face K-Guard rather than play it."
+    },
+    {
+      "question": "What is the difference between K-Guard and Deep Half Guard?",
+      "answer_snippet": "K-Guard is a standing-opponent guard variation where the bottom player controls a trapped leg with an inverted hook. Deep Half Guard involves crawling fully under the opponent's hips. K-Guard transitions naturally into Deep Half when the opponent drives forward — making them complementary positions.",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "Deep Half is the #1 related position in the article. A clear compare-contrast sentence or two would answer this PAA cluster."
+    },
+    {
+      "question": "Can you do K-Guard in gi BJJ?",
+      "answer_snippet": "Yes, K-Guard works in both gi and no-gi grappling, though it is particularly popular in no-gi where traditional half guard grips (like underhooking the gi pants) are unavailable. In the gi, sleeve and collar grips can reinforce the hook system.",
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Gi vs. no-gi is a persistent search dimension for BJJ position queries. Not currently mentioned explicitly in the article."
+    },
+    {
+      "question": "What are the most common K-Guard mistakes?",
+      "answer_snippet": "The top K-Guard mistakes are: (1) letting both hooks go passive so the opponent settles weight, (2) dropping the head flat to the mat which removes hip mobility, (3) failing to coordinate upper and lower body frames, (4) staying square instead of creating angles, and (5) telegraphing sweeps by changing grips early.",
+      "priority": "medium",
+      "integration_strategy": "improve_heading",
+      "notes": "Common errors are documented in detail in the JSON. Heading should be question-format: 'What are the most common K-Guard mistakes?'"
+    },
+    {
+      "question": "Who invented K-Guard?",
+      "answer_snippet": "K-Guard is broadly associated with the modern no-gi guard system popularised by competitors like Eddie Cummings and the Danaher Death Squad, though the exact originator is debated. It draws from butterfly guard and deep half guard mechanics that evolved through the submission grappling community in the 2010s.",
+      "priority": "low",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Origin/inventor queries appear in PAA for most BJJ positions. Currently not addressed in the article — low priority but worth a brief FAQ answer."
+    },
+    {
+      "question": "What submissions can you get from K-Guard?",
+      "answer_snippet": "K-Guard does not offer direct submissions, but its transition paths lead to high-percentage finishes: Rear Naked Choke (via back-take), Heel Hook (via Deep Half → Ashi Garami), Armbar from Mount (via Waiter Sweep → Mount), and Ezekiel Choke (via X-Guard Sweep → Mount).",
+      "priority": "low",
+      "integration_strategy": "add_section",
+      "notes": "Optimal submission paths are detailed in the JSON. Surfacing them in an FAQ or named section with the question heading would capture submission-related search intent."
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Overview",
+      "suggested": "What Is K-Guard in BJJ?",
+      "rationale": "Converts generic section label to a question-format heading matching the highest-priority PAA query"
+    },
+    {
+      "current": "Key Principles",
+      "suggested": "How Does K-Guard Work? (Core Principles)",
+      "rationale": "Conversational phrasing aligns with 'how does X work' search pattern common in BJJ instructional queries"
+    },
+    {
+      "current": "Offensive Transitions",
+      "suggested": "What Sweeps and Attacks Can You Do from K-Guard?",
+      "rationale": "Directly answers the third-highest-priority PAA question while serving as a section heading"
+    },
+    {
+      "current": "Common Errors",
+      "suggested": "What Are the Most Common K-Guard Mistakes?",
+      "rationale": "Question-format heading matches PAA pattern and targets practitioners troubleshooting their K-Guard"
+    },
+    {
+      "current": "Training Drills",
+      "suggested": "How Do You Drill K-Guard? (Training Exercises)",
+      "rationale": "Captures 'how to practice/drill K-Guard' search intent from intermediate practitioners"
+    },
+    {
+      "current": "Optimal Submission Paths",
+      "suggested": "What Submissions Can You Finish from K-Guard?",
+      "rationale": "Submission-path queries are common; question format improves featured-snippet eligibility"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add section: 'How Do You Enter K-Guard?' — step-by-step entry mechanics not currently a named heading",
+    "Add section: 'K-Guard vs Z-Guard — What's the Difference?' — comparison content drives high PAA engagement",
+    "Add section: 'K-Guard vs Deep Half Guard — When to Use Each' — natural complement to existing related_positions data",
+    "Add FAQ: 'Is K-Guard Effective in Gi BJJ?' — gi/no-gi context currently missing from article",
+    "Add FAQ: 'Who Invented K-Guard?' — origin/history query appears consistently in BJJ position PAA clusters",
+    "Add brief intro paragraph framing K-Guard's competition relevance (ADCC, EBI, submission-only rulesets) to target event-specific search traffic",
+    "Add 'Beginner Tips for K-Guard' callout block anchoring success-rate data to actionable advice for white/blue belts"
+  ],
+  "schema_markup_suggestions": [
+    {
+      "type": "FAQPage",
+      "priority": "high",
+      "questions_to_include": [
+        "What is K-Guard in BJJ?",
+        "How do you enter K-Guard?",
+        "What sweeps can you do from K-Guard?",
+        "Is K-Guard good for beginners?",
+        "Can you do K-Guard in gi BJJ?"
+      ]
+    },
+    {
+      "type": "HowTo",
+      "priority": "medium",
+      "name": "How to Play K-Guard Bottom",
+      "steps_source": "state_invariants + prerequisites fields in JSON"
+    }
+  ]
+}

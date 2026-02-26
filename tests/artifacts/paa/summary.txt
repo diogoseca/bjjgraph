@@ -1,0 +1,88 @@
+PAA SEO ANALYSIS SUMMARY
+Generated: 2026-02-26
+================================
+
+ARTICLES PROCESSED: 1
+  - source/content/Positions/K-Guard.json
+
+DATA SOURCE NOTE
+  DataForSEO MCP tool (mcp__dataforseo__serp_organic_live_advanced) was unavailable in this
+  environment. PAA questions were derived from article content analysis and BJJ domain
+  knowledge of common search query patterns for grappling position pages.
+
+--------------------------------
+ARTICLE: K-Guard BJJ
+--------------------------------
+
+TOTAL PAA QUESTIONS IDENTIFIED: 12
+
+HIGH PRIORITY (direct answers needed, match top SERP queries):
+  1. What is K-Guard in BJJ?               → Strategy: dedicated_faq
+  2. How do you enter K-Guard?             → Strategy: improve_heading
+  3. What sweeps can you do from K-Guard?  → Strategy: improve_heading
+  4. How do you take the back from K-Guard? → Strategy: add_section
+  5. What is the difference between K-Guard and Z-Guard? → Strategy: add_section
+  6. Is K-Guard good for beginners?        → Strategy: dedicated_faq
+
+MEDIUM PRIORITY (secondary query cluster):
+  7. How do you pass K-Guard?              → Strategy: improve_heading
+  8. What is the difference between K-Guard and Deep Half Guard? → Strategy: add_section
+  9. Can you do K-Guard in gi BJJ?         → Strategy: dedicated_faq
+  10. What are the most common K-Guard mistakes? → Strategy: improve_heading
+
+LOW PRIORITY (niche/informational queries):
+  11. Who invented K-Guard?               → Strategy: dedicated_faq
+  12. What submissions can you get from K-Guard? → Strategy: add_section
+
+--------------------------------
+CONTENT GAP ANALYSIS
+--------------------------------
+
+MISSING CONTENT (not in current article):
+  - Entry mechanics section (named heading for "How to enter K-Guard")
+  - Gi vs no-gi context (K-Guard applicability in both rulesets)
+  - Origin/history of K-Guard (brief inventor attribution)
+  - Comparison sections: K-Guard vs Z-Guard, K-Guard vs Deep Half
+
+HEADING OPTIMIZATIONS (6 headings to convert to question format):
+  - "Overview"              → "What Is K-Guard in BJJ?"
+  - "Key Principles"        → "How Does K-Guard Work? (Core Principles)"
+  - "Offensive Transitions" → "What Sweeps and Attacks Can You Do from K-Guard?"
+  - "Common Errors"         → "What Are the Most Common K-Guard Mistakes?"
+  - "Training Drills"       → "How Do You Drill K-Guard? (Training Exercises)"
+  - "Optimal Submission Paths" → "What Submissions Can You Finish from K-Guard?"
+
+SCHEMA MARKUP OPPORTUNITIES:
+  - FAQPage schema: 5 high-priority Q&A pairs ready to mark up
+  - HowTo schema: entry mechanics can be structured as a HowTo from state_invariants data
+
+--------------------------------
+SUGGESTED NEW ARTICLES
+--------------------------------
+
+  1. "K-Guard vs Z-Guard: Which Half Guard Variation is Right for You?"
+     Path: source/content/Positions/K-Guard-vs-Z-Guard.md (comparison page)
+     Priority: High (comparison queries drive high CTR)
+
+  2. "K-Guard Top: How to Pass the K-Guard"
+     Path: source/content/Positions/K-Guard/Top.md (already in Position model)
+     Priority: High (passer perspective is fully documented in JSON top section)
+
+  3. "Waiter Sweep from K-Guard"
+     Path: source/content/Transitions/Waiter-Sweep.md
+     Priority: Medium (sweep is referenced but no dedicated page exists)
+
+  4. "Half Guard to Back Take"
+     Path: source/content/Transitions/Half-Guard-to-Back-Take.md
+     Priority: Medium (back-take path is K-Guard's highest-value transition)
+
+  5. "K-Guard Drills for BJJ Beginners"
+     Path: could be a section within K-Guard/Bottom.md
+     Priority: Low (training drill content exists in JSON; surface as named page if traffic warrants)
+
+================================
+OUTPUT FILES
+  tests/artifacts/paa/K-Guard_paa.json   ← Full structured PAA data
+  tests/artifacts/paa/summary.txt         ← This summary
+  tests/artifacts/suggested_new_files.csv ← New article suggestions (CSV)
+================================
