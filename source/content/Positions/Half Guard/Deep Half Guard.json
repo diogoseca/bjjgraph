@@ -1,8 +1,12 @@
 {
   "name": "Deep Half Guard",
   "slug": "deep-half-guard",
-  "description": "Master Deep Half Guard in BJJ. Strategic guide covering sweeps, back takes, and defensive counters with complete bottom and top perspective analysis.",
+  "description": "Master Deep Half Guard in BJJ. Advanced leverage-based guard with powerful sweeps, back takes, and submission options. Covers bottom and top perspectives with decision trees and success rates.",
   "variant_uniqueness": "Inverted leverage trades exposure for sweeps",
+  "bot_metadata": {
+    "last_improved": "2026-02-27",
+    "optimization_pass": "ai_seo_v1"
+  },
   "overview": "Deep Half Guard is an advanced guard position where the bottom player positions themselves underneath one of the opponent's legs, creating a powerful leverage point for sweeps and back takes. Unlike traditional half guard where the opponent's leg is trapped between the bottom player's legs, deep half involves the bottom player getting their entire upper body underneath the opponent's center of gravity, often with the shoulder positioned at the opponent's far hip. This position offers exceptional sweeping leverage and is particularly effective for smaller practitioners against larger opponents.\n\nThe deep half guard represents a fundamental shift in guard philosophy, moving from traditional frames and distance management to an inverted leverage-based approach. By positioning underneath the opponent's center of gravity, the bottom player gains mechanical advantage that transcends size and strength differences. The position is characterized by extreme proximity and connection, with the bottom player using their entire body as a lever to disrupt the opponent's base. This creates opportunities for powerful sweeps that can lead directly to dominant positions or back control.\n\nFrom the top perspective, deep half guard presents a deceptive challenge - while you appear to be winning because you're on top, the bottom player has created a sophisticated lever system using your body weight against you. Understanding the sweep mechanics from both perspectives is essential for modern BJJ practitioners, as this position has become a cornerstone of competitive grappling at all levels.",
   "key_principles": [
     "Deep underhook control is the primary mechanism for sweeps and back takes",
@@ -12,6 +16,24 @@
     "Patient methodical movement trumps explosive attempts from both perspectives",
     "Crossface control is critical defensive tool for top player",
     "Position favors offense for bottom player despite appearing defensive"
+  ],
+  "faq": [
+    {
+      "question": "What is Deep Half Guard in BJJ?",
+      "answer": "Deep Half Guard is an advanced BJJ guard position where the bottom player slides their entire upper body underneath the opponent's hips, controlling the opponent's far leg with a deep underhook. The bottom player's head and shoulder create a wedge against the opponent's inner thigh, generating powerful mechanical leverage for sweeps directly to Mount or Back Control. Despite appearing defensive, it is highly offensive."
+    },
+    {
+      "question": "Is Deep Half Guard effective in competition?",
+      "answer": "Deep Half Guard is highly effective at all competition levels, especially in no-gi where grip restrictions make it harder to defend. Bernardo Faria won multiple IBJJF World Championships using Deep Half as his primary guard system. Success rates range from beginner 30% to advanced 65% for sweeps. The position becomes more effective as practitioners develop precise entry timing and sweep chain fluency."
+    },
+    {
+      "question": "What are the main sweeps from Deep Half Guard?",
+      "answer": "The four primary sweeps are: (1) Waiter Sweep to Mount — drive forward pressure; (2) Old School Sweep to Side Control — classic hip-lift; (3) Rolling Back Take to Back Control — when opponent steps over; (4) X-Guard Sweep to standing — when opponent retreats their far leg. Each targets a different defensive reaction, creating a complete dilemma system."
+    },
+    {
+      "question": "How does Deep Half Guard compare to regular Half Guard?",
+      "answer": "Regular Half Guard uses side-facing control from a more upright position. Deep Half Guard requires full inversion underneath the opponent's hips with a far-leg underhook. Deep Half creates superior sweeping leverage at the cost of greater positional exposure during entry. It is more specialized and offensive but has a steeper learning curve, typically suited to blue belt and above."
+    }
   ],
   "related_positions": [
     {
@@ -309,6 +331,20 @@
         "duration": "3 minute rounds, 4-6 rounds"
       }
     ],
+    "execution_steps": [
+      "1. **Entry:** From Half Guard bottom, wait for the top player to drive weight forward — this is your entry trigger.",
+      "2. **Create space:** Frame on the opponent's hip with your free hand and shrimp your hips away to create space underneath them.",
+      "3. **Shoot under:** Drive your head and shoulders under the opponent's near hip, angling your body perpendicular to theirs.",
+      "4. **Establish deep underhook:** Wrap your top arm deeply around their far thigh, gripping behind their knee or upper hamstring — this is your primary control.",
+      "5. **Position your head:** Press your head against their inner thigh near the hip, creating a wedge that disrupts their base.",
+      "6. **Invert your body:** Roll your shoulders onto the mat with your hips elevated, body fully inverted underneath their center of gravity.",
+      "7. **Secure near-leg control:** Use your free hand or your legs to monitor and control the opponent's near leg, preventing step-over escapes.",
+      "8. **Elevate your hips:** Drive your hips upward into their center of mass to keep them constantly off-balance and reactive.",
+      "9. **Read their weight:** If they commit forward, execute the Waiter Sweep or Old School Sweep. If they try to step over, take the rolling back take.",
+      "10. **Execute sweep:** For Waiter Sweep — elevate with your hips and lift their far leg upward and forward while rolling them over your body.",
+      "11. **Follow through:** Maintain grip through the sweep and complete to Mount or Side Control depending on their defensive reaction.",
+      "12. **Transition to back if defended:** If they whizzer to defend, their arm is trapped — immediately enter the Electric Chair or roll for the back take."
+    ],
     "optimal_submission_paths": [
       {
         "name": "Direct submission path",
@@ -321,6 +357,40 @@
       {
         "name": "Sweep to submission path",
         "path": "Deep Half Guard Bottom → Waiter Sweep → Mount → Armbar from Mount"
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is Deep Half Guard in BJJ?",
+        "answer": "Deep Half Guard is an advanced guard position where the bottom player slides their upper body underneath the opponent's hips, controlling the far leg with a deep underhook. Unlike standard Half Guard where you control from the side, Deep Half creates a leverage fulcrum using your shoulder and head against their inner thigh. The position is highly offensive despite appearing defensive — it generates powerful sweeps directly to Mount or Back Control."
+      },
+      {
+        "question": "How do I enter Deep Half Guard?",
+        "answer": "Enter when the top player commits weight forward. Frame on their hip, shrimp to create space, then shoot your head and shoulders underneath their near hip. Establish the deep underhook of their far leg before they can react. Timing is critical — entering too early lets them defend, too late and they'll have already passed."
+      },
+      {
+        "question": "What sweeps can I do from Deep Half Guard?",
+        "answer": "The primary sweeps are: (1) Waiter Sweep to Mount (beginner 30%, advanced 65%) — when opponent drives forward; (2) Old School Sweep to Side Control (beginner 35%, advanced 70%) — classic hip-lift sweep; (3) Rolling Back Take to Back Control (beginner 20%, advanced 60%) — when opponent steps over; (4) X-Guard Sweep to standing (beginner 25%, advanced 60%) — when opponent pulls far leg back."
+      },
+      {
+        "question": "What is the difference between Deep Half Guard and regular Half Guard?",
+        "answer": "Regular Half Guard involves the bottom player controlling the opponent's near leg between their legs, maintaining a relatively vertical body position. Deep Half Guard requires inverting entirely underneath the opponent's hips with a deep underhook of their far leg. Deep Half trades positional exposure for powerful mechanical leverage — you are physically under your opponent's center of gravity, making sweeps more powerful but requiring more hip mobility and timing."
+      },
+      {
+        "question": "Is Deep Half Guard good for beginners?",
+        "answer": "Deep Half Guard has a moderate learning curve. Sweep success rates start at 20-35% for beginners but rise significantly with practice. The entry timing is the hardest element to master. Beginners should first develop solid standard Half Guard, then learn the Deep Half entry. The position rewards patient practitioners — it's better suited to blue and purple belts than white belts, though the concepts can be introduced early."
+      },
+      {
+        "question": "How do I escape Deep Half Guard when on top?",
+        "answer": "Escaping Deep Half top requires: (1) Immediately establish crossface to disrupt opponent's vision and sweep mechanics; (2) Widen your base with your free leg — think tripod stance; (3) Balance weight 50/50, avoiding forward lean (triggers Waiter Sweep) or backward lean (triggers Old School Sweep); (4) Methodically extract your trapped leg using gradual, controlled movement; (5) Complete the pass to Side Control before they reconstruct their grips."
+      },
+      {
+        "question": "What is the Electric Chair from Deep Half Guard?",
+        "answer": "The Electric Chair is a submission used when the top player whizzers (overhooks your sweeping arm) to defend Deep Half sweeps. When they whizzer, their far arm is now trapped under yours. Establish Lockdown with your legs, then apply upward pressure with your legs while pushing their upper body away, creating a hyperextension on their hip and spine. It transitions into a split-the-legs position forcing a tap or sweep."
+      },
+      {
+        "question": "Who developed Deep Half Guard in BJJ?",
+        "answer": "Deep Half Guard was pioneered and systematized in modern competition BJJ by Jeff Glover in the no-gi context, and further developed by Lucas Leite and Bernardo Faria in the gi. Bernardo Faria's entire competition game centered on Deep Half, winning multiple IBJJF World Championships using it as his primary guard. The 10th Planet system, created by Eddie Bravo, integrated Deep Half with Lockdown and Electric Chair into a comprehensive system."
       }
     ],
     "related_content": [
@@ -618,6 +688,20 @@
         "duration": "5 rounds (20 minutes total)"
       }
     ],
+    "execution_steps": [
+      "1. **Assess the threat:** Immediately identify that your opponent is in deep position — their head is near your far hip and they have underhook of your far leg.",
+      "2. **Widen your base:** Post your free leg wide to the side (tripod stance), creating maximum base stability before they can activate sweep mechanics.",
+      "3. **Establish crossface:** Drive your forearm or hand across their face/head, pushing their head away from your centerline — this disrupts their vision and lever position.",
+      "4. **Check your weight:** Balance 50/50 between both legs. Avoid forward lean (activates Waiter Sweep) and backward lean (activates Old School Sweep).",
+      "5. **Control their near leg:** Their near leg is trapped between yours — ensure it stays controlled to prevent them from creating angles with their legs.",
+      "6. **Fight the underhook:** Prevent their deep underhook grip from tightening. Use your near arm to clamp down on their grip or strip it.",
+      "7. **Apply shoulder pressure:** Drive your near-side shoulder down into their upper back or head to flatten them and reduce their inversion leverage.",
+      "8. **Begin leg extraction:** With crossface and base established, begin slowly extracting your trapped leg using circular hip movement, not explosive force.",
+      "9. **Switch to passing:** As you extract the leg, immediately step it over to set up your chosen pass — Crossface Pass or Knee Slice Pass.",
+      "10. **Recognize the Kimura:** If they overcommit their underhook arm to grip-fight, their arm is exposed for Kimura from Half Guard — attack opportunistically.",
+      "11. **Complete to Side Control:** Once the leg clears, drive your weight through and consolidate Side Control before they can recover guard.",
+      "12. **Prevent re-entry:** After passing, maintain hip pressure and crossface to stop them from attempting another deep half entry."
+    ],
     "optimal_submission_paths": [
       {
         "name": "High-percentage submission path via pass",
@@ -630,6 +714,24 @@
       {
         "name": "Systematic pass to mount submission",
         "path": "Deep Half Guard Top → Half Guard Pass → Side Control → Mount → Armbar from Mount"
+      }
+    ],
+    "faq": [
+      {
+        "question": "How do I stop someone from entering Deep Half Guard?",
+        "answer": "Prevent deep half entry by: (1) Never committing your weight fully forward in Half Guard — keep balanced distribution; (2) Establish and maintain crossface early to prevent the opponent from inverting; (3) Post your far leg back when you feel them beginning to slide under; (4) Control their inside shoulder to block the inversion. Prevention is significantly easier than escaping — these habits should become automatic in all Half Guard top sequences."
+      },
+      {
+        "question": "What is the best pass from Deep Half Guard top?",
+        "answer": "The Crossface Pass is the highest-percentage option from Deep Half Guard top (beginner 35%, advanced 70%). Establish a strong crossface with your near arm, widen your base, then systematically extract your trapped leg while maintaining shoulder pressure. The Knee Slice Pass is a strong alternative (advanced 65%) when the opponent's guard is less deep. Both require methodical execution rather than explosive force."
+      },
+      {
+        "question": "Why is it dangerous to be on top in Deep Half Guard?",
+        "answer": "Deep Half Guard is deceptive — you appear to be winning from top position, but the bottom player has created a lever system using your own body weight against you. Their shoulder acts as a fulcrum under your hip, and any weight shift activates high-percentage sweeps: forward lean triggers the Waiter Sweep to Mount (60% success for experienced players), backward lean triggers the Old School Sweep to Side Control (55%). The position strongly favors the bottom player despite appearances."
+      },
+      {
+        "question": "Should I use explosive movements to escape Deep Half Guard top?",
+        "answer": "Explosive movements are counterproductive when escaping Deep Half Guard top. Any sudden force creates momentum that skilled bottom players will redirect into sweep attempts — they are trained to use your explosiveness against you. Instead, use slow, controlled, methodical extraction: establish your crossface, widen your base, then gradually work your leg free. Patience and proper structure are more effective than strength."
       }
     ],
     "related_content": [
