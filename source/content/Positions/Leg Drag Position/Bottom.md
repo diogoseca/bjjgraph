@@ -8,7 +8,7 @@ description: "Defend and escape the leg drag position with systematic recovery s
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -162,13 +162,13 @@ description: "Defend and escape the leg drag position with systematic recovery s
 
 Being on bottom in the leg drag position is one of the most challenging defensive scenarios in Brazilian Jiu-Jitsu. The position represents a critical moment where your guard structure has been compromised and your opponent has achieved a dominant angle with control over your hip and leg. Understanding the mechanics of escape and prevention is essential for any practitioner looking to develop a complete defensive game.
 
-The fundamental problem from bottom is that your hip has been controlled and one leg has been dragged across your body, eliminating many of your primary defensive tools. Your ability to create frames, maintain distance, and use your legs for guard retention has been severely compromised. The top player can apply significant pressure while maintaining the mobility to address your escape attempts. This asymmetry in position quality means that defensive actions must be immediate, decisive, and technically precise.
+How to Escape the Leg Drag — Step-by-Step: (1) Recognize the position early — prevention is far easier than escape. The moment your opponent begins controlling your leg, start your defensive sequence immediately. (2) Never turn away from your opponent — turning exposes your back immediately for an easy back take. (3) Create frames with your free leg and far side arm — a shin frame against their shoulder and an arm frame against their hip creates temporary space. (4) Target recovery to [[Butterfly Guard]] as your primary objective: fight to get your free leg's heel behind their thigh to create a butterfly hook. (5) If butterfly recovery is blocked, seek [[Knee Shield Half Guard]] by threading your trapped leg between your bodies. (6) Use [[Granby Roll Concept]] when direct recovery is blocked and their balance is compromised: roll backward over your near shoulder, inverting your hips underneath to reset your guard structure — typically recovering to [[Butterfly Guard]]. (7) Act within 3-4 seconds — late defense rarely succeeds as the top player consolidates control.
 
-Successful defense begins with early recognition and prevention. Once your opponent has established the leg drag with chest pressure and hip control, your options become increasingly limited. The key defensive principle is to never accept the position passively - you must immediately choose between recovering guard structures (butterfly, half guard, or leg-based guards) or creating a scramble to neutral positions. Half measures and tentative movements typically result in the pass completing or your back being taken.
+The fundamental problem from bottom is that your hip has been controlled and one leg has been dragged across your body, eliminating many of your primary defensive tools. Your ability to create frames, maintain distance, and use your legs for guard retention has been severely compromised. The top player can apply significant pressure while maintaining the mobility to address your escape attempts. This asymmetry in position quality means defensive actions must be immediate, decisive, and technically precise.
 
-The biomechanical challenge lies in the fact that the top player's pressure pins your hip while their control of your leg prevents normal shrimping mechanics. Standard hip escapes become ineffective because your mobility is restricted. Therefore, successful escapes often involve either creating frames to lift the pressure temporarily, granby rolling to invert and reset, or using the bottom leg to create butterfly hooks or half guard structures. Each option requires precise timing and commitment - hesitation almost always results in further positional deterioration.
+When choosing between escape options: attempt [[Butterfly Guard]] recovery when the top player's chest pressure is present but they have not secured an underhook; attempt [[Deep Half Guard]] entry when their weight is heavy and forward; use [[Granby Roll Concept]] when their balance is compromised by their own pressure; seek [[Knee Shield Half Guard]] when they begin the back step motion. Each option requires precise timing and full commitment — hesitation almost always results in further positional deterioration.
 
-Advanced practitioners develop sensitivity to the weight distribution and pressure patterns in the leg drag, allowing them to exploit moments of adjustment or transition. The goal is not merely to survive but to actively threaten reversals or sweeps that make the top player adjust their position, creating windows for guard recovery. Understanding the connection between the leg drag and back exposure is critical - you must never turn away from your opponent as this immediately exposes your back for taking.
+Advanced practitioners develop sensitivity to the weight distribution and pressure patterns in the leg drag, allowing them to exploit moments of adjustment or transition. The goal is not merely to survive but to actively threaten reversals or sweeps that make the top player adjust their position, creating windows for guard recovery. Understanding the connection between the leg drag and back exposure is critical — you must never turn away from your opponent as this immediately exposes your back for taking.
 
 </section>
 
@@ -408,7 +408,7 @@ Partner maintains heavy leg drag pressure. Bottom player works exclusively on cr
 - **[[Butterfly Guard]]** - Primary guard recovery target
 - **[[Knee Shield Half Guard]]** - Alternative recovery structure
 - **[[Deep Half Guard]]** - Advanced recovery option when direct paths blocked
-- **[[Frame Creation]]** - Essential principle for creating escape space
+- **[[Defensive Frame]]** - Essential principle for creating escape space from leg drag
 - **[[Guard Retention]]** - Prevents reaching leg drag position
 - **[[Granby Roll Concept]]** - Key movement pattern for escaping leg drag
 - **[[Back Control]]** - Danger position if escape fails and you turn away

@@ -8,7 +8,7 @@ description: "Defensive strategies and escape techniques when opponent has estab
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -160,11 +160,15 @@ description: "Defensive strategies and escape techniques when opponent has estab
 
 <section id="overview" class="content-section">
 
-Body Lock Bottom is a highly disadvantageous defensive position where your opponent has wrapped both arms around your torso with hands locked together, controlling your movement and setting up immediate threats of back takes, throws, or mat returns. This position requires urgent defensive action as it represents one of the most dominant forms of standing control in grappling. Your opponent has eliminated your ability to create distance, established connection to your center of mass, and can execute multiple high-percentage attacks within seconds.
+Body Lock Bottom is a highly disadvantageous defensive position where your opponent has wrapped both arms around your torso with hands locked together, controlling your movement and setting up immediate threats of back takes, throws, or mat returns. This position requires urgent defensive action — it represents one of the most dominant forms of standing control in grappling. Your opponent has eliminated your ability to create distance, established connection to your center of mass, and can execute multiple high-percentage attacks within seconds.
 
-From bottom, your primary objectives are breaking your opponent's locked grip, creating space to establish defensive frames, preventing your posture from breaking backward, and escaping to neutral standing position or guard. The longer you remain in this position, the more your opponent can tire you out, break your posture, and execute their preferred takedown or back take. Understanding hand fighting principles, hip positioning for creating space, and recognizing when to sit to guard versus when to fight for standing position becomes critical for effective defense.
+How to Escape the Body Lock — Step-by-Step: (1) Fight hands the instant your opponent attempts to connect — prevention is far easier than escape once the lock is fully established. (2) Post both hands on your opponent's hips and drive them away explosively while simultaneously widening your base. (3) Bend your knees and lower your center of gravity to resist their hip pressure and prevent backward posture breaking. (4) If the grip is fully locked, attack inward at their wrist junction using a hip-pivot motion to find a gap. (5) Never turn away from your opponent — turning gives up your back immediately. (6) If standing escape is failing within 2-3 seconds, proactively sit to [[Closed Guard]] — control your landing rather than being thrown. (7) From guard, establish grips and look to set up [[Triangle Setup]] or [[Arm Drag to Back]] sequences to reverse the exchange.
 
-The body lock bottom position appears frequently in no-gi competition when opponents establish dominant clinch control or when you're caught during scrambles and transitions. Developing competent defenses prevents opponents from consistently taking your back or scoring takedowns, which is essential for competitive success at all levels.
+From bottom, your primary objectives are: breaking your opponent's locked grip, creating space to establish defensive frames, preventing your posture from breaking backward, and escaping to neutral standing position or guard. The longer you remain in this position, the more your opponent can tire you out, break your posture, and execute their preferred takedown or back take. Understanding [[Grip Breaking]] principles, hip positioning for space creation, and recognizing when to sit to [[Closed Guard]] versus when to fight for standing position is critical for effective defense.
+
+When Should You Sit to Guard vs Fight Standing? Fighting for standing position is correct when the lock is not fully established, when hip-posting space is available, or when you have a significant athletic advantage. Sitting to [[Closed Guard]] is correct when: (a) the lock is fully established and your posture is breaking, (b) your opponent is actively lifting or driving you forward, (c) you feel a throw or suplex being initiated. A controlled guard pull is strategically superior to being thrown — you dictate the ground position rather than landing on your opponent's terms with their momentum advantage.
+
+The body lock bottom position appears frequently in no-gi competition when opponents establish dominant clinch control or when you are caught during scrambles and transitions. Developing competent defenses prevents opponents from consistently taking your back or scoring takedowns, which is essential at all competitive levels. At the advanced level, skilled practitioners treat the body lock bottom as a position of strategic choice — sitting to guard with deliberate intent to use their bottom guard system rather than passively accepting the throw.
 
 </section>
 

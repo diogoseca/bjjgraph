@@ -1,0 +1,148 @@
+{
+  "article_path": "source/content/Positions/Body Lock.json",
+  "seed_keyword": "Body Lock BJJ",
+  "data_source": "Content analysis + BJJ search intent synthesis (DataForSEO MCP unavailable; WebSearch/WebFetch not authorized in session)",
+  "paa_questions": [
+    {
+      "question": "What is a body lock in BJJ?",
+      "answer_snippet": "A body lock in BJJ is a dominant standing clinch control position where you wrap both arms around your opponent's torso and lock your hands together. It creates a closed kinetic chain that transfers body weight and pressure directly into the opponent's center of gravity, enabling mat returns, back takes, and high-amplitude throws.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "This is the #1 definitional query. The hub page should answer it in the first paragraph with a bold front-loaded sentence."
+    },
+    {
+      "question": "How do you escape a body lock in BJJ?",
+      "answer_snippet": "To escape a body lock in BJJ: (1) fight hands before the lock is completed, (2) post both hands on opponent's hips and drive them away explosively, (3) maintain a wide base with bent knees, (4) sit to closed guard if standing escape fails. Never turn away — this exposes the back immediately.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "notes": "The Bottom page covers this but the hub (Body Lock.md) should have an escape overview FAQ section to capture this high-volume query."
+    },
+    {
+      "question": "What is a body lock pass in BJJ?",
+      "answer_snippet": "The body lock pass is a guard-passing technique where the top player wraps both arms around the bottom player's torso and uses chest and hip pressure to drive past the guard into side control or turtle. It is closely related to the leg drag pass and is a core technique in modern no-gi grappling.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "Content gap: the JSON covers the standing body lock well but lacks a dedicated section on body lock PASS (ground-based guard passing application). This is a separate, high-search-volume concept."
+    },
+    {
+      "question": "How does the body lock lead to back control?",
+      "answer_snippet": "From a body lock, back control is achieved via mat return: drive hip pressure into the opponent, force them to turtle or break posture backward, then secure the back with hooks. Elite competitors like Gordon Ryan use this as their primary back-taking path in no-gi competition, achieving ~70-80% back-take success from the position.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "Change 'Back Take' heading to 'How Does Body Lock Lead to Back Control?' — matches conversational search query."
+    },
+    {
+      "question": "What is a body lock in wrestling?",
+      "answer_snippet": "In wrestling, a body lock (also called a bear hug) is a clinch control where both arms encircle the opponent's torso with hands locked. It is used to execute lifts, throws, and mat returns. BJJ adopted and evolved the body lock into a systematic back-control entry system.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "Adding a 'Wrestling vs BJJ Body Lock' subsection would capture cross-sport searchers and strengthen E-E-A-T."
+    },
+    {
+      "question": "What is the difference between body lock and rear clinch in BJJ?",
+      "answer_snippet": "The rear clinch involves chest-to-back connection with wrist/bicep control, while the body lock advances this by locking both hands around the torso, creating a closed kinetic chain. The body lock offers higher control and more direct back-take paths but requires closer proximity and grip fighting to establish.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "Currently only a related_positions entry. Should be expanded into an explicit comparison section."
+    },
+    {
+      "question": "How do you set up a body lock from the clinch?",
+      "answer_snippet": "From the clinch: establish chest-to-back connection, shoot both arms around the opponent's torso during a grip fighting exchange or after breaking their frames, lock hands at centerline using a gable or rear-naked-choke grip, and immediately drive hips forward with chest pressure. Speed is critical — attack within 1-2 seconds.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading",
+      "notes": "The Top section covers this but the hub page lacks a setup/entry overview for this common beginner question."
+    },
+    {
+      "question": "Is the body lock legal in BJJ competition?",
+      "answer_snippet": "Yes, body lock control is legal in all major BJJ and grappling competitions (IBJJF, ADCC, EBI, etc.). The position itself is not a submission hold — it is a control position used to execute takedowns, throws, and back takes.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Zero coverage in current content. This is a common beginner question that is quick to answer and builds trust."
+    },
+    {
+      "question": "What throws can you do from a body lock?",
+      "answer_snippet": "Common throws from a body lock include: hip toss, trip (inside or outside), suplex variations, and lateral drop. The throw type depends on the opponent's defensive reaction — upright posture creates throw opportunities, while postured posture creates mat return/back-take opportunities.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "The Top section mentions throws but lists them only as technique names. A dedicated 'Throws from Body Lock' subsection with brief throw descriptions would capture this query."
+    },
+    {
+      "question": "How do you do a body lock pass against the guard?",
+      "answer_snippet": "The body lock pass from guard involves: control the opponent's legs, drive your chest into their body with a body lock grip, use hip pressure to drive past their guard. From leg drag position, the body lock can be combined to consolidate control and complete the pass to side control or turtle.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "add_section",
+      "notes": "See also: content gap note about body lock pass. This query bridges the standing and ground applications."
+    },
+    {
+      "question": "What is the crab ride and how does it connect to body lock?",
+      "answer_snippet": "The crab ride is a transitional back-control position used when moving from body lock to full back control. When the opponent defends the mat return by turtling, the crab ride allows the top player to maintain back exposure while inserting hooks to secure the back. It appears in the optimal_submission_paths of the Body Lock Top position.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "add_section",
+      "notes": "Currently only a related_content link. Expanding into a brief description would add SEO value and internal linking depth."
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Body Lock",
+      "suggested": "What Is Body Lock in BJJ? Complete Position Guide",
+      "rationale": "Matches primary definitional query pattern. Front-loads the answer signal for AI search and featured snippets."
+    },
+    {
+      "current": "Overview (implicit)",
+      "suggested": "What Is the Body Lock Position?",
+      "rationale": "Converting the opening overview section to an explicit H2 question heading captures 'what is body lock' PAA directly."
+    },
+    {
+      "current": "Key Principles",
+      "suggested": "How Does the Body Lock Work? (Core Mechanics)",
+      "rationale": "Interrogative format matches conversational search intent for BJJ technique mechanics."
+    },
+    {
+      "current": "Related Positions",
+      "suggested": "How Does Body Lock Connect to Other BJJ Positions?",
+      "rationale": "Question format increases click-through likelihood from PAA panels showing heading text."
+    },
+    {
+      "current": "Body Lock Top — Offensive Transitions",
+      "suggested": "What Attacks Are Available from Body Lock Top?",
+      "rationale": "High-intent query pattern for practitioners seeking offensive options from the position."
+    },
+    {
+      "current": "Body Lock Bottom — Escape Techniques",
+      "suggested": "How Do You Escape the Body Lock?",
+      "rationale": "Direct match to the #2 high-priority PAA question. Short, authoritative, beginner-friendly."
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add section: 'Body Lock Pass' — Ground-based guard passing application (separate concept from standing body lock; high search volume)",
+    "Add section: 'Body Lock in Wrestling vs BJJ' — Cross-sport comparison for broader search capture",
+    "Add section: 'Throws from Body Lock' — List and brief descriptions of hip toss, trip, suplex variants",
+    "Add FAQ: 'Is the body lock legal in BJJ competitions?' — Beginner trust signal, zero current coverage",
+    "Add FAQ: 'How long can you hold a body lock?' — Time sustainability context already in JSON metrics but not surfaced as FAQ",
+    "Add section: 'Body Lock vs Rear Clinch' — Explicit comparison beyond related_positions link",
+    "Add section: 'Body Lock for Smaller Grapplers' — Size-differential application already mentioned in overview but not highlighted for SEO",
+    "Add note: Gordon Ryan / John Danaher attribution with specific competition context — E-E-A-T signal for AI search engines",
+    "Consider new article: 'Body Lock Pass' — Dedicated page for the guard-passing application (different from standing position)"
+  ],
+  "competitor_content_analysis": {
+    "note": "DataForSEO MCP not available; competitor URL analysis skipped. Manual SERP check recommended for: 'body lock bjj', 'body lock pass bjj', 'body lock back take bjj'",
+    "expected_competitors": [
+      "bjjfanatics.com instructor blogs",
+      "grapplearts.com",
+      "bjjheroes.com",
+      "youtube.com/shorts transcripts",
+      "reddit.com/r/bjj community posts"
+    ]
+  }
+}
