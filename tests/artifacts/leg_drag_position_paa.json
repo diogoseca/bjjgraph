@@ -1,0 +1,154 @@
+{
+  "article_path": "source/content/Positions/Leg Drag Position.json",
+  "seed_keyword": "Leg Drag Position BJJ",
+  "data_source": "Content analysis + BJJ search intent synthesis (DataForSEO MCP unavailable; WebSearch/WebFetch not authorized in session)",
+  "paa_questions": [
+    {
+      "question": "What is the leg drag position in BJJ?",
+      "answer_snippet": "The leg drag position in BJJ is a passing position where the top player controls one of the opponent's legs and drags it across their body, disrupting guard structure while applying chest pressure to the hip. It creates multiple offensive pathways including direct passes to side control, back takes, and knee slice variations.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "Primary definitional query. The first sentence of the hub page overview should be formatted as a direct answer, front-loaded and bold."
+    },
+    {
+      "question": "How do you do a leg drag pass in BJJ?",
+      "answer_snippet": "To perform a leg drag pass: (1) control one of the opponent's legs at the knee or ankle, (2) drag it across their body to disrupt guard structure, (3) apply chest pressure to the dragged leg to pin their hip, (4) move perpendicular to their torso, (5) finish with a knee slice to side control or back step to back control depending on their defensive reaction.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "Step-by-step format directly matches PAA 'how to' query pattern. The Top section covers mechanics but not as a numbered procedure — restructure as explicit steps."
+    },
+    {
+      "question": "How do you defend against the leg drag in BJJ?",
+      "answer_snippet": "To defend the leg drag: (1) never turn away from the opponent — this exposes the back immediately, (2) create frames with the free leg and far arm before the lock is completed, (3) target butterfly hook recovery or half guard as primary objectives, (4) use a granby roll to invert if direct recovery is blocked, (5) act within 3-4 seconds before position becomes unescapable.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "The Bottom section covers this comprehensively but the hub page lacks an escape overview. Add a summary FAQ on the hub page for this query."
+    },
+    {
+      "question": "Who invented the leg drag pass in BJJ?",
+      "answer_snippet": "The leg drag pass was popularized in modern sport BJJ by the Miyao brothers (Paulo and Joao), the Mendes brothers (Rafael and Guilherme), and competitors like Lucas Lepri. It evolved from traditional gi passing but gained prominence in no-gi grappling where leg control is especially effective without grip-based defenses.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "Content gap: the JSON mentions these athletes in the overview but doesn't have a dedicated 'History / Who Uses It' section. This is a common PAA question that improves E-E-A-T and AI citation likelihood."
+    },
+    {
+      "question": "What positions lead to the leg drag?",
+      "answer_snippet": "The most common entry to the leg drag is from the headquarters position (penetration step), but it can also be entered from: butterfly guard passing, De La Riva guard pass, X-guard passing, and open guard exchanges. It is frequently chained with the body lock for enhanced control.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "The related_positions list mentions headquarters but entries are not described as pathways. Convert to 'How Do You Enter the Leg Drag?' section for PAA capture."
+    },
+    {
+      "question": "What is the difference between leg drag and leg weave?",
+      "answer_snippet": "The leg drag controls one leg and drags it across the body using chest pressure to pin the hip. The leg weave (or leg triangle/smash pass) involves weaving the opponent's leg and pinning it with your own leg/hip for a pressure pass. Both disrupt guard structure but the leg drag creates back-take opportunities while the leg weave is more of a direct pressure pass.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "Zero coverage in current content. Common comparison query from intermediate practitioners. Short comparison table would be ideal."
+    },
+    {
+      "question": "How does the leg drag lead to back control?",
+      "answer_snippet": "When the bottom player turns away from leg drag chest pressure to protect their guard or escape, the top player immediately executes a back step — stepping around the opponent's hips. This back step converts to back control in approximately 70-75% of cases at the intermediate-to-advanced level. Recognizing the turn-away is the critical cue.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading",
+      "notes": "The decision tree covers this but not as an explicit pathway. A heading 'How Does Leg Drag Lead to Back Control?' with the back step mechanic described would capture this query."
+    },
+    {
+      "question": "Is the leg drag effective in no-gi BJJ?",
+      "answer_snippet": "Yes, the leg drag is especially effective in no-gi BJJ because it bypasses grip-based defenses entirely. Without gi grips, modern guards rely on distance management and leg frames — the leg drag directly controls the hip and negates these systems. It has become a cornerstone of elite no-gi passing systems.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "notes": "The overview mentions no-gi relevance but not as an explicit FAQ answer. This is a high-conversion query for no-gi practitioners."
+    },
+    {
+      "question": "What is the leg drag position from headquarters?",
+      "answer_snippet": "The headquarters position (also called the 'HQ pass position') is the most common entry to the leg drag. From headquarters, the top player has a penetration step inside the opponent's legs; they then grip one leg at the knee or ankle, drag it across the body while applying shoulder pressure, and establish the leg drag control angle.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "The related_positions mentions headquarters but the specific entry sequence is not described. Adding 'Leg Drag from Headquarters' as a named subsection adds semantic depth."
+    },
+    {
+      "question": "What does Gordon Ryan say about the leg drag?",
+      "answer_snippet": "Gordon Ryan emphasizes that the leg drag is a 'checkpoint position' — not a hold-down — that must be immediately converted to either a knee slice pass, pressure pass, or back take. He stresses reacting to the opponent's first defensive movement: if flat, finish the pass; if turning away, take the back without hesitation (approximately 80% success at elite level).",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "improve_heading",
+      "notes": "Gordon Ryan expert insight is already in the JSON. Convert the expert_insights section headings to attribution-style headings like 'Gordon Ryan on Leg Drag' for AI citation friendliness."
+    },
+    {
+      "question": "How do you use granby roll to escape leg drag?",
+      "answer_snippet": "The granby roll from leg drag bottom: when chest pressure is heavy but the top player's balance is compromised, the bottom player rolls backward over their near shoulder, inverting their hips underneath. This resets the guard structure, typically recovering to butterfly guard. Timing is critical — granby into a prepared opponent results in immediate guard pass completion.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "dedicated_faq",
+      "notes": "The Bottom section lists granby roll as an escape option but doesn't describe the mechanics. Adding a step-by-step capture this query specifically."
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Leg Drag Position",
+      "suggested": "What Is the Leg Drag Position in BJJ? Complete Guide",
+      "rationale": "Matches primary definitional query. Question format optimized for AI search panels and featured snippets."
+    },
+    {
+      "current": "Overview (implicit)",
+      "suggested": "What Is the Leg Drag Position?",
+      "rationale": "Front-loads the definitional answer. Google frequently pulls the first H2 after a question-match title for PAA answers."
+    },
+    {
+      "current": "Key Principles",
+      "suggested": "How Does the Leg Drag Position Work?",
+      "rationale": "Interrogative heading converts principles list into an answer to a common how-to query."
+    },
+    {
+      "current": "Leg Drag Position Top — Offensive Transitions",
+      "suggested": "How Do You Finish from Leg Drag Top? (Passing Options)",
+      "rationale": "Directly answers the 'how to finish leg drag pass' query pattern."
+    },
+    {
+      "current": "Leg Drag Position Bottom — Escape Techniques",
+      "suggested": "How Do You Escape the Leg Drag Position?",
+      "rationale": "Direct match to the #3 high-priority PAA question. Clear and actionable."
+    },
+    {
+      "current": "Related Positions",
+      "suggested": "What Positions Connect to the Leg Drag?",
+      "rationale": "Question format engages users looking to understand the positional map."
+    },
+    {
+      "current": "Expert Insights",
+      "suggested": "What Do Elite Grapplers Say About the Leg Drag?",
+      "rationale": "Framing expert opinions as a question increases AI citation potential and E-E-A-T signals."
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add section: 'History of the Leg Drag Pass' — Miyao brothers, Mendes brothers, Lepri attribution with competition context",
+    "Add section: 'Leg Drag vs Leg Weave' — Explicit comparison of two common guard-passing techniques (zero current coverage)",
+    "Add section: 'How to Enter Leg Drag from Different Guards' — Butterfly, De La Riva, X-guard entries as named subsections",
+    "Add FAQ: 'Is the Leg Drag Better in Gi or No-Gi?' — Zero current coverage; high-conversion query for practitioners choosing specialization",
+    "Add section: 'Leg Drag Headquarters Connection' — Detailed entry sequence from HQ position with step-by-step description",
+    "Add FAQ: 'What Submissions Can You Get from Leg Drag?' — The optimal_submission_paths section exists but not as an explicit FAQ answer",
+    "Add drill descriptions as searchable headings: 'Leg Drag to Multiple Finishes Drill', 'Back Take Recognition Drill' — makes drills findable by name",
+    "Add competitor spotlight: 'How the Miyao Brothers Use Leg Drag' — Named athlete attribution for E-E-A-T signals",
+    "Consider new article: 'Leg Drag vs Leg Drag Control' — Distinguish between the passing technique (action) and the position (state), which are sometimes conflated in searches",
+    "Consider new article: 'Headquarters Position' — Currently listed as related but no dedicated hub page; major entry point to leg drag"
+  ],
+  "competitor_content_analysis": {
+    "note": "DataForSEO MCP not available; competitor URL analysis skipped. Manual SERP check recommended for: 'leg drag pass bjj', 'leg drag position bjj', 'how to do leg drag bjj'",
+    "expected_competitors": [
+      "bjjfanatics.com/blogs (Lachlan Giles leg drag content)",
+      "grapplearts.com/leg-drag",
+      "bjjheroes.com leg drag guides",
+      "youtube.com/watch — Lucas Lepri, Miyao brothers technique videos",
+      "reddit.com/r/bjj leg drag threads"
+    ]
+  }
+}

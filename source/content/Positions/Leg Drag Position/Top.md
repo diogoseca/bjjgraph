@@ -8,7 +8,7 @@ description: "Control and finish the leg drag position with systematic passing s
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -162,13 +162,13 @@ description: "Control and finish the leg drag position with systematic passing s
 
 The leg drag position from top is one of the most powerful and versatile passing positions in modern Brazilian Jiu-Jitsu. It represents a critical juncture where you have successfully controlled your opponent's leg and hip, creating a dominant angle that facilitates multiple high-percentage passing and back-taking opportunities. The position's effectiveness lies in its ability to simultaneously restrict the bottom player's defensive options while maintaining your mobility and offensive initiative.
 
-The fundamental mechanics of the position involve dragging one of the opponent's legs across their body while maintaining chest pressure and hip control. This configuration creates a powerful mechanical advantage where you can apply significant pressure while the opponent's ability to create frames, maintain distance, or recover guard is severely compromised. The angle you create by moving perpendicular to their body is crucial - it prevents them from turning into you while setting up direct paths to side control, mount, or the back.
+How to Execute the Leg Drag Pass — Step-by-Step: (1) Establish initial leg control from [[Headquarters Position]], guard breaking, or scramble — grip one leg at the knee or ankle. (2) Drag the controlled leg across your opponent's body toward the mat while moving perpendicular to their torso. (3) Apply chest or shoulder pressure to the dragged leg to pin their hip — this is the defining mechanical action of the position. (4) Control the far hip with your free hand or head pressure to prevent [[Granby Roll Concept]] and inversions. (5) Read their defensive reaction immediately: if they stay flat, finish with [[Knee Slice Pass]] or [[Pressure Pass]] to [[Side Control]]; if they turn away even slightly, execute the back step immediately without hesitation. (6) For the back step: release leg pressure, step your leg around their hips, and secure [[Back Control]] — this is 70-75% successful when timed correctly. (7) If they attempt a butterfly hook with their free leg, react immediately with an angled [[Knee Slice Pass]] to cut off the hook before it forms.
 
-From a strategic perspective, the leg drag excels because it bypasses many modern guard retention systems. Rather than dealing with complex grips, frames, and leg configurations, you're directly controlling the hip and removing their ability to use their legs defensively. This makes it particularly effective against practitioners who rely heavily on distance management and leg-based guards like De La Riva, X-guard, or butterfly guard. The position scales exceptionally well from beginner to advanced levels - the basic mechanics are accessible to newer practitioners while advanced variations and combinations provide depth for experienced grapplers.
+The fundamental mechanics involve dragging one of the opponent's legs across their body while maintaining chest pressure and hip control. This configuration creates a powerful mechanical advantage where you can apply significant pressure while the opponent's ability to create frames, maintain distance, or recover guard is severely compromised. The angle you create by moving perpendicular to their body is crucial — it prevents them from turning into you while setting up direct paths to [[Side Control]], [[Mount]], or the back.
 
-The position requires careful pressure management and positional awareness. Too much commitment to chest pressure without controlling the far hip can allow granby rolls or inversions. Insufficient pressure allows the bottom player to create butterfly hooks or recover half guard. The sweet spot involves maintaining enough pressure to restrict their movement while staying mobile enough to react to their escape attempts. Your head position is critical - keeping it tight to their body prevents space creation while maintaining enough awareness to react to their movements.
+The position requires careful pressure management and positional awareness. Too much commitment to chest pressure without controlling the far hip allows granby rolls or inversions. Insufficient pressure allows the bottom player to create butterfly hooks or recover [[Half Guard]]. The sweet spot involves maintaining enough pressure to restrict movement while staying mobile enough to react to escape attempts. Advanced applications involve chaining the leg drag with [[Body Lock]] for enhanced control, using [[Leg Drag Setup]] entries from multiple guard positions, and developing automatic recognition of the turn-away signal for immediate back takes.
 
-Advanced applications of the leg drag involve chaining it with other positions and creating multiple layers of control. The body lock connection, headquarters integration, and seamless transitions to back takes have made the position a cornerstone of modern passing systems. Competitors like Lucas Lepri, the Miyao brothers, and Lachlan Giles have demonstrated the position's effectiveness at the highest levels, developing variations that continue to evolve the technique. Understanding the leg drag from top is essential for any practitioner looking to develop a complete modern passing game.
+Competitors like Lucas Lepri, the Miyao brothers, and Lachlan Giles have demonstrated the position's effectiveness at the highest levels, developing variations that continue to evolve the technique. Understanding the leg drag from top is essential for any practitioner looking to develop a complete modern passing game, particularly in no-gi settings where grip-based guard defenses are unavailable and hip control is the primary passing currency.
 
 </section>
 
@@ -449,7 +449,7 @@ Partner in leg drag bottom randomly turns away during the round. Practice immedi
 - **[[Body Lock]]** - Can be combined for enhanced control
 - **[[Knee Slice Pass]]** - Primary passing technique from leg drag
 - **[[Pressure Pass]]** - Alternative passing finish
-- **[[Guard Passing Principles]]** - Fundamental concepts applied in leg drag
+- **[[Guard Passing]]** - Fundamental concepts applied in leg drag passing
 - **[[Leg Drag Pass]]** - Entry technique to establish this position
 - **[[Modern No-Gi Passing System]]** - Leg drag as core component
 

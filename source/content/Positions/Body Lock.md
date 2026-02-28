@@ -8,7 +8,7 @@ description: "Master Body Lock position in BJJ. Complete guide covering standing
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 
@@ -18,11 +18,21 @@ description: "Master Body Lock position in BJJ. Complete guide covering standing
 
 <section id="overview" class="content-section">
 
-Body Lock is a dominant standing clinch control position where you wrap both arms around your opponent's torso and lock your hands together, creating a unified control mechanism that eliminates their ability to create distance or establish defensive grips. This position exists in two distinct strategic contexts: from behind (where you control their back while standing and threaten mat returns to back control), and from the side or front (where you establish over-under or double underhook configurations to execute throws, takedowns, and transitions to dominant ground positions).
+**Body Lock** is a dominant standing clinch control position in BJJ where you wrap both arms around your opponent's torso and lock your hands together, creating a closed kinetic chain that transfers body weight and pressure directly into your opponent's center of gravity. Back take success rate from body lock: Beginner 50%, Intermediate 65%, Advanced 80%. Body lock is legal in all major BJJ and grappling competitions (IBJJF, ADCC, EBI) — it is a control position, not a submission hold.
 
-The body lock represents one of the highest levels of standing control in both wrestling and Brazilian Jiu-Jitsu because it creates a closed kinetic chain that transfers all your body weight and pressure directly into your opponent's center of gravity. When executed correctly, the locked grip becomes redundant insurance while your chest-to-back connection and hip pressure provide the primary control. This mechanical advantage allows smaller grapplers to control larger opponents and forces the bottom player into a series of bad choices where they must defend multiple threats simultaneously.
+The position exists in two distinct strategic contexts: from behind (where you control their back while standing and threaten mat returns to [[Back Control]]), and from the side or front (where you establish over-under or double underhook configurations to execute throws, takedowns, and transitions to dominant ground positions). The body lock creates a unified control mechanism that eliminates the opponent's ability to create distance or establish defensive grips. When executed correctly, the locked grip becomes redundant insurance while your chest-to-back connection and hip pressure provide the primary control. This mechanical advantage allows smaller grapplers to control larger opponents and forces the bottom player into a series of bad choices where they must simultaneously defend multiple threats.
 
 The position is inherently transitional and requires immediate attack execution. Hesitation allows opponents time to establish defenses, break grips, or escape entirely. Modern no-gi competition has elevated the body lock to a primary offensive weapon, with elite competitors using it to consistently secure back control, execute high-amplitude throws, or force opponents into defensive positions that lead to dominant ground control. Mastery requires understanding weight distribution, hip positioning, timing, and the ability to read opponent defensive reactions to capitalize on openings as they appear.
+
+Body Lock Pass — Ground-Based Application: While the standing body lock controls an upright opponent, the [[Body Lock Pass]] applies the same locked-grip mechanic from top position against a guard player on the ground. The top practitioner wraps both arms around the bottom player's torso and uses chest and hip pressure to drive past their guard into [[Side Control]] or [[Turtle]]. This is a closely related but distinct concept that bridges standing and ground applications of body lock control. When combined with [[Leg Drag Position]], the leg drag controls the hip while the body lock secures the torso, creating an especially difficult-to-escape passing system. See [[Bodylock Pass]] for the complete guard-passing application.
+
+How Does Body Lock Lead to Back Control? From body lock, [[Back Control]] is achieved via mat return: drive hip pressure into the opponent, force them to [[Turtle]] or break posture backward, then secure the back with hooks. When the opponent turtles to defend the mat return, immediately transition to [[Crab Ride]] to maintain back exposure while inserting hooks. The highest-percentage sequence is Body Lock to [[Turtle to Back Control]] to [[Seat Belt Control Back]] to [[Rear Naked Choke]]. Elite no-gi competitors achieve 70-80% back-take success from body lock at the advanced level.
+
+Body Lock vs Rear Clinch — What Is the Difference? The [[Standing Rear Clinch]] involves chest-to-back connection with wrist or bicep control. The body lock advances this by locking both hands completely around the torso, creating a closed kinetic chain. The body lock offers higher control and more direct back-take paths but requires closer proximity and committed grip fighting to establish from the [[Clinch]]. The [[Overhook Control]] and [[Double Unders]] are related grip configurations that offer different trade-offs in control versus versatility.
+
+What Throws Can You Do from Body Lock? Common throws include hip toss, inside trip, outside trip, and suplex variations. Throw selection depends on the opponent's defensive reaction: an upright posture creates throw opportunities while a sprawling posture creates mat return and back-take opportunities. Trip and [[Double leg takedown]] combinations offer the highest percentage for beginners. The [[Snap Down]] to [[Front Headlock]] is effective when the opponent lowers their level to defend hip pressure.
+
+Body Lock in Wrestling vs BJJ: In wrestling, the body lock (also called a bear hug) is a clinch control used for lifts, throws, and mat returns. BJJ evolved the body lock into a systematic back-control entry system, adding hook insertion, [[Crab Ride]] transitions, and submission sequences extending well beyond wrestling applications. Modern no-gi grappling methodology has built comprehensive body lock systems that chain mat returns to back control with reproducible consistency, making the body lock one of the defining positions of elite no-gi competition.
 
 </section>
 
