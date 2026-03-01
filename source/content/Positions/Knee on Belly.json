@@ -1,7 +1,7 @@
 {
   "name": "Knee on Belly",
   "slug": "knee-on-belly",
-  "description": "Master Knee on Belly in BJJ. Strategic control position balancing mobility with pressure. Complete guide covering both top control and bottom escapes.",
+  "description": "Knee on Belly is a 2-point BJJ control position where you place your knee on the opponent's solar plexus while maintaining a wide mobile base. Learn top control setup, submission attacks (Baseball Bat Choke, Armbar, Kimura), transitions to Mount and Back Control, and bottom escape sequences (Elbow Escape, Hip Escape, Frame and Shrimp).",
   "variant_uniqueness": "Mobile pressure trading stability for speed",
   "overview": "Knee on Belly is a dynamic control position in Brazilian Jiu-Jitsu where one practitioner places their knee on the opponent's torso while maintaining a mobile base. This position uniquely combines high pressure with exceptional mobility, creating a transitional platform that scores points while setting up submissions and positional advancements. Unlike static control positions such as mount or side control, Knee on Belly requires continuous weight adjustments and active pressure management. The position creates a strategic dilemma for the bottom player: defend against submissions, prevent transitions to more dominant positions, or alleviate the crushing diaphragm pressure. From the top perspective, this position offers point-scoring opportunities, submission threats, and rapid transition potential to mount, back control, or north-south. From the bottom perspective, it represents a high-risk defensive scenario requiring immediate escape protocols combining frame creation, hip movement, and systematic re-guard strategies. The position exemplifies the principle of dynamic control over static dominance, rewarding practitioners who master the balance between pressure application and transitional readiness.",
   
@@ -35,10 +35,6 @@
       "relationship": "Opportunistic target when opponent turns away from pressure attempting to escape"
     },
     {
-      "name": "S Mount",
-      "relationship": "Advanced variation combining Knee on Belly pressure mechanics with mount control"
-    },
-    {
       "name": "Turtle",
       "relationship": "Emergency escape position when bottom player turns away under extreme pressure"
     },
@@ -48,6 +44,44 @@
     }
   ],
   
+  "faq": [
+    {
+      "question": "What is Knee on Belly in BJJ?",
+      "answer": "Knee on Belly (also called knee on stomach or tate-shiho-gatame in judo) is a top control position where you place one knee directly on the opponent's solar plexus or lower ribs while posting your other foot wide on the mat. It scores 2 points in IBJJF competition, creates intense respiratory pressure that disrupts the opponent's breathing, and keeps you highly mobile to attack submissions or transition to Mount, Back Control, or North-South."
+    },
+    {
+      "question": "How many points is Knee on Belly worth in BJJ competition?",
+      "answer": "Knee on Belly scores 2 points in IBJJF competition — the same value as a guard pass or a takedown. To score, you must hold the position for 3 clear seconds with your knee visibly on the opponent's torso (not hip or thigh) and your other foot posted on the mat. The position also scores 2 points in most major rulesets including ADCC qualifiers and FloGrappling events."
+    },
+    {
+      "question": "How do you escape Knee on Belly in BJJ?",
+      "answer": "The three highest-percentage escapes are: (1) Elbow Escape — frame your near forearm on the opponent's knee and far elbow on their hip, turn to your side, and shrimp away to recover Half Guard (35-65% by level). (2) Hip Escape — combine turning and shrimping to recover Closed Guard (25-55%). (3) Frame and Shrimp — push the knee offline with your forearms while shrimping to Butterfly Guard or Open Guard (25-55%). Never push straight up with extended arms — this exposes you to Armbars and Americanas."
+    },
+    {
+      "question": "What is the best knee placement for Knee on Belly?",
+      "answer": "Place your knee directly on the opponent's solar plexus or lower ribs — not high on the chest or shoulder (reduces pressure) and not low on the hip (allows easy framing). Keep your shin perpendicular to their centerline, lean your hips forward so your shoulders are ahead of your hips, and extend your base leg wide with toes pointing away from your opponent for a stable tripod. This angle directs your body weight downward through the knee joint."
+    },
+    {
+      "question": "What attacks work from Knee on Belly in BJJ?",
+      "answer": "Top attack options: Baseball Bat Choke (gi, 30-60% finish rate), Armbar when the opponent frames with extended arms (35-65%), Kimura when the opponent pushes the knee away (35-65%), Back Take when the opponent turns away (25-55%), and transition to Mount when the opponent creates space (45-75%). The key principle: use opponent defensive reactions as submission triggers rather than hunting statically."
+    },
+    {
+      "question": "Is Knee on Belly better than Side Control in BJJ?",
+      "answer": "Knee on Belly and Side Control offer different trade-offs. Knee on Belly: higher immediate pressure, superior mobility, faster transitions, but harder to maintain (medium sustainability). Side Control: more stable, better access to slower submission setups, easier to consolidate. Both score 2 points. Use Knee on Belly when you want to apply respiratory pressure, stay mobile, and trigger quick reactions; use Side Control to consolidate and methodically set up attacks."
+    },
+    {
+      "question": "How do you transition from Knee on Belly to Mount?",
+      "answer": "Time the transition as the opponent creates space by pushing your knee. Step your knee-side foot over their far hip, maintaining collar control, and lower into Low Mount. Alternatively, when the opponent bridges, use their upward momentum to swim your knee forward past their hip while stepping around. This transition succeeds 45-75% of the time depending on skill level. Once in Mount, you score an additional 2 points (4 total)."
+    },
+    {
+      "question": "What common mistakes should you avoid in Knee on Belly?",
+      "answer": "The five most common errors: (1) Placing knee too high on shoulder/chest — reduces respiratory pressure and control. (2) Putting too much weight on the knee — sacrifices mobility and enables sweeps. (3) Failing to control the far side grip (pants or belt) — allows opponent to turn away. (4) Staying static instead of constantly threatening — gives opponent time to plan an escape. (5) Leaning back away from opponent — eliminates pressure and control angle."
+    }
+  ],
+  "bot_metadata": {
+    "last_improved": "2026-03-01",
+    "optimization_pass": "ai_seo_v1"
+  },
   "bottom": {
     "name": "Knee on Belly Bottom",
     "description": "Master escaping Knee on Belly Bottom in BJJ. Defensive position requiring immediate frame creation and hip escape mechanics. Complete guide covering pressure management and re-guard strategies.",
@@ -118,7 +152,7 @@
       },
       {
         "technique": "Deep Half Entry",
-        "target_position": "Deep Half Guard",
+        "target_position": "Half Guard",
         "success_rates": {
           "beginner": 20,
           "intermediate": 35,
@@ -127,7 +161,7 @@
       },
       {
         "technique": "Knee Shield Retention",
-        "target_position": "Knee Shield Half Guard",
+        "target_position": "Half Guard",
         "success_rates": {
           "beginner": 30,
           "intermediate": 45,
@@ -200,7 +234,7 @@
       },
       {
         "technique": "Deep Half Entry",
-        "target_position": "Deep Half Guard",
+        "target_position": "Half Guard",
         "trigger": "Opponent shifts knee position creating space under their hips"
       },
       {
@@ -236,7 +270,7 @@
           },
           {
             "technique": "Knee Shield Retention",
-            "target": "Knee Shield Half Guard",
+            "target": "Half Guard",
             "probability": 55
           }
         ]
@@ -266,7 +300,7 @@
           },
           {
             "technique": "Deep Half Entry",
-            "target": "Deep Half Guard",
+            "target": "Half Guard",
             "probability": 40
           }
         ]
@@ -356,7 +390,7 @@
       },
       {
         "name": "Deep Half to Back Attack",
-        "path": "Knee on Belly Bottom → Deep Half Entry → Deep Half Guard → Homer Simpson Sweep → Back Control → Rear Naked Choke"
+        "path": "Knee on Belly Bottom → Deep Half Entry → Half Guard → Homer Simpson Sweep → Back Control → Rear Naked Choke"
       },
       {
         "name": "Butterfly Guard Sweep to Submission",
@@ -370,10 +404,6 @@
     
     "related_content": [
       {
-        "name": "Knee on Belly Top",
-        "relationship": "Opposite perspective - understanding top position strategy improves bottom defense"
-      },
-      {
         "name": "Side Control",
         "relationship": "Similar pressure-based bottom position with related escape mechanics"
       },
@@ -386,28 +416,16 @@
         "relationship": "Primary escape destination for elbow escape and hip escape techniques"
       },
       {
-        "name": "Knee on Belly Escape",
-        "relationship": "Core conceptual framework for defensive strategy from this position"
-      },
-      {
-        "name": "Hip Escape Mechanics",
-        "relationship": "Fundamental movement pattern essential for all escape sequences"
-      },
-      {
-        "name": "Frame Creation",
-        "relationship": "Defensive principle required for managing pressure and creating escape space"
-      },
-      {
-        "name": "Escape Hierarchy",
-        "relationship": "Strategic framework for prioritizing escape options based on situation"
-      },
-      {
-        "name": "Deep Half Guard",
-        "relationship": "Advanced escape destination when opponent shifts weight forward"
-      },
-      {
         "name": "Closed Guard",
         "relationship": "High-priority escape target for re-establishing offensive guard game"
+      },
+      {
+        "name": "Open Guard",
+        "relationship": "Re-guard destination requiring frame creation and hip escape execution"
+      },
+      {
+        "name": "Butterfly Guard",
+        "relationship": "Alternative re-guard when opponent's base is narrow"
       },
       {
         "name": "Defensive Position",
@@ -503,7 +521,7 @@
       },
       {
         "technique": "Baseball Bat Choke",
-        "target_position": "Baseball Bat Choke",
+        "target_position": "Won by Submission",
         "success_rates": {
           "beginner": 30,
           "intermediate": 45,
@@ -548,7 +566,7 @@
       },
       {
         "technique": "S Mount Transition",
-        "target_position": "S Mount",
+        "target_position": "Mount",
         "success_rates": {
           "beginner": 30,
           "intermediate": 45,
@@ -614,7 +632,7 @@
         "actions": [
           {
             "technique": "Baseball Bat Choke",
-            "target": "Baseball Bat Choke",
+            "target": "Won by Submission",
             "probability": 55
           },
           {
@@ -734,7 +752,7 @@
       },
       {
         "name": "Gi-specific choke path",
-        "path": "Knee on Belly Top → Baseball Bat Choke setup → Baseball Bat Choke finish"
+        "path": "Knee on Belly Top → Baseball Bat Choke setup → Won by Submission"
       },
       {
         "name": "Kimura attack path",
@@ -764,28 +782,16 @@
         "relationship": "Alternative transition - effective when opponent escapes toward head"
       },
       {
-        "name": "Knee on Belly Bottom",
-        "relationship": "Opposite perspective - understanding bottom helps improve top control"
-      },
-      {
-        "name": "Pressure Application",
-        "relationship": "Core concept - fundamental principle for effective Knee on Belly control"
-      },
-      {
-        "name": "Weight Distribution",
-        "relationship": "Core concept - essential for maintaining mobility while applying pressure"
-      },
-      {
         "name": "Baseball Bat Choke",
-        "relationship": "Primary submission - high-percentage attack from this position in gi"
+        "relationship": "Primary gi submission - high-percentage attack from this position"
       },
       {
-        "name": "S Mount",
-        "relationship": "Advanced variation - evolution of Knee on Belly toward mount"
+        "name": "Armbar Control",
+        "relationship": "Submission control position entered when opponent frames with extended arms"
       },
       {
-        "name": "Knee on Belly Escape",
-        "relationship": "Defensive concept - understanding escapes improves position retention"
+        "name": "Kimura Control",
+        "relationship": "Submission control entered when opponent pushes the knee away"
       },
       {
         "name": "Back Control",

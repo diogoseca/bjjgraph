@@ -1,7 +1,7 @@
 {
   "name": "Dead Orchard Control",
   "slug": "dead-orchard-control",
-  "description": "Master Dead Orchard Control in BJJ. Strategic guide covering specialized anaconda variation with enhanced control mechanics, submission threats, and systematic defensive responses.",
+  "description": "Dead Orchard Control is a 10th Planet BJJ position that uses an anaconda-style grip to trap the opponent's head and arm for extended positional dominance. Learn setup, submission finishes (Anaconda Choke, D'arce), transitions to Mount and Back Control, and systematic escape protocols.",
   "variant_uniqueness": "Anaconda grip emphasizing extended control",
   "overview": "Dead Orchard Control represents an advanced positional control within Brazilian Jiu-Jitsu, particularly emphasized in Eddie Bravo's 10th Planet system. This position combines the structural control elements of the anaconda choke with strategic patience and extended dominance, creating a hybrid state between pure submission attempt and positional control. The name reflects the trapped, lifeless quality of the opponent's positioning - caught in a grip that systematically breaks down defensive capabilities while maintaining constant submission threat. Unlike standard anaconda setups that prioritize immediate finishing, Dead Orchard Control emphasizes sustainable pressure application and systematic dismantling of opponent defenses, allowing the practitioner to control timing and choose between maintaining position, advancing to more dominant states, or completing the submission. The position exists in both offensive and defensive contexts, with the top player working to maintain crushing pressure and submission mechanics while the bottom player must navigate a severely compromised defensive scenario with limited mobility and breathing restriction. Understanding both perspectives is essential for complete positional mastery, as the control mechanics, escape principles, and transition opportunities differ dramatically based on which role the practitioner occupies. This position demonstrates the evolution of modern grappling beyond simple submission hunting toward sophisticated positional dominance that creates multiple offensive pathways.",
   "key_principles": [
@@ -373,20 +373,8 @@
         "relationship": "Secondary submission threat with different mechanics"
       },
       {
-        "name": "Hip Escape",
-        "relationship": "Essential escape technique from compressed positions"
-      },
-      {
-        "name": "Frame Creation",
-        "relationship": "Core defensive concept for creating space under pressure"
-      },
-      {
-        "name": "Submission Defense",
-        "relationship": "Broader defensive framework applicable to this position"
-      },
-      {
-        "name": "Escape Hierarchy",
-        "relationship": "Conceptual framework for prioritizing defensive actions"
+        "name": "Scramble Position",
+        "relationship": "Resulting state when large escape attempts create chaos"
       }
     ],
     "position_metrics": {
@@ -412,6 +400,40 @@
       "gordon_ryan": "I've been caught in dead orchard variations in high-level competition, and the key is recognizing it's a survival position first, escape position second. The guys who tap are the ones who panic when they feel their breathing restricted and start making desperate, large movements that just help me finish the choke or take their back. The guys who survive are the ones who accept the discomfort, keep breathing through their nose even though it's hard, and work technically. Your first job is hand fighting the choking arm - not just pushing randomly, but specifically attacking their grip or the angle of their arm across your neck. At the same time, you need to prevent them from flattening you completely because once you're flat, it's basically over. Keep some kind of base with your free arm and your knees, even if it's compromised. The escape that works best for me when I'm on bottom is a patient hip escape combined with freeing my trapped arm. I'm not trying to explode out - I'm using small, controlled movements to shift my hips away from their pressure while simultaneously pulling my elbow back toward my own hip to free the trapped arm. Once that arm is free, you can establish proper frames and start the real escape sequence. The competition reality is that if you're in this position, you're already in trouble, so don't compound it by being impatient. Work the problem methodically and you'll find opportunities when they transition or adjust their grips.",
       "eddie_bravo": "Dead Orchard from the bottom is one of those positions where you need to get creative because traditional escapes often don't work when you're really stuck. In 10th Planet we emphasize the importance of the Granby roll and inversion skills for exactly these kinds of trapped positions. When you're caught in dead orchard and the standard hip escape isn't available because they've got you too tight, you need to think about using momentum and unconventional angles. One thing I teach is the concept of rolling through the position rather than trying to push out of it - if you time it right when they're transitioning their weight to lock in a submission, you can use a Granby-style roll to invert and come out the back door. Another approach is to attack their balance by pulling their far knee or ankle with your free hand while simultaneously shrimping - this creates a diagonal escape angle they're not expecting. The key is not accepting the conventional wisdom that you're completely stuck. Look for creative solutions like the lockdown-style concepts of controlling their leg to prevent them from sprawling their weight, or using your free leg to hook over their back and create a scramble. Sometimes the best escape is to make the position so chaotic and unstable that they have to abandon the control to prevent you from taking an even more unorthodox path to safety. Don't just survive - be proactive about creating chaos that works in your favor."
     }
+  },
+  "faq": [
+    {
+      "question": "What is Dead Orchard Control in BJJ?",
+      "answer": "Dead Orchard Control is an advanced front headlock variation from Eddie Bravo's 10th Planet system where you secure an anaconda-style grip around your opponent's neck and nearside arm, then emphasize extended positional dominance over an immediate submission finish. The opponent's trapped arm becomes useless — 'dead' — while you systematically dismantle their defenses and choose between finishing the Anaconda Choke, advancing to Mount or Back Control, or transitioning to a D'arce setup."
+    },
+    {
+      "question": "How does Dead Orchard Control differ from a standard Anaconda choke?",
+      "answer": "Standard Anaconda control prioritizes finishing the choke quickly. Dead Orchard Control treats the anaconda grip as a long-term control platform — maintaining deep grip pressure and shoulder drive to break down defenses gradually over 45-90 seconds, then capitalizing on defensive errors or fatigue. This approach produces higher finish rates because the opponent is already exhausted when the finishing sequence begins."
+    },
+    {
+      "question": "What is the best way to escape Dead Orchard Control?",
+      "answer": "The highest-percentage escape sequence: (1) Frame your free hand at the opponent's hip or shoulder — not their chest. (2) Tuck your chin to protect your neck from choke mechanics. (3) Use incremental shrimping to shift body angle away from the pressure vector. (4) Work progressively to Turtle or Half Guard before reassessing. Avoid explosive movements — they help your opponent lock in the Anaconda or D'arce. Advanced practitioners escape at roughly a 40% rate using patient, systematic hip escape sequences."
+    },
+    {
+      "question": "What submissions can you finish from Dead Orchard Control?",
+      "answer": "Primary finish: Anaconda Choke (blood choke via bilateral carotid compression) with a 35-75% finish rate by skill level. Secondary options: D'arce Choke when the opponent creates space on the trapped arm side, Guillotine variations when the opponent drives forward to escape. Positional advances (not submissions) include Mount, Back Control, and North-South when the opponent defends effectively."
+    },
+    {
+      "question": "What position do you enter Dead Orchard Control from?",
+      "answer": "Dead Orchard Control is most commonly established from Front Headlock when the opponent is in Turtle. It also arises from failed takedowns, guard pass scrambles, and transitions from Side Control where the opponent rolls and exposes their neck and far arm. The two key prerequisites are a deep underhook past the opponent's far shoulder and control of their head with your chest driving down."
+    },
+    {
+      "question": "Is Dead Orchard Control effective in no-gi BJJ?",
+      "answer": "Yes — Dead Orchard Control is particularly effective in no-gi since the anaconda grip does not require gi fabric. The 10th Planet system (which developed this position) is primarily a no-gi framework. Top-position submission probability reaches 55-70% at intermediate-to-advanced levels, making it one of the highest-percentage control-to-submission pathways in no-gi grappling."
+    },
+    {
+      "question": "What is the key grip for Dead Orchard Control?",
+      "answer": "Thread one arm under the opponent's neck and over their nearside arm, connecting with a gable grip (palm-to-palm) or S-grip past their far shoulder. Your choking-side shoulder drives into their trapped shoulder to prevent posture recovery. This forces the opponent's own arm against their neck, amplifying choke mechanics. Grip depth is the single most important factor — a shallow grip allows escape; a deep grip creates the 'dead orchard' effect."
+    }
+  ],
+  "bot_metadata": {
+    "last_improved": "2026-03-01",
+    "optimization_pass": "ai_seo_v1"
   },
   "top": {
     "name": "Dead Orchard Control Top",
@@ -723,14 +745,6 @@
         "relationship": "Primary submission - main finishing technique from this control position"
       },
       {
-        "name": "Front Headlock to Anaconda",
-        "relationship": "Entry transition - technique for establishing dead orchard from front headlock"
-      },
-      {
-        "name": "Danaher Front Headlock System",
-        "relationship": "Strategic framework - systematic approach to front headlock positions including anaconda variations"
-      },
-      {
         "name": "Turtle",
         "relationship": "Common entry - opponent position from which dead orchard is frequently established"
       },
@@ -739,12 +753,8 @@
         "relationship": "Transition target - high-percentage advancement when opponent defends submission"
       },
       {
-        "name": "Pressure Application",
-        "relationship": "Core concept - fundamental principle for maintaining dead orchard control effectively"
-      },
-      {
-        "name": "10th Planet No-Gi Guard System",
-        "relationship": "System origin - dead orchard control developed within 10th Planet methodology"
+        "name": "North-South",
+        "relationship": "Control alternative - transition when opponent bridges underneath"
       },
       {
         "name": "Back Control",
