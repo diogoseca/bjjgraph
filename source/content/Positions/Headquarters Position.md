@@ -4,11 +4,11 @@
 
 ---
 title: "Headquarters Position | BJJ Position Guide | BJJ Graph"
-description: "Master Headquarters Position in BJJ. Strategic passing control position with multiple offensive pathways and 70% advancement rate for systematic guard passing."
+description: "Master Headquarters Position in BJJ: guard-passing hub where knee-line control creates knee slice, smash pass, and long step threats. Beginner 45%, Advanced 80%."
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo -->
 <script type="application/ld+json">
@@ -135,7 +135,7 @@ description: "Master Headquarters Position in BJJ. Strategic passing control pos
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Headquarters Position",
-  "description": "Master Headquarters Position in BJJ. Strategic passing control position with multiple offensive pathways and 70% advancement rate for systematic guard passing.",
+  "description": "Master Headquarters Position in BJJ: guard-passing hub where knee-line control creates knee slice, smash pass, and long step threats. Beginner 45%, Advanced 80%.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -180,11 +180,11 @@ description: "Master Headquarters Position in BJJ. Strategic passing control pos
 
 <section id="overview" class="content-section">
 
-Headquarters Position is a fundamental guard passing control position where the top player establishes dominant leg control while maintaining strong base and upright posture. This position serves as the central hub of modern systematic guard passing, acting as a strategic decision point from which the passer selects optimal passing routes based on opponent reactions. The position creates exceptional control with relatively low risk, limiting the bottom player's defensive options while maintaining multiple offensive pathways.
+**Headquarters Position** is the central hub of modern systematic [[Guard Passing]] — a top-control position where the passer traps one of the opponent's legs between their own legs, drives the knee to the mat with sustained shin or knee pressure, and maintains upright posture with a wide triangulated base. Named as a command center for decision-making, from Headquarters the passer selects between [[Knee Slice Pass]], [[Long Step Pass]], [[Smash Pass]], [[Leg Weave Pass]], and [[Over-Under Pass]] based entirely on opponent defensive reactions — with advancement probability reaching Beginner 45%, Intermediate 65%, Advanced 80%.
 
-Headquarters offers a systematic approach to bypassing various guard configurations by controlling one of the opponent's legs while establishing triangulated base structure. From this position, the passer can flow seamlessly between knee slice, long step, smash pass, and leg weave variations, making it one of the most versatile positions in contemporary guard passing systems. The position's effectiveness stems from its ability to compress infinite guard passing complexity into finite if-then decision sequences.
+The strategic power of Headquarters stems from creating a simultaneous defensive dilemma: the bottom player cannot protect against all passing threats at once. Controlling the knee-line eliminates the opponent's ability to create [[Hip Escape|hip escape sequences]], defensive frames (see [[Frame Creation]]), or recover to [[Half Guard]] or [[Closed Guard]] structures. Every defensive reaction opens a passing lane — extending the leg invites the [[Long Step Pass]]; turning toward the passer creates the [[Knee Slice Pass]] opportunity; framing hard with both hands opens the [[Smash Pass]]; committing to [[Deep Half Guard]] exposes the back for [[Back Step]] counter directly to [[Back Control]]. This reactive selection process is what makes Headquarters elite-level strategy rather than a single committed attack.
 
-This position represents a fundamental evolution in guard passing theory, moving away from commitment-heavy explosive passes toward measured, reactive approaches that maintain safety while threatening multiple directions simultaneously. The passer can probe defenses methodically, returning to headquarters between attempts rather than overcommitting to single directions, creating grinding systematic pressure that exhausts defensive options over time.
+This position represents a paradigm shift in passing theory, replacing commitment-heavy explosive passes with measured, pressure-based approaches that maintain safety while threatening multiple directions simultaneously. The passer typically establishes Headquarters from [[Combat Base]] or after breaking a seated [[Open Guard]], then probes defenses methodically — returning to headquarters between passing attempts rather than overcommitting to any single direction. This systematic approach is particularly powerful against advanced guard systems including [[De La Riva Guard]], [[Lasso Guard]], and [[Spider Guard]] because sustained knee-line control neutralizes the hooks and frames those systems depend on. Systematic practitioners achieve elite-level [[Pressure Passing]] with remarkably low energy expenditure while methodically exhausting the opponent's defensive options over extended rounds.
 
 </section>
 
@@ -458,7 +458,7 @@ Start from compromised positions where opponent has frames, partial guard recove
 
 ### John Danaher
 
-Headquarters position represents the central hub of systematic guard passing methodology where controlling the opponent's knee-line creates the fundamental decision point in modern guard passing systems. The position's power lies not in forcing any specific pass, but in creating a control structure that systematically limits the opponent's defensive options while maintaining multiple offensive pathways simultaneously. By establishing headquarters, you compress the infinite complexity of guard passing into a finite series of if-then sequences that can be executed methodically. When the opponent extends their leg, you execute long step. When they turn toward you, you execute knee slice. When they create frames, you execute smash pass. This systematic reduction transforms guard passing from a chaotic scramble into a controlled technical progression with clear decision trees. The critical principle is maintaining connection with the trapped leg throughout all transitions - this connection is the thread that ties together your entire passing system and prevents the chaos of scrambles. The biomechanical efficiency stems from the triangulated base structure combined with the mechanical advantage created by pinning the opponent's knee to the mat, which eliminates their primary tool for creating angles and recovering guard structures. Modern competitors who master headquarters can maintain this position with minimal energy expenditure while methodically breaking down even the most sophisticated guard retention systems.
+Headquarters position represents the central hub of systematic guard passing methodology where controlling the opponent's knee-line creates the fundamental decision point in modern guard passing systems. The position's power lies not in forcing any specific pass, but in creating a control structure that systematically limits the opponent's defensive options while maintaining multiple offensive pathways simultaneously. By establishing headquarters, you compress the infinite complexity of guard passing into a finite series of if-then sequences that can be executed methodically — what I call the 'reaction-based' passing paradigm. When the opponent extends their leg, you execute long step. When they turn toward you, you execute knee slice. When they create frames, you execute smash pass. When they commit to deep half, you backstep to back control. This systematic reduction transforms guard passing from chaotic scrambling into a controlled technical progression with clear decision trees. The critical biomechanical principle is maintaining continuous connection with the trapped leg throughout all transitional moments — this connection is the thread that ties together your entire passing system and prevents the chaos of scrambles. The efficiency stems from the triangulated base structure combined with the mechanical advantage created by pinning the opponent's knee to the mat, which eliminates their primary tool for creating angles and recovering guard structures. From a pedagogical standpoint, headquarters is the first position I teach advanced guard passers because it provides the conceptual framework — reactive decision-making over committed attacking — that underlies all elite-level guard passing.
 
 ### Gordon Ryan
 

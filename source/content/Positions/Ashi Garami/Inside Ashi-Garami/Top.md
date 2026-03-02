@@ -4,11 +4,11 @@
 
 ---
 title: "Inside Ashi-Garami Top | BJJ Position Guide | BJJ Graph"
-description: "Foundational leg entanglement for ankle locks and heel hooks. Entry to advanced positions with 70% retention rate at advanced level."
+description: "Master Inside Ashi-Garami Top: the foundational top-position leg entanglement for ankle locks, heel hooks, and kneebars. Gateway to Saddle and Honey Hole. Beginner 50%, Intermediate 65%, Advanced 80% success."
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -115,7 +115,7 @@ description: "Foundational leg entanglement for ankle locks and heel hooks. Entr
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Inside Ashi-Garami Top",
-  "description": "Foundational leg entanglement for ankle locks and heel hooks. Entry to advanced positions with 70% retention rate at advanced level.",
+  "description": "Master Inside Ashi-Garami Top: the foundational top-position leg entanglement for ankle locks, heel hooks, and kneebars. Gateway to Saddle and Honey Hole. Beginner 50%, Intermediate 65%, Advanced 80% success.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -160,11 +160,11 @@ description: "Foundational leg entanglement for ankle locks and heel hooks. Entr
 
 <section id="overview" class="content-section">
 
-Inside Ashi-Garami Top, also known as Standard Ashi Garami or Single Leg X, is a foundational leg entanglement position where the top player controls one of opponent's legs between their own legs while maintaining inside control with one leg across opponent's hip. This position serves as the entry point for many advanced leg attack systems and provides direct access to straight ankle locks, heel hooks (where legal), and kneebars. The position balances control with offensive capability, allowing the top player to threaten submissions while maintaining relatively safe positioning.
+**Inside Ashi-Garami Top** (also called Standard Ashi Garami or Single Leg X attack position) is the foundational top-position leg entanglement where the attacking player controls one of the opponent's legs between their own legs while maintaining inside leg position across the opponent's near hip. From this position, the attacker has direct access to the [[Straight Ankle Lock]] (the recommended starting submission for all skill levels), [[Inside Heel Hook]] (advanced — transition to [[Saddle]] first), [[Toe Hold]], and [[Kneebar]]. Retention rate: Beginner 30%, Intermediate 50%, Advanced 70%.
 
-Inside Ashi-Garami represents the standard position in modern leg lock systems, serving as the foundation from which more complex entanglements develop. The "inside" designation refers to the inside leg (closest to opponent's body) being placed across their hip rather than their far hip, which distinguishes it from outside ashi. This inside positioning provides better control over opponent's hip movement and creates direct pathways to more advanced positions like honey hole and saddle.
+Inside Ashi-Garami Top is the standard entry position in the [[Danaher Leg Lock System]] and most modern leg lock systems, serving as the foundation from which more dominant entanglements develop. The "inside" designation refers to the inside leg — the one closest to the opponent's body — being placed across their near hip rather than their far hip, distinguishing it from [[Outside Ashi-Garami]]. This inside leg positioning controls hip rotation and creates direct pathways to the [[Saddle]] and [[Honey Hole]] — the most dominant finishing positions in modern leg lock grappling. When the opponent defends the inside heel by rotating their knee away, this movement reveals the [[Saddle]] entry; when they extend the leg to create distance, [[Kneebar Control]] becomes available.
 
-The position excels in no-gi grappling where leg attacks are permitted, offering a systematic approach to leg attacks that can be developed from beginner to advanced levels. White and blue belts typically work straight ankle locks from this position, while advanced practitioners layer in heel hooks and transition to more complex entanglements. The position's effectiveness stems from the mechanical control it provides over one leg while leaving hands free for grips and adjustments.
+The position excels in no-gi grappling where leg attacks are permitted under ADCC and submission-only rules. Beginners should develop [[Straight Ankle Lock]] proficiency from Inside Ashi-Garami for 6-12 months before attempting heel hooks. Intermediate practitioners begin transitioning to [[Honey Hole]] and [[Saddle]] while building heel hook mechanics. Advanced practitioners flow seamlessly between Inside Ashi, [[Outside Ashi-Garami]], [[Cross Ashi-Garami]], [[50-50 Guard]], and Saddle based on opponent reactions — treating the entire ashi garami family as an interconnected system rather than isolated positions. The mechanical control this position provides over one leg while leaving hands free for grip adjustments and upper body attacks makes it one of the most versatile offensive platforms in modern grappling.
 
 </section>
 
@@ -199,12 +199,12 @@ The position excels in no-gi grappling where leg attacks are permitted, offering
 
 ## Key Offensive Principles
 
-- Inside Leg Control: Maintain inside leg across opponent's hip to prevent rotation and maintain inside position, blocking their ability to face you and create defensive frames
-- Outside Leg Hook: Keep outside leg hooked behind opponent's knee to prevent leg extraction and control knee flexion, ensuring trapped leg cannot straighten
-- Hip Elevation: Elevate hips to create pressure and improve submission leverage while maintaining connection to opponent's leg through both your legs
-- Distance Management: Control distance between bodies to facilitate attacks while preventing counters and maintaining safe positioning away from opponent's hands
-- Progressive Control: Build from basic control to advanced entanglements systematically, advancing only when control is secure and opponent's defensive options are limited
-- Perpendicular Alignment: Maintain approximately 90-degree body angle to opponent to maximize mechanical advantage for submissions and position advancement
+- Inside Leg Control: Maintain inside leg precisely across opponent's near hip — not their torso — to block hip rotation and prevent them from squaring their body to face you or creating defensive frames that compromise the entanglement
+- Outside Leg Hook: Keep outside leg hooked tight behind opponent's knee with instep engaged against their knee joint, preventing leg straightening and extraction — if this hook loosens, the entire entanglement collapses
+- Hip Elevation: Elevate hips off the mat throughout the position to create downward pressure on opponent's trapped leg and improve submission leverage — flat hips eliminate mechanical advantage and allow defensive posturing
+- Distance Management: Control the distance between your bodies using inside leg as a frame — close enough to maintain leg control, far enough to prevent opponent from reaching your upper body for grip or counter-entanglement attacks
+- Progressive Control: Build from basic control to advanced entanglements systematically — establish Inside Ashi control first, attack Straight Ankle Lock second, transition to Saddle or Honey Hole third; never rush the sequence
+- Perpendicular Alignment: Maintain approximately 90-degree body angle to opponent at all times — your torso facing their trapped leg, not their head — this alignment maximizes mechanical advantage for all submissions and advancement
 
 
 </section>

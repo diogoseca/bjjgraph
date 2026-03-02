@@ -8,7 +8,7 @@ description: "Foundational leg entanglement attacking position with heel control
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -160,11 +160,11 @@ description: "Foundational leg entanglement attacking position with heel control
 
 <section id="overview" class="content-section">
 
-Inside Ashi-Garami Bottom is the foundational leg entanglement position where the attacker controls one of the opponent's legs between their own legs while positioned on their back or side. The position is characterized by the outside leg hooking around the opponent's trapped leg with control of the heel, while the inside leg is positioned across the opponent's hip to control distance and prevent escape.
+**Inside Ashi-Garami Bottom** is the foundational attacking leg entanglement position where the practitioner — positioned on their back or side — controls one of the opponent's legs between their own legs. The outside leg hooks around the opponent's trapped leg with active calf and hamstring pressure securing the heel, while the inside leg is positioned across the opponent's near hip to control distance and prevent escape. This configuration creates direct lines of attack to the [[Straight Ankle Lock]], [[Inside Heel Hook]], [[Toe Hold]], and [[Kneebar]], while serving as the entry point to dominant finishing positions including [[Saddle]] and [[Honey Hole]]. Success rate: Beginner 35%, Intermediate 50%, Advanced 70%.
 
-Inside Ashi-Garami serves as the foundational position for modern leg lock attacks and is the entry point for more advanced leg entanglements. The position requires technical precision and safety awareness, particularly when applying heel hooks. Proper training progression emphasizes mastering straight ankle locks before advancing to heel hook attacks.
+Inside Ashi-Garami Bottom is the mandatory starting position in the [[Danaher Leg Lock System]] and systematic leg lock approach used by elite competitors including Gordon Ryan and the New Wave Jiu-Jitsu team. The position serves as both an attacking platform and a transitional hub — when the opponent defends the [[Inside Heel Hook]] by rotating their knee outward, this creates the [[Saddle]] entry; when they extend the leg to create distance, the [[Straight Ankle Lock]] becomes available with increased leverage; when they attempt to free the heel by pulling backward, [[Outside Ashi-Garami]] becomes accessible. Every defensive reaction from the opponent opens a different attack pathway.
 
-This position has become increasingly prominent in modern no-gi competition, serving as both an attacking platform and a transitional hub to more dominant leg entanglement configurations. Understanding Inside Ashi-Garami is essential for any practitioner seeking to develop a comprehensive leg lock game while maintaining safety and control throughout the engagement.
+This position has become essential in modern no-gi competition at all levels, serving as the foundational leg lock position that practitioners must develop before advancing to more complex systems. Safety awareness is paramount: practitioners should spend a minimum of 6-12 months mastering [[Straight Ankle Lock]] mechanics from Inside Ashi before attempting heel hooks under qualified supervision. The [[Inside Heel Hook]] applies rotational force to the knee joint — specifically targeting the ACL, PCL, and LCL — and can cause career-ending injuries within milliseconds if applied without proper control and tap recognition. Building foundational Inside Ashi-Garami control ensures practitioners understand the mechanics and safety requirements before progressing to heel hook attacks.
 
 </section>
 
