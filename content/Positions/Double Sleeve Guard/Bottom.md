@@ -44,8 +44,8 @@ description: "Master Double Sleeve Guard Bottom in BJJ. Control-focused open gua
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guard Recovery",
-      "text": "From this position, attempt Guard Recovery. This technique is attempted in 4% of exchanges from this position.",
+      "name": "Execute Guard Recovery from Double Sleeve Guard",
+      "text": "From this position, attempt Guard Recovery from Double Sleeve Guard. This technique is attempted in 4% of exchanges from this position.",
       "position": 5
     },
     {
@@ -214,7 +214,7 @@ Double Sleeve Guard Bottom is a fundamental open guard position where the bottom
 
 ### [[Omoplata]] (4% of attempts)
 
-### [[Guard Recovery]] (4% of attempts)
+### [[Guard Recovery from Double Sleeve Guard]] (4% of attempts)
 
 ### [[Sickle Sweep]] (6% of attempts)
 
@@ -260,7 +260,7 @@ Double Sleeve Guard Bottom is a fundamental open guard position where the bottom
 
 
 **If opponent successfully breaks one sleeve grip and establishes pants grip:**
-- Execute **[[Guard Recovery]]** → [[Open Guard]] (Probability: 45%)
+- Execute **[[Guard Recovery from Double Sleeve Guard]]** → [[Open Guard]] (Probability: 45%)
 - Execute **[[Overhook Sweep]]** → [[Mount]] (Probability: 50%)
 
 

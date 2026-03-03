@@ -1,0 +1,388 @@
+{
+  "name": "Guard Recovery from Jailbreak",
+  "description": "Master guard recovery from the Jailbreak position in BJJ. Complete guide to post-inversion framing, hip escape mechanics, and open guard recomposition techniques.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard-recovery",
+    "defensive",
+    "bottom-game",
+    "half-guard",
+    "scramble",
+    "open-guard"
+  ],
+  "from_position": "Jailbreak/Bottom",
+  "outcomes": [
+    {
+      "to": "Open Guard/Bottom",
+      "probability": 45,
+      "result": "success"
+    },
+    {
+      "to": "Jailbreak/Bottom",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Side Control/Bottom",
+      "probability": 25,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 45,
+  "overview": "Guard Recovery from Jailbreak is a defensive transition where the bottom player reestablishes open guard after the explosive Jailbreak escape from half guard. When the Jailbreak roll or inversion does not achieve turtle or back take, the bottom player must recover to a functional guard position rather than remaining in the compromised Jailbreak state. This recovery involves using frames and hip escapes to reinsert legs between the players, establishing distance through knee shields or feet-on-hips positioning, and preventing the top player from consolidating side control during the transition.\n\nThe biomechanical challenge of this recovery lies in the non-standard body alignment that results from a failed inversion. Unlike standard guard recovery from side control where the defender starts flat on their back with a predictable orientation, the post-Jailbreak position may leave the bottom player twisted, partially inverted, or angled away from the opponent. This requires an additional orientation step before the standard frame-escape-recompose sequence can begin. The recovery window is narrow: the bottom player typically has three to five seconds before the top player capitalizes on the disorganized body position to establish dominant control. Practitioners who develop automatic post-inversion orientation and framing responses dramatically increase their guard recovery success rate, transforming what would otherwise be a catastrophic positional failure into a manageable defensive transition.",
+  "conditions": [
+    "Jailbreak roll or inversion has stalled or been defended without achieving turtle or back take",
+    "Bottom player retains enough hip mobility to perform directional hip escapes from the compromised position",
+    "Top player has not yet fully consolidated side control with crossface and hip control locked in",
+    "At least one arm remains free for emergency framing against the opponent's upper body"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Granby Roll Recovery",
+      "description": "When the Jailbreak leaves you partially inverted with momentum still carrying you, continue the rotational energy into a Granby roll that recomposes guard by rolling through rather than stopping and reversing direction. This leverages existing inversion momentum to arrive facing the opponent with legs already between the bodies.",
+      "when_to_use": "When you have significant residual rotational momentum from the Jailbreak attempt and your body is already past the halfway point of inversion"
+    },
+    {
+      "variant_name": "Seated Guard Recovery",
+      "description": "Instead of recovering to supine open guard, use the failed Jailbreak scramble to come up to a seated position with feet posted and hands controlling grips. This seated guard variant provides immediate mobility and the option to stand up or pull into specific guard compositions.",
+      "when_to_use": "When the opponent creates distance during the scramble or backs away from the failed Jailbreak position, giving space to sit up rather than requiring supine guard recovery"
+    },
+    {
+      "variant_name": "Half Guard Bail Recovery",
+      "description": "When full open guard recovery is not feasible due to the top player's pressure, trap the near leg with both of yours to establish half guard as a minimum viable defensive position. From half guard, work for underhook and resume standard half guard offense.",
+      "when_to_use": "When the top player has already established a deep underhook and heavy crossface, making full leg reinsertion to open guard impractical within the available time"
+    }
+  ],
+  "position_integration": "Guard Recovery from Jailbreak occupies a critical defensive node in the half guard system's decision tree. The Jailbreak escape from bottom half guard has multiple possible outcomes: successful turtle, back take, or failure requiring recovery. This transition handles the failure branch, connecting the compromised Jailbreak state back to open guard where the bottom player can resume offensive operations. Without a reliable guard recovery pathway from failed Jailbreak attempts, practitioners are incentivized to never attempt the Jailbreak at all, limiting their half guard escape toolkit. Mastery of this recovery therefore enables the entire Jailbreak subsystem by reducing the catastrophic cost of failure from side control concession to a manageable open guard reset.",
+  "related_content": [
+    {
+      "name": "Jailbreak",
+      "relationship": "Source position - the compromised Jailbreak state from which this guard recovery initiates"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Primary recovery target - reestablished open guard providing distance management and offensive options"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Counter outcome position when top player consolidates control during failed recovery attempt"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Related position - Jailbreak originates from half guard and recovery may pass through half guard mechanics"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Alternative outcome when Jailbreak succeeds fully, avoiding the need for guard recovery"
+    },
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Alternative guard recovery option using butterfly hooks when reinserting legs from scramble position"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Intermediate recovery position using knee shield as a barrier during transition from Jailbreak to full guard"
+    },
+    {
+      "name": "Seated Guard",
+      "relationship": "Alternative guard recovery outcome when bottom player achieves seated position during scramble"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Advanced recovery option when bottom player can hook the opponent's lead leg during recomposition"
+    },
+    {
+      "name": "Inverted Guard",
+      "relationship": "Related guard system that shares inversion mechanics with Jailbreak movement patterns"
+    }
+  ],
+  "attacker": {
+    "name": "Guard Recovery from Jailbreak Attacker",
+    "description": "Learn to recover open guard from a failed Jailbreak position in BJJ. Complete guide covering post-inversion framing, hip escape mechanics, and guard recomposition from scramble positions.",
+    "overview": "As the bottom player in a failed Jailbreak position, you are in a compromised state where the explosive roll or inversion did not achieve the desired turtle or back take outcome. Your body may be partially inverted, twisted, or displaced from a standard guard position, and the top player is likely driving forward to consolidate side control or flatten you out. Guard recovery from this position requires rapid spatial awareness—identifying which direction your hips face relative to the opponent—followed by systematic framing to create distance, hip escaping to realign your body, and reinserting your legs between you and the passer to establish a functional open guard. The Jailbreak's explosive nature means you may have residual momentum that can be redirected into recovery movement, but you must act decisively within the first few seconds before the top player settles their weight and locks down a control position.",
+    "key_principles": [
+      "Assess your body orientation immediately after the failed Jailbreak and identify the shortest path to reinserting your legs between you and the opponent",
+      "Use residual momentum from the Jailbreak roll to fuel the hip escape and body realignment needed for guard recovery",
+      "Prioritize getting your hips to the mat and facing the opponent before attempting any leg reinsertion or guard composition",
+      "Establish frames on the opponent's shoulders or chest immediately to prevent them from collapsing their weight and pinning you flat during the scramble",
+      "Accept an imperfect open guard position as the initial recovery target—any guard is better than remaining in the compromised Jailbreak state",
+      "Keep your elbows tight to your body during recovery to prevent arm isolation attacks during the transitional scramble",
+      "Use the top player's forward driving pressure against them by redirecting their energy past your centerline while you reinsert legs"
+    ],
+    "setup_requirements": [
+      "Hips retain enough mobility to perform a directional hip escape despite the failed inversion position",
+      "At least one arm free to establish a frame on the opponent's shoulder, chest, or neck to prevent flattening pressure",
+      "Opponent has not yet fully consolidated side control with crossface and hip control established",
+      "Sufficient awareness of body orientation relative to opponent to identify the direction for leg reinsertion"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Assess Body Orientation",
+        "description": "Immediately determine which direction your hips face relative to the opponent after the failed Jailbreak. Identify whether you need to turn toward or away from the opponent to face them squarely. This assessment must happen in under one second—any delay allows the top player to settle their weight and establish control."
+      },
+      {
+        "step_number": 2,
+        "action": "Establish Emergency Frames",
+        "description": "Place both forearms against the opponent's upper body—collarbone, shoulders, or chin—to create immediate distance and prevent them from driving their chest into yours. These frames buy the time needed for hip realignment. Keep elbows tight to your ribs to prevent the opponent from isolating an arm during the scramble."
+      },
+      {
+        "step_number": 3,
+        "action": "Hip Escape to Square Up",
+        "description": "Execute a strong hip escape to rotate your body so your hips face the opponent squarely. If you ended the Jailbreak at an angle or partially inverted, this hip escape may need to be larger than a standard shrimp—use the full range of your hip rotation to get your belly button pointing toward the ceiling with the opponent in front of you."
+      },
+      {
+        "step_number": 4,
+        "action": "Insert Near Knee as Shield",
+        "description": "Drive your near-side knee between you and the opponent, positioning your shin diagonally across their midsection as a structural barrier. This knee shield is your primary defense against the top player collapsing the distance. Point your toes toward the opponent's far shoulder to maximize the frame's effectiveness."
+      },
+      {
+        "step_number": 5,
+        "action": "Create Distance with Far Leg",
+        "description": "Place your far foot on the opponent's hip, bicep, or shoulder and extend to push them away from you. This creates the separation needed to transition from a knee shield scramble position into a proper open guard configuration with active feet and distance management."
+      },
+      {
+        "step_number": 6,
+        "action": "Establish Open Guard Grips",
+        "description": "As distance is created, transition your frames into functional guard grips—collar and sleeve in gi, wrist and collar tie in no-gi. Your feet should be actively engaged on the opponent's hips or thighs, establishing the connection points that define a functional open guard position."
+      },
+      {
+        "step_number": 7,
+        "action": "Settle Into Guard Composition",
+        "description": "From the initial open guard recovery, settle into a specific guard composition based on the grips and leg positions available—butterfly guard if hooks are in, De La Riva if you have a leg hook, or seated guard if you have achieved an upright posture. The specific guard matters less than having a functional, organized position with active feet and grips."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent drives heavy crossface and shoulder pressure immediately after the failed Jailbreak, flattening the bottom player before frames can be established",
+        "effectiveness": "High",
+        "your_response": "Turn into the crossface pressure rather than away from it, shooting your inside arm under their chin to create a frame. Use the turning motion to load a hip escape in the opposite direction, creating space on your far side for knee insertion.",
+        "targets_outcome": "Side Control/Bottom"
+      },
+      {
+        "counter": "Opponent secures an underhook during the scramble and drives into a side control consolidation, controlling the near hip and shoulder simultaneously",
+        "effectiveness": "High",
+        "your_response": "Fight the underhook immediately with a whizzer or pummel back to establish your own underhook. If the underhook is deep, abandon the open guard recovery and work for half guard by trapping their near leg with both of yours as a minimum defensive position.",
+        "targets_outcome": "Side Control/Bottom"
+      },
+      {
+        "counter": "Opponent backs away from the scramble and stands up, creating distance before you can establish guard grips or leg contact",
+        "effectiveness": "Medium",
+        "your_response": "Immediately sit up into seated guard or establish feet-on-hips from supine position. If the opponent stands before you can make leg contact, use the space to complete your body realignment and face them squarely from an open guard position with distance management.",
+        "targets_outcome": "Jailbreak/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting a second Jailbreak roll instead of committing to guard recovery after the first attempt fails",
+        "consequence": "A second explosive inversion from a compromised position typically has even lower success probability and expends critical energy while giving the top player additional time to consolidate. Repeated failed inversions leave you increasingly flat and exhausted.",
+        "correction": "Commit to guard recovery after the first Jailbreak attempt fails. The energy spent on a second roll is better invested in framing, hip escaping, and systematic guard recomposition that has a more reliable success rate from the compromised position."
+      },
+      {
+        "error": "Remaining partially inverted or twisted rather than squaring hips to face the opponent",
+        "consequence": "Maintaining an angled or inverted body position after a failed Jailbreak makes it impossible to insert effective knee shields and gives the top player easy access to your back and side for control consolidation",
+        "correction": "The first priority after a failed Jailbreak is getting your hips flat on the mat and facing the opponent. Use hip escapes to rotate your body until your belly button points upward and the opponent is between your legs, even if this means temporarily conceding distance."
+      },
+      {
+        "error": "Reaching for the opponent's legs from the ground instead of establishing upper body frames first",
+        "consequence": "Reaching for legs from a compromised ground position extends your arms away from your body, creating kimura and americana exposure while failing to create the structural distance needed for guard recovery",
+        "correction": "Always establish upper body frames on the opponent's shoulders or chest before attempting any leg engagement. Frames create the space needed for hip movement, which creates the space needed for leg reinsertion."
+      },
+      {
+        "error": "Panicking and making wild, uncontrolled movements during the scramble rather than following a systematic recovery sequence",
+        "consequence": "Frantic movement expends energy without creating meaningful positional improvement and often creates openings for the top player to exploit, such as exposed backs or isolated limbs",
+        "correction": "Follow a sequential recovery process even under pressure: assess orientation, frame, hip escape, insert knee shield, create distance, establish grips. Systematic recovery is faster and more energy-efficient than panicked scrambling."
+      },
+      {
+        "error": "Stopping recovery effort after inserting a knee shield and treating it as a final position rather than transitioning to full open guard",
+        "consequence": "A knee shield without grips is a temporary barrier that the top player will eventually defeat through pressure or grip fighting. It is not a sustainable guard position on its own.",
+        "correction": "Treat the knee shield as an intermediate step in the recovery sequence, not the final destination. Continue working to establish grips, create distance, and compose a full guard position with active offensive threats."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Post-Inversion Orientation",
+        "focus": "Rapid body assessment and hip realignment after failed inversions",
+        "description": "Practice Jailbreak rolls that intentionally stop short of completion, then immediately assess body orientation and execute hip escapes to square up. Partner provides no resistance initially. Focus on developing the spatial awareness to identify your hip direction relative to the opponent within one second of the failed roll."
+      },
+      {
+        "phase": "Phase 2: Emergency Framing from Compromised Positions",
+        "focus": "Establishing frames from various post-Jailbreak body positions",
+        "description": "Start from multiple failed Jailbreak positions—partially inverted, twisted sideways, flat on back—and practice establishing immediate frames against partner applying 40% forward pressure. Drill frame placement from each starting position 15 times to build automatic responses regardless of orientation."
+      },
+      {
+        "phase": "Phase 3: Complete Recovery Sequence",
+        "focus": "Full chain from failed Jailbreak through open guard establishment",
+        "description": "Chain the entire recovery sequence from failed Jailbreak through orientation assessment, framing, hip escape, knee shield insertion, distance creation, and open guard composition. Partner provides 60% resistance with realistic scramble pressure. Target completing the full sequence in under five seconds."
+      },
+      {
+        "phase": "Phase 4: Recovery Under Live Scramble Pressure",
+        "focus": "Guard recovery against active top player during post-Jailbreak scramble",
+        "description": "Positional sparring starting from failed Jailbreak positions with partner at full resistance attempting to consolidate side control. Bottom player works exclusively on guard recovery. Track success rate over multiple rounds and identify which top player responses create the most difficulty for targeted improvement."
+      },
+      {
+        "phase": "Phase 5: Jailbreak-to-Recovery Decision Making",
+        "focus": "Integrating the decision between continuing Jailbreak and transitioning to recovery",
+        "description": "Live rolling starting from half guard where the bottom player attempts Jailbreak and must make the real-time decision of whether to continue the roll or abort and recover guard. Develop the judgment to recognize when the Jailbreak has failed early enough to begin recovery with maximum advantage rather than waiting until the position is fully compromised."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the first priority after recognizing that a Jailbreak attempt has failed?",
+        "answer": "The first priority is assessing your body orientation relative to the opponent—specifically, identifying which direction your hips face and determining the shortest path to squaring up with the opponent in front of you. This assessment must happen within one second because the top player is simultaneously working to consolidate their position. Without this orientation awareness, subsequent recovery actions like framing and hip escaping may be directed inefficiently."
+      },
+      {
+        "question": "Why is a second Jailbreak roll typically a poor decision after the first attempt fails?",
+        "answer": "A second Jailbreak attempt from a compromised position has significantly lower success probability because the top player is now aware of the movement pattern and positioned to counter it. The explosive energy required for inversion is substantial, and spending it on a low-percentage second attempt leaves the bottom player exhausted and even more compromised if it fails. Systematic guard recovery through framing and hip escapes has a more reliable success rate from the post-failed-Jailbreak position and conserves energy for sustained defensive work."
+      },
+      {
+        "question": "How should you use residual momentum from the failed Jailbreak roll to aid guard recovery?",
+        "answer": "The rotational energy from an incomplete Jailbreak roll can be redirected into the hip escape needed for body realignment and guard recovery. Rather than fighting to stop the rolling momentum and then separately initiating a hip escape, channel the remaining rotation directly into a hip escape that squares your body to face the opponent. This converts what would be wasted kinetic energy into productive recovery movement, making the transition faster and more energy-efficient than stopping and restarting."
+      },
+      {
+        "question": "What is the role of the knee shield during guard recovery from Jailbreak?",
+        "answer": "The knee shield serves as a critical intermediate barrier during the transition from the compromised Jailbreak position to full open guard. It creates a structural frame using skeletal leverage against the top player's forward pressure, buying time to establish grips and create distance for full guard composition. However, the knee shield is not the final recovery position—it must be combined with grips and active feet to transition into a sustainable guard with offensive capability. Without progressing beyond the knee shield, the barrier will eventually be defeated by systematic pressure."
+      },
+      {
+        "question": "When should you abandon open guard recovery from Jailbreak and accept half guard instead?",
+        "answer": "Half guard should be accepted when the top player has already established a deep underhook and is driving into side control consolidation, making full leg reinsertion to open guard impractical within the available time window. In this scenario, trapping the opponent's near leg with both of yours to establish half guard is a higher-percentage defensive action than fighting for full open guard. From half guard, you retain offensive options like underhook battles, sweeps, and secondary guard recovery attempts with better structural support."
+      },
+      {
+        "question": "Your opponent posts their hand on your hip to block your knee shield insertion—how do you adjust?",
+        "answer": "When the opponent posts on your hip to block knee shield entry, redirect your knee insertion to a different angle—swim your knee underneath their posting arm rather than trying to force it through the block. Simultaneously, use your near-side hand to strip or redirect their posting arm by pushing it toward their centerline. If the hip post is too strong to overcome, switch to inserting your far leg as a butterfly hook under their thigh instead, which attacks from below their posting hand's defensive range and creates an alternative guard composition pathway."
+      },
+      {
+        "question": "What are the critical grip targets during the transition from framing to open guard composition?",
+        "answer": "The primary grip targets shift from defensive frames to offensive guard grips in a specific sequence. First, maintain at least one forearm frame while transitioning the other hand to a collar grip (gi) or collar tie (no-gi) to control their posture and prevent them from driving forward. Second, establish a sleeve or wrist grip on the far hand to limit their ability to post and advance. Your feet take over the distance management role—one foot on their hip to push and create space, the other hooking their leg or thigh for control. The grip transition must be rapid because removing a frame to seek a grip temporarily reduces your defensive barrier."
+      },
+      {
+        "question": "What direction of force should the hip escape generate during post-Jailbreak recovery, and why does direction matter?",
+        "answer": "The hip escape must generate force laterally and away from the opponent—not directly backward. Escaping straight back simply moves you along the same line the opponent is driving forward on, making it easy for them to follow. Lateral hip movement creates an angle that forces the opponent to change their direction of pressure, which momentarily disrupts their forward drive and creates the angular space needed to insert your knee between the bodies. The optimal escape angle is approximately 45 degrees away from the opponent's pressure line, which maximizes distance creation while keeping you oriented to face them."
+      },
+      {
+        "question": "Your recovery attempt stalls at the knee shield stage and the opponent begins systematically stripping your frames—what chain of actions prevents side control consolidation?",
+        "answer": "When stalled at knee shield with frames being stripped, immediately transition to active offense from the knee shield position rather than purely defending. Threaten a knee shield sweep by loading their weight over your top knee while controlling their far sleeve, which forces them to base and stops the frame-stripping progression. If they post to defend the sweep, use the momentary weight shift to extend your bottom leg into their hip and pummel your far arm to a new collar grip. Chain between sweep threats and guard recomposition—each sweep attempt that fails should generate the space for one more step of guard recovery. The key principle is that threatening offense from the intermediate position is more effective than pure defensive recovery."
+      },
+      {
+        "question": "What is the optimal timing window to initiate guard recovery versus continuing the Jailbreak roll?",
+        "answer": "The decision point occurs when your Jailbreak roll reaches approximately 60-70% completion without achieving the turtle position. Key indicators that the roll has stalled include: the opponent has based out wide to prevent being rolled through, your underhook connection is weakening, or you feel your rotational momentum decelerating. At this point, continuing the roll has diminishing returns and increasing risk. The optimal moment to transition to guard recovery is when you still have residual momentum to redirect into a hip escape—waiting until you are completely stopped means you lose the kinetic energy advantage and the opponent has fully loaded their pressure onto your compromised position."
+      }
+    ],
+    "safety_considerations": "Guard recovery from Jailbreak involves transitional scramble positions that carry moderate injury risk. The Jailbreak inversion places stress on the cervical spine, and attempting recovery while partially inverted can increase neck compression if the top player drives forward. Always ensure your head is free and not bearing weight before executing hip escapes. Avoid explosive bridging when your spine is not properly aligned—realign your body systematically before generating force. During training, partners should avoid driving heavy pressure during the initial post-inversion moment while the bottom player is oriented upside down, as this can create dangerous neck loading situations. Knee and ankle injuries can also occur if legs become entangled during the scramble—communicate clearly with training partners when legs are caught in awkward positions."
+  },
+  "defender": {
+    "name": "Guard Recovery from Jailbreak Defender",
+    "description": "Prevent guard recovery from Jailbreak as the top player in BJJ. Guide to consolidating position after defending a Jailbreak attempt through pressure application, underhook establishment, and side control advancement.",
+    "overview": "As the top player after defending a Jailbreak attempt, you are in a strong position to consolidate side control or advance your position before the bottom player can recompose their guard. The failed Jailbreak has left your opponent in a compromised position—potentially partially inverted, twisted, or displaced from any functional guard configuration. Your objective is to capitalize on their disorientation by driving heavy pressure into their frames, establishing underhooks and crossface control, and consolidating a dominant position before they can systematically reinsert their legs and establish open guard. The critical window is the first three to five seconds after the Jailbreak fails, when the bottom player is most disoriented and their body is least aligned for effective guard recovery mechanics.",
+    "key_principles": [
+      "Drive forward immediately after the Jailbreak fails to capitalize on the bottom player's disorientation and compromised body alignment",
+      "Establish crossface and underhook control to prevent the bottom player from turning to face you and squaring their hips for guard recovery",
+      "Pin the near hip with your hand or knee to prevent the hip escape that enables leg reinsertion and guard composition",
+      "Follow the bottom player's turning direction rather than fighting it—use their rotation to advance to side control on the far side",
+      "Block knee shield insertion by keeping your hips tight to the bottom player's body and denying the space for shin frame placement",
+      "Consolidate position in stages rather than trying to achieve perfect side control in one movement—incremental advancement is more reliable"
+    ],
+    "recognition_cues": [
+      "Bottom player begins turning their hips to face you after the failed Jailbreak, indicating they are attempting to realign for guard recovery",
+      "Bottom player establishes forearm frames on your shoulders or chest, creating the distance barrier needed for hip escape and leg reinsertion",
+      "Bottom player's near knee begins rising toward your midsection, signaling imminent knee shield insertion attempt",
+      "Bottom player redirects rolling momentum into a lateral hip escape rather than continuing the inversion, indicating the switch from Jailbreak to recovery mode"
+    ],
+    "defensive_options": [
+      {
+        "action": "Drive heavy crossface and chest pressure into the bottom player while their body is still misaligned from the failed Jailbreak, flattening them before frames can be established",
+        "when_to_use": "Immediately after the Jailbreak attempt fails, within the first two seconds while the bottom player is still partially inverted or twisted",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "Bottom player is flattened with shoulders pinned, enabling full side control consolidation with crossface and hip control",
+        "risk": "If bottom player turns into the pressure and establishes an inside frame, they may create enough space for hip escape"
+      },
+      {
+        "action": "Establish an underhook on the bottom player's near arm and drive into side control consolidation, controlling shoulder and hip simultaneously",
+        "when_to_use": "When the bottom player has turned to face you but has not yet inserted a knee shield or established defensive frames",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "Underhook control prevents framing and enables direct advancement to side control with shoulder and hip pinned",
+        "risk": "Bottom player may pummel for their own underhook or use the contact to pull into half guard"
+      },
+      {
+        "action": "Pin the bottom player's near hip and follow their hip escape direction, staying tight to their body to deny the space needed for leg reinsertion",
+        "when_to_use": "When the bottom player begins hip escaping to create angle for guard recovery after establishing initial frames",
+        "targets_outcome": "Jailbreak/Bottom",
+        "if_successful": "Bottom player's hip escape is neutralized and they remain in the compromised position without recovering guard",
+        "risk": "Focusing on hip control may leave upper body frames unaddressed, allowing the bottom player to redirect to a different recovery angle"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Side Control/Bottom",
+        "how": "Drive crossface pressure and establish underhook control within the first three seconds after the Jailbreak fails, capitalizing on the bottom player's disorientation and compromised body alignment to consolidate side control before they can reinsert legs and compose guard"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Hesitating after defending the Jailbreak instead of immediately driving forward to consolidate position",
+        "consequence": "Any delay allows the bottom player to assess their orientation, establish frames, and begin the systematic guard recovery sequence that returns them to a defensive position with offensive capability",
+        "correction": "Treat the failed Jailbreak as your opportunity—drive forward with immediate pressure the moment the bottom player's inversion stalls or reverses. The first three seconds are your highest-percentage window for consolidation."
+      },
+      {
+        "error": "Allowing the bottom player to turn and square their hips to face you without resistance",
+        "consequence": "Once the bottom player squares their hips, they can insert knee shields, establish frames, and execute hip escapes—the complete toolkit for guard recovery. Allowing free hip rotation gives them the alignment needed to recover guard.",
+        "correction": "Use crossface pressure and hip control to prevent or slow the bottom player's hip rotation. If they turn toward you, follow their rotation and work to advance to side control on the far side rather than allowing them to face you squarely."
+      },
+      {
+        "error": "Backing away from the scramble instead of staying tight and driving through the bottom player's recovery attempt",
+        "consequence": "Creating distance after a failed Jailbreak gives the bottom player exactly what they need—space to realign their body, insert legs, and establish open guard with distance management grips",
+        "correction": "Stay chest-to-chest with the bottom player and use heavy pressure to deny the space needed for leg reinsertion. Your proximity is your advantage—the closer you are, the harder it is for them to reinsert legs between your bodies."
+      },
+      {
+        "error": "Attempting to advance directly to mount during the scramble instead of first securing stable side control",
+        "consequence": "Skipping side control consolidation to go directly to mount from a scramble often results in the bottom player catching a leg and recovering half guard or full guard during the rushed transition",
+        "correction": "Consolidate side control first with full crossface, underhook, and hip control confirmed before attempting any position advancement. Stable side control is the reliable platform from which mount transitions succeed."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the critical time window for consolidating position after defending a Jailbreak attempt?",
+        "answer": "The critical window is three to five seconds after the Jailbreak fails. During this period, the bottom player is most disoriented and their body is least aligned for effective guard recovery. Their hips may be facing the wrong direction, their arms may be displaced from framing positions, and they need time to assess their orientation before initiating systematic recovery. After this window closes, the bottom player has typically squared their hips, established frames, and begun the guard recovery sequence."
+      },
+      {
+        "question": "Why should you follow the bottom player's turning direction rather than fighting their rotation during post-Jailbreak consolidation?",
+        "answer": "Fighting the bottom player's rotation engages a strength battle that wastes energy and creates a stalemate where neither player advances. Instead, following their rotation allows you to use their movement to advance your own position—as they turn toward you, you can flow past them to establish side control on their far side, using their turning momentum to carry you into a dominant position. This approach converts their recovery movement into an advantage for you rather than resisting it directly."
+      },
+      {
+        "question": "How does the Jailbreak's explosive nature create unique consolidation opportunities that differ from standard guard passing?",
+        "answer": "The Jailbreak's explosive inversion often leaves the bottom player in non-standard positions—partially inverted, twisted, or with their back partially exposed. These positions are fundamentally different from standard guard configurations because the bottom player's legs are not organized between the two bodies and their frames are not pre-positioned. This means the top player can often bypass the normal frame-elimination and knee-advancement sequence required for standard guard passing, instead driving directly into side control through the gap created by the bottom player's disorganized body position."
+      },
+      {
+        "question": "The bottom player has inserted a knee shield but has no grips established—what is your highest-percentage response?",
+        "answer": "A knee shield without grips is a temporary barrier that can be defeated through systematic pressure. Drive your chest weight into the top of their knee shield shin while controlling their far hip with your near hand to prevent them from creating distance for grip establishment. Simultaneously work to swim your arm over or under the shield to establish an underhook. The key is denying them the time and space to convert the knee shield into a complete guard position with grips—apply constant advancing pressure rather than waiting for them to organize their defense."
+      },
+      {
+        "question": "What specific body mechanics allow you to deny the hip escape that powers guard recovery from Jailbreak?",
+        "answer": "The hip escape requires the bottom player to push off the mat with their feet and move their hips laterally away from you. To deny this, keep your hips heavy and low against their near hip, removing the space their hips need to travel. Place your near knee tight against their hip bone as a physical block. Additionally, drive diagonal chest pressure toward their far shoulder—this pins their upper body and prevents the spinal rotation that powers the hip escape. The combination of hip blocking and diagonal pressure eliminates both the space and the mechanical pathway the bottom player needs to execute the escape."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Post-Jailbreak Pressure Response",
+        "focus": "Immediate forward pressure after defending Jailbreak inversion",
+        "description": "Partner performs Jailbreak rolls that intentionally stop short. Practice driving forward with chest pressure and crossface the moment the roll stalls. Work at 40% resistance to develop the automatic response of forward drive upon recognizing failed inversion. Drill 20 repetitions to build the habit."
+      },
+      {
+        "phase": "Phase 2: Side Control Consolidation from Scramble",
+        "focus": "Establishing side control from the chaotic post-Jailbreak scramble position",
+        "description": "Starting from various post-failed-Jailbreak positions, practice establishing crossface, underhook, and hip control to consolidate side control. Partner provides 60% resistance while attempting guard recovery. Focus on the sequence of controls rather than trying to achieve everything simultaneously."
+      },
+      {
+        "phase": "Phase 3: Denying Guard Recovery Under Resistance",
+        "focus": "Preventing frame establishment, hip escape, and knee shield insertion during active recovery attempts",
+        "description": "Partner attempts full guard recovery sequences at 70% resistance after Jailbreak failure. Practice reading their recovery mechanics and shutting down each phase—stripping frames, blocking hip escapes, closing knee shield gaps. Track how many recovery attempts you prevent per three-minute round."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Full resistance consolidation against Jailbreak specialists",
+        "description": "Begin each round with partner executing Jailbreak from half guard at full resistance. Practice the complete flow from Jailbreak defense through position consolidation and pass completion. Rotate training partners to experience different body types and Jailbreak variations."
+      }
+    ]
+  }
+}

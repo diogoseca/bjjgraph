@@ -101,7 +101,7 @@ The biomechanical principle underlying the Jailbreak from bottom involves conver
 
 - **[[Jailbreak to Deep Half Entry]]** (15% of attempts)
 
-- **[[Guard Recovery]]** (15% of attempts)
+- **[[Guard Recovery from Jailbreak]]** (15% of attempts)
 
 - **[[Old School Sweep]]** (12% of attempts)
 

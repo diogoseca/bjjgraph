@@ -57,6 +57,7 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 | Variant | Bottom Risk | Top Risk | Bottom Energy | Top Energy | Key Difference |
 |---------|-------------|----------|---------------|------------|----------------|
 | [[Closed Guard]] | Medium | Medium | Medium | Medium | Bottom offensive despite being underneath |
+| [[Diamond Guard]] | Low to Medium | Low to Medium | Low | Low | Dual control trades guard mobility for sub access |
 
 
 

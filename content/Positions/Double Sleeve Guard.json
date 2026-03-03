@@ -485,7 +485,7 @@
         "condition": "If opponent successfully breaks one sleeve grip and establishes pants grip",
         "actions": [
           {
-            "technique": "Guard Recovery",
+            "technique": "Guard Recovery from Double Sleeve Guard",
             "target": "Open Guard",
             "probability": 45
           },
@@ -623,7 +623,7 @@
         "attempt_probability": 4
       },
       {
-        "transition": "Guard Recovery",
+        "transition": "Guard Recovery from Double Sleeve Guard",
         "attempt_probability": 4
       },
       {

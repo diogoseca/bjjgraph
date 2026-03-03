@@ -229,7 +229,7 @@ This position has become increasingly prominent in modern no-gi competition, ser
 
 ### [[Inside Ashi-Garami to Cross Ashi]] (4% of attempts)
 
-### [[Guard Recovery]] (6% of attempts)
+### [[Guard Recovery from Inside Ashi-Garami]] (6% of attempts)
 
 ### [[Counter Entangle to 50-50 from Ashi]] (1% of attempts)
 
@@ -267,7 +267,7 @@ This position has become increasingly prominent in modern no-gi competition, ser
 
 **If opponent successfully begins extracting heel:**
 - Execute **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]] (Probability: 55%)
-- Execute **[[Guard Recovery]]** → [[Open Guard]] (Probability: 40%)
+- Execute **[[Guard Recovery from Inside Ashi-Garami]]** → [[Open Guard]] (Probability: 40%)
 
 
 

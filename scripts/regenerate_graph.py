@@ -23,10 +23,7 @@ from pathlib import Path
 
 # Neutral positions don't have top/bottom roles
 NEUTRAL_POSITIONS = {
-    'standing-position', 'clinch', 'combat-base', 'scramble-position',
-    'underhook-battle', 'standing-rear-clinch', 'dogfight-position',
-    'defensive-position', 'headquarters-position', 'collar-ties',
-    'leg-entanglement', 'game-over'
+    'game-over'
 }
 
 TERMINAL_POSITIONS = {'game-over'}
@@ -459,6 +456,20 @@ def generate_state_graph(project_root: Path) -> dict:
                 marked_count += 1
     if marked_count:
         print(f"  Marked {marked_count} position transition(s) as submission targets")
+
+    # Enrich position transitions with successRate from transition/submission data
+    enriched = 0
+    for pos_data in positions.values():
+        for t in pos_data.get('transitions', []):
+            target_slug = t.get('target', '')
+            if target_slug in transitions:
+                t['successRate'] = transitions[target_slug].get('successRate', 50)
+            elif target_slug in submission_slugs:
+                t['successRate'] = submissions[target_slug].get('successRate', 50)
+            else:
+                t['successRate'] = 50
+            enriched += 1
+    print(f"  Enriched {enriched} position transition(s) with successRate")
 
     all_position_slugs = sorted(positions.keys())
 

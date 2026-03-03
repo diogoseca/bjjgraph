@@ -579,7 +579,7 @@
         "attempt_probability": 9
       },
       {
-        "transition": "Guard Recovery",
+        "transition": "Guard Recovery from Reverse Half Guard",
         "attempt_probability": 7
       },
       {

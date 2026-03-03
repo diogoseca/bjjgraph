@@ -50,8 +50,8 @@ description: "Master Squid Guard Bottom in BJJ. Advanced asymmetrical guard with
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guard Recovery",
-      "text": "From this position, attempt Guard Recovery. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Guard Recovery from Squid Guard",
+      "text": "From this position, attempt Guard Recovery from Squid Guard. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -221,7 +221,7 @@ While technically demanding and requiring significant flexibility, coordination,
 
 ### [[De La Riva Sweep]] (9% of attempts)
 
-### [[Guard Recovery]] (10% of attempts)
+### [[Guard Recovery from Squid Guard]] (10% of attempts)
 
 ### [[Omoplata Sweep]] (8% of attempts)
 
@@ -257,7 +257,7 @@ While technically demanding and requiring significant flexibility, coordination,
 
 
 **If opponent attempts to disengage and create distance:**
-- Execute **[[Guard Recovery]]** → [[Open Guard]] (Probability: 70%)
+- Execute **[[Guard Recovery from Squid Guard]]** → [[Open Guard]] (Probability: 70%)
 - Execute **[[Shin to Shin Pull]]** → [[Spider Guard]] (Probability: 60%)
 
 

@@ -8,163 +8,7 @@ description: "Master the Dogfight position in BJJ half guard. Dynamic kneeling p
 ---
 
 
-<body data-content-type="positions">
-
-<!-- Schema Markup - HowTo -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Use Dogfight Position",
-  "description": "Complete guide to dogfight position in BJJ.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Execute Dogfight Sweep",
-      "text": "From this position, attempt Dogfight Sweep. This technique is attempted in 20% of exchanges from this position.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Forward Drive Sweep from Dogfight",
-      "text": "From this position, attempt Forward Drive Sweep from Dogfight. This technique is attempted in 15% of exchanges from this position.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 15% of exchanges from this position.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Crossface from Dogfight",
-      "text": "From this position, attempt Crossface from Dogfight. This technique is attempted in 15% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Re-flatten from Dogfight",
-      "text": "From this position, attempt Re-flatten from Dogfight. This technique is attempted in 15% of exchanges from this position.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Underhook Sweep from Dogfight",
-      "text": "From this position, attempt Underhook Sweep from Dogfight. This technique is attempted in 10% of exchanges from this position.",
-      "position": 6
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Re-pull Half Guard from Dogfight",
-      "text": "From this position, attempt Re-pull Half Guard from Dogfight. This technique is attempted in 10% of exchanges from this position.",
-      "position": 7
-    }
-  ],
-  "totalTime": "PT2M"
-}
-</script>
-
-<!-- Schema Markup - FAQ from Common Mistakes -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What happens if you allowing the top player to flatten you to the mat by not maintaining active frames and forward pressure?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Loss of all offensive opportunities and transition to defensive flat half guard where sweeps become significantly more difficult and energy-intensive The correct approach is: Maintain constant forward pressure with your underhook while keeping your knee shield or butterfly hook actively pushing to prevent being driven backward—never voluntarily move backward or allow frames to collapse"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What happens if you staying static in the dogfight position without chaining techniques or creating constant pressure changes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The top player establishes strong grips and controls, eventually passing or flattening you as they solve the static puzzle through superior positioning The correct approach is: Constantly flow between sweep attempts, back take entries, and position improvements—if one attack is defended, immediately chain to the next without pausing or resetting to starting position"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What happens if you losing the underhook battle by allowing opponent to strip it or failing to fight for deep underhook positioning?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Without the underhook as your primary offensive tool, the top player can easily flatten and pass your guard using crossface and shoulder pressure The correct approach is: Fight aggressively for the underhook and never give it up voluntarily—if you lose it, immediately work to recover it or transition to deep half or other defensive positions"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What happens if you allowing your head to drop below the opponent's head level or keeping it too far from their body?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The top player can drive forward pressure and flatten you to the mat, eliminating your upright posture and all offensive capabilities The correct approach is: Keep your head high and pressed against opponent's body by driving forward with your underhook—use your head as an additional control point and pressure source"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What happens if you not controlling the opponent's far hip or leg when attempting sweeps, allowing them to post and base out?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The opponent easily defends all sweep attempts by posting their free leg, potentially countering with passes as you overextend on failed sweeps The correct approach is: When executing sweeps like the Dogfight Sweep, ensure you control the opponent's far leg or hip with your free hand to prevent posting and maximize sweep success"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What happens if you giving up space by pulling backward instead of maintaining constant forward driving pressure?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Creates distance that allows the top player to establish better grips, improve their base, and launch passing attacks without resistance The correct approach is: Constantly drive forward with your underhook and upper body while using your frames to manage optimal distance—never voluntarily create separation"
-      }
-    }
-  ]
-}
-</script>
-
-<!-- Schema Markup - WebPage -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Dogfight Position",
-  "description": "Master the Dogfight position in BJJ half guard. Dynamic kneeling position with 75% sweep success at advanced levels. Complete guide to underhook battles, back takes, and sweeps.",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.org"
-  }
-}
-</script>
-
-<!-- Schema Markup - Breadcrumbs -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://bjjgraph.org/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Positions",
-      "item": "https://bjjgraph.org/Positions/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "Dogfight Position",
-      "item": "https://bjjgraph.org/Positions/Dogfight-Position"
-    }
-  ]
-}
-</script>
+<body data-content-type="positions-hub">
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -179,223 +23,214 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 
 </section>
 
-<section id="state-invariants" class="content-section">
-
-## Position Definition
-
-- Both practitioners are elevated on their knees in upright or semi-upright kneeling positions, with weight distributed through knees and posting points, creating an inherently unstable equilibrium where small adjustments determine positional outcomes
-- Active underhook battle occurring with at least one player having established underhook control around opponent's torso, ideally reaching to the far shoulder, while the opponent typically counters with whizzer (overhook) control pulling back and downward
-- Bottom player's inside leg remains trapped between top player's thighs in half guard configuration, though the elevated posture creates space and mobility compared to flat half guard positions
-- Both players' upper bodies are relatively upright and face-to-face or slightly angled, with heads in close proximity fighting for superior positioning, preventing either player from achieving fully dominant control
-- Dynamic tension maintained through the underhook/whizzer battle with both players using frames (knee shields, butterfly hooks, posting hands) to manage distance and create or deny offensive opportunities
-- Position characterized by constant movement and weight distribution changes rather than static control, with both players actively fighting to advance their position or prevent opponent advancement
-
-
-</section>
-
-<section id="prerequisites" class="content-section">
-
-## Prerequisites
-
-- Bottom player successfully established underhook from flat half guard position
-- Bottom player elevated hips off mat and came up to knees, creating the dogfight configuration
-- Bottom player maintains at least one strong frame (knee shield, butterfly hook, or posted leg) to prevent being flattened
-- Top player's leg remains trapped in half guard but opponent has created enough space to come to upright posture
-- Active grip battle and inside positioning war initiated between both players for dominant control
-
-
-</section>
-
 <section id="key-principles" class="content-section">
 
-## Key Principles
+### Key Principles
+
 
 - Maintain constant forward pressure through the underhook, driving into opponent to prevent them from establishing stable base and controlling the direction of engagement
+
 - Use active frames (knee shield, butterfly hook, posted leg) to create and maintain space, preventing opponent from closing distance and flattening you to the mat
+
 - Keep your head level with or higher than opponent's head to control upper body battles and prevent being driven backward or flattened
+
 - Chain multiple techniques together without pausing—if one attack is defended, immediately flow to alternate sweep, back take, or position improvement based on opponent's defensive reactions
+
 - Fight aggressively for the underhook battle as the primary control point, understanding that losing the underhook typically results in being flattened and losing offensive momentum
+
 - Stay active and mobile with constant weight shifts and directional changes—Dogfight rewards dynamic movement over static holding and creates reactions to capitalize on
+
 - Control opponent's far hip or near-side hip with free hand to limit their mobility and posting options while setting up sweeps and transitions
 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
+<section class="content-section">
 
-## Available Techniques and Transitions
+## Top vs Bottom
 
-### [[Dogfight Sweep]] (20% of attempts)
 
-### [[Forward Drive Sweep from Dogfight]] (15% of attempts)
 
-### [[Back Take]] (15% of attempts)
 
-### [[Crossface from Dogfight]] (15% of attempts)
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Neutral | Neutral |
+| **Risk Level** | Medium | Medium |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Short | Short |
 
-### [[Re-flatten from Dogfight]] (15% of attempts)
-
-### [[Underhook Sweep from Dogfight]] (10% of attempts)
-
-### [[Re-pull Half Guard from Dogfight]] (10% of attempts)
+**Key Difference:** Elevated kneeling posture for explosive access
 
 
 
 </section>
 
-<section id="decision-tree" class="content-section">
-
-## Decision Making from This Position
-
-**If opponent has strong whizzer and is driving you backward with heavy crossface pressure:**
-- Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 70%)
-- Execute **[[Re-pull Half Guard from Dogfight]]** → [[Half Guard]] (Probability: 60%)
-- Execute **[[Electric Chair Transition]]** → [[Electric Chair]] (Probability: 45%)
+<section id="bottom-summary" class="content-section">
 
 
-**If opponent's far leg is posted wide and vulnerable to being controlled:**
-- Execute **[[Dogfight Sweep]]** → [[Side Control]] (Probability: 70%)
-- Execute **[[Forward Drive Sweep from Dogfight]]** → [[Mount]] (Probability: 60%)
+## Playing as Bottom
+
+[[Dogfight Position/Bottom|→ Full Bottom Guide]]
+
+### Key Principles
 
 
-**If opponent loses whizzer control, exposes their back, or commits weight forward excessively:**
-- Execute **[[Back Take]]** → [[Back Control]] (Probability: 70%)
-- Execute **[[Underhook Sweep from Dogfight]]** → [[Side Control]] (Probability: 65%)
+- Maintain constant forward pressure through the underhook, driving into opponent to prevent them from establishing stable base and controlling the direction of engagement
+
+- Use active frames (knee shield, butterfly hook, posted leg) to create and maintain space, preventing opponent from closing distance and flattening you to the mat
+
+- Keep your head level with or higher than opponent's head to control upper body battles and prevent being driven backward or flattened
+
+- Chain multiple techniques together without pausing—if one attack is defended, immediately flow to alternate sweep, back take, or position improvement based on opponent's defensive reactions
+
+- Fight aggressively for the underhook battle as the primary control point, understanding that losing the underhook typically results in being flattened and losing offensive momentum
+
+- Stay active and mobile with constant weight shifts and directional changes—Dogfight rewards dynamic movement over static holding and creates reactions to capitalize on
+
+- Control opponent's far hip or near-side hip with free hand to limit their mobility and posting options while setting up sweeps and transitions
 
 
-**If opponent maintains upright posture and posts their free leg far out for base:**
-- Execute **[[Underhook Sweep from Dogfight]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Forward Drive Sweep from Dogfight]]** → [[Mount]] (Probability: 50%)
+### Available Transitions
 
 
-**If opponent attempts to circle their trapped leg free while maintaining balance:**
-- Execute **[[Back Take]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Dogfight Sweep]]** → [[Side Control]] (Probability: 55%)
+- **[[Dogfight Sweep]]** (25% of attempts)
+
+- **[[Back Take]]** (25% of attempts)
+
+- **[[Forward Drive Sweep from Dogfight]]** (20% of attempts)
+
+- **[[Underhook Sweep from Dogfight]]** (15% of attempts)
+
+- **[[Re-pull Half Guard from Dogfight]]** (15% of attempts)
 
 
-**If you are the top player and opponent has deep underhook with forward pressure:**
-- Execute **[[Crossface from Dogfight]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Re-flatten from Dogfight]]** → [[Half Guard]] (Probability: 50%)
+### Common Mistakes
 
 
+- ❌ **Allowing the top player to flatten you to the mat by not maintaining active frames and forward pressure**
+  - Consequence: Loss of all offensive opportunities and transition to defensive flat half guard where sweeps become significantly more difficult and energy-intensive
+  - ✅ Correction: Maintain constant forward pressure with your underhook while keeping your knee shield or butterfly hook actively pushing to prevent being driven backward—never voluntarily move backward or allow frames to collapse
 
+- ❌ **Staying static in the Dogfight position without chaining techniques or creating constant pressure changes**
+  - Consequence: The top player establishes strong grips and controls, eventually passing or flattening you as they solve the static puzzle through superior positioning
+  - ✅ Correction: Constantly flow between sweep attempts, back take entries, and position improvements—if one attack is defended, immediately chain to the next without pausing or resetting to starting position
 
-</section>
+- ❌ **Losing the underhook battle by allowing opponent to strip it or failing to fight for deep underhook positioning**
+  - Consequence: Without the underhook as your primary offensive tool, the top player can easily flatten and pass your guard using crossface and shoulder pressure
+  - ✅ Correction: Fight aggressively for the underhook and never give it up voluntarily—if you lose it, immediately work to recover it or transition to deep half or other defensive positions
 
-<section id="common-mistakes" class="content-section hide-minimal">
+- ❌ **Allowing your head to drop below the opponent's head level or keeping it too far from their body**
+  - Consequence: The top player can drive forward pressure and flatten you to the mat, eliminating your upright posture and all offensive capabilities
+  - ✅ Correction: Keep your head high and pressed against opponent's body by driving forward with your underhook—use your head as an additional control point and pressure source
 
-## Common Mistakes
+- ❌ **Not controlling the opponent's far hip or leg when attempting sweeps, allowing them to post and base out**
+  - Consequence: The opponent easily defends all sweep attempts by posting their free leg, potentially countering with passes as you overextend on failed sweeps
+  - ✅ Correction: When executing sweeps like the Dogfight Sweep, ensure you control the opponent's far leg or hip with your free hand to prevent posting and maximize sweep success
 
-### 1. Allowing the top player to flatten you to the mat by not maintaining active frames and forward pressure
+- ❌ **Giving up space by pulling backward instead of maintaining constant forward driving pressure**
+  - Consequence: Creates distance that allows the top player to establish better grips, improve their base, and launch passing attacks without resistance
+  - ✅ Correction: Constantly drive forward with your underhook and upper body while using your frames to manage optimal distance—never voluntarily create separation
 
-- ❌ **Consequence**: Loss of all offensive opportunities and transition to defensive flat half guard where sweeps become significantly more difficult and energy-intensive
-- ✅ **Correction**: Maintain constant forward pressure with your underhook while keeping your knee shield or butterfly hook actively pushing to prevent being driven backward—never voluntarily move backward or allow frames to collapse
-
-### 2. Staying static in the Dogfight position without chaining techniques or creating constant pressure changes
-
-- ❌ **Consequence**: The top player establishes strong grips and controls, eventually passing or flattening you as they solve the static puzzle through superior positioning
-- ✅ **Correction**: Constantly flow between sweep attempts, back take entries, and position improvements—if one attack is defended, immediately chain to the next without pausing or resetting to starting position
-
-### 3. Losing the underhook battle by allowing opponent to strip it or failing to fight for deep underhook positioning
-
-- ❌ **Consequence**: Without the underhook as your primary offensive tool, the top player can easily flatten and pass your guard using crossface and shoulder pressure
-- ✅ **Correction**: Fight aggressively for the underhook and never give it up voluntarily—if you lose it, immediately work to recover it or transition to deep half or other defensive positions
-
-### 4. Allowing your head to drop below the opponent's head level or keeping it too far from their body
-
-- ❌ **Consequence**: The top player can drive forward pressure and flatten you to the mat, eliminating your upright posture and all offensive capabilities
-- ✅ **Correction**: Keep your head high and pressed against opponent's body by driving forward with your underhook—use your head as an additional control point and pressure source
-
-### 5. Not controlling the opponent's far hip or leg when attempting sweeps, allowing them to post and base out
-
-- ❌ **Consequence**: The opponent easily defends all sweep attempts by posting their free leg, potentially countering with passes as you overextend on failed sweeps
-- ✅ **Correction**: When executing sweeps like the Dogfight Sweep, ensure you control the opponent's far leg or hip with your free hand to prevent posting and maximize sweep success
-
-### 6. Giving up space by pulling backward instead of maintaining constant forward driving pressure
-
-- ❌ **Consequence**: Creates distance that allows the top player to establish better grips, improve their base, and launch passing attacks without resistance
-- ✅ **Correction**: Constantly drive forward with your underhook and upper body while using your frames to manage optimal distance—never voluntarily create separation
-
-### 7. Posting your outside leg too far away from your body, reducing your ability to generate power and change angles
-
-- ❌ **Consequence**: Loss of mobility and sweep power, making it easy for opponent to circle around your posted leg or drive through your weakened base
-- ✅ **Correction**: Keep your outside posting leg relatively close to your body with knee and foot ready to drive or reposition quickly, maintaining compact base that generates power in multiple directions
-
+- ❌ **Posting your outside leg too far away from your body, reducing your ability to generate power and change angles**
+  - Consequence: Loss of mobility and sweep power, making it easy for opponent to circle around your posted leg or drive through your weakened base
+  - ✅ Correction: Keep your outside posting leg relatively close to your body with knee and foot ready to drive or reposition quickly, maintaining compact base that generates power in multiple directions
 
 
 </section>
 
-<section id="training-drills" class="content-section hide-minimal">
-
-## Training Drills
-
-### Dogfight Position Retention Drill
-
-Partner starts in Dogfight with training partner applying progressive resistance to flatten them or strip the underhook. Bottom player maintains upright posture for 2-minute rounds while defending flattening attempts through active frames, forward underhook pressure, and superior head position. Partner gradually increases pressure intensity from 50% to 75% to 100% across multiple rounds. Focus on constant movement and base maintenance.
-
-**Duration**: 5 rounds of 2 minutes
+<section id="top-summary" class="content-section">
 
 
-### Sweep Chain Flow Drill
+## Playing as Top
 
-From Dogfight position, bottom player practices chaining together Dogfight Sweep to Forward Drive Sweep to Underhook Sweep in continuous sequence. Top player provides realistic progressive defense to first technique, forcing smooth transitions to second and third options without resetting to starting position. Emphasizes reading opponent's defensive reactions and flowing between techniques based on their weight distribution and posting patterns.
+[[Dogfight Position/Top|→ Full Top Guide]]
 
-**Duration**: 3 minutes per person, 4 rounds
-
-
-### Back Take vs Sweep Decision Drill
-
-Start in Dogfight with top partner randomly choosing to defend either back take (by keeping hips low and whizzer tight) or sweep (by posting wide and maintaining vertical base). Bottom player practices reading defensive posture through tactile feedback and selecting appropriate attack based on opponent's positioning. Develop sensitivity to when back is exposed versus when legs are vulnerable to sweeps.
-
-**Duration**: 5 minutes alternating roles
+### Key Principles
 
 
-### Underhook Battle Positional Sparring
+- Maintain constant forward pressure through the underhook, driving into opponent to prevent them from establishing stable base and controlling the direction of engagement
 
-Begin in Dogfight with both players competing for underhook advantage and superior positioning. First player to secure dominant underhook and maintain it for 5 seconds wins that exchange. Then transition to full Dogfight sparring where bottom player attempts sweeps/back takes while top player attempts to pass or flatten. Reset to neutral Dogfight every 90 seconds. Track success rates to identify weaknesses.
+- Use active frames (knee shield, butterfly hook, posted leg) to create and maintain space, preventing opponent from closing distance and flattening you to the mat
 
-**Duration**: 10 minutes continuous
+- Keep your head level with or higher than opponent's head to control upper body battles and prevent being driven backward or flattened
+
+- Chain multiple techniques together without pausing—if one attack is defended, immediately flow to alternate sweep, back take, or position improvement based on opponent's defensive reactions
+
+- Fight aggressively for the underhook battle as the primary control point, understanding that losing the underhook typically results in being flattened and losing offensive momentum
+
+- Stay active and mobile with constant weight shifts and directional changes—Dogfight rewards dynamic movement over static holding and creates reactions to capitalize on
+
+- Control opponent's far hip or near-side hip with free hand to limit their mobility and posting options while setting up sweeps and transitions
 
 
-### Dogfight Entry Progression Drill
-
-Practice entering Dogfight from flat half guard bottom with progressive resistance. Partner starts passive, then adds increasing resistance with whizzer and crossface pressure. Focus on establishing deep underhook, coming to knees with proper base, and maintaining head position while creating frames. Chain directly into sweep or back take attempts from successful entries.
-
-**Duration**: 6 minutes, 3 rounds per side
+### Available Transitions
 
 
+- **[[Crossface from Dogfight]]** (35% of attempts)
+
+- **[[Re-flatten from Dogfight]]** (35% of attempts)
+
+- **[[Snap Down from Dogfight]]** (30% of attempts)
+
+
+### Common Mistakes
+
+
+- ❌ **Allowing the top player to flatten you to the mat by not maintaining active frames and forward pressure**
+  - Consequence: Loss of all offensive opportunities and transition to defensive flat half guard where sweeps become significantly more difficult and energy-intensive
+  - ✅ Correction: Maintain constant forward pressure with your underhook while keeping your knee shield or butterfly hook actively pushing to prevent being driven backward—never voluntarily move backward or allow frames to collapse
+
+- ❌ **Staying static in the Dogfight position without chaining techniques or creating constant pressure changes**
+  - Consequence: The top player establishes strong grips and controls, eventually passing or flattening you as they solve the static puzzle through superior positioning
+  - ✅ Correction: Constantly flow between sweep attempts, back take entries, and position improvements—if one attack is defended, immediately chain to the next without pausing or resetting to starting position
+
+- ❌ **Losing the underhook battle by allowing opponent to strip it or failing to fight for deep underhook positioning**
+  - Consequence: Without the underhook as your primary offensive tool, the top player can easily flatten and pass your guard using crossface and shoulder pressure
+  - ✅ Correction: Fight aggressively for the underhook and never give it up voluntarily—if you lose it, immediately work to recover it or transition to deep half or other defensive positions
+
+- ❌ **Allowing your head to drop below the opponent's head level or keeping it too far from their body**
+  - Consequence: The top player can drive forward pressure and flatten you to the mat, eliminating your upright posture and all offensive capabilities
+  - ✅ Correction: Keep your head high and pressed against opponent's body by driving forward with your underhook—use your head as an additional control point and pressure source
+
+- ❌ **Not controlling the opponent's far hip or leg when attempting sweeps, allowing them to post and base out**
+  - Consequence: The opponent easily defends all sweep attempts by posting their free leg, potentially countering with passes as you overextend on failed sweeps
+  - ✅ Correction: When executing sweeps like the Dogfight Sweep, ensure you control the opponent's far leg or hip with your free hand to prevent posting and maximize sweep success
+
+- ❌ **Giving up space by pulling backward instead of maintaining constant forward driving pressure**
+  - Consequence: Creates distance that allows the top player to establish better grips, improve their base, and launch passing attacks without resistance
+  - ✅ Correction: Constantly drive forward with your underhook and upper body while using your frames to manage optimal distance—never voluntarily create separation
+
+- ❌ **Posting your outside leg too far away from your body, reducing your ability to generate power and change angles**
+  - Consequence: Loss of mobility and sweep power, making it easy for opponent to circle around your posted leg or drive through your weakened base
+  - ✅ Correction: Keep your outside posting leg relatively close to your body with knee and foot ready to drive or reposition quickly, maintaining compact base that generates power in multiple directions
 
 
 </section>
 
-<section id="position-metrics" class="content-section">
 
-## Success Rates and Statistics
+<section id="related-positions" class="content-section">
 
-| Metric | Rate |
-|--------|------|
-| Retention Rate | 68% |
-| Advancement Probability | 62% |
-| Submission Probability | 25% |
+## Related Positions
 
-**Average Time in Position**: 30-90 seconds before transition to sweep, back take, or pass occurs (highly dynamic position with rapid resolution)
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Related Positions and Techniques
 
 - **[[Half Guard]]** - Parent position - Dogfight is an elevated variation arising from flat half guard recovery
+
 - **[[Deep Half Guard]]** - Common transition target when opponent applies forward pressure or posts wide from Dogfight
+
 - **[[Lockdown]]** - Alternative half guard control mechanism that can transition to Dogfight when coming up to knees
+
 - **[[Knee Shield Half Guard]]** - Often precedes Dogfight - bottom player comes up to knees from knee shield configuration
+
 - **[[Back Control]]** - Primary offensive target from Dogfight via back take transitions when opponent exposes back
+
 - **[[Old School]]** - Signature sweep technique from Dogfight position targeting opponent's posted far leg
+
 - **[[Overhook Control]]** - Defensive concept the top player uses to counter Dogfight underhook and flatten opponent
+
 - **[[Butterfly Guard]]** - Alternative guard position with similar underhook battles and elevated posture dynamics
+
 - **[[Crab Ride]]** - Alternative position top player may transition to when defending Dogfight back take attempts
+
 - **[[Flattened Half Guard]]** - Position you regress to when losing the underhook battle and getting driven backward
 
 

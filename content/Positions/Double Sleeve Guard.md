@@ -99,7 +99,7 @@ Double Sleeve Guard is characterized by its emphasis on grip fighting dominance 
 
 - **[[Omoplata]]** (4% of attempts)
 
-- **[[Guard Recovery]]** (4% of attempts)
+- **[[Guard Recovery from Double Sleeve Guard]]** (4% of attempts)
 
 - **[[Sickle Sweep]]** (6% of attempts)
 

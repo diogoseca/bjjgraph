@@ -8,163 +8,7 @@ description: "Master Standing Rear Clinch in BJJ. Dominant back control from sta
 ---
 
 
-<body data-content-type="positions">
-
-<!-- Schema Markup - HowTo -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Use Standing Rear Clinch",
-  "description": "Complete guide to standing rear clinch in BJJ.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 25% of exchanges from this position.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Body Lock Pass",
-      "text": "From this position, attempt Body Lock Pass. This technique is attempted in 20% of exchanges from this position.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 15% of exchanges from this position.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Snap Down to Front Headlock",
-      "text": "From this position, attempt Snap Down to Front Headlock. This technique is attempted in 15% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Double Leg Finish",
-      "text": "From this position, attempt Double Leg Finish. This technique is attempted in 10% of exchanges from this position.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Mat Return to Back Mount",
-      "text": "From this position, attempt Mat Return to Back Mount. This technique is attempted in 10% of exchanges from this position.",
-      "position": 6
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Rear Naked Choke Setup",
-      "text": "From this position, attempt Rear Naked Choke Setup. This technique is attempted in 5% of exchanges from this position.",
-      "position": 7
-    }
-  ],
-  "totalTime": "PT2M"
-}
-</script>
-
-<!-- Schema Markup - FAQ from Common Mistakes -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What happens if you standing with hips directly behind opponent rather than offset to the side at angle?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Allows opponent to sit straight back onto you, potentially reversing position or creating scramble situation that neutralizes control advantage The correct approach is: Keep hips at 45-degree angle to one side, maintaining forward pressure while preventing opponent from sitting back directly onto your hips"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What happens if you allowing space to develop between chest and opponent's back during exchange?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Gives opponent room to turn into you, execute throws, or escape the position entirely through directional changes The correct approach is: Maintain constant forward pressure through chest-to-back connection, driving hips forward whenever opponent creates separation"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What happens if you locking hands too early before securing proper body position and alignment?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Opponent can execute hand fighting or use the locked hands as a frame to create separation and escape control The correct approach is: Establish chest-to-back connection and hip position first, then secure grips when opponent's mobility is already compromised"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What happens if you standing flat-footed or with weight on heels reducing mobility?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Reduces ability to follow opponent's movement, allowing them to escape forward or to sides through directional changes The correct approach is: Stay on balls of feet with knees slightly bent, maintaining mobile base that can follow opponent while staying heavy on their back"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What happens if you failing to control opponent's posture, allowing them to stand upright with strong base?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Gives opponent stronger base for executing throws, hand fighting, or creating separation through superior leverage The correct approach is: Keep opponent bent forward at waist through constant downward pressure on shoulders or by pulling their hips backward"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What happens if you remaining static when opponent initiates movement or escape attempts?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Allows opponent to create momentum and potentially complete escapes or reversals using their movement advantage The correct approach is: Follow opponent's movement dynamically, using their momentum against them to transition to better positions like back control or passes"
-      }
-    }
-  ]
-}
-</script>
-
-<!-- Schema Markup - WebPage -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Standing Rear Clinch",
-  "description": "Master Standing Rear Clinch in BJJ. Dominant back control from standing with 70% takedown success. Complete guide covering control mechanics and transitions.",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.org"
-  }
-}
-</script>
-
-<!-- Schema Markup - Breadcrumbs -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://bjjgraph.org/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Positions",
-      "item": "https://bjjgraph.org/Positions/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "Standing Rear Clinch",
-      "item": "https://bjjgraph.org/Positions/Standing-Rear-Clinch"
-    }
-  ]
-}
-</script>
+<body data-content-type="positions-hub">
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -179,202 +23,220 @@ The Standing Rear Clinch holds particular importance in no-gi grappling and MMA 
 
 </section>
 
-<section id="state-invariants" class="content-section">
-
-## Position Definition
-
-- Chest-to-back connection maintained with one practitioner's torso pressed against opponent's back, hips positioned close to their hips to prevent space creation while maintaining control through constant forward pressure
-- At least one arm controlling opponent's upper body through seatbelt grip (one arm over shoulder, one under armpit), bodylock (both arms around waist), or collar ties, with hands locked or gripping securely to prevent separation
-- Controlling practitioner's hips positioned slightly to one side rather than directly behind opponent, creating angle that prevents sitting straight back while maintaining offensive leverage for takedowns and transitions
-- Both practitioners' weight distributed on feet with knees slightly bent, maintaining mobile base that allows following opponent's movement while staying heavy on their back through forward pressure and postural control
-
-
-</section>
-
-<section id="prerequisites" class="content-section">
-
-## Prerequisites
-
-- Successful establishment of rear control from standing position through sprawl, snap down, arm drag, or failed guard pull attempt
-- Opponent unable to face controlling practitioner or turn into them, typically due to superior grip control or positioning advantage
-- At least one controlling grip secured on opponent's upper body before they can establish defensive grips or hand fighting responses
-- Hips in close proximity with ability to maintain chest-to-back pressure and prevent separation through footwork and weight distribution
-
-
-</section>
-
 <section id="key-principles" class="content-section">
 
-## Key Principles
+### Key Principles
+
 
 - Maintain constant chest-to-back pressure by driving hips forward into opponent's hips, never allowing space to develop between bodies
+
 - Keep hips slightly to the side rather than directly behind opponent to prevent them from sitting back or executing sacrifice throws
+
 - Secure grips proactively before opponent can establish defensive hand fighting, prioritizing seatbelt or bodylock configuration for maximum control
+
 - Stay mobile on balls of feet to follow opponent's movement while maintaining heavy forward pressure through chest connection
+
 - Control opponent's posture by keeping them bent forward or off-balance, preventing establishment of strong base for escapes
+
 - Transition between grip configurations fluidly as opponent defends, moving from bodylock to seatbelt to collar ties as opportunities present
+
 - Use head position strategically to prevent opponent from executing headlock or throw attempts while supporting grip structure
 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
+<section class="content-section">
 
-## Available Techniques and Transitions
+## Top vs Bottom
 
-### [[Back Take]] (25% of attempts)
 
-### [[Body Lock Pass]] (20% of attempts)
 
-### [[Rolling Back Take]] (15% of attempts)
 
-### [[Snap Down to Front Headlock]] (15% of attempts)
+| &nbsp; | Bottom | Top |
+|--------|--------|-----|
+| **Position Type** | Offensive/Controlling | Offensive/Controlling |
+| **Risk Level** | Low to Medium | Low to Medium |
+| **Energy Cost** | Medium | Medium |
+| **Time** | Medium | Medium |
 
-### [[Double Leg Finish]] (10% of attempts)
-
-### [[Mat Return to Back Mount]] (10% of attempts)
-
-### [[Rear Naked Choke Setup]] (5% of attempts)
+**Key Difference:** Standing elevation enables explosive takedowns
 
 
 
 </section>
 
-<section id="decision-tree" class="content-section">
-
-## Decision Making from This Position
-
-**If opponent sits to guard with back exposed maintaining poor defensive posture:**
-- Execute **[[Body Lock Pass]]** → [[Side Control]] (Probability: 65%)
-- Execute **[[Back Take]]** → [[Back Control]] (Probability: 70%)
+<section id="bottom-summary" class="content-section">
 
 
-**If opponent drops to hands and knees attempting turtle defensive position:**
-- Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Mat Return to Back Mount]]** → [[Back Control]] (Probability: 65%)
+## Playing as Bottom
+
+[[Standing Rear Clinch/Bottom|→ Full Bottom Guide]]
+
+### Key Principles
 
 
-**If opponent remains standing and hand fights aggressively to break grips:**
-- Execute **[[Snap Down to Front Headlock]]** → [[Front Headlock]] (Probability: 55%)
-- Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 58%)
+- Maintain constant chest-to-back pressure by driving hips forward into opponent's hips, never allowing space to develop between bodies
+
+- Keep hips slightly to the side rather than directly behind opponent to prevent them from sitting back or executing sacrifice throws
+
+- Secure grips proactively before opponent can establish defensive hand fighting, prioritizing seatbelt or bodylock configuration for maximum control
+
+- Stay mobile on balls of feet to follow opponent's movement while maintaining heavy forward pressure through chest connection
+
+- Control opponent's posture by keeping them bent forward or off-balance, preventing establishment of strong base for escapes
+
+- Transition between grip configurations fluidly as opponent defends, moving from bodylock to seatbelt to collar ties as opportunities present
+
+- Use head position strategically to prevent opponent from executing headlock or throw attempts while supporting grip structure
 
 
-**If opponent turns head away creating immediate choke opportunity:**
-- Execute **[[Rear Naked Choke Setup]]** → [[Back Control]] (Probability: 50%)
-- Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 60%)
+### Available Transitions
 
 
-**If opponent executes successful hip escape creating separation distance:**
-- Execute **[[Double Leg Finish]]** → [[Side Control]] (Probability: 48%)
-- Execute **[[Snap Down to Front Headlock]]** → [[Front Headlock]] (Probability: 52%)
+- **[[Defense from Standing Rear Clinch]]** (30% of attempts)
+
+- **[[Standing Switch from Rear Clinch]]** (25% of attempts)
+
+- **[[Snap Down to Front Headlock]]** (25% of attempts)
+
+- **[[Counter Throw from Standing Rear Clinch]]** (20% of attempts)
 
 
+### Common Mistakes
 
 
-</section>
+- ❌ **Standing with hips directly behind opponent rather than offset to the side at angle**
+  - Consequence: Allows opponent to sit straight back onto you, potentially reversing position or creating scramble situation that neutralizes control advantage
+  - ✅ Correction: Keep hips at 45-degree angle to one side, maintaining forward pressure while preventing opponent from sitting back directly onto your hips
 
-<section id="common-mistakes" class="content-section hide-minimal">
+- ❌ **Allowing space to develop between chest and opponent's back during exchange**
+  - Consequence: Gives opponent room to turn into you, execute throws, or escape the position entirely through directional changes
+  - ✅ Correction: Maintain constant forward pressure through chest-to-back connection, driving hips forward whenever opponent creates separation
 
-## Common Mistakes
+- ❌ **Locking hands too early before securing proper body position and alignment**
+  - Consequence: Opponent can execute hand fighting or use the locked hands as a frame to create separation and escape control
+  - ✅ Correction: Establish chest-to-back connection and hip position first, then secure grips when opponent's mobility is already compromised
 
-### 1. Standing with hips directly behind opponent rather than offset to the side at angle
+- ❌ **Standing flat-footed or with weight on heels reducing mobility**
+  - Consequence: Reduces ability to follow opponent's movement, allowing them to escape forward or to sides through directional changes
+  - ✅ Correction: Stay on balls of feet with knees slightly bent, maintaining mobile base that can follow opponent while staying heavy on their back
 
-- ❌ **Consequence**: Allows opponent to sit straight back onto you, potentially reversing position or creating scramble situation that neutralizes control advantage
-- ✅ **Correction**: Keep hips at 45-degree angle to one side, maintaining forward pressure while preventing opponent from sitting back directly onto your hips
+- ❌ **Failing to control opponent's posture, allowing them to stand upright with strong base**
+  - Consequence: Gives opponent stronger base for executing throws, hand fighting, or creating separation through superior leverage
+  - ✅ Correction: Keep opponent bent forward at waist through constant downward pressure on shoulders or by pulling their hips backward
 
-### 2. Allowing space to develop between chest and opponent's back during exchange
-
-- ❌ **Consequence**: Gives opponent room to turn into you, execute throws, or escape the position entirely through directional changes
-- ✅ **Correction**: Maintain constant forward pressure through chest-to-back connection, driving hips forward whenever opponent creates separation
-
-### 3. Locking hands too early before securing proper body position and alignment
-
-- ❌ **Consequence**: Opponent can execute hand fighting or use the locked hands as a frame to create separation and escape control
-- ✅ **Correction**: Establish chest-to-back connection and hip position first, then secure grips when opponent's mobility is already compromised
-
-### 4. Standing flat-footed or with weight on heels reducing mobility
-
-- ❌ **Consequence**: Reduces ability to follow opponent's movement, allowing them to escape forward or to sides through directional changes
-- ✅ **Correction**: Stay on balls of feet with knees slightly bent, maintaining mobile base that can follow opponent while staying heavy on their back
-
-### 5. Failing to control opponent's posture, allowing them to stand upright with strong base
-
-- ❌ **Consequence**: Gives opponent stronger base for executing throws, hand fighting, or creating separation through superior leverage
-- ✅ **Correction**: Keep opponent bent forward at waist through constant downward pressure on shoulders or by pulling their hips backward
-
-### 6. Remaining static when opponent initiates movement or escape attempts
-
-- ❌ **Consequence**: Allows opponent to create momentum and potentially complete escapes or reversals using their movement advantage
-- ✅ **Correction**: Follow opponent's movement dynamically, using their momentum against them to transition to better positions like back control or passes
-
+- ❌ **Remaining static when opponent initiates movement or escape attempts**
+  - Consequence: Allows opponent to create momentum and potentially complete escapes or reversals using their movement advantage
+  - ✅ Correction: Follow opponent's movement dynamically, using their momentum against them to transition to better positions like back control or passes
 
 
 </section>
 
-<section id="training-drills" class="content-section hide-minimal">
-
-## Training Drills
-
-### Grip Fighting from Rear Clinch
-
-Partner starts in standing rear clinch position with light grips. Bottom person hand fights to break grips while top person maintains control and re-establishes grips when broken. Practice transitioning between bodylock, seatbelt, and collar ties as opponent defends. Emphasize grip hierarchy and timing.
-
-**Duration**: 5 rounds of 2 minutes
+<section id="top-summary" class="content-section">
 
 
-### Takedown Finish Flow Drill
+## Playing as Top
 
-From established standing rear clinch, practice flowing between rolling back take, mat return, and snap down techniques. Partner offers moderate resistance but allows technique completion. Focus on proper mechanics, hip positioning, and smooth transitions between techniques. Alternate roles every 10 repetitions.
+[[Standing Rear Clinch/Top|→ Full Top Guide]]
 
-**Duration**: 10 minutes continuous
-
-
-### Escape and Re-Take Drill
-
-Bottom person attempts specific escapes (hip escape, sit to guard, hand fighting) while top person works to maintain control and counter each escape attempt. Start with 30 seconds of escape attempts, then reset. Gradually increase resistance over multiple rounds. Emphasize maintaining chest-to-back pressure throughout.
-
-**Duration**: 6 rounds of 1 minute
+### Key Principles
 
 
-### Dynamic Position Maintenance
+- Maintain constant chest-to-back pressure by driving hips forward into opponent's hips, never allowing space to develop between bodies
 
-Bottom person moves aggressively in all directions (forward, backward, spinning, sitting, standing) while top person maintains standing rear clinch control. Focus on staying mobile, following movement, and preventing separation. Increase intensity gradually over 90-second intervals.
+- Keep hips slightly to the side rather than directly behind opponent to prevent them from sitting back or executing sacrifice throws
 
-**Duration**: 5 rounds of 90 seconds
+- Secure grips proactively before opponent can establish defensive hand fighting, prioritizing seatbelt or bodylock configuration for maximum control
+
+- Stay mobile on balls of feet to follow opponent's movement while maintaining heavy forward pressure through chest connection
+
+- Control opponent's posture by keeping them bent forward or off-balance, preventing establishment of strong base for escapes
+
+- Transition between grip configurations fluidly as opponent defends, moving from bodylock to seatbelt to collar ties as opportunities present
+
+- Use head position strategically to prevent opponent from executing headlock or throw attempts while supporting grip structure
 
 
+### Available Transitions
+
+
+- **[[Back Take]]** (18% of attempts)
+
+- **[[Body Lock Pass]]** (12% of attempts)
+
+- **[[Rolling Back Take]]** (10% of attempts)
+
+- **[[Mat Return to Back Mount]]** (10% of attempts)
+
+- **[[Double Leg Finish]]** (8% of attempts)
+
+- **[[Mat Return from Rear Clinch]]** (8% of attempts)
+
+- **[[Mat Return from Standing Rear Clinch]]** (8% of attempts)
+
+- **[[Rear Clinch to Body Lock]]** (8% of attempts)
+
+- **[[Suplex from Rear Clinch]]** (7% of attempts)
+
+- **[[Standing Switch Defense]]** (6% of attempts)
+
+- **[[Rear Naked Choke Setup]]** (5% of attempts)
+
+
+### Common Mistakes
+
+
+- ❌ **Standing with hips directly behind opponent rather than offset to the side at angle**
+  - Consequence: Allows opponent to sit straight back onto you, potentially reversing position or creating scramble situation that neutralizes control advantage
+  - ✅ Correction: Keep hips at 45-degree angle to one side, maintaining forward pressure while preventing opponent from sitting back directly onto your hips
+
+- ❌ **Allowing space to develop between chest and opponent's back during exchange**
+  - Consequence: Gives opponent room to turn into you, execute throws, or escape the position entirely through directional changes
+  - ✅ Correction: Maintain constant forward pressure through chest-to-back connection, driving hips forward whenever opponent creates separation
+
+- ❌ **Locking hands too early before securing proper body position and alignment**
+  - Consequence: Opponent can execute hand fighting or use the locked hands as a frame to create separation and escape control
+  - ✅ Correction: Establish chest-to-back connection and hip position first, then secure grips when opponent's mobility is already compromised
+
+- ❌ **Standing flat-footed or with weight on heels reducing mobility**
+  - Consequence: Reduces ability to follow opponent's movement, allowing them to escape forward or to sides through directional changes
+  - ✅ Correction: Stay on balls of feet with knees slightly bent, maintaining mobile base that can follow opponent while staying heavy on their back
+
+- ❌ **Failing to control opponent's posture, allowing them to stand upright with strong base**
+  - Consequence: Gives opponent stronger base for executing throws, hand fighting, or creating separation through superior leverage
+  - ✅ Correction: Keep opponent bent forward at waist through constant downward pressure on shoulders or by pulling their hips backward
+
+- ❌ **Remaining static when opponent initiates movement or escape attempts**
+  - Consequence: Allows opponent to create momentum and potentially complete escapes or reversals using their movement advantage
+  - ✅ Correction: Follow opponent's movement dynamically, using their momentum against them to transition to better positions like back control or passes
 
 
 </section>
 
-<section id="position-metrics" class="content-section">
 
-## Success Rates and Statistics
+<section id="related-positions" class="content-section">
 
-| Metric | Rate |
-|--------|------|
-| Retention Rate | 72% |
-| Advancement Probability | 70% |
-| Submission Probability | 42% |
+## Related Positions
 
-**Average Time in Position**: 30-90 seconds before transition to ground position or submission attempt
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Related Positions and Techniques
 
 - **[[Back Control]]** - Primary transition target from successful takedown or mat return
+
 - **[[Standing Back Control]]** - Alternative standing control position with different grip configuration and control emphasis
+
 - **[[Clinch]]** - Related standing position if opponent turns into you or establishes front control
+
 - **[[Body Lock]]** - Specific grip variation and control system used within standing rear clinch
+
 - **[[Seat Belt Control Back]]** - Ground-based version of similar control structure with comparable grip hierarchy
+
 - **[[Front Headlock]]** - Alternative standing control if opponent drops level or you execute snap down
+
 - **[[Side Control]]** - Common destination via bodylock pass when opponent sits to guard
+
 - **[[Mat Return from Rear Clinch]]** - Primary takedown transition for converting rear clinch to ground back control
+
 - **[[Rear Clinch to Body Lock]]** - Grip transition technique for converting seatbelt to bodylock control
+
 - **[[Standing Switch from Rear Clinch]]** - Primary escape reversal that must be anticipated and countered from this position
 
 

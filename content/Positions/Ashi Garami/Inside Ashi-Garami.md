@@ -109,7 +109,7 @@ Inside Ashi-Garami has become essential in modern competition grappling, particu
 
 - **[[Inside Ashi-Garami to Cross Ashi]]** (4% of attempts)
 
-- **[[Guard Recovery]]** (6% of attempts)
+- **[[Guard Recovery from Inside Ashi-Garami]]** (6% of attempts)
 
 - **[[Counter Entangle to 50-50 from Ashi]]** (1% of attempts)
 

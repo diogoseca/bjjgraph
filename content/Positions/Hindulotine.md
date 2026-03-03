@@ -107,7 +107,7 @@ The strategic value of the Hindulotine lies in its ability to force defensive re
 
 - **[[Butterfly Sweep with Guillotine]]** (20% of attempts)
 
-- **[[Guard Recovery]]** (8% of attempts)
+- **[[Guard Recovery from Hindulotine]]** (8% of attempts)
 
 - **[[Arm Triangle Transition]]** (3% of attempts)
 

@@ -458,7 +458,7 @@
         "condition": "If opponent creates distance trying to clear lockdown and establish passing grips",
         "actions": [
           {
-            "technique": "Guard Recovery",
+            "technique": "Guard Recovery from Zombie",
             "target": "Half Guard",
             "probability": 65
           },
@@ -597,7 +597,7 @@
         "attempt_probability": 10
       },
       {
-        "transition": "Guard Recovery",
+        "transition": "Guard Recovery from Zombie",
         "attempt_probability": 13
       },
       {

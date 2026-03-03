@@ -221,7 +221,7 @@ This position is more common in advanced BJJ and no-gi grappling where mobility 
 
 ### [[Kimura Sweep]] (9% of attempts)
 
-### [[Guard Recovery]] (7% of attempts)
+### [[Guard Recovery from Reverse Half Guard]] (7% of attempts)
 
 ### [[Escape Reverse Half Guard]] (3% of attempts)
 

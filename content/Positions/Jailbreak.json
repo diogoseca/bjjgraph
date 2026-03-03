@@ -583,7 +583,7 @@
         "attempt_probability": 15
       },
       {
-        "transition": "Guard Recovery",
+        "transition": "Guard Recovery from Jailbreak",
         "attempt_probability": 15
       },
       {

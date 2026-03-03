@@ -455,7 +455,7 @@
         "condition": "Else if opponent secures strong grips and controls distance effectively",
         "actions": [
           {
-            "technique": "Guard Recovery",
+            "technique": "Guard Recovery from Spider Guard",
             "target": "Closed Guard",
             "probability": 55
           },
@@ -612,7 +612,7 @@
         "attempt_probability": 6
       },
       {
-        "transition": "Guard Recovery",
+        "transition": "Guard Recovery from Spider Guard",
         "attempt_probability": 6
       },
       {

@@ -235,25 +235,33 @@ def validate_references(data, category, path=""):
 
 
 def detect_position_template_type(json_file):
-    """Detect which Positions template to use via filesystem structure"""
+    """Detect which Positions template to use via filesystem structure + JSON content fallback"""
     # Check if variant folder exists
     json_path = Path(json_file)
     position_name = json_path.stem
     variant_folder = json_path.parent / position_name
 
-    if not variant_folder.exists() or not variant_folder.is_dir():
-        # No folder = SINGLE
-        return 'SINGLE'
+    if variant_folder.exists() and variant_folder.is_dir():
+        # Folder exists - check if it has .json files
+        json_files_in_folder = list(variant_folder.glob("*.json"))
 
-    # Folder exists - check if it has .json files
-    json_files_in_folder = list(variant_folder.glob("*.json"))
+        if len(json_files_in_folder) > 0:
+            # Folder with .json files = FAMILY (has variant JSONs)
+            return 'FAMILY'
+        else:
+            # Folder without .json files = DUAL (just .md files)
+            return 'DUAL'
 
-    if len(json_files_in_folder) > 0:
-        # Folder with .json files = FAMILY (has variant JSONs)
-        return 'FAMILY'
-    else:
-        # Folder without .json files = DUAL (just .md files)
-        return 'DUAL'
+    # No folder - check JSON content for top/bottom keys (like transition detection)
+    try:
+        with open(json_file, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        if 'top' in data and 'bottom' in data:
+            return 'DUAL'
+    except (json.JSONDecodeError, FileNotFoundError):
+        pass
+
+    return 'SINGLE'
 
 def detect_transition_template_type(json_file):
     """Detect if a Transition/Submission uses DUAL (attacker/defender) or SINGLE (legacy) structure."""

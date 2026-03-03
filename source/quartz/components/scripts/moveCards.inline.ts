@@ -11,7 +11,7 @@ interface PositionPageData {
     targetPath?: string
     isSubmission: boolean
     submissionSlug?: string
-    successRate: { intermediate: number; advanced: number }
+    successRate: number
   }>
   defenses: Array<{
     technique: string
@@ -58,11 +58,7 @@ document.addEventListener("nav", () => {
     const card = document.createElement("div")
     card.className = `move-card ${transition.isSubmission ? "submission" : ""}`
 
-    // Flip coin for skill level (intermediate or advanced)
-    const useAdvanced = Math.random() > 0.5
-    const successRate = useAdvanced
-      ? transition.successRate.advanced
-      : transition.successRate.intermediate
+    const successRate = transition.successRate ?? 50
 
     card.innerHTML = `
       <div class="move-card-technique">${transition.technique}</div>

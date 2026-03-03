@@ -50,8 +50,8 @@ description: "Master Guillotine Control Bottom in BJJ. Complete guide covering s
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guard Recovery",
-      "text": "From this position, attempt Guard Recovery. This technique is attempted in 6% of exchanges from this position.",
+      "name": "Execute Guard Recovery from Guillotine Control",
+      "text": "From this position, attempt Guard Recovery from Guillotine Control. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -220,7 +220,7 @@ From a positional hierarchy perspective, Guillotine Control Bottom represents a 
 
 ### [[Closed Guard to Triangle]] (6% of attempts)
 
-### [[Guard Recovery]] (6% of attempts)
+### [[Guard Recovery from Guillotine Control]] (6% of attempts)
 
 ### [[Butterfly Sweep with Guillotine]] (6% of attempts)
 
@@ -255,7 +255,7 @@ From a positional hierarchy perspective, Guillotine Control Bottom represents a 
 
 **If opponent successfully creates significant space and begins extracting head:**
 - Execute **[[Guillotine Setup]]** → [[Closed Guard]] (Probability: 70%)
-- Execute **[[Guard Recovery]]** → [[Half Guard]] (Probability: 60%)
+- Execute **[[Guard Recovery from Guillotine Control]]** → [[Half Guard]] (Probability: 60%)
 
 
 **If opponent keeps head down and attempts to drive forward while defending neck:**

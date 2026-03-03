@@ -89,7 +89,7 @@
         "attempt_probability": 12
       },
       {
-        "transition": "Guard Recovery",
+        "transition": "Guard Recovery from Triangle Control",
         "attempt_probability": 5
       },
       {
@@ -159,7 +159,7 @@
             "probability": 45
           },
           {
-            "technique": "Guard Recovery",
+            "technique": "Guard Recovery from Triangle Control",
             "target": "Closed Guard",
             "probability": 35
           },
@@ -283,7 +283,7 @@
         "relationship": "Common escape destination after successful triangle defense"
       },
       {
-        "name": "Guard Recovery",
+        "name": "Guard Recovery from Triangle Control",
         "relationship": "Technique for re-establishing guard after partial escape"
       },
       {

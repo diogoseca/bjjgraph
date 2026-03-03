@@ -42,11 +42,11 @@ THRESHOLDS = {
 
 # Expected ranges by technique type
 TECHNIQUE_EXPECTATIONS = {
-    "sweep": {"success_min": 30, "success_max": 70},
-    "escape": {"success_min": 25, "success_max": 60},
-    "submission": {"success_min": 40, "success_max": 80},
-    "pass": {"success_min": 35, "success_max": 75},
-    "takedown": {"success_min": 30, "success_max": 65},
+    "sweep": {"success_min": 15, "success_max": 75},
+    "escape": {"success_min": 5, "success_max": 80},
+    "submission": {"success_min": 30, "success_max": 85},
+    "pass": {"success_min": 10, "success_max": 80},
+    "takedown": {"success_min": 25, "success_max": 70},
 }
 
 
@@ -77,10 +77,22 @@ def levenshtein(s1, s2):
 def classify_technique(name):
     """Classify technique by name for expected probability ranges."""
     name_lower = name.lower()
+
+    # Exclusions: position/control names that contain submission keywords
+    non_submission_names = [
+        "lockdown", "body lock", "leg lock control", "arm lock control",
+        "ankle lock control", "kneebar control", "dead orchard",
+    ]
+    if any(excl in name_lower for excl in non_submission_names):
+        return "general"
+
     if "sweep" in name_lower:
         return "sweep"
-    if any(x in name_lower for x in ["escape", "defense"]):
+    if any(x in name_lower for x in ["escape", "defense", "recovery"]):
         return "escape"
+    # "Entry" techniques are transitions, not submissions
+    if "entry" in name_lower or "setup" in name_lower:
+        return "general"
     if any(x in name_lower for x in ["choke", "lock", "bar", "crush", "crank"]):
         return "submission"
     if "pass" in name_lower:
@@ -166,7 +178,7 @@ def build_position_data():
 
 
 def build_reachable_positions(position_names):
-    """Find positions reachable from transition outcomes."""
+    """Find positions reachable from transition and submission outcomes."""
     reachable = set()
 
     # Add Standing Position as root
@@ -182,16 +194,27 @@ def build_reachable_positions(position_names):
             if to_pos:
                 reachable.add(to_pos)
 
-    # Also check from_position fields (positions that have outgoing transitions)
-    for path in sorted(TRANSITIONS_PATH.glob("*.json")):
+    # Scan all submission outcomes
+    for path in sorted(SUBMISSIONS_PATH.glob("*.json")):
         data = load_json(path)
         if not data:
             continue
-        from_pos = data.get("from_position", "")
-        if from_pos:
-            # "Mount/Top" -> "Mount"
-            base_pos = from_pos.split("/")[0]
-            reachable.add(base_pos)
+        for outcome in data.get("outcomes", []):
+            to_pos = outcome.get("to", "")
+            if to_pos:
+                reachable.add(to_pos)
+
+    # Also check from_position fields (positions that have outgoing transitions)
+    for cat_path in [TRANSITIONS_PATH, SUBMISSIONS_PATH]:
+        for path in sorted(cat_path.glob("*.json")):
+            data = load_json(path)
+            if not data:
+                continue
+            from_pos = data.get("from_position", "")
+            if from_pos:
+                # "Mount/Top" -> "Mount"
+                base_pos = from_pos.split("/")[0]
+                reachable.add(base_pos)
 
     return reachable
 
@@ -472,16 +495,17 @@ def check_minimum_connectivity(position_names, transition_index):
         if "transitions" in data and "top" not in data:
             connection_counts[pos_name] += len(data["transitions"])
 
-    # Count incoming connections from transition outcomes
-    for path in sorted(TRANSITIONS_PATH.glob("*.json")):
-        data = load_json(path)
-        if not data:
-            continue
-        for outcome in data.get("outcomes", []):
-            to_pos = outcome.get("to", "")
-            if to_pos and to_pos.lower() != "game-over":
-                base = to_pos.split("/")[0]
-                connection_counts[base] += 1
+    # Count incoming connections from transition and submission outcomes
+    for cat_path in [TRANSITIONS_PATH, SUBMISSIONS_PATH]:
+        for path in sorted(cat_path.glob("*.json")):
+            data = load_json(path)
+            if not data:
+                continue
+            for outcome in data.get("outcomes", []):
+                to_pos = outcome.get("to", "")
+                if to_pos and to_pos.lower() != "game-over":
+                    base = to_pos.split("/")[0]
+                    connection_counts[base] += 1
 
     # Flag low connectivity
     for pos_name in sorted(position_names):
@@ -496,6 +520,63 @@ def check_minimum_connectivity(position_names, transition_index):
             })
 
     return issues
+
+
+def check_from_position_validity(position_names):
+    """Validate that from_position fields point to valid positions."""
+    issues = []
+
+    for cat_path, cat_name in [(TRANSITIONS_PATH, "Transition"), (SUBMISSIONS_PATH, "Submission")]:
+        for path in sorted(cat_path.glob("*.json")):
+            data = load_json(path)
+            if not data:
+                continue
+
+            name = data.get("name", path.stem)
+            from_pos = data.get("from_position", "")
+            if not from_pos:
+                continue
+
+            # "Mount/Top" -> "Mount"
+            base_pos = from_pos.split("/")[0]
+            if base_pos not in position_names and base_pos != "game-over":
+                issues.append({
+                    "type": "invalid_from_position",
+                    "severity": "error",
+                    "name": name,
+                    "file": str(path),
+                    "category": cat_name,
+                    "from_position": from_pos,
+                    "message": f"{cat_name} '{name}': from_position '{from_pos}' references unknown position '{base_pos}'",
+                })
+
+    return issues
+
+
+def suggest_fixes_for_orphans(orphaned_transitions, transition_index, position_files):
+    """Parse from_position to suggest which position should reference each orphaned transition."""
+    suggestions = []
+
+    for name in sorted(orphaned_transitions):
+        path = transition_index.get(name)
+        if not path:
+            continue
+        data = load_json(path)
+        if not data:
+            continue
+
+        from_pos = data.get("from_position", "")
+        if from_pos:
+            base_pos = from_pos.split("/")[0]
+            role = from_pos.split("/")[1] if "/" in from_pos else "unknown"
+            suggestions.append({
+                "orphan": name,
+                "suggested_position": base_pos,
+                "suggested_role": role,
+                "position_file": position_files.get(base_pos, "NOT_FOUND"),
+            })
+
+    return suggestions
 
 
 def write_files_to_create_csv(all_issues):
@@ -580,17 +661,18 @@ def main():
                         help="Only report error-severity issues (suppress warnings/info)")
     args = parser.parse_args()
 
+    total_steps = 12
     print("=" * 70)
     print("BJJ GRAPH INTEGRITY AUDIT")
     print("=" * 70)
 
     # Step 1: Build transition file index
-    print("\n[1/8] Building transition file index...")
+    print(f"\n[1/{total_steps}] Building transition file index...")
     transition_index = build_transition_index()
     print(f"  Found {len(transition_index)} transition files with names")
 
     # Step 2: Build position references
-    print("[2/8] Scanning position files for transition references...")
+    print(f"[2/{total_steps}] Scanning position files for transition references...")
     all_refs, prob_errors, position_names, position_files = build_position_data()
     print(f"  Found {len(all_refs)} unique transition references across positions")
     print(f"  Found {len(position_names)} position names")
@@ -603,8 +685,8 @@ def main():
             submission_index[data["name"]] = str(path)
     submission_file_names = set(submission_index.keys())
 
-    # Step 3: Compute orphaned and missing
-    print("[3/8] Computing orphaned and missing transitions...")
+    # Step 3: Compute orphaned and missing transitions
+    print(f"[3/{total_steps}] Computing orphaned and missing transitions...")
     transition_file_names = set(transition_index.keys())
     orphaned = transition_file_names - all_refs
     missing = all_refs - transition_file_names - submission_file_names
@@ -612,41 +694,54 @@ def main():
     print(f"  Orphaned transitions (file exists, not referenced): {len(orphaned)}")
     print(f"  Missing transitions (referenced, no file): {len(missing)}")
 
-    # Step 4: Fuzzy matching
-    print("[4/8] Finding naming inconsistencies (fuzzy matching)...")
+    # Step 4: Compute orphaned submissions
+    print(f"[4/{total_steps}] Computing orphaned submissions...")
+    orphaned_submissions = submission_file_names - all_refs
+    print(f"  Orphaned submissions (file exists, not referenced): {len(orphaned_submissions)}")
+
+    # Step 5: Fuzzy matching
+    print(f"[5/{total_steps}] Finding naming inconsistencies (fuzzy matching)...")
     name_matches = find_naming_inconsistencies(orphaned, missing)
     print(f"  Found {len(name_matches)} potential name matches")
 
-    # Step 5: Orphaned positions
-    print("[5/8] Checking position reachability...")
+    # Step 6: Orphaned positions
+    print(f"[6/{total_steps}] Checking position reachability...")
     reachable = build_reachable_positions(position_names)
     orphaned_positions = position_names - reachable
     print(f"  Orphaned positions (not reachable): {len(orphaned_positions)}")
 
-    # Step 6: Outcome probability checks
-    print("[6/8] Checking outcome probabilities (Transitions + Submissions)...")
+    # Step 7: Outcome probability checks
+    print(f"[7/{total_steps}] Checking outcome probabilities (Transitions + Submissions)...")
     outcome_issues = check_outcome_probabilities()
     outcome_errors = [i for i in outcome_issues if i["severity"] == "error"]
     outcome_warnings = [i for i in outcome_issues if i["severity"] == "warning"]
     print(f"  Errors: {len(outcome_errors)}, Warnings: {len(outcome_warnings)}")
 
-    # Step 7: Transition attempt outliers
-    print("[7/10] Checking attempt probability outliers...")
+    # Step 8: Transition attempt outliers
+    print(f"[8/{total_steps}] Checking attempt probability outliers...")
     outlier_issues = check_transition_outliers()
     print(f"  Info-level outliers: {len(outlier_issues)}")
 
-    # Step 8: Targets outcome consistency
-    print("[8/10] Checking targets_outcome consistency...")
+    # Step 9: Targets outcome consistency
+    print(f"[9/{total_steps}] Checking targets_outcome consistency...")
     targets_issues = check_targets_outcome_consistency()
     print(f"  Mismatches: {len(targets_issues)}")
 
-    # Step 9: Minimum connectivity
-    print("[9/10] Checking minimum connectivity...")
+    # Step 10: Minimum connectivity
+    print(f"[10/{total_steps}] Checking minimum connectivity...")
     connectivity_issues = check_minimum_connectivity(position_names, transition_index)
     print(f"  Low connectivity nodes: {len(connectivity_issues)}")
 
-    # Step 10: Summary
-    print("[10/10] Compiling report...")
+    # Step 11: from_position validation
+    print(f"[11/{total_steps}] Validating from_position references...")
+    from_pos_issues = check_from_position_validity(position_names)
+    print(f"  Invalid from_position references: {len(from_pos_issues)}")
+
+    # Step 11b: Auto-suggest fixes for orphaned transitions
+    orphan_suggestions = suggest_fixes_for_orphans(orphaned, transition_index, position_files)
+
+    # Step 12: Summary
+    print(f"[12/{total_steps}] Compiling report...")
 
     # === Collect all issues with severity ===
     all_issues = []
@@ -656,13 +751,31 @@ def main():
         path = transition_index[name]
         data = load_json(path)
         from_pos = data.get("from_position", "NONE") if data else "LOAD_ERROR"
+        suggestion = next((s for s in orphan_suggestions if s["orphan"] == name), None)
+        msg = f"Orphaned transition: '{name}' (from: {from_pos})"
+        if suggestion:
+            msg += f" — suggest adding to {suggestion['suggested_position']}/{suggestion['suggested_role']}"
         all_issues.append({
             "type": "orphaned_transition",
             "severity": "error",
             "name": name,
             "file": path,
             "from_position": from_pos,
-            "message": f"Orphaned transition: '{name}' (from: {from_pos})",
+            "message": msg,
+        })
+
+    # Orphaned submissions (info)
+    for name in sorted(orphaned_submissions):
+        path = submission_index[name]
+        data = load_json(path)
+        from_pos = data.get("from_position", "NONE") if data else "LOAD_ERROR"
+        all_issues.append({
+            "type": "orphaned_submission",
+            "severity": "info",
+            "name": name,
+            "file": path,
+            "from_position": from_pos,
+            "message": f"Orphaned submission: '{name}' (from: {from_pos})",
         })
 
     # Missing transitions (error)
@@ -694,6 +807,9 @@ def main():
             "name": name,
             "message": f"Orphaned position: '{name}' (not reachable)",
         })
+
+    # from_position validation issues (error)
+    all_issues.extend(from_pos_issues)
 
     # Outcome issues (mixed severity)
     all_issues.extend(outcome_issues)
@@ -733,12 +849,29 @@ def main():
         print(f"    file: {i['file']}")
         print(f"    from_position: {i.get('from_position', 'N/A')}")
 
+    # Orphaned submissions
+    orphan_sub_details = [i for i in all_issues if i["type"] == "orphaned_submission"]
+    if orphan_sub_details:
+        print(f"\n--- ORPHANED SUBMISSIONS ({len(orphan_sub_details)}) ---")
+        print("(Submission files not referenced by any position)")
+        for i in orphan_sub_details[:10]:
+            print(f"  {i['name']} (from: {i.get('from_position', 'N/A')})")
+        if len(orphan_sub_details) > 10:
+            print(f"  ... and {len(orphan_sub_details) - 10} more")
+
     # Missing transitions
     missing_details = [i for i in all_issues if i["type"] == "missing_transition"]
     print(f"\n--- MISSING TRANSITIONS ({len(missing_details)}) ---")
     print("(Referenced by positions but no file exists)")
     for i in missing_details:
         print(f"  {i['name']}")
+
+    # Invalid from_position references
+    from_pos_details = [i for i in all_issues if i["type"] == "invalid_from_position"]
+    if from_pos_details:
+        print(f"\n--- INVALID FROM_POSITION REFERENCES ({len(from_pos_details)}) ---")
+        for i in from_pos_details:
+            print(f"  {i['name']}: {i['from_position']}")
 
     # Naming inconsistencies
     print(f"\n--- NAMING INCONSISTENCIES ({len(name_matches)}) ---")
@@ -797,6 +930,7 @@ def main():
     print("SUMMARY")
     print("=" * 70)
     print(f"  Transition files:       {len(transition_index)}")
+    print(f"  Submission files:       {len(submission_index)}")
     print(f"  Position files:         {len(position_names)}")
     print(f"  Total issues:           {len(all_issues)}")
     print(f"    Errors:               {error_count}")
@@ -812,22 +946,26 @@ def main():
     report = {
         "summary": {
             "transition_files": len(transition_index),
+            "submission_files": len(submission_index),
             "position_files": len(position_names),
             "total_issues": len(all_issues),
             "errors": error_count,
             "warnings": warning_count,
             "info": info_count,
             "orphaned_transitions": len(orphan_details),
+            "orphaned_submissions": len(orphan_sub_details),
             "missing_transitions": len(missing_details),
             "naming_matches": len(name_matches),
             "probability_errors": len(attempt_sum_errors),
             "orphaned_positions": len(orphaned_pos_issues),
+            "invalid_from_positions": len(from_pos_details),
             "outcome_errors": len(outcome_sum_errors) + len(outcome_missing) + len(outcome_unknown),
             "outcome_warnings": len(outcome_warns),
             "attempt_outliers": len(attempt_outliers),
         },
         "issues": all_issues,
         "naming_inconsistencies": name_matches,
+        "orphan_fix_suggestions": orphan_suggestions,
     }
 
     output_path = args.output

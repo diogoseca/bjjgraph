@@ -99,7 +99,7 @@ Understanding both perspectives of the Zombie position is essential for modern n
 
 - **[[Lockdown Recovery]]** (10% of attempts)
 
-- **[[Guard Recovery]]** (13% of attempts)
+- **[[Guard Recovery from Zombie]]** (13% of attempts)
 
 - **[[Granby Roll to Guard]]** (9% of attempts)
 

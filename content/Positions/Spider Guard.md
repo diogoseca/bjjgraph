@@ -111,7 +111,7 @@ The effectiveness of Spider Guard relies heavily on grip strength, hip mobility,
 
 - **[[Armbar Finish]]** (6% of attempts)
 
-- **[[Guard Recovery]]** (6% of attempts)
+- **[[Guard Recovery from Spider Guard]]** (6% of attempts)
 
 - **[[Spider Sweep]]** (2% of attempts)
 

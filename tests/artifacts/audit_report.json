@@ -1,848 +1,909 @@
 {
   "summary": {
-    "transition_files": 1062,
+    "transition_files": 1072,
+    "submission_files": 153,
     "position_files": 139,
-    "total_issues": 468,
-    "errors": 42,
-    "warnings": 67,
-    "info": 359,
-    "orphaned_transitions": 41,
-    "missing_transitions": 1,
+    "total_issues": 474,
+    "errors": 0,
+    "warnings": 3,
+    "info": 471,
+    "orphaned_transitions": 0,
+    "orphaned_submissions": 110,
+    "missing_transitions": 0,
     "naming_matches": 0,
     "probability_errors": 0,
     "orphaned_positions": 0,
+    "invalid_from_positions": 0,
     "outcome_errors": 0,
-    "outcome_warnings": 66,
-    "attempt_outliers": 359
+    "outcome_warnings": 2,
+    "attempt_outliers": 361
   },
   "issues": [
     {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Arm Drag from Clinch",
-      "file": "content/Transitions/Arm Drag from Clinch.json",
-      "from_position": "Clinch/Bottom",
-      "message": "Orphaned transition: 'Arm Drag from Clinch' (from: Clinch/Bottom)"
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Achilles Lock",
+      "file": "content/Submissions/Achilles Lock.json",
+      "from_position": "Inside Ashi-Garami/Bottom",
+      "message": "Orphaned submission: 'Achilles Lock' (from: Inside Ashi-Garami/Bottom)"
     },
     {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Arm Drag from Clinch Bottom",
-      "file": "content/Transitions/Arm Drag from Clinch Bottom.json",
-      "from_position": "Clinch/Bottom",
-      "message": "Orphaned transition: 'Arm Drag from Clinch Bottom' (from: Clinch/Bottom)"
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Americana from 3-4 Mount",
+      "file": "content/Submissions/Americana from 3-4 Mount.json",
+      "from_position": "3-4 Mount/Top",
+      "message": "Orphaned submission: 'Americana from 3-4 Mount' (from: 3-4 Mount/Top)"
     },
     {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Arm Drag from Standing",
-      "file": "content/Transitions/Arm Drag from Standing.json",
-      "from_position": "Standing Position/Bottom",
-      "message": "Orphaned transition: 'Arm Drag from Standing' (from: Standing Position/Bottom)"
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Americana from Kesa Gatame",
+      "file": "content/Submissions/Americana from Kesa Gatame.json",
+      "from_position": "Kesa Gatame/Top",
+      "message": "Orphaned submission: 'Americana from Kesa Gatame' (from: Kesa Gatame/Top)"
     },
     {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Body Lock Takedown from Clinch",
-      "file": "content/Transitions/Body Lock Takedown from Clinch.json",
-      "from_position": "Clinch/Top",
-      "message": "Orphaned transition: 'Body Lock Takedown from Clinch' (from: Clinch/Top)"
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Americana from Mount",
+      "file": "content/Submissions/Americana from Mount.json",
+      "from_position": "Mount/Top",
+      "message": "Orphaned submission: 'Americana from Mount' (from: Mount/Top)"
     },
     {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Break Clinch",
-      "file": "content/Transitions/Break Clinch.json",
-      "from_position": "Clinch/Bottom",
-      "message": "Orphaned transition: 'Break Clinch' (from: Clinch/Bottom)"
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Americana from Reverse Kesa",
+      "file": "content/Submissions/Americana from Reverse Kesa.json",
+      "from_position": "Reverse Kesa-Gatame/Top",
+      "message": "Orphaned submission: 'Americana from Reverse Kesa' (from: Reverse Kesa-Gatame/Top)"
     },
     {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Butterfly Guard Pull",
-      "file": "content/Transitions/Butterfly Guard Pull.json",
-      "from_position": "Standing Position/Bottom",
-      "message": "Orphaned transition: 'Butterfly Guard Pull' (from: Standing Position/Bottom)"
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Americana from Side Control",
+      "file": "content/Submissions/Americana from Side Control.json",
+      "from_position": "Side Control/Top",
+      "message": "Orphaned submission: 'Americana from Side Control' (from: Side Control/Top)"
     },
     {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Counter Sweep from Leg Entanglement",
-      "file": "content/Transitions/Counter Sweep from Leg Entanglement.json",
-      "from_position": "Leg Entanglement/Bottom",
-      "message": "Orphaned transition: 'Counter Sweep from Leg Entanglement' (from: Leg Entanglement/Bottom)"
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Americana from Technical Mount",
+      "file": "content/Submissions/Americana from Technical Mount.json",
+      "from_position": "Technical Mount/Top",
+      "message": "Orphaned submission: 'Americana from Technical Mount' (from: Technical Mount/Top)"
     },
     {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Counter Throw from Standing Rear Clinch",
-      "file": "content/Transitions/Counter Throw from Standing Rear Clinch.json",
-      "from_position": "Standing Rear Clinch/Bottom",
-      "message": "Orphaned transition: 'Counter Throw from Standing Rear Clinch' (from: Standing Rear Clinch/Bottom)"
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Anaconda Finish from Dead Orchard",
+      "file": "content/Submissions/Anaconda Finish from Dead Orchard.json",
+      "from_position": "Dead Orchard Control/Top",
+      "message": "Orphaned submission: 'Anaconda Finish from Dead Orchard' (from: Dead Orchard Control/Top)"
     },
     {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Defense from Standing Rear Clinch",
-      "file": "content/Transitions/Defense from Standing Rear Clinch.json",
-      "from_position": "Standing Rear Clinch/Bottom",
-      "message": "Orphaned transition: 'Defense from Standing Rear Clinch' (from: Standing Rear Clinch/Bottom)"
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Ankle Lock from X-Guard",
+      "file": "content/Submissions/Ankle Lock from X-Guard.json",
+      "from_position": "X-Guard/Bottom",
+      "message": "Orphaned submission: 'Ankle Lock from X-Guard' (from: X-Guard/Bottom)"
     },
     {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Duck Under from Clinch",
-      "file": "content/Transitions/Duck Under from Clinch.json",
-      "from_position": "Clinch/Bottom",
-      "message": "Orphaned transition: 'Duck Under from Clinch' (from: Clinch/Bottom)"
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Aoki Lock",
+      "file": "content/Submissions/Aoki Lock.json",
+      "from_position": "NONE",
+      "message": "Orphaned submission: 'Aoki Lock' (from: NONE)"
     },
     {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Guard Pass from Diamond Guard",
-      "file": "content/Transitions/Guard Pass from Diamond Guard.json",
-      "from_position": "Diamond Guard/Top",
-      "message": "Orphaned transition: 'Guard Pass from Diamond Guard' (from: Diamond Guard/Top)"
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Arm Crush",
+      "file": "content/Submissions/Arm Crush.json",
+      "from_position": "Side Control/Top",
+      "message": "Orphaned submission: 'Arm Crush' (from: Side Control/Top)"
     },
     {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Guard Pass from Leg Entanglement",
-      "file": "content/Transitions/Guard Pass from Leg Entanglement.json",
-      "from_position": "Leg Entanglement/Top",
-      "message": "Orphaned transition: 'Guard Pass from Leg Entanglement' (from: Leg Entanglement/Top)"
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Arm Triangle from Scarf Hold",
+      "file": "content/Submissions/Arm Triangle from Scarf Hold.json",
+      "from_position": "Scarf Hold Position/Top",
+      "message": "Orphaned submission: 'Arm Triangle from Scarf Hold' (from: Scarf Hold Position/Top)"
     },
     {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Guard Pull from Clinch",
-      "file": "content/Transitions/Guard Pull from Clinch.json",
-      "from_position": "Clinch/Bottom",
-      "message": "Orphaned transition: 'Guard Pull from Clinch' (from: Clinch/Bottom)"
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Arm in Guillotine",
+      "file": "content/Submissions/Arm in Guillotine.json",
+      "from_position": "NONE",
+      "message": "Orphaned submission: 'Arm in Guillotine' (from: NONE)"
     },
     {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Guard Recovery from Combat Base",
-      "file": "content/Transitions/Guard Recovery from Combat Base.json",
-      "from_position": "Combat Base/Bottom",
-      "message": "Orphaned transition: 'Guard Recovery from Combat Base' (from: Combat Base/Bottom)"
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Armbar from Back",
+      "file": "content/Submissions/Armbar from Back.json",
+      "from_position": "Back Control/Top",
+      "message": "Orphaned submission: 'Armbar from Back' (from: Back Control/Top)"
     },
     {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Level Change Takedown",
-      "file": "content/Transitions/Level Change Takedown.json",
-      "from_position": "Standing Position/Bottom",
-      "message": "Orphaned transition: 'Level Change Takedown' (from: Standing Position/Bottom)"
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Armbar from Back with Legs",
+      "file": "content/Submissions/Armbar from Back with Legs.json",
+      "from_position": "Back Control/Top",
+      "message": "Orphaned submission: 'Armbar from Back with Legs' (from: Back Control/Top)"
     },
     {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Mat Return from Rear Clinch",
-      "file": "content/Transitions/Mat Return from Rear Clinch.json",
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Armbar from High Mount",
+      "file": "content/Submissions/Armbar from High Mount.json",
+      "from_position": "High Mount/Top",
+      "message": "Orphaned submission: 'Armbar from High Mount' (from: High Mount/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Armbar from Knee on Belly",
+      "file": "content/Submissions/Armbar from Knee on Belly.json",
+      "from_position": "Knee on Belly/Top",
+      "message": "Orphaned submission: 'Armbar from Knee on Belly' (from: Knee on Belly/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Armbar from Mount",
+      "file": "content/Submissions/Armbar from Mount.json",
+      "from_position": "Mount/Top",
+      "message": "Orphaned submission: 'Armbar from Mount' (from: Mount/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Armbar from S Mount",
+      "file": "content/Submissions/Armbar from S Mount.json",
+      "from_position": "S Mount/Top",
+      "message": "Orphaned submission: 'Armbar from S Mount' (from: S Mount/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Armbar from Side Control",
+      "file": "content/Submissions/Armbar from Side Control.json",
+      "from_position": "Side Control/Top",
+      "message": "Orphaned submission: 'Armbar from Side Control' (from: Side Control/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Armbar from Technical Mount",
+      "file": "content/Submissions/Armbar from Technical Mount.json",
+      "from_position": "Technical Mount/Top",
+      "message": "Orphaned submission: 'Armbar from Technical Mount' (from: Technical Mount/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Banana Split",
+      "file": "content/Submissions/Banana Split.json",
+      "from_position": "Truck/Top",
+      "message": "Orphaned submission: 'Banana Split' (from: Truck/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Belly Down Armbar",
+      "file": "content/Submissions/Belly Down Armbar.json",
+      "from_position": "Turtle/Top",
+      "message": "Orphaned submission: 'Belly Down Armbar' (from: Turtle/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Belly Down Armbar Finish",
+      "file": "content/Submissions/Belly Down Armbar Finish.json",
+      "from_position": "Armbar Control/Top",
+      "message": "Orphaned submission: 'Belly Down Armbar Finish' (from: Armbar Control/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Bicep Slicer",
+      "file": "content/Submissions/Bicep Slicer.json",
+      "from_position": "NONE",
+      "message": "Orphaned submission: 'Bicep Slicer' (from: NONE)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Body Triangle RNC",
+      "file": "content/Submissions/Body Triangle RNC.json",
+      "from_position": "Body Triangle/Top",
+      "message": "Orphaned submission: 'Body Triangle RNC' (from: Body Triangle/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Boston Crab",
+      "file": "content/Submissions/Boston Crab.json",
+      "from_position": "NONE",
+      "message": "Orphaned submission: 'Boston Crab' (from: NONE)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Bow and Arrow from Seat Belt",
+      "file": "content/Submissions/Bow and Arrow from Seat Belt.json",
+      "from_position": "Seat Belt Control Back/Top",
+      "message": "Orphaned submission: 'Bow and Arrow from Seat Belt' (from: Seat Belt Control Back/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Brabo Choke",
+      "file": "content/Submissions/Brabo Choke.json",
+      "from_position": "Front Headlock/Top",
+      "message": "Orphaned submission: 'Brabo Choke' (from: Front Headlock/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Buggy Choke",
+      "file": "content/Submissions/Buggy Choke.json",
+      "from_position": "Half Guard/Bottom",
+      "message": "Orphaned submission: 'Buggy Choke' (from: Half Guard/Bottom)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Buggy Choke Finish",
+      "file": "content/Submissions/Buggy Choke Finish.json",
+      "from_position": "Buggy Choke/Top",
+      "message": "Orphaned submission: 'Buggy Choke Finish' (from: Buggy Choke/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Calf Slicer from 50-50",
+      "file": "content/Submissions/Calf Slicer from 50-50.json",
+      "from_position": "50-50 Guard/Top",
+      "message": "Orphaned submission: 'Calf Slicer from 50-50' (from: 50-50 Guard/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Calf Slicer from Rodeo Ride",
+      "file": "content/Submissions/Calf Slicer from Rodeo Ride.json",
+      "from_position": "Rodeo Ride/Top",
+      "message": "Orphaned submission: 'Calf Slicer from Rodeo Ride' (from: Rodeo Ride/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Calf Slicer from Truck",
+      "file": "content/Submissions/Calf Slicer from Truck.json",
+      "from_position": "Truck/Top",
+      "message": "Orphaned submission: 'Calf Slicer from Truck' (from: Truck/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Can Opener",
+      "file": "content/Submissions/Can Opener.json",
+      "from_position": "Closed Guard/Top",
+      "message": "Orphaned submission: 'Can Opener' (from: Closed Guard/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Chin Strap Guillotine",
+      "file": "content/Submissions/Chin Strap Guillotine.json",
+      "from_position": "Front Headlock/Top",
+      "message": "Orphaned submission: 'Chin Strap Guillotine' (from: Front Headlock/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Cross Collar Choke from High Mount",
+      "file": "content/Submissions/Cross Collar Choke from High Mount.json",
+      "from_position": "High Mount/Top",
+      "message": "Orphaned submission: 'Cross Collar Choke from High Mount' (from: High Mount/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Cross Collar Choke from KOB",
+      "file": "content/Submissions/Cross Collar Choke from KOB.json",
+      "from_position": "Knee on Belly/Top",
+      "message": "Orphaned submission: 'Cross Collar Choke from KOB' (from: Knee on Belly/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Crotch Ripper",
+      "file": "content/Submissions/Crotch Ripper.json",
+      "from_position": "Lockdown/Bottom",
+      "message": "Orphaned submission: 'Crotch Ripper' (from: Lockdown/Bottom)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Darce from Leg Drag",
+      "file": "content/Submissions/Darce from Leg Drag.json",
+      "from_position": "Leg Drag Control/Top",
+      "message": "Orphaned submission: 'Darce from Leg Drag' (from: Leg Drag Control/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Electric Chair Finish",
+      "file": "content/Submissions/Electric Chair Finish.json",
+      "from_position": "Electric Chair/Bottom",
+      "message": "Orphaned submission: 'Electric Chair Finish' (from: Electric Chair/Bottom)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Estima Lock Finish",
+      "file": "content/Submissions/Estima Lock Finish.json",
+      "from_position": "Estima Lock/Top",
+      "message": "Orphaned submission: 'Estima Lock Finish' (from: Estima Lock/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Ezekiel Choke",
+      "file": "content/Submissions/Ezekiel Choke.json",
+      "from_position": "Mount/Top",
+      "message": "Orphaned submission: 'Ezekiel Choke' (from: Mount/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Ezekiel from Mount",
+      "file": "content/Submissions/Ezekiel from Mount.json",
+      "from_position": "Mount/Top",
+      "message": "Orphaned submission: 'Ezekiel from Mount' (from: Mount/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Ezekiel from Side Control Consolidation",
+      "file": "content/Submissions/Ezekiel from Side Control Consolidation.json",
+      "from_position": "Side Control Consolidation/Top",
+      "message": "Orphaned submission: 'Ezekiel from Side Control Consolidation' (from: Side Control Consolidation/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Far Side Armbar",
+      "file": "content/Submissions/Far Side Armbar.json",
+      "from_position": "Side Control/Top",
+      "message": "Orphaned submission: 'Far Side Armbar' (from: Side Control/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Flying Armbar",
+      "file": "content/Submissions/Flying Armbar.json",
+      "from_position": "NONE",
+      "message": "Orphaned submission: 'Flying Armbar' (from: NONE)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Flying Kneebar",
+      "file": "content/Submissions/Flying Kneebar.json",
+      "from_position": "Standing Position",
+      "message": "Orphaned submission: 'Flying Kneebar' (from: Standing Position)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Gift Wrap Armbar",
+      "file": "content/Submissions/Gift Wrap Armbar.json",
+      "from_position": "Gift Wrap/Top",
+      "message": "Orphaned submission: 'Gift Wrap Armbar' (from: Gift Wrap/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Gift Wrap RNC",
+      "file": "content/Submissions/Gift Wrap RNC.json",
+      "from_position": "Gift Wrap/Top",
+      "message": "Orphaned submission: 'Gift Wrap RNC' (from: Gift Wrap/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Gogoplata Finish",
+      "file": "content/Submissions/Gogoplata Finish.json",
+      "from_position": "Gogoplata Control/Bottom",
+      "message": "Orphaned submission: 'Gogoplata Finish' (from: Gogoplata Control/Bottom)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Guillotine from Butterfly Guard",
+      "file": "content/Submissions/Guillotine from Butterfly Guard.json",
+      "from_position": "Butterfly Guard/Bottom",
+      "message": "Orphaned submission: 'Guillotine from Butterfly Guard' (from: Butterfly Guard/Bottom)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Heel Hook from Ushiro Ashi",
+      "file": "content/Submissions/Heel Hook from Ushiro Ashi.json",
+      "from_position": "Ushiro Ashi-Garami/Top",
+      "message": "Orphaned submission: 'Heel Hook from Ushiro Ashi' (from: Ushiro Ashi-Garami/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "High Elbow Guillotine",
+      "file": "content/Submissions/High Elbow Guillotine.json",
+      "from_position": "NONE",
+      "message": "Orphaned submission: 'High Elbow Guillotine' (from: NONE)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Inside Heel Hook",
+      "file": "content/Submissions/Inside Heel Hook.json",
+      "from_position": "NONE",
+      "message": "Orphaned submission: 'Inside Heel Hook' (from: NONE)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Inside Sankaku Heel Hook Finish",
+      "file": "content/Submissions/Inside Sankaku Heel Hook Finish.json",
+      "from_position": "Inside Sankaku/Top",
+      "message": "Orphaned submission: 'Inside Sankaku Heel Hook Finish' (from: Inside Sankaku/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Japanese Necktie",
+      "file": "content/Submissions/Japanese Necktie.json",
+      "from_position": "NONE",
+      "message": "Orphaned submission: 'Japanese Necktie' (from: NONE)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Kesa Gatame Arm Crush",
+      "file": "content/Submissions/Kesa Gatame Arm Crush.json",
+      "from_position": "Kesa Gatame/Top",
+      "message": "Orphaned submission: 'Kesa Gatame Arm Crush' (from: Kesa Gatame/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Kimura from Kimura Trap",
+      "file": "content/Submissions/Kimura from Kimura Trap.json",
+      "from_position": "Kimura Trap/Top",
+      "message": "Orphaned submission: 'Kimura from Kimura Trap' (from: Kimura Trap/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Kimura from Modified Scarf Hold",
+      "file": "content/Submissions/Kimura from Modified Scarf Hold.json",
+      "from_position": "Modified Scarf Hold/Top",
+      "message": "Orphaned submission: 'Kimura from Modified Scarf Hold' (from: Modified Scarf Hold/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Kimura from Mount",
+      "file": "content/Submissions/Kimura from Mount.json",
+      "from_position": "Mount/Top",
+      "message": "Orphaned submission: 'Kimura from Mount' (from: Mount/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Kimura from North-South",
+      "file": "content/Submissions/Kimura from North-South.json",
+      "from_position": "NONE",
+      "message": "Orphaned submission: 'Kimura from North-South' (from: NONE)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Kimura from Shoulder of Justice",
+      "file": "content/Submissions/Kimura from Shoulder of Justice.json",
+      "from_position": "Shoulder of Justice/Top",
+      "message": "Orphaned submission: 'Kimura from Shoulder of Justice' (from: Shoulder of Justice/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Kimura from Side Control",
+      "file": "content/Submissions/Kimura from Side Control.json",
+      "from_position": "Side Control/Top",
+      "message": "Orphaned submission: 'Kimura from Side Control' (from: Side Control/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Kimura from Standing",
+      "file": "content/Submissions/Kimura from Standing.json",
+      "from_position": "Standing Position/Top",
+      "message": "Orphaned submission: 'Kimura from Standing' (from: Standing Position/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Kimura from Turtle",
+      "file": "content/Submissions/Kimura from Turtle.json",
+      "from_position": "Turtle/Top",
+      "message": "Orphaned submission: 'Kimura from Turtle' (from: Turtle/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Kneebar from 50-50",
+      "file": "content/Submissions/Kneebar from 50-50.json",
+      "from_position": "50-50 Guard/Top",
+      "message": "Orphaned submission: 'Kneebar from 50-50' (from: 50-50 Guard/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Kneebar from Guard",
+      "file": "content/Submissions/Kneebar from Guard.json",
+      "from_position": "NONE",
+      "message": "Orphaned submission: 'Kneebar from Guard' (from: NONE)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Kneebar from Half Guard",
+      "file": "content/Submissions/Kneebar from Half Guard.json",
+      "from_position": "Half Guard/Bottom",
+      "message": "Orphaned submission: 'Kneebar from Half Guard' (from: Half Guard/Bottom)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Kneebar from Top",
+      "file": "content/Submissions/Kneebar from Top.json",
+      "from_position": "Side Control/Top",
+      "message": "Orphaned submission: 'Kneebar from Top' (from: Side Control/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Loop Choke",
+      "file": "content/Submissions/Loop Choke.json",
+      "from_position": "Mount/Top",
+      "message": "Orphaned submission: 'Loop Choke' (from: Mount/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Loop Choke from Mount",
+      "file": "content/Submissions/Loop Choke from Mount.json",
+      "from_position": "Mount/Top",
+      "message": "Orphaned submission: 'Loop Choke from Mount' (from: Mount/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Marce Choke",
+      "file": "content/Submissions/Marce Choke.json",
+      "from_position": "Side Control/Top",
+      "message": "Orphaned submission: 'Marce Choke' (from: Side Control/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Mir Lock",
+      "file": "content/Submissions/Mir Lock.json",
+      "from_position": "Side Control/Top",
+      "message": "Orphaned submission: 'Mir Lock' (from: Side Control/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Monoplata",
+      "file": "content/Submissions/Monoplata.json",
+      "from_position": "NONE",
+      "message": "Orphaned submission: 'Monoplata' (from: NONE)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Monoplata from Guard",
+      "file": "content/Submissions/Monoplata from Guard.json",
+      "from_position": "NONE",
+      "message": "Orphaned submission: 'Monoplata from Guard' (from: NONE)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Monoplata from Mount",
+      "file": "content/Submissions/Monoplata from Mount.json",
+      "from_position": "Mount/Top",
+      "message": "Orphaned submission: 'Monoplata from Mount' (from: Mount/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Mounted Crucifix Armbar",
+      "file": "content/Submissions/Mounted Crucifix Armbar.json",
+      "from_position": "Mounted Crucifix/Top",
+      "message": "Orphaned submission: 'Mounted Crucifix Armbar' (from: Mounted Crucifix/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Mounted Triangle Finish",
+      "file": "content/Submissions/Mounted Triangle Finish.json",
+      "from_position": "Mounted Triangle/Top",
+      "message": "Orphaned submission: 'Mounted Triangle Finish' (from: Mounted Triangle/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "North-South Choke from Reverse Scarf",
+      "file": "content/Submissions/North-South Choke from Reverse Scarf.json",
+      "from_position": "Reverse Scarf Hold/Top",
+      "message": "Orphaned submission: 'North-South Choke from Reverse Scarf' (from: Reverse Scarf Hold/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Omoplata from Spider Guard",
+      "file": "content/Submissions/Omoplata from Spider Guard.json",
+      "from_position": "Spider Guard/Bottom",
+      "message": "Orphaned submission: 'Omoplata from Spider Guard' (from: Spider Guard/Bottom)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Outside Heel Hook from Backside 50-50",
+      "file": "content/Submissions/Outside Heel Hook from Backside 50-50.json",
+      "from_position": "Backside 50-50/Top",
+      "message": "Orphaned submission: 'Outside Heel Hook from Backside 50-50' (from: Backside 50-50/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Peruvian Necktie",
+      "file": "content/Submissions/Peruvian Necktie.json",
+      "from_position": "Front Headlock/Top",
+      "message": "Orphaned submission: 'Peruvian Necktie' (from: Front Headlock/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "RNC from Seat Belt",
+      "file": "content/Submissions/RNC from Seat Belt.json",
+      "from_position": "Seat Belt Control Back/Top",
+      "message": "Orphaned submission: 'RNC from Seat Belt' (from: Seat Belt Control Back/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Rear Naked Choke from Rodeo",
+      "file": "content/Submissions/Rear Naked Choke from Rodeo.json",
+      "from_position": "Rodeo Ride/Top",
+      "message": "Orphaned submission: 'Rear Naked Choke from Rodeo' (from: Rodeo Ride/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Rear Triangle Choke",
+      "file": "content/Submissions/Rear Triangle Choke.json",
+      "from_position": "Rear Triangle/Top",
+      "message": "Orphaned submission: 'Rear Triangle Choke' (from: Rear Triangle/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Reverse Armbar",
+      "file": "content/Submissions/Reverse Armbar.json",
+      "from_position": "NONE",
+      "message": "Orphaned submission: 'Reverse Armbar' (from: NONE)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Reverse Kimura",
+      "file": "content/Submissions/Reverse Kimura.json",
+      "from_position": "NONE",
+      "message": "Orphaned submission: 'Reverse Kimura' (from: NONE)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Rolling Armbar",
+      "file": "content/Submissions/Rolling Armbar.json",
+      "from_position": "Closed Guard/Bottom",
+      "message": "Orphaned submission: 'Rolling Armbar' (from: Closed Guard/Bottom)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Russian Cowboy RNC",
+      "file": "content/Submissions/Russian Cowboy RNC.json",
+      "from_position": "Russian Cowboy/Top",
+      "message": "Orphaned submission: 'Russian Cowboy RNC' (from: Russian Cowboy/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Short Choke from Cross Body",
+      "file": "content/Submissions/Short Choke from Cross Body.json",
+      "from_position": "Cross Body Ride/Top",
+      "message": "Orphaned submission: 'Short Choke from Cross Body' (from: Cross Body Ride/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Spine Lock",
+      "file": "content/Submissions/Spine Lock.json",
+      "from_position": "NONE",
+      "message": "Orphaned submission: 'Spine Lock' (from: NONE)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Spinning Armbar",
+      "file": "content/Submissions/Spinning Armbar.json",
+      "from_position": "Closed Guard/Bottom",
+      "message": "Orphaned submission: 'Spinning Armbar' (from: Closed Guard/Bottom)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Standing Guillotine from Clinch",
+      "file": "content/Submissions/Standing Guillotine from Clinch.json",
+      "from_position": "Clinch",
+      "message": "Orphaned submission: 'Standing Guillotine from Clinch' (from: Clinch)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Standing RNC",
+      "file": "content/Submissions/Standing RNC.json",
+      "from_position": "Standing Back Control/Top",
+      "message": "Orphaned submission: 'Standing RNC' (from: Standing Back Control/Top)"
+    },
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Standing RNC from Rear Clinch",
+      "file": "content/Submissions/Standing RNC from Rear Clinch.json",
       "from_position": "Standing Rear Clinch/Top",
-      "message": "Orphaned transition: 'Mat Return from Rear Clinch' (from: Standing Rear Clinch/Top)"
+      "message": "Orphaned submission: 'Standing RNC from Rear Clinch' (from: Standing Rear Clinch/Top)"
     },
     {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Mat Return from Standing Rear Clinch",
-      "file": "content/Transitions/Mat Return from Standing Rear Clinch.json",
-      "from_position": "Standing Rear Clinch/Top",
-      "message": "Orphaned transition: 'Mat Return from Standing Rear Clinch' (from: Standing Rear Clinch/Top)"
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Straight Ankle Lock",
+      "file": "content/Submissions/Straight Ankle Lock.json",
+      "from_position": "Straight Ankle Lock Control/Top",
+      "message": "Orphaned submission: 'Straight Ankle Lock' (from: Straight Ankle Lock Control/Top)"
     },
     {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Overhook Strip from Diamond Guard",
-      "file": "content/Transitions/Overhook Strip from Diamond Guard.json",
-      "from_position": "Diamond Guard/Top",
-      "message": "Orphaned transition: 'Overhook Strip from Diamond Guard' (from: Diamond Guard/Top)"
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Suloev Stretch",
+      "file": "content/Submissions/Suloev Stretch.json",
+      "from_position": "Half Guard/Top",
+      "message": "Orphaned submission: 'Suloev Stretch' (from: Half Guard/Top)"
     },
     {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Posture Recovery from Diamond Guard",
-      "file": "content/Transitions/Posture Recovery from Diamond Guard.json",
-      "from_position": "Diamond Guard/Top",
-      "message": "Orphaned transition: 'Posture Recovery from Diamond Guard' (from: Diamond Guard/Top)"
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Tarikoplata",
+      "file": "content/Submissions/Tarikoplata.json",
+      "from_position": "Closed Guard/Bottom",
+      "message": "Orphaned submission: 'Tarikoplata' (from: Closed Guard/Bottom)"
     },
     {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Pull Guard from Combat Base",
-      "file": "content/Transitions/Pull Guard from Combat Base.json",
-      "from_position": "Combat Base/Bottom",
-      "message": "Orphaned transition: 'Pull Guard from Combat Base' (from: Combat Base/Bottom)"
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Ten Finger Guillotine",
+      "file": "content/Submissions/Ten Finger Guillotine.json",
+      "from_position": "NONE",
+      "message": "Orphaned submission: 'Ten Finger Guillotine' (from: NONE)"
     },
     {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Pull Guard from Standing",
-      "file": "content/Transitions/Pull Guard from Standing.json",
-      "from_position": "Standing Position/Bottom",
-      "message": "Orphaned transition: 'Pull Guard from Standing' (from: Standing Position/Bottom)"
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Toe Hold from 50-50",
+      "file": "content/Submissions/Toe Hold from 50-50.json",
+      "from_position": "50-50 Guard/Bottom",
+      "message": "Orphaned submission: 'Toe Hold from 50-50' (from: 50-50 Guard/Bottom)"
     },
     {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Rear Clinch to Body Lock",
-      "file": "content/Transitions/Rear Clinch to Body Lock.json",
-      "from_position": "Standing Rear Clinch/Top",
-      "message": "Orphaned transition: 'Rear Clinch to Body Lock' (from: Standing Rear Clinch/Top)"
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Toe Hold from Top",
+      "file": "content/Submissions/Toe Hold from Top.json",
+      "from_position": "NONE",
+      "message": "Orphaned submission: 'Toe Hold from Top' (from: NONE)"
     },
     {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Scramble to Top Position",
-      "file": "content/Transitions/Scramble to Top Position.json",
-      "from_position": "Scramble Position/Top",
-      "message": "Orphaned transition: 'Scramble to Top Position' (from: Scramble Position/Top)"
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Triangle Choke Back",
+      "file": "content/Submissions/Triangle Choke Back.json",
+      "from_position": "Back Control/Top",
+      "message": "Orphaned submission: 'Triangle Choke Back' (from: Back Control/Top)"
     },
     {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Snap Down from Dogfight",
-      "file": "content/Transitions/Snap Down from Dogfight.json",
-      "from_position": "Dogfight Position/Top",
-      "message": "Orphaned transition: 'Snap Down from Dogfight' (from: Dogfight Position/Top)"
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Triangle Choke Side",
+      "file": "content/Submissions/Triangle Choke Side.json",
+      "from_position": "Side Control/Top",
+      "message": "Orphaned submission: 'Triangle Choke Side' (from: Side Control/Top)"
     },
     {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Snap Down from Standing",
-      "file": "content/Transitions/Snap Down from Standing.json",
-      "from_position": "Standing Position/Bottom",
-      "message": "Orphaned transition: 'Snap Down from Standing' (from: Standing Position/Bottom)"
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Triangle from Closed Guard",
+      "file": "content/Submissions/Triangle from Closed Guard.json",
+      "from_position": "Closed Guard/Bottom",
+      "message": "Orphaned submission: 'Triangle from Closed Guard' (from: Closed Guard/Bottom)"
     },
     {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Sprawl Defense from Standing",
-      "file": "content/Transitions/Sprawl Defense from Standing.json",
-      "from_position": "Standing Position/Bottom",
-      "message": "Orphaned transition: 'Sprawl Defense from Standing' (from: Standing Position/Bottom)"
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Triangle from De La Riva",
+      "file": "content/Submissions/Triangle from De La Riva.json",
+      "from_position": "De La Riva Guard/Bottom",
+      "message": "Orphaned submission: 'Triangle from De La Riva' (from: De La Riva Guard/Bottom)"
     },
     {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Stack Pass from Clamp Guard",
-      "file": "content/Transitions/Stack Pass from Clamp Guard.json",
-      "from_position": "Clamp Guard/Top",
-      "message": "Orphaned transition: 'Stack Pass from Clamp Guard' (from: Clamp Guard/Top)"
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Triangle from Open Guard",
+      "file": "content/Submissions/Triangle from Open Guard.json",
+      "from_position": "Open Guard/Bottom",
+      "message": "Orphaned submission: 'Triangle from Open Guard' (from: Open Guard/Bottom)"
     },
     {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Stand Up from Combat Base",
-      "file": "content/Transitions/Stand Up from Combat Base.json",
-      "from_position": "Combat Base/Top",
-      "message": "Orphaned transition: 'Stand Up from Combat Base' (from: Combat Base/Top)"
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Triangle from Spider Guard Bottom",
+      "file": "content/Submissions/Triangle from Spider Guard Bottom.json",
+      "from_position": "Spider Guard/Bottom",
+      "message": "Orphaned submission: 'Triangle from Spider Guard Bottom' (from: Spider Guard/Bottom)"
     },
     {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Standing Guard Pull",
-      "file": "content/Transitions/Standing Guard Pull.json",
-      "from_position": "Standing Position/Bottom",
-      "message": "Orphaned transition: 'Standing Guard Pull' (from: Standing Position/Bottom)"
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Twister from Twister SC",
+      "file": "content/Submissions/Twister from Twister SC.json",
+      "from_position": "Twister Side Control/Top",
+      "message": "Orphaned submission: 'Twister from Twister SC' (from: Twister Side Control/Top)"
     },
     {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Standing Switch Defense",
-      "file": "content/Transitions/Standing Switch Defense.json",
-      "from_position": "Standing Rear Clinch/Top",
-      "message": "Orphaned transition: 'Standing Switch Defense' (from: Standing Rear Clinch/Top)"
-    },
-    {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Standing Switch from Rear Clinch",
-      "file": "content/Transitions/Standing Switch from Rear Clinch.json",
-      "from_position": "Standing Rear Clinch/Bottom",
-      "message": "Orphaned transition: 'Standing Switch from Rear Clinch' (from: Standing Rear Clinch/Bottom)"
-    },
-    {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Suplex from Rear Clinch",
-      "file": "content/Transitions/Suplex from Rear Clinch.json",
-      "from_position": "Standing Rear Clinch/Top",
-      "message": "Orphaned transition: 'Suplex from Rear Clinch' (from: Standing Rear Clinch/Top)"
-    },
-    {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Sweep from Clamp Guard",
-      "file": "content/Transitions/Sweep from Clamp Guard.json",
-      "from_position": "Clamp Guard/Bottom",
-      "message": "Orphaned transition: 'Sweep from Clamp Guard' (from: Clamp Guard/Bottom)"
-    },
-    {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Sweep from Combat Base",
-      "file": "content/Transitions/Sweep from Combat Base.json",
-      "from_position": "Combat Base/Bottom",
-      "message": "Orphaned transition: 'Sweep from Combat Base' (from: Combat Base/Bottom)"
-    },
-    {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Sweep from Diamond Guard",
-      "file": "content/Transitions/Sweep from Diamond Guard.json",
-      "from_position": "Diamond Guard/Bottom",
-      "message": "Orphaned transition: 'Sweep from Diamond Guard' (from: Diamond Guard/Bottom)"
-    },
-    {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Sweep from Headquarters",
-      "file": "content/Transitions/Sweep from Headquarters.json",
-      "from_position": "Headquarters Position/Bottom",
-      "message": "Orphaned transition: 'Sweep from Headquarters' (from: Headquarters Position/Bottom)"
-    },
-    {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Takedown from Bottom",
-      "file": "content/Transitions/Takedown from Bottom.json",
-      "from_position": "Standing Position/Bottom",
-      "message": "Orphaned transition: 'Takedown from Bottom' (from: Standing Position/Bottom)"
-    },
-    {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Triangle from Clamp Guard",
-      "file": "content/Transitions/Triangle from Clamp Guard.json",
-      "from_position": "Clamp Guard/Bottom",
-      "message": "Orphaned transition: 'Triangle from Clamp Guard' (from: Clamp Guard/Bottom)"
-    },
-    {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Triangle from Diamond Guard",
-      "file": "content/Transitions/Triangle from Diamond Guard.json",
-      "from_position": "Diamond Guard/Bottom",
-      "message": "Orphaned transition: 'Triangle from Diamond Guard' (from: Diamond Guard/Bottom)"
-    },
-    {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Underhook Pummeling from Clinch",
-      "file": "content/Transitions/Underhook Pummeling from Clinch.json",
-      "from_position": "Clinch/Bottom",
-      "message": "Orphaned transition: 'Underhook Pummeling from Clinch' (from: Clinch/Bottom)"
-    },
-    {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Win Scramble to Top",
-      "file": "content/Transitions/Win Scramble to Top.json",
-      "from_position": "Scramble Position/Bottom",
-      "message": "Orphaned transition: 'Win Scramble to Top' (from: Scramble Position/Bottom)"
-    },
-    {
-      "type": "missing_transition",
-      "severity": "error",
-      "name": "Guard Recovery",
-      "message": "Missing transition: 'Guard Recovery' (referenced but no file)"
-    },
-    {
-      "file": "content/Transitions/Angle Change Escape.json",
-      "name": "Angle Change Escape",
-      "type": "technique_range_high",
-      "message": "Success 65% exceeds expected max 60% for escape",
-      "severity": "warning",
-      "current": 65
-    },
-    {
-      "file": "content/Transitions/Arm Drag Escape.json",
-      "name": "Arm Drag Escape",
-      "type": "technique_range_low",
-      "message": "Success 10% below expected min 25% for escape",
-      "severity": "warning",
-      "current": 10
-    },
-    {
-      "file": "content/Transitions/Arm Drag Sweep.json",
-      "name": "Arm Drag Sweep",
-      "type": "technique_range_low",
-      "message": "Success 20% below expected min 30% for sweep",
-      "severity": "warning",
-      "current": 20
-    },
-    {
-      "file": "content/Transitions/Armbar Defense.json",
-      "name": "Armbar Defense",
-      "type": "technique_range_low",
-      "message": "Success 15% below expected min 25% for escape",
-      "severity": "warning",
-      "current": 15
-    },
-    {
-      "file": "content/Transitions/Back Door Escape.json",
-      "name": "Back Door Escape",
-      "type": "technique_range_low",
-      "message": "Success 15% below expected min 25% for escape",
-      "severity": "warning",
-      "current": 15
-    },
-    {
-      "file": "content/Transitions/Backstep Pass from Reverse X-Guard.json",
-      "name": "Backstep Pass from Reverse X-Guard",
-      "type": "technique_range_low",
-      "message": "Success 10% below expected min 35% for pass",
-      "severity": "warning",
-      "current": 10
-    },
-    {
-      "file": "content/Transitions/Bridge Defense from Mounted Triangle.json",
-      "name": "Bridge Defense from Mounted Triangle",
-      "type": "technique_range_low",
-      "message": "Success 5% below expected min 25% for escape",
-      "severity": "warning",
-      "current": 5
-    },
-    {
-      "file": "content/Transitions/Bridge Escape from 3-4 Mount.json",
-      "name": "Bridge Escape from 3-4 Mount",
-      "type": "technique_range_low",
-      "message": "Success 15% below expected min 25% for escape",
-      "severity": "warning",
-      "current": 15
-    },
-    {
-      "file": "content/Transitions/Bull Pass from Collar Sleeve.json",
-      "name": "Bull Pass from Collar Sleeve",
-      "type": "technique_range_low",
-      "message": "Success 15% below expected min 35% for pass",
-      "severity": "warning",
-      "current": 15
-    },
-    {
-      "file": "content/Transitions/Bull Pass from Seated.json",
-      "name": "Bull Pass from Seated",
-      "type": "technique_range_low",
-      "message": "Success 15% below expected min 35% for pass",
-      "severity": "warning",
-      "current": 15
-    },
-    {
-      "file": "content/Transitions/Crab Ride Escape to Guard.json",
-      "name": "Crab Ride Escape to Guard",
-      "type": "technique_range_low",
-      "message": "Success 20% below expected min 25% for escape",
-      "severity": "warning",
-      "current": 20
-    },
-    {
-      "file": "content/Transitions/Crucifix Choke Defense.json",
-      "name": "Crucifix Choke Defense",
-      "type": "technique_range_low",
-      "message": "Success 15% below expected min 25% for escape",
-      "severity": "warning",
-      "current": 15
-    },
-    {
-      "file": "content/Transitions/Escape Body Lock.json",
-      "name": "Escape Body Lock",
-      "type": "technique_range_low",
-      "message": "Success 15% below expected min 25% for escape",
-      "severity": "warning",
-      "current": 15
-    },
-    {
-      "file": "content/Transitions/Escape Dead Orchard Control.json",
-      "name": "Escape Dead Orchard Control",
-      "type": "technique_range_low",
-      "message": "Success 10% below expected min 25% for escape",
-      "severity": "warning",
-      "current": 10
-    },
-    {
-      "file": "content/Transitions/Escape Double Jump.json",
-      "name": "Escape Double Jump",
-      "type": "technique_range_low",
-      "message": "Success 10% below expected min 25% for escape",
-      "severity": "warning",
-      "current": 10
-    },
-    {
-      "file": "content/Transitions/Escape Matrix Position.json",
-      "name": "Escape Matrix Position",
-      "type": "technique_range_low",
-      "message": "Success 20% below expected min 25% for escape",
-      "severity": "warning",
-      "current": 20
-    },
-    {
-      "file": "content/Transitions/Escape Modified Scarf Hold.json",
-      "name": "Escape Modified Scarf Hold",
-      "type": "technique_range_low",
-      "message": "Success 10% below expected min 25% for escape",
-      "severity": "warning",
-      "current": 10
-    },
-    {
-      "file": "content/Transitions/Escape Reverse Kesa-Gatame.json",
-      "name": "Escape Reverse Kesa-Gatame",
-      "type": "technique_range_low",
-      "message": "Success 10% below expected min 25% for escape",
-      "severity": "warning",
-      "current": 10
-    },
-    {
-      "file": "content/Transitions/Escape Reverse Mount.json",
-      "name": "Escape Reverse Mount",
-      "type": "technique_range_low",
-      "message": "Success 10% below expected min 25% for escape",
-      "severity": "warning",
-      "current": 10
-    },
-    {
-      "file": "content/Transitions/Escape Reverse Scarf Hold.json",
-      "name": "Escape Reverse Scarf Hold",
-      "type": "technique_range_low",
-      "message": "Success 10% below expected min 25% for escape",
-      "severity": "warning",
-      "current": 10
-    },
-    {
-      "file": "content/Transitions/Escape Scarf Hold Position.json",
-      "name": "Escape Scarf Hold Position",
-      "type": "technique_range_low",
-      "message": "Success 10% below expected min 25% for escape",
-      "severity": "warning",
-      "current": 10
-    },
-    {
-      "file": "content/Transitions/Escape Seat Belt Control.json",
-      "name": "Escape Seat Belt Control",
-      "type": "technique_range_low",
-      "message": "Success 10% below expected min 25% for escape",
-      "severity": "warning",
-      "current": 10
-    },
-    {
-      "file": "content/Transitions/Escape Side Control Consolidation.json",
-      "name": "Escape Side Control Consolidation",
-      "type": "technique_range_low",
-      "message": "Success 5% below expected min 25% for escape",
-      "severity": "warning",
-      "current": 5
-    },
-    {
-      "file": "content/Transitions/Escape Twister Side Control.json",
-      "name": "Escape Twister Side Control",
-      "type": "technique_range_low",
-      "message": "Success 10% below expected min 25% for escape",
-      "severity": "warning",
-      "current": 10
-    },
-    {
-      "file": "content/Transitions/Escape from Vaporizer.json",
-      "name": "Escape from Vaporizer",
-      "type": "technique_range_low",
-      "message": "Success 20% below expected min 25% for escape",
-      "severity": "warning",
-      "current": 20
-    },
-    {
-      "file": "content/Transitions/Escape from Vaporizer.json",
-      "name": "Escape from Vaporizer",
-      "type": "technique_range_low",
-      "message": "Success 10% below expected min 25% for escape",
-      "severity": "warning",
-      "current": 10
-    },
-    {
-      "file": "content/Transitions/Float Passing.json",
-      "name": "Float Passing",
-      "type": "technique_range_low",
-      "message": "Success 10% below expected min 35% for pass",
-      "severity": "warning",
-      "current": 10
-    },
-    {
-      "file": "content/Transitions/Frame and Escape Mounted Triangle.json",
-      "name": "Frame and Escape Mounted Triangle",
-      "type": "technique_range_low",
-      "message": "Success 10% below expected min 25% for escape",
-      "severity": "warning",
-      "current": 10
-    },
-    {
-      "file": "content/Transitions/Hip Escape from Cross Body Ride.json",
-      "name": "Hip Escape from Cross Body Ride",
-      "type": "technique_range_low",
-      "message": "Success 10% below expected min 25% for escape",
-      "severity": "warning",
-      "current": 10
-    },
-    {
-      "file": "content/Transitions/Hitchhiker Escape.json",
-      "name": "Hitchhiker Escape",
-      "type": "technique_range_low",
-      "message": "Success 20% below expected min 25% for escape",
-      "severity": "warning",
-      "current": 20
-    },
-    {
-      "file": "content/Transitions/Inversion Escape.json",
-      "name": "Inversion Escape",
-      "type": "technique_range_low",
-      "message": "Success 15% below expected min 25% for escape",
-      "severity": "warning",
-      "current": 15
-    },
-    {
-      "file": "content/Transitions/Kimura Defense.json",
-      "name": "Kimura Defense",
-      "type": "technique_range_high",
-      "message": "Success 70% exceeds expected max 60% for escape",
-      "severity": "warning",
-      "current": 70
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Von Flue Choke",
+      "file": "content/Submissions/Von Flue Choke.json",
+      "from_position": "NONE",
+      "message": "Orphaned submission: 'Von Flue Choke' (from: NONE)"
     },
     {
       "file": "content/Transitions/Lapel Sweep to Back.json",
       "name": "Lapel Sweep to Back",
       "type": "technique_range_low",
-      "message": "Success 10% below expected min 30% for sweep",
-      "severity": "warning",
-      "current": 10
-    },
-    {
-      "file": "content/Transitions/Lasso Guard Backstep Pass.json",
-      "name": "Lasso Guard Backstep Pass",
-      "type": "technique_range_low",
-      "message": "Success 10% below expected min 35% for pass",
-      "severity": "warning",
-      "current": 10
-    },
-    {
-      "file": "content/Transitions/Leg Drag Escape to Closed Guard.json",
-      "name": "Leg Drag Escape to Closed Guard",
-      "type": "technique_range_low",
-      "message": "Success 10% below expected min 25% for escape",
-      "severity": "warning",
-      "current": 10
-    },
-    {
-      "file": "content/Transitions/Leg Drag Pass.json",
-      "name": "Leg Drag Pass",
-      "type": "technique_range_low",
-      "message": "Success 10% below expected min 35% for pass",
-      "severity": "warning",
-      "current": 10
-    },
-    {
-      "file": "content/Transitions/Leg Extraction Escape.json",
-      "name": "Leg Extraction Escape",
-      "type": "technique_range_high",
-      "message": "Success 65% exceeds expected max 60% for escape",
-      "severity": "warning",
-      "current": 65
-    },
-    {
-      "file": "content/Transitions/Leg Extraction Pass.json",
-      "name": "Leg Extraction Pass",
-      "type": "technique_range_low",
-      "message": "Success 10% below expected min 35% for pass",
-      "severity": "warning",
-      "current": 10
-    },
-    {
-      "file": "content/Transitions/Limp Leg Escape to Pass.json",
-      "name": "Limp Leg Escape to Pass",
-      "type": "technique_range_high",
-      "message": "Success 65% exceeds expected max 60% for escape",
-      "severity": "warning",
-      "current": 65
-    },
-    {
-      "file": "content/Transitions/Lockdown Escape to Half Guard Pass.json",
-      "name": "Lockdown Escape to Half Guard Pass",
-      "type": "technique_range_high",
-      "message": "Success 65% exceeds expected max 60% for escape",
-      "severity": "warning",
-      "current": 65
-    },
-    {
-      "file": "content/Transitions/Old School Sweep from Bottom.json",
-      "name": "Old School Sweep from Bottom",
-      "type": "technique_range_low",
-      "message": "Success 20% below expected min 30% for sweep",
-      "severity": "warning",
-      "current": 20
-    },
-    {
-      "file": "content/Transitions/Overhook Escape.json",
-      "name": "Overhook Escape",
-      "type": "technique_range_low",
-      "message": "Success 15% below expected min 25% for escape",
-      "severity": "warning",
-      "current": 15
-    },
-    {
-      "file": "content/Transitions/Pass Squid Guard.json",
-      "name": "Pass Squid Guard",
-      "type": "technique_range_low",
-      "message": "Success 15% below expected min 35% for pass",
-      "severity": "warning",
-      "current": 15
-    },
-    {
-      "file": "content/Transitions/Pendulum Sweep.json",
-      "name": "Pendulum Sweep",
-      "type": "technique_range_high",
-      "message": "Success 75% exceeds expected max 70% for sweep",
-      "severity": "warning",
-      "current": 75
-    },
-    {
-      "file": "content/Transitions/Pressure Pass from Leg Knot.json",
-      "name": "Pressure Pass from Leg Knot",
-      "type": "technique_range_low",
-      "message": "Success 10% below expected min 35% for pass",
-      "severity": "warning",
-      "current": 10
-    },
-    {
-      "file": "content/Transitions/Reversal from Kneebar Control.json",
-      "name": "Reversal from Kneebar Control",
-      "type": "technique_range_low",
-      "message": "Success 35% below expected min 40% for submission",
-      "severity": "warning",
-      "current": 35
-    },
-    {
-      "file": "content/Transitions/Roll Through Escape.json",
-      "name": "Roll Through Escape",
-      "type": "technique_range_high",
-      "message": "Success 65% exceeds expected max 60% for escape",
-      "severity": "warning",
-      "current": 65
-    },
-    {
-      "file": "content/Transitions/Scissor Sweep.json",
-      "name": "Scissor Sweep",
-      "type": "technique_range_high",
-      "message": "Success 75% exceeds expected max 70% for sweep",
-      "severity": "warning",
-      "current": 75
-    },
-    {
-      "file": "content/Transitions/Shrimp Escape.json",
-      "name": "Shrimp Escape",
-      "type": "technique_range_low",
-      "message": "Success 20% below expected min 25% for escape",
-      "severity": "warning",
-      "current": 20
-    },
-    {
-      "file": "content/Transitions/Sickle Sweep.json",
-      "name": "Sickle Sweep",
-      "type": "technique_range_low",
-      "message": "Success 15% below expected min 30% for sweep",
-      "severity": "warning",
-      "current": 15
-    },
-    {
-      "file": "content/Transitions/Single Leg Takedown.json",
-      "name": "Single Leg Takedown",
-      "type": "technique_range_high",
-      "message": "Success 70% exceeds expected max 65% for takedown",
-      "severity": "warning",
-      "current": 70
-    },
-    {
-      "file": "content/Transitions/Single Leg X Sweep.json",
-      "name": "Single Leg X Sweep",
-      "type": "technique_range_high",
-      "message": "Success 75% exceeds expected max 70% for sweep",
-      "severity": "warning",
-      "current": 75
-    },
-    {
-      "file": "content/Transitions/Sit Through Escape.json",
-      "name": "Sit Through Escape",
-      "type": "technique_range_high",
-      "message": "Success 65% exceeds expected max 60% for escape",
-      "severity": "warning",
-      "current": 65
-    },
-    {
-      "file": "content/Transitions/Sprawl Defense.json",
-      "name": "Sprawl Defense",
-      "type": "technique_range_high",
-      "message": "Success 75% exceeds expected max 60% for escape",
-      "severity": "warning",
-      "current": 75
-    },
-    {
-      "file": "content/Transitions/Stack Defense.json",
-      "name": "Stack Defense",
-      "type": "technique_range_low",
-      "message": "Success 15% below expected min 25% for escape",
-      "severity": "warning",
-      "current": 15
-    },
-    {
-      "file": "content/Transitions/Stack Pass from Carni.json",
-      "name": "Stack Pass from Carni",
-      "type": "technique_range_low",
-      "message": "Success 10% below expected min 35% for pass",
-      "severity": "warning",
-      "current": 10
-    },
-    {
-      "file": "content/Transitions/Stack Pass from Meathook.json",
-      "name": "Stack Pass from Meathook",
-      "type": "technique_range_low",
-      "message": "Success 10% below expected min 35% for pass",
-      "severity": "warning",
-      "current": 10
-    },
-    {
-      "file": "content/Transitions/Stack Pass from Spider.json",
-      "name": "Stack Pass from Spider",
-      "type": "technique_range_low",
-      "message": "Success 15% below expected min 35% for pass",
-      "severity": "warning",
-      "current": 15
-    },
-    {
-      "file": "content/Transitions/Standing Escape.json",
-      "name": "Standing Escape",
-      "type": "technique_range_high",
-      "message": "Success 65% exceeds expected max 60% for escape",
-      "severity": "warning",
-      "current": 65
-    },
-    {
-      "file": "content/Transitions/Standing Guard Pass with Distance Creation.json",
-      "name": "Standing Guard Pass with Distance Creation",
-      "type": "technique_range_low",
-      "message": "Success 10% below expected min 35% for pass",
-      "severity": "warning",
-      "current": 10
-    },
-    {
-      "file": "content/Transitions/Step Over Escape.json",
-      "name": "Step Over Escape",
-      "type": "technique_range_high",
-      "message": "Success 65% exceeds expected max 60% for escape",
-      "severity": "warning",
-      "current": 65
-    },
-    {
-      "file": "content/Transitions/Straight Ankle Lock Entry.json",
-      "name": "Straight Ankle Lock Entry",
-      "type": "technique_range_low",
-      "message": "Success 10% below expected min 40% for submission",
+      "message": "Success 10% below expected min 15% for sweep",
       "severity": "warning",
       "current": 10
     },
@@ -850,33 +911,9 @@
       "file": "content/Transitions/Takedown from Standing Guard.json",
       "name": "Takedown from Standing Guard",
       "type": "technique_range_low",
-      "message": "Success 20% below expected min 30% for takedown",
+      "message": "Success 20% below expected min 25% for takedown",
       "severity": "warning",
       "current": 20
-    },
-    {
-      "file": "content/Transitions/Underhook Sweep from Dogfight.json",
-      "name": "Underhook Sweep from Dogfight",
-      "type": "technique_range_low",
-      "message": "Success 20% below expected min 30% for sweep",
-      "severity": "warning",
-      "current": 20
-    },
-    {
-      "file": "content/Transitions/Ushiro Ashi-Garami Escape.json",
-      "name": "Ushiro Ashi-Garami Escape",
-      "type": "technique_range_low",
-      "message": "Success 10% below expected min 25% for escape",
-      "severity": "warning",
-      "current": 10
-    },
-    {
-      "file": "content/Transitions/Whip-up Sweep.json",
-      "name": "Whip-up Sweep",
-      "type": "technique_range_low",
-      "message": "Success 15% below expected min 30% for sweep",
-      "severity": "warning",
-      "current": 15
     },
     {
       "file": "content/Positions/Anaconda Control.json",
@@ -1666,6 +1703,26 @@
       "message": "bottom: 'Hook Sweep' has only 2% attempt probability",
       "severity": "info",
       "transition": "Hook Sweep",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Clinch.json",
+      "position": "Clinch",
+      "role": "top",
+      "type": "attempt_negligible",
+      "message": "top: 'Body Lock Takedown from Clinch' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Body Lock Takedown from Clinch",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Clinch.json",
+      "position": "Clinch",
+      "role": "top",
+      "type": "attempt_negligible",
+      "message": "top: 'Two-on-One to Back Take' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Two-on-One to Back Take",
       "current": 2
     },
     {
@@ -3951,9 +4008,9 @@
     {
       "file": "content/Positions/Standing Position.json",
       "position": "Standing Position",
-      "role": "root",
+      "role": "top",
       "type": "attempt_negligible",
-      "message": "root: 'Deashi Harai' has only 2% attempt probability",
+      "message": "top: 'Deashi Harai' has only 2% attempt probability",
       "severity": "info",
       "transition": "Deashi Harai",
       "current": 2
@@ -3961,9 +4018,9 @@
     {
       "file": "content/Positions/Standing Position.json",
       "position": "Standing Position",
-      "role": "root",
+      "role": "top",
       "type": "attempt_negligible",
-      "message": "root: 'Harai Goshi' has only 2% attempt probability",
+      "message": "top: 'Harai Goshi' has only 2% attempt probability",
       "severity": "info",
       "transition": "Harai Goshi",
       "current": 2
@@ -3971,9 +4028,9 @@
     {
       "file": "content/Positions/Standing Position.json",
       "position": "Standing Position",
-      "role": "root",
+      "role": "top",
       "type": "attempt_negligible",
-      "message": "root: 'Ippon Seoi Nage' has only 2% attempt probability",
+      "message": "top: 'Ippon Seoi Nage' has only 2% attempt probability",
       "severity": "info",
       "transition": "Ippon Seoi Nage",
       "current": 2
@@ -3981,9 +4038,9 @@
     {
       "file": "content/Positions/Standing Position.json",
       "position": "Standing Position",
-      "role": "root",
+      "role": "top",
       "type": "attempt_negligible",
-      "message": "root: 'Russian Tie to Back Take' has only 2% attempt probability",
+      "message": "top: 'Russian Tie to Back Take' has only 2% attempt probability",
       "severity": "info",
       "transition": "Russian Tie to Back Take",
       "current": 2
@@ -3991,9 +4048,9 @@
     {
       "file": "content/Positions/Standing Position.json",
       "position": "Standing Position",
-      "role": "root",
+      "role": "top",
       "type": "attempt_negligible",
-      "message": "root: 'Sumi Gaeshi' has only 2% attempt probability",
+      "message": "top: 'Sumi Gaeshi' has only 2% attempt probability",
       "severity": "info",
       "transition": "Sumi Gaeshi",
       "current": 2
@@ -4001,9 +4058,9 @@
     {
       "file": "content/Positions/Standing Position.json",
       "position": "Standing Position",
-      "role": "root",
+      "role": "top",
       "type": "attempt_negligible",
-      "message": "root: 'Tani Otoshi' has only 2% attempt probability",
+      "message": "top: 'Tani Otoshi' has only 2% attempt probability",
       "severity": "info",
       "transition": "Tani Otoshi",
       "current": 2
@@ -4011,9 +4068,9 @@
     {
       "file": "content/Positions/Standing Position.json",
       "position": "Standing Position",
-      "role": "root",
+      "role": "top",
       "type": "attempt_negligible",
-      "message": "root: '50-50 Entry from Standing' has only 1% attempt probability",
+      "message": "top: '50-50 Entry from Standing' has only 1% attempt probability",
       "severity": "info",
       "transition": "50-50 Entry from Standing",
       "current": 1
@@ -4021,9 +4078,9 @@
     {
       "file": "content/Positions/Standing Position.json",
       "position": "Standing Position",
-      "role": "root",
+      "role": "top",
       "type": "attempt_negligible",
-      "message": "root: 'Body Lock Pass' has only 1% attempt probability",
+      "message": "top: 'Body Lock Pass' has only 1% attempt probability",
       "severity": "info",
       "transition": "Body Lock Pass",
       "current": 1
@@ -4031,9 +4088,9 @@
     {
       "file": "content/Positions/Standing Position.json",
       "position": "Standing Position",
-      "role": "root",
+      "role": "top",
       "type": "attempt_negligible",
-      "message": "root: 'Kosoto Gake' has only 1% attempt probability",
+      "message": "top: 'Kosoto Gake' has only 1% attempt probability",
       "severity": "info",
       "transition": "Kosoto Gake",
       "current": 1
@@ -4041,9 +4098,9 @@
     {
       "file": "content/Positions/Standing Position.json",
       "position": "Standing Position",
-      "role": "root",
+      "role": "top",
       "type": "attempt_negligible",
-      "message": "root: 'Kosoto Gari' has only 1% attempt probability",
+      "message": "top: 'Kosoto Gari' has only 1% attempt probability",
       "severity": "info",
       "transition": "Kosoto Gari",
       "current": 1
@@ -4051,9 +4108,9 @@
     {
       "file": "content/Positions/Standing Position.json",
       "position": "Standing Position",
-      "role": "root",
+      "role": "top",
       "type": "attempt_negligible",
-      "message": "root: 'Morote Seoi Nage' has only 1% attempt probability",
+      "message": "top: 'Morote Seoi Nage' has only 1% attempt probability",
       "severity": "info",
       "transition": "Morote Seoi Nage",
       "current": 1
@@ -4061,9 +4118,9 @@
     {
       "file": "content/Positions/Standing Position.json",
       "position": "Standing Position",
-      "role": "root",
+      "role": "top",
       "type": "attempt_negligible",
-      "message": "root: 'Sasae Tsurikomi Ashi' has only 1% attempt probability",
+      "message": "top: 'Sasae Tsurikomi Ashi' has only 1% attempt probability",
       "severity": "info",
       "transition": "Sasae Tsurikomi Ashi",
       "current": 1
@@ -4071,9 +4128,9 @@
     {
       "file": "content/Positions/Standing Position.json",
       "position": "Standing Position",
-      "role": "root",
+      "role": "top",
       "type": "attempt_negligible",
-      "message": "root: 'Tai Otoshi' has only 1% attempt probability",
+      "message": "top: 'Tai Otoshi' has only 1% attempt probability",
       "severity": "info",
       "transition": "Tai Otoshi",
       "current": 1
@@ -4476,5 +4533,6 @@
       "message": "Low connectivity: 'Game Over' has only 1 connections (minimum 3 recommended)"
     }
   ],
-  "naming_inconsistencies": []
+  "naming_inconsistencies": [],
+  "orphan_fix_suggestions": []
 }

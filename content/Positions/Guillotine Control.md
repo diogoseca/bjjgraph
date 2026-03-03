@@ -103,7 +103,7 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 
 - **[[Closed Guard to Triangle]]** (6% of attempts)
 
-- **[[Guard Recovery]]** (6% of attempts)
+- **[[Guard Recovery from Guillotine Control]]** (6% of attempts)
 
 - **[[Butterfly Sweep with Guillotine]]** (6% of attempts)
 

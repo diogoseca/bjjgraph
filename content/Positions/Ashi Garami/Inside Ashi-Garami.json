@@ -509,7 +509,7 @@
             "probability": 55
           },
           {
-            "technique": "Guard Recovery",
+            "technique": "Guard Recovery from Inside Ashi-Garami",
             "target": "Open Guard",
             "probability": 40
           }
@@ -662,7 +662,7 @@
         "attempt_probability": 4
       },
       {
-        "transition": "Guard Recovery",
+        "transition": "Guard Recovery from Inside Ashi-Garami",
         "attempt_probability": 6
       },
       {

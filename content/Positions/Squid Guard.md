@@ -103,7 +103,7 @@ While Squid Guard is primarily used in gi grappling due to its reliance on lapel
 
 - **[[De La Riva Sweep]]** (9% of attempts)
 
-- **[[Guard Recovery]]** (10% of attempts)
+- **[[Guard Recovery from Squid Guard]]** (10% of attempts)
 
 - **[[Omoplata Sweep]]** (8% of attempts)
 

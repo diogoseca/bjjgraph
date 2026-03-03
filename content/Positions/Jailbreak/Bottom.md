@@ -38,8 +38,8 @@ description: "Master the Jailbreak escape from bottom half guard. Advanced 10th 
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guard Recovery",
-      "text": "From this position, attempt Guard Recovery. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Guard Recovery from Jailbreak",
+      "text": "From this position, attempt Guard Recovery from Jailbreak. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
@@ -216,7 +216,7 @@ The biomechanical principle underlying the Jailbreak involves converting the opp
 
 ### [[Jailbreak to Deep Half Entry]] (15% of attempts)
 
-### [[Guard Recovery]] (15% of attempts)
+### [[Guard Recovery from Jailbreak]] (15% of attempts)
 
 ### [[Old School Sweep]] (12% of attempts)
 

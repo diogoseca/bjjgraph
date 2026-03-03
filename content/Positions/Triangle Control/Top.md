@@ -38,8 +38,8 @@ description: "Master Triangle Control defense from top in BJJ. Learn escape tech
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guard Recovery",
-      "text": "From this position, attempt Guard Recovery. This technique is attempted in 5% of exchanges from this position.",
+      "name": "Execute Guard Recovery from Triangle Control",
+      "text": "From this position, attempt Guard Recovery from Triangle Control. This technique is attempted in 5% of exchanges from this position.",
       "position": 4
     },
     {
@@ -217,7 +217,7 @@ The defensive hierarchy from Triangle Control Top follows a clear priority seque
 
 ### [[Stack Defense]] (12% of attempts)
 
-### [[Guard Recovery]] (5% of attempts)
+### [[Guard Recovery from Triangle Control]] (5% of attempts)
 
 ### [[Triangle Clear to Side]] (5% of attempts)
 
@@ -249,7 +249,7 @@ The defensive hierarchy from Triangle Control Top follows a clear priority seque
 
 **If opponent begins transitioning to armbar or omoplata from triangle:**
 - Execute **[[Triangle Escape]]** → [[Side Control]] (Probability: 45%)
-- Execute **[[Guard Recovery]]** → [[Closed Guard]] (Probability: 35%)
+- Execute **[[Guard Recovery from Triangle Control]]** → [[Closed Guard]] (Probability: 35%)
 - Execute **[[Triangle Clear to Side]]** → [[Side Control]] (Probability: 30%)
 
 
@@ -367,7 +367,7 @@ Start in triangle control with posture broken. Bottom player provides progressiv
 - **[[Triangle to Armbar]]** - Opponent's primary transition technique threatening armbar
 - **[[Triangle to Omoplata]]** - Opponent's transition option when defender attempts to stack
 - **[[Closed Guard]]** - Common escape destination after successful triangle defense
-- **[[Guard Recovery]]** - Technique for re-establishing guard after partial escape
+- **[[Guard Recovery from Triangle Control]]** - Technique for re-establishing guard after partial escape
 - **[[Triangle Clear to Side]]** - Direct escape technique clearing triangle to pass
 
 

@@ -825,8 +825,18 @@ content/Transitions/Guard Pass from Williams Guard.json
 content/Transitions/Guard Pull from Clinch.json
 content/Transitions/Guard Pull.json
 content/Transitions/Guard Recovery from Combat Base.json
+content/Transitions/Guard Recovery from Double Sleeve Guard.json
 content/Transitions/Guard Recovery from Double Unders.json
+content/Transitions/Guard Recovery from Guillotine Control.json
+content/Transitions/Guard Recovery from Hindulotine.json
+content/Transitions/Guard Recovery from Inside Ashi-Garami.json
+content/Transitions/Guard Recovery from Jailbreak.json
 content/Transitions/Guard Recovery from Leg Entanglement.json
+content/Transitions/Guard Recovery from Reverse Half Guard.json
+content/Transitions/Guard Recovery from Spider Guard.json
+content/Transitions/Guard Recovery from Squid Guard.json
+content/Transitions/Guard Recovery from Triangle Control.json
+content/Transitions/Guard Recovery from Zombie.json
 content/Transitions/Guillotine Choke.json
 content/Transitions/Guillotine Counter.json
 content/Transitions/Guillotine Defense.json

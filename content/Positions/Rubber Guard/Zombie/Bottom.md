@@ -38,8 +38,8 @@ description: "Master Zombie Bottom position in BJJ. Defensive half guard variant
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guard Recovery",
-      "text": "From this position, attempt Guard Recovery. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Guard Recovery from Zombie",
+      "text": "From this position, attempt Guard Recovery from Zombie. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
@@ -214,7 +214,7 @@ Unlike traditional turtle positions where the practitioner curls into a ball, th
 
 ### [[Lockdown Recovery]] (10% of attempts)
 
-### [[Guard Recovery]] (13% of attempts)
+### [[Guard Recovery from Zombie]] (13% of attempts)
 
 ### [[Granby Roll to Guard]] (9% of attempts)
 
@@ -254,7 +254,7 @@ Unlike traditional turtle positions where the practitioner curls into a ball, th
 
 
 **If opponent creates distance trying to clear lockdown and establish passing grips:**
-- Execute **[[Guard Recovery]]** → [[Half Guard]] (Probability: 65%)
+- Execute **[[Guard Recovery from Zombie]]** → [[Half Guard]] (Probability: 65%)
 - Execute **[[Lockdown Recovery]]** → [[Lockdown]] (Probability: 55%)
 
 

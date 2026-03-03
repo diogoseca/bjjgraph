@@ -164,7 +164,7 @@ The triangle choke has evolved significantly since its popularization in competi
 
 - **[[Stack Defense]]** (12% of attempts)
 
-- **[[Guard Recovery]]** (5% of attempts)
+- **[[Guard Recovery from Triangle Control]]** (5% of attempts)
 
 - **[[Triangle Clear to Side]]** (5% of attempts)
 

@@ -221,7 +221,7 @@ Spider Guard Bottom is a fundamental gi-based open guard position where the bott
 
 ### [[Armbar Finish]] (6% of attempts)
 
-### [[Guard Recovery]] (6% of attempts)
+### [[Guard Recovery from Spider Guard]] (6% of attempts)
 
 ### [[Spider Sweep]] (2% of attempts)
 
@@ -253,7 +253,7 @@ Spider Guard Bottom is a fundamental gi-based open guard position where the bott
 
 
 **Else if opponent secures strong grips and controls distance effectively:**
-- Execute **[[Guard Recovery]]** → [[Closed Guard]] (Probability: 55%)
+- Execute **[[Guard Recovery from Spider Guard]]** → [[Closed Guard]] (Probability: 55%)
 - Execute **[[Butterfly Hook Recovery]]** → [[Butterfly Guard]] (Probability: 45%)
 
 
