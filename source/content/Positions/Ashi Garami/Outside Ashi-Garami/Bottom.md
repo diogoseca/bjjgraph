@@ -8,7 +8,7 @@ description: "Master Outside Ashi-Garami Bottom in BJJ. Complete guide covering 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -160,11 +160,11 @@ description: "Master Outside Ashi-Garami Bottom in BJJ. Complete guide covering 
 
 <section id="overview" class="content-section">
 
-Outside Ashi-Garami Bottom is a leg entanglement position where you control your opponent's right leg from the outside while on your back or side, with your legs creating a figure-4 configuration that isolates and controls their leg. This position is foundational in modern leg lock systems, particularly in no-gi and submission-only formats, offering multiple heel hook and ankle lock opportunities.
+**Outside Ashi-Garami Bottom** is a leg entanglement position where you control your opponent's right leg from the outside while on your back or side, with your legs creating a figure-4 configuration that isolates and controls their leg. This position is foundational in modern leg lock systems, particularly in no-gi and submission-only formats, offering multiple [[Outside Heel Hook|heel hook]] and [[Straight Ankle Lock|ankle lock]] opportunities. Sweep success rate from bottom: Beginner 30%, Intermediate 50%, Advanced 70%.
 
-The position is characterized by your outside leg (left leg) crossing over their thigh while your inside leg (right leg) triangles underneath their knee, creating a locked configuration. Your upper body is typically perpendicular or angled to your opponent, with grips controlling their leg and preventing their hip rotation.
+The position is characterized by your outside leg (left leg) crossing over their thigh while your inside leg (right leg) triangles underneath their knee, creating a locked configuration. Your upper body is typically perpendicular or angled to your opponent, with grips controlling their leg and preventing their hip rotation. Optimal upper body grip: one hand on the heel controlling for [[Outside Heel Hook|heel hook]] entry, other hand on the knee blocking external rotation.
 
-From this position, the practitioner has access to outside heel hooks, straight ankle locks, and transitions to more dominant leg entanglements. The position represents a neutral starting point in the leg entanglement game where both practitioners are working to improve their position or finish submissions. Understanding outside ashi is essential for modern no-gi competition, as it serves as the gateway to more advanced leg lock positions like saddle and inside ashi.
+From this position, the practitioner has access to [[Outside Heel Hook|outside heel hooks]], [[Straight Ankle Lock|straight ankle locks]], and transitions to more dominant leg entanglements. The position represents a neutral starting point in the [[Leg Entanglement|leg entanglement]] game where both practitioners are working to improve their position or finish submissions. Understanding outside ashi is essential for modern no-gi competition, as it serves as the gateway to more advanced leg lock positions like [[Saddle]] and [[Inside Ashi-Garami]]. Study the [[Danaher Leg Lock System]] and [[Craig Jones Leg Lock System]] for systematic approaches to advancing from this position.
 
 </section>
 

@@ -8,7 +8,7 @@ description: "Master Half Guard Top with systematic passing strategies. Advanced
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -160,11 +160,11 @@ description: "Master Half Guard Top with systematic passing strategies. Advanced
 
 <section id="overview" class="content-section">
 
-Half Guard Top represents the dominant counterpart to Half Guard Bottom, where the top player has one leg trapped between the bottom player's legs while maintaining superior positioning with weight and pressure. This position serves as a critical transitional battleground between guard and side control, requiring methodical work to advance position while defending against sweeps, submissions, and back takes. The position has evolved from a simple transitional state into a complex positional chess match with specialized offensive and defensive approaches based on the specific half guard variation employed by the bottom player.
+**Half Guard Top** represents the dominant counterpart to Half Guard Bottom, where the top player has one leg trapped between the bottom player's legs while maintaining superior positioning with weight and pressure. This position serves as a critical transitional battleground between guard and [[Side Control]], requiring methodical work to advance position while defending against sweeps, submissions, and back takes. Pass completion rate: Beginner 30%, Intermediate 50%, Advanced 70%.
 
-Success in Half Guard Top demands understanding of pressure distribution, weight placement, and upper body control mechanisms that neutralize the bottom player's offensive capabilities while creating passing opportunities. The top player must recognize specific half guard variations such as lockdown, knee shield, deep half, and z-guard, applying appropriate passing strategies for each defensive structure. Modern Half Guard Top play emphasizes establishing dominant control points through crossface, underhook, or head control before committing to passing sequences, ensuring positional stability throughout the advancement process.
+Success in Half Guard Top demands understanding of pressure distribution, weight placement, and upper body control mechanisms that neutralize the bottom player's offensive capabilities while creating passing opportunities. The top player must recognize specific half guard variations such as [[Lockdown]], [[Knee Shield Half Guard]], [[Deep Half Guard]], and [[Z-Guard]], applying appropriate passing strategies for each defensive structure. Modern Half Guard Top play emphasizes establishing dominant control points through [[Cross Face Control|crossface]], [[Underhook Control|underhook]], or head control before committing to passing sequences, ensuring positional stability throughout the advancement process.
 
-The fundamental challenge in Half Guard Top lies in freeing the trapped leg while maintaining enough control to prevent sweeps and guard recoveries. This requires systematic progression through stabilization of upper body control, isolation of the trapped leg through weight distribution and pressure, extraction of the leg through technical passing mechanics, and completion of the pass to side control or mount. Advanced practitioners develop multiple passing pathways and chain them together based on the bottom player's defensive reactions, creating passing dilemmas that force the bottom player into increasingly compromised positions.
+The fundamental challenge in Half Guard Top lies in freeing the trapped leg while maintaining enough control to prevent sweeps and guard recoveries. This requires systematic progression through stabilization of upper body control, isolation of the trapped leg through weight distribution and pressure, extraction of the leg through technical passing mechanics, and completion of the pass to [[Side Control]] or [[Mount]]. Advanced practitioners chain together the [[Knee Slice Pass]], [[Smash Pass]], [[Long Step Pass]], and [[Crossface Pass]] based on the bottom player's defensive reactions, creating passing dilemmas that force the bottom player into increasingly compromised positions. See [[Bernardo Faria Pressure System]] and [[Gordon Ryan Passing System]] for expert passing frameworks.
 
 </section>
 
