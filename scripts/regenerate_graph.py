@@ -390,8 +390,9 @@ def validate_graph(graph: dict, *, verbose: bool = False) -> dict:
         if ending:
             track_ref(ending, f"transition:{t_key}")
 
-    # Compute sets
-    all_known = defined_positions | TERMINAL_POSITIONS
+    # Compute sets — position transitions reference technique slugs
+    # (transitions/submissions), not just position slugs, so exclude those
+    all_known = defined_positions | defined_transitions | defined_submissions | TERMINAL_POSITIONS
     missing_positions = referenced_positions - all_known
     orphan_positions = defined_positions - referenced_positions - TERMINAL_POSITIONS
 
