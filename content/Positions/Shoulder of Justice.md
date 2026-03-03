@@ -172,7 +172,7 @@ This position is particularly effective in both gi and no-gi contexts, as it com
 ### Available Transitions
 
 
-- **[[Kimura]]** (20% of attempts)
+- **[[Kimura]]** (18% of attempts)
 
 - **[[Americana]]** (12% of attempts)
 
@@ -189,6 +189,8 @@ This position is particularly effective in both gi and no-gi contexts, as it com
 - **[[Shoulder of Justice Kimura Setup]]** (5% of attempts)
 
 - **[[Shoulder of Justice to Mount]]** (3% of attempts)
+
+- **[[Kimura from Shoulder of Justice]]** (2% of attempts)
 
 
 ### Common Mistakes

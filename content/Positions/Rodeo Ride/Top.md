@@ -21,13 +21,13 @@ description: "Master Rodeo Ride attacks in BJJ. Advanced turtle control position
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Back Take",
-      "text": "From this position, attempt Turtle to Back Take. This technique is attempted in 31% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Back Take. This technique is attempted in 28% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crab Ride to Back",
-      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
@@ -209,9 +209,9 @@ Rodeo Ride is particularly valuable in modern competition BJJ because it provide
 
 ## Available Attacks
 
-### [[Turtle to Back Take]] (31% of attempts)
+### [[Turtle to Back Take]] (28% of attempts)
 
-### [[Crab Ride to Back]] (13% of attempts)
+### [[Crab Ride to Back]] (12% of attempts)
 
 ### [[Turtle to Truck]] (10% of attempts)
 
@@ -230,6 +230,10 @@ Rodeo Ride is particularly valuable in modern competition BJJ because it provide
 ### [[Rodeo Ride to Back Control]] (2% of attempts)
 
 ### [[Rodeo Ride to Turtle]] (1% of attempts)
+
+### [[Calf Slicer from Rodeo Ride]] (2% of attempts)
+
+### [[Rear Naked Choke from Rodeo]] (2% of attempts)
 
 
 

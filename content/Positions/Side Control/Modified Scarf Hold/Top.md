@@ -39,7 +39,7 @@ description: "Offensive guide for Modified Scarf Hold top position. Master press
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 23% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 21% of exchanges from this position.",
       "position": 4
     },
     {
@@ -219,7 +219,7 @@ The learning progression for Modified Scarf Hold top follows predictable stages.
 
 ### [[Armbar Finish]] (10% of attempts)
 
-### [[Side Control to Mount]] (23% of attempts)
+### [[Side Control to Mount]] (21% of attempts)
 
 ### [[Side Control to North-South]] (12% of attempts)
 
@@ -232,6 +232,8 @@ The learning progression for Modified Scarf Hold top follows predictable stages.
 ### [[Modified Scarf to Kesa Gatame]] (4% of attempts)
 
 ### [[Modified Scarf to Mount]] (2% of attempts)
+
+### [[Kimura from Modified Scarf Hold]] (2% of attempts)
 
 
 

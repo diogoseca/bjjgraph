@@ -347,7 +347,7 @@
     "transitions": [
       {
         "transition": "Heel Hook",
-        "attempt_probability": 42
+        "attempt_probability": 40
       },
       {
         "transition": "Toe Hold",
@@ -388,6 +388,10 @@
       {
         "transition": "Inside Sankaku to Saddle",
         "attempt_probability": 1
+      },
+      {
+        "transition": "Inside Sankaku Heel Hook Finish",
+        "attempt_probability": 2
       }
     ]
   },

@@ -302,7 +302,7 @@
       },
       {
         "transition": "Triangle Clear to Side",
-        "attempt_probability": 51
+        "attempt_probability": 49
       },
       {
         "transition": "Standing up in Base",
@@ -323,6 +323,10 @@
       {
         "transition": "Body Triangle Squeeze",
         "attempt_probability": 1
+      },
+      {
+        "transition": "Body Triangle RNC",
+        "attempt_probability": 2
       }
     ]
   },

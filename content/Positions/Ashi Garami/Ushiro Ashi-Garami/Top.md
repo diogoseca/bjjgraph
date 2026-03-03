@@ -27,7 +27,7 @@ description: "Attacking perspective in reversed leg entanglement. Master control
     {
       "@type": "HowToStep",
       "name": "Execute Follow to Back Control",
-      "text": "From this position, attempt Follow to Back Control. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Follow to Back Control. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
@@ -214,7 +214,7 @@ Control maintenance in ushiro ashi-garami requires constant adjustment to the op
 
 ### [[Inside Heel Hook from Ushiro]] (13% of attempts)
 
-### [[Follow to Back Control]] (18% of attempts)
+### [[Follow to Back Control]] (16% of attempts)
 
 ### [[Ankle Lock Finish]] (7% of attempts)
 
@@ -229,6 +229,8 @@ Control maintenance in ushiro ashi-garami requires constant adjustment to the op
 ### [[Saddle Entry from Top]] (12% of attempts)
 
 ### [[Toe Hold]] (8% of attempts)
+
+### [[Heel Hook from Ushiro Ashi]] (2% of attempts)
 
 
 

@@ -353,7 +353,7 @@
     "transitions": [
       {
         "transition": "Butterfly Sweep",
-        "attempt_probability": 42
+        "attempt_probability": 40
       },
       {
         "transition": "Elevator Sweep",
@@ -405,6 +405,10 @@
       },
       {
         "transition": "Hook Sweep",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Guillotine from Butterfly Guard",
         "attempt_probability": 2
       }
     ],

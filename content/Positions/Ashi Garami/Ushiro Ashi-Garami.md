@@ -178,7 +178,7 @@ Understanding the biomechanical differences between ushiro ashi-garami and stand
 
 - **[[Inside Heel Hook from Ushiro]]** (13% of attempts)
 
-- **[[Follow to Back Control]]** (18% of attempts)
+- **[[Follow to Back Control]]** (16% of attempts)
 
 - **[[Ankle Lock Finish]]** (7% of attempts)
 
@@ -193,6 +193,8 @@ Understanding the biomechanical differences between ushiro ashi-garami and stand
 - **[[Saddle Entry from Top]]** (12% of attempts)
 
 - **[[Toe Hold]]** (8% of attempts)
+
+- **[[Heel Hook from Ushiro Ashi]]** (2% of attempts)
 
 
 ### Common Mistakes

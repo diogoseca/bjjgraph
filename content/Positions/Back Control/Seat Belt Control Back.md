@@ -174,7 +174,7 @@ The seat belt grip itself functions as a force multiplier. The over-arm creates 
 ### Available Transitions
 
 
-- **[[Rear Naked Choke]]** (38% of attempts)
+- **[[Rear Naked Choke]]** (35% of attempts)
 
 - **[[Armbar from Back Transition]]** (10% of attempts)
 
@@ -184,7 +184,7 @@ The seat belt grip itself functions as a force multiplier. The over-arm creates 
 
 - **[[Short Choke]]** (5% of attempts)
 
-- **[[Back Control Maintenance]]** (13% of attempts)
+- **[[Back Control Maintenance]]** (12% of attempts)
 
 - **[[Body Triangle Lock]]** (6% of attempts)
 
@@ -199,6 +199,10 @@ The seat belt grip itself functions as a force multiplier. The over-arm creates 
 - **[[Seat Belt to Body Triangle]]** (1% of attempts)
 
 - **[[Seat Belt to Full Back Control]]** (1% of attempts)
+
+- **[[Bow and Arrow from Seat Belt]]** (2% of attempts)
+
+- **[[RNC from Seat Belt]]** (2% of attempts)
 
 
 ### Common Mistakes

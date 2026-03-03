@@ -21,7 +21,7 @@ description: "Master Rear Triangle Top position in BJJ. Control opponent's back 
     {
       "@type": "HowToStep",
       "name": "Execute Rear Triangle Choke Finish",
-      "text": "From this position, attempt Rear Triangle Choke Finish. This technique is attempted in 24% of exchanges from this position.",
+      "text": "From this position, attempt Rear Triangle Choke Finish. This technique is attempted in 22% of exchanges from this position.",
       "position": 1
     },
     {
@@ -207,7 +207,7 @@ Rear Triangle Top is an advanced back control variation where the top practition
 
 ## Available Attacks
 
-### [[Rear Triangle Choke Finish]] (24% of attempts)
+### [[Rear Triangle Choke Finish]] (22% of attempts)
 
 ### [[Armbar from Back Transition]] (14% of attempts)
 
@@ -222,6 +222,8 @@ Rear Triangle Top is an advanced back control variation where the top practition
 ### [[Rear Triangle to Armbar]] (6% of attempts)
 
 ### [[Back Control to Crucifix]] (3% of attempts)
+
+### [[Rear Triangle Choke]] (2% of attempts)
 
 
 

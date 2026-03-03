@@ -21,7 +21,7 @@ description: "Master Estima Lock Top Position in BJJ. Control opponent's foot an
     {
       "@type": "HowToStep",
       "name": "Execute Estima Lock",
-      "text": "From this position, attempt Estima Lock. This technique is attempted in 37% of exchanges from this position.",
+      "text": "From this position, attempt Estima Lock. This technique is attempted in 35% of exchanges from this position.",
       "position": 1
     },
     {
@@ -209,7 +209,7 @@ Success from the top position requires precise technical execution including pro
 
 ## Available Attacks
 
-### [[Estima Lock]] (37% of attempts)
+### [[Estima Lock]] (35% of attempts)
 
 ### [[Toe Hold]] (18% of attempts)
 
@@ -222,6 +222,8 @@ Success from the top position requires precise technical execution including pro
 ### [[Kneebar from Estima Lock]] (4% of attempts)
 
 ### [[Toe Hold from Estima Lock]] (2% of attempts)
+
+### [[Estima Lock Finish]] (2% of attempts)
 
 
 

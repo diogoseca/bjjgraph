@@ -21,7 +21,7 @@ description: "Master Gift Wrap control from top in BJJ. Complete guide covering 
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke",
-      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 36% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 33% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,7 +33,7 @@ description: "Master Gift Wrap control from top in BJJ. Complete guide covering 
     {
       "@type": "HowToStep",
       "name": "Execute Gift Wrap to Technical Mount",
-      "text": "From this position, attempt Gift Wrap to Technical Mount. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Gift Wrap to Technical Mount. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
@@ -212,11 +212,11 @@ Understanding Gift Wrap Top requires recognizing it as part of a larger submissi
 
 ## Available Attacks
 
-### [[Rear Naked Choke]] (36% of attempts)
+### [[Rear Naked Choke]] (33% of attempts)
 
 ### [[Armbar on Free Arm]] (9% of attempts)
 
-### [[Gift Wrap to Technical Mount]] (14% of attempts)
+### [[Gift Wrap to Technical Mount]] (13% of attempts)
 
 ### [[Short Choke Attack]] (7% of attempts)
 
@@ -229,6 +229,10 @@ Understanding Gift Wrap Top requires recognizing it as part of a larger submissi
 ### [[Kimura on Trapped Arm]] (9% of attempts)
 
 ### [[Gift Wrap Maintenance]] (3% of attempts)
+
+### [[Gift Wrap Armbar]] (2% of attempts)
+
+### [[Gift Wrap RNC]] (2% of attempts)
 
 
 

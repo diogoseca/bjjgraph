@@ -86,7 +86,7 @@ X-Guard is an advanced open guard position where the bottom practitioner entangl
 ### Available Transitions
 
 
-- **[[X-Guard Sweep]]** (38% of attempts)
+- **[[X-Guard Sweep]]** (36% of attempts)
 
 - **[[Single Leg X Entry]]** (16% of attempts)
 
@@ -103,6 +103,8 @@ X-Guard is an advanced open guard position where the bottom practitioner entangl
 - **[[X-Guard Technical Stand Up]]** (2% of attempts)
 
 - **[[X-Guard to Single Leg X]]** (1% of attempts)
+
+- **[[Ankle Lock from X-Guard]]** (2% of attempts)
 
 
 ### Common Mistakes

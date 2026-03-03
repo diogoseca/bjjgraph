@@ -164,7 +164,7 @@ Historically, S Mount has been a fundamental component of Japanese judo groundwo
 ### Available Transitions
 
 
-- **[[Mount to Armbar]]** (36% of attempts)
+- **[[Mount to Armbar]]** (34% of attempts)
 
 - **[[Triangle from Mount]]** (15% of attempts)
 
@@ -181,6 +181,8 @@ Historically, S Mount has been a fundamental component of Japanese judo groundwo
 - **[[S Mount Armbar Setup]]** (3% of attempts)
 
 - **[[S Mount to Mounted Triangle]]** (2% of attempts)
+
+- **[[Armbar from S Mount]]** (2% of attempts)
 
 
 ### Common Mistakes

@@ -337,7 +337,7 @@
     "transitions": [
       {
         "transition": "Finish Buggy Choke",
-        "attempt_probability": 45
+        "attempt_probability": 41
       },
       {
         "transition": "Hook Leg and Take Back",
@@ -373,15 +373,19 @@
       },
       {
         "transition": "Buggy Choke to North-South",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Buggy Choke to Side Control",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Grip Strip from Buggy Choke",
         "attempt_probability": 1
+      },
+      {
+        "transition": "Buggy Choke Finish",
+        "attempt_probability": 2
       }
     ]
   },

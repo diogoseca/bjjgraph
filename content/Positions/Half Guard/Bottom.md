@@ -21,7 +21,7 @@ description: "Master Half Guard Bottom with comprehensive sweeps, submissions, a
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
@@ -212,7 +212,7 @@ Rather than a passive defensive position, Half Guard Bottom in modern jiu-jitsu 
 
 ## Available Escapes
 
-### [[Underhook Sweep from Half]] (22% of attempts)
+### [[Underhook Sweep from Half]] (18% of attempts)
 
 ### [[Half Guard to Back Take]] (12% of attempts)
 
@@ -243,6 +243,10 @@ Rather than a passive defensive position, Half Guard Bottom in modern jiu-jitsu 
 ### [[Back Door Escape from Half Guard]] (2% of attempts)
 
 ### [[Half Guard to Old School]] (2% of attempts)
+
+### [[Buggy Choke]] (2% of attempts)
+
+### [[Kneebar from Half Guard]] (2% of attempts)
 
 
 

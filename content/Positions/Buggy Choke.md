@@ -164,7 +164,7 @@ From the top perspective, the Buggy Choke position serves as a central hub in mo
 ### Available Transitions
 
 
-- **[[Finish Buggy Choke]]** (45% of attempts)
+- **[[Finish Buggy Choke]]** (41% of attempts)
 
 - **[[Hook Leg and Take Back]]** (17% of attempts)
 
@@ -182,11 +182,13 @@ From the top perspective, the Buggy Choke position serves as a central hub in mo
 
 - **[[Crucifix from Turtle]]** (10% of attempts)
 
-- **[[Buggy Choke to North-South]]** (0% of attempts)
+- **[[Buggy Choke to North-South]]** (1% of attempts)
 
-- **[[Buggy Choke to Side Control]]** (0% of attempts)
+- **[[Buggy Choke to Side Control]]** (1% of attempts)
 
 - **[[Grip Strip from Buggy Choke]]** (1% of attempts)
+
+- **[[Buggy Choke Finish]]** (2% of attempts)
 
 
 ### Common Mistakes

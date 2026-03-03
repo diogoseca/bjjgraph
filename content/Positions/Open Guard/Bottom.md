@@ -21,7 +21,7 @@ description: "Master Open Guard Bottom in BJJ. Complete guide covering setup, co
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Sweep",
-      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 27% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
@@ -206,7 +206,7 @@ Open Guard Bottom is a dynamic family of guard positions where the bottom player
 
 ## Available Escapes
 
-### [[Butterfly Sweep]] (27% of attempts)
+### [[Butterfly Sweep]] (25% of attempts)
 
 ### [[De La Riva Sweep]] (4% of attempts)
 
@@ -241,6 +241,8 @@ Open Guard Bottom is a dynamic family of guard positions where the bottom player
 ### [[Technical Stand Up from Open Guard]] (6% of attempts)
 
 ### [[Transition to Clamp Guard]] (1% of attempts)
+
+### [[Triangle from Open Guard]] (2% of attempts)
 
 
 

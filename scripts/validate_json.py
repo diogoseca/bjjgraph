@@ -411,6 +411,7 @@ def validate_position_transitions(data, category, content_index, path=""):
         return errors, warnings
 
     transitions_index = content_index.get("Transitions", set())
+    submissions_index = content_index.get("Submissions", set())
 
     def check_transitions_array(transitions_array, section_path):
         """Check a transitions array for missing transition references."""
@@ -445,9 +446,21 @@ def validate_position_transitions(data, category, content_index, path=""):
                         found = True
                         break
 
+            # Also check Submissions (positions can reference finishes directly)
+            if not found:
+                for existing in submissions_index:
+                    if existing.endswith(f"/{normalized_name}") or existing == normalized_name:
+                        found = True
+                        break
+                    existing_name = existing.split('/')[-1] if '/' in existing else existing
+                    if existing_name.lower().replace('-', ' ').replace('_', ' ') == \
+                       normalized_name.lower().replace('-', ' ').replace('_', ' '):
+                        found = True
+                        break
+
             if not found:
                 warnings.append(
-                    f"{section_path}[{i}].transition: Transition '{transition_name}' not found in Transitions/"
+                    f"{section_path}[{i}].transition: Transition '{transition_name}' not found in Transitions/ or Submissions/"
                 )
 
         # Validate attempt_probability sum

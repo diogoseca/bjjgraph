@@ -21,7 +21,7 @@ description: "Master Turtle Top position in BJJ. Offensive position with multipl
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Back Control",
-      "text": "From this position, attempt Turtle to Back Control. This technique is attempted in 65% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Back Control. This technique is attempted in 61% of exchanges from this position.",
       "position": 1
     },
     {
@@ -204,7 +204,7 @@ Turtle Top is an offensive position where the practitioner attacks an opponent w
 
 ## Available Attacks
 
-### [[Turtle to Back Control]] (65% of attempts)
+### [[Turtle to Back Control]] (61% of attempts)
 
 ### [[Front Headlock to Anaconda]] (5% of attempts)
 
@@ -229,6 +229,10 @@ Turtle Top is an offensive position where the practitioner attacks an opponent w
 ### [[Turtle to Matrix]] (1% of attempts)
 
 ### [[Turtle to Rodeo Ride]] (1% of attempts)
+
+### [[Belly Down Armbar]] (2% of attempts)
+
+### [[Kimura from Turtle]] (2% of attempts)
 
 
 

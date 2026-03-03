@@ -348,7 +348,7 @@
     "transitions": [
       {
         "transition": "X-Guard Sweep",
-        "attempt_probability": 38
+        "attempt_probability": 36
       },
       {
         "transition": "Single Leg X Entry",
@@ -381,6 +381,10 @@
       {
         "transition": "X-Guard to Single Leg X",
         "attempt_probability": 1
+      },
+      {
+        "transition": "Ankle Lock from X-Guard",
+        "attempt_probability": 2
       }
     ],
     "decision_tree": [

@@ -333,7 +333,7 @@
       },
       {
         "transition": "Turtle to Back Take",
-        "attempt_probability": 18
+        "attempt_probability": 16
       },
       {
         "transition": "Armbar from Back Transition",
@@ -342,6 +342,10 @@
       {
         "transition": "Russian Cowboy to Back Control",
         "attempt_probability": 5
+      },
+      {
+        "transition": "Russian Cowboy RNC",
+        "attempt_probability": 2
       }
     ]
   },

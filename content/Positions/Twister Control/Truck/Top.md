@@ -21,7 +21,7 @@ description: "Dominant back-attack position combining leg entanglement with perp
     {
       "@type": "HowToStep",
       "name": "Execute Twister Entry",
-      "text": "From this position, attempt Twister Entry. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Twister Entry. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
@@ -39,7 +39,7 @@ description: "Dominant back-attack position combining leg entanglement with perp
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 22% of exchanges from this position.",
       "position": 4
     },
     {
@@ -210,13 +210,13 @@ Advanced practitioners use the truck as a transitional position, flowing between
 
 ## Available Attacks
 
-### [[Twister Entry]] (15% of attempts)
+### [[Twister Entry]] (14% of attempts)
 
 ### [[Calf Slicer]] (12% of attempts)
 
 ### [[Roll to Truck]] (5% of attempts)
 
-### [[Rolling Back Take]] (25% of attempts)
+### [[Rolling Back Take]] (22% of attempts)
 
 ### [[Bow and Arrow Choke]] (8% of attempts)
 
@@ -231,6 +231,10 @@ Advanced practitioners use the truck as a transitional position, flowing between
 ### [[Truck to Back Control]] (2% of attempts)
 
 ### [[Truck to Twister Side Control]] (3% of attempts)
+
+### [[Banana Split]] (2% of attempts)
+
+### [[Calf Slicer from Truck]] (2% of attempts)
 
 
 

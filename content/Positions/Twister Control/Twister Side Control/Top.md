@@ -27,7 +27,7 @@ description: "Control twister side control from top position with systematic sub
     {
       "@type": "HowToStep",
       "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Back Take. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
@@ -214,7 +214,7 @@ The learning progression for Twister Side Control top is significant, with begin
 
 ### [[Twister Finish]] (12% of attempts)
 
-### [[Back Take]] (14% of attempts)
+### [[Back Take]] (12% of attempts)
 
 ### [[Darce Choke]] (10% of attempts)
 
@@ -235,6 +235,8 @@ The learning progression for Twister Side Control top is significant, with begin
 ### [[Twister SC to Back Take]] (4% of attempts)
 
 ### [[Twister SC to Truck]] (3% of attempts)
+
+### [[Twister from Twister SC]] (2% of attempts)
 
 
 

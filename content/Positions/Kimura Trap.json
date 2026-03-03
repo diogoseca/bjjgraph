@@ -304,7 +304,7 @@
     "transitions": [
       {
         "transition": "Kimura",
-        "attempt_probability": 32
+        "attempt_probability": 30
       },
       {
         "transition": "North-South to Kimura",
@@ -336,6 +336,10 @@
       },
       {
         "transition": "Kimura Trap to Reverse Scarf Hold",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Kimura from Kimura Trap",
         "attempt_probability": 2
       }
     ]

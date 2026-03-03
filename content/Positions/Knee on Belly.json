@@ -258,7 +258,7 @@
     "transitions": [
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": 37
+        "attempt_probability": 33
       },
       {
         "transition": "Armbar Finish",
@@ -299,6 +299,14 @@
       {
         "transition": "KOB to Side Control",
         "attempt_probability": 1
+      },
+      {
+        "transition": "Armbar from Knee on Belly",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Cross Collar Choke from KOB",
+        "attempt_probability": 2
       }
     ],
     "knowledge_assessment": [

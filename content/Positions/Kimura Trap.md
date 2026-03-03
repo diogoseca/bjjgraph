@@ -178,7 +178,7 @@ Strategically, the Kimura Trap excels at creating dilemmas where opponents must 
 ### Available Transitions
 
 
-- **[[Kimura]]** (32% of attempts)
+- **[[Kimura]]** (30% of attempts)
 
 - **[[North-South to Kimura]]** (13% of attempts)
 
@@ -195,6 +195,8 @@ Strategically, the Kimura Trap excels at creating dilemmas where opponents must 
 - **[[Kimura Defense]]** (3% of attempts)
 
 - **[[Kimura Trap to Reverse Scarf Hold]]** (2% of attempts)
+
+- **[[Kimura from Kimura Trap]]** (2% of attempts)
 
 
 ### Common Mistakes

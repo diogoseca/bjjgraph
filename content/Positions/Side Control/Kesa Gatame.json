@@ -280,11 +280,11 @@
       },
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": 15
+        "attempt_probability": 14
       },
       {
         "transition": "Side Control to North-South",
-        "attempt_probability": 35
+        "attempt_probability": 32
       },
       {
         "transition": "Arm Triangle",
@@ -296,6 +296,14 @@
       },
       {
         "transition": "Kesa Gatame to Reverse Kesa-Gatame",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Americana from Kesa Gatame",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Kesa Gatame Arm Crush",
         "attempt_probability": 2
       }
     ],

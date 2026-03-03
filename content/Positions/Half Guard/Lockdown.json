@@ -582,7 +582,7 @@
     "transitions": [
       {
         "transition": "Whip-up Sweep",
-        "attempt_probability": 28
+        "attempt_probability": 26
       },
       {
         "transition": "Old School Sweep",
@@ -627,6 +627,10 @@
       {
         "transition": "Back Take from Lockdown Defense",
         "attempt_probability": 4
+      },
+      {
+        "transition": "Crotch Ripper",
+        "attempt_probability": 2
       }
     ]
   }

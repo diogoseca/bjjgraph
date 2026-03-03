@@ -305,11 +305,11 @@
     "transitions": [
       {
         "transition": "Mount to Armbar",
-        "attempt_probability": 54
+        "attempt_probability": 50
       },
       {
         "transition": "Back Take",
-        "attempt_probability": 21
+        "attempt_probability": 20
       },
       {
         "transition": "Consolidate Mount",
@@ -333,11 +333,19 @@
       },
       {
         "transition": "Technical Mount to Mount",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Technical Mount to S Mount",
         "attempt_probability": 1
+      },
+      {
+        "transition": "Americana from Technical Mount",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Armbar from Technical Mount",
+        "attempt_probability": 2
       }
     ]
   },

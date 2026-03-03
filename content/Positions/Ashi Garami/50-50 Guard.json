@@ -275,7 +275,7 @@
     "transitions": [
       {
         "transition": "Heel Hook",
-        "attempt_probability": 35
+        "attempt_probability": 31
       },
       {
         "transition": "Kneebar entry",
@@ -320,6 +320,14 @@
       {
         "transition": "50-50 Guard to Backside 50-50",
         "attempt_probability": 5
+      },
+      {
+        "transition": "Calf Slicer from 50-50",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Kneebar from 50-50",
+        "attempt_probability": 2
       }
     ]
   },
@@ -543,7 +551,7 @@
       },
       {
         "transition": "50-50 Guard to Single Leg X-Guard",
-        "attempt_probability": 24
+        "attempt_probability": 22
       },
       {
         "transition": "Extract legs and stand up",
@@ -564,6 +572,10 @@
       {
         "transition": "Counter-entangle to 50-50 Guard",
         "attempt_probability": 5
+      },
+      {
+        "transition": "Toe Hold from 50-50",
+        "attempt_probability": 2
       }
     ]
   }

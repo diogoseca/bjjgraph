@@ -21,7 +21,7 @@ description: "Master offensive control from 3-4 Mount Top. Complete guide with t
     {
       "@type": "HowToStep",
       "name": "Execute Mount to Armbar",
-      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 39% of exchanges from this position.",
+      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 37% of exchanges from this position.",
       "position": 1
     },
     {
@@ -210,7 +210,7 @@ Strategically, 3-4 Mount Top excels as both a finishing position and a transitio
 
 ## Available Attacks
 
-### [[Mount to Armbar]] (39% of attempts)
+### [[Mount to Armbar]] (37% of attempts)
 
 ### [[Mounted Triangle]] (8% of attempts)
 
@@ -227,6 +227,8 @@ Strategically, 3-4 Mount Top excels as both a finishing position and a transitio
 ### [[3-4 Mount to S Mount]] (3% of attempts)
 
 ### [[3-4 Mount to Technical Mount]] (2% of attempts)
+
+### [[Americana from 3-4 Mount]] (2% of attempts)
 
 
 

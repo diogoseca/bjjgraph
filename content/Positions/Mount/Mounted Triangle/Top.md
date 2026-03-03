@@ -21,7 +21,7 @@ description: "Master mounted triangle attacks from top position. High-percentage
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Choke",
-      "text": "From this position, attempt Triangle Choke. This technique is attempted in 24% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Choke. This technique is attempted in 22% of exchanges from this position.",
       "position": 1
     },
     {
@@ -210,7 +210,7 @@ The mounted triangle exemplifies modern BJJ's evolution toward dynamic, submissi
 
 ## Available Attacks
 
-### [[Triangle Choke]] (24% of attempts)
+### [[Triangle Choke]] (22% of attempts)
 
 ### [[Armbar Finish]] (9% of attempts)
 
@@ -233,6 +233,8 @@ The mounted triangle exemplifies modern BJJ's evolution toward dynamic, submissi
 ### [[Mounted Triangle Squeeze]] (3% of attempts)
 
 ### [[Mounted Triangle to S Mount]] (2% of attempts)
+
+### [[Mounted Triangle Finish]] (2% of attempts)
 
 
 

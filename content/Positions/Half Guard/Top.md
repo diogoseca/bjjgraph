@@ -21,7 +21,7 @@ description: "Master Half Guard Top with systematic passing strategies. Advanced
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 30% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 28% of exchanges from this position.",
       "position": 1
     },
     {
@@ -212,7 +212,7 @@ Advanced practitioners develop multiple passing pathways and chain them together
 
 ## Available Attacks
 
-### [[Knee Slice Pass]] (30% of attempts)
+### [[Knee Slice Pass]] (28% of attempts)
 
 ### [[Smash Pass]] (15% of attempts)
 
@@ -243,6 +243,8 @@ Advanced practitioners develop multiple passing pathways and chain them together
 ### [[Half Guard to Quarter Guard]] (2% of attempts)
 
 ### [[Half Guard to Triangle Escape Position]] (2% of attempts)
+
+### [[Suloev Stretch]] (2% of attempts)
 
 
 

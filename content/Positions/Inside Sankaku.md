@@ -166,7 +166,7 @@ Inside Sankaku, also known as the 'Honey Hole' or '411', is an advanced leg enta
 ### Available Transitions
 
 
-- **[[Heel Hook]]** (42% of attempts)
+- **[[Heel Hook]]** (40% of attempts)
 
 - **[[Toe Hold]]** (10% of attempts)
 
@@ -187,6 +187,8 @@ Inside Sankaku, also known as the 'Honey Hole' or '411', is an advanced leg enta
 - **[[Inside Sankaku Heel Hook]]** (1% of attempts)
 
 - **[[Inside Sankaku to Saddle]]** (1% of attempts)
+
+- **[[Inside Sankaku Heel Hook Finish]]** (2% of attempts)
 
 
 ### Common Mistakes

@@ -92,11 +92,11 @@
     "transitions": [
       {
         "transition": "Rear Naked Choke",
-        "attempt_probability": 64
+        "attempt_probability": 49
       },
       {
         "transition": "Back Control Maintenance",
-        "attempt_probability": 16
+        "attempt_probability": 15
       },
       {
         "transition": "Bow and Arrow Choke",
@@ -128,47 +128,59 @@
       },
       {
         "transition": "Rear Naked Choke Setup",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Kimura from Back",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Triangle from Back",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Standing Back Control Entry",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Mat Return to Back Mount",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Back Control to Seat Belt Control Back",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Gift Wrap Control",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Back Control to Cross Body Ride",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Back Control to Reverse Half Guard",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Restore Back Control",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Transition to Game Over",
         "attempt_probability": 1
+      },
+      {
+        "transition": "Armbar from Back",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Armbar from Back with Legs",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Triangle Choke Back",
+        "attempt_probability": 2
       }
     ],
     "decision_tree": [

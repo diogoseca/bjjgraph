@@ -174,7 +174,7 @@ From the bottom perspective, Side Control Consolidation Bottom represents one of
 ### Available Transitions
 
 
-- **[[Side Control to Mount]]** (33% of attempts)
+- **[[Side Control to Mount]]** (31% of attempts)
 
 - **[[Side Control to North-South]]** (10% of attempts)
 
@@ -193,6 +193,8 @@ From the bottom perspective, Side Control Consolidation Bottom represents one of
 - **[[Consolidation to Knee on Belly]]** (3% of attempts)
 
 - **[[Consolidation to Mount]]** (2% of attempts)
+
+- **[[Ezekiel from Side Control Consolidation]]** (2% of attempts)
 
 
 ### Common Mistakes

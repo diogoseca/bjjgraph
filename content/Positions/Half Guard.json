@@ -133,7 +133,7 @@
     "transitions": [
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 30
+        "attempt_probability": 28
       },
       {
         "transition": "Smash Pass",
@@ -193,6 +193,10 @@
       },
       {
         "transition": "Half Guard to Triangle Escape Position",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Suloev Stretch",
         "attempt_probability": 2
       }
     ],
@@ -431,7 +435,7 @@
     "transitions": [
       {
         "transition": "Underhook Sweep from Half",
-        "attempt_probability": 22
+        "attempt_probability": 18
       },
       {
         "transition": "Half Guard to Back Take",
@@ -491,6 +495,14 @@
       },
       {
         "transition": "Half Guard to Old School",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Buggy Choke",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Kneebar from Half Guard",
         "attempt_probability": 2
       }
     ],

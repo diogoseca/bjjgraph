@@ -170,11 +170,11 @@ Understanding the Gift Wrap requires recognizing it as part of a larger back att
 ### Available Transitions
 
 
-- **[[Rear Naked Choke]]** (36% of attempts)
+- **[[Rear Naked Choke]]** (33% of attempts)
 
 - **[[Armbar on Free Arm]]** (9% of attempts)
 
-- **[[Gift Wrap to Technical Mount]]** (14% of attempts)
+- **[[Gift Wrap to Technical Mount]]** (13% of attempts)
 
 - **[[Short Choke Attack]]** (7% of attempts)
 
@@ -187,6 +187,10 @@ Understanding the Gift Wrap requires recognizing it as part of a larger back att
 - **[[Kimura on Trapped Arm]]** (9% of attempts)
 
 - **[[Gift Wrap Maintenance]]** (3% of attempts)
+
+- **[[Gift Wrap Armbar]]** (2% of attempts)
+
+- **[[Gift Wrap RNC]]** (2% of attempts)
 
 
 ### Common Mistakes

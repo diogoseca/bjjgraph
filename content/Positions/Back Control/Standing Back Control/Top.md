@@ -21,7 +21,7 @@ description: "Master offensive strategies for standing back control top position
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke",
-      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 30% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 28% of exchanges from this position.",
       "position": 1
     },
     {
@@ -209,7 +209,7 @@ Success from Standing Back Control Top requires understanding several key mechan
 
 ## Available Attacks
 
-### [[Rear Naked Choke]] (30% of attempts)
+### [[Rear Naked Choke]] (28% of attempts)
 
 ### [[Takedown to Grounded Back Control]] (18% of attempts)
 
@@ -230,6 +230,8 @@ Success from Standing Back Control Top requires understanding several key mechan
 ### [[Back Control to Seat Belt Control Back]] (2% of attempts)
 
 ### [[Bow and Arrow Setup from Standing Back]] (2% of attempts)
+
+### [[Standing RNC]] (2% of attempts)
 
 
 

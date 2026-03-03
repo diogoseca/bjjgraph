@@ -182,7 +182,7 @@ The learning curve for Twister Side Control is significant, requiring practition
 
 - **[[Twister Finish]]** (12% of attempts)
 
-- **[[Back Take]]** (14% of attempts)
+- **[[Back Take]]** (12% of attempts)
 
 - **[[Darce Choke]]** (10% of attempts)
 
@@ -203,6 +203,8 @@ The learning curve for Twister Side Control is significant, requiring practition
 - **[[Twister SC to Back Take]]** (4% of attempts)
 
 - **[[Twister SC to Truck]]** (3% of attempts)
+
+- **[[Twister from Twister SC]]** (2% of attempts)
 
 
 ### Common Mistakes

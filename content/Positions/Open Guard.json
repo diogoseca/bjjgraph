@@ -624,7 +624,7 @@
     "transitions": [
       {
         "transition": "Butterfly Sweep",
-        "attempt_probability": 27
+        "attempt_probability": 25
       },
       {
         "transition": "De La Riva Sweep",
@@ -693,6 +693,10 @@
       {
         "transition": "Transition to Clamp Guard",
         "attempt_probability": 1
+      },
+      {
+        "transition": "Triangle from Open Guard",
+        "attempt_probability": 2
       }
     ],
     "knowledge_assessment": [

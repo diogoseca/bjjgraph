@@ -21,13 +21,13 @@ description: "Master High Mount Top position in BJJ. Advanced mount control with
     {
       "@type": "HowToStep",
       "name": "Execute Mount to Armbar",
-      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 24% of exchanges from this position.",
+      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 21% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Cross Collar Choke",
-      "text": "From this position, attempt Cross Collar Choke. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Cross Collar Choke. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
@@ -213,9 +213,9 @@ From a biomechanical perspective, High Mount achieves dominance by positioning t
 
 ## Available Attacks
 
-### [[Mount to Armbar]] (24% of attempts)
+### [[Mount to Armbar]] (21% of attempts)
 
-### [[Cross Collar Choke]] (13% of attempts)
+### [[Cross Collar Choke]] (12% of attempts)
 
 ### [[Americana]] (9% of attempts)
 
@@ -234,6 +234,10 @@ From a biomechanical perspective, High Mount achieves dominance by positioning t
 ### [[Mounted Crucifix Entry]] (6% of attempts)
 
 ### [[High Mount to S Mount]] (3% of attempts)
+
+### [[Armbar from High Mount]] (2% of attempts)
+
+### [[Cross Collar Choke from High Mount]] (2% of attempts)
 
 
 

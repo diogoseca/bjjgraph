@@ -33,7 +33,7 @@ description: "Master 50-50 Guard Bottom defensive strategies. Learn heel protect
     {
       "@type": "HowToStep",
       "name": "Execute 50-50 Guard to Single Leg X-Guard",
-      "text": "From this position, attempt 50-50 Guard to Single Leg X-Guard. This technique is attempted in 24% of exchanges from this position.",
+      "text": "From this position, attempt 50-50 Guard to Single Leg X-Guard. This technique is attempted in 22% of exchanges from this position.",
       "position": 3
     },
     {
@@ -213,7 +213,7 @@ From this position, you face multiple submission threats, primarily heel hook, a
 
 ### [[Counter heel hook]] (12% of attempts)
 
-### [[50-50 Guard to Single Leg X-Guard]] (24% of attempts)
+### [[50-50 Guard to Single Leg X-Guard]] (22% of attempts)
 
 ### [[Extract legs and stand up]] (23% of attempts)
 
@@ -224,6 +224,8 @@ From this position, you face multiple submission threats, primarily heel hook, a
 ### [[Toe Hold]] (5% of attempts)
 
 ### [[Counter-entangle to 50-50 Guard]] (5% of attempts)
+
+### [[Toe Hold from 50-50]] (2% of attempts)
 
 
 

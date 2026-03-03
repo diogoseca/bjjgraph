@@ -21,7 +21,7 @@ description: "Master the clinch position in BJJ with comprehensive grip fighting
     {
       "@type": "HowToStep",
       "name": "Execute Double Leg Entry",
-      "text": "From this position, attempt Double Leg Entry. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Double Leg Entry. This technique is attempted in 10% of exchanges from this position.",
       "position": 1
     },
     {
@@ -210,7 +210,7 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 
 ## Available Attacks
 
-### [[Double Leg Entry]] (12% of attempts)
+### [[Double Leg Entry]] (10% of attempts)
 
 ### [[Single Leg Takedown]] (10% of attempts)
 
@@ -237,6 +237,8 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 ### [[Body Lock Takedown from Clinch]] (2% of attempts)
 
 ### [[Two-on-One to Back Take]] (2% of attempts)
+
+### [[Standing Guillotine from Clinch]] (2% of attempts)
 
 
 

@@ -21,7 +21,7 @@ description: "Master X-Guard Bottom in BJJ. Complete guide covering sweeps, entr
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard Sweep",
-      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 38% of exchanges from this position.",
+      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 36% of exchanges from this position.",
       "position": 1
     },
     {
@@ -206,7 +206,7 @@ X-Guard Bottom is a powerful open guard position where the bottom practitioner c
 
 ## Available Escapes
 
-### [[X-Guard Sweep]] (38% of attempts)
+### [[X-Guard Sweep]] (36% of attempts)
 
 ### [[Single Leg X Entry]] (16% of attempts)
 
@@ -223,6 +223,8 @@ X-Guard Bottom is a powerful open guard position where the bottom practitioner c
 ### [[X-Guard Technical Stand Up]] (2% of attempts)
 
 ### [[X-Guard to Single Leg X]] (1% of attempts)
+
+### [[Ankle Lock from X-Guard]] (2% of attempts)
 
 
 

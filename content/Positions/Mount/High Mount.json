@@ -336,11 +336,11 @@
     "transitions": [
       {
         "transition": "Mount to Armbar",
-        "attempt_probability": 24
+        "attempt_probability": 21
       },
       {
         "transition": "Cross Collar Choke",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "Americana",
@@ -377,6 +377,14 @@
       {
         "transition": "High Mount to S Mount",
         "attempt_probability": 3
+      },
+      {
+        "transition": "Armbar from High Mount",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Cross Collar Choke from High Mount",
+        "attempt_probability": 2
       }
     ]
   },

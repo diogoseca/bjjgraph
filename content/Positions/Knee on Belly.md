@@ -170,7 +170,7 @@ Knee on Belly is a dynamic control position in Brazilian Jiu-Jitsu where one pra
 ### Available Transitions
 
 
-- **[[Side Control to Mount]]** (37% of attempts)
+- **[[Side Control to Mount]]** (33% of attempts)
 
 - **[[Armbar Finish]]** (9% of attempts)
 
@@ -191,6 +191,10 @@ Knee on Belly is a dynamic control position in Brazilian Jiu-Jitsu where one pra
 - **[[KOB to Mount]]** (1% of attempts)
 
 - **[[KOB to Side Control]]** (1% of attempts)
+
+- **[[Armbar from Knee on Belly]]** (2% of attempts)
+
+- **[[Cross Collar Choke from KOB]]** (2% of attempts)
 
 
 ### Common Mistakes

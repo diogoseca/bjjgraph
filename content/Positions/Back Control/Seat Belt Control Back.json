@@ -296,7 +296,7 @@
     "transitions": [
       {
         "transition": "Rear Naked Choke",
-        "attempt_probability": 38
+        "attempt_probability": 35
       },
       {
         "transition": "Armbar from Back Transition",
@@ -316,7 +316,7 @@
       },
       {
         "transition": "Back Control Maintenance",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "Body Triangle Lock",
@@ -345,6 +345,14 @@
       {
         "transition": "Seat Belt to Full Back Control",
         "attempt_probability": 1
+      },
+      {
+        "transition": "Bow and Arrow from Seat Belt",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "RNC from Seat Belt",
+        "attempt_probability": 2
       }
     ],
     "knowledge_assessment": [

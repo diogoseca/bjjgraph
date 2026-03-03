@@ -95,7 +95,7 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 ### Available Transitions
 
 
-- **[[Butterfly Sweep]]** (27% of attempts)
+- **[[Butterfly Sweep]]** (25% of attempts)
 
 - **[[De La Riva Sweep]]** (4% of attempts)
 
@@ -130,6 +130,8 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 - **[[Technical Stand Up from Open Guard]]** (6% of attempts)
 
 - **[[Transition to Clamp Guard]]** (1% of attempts)
+
+- **[[Triangle from Open Guard]]** (2% of attempts)
 
 
 ### Common Mistakes

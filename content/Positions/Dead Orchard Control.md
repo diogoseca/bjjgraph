@@ -168,7 +168,7 @@ Dead Orchard Control represents an advanced positional control within Brazilian 
 ### Available Transitions
 
 
-- **[[Anaconda Choke]]** (37% of attempts)
+- **[[Anaconda Choke]]** (35% of attempts)
 
 - **[[Darce from Turtle]]** (13% of attempts)
 
@@ -181,6 +181,8 @@ Dead Orchard Control represents an advanced positional control within Brazilian 
 - **[[Dead Orchard to Anaconda Finish]]** (4% of attempts)
 
 - **[[Dead Orchard to Darce Switch]]** (2% of attempts)
+
+- **[[Anaconda Finish from Dead Orchard]]** (2% of attempts)
 
 
 ### Common Mistakes

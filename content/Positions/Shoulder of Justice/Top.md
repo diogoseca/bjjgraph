@@ -21,7 +21,7 @@ description: "Master Shoulder of Justice Top in BJJ. Complete offensive guide wi
     {
       "@type": "HowToStep",
       "name": "Execute Kimura",
-      "text": "From this position, attempt Kimura. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Kimura. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
@@ -209,7 +209,7 @@ The Shoulder of Justice Top is characterized by driving your shoulder blade deep
 
 ## Available Attacks
 
-### [[Kimura]] (20% of attempts)
+### [[Kimura]] (18% of attempts)
 
 ### [[Americana]] (12% of attempts)
 
@@ -226,6 +226,8 @@ The Shoulder of Justice Top is characterized by driving your shoulder blade deep
 ### [[Shoulder of Justice Kimura Setup]] (5% of attempts)
 
 ### [[Shoulder of Justice to Mount]] (3% of attempts)
+
+### [[Kimura from Shoulder of Justice]] (2% of attempts)
 
 
 

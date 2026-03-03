@@ -296,7 +296,7 @@
     "transitions": [
       {
         "transition": "Armbar Finish",
-        "attempt_probability": 18
+        "attempt_probability": 16
       },
       {
         "transition": "Rear Naked Choke",
@@ -337,6 +337,10 @@
       {
         "transition": "Seat Belt Control Back",
         "attempt_probability": 3
+      },
+      {
+        "transition": "Mounted Crucifix Armbar",
+        "attempt_probability": 2
       }
     ],
     "knowledge_assessment": [

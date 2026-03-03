@@ -89,7 +89,7 @@ Lockdown is 10th Planet's revolutionary half guard variation that transforms tra
 ### Available Transitions
 
 
-- **[[Whip-up Sweep]]** (28% of attempts)
+- **[[Whip-up Sweep]]** (26% of attempts)
 
 - **[[Old School Sweep]]** (9% of attempts)
 
@@ -112,6 +112,8 @@ Lockdown is 10th Planet's revolutionary half guard variation that transforms tra
 - **[[Half Guard to Old School]]** (6% of attempts)
 
 - **[[Back Take from Lockdown Defense]]** (4% of attempts)
+
+- **[[Crotch Ripper]]** (2% of attempts)
 
 
 ### Common Mistakes

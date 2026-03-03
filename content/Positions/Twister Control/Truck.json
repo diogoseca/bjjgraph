@@ -295,7 +295,7 @@
     "transitions": [
       {
         "transition": "Twister Entry",
-        "attempt_probability": 15
+        "attempt_probability": 14
       },
       {
         "transition": "Calf Slicer",
@@ -307,7 +307,7 @@
       },
       {
         "transition": "Rolling Back Take",
-        "attempt_probability": 25
+        "attempt_probability": 22
       },
       {
         "transition": "Bow and Arrow Choke",
@@ -336,6 +336,14 @@
       {
         "transition": "Truck to Twister Side Control",
         "attempt_probability": 3
+      },
+      {
+        "transition": "Banana Split",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Calf Slicer from Truck",
+        "attempt_probability": 2
       }
     ],
     "knowledge_assessment": [

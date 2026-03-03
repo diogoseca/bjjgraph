@@ -338,7 +338,7 @@
     "transitions": [
       {
         "transition": "Rear Naked Choke",
-        "attempt_probability": 36
+        "attempt_probability": 33
       },
       {
         "transition": "Armbar on Free Arm",
@@ -346,7 +346,7 @@
       },
       {
         "transition": "Gift Wrap to Technical Mount",
-        "attempt_probability": 14
+        "attempt_probability": 13
       },
       {
         "transition": "Short Choke Attack",
@@ -371,6 +371,14 @@
       {
         "transition": "Gift Wrap Maintenance",
         "attempt_probability": 3
+      },
+      {
+        "transition": "Gift Wrap Armbar",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Gift Wrap RNC",
+        "attempt_probability": 2
       }
     ]
   },

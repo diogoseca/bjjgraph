@@ -276,7 +276,7 @@
     "transitions": [
       {
         "transition": "Side Control to North-South",
-        "attempt_probability": 24
+        "attempt_probability": 22
       },
       {
         "transition": "Side Control to Mount",
@@ -308,6 +308,10 @@
       },
       {
         "transition": "Reverse Scarf to Side Control",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "North-South Choke from Reverse Scarf",
         "attempt_probability": 2
       }
     ],

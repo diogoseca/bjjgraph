@@ -21,7 +21,7 @@ description: "Master standing position in BJJ. Complete guide covering grips, ta
     {
       "@type": "HowToStep",
       "name": "Execute Guard Pull",
-      "text": "From this position, attempt Guard Pull. This technique is attempted in 21% of exchanges from this position.",
+      "text": "From this position, attempt Guard Pull. This technique is attempted in 17% of exchanges from this position.",
       "position": 1
     },
     {
@@ -207,7 +207,7 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 
 ## Available Attacks
 
-### [[Guard Pull]] (21% of attempts)
+### [[Guard Pull]] (17% of attempts)
 
 ### [[Double Leg Setup]] (8% of attempts)
 
@@ -260,6 +260,10 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 ### [[Sasae Tsurikomi Ashi]] (1% of attempts)
 
 ### [[Tai Otoshi]] (1% of attempts)
+
+### [[Flying Kneebar]] (2% of attempts)
+
+### [[Kimura from Standing]] (2% of attempts)
 
 
 

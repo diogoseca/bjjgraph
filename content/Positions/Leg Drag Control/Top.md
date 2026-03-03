@@ -21,7 +21,7 @@ description: "Master leg drag control from top position. Complete strategic guid
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass to Side Control",
-      "text": "From this position, attempt Leg Drag Pass to Side Control. This technique is attempted in 24% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Pass to Side Control. This technique is attempted in 22% of exchanges from this position.",
       "position": 1
     },
     {
@@ -209,7 +209,7 @@ From a competitive perspective, mastering leg drag control has become essential 
 
 ## Available Attacks
 
-### [[Leg Drag Pass to Side Control]] (24% of attempts)
+### [[Leg Drag Pass to Side Control]] (22% of attempts)
 
 ### [[Leg Drag to Back Take]] (20% of attempts)
 
@@ -226,6 +226,8 @@ From a competitive perspective, mastering leg drag control has become essential 
 ### [[Leg Drag to Technical Mount]] (8% of attempts)
 
 ### [[Leg Drag to Darce Setup]] (7% of attempts)
+
+### [[Darce from Leg Drag]] (2% of attempts)
 
 
 

@@ -174,7 +174,7 @@ Backside 50-50 has become increasingly relevant in modern no-gi competition as l
 ### Available Transitions
 
 
-- **[[Heel Hook]]** (20% of attempts)
+- **[[Heel Hook]]** (18% of attempts)
 
 - **[[Outside Heel Hook]]** (10% of attempts)
 
@@ -195,6 +195,8 @@ Backside 50-50 has become increasingly relevant in modern no-gi competition as l
 - **[[Inside Ashi-Garami to Honey Hole]]** (6% of attempts)
 
 - **[[Counter heel hook]]** (4% of attempts)
+
+- **[[Outside Heel Hook from Backside 50-50]]** (2% of attempts)
 
 
 ### Common Mistakes

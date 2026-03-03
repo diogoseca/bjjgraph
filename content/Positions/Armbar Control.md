@@ -174,7 +174,7 @@ From the bottom, survival depends on understanding the same five-point control s
 ### Available Transitions
 
 
-- **[[Armbar Finish]]** (53% of attempts)
+- **[[Armbar Finish]]** (51% of attempts)
 
 - **[[Triangle Setup]]** (21% of attempts)
 
@@ -189,6 +189,8 @@ From the bottom, survival depends on understanding the same five-point control s
 - **[[Belly Down Armbar Transition]]** (1% of attempts)
 
 - **[[Triangle from Armbar]]** (1% of attempts)
+
+- **[[Belly Down Armbar Finish]]** (2% of attempts)
 
 
 ### Common Mistakes

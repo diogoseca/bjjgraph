@@ -21,7 +21,7 @@ description: "Master Spider Guard Bottom in BJJ. Complete guide covering sleeve 
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 34% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 30% of exchanges from this position.",
       "position": 1
     },
     {
@@ -205,7 +205,7 @@ Spider Guard Bottom is a fundamental gi-based open guard position where the bott
 
 ## Available Escapes
 
-### [[Triangle Setup]] (34% of attempts)
+### [[Triangle Setup]] (30% of attempts)
 
 ### [[Omoplata Sweep]] (9% of attempts)
 
@@ -228,6 +228,10 @@ Spider Guard Bottom is a fundamental gi-based open guard position where the bott
 ### [[Spider to Lasso Guard]] (1% of attempts)
 
 ### [[Triangle from Spider Guard]] (1% of attempts)
+
+### [[Omoplata from Spider Guard]] (2% of attempts)
+
+### [[Triangle from Spider Guard Bottom]] (2% of attempts)
 
 
 

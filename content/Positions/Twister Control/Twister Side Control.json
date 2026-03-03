@@ -271,7 +271,7 @@
       },
       {
         "transition": "Back Take",
-        "attempt_probability": 14
+        "attempt_probability": 12
       },
       {
         "transition": "Darce Choke",
@@ -312,6 +312,10 @@
       {
         "transition": "Twister SC to Truck",
         "attempt_probability": 3
+      },
+      {
+        "transition": "Twister from Twister SC",
+        "attempt_probability": 2
       }
     ],
     "knowledge_assessment": [

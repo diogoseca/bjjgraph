@@ -21,7 +21,7 @@ description: "Master Dead Orchard Control Top in BJJ. Advanced anaconda variatio
     {
       "@type": "HowToStep",
       "name": "Execute Anaconda Choke",
-      "text": "From this position, attempt Anaconda Choke. This technique is attempted in 37% of exchanges from this position.",
+      "text": "From this position, attempt Anaconda Choke. This technique is attempted in 35% of exchanges from this position.",
       "position": 1
     },
     {
@@ -206,7 +206,7 @@ Dead Orchard Control Top is an advanced anaconda choke variation developed withi
 
 ## Available Attacks
 
-### [[Anaconda Choke]] (37% of attempts)
+### [[Anaconda Choke]] (35% of attempts)
 
 ### [[Darce from Turtle]] (13% of attempts)
 
@@ -219,6 +219,8 @@ Dead Orchard Control Top is an advanced anaconda choke variation developed withi
 ### [[Dead Orchard to Anaconda Finish]] (4% of attempts)
 
 ### [[Dead Orchard to Darce Switch]] (2% of attempts)
+
+### [[Anaconda Finish from Dead Orchard]] (2% of attempts)
 
 
 

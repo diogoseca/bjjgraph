@@ -21,7 +21,7 @@ description: "Master bottom gogoplata control mechanics including shin positioni
     {
       "@type": "HowToStep",
       "name": "Execute Gogoplata",
-      "text": "From this position, attempt Gogoplata. This technique is attempted in 28% of exchanges from this position.",
+      "text": "From this position, attempt Gogoplata. This technique is attempted in 27% of exchanges from this position.",
       "position": 1
     },
     {
@@ -39,7 +39,7 @@ description: "Master bottom gogoplata control mechanics including shin positioni
     {
       "@type": "HowToStep",
       "name": "Execute Mission Control Recovery",
-      "text": "From this position, attempt Mission Control Recovery. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Mission Control Recovery. This technique is attempted in 24% of exchanges from this position.",
       "position": 4
     },
     {
@@ -47,6 +47,12 @@ description: "Master bottom gogoplata control mechanics including shin positioni
       "name": "Execute Switch to Triangle",
       "text": "From this position, attempt Switch to Triangle. This technique is attempted in 18% of exchanges from this position.",
       "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Gogoplata Finish",
+      "text": "From this position, attempt Gogoplata Finish. This technique is attempted in 2% of exchanges from this position.",
+      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -210,15 +216,17 @@ Strategically, bottom gogoplata control functions as a high-risk, high-reward po
 
 ## Available Escapes
 
-### [[Gogoplata]] (28% of attempts)
+### [[Gogoplata]] (27% of attempts)
 
 ### [[Closed Guard to Omoplata]] (15% of attempts)
 
 ### [[Back Take]] (14% of attempts)
 
-### [[Mission Control Recovery]] (25% of attempts)
+### [[Mission Control Recovery]] (24% of attempts)
 
 ### [[Switch to Triangle]] (18% of attempts)
+
+### [[Gogoplata Finish]] (2% of attempts)
 
 
 

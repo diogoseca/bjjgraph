@@ -108,7 +108,7 @@
     "transitions": [
       {
         "transition": "Double Leg Entry",
-        "attempt_probability": 12
+        "attempt_probability": 10
       },
       {
         "transition": "Single Leg Takedown",
@@ -160,6 +160,10 @@
       },
       {
         "transition": "Two-on-One to Back Take",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Standing Guillotine from Clinch",
         "attempt_probability": 2
       }
     ],

@@ -21,13 +21,13 @@ description: "Master closed guard top with defensive posture strategies, systema
     {
       "@type": "HowToStep",
       "name": "Execute Posture Recovery",
-      "text": "From this position, attempt Posture Recovery. This technique is attempted in 33% of exchanges from this position.",
+      "text": "From this position, attempt Posture Recovery. This technique is attempted in 32% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guard Opening Sequence",
-      "text": "From this position, attempt Guard Opening Sequence. This technique is attempted in 28% of exchanges from this position.",
+      "text": "From this position, attempt Guard Opening Sequence. This technique is attempted in 27% of exchanges from this position.",
       "position": 2
     },
     {
@@ -210,9 +210,9 @@ The closed guard top position exemplifies the strategic complexity of Brazilian 
 
 ## Available Attacks
 
-### [[Posture Recovery]] (33% of attempts)
+### [[Posture Recovery]] (32% of attempts)
 
-### [[Guard Opening Sequence]] (28% of attempts)
+### [[Guard Opening Sequence]] (27% of attempts)
 
 ### [[Standing up in Base]] (22% of attempts)
 
@@ -223,6 +223,8 @@ The closed guard top position exemplifies the strategic complexity of Brazilian 
 ### [[Ezekiel from Closed Guard]] (2% of attempts)
 
 ### [[Knee Slice from Closed Guard]] (2% of attempts)
+
+### [[Can Opener]] (2% of attempts)
 
 
 

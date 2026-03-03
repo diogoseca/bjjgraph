@@ -95,7 +95,7 @@ The effectiveness of Spider Guard relies heavily on grip strength, hip mobility,
 ### Available Transitions
 
 
-- **[[Triangle Setup]]** (34% of attempts)
+- **[[Triangle Setup]]** (30% of attempts)
 
 - **[[Omoplata Sweep]]** (9% of attempts)
 
@@ -118,6 +118,10 @@ The effectiveness of Spider Guard relies heavily on grip strength, hip mobility,
 - **[[Spider to Lasso Guard]]** (1% of attempts)
 
 - **[[Triangle from Spider Guard]]** (1% of attempts)
+
+- **[[Omoplata from Spider Guard]]** (2% of attempts)
+
+- **[[Triangle from Spider Guard Bottom]]** (2% of attempts)
 
 
 ### Common Mistakes

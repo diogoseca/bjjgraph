@@ -176,13 +176,13 @@ Historically, the truck evolved from wrestling's turk ride, adapted into the 10t
 ### Available Transitions
 
 
-- **[[Twister Entry]]** (15% of attempts)
+- **[[Twister Entry]]** (14% of attempts)
 
 - **[[Calf Slicer]]** (12% of attempts)
 
 - **[[Roll to Truck]]** (5% of attempts)
 
-- **[[Rolling Back Take]]** (25% of attempts)
+- **[[Rolling Back Take]]** (22% of attempts)
 
 - **[[Bow and Arrow Choke]]** (8% of attempts)
 
@@ -197,6 +197,10 @@ Historically, the truck evolved from wrestling's turk ride, adapted into the 10t
 - **[[Truck to Back Control]]** (2% of attempts)
 
 - **[[Truck to Twister Side Control]]** (3% of attempts)
+
+- **[[Banana Split]]** (2% of attempts)
+
+- **[[Calf Slicer from Truck]]** (2% of attempts)
 
 
 ### Common Mistakes

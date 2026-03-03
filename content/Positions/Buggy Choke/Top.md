@@ -21,7 +21,7 @@ description: "Attack from Buggy Choke position. Complete offensive guide coverin
     {
       "@type": "HowToStep",
       "name": "Execute Finish Buggy Choke",
-      "text": "From this position, attempt Finish Buggy Choke. This technique is attempted in 45% of exchanges from this position.",
+      "text": "From this position, attempt Finish Buggy Choke. This technique is attempted in 41% of exchanges from this position.",
       "position": 1
     },
     {
@@ -210,7 +210,7 @@ From a technical perspective, the buggy choke teaches important principles about
 
 ## Available Attacks
 
-### [[Finish Buggy Choke]] (45% of attempts)
+### [[Finish Buggy Choke]] (41% of attempts)
 
 ### [[Hook Leg and Take Back]] (17% of attempts)
 
@@ -228,11 +228,13 @@ From a technical perspective, the buggy choke teaches important principles about
 
 ### [[Crucifix from Turtle]] (10% of attempts)
 
-### [[Buggy Choke to North-South]] (0% of attempts)
+### [[Buggy Choke to North-South]] (1% of attempts)
 
-### [[Buggy Choke to Side Control]] (0% of attempts)
+### [[Buggy Choke to Side Control]] (1% of attempts)
 
 ### [[Grip Strip from Buggy Choke]] (1% of attempts)
+
+### [[Buggy Choke Finish]] (2% of attempts)
 
 
 

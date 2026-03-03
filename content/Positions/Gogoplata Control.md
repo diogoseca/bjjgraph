@@ -101,15 +101,17 @@ The position also demonstrates important principles about submission-based contr
 ### Available Transitions
 
 
-- **[[Gogoplata]]** (28% of attempts)
+- **[[Gogoplata]]** (27% of attempts)
 
 - **[[Closed Guard to Omoplata]]** (15% of attempts)
 
 - **[[Back Take]]** (14% of attempts)
 
-- **[[Mission Control Recovery]]** (25% of attempts)
+- **[[Mission Control Recovery]]** (24% of attempts)
 
 - **[[Switch to Triangle]]** (18% of attempts)
+
+- **[[Gogoplata Finish]]** (2% of attempts)
 
 
 ### Common Mistakes

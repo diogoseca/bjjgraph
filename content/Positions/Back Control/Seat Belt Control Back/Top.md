@@ -21,7 +21,7 @@ description: "Master Seat Belt Control from top back position. Dominant 4-point 
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke",
-      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 38% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 35% of exchanges from this position.",
       "position": 1
     },
     {
@@ -51,7 +51,7 @@ description: "Master Seat Belt Control from top back position. Dominant 4-point 
     {
       "@type": "HowToStep",
       "name": "Execute Back Control Maintenance",
-      "text": "From this position, attempt Back Control Maintenance. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Back Control Maintenance. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,7 +210,7 @@ Seat belt control excels when opponent is attempting to escape or defend, as the
 
 ## Available Attacks
 
-### [[Rear Naked Choke]] (38% of attempts)
+### [[Rear Naked Choke]] (35% of attempts)
 
 ### [[Armbar from Back Transition]] (10% of attempts)
 
@@ -220,7 +220,7 @@ Seat belt control excels when opponent is attempting to escape or defend, as the
 
 ### [[Short Choke]] (5% of attempts)
 
-### [[Back Control Maintenance]] (13% of attempts)
+### [[Back Control Maintenance]] (12% of attempts)
 
 ### [[Body Triangle Lock]] (6% of attempts)
 
@@ -235,6 +235,10 @@ Seat belt control excels when opponent is attempting to escape or defend, as the
 ### [[Seat Belt to Body Triangle]] (1% of attempts)
 
 ### [[Seat Belt to Full Back Control]] (1% of attempts)
+
+### [[Bow and Arrow from Seat Belt]] (2% of attempts)
+
+### [[RNC from Seat Belt]] (2% of attempts)
 
 
 

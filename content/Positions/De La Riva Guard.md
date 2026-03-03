@@ -87,7 +87,7 @@ The strategic genius of De La Riva Guard lies in its dilemma-based attack struct
 
 - **[[De La Riva Sweep]]** (11% of attempts)
 
-- **[[De La Riva to X-Guard Transition]]** (23% of attempts)
+- **[[De La Riva to X-Guard Transition]]** (21% of attempts)
 
 - **[[Berimbolo Entry]]** (12% of attempts)
 
@@ -108,6 +108,8 @@ The strategic genius of De La Riva Guard lies in its dilemma-based attack struct
 - **[[Omoplata]]** (4% of attempts)
 
 - **[[Triangle Setup from De La Riva]]** (2% of attempts)
+
+- **[[Triangle from De La Riva]]** (2% of attempts)
 
 
 ### Common Mistakes

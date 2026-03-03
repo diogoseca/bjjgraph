@@ -21,7 +21,7 @@ description: "Master Electric Chair Bottom in BJJ. Complete lockdown attack guid
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 74% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 72% of exchanges from this position.",
       "position": 1
     },
     {
@@ -47,6 +47,12 @@ description: "Master Electric Chair Bottom in BJJ. Complete lockdown attack guid
       "name": "Execute Sweep from Electric Chair",
       "text": "From this position, attempt Sweep from Electric Chair. This technique is attempted in 2% of exchanges from this position.",
       "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Electric Chair Finish",
+      "text": "From this position, attempt Electric Chair Finish. This technique is attempted in 2% of exchanges from this position.",
+      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -205,7 +211,7 @@ Electric Chair Bottom represents a systematic approach to bottom half guard wher
 
 ## Available Escapes
 
-### [[Old School Sweep]] (74% of attempts)
+### [[Old School Sweep]] (72% of attempts)
 
 ### [[Deep Half Entry]] (14% of attempts)
 
@@ -214,6 +220,8 @@ Electric Chair Bottom represents a systematic approach to bottom half guard wher
 ### [[Straighten Leg Defense from Electric Chair]] (3% of attempts)
 
 ### [[Sweep from Electric Chair]] (2% of attempts)
+
+### [[Electric Chair Finish]] (2% of attempts)
 
 
 

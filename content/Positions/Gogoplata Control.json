@@ -585,7 +585,7 @@
     "transitions": [
       {
         "transition": "Gogoplata",
-        "attempt_probability": 28
+        "attempt_probability": 27
       },
       {
         "transition": "Closed Guard to Omoplata",
@@ -597,11 +597,15 @@
       },
       {
         "transition": "Mission Control Recovery",
-        "attempt_probability": 25
+        "attempt_probability": 24
       },
       {
         "transition": "Switch to Triangle",
         "attempt_probability": 18
+      },
+      {
+        "transition": "Gogoplata Finish",
+        "attempt_probability": 2
       }
     ]
   }

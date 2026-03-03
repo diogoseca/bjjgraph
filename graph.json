@@ -335,7 +335,7 @@
           "target": "heel-hook",
           "targetPath": "heel-hook",
           "isSubmission": true,
-          "attemptProbability": 42,
+          "attemptProbability": 40,
           "successRate": 55
         },
         {
@@ -417,6 +417,14 @@
           "isSubmission": false,
           "attemptProbability": 1,
           "successRate": 55
+        },
+        {
+          "technique": "Inside Sankaku Heel Hook Finish",
+          "target": "inside-sankaku-heel-hook-finish",
+          "targetPath": "inside-sankaku-heel-hook-finish",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 50
         }
       ]
     },
@@ -759,7 +767,7 @@
           "target": "kimura",
           "targetPath": "kimura",
           "isSubmission": true,
-          "attemptProbability": 32,
+          "attemptProbability": 30,
           "successRate": 58
         },
         {
@@ -825,6 +833,14 @@
           "isSubmission": false,
           "attemptProbability": 2,
           "successRate": 65
+        },
+        {
+          "technique": "Kimura from Kimura Trap",
+          "target": "kimura-from-kimura-trap",
+          "targetPath": "kimura-from-kimura-trap",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 50
         }
       ]
     },
@@ -943,7 +959,7 @@
           "target": "ashi-garami-escape",
           "targetPath": "ashi-garami-escape",
           "isSubmission": false,
-          "attemptProbability": 27,
+          "attemptProbability": 25,
           "successRate": 55
         },
         {
@@ -1001,6 +1017,14 @@
           "isSubmission": false,
           "attemptProbability": 4,
           "successRate": 40
+        },
+        {
+          "technique": "Straight Ankle Lock",
+          "target": "straight-ankle-lock",
+          "targetPath": "straight-ankle-lock",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 58
         }
       ]
     },
@@ -1111,7 +1135,7 @@
           "target": "finish-buggy-choke",
           "targetPath": "finish-buggy-choke",
           "isSubmission": false,
-          "attemptProbability": 45,
+          "attemptProbability": 41,
           "successRate": 58
         },
         {
@@ -1183,7 +1207,7 @@
           "target": "buggy-choke-to-north-south",
           "targetPath": "buggy-choke-to-north-south",
           "isSubmission": false,
-          "attemptProbability": 0,
+          "attemptProbability": 1,
           "successRate": 55
         },
         {
@@ -1191,7 +1215,7 @@
           "target": "buggy-choke-to-side-control",
           "targetPath": "buggy-choke-to-side-control",
           "isSubmission": false,
-          "attemptProbability": 0,
+          "attemptProbability": 1,
           "successRate": 58
         },
         {
@@ -1201,6 +1225,14 @@
           "isSubmission": false,
           "attemptProbability": 1,
           "successRate": 55
+        },
+        {
+          "technique": "Buggy Choke Finish",
+          "target": "buggy-choke-finish",
+          "targetPath": "buggy-choke-finish",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 45
         }
       ]
     },
@@ -1731,7 +1763,7 @@
           "target": "x-guard-sweep",
           "targetPath": "x-guard-sweep",
           "isSubmission": false,
-          "attemptProbability": 38,
+          "attemptProbability": 36,
           "successRate": 58
         },
         {
@@ -1797,6 +1829,14 @@
           "isSubmission": false,
           "attemptProbability": 1,
           "successRate": 55
+        },
+        {
+          "technique": "Ankle Lock from X-Guard",
+          "target": "ankle-lock-from-x-guard",
+          "targetPath": "ankle-lock-from-x-guard",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 40
         }
       ]
     },
@@ -2143,7 +2183,7 @@
           "target": "rear-naked-choke",
           "targetPath": "rear-naked-choke",
           "isSubmission": true,
-          "attemptProbability": 64,
+          "attemptProbability": 49,
           "successRate": 58
         },
         {
@@ -2151,7 +2191,7 @@
           "target": "back-control-maintenance",
           "targetPath": "back-control-maintenance",
           "isSubmission": false,
-          "attemptProbability": 16,
+          "attemptProbability": 15,
           "successRate": 70
         },
         {
@@ -2215,7 +2255,7 @@
           "target": "rear-naked-choke-setup",
           "targetPath": "rear-naked-choke-setup",
           "isSubmission": false,
-          "attemptProbability": 0,
+          "attemptProbability": 1,
           "successRate": 65
         },
         {
@@ -2223,7 +2263,7 @@
           "target": "kimura-from-back",
           "targetPath": "kimura-from-back",
           "isSubmission": false,
-          "attemptProbability": 0,
+          "attemptProbability": 1,
           "successRate": 58
         },
         {
@@ -2231,7 +2271,7 @@
           "target": "triangle-from-back",
           "targetPath": "triangle-from-back",
           "isSubmission": false,
-          "attemptProbability": 0,
+          "attemptProbability": 1,
           "successRate": 55
         },
         {
@@ -2239,7 +2279,7 @@
           "target": "standing-back-control-entry",
           "targetPath": "standing-back-control-entry",
           "isSubmission": false,
-          "attemptProbability": 0,
+          "attemptProbability": 1,
           "successRate": 55
         },
         {
@@ -2247,7 +2287,7 @@
           "target": "mat-return-to-back-mount",
           "targetPath": "mat-return-to-back-mount",
           "isSubmission": false,
-          "attemptProbability": 0,
+          "attemptProbability": 1,
           "successRate": 58
         },
         {
@@ -2255,7 +2295,7 @@
           "target": "back-control-to-seat-belt-control-back",
           "targetPath": "back-control-to-seat-belt-control-back",
           "isSubmission": false,
-          "attemptProbability": 0,
+          "attemptProbability": 1,
           "successRate": 70
         },
         {
@@ -2263,7 +2303,7 @@
           "target": "gift-wrap-control",
           "targetPath": "gift-wrap-control",
           "isSubmission": false,
-          "attemptProbability": 0,
+          "attemptProbability": 1,
           "successRate": 58
         },
         {
@@ -2271,7 +2311,7 @@
           "target": "back-control-to-cross-body-ride",
           "targetPath": "back-control-to-cross-body-ride",
           "isSubmission": false,
-          "attemptProbability": 0,
+          "attemptProbability": 1,
           "successRate": 65
         },
         {
@@ -2279,7 +2319,7 @@
           "target": "back-control-to-reverse-half-guard",
           "targetPath": "back-control-to-reverse-half-guard",
           "isSubmission": false,
-          "attemptProbability": 0,
+          "attemptProbability": 1,
           "successRate": 55
         },
         {
@@ -2287,7 +2327,7 @@
           "target": "restore-back-control",
           "targetPath": "restore-back-control",
           "isSubmission": false,
-          "attemptProbability": 0,
+          "attemptProbability": 1,
           "successRate": 65
         },
         {
@@ -2297,6 +2337,30 @@
           "isSubmission": false,
           "attemptProbability": 1,
           "successRate": 60
+        },
+        {
+          "technique": "Armbar from Back",
+          "target": "armbar-from-back",
+          "targetPath": "armbar-from-back",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 60
+        },
+        {
+          "technique": "Armbar from Back with Legs",
+          "target": "armbar-from-back-with-legs",
+          "targetPath": "armbar-from-back-with-legs",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 58
+        },
+        {
+          "technique": "Triangle Choke Back",
+          "target": "triangle-choke-back",
+          "targetPath": "triangle-choke-back",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 58
         }
       ]
     },
@@ -2439,7 +2503,7 @@
           "target": "side-control-to-mount",
           "targetPath": "side-control-to-mount",
           "isSubmission": false,
-          "attemptProbability": 25,
+          "attemptProbability": 21,
           "successRate": 68
         },
         {
@@ -2447,7 +2511,7 @@
           "target": "americana",
           "targetPath": "americana",
           "isSubmission": true,
-          "attemptProbability": 14,
+          "attemptProbability": 11,
           "successRate": 55
         },
         {
@@ -2455,7 +2519,7 @@
           "target": "kimura",
           "targetPath": "kimura",
           "isSubmission": true,
-          "attemptProbability": 12,
+          "attemptProbability": 10,
           "successRate": 58
         },
         {
@@ -2463,7 +2527,7 @@
           "target": "knee-on-belly",
           "targetPath": "knee-on-belly",
           "isSubmission": false,
-          "attemptProbability": 12,
+          "attemptProbability": 10,
           "successRate": 68
         },
         {
@@ -2471,7 +2535,7 @@
           "target": "side-control-to-north-south",
           "targetPath": "side-control-to-north-south",
           "isSubmission": false,
-          "attemptProbability": 8,
+          "attemptProbability": 7,
           "successRate": 78
         },
         {
@@ -2479,7 +2543,7 @@
           "target": "arm-triangle",
           "targetPath": "arm-triangle",
           "isSubmission": true,
-          "attemptProbability": 8,
+          "attemptProbability": 7,
           "successRate": 58
         },
         {
@@ -2487,7 +2551,7 @@
           "target": "armbar-finish",
           "targetPath": "armbar-finish",
           "isSubmission": false,
-          "attemptProbability": 4,
+          "attemptProbability": 3,
           "successRate": 58
         },
         {
@@ -2495,7 +2559,7 @@
           "target": "side-control-to-kesa-gatame",
           "targetPath": "side-control-to-kesa-gatame",
           "isSubmission": false,
-          "attemptProbability": 4,
+          "attemptProbability": 3,
           "successRate": 72
         },
         {
@@ -2503,7 +2567,7 @@
           "target": "side-control-to-side-control-consolidation",
           "targetPath": "side-control-to-side-control-consolidation",
           "isSubmission": false,
-          "attemptProbability": 3,
+          "attemptProbability": 2,
           "successRate": 70
         },
         {
@@ -2511,7 +2575,7 @@
           "target": "side-control-to-shoulder-of-justice",
           "targetPath": "side-control-to-shoulder-of-justice",
           "isSubmission": false,
-          "attemptProbability": 3,
+          "attemptProbability": 2,
           "successRate": 70
         },
         {
@@ -2519,7 +2583,7 @@
           "target": "north-south-choke",
           "targetPath": "north-south-choke",
           "isSubmission": true,
-          "attemptProbability": 3,
+          "attemptProbability": 2,
           "successRate": 55
         },
         {
@@ -2537,6 +2601,78 @@
           "isSubmission": false,
           "attemptProbability": 2,
           "successRate": 70
+        },
+        {
+          "technique": "Americana from Side Control",
+          "target": "americana-from-side-control",
+          "targetPath": "americana-from-side-control",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 68
+        },
+        {
+          "technique": "Arm Crush",
+          "target": "arm-crush",
+          "targetPath": "arm-crush",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 52
+        },
+        {
+          "technique": "Armbar from Side Control",
+          "target": "armbar-from-side-control",
+          "targetPath": "armbar-from-side-control",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 62
+        },
+        {
+          "technique": "Far Side Armbar",
+          "target": "far-side-armbar",
+          "targetPath": "far-side-armbar",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 58
+        },
+        {
+          "technique": "Kimura from Side Control",
+          "target": "kimura-from-side-control",
+          "targetPath": "kimura-from-side-control",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 62
+        },
+        {
+          "technique": "Kneebar from Top",
+          "target": "kneebar-from-top",
+          "targetPath": "kneebar-from-top",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 55
+        },
+        {
+          "technique": "Marce Choke",
+          "target": "marce-choke",
+          "targetPath": "marce-choke",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 58
+        },
+        {
+          "technique": "Mir Lock",
+          "target": "mir-lock",
+          "targetPath": "mir-lock",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 58
+        },
+        {
+          "technique": "Triangle Choke Side",
+          "target": "triangle-choke-side",
+          "targetPath": "triangle-choke-side",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 59
         }
       ]
     },
@@ -2791,7 +2927,7 @@
           "target": "double-leg-entry",
           "targetPath": "double-leg-entry",
           "isSubmission": false,
-          "attemptProbability": 12,
+          "attemptProbability": 10,
           "successRate": 60
         },
         {
@@ -2897,6 +3033,14 @@
           "isSubmission": false,
           "attemptProbability": 2,
           "successRate": 55
+        },
+        {
+          "technique": "Standing Guillotine from Clinch",
+          "target": "standing-guillotine-from-clinch",
+          "targetPath": "standing-guillotine-from-clinch",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 40
         }
       ]
     },
@@ -2983,7 +3127,7 @@
           "target": "knee-slice-pass",
           "targetPath": "knee-slice-pass",
           "isSubmission": false,
-          "attemptProbability": 30,
+          "attemptProbability": 28,
           "successRate": 68
         },
         {
@@ -3105,6 +3249,14 @@
           "isSubmission": false,
           "attemptProbability": 2,
           "successRate": 60
+        },
+        {
+          "technique": "Suloev Stretch",
+          "target": "suloev-stretch",
+          "targetPath": "suloev-stretch",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 60
         }
       ]
     },
@@ -3123,7 +3275,7 @@
           "target": "underhook-sweep-from-half",
           "targetPath": "underhook-sweep-from-half",
           "isSubmission": false,
-          "attemptProbability": 22,
+          "attemptProbability": 18,
           "successRate": 58
         },
         {
@@ -3245,6 +3397,22 @@
           "isSubmission": false,
           "attemptProbability": 2,
           "successRate": 55
+        },
+        {
+          "technique": "Buggy Choke",
+          "target": "buggy-choke",
+          "targetPath": "buggy-choke",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 52
+        },
+        {
+          "technique": "Kneebar from Half Guard",
+          "target": "kneebar-from-half-guard",
+          "targetPath": "kneebar-from-half-guard",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 60
         }
       ]
     },
@@ -3263,7 +3431,7 @@
           "target": "turtle-to-back-control",
           "targetPath": "turtle-to-back-control",
           "isSubmission": false,
-          "attemptProbability": 55,
+          "attemptProbability": 51,
           "successRate": 60
         },
         {
@@ -3319,7 +3487,7 @@
           "target": "cross-body-to-back-control",
           "targetPath": "cross-body-to-back-control",
           "isSubmission": false,
-          "attemptProbability": 0,
+          "attemptProbability": 1,
           "successRate": 55
         },
         {
@@ -3327,7 +3495,7 @@
           "target": "cross-body-to-side-control",
           "targetPath": "cross-body-to-side-control",
           "isSubmission": false,
-          "attemptProbability": 0,
+          "attemptProbability": 1,
           "successRate": 55
         },
         {
@@ -3336,6 +3504,14 @@
           "targetPath": "twister-entry",
           "isSubmission": false,
           "attemptProbability": 1,
+          "successRate": 50
+        },
+        {
+          "technique": "Short Choke from Cross Body",
+          "target": "short-choke-from-cross-body",
+          "targetPath": "short-choke-from-cross-body",
+          "isSubmission": true,
+          "attemptProbability": 2,
           "successRate": 50
         }
       ]
@@ -3439,7 +3615,7 @@
           "target": "armbar-finish",
           "targetPath": "armbar-finish",
           "isSubmission": false,
-          "attemptProbability": 53,
+          "attemptProbability": 51,
           "successRate": 58
         },
         {
@@ -3497,6 +3673,14 @@
           "isSubmission": false,
           "attemptProbability": 1,
           "successRate": 55
+        },
+        {
+          "technique": "Belly Down Armbar Finish",
+          "target": "belly-down-armbar-finish",
+          "targetPath": "belly-down-armbar-finish",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 50
         }
       ]
     },
@@ -3907,7 +4091,7 @@
           "target": "gogoplata",
           "targetPath": "gogoplata",
           "isSubmission": true,
-          "attemptProbability": 28,
+          "attemptProbability": 27,
           "successRate": 50
         },
         {
@@ -3931,7 +4115,7 @@
           "target": "mission-control-recovery",
           "targetPath": "mission-control-recovery",
           "isSubmission": false,
-          "attemptProbability": 25,
+          "attemptProbability": 24,
           "successRate": 58
         },
         {
@@ -3941,6 +4125,14 @@
           "isSubmission": false,
           "attemptProbability": 18,
           "successRate": 55
+        },
+        {
+          "technique": "Gogoplata Finish",
+          "target": "gogoplata-finish",
+          "targetPath": "gogoplata-finish",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 45
         }
       ]
     },
@@ -4703,7 +4895,7 @@
           "target": "turtle-to-back-take",
           "targetPath": "turtle-to-back-take",
           "isSubmission": false,
-          "attemptProbability": 31,
+          "attemptProbability": 28,
           "successRate": 68
         },
         {
@@ -4711,7 +4903,7 @@
           "target": "crab-ride-to-back",
           "targetPath": "crab-ride-to-back",
           "isSubmission": false,
-          "attemptProbability": 13,
+          "attemptProbability": 12,
           "successRate": 72
         },
         {
@@ -4785,6 +4977,22 @@
           "isSubmission": false,
           "attemptProbability": 1,
           "successRate": 55
+        },
+        {
+          "technique": "Calf Slicer from Rodeo Ride",
+          "target": "calf-slicer-from-rodeo-ride",
+          "targetPath": "calf-slicer-from-rodeo-ride",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 40
+        },
+        {
+          "technique": "Rear Naked Choke from Rodeo",
+          "target": "rear-naked-choke-from-rodeo",
+          "targetPath": "rear-naked-choke-from-rodeo",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 50
         }
       ]
     },
@@ -4895,7 +5103,7 @@
           "target": "guard-pull",
           "targetPath": "guard-pull",
           "isSubmission": false,
-          "attemptProbability": 21,
+          "attemptProbability": 17,
           "successRate": 75
         },
         {
@@ -5105,6 +5313,22 @@
           "isSubmission": false,
           "attemptProbability": 1,
           "successRate": 60
+        },
+        {
+          "technique": "Flying Kneebar",
+          "target": "flying-kneebar",
+          "targetPath": "flying-kneebar",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 40
+        },
+        {
+          "technique": "Kimura from Standing",
+          "target": "kimura-from-standing",
+          "targetPath": "kimura-from-standing",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 58
         }
       ]
     },
@@ -5399,7 +5623,7 @@
           "target": "mount-to-armbar",
           "targetPath": "mount-to-armbar",
           "isSubmission": false,
-          "attemptProbability": 8,
+          "attemptProbability": 7,
           "successRate": 55
         },
         {
@@ -5407,7 +5631,7 @@
           "target": "americana",
           "targetPath": "americana",
           "isSubmission": true,
-          "attemptProbability": 5,
+          "attemptProbability": 4,
           "successRate": 55
         },
         {
@@ -5415,7 +5639,7 @@
           "target": "cross-collar-choke",
           "targetPath": "cross-collar-choke",
           "isSubmission": true,
-          "attemptProbability": 5,
+          "attemptProbability": 4,
           "successRate": 58
         },
         {
@@ -5423,7 +5647,7 @@
           "target": "gift-wrap-to-technical-mount",
           "targetPath": "gift-wrap-to-technical-mount",
           "isSubmission": false,
-          "attemptProbability": 5,
+          "attemptProbability": 4,
           "successRate": 62
         },
         {
@@ -5431,7 +5655,7 @@
           "target": "s-mount-transition",
           "targetPath": "s-mount-transition",
           "isSubmission": false,
-          "attemptProbability": 4,
+          "attemptProbability": 3,
           "successRate": 58
         },
         {
@@ -5439,7 +5663,7 @@
           "target": "high-mount-transition",
           "targetPath": "high-mount-transition",
           "isSubmission": false,
-          "attemptProbability": 7,
+          "attemptProbability": 6,
           "successRate": 58
         },
         {
@@ -5455,7 +5679,7 @@
           "target": "consolidate-mount",
           "targetPath": "consolidate-mount",
           "isSubmission": false,
-          "attemptProbability": 50,
+          "attemptProbability": 41,
           "successRate": 58
         },
         {
@@ -5487,8 +5711,72 @@
           "target": "mount-to-technical-mount",
           "targetPath": "mount-to-technical-mount",
           "isSubmission": false,
-          "attemptProbability": 4,
+          "attemptProbability": 3,
           "successRate": 55
+        },
+        {
+          "technique": "Americana from Mount",
+          "target": "americana-from-mount",
+          "targetPath": "americana-from-mount",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 68
+        },
+        {
+          "technique": "Armbar from Mount",
+          "target": "armbar-from-mount",
+          "targetPath": "armbar-from-mount",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 68
+        },
+        {
+          "technique": "Ezekiel Choke",
+          "target": "ezekiel-choke",
+          "targetPath": "ezekiel-choke",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 58
+        },
+        {
+          "technique": "Ezekiel from Mount",
+          "target": "ezekiel-from-mount",
+          "targetPath": "ezekiel-from-mount",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 62
+        },
+        {
+          "technique": "Kimura from Mount",
+          "target": "kimura-from-mount",
+          "targetPath": "kimura-from-mount",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 72
+        },
+        {
+          "technique": "Loop Choke",
+          "target": "loop-choke",
+          "targetPath": "loop-choke",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 58
+        },
+        {
+          "technique": "Loop Choke from Mount",
+          "target": "loop-choke-from-mount",
+          "targetPath": "loop-choke-from-mount",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 58
+        },
+        {
+          "technique": "Monoplata from Mount",
+          "target": "monoplata-from-mount",
+          "targetPath": "monoplata-from-mount",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 48
         }
       ]
     },
@@ -7138,7 +7426,7 @@
           "target": "turtle-to-back-take",
           "targetPath": "turtle-to-back-take",
           "isSubmission": false,
-          "attemptProbability": 18,
+          "attemptProbability": 16,
           "successRate": 68
         },
         {
@@ -7156,6 +7444,14 @@
           "isSubmission": false,
           "attemptProbability": 5,
           "successRate": 55
+        },
+        {
+          "technique": "Russian Cowboy RNC",
+          "target": "russian-cowboy-rnc",
+          "targetPath": "russian-cowboy-rnc",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 50
         }
       ]
     },
@@ -7258,7 +7554,7 @@
           "target": "side-control-to-mount",
           "targetPath": "side-control-to-mount",
           "isSubmission": false,
-          "attemptProbability": 37,
+          "attemptProbability": 33,
           "successRate": 68
         },
         {
@@ -7340,6 +7636,22 @@
           "isSubmission": false,
           "attemptProbability": 1,
           "successRate": 55
+        },
+        {
+          "technique": "Armbar from Knee on Belly",
+          "target": "armbar-from-knee-on-belly",
+          "targetPath": "armbar-from-knee-on-belly",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 45
+        },
+        {
+          "technique": "Cross Collar Choke from KOB",
+          "target": "cross-collar-choke-from-kob",
+          "targetPath": "cross-collar-choke-from-kob",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 42
         }
       ]
     },
@@ -8094,7 +8406,7 @@
           "target": "de-la-riva-to-x-guard-transition",
           "targetPath": "de-la-riva-to-x-guard-transition",
           "isSubmission": false,
-          "attemptProbability": 23,
+          "attemptProbability": 21,
           "successRate": 65
         },
         {
@@ -8176,6 +8488,14 @@
           "isSubmission": false,
           "attemptProbability": 2,
           "successRate": 45
+        },
+        {
+          "technique": "Triangle from De La Riva",
+          "target": "triangle-from-de-la-riva",
+          "targetPath": "triangle-from-de-la-riva",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 52
         }
       ]
     },
@@ -8362,7 +8682,7 @@
           "target": "back-take",
           "targetPath": "back-take",
           "isSubmission": false,
-          "attemptProbability": 18,
+          "attemptProbability": 16,
           "successRate": 58
         },
         {
@@ -8444,6 +8764,14 @@
           "isSubmission": false,
           "attemptProbability": 5,
           "successRate": 65
+        },
+        {
+          "technique": "Standing RNC from Rear Clinch",
+          "target": "standing-rnc-from-rear-clinch",
+          "targetPath": "standing-rnc-from-rear-clinch",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 35
         }
       ]
     },
@@ -8718,7 +9046,7 @@
           "target": "triangle-setup",
           "targetPath": "triangle-setup",
           "isSubmission": false,
-          "attemptProbability": 34,
+          "attemptProbability": 30,
           "successRate": 60
         },
         {
@@ -8808,6 +9136,22 @@
           "isSubmission": true,
           "attemptProbability": 1,
           "successRate": 50
+        },
+        {
+          "technique": "Omoplata from Spider Guard",
+          "target": "omoplata-from-spider-guard",
+          "targetPath": "omoplata-from-spider-guard",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 40
+        },
+        {
+          "technique": "Triangle from Spider Guard Bottom",
+          "target": "triangle-from-spider-guard-bottom",
+          "targetPath": "triangle-from-spider-guard-bottom",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 40
         }
       ]
     },
@@ -8826,7 +9170,7 @@
           "target": "guillotine-setup",
           "targetPath": "guillotine-setup",
           "isSubmission": false,
-          "attemptProbability": 14,
+          "attemptProbability": 13,
           "successRate": 60
         },
         {
@@ -8834,7 +9178,7 @@
           "target": "anaconda-setup",
           "targetPath": "anaconda-setup",
           "isSubmission": false,
-          "attemptProbability": 13,
+          "attemptProbability": 12,
           "successRate": 65
         },
         {
@@ -8842,7 +9186,7 @@
           "target": "darce-setup",
           "targetPath": "darce-setup",
           "isSubmission": false,
-          "attemptProbability": 13,
+          "attemptProbability": 12,
           "successRate": 52
         },
         {
@@ -8850,7 +9194,7 @@
           "target": "front-headlock-to-back",
           "targetPath": "front-headlock-to-back",
           "isSubmission": false,
-          "attemptProbability": 15,
+          "attemptProbability": 12,
           "successRate": 68
         },
         {
@@ -8916,6 +9260,30 @@
           "isSubmission": true,
           "attemptProbability": 4,
           "successRate": 58
+        },
+        {
+          "technique": "Brabo Choke",
+          "target": "brabo-choke",
+          "targetPath": "brabo-choke",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 58
+        },
+        {
+          "technique": "Chin Strap Guillotine",
+          "target": "chin-strap-guillotine",
+          "targetPath": "chin-strap-guillotine",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 58
+        },
+        {
+          "technique": "Peruvian Necktie",
+          "target": "peruvian-necktie",
+          "targetPath": "peruvian-necktie",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 52
         }
       ]
     },
@@ -9922,7 +10290,7 @@
           "target": "kimura",
           "targetPath": "kimura",
           "isSubmission": true,
-          "attemptProbability": 20,
+          "attemptProbability": 18,
           "successRate": 58
         },
         {
@@ -9988,6 +10356,14 @@
           "isSubmission": false,
           "attemptProbability": 3,
           "successRate": 55
+        },
+        {
+          "technique": "Kimura from Shoulder of Justice",
+          "target": "kimura-from-shoulder-of-justice",
+          "targetPath": "kimura-from-shoulder-of-justice",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 50
         }
       ]
     },
@@ -10366,7 +10742,7 @@
           "target": "butterfly-sweep",
           "targetPath": "butterfly-sweep",
           "isSubmission": false,
-          "attemptProbability": 27,
+          "attemptProbability": 25,
           "successRate": 62
         },
         {
@@ -10504,6 +10880,14 @@
           "isSubmission": false,
           "attemptProbability": 1,
           "successRate": 50
+        },
+        {
+          "technique": "Triangle from Open Guard",
+          "target": "triangle-from-open-guard",
+          "targetPath": "triangle-from-open-guard",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 40
         }
       ]
     },
@@ -10522,7 +10906,7 @@
           "target": "estima-lock",
           "targetPath": "estima-lock",
           "isSubmission": true,
-          "attemptProbability": 37,
+          "attemptProbability": 35,
           "successRate": 58
         },
         {
@@ -10572,6 +10956,14 @@
           "isSubmission": false,
           "attemptProbability": 2,
           "successRate": 45
+        },
+        {
+          "technique": "Estima Lock Finish",
+          "target": "estima-lock-finish",
+          "targetPath": "estima-lock-finish",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 50
         }
       ]
     },
@@ -11538,7 +11930,7 @@
           "target": "leg-drag-pass-to-side-control",
           "targetPath": "leg-drag-pass-to-side-control",
           "isSubmission": false,
-          "attemptProbability": 24,
+          "attemptProbability": 22,
           "successRate": 58
         },
         {
@@ -11604,6 +11996,14 @@
           "isSubmission": false,
           "attemptProbability": 7,
           "successRate": 58
+        },
+        {
+          "technique": "Darce from Leg Drag",
+          "target": "darce-from-leg-drag",
+          "targetPath": "darce-from-leg-drag",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 45
         }
       ]
     },
@@ -12114,7 +12514,7 @@
           "target": "turtle-to-back-control",
           "targetPath": "turtle-to-back-control",
           "isSubmission": false,
-          "attemptProbability": 65,
+          "attemptProbability": 61,
           "successRate": 60
         },
         {
@@ -12212,6 +12612,22 @@
           "isSubmission": false,
           "attemptProbability": 1,
           "successRate": 60
+        },
+        {
+          "technique": "Belly Down Armbar",
+          "target": "belly-down-armbar",
+          "targetPath": "belly-down-armbar",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 60
+        },
+        {
+          "technique": "Kimura from Turtle",
+          "target": "kimura-from-turtle",
+          "targetPath": "kimura-from-turtle",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 62
         }
       ]
     },
@@ -13398,7 +13814,7 @@
           "target": "butterfly-sweep",
           "targetPath": "butterfly-sweep",
           "isSubmission": false,
-          "attemptProbability": 42,
+          "attemptProbability": 40,
           "successRate": 62
         },
         {
@@ -13504,6 +13920,14 @@
           "isSubmission": false,
           "attemptProbability": 2,
           "successRate": 68
+        },
+        {
+          "technique": "Guillotine from Butterfly Guard",
+          "target": "guillotine-from-butterfly-guard",
+          "targetPath": "guillotine-from-butterfly-guard",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 45
         }
       ]
     },
@@ -13522,7 +13946,7 @@
           "target": "rear-naked-choke",
           "targetPath": "rear-naked-choke",
           "isSubmission": true,
-          "attemptProbability": 36,
+          "attemptProbability": 33,
           "successRate": 58
         },
         {
@@ -13538,7 +13962,7 @@
           "target": "gift-wrap-to-technical-mount",
           "targetPath": "gift-wrap-to-technical-mount",
           "isSubmission": false,
-          "attemptProbability": 14,
+          "attemptProbability": 13,
           "successRate": 62
         },
         {
@@ -13588,6 +14012,22 @@
           "isSubmission": false,
           "attemptProbability": 3,
           "successRate": 60
+        },
+        {
+          "technique": "Gift Wrap Armbar",
+          "target": "gift-wrap-armbar",
+          "targetPath": "gift-wrap-armbar",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 50
+        },
+        {
+          "technique": "Gift Wrap RNC",
+          "target": "gift-wrap-rnc",
+          "targetPath": "gift-wrap-rnc",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 55
         }
       ]
     },
@@ -14346,7 +14786,7 @@
           "target": "anaconda-choke",
           "targetPath": "anaconda-choke",
           "isSubmission": true,
-          "attemptProbability": 37,
+          "attemptProbability": 35,
           "successRate": 58
         },
         {
@@ -14396,6 +14836,14 @@
           "isSubmission": false,
           "attemptProbability": 2,
           "successRate": 55
+        },
+        {
+          "technique": "Anaconda Finish from Dead Orchard",
+          "target": "anaconda-finish-from-dead-orchard",
+          "targetPath": "anaconda-finish-from-dead-orchard",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 50
         }
       ]
     },
@@ -14714,7 +15162,7 @@
           "target": "posture-recovery",
           "targetPath": "posture-recovery",
           "isSubmission": false,
-          "attemptProbability": 33,
+          "attemptProbability": 32,
           "successRate": 75
         },
         {
@@ -14722,7 +15170,7 @@
           "target": "guard-opening-sequence",
           "targetPath": "guard-opening-sequence",
           "isSubmission": false,
-          "attemptProbability": 28,
+          "attemptProbability": 27,
           "successRate": 55
         },
         {
@@ -14764,6 +15212,14 @@
           "isSubmission": false,
           "attemptProbability": 2,
           "successRate": 55
+        },
+        {
+          "technique": "Can Opener",
+          "target": "can-opener",
+          "targetPath": "can-opener",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 30
         }
       ]
     },
@@ -14782,7 +15238,7 @@
           "target": "hip-bump-sweep",
           "targetPath": "hip-bump-sweep",
           "isSubmission": false,
-          "attemptProbability": 33,
+          "attemptProbability": 25,
           "successRate": 60
         },
         {
@@ -14790,7 +15246,7 @@
           "target": "armbar-from-guard",
           "targetPath": "armbar-from-guard",
           "isSubmission": true,
-          "attemptProbability": 11,
+          "attemptProbability": 10,
           "successRate": 62
         },
         {
@@ -14798,7 +15254,7 @@
           "target": "scissor-sweep",
           "targetPath": "scissor-sweep",
           "isSubmission": false,
-          "attemptProbability": 9,
+          "attemptProbability": 8,
           "successRate": 75
         },
         {
@@ -14806,7 +15262,7 @@
           "target": "triangle-setup",
           "targetPath": "triangle-setup",
           "isSubmission": false,
-          "attemptProbability": 9,
+          "attemptProbability": 8,
           "successRate": 60
         },
         {
@@ -14814,7 +15270,7 @@
           "target": "cross-collar-choke",
           "targetPath": "cross-collar-choke",
           "isSubmission": true,
-          "attemptProbability": 7,
+          "attemptProbability": 6,
           "successRate": 58
         },
         {
@@ -14910,7 +15366,7 @@
           "target": "omoplata-to-back",
           "targetPath": "omoplata-to-back",
           "isSubmission": false,
-          "attemptProbability": 0,
+          "attemptProbability": 1,
           "successRate": 60
         },
         {
@@ -14918,7 +15374,7 @@
           "target": "muscle-sweep",
           "targetPath": "muscle-sweep",
           "isSubmission": false,
-          "attemptProbability": 0,
+          "attemptProbability": 1,
           "successRate": 60
         },
         {
@@ -14926,7 +15382,7 @@
           "target": "closed-guard-to-overhook-guard",
           "targetPath": "closed-guard-to-overhook-guard",
           "isSubmission": false,
-          "attemptProbability": 0,
+          "attemptProbability": 1,
           "successRate": 65
         },
         {
@@ -14934,7 +15390,7 @@
           "target": "high-guard-to-rubber-guard",
           "targetPath": "high-guard-to-rubber-guard",
           "isSubmission": false,
-          "attemptProbability": 0,
+          "attemptProbability": 1,
           "successRate": 55
         },
         {
@@ -14944,6 +15400,38 @@
           "isSubmission": false,
           "attemptProbability": 1,
           "successRate": 45
+        },
+        {
+          "technique": "Rolling Armbar",
+          "target": "rolling-armbar",
+          "targetPath": "rolling-armbar",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 60
+        },
+        {
+          "technique": "Spinning Armbar",
+          "target": "spinning-armbar",
+          "targetPath": "spinning-armbar",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 60
+        },
+        {
+          "technique": "Tarikoplata",
+          "target": "tarikoplata",
+          "targetPath": "tarikoplata",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 45
+        },
+        {
+          "technique": "Triangle from Closed Guard",
+          "target": "triangle-from-closed-guard",
+          "targetPath": "triangle-from-closed-guard",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 65
         }
       ]
     },
@@ -14970,7 +15458,7 @@
           "target": "back-take",
           "targetPath": "back-take",
           "isSubmission": false,
-          "attemptProbability": 14,
+          "attemptProbability": 12,
           "successRate": 58
         },
         {
@@ -15052,6 +15540,14 @@
           "isSubmission": false,
           "attemptProbability": 3,
           "successRate": 55
+        },
+        {
+          "technique": "Twister from Twister SC",
+          "target": "twister-from-twister-sc",
+          "targetPath": "twister-from-twister-sc",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 45
         }
       ]
     },
@@ -15154,7 +15650,7 @@
           "target": "twister-entry",
           "targetPath": "twister-entry",
           "isSubmission": false,
-          "attemptProbability": 15,
+          "attemptProbability": 14,
           "successRate": 50
         },
         {
@@ -15178,7 +15674,7 @@
           "target": "rolling-back-take",
           "targetPath": "rolling-back-take",
           "isSubmission": false,
-          "attemptProbability": 25,
+          "attemptProbability": 22,
           "successRate": 72
         },
         {
@@ -15236,6 +15732,22 @@
           "isSubmission": false,
           "attemptProbability": 3,
           "successRate": 70
+        },
+        {
+          "technique": "Banana Split",
+          "target": "banana-split",
+          "targetPath": "banana-split",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 48
+        },
+        {
+          "technique": "Calf Slicer from Truck",
+          "target": "calf-slicer-from-truck",
+          "targetPath": "calf-slicer-from-truck",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 60
         }
       ]
     },
@@ -15354,7 +15866,7 @@
           "target": "rear-naked-choke",
           "targetPath": "rear-naked-choke",
           "isSubmission": true,
-          "attemptProbability": 30,
+          "attemptProbability": 28,
           "successRate": 58
         },
         {
@@ -15436,6 +15948,14 @@
           "isSubmission": false,
           "attemptProbability": 2,
           "successRate": 55
+        },
+        {
+          "technique": "Standing RNC",
+          "target": "standing-rnc",
+          "targetPath": "standing-rnc",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 50
         }
       ]
     },
@@ -15554,7 +16074,7 @@
           "target": "triangle-clear-to-side",
           "targetPath": "triangle-clear-to-side",
           "isSubmission": false,
-          "attemptProbability": 51,
+          "attemptProbability": 49,
           "successRate": 58
         },
         {
@@ -15596,6 +16116,14 @@
           "isSubmission": false,
           "attemptProbability": 1,
           "successRate": 35
+        },
+        {
+          "technique": "Body Triangle RNC",
+          "target": "body-triangle-rnc",
+          "targetPath": "body-triangle-rnc",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 55
         }
       ]
     },
@@ -15714,7 +16242,7 @@
           "target": "rear-naked-choke",
           "targetPath": "rear-naked-choke",
           "isSubmission": true,
-          "attemptProbability": 38,
+          "attemptProbability": 35,
           "successRate": 58
         },
         {
@@ -15754,7 +16282,7 @@
           "target": "back-control-maintenance",
           "targetPath": "back-control-maintenance",
           "isSubmission": false,
-          "attemptProbability": 13,
+          "attemptProbability": 12,
           "successRate": 70
         },
         {
@@ -15811,6 +16339,22 @@
           "targetPath": "seat-belt-to-full-back-control",
           "isSubmission": false,
           "attemptProbability": 1,
+          "successRate": 55
+        },
+        {
+          "technique": "Bow and Arrow from Seat Belt",
+          "target": "bow-and-arrow-from-seat-belt",
+          "targetPath": "bow-and-arrow-from-seat-belt",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 50
+        },
+        {
+          "technique": "RNC from Seat Belt",
+          "target": "rnc-from-seat-belt",
+          "targetPath": "rnc-from-seat-belt",
+          "isSubmission": true,
+          "attemptProbability": 2,
           "successRate": 55
         }
       ]
@@ -18250,7 +18794,7 @@
           "target": "side-control-to-mount",
           "targetPath": "side-control-to-mount",
           "isSubmission": false,
-          "attemptProbability": 26,
+          "attemptProbability": 24,
           "successRate": 68
         },
         {
@@ -18308,6 +18852,14 @@
           "isSubmission": false,
           "attemptProbability": 3,
           "successRate": 55
+        },
+        {
+          "technique": "Americana from Reverse Kesa",
+          "target": "americana-from-reverse-kesa",
+          "targetPath": "americana-from-reverse-kesa",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 50
         }
       ]
     },
@@ -18402,7 +18954,7 @@
           "target": "side-control-to-north-south",
           "targetPath": "side-control-to-north-south",
           "isSubmission": false,
-          "attemptProbability": 24,
+          "attemptProbability": 22,
           "successRate": 78
         },
         {
@@ -18468,6 +19020,14 @@
           "isSubmission": false,
           "attemptProbability": 2,
           "successRate": 60
+        },
+        {
+          "technique": "North-South Choke from Reverse Scarf",
+          "target": "north-south-choke-from-reverse-scarf",
+          "targetPath": "north-south-choke-from-reverse-scarf",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 42
         }
       ]
     },
@@ -18594,7 +19154,7 @@
           "target": "side-control-to-mount",
           "targetPath": "side-control-to-mount",
           "isSubmission": false,
-          "attemptProbability": 23,
+          "attemptProbability": 21,
           "successRate": 68
         },
         {
@@ -18644,6 +19204,14 @@
           "isSubmission": false,
           "attemptProbability": 2,
           "successRate": 55
+        },
+        {
+          "technique": "Kimura from Modified Scarf Hold",
+          "target": "kimura-from-modified-scarf-hold",
+          "targetPath": "kimura-from-modified-scarf-hold",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 50
         }
       ]
     },
@@ -18762,7 +19330,7 @@
           "target": "side-control-to-mount",
           "targetPath": "side-control-to-mount",
           "isSubmission": false,
-          "attemptProbability": 33,
+          "attemptProbability": 31,
           "successRate": 68
         },
         {
@@ -18836,6 +19404,14 @@
           "isSubmission": false,
           "attemptProbability": 2,
           "successRate": 55
+        },
+        {
+          "technique": "Ezekiel from Side Control Consolidation",
+          "target": "ezekiel-from-side-control-consolidation",
+          "targetPath": "ezekiel-from-side-control-consolidation",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 40
         }
       ]
     },
@@ -18970,7 +19546,7 @@
           "target": "side-control-to-mount",
           "targetPath": "side-control-to-mount",
           "isSubmission": false,
-          "attemptProbability": 15,
+          "attemptProbability": 14,
           "successRate": 68
         },
         {
@@ -18978,7 +19554,7 @@
           "target": "side-control-to-north-south",
           "targetPath": "side-control-to-north-south",
           "isSubmission": false,
-          "attemptProbability": 35,
+          "attemptProbability": 32,
           "successRate": 78
         },
         {
@@ -19004,6 +19580,22 @@
           "isSubmission": false,
           "attemptProbability": 2,
           "successRate": 65
+        },
+        {
+          "technique": "Americana from Kesa Gatame",
+          "target": "americana-from-kesa-gatame",
+          "targetPath": "americana-from-kesa-gatame",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 50
+        },
+        {
+          "technique": "Kesa Gatame Arm Crush",
+          "target": "kesa-gatame-arm-crush",
+          "targetPath": "kesa-gatame-arm-crush",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 45
         }
       ]
     },
@@ -19130,7 +19722,7 @@
           "target": "side-control-to-north-south",
           "targetPath": "side-control-to-north-south",
           "isSubmission": false,
-          "attemptProbability": 26,
+          "attemptProbability": 24,
           "successRate": 78
         },
         {
@@ -19164,6 +19756,14 @@
           "isSubmission": false,
           "attemptProbability": 3,
           "successRate": 55
+        },
+        {
+          "technique": "Arm Triangle from Scarf Hold",
+          "target": "arm-triangle-from-scarf-hold",
+          "targetPath": "arm-triangle-from-scarf-hold",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 50
         }
       ]
     },
@@ -19686,7 +20286,7 @@
           "target": "old-school-sweep",
           "targetPath": "old-school-sweep",
           "isSubmission": false,
-          "attemptProbability": 74,
+          "attemptProbability": 72,
           "successRate": 46
         },
         {
@@ -19720,6 +20320,14 @@
           "isSubmission": false,
           "attemptProbability": 2,
           "successRate": 48
+        },
+        {
+          "technique": "Electric Chair Finish",
+          "target": "electric-chair-finish",
+          "targetPath": "electric-chair-finish",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 42
         }
       ]
     },
@@ -20406,7 +21014,7 @@
           "target": "whip-up-sweep",
           "targetPath": "whip-up-sweep",
           "isSubmission": false,
-          "attemptProbability": 28,
+          "attemptProbability": 26,
           "successRate": 58
         },
         {
@@ -20496,6 +21104,14 @@
           "isSubmission": false,
           "attemptProbability": 4,
           "successRate": 58
+        },
+        {
+          "technique": "Crotch Ripper",
+          "target": "crotch-ripper",
+          "targetPath": "crotch-ripper",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 42
         }
       ]
     },
@@ -21066,7 +21682,7 @@
           "target": "mount-to-armbar",
           "targetPath": "mount-to-armbar",
           "isSubmission": false,
-          "attemptProbability": 39,
+          "attemptProbability": 37,
           "successRate": 55
         },
         {
@@ -21132,6 +21748,14 @@
           "isSubmission": false,
           "attemptProbability": 2,
           "successRate": 55
+        },
+        {
+          "technique": "Americana from 3-4 Mount",
+          "target": "americana-from-3-4-mount",
+          "targetPath": "americana-from-3-4-mount",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 45
         }
       ]
     },
@@ -21226,7 +21850,7 @@
           "target": "triangle-choke",
           "targetPath": "triangle-choke",
           "isSubmission": true,
-          "attemptProbability": 24,
+          "attemptProbability": 22,
           "successRate": 65
         },
         {
@@ -21316,6 +21940,14 @@
           "isSubmission": false,
           "attemptProbability": 2,
           "successRate": 55
+        },
+        {
+          "technique": "Mounted Triangle Finish",
+          "target": "mounted-triangle-finish",
+          "targetPath": "mounted-triangle-finish",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 50
         }
       ]
     },
@@ -21434,7 +22066,7 @@
           "target": "armbar-finish",
           "targetPath": "armbar-finish",
           "isSubmission": false,
-          "attemptProbability": 18,
+          "attemptProbability": 16,
           "successRate": 58
         },
         {
@@ -21516,6 +22148,14 @@
           "isSubmission": false,
           "attemptProbability": 3,
           "successRate": 58
+        },
+        {
+          "technique": "Mounted Crucifix Armbar",
+          "target": "mounted-crucifix-armbar",
+          "targetPath": "mounted-crucifix-armbar",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 50
         }
       ]
     },
@@ -21626,7 +22266,7 @@
           "target": "mount-to-armbar",
           "targetPath": "mount-to-armbar",
           "isSubmission": false,
-          "attemptProbability": 36,
+          "attemptProbability": 34,
           "successRate": 55
         },
         {
@@ -21690,6 +22330,14 @@
           "target": "s-mount-to-mounted-triangle",
           "targetPath": "s-mount-to-mounted-triangle",
           "isSubmission": false,
+          "attemptProbability": 2,
+          "successRate": 55
+        },
+        {
+          "technique": "Armbar from S Mount",
+          "target": "armbar-from-s-mount",
+          "targetPath": "armbar-from-s-mount",
+          "isSubmission": true,
           "attemptProbability": 2,
           "successRate": 55
         }
@@ -21930,7 +22578,7 @@
           "target": "mount-to-armbar",
           "targetPath": "mount-to-armbar",
           "isSubmission": false,
-          "attemptProbability": 54,
+          "attemptProbability": 50,
           "successRate": 55
         },
         {
@@ -21938,7 +22586,7 @@
           "target": "back-take",
           "targetPath": "back-take",
           "isSubmission": false,
-          "attemptProbability": 21,
+          "attemptProbability": 20,
           "successRate": 58
         },
         {
@@ -21986,7 +22634,7 @@
           "target": "technical-mount-to-mount",
           "targetPath": "technical-mount-to-mount",
           "isSubmission": false,
-          "attemptProbability": 0,
+          "attemptProbability": 1,
           "successRate": 55
         },
         {
@@ -21995,6 +22643,22 @@
           "targetPath": "technical-mount-to-s-mount",
           "isSubmission": false,
           "attemptProbability": 1,
+          "successRate": 55
+        },
+        {
+          "technique": "Americana from Technical Mount",
+          "target": "americana-from-technical-mount",
+          "targetPath": "americana-from-technical-mount",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 45
+        },
+        {
+          "technique": "Armbar from Technical Mount",
+          "target": "armbar-from-technical-mount",
+          "targetPath": "armbar-from-technical-mount",
+          "isSubmission": true,
+          "attemptProbability": 2,
           "successRate": 55
         }
       ]
@@ -22090,7 +22754,7 @@
           "target": "mount-to-armbar",
           "targetPath": "mount-to-armbar",
           "isSubmission": false,
-          "attemptProbability": 24,
+          "attemptProbability": 21,
           "successRate": 55
         },
         {
@@ -22098,7 +22762,7 @@
           "target": "cross-collar-choke",
           "targetPath": "cross-collar-choke",
           "isSubmission": true,
-          "attemptProbability": 13,
+          "attemptProbability": 12,
           "successRate": 58
         },
         {
@@ -22172,6 +22836,22 @@
           "isSubmission": false,
           "attemptProbability": 3,
           "successRate": 55
+        },
+        {
+          "technique": "Armbar from High Mount",
+          "target": "armbar-from-high-mount",
+          "targetPath": "armbar-from-high-mount",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 50
+        },
+        {
+          "technique": "Cross Collar Choke from High Mount",
+          "target": "cross-collar-choke-from-high-mount",
+          "targetPath": "cross-collar-choke-from-high-mount",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 50
         }
       ]
     },
@@ -22958,7 +23638,7 @@
           "target": "straight-ankle-lock-entry",
           "targetPath": "straight-ankle-lock-entry",
           "isSubmission": false,
-          "attemptProbability": 41,
+          "attemptProbability": 38,
           "successRate": 58
         },
         {
@@ -23038,7 +23718,7 @@
           "target": "leg-extraction-from-inside-ashi",
           "targetPath": "leg-extraction-from-inside-ashi",
           "isSubmission": false,
-          "attemptProbability": 0,
+          "attemptProbability": 1,
           "successRate": 50
         },
         {
@@ -23048,6 +23728,14 @@
           "isSubmission": false,
           "attemptProbability": 1,
           "successRate": 55
+        },
+        {
+          "technique": "Achilles Lock",
+          "target": "achilles-lock",
+          "targetPath": "achilles-lock",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 58
         }
       ]
     },
@@ -23066,7 +23754,7 @@
           "target": "heel-hook",
           "targetPath": "heel-hook",
           "isSubmission": true,
-          "attemptProbability": 35,
+          "attemptProbability": 31,
           "successRate": 55
         },
         {
@@ -23156,6 +23844,22 @@
           "isSubmission": false,
           "attemptProbability": 5,
           "successRate": 60
+        },
+        {
+          "technique": "Calf Slicer from 50-50",
+          "target": "calf-slicer-from-50-50",
+          "targetPath": "calf-slicer-from-50-50",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 42
+        },
+        {
+          "technique": "Kneebar from 50-50",
+          "target": "kneebar-from-50-50",
+          "targetPath": "kneebar-from-50-50",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 60
         }
       ]
     },
@@ -23190,7 +23894,7 @@
           "target": "50-50-guard-to-single-leg-x-guard",
           "targetPath": "50-50-guard-to-single-leg-x-guard",
           "isSubmission": false,
-          "attemptProbability": 24,
+          "attemptProbability": 22,
           "successRate": 55
         },
         {
@@ -23232,6 +23936,14 @@
           "isSubmission": false,
           "attemptProbability": 5,
           "successRate": 58
+        },
+        {
+          "technique": "Toe Hold from 50-50",
+          "target": "toe-hold-from-50-50",
+          "targetPath": "toe-hold-from-50-50",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 60
         }
       ]
     },
@@ -23258,7 +23970,7 @@
           "target": "follow-to-back-control",
           "targetPath": "follow-to-back-control",
           "isSubmission": false,
-          "attemptProbability": 18,
+          "attemptProbability": 16,
           "successRate": 58
         },
         {
@@ -23316,6 +24028,14 @@
           "isSubmission": true,
           "attemptProbability": 8,
           "successRate": 55
+        },
+        {
+          "technique": "Heel Hook from Ushiro Ashi",
+          "target": "heel-hook-from-ushiro-ashi",
+          "targetPath": "heel-hook-from-ushiro-ashi",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 45
         }
       ]
     },
@@ -23634,7 +24354,7 @@
           "target": "heel-hook",
           "targetPath": "heel-hook",
           "isSubmission": true,
-          "attemptProbability": 20,
+          "attemptProbability": 18,
           "successRate": 55
         },
         {
@@ -23716,6 +24436,14 @@
           "isSubmission": false,
           "attemptProbability": 4,
           "successRate": 58
+        },
+        {
+          "technique": "Outside Heel Hook from Backside 50-50",
+          "target": "outside-heel-hook-from-backside-50-50",
+          "targetPath": "outside-heel-hook-from-backside-50-50",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 45
         }
       ]
     },
@@ -24482,7 +25210,7 @@
           "target": "rear-triangle-choke-finish",
           "targetPath": "rear-triangle-choke-finish",
           "isSubmission": false,
-          "attemptProbability": 24,
+          "attemptProbability": 22,
           "successRate": 55
         },
         {
@@ -24540,6 +25268,14 @@
           "isSubmission": false,
           "attemptProbability": 3,
           "successRate": 58
+        },
+        {
+          "technique": "Rear Triangle Choke",
+          "target": "rear-triangle-choke",
+          "targetPath": "rear-triangle-choke",
+          "isSubmission": true,
+          "attemptProbability": 2,
+          "successRate": 50
         }
       ]
     },
@@ -112141,7 +112877,7 @@
     }
   },
   "meta": {
-    "generated": "2026-03-03T19:24:48.520033Z",
+    "generated": "2026-03-03T20:42:35.259364Z",
     "positionCount": 277,
     "transitionCount": 1072,
     "submissionCount": 153

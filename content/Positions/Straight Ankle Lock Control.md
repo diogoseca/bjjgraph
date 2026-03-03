@@ -180,7 +180,7 @@ The position also serves an important pedagogical function in teaching fundament
 ### Available Transitions
 
 
-- **[[Ashi Garami Escape]]** (27% of attempts)
+- **[[Ashi Garami Escape]]** (25% of attempts)
 
 - **[[Counter Entry to Opponent's Leg]]** (14% of attempts)
 
@@ -195,6 +195,8 @@ The position also serves an important pedagogical function in teaching fundament
 - **[[Counter-entangle to 50-50 Guard]]** (9% of attempts)
 
 - **[[Counter from Ankle Lock]]** (4% of attempts)
+
+- **[[Straight Ankle Lock]]** (2% of attempts)
 
 
 ### Common Mistakes

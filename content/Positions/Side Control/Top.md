@@ -21,37 +21,37 @@ description: "Master Side Control Top in BJJ. Complete guide to submissions, tra
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 21% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Americana",
-      "text": "From this position, attempt Americana. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Americana. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura",
-      "text": "From this position, attempt Kimura. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Kimura. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee on Belly",
-      "text": "From this position, attempt Knee on Belly. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Knee on Belly. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Triangle",
-      "text": "From this position, attempt Arm Triangle. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Arm Triangle. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -205,31 +205,49 @@ Side Control Top is one of the most fundamental and dominant positions in Brazil
 
 ## Available Attacks
 
-### [[Side Control to Mount]] (25% of attempts)
+### [[Side Control to Mount]] (21% of attempts)
 
-### [[Americana]] (14% of attempts)
+### [[Americana]] (11% of attempts)
 
-### [[Kimura]] (12% of attempts)
+### [[Kimura]] (10% of attempts)
 
-### [[Knee on Belly]] (12% of attempts)
+### [[Knee on Belly]] (10% of attempts)
 
-### [[Side Control to North-South]] (8% of attempts)
+### [[Side Control to North-South]] (7% of attempts)
 
-### [[Arm Triangle]] (8% of attempts)
+### [[Arm Triangle]] (7% of attempts)
 
-### [[Armbar Finish]] (4% of attempts)
+### [[Armbar Finish]] (3% of attempts)
 
-### [[Side Control to Kesa Gatame]] (4% of attempts)
+### [[Side Control to Kesa Gatame]] (3% of attempts)
 
-### [[Side Control to Side Control Consolidation]] (3% of attempts)
+### [[Side Control to Side Control Consolidation]] (2% of attempts)
 
-### [[Side Control to Shoulder of Justice]] (3% of attempts)
+### [[Side Control to Shoulder of Justice]] (2% of attempts)
 
-### [[North-South Choke]] (3% of attempts)
+### [[North-South Choke]] (2% of attempts)
 
 ### [[Breadcutter Choke]] (2% of attempts)
 
 ### [[Side Control to Scarf Hold Position]] (2% of attempts)
+
+### [[Americana from Side Control]] (2% of attempts)
+
+### [[Arm Crush]] (2% of attempts)
+
+### [[Armbar from Side Control]] (2% of attempts)
+
+### [[Far Side Armbar]] (2% of attempts)
+
+### [[Kimura from Side Control]] (2% of attempts)
+
+### [[Kneebar from Top]] (2% of attempts)
+
+### [[Marce Choke]] (2% of attempts)
+
+### [[Mir Lock]] (2% of attempts)
+
+### [[Triangle Choke Side]] (2% of attempts)
 
 
 

@@ -317,7 +317,7 @@
     "transitions": [
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": 33
+        "attempt_probability": 31
       },
       {
         "transition": "Side Control to North-South",
@@ -353,6 +353,10 @@
       },
       {
         "transition": "Consolidation to Mount",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Ezekiel from Side Control Consolidation",
         "attempt_probability": 2
       }
     ]

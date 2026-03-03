@@ -581,7 +581,7 @@
     "transitions": [
       {
         "transition": "Triangle Setup",
-        "attempt_probability": 34
+        "attempt_probability": 30
       },
       {
         "transition": "Omoplata Sweep",
@@ -626,6 +626,14 @@
       {
         "transition": "Triangle from Spider Guard",
         "attempt_probability": 1
+      },
+      {
+        "transition": "Omoplata from Spider Guard",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Triangle from Spider Guard Bottom",
+        "attempt_probability": 2
       }
     ],
     "knowledge_assessment": [

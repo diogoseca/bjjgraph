@@ -21,7 +21,7 @@ description: "Master 50-50 Guard Top position in BJJ. Complete guide covering le
     {
       "@type": "HowToStep",
       "name": "Execute Heel Hook",
-      "text": "From this position, attempt Heel Hook. This technique is attempted in 35% of exchanges from this position.",
+      "text": "From this position, attempt Heel Hook. This technique is attempted in 31% of exchanges from this position.",
       "position": 1
     },
     {
@@ -209,7 +209,7 @@ The 50-50 Guard Top is particularly effective in no-gi competition where heel ho
 
 ## Available Attacks
 
-### [[Heel Hook]] (35% of attempts)
+### [[Heel Hook]] (31% of attempts)
 
 ### [[Kneebar entry]] (7% of attempts)
 
@@ -232,6 +232,10 @@ The 50-50 Guard Top is particularly effective in no-gi competition where heel ho
 ### [[Saddle Entry from Top]] (9% of attempts)
 
 ### [[50-50 Guard to Backside 50-50]] (5% of attempts)
+
+### [[Calf Slicer from 50-50]] (2% of attempts)
+
+### [[Kneebar from 50-50]] (2% of attempts)
 
 
 

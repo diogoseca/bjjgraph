@@ -285,7 +285,7 @@
     "transitions": [
       {
         "transition": "Triangle Choke",
-        "attempt_probability": 24
+        "attempt_probability": 22
       },
       {
         "transition": "Armbar Finish",
@@ -329,6 +329,10 @@
       },
       {
         "transition": "Mounted Triangle to S Mount",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Mounted Triangle Finish",
         "attempt_probability": 2
       }
     ],

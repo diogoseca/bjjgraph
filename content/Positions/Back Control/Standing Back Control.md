@@ -172,7 +172,7 @@ The position frequently occurs during scrambles, failed takedown attempts, succe
 ### Available Transitions
 
 
-- **[[Rear Naked Choke]]** (30% of attempts)
+- **[[Rear Naked Choke]]** (28% of attempts)
 
 - **[[Takedown to Grounded Back Control]]** (18% of attempts)
 
@@ -193,6 +193,8 @@ The position frequently occurs during scrambles, failed takedown attempts, succe
 - **[[Back Control to Seat Belt Control Back]]** (2% of attempts)
 
 - **[[Bow and Arrow Setup from Standing Back]]** (2% of attempts)
+
+- **[[Standing RNC]]** (2% of attempts)
 
 
 ### Common Mistakes

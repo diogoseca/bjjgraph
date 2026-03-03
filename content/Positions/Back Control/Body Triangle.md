@@ -178,7 +178,7 @@ From this position, you maintain upper body control with your arms while your le
 
 - **[[Frame and Shrimp to Guard]]** (9% of attempts)
 
-- **[[Triangle Clear to Side]]** (51% of attempts)
+- **[[Triangle Clear to Side]]** (49% of attempts)
 
 - **[[Standing up in Base]]** (5% of attempts)
 
@@ -189,6 +189,8 @@ From this position, you maintain upper body control with your arms while your le
 - **[[Back Door Escape]]** (9% of attempts)
 
 - **[[Body Triangle Squeeze]]** (1% of attempts)
+
+- **[[Body Triangle RNC]]** (2% of attempts)
 
 
 ### Common Mistakes

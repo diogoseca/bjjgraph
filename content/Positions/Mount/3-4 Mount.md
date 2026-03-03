@@ -170,7 +170,7 @@ The position scores 4 points in IBJJF competition when held from top, placing it
 ### Available Transitions
 
 
-- **[[Mount to Armbar]]** (39% of attempts)
+- **[[Mount to Armbar]]** (37% of attempts)
 
 - **[[Mounted Triangle]]** (8% of attempts)
 
@@ -187,6 +187,8 @@ The position scores 4 points in IBJJF competition when held from top, placing it
 - **[[3-4 Mount to S Mount]]** (3% of attempts)
 
 - **[[3-4 Mount to Technical Mount]]** (2% of attempts)
+
+- **[[Americana from 3-4 Mount]]** (2% of attempts)
 
 
 ### Common Mistakes

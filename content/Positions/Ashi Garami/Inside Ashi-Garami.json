@@ -631,7 +631,7 @@
       },
       {
         "transition": "Straight Ankle Lock Entry",
-        "attempt_probability": 41
+        "attempt_probability": 38
       },
       {
         "transition": "Saddle Entry from Top",
@@ -671,11 +671,15 @@
       },
       {
         "transition": "Leg Extraction from Inside Ashi",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Standing Up from Inside Ashi",
         "attempt_probability": 1
+      },
+      {
+        "transition": "Achilles Lock",
+        "attempt_probability": 2
       }
     ]
   }

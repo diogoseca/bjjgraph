@@ -184,15 +184,19 @@ Kesa Gatame functions as a positional hub within the side control family, offeri
 
 - **[[North-South Choke]]** (8% of attempts)
 
-- **[[Side Control to Mount]]** (15% of attempts)
+- **[[Side Control to Mount]]** (14% of attempts)
 
-- **[[Side Control to North-South]]** (35% of attempts)
+- **[[Side Control to North-South]]** (32% of attempts)
 
 - **[[Arm Triangle]]** (7% of attempts)
 
 - **[[Kesa Gatame to Modified Scarf Hold]]** (2% of attempts)
 
 - **[[Kesa Gatame to Reverse Kesa-Gatame]]** (2% of attempts)
+
+- **[[Americana from Kesa Gatame]]** (2% of attempts)
+
+- **[[Kesa Gatame Arm Crush]]** (2% of attempts)
 
 
 ### Common Mistakes

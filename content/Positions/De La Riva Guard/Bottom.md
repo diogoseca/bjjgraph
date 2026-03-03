@@ -27,7 +27,7 @@ description: "Master De La Riva Guard Bottom in BJJ. Hook-based offensive guard 
     {
       "@type": "HowToStep",
       "name": "Execute De La Riva to X-Guard Transition",
-      "text": "From this position, attempt De La Riva to X-Guard Transition. This technique is attempted in 23% of exchanges from this position.",
+      "text": "From this position, attempt De La Riva to X-Guard Transition. This technique is attempted in 21% of exchanges from this position.",
       "position": 2
     },
     {
@@ -208,7 +208,7 @@ The guard's strategic depth lies in the dilemma structure it creates. When the t
 
 ### [[De La Riva Sweep]] (11% of attempts)
 
-### [[De La Riva to X-Guard Transition]] (23% of attempts)
+### [[De La Riva to X-Guard Transition]] (21% of attempts)
 
 ### [[Berimbolo Entry]] (12% of attempts)
 
@@ -229,6 +229,8 @@ The guard's strategic depth lies in the dilemma structure it creates. When the t
 ### [[Omoplata]] (4% of attempts)
 
 ### [[Triangle Setup from De La Riva]] (2% of attempts)
+
+### [[Triangle from De La Riva]] (2% of attempts)
 
 
 

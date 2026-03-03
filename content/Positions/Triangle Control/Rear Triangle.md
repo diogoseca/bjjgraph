@@ -172,7 +172,7 @@ The strategic significance of the rear triangle lies in its ability to create su
 ### Available Transitions
 
 
-- **[[Rear Triangle Choke Finish]]** (24% of attempts)
+- **[[Rear Triangle Choke Finish]]** (22% of attempts)
 
 - **[[Armbar from Back Transition]]** (14% of attempts)
 
@@ -187,6 +187,8 @@ The strategic significance of the rear triangle lies in its ability to create su
 - **[[Rear Triangle to Armbar]]** (6% of attempts)
 
 - **[[Back Control to Crucifix]]** (3% of attempts)
+
+- **[[Rear Triangle Choke]]** (2% of attempts)
 
 
 ### Common Mistakes

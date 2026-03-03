@@ -310,7 +310,7 @@
     "transitions": [
       {
         "transition": "Leg Drag Pass to Side Control",
-        "attempt_probability": 24
+        "attempt_probability": 22
       },
       {
         "transition": "Leg Drag to Back Take",
@@ -343,6 +343,10 @@
       {
         "transition": "Leg Drag to Darce Setup",
         "attempt_probability": 7
+      },
+      {
+        "transition": "Darce from Leg Drag",
+        "attempt_probability": 2
       }
     ]
   },

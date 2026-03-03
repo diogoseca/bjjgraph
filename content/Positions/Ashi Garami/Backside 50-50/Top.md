@@ -21,7 +21,7 @@ description: "Master Backside 50-50 Top in BJJ. Complete guide covering dominant
     {
       "@type": "HowToStep",
       "name": "Execute Heel Hook",
-      "text": "From this position, attempt Heel Hook. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Heel Hook. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
@@ -211,7 +211,7 @@ Backside 50-50 Top is commonly seen in no-gi competition and leg lock-focused tr
 
 ## Available Attacks
 
-### [[Heel Hook]] (20% of attempts)
+### [[Heel Hook]] (18% of attempts)
 
 ### [[Outside Heel Hook]] (10% of attempts)
 
@@ -232,6 +232,8 @@ Backside 50-50 Top is commonly seen in no-gi competition and leg lock-focused tr
 ### [[Inside Ashi-Garami to Honey Hole]] (6% of attempts)
 
 ### [[Counter heel hook]] (4% of attempts)
+
+### [[Outside Heel Hook from Backside 50-50]] (2% of attempts)
 
 
 

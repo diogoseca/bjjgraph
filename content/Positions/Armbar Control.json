@@ -284,7 +284,7 @@
     "transitions": [
       {
         "transition": "Armbar Finish",
-        "attempt_probability": 53
+        "attempt_probability": 51
       },
       {
         "transition": "Triangle Setup",
@@ -313,6 +313,10 @@
       {
         "transition": "Triangle from Armbar",
         "attempt_probability": 1
+      },
+      {
+        "transition": "Belly Down Armbar Finish",
+        "attempt_probability": 2
       }
     ],
     "knowledge_assessment": [

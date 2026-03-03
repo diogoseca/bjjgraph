@@ -170,7 +170,7 @@ Scarf Hold Position represents a transitional control platform rather than purel
 
 - **[[Side Control to Mount]]** (15% of attempts)
 
-- **[[Side Control to North-South]]** (26% of attempts)
+- **[[Side Control to North-South]]** (24% of attempts)
 
 - **[[Armbar Finish]]** (11% of attempts)
 
@@ -179,6 +179,8 @@ Scarf Hold Position represents a transitional control platform rather than purel
 - **[[Scarf Hold to Mount]]** (5% of attempts)
 
 - **[[Scarf Hold to Side Control]]** (3% of attempts)
+
+- **[[Arm Triangle from Scarf Hold]]** (2% of attempts)
 
 
 ### Common Mistakes

@@ -557,7 +557,7 @@
     "transitions": [
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 74
+        "attempt_probability": 72
       },
       {
         "transition": "Deep Half Entry",
@@ -573,6 +573,10 @@
       },
       {
         "transition": "Sweep from Electric Chair",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Electric Chair Finish",
         "attempt_probability": 2
       }
     ]

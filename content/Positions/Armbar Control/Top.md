@@ -21,7 +21,7 @@ description: "Master armbar control from top position in BJJ. Learn arm isolatio
     {
       "@type": "HowToStep",
       "name": "Execute Armbar Finish",
-      "text": "From this position, attempt Armbar Finish. This technique is attempted in 53% of exchanges from this position.",
+      "text": "From this position, attempt Armbar Finish. This technique is attempted in 51% of exchanges from this position.",
       "position": 1
     },
     {
@@ -210,7 +210,7 @@ Armbar Control Top is accessible from multiple positions including mount, guard,
 
 ## Available Attacks
 
-### [[Armbar Finish]] (53% of attempts)
+### [[Armbar Finish]] (51% of attempts)
 
 ### [[Triangle Setup]] (21% of attempts)
 
@@ -225,6 +225,8 @@ Armbar Control Top is accessible from multiple positions including mount, guard,
 ### [[Belly Down Armbar Transition]] (1% of attempts)
 
 ### [[Triangle from Armbar]] (1% of attempts)
+
+### [[Belly Down Armbar Finish]] (2% of attempts)
 
 
 

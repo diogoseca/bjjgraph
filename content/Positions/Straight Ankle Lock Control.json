@@ -306,7 +306,7 @@
     "transitions": [
       {
         "transition": "Ashi Garami Escape",
-        "attempt_probability": 27
+        "attempt_probability": 25
       },
       {
         "transition": "Counter Entry to Opponent's Leg",
@@ -335,6 +335,10 @@
       {
         "transition": "Counter from Ankle Lock",
         "attempt_probability": 4
+      },
+      {
+        "transition": "Straight Ankle Lock",
+        "attempt_probability": 2
       }
     ]
   },

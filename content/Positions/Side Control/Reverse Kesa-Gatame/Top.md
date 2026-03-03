@@ -21,7 +21,7 @@ description: "Master Reverse Kesa-Gatame Top in BJJ. Complete guide covering con
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 26% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 24% of exchanges from this position.",
       "position": 1
     },
     {
@@ -206,7 +206,7 @@ Reverse Kesa-Gatame Top is a dominant pinning position where the top practitione
 
 ## Available Attacks
 
-### [[Side Control to Mount]] (26% of attempts)
+### [[Side Control to Mount]] (24% of attempts)
 
 ### [[Side Control to North-South]] (15% of attempts)
 
@@ -221,6 +221,8 @@ Reverse Kesa-Gatame Top is a dominant pinning position where the top practitione
 ### [[Reverse Kesa to North-South]] (5% of attempts)
 
 ### [[Reverse Kesa to Side Control]] (3% of attempts)
+
+### [[Americana from Reverse Kesa]] (2% of attempts)
 
 
 

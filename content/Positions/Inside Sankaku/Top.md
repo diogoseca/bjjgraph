@@ -21,7 +21,7 @@ description: "Master Inside Sankaku top perspective. Complete control mechanics,
     {
       "@type": "HowToStep",
       "name": "Execute Heel Hook",
-      "text": "From this position, attempt Heel Hook. This technique is attempted in 42% of exchanges from this position.",
+      "text": "From this position, attempt Heel Hook. This technique is attempted in 40% of exchanges from this position.",
       "position": 1
     },
     {
@@ -208,7 +208,7 @@ Inside Sankaku from the top perspective represents one of the most dominant and 
 
 ## Available Attacks
 
-### [[Heel Hook]] (42% of attempts)
+### [[Heel Hook]] (40% of attempts)
 
 ### [[Toe Hold]] (10% of attempts)
 
@@ -229,6 +229,8 @@ Inside Sankaku from the top perspective represents one of the most dominant and 
 ### [[Inside Sankaku Heel Hook]] (1% of attempts)
 
 ### [[Inside Sankaku to Saddle]] (1% of attempts)
+
+### [[Inside Sankaku Heel Hook Finish]] (2% of attempts)
 
 
 

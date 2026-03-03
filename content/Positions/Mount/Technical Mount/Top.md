@@ -21,13 +21,13 @@ description: "Master Technical Mount Top in BJJ. Complete offensive guide coveri
     {
       "@type": "HowToStep",
       "name": "Execute Mount to Armbar",
-      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 54% of exchanges from this position.",
+      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 50% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 21% of exchanges from this position.",
+      "text": "From this position, attempt Back Take. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
@@ -211,9 +211,9 @@ This position represents a critical junction in mount offense where the practiti
 
 ## Available Attacks
 
-### [[Mount to Armbar]] (54% of attempts)
+### [[Mount to Armbar]] (50% of attempts)
 
-### [[Back Take]] (21% of attempts)
+### [[Back Take]] (20% of attempts)
 
 ### [[Consolidate Mount]] (10% of attempts)
 
@@ -225,9 +225,13 @@ This position represents a critical junction in mount offense where the practiti
 
 ### [[Technical Mount to Back Control]] (1% of attempts)
 
-### [[Technical Mount to Mount]] (0% of attempts)
+### [[Technical Mount to Mount]] (1% of attempts)
 
 ### [[Technical Mount to S Mount]] (1% of attempts)
+
+### [[Americana from Technical Mount]] (2% of attempts)
+
+### [[Armbar from Technical Mount]] (2% of attempts)
 
 
 

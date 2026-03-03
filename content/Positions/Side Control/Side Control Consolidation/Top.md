@@ -21,7 +21,7 @@ description: "Master Side Control Consolidation Top position with 80% retention 
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 33% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 31% of exchanges from this position.",
       "position": 1
     },
     {
@@ -210,7 +210,7 @@ Mastery of Side Control Consolidation Top separates intermediate from advanced p
 
 ## Available Attacks
 
-### [[Side Control to Mount]] (33% of attempts)
+### [[Side Control to Mount]] (31% of attempts)
 
 ### [[Side Control to North-South]] (10% of attempts)
 
@@ -229,6 +229,8 @@ Mastery of Side Control Consolidation Top separates intermediate from advanced p
 ### [[Consolidation to Knee on Belly]] (3% of attempts)
 
 ### [[Consolidation to Mount]] (2% of attempts)
+
+### [[Ezekiel from Side Control Consolidation]] (2% of attempts)
 
 
 

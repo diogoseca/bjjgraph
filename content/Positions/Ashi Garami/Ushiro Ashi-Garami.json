@@ -299,7 +299,7 @@
       },
       {
         "transition": "Follow to Back Control",
-        "attempt_probability": 18
+        "attempt_probability": 16
       },
       {
         "transition": "Ankle Lock Finish",
@@ -328,6 +328,10 @@
       {
         "transition": "Toe Hold",
         "attempt_probability": 8
+      },
+      {
+        "transition": "Heel Hook from Ushiro Ashi",
+        "attempt_probability": 2
       }
     ]
   },

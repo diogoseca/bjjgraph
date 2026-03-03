@@ -184,7 +184,7 @@ Competition applicability is high, particularly in gi competitions where the pos
 
 - **[[Armbar Finish]]** (10% of attempts)
 
-- **[[Side Control to Mount]]** (23% of attempts)
+- **[[Side Control to Mount]]** (21% of attempts)
 
 - **[[Side Control to North-South]]** (12% of attempts)
 
@@ -197,6 +197,8 @@ Competition applicability is high, particularly in gi competitions where the pos
 - **[[Modified Scarf to Kesa Gatame]]** (4% of attempts)
 
 - **[[Modified Scarf to Mount]]** (2% of attempts)
+
+- **[[Kimura from Modified Scarf Hold]]** (2% of attempts)
 
 
 ### Common Mistakes

@@ -105,7 +105,7 @@
     "transitions": [
       {
         "transition": "Guard Pull",
-        "attempt_probability": 21
+        "attempt_probability": 17
       },
       {
         "transition": "Double Leg Setup",
@@ -210,6 +210,14 @@
       {
         "transition": "Tai Otoshi",
         "attempt_probability": 1
+      },
+      {
+        "transition": "Flying Kneebar",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Kimura from Standing",
+        "attempt_probability": 2
       }
     ],
     "decision_tree": [

@@ -39,7 +39,7 @@ description: "Master Scarf Hold Top (Kesa Gatame) in BJJ. Traditional judo pinni
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 26% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 24% of exchanges from this position.",
       "position": 4
     },
     {
@@ -211,7 +211,7 @@ Scarf Hold Top Position (Kesa Gatame) is a classical pinning position derived fr
 
 ### [[Side Control to Mount]] (15% of attempts)
 
-### [[Side Control to North-South]] (26% of attempts)
+### [[Side Control to North-South]] (24% of attempts)
 
 ### [[Armbar Finish]] (11% of attempts)
 
@@ -220,6 +220,8 @@ Scarf Hold Top Position (Kesa Gatame) is a classical pinning position derived fr
 ### [[Scarf Hold to Mount]] (5% of attempts)
 
 ### [[Scarf Hold to Side Control]] (3% of attempts)
+
+### [[Arm Triangle from Scarf Hold]] (2% of attempts)
 
 
 

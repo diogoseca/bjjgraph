@@ -323,7 +323,7 @@
     "transitions": [
       {
         "transition": "Turtle to Back Control",
-        "attempt_probability": 55
+        "attempt_probability": 51
       },
       {
         "transition": "Crucifix from Turtle",
@@ -351,15 +351,19 @@
       },
       {
         "transition": "Cross Body to Back Control",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Cross Body to Side Control",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Twister Entry",
         "attempt_probability": 1
+      },
+      {
+        "transition": "Short Choke from Cross Body",
+        "attempt_probability": 2
       }
     ]
   },

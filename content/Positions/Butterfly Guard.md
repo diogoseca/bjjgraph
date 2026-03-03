@@ -90,7 +90,7 @@ Modern butterfly guard has evolved significantly, particularly in no-gi grapplin
 ### Available Transitions
 
 
-- **[[Butterfly Sweep]]** (42% of attempts)
+- **[[Butterfly Sweep]]** (40% of attempts)
 
 - **[[Elevator Sweep]]** (7% of attempts)
 
@@ -117,6 +117,8 @@ Modern butterfly guard has evolved significantly, particularly in no-gi grapplin
 - **[[Omoplata]]** (1% of attempts)
 
 - **[[Hook Sweep]]** (2% of attempts)
+
+- **[[Guillotine from Butterfly Guard]]** (2% of attempts)
 
 
 ### Common Mistakes

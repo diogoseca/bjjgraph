@@ -176,9 +176,9 @@ Rodeo Ride is particularly effective in both gi and no-gi contexts, though the s
 ### Available Transitions
 
 
-- **[[Turtle to Back Take]]** (31% of attempts)
+- **[[Turtle to Back Take]]** (28% of attempts)
 
-- **[[Crab Ride to Back]]** (13% of attempts)
+- **[[Crab Ride to Back]]** (12% of attempts)
 
 - **[[Turtle to Truck]]** (10% of attempts)
 
@@ -197,6 +197,10 @@ Rodeo Ride is particularly effective in both gi and no-gi contexts, though the s
 - **[[Rodeo Ride to Back Control]]** (2% of attempts)
 
 - **[[Rodeo Ride to Turtle]]** (1% of attempts)
+
+- **[[Calf Slicer from Rodeo Ride]]** (2% of attempts)
+
+- **[[Rear Naked Choke from Rodeo]]** (2% of attempts)
 
 
 ### Common Mistakes

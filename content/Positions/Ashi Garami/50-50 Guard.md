@@ -93,7 +93,7 @@ The position's reputation is divided: traditionalists view it as a stalling posi
 
 - **[[Counter heel hook]]** (12% of attempts)
 
-- **[[50-50 Guard to Single Leg X-Guard]]** (24% of attempts)
+- **[[50-50 Guard to Single Leg X-Guard]]** (22% of attempts)
 
 - **[[Extract legs and stand up]]** (23% of attempts)
 
@@ -104,6 +104,8 @@ The position's reputation is divided: traditionalists view it as a stalling posi
 - **[[Toe Hold]]** (5% of attempts)
 
 - **[[Counter-entangle to 50-50 Guard]]** (5% of attempts)
+
+- **[[Toe Hold from 50-50]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -158,7 +160,7 @@ The position's reputation is divided: traditionalists view it as a stalling posi
 ### Available Transitions
 
 
-- **[[Heel Hook]]** (35% of attempts)
+- **[[Heel Hook]]** (31% of attempts)
 
 - **[[Kneebar entry]]** (7% of attempts)
 
@@ -181,6 +183,10 @@ The position's reputation is divided: traditionalists view it as a stalling posi
 - **[[Saddle Entry from Top]]** (9% of attempts)
 
 - **[[50-50 Guard to Backside 50-50]]** (5% of attempts)
+
+- **[[Calf Slicer from 50-50]]** (2% of attempts)
+
+- **[[Kneebar from 50-50]]** (2% of attempts)
 
 
 ### Common Mistakes

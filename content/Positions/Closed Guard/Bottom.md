@@ -21,31 +21,31 @@ description: "Master closed guard bottom with offensive sweeps, submissions, and
     {
       "@type": "HowToStep",
       "name": "Execute Hip Bump Sweep",
-      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 33% of exchanges from this position.",
+      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Guard",
-      "text": "From this position, attempt Armbar from Guard. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Armbar from Guard. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Scissor Sweep",
-      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Cross Collar Choke",
-      "text": "From this position, attempt Cross Collar Choke. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Cross Collar Choke. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {
@@ -208,15 +208,15 @@ Master practitioners understand that closed guard is not a passive holding posit
 
 ## Available Escapes
 
-### [[Hip Bump Sweep]] (33% of attempts)
+### [[Hip Bump Sweep]] (25% of attempts)
 
-### [[Armbar from Guard]] (11% of attempts)
+### [[Armbar from Guard]] (10% of attempts)
 
-### [[Scissor Sweep]] (9% of attempts)
+### [[Scissor Sweep]] (8% of attempts)
 
-### [[Triangle Setup]] (9% of attempts)
+### [[Triangle Setup]] (8% of attempts)
 
-### [[Cross Collar Choke]] (7% of attempts)
+### [[Cross Collar Choke]] (6% of attempts)
 
 ### [[Pendulum Sweep]] (6% of attempts)
 
@@ -240,15 +240,23 @@ Master practitioners understand that closed guard is not a passive holding posit
 
 ### [[Closed Guard to Omoplata]] (1% of attempts)
 
-### [[Omoplata to Back]] (0% of attempts)
+### [[Omoplata to Back]] (1% of attempts)
 
-### [[Muscle Sweep]] (0% of attempts)
+### [[Muscle Sweep]] (1% of attempts)
 
-### [[Closed Guard to Overhook Guard]] (0% of attempts)
+### [[Closed Guard to Overhook Guard]] (1% of attempts)
 
-### [[High Guard to Rubber Guard]] (0% of attempts)
+### [[High Guard to Rubber Guard]] (1% of attempts)
 
 ### [[Transition to Diamond Guard]] (1% of attempts)
+
+### [[Rolling Armbar]] (2% of attempts)
+
+### [[Spinning Armbar]] (2% of attempts)
+
+### [[Tarikoplata]] (2% of attempts)
+
+### [[Triangle from Closed Guard]] (2% of attempts)
 
 
 

@@ -180,7 +180,7 @@ The mounted crucifix also serves as an excellent teaching position for understan
 ### Available Transitions
 
 
-- **[[Armbar Finish]]** (18% of attempts)
+- **[[Armbar Finish]]** (16% of attempts)
 
 - **[[Rear Naked Choke]]** (10% of attempts)
 
@@ -201,6 +201,8 @@ The mounted crucifix also serves as an excellent teaching position for understan
 - **[[Back Take from Top]]** (10% of attempts)
 
 - **[[Seat Belt Control Back]]** (3% of attempts)
+
+- **[[Mounted Crucifix Armbar]]** (2% of attempts)
 
 
 ### Common Mistakes

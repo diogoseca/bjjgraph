@@ -21,7 +21,7 @@ description: "Master Reverse Scarf Hold Top (Ushiro Kesa Gatame). Complete guide
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 24% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 22% of exchanges from this position.",
       "position": 1
     },
     {
@@ -209,7 +209,7 @@ This position is particularly effective against opponents unfamiliar with the co
 
 ## Available Attacks
 
-### [[Side Control to North-South]] (24% of attempts)
+### [[Side Control to North-South]] (22% of attempts)
 
 ### [[Side Control to Mount]] (13% of attempts)
 
@@ -226,6 +226,8 @@ This position is particularly effective against opponents unfamiliar with the co
 ### [[Reverse Scarf to North-South]] (4% of attempts)
 
 ### [[Reverse Scarf to Side Control]] (2% of attempts)
+
+### [[North-South Choke from Reverse Scarf]] (2% of attempts)
 
 
 

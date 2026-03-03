@@ -170,7 +170,7 @@ Strategically, Reverse Kesa-Gatame serves as an excellent transitional position 
 ### Available Transitions
 
 
-- **[[Side Control to Mount]]** (26% of attempts)
+- **[[Side Control to Mount]]** (24% of attempts)
 
 - **[[Side Control to North-South]]** (15% of attempts)
 
@@ -185,6 +185,8 @@ Strategically, Reverse Kesa-Gatame serves as an excellent transitional position 
 - **[[Reverse Kesa to North-South]]** (5% of attempts)
 
 - **[[Reverse Kesa to Side Control]]** (3% of attempts)
+
+- **[[Americana from Reverse Kesa]]** (2% of attempts)
 
 
 ### Common Mistakes

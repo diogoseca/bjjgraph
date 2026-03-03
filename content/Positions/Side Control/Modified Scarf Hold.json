@@ -275,7 +275,7 @@
       },
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": 23
+        "attempt_probability": 21
       },
       {
         "transition": "Side Control to North-South",
@@ -299,6 +299,10 @@
       },
       {
         "transition": "Modified Scarf to Mount",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Kimura from Modified Scarf Hold",
         "attempt_probability": 2
       }
     ]

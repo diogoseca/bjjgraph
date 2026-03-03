@@ -170,7 +170,7 @@ Both perspectives require specialized drilling and positional understanding, as 
 ### Available Transitions
 
 
-- **[[Side Control to North-South]]** (24% of attempts)
+- **[[Side Control to North-South]]** (22% of attempts)
 
 - **[[Side Control to Mount]]** (13% of attempts)
 
@@ -187,6 +187,8 @@ Both perspectives require specialized drilling and positional understanding, as 
 - **[[Reverse Scarf to North-South]]** (4% of attempts)
 
 - **[[Reverse Scarf to Side Control]]** (2% of attempts)
+
+- **[[North-South Choke from Reverse Scarf]]** (2% of attempts)
 
 
 ### Common Mistakes

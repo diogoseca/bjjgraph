@@ -349,7 +349,7 @@
       },
       {
         "transition": "De La Riva to X-Guard Transition",
-        "attempt_probability": 23
+        "attempt_probability": 21
       },
       {
         "transition": "Berimbolo Entry",
@@ -389,6 +389,10 @@
       },
       {
         "transition": "Triangle Setup from De La Riva",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Triangle from De La Riva",
         "attempt_probability": 2
       }
     ],

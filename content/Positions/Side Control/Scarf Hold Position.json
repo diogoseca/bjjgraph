@@ -303,7 +303,7 @@
       },
       {
         "transition": "Side Control to North-South",
-        "attempt_probability": 26
+        "attempt_probability": 24
       },
       {
         "transition": "Armbar Finish",
@@ -320,6 +320,10 @@
       {
         "transition": "Scarf Hold to Side Control",
         "attempt_probability": 3
+      },
+      {
+        "transition": "Arm Triangle from Scarf Hold",
+        "attempt_probability": 2
       }
     ]
   },

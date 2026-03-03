@@ -21,7 +21,7 @@ description: "Dominate with mounted crucifix top position in BJJ. Complete guide
     {
       "@type": "HowToStep",
       "name": "Execute Armbar Finish",
-      "text": "From this position, attempt Armbar Finish. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Armbar Finish. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
@@ -216,7 +216,7 @@ From a teaching perspective, the mounted crucifix demonstrates critical concepts
 
 ## Available Attacks
 
-### [[Armbar Finish]] (18% of attempts)
+### [[Armbar Finish]] (16% of attempts)
 
 ### [[Rear Naked Choke]] (10% of attempts)
 
@@ -237,6 +237,8 @@ From a teaching perspective, the mounted crucifix demonstrates critical concepts
 ### [[Back Take from Top]] (10% of attempts)
 
 ### [[Seat Belt Control Back]] (3% of attempts)
+
+### [[Mounted Crucifix Armbar]] (2% of attempts)
 
 
 

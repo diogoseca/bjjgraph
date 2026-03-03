@@ -21,7 +21,7 @@ description: "Master Kimura Trap Top in BJJ. Dominant offensive position combini
     {
       "@type": "HowToStep",
       "name": "Execute Kimura",
-      "text": "From this position, attempt Kimura. This technique is attempted in 32% of exchanges from this position.",
+      "text": "From this position, attempt Kimura. This technique is attempted in 30% of exchanges from this position.",
       "position": 1
     },
     {
@@ -210,7 +210,7 @@ Strategically, the position is valued for its control density—the top player c
 
 ## Available Attacks
 
-### [[Kimura]] (32% of attempts)
+### [[Kimura]] (30% of attempts)
 
 ### [[North-South to Kimura]] (13% of attempts)
 
@@ -227,6 +227,8 @@ Strategically, the position is valued for its control density—the top player c
 ### [[Kimura Defense]] (3% of attempts)
 
 ### [[Kimura Trap to Reverse Scarf Hold]] (2% of attempts)
+
+### [[Kimura from Kimura Trap]] (2% of attempts)
 
 
 

@@ -21,7 +21,7 @@ description: "Master defensive strategies from top of straight ankle lock contro
     {
       "@type": "HowToStep",
       "name": "Execute Ashi Garami Escape",
-      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 27% of exchanges from this position.",
+      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
@@ -215,7 +215,7 @@ The psychological dimension of defending straight ankle lock control cannot be u
 
 ## Available Attacks
 
-### [[Ashi Garami Escape]] (27% of attempts)
+### [[Ashi Garami Escape]] (25% of attempts)
 
 ### [[Counter Entry to Opponent's Leg]] (14% of attempts)
 
@@ -230,6 +230,8 @@ The psychological dimension of defending straight ankle lock control cannot be u
 ### [[Counter-entangle to 50-50 Guard]] (9% of attempts)
 
 ### [[Counter from Ankle Lock]] (4% of attempts)
+
+### [[Straight Ankle Lock]] (2% of attempts)
 
 
 

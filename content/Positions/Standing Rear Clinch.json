@@ -100,7 +100,7 @@
     "transitions": [
       {
         "transition": "Back Take",
-        "attempt_probability": 18
+        "attempt_probability": 16
       },
       {
         "transition": "Body Lock Pass",
@@ -141,6 +141,10 @@
       {
         "transition": "Rear Naked Choke Setup",
         "attempt_probability": 5
+      },
+      {
+        "transition": "Standing RNC from Rear Clinch",
+        "attempt_probability": 2
       }
     ],
     "decision_tree": [

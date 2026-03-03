@@ -168,7 +168,7 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 ### Available Transitions
 
 
-- **[[Double Leg Entry]]** (12% of attempts)
+- **[[Double Leg Entry]]** (10% of attempts)
 
 - **[[Single Leg Takedown]]** (10% of attempts)
 
@@ -195,6 +195,8 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 - **[[Body Lock Takedown from Clinch]]** (2% of attempts)
 
 - **[[Two-on-One to Back Take]]** (2% of attempts)
+
+- **[[Standing Guillotine from Clinch]]** (2% of attempts)
 
 
 ### Common Mistakes

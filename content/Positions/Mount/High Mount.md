@@ -178,9 +178,9 @@ In competition contexts, High Mount represents the culmination of successful pas
 ### Available Transitions
 
 
-- **[[Mount to Armbar]]** (24% of attempts)
+- **[[Mount to Armbar]]** (21% of attempts)
 
-- **[[Cross Collar Choke]]** (13% of attempts)
+- **[[Cross Collar Choke]]** (12% of attempts)
 
 - **[[Americana]]** (9% of attempts)
 
@@ -199,6 +199,10 @@ In competition contexts, High Mount represents the culmination of successful pas
 - **[[Mounted Crucifix Entry]]** (6% of attempts)
 
 - **[[High Mount to S Mount]]** (3% of attempts)
+
+- **[[Armbar from High Mount]]** (2% of attempts)
+
+- **[[Cross Collar Choke from High Mount]]** (2% of attempts)
 
 
 ### Common Mistakes

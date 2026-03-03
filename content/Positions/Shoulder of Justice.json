@@ -321,7 +321,7 @@
     "transitions": [
       {
         "transition": "Kimura",
-        "attempt_probability": 20
+        "attempt_probability": 18
       },
       {
         "transition": "Americana",
@@ -354,6 +354,10 @@
       {
         "transition": "Shoulder of Justice to Mount",
         "attempt_probability": 3
+      },
+      {
+        "transition": "Kimura from Shoulder of Justice",
+        "attempt_probability": 2
       }
     ]
   },

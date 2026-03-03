@@ -174,7 +174,7 @@ Modern competitive grappling has elevated leg drag control from a transitional m
 ### Available Transitions
 
 
-- **[[Leg Drag Pass to Side Control]]** (24% of attempts)
+- **[[Leg Drag Pass to Side Control]]** (22% of attempts)
 
 - **[[Leg Drag to Back Take]]** (20% of attempts)
 
@@ -191,6 +191,8 @@ Modern competitive grappling has elevated leg drag control from a transitional m
 - **[[Leg Drag to Technical Mount]]** (8% of attempts)
 
 - **[[Leg Drag to Darce Setup]]** (7% of attempts)
+
+- **[[Darce from Leg Drag]]** (2% of attempts)
 
 
 ### Common Mistakes

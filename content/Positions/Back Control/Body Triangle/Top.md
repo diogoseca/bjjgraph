@@ -33,7 +33,7 @@ description: "Defend and escape body triangle position in BJJ. Strategic guide c
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Clear to Side",
-      "text": "From this position, attempt Triangle Clear to Side. This technique is attempted in 51% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Clear to Side. This technique is attempted in 49% of exchanges from this position.",
       "position": 3
     },
     {
@@ -212,7 +212,7 @@ Successful defense from body triangle top requires calm breathing management, sy
 
 ### [[Frame and Shrimp to Guard]] (9% of attempts)
 
-### [[Triangle Clear to Side]] (51% of attempts)
+### [[Triangle Clear to Side]] (49% of attempts)
 
 ### [[Standing up in Base]] (5% of attempts)
 
@@ -223,6 +223,8 @@ Successful defense from body triangle top requires calm breathing management, sy
 ### [[Back Door Escape]] (9% of attempts)
 
 ### [[Body Triangle Squeeze]] (1% of attempts)
+
+### [[Body Triangle RNC]] (2% of attempts)
 
 
 

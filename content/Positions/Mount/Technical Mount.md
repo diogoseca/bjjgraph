@@ -164,9 +164,9 @@ Technical Mount is most commonly entered from regular mount during armbar attemp
 ### Available Transitions
 
 
-- **[[Mount to Armbar]]** (54% of attempts)
+- **[[Mount to Armbar]]** (50% of attempts)
 
-- **[[Back Take]]** (21% of attempts)
+- **[[Back Take]]** (20% of attempts)
 
 - **[[Consolidate Mount]]** (10% of attempts)
 
@@ -178,9 +178,13 @@ Technical Mount is most commonly entered from regular mount during armbar attemp
 
 - **[[Technical Mount to Back Control]]** (1% of attempts)
 
-- **[[Technical Mount to Mount]]** (0% of attempts)
+- **[[Technical Mount to Mount]]** (1% of attempts)
 
 - **[[Technical Mount to S Mount]]** (1% of attempts)
+
+- **[[Americana from Technical Mount]]** (2% of attempts)
+
+- **[[Armbar from Technical Mount]]** (2% of attempts)
 
 
 ### Common Mistakes

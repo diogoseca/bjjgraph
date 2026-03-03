@@ -89,15 +89,15 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 ### Available Transitions
 
 
-- **[[Hip Bump Sweep]]** (33% of attempts)
+- **[[Hip Bump Sweep]]** (25% of attempts)
 
-- **[[Armbar from Guard]]** (11% of attempts)
+- **[[Armbar from Guard]]** (10% of attempts)
 
-- **[[Scissor Sweep]]** (9% of attempts)
+- **[[Scissor Sweep]]** (8% of attempts)
 
-- **[[Triangle Setup]]** (9% of attempts)
+- **[[Triangle Setup]]** (8% of attempts)
 
-- **[[Cross Collar Choke]]** (7% of attempts)
+- **[[Cross Collar Choke]]** (6% of attempts)
 
 - **[[Pendulum Sweep]]** (6% of attempts)
 
@@ -121,15 +121,23 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 
 - **[[Closed Guard to Omoplata]]** (1% of attempts)
 
-- **[[Omoplata to Back]]** (0% of attempts)
+- **[[Omoplata to Back]]** (1% of attempts)
 
-- **[[Muscle Sweep]]** (0% of attempts)
+- **[[Muscle Sweep]]** (1% of attempts)
 
-- **[[Closed Guard to Overhook Guard]]** (0% of attempts)
+- **[[Closed Guard to Overhook Guard]]** (1% of attempts)
 
-- **[[High Guard to Rubber Guard]]** (0% of attempts)
+- **[[High Guard to Rubber Guard]]** (1% of attempts)
 
 - **[[Transition to Diamond Guard]]** (1% of attempts)
+
+- **[[Rolling Armbar]]** (2% of attempts)
+
+- **[[Spinning Armbar]]** (2% of attempts)
+
+- **[[Tarikoplata]]** (2% of attempts)
+
+- **[[Triangle from Closed Guard]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -188,9 +196,9 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 ### Available Transitions
 
 
-- **[[Posture Recovery]]** (33% of attempts)
+- **[[Posture Recovery]]** (32% of attempts)
 
-- **[[Guard Opening Sequence]]** (28% of attempts)
+- **[[Guard Opening Sequence]]** (27% of attempts)
 
 - **[[Standing up in Base]]** (22% of attempts)
 
@@ -201,6 +209,8 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 - **[[Ezekiel from Closed Guard]]** (2% of attempts)
 
 - **[[Knee Slice from Closed Guard]]** (2% of attempts)
+
+- **[[Can Opener]]** (2% of attempts)
 
 
 ### Common Mistakes

@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "cd source && npx quartz build --serve -d ../content",
     "validate:json": "python3 scripts/validate_json.py --all",
-    "validate:graph": "python3 scripts/validate_graph.py",
+    "validate:graph": "python3 scripts/validate_graph_integrity.py",
     "regenerate:issues": "./scripts/regenerate_list_of_content_files_to_fix.sh",
     "regenerate:json": "python3 scripts/regenerate_content_json.py --batch",
     "regenerate:explode": "python3 scripts/explode_graph_connections.py",

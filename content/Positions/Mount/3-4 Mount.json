@@ -326,7 +326,7 @@
     "transitions": [
       {
         "transition": "Mount to Armbar",
-        "attempt_probability": 39
+        "attempt_probability": 37
       },
       {
         "transition": "Mounted Triangle",
@@ -358,6 +358,10 @@
       },
       {
         "transition": "3-4 Mount to Technical Mount",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Americana from 3-4 Mount",
         "attempt_probability": 2
       }
     ]

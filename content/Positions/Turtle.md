@@ -162,7 +162,7 @@ Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where
 ### Available Transitions
 
 
-- **[[Turtle to Back Control]]** (65% of attempts)
+- **[[Turtle to Back Control]]** (61% of attempts)
 
 - **[[Front Headlock to Anaconda]]** (5% of attempts)
 
@@ -187,6 +187,10 @@ Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where
 - **[[Turtle to Matrix]]** (1% of attempts)
 
 - **[[Turtle to Rodeo Ride]]** (1% of attempts)
+
+- **[[Belly Down Armbar]]** (2% of attempts)
+
+- **[[Kimura from Turtle]]** (2% of attempts)
 
 
 ### Common Mistakes

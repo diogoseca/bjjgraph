@@ -27,7 +27,7 @@ description: "Foundational leg entanglement attacking position with heel control
     {
       "@type": "HowToStep",
       "name": "Execute Straight Ankle Lock Entry",
-      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 41% of exchanges from this position.",
+      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 38% of exchanges from this position.",
       "position": 2
     },
     {
@@ -213,7 +213,7 @@ This position has become increasingly prominent in modern no-gi competition, ser
 
 ### [[Heel Hook]] (5% of attempts)
 
-### [[Straight Ankle Lock Entry]] (41% of attempts)
+### [[Straight Ankle Lock Entry]] (38% of attempts)
 
 ### [[Saddle Entry from Top]] (12% of attempts)
 
@@ -233,9 +233,11 @@ This position has become increasingly prominent in modern no-gi competition, ser
 
 ### [[Counter Entangle to 50-50 from Ashi]] (1% of attempts)
 
-### [[Leg Extraction from Inside Ashi]] (0% of attempts)
+### [[Leg Extraction from Inside Ashi]] (1% of attempts)
 
 ### [[Standing Up from Inside Ashi]] (1% of attempts)
+
+### [[Achilles Lock]] (2% of attempts)
 
 
 

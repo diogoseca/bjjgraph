@@ -293,11 +293,11 @@
     "transitions": [
       {
         "transition": "Turtle to Back Take",
-        "attempt_probability": 31
+        "attempt_probability": 28
       },
       {
         "transition": "Crab Ride to Back",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "Turtle to Truck",
@@ -334,6 +334,14 @@
       {
         "transition": "Rodeo Ride to Turtle",
         "attempt_probability": 1
+      },
+      {
+        "transition": "Calf Slicer from Rodeo Ride",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Rear Naked Choke from Rodeo",
+        "attempt_probability": 2
       }
     ],
     "knowledge_assessment": [

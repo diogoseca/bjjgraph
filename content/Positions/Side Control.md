@@ -160,31 +160,49 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 ### Available Transitions
 
 
-- **[[Side Control to Mount]]** (25% of attempts)
+- **[[Side Control to Mount]]** (21% of attempts)
 
-- **[[Americana]]** (14% of attempts)
+- **[[Americana]]** (11% of attempts)
 
-- **[[Kimura]]** (12% of attempts)
+- **[[Kimura]]** (10% of attempts)
 
-- **[[Knee on Belly]]** (12% of attempts)
+- **[[Knee on Belly]]** (10% of attempts)
 
-- **[[Side Control to North-South]]** (8% of attempts)
+- **[[Side Control to North-South]]** (7% of attempts)
 
-- **[[Arm Triangle]]** (8% of attempts)
+- **[[Arm Triangle]]** (7% of attempts)
 
-- **[[Armbar Finish]]** (4% of attempts)
+- **[[Armbar Finish]]** (3% of attempts)
 
-- **[[Side Control to Kesa Gatame]]** (4% of attempts)
+- **[[Side Control to Kesa Gatame]]** (3% of attempts)
 
-- **[[Side Control to Side Control Consolidation]]** (3% of attempts)
+- **[[Side Control to Side Control Consolidation]]** (2% of attempts)
 
-- **[[Side Control to Shoulder of Justice]]** (3% of attempts)
+- **[[Side Control to Shoulder of Justice]]** (2% of attempts)
 
-- **[[North-South Choke]]** (3% of attempts)
+- **[[North-South Choke]]** (2% of attempts)
 
 - **[[Breadcutter Choke]]** (2% of attempts)
 
 - **[[Side Control to Scarf Hold Position]]** (2% of attempts)
+
+- **[[Americana from Side Control]]** (2% of attempts)
+
+- **[[Arm Crush]]** (2% of attempts)
+
+- **[[Armbar from Side Control]]** (2% of attempts)
+
+- **[[Far Side Armbar]]** (2% of attempts)
+
+- **[[Kimura from Side Control]]** (2% of attempts)
+
+- **[[Kneebar from Top]]** (2% of attempts)
+
+- **[[Marce Choke]]** (2% of attempts)
+
+- **[[Mir Lock]]** (2% of attempts)
+
+- **[[Triangle Choke Side]]** (2% of attempts)
 
 
 ### Common Mistakes

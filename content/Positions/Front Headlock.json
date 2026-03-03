@@ -291,19 +291,19 @@
     "transitions": [
       {
         "transition": "Guillotine Setup",
-        "attempt_probability": 14
+        "attempt_probability": 13
       },
       {
         "transition": "Anaconda Setup",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "Darce Setup",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "Front Headlock to Back",
-        "attempt_probability": 15
+        "attempt_probability": 12
       },
       {
         "transition": "Arm Triangle from Front Headlock",
@@ -336,6 +336,18 @@
       {
         "transition": "Kimura",
         "attempt_probability": 4
+      },
+      {
+        "transition": "Brabo Choke",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Chin Strap Guillotine",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Peruvian Necktie",
+        "attempt_probability": 2
       }
     ],
     "knowledge_assessment": [

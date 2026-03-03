@@ -178,11 +178,13 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 
 - **[[Bow and Arrow Choke]]** (10% of attempts)
 
-- **[[Turtle to Back Take]]** (18% of attempts)
+- **[[Turtle to Back Take]]** (16% of attempts)
 
 - **[[Armbar from Back Transition]]** (11% of attempts)
 
 - **[[Russian Cowboy to Back Control]]** (5% of attempts)
+
+- **[[Russian Cowboy RNC]]** (2% of attempts)
 
 
 ### Common Mistakes

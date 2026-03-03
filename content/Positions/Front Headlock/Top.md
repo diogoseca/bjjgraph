@@ -21,25 +21,25 @@ description: "Master front headlock control in BJJ. Complete offensive system fo
     {
       "@type": "HowToStep",
       "name": "Execute Guillotine Setup",
-      "text": "From this position, attempt Guillotine Setup. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Guillotine Setup. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Anaconda Setup",
-      "text": "From this position, attempt Anaconda Setup. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Anaconda Setup. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Darce Setup",
-      "text": "From this position, attempt Darce Setup. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Darce Setup. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Front Headlock to Back",
-      "text": "From this position, attempt Front Headlock to Back. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Front Headlock to Back. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
@@ -212,13 +212,13 @@ Mastering front headlock top requires understanding both the technical details o
 
 ## Available Attacks
 
-### [[Guillotine Setup]] (14% of attempts)
+### [[Guillotine Setup]] (13% of attempts)
 
-### [[Anaconda Setup]] (13% of attempts)
+### [[Anaconda Setup]] (12% of attempts)
 
-### [[Darce Setup]] (13% of attempts)
+### [[Darce Setup]] (12% of attempts)
 
-### [[Front Headlock to Back]] (15% of attempts)
+### [[Front Headlock to Back]] (12% of attempts)
 
 ### [[Arm Triangle from Front Headlock]] (6% of attempts)
 
@@ -235,6 +235,12 @@ Mastering front headlock top requires understanding both the technical details o
 ### [[Crucifix from Turtle]] (4% of attempts)
 
 ### [[Kimura]] (4% of attempts)
+
+### [[Brabo Choke]] (2% of attempts)
+
+### [[Chin Strap Guillotine]] (2% of attempts)
+
+### [[Peruvian Necktie]] (2% of attempts)
 
 
 

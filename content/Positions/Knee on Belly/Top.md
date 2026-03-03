@@ -21,7 +21,7 @@ description: "Master Knee on Belly Top control in BJJ. Dynamic offensive positio
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 37% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 33% of exchanges from this position.",
       "position": 1
     },
     {
@@ -206,7 +206,7 @@ Knee on Belly Top is a highly effective transitional control position where the 
 
 ## Available Attacks
 
-### [[Side Control to Mount]] (37% of attempts)
+### [[Side Control to Mount]] (33% of attempts)
 
 ### [[Armbar Finish]] (9% of attempts)
 
@@ -227,6 +227,10 @@ Knee on Belly Top is a highly effective transitional control position where the 
 ### [[KOB to Mount]] (1% of attempts)
 
 ### [[KOB to Side Control]] (1% of attempts)
+
+### [[Armbar from Knee on Belly]] (2% of attempts)
+
+### [[Cross Collar Choke from KOB]] (2% of attempts)
 
 
 

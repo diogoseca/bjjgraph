@@ -45,13 +45,13 @@ description: "Master Kesa Gatame Top position in BJJ. Dominant scarf hold with 7
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 35% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 32% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -220,15 +220,19 @@ From a competitive standpoint, Kesa Gatame scores as a guard pass (3 points in I
 
 ### [[North-South Choke]] (8% of attempts)
 
-### [[Side Control to Mount]] (15% of attempts)
+### [[Side Control to Mount]] (14% of attempts)
 
-### [[Side Control to North-South]] (35% of attempts)
+### [[Side Control to North-South]] (32% of attempts)
 
 ### [[Arm Triangle]] (7% of attempts)
 
 ### [[Kesa Gatame to Modified Scarf Hold]] (2% of attempts)
 
 ### [[Kesa Gatame to Reverse Kesa-Gatame]] (2% of attempts)
+
+### [[Americana from Kesa Gatame]] (2% of attempts)
+
+### [[Kesa Gatame Arm Crush]] (2% of attempts)
 
 
 

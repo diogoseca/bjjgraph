@@ -109,11 +109,11 @@
     "transitions": [
       {
         "transition": "Posture Recovery",
-        "attempt_probability": 33
+        "attempt_probability": 32
       },
       {
         "transition": "Guard Opening Sequence",
-        "attempt_probability": 28
+        "attempt_probability": 27
       },
       {
         "transition": "Standing up in Base",
@@ -133,6 +133,10 @@
       },
       {
         "transition": "Knee Slice from Closed Guard",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Can Opener",
         "attempt_probability": 2
       }
     ],
@@ -403,23 +407,23 @@
     "transitions": [
       {
         "transition": "Hip Bump Sweep",
-        "attempt_probability": 33
+        "attempt_probability": 25
       },
       {
         "transition": "Armbar from Guard",
-        "attempt_probability": 11
+        "attempt_probability": 10
       },
       {
         "transition": "Scissor Sweep",
-        "attempt_probability": 9
+        "attempt_probability": 8
       },
       {
         "transition": "Triangle Setup",
-        "attempt_probability": 9
+        "attempt_probability": 8
       },
       {
         "transition": "Cross Collar Choke",
-        "attempt_probability": 7
+        "attempt_probability": 6
       },
       {
         "transition": "Pendulum Sweep",
@@ -467,23 +471,39 @@
       },
       {
         "transition": "Omoplata to Back",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Muscle Sweep",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Closed Guard to Overhook Guard",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "High Guard to Rubber Guard",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Transition to Diamond Guard",
         "attempt_probability": 1
+      },
+      {
+        "transition": "Rolling Armbar",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Spinning Armbar",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Tarikoplata",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Triangle from Closed Guard",
+        "attempt_probability": 2
       }
     ],
     "decision_tree": [

@@ -21,7 +21,7 @@ description: "Dominate with S Mount attacks in BJJ. Master arm isolation, armbar
     {
       "@type": "HowToStep",
       "name": "Execute Mount to Armbar",
-      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 36% of exchanges from this position.",
+      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 34% of exchanges from this position.",
       "position": 1
     },
     {
@@ -212,7 +212,7 @@ S Mount appears throughout BJJ history as a signature position of submission spe
 
 ## Available Attacks
 
-### [[Mount to Armbar]] (36% of attempts)
+### [[Mount to Armbar]] (34% of attempts)
 
 ### [[Triangle from Mount]] (15% of attempts)
 
@@ -229,6 +229,8 @@ S Mount appears throughout BJJ history as a signature position of submission spe
 ### [[S Mount Armbar Setup]] (3% of attempts)
 
 ### [[S Mount to Mounted Triangle]] (2% of attempts)
+
+### [[Armbar from S Mount]] (2% of attempts)
 
 
 

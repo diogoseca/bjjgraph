@@ -21,7 +21,7 @@ description: "Master Cross Body Ride Top position in BJJ. Dominant turtle top co
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Back Control",
-      "text": "From this position, attempt Turtle to Back Control. This technique is attempted in 55% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Back Control. This technique is attempted in 51% of exchanges from this position.",
       "position": 1
     },
     {
@@ -210,7 +210,7 @@ Modern approaches to the Cross Body Ride emphasize dynamic control rather than s
 
 ## Available Attacks
 
-### [[Turtle to Back Control]] (55% of attempts)
+### [[Turtle to Back Control]] (51% of attempts)
 
 ### [[Crucifix from Turtle]] (17% of attempts)
 
@@ -224,11 +224,13 @@ Modern approaches to the Cross Body Ride emphasize dynamic control rather than s
 
 ### [[Darce from Turtle]] (1% of attempts)
 
-### [[Cross Body to Back Control]] (0% of attempts)
+### [[Cross Body to Back Control]] (1% of attempts)
 
-### [[Cross Body to Side Control]] (0% of attempts)
+### [[Cross Body to Side Control]] (1% of attempts)
 
 ### [[Twister Entry]] (1% of attempts)
+
+### [[Short Choke from Cross Body]] (2% of attempts)
 
 
 

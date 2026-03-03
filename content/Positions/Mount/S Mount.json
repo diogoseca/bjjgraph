@@ -293,7 +293,7 @@
     "transitions": [
       {
         "transition": "Mount to Armbar",
-        "attempt_probability": 36
+        "attempt_probability": 34
       },
       {
         "transition": "Triangle from Mount",
@@ -325,6 +325,10 @@
       },
       {
         "transition": "S Mount to Mounted Triangle",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Armbar from S Mount",
         "attempt_probability": 2
       }
     ],

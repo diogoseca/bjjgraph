@@ -178,9 +178,9 @@ Back control variations include the standard hooks configuration, body triangle 
 ### Available Transitions
 
 
-- **[[Rear Naked Choke]]** (64% of attempts)
+- **[[Rear Naked Choke]]** (49% of attempts)
 
-- **[[Back Control Maintenance]]** (16% of attempts)
+- **[[Back Control Maintenance]]** (15% of attempts)
 
 - **[[Bow and Arrow Choke]]** (6% of attempts)
 
@@ -196,27 +196,33 @@ Back control variations include the standard hooks configuration, body triangle 
 
 - **[[Armbar on Free Arm]]** (1% of attempts)
 
-- **[[Rear Naked Choke Setup]]** (0% of attempts)
+- **[[Rear Naked Choke Setup]]** (1% of attempts)
 
-- **[[Kimura from Back]]** (0% of attempts)
+- **[[Kimura from Back]]** (1% of attempts)
 
-- **[[Triangle from Back]]** (0% of attempts)
+- **[[Triangle from Back]]** (1% of attempts)
 
-- **[[Standing Back Control Entry]]** (0% of attempts)
+- **[[Standing Back Control Entry]]** (1% of attempts)
 
-- **[[Mat Return to Back Mount]]** (0% of attempts)
+- **[[Mat Return to Back Mount]]** (1% of attempts)
 
-- **[[Back Control to Seat Belt Control Back]]** (0% of attempts)
+- **[[Back Control to Seat Belt Control Back]]** (1% of attempts)
 
-- **[[Gift Wrap Control]]** (0% of attempts)
+- **[[Gift Wrap Control]]** (1% of attempts)
 
-- **[[Back Control to Cross Body Ride]]** (0% of attempts)
+- **[[Back Control to Cross Body Ride]]** (1% of attempts)
 
-- **[[Back Control to Reverse Half Guard]]** (0% of attempts)
+- **[[Back Control to Reverse Half Guard]]** (1% of attempts)
 
-- **[[Restore Back Control]]** (0% of attempts)
+- **[[Restore Back Control]]** (1% of attempts)
 
 - **[[Transition to Game Over]]** (1% of attempts)
+
+- **[[Armbar from Back]]** (2% of attempts)
+
+- **[[Armbar from Back with Legs]]** (2% of attempts)
+
+- **[[Triangle Choke Back]]** (2% of attempts)
 
 
 ### Common Mistakes

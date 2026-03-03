@@ -21,7 +21,7 @@ description: "Master Standing Rear Clinch in BJJ. Dominant back control from sta
     {
       "@type": "HowToStep",
       "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Back Take. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
@@ -208,7 +208,7 @@ The Standing Rear Clinch holds particular importance in no-gi grappling and MMA 
 
 ## Available Attacks
 
-### [[Back Take]] (18% of attempts)
+### [[Back Take]] (16% of attempts)
 
 ### [[Body Lock Pass]] (12% of attempts)
 
@@ -229,6 +229,8 @@ The Standing Rear Clinch holds particular importance in no-gi grappling and MMA 
 ### [[Standing Switch Defense]] (6% of attempts)
 
 ### [[Rear Naked Choke Setup]] (5% of attempts)
+
+### [[Standing RNC from Rear Clinch]] (2% of attempts)
 
 
 

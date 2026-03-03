@@ -21,7 +21,7 @@ description: "Master Lockdown Bottom in BJJ. 10th Planet's signature half guard 
     {
       "@type": "HowToStep",
       "name": "Execute Whip-up Sweep",
-      "text": "From this position, attempt Whip-up Sweep. This technique is attempted in 28% of exchanges from this position.",
+      "text": "From this position, attempt Whip-up Sweep. This technique is attempted in 26% of exchanges from this position.",
       "position": 1
     },
     {
@@ -206,7 +206,7 @@ Lockdown Bottom is 10th Planet's signature half guard variation where the bottom
 
 ## Available Escapes
 
-### [[Whip-up Sweep]] (28% of attempts)
+### [[Whip-up Sweep]] (26% of attempts)
 
 ### [[Old School Sweep]] (9% of attempts)
 
@@ -229,6 +229,8 @@ Lockdown Bottom is 10th Planet's signature half guard variation where the bottom
 ### [[Half Guard to Old School]] (6% of attempts)
 
 ### [[Back Take from Lockdown Defense]] (4% of attempts)
+
+### [[Crotch Ripper]] (2% of attempts)
 
 
 

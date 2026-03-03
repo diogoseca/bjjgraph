@@ -273,7 +273,7 @@
     "transitions": [
       {
         "transition": "Estima Lock",
-        "attempt_probability": 37
+        "attempt_probability": 35
       },
       {
         "transition": "Toe Hold",
@@ -297,6 +297,10 @@
       },
       {
         "transition": "Toe Hold from Estima Lock",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Estima Lock Finish",
         "attempt_probability": 2
       }
     ],

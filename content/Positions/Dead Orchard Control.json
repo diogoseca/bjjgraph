@@ -291,7 +291,7 @@
     "transitions": [
       {
         "transition": "Anaconda Choke",
-        "attempt_probability": 37
+        "attempt_probability": 35
       },
       {
         "transition": "Darce from Turtle",
@@ -315,6 +315,10 @@
       },
       {
         "transition": "Dead Orchard to Darce Switch",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Anaconda Finish from Dead Orchard",
         "attempt_probability": 2
       }
     ],

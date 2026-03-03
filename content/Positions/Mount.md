@@ -178,21 +178,21 @@ Understanding Mount from both perspectives is essential for complete grappling d
 ### Available Transitions
 
 
-- **[[Mount to Armbar]]** (8% of attempts)
+- **[[Mount to Armbar]]** (7% of attempts)
 
-- **[[Americana]]** (5% of attempts)
+- **[[Americana]]** (4% of attempts)
 
-- **[[Cross Collar Choke]]** (5% of attempts)
+- **[[Cross Collar Choke]]** (4% of attempts)
 
-- **[[Gift Wrap to Technical Mount]]** (5% of attempts)
+- **[[Gift Wrap to Technical Mount]]** (4% of attempts)
 
-- **[[S-Mount Transition]]** (4% of attempts)
+- **[[S-Mount Transition]]** (3% of attempts)
 
-- **[[High Mount Transition]]** (7% of attempts)
+- **[[High Mount Transition]]** (6% of attempts)
 
 - **[[Mounted Triangle]]** (3% of attempts)
 
-- **[[Consolidate Mount]]** (50% of attempts)
+- **[[Consolidate Mount]]** (41% of attempts)
 
 - **[[Mount Control]]** (3% of attempts)
 
@@ -200,7 +200,23 @@ Understanding Mount from both perspectives is essential for complete grappling d
 
 - **[[Mount to Knee on Belly]]** (3% of attempts)
 
-- **[[Mount to Technical Mount]]** (4% of attempts)
+- **[[Mount to Technical Mount]]** (3% of attempts)
+
+- **[[Americana from Mount]]** (2% of attempts)
+
+- **[[Armbar from Mount]]** (2% of attempts)
+
+- **[[Ezekiel Choke]]** (2% of attempts)
+
+- **[[Ezekiel from Mount]]** (2% of attempts)
+
+- **[[Kimura from Mount]]** (2% of attempts)
+
+- **[[Loop Choke]]** (2% of attempts)
+
+- **[[Loop Choke from Mount]]** (2% of attempts)
+
+- **[[Monoplata from Mount]]** (2% of attempts)
 
 
 ### Common Mistakes

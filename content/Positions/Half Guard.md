@@ -98,7 +98,7 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 ### Available Transitions
 
 
-- **[[Underhook Sweep from Half]]** (22% of attempts)
+- **[[Underhook Sweep from Half]]** (18% of attempts)
 
 - **[[Half Guard to Back Take]]** (12% of attempts)
 
@@ -129,6 +129,10 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 - **[[Back Door Escape from Half Guard]]** (2% of attempts)
 
 - **[[Half Guard to Old School]]** (2% of attempts)
+
+- **[[Buggy Choke]]** (2% of attempts)
+
+- **[[Kneebar from Half Guard]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -189,7 +193,7 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 ### Available Transitions
 
 
-- **[[Knee Slice Pass]]** (30% of attempts)
+- **[[Knee Slice Pass]]** (28% of attempts)
 
 - **[[Smash Pass]]** (15% of attempts)
 
@@ -220,6 +224,8 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 - **[[Half Guard to Quarter Guard]]** (2% of attempts)
 
 - **[[Half Guard to Triangle Escape Position]]** (2% of attempts)
+
+- **[[Suloev Stretch]]** (2% of attempts)
 
 
 ### Common Mistakes
